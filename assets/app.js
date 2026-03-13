@@ -1,7 +1,12 @@
 /*
-  WorldWar Dashboard — refactor starter
+  WorldWar Dashboard — Phase 3 (Defensibility)
 
-  Goals implemented:
+  Adds:
+  - Lens presets (Editorial / Armed Conflict / War-Connectedness / Coercion)
+  - Evidence block in info panel (last verified, confidence, sources) — collapsed by default
+  - About/Methodology modal — intentionally opened by the user (caveats hidden behind a disclosure)
+
+  Keeps:
   - Phase 1 hardening: no inline onclick, no unsafe innerHTML for user content, tooltip escaping
   - Phase 2 separation: data loaded from /data/*.json; engine isolated in /assets/app.js
   - Modeling fix: org nodes don't fill country polygons (prevents "EU colors Belgium")
@@ -20,6 +25,29 @@ const COLORS = {
 
 const DEFAULT_FILTERS = ['WAR', 'ALLY', 'POLICY', 'SPILLOVER', 'TENSION', 'INTERNAL'];
 
+const LENS_PRESETS = {
+  EDITORIAL: {
+    label: 'Editorial',
+    filters: [...DEFAULT_FILTERS],
+    hint: 'All interaction types'
+  },
+  IHL: {
+    label: 'Armed Conflict',
+    filters: ['WAR', 'INTERNAL'],
+    hint: 'Wars + civil conflicts'
+  },
+  CONNECTEDNESS: {
+    label: 'War-Connectedness',
+    filters: ['ALLY', 'SPILLOVER'],
+    hint: 'Support + spillover'
+  },
+  COERCION: {
+    label: 'Coercion',
+    filters: ['POLICY', 'TENSION'],
+    hint: 'Sanctions + escalation'
+  }
+};
+
 function escapeHTML(s) {
   return String(s ?? '').replace(/[&<>"']/g, (ch) => ({
     '&': '&amp;',
@@ -36,6 +64,18 @@ function slugId(name) {
     .replace(/[^A-Z0-9]+/g, '_')
     .replace(/^_+|_+$/g, '')
     .slice(0, 40);
+}
+
+function arrKey(arr) {
+  return [...(arr || [])].slice().sort().join(',');
+}
+
+function inferLensFromFilters(filters) {
+  const key = arrKey(filters);
+  for (const [k, v] of Object.entries(LENS_PRESETS)) {
+    if (arrKey(v.filters) === key) return k;
+  }
+  return 'CUSTOM';
 }
 
 async function loadJSON(url, { noStore = false } = {}) {
@@ -71,30 +111,82 @@ function setPanelOpen(isOpen) {
   }
 }
 
+function formatDate(iso, { includeTime = false } = {}) {
+  if (!iso) return '—';
+  try {
+    const d = new Date(iso);
+    if (Number.isNaN(d.getTime())) return String(iso);
+    return includeTime
+      ? d.toLocaleString(undefined, { year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })
+      : d.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
+  } catch {
+    return String(iso);
+  }
+}
+
 function parseHashState() {
-  const state = { theater: 'ALL', filters: [...DEFAULT_FILTERS], selected: null };
+  const state = { theater: 'ALL', lens: 'EDITORIAL', filters: [...DEFAULT_FILTERS], selected: null };
   if (!window.location.hash) return state;
+
   try {
     const params = new URLSearchParams(window.location.hash.slice(1));
+
     if (params.has('theater')) state.theater = params.get('theater') || 'ALL';
+
+    // Lens preset (if present) overrides filters
+    if (params.has('lens')) {
+      const lens = String(params.get('lens') || '').toUpperCase();
+      if (LENS_PRESETS[lens]) {
+        state.lens = lens;
+        state.filters = [...LENS_PRESETS[lens].filters];
+      }
+    }
+
+    // Filters (if present) override defaults; if lens was set, filters are optional
     if (params.has('filters')) {
       const f = params.get('filters');
-      if (f) state.filters = f.split(',').filter(Boolean);
+      state.filters = f ? f.split(',').filter(Boolean) : [];
+      state.lens = inferLensFromFilters(state.filters);
+      if (state.lens !== 'CUSTOM' && state.lens !== 'EDITORIAL') {
+        // If filters correspond to a preset, keep that preset name
+        // (unless a different lens was explicitly provided in the URL)
+      }
+    } else {
+      // No filters param; infer lens from filters
+      state.lens = inferLensFromFilters(state.filters);
     }
+
     if (params.has('selected')) state.selected = params.get('selected');
   } catch {
     // ignore
   }
+
+  // Normalize: if lens preset exists, make sure filters match
+  if (state.lens !== 'CUSTOM' && LENS_PRESETS[state.lens]) {
+    state.filters = [...LENS_PRESETS[state.lens].filters];
+  }
+
   return state;
 }
 
 function writeHashState(state) {
   try {
     const params = new URLSearchParams();
+
     if (state.theater !== 'ALL') params.set('theater', state.theater);
-    if (state.filters.length > 0 && state.filters.length < DEFAULT_FILTERS.length) {
-      params.set('filters', state.filters.join(','));
+
+    // If a non-default preset is selected, store lens.
+    // Otherwise store filters when custom (including empty).
+    if (state.lens && state.lens !== 'EDITORIAL' && state.lens !== 'CUSTOM' && LENS_PRESETS[state.lens]) {
+      params.set('lens', state.lens);
+    } else {
+      // Persist custom filters (including none selected)
+      const isDefault = arrKey(state.filters) === arrKey(DEFAULT_FILTERS);
+      if (!isDefault || state.lens === 'CUSTOM') {
+        params.set('filters', (state.filters || []).join(','));
+      }
     }
+
     if (state.selected) params.set('selected', state.selected);
 
     const hash = params.toString();
@@ -133,7 +225,9 @@ function normalizeData(raw) {
       summary: n.summary || n.details || '',
       updated_at: n.updated_at || null,
       confidence: n.confidence || null,
-      sources: n.sources || []
+      sources: n.sources || [],
+      aliases: n.aliases || [],
+      tags: n.tags || []
     };
   });
 
@@ -158,7 +252,8 @@ function normalizeData(raw) {
       summary: e.summary || e.details || '',
       updated_at: e.updated_at || null,
       confidence: e.confidence || null,
-      sources: e.sources || []
+      sources: e.sources || [],
+      layer: e.layer || null
     };
   });
 
@@ -170,7 +265,7 @@ function normalizeData(raw) {
     adj.get(e.to).push(e);
   }
 
-  return { nodes: normNodes, edges: normEdges, nodesById, nodesByName, adj };
+  return { nodes: normNodes, edges: normEdges, nodesById, nodesByName, adj, metadata: raw.metadata || {} };
 }
 
 function buildDot(color) {
@@ -213,8 +308,366 @@ function updateStatsBar(statsBarEl, visibleNodes) {
   }
 }
 
+function ensureEvidenceContainer() {
+  let c = document.getElementById('evidence-container');
+  if (c) return c;
+
+  c = document.createElement('div');
+  c.id = 'evidence-container';
+  c.className = 'mb-4';
+
+  // Insert right after badges
+  const badges = el('dual-classification-badges');
+  badges.insertAdjacentElement('afterend', c);
+  return c;
+}
+
+function normalizeSourceItem(src) {
+  if (!src) return null;
+
+  if (typeof src === 'string') {
+    const s = src.trim();
+    if (!s) return null;
+    const isUrl = /^https?:\/\//i.test(s);
+    return {
+      title: isUrl ? s.replace(/^https?:\/\//i, '') : s,
+      url: isUrl ? s : null,
+      publisher: null,
+      published_at: null,
+      accessed_at: null,
+      note: null,
+      citation: !isUrl ? s : null
+    };
+  }
+
+  if (typeof src === 'object') {
+    const url = typeof src.url === 'string' ? src.url : null;
+    const title = typeof src.title === 'string' ? src.title : (url ? url.replace(/^https?:\/\//i, '') : 'Source');
+    const citation = typeof src.citation === 'string' ? src.citation : null;
+    return {
+      title,
+      url,
+      publisher: typeof src.publisher === 'string' ? src.publisher : null,
+      published_at: typeof src.published_at === 'string' ? src.published_at : null,
+      accessed_at: typeof src.accessed_at === 'string' ? src.accessed_at : null,
+      note: typeof src.note === 'string' ? src.note : null,
+      citation
+    };
+  }
+
+  return null;
+}
+
+function renderEvidence(container, { updated_at, confidence, sources } = {}) {
+  container.replaceChildren();
+
+  const last = formatDate(updated_at);
+  const conf = confidence ?? '—';
+
+  const details = document.createElement('details');
+  details.className = 'bg-slate-800/30 p-3 rounded-lg border border-slate-700/50';
+
+  const summary = document.createElement('summary');
+  summary.className = 'cursor-pointer list-none select-none flex items-center justify-between text-xs font-semibold text-slate-200';
+
+  const left = document.createElement('span');
+  left.textContent = 'Evidence';
+
+  const right = document.createElement('span');
+  right.className = 'text-[10px] font-medium text-slate-400';
+  right.textContent = `Last verified: ${last} • Confidence: ${String(conf)}`;
+
+  summary.append(left, right);
+  details.append(summary);
+
+  const body = document.createElement('div');
+  body.className = 'mt-2 space-y-2 text-xs text-slate-200';
+
+  const metaRow = document.createElement('div');
+  metaRow.className = 'grid grid-cols-1 sm:grid-cols-2 gap-2';
+
+  const lastBox = document.createElement('div');
+  lastBox.className = 'bg-slate-900/40 p-2 rounded border border-slate-700/40';
+  const lastLabel = document.createElement('div');
+  lastLabel.className = 'text-[10px] uppercase tracking-wider text-slate-400 font-bold';
+  lastLabel.textContent = 'Last verified';
+  const lastVal = document.createElement('div');
+  lastVal.className = 'mt-0.5';
+  lastVal.textContent = last;
+  lastBox.append(lastLabel, lastVal);
+
+  const confBox = document.createElement('div');
+  confBox.className = 'bg-slate-900/40 p-2 rounded border border-slate-700/40';
+  const confLabel = document.createElement('div');
+  confLabel.className = 'text-[10px] uppercase tracking-wider text-slate-400 font-bold';
+  confLabel.textContent = 'Confidence';
+  const confVal = document.createElement('div');
+  confVal.className = 'mt-0.5';
+  confVal.textContent = String(conf);
+  confBox.append(confLabel, confVal);
+
+  metaRow.append(lastBox, confBox);
+  body.append(metaRow);
+
+  const srcHeader = document.createElement('div');
+  srcHeader.className = 'text-[10px] uppercase tracking-wider text-slate-400 font-bold';
+  srcHeader.textContent = 'Sources';
+  body.append(srcHeader);
+
+  const srcList = document.createElement('ul');
+  srcList.className = 'space-y-2';
+
+  const srcNorm = (sources || []).map(normalizeSourceItem).filter(Boolean);
+
+  if (!srcNorm.length) {
+    const li = document.createElement('li');
+    li.className = 'text-slate-400';
+    li.textContent = 'No sources attached yet.';
+    srcList.append(li);
+  } else {
+    for (const s of srcNorm.slice(0, 10)) {
+      const li = document.createElement('li');
+      li.className = 'bg-slate-900/30 p-2 rounded border border-slate-700/40';
+
+      const top = document.createElement('div');
+      top.className = 'flex items-start justify-between gap-2';
+
+      const title = document.createElement(s.url ? 'a' : 'div');
+      title.className = s.url
+        ? 'font-semibold text-slate-200 hover:underline break-words'
+        : 'font-semibold text-slate-200 break-words';
+      title.textContent = s.title || 'Source';
+      if (s.url) {
+        title.href = s.url;
+        title.target = '_blank';
+        title.rel = 'noreferrer';
+      }
+
+      const pub = document.createElement('div');
+      pub.className = 'text-[10px] text-slate-400 whitespace-nowrap';
+      const pubBits = [];
+      if (s.publisher) pubBits.push(s.publisher);
+      if (s.published_at) pubBits.push(formatDate(s.published_at));
+      pub.textContent = pubBits.join(' • ');
+
+      top.append(title, pub);
+
+      li.append(top);
+
+      if (s.note || s.citation) {
+        const note = document.createElement('div');
+        note.className = 'mt-1 text-[11px] text-slate-300';
+        note.textContent = s.note || s.citation;
+        li.append(note);
+      }
+
+      srcList.append(li);
+    }
+  }
+
+  body.append(srcList);
+  details.append(body);
+
+  container.append(details);
+}
+
+function defaultAbout(meta, datasetMeta) {
+  const title = (datasetMeta?.title || meta?.title || 'WorldWar Dashboard').trim();
+  const last = meta?.ui_date_label || meta?.last_updated || datasetMeta?.generated_at_utc || '—';
+  return {
+    title,
+    subtitle: 'An editorial map of active conflicts and conflict-connected power moves.',
+    last_reviewed_at: last,
+    sections: [
+      {
+        heading: 'How to read the map',
+        bullets: [
+          'Click a country/node to spotlight its network (connections brighten; others fade).',
+          'Use “Zoom To Theater” to focus on a region.',
+          'Use filters to hide interaction types when the map gets noisy.'
+        ]
+      },
+      {
+        heading: 'Lens presets',
+        bullets: [
+          'Editorial: all categories (default).',
+          'Armed Conflict: focuses on wars & civil conflicts.',
+          'War-Connectedness: focuses on support, basing, spillover.',
+          'Coercion: focuses on sanctions/policy + escalation risk.'
+        ]
+      }
+    ],
+    caveats: {
+      heading: 'Caveats & Definitions',
+      bullets: [
+        'This is an editorial project. Categories and summaries reflect the author’s assessment at the time of writing.',
+        'IHL labels are included as a reference framework, not as legal determinations or official rulings.',
+        'Terms like “war”, “self-defense”, or “genocide” can be contested and may change as evidence develops and formal processes conclude.',
+        'Use sources and timestamps: every node/edge can carry confidence + citations (expand “Evidence” in the panel).'
+      ]
+    }
+  };
+}
+
+function setupAboutModal({ meta, datasetMeta }) {
+  const about = (datasetMeta && datasetMeta.about) ? datasetMeta.about : defaultAbout(meta, datasetMeta);
+
+  // Create a button in the header (near the date).
+  const dateBadge = document.getElementById('ui-date');
+  if (dateBadge && !document.getElementById('about-btn')) {
+    const btn = document.createElement('button');
+    btn.id = 'about-btn';
+    btn.className = 'text-[10px] sm:text-xs font-semibold bg-slate-800 text-slate-300 hover:text-white px-2 py-1 rounded-md border border-slate-700 whitespace-nowrap';
+    btn.textContent = 'About';
+
+    // Insert right after the date badge
+    dateBadge.insertAdjacentElement('afterend', btn);
+  }
+
+  // Modal overlay
+  if (document.getElementById('about-modal')) {
+    // already exists
+    return;
+  }
+
+  const overlay = document.createElement('div');
+  overlay.id = 'about-modal';
+  overlay.className = 'fixed inset-0 z-50 hidden items-center justify-center p-4';
+  overlay.style.background = 'rgba(0,0,0,0.55)';
+
+  const card = document.createElement('div');
+  card.className = 'glass-panel w-full max-w-2xl rounded-xl p-5 md:p-6 text-slate-200 max-h-[85vh] overflow-y-auto';
+
+  const topRow = document.createElement('div');
+  topRow.className = 'flex items-start justify-between gap-3';
+
+  const titleWrap = document.createElement('div');
+
+  const h2 = document.createElement('h2');
+  h2.className = 'text-xl md:text-2xl font-bold text-white';
+  h2.textContent = about.title || 'About';
+
+  const sub = document.createElement('div');
+  sub.className = 'text-sm text-slate-300 mt-1';
+  sub.textContent = about.subtitle || '';
+
+  const last = document.createElement('div');
+  last.className = 'text-[11px] text-slate-400 mt-2';
+  const lastText = about.last_reviewed_at || meta?.ui_date_label || meta?.last_updated;
+  last.textContent = lastText ? `Last reviewed: ${String(lastText)}` : '';
+
+  titleWrap.append(h2, sub, last);
+
+  const closeBtn = document.createElement('button');
+  closeBtn.className = 'text-slate-300 hover:text-white bg-slate-800 rounded-full p-2 border border-slate-600 transition-colors shrink-0';
+  closeBtn.setAttribute('aria-label', 'Close');
+  closeBtn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
+
+  topRow.append(titleWrap, closeBtn);
+  card.append(topRow);
+
+  const body = document.createElement('div');
+  body.className = 'mt-5 space-y-5';
+
+  // Sections
+  const sections = Array.isArray(about.sections) ? about.sections : [];
+  for (const sec of sections) {
+    const block = document.createElement('div');
+
+    const h = document.createElement('h3');
+    h.className = 'text-[11px] uppercase tracking-wider text-slate-400 font-bold mb-2';
+    h.textContent = sec.heading || 'Section';
+
+    block.append(h);
+
+    const bullets = Array.isArray(sec.bullets) ? sec.bullets : [];
+    if (bullets.length) {
+      const ul = document.createElement('ul');
+      ul.className = 'list-disc pl-5 space-y-1 text-sm text-slate-200';
+      for (const b of bullets) {
+        const li = document.createElement('li');
+        li.textContent = String(b);
+        ul.append(li);
+      }
+      block.append(ul);
+    } else if (sec.body) {
+      const p = document.createElement('p');
+      p.className = 'text-sm text-slate-200';
+      p.textContent = String(sec.body);
+      block.append(p);
+    }
+
+    body.append(block);
+  }
+
+  // Caveats — intentionally hidden behind a disclosure
+  const caveats = about.caveats;
+  if (caveats) {
+    const det = document.createElement('details');
+    det.className = 'bg-slate-800/30 p-4 rounded-lg border border-slate-700/50';
+
+    const sum = document.createElement('summary');
+    sum.className = 'cursor-pointer list-none select-none text-sm font-semibold text-slate-200';
+    sum.textContent = caveats.heading || 'Caveats & Definitions (click to expand)';
+
+    det.append(sum);
+
+    const inner = document.createElement('div');
+    inner.className = 'mt-3';
+
+    const bullets = Array.isArray(caveats.bullets) ? caveats.bullets : [];
+    if (bullets.length) {
+      const ul = document.createElement('ul');
+      ul.className = 'list-disc pl-5 space-y-1 text-sm text-slate-200';
+      for (const b of bullets) {
+        const li = document.createElement('li');
+        li.textContent = String(b);
+        ul.append(li);
+      }
+      inner.append(ul);
+    } else if (caveats.body) {
+      const p = document.createElement('p');
+      p.className = 'text-sm text-slate-200';
+      p.textContent = String(caveats.body);
+      inner.append(p);
+    }
+
+    det.append(inner);
+    body.append(det);
+  }
+
+  card.append(body);
+  overlay.append(card);
+  document.body.append(overlay);
+
+  const open = () => {
+    overlay.classList.remove('hidden');
+    overlay.classList.add('flex');
+  };
+
+  const close = () => {
+    overlay.classList.add('hidden');
+    overlay.classList.remove('flex');
+  };
+
+  closeBtn.addEventListener('click', close);
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) close();
+  });
+
+  window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !overlay.classList.contains('hidden')) close();
+  });
+
+  const btn = document.getElementById('about-btn');
+  if (btn) btn.addEventListener('click', open);
+}
+
 function initUI({ meta, data, events }) {
   el('ui-date').textContent = meta.ui_date_label || meta.last_updated || '—';
+
+  // About modal (intentionally opened)
+  setupAboutModal({ meta, datasetMeta: data.metadata });
 
   // Collapsible filters
   const toggleBtn = el('toggle-filters-btn');
@@ -242,6 +695,57 @@ function initUI({ meta, data, events }) {
     }
   });
 
+  // Lens controls (preset groupings)
+  const lensWrap = document.createElement('div');
+  lensWrap.className = 'mb-4';
+  lensWrap.id = 'lens-controls';
+
+  const lensHeader = document.createElement('div');
+  lensHeader.className = 'flex justify-between items-center mb-2';
+  const lensTitle = document.createElement('h4');
+  lensTitle.className = 'text-[10px] uppercase tracking-wider text-slate-500 font-bold';
+  lensTitle.textContent = 'Lens';
+
+  const lensHint = document.createElement('div');
+  lensHint.id = 'lens-hint';
+  lensHint.className = 'text-[10px] text-slate-400';
+  lensHint.textContent = '';
+
+  lensHeader.append(lensTitle, lensHint);
+
+  const lensBtnsRow = document.createElement('div');
+  lensBtnsRow.className = 'flex flex-wrap gap-1.5';
+
+  const lensButtons = new Map();
+
+  for (const [lensKey, preset] of Object.entries(LENS_PRESETS)) {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.dataset.lens = lensKey;
+    b.className = 'px-2.5 py-1 bg-slate-800 text-slate-300 hover:bg-slate-700 text-xs rounded border border-slate-700 transition-colors';
+    b.textContent = preset.label;
+    lensButtons.set(lensKey, b);
+    lensBtnsRow.append(b);
+  }
+
+  const customBadge = document.createElement('span');
+  customBadge.id = 'lens-custom-badge';
+  customBadge.className = 'px-2 py-1 text-[10px] font-bold uppercase tracking-wide bg-slate-900/50 text-slate-300 rounded border border-slate-700/50 hidden';
+  customBadge.textContent = 'Custom';
+  lensBtnsRow.append(customBadge);
+
+  lensWrap.append(lensHeader, lensBtnsRow);
+
+  // Insert lens controls right above the interaction filters (preferred).
+  // If the expected DOM structure changes, fall back to prepending.
+  const toggleAll = document.getElementById('toggle-all-filters');
+  const filtersSection = toggleAll ? toggleAll.closest('div')?.parentElement : null;
+  if (filtersSection && filtersSection.parentElement === filterControls) {
+    filterControls.insertBefore(lensWrap, filtersSection);
+  } else {
+    filterControls.prepend(lensWrap);
+  }
+
   // Datalist
   const datalist = el('country-datalist');
   datalist.replaceChildren();
@@ -252,13 +756,44 @@ function initUI({ meta, data, events }) {
   }
 
   const state = parseHashState();
+  // If URL didn't explicitly include lens, infer from filters
+  state.lens = state.lens || inferLensFromFilters(state.filters);
+
   const chart = echarts.init(el('map-container'));
+
+  const evidenceContainer = ensureEvidenceContainer();
+
+  const syncLensUI = () => {
+    const lens = state.lens;
+
+    // Highlight preset buttons
+    for (const [k, btn] of lensButtons.entries()) {
+      const active = lens === k;
+      btn.classList.toggle('bg-blue-600', active);
+      btn.classList.toggle('text-white', active);
+      btn.classList.toggle('bg-slate-800', !active);
+      btn.classList.toggle('text-slate-300', !active);
+    }
+
+    const isCustom = lens === 'CUSTOM';
+    customBadge.classList.toggle('hidden', !isCustom);
+
+    // Hint text
+    const hintEl = document.getElementById('lens-hint');
+    if (hintEl) {
+      if (isCustom) {
+        hintEl.textContent = 'Custom filters';
+      } else {
+        hintEl.textContent = LENS_PRESETS[lens]?.hint || '';
+      }
+    }
+  };
 
   const syncFilterUI = () => {
     document.querySelectorAll('.filter-cb').forEach((cb) => {
       cb.checked = state.filters.includes(cb.value);
     });
-    el('toggle-all-filters').textContent = state.filters.length === 0 ? 'Select All' : 'Deselect All';
+    el('toggle-all-filters').textContent = state.filters.length === DEFAULT_FILTERS.length ? 'Deselect All' : 'Select All';
 
     document.querySelectorAll('.theater-btn').forEach((btn) => {
       const active = btn.dataset.theater === state.theater;
@@ -267,6 +802,8 @@ function initUI({ meta, data, events }) {
       btn.classList.toggle('bg-slate-800', !active);
       btn.classList.toggle('text-slate-300', !active);
     });
+
+    syncLensUI();
   };
 
   const renderLinePanel = (lineDatum) => {
@@ -283,6 +820,14 @@ function initUI({ meta, data, events }) {
     badges.append(badge);
 
     el('info-context').textContent = lineDatum.summary || '';
+
+    // Evidence (collapsed by default)
+    renderEvidence(evidenceContainer, {
+      updated_at: lineDatum.updated_at,
+      confidence: lineDatum.confidence,
+      sources: lineDatum.sources
+    });
+
     el('connections-container').classList.add('hidden');
     el('events-container').classList.add('hidden');
     setPanelOpen(true);
@@ -311,6 +856,13 @@ function initUI({ meta, data, events }) {
     policy.style.border = `1px solid ${node.color}`;
     policy.textContent = `Policy: ${node.exposure ?? '—'}`;
     badges.append(policy);
+
+    // Evidence (collapsed by default)
+    renderEvidence(evidenceContainer, {
+      updated_at: node.updated_at,
+      confidence: node.confidence,
+      sources: node.sources
+    });
 
     // Connections
     const edges = data.adj.get(nodeId) || [];
@@ -384,11 +936,11 @@ function initUI({ meta, data, events }) {
         a.className = 'font-semibold text-slate-200 hover:underline';
         a.textContent = evt.headline || 'Untitled event';
 
-        const meta = document.createElement('div');
-        meta.className = 'text-xs text-slate-400 mt-1';
-        meta.textContent = evt.published_at ? new Date(evt.published_at).toLocaleString() : '';
+        const metaRow = document.createElement('div');
+        metaRow.className = 'text-xs text-slate-400 mt-1';
+        metaRow.textContent = evt.published_at ? formatDate(evt.published_at, { includeTime: true }) : '';
 
-        li.append(a, meta);
+        li.append(a, metaRow);
         evList.append(li);
       }
     } else {
@@ -399,6 +951,23 @@ function initUI({ meta, data, events }) {
   };
 
   const updateMap = () => {
+    // First compute which nodes are visible under current filters
+    const visibleNodes = data.nodes.filter((n) => {
+      const matchesCat = state.filters.includes(n.category);
+      const matchesTheater = state.theater === 'ALL' || n.theaters.includes(state.theater);
+      return matchesCat && matchesTheater;
+    });
+
+    updateStatsBar(el('stats-bar'), visibleNodes);
+
+    const visibleIds = new Set(visibleNodes.map((n) => n.id));
+
+    // If selection is no longer visible (e.g., lens changed), drop selection
+    if (state.selected && !visibleIds.has(state.selected)) {
+      state.selected = null;
+      setPanelOpen(false);
+    }
+
     const connectedNodes = new Set();
     const connectedEdgeIds = new Set();
 
@@ -410,15 +979,6 @@ function initUI({ meta, data, events }) {
         connectedEdgeIds.add(e.id);
       }
     }
-
-    const visibleNodes = data.nodes.filter((n) => {
-      const matchesCat = state.filters.includes(n.category);
-      const matchesTheater = state.theater === 'ALL' || n.theaters.includes(state.theater);
-      return matchesCat && matchesTheater;
-    });
-
-    updateStatsBar(el('stats-bar'), visibleNodes);
-    const visibleIds = new Set(visibleNodes.map((n) => n.id));
 
     const mapNodes = visibleNodes.map((n) => {
       const isSelected = state.selected === n.id;
@@ -475,6 +1035,9 @@ function initUI({ meta, data, events }) {
         summary: e.summary,
         color: e.color,
         edgeId: e.id,
+        updated_at: e.updated_at,
+        confidence: e.confidence,
+        sources: e.sources,
         lineStyle: {
           color: e.color,
           width: lineWidth,
@@ -533,7 +1096,14 @@ function initUI({ meta, data, events }) {
           data: mapLines
         }
       ]
-    }, { notMerge: true });
+    });
+
+    // Keep lens in sync if user created a custom filter selection
+    const lensNow = inferLensFromFilters(state.filters);
+    if (lensNow !== state.lens) {
+      state.lens = lensNow;
+      syncLensUI();
+    }
   };
 
   const selectNode = (nodeId) => {
@@ -557,6 +1127,19 @@ function initUI({ meta, data, events }) {
     setPanelOpen(false);
     writeHashState(state);
   };
+
+  // Lens button actions
+  for (const [lensKey, btn] of lensButtons.entries()) {
+    btn.addEventListener('click', () => {
+      state.lens = lensKey;
+      state.filters = [...LENS_PRESETS[lensKey].filters];
+      state.selected = null;
+      setPanelOpen(false);
+      syncFilterUI();
+      updateMap();
+      writeHashState(state);
+    });
+  }
 
   // Initial map center/zoom
   let initialCenter = [10, 30];
@@ -660,6 +1243,9 @@ function initUI({ meta, data, events }) {
       } else {
         state.filters = state.filters.filter((x) => x !== v);
       }
+
+      state.lens = inferLensFromFilters(state.filters);
+
       updateMap();
       writeHashState(state);
       syncFilterUI();
@@ -667,7 +1253,8 @@ function initUI({ meta, data, events }) {
   });
 
   el('toggle-all-filters').addEventListener('click', () => {
-    state.filters = state.filters.length ? [] : [...DEFAULT_FILTERS];
+    state.filters = state.filters.length === DEFAULT_FILTERS.length ? [] : [...DEFAULT_FILTERS];
+    state.lens = inferLensFromFilters(state.filters);
     syncFilterUI();
     updateMap();
     writeHashState(state);
