@@ -1,0 +1,20 @@
+name: Validate map data
+on:
+  pull_request:
+  push:
+    paths:
+      - "data/map_data.json"
+      - "data/schema.json"
+      - "scripts/validate-data.mjs"
+      - "package.json"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm ci
+      - run: node scripts/validate-data.mjs
