@@ -58,6 +58,24 @@ function escapeHTML(s) {
   }[ch]));
 }
 
+function sanitizeHttpUrl(raw) {
+  if (!raw || typeof raw !== 'string') return null;
+  try {
+    const u = new URL(raw, window.location.origin);
+    if (u.protocol === 'http:' || u.protocol === 'https:') return u.href;
+  } catch {
+    // ignore
+  }
+  return null;
+}
+
+function sanitizeColor(raw, fallback = '#94a3b8') {
+  if (typeof raw !== 'string') return fallback;
+  const c = raw.trim();
+  if (/^#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{6})$/.test(c)) return c;
+  return fallback;
+}
+
 function slugId(name) {
   return String(name)
     .toUpperCase()
@@ -341,7 +359,7 @@ function normalizeSourceItem(src) {
   }
 
   if (typeof src === 'object') {
-    const url = typeof src.url === 'string' ? src.url : null;
+    const url = sanitizeHttpUrl(typeof src.url === 'string' ? src.url : null);
     const title = typeof src.title === 'string' ? src.title : (url ? url.replace(/^https?:\/\//i, '') : 'Source');
     const citation = typeof src.citation === 'string' ? src.citation : null;
     return {
@@ -437,8 +455,9 @@ function renderEvidence(container, { updated_at, confidence, sources } = {}) {
         ? 'font-semibold text-slate-200 hover:underline break-words'
         : 'font-semibold text-slate-200 break-words';
       title.textContent = s.title || 'Source';
-      if (s.url) {
-        title.href = s.url;
+      const safeSourceUrl = sanitizeHttpUrl(s.url);
+      if (safeSourceUrl) {
+        title.href = safeSourceUrl;
         title.target = '_blank';
         title.rel = 'noreferrer';
       }
@@ -665,6 +684,10 @@ function setupAboutModal({ meta, datasetMeta }) {
 
 function initUI({ meta, data, events }) {
   el('ui-date').textContent = meta.ui_date_label || meta.last_updated || '—';
+  const eventsFreshness = events?.metadata?.generated_at_utc || meta.events_last_updated || null;
+  el('ui-events-date').textContent = eventsFreshness
+    ? `Events: ${formatDate(eventsFreshness)}`
+    : 'Events: not refreshed yet';
 
   // About modal (intentionally opened)
   setupAboutModal({ meta, datasetMeta: data.metadata });
@@ -929,10 +952,13 @@ function initUI({ meta, data, events }) {
         const li = document.createElement('li');
         li.className = 'bg-slate-800/40 p-2.5 rounded border border-slate-700/50';
 
-        const a = document.createElement('a');
-        a.href = evt.url || '#';
-        a.target = '_blank';
-        a.rel = 'noreferrer';
+        const safeEventUrl = sanitizeHttpUrl(evt.url);
+        const a = document.createElement(safeEventUrl ? 'a' : 'span');
+        if (safeEventUrl) {
+          a.href = safeEventUrl;
+          a.target = '_blank';
+          a.rel = 'noreferrer';
+        }
         a.className = 'font-semibold text-slate-200 hover:underline';
         a.textContent = evt.headline || 'Untitled event';
 
@@ -951,12 +977,22 @@ function initUI({ meta, data, events }) {
   };
 
   const updateMap = () => {
-    // First compute which nodes are visible under current filters
-    const visibleNodes = data.nodes.filter((n) => {
-      const matchesCat = state.filters.includes(n.category);
-      const matchesTheater = state.theater === 'ALL' || n.theaters.includes(state.theater);
-      return matchesCat && matchesTheater;
+    const theaterNodes = data.nodes.filter((n) => state.theater === 'ALL' || n.theaters.includes(state.theater));
+    const theaterIds = new Set(theaterNodes.map((n) => n.id));
+
+    const candidateEdges = data.edges.filter((e) => {
+      const matchesCat = state.filters.includes(e.category);
+      const matchesTheater = state.theater === 'ALL' || e.theater === state.theater;
+      return matchesCat && matchesTheater && theaterIds.has(e.from) && theaterIds.has(e.to);
     });
+
+    const connectedByFilteredEdge = new Set();
+    for (const e of candidateEdges) {
+      connectedByFilteredEdge.add(e.from);
+      connectedByFilteredEdge.add(e.to);
+    }
+
+    const visibleNodes = theaterNodes.filter((n) => state.filters.includes(n.category) || connectedByFilteredEdge.has(n.id));
 
     updateStatsBar(el('stats-bar'), visibleNodes);
 
@@ -1007,13 +1043,7 @@ function initUI({ meta, data, events }) {
     const focusNodes = mapNodes.filter((n) => n.nodeId === state.selected);
     const ambientNodes = mapNodes.filter((n) => n.nodeId !== state.selected);
 
-    const filteredEdges = data.edges.filter((e) => {
-      const matchesCat = state.filters.includes(e.category);
-      const matchesTheater = state.theater === 'ALL' || e.theater === state.theater;
-      const fromValid = visibleIds.has(e.from);
-      const toValid = visibleIds.has(e.to);
-      return matchesCat && matchesTheater && fromValid && toValid;
-    });
+    const filteredEdges = candidateEdges.filter((e) => visibleIds.has(e.from) && visibleIds.has(e.to));
 
     const mapLines = filteredEdges.map((e, idx) => {
       const fromNode = data.nodesById.get(e.from);
@@ -1181,7 +1211,7 @@ function initUI({ meta, data, events }) {
           const ihl = escapeHTML(d.ihl);
           const status = escapeHTML(d.status);
           const details = escapeHTML(d.details);
-          const color = d?.itemStyle?.color || '#94a3b8';
+          const color = sanitizeColor(d?.itemStyle?.color);
           return `
             <div class="font-bold text-base mb-1">${name}</div>
             <div class="text-xs mb-1 text-slate-300"><span class="font-bold text-slate-400">IHL:</span> ${ihl}</div>
@@ -1195,7 +1225,7 @@ function initUI({ meta, data, events }) {
           const toName = escapeHTML(d.toName);
           const type = escapeHTML(d.type);
           const details = escapeHTML(d.summary);
-          const color = d.color || '#94a3b8';
+          const color = sanitizeColor(d.color);
           return `
             <div class="font-bold mb-1">${fromName} &rarr; ${toName}</div>
             <div class="text-xs mb-1 font-semibold" style="color:${color}">${type}</div>

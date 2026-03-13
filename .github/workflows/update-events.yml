@@ -1,28 +1,39 @@
 name: Update events feed
 on:
   schedule:
-    - cron: "0 * * * *" # hourly; adjust later
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: update-events-feed
+  cancel-in-progress: true
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install requests
       - run: python scripts/update_events.py
         env:
           GDELT_QUERY: ${{ secrets.GDELT_QUERY }}
+          GDELT_TRIPWIRE_QUERY: ${{ secrets.GDELT_TRIPWIRE_QUERY }}
           GDELT_TIMESPAN: ${{ secrets.GDELT_TIMESPAN }}
+          MAX_EVENTS: "120"
+          PER_TAG_PER_DAY_LIMIT: "3"
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/events.json
-          git commit -m "Update events" || exit 0
+          git add data/events.json data/meta.json
+          if git diff --cached --quiet; then
+            echo "No data changes detected"
+            exit 0
+          fi
+          git commit -m "Update events feed"
           git push

@@ -2,7 +2,10 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "WorldWar Map Data",
   "type": "object",
-  "required": ["nodes", "edges"],
+  "required": [
+    "nodes",
+    "edges"
+  ],
   "properties": {
     "metadata": {
       "type": "object",
@@ -11,44 +14,84 @@
     },
     "nodes": {
       "type": "array",
-      "items": { "$ref": "#/$defs/node" }
+      "items": {
+        "$ref": "#/$defs/node"
+      }
     },
     "edges": {
       "type": "array",
-      "items": { "$ref": "#/$defs/edge" }
+      "items": {
+        "$ref": "#/$defs/edge"
+      }
     }
   },
   "$defs": {
     "dateOrDateTime": {
       "anyOf": [
-        { "type": "string", "format": "date-time" },
-        { "type": "string", "format": "date" }
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "string",
+          "format": "date"
+        }
       ]
     },
     "nullableDateTime": {
       "anyOf": [
-        { "$ref": "#/$defs/dateOrDateTime" },
-        { "type": "null" }
+        {
+          "$ref": "#/$defs/dateOrDateTime"
+        },
+        {
+          "type": "null"
+        }
       ]
     },
     "sourceItem": {
       "description": "A single citation/source. Either a string or a structured object.",
       "anyOf": [
-        { "type": "string", "minLength": 1 },
+        {
+          "type": "string",
+          "minLength": 1
+        },
         {
           "type": "object",
           "properties": {
-            "title": { "type": "string" },
-            "url": { "type": "string", "format": "uri" },
-            "publisher": { "type": "string" },
-            "published_at": { "$ref": "#/$defs/dateOrDateTime" },
-            "accessed_at": { "$ref": "#/$defs/dateOrDateTime" },
-            "citation": { "type": "string" },
-            "note": { "type": "string" }
+            "title": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "publisher": {
+              "type": "string"
+            },
+            "published_at": {
+              "$ref": "#/$defs/dateOrDateTime"
+            },
+            "accessed_at": {
+              "$ref": "#/$defs/dateOrDateTime"
+            },
+            "citation": {
+              "type": "string"
+            },
+            "note": {
+              "type": "string"
+            }
           },
           "anyOf": [
-            { "required": ["url"] },
-            { "required": ["citation"] }
+            {
+              "required": [
+                "url"
+              ]
+            },
+            {
+              "required": [
+                "citation"
+              ]
+            }
           ],
           "additionalProperties": true
         }
@@ -56,64 +99,224 @@
     },
     "node": {
       "type": "object",
-      "required": ["id", "name", "type", "theaters", "coords", "category"],
+      "required": [
+        "id",
+        "name",
+        "type",
+        "theaters",
+        "coords",
+        "category"
+      ],
       "properties": {
-        "id": { "type": "string", "minLength": 1 },
-        "name": { "type": "string", "minLength": 1 },
-        "type": { "type": "string", "enum": ["state", "territory", "org", "nonstate"] },
-        "geoName": { "type": ["string", "null"] },
-        "theaters": { "type": "array", "items": { "type": "string" } },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "state",
+            "territory",
+            "org",
+            "nonstate"
+          ]
+        },
+        "geoName": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "theaters": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "ME",
+              "UKR",
+              "ASIA",
+              "AFR",
+              "AMER"
+            ]
+          }
+        },
         "coords": {
           "type": "array",
           "minItems": 2,
           "maxItems": 2,
           "prefixItems": [
-            { "type": "number", "minimum": -180, "maximum": 180 },
-            { "type": "number", "minimum": -90,  "maximum": 90  }
+            {
+              "type": "number",
+              "minimum": -180,
+              "maximum": 180
+            },
+            {
+              "type": "number",
+              "minimum": -90,
+              "maximum": 90
+            }
           ]
         },
         "category": {
           "type": "string",
-          "enum": ["WAR", "ALLY", "POLICY", "SPILLOVER", "TENSION", "INTERNAL"]
+          "enum": [
+            "WAR",
+            "ALLY",
+            "POLICY",
+            "SPILLOVER",
+            "TENSION",
+            "INTERNAL"
+          ]
         },
-        "ihl": { "type": ["string", "null"], "description": "Optional IHL framing (editorial / non-binding)." },
-        "exposure": { "type": ["string", "null"], "description": "Optional war-connectedness / exposure framing." },
-        "intensity": { "type": "number", "minimum": 0, "maximum": 10 },
-        "color": { "type": "string" },
-        "summary": { "type": "string" },
-        "updated_at": { "$ref": "#/$defs/nullableDateTime" },
-        "confidence": { "type": ["string", "number", "null"] },
-        "sources": { "type": "array", "items": { "$ref": "#/$defs/sourceItem" } },
-        "aliases": { "type": "array", "items": { "type": "string" } },
-        "tags": { "type": "array", "items": { "type": "string" } }
+        "ihl": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional IHL framing (editorial / non-binding)."
+        },
+        "exposure": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional war-connectedness / exposure framing."
+        },
+        "intensity": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "color": {
+          "type": "string",
+          "pattern": "^#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{6})$"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "updated_at": {
+          "$ref": "#/$defs/nullableDateTime"
+        },
+        "confidence": {
+          "type": [
+            "string",
+            "number",
+            "null"
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sourceItem"
+          }
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
       },
       "additionalProperties": true
     },
     "edge": {
       "type": "object",
-      "required": ["id", "from", "to", "theater", "category", "type"],
+      "required": [
+        "id",
+        "from",
+        "to",
+        "theater",
+        "category",
+        "type"
+      ],
       "properties": {
-        "id": { "type": "string" },
-        "from": { "type": "string" },
-        "to": { "type": "string" },
-        "theater": { "type": "string" },
+        "id": {
+          "type": "string"
+        },
+        "from": {
+          "type": "string"
+        },
+        "to": {
+          "type": "string"
+        },
+        "theater": {
+          "type": "string",
+          "enum": [
+            "ME",
+            "UKR",
+            "ASIA",
+            "AFR",
+            "AMER"
+          ]
+        },
         "category": {
           "type": "string",
-          "enum": ["WAR", "ALLY", "POLICY", "SPILLOVER", "TENSION", "INTERNAL"]
+          "enum": [
+            "WAR",
+            "ALLY",
+            "POLICY",
+            "SPILLOVER",
+            "TENSION",
+            "INTERNAL"
+          ]
         },
-        "type": { "type": "string" },
+        "type": {
+          "type": "string"
+        },
         "layer": {
           "type": "string",
-          "enum": ["EDITORIAL", "IHL", "CONNECTEDNESS", "COERCION"],
+          "enum": [
+            "EDITORIAL",
+            "IHL",
+            "CONNECTEDNESS",
+            "COERCION"
+          ],
           "description": "Optional conceptual layer override (if you want it)."
         },
-        "effect": { "type": "string", "enum": ["solid", "dashed", "dotted"] },
-        "color": { "type": "string" },
-        "summary": { "type": "string" },
-        "event_date": { "$ref": "#/$defs/nullableDateTime" },
-        "updated_at": { "$ref": "#/$defs/nullableDateTime" },
-        "confidence": { "type": ["string", "number", "null"] },
-        "sources": { "type": "array", "items": { "$ref": "#/$defs/sourceItem" } }
+        "effect": {
+          "type": "string",
+          "enum": [
+            "solid",
+            "dashed",
+            "dotted"
+          ]
+        },
+        "color": {
+          "type": "string",
+          "pattern": "^#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{6})$"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "event_date": {
+          "$ref": "#/$defs/nullableDateTime"
+        },
+        "updated_at": {
+          "$ref": "#/$defs/nullableDateTime"
+        },
+        "confidence": {
+          "type": [
+            "string",
+            "number",
+            "null"
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sourceItem"
+          }
+        }
       },
       "additionalProperties": true
     }
