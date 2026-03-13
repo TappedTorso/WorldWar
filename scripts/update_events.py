@@ -1,98 +1,98 @@
 #!/usr/bin/env python3
 """update_events.py
 
-Fetches a rolling events/news feed from GDELT and writes it to data/events.json.
+Fetch conflict-related events from GDELT and write data/events.json (+ meta freshness).
 
-Phase 4 (automation) improvement:
-- Auto-tags events to your map nodes so the UI can show "Related events" per node.
-
-Required env var:
-- GDELT_QUERY: a GDELT Document API query string
-
-Optional env var:
-- GDELT_TIMESPAN: e.g. 6h, 1d, 3d, 14d (default: 14d)
-- MAX_EVENTS: max events to write (default: 120)
-
-Notes:
-- Tagging is heuristic (string match on node name / aliases). Keep it conservative by curating node.aliases.
+Design goals:
+- Runs reliably on schedule with minimal external dependencies (stdlib HTTP client).
+- Supports two query streams (core + tripwire) with sensible defaults.
+- Handles partial failures without leaking raw query strings.
+- Produces explicit metadata so freshness/health are auditable.
 """
 
 from __future__ import annotations
 
 import datetime as _dt
+import hashlib
 import json
 import os
 import re
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
-
-import requests
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 MAP_DATA_PATH = DATA_DIR / "map_data.json"
+META_PATH = DATA_DIR / "meta.json"
 OUT_PATH = DATA_DIR / "events.json"
 
 GDELT_DOC_API = "https://api.gdeltproject.org/api/v2/doc/doc"
 
-QUERY = os.getenv("GDELT_QUERY", "").strip()
-TIMESPAN = os.getenv("GDELT_TIMESPAN", "14d").strip() or "14d"
+# Environment overrides. If secrets are absent, defaults keep the pipeline alive.
+DEFAULT_CORE_QUERY = '("war" OR "armed conflict" OR "ceasefire" OR "airstrike" OR "missile")'
+DEFAULT_TRIPWIRE_QUERY = '("sanctions" OR "military aid" OR "troop deployment" OR "cross-border" OR "escalation")'
+
+CORE_QUERY = os.getenv("GDELT_QUERY", "").strip() or DEFAULT_CORE_QUERY
+TRIPWIRE_QUERY = os.getenv("GDELT_TRIPWIRE_QUERY", "").strip() or DEFAULT_TRIPWIRE_QUERY
+TIMESPAN = os.getenv("GDELT_TIMESPAN", "6h").strip() or "6h"
 MAX_EVENTS = int(os.getenv("MAX_EVENTS", "120"))
+MAX_TAGS_PER_EVENT = int(os.getenv("MAX_TAGS_PER_EVENT", "12"))
+PER_TAG_PER_DAY_LIMIT = int(os.getenv("PER_TAG_PER_DAY_LIMIT", "3"))
+DRY_RUN = os.getenv("DRY_RUN", "0").strip().lower() in {"1", "true", "yes"}
 
 
 def _utc_now_iso() -> str:
     return _dt.datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
 
 
-def _gdelt_seendate_to_iso(seendate: Optional[str]) -> Optional[str]:
-    """Convert GDELT seendate formats into ISO 8601.
+def _day_bucket(iso: Optional[str]) -> str:
+    if not iso:
+        return "unknown"
+    return str(iso).split("T", 1)[0]
 
-    GDELT commonly returns seendate as YYYYMMDDHHMMSS.
-    """
+
+def _gdelt_seendate_to_iso(seendate: Optional[str]) -> Optional[str]:
     if not seendate:
         return None
     s = str(seendate).strip()
     if re.fullmatch(r"\d{14}", s):
         return f"{s[0:4]}-{s[4:6]}-{s[6:8]}T{s[8:10]}:{s[10:12]}:{s[12:14]}Z"
-    # If it's already ISO-ish, keep it.
     return s
 
 
-def _load_node_patterns() -> List[Tuple[str, re.Pattern]]:
-    """Build regex patterns for tagging articles to nodes.
-
-    Uses node.name + node.aliases + node.geoName (if provided).
-
-    Tip: For ambiguous names, add more specific aliases.
-    """
+def _load_json(path: Path, fallback: Dict[str, Any]) -> Dict[str, Any]:
     try:
-        data = json.loads(MAP_DATA_PATH.read_text(encoding="utf-8"))
+        return json.loads(path.read_text(encoding="utf-8"))
     except Exception:
-        return []
+        return fallback
+
+
+def _load_node_patterns() -> List[Tuple[str, re.Pattern]]:
+    data = _load_json(MAP_DATA_PATH, {"nodes": []})
 
     patterns: List[Tuple[str, re.Pattern]] = []
-
     for n in data.get("nodes", []):
         node_id = n.get("id")
         name = (n.get("name") or "").strip()
         if not node_id or not name:
             continue
 
-        # Collect terms
         terms: List[str] = [name]
         for a in (n.get("aliases") or []):
             if isinstance(a, str) and a.strip():
                 terms.append(a.strip())
+
         geo = n.get("geoName")
-        if isinstance(geo, str) and geo.strip() and geo.strip() not in terms:
+        if isinstance(geo, str) and geo.strip():
             terms.append(geo.strip())
 
-        # Filter & de-dupe
-        # - allow 2-char org acronyms (EU, UN)
-        # - otherwise require >= 3 chars to reduce noise
         min_len = 2 if (n.get("type") == "org") else 3
+        dedup = []
         seen = set()
-        cleaned: List[str] = []
         for t in terms:
             t = t.strip()
             if len(t) < min_len:
@@ -101,10 +101,9 @@ def _load_node_patterns() -> List[Tuple[str, re.Pattern]]:
             if key in seen:
                 continue
             seen.add(key)
-            cleaned.append(t)
+            dedup.append(t)
 
-        for t in cleaned:
-            # Use "not a word char" boundaries so terms like "U.S." can still match.
+        for t in dedup:
             pat = re.compile(r"(?i)(?<![\w])" + re.escape(t) + r"(?![\w])")
             patterns.append((node_id, pat))
 
@@ -119,74 +118,131 @@ def _tags_for_text(text: str) -> List[str]:
         return []
     out: List[str] = []
     seen = set()
+
     for node_id, pat in NODE_PATTERNS:
         if node_id in seen:
             continue
         if pat.search(text):
             seen.add(node_id)
             out.append(node_id)
-        if len(out) >= 12:
+        if len(out) >= MAX_TAGS_PER_EVENT:
             break
+
     return out
 
 
-def fetch_gdelt(query: str, timespan: str) -> Dict[str, Any]:
+def _query_gdelt(params: Dict[str, str], retries: int = 4) -> Dict[str, Any]:
+    backoffs = [1, 2, 4, 8]
+    last_error: Optional[str] = None
+
+    for attempt in range(retries):
+        url = GDELT_DOC_API + "?" + urllib.parse.urlencode(params)
+        req = urllib.request.Request(url, headers={"User-Agent": "WorldWarEventsBot/1.0"})
+
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:  # nosec B310
+                status = getattr(resp, "status", 200)
+                body = resp.read().decode("utf-8", errors="replace")
+                ctype = str(resp.headers.get("Content-Type", "")).lower()
+
+                if status == 429 or 500 <= status < 600:
+                    last_error = f"transient status={status} content_type={ctype}"
+                    if attempt < retries - 1:
+                        time.sleep(backoffs[min(attempt, len(backoffs) - 1)])
+                        continue
+                    raise RuntimeError(last_error)
+
+                try:
+                    return json.loads(body)
+                except json.JSONDecodeError:
+                    snippet = body[:240].replace("\n", " ")
+                    raise RuntimeError(f"non-json response status={status} content_type={ctype} body={snippet}")
+
+        except urllib.error.HTTPError as exc:
+            transient = (exc.code == 429) or (500 <= exc.code < 600)
+            last_error = f"http_error status={exc.code}"
+            if transient and attempt < retries - 1:
+                time.sleep(backoffs[min(attempt, len(backoffs) - 1)])
+                continue
+            raise RuntimeError(last_error) from exc
+        except urllib.error.URLError as exc:
+            last_error = f"url_error reason={exc.reason}"
+            if attempt < retries - 1:
+                time.sleep(backoffs[min(attempt, len(backoffs) - 1)])
+                continue
+            raise RuntimeError(last_error) from exc
+
+    raise RuntimeError(last_error or "unknown query failure")
+
+
+def fetch_stream(stream_name: str, query: str) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
     params = {
         "query": query,
         "mode": "ArtList",
         "format": "json",
-        "timespan": timespan,
+        "timespan": TIMESPAN,
         "sort": "HybridRel",
         "maxrecords": str(MAX_EVENTS),
     }
 
-    r = requests.get(GDELT_DOC_API, params=params, timeout=30)
-
-    # If HTTP error (403/500/etc), print body for debugging
-    if not r.ok:
-        print("GDELT request failed:", r.status_code)
-        print("URL:", r.url)
-        print("Body (first 500 chars):")
-        print(r.text[:500])
-        raise SystemExit(1)
-
-    # Sometimes GDELT returns HTML/empty even with 200
     try:
-        return r.json()
-    except Exception:
-        print("GDELT returned non-JSON response.")
-        print("Status:", r.status_code)
-        print("URL:", r.url)
-        print("Content-Type:", r.headers.get("content-type"))
-        print("Body (first 500 chars):")
-        print(r.text[:500])
-        raise SystemExit(1)
+        payload = _query_gdelt(params)
+        articles = payload.get("articles") or []
+        return articles, {"name": stream_name, "status": "ok", "fetched": len(articles)}
+    except Exception as exc:
+        return [], {"name": stream_name, "status": "error", "error": str(exc), "fetched": 0}
 
 
-def main() -> int:
-    if not QUERY:
-        print("GDELT_QUERY not set; skipping events update.")
-        return 0
+def _event_key(title: str, url: str) -> str:
+    norm = f"{title.strip().lower()}|{url.strip().lower()}"
+    return hashlib.sha1(norm.encode("utf-8")).hexdigest()[:16]
 
-    payload = fetch_gdelt(QUERY, TIMESPAN)
-    articles = payload.get("articles") or []
 
+def _write_meta_events_timestamp(ts: str) -> None:
+    meta = _load_json(META_PATH, {})
+    meta["events_last_updated"] = ts
+    if not DRY_RUN:
+        META_PATH.write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def _load_previous_events() -> Dict[str, Any]:
+    return _load_json(OUT_PATH, {"metadata": {}, "events": []})
+
+
+def _build_events(articles: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    seen = set()
+    per_tag_day: Dict[str, int] = {}
     events: List[Dict[str, Any]] = []
 
-    for i, a in enumerate(articles[:MAX_EVENTS]):
+    for a in articles:
         title = (a.get("title") or "").strip()
         url = (a.get("url") or "").strip()
         if not title or not url:
             continue
 
-        published_at = _gdelt_seendate_to_iso(a.get("seendate"))
+        key = _event_key(title, url)
+        if key in seen:
+            continue
+        seen.add(key)
 
-        # Tag using title + url (you can expand to description if you add it)
+        published_at = _gdelt_seendate_to_iso(a.get("seendate"))
+        day = _day_bucket(published_at)
         tags = _tags_for_text(f"{title} {url}")
+
+        if tags:
+            filtered_tags: List[str] = []
+            for tag in tags:
+                k = f"{tag}|{day}"
+                c = per_tag_day.get(k, 0)
+                if c >= PER_TAG_PER_DAY_LIMIT:
+                    continue
+                per_tag_day[k] = c + 1
+                filtered_tags.append(tag)
+            tags = filtered_tags
 
         events.append(
             {
-                "id": f"gdelt_{i}",
+                "id": f"gdelt_{key}",
                 "headline": title,
                 "url": url,
                 "published_at": published_at,
@@ -195,24 +251,72 @@ def main() -> int:
             }
         )
 
+        if len(events) >= MAX_EVENTS:
+            break
+
+    return events
+
+
+def main() -> int:
+    now = _utc_now_iso()
+    previous = _load_previous_events()
+
+    streams = [("core", CORE_QUERY), ("tripwire", TRIPWIRE_QUERY)]
+    all_articles: List[Dict[str, Any]] = []
+    stream_results: List[Dict[str, Any]] = []
+
+    for stream_name, query in streams:
+        if not query:
+            stream_results.append({"name": stream_name, "status": "skipped", "fetched": 0})
+            continue
+        articles, result = fetch_stream(stream_name, query)
+        stream_results.append(result)
+        all_articles.extend(articles)
+
+    successful_streams = [r for r in stream_results if r.get("status") == "ok"]
+    failed_streams = [r for r in stream_results if r.get("status") == "error"]
+
+    if not successful_streams:
+        print("All streams failed; keeping previous events file unchanged.")
+        for r in failed_streams:
+            print(f"- {r.get('name')}: {r.get('error')}")
+        return 1
+
+    events = _build_events(all_articles)
+    status = "ok"
+    if failed_streams:
+        status = "partial"
+    if not events:
+        status = "ok-empty" if not failed_streams else "partial-empty"
+
     out = {
         "metadata": {
-            "generated_at_utc": _utc_now_iso(),
+            "generated_at_utc": now,
             "provider": "GDELT_DOC_API",
-            "query": QUERY,
+            "status": status,
             "timespan": TIMESPAN,
             "max_events": MAX_EVENTS,
+            "streams": stream_results,
+            "fetched_articles": sum(int(r.get("fetched", 0)) for r in successful_streams),
+            "previous_event_count": len(previous.get("events") or []),
             "tagging": {
                 "method": "string_match",
                 "uses": ["node.name", "node.aliases", "node.geoName"],
-                "notes": "Heuristic tagging. Curate aliases for precision."
+                "notes": "Heuristic tagging with per-tag-per-day caps.",
+                "per_tag_per_day_limit": PER_TAG_PER_DAY_LIMIT,
             },
         },
         "events": events,
     }
 
-    OUT_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Wrote {len(events)} events to {OUT_PATH}")
+    if DRY_RUN:
+        print(json.dumps(out["metadata"], ensure_ascii=False, indent=2))
+        print(f"Dry run: would write {len(events)} events.")
+        return 0
+
+    OUT_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    _write_meta_events_timestamp(now)
+    print(f"Wrote {len(events)} events to {OUT_PATH} (status={status})")
     return 0
 
 
