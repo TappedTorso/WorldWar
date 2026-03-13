@@ -5,18 +5,13 @@ import addFormats from "ajv-formats";
 const schema = JSON.parse(fs.readFileSync("data/schema.json", "utf8"));
 const data = JSON.parse(fs.readFileSync("data/map_data.json", "utf8"));
 
-const ajv = new Ajv2020({
-  allErrors: true,
-  strict: false
-});
-
+const ajv = new Ajv2020({ allErrors: true, strict: false });
 addFormats(ajv);
 
 const validate = ajv.compile(schema);
 const ok = validate(data);
 
 if (!ok) {
-  console.error("Schema validation failed:");
   console.error(validate.errors);
   process.exit(1);
 }
