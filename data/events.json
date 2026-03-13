@@ -1,11 +1,1031 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-03-13T00:00:00Z",
+    "generated_at_utc": "2026-03-13T09:08:07Z",
     "provider": "GDELT_DOC_API",
-    "status": "bootstrap-empty",
-    "timespan": "14d",
+    "status": "partial",
+    "timespan": "6h",
     "max_events": 120,
-    "queries_used": []
+    "streams": [
+      {
+        "name": "core",
+        "status": "error",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Your query was too short or too long. ",
+        "fetched": 0
+      },
+      {
+        "name": "tripwire",
+        "status": "ok",
+        "fetched": 120
+      }
+    ],
+    "fetched_articles": 120,
+    "previous_event_count": 0,
+    "tagging": {
+      "method": "string_match",
+      "uses": [
+        "node.name",
+        "node.aliases",
+        "node.geoName"
+      ],
+      "notes": "Heuristic tagging with per-tag-per-day caps.",
+      "per_tag_per_day_limit": 3
+    }
   },
-  "events": []
+  "events": [
+    {
+      "id": "gdelt_8a361f78c5a46ae2",
+      "headline": "Ukraine Zelensky in Paris as part of EU tour to bolster war effort",
+      "url": "https://www.yahoo.com/news/articles/ukraines-zelensky-paris-part-eu-060840478.html",
+      "published_at": "20260313T080000Z",
+      "source": "yahoo.com",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_d8ae5168606e48d0",
+      "headline": "Sanctions Update : March 9 , 2026",
+      "url": "https://www.mondaq.com:443/unitedstates/export-controls-trade-investment-sanctions/1757820/sanctions-update-march-9-2026",
+      "published_at": "20260313T074500Z",
+      "source": "mondaq.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_968b0d51817b97cf",
+      "headline": "Breakdown of diplomacy further complicates Iran nuclear issue , Pakistan warns Security Council - World",
+      "url": "https://www.dawn.com/news/1981621/breakdown-of-diplomacy-further-complicates-iran-nuclear-issue-pakistan-warns-security-council",
+      "published_at": "20260313T073000Z",
+      "source": "dawn.com",
+      "tags": [
+        "IRAN",
+        "PAKISTAN"
+      ]
+    },
+    {
+      "id": "gdelt_b97d2962111c56f1",
+      "headline": "太子集團陳志出大招 ！ 向紐約法院聲請歸還12萬枚比特幣 總價4800億 | 財經 | 三立新聞網 SETN . COM",
+      "url": "https://www.setn.com/News.aspx?NewsID=1806726",
+      "published_at": "20260313T063000Z",
+      "source": "setn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b1c2c7bcbda4c16b",
+      "headline": "Podcast : The hidden paperwork that can delay your family inheritance by months or years",
+      "url": "https://www.israelnationalnews.com/news/423864",
+      "published_at": "20260313T061500Z",
+      "source": "israelnationalnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_086bf2df49271b86",
+      "headline": "США тимчасово скасували санкції щодо російської нафти на танкерах",
+      "url": "https://www.5.ua/svit/ssha-tymchasovo-skasuvaly-sanktsii-shchodo-rosiiskoi-nafty-na-tankerakh-372266.html",
+      "published_at": "20260313T071500Z",
+      "source": "5.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7e6eb42320ded4f4",
+      "headline": "США разрешили продажу российской нефти , загруженной на танкеры до 12 марта",
+      "url": "https://www.nakanune.ru/news/2026/03/13/22862717/",
+      "published_at": "20260313T071500Z",
+      "source": "nakanune.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_68fc25b3b6940157",
+      "headline": "США разрешили продажу российской нефти , загруженной на танкеры до 12 марта",
+      "url": "https://www.nakanune.ru/news/2026/3/13/22862717/",
+      "published_at": "20260313T071500Z",
+      "source": "nakanune.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a3d0b134f8b0fc9a",
+      "headline": "UN Security Council divided over Iran sanctions",
+      "url": "http://usa.chinadaily.com.cn/a/202603/13/WS69b37bc7a310d6866eb3dacd.html",
+      "published_at": "20260313T044500Z",
+      "source": "usa.chinadaily.com.cn",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_2147823335485ed2",
+      "headline": "UN Security Council divided over Iran sanctions",
+      "url": "http://africa.chinadaily.com.cn/a/202603/13/WS69b37bc7a310d6866eb3dacd.html",
+      "published_at": "20260313T071500Z",
+      "source": "africa.chinadaily.com.cn",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_5dcb18c8e96e85e9",
+      "headline": "Bela Iran Mati - matian , Rusia - China Bentrok dengan AS di DK PBB",
+      "url": "https://www.cnnindonesia.com/internasional/20260313081603-134-1337532/bela-iran-mati-matian-rusia-china-bentrok-dengan-as-di-dk-pbb",
+      "published_at": "20260313T050000Z",
+      "source": "cnnindonesia.com",
+      "tags": [
+        "CHINA"
+      ]
+    },
+    {
+      "id": "gdelt_1e72c4c4a5fb6f66",
+      "headline": "Дмитриев : США де - факто признают зависимость мирового энергорынка от нефти из РФ",
+      "url": "https://www.vesti.ru/ns/dmitriev-ssha-de-fakto-priznayut-zavisimost-mirovogo-ehnergorynka-ot-nefti-iz-rf",
+      "published_at": "20260313T031500Z",
+      "source": "vesti.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6e8078a05e5d00f6",
+      "headline": "Rwanda : FDLR Links to Habyarimana Son Raise Regional Security Concerns - Report",
+      "url": "https://allafrica.com/stories/202603130077.html",
+      "published_at": "20260313T071500Z",
+      "source": "allafrica.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8520fa38047144e7",
+      "headline": "Представник США в ООН звинуватив Росію та Китай у прагненні захистити Тегеран",
+      "url": "https://www.radiosvoboda.org/a/news-oon-ssha-kytay-rosiya-zvynuvachennya/33704316.html",
+      "published_at": "20260313T073000Z",
+      "source": "radiosvoboda.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_dd927860fc423904",
+      "headline": "World News : First train to Pyongyang in six years leaves Beijing as neighbours revive link",
+      "url": "https://www.gdnonline.com:443/Details/1378486",
+      "published_at": "20260313T074500Z",
+      "source": "gdnonline.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ac4f710b6a191541",
+      "headline": "Singapore  MetaComp Raises Pre - A+ Round Backed By Alibaba , Closing Total US$35 Million Pre - A Funding in 3 months to Accelerate Asia Regulated Web2 . 5 Pay and Wealth [ 1 ] Group - Level Platform",
+      "url": "https://www.thehindu.com/brandhub/pr-release/singaporesmetacomp-raises-pre-a-round-backed-by-alibaba-closing-total-us35-million-pre-a-funding-in-3-months-to-accelerate-asias-regulated-web25-pay-and-wealth1-group-level-platform/article70738145.ece",
+      "published_at": "20260313T080000Z",
+      "source": "thehindu.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_50f066c0465e61cc",
+      "headline": "Singapore MetaComp Raises Pre - A+ Round Backed By Alibaba , Closing Total US$35 Million Pre - A Funding in 3 months to Accelerate Asia Regulated Web2 . 5 Pay and Wealth [ 1 ] Group - Level Platform",
+      "url": "https://www.manilatimes.net/2026/03/13/tmt-newswire/pr-newswire/singapores-metacomp-raises-pre-a-round-backed-by-alibaba-closing-total-us35-million-pre-a-funding-in-3-months-to-accelerate-asias-regulated-web25-pay-and-wealth1-group-level-platform/2299396",
+      "published_at": "20260313T054500Z",
+      "source": "manilatimes.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_17c3bb4955bc2493",
+      "headline": "84 arrested by police in major united kingdom operation | united kingdom | News",
+      "url": "https://www.express.co.uk/news/uk/2181669/84-arrests-north-east-police-operation-120k-cash-class-drugs-firearms-seized",
+      "published_at": "20260313T060000Z",
+      "source": "express.co.uk",
+      "tags": [
+        "UNITED_KINGDOM"
+      ]
+    },
+    {
+      "id": "gdelt_d69100323005ba52",
+      "headline": "Ціна на нафту - РФ знову має гроші на війну проти України",
+      "url": "https://www.unian.ua/world/cina-na-naftu-rf-znovu-maye-groshi-na-viynu-proti-ukrajini-13313616.html",
+      "published_at": "20260313T071500Z",
+      "source": "unian.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_94d18b9ad99ca85e",
+      "headline": "IRAN - BLOG / Deutschland wahrscheinlich wichtigstes Zielland für Flüchtlinge",
+      "url": "https://www.finanzen.net/nachricht/aktien/iran-blog-deutschland-wahrscheinlich-wichtigstes-zielland-fuer-fluechtlinge-15553724",
+      "published_at": "20260313T080000Z",
+      "source": "finanzen.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c022d1c928f5644a",
+      "headline": "MetaComp Pte Ltd : Singapore MetaComp Raises Pre - A+ Round Backed By Alibaba , Closing Total US$35 Million Pre - A Funding in 3 months to Accelerate Asia Regulated Web2 . 5 Pay and Wealth [ 1 ] Group - Level Platform",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-03/67933343-metacomp-pte-ltd-singapore-s-metacomp-raises-pre-a-round-backed-by-alibaba-closing-total-us-dollar-35-million-pre-a-funding-in-3-months-to-accelerate-asia-008.htm",
+      "published_at": "20260313T054500Z",
+      "source": "finanznachrichten.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_022ac63744192774",
+      "headline": "Война в Украине - где войска РФ готовят весеннее наступление",
+      "url": "https://glavred.info/front/voyska-rf-izmenili-fokus-nastupleniya-gde-intensivnost-shturmov-zashkalivaet-10748558.html",
+      "published_at": "20260313T071500Z",
+      "source": "glavred.info",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ef8142970e8cc8ba",
+      "headline": "Drone Hezbollah Tembus Pertahanan Iron Beam Israel , Kelemahan Sistem Laser Anti - Drone jadi Sorotan",
+      "url": "https://aceh.tribunnews.com/news/1015986/drone-hezbollah-tembus-pertahanan-iron-beam-israel-kelemahan-sistem-laser-anti-drone-jadi-sorotan",
+      "published_at": "20260313T060000Z",
+      "source": "aceh.tribunnews.com",
+      "tags": [
+        "ISRAEL"
+      ]
+    },
+    {
+      "id": "gdelt_06ebb9eb772c6823",
+      "headline": "Цена на нефть - РФ снова имеет деньги на войну против Украины",
+      "url": "https://www.unian.net/world/cena-na-neft-rf-snova-imeet-dengi-na-voynu-protiv-ukrainy-13313613.html",
+      "published_at": "20260313T063000Z",
+      "source": "unian.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_637cdd07f5d11254",
+      "headline": "Ripple Joins Mastercard Crypto Partner Program to Advance On - Chain Payments",
+      "url": "https://finance.yahoo.com/news/ripple-joins-mastercard-crypto-partner-164458254.html",
+      "published_at": "20260313T050000Z",
+      "source": "finance.yahoo.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0ed83d9ebd5d36ed",
+      "headline": "На севере Турции произошло землетрясение",
+      "url": "https://www.newsru.co.il/mideast/13mar2026/turkey_130.html",
+      "published_at": "20260313T054500Z",
+      "source": "newsru.co.il",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f96c0385600c3df5",
+      "headline": "Deprem mi Oldu ? Nerede Deprem Oldu ? Deprem Oldu mu ?",
+      "url": "https://onedio.com/haber/tokat-ta-meydana-gelen-siddetli-deprem-sonrasi-deprem-uzmani-ahmet-ercan-dan-onemli-uyari-1347548",
+      "published_at": "20260313T061500Z",
+      "source": "onedio.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3dce8dfd0a7e7068",
+      "headline": "China - North Korea Passenger Trains Resume After 6 Years",
+      "url": "https://www.newkerala.com/news/a/train-linking-north-korea-china-reaches-beijing-first-272.htm",
+      "published_at": "20260313T073000Z",
+      "source": "newkerala.com",
+      "tags": [
+        "NORTH_KOREA",
+        "CHINA"
+      ]
+    },
+    {
+      "id": "gdelt_376a7b2a3b553359",
+      "headline": "Asia Pacific strengthens its position as a global trade anchor as Singapore ranks # 1 worldwide – DHL Global Connectedness Report 2026",
+      "url": "https://portal.sina.com.hk/finance/finance-mediaoutreachnewswire/media-outreach/2026/03/13/1604428/asia-pacific-strengthens-its-position-as-a-global-trade-anchor-as-singapore-ranks-1-worldwide-dhl-global-connectedness-report-2026/",
+      "published_at": "20260313T054500Z",
+      "source": "portal.sina.com.hk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0efdba5792d03305",
+      "headline": "Un train international de passagers reliant la Chine à la RPDC arrive à Pyongyang",
+      "url": "http://french.china.org.cn/foreign/txt/2026-03/12/content_118379587.htm",
+      "published_at": "20260313T063000Z",
+      "source": "french.china.org.cn",
+      "tags": [
+        "CHINA"
+      ]
+    },
+    {
+      "id": "gdelt_fa2cec04e6b99df8",
+      "headline": "Asia Pacific strengthens its position as a global trade anchor as Singapore ranks # 1 worldwide - DHL Global Connectedness Report 2026",
+      "url": "https://www.manilatimes.net/2026/03/13/tmt-newswire/media-outreach-newswire/asia-pacific-strengthens-its-position-as-a-global-trade-anchor-as-singapore-ranks-1-worldwide-dhl-global-connectedness-report-2026/2299371",
+      "published_at": "20260313T031500Z",
+      "source": "manilatimes.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7138bf5f6fb33e46",
+      "headline": "Un train international de passagers reliant la Chine à la RPDC arrive à Pyongyang",
+      "url": "http://french.people.com.cn/Economie/n3/2026/0313/c31355-20435511.html",
+      "published_at": "20260313T041500Z",
+      "source": "french.people.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4bf6a1288491315b",
+      "headline": "Лаборатории Минприроды прошли аккредитацию и получили международное признание качества",
+      "url": "https://eco.akipress.org/news:2431243",
+      "published_at": "20260313T054500Z",
+      "source": "eco.akipress.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_661646f377a3a843",
+      "headline": "У ЦПД спростували фейк про те , що Одеса може залишитись без питної води",
+      "url": "https://kp.ua/ua/life/a726756-u-tspd-sprostuvali-fejk-pro-te-shcho-odesa-mozhe-zalishitis-bez-pitnoji-vodi",
+      "published_at": "20260313T071500Z",
+      "source": "kp.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bbef35446c4ebf34",
+      "headline": "Санкции против Усманова - как Эрдоган добивается снятия санкций с олигарха через Фицо",
+      "url": "https://24tv.ua/economy/ru/sankcii-protiv-usmanova-kak-jerdogan-dobivaetsja-snjatija-sankcij-s-oligarha-cherez-fico_n3027595",
+      "published_at": "20260313T083000Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_833525304ab9d4ab",
+      "headline": "Hawaii flash flood warning : Which Oahu areas are at risk ? Check map , evacuation updates and visuals",
+      "url": "https://www.hindustantimes.com/world-news/us-news/hawaii-flash-flood-warning-which-oahu-areas-are-at-risk-check-map-evacuation-updates-and-visuals-101773362463142.html",
+      "published_at": "20260313T071500Z",
+      "source": "hindustantimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7f469fa92285726a",
+      "headline": "Следствие предъявило новое обвинение фигурантам дела о хищениях у бойцов СВО в Шереметьево",
+      "url": "https://life.ru/p/1851508",
+      "published_at": "20260313T080000Z",
+      "source": "life.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e66649e256a722a0",
+      "headline": "The Russia - Ukraine War Exposed the Limits of the Western Order",
+      "url": "https://foreignpolicy.com/2026/03/12/russia-ukraine-war-europe-trump-putin-zelensky-negotiations-deal/?tpcc=recirc_trending062921",
+      "published_at": "20260313T071500Z",
+      "source": "foreignpolicy.com",
+      "tags": [
+        "RUSSIA",
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_083e9490a48042d5",
+      "headline": "西藏抗暴日晚會遭擲鞭炮 人權團體 ： 典型跨國鎮壓 | 兩岸",
+      "url": "https://www.cna.com.tw/news/acn/202603130099.aspx",
+      "published_at": "20260313T063000Z",
+      "source": "cna.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ec42c2d0ff5460d2",
+      "headline": "西藏抗暴日晚會遭擲鞭炮 人權團體 ： 典型跨國鎮壓 | 兩岸",
+      "url": "https://www.cna.com.tw:443/news/acn/202603130099.aspx",
+      "published_at": "20260313T061500Z",
+      "source": "cna.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4345d21ac7d519e5",
+      "headline": "Белый дом планирует временно отменить вековой закон Джонса",
+      "url": "https://life.ru/p/1851535",
+      "published_at": "20260313T080000Z",
+      "source": "life.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b481d8edbe643983",
+      "headline": "« Λυγίζει » το ευρώ έναντι του δολαρίου – Υποχώρησε στα χαμηλότερα επίπεδα από τον περασμένο Νοέμβριο",
+      "url": "https://www.newsbeast.gr/financial/arthro/12961027/lygizei-to-evro-enanti-tou-dolariou-ypochorise-sta-chamilotera-epipeda-apo-ton-perasmeno-noemvrio",
+      "published_at": "20260313T080000Z",
+      "source": "newsbeast.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_881c6c76c4086bdc",
+      "headline": "ЦПД спростовує інформацію про дефіцит питної води в Одесі через забруднення Дністра",
+      "url": "https://interfax.com.ua/news/general/1151311.html",
+      "published_at": "20260313T071500Z",
+      "source": "interfax.com.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7260b390a7c26d55",
+      "headline": "川金會破局 ？ 川普月底訪中 美財政部卻擴大制裁北韓企業 - 國際",
+      "url": "https://news.ltn.com.tw/news/world/breakingnews/5369016",
+      "published_at": "20260313T070000Z",
+      "source": "news.ltn.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a4621630e6645337",
+      "headline": "美 , 유가 위기에 러시아산 석유 제재 한달간 해제 … 수억 배럴 풀린다",
+      "url": "https://www.fnnews.com/news/202603131136571504",
+      "published_at": "20260313T040000Z",
+      "source": "fnnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_338916073c473ea8",
+      "headline": "« Малый бизнес Москвы » помогает участникам СВО открыть свое дело",
+      "url": "https://vm.ru/news/1310245-malyj-biznes-moskvy-pomogaet-uchastnikam-svo-otkryt-svoe-delo",
+      "published_at": "20260313T051500Z",
+      "source": "vm.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0d08eaf31e969263",
+      "headline": "Train linking North Korea to China reaches Beijing , for first time in 6 years",
+      "url": "https://aninews.in/news/world/asia/train-linking-north-korea-to-china-reaches-beijing-for-first-time-in-6-years20260313120353/",
+      "published_at": "20260313T081500Z",
+      "source": "aninews.in",
+      "tags": [
+        "NORTH_KOREA"
+      ]
+    },
+    {
+      "id": "gdelt_f1621f0854d63ce2",
+      "headline": "Die grten Volkswirtschaften der EU drängen auf gemeinsamen europäischen Kapitalmarkt",
+      "url": "https://de.euronews.com/my-europe/2026/03/13/e6-draengen-auf-gemeinsamen-europaeischen-kapitalmarkt",
+      "published_at": "20260313T063000Z",
+      "source": "de.euronews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d9a263f2832b7c4f",
+      "headline": "兩度遭中共制裁 盧比奧或隨川普訪華 | 中國",
+      "url": "https://www.ntdtv.com/b5/2026/03/13/a104075691.html",
+      "published_at": "20260313T044500Z",
+      "source": "ntdtv.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_485a86309efd30db",
+      "headline": "Санкції проти Усманова - як Ердоган домагається зняття санкцій з олігарха через Фіцо",
+      "url": "https://24tv.ua/economy/sanktsiyi-proti-usmanova-yak-erdogan-domagayetsya-znyattya-sanktsiy_n3027584",
+      "published_at": "20260313T071500Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_313e2de858100546",
+      "headline": "Intl passenger train from China to DPRK arrives in Pyongyang",
+      "url": "http://english.anhuinews.com/newscenter/headline/202603/t20260313_9153023.html",
+      "published_at": "20260313T051500Z",
+      "source": "english.anhuinews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2bc9250283010361",
+      "headline": "Aντιδράσεις στο ΣΑ του ΟΗΕ για τον μηχανισμό snapback και τη νομιμότητα των κυρώσεων κατά του Ιράν",
+      "url": "https://www.politis.com.cy/politis-news/kosmos/991859/antidraseis-sto-sa-toy-ohe-ghia-ton-mikhanismo-snapback-kai-ti-nomimotita-ton-kirwseon-kata-toy-iran",
+      "published_at": "20260313T063000Z",
+      "source": "politis.com.cy",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bacf45bef2ee203e",
+      "headline": "China - North Korea train services resume after six years - Newspaper",
+      "url": "https://www.dawn.com/news/1981567/china-north-korea-train-services-resume-after-six-years",
+      "published_at": "20260313T040000Z",
+      "source": "dawn.com",
+      "tags": [
+        "NORTH_KOREA"
+      ]
+    },
+    {
+      "id": "gdelt_ba27120d674d1d28",
+      "headline": "Train linking North Korea to China reaches Beijing , for first time in 6 years",
+      "url": "https://www.hindustantimes.com/world-news/train-linking-north-korea-to-china-reaches-beijing-for-first-time-in-6-years-101773384123051.html",
+      "published_at": "20260313T071500Z",
+      "source": "hindustantimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4c5623ca9d62c899",
+      "headline": "Россия и Китай пытались заблокировать санкции против Ирана в Совбезе ООН",
+      "url": "https://www.pravda.com.ua/rus/news/2026/03/13/8025270/",
+      "published_at": "20260313T050000Z",
+      "source": "pravda.com.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_104063eef7c42688",
+      "headline": "Вода возвращается : Как планируют спасать Северный Арал до 2029 года",
+      "url": "https://azh.kz/ru/news/view/125740",
+      "published_at": "20260313T063000Z",
+      "source": "azh.kz",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b6760ceabf5b510f",
+      "headline": "南華早報 ： 美國國務卿盧比歐月底將隨同川普訪問中國 | 兩岸",
+      "url": "https://www.cna.com.tw/news/acn/202603130043.aspx",
+      "published_at": "20260313T063000Z",
+      "source": "cna.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d85f1c413ed89565",
+      "headline": "Music , film and food define Francophone Week 2026 - Newsday Zimbabwe",
+      "url": "https://www.newsday.co.zw/life-amp-style/article/200052599/music-film-and-food-define-francophone-week-2026",
+      "published_at": "20260313T083000Z",
+      "source": "newsday.co.zw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_718be8d00ec8dc88",
+      "headline": "Отмена санкций против РФ обсуждалась на заседании правящей партии Японии",
+      "url": "https://www.m24.ru/news/politika/13032026/882083",
+      "published_at": "20260313T054500Z",
+      "source": "m24.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_10c2618b9e294e9d",
+      "headline": "中俄投下反对票 ！ |联合国安理会|中国|美国 _ 新浪科技 _ 新浪网",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-03-13/doc-inhqvhtn4187276.shtml",
+      "published_at": "20260313T060000Z",
+      "source": "finance.sina.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_034b563492f60880",
+      "headline": "Geger Krisis Energi , AS Izinkan Lagi Pembelian Minyak Rusia ,",
+      "url": "https://internasional.kompas.com/read/2026/03/13/114355770/geger-krisis-energi-as-izinkan-lagi-pembelian-minyak-rusia",
+      "published_at": "20260313T051500Z",
+      "source": "internasional.kompas.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_740fc8e769a860d2",
+      "headline": "Pakistan bombs Kabul and Afghan border provinces",
+      "url": "https://www.dw.com/en/pakistan-bombs-kabul-and-afghan-border-provinces/a-76341327",
+      "published_at": "20260313T041500Z",
+      "source": "dw.com",
+      "tags": [
+        "PAKISTAN"
+      ]
+    },
+    {
+      "id": "gdelt_4552833f7a01394b",
+      "headline": "Panetta : politica - privati uniti per i pagamenti cross border",
+      "url": "https://www.ilmessaggero.it/economia/news/panetta_politica_privati_uniti_pagamenti_cross_border-9412337.html",
+      "published_at": "20260313T080000Z",
+      "source": "ilmessaggero.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b448c31c25c8e240",
+      "headline": "Amerikaanse regering schort deel sancties op Russische olie tijdelijk op",
+      "url": "https://www.rtl.nl/nieuws/economie/artikel/5577553/regering-trump-sancties-russische-olie-op-zee-mag-verkocht-worden",
+      "published_at": "20260313T051500Z",
+      "source": "rtl.nl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_72609a8bc7c73405",
+      "headline": "Rubio Çinin sanksiyası altında Pekinə gedəcək",
+      "url": "https://musavat.com/news/rubio-cinin-sanksiyasi-altinda-pekine-gedecek_1246503.html",
+      "published_at": "20260313T071500Z",
+      "source": "musavat.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_53674e5e2c1d7fd1",
+      "headline": "Trump - Regierung hebt Sanktionen gegen russisches Öl teilweise auf",
+      "url": "https://www.dnn.de/politik/trump-regierung-hebt-sanktionen-gegen-russisches-oel-teilweise-auf-4WKYNK4JCRAZBCNMFMDPMKXONA.html",
+      "published_at": "20260313T041500Z",
+      "source": "dnn.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0e942e46867148e1",
+      "headline": "Trump - Regierung hebt Sanktionen gegen russisches Öl teilweise auf",
+      "url": "https://www.kn-online.de/politik/trump-regierung-hebt-sanktionen-gegen-russisches-oel-teilweise-auf-4WKYNK4JCRAZBCNMFMDPMKXONA.html",
+      "published_at": "20260313T051500Z",
+      "source": "kn-online.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4818f95a9a19bb9a",
+      "headline": "Trump - Regierung hebt Sanktionen gegen russisches Öl teilweise auf",
+      "url": "https://www.lvz.de/politik/trump-regierung-hebt-sanktionen-gegen-russisches-oel-teilweise-auf-4WKYNK4JCRAZBCNMFMDPMKXONA.html",
+      "published_at": "20260313T071500Z",
+      "source": "lvz.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7051a391861ad7e2",
+      "headline": "Trump - Regierung hebt Sanktionen gegen russisches Öl teilweise auf",
+      "url": "https://www.maz-online.de/politik/trump-regierung-hebt-sanktionen-gegen-russisches-oel-teilweise-auf-4WKYNK4JCRAZBCNMFMDPMKXONA.html",
+      "published_at": "20260313T063000Z",
+      "source": "maz-online.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_481e2459f2e978ae",
+      "headline": "Грузия пообещала ЕС , что не будет пускать российские суда в свои порты",
+      "url": "https://life.ru/p/1851533",
+      "published_at": "20260313T080000Z",
+      "source": "life.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_db72fa536238f038",
+      "headline": "槟拨4000万地打造ATE园区 曹观友冀打造高科技产业集群平台 | 北马 | 地方",
+      "url": "https://www.orientaldaily.com.my/news/north/2026/03/13/803773",
+      "published_at": "20260313T080000Z",
+      "source": "orientaldaily.com.my",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6b523e0b217a5107",
+      "headline": "美方强推 ， 中俄投下反对票 ！_ 深圳新闻网",
+      "url": "https://www.sznews.com/news/content/2026-03/13/content_31975759.htm",
+      "published_at": "20260313T061500Z",
+      "source": "sznews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_30e1f32783c53bef",
+      "headline": "Редчайшая китовая акула по кличке Мистраль проплыла 1200 км от Мадагаскара до Сейшел . Ученые впервые засекли такую миграцию",
+      "url": "https://knews.kg/2026/03/12/redchajshaya-kitovaya-akula-po-klichke-mistral-proplyla-1200-km-ot-madagaskara-do-sejshel-uchenye-vpervye-zasekli-takuyu-migratsiyu/",
+      "published_at": "20260313T044500Z",
+      "source": "knews.kg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6cafecb440e75869",
+      "headline": "Trump - Regierung hebt Sanktionen gegen russisches Öl teilweise auf",
+      "url": "https://www.ln-online.de/politik/trump-regierung-hebt-sanktionen-gegen-russisches-oel-teilweise-auf-4WKYNK4JCRAZBCNMFMDPMKXONA.html",
+      "published_at": "20260313T041500Z",
+      "source": "ln-online.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e979b45890445917",
+      "headline": "18 SPPG di Jember Dihentikan Sementara karena Belum Punya SLHS dan IPAL",
+      "url": "https://surabaya.kompas.com/read/2026/03/13/123751278/18-sppg-di-jember-dihentikan-sementara-karena-belum-punya-slhs-dan-ipal",
+      "published_at": "20260313T060000Z",
+      "source": "surabaya.kompas.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6e78bf77c8c411ee",
+      "headline": "古林睿煬IG貼文再提郭彬 台韓王牌投手互動展跨國友誼 | 運動",
+      "url": "https://www.cna.com.tw:443/news/aspt/202603135002.aspx",
+      "published_at": "20260313T080000Z",
+      "source": "cna.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_53df8367aa7c166b",
+      "headline": "치솟는 유가 못 견딘 미국  러시아산 원유 제재 해제한다",
+      "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003214660&PAGE_CD=N0002&CMPT_CD=M0112",
+      "published_at": "20260313T081500Z",
+      "source": "ohmynews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bf438e04ed7319d0",
+      "headline": "美强推安理会召开对伊制裁会议 ， 中俄投反对票",
+      "url": "https://news.ifeng.com/c/8rSOSUvN1BZ",
+      "published_at": "20260313T041500Z",
+      "source": "news.ifeng.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1ca3058046ca2be2",
+      "headline": "США снимают санкции с российской нефти , чтобы остановить коллапс",
+      "url": "https://abnews.ru/news/2026/3/13/ssha-dali-zelenyj-svet-na-pokupku-syrya-u-rossii",
+      "published_at": "20260313T073000Z",
+      "source": "abnews.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_88b2ef2124858ad5",
+      "headline": "США отменили санкции в отношении российской нефти",
+      "url": "https://gazeta.ua/ru/articles/world-life/_ssa-otmenili-sankcii-v-otnoshenii-rossijskoj-nefti/1245969",
+      "published_at": "20260313T063000Z",
+      "source": "gazeta.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b751e9a63c1985a2",
+      "headline": "Мировые цены на нефть остаются выше 100 долларов за баррель после смягчения американских санкций в отношении России",
+      "url": "https://www.silver.ru/news/554167/",
+      "published_at": "20260313T071500Z",
+      "source": "silver.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6d8da38b7576af9a",
+      "headline": "ABŞ Rusiyanın 100 milyon barel neftini sanksiyadan azad etdi",
+      "url": "https://musavat.com/news/abs-rusiyanin-100-milyon-barel-neftini-sanksiyadan-azad-etdi_1246499.html",
+      "published_at": "20260313T071500Z",
+      "source": "musavat.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d50ceda965b6d095",
+      "headline": "美暂时放宽对俄石油制裁 ， 俄在美以对伊开战两周内已获60亿欧元额外能源收入",
+      "url": "https://baijiahao.baidu.com/s?id=1859523525125521010",
+      "published_at": "20260313T081500Z",
+      "source": "baijiahao.baidu.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e3fcca65149e4d65",
+      "headline": "美暂时放宽对俄石油制裁 ， 俄在美以对伊开战两周内已获60亿欧元额外能源收入",
+      "url": "https://www.163.com/dy/article/KNTFIALS051492T3.html",
+      "published_at": "20260313T061500Z",
+      "source": "163.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_86d7fef8d8f07ef5",
+      "headline": "Moskow Tingkatkan Tekanan pada AS terkait Sanksi Minyak",
+      "url": "https://koran-jakarta.com/2026-03-13/moskow-tingkatkan-tekanan-pada-as-terkait-sanksi-minyak",
+      "published_at": "20260313T071500Z",
+      "source": "koran-jakarta.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1eb96423c847e5e6",
+      "headline": "SAD ukinule sankcije Rusiji na mesec dana : Moguća prodaja ruske nafte i naftnih derivata",
+      "url": "https://www.danas.rs/svet/rusija-sad-sankcije-nafta/",
+      "published_at": "20260313T081500Z",
+      "source": "danas.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3fbcfb679f47e3c3",
+      "headline": "台美與史瓦帝尼辦GCTF國際研習營 提升史國經濟韌性 | 政治",
+      "url": "https://www.cna.com.tw:443/news/aipl/202603130065.aspx",
+      "published_at": "20260313T040000Z",
+      "source": "cna.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e0c539e27e68b3ef",
+      "headline": "台美與史瓦帝尼辦GCTF國際研習營 提升史國經濟韌性 | 政治",
+      "url": "https://www.cna.com.tw/news/aipl/202603130065.aspx",
+      "published_at": "20260313T054500Z",
+      "source": "cna.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1a2213e2a8275fb4",
+      "headline": "Trump administration allows purchase of Russian oil already at sea",
+      "url": "https://www.cbsnews.com/news/trump-administration-allows-purchase-of-russian-oil-already-at-sea/",
+      "published_at": "20260313T041500Z",
+      "source": "cbsnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3c78d073c7a02a64",
+      "headline": "Halkbanka 500 milyon doları bulan fatura",
+      "url": "https://www.sozcu.com.tr/halkbank-a-500-milyon-dolari-bulan-fatura-p301242",
+      "published_at": "20260313T074500Z",
+      "source": "sozcu.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3ab44efe6b9534ec",
+      "headline": "Trump - Regierung hebt Sanktionen gegen russisches Öl teilweise auf",
+      "url": "https://www.waz-online.de/politik/trump-regierung-hebt-sanktionen-gegen-russisches-oel-teilweise-auf-4WKYNK4JCRAZBCNMFMDPMKXONA.html",
+      "published_at": "20260313T044500Z",
+      "source": "waz-online.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f4e3325071b31f49",
+      "headline": "USA sallii väliaikaisesti venäläisen öljyn myynnin",
+      "url": "https://yle.fi/a/74-20215071",
+      "published_at": "20260313T054500Z",
+      "source": "yle.fi",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0c8117c22ab3773b",
+      "headline": "На фоне новой войны США приостановили санкции на продажу российской нефти",
+      "url": "https://www.mk.ru/economics/2026/03/13/na-fone-novoy-voyny-ssha-priostanovili-sankcii-na-prodazhu-rossiyskoy-nefti.html",
+      "published_at": "20260313T070000Z",
+      "source": "mk.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_46c24de1683b0492",
+      "headline": "ЕК : Грузия заверила , что перестанет содействовать экспорту российской нефти",
+      "url": "https://www.bfm.ru/news/600607",
+      "published_at": "20260313T073000Z",
+      "source": "bfm.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_18732bd4c385a242",
+      "headline": "NEK TI BUDE Trump odlučio :  Ukidamo sankcije na rusku naftu . Neka ju iskrcaju",
+      "url": "https://www.24sata.hr/news/vladek-nek-ti-bude-trump-je-odlucio-ukidamo-sankcije-na-rusku-naftu-neka-ju-iskrcaju-1114296",
+      "published_at": "20260313T081500Z",
+      "source": "24sata.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_98b4f2ba69515c5c",
+      "headline": "Donald Trump häver sanktionerna mot rysk olja",
+      "url": "https://www.expressen.se/nyheter/varlden/usa-haver-sanktionerna-mot-rysk-olja/",
+      "published_at": "20260313T060000Z",
+      "source": "expressen.se",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e4edb495dafb552b",
+      "headline": "康坦电子商务集团亮相 Manifest 2026 全球供应链大会与美国知名分销企业 Petra Industries 达成初步合作意向 _ 中华网",
+      "url": "https://digi.china.com/articles/20260313/202603131823703.html",
+      "published_at": "20260313T041500Z",
+      "source": "digi.china.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e2e382d30c7ba0f3",
+      "headline": "Jest kolejna decyzja united states ws . rosyjskiej ropy",
+      "url": "https://www.money.pl/gospodarka/jest-kolejna-decyzja-usa-ws-rosyjskiej-ropy-7263756863514944a.html",
+      "published_at": "20260313T081500Z",
+      "source": "money.pl",
+      "tags": [
+        "UNITED_STATES"
+      ]
+    },
+    {
+      "id": "gdelt_9a02a9bdcfa6f344",
+      "headline": "Trump Administration Takes Steps to Ease Sanctions on Russian Oil Amid",
+      "url": "https://www.outlookindia.com/international/trump-administration-takes-steps-to-ease-sanctions-on-russian-oil-amid",
+      "published_at": "20260313T041500Z",
+      "source": "outlookindia.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c675d4e75b0e699b",
+      "headline": "The Capital of Crypto : Abu Dhabi Convenes Global Titans for DAFME 1",
+      "url": "http://www.econotimes.com/The-Capital-of-Crypto-Abu-Dhabi-Convenes-Global-Titans-for-DAFME-1-1736066",
+      "published_at": "20260313T054500Z",
+      "source": "econotimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_21c940cdc0be8954",
+      "headline": "Сразу две хорошие новости для России : санкционное давление на Москву ослабевает | Москва",
+      "url": "https://fedpress.ru/news/77/economy/3428897",
+      "published_at": "20260313T041500Z",
+      "source": "fedpress.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d5d0a22518907a3f",
+      "headline": "GBAの10年の歩み ： 結束 、 成長 、 そして無限の可能性",
+      "url": "https://www.kyodo.co.jp/pr/2026-03-13_3998382/",
+      "published_at": "20260313T074500Z",
+      "source": "kyodo.co.jp",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3844dadd5b7439f6",
+      "headline": "Marktbericht : DAX vor stabilem Handelsstart",
+      "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-notenbanken-geldpolitik-oel-100.html",
+      "published_at": "20260313T070000Z",
+      "source": "tagesschau.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2696d9b9b3647bcf",
+      "headline": "США скасували санкції щодо російської нафти",
+      "url": "https://gazeta.ua/articles/world-life/_ssa-skasuvali-sankciyi-schodo-rosijskoyi-nafti/1245969",
+      "published_at": "20260313T050000Z",
+      "source": "gazeta.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f95d0872767f744c",
+      "headline": "Тувинскую шерсть отправят в Поднебесную : регион готовится к прорыву на китайский рынок",
+      "url": "https://runews24.ru/kyzyl/13/03/2026/tuvinskuyu-sherst-otpravyat-v-podnebesnuyu-region-gotovitsya-k-proryivu-na-kitajskij-ryinok",
+      "published_at": "20260313T051500Z",
+      "source": "runews24.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_eedacc78315f93ee",
+      "headline": "Дмитриев : США признали зависимость мира от российской нефти | Москва",
+      "url": "https://fedpress.ru/news/77/economy/3428956",
+      "published_at": "20260313T063000Z",
+      "source": "fedpress.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_30eabd84c17389e4",
+      "headline": "USA erlauben zeitweise Kauf von russischem Öl",
+      "url": "https://www.sueddeutsche.de/politik/usa-russland-oel-sanktionen-li.3452156",
+      "published_at": "20260313T073000Z",
+      "source": "sueddeutsche.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fcea4451f4ece092",
+      "headline": "Afghanistan accuses Pakistan of air attacks on homes in Kabul , Kandahar",
+      "url": "https://www.aljazeera.com/news/2026/3/13/afghanistan-accuses-pakistan-of-air-attacks-on-homes-in-kabul-kandahar",
+      "published_at": "20260313T064500Z",
+      "source": "aljazeera.com",
+      "tags": [
+        "PAKISTAN"
+      ]
+    },
+    {
+      "id": "gdelt_6d073ad00c310713",
+      "headline": "В Госдуме призвали вернуть для россиян таксофоны",
+      "url": "https://bloknot.ru/yanovost-chasa/v-gosdume-predlozhili-vernut-taksofony-na-ulitsy-gorodov-1501880.html",
+      "published_at": "20260313T080000Z",
+      "source": "bloknot.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_07b383008b909561",
+      "headline": "Russlands Wirtschaft kurz vor dem Kollaps : EU - Sanktionsbeauftragter sieht „ Hemingway - Moment  nahen",
+      "url": "http://www.merkur.de/wirtschaft/moment-nahen-russlands-wirtschaft-kurz-vor-dem-kollaps-eu-sanktionsbeauftragter-sieht-hemingway-94213377.html",
+      "published_at": "20260313T054500Z",
+      "source": "merkur.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f518813fedd45fd0",
+      "headline": "Iran - Krieg : united states erlauben zeitweise Kauf von russischem Öl",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-03/67933567-iran-krieg-usa-erlauben-zeitweise-kauf-von-russischem-oel-016.htm",
+      "published_at": "20260313T054500Z",
+      "source": "finanznachrichten.de",
+      "tags": [
+        "UNITED_STATES"
+      ]
+    },
+    {
+      "id": "gdelt_1a7f67baab6fa708",
+      "headline": "OFAC Sanctions Crypto Network Tied to $800M North Korea IT Worker Scheme",
+      "url": "https://blockonomi.com/ofac-sanctions-crypto-network-tied-to-800m-north-korea-it-worker-scheme/",
+      "published_at": "20260313T073000Z",
+      "source": "blockonomi.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4b4ef30e44d2f296",
+      "headline": "США вывели российскую нефть из - под санкций на месяц",
+      "url": "https://vestikavkaza.ru/news/ssa-vyveli-rossijskuu-neft-iz-pod-sankcij-na-mesac.html",
+      "published_at": "20260313T081500Z",
+      "source": "vestikavkaza.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b00df760cb85a379",
+      "headline": "Дмитриев : снятие ограничений США затронет около 100 млн баррелей нефти РФ",
+      "url": "https://www.bfm.ru/news/600600",
+      "published_at": "20260313T073000Z",
+      "source": "bfm.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8526b286ec7381c5",
+      "headline": "Democrats Promise to Oversee Reported DOJ Probe Into Binance",
+      "url": "https://cointelegraph.com/news/democrats-oversee-doj-probe-binance",
+      "published_at": "20260313T060000Z",
+      "source": "cointelegraph.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e1b82074a3f0db0d",
+      "headline": "美国强推 ， 中俄投反对票 ， 中方 ： 美以应立即停止军事行动 ！ 美方指责中俄试图  保护伊朗 _ 新浪新闻",
+      "url": "https://news.sina.com.cn/w/2026-03-13/doc-inhqvnzr4153969.shtml",
+      "published_at": "20260313T081500Z",
+      "source": "news.sina.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_47d35782cf024b0c",
+      "headline": "Война в Иране : энергетический кризис , угрожающий Европе ( Le Journal du Dimanche , Франция )",
+      "url": "https://inosmi.ru/20260313/evropa-277498347.html",
+      "published_at": "20260313T073000Z",
+      "source": "inosmi.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bfeae76e7f8821de",
+      "headline": "Embodied intelligence powers China logistics in 2025 : report",
+      "url": "https://www.globaltimes.cn/page/202603/1356877.shtml",
+      "published_at": "20260313T040000Z",
+      "source": "globaltimes.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_be398137c4fd74ae",
+      "headline": "Дмитриев : всё больше стран начинают закупать нефть России",
+      "url": "https://russian.rt.com/business/news/1606656-pokupka-neft-rossiya",
+      "published_at": "20260313T080000Z",
+      "source": "russian.rt.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6c5d0de04352ebe3",
+      "headline": "Meclisin gündemi BYD : Bakan açıkladı !  O dolarları ödemek zorunda",
+      "url": "https://www.bursahakimiyet.com.tr/ekonomi/meclis-in-gundemi-byd-bakan-acikladi-o-dolarlari-odemek-zorunda-1594868",
+      "published_at": "20260313T060000Z",
+      "source": "bursahakimiyet.com.tr",
+      "tags": []
+    }
+  ]
 }
