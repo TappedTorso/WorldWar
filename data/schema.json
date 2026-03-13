@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WorldWar Map Data",
+  "type": "object",
+  "required": ["nodes", "edges"],
+  "properties": {
+    "metadata": { "type": "object" },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "type", "theaters", "coords", "category"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "name": { "type": "string", "minLength": 1 },
+          "type": { "type": "string", "enum": ["state", "territory", "org", "nonstate"] },
+          "geoName": { "type": ["string", "null"] },
+          "theaters": { "type": "array", "items": { "type": "string" } },
+          "coords": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": [
+              { "type": "number", "minimum": -180, "maximum": 180 },
+              { "type": "number", "minimum": -90, "maximum": 90 }
+            ]
+          },
+          "category": { "type": "string", "enum": ["WAR", "ALLY", "POLICY", "SPILLOVER", "TENSION", "INTERNAL"] },
+          "ihl": { "type": ["string", "null"] },
+          "exposure": { "type": ["string", "null"] },
+          "intensity": { "type": "number", "minimum": 0, "maximum": 10 },
+          "color": { "type": "string" },
+          "summary": { "type": "string" },
+          "updated_at": { "type": ["string", "null"] },
+          "confidence": { "type": ["string", "number", "null"] },
+          "sources": { "type": "array" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "from", "to", "theater", "category", "type"],
+        "properties": {
+          "id": { "type": "string" },
+          "from": { "type": "string" },
+          "to": { "type": "string" },
+          "theater": { "type": "string" },
+          "category": { "type": "string", "enum": ["WAR", "ALLY", "POLICY", "SPILLOVER", "TENSION", "INTERNAL"] },
+          "type": { "type": "string" },
+          "effect": { "type": "string", "enum": ["solid", "dashed", "dotted"] },
+          "color": { "type": "string" },
+          "summary": { "type": "string" },
+          "event_date": { "type": ["string", "null"] },
+          "updated_at": { "type": ["string", "null"] },
+          "confidence": { "type": ["string", "number", "null"] },
+          "sources": { "type": "array" }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
