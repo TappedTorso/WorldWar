@@ -137,12 +137,30 @@ def fetch_gdelt(query: str, timespan: str) -> Dict[str, Any]:
         "format": "json",
         "timespan": timespan,
         "sort": "HybridRel",
-        "format": "json",
         "maxrecords": str(MAX_EVENTS),
     }
+
     r = requests.get(GDELT_DOC_API, params=params, timeout=30)
-    r.raise_for_status()
-    return r.json()
+
+    # If HTTP error (403/500/etc), print body for debugging
+    if not r.ok:
+        print("GDELT request failed:", r.status_code)
+        print("URL:", r.url)
+        print("Body (first 500 chars):")
+        print(r.text[:500])
+        raise SystemExit(1)
+
+    # Sometimes GDELT returns HTML/empty even with 200
+    try:
+        return r.json()
+    except Exception:
+        print("GDELT returned non-JSON response.")
+        print("Status:", r.status_code)
+        print("URL:", r.url)
+        print("Content-Type:", r.headers.get("content-type"))
+        print("Body (first 500 chars):")
+        print(r.text[:500])
+        raise SystemExit(1)
 
 
 def main() -> int:
