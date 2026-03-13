@@ -2,7 +2,47 @@
   "metadata": {
     "title": "2026 Global Armed Conflicts & Interactions",
     "generated_at_utc": "2026-03-07T00:00:00Z",
-    "schema_version": "1.0"
+    "schema_version": "1.1",
+    "about": {
+      "title": "WorldWar Dashboard",
+      "subtitle": "An editorial map of active wars, spillovers, and conflict-connected power moves.",
+      "last_reviewed_at": "2026-03-07T00:00:00Z",
+      "sections": [
+        {
+          "heading": "What you’re looking at",
+          "bullets": [
+            "Nodes are actors (states, territories, orgs). Lines are relationships (war, support, coercion, spillover).",
+            "Click a node or a line to open the panel. The selected node’s network becomes the focus.",
+            "Use ‘Zoom To Theater’ to jump regions, and filters to manage clutter."
+          ]
+        },
+        {
+          "heading": "Lens presets",
+          "bullets": [
+            "Editorial: the full map (default).",
+            "Armed Conflict: wars + civil conflicts (a narrower conflict lens).",
+            "War-Connectedness: support + spillover/basing (how wars pull in others).",
+            "Coercion: policy/sanctions + escalation risks (pressure and brinkmanship)."
+          ]
+        },
+        {
+          "heading": "Defensibility",
+          "bullets": [
+            "Every node and edge can include: (1) last verified date, (2) confidence, (3) sources.",
+            "In the panel, expand ‘Evidence’ to see citations and notes (kept collapsed by default)."
+          ]
+        }
+      ],
+      "caveats": {
+        "heading": "Caveats & Definitions",
+        "bullets": [
+          "This is an editorial project. Categories and summaries reflect the author’s assessment at time of writing.",
+          "IHL labels are included as a reference framework, not legal determinations.",
+          "High-stakes terms (e.g., self-defense, genocide) can be contested; this map does not claim to issue legal rulings.",
+          "When evidence changes, the map can change: pay attention to timestamps and sources."
+        ]
+      }
+    }
   },
   "nodes": [
     {
