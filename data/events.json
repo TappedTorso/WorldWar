@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-03-15T13:17:52Z",
+    "generated_at_utc": "2026-03-15T13:58:18Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "http_error status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
         "fetched": 0
       },
       {
@@ -32,16 +32,6 @@
     }
   },
   "events": [
-    {
-      "id": "gdelt_2e8c3971c1f4b658",
-      "headline": "Pakistan Serang Pangkalan Taliban di Kandahar , Drone Lintas Batas Picu Eskalasi Konflik Asia Selatan",
-      "url": "https://www.tribunnews.com/internasional/7804882/pakistan-serang-pangkalan-taliban-di-kandahar-drone-lintas-batas-picu-eskalasi-konflik-asia-selatan",
-      "published_at": "20260315T074500Z",
-      "source": "tribunnews.com",
-      "tags": [
-        "PAKISTAN"
-      ]
-    },
     {
       "id": "gdelt_1003b60627cbb440",
       "headline": "Санкции против российской нефти - Трамп ответил , при каком условии он возобновит ограничения",
@@ -102,7 +92,9 @@
       "url": "https://www.rediff.com/news/report/pak-smugglers-six-arrested-with-arms-heroin-in-amritsar/20260315.htm",
       "published_at": "20260315T090000Z",
       "source": "rediff.com",
-      "tags": []
+      "tags": [
+        "PAKISTAN"
+      ]
     },
     {
       "id": "gdelt_f702d5938b0db9ea",
@@ -281,13 +273,13 @@
       "tags": []
     },
     {
-      "id": "gdelt_5067181b8d8272b0",
-      "headline": "Pejabat AS - China Berunding di Paris , Trump Berencana Temui Xi Jinping",
-      "url": "https://www.cnnindonesia.com/ekonomi/20260315104727-92-1338212/pejabat-as-china-berunding-di-paris-trump-berencana-temui-xi-jinping",
-      "published_at": "20260315T074500Z",
-      "source": "cnnindonesia.com",
+      "id": "gdelt_82bebf405d364aa0",
+      "headline": "Nga ndërmjetësuese në spektatore : Roli i Evropës në Iran",
+      "url": "https://zeri.info/bota/615116/nga-ndermjetesuese-ne-spektatore-roli-i-evropes-ne-iran/",
+      "published_at": "20260315T130000Z",
+      "source": "zeri.info",
       "tags": [
-        "CHINA"
+        "IRAN"
       ]
     },
     {
@@ -363,6 +355,16 @@
       "tags": []
     },
     {
+      "id": "gdelt_2539baa437244fc8",
+      "headline": "Україна запровадила санкції проти ВПК РФ та Ірану",
+      "url": "https://ua.korrespondent.net/ukraine/4862568-ukraina-zaprovadyla-sanktsii-proty-vpk-rf-ta-iranu",
+      "published_at": "20260315T130000Z",
+      "source": "ua.korrespondent.net",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
       "id": "gdelt_1f1d162e4c3d05dd",
       "headline": "Ночная атака на Севастополь сбито шесть дронов идет эвакуация",
       "url": "https://wek.ru/nochnaya-ataka-na-sevastopol-sbito-shest-dronov-idet-yevakuaciya",
@@ -395,19 +397,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_7127f990328cd5a3",
-      "headline": "Зеленський пояснив необхідність контролю над продажем української зброї",
-      "url": "https://glavcom.ua/country/politics/zelenskij-pojasniv-neobkhidnist-kontrolju-nad-prodazhem-ukrajinskoji-zbroji-1108175.html",
-      "published_at": "20260315T084500Z",
-      "source": "glavcom.ua",
-      "tags": []
-    },
-    {
       "id": "gdelt_7ceaa95c003b7c28",
       "headline": "Трамп намерен вернуть санкции против России после стабилизации цен на нефть",
       "url": "https://www.pnp.ru/politics/tramp-nameren-vernut-sankcii-protiv-rossii-posle-stabilizacii-cen-na-neft.html",
       "published_at": "20260315T100000Z",
       "source": "pnp.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7127f990328cd5a3",
+      "headline": "Зеленський пояснив необхідність контролю над продажем української зброї",
+      "url": "https://glavcom.ua/country/politics/zelenskij-pojasniv-neobkhidnist-kontrolju-nad-prodazhem-ukrajinskoji-zbroji-1108175.html",
+      "published_at": "20260315T084500Z",
+      "source": "glavcom.ua",
       "tags": []
     },
     {
@@ -443,14 +445,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_6684627f9c0e5830",
-      "headline": "Ослабление санкций на российскую нефть - Трамп сказал , как долго они будут действовать",
-      "url": "https://24tv.ua/geopolitics/ru/oslablenie-sankcij-na-rossijskuju-neft-tramp-skazal-kak-dolgo-oni-budut-dejstvovat_n3028631",
-      "published_at": "20260315T074500Z",
-      "source": "24tv.ua",
-      "tags": []
-    },
-    {
       "id": "gdelt_0927f03a11a2bfed",
       "headline": "Дмитриев : ЕС совершает « харакири », отказываясь от энергоносителей из России",
       "url": "https://aif.ru/politics/dmitriev-es-sovershaet-harakiri-otkazyvayas-ot-energonositeley-iz-rossii",
@@ -481,7 +475,6 @@
       "published_at": "20260315T110000Z",
       "source": "hindustantimes.com",
       "tags": [
-        "IRAN",
         "ISRAEL"
       ]
     },
@@ -504,11 +497,11 @@
       ]
     },
     {
-      "id": "gdelt_9d81760df17445c7",
-      "headline": "AB , Rusyaya yönelik yaptırımların süresini uzattı",
-      "url": "https://www.sabah.com.tr/ekonomi/ab-rusyaya-yonelik-yaptirimlarin-suresini-uzatti-7543546",
-      "published_at": "20260315T074500Z",
-      "source": "sabah.com.tr",
+      "id": "gdelt_880612f26a8a26be",
+      "headline": "FT : США не вводят новые санкции против российской нефти",
+      "url": "https://aif.ru/politics/world/ft-ssha-ne-vvodyat-novye-sankcii-protiv-rossiyskoy-nefti",
+      "published_at": "20260315T131500Z",
+      "source": "aif.ru",
       "tags": []
     },
     {
@@ -626,6 +619,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_4c4d5528fb888501",
+      "headline": "США вновь поставляют вольфрам в Россию после перерыва в 2 года",
+      "url": "https://life.ru/p/1852295",
+      "published_at": "20260315T131500Z",
+      "source": "life.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_a59f3fb4a868e407",
       "headline": "Ukraine sanctions 10 Russian Paralympians , firms tied to Russian , Iranian arms industry",
       "url": "https://www.yahoo.com/news/articles/ukraine-sanctions-10-russian-paralympians-102531763.html",
@@ -740,14 +741,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_0308f185c6f3b4b9",
-      "headline": "Орбан заявив про  українську нафтову блокаду  та звинуватив Зеленського в енергетичних ризиках для Угорщини",
-      "url": "https://interfax.com.ua/news/general/1151727.html",
-      "published_at": "20260315T073000Z",
-      "source": "interfax.com.ua",
-      "tags": []
-    },
-    {
       "id": "gdelt_7cbf5b5431dcb426",
       "headline": "Kenya Flags Turkish National Over Alleged Al - Shabaab Financing Links",
       "url": "https://chimpreports.com/kenya-flags-turkish-national-over-alleged-al-shabaab-financing-links/",
@@ -761,14 +754,6 @@
       "url": "http://world.people.com.cn/n1/2026/0315/c1002-40682241.html",
       "published_at": "20260315T084500Z",
       "source": "world.people.com.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_430eee30eaa1bab2",
-      "headline": "美以军事打击伊朗波及美农业生产 _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202603153672369928.html",
-      "published_at": "20260315T074500Z",
-      "source": "finance.eastmoney.com",
       "tags": []
     },
     {
@@ -860,19 +845,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_eb58794ddfc3449f",
-      "headline": "Арагчи : Иран си сътрудничи с Китай и Русия , включително във военната сфера",
-      "url": "https://www.focus-news.net/novini/mejdunarodni/Aragchi-Iran-si-sutrudnichi-s-Kitai-i-Rusiya-vklyuchitelno-vuv-voennata-sfe-2924343",
-      "published_at": "20260315T084500Z",
-      "source": "focus-news.net",
-      "tags": []
-    },
-    {
       "id": "gdelt_c220db71b942d360",
       "headline": "Нові санкції : кого  забанила  Україна цього разу DSnews . ua",
       "url": "https://www.dsnews.ua/ukr/politics/novi-sankciji-kogo-zabanila-ukrajina-cogo-razu-15032026-455170",
       "published_at": "20260315T124500Z",
       "source": "dsnews.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_eb58794ddfc3449f",
+      "headline": "Арагчи : Иран си сътрудничи с Китай и Русия , включително във военната сфера",
+      "url": "https://www.focus-news.net/novini/mejdunarodni/Aragchi-Iran-si-sutrudnichi-s-Kitai-i-Rusiya-vklyuchitelno-vuv-voennata-sfe-2924343",
+      "published_at": "20260315T084500Z",
+      "source": "focus-news.net",
       "tags": []
     },
     {
@@ -950,14 +935,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_bba2b036f2957bed",
-      "headline": "Последња особа од које нам је потребна помоћ је Зеленски",
-      "url": "https://www.politika.rs/scc/clanak/738969/poslednja-osoba-od-koje-nam-je-potrebna-pomoc-je-zelenski",
-      "published_at": "20260315T073000Z",
-      "source": "politika.rs",
-      "tags": []
-    },
-    {
       "id": "gdelt_57111cb3f48eb324",
       "headline": "Cố vấn khuyên ông Trump tuyên bố chiến thắng , kết thúc chiến dịch Iran",
       "url": "https://vietgiaitri.com/co-van-khuyen-ong-trump-tuyen-bo-chien-thang-ket-thuc-chien-dich-iran-20260315i7656193/",
@@ -1014,11 +991,38 @@
       "tags": []
     },
     {
+      "id": "gdelt_a0b057e56f632a80",
+      "headline": "Shadow fleets of sanctions - skirting ships facing global crackdown : analysis",
+      "url": "https://www.cbc.ca/news/world/shadow-fleet-russia-venezuela-crackdown-9.7128428",
+      "published_at": "20260315T090000Z",
+      "source": "cbc.ca",
+      "tags": [
+        "RUSSIA",
+        "VENEZUELA"
+      ]
+    },
+    {
       "id": "gdelt_f166f7eb3f56e546",
       "headline": "وزير الخارجية يبدأ جولة خليجية لتعزيز التنسيق العربي واحتواء التصعيد الإقليمي",
       "url": "https://www.dostor.org/5458736",
       "published_at": "20260315T100000Z",
       "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a545f9cb8952965a",
+      "headline": "Pašto įmonės lengvai apeina europines sankcijas Rusijai",
+      "url": "https://www.respublika.lt/lt/naujienos/pasaulis/kitos_pasaulio_naujienos/pasto-imones-lengvai-apeina-europines-sankcijas-rusijai/",
+      "published_at": "20260315T110000Z",
+      "source": "respublika.lt",
+      "tags": []
+    },
+    {
+      "id": "gdelt_363edf31bf38a08a",
+      "headline": "Bị phạt vì chạy quá tốc độ , người đàn ông đăng Facebook xúc phạm CSGT",
+      "url": "https://dantri.com.vn/phap-luat/bi-phat-vi-chay-qua-toc-do-nguoi-dan-ong-dang-facebook-xuc-pham-csgt-20260315142801171.htm",
+      "published_at": "20260315T104500Z",
+      "source": "dantri.com.vn",
       "tags": []
     }
   ]
