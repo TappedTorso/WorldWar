@@ -1,0 +1,88 @@
+name: Update map data (LLM proposal)
+
+on:
+  # Run once daily at 09:00 UTC — after the hourly events feed has had time to accumulate
+  schedule:
+    - cron: "0 9 * * *"
+  # Allow manual trigger with optional overrides
+  workflow_dispatch:
+    inputs:
+      lookback_hours:
+        description: "Hours of events to analyse (default: 24)"
+        required: false
+        default: "24"
+      min_cluster_size:
+        description: "Min events per node to trigger review (default: 3)"
+        required: false
+        default: "3"
+      dry_run:
+        description: "Dry run — print patch without writing files"
+        required: false
+        default: "false"
+        type: boolean
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-map-llm
+  cancel-in-progress: true
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+      - name: Run LLM map update
+        id: update
+        run: python scripts/update_map.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LOOKBACK_HOURS: ${{ github.event.inputs.lookback_hours || '24' }}
+          MIN_CLUSTER_SIZE: ${{ github.event.inputs.min_cluster_size || '3' }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+
+      # Only open a PR if the script actually wrote proposed changes
+      - name: Read PR summary
+        id: summary
+        if: steps.update.outputs.has_changes == 'true'
+        run: |
+          # Pass the summary markdown into the PR body via env
+          {
+            echo 'SUMMARY<<EOF'
+            cat data/map_patch_summary.md
+            echo EOF
+          } >> "$GITHUB_ENV"
+
+      - name: Open PR with proposed changes
+        if: steps.update.outputs.has_changes == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # Commit only the proposed/patch files — never map_data.json directly
+          add-paths: |
+            data/map_data_proposed.json
+            data/map_patch_latest.json
+            data/map_patch_summary.md
+          commit-message: "chore: LLM map update proposal"
+          branch: "llm-map-proposal/${{ github.run_id }}"
+          delete-branch: true
+          title: "🗺 Proposed map update — ${{ github.run_id }}"
+          body: ${{ env.SUMMARY }}
+          labels: |
+            map-proposal
+            needs-review
+          # Draft so it can't be accidentally merged without attention
+          draft: true
