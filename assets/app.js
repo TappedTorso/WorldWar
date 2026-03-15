@@ -36,6 +36,7 @@ const GEO_MAX_ZOOM   = 20;
 const WHEEL_STEP     = 1.08;  // 8% per scroll tick — slow & precise
 const PINCH_DAMPING  = 0.35;  // apply 35% of raw pinch ratio
 const DEFAULT_CENTER = [10, 30];
+const GEO_ID         = 'baseGeo';
 
 // ─────────────────────────────────────────────────────────────────────────────
 
@@ -541,11 +542,11 @@ function initUI({ meta, data, events }) {
       name:n.geoName, itemStyle:{ areaColor:n.color+(state.selected&&!connectedNodes.has(n.id)?'05':'30'), borderColor:n.color+(state.selected&&!connectedNodes.has(n.id)?'10':'ff') }
     }));
     chart.setOption({
-      geo:{ id:'baseGeo', regions:mapFills },
+      geo:[{ id:GEO_ID, regions:mapFills }],
       series:[
-        { id:'focusNode', name:'focusNode', type:'effectScatter', coordinateSystem:'geo', geoIndex:0, zlevel:3, rippleEffect:{ brushType:'stroke', scale:3 }, symbolSize:val=>val[2]*1.2, data:focusNodes },
-        { id:'ambientNodes', name:'ambientNodes', type:'scatter', coordinateSystem:'geo', geoIndex:0, zlevel:2, symbolSize:val=>val[2], data:ambientNodes },
-        { id:'linesSeries', name:'linesSeries', type:'lines', coordinateSystem:'geo', geoIndex:0, zlevel:1,
+        { id:'focusNode', name:'focusNode', type:'effectScatter', coordinateSystem:'geo', geoId:GEO_ID, zlevel:3, rippleEffect:{ brushType:'stroke', scale:3 }, symbolSize:val=>val[2]*1.2, data:focusNodes },
+        { id:'ambientNodes', name:'ambientNodes', type:'scatter', coordinateSystem:'geo', geoId:GEO_ID, zlevel:2, symbolSize:val=>val[2], data:ambientNodes },
+        { id:'linesSeries', name:'linesSeries', type:'lines', coordinateSystem:'geo', geoId:GEO_ID, zlevel:1,
           symbol:['none','arrow'], symbolSize:6,
           // trailLength:0 eliminates particle streak artifacts during roam
           effect:{ show:true, period:4, trailLength:0, symbol:'circle', symbolSize:3 },
@@ -562,7 +563,7 @@ function initUI({ meta, data, events }) {
     state.selected=nodeId;
     // Use setOption for programmatic jumps (theater/node select) — these aren't
     // frame-sensitive interactive operations, so the full lifecycle is fine here.
-    chart.setOption({ geo:{ center:node.coords, zoom:4 } });
+    chart.setOption({ geo:[{ id:GEO_ID, center:node.coords, zoom:4 }] });
     syncFilterUI(); updateMap(); renderNodePanel(nodeId); writeHashState(state);
   };
   const clearSelection=()=>{ state.selected=null; updateMap(); setPanelOpen(false); writeHashState(state); };
@@ -585,8 +586,8 @@ function initUI({ meta, data, events }) {
 
   chart.setOption({
     backgroundColor:'transparent',
-    geo:{
-      id:'baseGeo', map:'world',
+    geo:[{
+      id:GEO_ID, map:'world',
       // roam:'move' — ECharts handles drag natively (moves geo+series together).
       // Wheel zoom is fully disabled in ECharts; we intercept and handle it below.
       roam:'move',
@@ -595,7 +596,7 @@ function initUI({ meta, data, events }) {
       label:{ emphasis:{ show:false } },
       itemStyle:{ areaColor:COLORS.MAP_BG, borderColor:COLORS.MAP_BORDER, borderWidth:1 },
       emphasis:{ itemStyle:{ areaColor:'#1e2538' } }
-    },
+    }],
     tooltip:{
       trigger:'item', backgroundColor:'rgba(15,23,42,0.95)', borderColor:'rgba(255,255,255,0.1)', textStyle:{ color:'#fff' },
       formatter:(params)=>{
@@ -649,7 +650,8 @@ function initUI({ meta, data, events }) {
 
   const getGeoState=()=>{
     const opt=chart.getOption();
-    return { zoom:opt?.geo?.[0]?.zoom??GEO_MIN_ZOOM, center:opt?.geo?.[0]?.center??[...DEFAULT_CENTER] };
+    const geoOpt=(opt?.geo||[]).find(g=>g.id===GEO_ID)??opt?.geo?.[0]??{};
+    return { zoom:geoOpt.zoom??GEO_MIN_ZOOM, center:geoOpt.center??[...DEFAULT_CENTER] };
   };
 
   // ── applyZoom: the correct approach ──────────────────────────────────────
@@ -666,7 +668,7 @@ function initUI({ meta, data, events }) {
     chart.dispatchAction({
       type:        'geoRoam',
       componentType: 'geo',   // CRITICAL — without this it defaults to 'series'
-      geoIndex:    0,
+      geoId:       GEO_ID,
       zoom:        clampedFactor,
       originX:     pixelX,
       originY:     pixelY
@@ -749,7 +751,7 @@ function initUI({ meta, data, events }) {
       const dLng=Math.abs(lng-DEFAULT_CENTER[0]);
       if (dLat>2||dLng>6) {
         clampingPan=true;
-        chart.setOption({ geo:{ center:[...DEFAULT_CENTER] } });
+        chart.setOption({ geo:[{ id:GEO_ID, center:[...DEFAULT_CENTER] }] });
         clampingPan=false;
       }
       return;
@@ -760,7 +762,7 @@ function initUI({ meta, data, events }) {
     const clampedLng=Math.max(-220,Math.min(260,lng));
     if (Math.abs(clampedLat-lat)>0.5||Math.abs(clampedLng-lng)>0.5) {
       clampingPan=true;
-      chart.setOption({ geo:{ center:[clampedLng,clampedLat] } });
+      chart.setOption({ geo:[{ id:GEO_ID, center:[clampedLng,clampedLat] }] });
       clampingPan=false;
     }
   });
@@ -786,7 +788,7 @@ function initUI({ meta, data, events }) {
       state.theater=e.target.dataset.theater;
       const center=JSON.parse(e.target.dataset.center);
       const zoom=parseFloat(e.target.dataset.zoom);
-      chart.setOption({ geo:{ center, zoom } });
+      chart.setOption({ geo:[{ id:GEO_ID, center, zoom }] });
       state.selected=null; setPanelOpen(false); syncFilterUI(); updateMap(); writeHashState(state);
     });
   });
