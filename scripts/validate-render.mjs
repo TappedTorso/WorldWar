@@ -9,7 +9,11 @@ const ECHARTS_NAMES = new Set([
   "United Kingdom", "Spain", "Czech Rep.", "North Korea", "India",
   "Pakistan", "Myanmar", "Taiwan", "Philippines", "Vietnam",
   "Venezuela", "Bahrain", "Kuwait", "Qatar", "United Arab Emirates",
-  "Oman", "Cyprus", "Palestine"
+  "Oman", "Cyprus", "Palestine", "Belarus", "Romania", "Saudi Arabia", 
+  "Japan", "South Korea", "S. Sudan", "Central African Rep.", "Burkina Faso", 
+  "Mali", "Niger", "Benin", "Ghana", "Nigeria", "Cameroon", "Dem. Rep. Congo", 
+  "Rwanda", "Mozambique", "Thailand", "Afghanistan", "Haiti", "Dominican Rep.", 
+  "Ecuador", "Colombia", "Peru", "Cuba", "Eritrea", "Mexico", "Somalia"
   // add as you add nodes
 ]);
 
