@@ -1,17 +1,18 @@
 /*
   WorldWar Dashboard — Phase 3 (Defensibility)
 
-  Zoom/pan strategy (final):
-  - roam: 'move' only — ECharts handles drag natively (map + series move together)
-  - roam NEVER handles scroll/pinch — we block those entirely in capture phase
-  - Zoom via chart.setOption({ geo: { zoom, center } }) only
-    → updates geo coordinate system → all dependent series re-project in same frame
-    → no split-frame artifact (dispatchAction was the wrong tool)
+  Zoom/pan strategy (final, verified against ECharts source):
+  - roam: 'move' — ECharts handles drag natively (geo + series move together via updateTransform)
+  - Wheel zoom uses dispatchAction({ type:'geoRoam', componentType:'geo', geoIndex:0 })
+    → componentType:'geo' is CRITICAL: updates the shared Geo coordinate object
+    → all dependent series re-project against it in the same updateTransform pass
+    → no split-frame artifact (the previous mistake was omitting componentType:'geo',
+      which defaults to 'series' and only updates series models, leaving the base tile alone)
+  - setOption is NOT used for zoom (triggers full heavy lifecycle, causes jank)
   - Wheel: capture-phase intercept + RAF throttle (accumulate ticks, apply once/frame)
   - Pinch: capture-phase intercept + PINCH_DAMPING factor
-  - georoam event: pan clamping — at global zoom lock to default center,
-    at higher zooms clamp geographic bounds
-  - trailLength: 0 on lines effect — eliminates particle streak artifacts
+  - georoam event: pan clamping via setOption (acceptable for rare drag-limit corrections)
+  - trailLength: 0 on lines effect — eliminates particle streak artifacts during roam
 */
 
 const COLORS = {
@@ -546,7 +547,7 @@ function initUI({ meta, data, events }) {
         { id:'ambientNodes', name:'ambientNodes', type:'scatter', coordinateSystem:'geo', geoIndex:0, zlevel:2, symbolSize:val=>val[2], data:ambientNodes },
         { id:'linesSeries', name:'linesSeries', type:'lines', coordinateSystem:'geo', geoIndex:0, zlevel:1,
           symbol:['none','arrow'], symbolSize:6,
-          // trailLength:0 — eliminates streak artifacts during roam
+          // trailLength:0 eliminates particle streak artifacts during roam
           effect:{ show:true, period:4, trailLength:0, symbol:'circle', symbolSize:3 },
           data:mapLines }
       ]
@@ -559,6 +560,8 @@ function initUI({ meta, data, events }) {
     const node=data.nodesById.get(nodeId); if(!node) return;
     if (state.theater!=='ALL'&&!node.theaters.includes(state.theater)) state.theater='ALL';
     state.selected=nodeId;
+    // Use setOption for programmatic jumps (theater/node select) — these aren't
+    // frame-sensitive interactive operations, so the full lifecycle is fine here.
     chart.setOption({ geo:{ center:node.coords, zoom:4 } });
     syncFilterUI(); updateMap(); renderNodePanel(nodeId); writeHashState(state);
   };
@@ -584,11 +587,10 @@ function initUI({ meta, data, events }) {
     backgroundColor:'transparent',
     geo:{
       id:'baseGeo', map:'world',
-      // 'move' = ECharts handles drag natively (geo + series move together)
-      // scroll-wheel zoom is blocked entirely — we handle it ourselves below
+      // roam:'move' — ECharts handles drag natively (moves geo+series together).
+      // Wheel zoom is fully disabled in ECharts; we intercept and handle it below.
       roam:'move',
       zoom:initialZoom, center:initialCenter,
-      // Safety clamp on any residual native scroll-zoom ECharts might attempt
       scaleLimit:{ min:GEO_MIN_ZOOM, max:GEO_MAX_ZOOM },
       label:{ emphasis:{ show:false } },
       itemStyle:{ areaColor:COLORS.MAP_BG, borderColor:COLORS.MAP_BORDER, borderWidth:1 },
@@ -625,17 +627,22 @@ function initUI({ meta, data, events }) {
   // ══════════════════════════════════════════════════════════════════════════
   // ZOOM CONTROL — wheel + pinch
   //
-  // We block ECharts' native scroll-zoom entirely by:
-  //   (a) setting roam:'move' (no native scroll handling)
-  //   (b) catching wheel events in capture phase before anything else
+  // Key insight from ECharts source (src/action/geoRoam.js):
+  //   dispatchAction({ type:'geoRoam', componentType:'geo' }) updates the geo
+  //   component model's center+zoom via updateCenterAndZoom(), which writes back
+  //   to the shared Geo coordinate system object. All series that declare
+  //   coordinateSystem:'geo' + geoIndex:0 share this same object, so when the
+  //   updateTransform pipeline runs, all layers re-project in a single pass.
+  //   No split-frame artifact.
   //
-  // We zoom using chart.setOption({ geo: { zoom, center } }).
-  // This is the ONLY correct way — it updates the geo coordinate system which
-  // all dependent series (scatter, lines) automatically re-project against in
-  // the same render frame. No split-frame, no independent layer movement.
+  //   Without componentType:'geo' (the default is 'series'), the action only
+  //   updates series-type models, leaving the base geo tile untouched — which
+  //   is exactly the desync we saw in the previous attempt.
   //
-  // Anchor math: when zooming, we keep the point under the cursor stationary.
-  //   newCenter = anchor + (oldCenter - anchor) / zoomRatio
+  //   setOption({ geo: { zoom } }) triggers the full heavy lifecycle and can
+  //   cause jank on rapid wheel events — not suitable for per-frame zoom.
+  //   We still use setOption for large programmatic jumps (theater select,
+  //   node select, pan clamp corrections) where the cost is acceptable.
   // ══════════════════════════════════════════════════════════════════════════
 
   const mapEl=el('map-container');
@@ -645,43 +652,35 @@ function initUI({ meta, data, events }) {
     return { zoom:opt?.geo?.[0]?.zoom??GEO_MIN_ZOOM, center:opt?.geo?.[0]?.center??[...DEFAULT_CENTER] };
   };
 
+  // ── applyZoom: the correct approach ──────────────────────────────────────
+  // dispatchAction with componentType:'geo' updates the shared Geo object →
+  // all series re-project in the same updateTransform pass → no split frame.
+  // ECharts handles the anchor math internally via originX/originY.
+  // We pre-clamp the factor so we never exceed scaleLimit.
   const applyZoom=(factor, pixelX, pixelY)=>{
-    const { zoom:curZoom, center:curCenter }=getGeoState();
-    const newZoom=Math.max(GEO_MIN_ZOOM, Math.min(GEO_MAX_ZOOM, curZoom*factor));
-    if (Math.abs(newZoom-curZoom)<0.0001) return;
+    const { zoom:curZoom }=getGeoState();
+    const targetZoom=Math.max(GEO_MIN_ZOOM, Math.min(GEO_MAX_ZOOM, curZoom*factor));
+    const clampedFactor=targetZoom/curZoom;
+    if (Math.abs(clampedFactor-1)<0.0001) return; // already at limit, nothing to do
 
-    const ratio=newZoom/curZoom;
-
-    // Convert pixel anchor to geographic coordinates using current projection
-    const anchorGeo=chart.convertFromPixel({ geoIndex:0 },[pixelX,pixelY]);
-
-    let newCenter;
-    if (anchorGeo) {
-      // Keep anchor geo point fixed under the cursor
-      newCenter=[
-        anchorGeo[0]+(curCenter[0]-anchorGeo[0])/ratio,
-        anchorGeo[1]+(curCenter[1]-anchorGeo[1])/ratio
-      ];
-    } else {
-      newCenter=[...curCenter];
-    }
-
-    // Clamp: at global zoom, reset to default center (no panning)
-    if (newZoom<=GEO_MIN_ZOOM*1.05) {
-      newCenter=[...DEFAULT_CENTER];
-    }
-
-    chart.setOption({ geo:{ zoom:newZoom, center:newCenter } });
+    chart.dispatchAction({
+      type:        'geoRoam',
+      componentType: 'geo',   // CRITICAL — without this it defaults to 'series'
+      geoIndex:    0,
+      zoom:        clampedFactor,
+      originX:     pixelX,
+      originY:     pixelY
+    });
   };
 
   // RAF throttle: accumulate wheel ticks within one animation frame, apply once.
-  // A Mac trackpad fires 8-12 events per physical gesture; without throttling
-  // each fires a separate setOption which looks jerky.
+  // Mac trackpad fires 8-12 wheel events per physical gesture tick; without
+  // throttling, each would dispatch a separate geoRoam, causing microstutter.
   let rafId=null, pendingFactor=1, pendingPx=0, pendingPy=0;
 
   mapEl.addEventListener('wheel',(e)=>{
     e.preventDefault();
-    e.stopImmediatePropagation(); // must be before ECharts' own bubble-phase listener
+    e.stopImmediatePropagation(); // block any ECharts bubble-phase wheel handlers
 
     const rect=mapEl.getBoundingClientRect();
     pendingFactor *= (e.deltaY<0 ? WHEEL_STEP : 1/WHEEL_STEP);
@@ -728,11 +727,13 @@ function initUI({ meta, data, events }) {
   // ══════════════════════════════════════════════════════════════════════════
   // PAN CLAMPING via georoam event
   //
-  // roam:'move' lets ECharts handle drag. The georoam event fires after each
-  // roam action. We clamp here:
-  //   • At/near global zoom: snap back to DEFAULT_CENTER (no panning allowed)
-  //   • At higher zooms: clamp to geographic extremes so map can't fully
-  //     escape the viewport
+  // The georoam event fires after any roam — both native drag (roam:'move')
+  // and our dispatchAction calls. We use it to enforce bounds:
+  //   • At/near global zoom: snap to DEFAULT_CENTER (no drift allowed)
+  //   • At all zooms: hard geographic bounds so map can't escape viewport
+  //
+  // setOption is acceptable here — pan corrections are rare (user must drag
+  // to an extreme), not per-frame, so the full lifecycle cost is fine.
   // ══════════════════════════════════════════════════════════════════════════
 
   let clampingPan=false;
@@ -742,7 +743,7 @@ function initUI({ meta, data, events }) {
     const { zoom, center }=getGeoState();
     let [lng,lat]=center;
 
-    // At global zoom — no panning
+    // At global zoom — lock center, no panning
     if (zoom<=GEO_MIN_ZOOM*1.1) {
       const dLat=Math.abs(lat-DEFAULT_CENTER[1]);
       const dLng=Math.abs(lng-DEFAULT_CENTER[0]);
@@ -754,7 +755,7 @@ function initUI({ meta, data, events }) {
       return;
     }
 
-    // At higher zooms — geographic bounds
+    // At higher zooms — geographic hard bounds
     const clampedLat=Math.max(-75,Math.min(80,lat));
     const clampedLng=Math.max(-220,Math.min(260,lng));
     if (Math.abs(clampedLat-lat)>0.5||Math.abs(clampedLng-lng)>0.5) {
