@@ -1,7 +1,9 @@
 name: Update events feed
+
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    # Run hourly at :17 to avoid the busiest top-of-hour / half-hour windows
+    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -15,25 +17,46 @@ jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+
     steps:
       - uses: actions/checkout@v5
+        with:
+          ref: main
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: python scripts/update_events.py
+
+      - name: Jitter to avoid rate-limit spikes
+        shell: bash
+        run: sleep $((RANDOM % 120))
+
+      - name: Update events data
+        run: python scripts/update_events.py
         env:
           GDELT_QUERY: ${{ secrets.GDELT_QUERY }}
           GDELT_TRIPWIRE_QUERY: ${{ secrets.GDELT_TRIPWIRE_QUERY }}
           GDELT_TIMESPAN: ${{ secrets.GDELT_TIMESPAN }}
           MAX_EVENTS: "120"
           PER_TAG_PER_DAY_LIMIT: "3"
-      - run: |
+
+      - name: Commit updated data if changed
+        shell: bash
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add data/events.json data/meta.json
+
           if git diff --cached --quiet; then
             echo "No data changes detected"
             exit 0
           fi
+
           git commit -m "Update events feed"
-          git push
+
+          if ! git push origin HEAD:main; then
+            echo "Push failed, rebasing on latest main and retrying..."
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
