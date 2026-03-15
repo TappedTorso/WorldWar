@@ -1,19 +1,19 @@
 {
   "metadata": {
     "title": "2026 Global Armed Conflicts & Interactions",
-    "generated_at_utc": "2026-03-07T00:00:00Z",
+    "generated_at_utc": "2026-03-15T00:00:00Z",
     "schema_version": "1.1",
     "about": {
       "title": "WorldWar Dashboard",
       "subtitle": "An editorial map of active wars, spillovers, and conflict-connected power moves.",
-      "last_reviewed_at": "2026-03-07T00:00:00Z",
+      "last_reviewed_at": "2026-03-15T00:00:00Z",
       "sections": [
         {
-          "heading": "What you’re looking at",
+          "heading": "What you're looking at",
           "bullets": [
             "Nodes are actors (states, territories, orgs). Lines are relationships (war, support, coercion, spillover).",
-            "Click a node or a line to open the panel. The selected node’s network becomes the focus.",
-            "Use ‘Zoom To Theater’ to jump regions, and filters to manage clutter."
+            "Click a node or a line to open the panel. The selected node's network becomes the focus.",
+            "Use 'Zoom To Theater' to jump regions, and filters to manage clutter."
           ]
         },
         {
@@ -29,20 +29,21 @@
           "heading": "Defensibility",
           "bullets": [
             "Every node and edge can include: (1) last verified date, (2) confidence, (3) sources.",
-            "In the panel, expand ‘Evidence’ to see citations and notes (kept collapsed by default)."
+            "In the panel, expand 'Evidence' to see citations and notes (kept collapsed by default)."
           ]
         }
       ],
       "caveats": {
         "heading": "Caveats & Definitions",
         "bullets": [
-          "This is an editorial project. Categories and summaries reflect the author’s assessment at time of writing.",
+          "This is an editorial project. Categories and summaries reflect the author's assessment at time of writing.",
           "IHL labels are included as a reference framework, not legal determinations.",
           "High-stakes terms (e.g., self-defense, genocide) can be contested; this map does not claim to issue legal rulings.",
           "When evidence changes, the map can change: pay attention to timestamps and sources."
         ]
       }
-    }
+    },
+    "last_reviewed_at": "2026-03-15T00:00:00Z"
   },
   "nodes": [
     {
@@ -54,17 +55,17 @@
         "ME"
       ],
       "coords": [
-        54.0,
+        54,
         32.5
       ],
       "category": "WAR",
       "ihl": "IAC",
-      "exposure": "Belligerent / Target",
-      "intensity": 5,
+      "exposure": "Direct belligerent using energy and shipping coercion",
+      "intensity": 8,
       "color": "#ef4444",
-      "summary": "Major active interstate war triggered by Feb 28, 2026 strikes. EU issued high-level statements urging restraint and adopted restrictive measures.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Medium",
+      "summary": "Iran is treated as a direct belligerent whose retaliation now targets Gulf energy infrastructure and shipping near the Strait of Hormuz.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "High",
       "sources": []
     },
     {
@@ -80,13 +81,13 @@
         31.2
       ],
       "category": "WAR",
-      "ihl": "IAC & NIAC",
-      "exposure": "Belligerent",
-      "intensity": 5,
+      "ihl": "IAC",
+      "exposure": "Direct belligerent and Lebanon-front escalator",
+      "intensity": 8,
       "color": "#ef4444",
-      "summary": "Parallel IAC/NIAC dimensions. Fighting on multiple fronts including Iran, Palestine, and Lebanon.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Medium",
+      "summary": "Israel is described as a direct belligerent in the active war with Iran and as the state intensifying the Lebanon front.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "High",
       "sources": []
     },
     {
@@ -103,13 +104,13 @@
         37.09
       ],
       "category": "WAR",
-      "ihl": "IAC",
-      "exposure": "Belligerent / Intervenor",
-      "intensity": 4,
+      "ihl": "IAC (Iran); recent IAC episode in Venezuela",
+      "exposure": "Direct belligerent across multiple systems",
+      "intensity": 8,
       "color": "#ef4444",
-      "summary": "Coordinated operations in the Iran War, as well as an early Jan 2026 IAC episode with Venezuela.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Medium",
+      "summary": "The United States is a direct belligerent in the active war on Iran and as the state that carried out a short-lived January 2026 IAC episode in Venezuela.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "High",
       "sources": []
     },
     {
@@ -125,13 +126,13 @@
         33.9
       ],
       "category": "SPILLOVER",
-      "ihl": "NIAC/IAC Overlap",
-      "exposure": "Cross-border Spillover",
-      "intensity": 4,
+      "ihl": "Armed conflict classification contested",
+      "exposure": "Frontline state and humanitarian overload",
+      "intensity": 6,
       "color": "#f97316",
-      "summary": "Intensified conflict with Hezbollah, mass evacuation orders, and displacement linked to the broader regional war.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Medium",
+      "summary": "Lebanon is described as a frontline theater in the regional war system, with Israeli attacks, large-scale evacuation orders, and likely ground-incursion risk.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "High",
       "sources": []
     },
     {
@@ -166,7 +167,7 @@
       ],
       "coords": [
         38.5,
-        35.0
+        35
       ],
       "category": "WAR",
       "ihl": "Multiple IACs & NIACs",
@@ -213,13 +214,13 @@
         33.22
       ],
       "category": "SPILLOVER",
-      "ihl": "None/NIAC",
-      "exposure": "Instability & Spillover",
+      "ihl": null,
+      "exposure": "Retaliatory-target and front-extension risk",
       "intensity": 3,
       "color": "#f97316",
-      "summary": "Persistent instability and spillover from regional Middle East conflict systems.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Low",
+      "summary": "Iraq is flagged as a plausible front-extension zone if Iran–US/Israel operations widen into border areas or militia dynamics spill over.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
       "sources": []
     },
     {
@@ -235,13 +236,13 @@
         26.06
       ],
       "category": "SPILLOVER",
-      "ihl": "None",
-      "exposure": "Spillover Risk",
-      "intensity": 2,
+      "ihl": null,
+      "exposure": "Energy infrastructure and Gulf-war exposure",
+      "intensity": 4,
       "color": "#f97316",
-      "summary": "Identified as part of the retaliatory/targeting geography in the current Iran war context.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Low",
+      "summary": "Bahrain is identified as a directly exposed Gulf state in the Iran war system, with refinery and energy infrastructure risk.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
       "sources": []
     },
     {
@@ -257,13 +258,13 @@
         29.31
       ],
       "category": "SPILLOVER",
-      "ihl": "None",
-      "exposure": "Spillover Risk",
-      "intensity": 2,
+      "ihl": null,
+      "exposure": "Refinery and storage exposure",
+      "intensity": 4,
       "color": "#f97316",
-      "summary": "Identified as part of the retaliatory/targeting geography in the current Iran war context.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Low",
+      "summary": "Kuwait is identified as a Gulf spillover state exposed to refinery and storage targeting in the wider Iran war system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
       "sources": []
     },
     {
@@ -279,13 +280,13 @@
         25.35
       ],
       "category": "SPILLOVER",
-      "ihl": "None",
-      "exposure": "Spillover Risk",
-      "intensity": 2,
+      "ihl": null,
+      "exposure": "LNG and energy-shock exposure",
+      "intensity": 4,
       "color": "#f97316",
-      "summary": "Identified as part of the retaliatory/targeting geography in the current Iran war context.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Low",
+      "summary": "Qatar appears as a system-critical LNG exposure state in the Iran war system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
       "sources": []
     },
     {
@@ -301,13 +302,13 @@
         23.42
       ],
       "category": "SPILLOVER",
-      "ihl": "None",
-      "exposure": "Spillover / Maritime Exposure",
-      "intensity": 2,
+      "ihl": null,
+      "exposure": "Energy and logistics-hub exposure",
+      "intensity": 4,
       "color": "#f97316",
-      "summary": "Retaliatory targeting geography in Iran war and maritime/logistics exposure risk.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Low",
+      "summary": "The UAE is framed as a key Gulf exposure node because energy and logistics infrastructure are vulnerable to strikes and Hormuz disruption.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
       "sources": []
     },
     {
@@ -323,13 +324,13 @@
         21.47
       ],
       "category": "SPILLOVER",
-      "ihl": "None",
-      "exposure": "Maritime-Strategic Exposure",
-      "intensity": 2,
+      "ihl": null,
+      "exposure": "Hormuz-adjacent shipping exposure",
+      "intensity": 4,
       "color": "#f97316",
-      "summary": "Shipping risk in connected theaters (Hormuz/Red Sea) makes Oman a key exposure node.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Low",
+      "summary": "Oman is treated as a maritime spillover state because of its adjacency to the Strait of Hormuz.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
       "sources": []
     },
     {
@@ -368,12 +369,12 @@
         61.52
       ],
       "category": "WAR",
-      "ihl": "IAC",
-      "exposure": "Belligerent / Sanctions Target",
-      "intensity": 5,
+      "ihl": "IAC; occupation-related dimensions",
+      "exposure": "Direct belligerent and principal attacker",
+      "intensity": 9,
       "color": "#ef4444",
-      "summary": "Ongoing IAC and occupations in Ukraine.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "summary": "The report treats Russia as the principal attacking state in the continuing Russia–Ukraine international armed conflict.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "High",
       "sources": []
     },
@@ -391,11 +392,11 @@
       ],
       "category": "WAR",
       "ihl": "IAC",
-      "exposure": "Conflict Territory",
-      "intensity": 5,
+      "exposure": "Direct belligerent and defending state",
+      "intensity": 9,
       "color": "#ef4444",
-      "summary": "Ongoing IAC with occupation dimensions.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "summary": "Ukraine is framed as the defending state in an active high-tempo interstate war.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "High",
       "sources": []
     },
@@ -406,21 +407,20 @@
       "geoName": null,
       "theaters": [
         "UKR",
-        "ME",
-        "AFR"
+        "ME"
       ],
       "coords": [
         4.35,
         50.85
       ],
       "category": "POLICY",
-      "ihl": "None",
-      "exposure": "Sanctions & Financial Support",
-      "intensity": 4,
+      "ihl": null,
+      "exposure": "Sanctions, aid, and maritime-mitigation actor",
+      "intensity": 3,
       "color": "#10b981",
-      "summary": "Policy node: sanctions, financial support, training, maritime operations.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "High",
+      "summary": "The EU appears as a sanctions and policy actor in the Ukraine system and as part of wider mitigation discussions around the Gulf shipping crisis.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
       "sources": []
     },
     {
@@ -429,20 +429,19 @@
       "type": "state",
       "geoName": "Germany",
       "theaters": [
-        "UKR",
-        "ME"
+        "UKR"
       ],
       "coords": [
         10.45,
         51.16
       ],
       "category": "POLICY",
-      "ihl": "None",
-      "exposure": "Refugee Host / Energy Risk",
+      "ihl": null,
+      "exposure": "Sanctions and defense-industrial exposure",
       "intensity": 3,
       "color": "#10b981",
-      "summary": "Largest EU temporary protection host; major donor.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "summary": "Germany is described as a structurally exposed European actor because sanctions enforcement and defense-industrial sustainment tie it closely to the Ukraine war.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "Medium",
       "sources": []
     },
@@ -458,13 +457,13 @@
         19.14,
         51.91
       ],
-      "category": "POLICY",
-      "ihl": "None",
-      "exposure": "Major Refugee Host",
+      "category": "ALLY",
+      "ihl": null,
+      "exposure": "Frontier logistics and alliance-exposure node",
       "intensity": 3,
-      "color": "#10b981",
-      "summary": "Critical frontline support and humanitarian host.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "color": "#0ea5e9",
+      "summary": "Poland is treated as a key frontline logistics and alliance-exposure state in the Ukraine war system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "Medium",
       "sources": []
     },
@@ -481,12 +480,12 @@
         49.81
       ],
       "category": "POLICY",
-      "ihl": "None",
-      "exposure": "Major Refugee Host",
+      "ihl": null,
+      "exposure": "Ukraine-support exposure state",
       "intensity": 2,
       "color": "#10b981",
-      "summary": "Core EU refugee-hosting hub.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "summary": "Czechia is listed among the European states structurally tied to the Ukraine war through sustainment and exposure.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "Medium",
       "sources": []
     },
@@ -563,19 +562,19 @@
       "type": "state",
       "geoName": "North Korea",
       "theaters": [
-        "UKR"
+        "ASIA"
       ],
       "coords": [
         127.51,
         40.33
       ],
-      "category": "ALLY",
-      "ihl": "IAC (Co-belligerent)",
-      "exposure": "Co-belligerent",
-      "intensity": 3,
-      "color": "#0ea5e9",
-      "summary": "Direct troop engagement; treated as co-belligerent alongside Russia in Ukraine war.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "category": "TENSION",
+      "ihl": null,
+      "exposure": "Korean Peninsula escalation actor",
+      "intensity": 4,
+      "color": "#eab308",
+      "summary": "North Korea appears in the report's Korean Peninsula watchlist as a principal actor in a high-risk miscalculation scenario.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "Medium",
       "sources": []
     },
@@ -585,19 +584,20 @@
       "type": "state",
       "geoName": "China",
       "theaters": [
+        "ME",
         "ASIA"
       ],
       "coords": [
         104.19,
         35.86
       ],
-      "category": "TENSION",
-      "ihl": "None",
-      "exposure": "Militarized Dispute",
+      "category": "SPILLOVER",
+      "ihl": null,
+      "exposure": "Major Hormuz energy-import exposure",
       "intensity": 3,
-      "color": "#eab308",
-      "summary": "Cross-strait and maritime disputes.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "color": "#f97316",
+      "summary": "China is presented as a system-critical second-order actor because a large share of threatened Hormuz flows are destined for Asian importers.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "Medium",
       "sources": []
     },
@@ -614,12 +614,12 @@
         23.69
       ],
       "category": "TENSION",
-      "ihl": "None",
-      "exposure": "Confrontation Risk",
-      "intensity": 3,
+      "ihl": null,
+      "exposure": "High-escalation watchlist actor",
+      "intensity": 4,
       "color": "#eab308",
-      "summary": "Cross-strait confrontation risk.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "summary": "Taiwan appears in the report's near-war watchlist as one of the most consequential short-horizon escalation contingencies.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "Medium",
       "sources": []
     },
@@ -636,13 +636,13 @@
         12.87
       ],
       "category": "TENSION",
-      "ihl": "None",
-      "exposure": "Maritime Dispute",
-      "intensity": 2,
+      "ihl": null,
+      "exposure": "South China Sea crisis actor",
+      "intensity": 4,
       "color": "#eab308",
-      "summary": "South China Sea dispute.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Low",
+      "summary": "The Philippines appears in the report's South China Sea watchlist as a principal actor in a high-escalation maritime confrontation.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
       "sources": []
     },
     {
@@ -673,20 +673,21 @@
       "type": "state",
       "geoName": "India",
       "theaters": [
+        "ME",
         "ASIA"
       ],
       "coords": [
         78.96,
         20.59
       ],
-      "category": "TENSION",
-      "ihl": "None/NIAC",
-      "exposure": "Confrontation",
+      "category": "SPILLOVER",
+      "ihl": null,
+      "exposure": "Major Hormuz energy-import exposure",
       "intensity": 3,
-      "color": "#eab308",
-      "summary": "Confrontation with Pakistan.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Low",
+      "color": "#f97316",
+      "summary": "India is treated as a major Asian exposure node because Hormuz disruption threatens energy imports and market stability.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
       "sources": []
     },
     {
@@ -701,14 +702,14 @@
         69.34,
         30.37
       ],
-      "category": "TENSION",
-      "ihl": "None/NIAC",
-      "exposure": "Confrontation",
-      "intensity": 3,
-      "color": "#eab308",
-      "summary": "Confrontation with India; domestic militant instability.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Low",
+      "category": "WAR",
+      "ihl": "Contested IAC + parallel NIAC",
+      "exposure": "Active cross-border belligerent and frontier escalation",
+      "intensity": 6,
+      "color": "#ef4444",
+      "summary": "Pakistan is described as a direct participant in a daily kinetic border crisis with Afghanistan while also fighting militant networks.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
       "sources": []
     },
     {
@@ -724,12 +725,12 @@
         21.91
       ],
       "category": "INTERNAL",
-      "ihl": "NIAC",
-      "exposure": "Civil War",
-      "intensity": 4,
+      "ihl": "NIACs",
+      "exposure": "Nationwide civil-war theater",
+      "intensity": 8,
       "color": "#a855f7",
-      "summary": "Continued civil war dynamics.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "summary": "Myanmar is framed as a fragmented nationwide civil war with repeated airstrikes and severe civilian harm.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "High",
       "sources": []
     },
@@ -747,11 +748,11 @@
       ],
       "category": "INTERNAL",
       "ihl": "NIAC",
-      "exposure": "Severe Civil War",
-      "intensity": 5,
+      "exposure": "Core intrastate war theater",
+      "intensity": 8,
       "color": "#a855f7",
-      "summary": "Worsening civil war since April 2023; major displacement and humanitarian access constraints.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "summary": "Sudan is framed as the core state theater of the SAF–RSF civil war, with multi-front fighting, drone warfare, and extensive civilian harm.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "High",
       "sources": []
     },
@@ -767,14 +768,14 @@
         18.73,
         15.45
       ],
-      "category": "INTERNAL",
-      "ihl": "NIAC",
-      "exposure": "Transnational Extremism",
-      "intensity": 3,
-      "color": "#a855f7",
-      "summary": "Transnational insecurity and displacement exposure.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Medium",
+      "category": "SPILLOVER",
+      "ihl": null,
+      "exposure": "Refugee-host and border-insecurity exposure",
+      "intensity": 4,
+      "color": "#f97316",
+      "summary": "Chad is identified as a major spillover state for both the Sudan war and the Lake Chad insurgency environment.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "High",
       "sources": []
     },
     {
@@ -790,12 +791,12 @@
         9.14
       ],
       "category": "INTERNAL",
-      "ihl": "NIACs",
-      "exposure": "Multiple Internal Fronts",
-      "intensity": 4,
+      "ihl": "NIACs; Ethiopia–Eritrea near-war contingency",
+      "exposure": "Internal insurgency with interstate escalation risk",
+      "intensity": 6,
       "color": "#a855f7",
-      "summary": "Multiple internal armed fronts; displacement exposure.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "summary": "Ethiopia is conflict-affected by active hostilities in Amhara and Oromia while also facing renewed coercive tension with Eritrea over sea access.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "Medium",
       "sources": []
     },
@@ -811,14 +812,14 @@
         30.8,
         26.82
       ],
-      "category": "POLICY",
-      "ihl": "None",
-      "exposure": "Refugee Host",
-      "intensity": 2,
-      "color": "#10b981",
-      "summary": "Major destination for refugees fleeing Sudan.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Low",
+      "category": "SPILLOVER",
+      "ihl": null,
+      "exposure": "Refugee-host and corridor exposure",
+      "intensity": 3,
+      "color": "#f97316",
+      "summary": "Egypt is treated as a critical regional spillover and refugee-host state for the Sudan war.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
       "sources": []
     },
     {
@@ -833,14 +834,14 @@
         -66.58,
         6.42
       ],
-      "category": "WAR",
-      "ihl": "IAC",
-      "exposure": "Interstate Episode",
-      "intensity": 3,
-      "color": "#ef4444",
-      "summary": "Early-Jan 2026 IAC episode with the U.S. ('Operation Absolute Resolve').",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Low",
+      "category": "TENSION",
+      "ihl": "Recent IAC episode ended",
+      "exposure": "Post-intervention coercive confrontation",
+      "intensity": 4,
+      "color": "#eab308",
+      "summary": "Venezuela is central to a near-war coercive system after a short-lived January 2026 IAC episode with the United States.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
       "sources": []
     },
     {
@@ -864,6 +865,1431 @@
       "updated_at": "2026-03-07T00:00:00Z",
       "confidence": "Medium",
       "sources": []
+    },
+    {
+      "id": "BELARUS",
+      "name": "Belarus",
+      "type": "state",
+      "geoName": "Belarus",
+      "theaters": [
+        "UKR"
+      ],
+      "coords": [
+        27.56,
+        53.9
+      ],
+      "category": "ALLY",
+      "ihl": null,
+      "exposure": "Foreign-base host and entry-risk vector",
+      "intensity": 3,
+      "color": "#0ea5e9",
+      "summary": "Belarus is treated as a structural risk-of-entry state in the Ukraine system because of proximity, support posture, and foreign-basing relevance.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems, Organized Violence, and Conflict-Connected Exposure",
+          "url": null,
+          "publisher": "User-provided report",
+          "published_at": "2026-03-14",
+          "citation": "Global Conflict Systems, Organized Violence, and Conflict-Connected Exposure"
+        }
+      ],
+      "aliases": [
+        "Republic of Belarus"
+      ],
+      "tags": []
+    },
+    {
+      "id": "ROMANIA",
+      "name": "Romania",
+      "type": "state",
+      "geoName": "Romania",
+      "theaters": [
+        "UKR"
+      ],
+      "coords": [
+        26.1,
+        44.43
+      ],
+      "category": "SPILLOVER",
+      "ihl": null,
+      "exposure": "Black Sea maritime exposure",
+      "intensity": 3,
+      "color": "#f97316",
+      "summary": "Romania appears as a key Black Sea exposure state in the Ukraine war system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Romania"
+      ],
+      "tags": []
+    },
+    {
+      "id": "SAUDI_ARABIA",
+      "name": "Saudi Arabia",
+      "type": "state",
+      "geoName": "Saudi Arabia",
+      "theaters": [
+        "ME"
+      ],
+      "coords": [
+        46.71,
+        24.71
+      ],
+      "category": "SPILLOVER",
+      "ihl": null,
+      "exposure": "Energy infrastructure exposure",
+      "intensity": 4,
+      "color": "#f97316",
+      "summary": "Saudi Arabia is framed as a system-critical Gulf exposure state because the Iran war has expanded to energy targets and Hormuz risk.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Kingdom of Saudi Arabia",
+        "Saudi"
+      ],
+      "tags": []
+    },
+    {
+      "id": "JAPAN",
+      "name": "Japan",
+      "type": "state",
+      "geoName": "Japan",
+      "theaters": [
+        "ME",
+        "ASIA"
+      ],
+      "coords": [
+        139.69,
+        35.69
+      ],
+      "category": "SPILLOVER",
+      "ihl": null,
+      "exposure": "Hormuz energy-import exposure",
+      "intensity": 2,
+      "color": "#f97316",
+      "summary": "Japan is identified as a major Asian destination for threatened Hormuz flows.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Japan"
+      ],
+      "tags": []
+    },
+    {
+      "id": "SOUTH_KOREA",
+      "name": "South Korea",
+      "type": "state",
+      "geoName": "South Korea",
+      "theaters": [
+        "ME",
+        "ASIA"
+      ],
+      "coords": [
+        126.98,
+        37.57
+      ],
+      "category": "SPILLOVER",
+      "ihl": null,
+      "exposure": "Hormuz energy-import exposure",
+      "intensity": 2,
+      "color": "#f97316",
+      "summary": "South Korea is listed among the major Asian importers exposed to Hormuz disruption in the Iran war system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Republic of Korea",
+        "ROK"
+      ],
+      "tags": []
+    },
+    {
+      "id": "SOUTH_SUDAN",
+      "name": "South Sudan",
+      "type": "state",
+      "geoName": "S. Sudan",
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        31.58,
+        4.85
+      ],
+      "category": "SPILLOVER",
+      "ihl": null,
+      "exposure": "Refugee-host and return-corridor exposure",
+      "intensity": 3,
+      "color": "#f97316",
+      "summary": "South Sudan is treated as a major spillover and return-corridor state for the Sudan war.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Republic of South Sudan"
+      ],
+      "tags": []
+    },
+    {
+      "id": "CENTRAL_AFRICAN_REPUBLIC",
+      "name": "Central African Republic",
+      "type": "state",
+      "geoName": "Central African Rep.",
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        18.56,
+        4.36
+      ],
+      "category": "SPILLOVER",
+      "ihl": null,
+      "exposure": "Refugee-host spillover",
+      "intensity": 2,
+      "color": "#f97316",
+      "summary": "The Central African Republic is identified as a neighboring host state affected by Sudan's displacement system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "CAR",
+        "Central African Rep."
+      ],
+      "tags": []
+    },
+    {
+      "id": "BURKINA_FASO",
+      "name": "Burkina Faso",
+      "type": "state",
+      "geoName": "Burkina Faso",
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        -1.53,
+        12.37
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC",
+      "exposure": "Core Sahel conflict theater",
+      "intensity": 7,
+      "color": "#a855f7",
+      "summary": "Burkina Faso is described as one of the core state theaters in the expanding Sahel jihadist conflict system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "High",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Burkina Faso"
+      ],
+      "tags": []
+    },
+    {
+      "id": "MALI",
+      "name": "Mali",
+      "type": "state",
+      "geoName": "Mali",
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        -7.99,
+        12.64
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC",
+      "exposure": "Core Sahel conflict theater",
+      "intensity": 7,
+      "color": "#a855f7",
+      "summary": "Mali is treated as a central theater in the transnational Sahel insurgency system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Republic of Mali"
+      ],
+      "tags": []
+    },
+    {
+      "id": "NIGER",
+      "name": "Niger",
+      "type": "state",
+      "geoName": "Niger",
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        2.11,
+        13.51
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC",
+      "exposure": "Core Sahel and Lake Chad conflict theater",
+      "intensity": 7,
+      "color": "#a855f7",
+      "summary": "Niger appears as a core conflict theater in the Sahel expansion system and as a variable actor in the Lake Chad insurgency environment.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Republic of the Niger"
+      ],
+      "tags": []
+    },
+    {
+      "id": "BENIN",
+      "name": "Benin",
+      "type": "state",
+      "geoName": "Benin",
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        2.63,
+        6.37
+      ],
+      "category": "SPILLOVER",
+      "ihl": null,
+      "exposure": "Coastal risk-of-entry and displacement exposure",
+      "intensity": 3,
+      "color": "#f97316",
+      "summary": "Benin is framed as a coastal risk-of-entry state as Sahel militant pressure pushes southward.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Republic of Benin"
+      ],
+      "tags": []
+    },
+    {
+      "id": "GHANA",
+      "name": "Ghana",
+      "type": "state",
+      "geoName": "Ghana",
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        -0.2,
+        5.56
+      ],
+      "category": "SPILLOVER",
+      "ihl": null,
+      "exposure": "Coastal displacement and expansion exposure",
+      "intensity": 3,
+      "color": "#f97316",
+      "summary": "Ghana is treated as a coastal exposure state to the southward expansion of Sahel conflict.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Republic of Ghana"
+      ],
+      "tags": []
+    },
+    {
+      "id": "NIGERIA",
+      "name": "Nigeria",
+      "type": "state",
+      "geoName": "Nigeria",
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        7.49,
+        9.08
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC",
+      "exposure": "Core Lake Chad conflict theater",
+      "intensity": 7,
+      "color": "#a855f7",
+      "summary": "Nigeria is the principal state theater in the Lake Chad insurgency system described in the report.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Federal Republic of Nigeria"
+      ],
+      "tags": []
+    },
+    {
+      "id": "CAMEROON",
+      "name": "Cameroon",
+      "type": "state",
+      "geoName": "Cameroon",
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        11.5,
+        3.85
+      ],
+      "category": "SPILLOVER",
+      "ihl": null,
+      "exposure": "Cross-border insurgency exposure",
+      "intensity": 3,
+      "color": "#f97316",
+      "summary": "Cameroon is treated as a spillover state in the Lake Chad system because cross-border attacks and displacement affect its Far North.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Low",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Republic of Cameroon"
+      ],
+      "tags": []
+    },
+    {
+      "id": "DEMOCRATIC_REPUBLIC_OF_CONGO",
+      "name": "Democratic Republic of the Congo",
+      "type": "state",
+      "geoName": "Dem. Rep. Congo",
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        23.65,
+        -2.88
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC; internationalization risk",
+      "exposure": "Core eastern DRC conflict theater",
+      "intensity": 7,
+      "color": "#a855f7",
+      "summary": "The Democratic Republic of the Congo is described as the core state theater in the eastern DRC–Great Lakes conflict system, with intensified air and drone strikes around Goma.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "High",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "DRC",
+        "DR Congo",
+        "Congo-Kinshasa",
+        "Democratic Republic of Congo"
+      ],
+      "tags": []
+    },
+    {
+      "id": "RWANDA",
+      "name": "Rwanda",
+      "type": "state",
+      "geoName": "Rwanda",
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        29.87,
+        -1.94
+      ],
+      "category": "ALLY",
+      "ihl": null,
+      "exposure": "Foreign-intervention and proxy-backer role",
+      "intensity": 4,
+      "color": "#0ea5e9",
+      "summary": "Rwanda is treated as a direct foreign-intervention actor in Cabo Delgado through RDF operations and as an alleged external backer in the eastern DRC system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Republic of Rwanda"
+      ],
+      "tags": []
+    },
+    {
+      "id": "MOZAMBIQUE",
+      "name": "Mozambique",
+      "type": "state",
+      "geoName": "Mozambique",
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        35.53,
+        -18.67
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC",
+      "exposure": "Core Cabo Delgado conflict theater",
+      "intensity": 6,
+      "color": "#a855f7",
+      "summary": "Mozambique is framed as the state party in the active Cabo Delgado insurgency.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "High",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Republic of Mozambique"
+      ],
+      "tags": []
+    },
+    {
+      "id": "THAILAND",
+      "name": "Thailand",
+      "type": "state",
+      "geoName": "Thailand",
+      "theaters": [
+        "ASIA"
+      ],
+      "coords": [
+        100.5,
+        13.75
+      ],
+      "category": "SPILLOVER",
+      "ihl": null,
+      "exposure": "Border refugee and migration-corridor exposure",
+      "intensity": 2,
+      "color": "#f97316",
+      "summary": "Thailand appears as a spillover state for Myanmar's civil war through border pressure and migration corridors.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Kingdom of Thailand"
+      ],
+      "tags": []
+    },
+    {
+      "id": "AFGHANISTAN",
+      "name": "Afghanistan",
+      "type": "state",
+      "geoName": "Afghanistan",
+      "theaters": [
+        "ASIA"
+      ],
+      "coords": [
+        69.21,
+        34.56
+      ],
+      "category": "WAR",
+      "ihl": "Contested IAC + parallel NIAC",
+      "exposure": "Target of repeated cross-border strikes",
+      "intensity": 6,
+      "color": "#ef4444",
+      "summary": "Afghanistan is treated as a direct party to the active Pakistan border crisis because Pakistani airstrikes have hit multiple Afghan provinces and daily clashes have continued.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Islamic Emirate of Afghanistan",
+        "Afghanistan (Taliban govt)"
+      ],
+      "tags": []
+    },
+    {
+      "id": "HAITI",
+      "name": "Haiti",
+      "type": "state",
+      "geoName": "Haiti",
+      "theaters": [
+        "AMER"
+      ],
+      "coords": [
+        -72.34,
+        18.54
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC contested; organized criminal violence",
+      "exposure": "Core sovereignty crisis theater",
+      "intensity": 6,
+      "color": "#a855f7",
+      "summary": "Haiti is framed as a severe sovereignty and internal security crisis driven by gang coalitions, mass displacement, and changing international security architecture.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "High",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Republic of Haiti"
+      ],
+      "tags": []
+    },
+    {
+      "id": "DOMINICAN_REPUBLIC",
+      "name": "Dominican Republic",
+      "type": "state",
+      "geoName": "Dominican Rep.",
+      "theaters": [
+        "AMER"
+      ],
+      "coords": [
+        -69.93,
+        18.49
+      ],
+      "category": "SPILLOVER",
+      "ihl": null,
+      "exposure": "Border and migration exposure",
+      "intensity": 2,
+      "color": "#f97316",
+      "summary": "The Dominican Republic is treated as the key spillover state for Haiti because of direct border and migration exposure.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Dominican Rep.",
+        "DR"
+      ],
+      "tags": []
+    },
+    {
+      "id": "ECUADOR",
+      "name": "Ecuador",
+      "type": "state",
+      "geoName": "Ecuador",
+      "theaters": [
+        "AMER"
+      ],
+      "coords": [
+        -78.47,
+        -0.18
+      ],
+      "category": "INTERNAL",
+      "ihl": "Organized criminal violence; NIAC not established",
+      "exposure": "Core organized-violence theater",
+      "intensity": 5,
+      "color": "#a855f7",
+      "summary": "Ecuador is described as an acute organized-crime violence theater with high fatalities, displacement, and systemic state stress.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Republic of Ecuador"
+      ],
+      "tags": []
+    },
+    {
+      "id": "COLOMBIA",
+      "name": "Colombia",
+      "type": "state",
+      "geoName": "Colombia",
+      "theaters": [
+        "AMER"
+      ],
+      "coords": [
+        -74.07,
+        4.71
+      ],
+      "category": "SPILLOVER",
+      "ihl": null,
+      "exposure": "Cross-border trafficking and armed-group spillover",
+      "intensity": 3,
+      "color": "#f97316",
+      "summary": "Colombia is treated as a spillover and logistics-linked state in Ecuador's violence ecosystem.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Republic of Colombia"
+      ],
+      "tags": []
+    },
+    {
+      "id": "PERU",
+      "name": "Peru",
+      "type": "state",
+      "geoName": "Peru",
+      "theaters": [
+        "AMER"
+      ],
+      "coords": [
+        -77.04,
+        -12.05
+      ],
+      "category": "SPILLOVER",
+      "ihl": null,
+      "exposure": "Neighboring trafficking and route-shift exposure",
+      "intensity": 2,
+      "color": "#f97316",
+      "summary": "Peru is presented as a lower-confidence spillover state in the Ecuador system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Low",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Republic of Peru"
+      ],
+      "tags": []
+    },
+    {
+      "id": "CUBA",
+      "name": "Cuba",
+      "type": "state",
+      "geoName": "Cuba",
+      "theaters": [
+        "AMER"
+      ],
+      "coords": [
+        -82.37,
+        23.11
+      ],
+      "category": "SPILLOVER",
+      "ihl": null,
+      "exposure": "Energy dependence and coercive-pressure exposure",
+      "intensity": 2,
+      "color": "#f97316",
+      "summary": "Cuba is treated as a second-order exposure state in the US–Venezuela confrontation and broader cross-theater bargaining over energy.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Republic of Cuba"
+      ],
+      "tags": []
+    },
+    {
+      "id": "ERITREA",
+      "name": "Eritrea",
+      "type": "state",
+      "geoName": "Eritrea",
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        39.47,
+        15.33
+      ],
+      "category": "TENSION",
+      "ihl": null,
+      "exposure": "Near-war sea-access and frontier contingency",
+      "intensity": 4,
+      "color": "#eab308",
+      "summary": "Eritrea is framed as the key interstate risk-of-entry state in the Ethiopia system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "State of Eritrea"
+      ],
+      "tags": []
+    },
+    {
+      "id": "MEXICO",
+      "name": "Mexico",
+      "type": "state",
+      "geoName": "Mexico",
+      "theaters": [
+        "AMER"
+      ],
+      "coords": [
+        -99.13,
+        19.43
+      ],
+      "category": "INTERNAL",
+      "ihl": "Organized criminal violence; NIAC generally not applied",
+      "exposure": "Conflict-connected cartel-state violence",
+      "intensity": 5,
+      "color": "#a855f7",
+      "summary": "Mexico is described as a transnational cartel-state conflict environment with direct U.S. exposure through fentanyl, migration, and border security.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "United Mexican States"
+      ],
+      "tags": []
+    },
+    {
+      "id": "SOMALIA",
+      "name": "Somalia",
+      "type": "state",
+      "geoName": "Somalia",
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        45.32,
+        2.05
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC",
+      "exposure": "Core Al-Shabaab insurgency theater",
+      "intensity": 6,
+      "color": "#a855f7",
+      "summary": "Somalia appears as an active insurgency theater where the government faces Al-Shabaab amid regional troop involvement.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Federal Republic of Somalia"
+      ],
+      "tags": []
+    },
+    {
+      "id": "IRGC",
+      "name": "Islamic Revolutionary Guard Corps",
+      "type": "org",
+      "geoName": null,
+      "theaters": [
+        "ME"
+      ],
+      "coords": [
+        56.27,
+        27.18
+      ],
+      "category": "WAR",
+      "ihl": "IAC-linked state security actor",
+      "exposure": "Strategic actor in Gulf maritime and drone campaign",
+      "intensity": 7,
+      "color": "#ef4444",
+      "summary": "The IRGC is a central actor in the Gulf maritime and drone campaign logic linked to Iran's war effort.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "IRGC",
+        "Islamic Revolutionary Guards Corps"
+      ],
+      "tags": []
+    },
+    {
+      "id": "HEZBOLLAH",
+      "name": "Hezbollah",
+      "type": "nonstate",
+      "geoName": null,
+      "theaters": [
+        "ME"
+      ],
+      "coords": [
+        35.5,
+        33.89
+      ],
+      "category": "WAR",
+      "ihl": "Classification contested; organized armed group",
+      "exposure": "Direct belligerent on the Lebanon front",
+      "intensity": 7,
+      "color": "#ef4444",
+      "summary": "Hezbollah is described as the organized armed group that formally opened the Lebanon front in response to the wider Iran war.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Hizballah",
+        "Hizbullah",
+        "Party of God"
+      ],
+      "tags": []
+    },
+    {
+      "id": "RAPID_SUPPORT_FORCES",
+      "name": "Rapid Support Forces",
+      "type": "nonstate",
+      "geoName": null,
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        25.35,
+        13.63
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC",
+      "exposure": "Core belligerent in Sudan's civil war",
+      "intensity": 8,
+      "color": "#a855f7",
+      "summary": "The RSF is one of the two core belligerents in Sudan's active civil war.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "High",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "RSF"
+      ],
+      "tags": []
+    },
+    {
+      "id": "JNIM",
+      "name": "Jama'at Nusrat al-Islam wal-Muslimin",
+      "type": "nonstate",
+      "geoName": null,
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        -1.3,
+        14.55
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC",
+      "exposure": "Principal Sahel insurgent actor",
+      "intensity": 7,
+      "color": "#a855f7",
+      "summary": "JNIM is identified as a major armed group driving atrocities and expansion in the Central Sahel.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "JNIM",
+        "Jamaat Nusrat al-Islam wal-Muslimin"
+      ],
+      "tags": []
+    },
+    {
+      "id": "ISLAMIC_STATE_SAHEL",
+      "name": "Islamic State–Sahel elements",
+      "type": "nonstate",
+      "geoName": null,
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        0.6,
+        14
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC",
+      "exposure": "Principal Sahel insurgent actor",
+      "intensity": 7,
+      "color": "#a855f7",
+      "summary": "Islamic State–Sahel elements are presented as major belligerents in the Central Sahel alongside JNIM.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "IS Sahel",
+        "ISGS",
+        "Islamic State in the Greater Sahara"
+      ],
+      "tags": []
+    },
+    {
+      "id": "BOKO_HARAM",
+      "name": "Boko Haram",
+      "type": "nonstate",
+      "geoName": null,
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        13.16,
+        12
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC",
+      "exposure": "Principal Lake Chad insurgent actor",
+      "intensity": 6,
+      "color": "#a855f7",
+      "summary": "Boko Haram is identified as one of the principal insurgent groups in the Lake Chad Basin system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Jama'atu Ahlis Sunna Lidda'awati wal-Jihad",
+        "Boko Haram"
+      ],
+      "tags": []
+    },
+    {
+      "id": "ISWAP",
+      "name": "Islamic State West Africa Province",
+      "type": "nonstate",
+      "geoName": null,
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        14.2,
+        12.38
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC",
+      "exposure": "Principal Lake Chad insurgent actor",
+      "intensity": 6,
+      "color": "#a855f7",
+      "summary": "ISWAP is treated as a major insurgent actor in the Lake Chad system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "ISWAP",
+        "Islamic State West Africa Province"
+      ],
+      "tags": []
+    },
+    {
+      "id": "M23_AFC",
+      "name": "M23/AFC",
+      "type": "nonstate",
+      "geoName": null,
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        29.23,
+        -1.68
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC; internationalization risk",
+      "exposure": "Principal armed-group belligerent in eastern DRC",
+      "intensity": 7,
+      "color": "#a855f7",
+      "summary": "M23/AFC is identified as the core armed-group belligerent in the eastern DRC system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "M23",
+        "AFC",
+        "Alliance Fleuve Congo"
+      ],
+      "tags": []
+    },
+    {
+      "id": "WAZALENDO",
+      "name": "Wazalendo",
+      "type": "nonstate",
+      "geoName": null,
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        28.85,
+        -2.05
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC",
+      "exposure": "Belligerent local coalition in eastern DRC",
+      "intensity": 6,
+      "color": "#a855f7",
+      "summary": "Wazalendo is described as a loose local coalition involved in clashes around Goma within the eastern DRC system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Wazalendo coalition"
+      ],
+      "tags": []
+    },
+    {
+      "id": "ISLAMIC_STATE_MOZAMBIQUE",
+      "name": "Islamic State Mozambique",
+      "type": "nonstate",
+      "geoName": null,
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        39.7,
+        -12
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC",
+      "exposure": "Principal Cabo Delgado insurgent actor",
+      "intensity": 6,
+      "color": "#a855f7",
+      "summary": "Islamic State Mozambique is treated as the principal insurgent actor in Cabo Delgado.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "ISM",
+        "Islamic State Mozambique",
+        "Ansar al-Sunna"
+      ],
+      "tags": []
+    },
+    {
+      "id": "ARAKAN_ARMY",
+      "name": "Arakan Army",
+      "type": "nonstate",
+      "geoName": null,
+      "theaters": [
+        "ASIA"
+      ],
+      "coords": [
+        93.9,
+        20.15
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC",
+      "exposure": "Principal Myanmar resistance actor in Rakhine",
+      "intensity": 7,
+      "color": "#a855f7",
+      "summary": "The Arakan Army is identified as a major organized armed group in Myanmar's nationwide civil war.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "High",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "AA",
+        "Arakan Army"
+      ],
+      "tags": []
+    },
+    {
+      "id": "VIV_ANSANM",
+      "name": "Viv Ansanm",
+      "type": "nonstate",
+      "geoName": null,
+      "theaters": [
+        "AMER"
+      ],
+      "coords": [
+        -72.33,
+        18.55
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC contested; organized criminal violence",
+      "exposure": "Central gang coalition in Haiti",
+      "intensity": 6,
+      "color": "#a855f7",
+      "summary": "Viv Ansanm is described as the coalition unifying major Port-au-Prince gang factions.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Viv Ansanm coalition"
+      ],
+      "tags": []
+    },
+    {
+      "id": "LOS_LOBOS",
+      "name": "Los Lobos",
+      "type": "nonstate",
+      "geoName": null,
+      "theaters": [
+        "AMER"
+      ],
+      "coords": [
+        -79.9,
+        -2.17
+      ],
+      "category": "INTERNAL",
+      "ihl": "Organized criminal violence",
+      "exposure": "Principal armed criminal actor in Ecuador",
+      "intensity": 5,
+      "color": "#a855f7",
+      "summary": "Los Lobos is identified as one of the key violent groups in Ecuador's organized-crime conflict environment.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Los Lobos"
+      ],
+      "tags": []
+    },
+    {
+      "id": "LOS_CHONEROS",
+      "name": "Los Choneros",
+      "type": "nonstate",
+      "geoName": null,
+      "theaters": [
+        "AMER"
+      ],
+      "coords": [
+        -80.71,
+        -0.95
+      ],
+      "category": "INTERNAL",
+      "ihl": "Organized criminal violence",
+      "exposure": "Principal armed criminal actor in Ecuador",
+      "intensity": 5,
+      "color": "#a855f7",
+      "summary": "Los Choneros is described as a legacy syndicate central to Ecuador's violence ecosystem.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "Los Choneros"
+      ],
+      "tags": []
+    },
+    {
+      "id": "TEHRIK_I_TALIBAN_PAKISTAN",
+      "name": "Tehrik-i-Taliban Pakistan",
+      "type": "nonstate",
+      "geoName": null,
+      "theaters": [
+        "ASIA"
+      ],
+      "coords": [
+        70.11,
+        32.99
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC",
+      "exposure": "Central militant actor in the Pakistan frontier crisis",
+      "intensity": 6,
+      "color": "#a855f7",
+      "summary": "The TTP is the militant actor whose resurgence is central to the Pakistan–Afghanistan crisis.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "TTP",
+        "Pakistani Taliban",
+        "Tehrik-e Taliban Pakistan"
+      ],
+      "tags": []
+    },
+    {
+      "id": "AL_SHABAAB",
+      "name": "Al-Shabaab",
+      "type": "nonstate",
+      "geoName": null,
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        45.3,
+        2
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC",
+      "exposure": "Principal insurgent actor in Somalia",
+      "intensity": 6,
+      "color": "#a855f7",
+      "summary": "Al-Shabaab appears as the core non-state belligerent in Somalia's ongoing insurgency.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "al-Shabaab",
+        "Harakat al-Shabaab al-Mujahideen"
+      ],
+      "tags": []
+    },
+    {
+      "id": "OROMO_LIBERATION_ARMY",
+      "name": "Oromo Liberation Army",
+      "type": "nonstate",
+      "geoName": null,
+      "theaters": [
+        "AFR"
+      ],
+      "coords": [
+        39,
+        8
+      ],
+      "category": "INTERNAL",
+      "ihl": "NIAC",
+      "exposure": "Key insurgent actor in Oromia",
+      "intensity": 5,
+      "color": "#a855f7",
+      "summary": "The report identifies the Oromo Liberation Army as a key insurgent actor in Oromia within Ethiopia's active internal conflict system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ],
+      "aliases": [
+        "OLA",
+        "Oromo Liberation Army"
+      ],
+      "tags": []
     }
   ],
   "edges": [
@@ -872,11 +2298,11 @@
       "to": "ISRAEL",
       "theater": "ME",
       "category": "WAR",
-      "type": "Active War",
+      "type": "Active Interstate War",
       "effect": "solid",
       "color": "#ef4444",
-      "summary": "Direct military engagement; massive escalation since late Feb 2026.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "summary": "Iran and Israel are direct belligerents in an active war whose escalation now spans energy infrastructure, maritime disruption, and the Lebanon front.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "Medium",
       "sources": [],
       "from": "IRAN"
@@ -886,11 +2312,11 @@
       "to": "IRAN",
       "theater": "ME",
       "category": "WAR",
-      "type": "Active War",
+      "type": "Active Interstate War",
       "effect": "solid",
       "color": "#ef4444",
-      "summary": "Coordinated US-Israeli operations against Iranian targets.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "summary": "The United States and Iran are direct belligerents in an active interstate war now linked to strikes on oil facilities and shipping near the Strait of Hormuz.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "Medium",
       "sources": [],
       "from": "UNITED_STATES"
@@ -900,11 +2326,11 @@
       "to": "UKRAINE",
       "theater": "UKR",
       "category": "WAR",
-      "type": "Active War",
+      "type": "Active Interstate War",
       "effect": "solid",
       "color": "#ef4444",
-      "summary": "Full-scale international armed conflict approaching its 5th year.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "summary": "Russia's invasion of Ukraine is the clearest active interstate war, with high-tempo battles, long-range strikes, and continued civilian targeting into early March 2026.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "High",
       "sources": [],
       "from": "RUSSIA"
@@ -927,13 +2353,13 @@
       "id": "UNITED_STATES__VENEZUELA__WAR",
       "to": "VENEZUELA",
       "theater": "AMER",
-      "category": "WAR",
-      "type": "Interstate Episode",
-      "effect": "solid",
-      "color": "#ef4444",
-      "summary": "Operation Absolute Resolve in early January 2026.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Low",
+      "category": "TENSION",
+      "type": "Ended IAC / Re-escalation Risk",
+      "effect": "dotted",
+      "color": "#eab308",
+      "summary": "The January 2026 U.S.-Venezuela IAC episode is treated as ended, leaving a coercive near-war relationship with credible re-escalation risk.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
       "sources": [],
       "from": "UNITED_STATES"
     },
@@ -956,12 +2382,12 @@
       "to": "ISRAEL",
       "theater": "ME",
       "category": "ALLY",
-      "type": "Alliance / Support",
+      "type": "Co-belligerent Alignment",
       "effect": "solid",
       "color": "#0ea5e9",
-      "summary": "Military coordination, material support, and joint operational frameworks.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Medium",
+      "summary": "Washington and Jerusalem are treated as co-belligerents in the war on Iran, not merely as a distant support relationship.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "High",
       "sources": [],
       "from": "UNITED_STATES"
     },
@@ -984,11 +2410,11 @@
       "to": "UKRAINE",
       "theater": "UKR",
       "category": "ALLY",
-      "type": "Military Support Financer",
-      "effect": "solid",
+      "type": "Military Support / Ally",
+      "effect": "dashed",
       "color": "#0ea5e9",
-      "summary": "Major military aid allocator to Ukraine.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "summary": "The United Kingdom remains an allied military-support actor for Ukraine, providing material sustainment short of direct participation.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "Medium",
       "sources": [],
       "from": "UNITED_KINGDOM"
@@ -1054,12 +2480,12 @@
       "to": "CHAD",
       "theater": "AFR",
       "category": "SPILLOVER",
-      "type": "Refugee Spillover",
-      "effect": "dashed",
+      "type": "Refugee / Border Spillover",
+      "effect": "solid",
       "color": "#f97316",
-      "summary": "Refugee influx and cross-border pressure from Sudan's war.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Medium",
+      "summary": "Sudan's war continues to spill directly into Chad through refugee pressure and border-adjacent strike risk.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "High",
       "sources": [],
       "from": "SUDAN"
     },
@@ -1068,11 +2494,11 @@
       "to": "EGYPT",
       "theater": "AFR",
       "category": "SPILLOVER",
-      "type": "Refugee Spillover",
+      "type": "Refugee / Corridor Spillover",
       "effect": "dashed",
       "color": "#f97316",
-      "summary": "Major northern displacement route for Sudanese civilians.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "summary": "Sudan's war continues to load Egypt as a major refugee-host and transit-corridor state.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "Medium",
       "sources": [],
       "from": "SUDAN"
@@ -1082,11 +2508,11 @@
       "to": "ETHIOPIA",
       "theater": "AFR",
       "category": "SPILLOVER",
-      "type": "Refugee Spillover",
+      "type": "Refugee / Border Spillover",
       "effect": "dashed",
       "color": "#f97316",
-      "summary": "Displacement intersecting with Ethiopia internal conflicts.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "summary": "Sudan's war contributes to sustained humanitarian and border exposure for Ethiopia even as Ethiopia faces its own conflict pressures.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "Medium",
       "sources": [],
       "from": "SUDAN"
@@ -1110,12 +2536,12 @@
       "to": "UKRAINE",
       "theater": "UKR",
       "category": "POLICY",
-      "type": "Financial Donor / Training",
+      "type": "Aid / Support Policy",
       "effect": "dashed",
       "color": "#10b981",
-      "summary": "Financing and training support mechanisms tied to Ukraine war.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "High",
+      "summary": "The EU remains a core non-belligerent support actor for Ukraine through aid, sanctions coordination, and wider political backing.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
       "sources": [],
       "from": "EU"
     },
@@ -1124,12 +2550,12 @@
       "to": "RUSSIA",
       "theater": "UKR",
       "category": "POLICY",
-      "type": "Sanctions Imposer",
+      "type": "Sanctions / Policy Pressure",
       "effect": "dashed",
       "color": "#10b981",
-      "summary": "EU restrictive measures regime responding to the war in Ukraine.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "High",
+      "summary": "The Ukraine system remains sanctions-centered, and the EU is treated as a principal non-kinetic pressure actor against Russia.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
       "sources": [],
       "from": "EU"
     },
@@ -1138,11 +2564,11 @@
       "to": "IRAN",
       "theater": "ME",
       "category": "POLICY",
-      "type": "Sanctions Imposer",
+      "type": "Maritime Risk Mitigation",
       "effect": "dashed",
       "color": "#10b981",
-      "summary": "EU restrictive measures linked to Iran actions and regional escalation.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "summary": "The EU's role in the Iran war system is non-kinetic, centered on policy response and maritime-risk mitigation as Hormuz disruption widens.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "Medium",
       "sources": [],
       "from": "EU"
@@ -1166,11 +2592,11 @@
       "to": "UKRAINE",
       "theater": "UKR",
       "category": "POLICY",
-      "type": "Refugee Host & Top Donor",
+      "type": "Support Policy",
       "effect": "dashed",
       "color": "#10b981",
-      "summary": "Refugee hosting and military/financial support.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "summary": "Germany is treated as a system-critical sustainment and industrial-support actor for Ukraine without direct belligerent status.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "Medium",
       "sources": [],
       "from": "GERMANY"
@@ -1180,11 +2606,11 @@
       "to": "UKRAINE",
       "theater": "UKR",
       "category": "POLICY",
-      "type": "Major Refugee Host",
+      "type": "Frontline Support Policy",
       "effect": "dashed",
       "color": "#10b981",
-      "summary": "Frontline support and temporary protection hosting.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "summary": "Poland remains a frontline logistics and support state for Ukraine, tying it closely to the war while remaining outside belligerency.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "Medium",
       "sources": [],
       "from": "POLAND"
@@ -1194,11 +2620,11 @@
       "to": "UKRAINE",
       "theater": "UKR",
       "category": "POLICY",
-      "type": "Refugee Host",
+      "type": "Support Policy",
       "effect": "dashed",
       "color": "#10b981",
-      "summary": "Significant hosting burden and support mechanisms.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "summary": "Czechia remains part of the broader Ukraine support architecture through non-belligerent sustainment and policy support.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "Medium",
       "sources": [],
       "from": "CZECHIA"
@@ -1222,11 +2648,11 @@
       "to": "TAIWAN",
       "theater": "ASIA",
       "category": "TENSION",
-      "type": "High Escalation Risk",
+      "type": "Militarized Standoff",
       "effect": "dotted",
       "color": "#eab308",
-      "summary": "Cross-strait confrontation and escalation risk.",
-      "updated_at": "2026-03-07T00:00:00Z",
+      "summary": "The Taiwan Strait is on the high-escalation watchlist because coercive signaling, blockade risk, and missile-crisis pathways remain credible.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
       "confidence": "Medium",
       "sources": [],
       "from": "CHINA"
@@ -1236,12 +2662,12 @@
       "to": "PHILIPPINES",
       "theater": "ASIA",
       "category": "TENSION",
-      "type": "Maritime Dispute",
+      "type": "Maritime Standoff",
       "effect": "dotted",
       "color": "#eab308",
-      "summary": "South China Sea friction.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Low",
+      "summary": "The South China Sea remains a high-risk confrontation, with unsafe encounters and alliance-triggering scenarios keeping China-Philippines tensions acute.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
       "sources": [],
       "from": "CHINA"
     },
@@ -1264,14 +2690,888 @@
       "to": "PAKISTAN",
       "theater": "ASIA",
       "category": "TENSION",
-      "type": "Confrontation",
+      "type": "Militarized Crisis Watch",
       "effect": "dotted",
       "color": "#eab308",
-      "summary": "Interstate confrontation context.",
-      "updated_at": "2026-03-07T00:00:00Z",
-      "confidence": "Low",
+      "summary": "India-Pakistan remains on the near-war watchlist because recurring crisis dynamics could rapidly escalate.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
       "sources": [],
       "from": "INDIA"
+    },
+    {
+      "id": "BELARUS__RUSSIA__ALLY",
+      "from": "BELARUS",
+      "to": "RUSSIA",
+      "theater": "UKR",
+      "category": "ALLY",
+      "type": "Basing / Support Alignment",
+      "effect": "dashed",
+      "color": "#0ea5e9",
+      "summary": "Belarus is the principal basing and entry-risk support node adjacent to Russia's war system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "RUSSIA__ROMANIA__SPILLOVER",
+      "from": "RUSSIA",
+      "to": "ROMANIA",
+      "theater": "UKR",
+      "category": "SPILLOVER",
+      "type": "Black Sea Maritime Spillover",
+      "effect": "dashed",
+      "color": "#f97316",
+      "summary": "The Russia-Ukraine war exposes Romania through Black Sea maritime risk and nearby shipping incidents.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "IRAN__BAHRAIN__SPILLOVER",
+      "from": "IRAN",
+      "to": "BAHRAIN",
+      "theater": "ME",
+      "category": "SPILLOVER",
+      "type": "Energy Infrastructure Spillover",
+      "effect": "solid",
+      "color": "#f97316",
+      "summary": "Iranian retaliation in the Gulf has made Bahrain a directly exposed energy and security node.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "IRAN__UAE__SPILLOVER",
+      "from": "IRAN",
+      "to": "UAE",
+      "theater": "ME",
+      "category": "SPILLOVER",
+      "type": "Energy Infrastructure Spillover",
+      "effect": "solid",
+      "color": "#f97316",
+      "summary": "Iranian strikes on Gulf energy infrastructure and shipping place the UAE in direct spillover range.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "IRAN__KUWAIT__SPILLOVER",
+      "from": "IRAN",
+      "to": "KUWAIT",
+      "theater": "ME",
+      "category": "SPILLOVER",
+      "type": "Energy Infrastructure Spillover",
+      "effect": "solid",
+      "color": "#f97316",
+      "summary": "Iranian retaliation has extended direct energy-site and storage risk to Kuwait.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "IRAN__OMAN__SPILLOVER",
+      "from": "IRAN",
+      "to": "OMAN",
+      "theater": "ME",
+      "category": "SPILLOVER",
+      "type": "Hormuz Maritime Spillover",
+      "effect": "dashed",
+      "color": "#f97316",
+      "summary": "Oman's Hormuz adjacency makes it directly vulnerable to maritime disruption from the Iran war.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "IRAN__SAUDI_ARABIA__SPILLOVER",
+      "from": "IRAN",
+      "to": "SAUDI_ARABIA",
+      "theater": "ME",
+      "category": "SPILLOVER",
+      "type": "Energy Infrastructure Spillover",
+      "effect": "solid",
+      "color": "#f97316",
+      "summary": "Iranian retaliation against Gulf energy sites makes Saudi Arabia a direct spillover target.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "IRAN__QATAR__SPILLOVER",
+      "from": "IRAN",
+      "to": "QATAR",
+      "theater": "ME",
+      "category": "SPILLOVER",
+      "type": "Energy Infrastructure Spillover",
+      "effect": "solid",
+      "color": "#f97316",
+      "summary": "Iranian retaliation and Hormuz disruption place Qatar's LNG-centered economy in direct spillover range.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "IRAN__IRAQ__SPILLOVER",
+      "from": "IRAN",
+      "to": "IRAQ",
+      "theater": "ME",
+      "category": "SPILLOVER",
+      "type": "Front-extension Spillover",
+      "effect": "dotted",
+      "color": "#f97316",
+      "summary": "Iraq is a credible front-extension and spillover zone if the Iran war widens into border areas or militia networks.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "IRAN__CHINA__SPILLOVER",
+      "from": "IRAN",
+      "to": "CHINA",
+      "theater": "ME",
+      "category": "SPILLOVER",
+      "type": "Energy-Shock Spillover",
+      "effect": "dashed",
+      "color": "#f97316",
+      "summary": "Threatened Hormuz flows make China a major second-order energy exposure state in the Iran war system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "IRAN__INDIA__SPILLOVER",
+      "from": "IRAN",
+      "to": "INDIA",
+      "theater": "ME",
+      "category": "SPILLOVER",
+      "type": "Energy-Shock Spillover",
+      "effect": "dashed",
+      "color": "#f97316",
+      "summary": "Threatened Hormuz flows make India a major second-order energy exposure state in the Iran war system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "IRAN__JAPAN__SPILLOVER",
+      "from": "IRAN",
+      "to": "JAPAN",
+      "theater": "ME",
+      "category": "SPILLOVER",
+      "type": "Energy-Shock Spillover",
+      "effect": "dashed",
+      "color": "#f97316",
+      "summary": "Threatened Hormuz flows make Japan a material second-order energy exposure state in the Iran war system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "IRAN__SOUTH_KOREA__SPILLOVER",
+      "from": "IRAN",
+      "to": "SOUTH_KOREA",
+      "theater": "ME",
+      "category": "SPILLOVER",
+      "type": "Energy-Shock Spillover",
+      "effect": "dashed",
+      "color": "#f97316",
+      "summary": "Threatened Hormuz flows make South Korea a material second-order energy exposure state in the Iran war system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "ISRAEL__HEZBOLLAH__WAR",
+      "from": "ISRAEL",
+      "to": "HEZBOLLAH",
+      "theater": "ME",
+      "category": "WAR",
+      "type": "Active Armed Conflict",
+      "effect": "solid",
+      "color": "#ef4444",
+      "summary": "The Israel-Lebanon front is an active armed-conflict sub-theater, with Israel and Hezbollah in sustained hostilities.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "ISRAEL__LEBANON__SPILLOVER",
+      "from": "ISRAEL",
+      "to": "LEBANON",
+      "theater": "ME",
+      "category": "SPILLOVER",
+      "type": "Cross-border Strike Spillover",
+      "effect": "solid",
+      "color": "#f97316",
+      "summary": "Israeli operations on the Lebanon front make Lebanon the principal territorial and humanitarian spillover state.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "High",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "IRAN__HEZBOLLAH__ALLY",
+      "from": "IRAN",
+      "to": "HEZBOLLAH",
+      "theater": "ME",
+      "category": "ALLY",
+      "type": "Aligned Armed Group Support",
+      "effect": "dashed",
+      "color": "#0ea5e9",
+      "summary": "Hezbollah is an Iran-aligned armed group whose entry is directly linked to wider Iran-centered escalation.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "SUDAN__RAPID_SUPPORT_FORCES__INTERNAL",
+      "from": "SUDAN",
+      "to": "RAPID_SUPPORT_FORCES",
+      "theater": "AFR",
+      "category": "INTERNAL",
+      "type": "Civil War / NIAC",
+      "effect": "solid",
+      "color": "#a855f7",
+      "summary": "Sudan's conflict remains a core SAF-RSF civil war, with the state and RSF as the principal belligerents.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "High",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "SUDAN__SOUTH_SUDAN__SPILLOVER",
+      "from": "SUDAN",
+      "to": "SOUTH_SUDAN",
+      "theater": "AFR",
+      "category": "SPILLOVER",
+      "type": "Refugee / Return Spillover",
+      "effect": "dashed",
+      "color": "#f97316",
+      "summary": "Sudan's war continues to push refugees and return pressures into South Sudan.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "SUDAN__CENTRAL_AFRICAN_REPUBLIC__SPILLOVER",
+      "from": "SUDAN",
+      "to": "CENTRAL_AFRICAN_REPUBLIC",
+      "theater": "AFR",
+      "category": "SPILLOVER",
+      "type": "Refugee / Humanitarian Spillover",
+      "effect": "dashed",
+      "color": "#f97316",
+      "summary": "Sudan's war continues to export refugee and humanitarian pressure into the Central African Republic.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "BURKINA_FASO__JNIM__INTERNAL",
+      "from": "BURKINA_FASO",
+      "to": "JNIM",
+      "theater": "AFR",
+      "category": "INTERNAL",
+      "type": "Insurgency / NIAC",
+      "effect": "solid",
+      "color": "#a855f7",
+      "summary": "Burkina Faso remains in active conflict with JNIM as one of the main insurgent belligerents in the Sahel system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "BURKINA_FASO__ISLAMIC_STATE_SAHEL__INTERNAL",
+      "from": "BURKINA_FASO",
+      "to": "ISLAMIC_STATE_SAHEL",
+      "theater": "AFR",
+      "category": "INTERNAL",
+      "type": "Insurgency / NIAC",
+      "effect": "solid",
+      "color": "#a855f7",
+      "summary": "Burkina Faso remains in active conflict with Islamic State-Sahel elements as part of the wider transnational insurgency system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "MALI__JNIM__INTERNAL",
+      "from": "MALI",
+      "to": "JNIM",
+      "theater": "AFR",
+      "category": "INTERNAL",
+      "type": "Insurgency / NIAC",
+      "effect": "solid",
+      "color": "#a855f7",
+      "summary": "Mali remains in active conflict with JNIM as part of the Central Sahel's transnational insurgency system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "MALI__ISLAMIC_STATE_SAHEL__INTERNAL",
+      "from": "MALI",
+      "to": "ISLAMIC_STATE_SAHEL",
+      "theater": "AFR",
+      "category": "INTERNAL",
+      "type": "Insurgency / NIAC",
+      "effect": "solid",
+      "color": "#a855f7",
+      "summary": "Mali remains in active conflict with Islamic State-Sahel elements within the wider Central Sahel insurgency system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "NIGER__JNIM__INTERNAL",
+      "from": "NIGER",
+      "to": "JNIM",
+      "theater": "AFR",
+      "category": "INTERNAL",
+      "type": "Insurgency / NIAC",
+      "effect": "solid",
+      "color": "#a855f7",
+      "summary": "Niger remains in active conflict with JNIM as part of the transnational Sahel militant system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "NIGER__ISLAMIC_STATE_SAHEL__INTERNAL",
+      "from": "NIGER",
+      "to": "ISLAMIC_STATE_SAHEL",
+      "theater": "AFR",
+      "category": "INTERNAL",
+      "type": "Insurgency / NIAC",
+      "effect": "solid",
+      "color": "#a855f7",
+      "summary": "Niger remains in active conflict with Islamic State-Sahel elements within the wider Sahel insurgency system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "NIGERIA__BOKO_HARAM__INTERNAL",
+      "from": "NIGERIA",
+      "to": "BOKO_HARAM",
+      "theater": "AFR",
+      "category": "INTERNAL",
+      "type": "Insurgency / NIAC",
+      "effect": "solid",
+      "color": "#a855f7",
+      "summary": "Nigeria remains a principal state belligerent against Boko Haram in the Lake Chad insurgency system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "NIGERIA__ISWAP__INTERNAL",
+      "from": "NIGERIA",
+      "to": "ISWAP",
+      "theater": "AFR",
+      "category": "INTERNAL",
+      "type": "Insurgency / NIAC",
+      "effect": "solid",
+      "color": "#a855f7",
+      "summary": "Nigeria remains a principal state belligerent against ISWAP in the Lake Chad insurgency system.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "DEMOCRATIC_REPUBLIC_OF_CONGO__M23_AFC__INTERNAL",
+      "from": "DEMOCRATIC_REPUBLIC_OF_CONGO",
+      "to": "M23_AFC",
+      "theater": "AFR",
+      "category": "INTERNAL",
+      "type": "Insurgency / NIAC",
+      "effect": "solid",
+      "color": "#a855f7",
+      "summary": "The report treats FARDC versus M23/AFC as the core dyad in the eastern DRC conflict system around Goma.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "RWANDA__M23_AFC__ALLY",
+      "from": "RWANDA",
+      "to": "M23_AFC",
+      "theater": "AFR",
+      "category": "ALLY",
+      "type": "Proxy Support (Alleged)",
+      "effect": "dashed",
+      "color": "#0ea5e9",
+      "summary": "Rwanda's backing role is heavily alleged and contested, but still central to the conflict's internationalization risk.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Low",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "RWANDA__DEMOCRATIC_REPUBLIC_OF_CONGO__TENSION",
+      "from": "RWANDA",
+      "to": "DEMOCRATIC_REPUBLIC_OF_CONGO",
+      "theater": "AFR",
+      "category": "TENSION",
+      "type": "Escalation Risk",
+      "effect": "dotted",
+      "color": "#eab308",
+      "summary": "Direct Rwanda-DRC escalation is the primary widening risk around the M23 war.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "MOZAMBIQUE__ISLAMIC_STATE_MOZAMBIQUE__INTERNAL",
+      "from": "MOZAMBIQUE",
+      "to": "ISLAMIC_STATE_MOZAMBIQUE",
+      "theater": "AFR",
+      "category": "INTERNAL",
+      "type": "Insurgency / NIAC",
+      "effect": "solid",
+      "color": "#a855f7",
+      "summary": "Mozambique remains in active conflict with Islamic State Mozambique in Cabo Delgado.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "High",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "RWANDA__MOZAMBIQUE__ALLY",
+      "from": "RWANDA",
+      "to": "MOZAMBIQUE",
+      "theater": "AFR",
+      "category": "ALLY",
+      "type": "Foreign Troop Support",
+      "effect": "solid",
+      "color": "#0ea5e9",
+      "summary": "Rwanda's RDF is described as directly participating alongside Mozambican forces in Cabo Delgado operations.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "High",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "ETHIOPIA__OROMO_LIBERATION_ARMY__INTERNAL",
+      "from": "ETHIOPIA",
+      "to": "OROMO_LIBERATION_ARMY",
+      "theater": "AFR",
+      "category": "INTERNAL",
+      "type": "Insurgency / NIAC",
+      "effect": "solid",
+      "color": "#a855f7",
+      "summary": "Ethiopia's Oromia conflict remains an active insurgent front involving the Oromo Liberation Army.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "ETHIOPIA__ERITREA__TENSION",
+      "from": "ETHIOPIA",
+      "to": "ERITREA",
+      "theater": "AFR",
+      "category": "TENSION",
+      "type": "Near-war Standoff",
+      "effect": "dotted",
+      "color": "#eab308",
+      "summary": "Sea-access coercion and Assab-related signaling keep Ethiopia and Eritrea in a credible near-war relationship.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "SOMALIA__AL_SHABAAB__INTERNAL",
+      "from": "SOMALIA",
+      "to": "AL_SHABAAB",
+      "theater": "AFR",
+      "category": "INTERNAL",
+      "type": "Insurgency / NIAC",
+      "effect": "solid",
+      "color": "#a855f7",
+      "summary": "Somalia's conflict with Al-Shabaab remains an active insurgency and a core Horn security problem.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "MYANMAR__ARAKAN_ARMY__INTERNAL",
+      "from": "MYANMAR",
+      "to": "ARAKAN_ARMY",
+      "theater": "ASIA",
+      "category": "INTERNAL",
+      "type": "Civil War / NIAC",
+      "effect": "solid",
+      "color": "#a855f7",
+      "summary": "Myanmar's civil war includes sustained hostilities between the military and the Arakan Army, especially in the Rakhine theater.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "High",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "MYANMAR__THAILAND__SPILLOVER",
+      "from": "MYANMAR",
+      "to": "THAILAND",
+      "theater": "ASIA",
+      "category": "SPILLOVER",
+      "type": "Refugee / Border Spillover",
+      "effect": "dashed",
+      "color": "#f97316",
+      "summary": "Myanmar's war continues to push refugee and border pressure into Thailand.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "PAKISTAN__AFGHANISTAN__WAR",
+      "from": "PAKISTAN",
+      "to": "AFGHANISTAN",
+      "theater": "ASIA",
+      "category": "WAR",
+      "type": "Cross-border Armed Conflict",
+      "effect": "solid",
+      "color": "#ef4444",
+      "summary": "Pakistan's strikes inside Afghanistan and daily frontier clashes make this an active cross-border armed conflict, even as legal classification remains contested.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "PAKISTAN__TEHRIK_I_TALIBAN_PAKISTAN__INTERNAL",
+      "from": "PAKISTAN",
+      "to": "TEHRIK_I_TALIBAN_PAKISTAN",
+      "theater": "ASIA",
+      "category": "INTERNAL",
+      "type": "Insurgency / NIAC",
+      "effect": "solid",
+      "color": "#a855f7",
+      "summary": "Pakistan's confrontation with TTP is the internal militant driver entwined with the interstate border crisis.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "HAITI__VIV_ANSANM__INTERNAL",
+      "from": "HAITI",
+      "to": "VIV_ANSANM",
+      "theater": "AMER",
+      "category": "INTERNAL",
+      "type": "State vs Gang Coalition",
+      "effect": "solid",
+      "color": "#a855f7",
+      "summary": "Haiti's sovereignty crisis centers on confrontation between state forces and the Viv Ansanm gang coalition.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "HAITI__DOMINICAN_REPUBLIC__SPILLOVER",
+      "from": "HAITI",
+      "to": "DOMINICAN_REPUBLIC",
+      "theater": "AMER",
+      "category": "SPILLOVER",
+      "type": "Migration / Border Spillover",
+      "effect": "dashed",
+      "color": "#f97316",
+      "summary": "Haiti's violence continues to spill over into the Dominican Republic through border and migration pressure.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "ECUADOR__LOS_CHONEROS__INTERNAL",
+      "from": "ECUADOR",
+      "to": "LOS_CHONEROS",
+      "theater": "AMER",
+      "category": "INTERNAL",
+      "type": "State vs Criminal Armed Group",
+      "effect": "solid",
+      "color": "#a855f7",
+      "summary": "Ecuador's organized-violence crisis includes sustained confrontation between the state and Los Choneros.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "ECUADOR__LOS_LOBOS__INTERNAL",
+      "from": "ECUADOR",
+      "to": "LOS_LOBOS",
+      "theater": "AMER",
+      "category": "INTERNAL",
+      "type": "State vs Criminal Armed Group",
+      "effect": "solid",
+      "color": "#a855f7",
+      "summary": "Ecuador's organized-violence crisis includes sustained confrontation between the state and Los Lobos.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "CHINA__INDIA__TENSION",
+      "from": "CHINA",
+      "to": "INDIA",
+      "theater": "ASIA",
+      "category": "TENSION",
+      "type": "Border Standoff",
+      "effect": "dotted",
+      "color": "#eab308",
+      "summary": "The Line of Actual Control is on the near-war watchlist because force posture and friction could quickly escalate.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Low",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "NORTH_KOREA__SOUTH_KOREA__TENSION",
+      "from": "NORTH_KOREA",
+      "to": "SOUTH_KOREA",
+      "theater": "ASIA",
+      "category": "TENSION",
+      "type": "Militarized Standoff",
+      "effect": "dotted",
+      "color": "#eab308",
+      "summary": "The Korean Peninsula remains a high-risk miscalculation theater marked by missile and force-posture signaling.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
+    },
+    {
+      "id": "MEXICO__UNITED_STATES__SPILLOVER",
+      "from": "MEXICO",
+      "to": "UNITED_STATES",
+      "theater": "AMER",
+      "category": "SPILLOVER",
+      "type": "Cross-border Security Spillover",
+      "effect": "dashed",
+      "color": "#f97316",
+      "summary": "Mexico's cartel-state violence directly exposes the United States through fentanyl, migration, and border-security stress.",
+      "updated_at": "2026-03-14T00:00:00-04:00",
+      "confidence": "Medium",
+      "sources": [
+        {
+          "title": "Global Conflict Systems",
+          "citation": "Global Conflict Systems"
+        }
+      ]
     }
   ]
 }
