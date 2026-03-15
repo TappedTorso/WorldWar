@@ -562,7 +562,7 @@ function initUI({ meta, data, events }) {
     state.selected=nodeId;
     // Use setOption for programmatic jumps (theater/node select) — these aren't
     // frame-sensitive interactive operations, so the full lifecycle is fine here.
-    chart.setOption({ geo:{ center:node.coords, zoom:4 } });
+    chart.setOption({ geo:{ id:'baseGeo', center:node.coords, zoom:4 } });
     syncFilterUI(); updateMap(); renderNodePanel(nodeId); writeHashState(state);
   };
   const clearSelection=()=>{ state.selected=null; updateMap(); setPanelOpen(false); writeHashState(state); };
@@ -749,7 +749,7 @@ function initUI({ meta, data, events }) {
       const dLng=Math.abs(lng-DEFAULT_CENTER[0]);
       if (dLat>2||dLng>6) {
         clampingPan=true;
-        chart.setOption({ geo:{ center:[...DEFAULT_CENTER] } });
+        chart.setOption({ geo:{ id:'baseGeo', center:[...DEFAULT_CENTER] } });
         clampingPan=false;
       }
       return;
@@ -760,7 +760,7 @@ function initUI({ meta, data, events }) {
     const clampedLng=Math.max(-220,Math.min(260,lng));
     if (Math.abs(clampedLat-lat)>0.5||Math.abs(clampedLng-lng)>0.5) {
       clampingPan=true;
-      chart.setOption({ geo:{ center:[clampedLng,clampedLat] } });
+      chart.setOption({ geo:{ id:'baseGeo', center:[clampedLng,clampedLat] } });
       clampingPan=false;
     }
   });
@@ -786,7 +786,7 @@ function initUI({ meta, data, events }) {
       state.theater=e.target.dataset.theater;
       const center=JSON.parse(e.target.dataset.center);
       const zoom=parseFloat(e.target.dataset.zoom);
-      chart.setOption({ geo:{ center, zoom } });
+      chart.setOption({ geo:{ id:'baseGeo', center, zoom } });
       state.selected=null; setPanelOpen(false); syncFilterUI(); updateMap(); writeHashState(state);
     });
   });
