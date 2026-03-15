@@ -10,6 +10,10 @@
   - Phase 1 hardening: no inline onclick, no unsafe innerHTML for user content, tooltip escaping
   - Phase 2 separation: data loaded from /data/*.json; engine isolated in /assets/app.js
   - Modeling fix: org nodes don't fill country polygons (prevents "EU colors Belgium")
+
+  Phase 3+:
+  - Zoom capped at min 1.2 (can't shrink map to a dot)
+  - Wheel and pinch zoom speed dampened — smooth control on trackpad and iPhone
 */
 
 const COLORS = {
@@ -47,6 +51,14 @@ const LENS_PRESETS = {
     hint: 'Sanctions + escalation'
   }
 };
+
+// ── Zoom constants ────────────────────────────────────────────────────────────
+const GEO_MIN_ZOOM = 1.2;  // can't shrink map smaller than full-view
+const GEO_MAX_ZOOM = 20;
+// Wheel: each tick zooms by this fraction. Lower = slower. 1.08 ≈ 8% per tick.
+const WHEEL_STEP = 1.08;
+// Pinch: how much of the raw pinch delta is applied. 0.35 = 35% of native speed.
+const PINCH_DAMPING = 0.35;
 
 function escapeHTML(s) {
   return String(s ?? '').replace(/[&<>"']/g, (ch) => ({
@@ -151,7 +163,6 @@ function parseHashState() {
 
     if (params.has('theater')) state.theater = params.get('theater') || 'ALL';
 
-    // Lens preset (if present) overrides filters
     if (params.has('lens')) {
       const lens = String(params.get('lens') || '').toUpperCase();
       if (LENS_PRESETS[lens]) {
@@ -160,17 +171,11 @@ function parseHashState() {
       }
     }
 
-    // Filters (if present) override defaults; if lens was set, filters are optional
     if (params.has('filters')) {
       const f = params.get('filters');
       state.filters = f ? f.split(',').filter(Boolean) : [];
       state.lens = inferLensFromFilters(state.filters);
-      if (state.lens !== 'CUSTOM' && state.lens !== 'EDITORIAL') {
-        // If filters correspond to a preset, keep that preset name
-        // (unless a different lens was explicitly provided in the URL)
-      }
     } else {
-      // No filters param; infer lens from filters
       state.lens = inferLensFromFilters(state.filters);
     }
 
@@ -179,7 +184,6 @@ function parseHashState() {
     // ignore
   }
 
-  // Normalize: if lens preset exists, make sure filters match
   if (state.lens !== 'CUSTOM' && LENS_PRESETS[state.lens]) {
     state.filters = [...LENS_PRESETS[state.lens].filters];
   }
@@ -193,12 +197,9 @@ function writeHashState(state) {
 
     if (state.theater !== 'ALL') params.set('theater', state.theater);
 
-    // If a non-default preset is selected, store lens.
-    // Otherwise store filters when custom (including empty).
     if (state.lens && state.lens !== 'EDITORIAL' && state.lens !== 'CUSTOM' && LENS_PRESETS[state.lens]) {
       params.set('lens', state.lens);
     } else {
-      // Persist custom filters (including none selected)
       const isDefault = arrKey(state.filters) === arrKey(DEFAULT_FILTERS);
       if (!isDefault || state.lens === 'CUSTOM') {
         params.set('filters', (state.filters || []).join(','));
@@ -334,7 +335,6 @@ function ensureEvidenceContainer() {
   c.id = 'evidence-container';
   c.className = 'mb-4';
 
-  // Insert right after badges
   const badges = el('dual-classification-badges');
   badges.insertAdjacentElement('afterend', c);
   return c;
@@ -470,7 +470,6 @@ function renderEvidence(container, { updated_at, confidence, sources } = {}) {
       pub.textContent = pubBits.join(' • ');
 
       top.append(title, pub);
-
       li.append(top);
 
       if (s.note || s.citation) {
@@ -486,7 +485,6 @@ function renderEvidence(container, { updated_at, confidence, sources } = {}) {
 
   body.append(srcList);
   details.append(body);
-
   container.append(details);
 }
 
@@ -502,7 +500,7 @@ function defaultAbout(meta, datasetMeta) {
         heading: 'How to read the map',
         bullets: [
           'Click a country/node to spotlight its network (connections brighten; others fade).',
-          'Use “Zoom To Theater” to focus on a region.',
+          'Use "Zoom To Theater" to focus on a region.',
           'Use filters to hide interaction types when the map gets noisy.'
         ]
       },
@@ -519,10 +517,10 @@ function defaultAbout(meta, datasetMeta) {
     caveats: {
       heading: 'Caveats & Definitions',
       bullets: [
-        'This is an editorial project. Categories and summaries reflect the author’s assessment at the time of writing.',
+        'This is an editorial project. Categories and summaries reflect the author\'s assessment at the time of writing.',
         'IHL labels are included as a reference framework, not as legal determinations or official rulings.',
-        'Terms like “war”, “self-defense”, or “genocide” can be contested and may change as evidence develops and formal processes conclude.',
-        'Use sources and timestamps: every node/edge can carry confidence + citations (expand “Evidence” in the panel).'
+        'Terms like "war", "self-defense", or "genocide" can be contested and may change as evidence develops and formal processes conclude.',
+        'Use sources and timestamps: every node/edge can carry confidence + citations (expand "Evidence" in the panel).'
       ]
     }
   };
@@ -531,23 +529,16 @@ function defaultAbout(meta, datasetMeta) {
 function setupAboutModal({ meta, datasetMeta }) {
   const about = (datasetMeta && datasetMeta.about) ? datasetMeta.about : defaultAbout(meta, datasetMeta);
 
-  // Create a button in the header (near the date).
   const dateBadge = document.getElementById('ui-date');
   if (dateBadge && !document.getElementById('about-btn')) {
     const btn = document.createElement('button');
     btn.id = 'about-btn';
     btn.className = 'text-[10px] sm:text-xs font-semibold bg-slate-800 text-slate-300 hover:text-white px-2 py-1 rounded-md border border-slate-700 whitespace-nowrap';
     btn.textContent = 'About';
-
-    // Insert right after the date badge
     dateBadge.insertAdjacentElement('afterend', btn);
   }
 
-  // Modal overlay
-  if (document.getElementById('about-modal')) {
-    // already exists
-    return;
-  }
+  if (document.getElementById('about-modal')) return;
 
   const overlay = document.createElement('div');
   overlay.id = 'about-modal';
@@ -588,15 +579,12 @@ function setupAboutModal({ meta, datasetMeta }) {
   const body = document.createElement('div');
   body.className = 'mt-5 space-y-5';
 
-  // Sections
   const sections = Array.isArray(about.sections) ? about.sections : [];
   for (const sec of sections) {
     const block = document.createElement('div');
-
     const h = document.createElement('h3');
     h.className = 'text-[11px] uppercase tracking-wider text-slate-400 font-bold mb-2';
     h.textContent = sec.heading || 'Section';
-
     block.append(h);
 
     const bullets = Array.isArray(sec.bullets) ? sec.bullets : [];
@@ -615,25 +603,19 @@ function setupAboutModal({ meta, datasetMeta }) {
       p.textContent = String(sec.body);
       block.append(p);
     }
-
     body.append(block);
   }
 
-  // Caveats — intentionally hidden behind a disclosure
   const caveats = about.caveats;
   if (caveats) {
     const det = document.createElement('details');
     det.className = 'bg-slate-800/30 p-4 rounded-lg border border-slate-700/50';
-
     const sum = document.createElement('summary');
     sum.className = 'cursor-pointer list-none select-none text-sm font-semibold text-slate-200';
     sum.textContent = caveats.heading || 'Caveats & Definitions (click to expand)';
-
     det.append(sum);
-
     const inner = document.createElement('div');
     inner.className = 'mt-3';
-
     const bullets = Array.isArray(caveats.bullets) ? caveats.bullets : [];
     if (bullets.length) {
       const ul = document.createElement('ul');
@@ -650,7 +632,6 @@ function setupAboutModal({ meta, datasetMeta }) {
       p.textContent = String(caveats.body);
       inner.append(p);
     }
-
     det.append(inner);
     body.append(det);
   }
@@ -659,21 +640,11 @@ function setupAboutModal({ meta, datasetMeta }) {
   overlay.append(card);
   document.body.append(overlay);
 
-  const open = () => {
-    overlay.classList.remove('hidden');
-    overlay.classList.add('flex');
-  };
-
-  const close = () => {
-    overlay.classList.add('hidden');
-    overlay.classList.remove('flex');
-  };
+  const open = () => { overlay.classList.remove('hidden'); overlay.classList.add('flex'); };
+  const close = () => { overlay.classList.add('hidden'); overlay.classList.remove('flex'); };
 
   closeBtn.addEventListener('click', close);
-  overlay.addEventListener('click', (e) => {
-    if (e.target === overlay) close();
-  });
-
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) close(); });
   window.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && !overlay.classList.contains('hidden')) close();
   });
@@ -689,10 +660,8 @@ function initUI({ meta, data, events }) {
     ? `Events: ${formatDate(eventsFreshness)}`
     : 'Events: not refreshed yet';
 
-  // About modal (intentionally opened)
   setupAboutModal({ meta, datasetMeta: data.metadata });
 
-  // Collapsible filters
   const toggleBtn = el('toggle-filters-btn');
   const filterControls = el('filter-controls-container');
   const iconUp = el('icon-chevron-up');
@@ -718,7 +687,6 @@ function initUI({ meta, data, events }) {
     }
   });
 
-  // Lens controls (preset groupings)
   const lensWrap = document.createElement('div');
   lensWrap.className = 'mb-4';
   lensWrap.id = 'lens-controls';
@@ -759,8 +727,6 @@ function initUI({ meta, data, events }) {
 
   lensWrap.append(lensHeader, lensBtnsRow);
 
-  // Insert lens controls right above the interaction filters (preferred).
-  // If the expected DOM structure changes, fall back to prepending.
   const toggleAll = document.getElementById('toggle-all-filters');
   const filtersSection = toggleAll ? toggleAll.closest('div')?.parentElement : null;
   if (filtersSection && filtersSection.parentElement === filterControls) {
@@ -769,7 +735,6 @@ function initUI({ meta, data, events }) {
     filterControls.prepend(lensWrap);
   }
 
-  // Datalist
   const datalist = el('country-datalist');
   datalist.replaceChildren();
   for (const n of data.nodes) {
@@ -779,17 +744,13 @@ function initUI({ meta, data, events }) {
   }
 
   const state = parseHashState();
-  // If URL didn't explicitly include lens, infer from filters
   state.lens = state.lens || inferLensFromFilters(state.filters);
 
   const chart = echarts.init(el('map-container'));
-
   const evidenceContainer = ensureEvidenceContainer();
 
   const syncLensUI = () => {
     const lens = state.lens;
-
-    // Highlight preset buttons
     for (const [k, btn] of lensButtons.entries()) {
       const active = lens === k;
       btn.classList.toggle('bg-blue-600', active);
@@ -797,18 +758,11 @@ function initUI({ meta, data, events }) {
       btn.classList.toggle('bg-slate-800', !active);
       btn.classList.toggle('text-slate-300', !active);
     }
-
     const isCustom = lens === 'CUSTOM';
     customBadge.classList.toggle('hidden', !isCustom);
-
-    // Hint text
     const hintEl = document.getElementById('lens-hint');
     if (hintEl) {
-      if (isCustom) {
-        hintEl.textContent = 'Custom filters';
-      } else {
-        hintEl.textContent = LENS_PRESETS[lens]?.hint || '';
-      }
+      hintEl.textContent = isCustom ? 'Custom filters' : (LENS_PRESETS[lens]?.hint || '');
     }
   };
 
@@ -844,7 +798,6 @@ function initUI({ meta, data, events }) {
 
     el('info-context').textContent = lineDatum.summary || '';
 
-    // Evidence (collapsed by default)
     renderEvidence(evidenceContainer, {
       updated_at: lineDatum.updated_at,
       confidence: lineDatum.confidence,
@@ -863,7 +816,6 @@ function initUI({ meta, data, events }) {
     el('info-title').textContent = node.name;
     el('info-context').textContent = node.summary || '';
 
-    // Badges
     const badges = el('dual-classification-badges');
     badges.replaceChildren();
 
@@ -880,14 +832,12 @@ function initUI({ meta, data, events }) {
     policy.textContent = `Policy: ${node.exposure ?? '—'}`;
     badges.append(policy);
 
-    // Evidence (collapsed by default)
     renderEvidence(evidenceContainer, {
       updated_at: node.updated_at,
       confidence: node.confidence,
       sources: node.sources
     });
 
-    // Connections
     const edges = data.adj.get(nodeId) || [];
     const connectionsContainer = el('connections-container');
     const list = el('info-connections');
@@ -910,7 +860,6 @@ function initUI({ meta, data, events }) {
         dot.style.boxShadow = `0 0 5px ${e.color}`;
 
         const wrap = document.createElement('div');
-
         const title = document.createElement('div');
         title.className = 'font-semibold text-slate-200';
         title.textContent = other.name;
@@ -936,7 +885,6 @@ function initUI({ meta, data, events }) {
       connectionsContainer.classList.add('hidden');
     }
 
-    // Events (optional feed)
     const evContainer = el('events-container');
     const evList = el('info-events');
     evList.replaceChildren();
@@ -998,7 +946,6 @@ function initUI({ meta, data, events }) {
 
     const visibleIds = new Set(visibleNodes.map((n) => n.id));
 
-    // If selection is no longer visible (e.g., lens changed), drop selection
     if (state.selected && !visibleIds.has(state.selected)) {
       state.selected = null;
       setPanelOpen(false);
@@ -1078,7 +1025,6 @@ function initUI({ meta, data, events }) {
       };
     }).filter(Boolean);
 
-    // Fill polygons only for state/territory nodes
     const mapFills = visibleNodes
       .filter((n) => (n.type === 'state' || n.type === 'territory') && n.geoName)
       .map((n) => ({
@@ -1128,7 +1074,6 @@ function initUI({ meta, data, events }) {
       ]
     });
 
-    // Keep lens in sync if user created a custom filter selection
     const lensNow = inferLensFromFilters(state.filters);
     if (lensNow !== state.lens) {
       state.lens = lensNow;
@@ -1158,7 +1103,6 @@ function initUI({ meta, data, events }) {
     writeHashState(state);
   };
 
-  // Lens button actions
   for (const [lensKey, btn] of lensButtons.entries()) {
     btn.addEventListener('click', () => {
       state.lens = lensKey;
@@ -1171,7 +1115,6 @@ function initUI({ meta, data, events }) {
     });
   }
 
-  // Initial map center/zoom
   let initialCenter = [10, 30];
   let initialZoom = 1.2;
   if (state.theater !== 'ALL') {
@@ -1194,6 +1137,8 @@ function initUI({ meta, data, events }) {
       roam: true,
       zoom: initialZoom,
       center: initialCenter,
+      // Hard floor: can't zoom out past the initial full-view level
+      scaleLimit: { min: GEO_MIN_ZOOM, max: GEO_MAX_ZOOM },
       label: { emphasis: { show: false } },
       itemStyle: { areaColor: COLORS.MAP_BG, borderColor: COLORS.MAP_BORDER, borderWidth: 1 },
       emphasis: { itemStyle: { areaColor: '#1e2538' } }
@@ -1264,6 +1209,106 @@ function initUI({ meta, data, events }) {
 
   window.addEventListener('resize', () => chart.resize());
 
+  // ── Zoom speed control ────────────────────────────────────────────────────
+  //
+  // ECharts' native wheel zoom fires in the bubble phase. By registering our
+  // listener in the CAPTURE phase we intercept the event first, prevent the
+  // default browser scroll, stop ECharts from seeing it, and manually apply a
+  // gentler zoom step centered on the mouse/pinch position.
+  //
+  // Panning (mousedown + mousemove) is unaffected — we only intercept 'wheel'.
+
+  const mapEl = el('map-container');
+
+  // Helper: read the current geo zoom/center from ECharts (always in sync)
+  const getGeoState = () => {
+    const opt = chart.getOption();
+    return {
+      zoom: opt.geo?.[0]?.zoom ?? GEO_MIN_ZOOM,
+      center: opt.geo?.[0]?.center ?? [10, 30]
+    };
+  };
+
+  // Helper: apply a new zoom level, keeping the anchor point (in geo coords) stationary
+  const applyZoom = (newZoom, anchorGeo) => {
+    const { zoom: curZoom, center: curCenter } = getGeoState();
+    newZoom = Math.max(GEO_MIN_ZOOM, Math.min(GEO_MAX_ZOOM, newZoom));
+    if (newZoom === curZoom) return;
+
+    const ratio = newZoom / curZoom;
+    const newCenter = [
+      anchorGeo[0] + (curCenter[0] - anchorGeo[0]) / ratio,
+      anchorGeo[1] + (curCenter[1] - anchorGeo[1]) / ratio
+    ];
+
+    chart.setOption({ geo: { center: newCenter, zoom: newZoom } });
+  };
+
+  // ── Trackpad / mouse wheel ────────────────────────────────────────────────
+  mapEl.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    e.stopImmediatePropagation(); // prevent ECharts' bubble-phase handler
+
+    const rect = mapEl.getBoundingClientRect();
+    const mouseGeo = chart.convertFromPixel({ geoIndex: 0 }, [
+      e.clientX - rect.left,
+      e.clientY - rect.top
+    ]);
+    if (!mouseGeo) return;
+
+    const { zoom: curZoom } = getGeoState();
+    const factor = e.deltaY < 0 ? WHEEL_STEP : (1 / WHEEL_STEP);
+    applyZoom(curZoom * factor, mouseGeo);
+  }, { passive: false, capture: true });
+
+  // ── Pinch to zoom (iPhone / trackpad two-finger pinch) ───────────────────
+  let lastPinchDist = null;
+
+  mapEl.addEventListener('touchstart', (e) => {
+    if (e.touches.length === 2) {
+      lastPinchDist = Math.hypot(
+        e.touches[0].clientX - e.touches[1].clientX,
+        e.touches[0].clientY - e.touches[1].clientY
+      );
+      // Let ECharts see single-finger touches for panning; block two-finger only
+      e.preventDefault();
+      e.stopImmediatePropagation();
+    }
+  }, { passive: false, capture: true });
+
+  mapEl.addEventListener('touchmove', (e) => {
+    if (e.touches.length !== 2 || lastPinchDist === null) return;
+    e.preventDefault();
+    e.stopImmediatePropagation();
+
+    const newDist = Math.hypot(
+      e.touches[0].clientX - e.touches[1].clientX,
+      e.touches[0].clientY - e.touches[1].clientY
+    );
+
+    // Dampen: apply only a fraction of the raw pinch ratio
+    const rawRatio = newDist / lastPinchDist;
+    const dampened = 1 + (rawRatio - 1) * PINCH_DAMPING;
+
+    const rect = mapEl.getBoundingClientRect();
+    const midX = (e.touches[0].clientX + e.touches[1].clientX) / 2 - rect.left;
+    const midY = (e.touches[0].clientY + e.touches[1].clientY) / 2 - rect.top;
+    const midGeo = chart.convertFromPixel({ geoIndex: 0 }, [midX, midY]);
+
+    if (midGeo) {
+      const { zoom: curZoom } = getGeoState();
+      applyZoom(curZoom * dampened, midGeo);
+    }
+
+    lastPinchDist = newDist;
+  }, { passive: false, capture: true });
+
+  mapEl.addEventListener('touchend', () => {
+    lastPinchDist = null;
+  }, { capture: true });
+
+  // ── End zoom control ──────────────────────────────────────────────────────
+
   // Filters
   document.querySelectorAll('.filter-cb').forEach((cb) => {
     cb.addEventListener('change', (e) => {
@@ -1329,7 +1374,6 @@ function initUI({ meta, data, events }) {
     }
   });
 
-  // Close panel
   el('close-panel').addEventListener('click', clearSelection);
 
   syncFilterUI();
