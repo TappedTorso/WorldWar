@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-03-15T04:07:22Z",
+    "generated_at_utc": "2026-03-15T05:43:51Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -64,6 +64,16 @@
       "url": "https://religionnews.com/2026/03/14/history-as-fuel-reza-aslan-on-the-latest-iran-war/",
       "published_at": "20260315T004500Z",
       "source": "religionnews.com",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_2d10e93e4600ce30",
+      "headline": "Trump says Iran deal not imminent , reveals push for international coordination in Gulf",
+      "url": "https://sana.sy/en/international/2302851/",
+      "published_at": "20260315T050000Z",
+      "source": "sana.sy",
       "tags": [
         "IRAN"
       ]
@@ -145,11 +155,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_f4724dfdfe54437a",
+      "headline": "Khói lửa xung đột Trung Đông đã lan rộng đến mức độ nào ?",
+      "url": "https://thanhnien.vn/khoi-lua-xung-dot-trung-dong-da-lan-rong-den-muc-do-nao-185260314063850078.htm",
+      "published_at": "20260315T041500Z",
+      "source": "thanhnien.vn",
+      "tags": []
+    },
+    {
       "id": "gdelt_b815d6ab21abb73c",
       "headline": "При каком условии США вернут санкции против РФ заявление Трампа",
       "url": "https://ura.news/news/1053077277",
       "published_at": "20260315T010000Z",
       "source": "ura.news",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ce97f3f09e60a871",
+      "headline": "＜1分で解説＞ロシア産原油制裁緩和 ウクライナなどが反発",
+      "url": "https://mainichi.jp/articles/20260315/k00/00m/030/094000c",
+      "published_at": "20260315T043000Z",
+      "source": "mainichi.jp",
       "tags": []
     },
     {
@@ -169,37 +195,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_9ecc669f62757a10",
-      "headline": "Bangla national who helped Hadi killers enter India held | India News",
-      "url": "https://timesofindia.indiatimes.com/india/bangla-national-who-helped-hadi-killers-enter-india-held/articleshow/129581798.cms",
-      "published_at": "20260314T231500Z",
-      "source": "timesofindia.indiatimes.com",
-      "tags": [
-        "INDIA"
-      ]
-    },
-    {
-      "id": "gdelt_20312d250952312d",
-      "headline": "ЕС снял санкции с двух человек",
-      "url": "https://iz.ru/2059357/2026-03-15/es-snial-sanktcii-s-docheri-prezidenta-transnefti-tokarevoi-i-biznesmena-troosta",
-      "published_at": "20260314T233000Z",
-      "source": "iz.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_95b0a83129c4374d",
       "headline": "Трамп пообещал вернуть антироссийские санкции",
       "url": "https://ria.ru/20260315/tramp-2080736835.html",
       "published_at": "20260315T000000Z",
       "source": "ria.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a14e276fa028f1d2",
-      "headline": "ЕС снял санкции с дочери президента « Транснефти » Токаревой и бизнесмена Трооста",
-      "url": "https://russian.rt.com/world/news/1607358-es-sankcii-transneft",
-      "published_at": "20260314T233000Z",
-      "source": "russian.rt.com",
       "tags": []
     },
     {
@@ -291,14 +291,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_7cb17ccf85ecf458",
-      "headline": "Evropska unija produžila individualne sankcije Rusiji za još šest meseci : Preminuli uklonjeni sa liste",
-      "url": "https://www.telegraf.rs/vesti/svet/4289235-evropska-unija-produzila-individualne-sankcije-rusiji-za-jos-sest-meseci-preminuli-uklonjeni-sa-liste",
-      "published_at": "20260314T230000Z",
-      "source": "telegraf.rs",
-      "tags": []
-    },
-    {
       "id": "gdelt_076c76f40b44bf91",
       "headline": "Медіа : старший тренер збірної України Лаврухін виїхав до Білорусі",
       "url": "https://lb.ua/society/2026/03/14/727323_media_starshiy_trener_zbirnoyi.html",
@@ -333,16 +325,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_b9ee0d9c67da7a96",
-      "headline": "Venezuela i Kolumbija razgovaraju o sigurnosti , Rodrigez poziva na ukidanje sankcija",
-      "url": "https://www.novilist.hr/novosti/svijet/venezuela-i-kolumbija-razgovaraju-o-sigurnosti-rodrigez-poziva-na-ukidanje-sankcija/",
-      "published_at": "20260314T233000Z",
-      "source": "novilist.hr",
-      "tags": [
-        "VENEZUELA"
-      ]
-    },
-    {
       "id": "gdelt_938ab852775fff05",
       "headline": "Трамп сделал резкое заявление о помощи Украины в защите от иранских дронов",
       "url": "https://www.unian.net/world/tramp-sdelal-rezkoe-zayavlenie-o-pomoshchi-ukrainy-v-zashchite-ot-iranskih-dronov-13315506.html",
@@ -361,15 +343,22 @@
       ]
     },
     {
-      "id": "gdelt_a3c92a72aa8d1dce",
-      "headline": "Israel fights defensive battle inside Lebanon as IDF prepares for possible ground off",
-      "url": "https://www.ynetnews.com/article/hydjkh7qzg",
-      "published_at": "20260314T231500Z",
-      "source": "ynetnews.com",
+      "id": "gdelt_06a1201e9a53d677",
+      "headline": "Vie dException : LImmobilier Sur Mesure à la Croisée de la Suisse et de la France",
+      "url": "https://sixactualites.fr/retraites/vie-dexception-limmobilier-sur-mesure-a-la-croisee-de-la-suisse-et-de-la-france/96530/",
+      "published_at": "20260315T050000Z",
+      "source": "sixactualites.fr",
       "tags": [
-        "ISRAEL",
-        "LEBANON"
+        "FRANCE"
       ]
+    },
+    {
+      "id": "gdelt_5f5461a918aa360c",
+      "headline": "Трамп відновить часткові сакції проти РФ , якщо нафтовий ринок стабіліується",
+      "url": "https://www.rbc.ua/rus/news/tramp-gotoviy-vidnoviti-naftovi-sanktsiyi-1773537683.html",
+      "published_at": "20260315T050000Z",
+      "source": "rbc.ua",
+      "tags": []
     },
     {
       "id": "gdelt_1f28a1afa242a11d",
@@ -399,14 +388,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_2ed53f757323b19e",
-      "headline": "Премьер Бельгии призвал к переговорам с Россией . А ЕС продлил санкции",
-      "url": "https://haqqin.az/newsarchive/378371",
-      "published_at": "20260314T231500Z",
-      "source": "haqqin.az",
-      "tags": []
-    },
-    {
       "id": "gdelt_e6ff5d013cdd9449",
       "headline": "Трамп повідомив , що санкції проти російської нафти відновлять після завершення кризи на Близькому Сході",
       "url": "https://ua.interfax.com.ua/news/general/1151721.html",
@@ -415,11 +396,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_22bc3ad5d82c6848",
-      "headline": "جريدة الرياض | ولي العهد يبحث مع ماكرون وشريف التصعيد العسكري",
-      "url": "https://www.alriyadh.com/2179379",
-      "published_at": "20260315T013000Z",
-      "source": "alriyadh.com",
+      "id": "gdelt_3fce84b3aa3e9874",
+      "headline": "عاجل .. القطاعات الصناعية بتل أبيب هدف جديد للصواريخ الإيرانية لشل الاقتصاد الإسرائيلي",
+      "url": "https://www.elwatannews.com/news/details/8246127",
+      "published_at": "20260315T050000Z",
+      "source": "elwatannews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fc4ecc55cc2cb3ba",
+      "headline": "Stocks fall for 7th week amid geopolitical tensions - Business",
+      "url": "https://www.dawn.com/news/1982193/stocks-fall-for-7th-week-amid-geopolitical-tensions",
+      "published_at": "20260315T041500Z",
+      "source": "dawn.com",
       "tags": []
     },
     {
@@ -439,11 +428,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_22bc3ad5d82c6848",
+      "headline": "جريدة الرياض | ولي العهد يبحث مع ماكرون وشريف التصعيد العسكري",
+      "url": "https://www.alriyadh.com/2179379",
+      "published_at": "20260315T013000Z",
+      "source": "alriyadh.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_a25f4c95dc4d1733",
       "headline": "홍콩 ELS 과징금 제재 결론 나온다은행권  운명의 다음주",
       "url": "https://newsway.co.kr/news/view?ud=2026031314513722976",
       "published_at": "20260315T013000Z",
       "source": "newsway.co.kr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_21b19f881909e965",
+      "headline": "Awas Kena Derek ! Jangan Parkir Sembarangan saat Libur Lebaran di Kota Bandung",
+      "url": "https://www.liputan6.com/regional/read/6298314/awas-kena-derek-jangan-parkir-sembarangan-saat-libur-lebaran-di-kota-bandung",
+      "published_at": "20260315T050000Z",
+      "source": "liputan6.com",
       "tags": []
     },
     {
@@ -453,16 +458,6 @@
       "published_at": "20260315T000000Z",
       "source": "9tv.co.il",
       "tags": []
-    },
-    {
-      "id": "gdelt_41aff3a6176cfeae",
-      "headline": "Belgian PM urges EU to negotiate with Russia",
-      "url": "http://www.batonrougepost.com/news/278922682/belgian-pm-urges-eu-to-negotiate-with-russia",
-      "published_at": "20260315T020000Z",
-      "source": "batonrougepost.com",
-      "tags": [
-        "RUSSIA"
-      ]
     },
     {
       "id": "gdelt_f9611e63e2056146",
@@ -475,11 +470,45 @@
       ]
     },
     {
+      "id": "gdelt_41aff3a6176cfeae",
+      "headline": "Belgian PM urges EU to negotiate with Russia",
+      "url": "http://www.batonrougepost.com/news/278922682/belgian-pm-urges-eu-to-negotiate-with-russia",
+      "published_at": "20260315T020000Z",
+      "source": "batonrougepost.com",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "gdelt_e6f5ef7ea469cc09",
+      "headline": "Belgian PM urges EU to negotiate with Russia",
+      "url": "http://www.russiaherald.com/news/278922682/belgian-pm-urges-eu-to-negotiate-with-russia",
+      "published_at": "20260315T050000Z",
+      "source": "russiaherald.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_a7b6f5084fc5121b",
       "headline": "Zimbabwe white farmers : Will Trump help or hinder their compensation battle ?",
       "url": "https://www.bbc.com/news/articles/c8jxd91y2ylo",
       "published_at": "20260315T004500Z",
       "source": "bbc.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_169a3c8ef5ba8c7e",
+      "headline": "川普访华=羞辱习近平 ？ 三板斧已出 ， 140亿军售后手已备",
+      "url": "https://www.aboluowang.com/2026/0315/2360016.html",
+      "published_at": "20260315T041500Z",
+      "source": "aboluowang.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7a4366f2ccbf906f",
+      "headline": "Après lavertissement sur une « ligne rouge », larmée pakistanaise frappe un point névralgique en Afghanistan",
+      "url": "https://senego.com/apres-lavertissement-sur-une-ligne-rouge-larmee-pakistanaise-frappe-un-point-nevralgique-en-afghanistan_1937453.html",
+      "published_at": "20260315T050000Z",
+      "source": "senego.com",
       "tags": []
     },
     {
@@ -491,14 +520,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_197aba87f43c16cd",
-      "headline": "Rat – dan 1 . 480 : 300 dronova napalo Rusiju ; Eksplozija u Čerkasiju ; Evropa produžila sankcije Rusima FOTO",
-      "url": "https://www.b92.net/info/svet/215753/rat-dan-1480-300-dronova-napalo-rusiju-eksplozija-u-cerkasiju-evropa-produzila-sankcije-rusima-foto/vest",
-      "published_at": "20260315T000000Z",
-      "source": "b92.net",
-      "tags": []
-    },
-    {
       "id": "gdelt_4e8be1629b6c782a",
       "headline": "Biden and Putin to meet in June",
       "url": "https://www.defensenews.com/global/2021/05/25/biden-and-putin-to-meet-in-june/",
@@ -507,12 +528,30 @@
       "tags": []
     },
     {
-      "id": "gdelt_44a33e8d83fd1d61",
-      "headline": "Skenario Penghematan Pemerintah : Pengurangan Jam Kerja hingga WFH ASN",
-      "url": "https://nasional.kompas.com/read/2026/03/15/06383831/skenario-penghematan-pemerintah-pengurangan-jam-kerja-hingga-wfh-asn",
+      "id": "gdelt_197aba87f43c16cd",
+      "headline": "Rat – dan 1 . 480 : 300 dronova napalo Rusiju ; Eksplozija u Čerkasiju ; Evropa produžila sankcije Rusima FOTO",
+      "url": "https://www.b92.net/info/svet/215753/rat-dan-1480-300-dronova-napalo-rusiju-eksplozija-u-cerkasiju-evropa-produzila-sankcije-rusima-foto/vest",
       "published_at": "20260315T000000Z",
-      "source": "nasional.kompas.com",
+      "source": "b92.net",
       "tags": []
+    },
+    {
+      "id": "gdelt_97a951a9caecc5fd",
+      "headline": "أب وأم وطفلاهما .. الاحتلال يرتكب مجزرة بحق عائلة في طوباس",
+      "url": "https://www.aljazeera.net/news/2026/3/15/%D8%A3%D8%A8-%D9%88%D8%A3%D9%85-%D9%88%D8%B7%D9%81%D9%84%D8%A7%D9%87%D9%85%D8%A7-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D9%8A%D8%B1%D8%AA%D9%83%D8%A8-%D9%85%D8%AC%D8%B2%D8%B1%D8%A9",
+      "published_at": "20260315T041500Z",
+      "source": "aljazeera.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6a8ca7db70a60393",
+      "headline": "Sẽ có ngày tận thế , hàng nghìn người Mỹ sẽ thiệt mạng - nghị sĩ Mỹ dự báo đáng sợ về cuộc chiến Iran",
+      "url": "https://danviet.vn/se-co-ngay-tan-the-hang-nghin-nguoi-my-se-thiet-mang--nghi-si-my-du-bao-dang-so-ve-cuoc-chien-iran-d1410330.html",
+      "published_at": "20260315T050000Z",
+      "source": "danviet.vn",
+      "tags": [
+        "IRAN"
+      ]
     },
     {
       "id": "gdelt_497a8ca449ec5985",
@@ -547,19 +586,37 @@
       "tags": []
     },
     {
-      "id": "gdelt_2b14e4967d2b8e3e",
-      "headline": "مقتل 14 عاملاً صحياً في لبنان .. و  الصحة العالمية  تدعو لحماية المرافق الطبية",
-      "url": "https://elaph.com/Web/News/2026/03/1591355.html",
-      "published_at": "20260315T000000Z",
-      "source": "elaph.com",
+      "id": "gdelt_e9fa341489224d39",
+      "headline": "В Европе признали , что не справятся с энергокризисом без РФ : главное за сутки | Москва",
+      "url": "https://fedpress.ru/news/77/policy/3429168",
+      "published_at": "20260315T050000Z",
+      "source": "fedpress.ru",
       "tags": []
     },
     {
-      "id": "gdelt_8bbc6ee6c0bb12bb",
-      "headline": "Tỷ giá USD / VND hôm nay 15 / 3 : Thị trường chợ đen neo cao trên ngưỡng 27 . 051 đồng",
-      "url": "https://danviet.vn/ty-gia-usd-vnd-hom-nay-15-3-thi-truong-cho-den-neo-cao-tren-nguong-27051-dong-d1410283.html",
-      "published_at": "20260315T023000Z",
-      "source": "danviet.vn",
+      "id": "gdelt_44a33e8d83fd1d61",
+      "headline": "Skenario Penghematan Pemerintah : Pengurangan Jam Kerja hingga WFH ASN",
+      "url": "https://nasional.kompas.com/read/2026/03/15/06383831/skenario-penghematan-pemerintah-pengurangan-jam-kerja-hingga-wfh-asn",
+      "published_at": "20260315T000000Z",
+      "source": "nasional.kompas.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fdb531037802ee5c",
+      "headline": "Ukraine - Krieg aktuell : Kiew - Truppen schießen Putins Kampfjet - Stützpunkt in Brand – Verluste steigen",
+      "url": "http://www.merkur.de/politik/verluste-steigen-ukraine-krieg-aktuell-kiew-truppen-schiessen-putins-kampfjet-stuetzpunkt-hinter-der-front-in-brand-zr-94215893.html",
+      "published_at": "20260315T041500Z",
+      "source": "merkur.de",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_d2bfab051a58970c",
+      "headline": "Pakistan strikes Afghan base after its president warns  red line  crossed - Grenada Chronicle – Daily Grenada And Caribbean News",
+      "url": "https://grenadachronicle.com/pakistan-strikes-afghan-base-after-its-president-warns-red-line-crossed/",
+      "published_at": "20260315T041500Z",
+      "source": "grenadachronicle.com",
       "tags": []
     },
     {
@@ -568,6 +625,14 @@
       "url": "https://www.wenxuecity.com/blog/202603/83524/11571.html",
       "published_at": "20260315T013000Z",
       "source": "wenxuecity.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2b14e4967d2b8e3e",
+      "headline": "مقتل 14 عاملاً صحياً في لبنان .. و  الصحة العالمية  تدعو لحماية المرافق الطبية",
+      "url": "https://elaph.com/Web/News/2026/03/1591355.html",
+      "published_at": "20260315T000000Z",
+      "source": "elaph.com",
       "tags": []
     },
     {
@@ -595,6 +660,22 @@
       "tags": []
     },
     {
+      "id": "gdelt_8bbc6ee6c0bb12bb",
+      "headline": "Tỷ giá USD / VND hôm nay 15 / 3 : Thị trường chợ đen neo cao trên ngưỡng 27 . 051 đồng",
+      "url": "https://danviet.vn/ty-gia-usd-vnd-hom-nay-15-3-thi-truong-cho-den-neo-cao-tren-nguong-27051-dong-d1410283.html",
+      "published_at": "20260315T023000Z",
+      "source": "danviet.vn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_72c851d8f24d94fa",
+      "headline": "使用陸自研藥 ！ 美癌末七旬翁赴上海求醫病情穩定 | ETtoday大陸新聞",
+      "url": "https://www.ettoday.net/news/20260315/3132578.htm",
+      "published_at": "20260315T041500Z",
+      "source": "ettoday.net",
+      "tags": []
+    },
+    {
       "id": "gdelt_bbc07efac7fc7c30",
       "headline": "[ POPULER TREN ] Dewan HAM PBB Kecam Penyiraman Air Keras Aktivis KontraS | Prabowo Kaji Rencana Penghematan",
       "url": "https://www.kompas.com/tren/read/2026/03/15/053000065/-populer-tren-dewan-ham-pbb-kecam-penyiraman-air-keras-aktivis-kontras",
@@ -610,32 +691,6 @@
       "source": "zeit.de",
       "tags": [
         "BAHRAIN"
-      ]
-    },
-    {
-      "id": "gdelt_8dcf2a791d0a7443",
-      "headline": "Chủ tịch Cuba tuyên bố nóng về bạo lực biểu tình trong nước",
-      "url": "https://danviet.vn/chu-tich-cuba-tuyen-bo-nong-ve-bao-luc-bieu-tinh-trong-nuoc-d1410282.html",
-      "published_at": "20260315T023000Z",
-      "source": "danviet.vn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_99f549609b118e61",
-      "headline": "Trump Orders Central Command to  Obliterate  All Military Targets on Kharg Island and Threatens to ...",
-      "url": "https://article.wn.com/view/2026/03/14/Trump_Orders_Central_Command_to_Obliterate_All_Military_Targ/",
-      "published_at": "20260315T023000Z",
-      "source": "article.wn.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1894cdc38b4e4385",
-      "headline": "Tổng thư ký LHQ kêu gọi Israel và Hezbollah chấm dứt giao tranh",
-      "url": "https://plo.vn/tong-thu-ky-lhq-keu-goi-israel-va-hezbollah-cham-dut-giao-tranh-post899523.html",
-      "published_at": "20260315T000000Z",
-      "source": "plo.vn",
-      "tags": [
-        "ISRAEL"
       ]
     },
     {
@@ -663,12 +718,38 @@
       "tags": []
     },
     {
-      "id": "gdelt_cf27d5fc260799f3",
-      "headline": "Глава ВОЗ осудил гибель 14 медиков Ливана от ударов Израиля",
-      "url": "https://www.mk.ru/politics/2026/03/15/glava-voz-osudil-gibel-14-medikov-livana-ot-udarov-izrailya.html",
+      "id": "gdelt_8dcf2a791d0a7443",
+      "headline": "Chủ tịch Cuba tuyên bố nóng về bạo lực biểu tình trong nước",
+      "url": "https://danviet.vn/chu-tich-cuba-tuyen-bo-nong-ve-bao-luc-bieu-tinh-trong-nuoc-d1410282.html",
       "published_at": "20260315T023000Z",
-      "source": "mk.ru",
+      "source": "danviet.vn",
       "tags": []
+    },
+    {
+      "id": "gdelt_99f549609b118e61",
+      "headline": "Trump Orders Central Command to  Obliterate  All Military Targets on Kharg Island and Threatens to ...",
+      "url": "https://article.wn.com/view/2026/03/14/Trump_Orders_Central_Command_to_Obliterate_All_Military_Targ/",
+      "published_at": "20260315T023000Z",
+      "source": "article.wn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_20c87bec26751a5f",
+      "headline": "Two weeks into war with Iran , Trump has been knocked back on his political heels",
+      "url": "https://www.yahoo.com/news/articles/two-weeks-war-iran-trump-040106103.html",
+      "published_at": "20260315T050000Z",
+      "source": "yahoo.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1894cdc38b4e4385",
+      "headline": "Tổng thư ký LHQ kêu gọi Israel và Hezbollah chấm dứt giao tranh",
+      "url": "https://plo.vn/tong-thu-ky-lhq-keu-goi-israel-va-hezbollah-cham-dut-giao-tranh-post899523.html",
+      "published_at": "20260315T000000Z",
+      "source": "plo.vn",
+      "tags": [
+        "ISRAEL"
+      ]
     },
     {
       "id": "gdelt_c2f9f1ca21069e3a",
@@ -676,24 +757,6 @@
       "url": "https://www.vetogate.com/5614620",
       "published_at": "20260315T013000Z",
       "source": "vetogate.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fe1ba6a2e70198ec",
-      "headline": "Chiến sự Trung Đông ngày 16 : Iran đánh đòn thứ 50 ; Trung Quốc và Anh lên tiếng sau khi ông Trump kêu gọi điều tàu chiến tới eo biển Hormuz ; Mỹ bác nỗ lực khởi động đàm phán ?",
-      "url": "https://plo.vn/chien-su-trung-dong-ngay-16-iran-danh-don-thu-50-trung-quoc-va-anh-len-tieng-sau-khi-ong-trump-keu-goi-dieu-tau-chien-toi-eo-bien-hormuz-my-bac-no-luc-khoi-dong-dam-phan-post899521.html",
-      "published_at": "20260315T000000Z",
-      "source": "plo.vn",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_ed52fac4d73f357c",
-      "headline": "غوتيريش من بيروت : الشعب اللبناني جُرّ إلى الحرب ولا بديل عن حصر السلاح بيد الدولة",
-      "url": "https://elaph.com/Web/News/2026/03/1591364.html",
-      "published_at": "20260315T000000Z",
-      "source": "elaph.com",
       "tags": []
     },
     {
@@ -713,6 +776,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_cf27d5fc260799f3",
+      "headline": "Глава ВОЗ осудил гибель 14 медиков Ливана от ударов Израиля",
+      "url": "https://www.mk.ru/politics/2026/03/15/glava-voz-osudil-gibel-14-medikov-livana-ot-udarov-izrailya.html",
+      "published_at": "20260315T023000Z",
+      "source": "mk.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_9495859307d20c02",
       "headline": "Светлана Медведева : фото , биография , досье",
       "url": "https://file.liga.net/persons/svetlana-medvedeva",
@@ -721,14 +792,52 @@
       "tags": []
     },
     {
+      "id": "gdelt_0cb11cc3dd285e84",
+      "headline": "Two weeks into war with Iran , Trump has been knocked back on his political heels – Winnipeg Free Press",
+      "url": "https://www.winnipegfreepress.com/world/2026/03/14/two-weeks-into-war-with-iran-trump-has-been-knocked-back-on-his-political-heels",
+      "published_at": "20260315T043000Z",
+      "source": "winnipegfreepress.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_628b7d11936bd3ec",
+      "headline": "بالاترین : بازگشت رهبر اپوزوسیون ونزوئلا به کشور",
+      "url": "https://www.balatarin.com:443/permlink/2026/3/14/6441264",
+      "published_at": "20260315T041500Z",
+      "source": "balatarin.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_f11bb04065e493c3",
       "headline": "After years hiding from the law in the Middle East - during which time they forged connections in Iran including with feared terror group Hezbollah - are the KINAHAN Cartel bosses now trapped in a warzone ?",
       "url": "https://www.dailymail.co.uk/news/article-15646285/After-years-hiding-law-Middle-East-time-forged-connections-Iran-including-feared-terror-group-Hezbollah-KINAHAN-Cartels-bosses-trapped-warzone.html",
       "published_at": "20260315T020000Z",
       "source": "dailymail.co.uk",
-      "tags": [
-        "IRAN"
-      ]
+      "tags": []
+    },
+    {
+      "id": "gdelt_2f30c0e958c8b3a5",
+      "headline": "Two weeks into war with Iran , Trump has been knocked back on his political heels",
+      "url": "https://www.clickorlando.com/news/politics/2026/03/15/two-weeks-into-war-with-iran-trump-has-been-knocked-back-on-his-political-heels/",
+      "published_at": "20260315T043000Z",
+      "source": "clickorlando.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fe1ba6a2e70198ec",
+      "headline": "Chiến sự Trung Đông ngày 16 : Iran đánh đòn thứ 50 ; Trung Quốc và Anh lên tiếng sau khi ông Trump kêu gọi điều tàu chiến tới eo biển Hormuz ; Mỹ bác nỗ lực khởi động đàm phán ?",
+      "url": "https://plo.vn/chien-su-trung-dong-ngay-16-iran-danh-don-thu-50-trung-quoc-va-anh-len-tieng-sau-khi-ong-trump-keu-goi-dieu-tau-chien-toi-eo-bien-hormuz-my-bac-no-luc-khoi-dong-dam-phan-post899521.html",
+      "published_at": "20260315T000000Z",
+      "source": "plo.vn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ed52fac4d73f357c",
+      "headline": "غوتيريش من بيروت : الشعب اللبناني جُرّ إلى الحرب ولا بديل عن حصر السلاح بيد الدولة",
+      "url": "https://elaph.com/Web/News/2026/03/1591364.html",
+      "published_at": "20260315T000000Z",
+      "source": "elaph.com",
+      "tags": []
     },
     {
       "id": "gdelt_308832cbf1c153b8",
@@ -741,11 +850,51 @@
       ]
     },
     {
+      "id": "gdelt_a3197d3188e4049d",
+      "headline": "Netanyahu yalnızlığı , İran  ın tecridi : Orta Doğuda yol ayrımı",
+      "url": "https://www.milliyet.com.tr/yazarlar/guldener-sonumut/netanyahu-yalnizligi-iranin-tecridi-orta-doguda-yol-ayrimi-7554790",
+      "published_at": "20260315T043000Z",
+      "source": "milliyet.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_91d9175db0ef08e1",
+      "headline": "Two weeks into war with Iran , Trump has been knocked back on his political heels",
+      "url": "https://abcnews.com/US/wireStory/weeks-war-iran-trump-knocked-back-political-heels-131079731",
+      "published_at": "20260315T043000Z",
+      "source": "abcnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c14a9cd3cbdae1d0",
+      "headline": "العصف المأكول .. أزمة تفاوضية أم وجودية ؟",
+      "url": "https://www.egyptwindow.net/article/4898615/%D8%A7%D9%84%D8%B9%D8%B5%D9%81-%D8%A7%D9%84%D9%85%D8%A3%D9%83%D9%88%D9%84..-%D8%A3%D8%B2%D9%85%D8%A9-%D8%AA%D9%81%D8%A7%D9%88%D8%B6%D9%8A%D8%A9-%D8%A3%D9%85-%D9%88%D8%AC%D9%88%D8%AF%D9%8A%D8%A9",
+      "published_at": "20260315T050000Z",
+      "source": "egyptwindow.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cf71491cec96eaa3",
+      "headline": "Какая страна ЕС поблагодарила бога за то , что не враждует с РФ открытое письмо к Ющенко",
+      "url": "https://ura.news/news/1053077275",
+      "published_at": "20260315T010000Z",
+      "source": "ura.news",
+      "tags": []
+    },
+    {
       "id": "gdelt_39e9b4bf522ab512",
       "headline": "أمين عام مجلس التعاون يدين بشدة الهجوم الثاني السافر على قنصلية الإمارات بكردستان العراق",
       "url": "https://www.albayan.ae/news/middle-east/1133188",
       "published_at": "20260315T020000Z",
       "source": "albayan.ae",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a6b27da1a032ded6",
+      "headline": "إعلام عبري : القصف الإيراني لا يتوقف وتم تسجيل 3 إنذارات في غضون دقائق وانفجارات قوية بـ  غوش دان",
+      "url": "https://www.vetogate.com/5614656",
+      "published_at": "20260315T043000Z",
+      "source": "vetogate.com",
       "tags": []
     },
     {
@@ -757,19 +906,21 @@
       "tags": []
     },
     {
+      "id": "gdelt_08f4ee7e6dc0587c",
+      "headline": "France Denies Sending Warship to Strait of Hormuz Amid US – Iran Tensions",
+      "url": "https://www.khaama.com/france-denies-sending-warship-to-strait-of-hormuz-amid-us-iran-tensions/",
+      "published_at": "20260315T043000Z",
+      "source": "khaama.com",
+      "tags": [
+        "FRANCE"
+      ]
+    },
+    {
       "id": "gdelt_d1cbaa7fea94b65b",
       "headline": "أمين عام مجلس التعاون يدين بشدة الهجوم الثاني على قنصلية الإمارات في كردستان العراق",
       "url": "https://www.emaratalyoum.com/politics/news/2026-03-15-1.2025414",
       "published_at": "20260315T023000Z",
       "source": "emaratalyoum.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cf71491cec96eaa3",
-      "headline": "Какая страна ЕС поблагодарила бога за то , что не враждует с РФ открытое письмо к Ющенко",
-      "url": "https://ura.news/news/1053077275",
-      "published_at": "20260315T010000Z",
-      "source": "ura.news",
       "tags": []
     },
     {
@@ -789,18 +940,26 @@
       "tags": []
     },
     {
+      "id": "gdelt_3080beb3d13d738b",
+      "headline": "Xả kho dầu lớn nhất lịch sử : Vì sao giá dầu vẫn có nguy cơ leo thang ?",
+      "url": "https://www.tinnhanhchungkhoan.vn/xa-kho-dau-lon-nhat-lich-su-vi-sao-gia-dau-van-co-nguy-co-leo-thang-post386737.html",
+      "published_at": "20260315T050000Z",
+      "source": "tinnhanhchungkhoan.vn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c6d20805a15ac497",
+      "headline": "Șoferii ar putea plăti amenzile rutiere pe loc – propunerea Ministerului de Interne",
+      "url": "https://www.stiripesurse.ro/soferii-ar-putea-plati-amenzile-rutiere-pe-loc_3867874",
+      "published_at": "20260315T043000Z",
+      "source": "stiripesurse.ro",
+      "tags": []
+    },
+    {
       "id": "gdelt_7c541758b267148b",
       "headline": "الحرب في الشرق الأوسط تعرقل جهود المساعدات الإنسانية العالمية",
       "url": "https://www.emaratalyoum.com/politics/weekly-supplements/world-press/2026-03-15-1.2025250",
       "published_at": "20260315T023000Z",
-      "source": "emaratalyoum.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4ce4951d7d7e3120",
-      "headline": "مزاد صكوك الخزينة في مارس يستقطب 4 . 85 مليارات درهم",
-      "url": "https://www.emaratalyoum.com/business/local/2026-03-15-1.2025247",
-      "published_at": "20260315T004500Z",
       "source": "emaratalyoum.com",
       "tags": []
     },
@@ -813,11 +972,43 @@
       "tags": []
     },
     {
+      "id": "gdelt_4ce4951d7d7e3120",
+      "headline": "مزاد صكوك الخزينة في مارس يستقطب 4 . 85 مليارات درهم",
+      "url": "https://www.emaratalyoum.com/business/local/2026-03-15-1.2025247",
+      "published_at": "20260315T004500Z",
+      "source": "emaratalyoum.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_9f8f95658479fcfc",
       "headline": "Турист из России рассказал , как потерял 400 тыс . руб . из - за отмены рейса в Дубае",
       "url": "https://www.vesti.ru/ns/turist-iz-rossii-rasskazal-kak-poteryal-400-tys-rub-iz-za-otmeny-rejsa-v-dubae",
       "published_at": "20260315T023000Z",
       "source": "vesti.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d913ba37612e7db2",
+      "headline": "جوتيريش : لبنان لم يختر الحرب .. والحل الوحيد هو الحوار والدبلوماسية",
+      "url": "https://www.dostor.org/5458391",
+      "published_at": "20260315T050000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_93308fa0d1e52411",
+      "headline": "NBC Fearful Kim Will  Flatter  Trump into  Giving Up Too Much",
+      "url": "https://www.newsbusters.org/blogs/nb/nicholas-fondacaro/2019/02/26/nbc-fearful-kim-will-flatter-trump-giving-too-much",
+      "published_at": "20260315T050000Z",
+      "source": "newsbusters.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a18574d9d1f99b76",
+      "headline": "Terlibat Pidana , Keanggotaan Prajurit TNI AD Ini Dibatalkan Kodam Udayana",
+      "url": "https://www.jpnn.com/news/terlibat-pidana-keanggotaan-prajurit-tni-ad-ini-dibatalkan-kodam-udayana",
+      "published_at": "20260315T020000Z",
+      "source": "jpnn.com",
       "tags": []
     },
     {
@@ -837,200 +1028,6 @@
       "url": "https://www.emaratalyoum.com/local-section/other/2026-03-15-1.2025396",
       "published_at": "20260315T010000Z",
       "source": "emaratalyoum.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a8e431f8d408571f",
-      "headline": "الكاتب الصحفي عزت إبراهيم يطرح السيناريوهات العشرة للحرب في الخليج",
-      "url": "https://www.elwatannews.com/news/details/8246085",
-      "published_at": "20260315T003000Z",
-      "source": "elwatannews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c40dc42b8853cae4",
-      "headline": "Holi war in Delhi - The Hindu",
-      "url": "https://www.thehindu.com/news/cities/Delhi/uttam-nagar-delhi-holi-clash/article70742954.ece",
-      "published_at": "20260315T010000Z",
-      "source": "thehindu.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_aea5e457a447487a",
-      "headline": "نشأت الديهي : إسرائيل تسعى لتنفيذ عمليات ضد سواحل أمريكا لاتهام إيران وتوريط واشنطن في حرب برية",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=15032026&id=2eded1e9-880e-48aa-b1d0-610fe9548aba",
-      "published_at": "20260315T020000Z",
-      "source": "shorouknews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a18574d9d1f99b76",
-      "headline": "Terlibat Pidana , Keanggotaan Prajurit TNI AD Ini Dibatalkan Kodam Udayana",
-      "url": "https://www.jpnn.com/news/terlibat-pidana-keanggotaan-prajurit-tni-ad-ini-dibatalkan-kodam-udayana",
-      "published_at": "20260315T020000Z",
-      "source": "jpnn.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8de68d708d4e47e6",
-      "headline": "Adaobi Onyedum on the Future of Nigeria - UK Trade Relations",
-      "url": "https://punchng.com/impact-is-measured-by-endurance-not-applause-nigerian-british-chamber-of-commerce-dg-onyedum/",
-      "published_at": "20260315T013000Z",
-      "source": "punchng.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1df58f75620543f0",
-      "headline": "Giá xăng dầu hôm nay , dầu thô giữ đà tăng mạnh , giá xăng trong nước khó giảm",
-      "url": "https://danviet.vn/gia-xang-dau-hom-nay-15-3-gia-dau-the-gioi-giu-da-tang-xang-dau-trong-nuoc-duoc-xa-manh-quy-binh-on-d1410281.html",
-      "published_at": "20260315T023000Z",
-      "source": "danviet.vn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d92361ab2e6a964c",
-      "headline": "Atacul lui Trump din Iran lovește americanii . Fenomenul brusc răspândit peste tot în SUA , premieră din 2023",
-      "url": "https://ziare.com/pret-benzina-sua/atacul-lui-trump-din-iran-loveste-americanii-fenomenul-brusc-raspandit-toate-statele-2000194",
-      "published_at": "20260315T013000Z",
-      "source": "ziare.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6f9acd5c75e25839",
-      "headline": "Sampai Titik Darah Penghabisan , Hizbullah Nyatakan Siap Perang  Karbala  Hadapi Zionis Israel",
-      "url": "https://khazanah.republika.co.id/berita/tbwydq320/sampai-titik-darah-penghabisan-hizbullah-nyatakan-siap-perang-karbala-hadapi-zionis-israel",
-      "published_at": "20260315T010000Z",
-      "source": "khazanah.republika.co.id",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cbfaefe79124ab1b",
-      "headline": "Российский турист потерял 400 тыс . рублей в Дубае",
-      "url": "https://iz.ru/2059378/2026-03-15/rossiiskii-turist-iz-za-otmeny-reisa-v-dubae-poterial-bolee-400-tys-rublei",
-      "published_at": "20260315T003000Z",
-      "source": "iz.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_956773c671c1b5da",
-      "headline": "كُردستان … أرضٌ مُحايدة وسماءٌ مثقلة بالصواريخ والمسيّرات !! – كتابات",
-      "url": "https://kitabat.com/%D9%83%D9%8F%D8%B1%D8%AF%D8%B3%D8%AA%D8%A7%D9%86-%D8%A3%D8%B1%D8%B6%D9%8C-%D9%85%D9%8F%D8%AD%D8%A7%D9%8A%D8%AF%D8%A9-%D9%88%D8%B3%D9%85%D8%A7%D8%A1%D9%8C-%D9%85%D8%AB%D9%82%D9%84%D8%A9-%D8%A8/",
-      "published_at": "20260315T013000Z",
-      "source": "kitabat.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2ae57dd54f316015",
-      "headline": "الخلاف حول الملعب يهدد بإلغاء الفيناليسيما بين إسبانيا والأرجنتين",
-      "url": "https://slaati.com/2026/03/15/p2762634.html",
-      "published_at": "20260314T234500Z",
-      "source": "slaati.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_142580f6097b41c4",
-      "headline": "الإمارات تعلن السيطرة على حريق في منشأة نفطية عقب استهدافها بمسيّرة",
-      "url": "https://sana.sy/international/2426241/",
-      "published_at": "20260315T000000Z",
-      "source": "sana.sy",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bef41a5a71460d2e",
-      "headline": "بنغلاديش تعلن مقتل أربعة من مواطنيها جراء الاعتداءات الإيرانية في الخليج",
-      "url": "https://sana.sy/international/2426222/",
-      "published_at": "20260315T000000Z",
-      "source": "sana.sy",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3e2b56e04e2f67de",
-      "headline": "Direttiva anti slapp , le raccomandazioni del gruppo Case al Parlamento italiano",
-      "url": "https://www.articolo21.org/2026/03/direttiva-anti-slapp-le-raccomandazioni-del-gruppo-case-al-parlamento-italiano/",
-      "published_at": "20260315T004500Z",
-      "source": "articolo21.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1e8a6cdfa8246fe2",
-      "headline": "Linkage Global Inc . ( NASDAQ : LGCB ) Short Interest Up 53 . 6 % in February",
-      "url": "https://www.themarketsdaily.com/2026/03/15/linkage-global-inc-nasdaqlgcb-short-interest-up-53-6-in-february.html",
-      "published_at": "20260315T020000Z",
-      "source": "themarketsdaily.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8c35947d3e8e54ff",
-      "headline": "Ukrajina vs . Rusko : Aktuální situace na Ukrajině ONLINE",
-      "url": "https://www.blesk.cz/clanek/zpravy-valka-na-ukrajine/702030/online-rozsahly-utok-rusu-na-zaporozi-spoust-rada-zranenych-a-zasazene-bytovky.html",
-      "published_at": "20260314T234500Z",
-      "source": "blesk.cz",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a973bd8bf94c9646",
-      "headline": "ترامب : المرشد الإيراني الجديد قد لا يكون على قيد الحياة",
-      "url": "https://www.elwatannews.com/news/details/8246093",
-      "published_at": "20260315T003000Z",
-      "source": "elwatannews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_024e26cd3c05aaf2",
-      "headline": "الجيش الإسرائيلي : رصد صواريخ أُطلقت من إيران ونعمل على اعتراضها",
-      "url": "https://www.vetogate.com/5614615",
-      "published_at": "20260315T013000Z",
-      "source": "vetogate.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bc6801fd15747576",
-      "headline": "Trumptan Mücteba Hamaneye teslim olma çağrısı",
-      "url": "https://www.haberler.com/yerel/trump-tan-mucteba-hamaney-e-teslim-olma-cagrisi-19659071-haberi/",
-      "published_at": "20260315T023000Z",
-      "source": "haberler.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7d8478e9eae0705d",
-      "headline": "ماذا قالت الصين وبريطانيا عن تصريحات ترامب بشأن تأمين مضيق هرمز ؟",
-      "url": "https://arabic.cnn.com/middle-east/article/2026/03/15/china-uk-respond-trump-send-ships-strait-of-hormuz",
-      "published_at": "20260315T010000Z",
-      "source": "arabic.cnn.com",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
-      "id": "gdelt_55e03ac97bec884d",
-      "headline": "Ракетный удар по заводу в Иране унес жизни 15 человек",
-      "url": "https://www.mk.ru/politics/2026/03/15/raketnyy-udar-po-zavodu-v-irane-unes-zhizni-15-chelovek.html",
-      "published_at": "20260314T234500Z",
-      "source": "mk.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_946a65bb95cb7a9a",
-      "headline": "إعلام عبري : انفجارات في وسط إسرائيل وإطلاق صافرات الإنذار بعد رصد صواريخ إيرانية",
-      "url": "https://www.vetogate.com/5614616",
-      "published_at": "20260315T013000Z",
-      "source": "vetogate.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d990fc614ac35ceb",
-      "headline": "Trump just  walked right into the trap  his predecessors were smart enough to bypass : host",
-      "url": "https://www.rawstory.com/trump-obama-2676119107/",
-      "published_at": "20260315T013000Z",
-      "source": "rawstory.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_33a7592b4d7a29c5",
-      "headline": "Iran - Krieg im Liveticker : +++ 00 : 20 Sicherheitskreise : Feuer nach Drohnenangriff auf Flughafen von Bagdad +++",
-      "url": "https://www.n-tv.de/politik/00-20-Sicherheitskreise-Feuer-nach-Drohnenangriff-auf-Flughafen-von-Bagdad-id30415311.html",
-      "published_at": "20260315T000000Z",
-      "source": "n-tv.de",
       "tags": []
     }
   ]
