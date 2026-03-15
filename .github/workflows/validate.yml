@@ -25,3 +25,4 @@ jobs:
             npm install
           fi
       - run: node scripts/validate-data.mjs
+      - run: node scripts/validate-render.mjs   # ← add this
