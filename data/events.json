@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-03-18T20:57:17Z",
+    "generated_at_utc": "2026-03-18T21:50:19Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -91,16 +91,6 @@
       ]
     },
     {
-      "id": "gdelt_706265dbbccc3925",
-      "headline": "Punjab Police Avert Major Terror Threat In Bathinda ; 2 Arrested With Hand Grenades",
-      "url": "https://www.freepressjournal.in/india/punjab-police-avert-major-terror-threat-in-bathinda-2-arrested-with-hand-grenades",
-      "published_at": "20260318T150000Z",
-      "source": "freepressjournal.in",
-      "tags": [
-        "INDIA"
-      ]
-    },
-    {
       "id": "gdelt_286b35444c181f7f",
       "headline": "Letters to The Editor March 19 , 2026",
       "url": "https://www.thehindu.com/opinion/letters/letters-to-the-editor-march-19-2026/article70758278.ece",
@@ -145,6 +135,16 @@
       ]
     },
     {
+      "id": "gdelt_d8ca4fd4ccca60ef",
+      "headline": "Пакистан і Афганістан оголосили « перерву » в бойових діях на час закінчення Рамадану",
+      "url": "https://www.ukrinform.ua/rubric-world/4103134-pakistan-i-afganistan-ogolosili-perervu-v-bojovih-diah-na-cas-zakincenna-ramadanu.html",
+      "published_at": "20260318T204500Z",
+      "source": "ukrinform.ua",
+      "tags": [
+        "PAKISTAN"
+      ]
+    },
+    {
       "id": "gdelt_369f6d8a76e18757",
       "headline": "Pakistan , Taliban agree on strike pause for end of Ramadan",
       "url": "https://www.dw.com/en/pakistan-taliban-agree-on-strike-pause-for-end-of-ramadan/a-76418410",
@@ -153,14 +153,6 @@
       "tags": [
         "PAKISTAN"
       ]
-    },
-    {
-      "id": "gdelt_8ec17016bd07e4fe",
-      "headline": "Stripe - led payments blockchain Tempo goes live with AI agent protocol",
-      "url": "https://www.coindesk.com/tech/2026/03/18/stripe-led-payments-blockchain-tempo-goes-live-with-protocol-for-ai-agents",
-      "published_at": "20260318T150000Z",
-      "source": "coindesk.com",
-      "tags": []
     },
     {
       "id": "gdelt_0b8346f9fadce294",
@@ -192,9 +184,7 @@
       "url": "https://www.lalibre.be/international/moyen-orient/2026/03/18/le-pakistan-annonce-une-treve-dans-son-conflit-avec-lafghanistan-2SVEOGZCAZCYHODOB5AO33JKIM/",
       "published_at": "20260318T170000Z",
       "source": "lalibre.be",
-      "tags": [
-        "PAKISTAN"
-      ]
+      "tags": []
     },
     {
       "id": "gdelt_d85b2904fbf6901b",
@@ -374,14 +364,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_a130a7176df3be14",
-      "headline": "Kina od početka rata izbjegava zauzimanje strana . Evo i zašto",
-      "url": "https://www.index.hr/vijesti/clanak/kina-od-pocetka-rata-izbjegava-zauzimanje-strana-evo-i-zasto/2772617.aspx?index_tid=959100&index_ref=naslovnica_vijesti_najnovije_d",
-      "published_at": "20260318T150000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
       "id": "gdelt_d71801e7950eba1a",
       "headline": "Today top news : Lebanon , Occupied Palestinian Territory , Afghanistan , Yemen , Colombia , Somalia",
       "url": "https://www.unocha.org:443/news/todays-top-news-lebanon-occupied-palestinian-territory-afghanistan-yemen-colombia-somalia",
@@ -413,11 +395,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_b38e0485e976d6c8",
-      "headline": "Ослабление санкций США : против кого санкции отменили , ответ",
-      "url": "https://ura.news/news/1053078414",
-      "published_at": "20260318T163000Z",
-      "source": "ura.news",
+      "id": "gdelt_389c11407a49540a",
+      "headline": "NCB marks Raising Day with anti - drug drive in Amritsar",
+      "url": "https://www.tribuneindia.com/news/amritsar/ncb-marks-raising-day-with-anti-drug-drive-in-amritsar/",
+      "published_at": "20260318T210000Z",
+      "source": "tribuneindia.com",
       "tags": []
     },
     {
@@ -429,19 +411,19 @@
       "tags": []
     },
     {
+      "id": "gdelt_b38e0485e976d6c8",
+      "headline": "Ослабление санкций США : против кого санкции отменили , ответ",
+      "url": "https://ura.news/news/1053078414",
+      "published_at": "20260318T163000Z",
+      "source": "ura.news",
+      "tags": []
+    },
+    {
       "id": "gdelt_b8772483b77a175e",
       "headline": "Irans Geheimdienstminister bei Angriff Israels getötet",
       "url": "https://www.sn.at/politik/weltpolitik/irans-geheimdienstminister-bei-angriff-israels-getoetet-art-640928",
       "published_at": "20260318T160000Z",
       "source": "sn.at",
-      "tags": []
-    },
-    {
-      "id": "gdelt_275abf846266d01e",
-      "headline": "Macau deve manter - se  aberta ao talento estrangeiro  – Observador",
-      "url": "https://observador.pt/2026/03/18/macau-deve-manter-se-aberta-ao-talento-estrangeiro-diz-o-ministro-dos-negocios-estrangeiros-chines/",
-      "published_at": "20260318T150000Z",
-      "source": "observador.pt",
       "tags": []
     },
     {
@@ -616,6 +598,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_104f4cb2447e1941",
+      "headline": "Tijdelijk staakt - het - vuren tussen Pakistan en Afghanistan tijdens Suikerfeest",
+      "url": "https://www.nrc.nl/nieuws/2026/03/18/tijdelijke-wapenstilstand-tussen-pakistan-en-afghanistan-vanwege-suikerfeest-a4923388",
+      "published_at": "20260318T213000Z",
+      "source": "nrc.nl",
+      "tags": []
+    },
+    {
       "id": "gdelt_01acc12a88c216c9",
       "headline": "UniCredit privilégie une expansion européenne plutôt quune consolidation en Italie",
       "url": "https://www.zonebourse.com/actualite-bourse/unicredit-privilegie-une-expansion-europeenne-plutot-qu-une-consolidation-en-italie-ce7e5ed9dd8df125",
@@ -669,6 +659,14 @@
       "url": "https://www.marketscreener.com/news/unicredit-prioritizes-european-expansion-over-consolidation-in-italy-ce7e5ed9dd8ef427",
       "published_at": "20260318T174500Z",
       "source": "marketscreener.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_61b37afee0c22f6c",
+      "headline": "Zelenski se sastao sa španjolskim kraljem Filipom VI .",
+      "url": "https://www.index.hr/vijesti/clanak/zelenski-u-posjetu-spanjolskoj-sastao-se-sa-spanjolskim-kraljem/2772784.aspx",
+      "published_at": "20260318T213000Z",
+      "source": "index.hr",
       "tags": []
     },
     {
@@ -972,6 +970,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_a99d228b160d9932",
+      "headline": "السعودية تعلن اعتراض وتدمير 6 مسيرات في المنطقة الشرقية",
+      "url": "https://www.vetogate.com/5617490",
+      "published_at": "20260318T213000Z",
+      "source": "vetogate.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_0c36352058c9247f",
       "headline": "Мерц призвал немедленно выплатить Украине кредит ЕС в 90 млрд евро",
       "url": "https://www.pravda.com.ua/rus/news/2026/03/18/8026138/",
@@ -1043,14 +1049,6 @@
       "url": "https://kfdm.com/news/nation-world/us-eases-venezuela-oil-sanctions-to-boost-supply-amid-iran-war-treasury-secretary-president-donald-trump-energy-sector-jones-act-us-flagged-vessels-strait-of-hormuz",
       "published_at": "20260318T173000Z",
       "source": "kfdm.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_edefe36b87ab31a0",
-      "headline": "مصر تدين بأشد العبارات الاعتداءات الآثمة على السعودية والإمارات وقطر والخليج",
-      "url": "https://www.elwatannews.com/news/details/8248935",
-      "published_at": "20260318T200000Z",
-      "source": "elwatannews.com",
       "tags": []
     }
   ]
