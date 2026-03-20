@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-03-20T10:58:21Z",
+    "generated_at_utc": "2026-03-20T11:45:26Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -67,14 +67,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_3072304782234197",
-      "headline": "SPD - Politiker :  Dieser Krieg ist ein schwerer Fehler",
-      "url": "https://www.gmx.ch/magazine/politik/politische-talkshows/spd-politiker-krieg-schwerer-fehler-42029228",
-      "published_at": "20260320T054500Z",
-      "source": "gmx.ch",
-      "tags": []
-    },
-    {
       "id": "gdelt_a6d7f93cfb76d965",
       "headline": "Serangan Israel di Lebanon tewaskan lebih dari 1 . 000 orang sejak Maret",
       "url": "https://www.antaranews.com/berita/5486834/serangan-israel-di-lebanon-tewaskan-lebih-dari-1000-orang-sejak-maret",
@@ -101,6 +93,17 @@
       "url": "http://usa.chinadaily.com.cn/a/202603/20/WS69bd0174a310d6866eb3ef83.html",
       "published_at": "20260320T091500Z",
       "source": "usa.chinadaily.com.cn",
+      "tags": [
+        "IRAN",
+        "CHINA"
+      ]
+    },
+    {
+      "id": "gdelt_5e91579d96bcebab",
+      "headline": "China calls for stable oil supply amid Iran tensions",
+      "url": "http://europe.chinadaily.com.cn/a/202603/20/WS69bd0174a310d6866eb3ef83.html",
+      "published_at": "20260320T110000Z",
+      "source": "europe.chinadaily.com.cn",
       "tags": [
         "IRAN",
         "CHINA"
@@ -236,32 +239,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_fb53cf899d5816a8",
-      "headline": "В России больше не будет ИИ • 20 . 03 . 2026 • Новости • Сибдепо",
-      "url": "https://sibdepo.ru/news/v-rossii-bolshe-ne-budet-ii.html",
-      "published_at": "20260320T050000Z",
-      "source": "sibdepo.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_804d28dc1dd9c782",
-      "headline": "Pakistani Taliban announces 3 - day ceasefire after Pak , Afghan pause fighting ahead of Eid",
-      "url": "https://www.dailyexcelsior.com/pakistani-taliban-announces-3-day-ceasefire-after-pak-afghan-pause-fighting-ahead-of-eid/",
-      "published_at": "20260320T054500Z",
-      "source": "dailyexcelsior.com",
-      "tags": [
-        "TEHRIK_I_TALIBAN_PAKISTAN"
-      ]
-    },
-    {
-      "id": "gdelt_5a764b0983af54c3",
-      "headline": "Jutarnji list - Odluka koja Europu i Rusiju gura preko ruba ? Vijest stiže od drugog najmoćnijeg čovjeka u Kremlju",
-      "url": "https://www.jutarnji.hr/vijesti/svijet/rusija-oruzana-pratnja-tankeri-flota-u-sjeni-patrusev-eu-nadzor-15690745",
-      "published_at": "20260320T050000Z",
-      "source": "jutarnji.hr",
-      "tags": []
-    },
-    {
       "id": "gdelt_fe550cc275698e36",
       "headline": "Jika Konflik di Timur Tengah Berkepanjangan , Ini Dampaknya Menurut IMF – News",
       "url": "https://news.batampos.co.id/jika-konflik-di-timur-tengah-berkepanjangan-ini-dampaknya-menurut-imf/",
@@ -353,9 +330,7 @@
       "url": "https://www.antaranews.com/berita/5486554/as-tegaskan-tidak-akan-batasi-ekspor-minyak-saat-konflik-iran-memanas",
       "published_at": "20260320T063000Z",
       "source": "antaranews.com",
-      "tags": [
-        "IRAN"
-      ]
+      "tags": []
     },
     {
       "id": "gdelt_ad057833e64778b6",
@@ -395,6 +370,14 @@
       "url": "https://www.geo.tv/latest/656516-different-threats-same-playbook",
       "published_at": "20260320T071500Z",
       "source": "geo.tv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_92fc40d3ba246d4a",
+      "headline": "Удар по иранскому газовому месторождению обнажил принципиальные расхождения в стратегиях Тель - Авива и Вашингтона",
+      "url": "https://1news.az/news/20260320112542258-Udar-po-iranskomu-gazovomu-mestorozhdeniyu-obnazhil-printsipialnye-raskhozhdeniya-v-strategiyakh-Tel-Aviva-i-Vashingtona",
+      "published_at": "20260320T110000Z",
+      "source": "1news.az",
       "tags": []
     },
     {
@@ -484,14 +467,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_899a092839d4dc10",
-      "headline": "Europese leiders stellen  heel ambitieuze  tijdslijn op om concurrentiekracht van Europese industrie te versterken",
-      "url": "https://www.vrt.be/vrtnws/nl/2026/03/20/europese-top-concurrentiekracht/",
-      "published_at": "20260320T053000Z",
-      "source": "vrt.be",
-      "tags": []
-    },
-    {
       "id": "gdelt_7b8e0bc77dcac605",
       "headline": "Oil retreats as US and allies look to boost supply",
       "url": "https://www.rte.ie/news/business/2026/0320/1564306-world-oil-prices/",
@@ -500,11 +475,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_9f3164d3a5966358",
-      "headline": "واشنطن تفكك شبكة سيبرانية إيرانية استهدفت صحفيين ومعارضين",
-      "url": "https://www.okaz.com.sa/politics/na/2240852",
-      "published_at": "20260320T050000Z",
-      "source": "okaz.com.sa",
+      "id": "gdelt_c8e37d6c537aa593",
+      "headline": "Ceny ropy spadają . Wojna z Iranem w centrum uwagi",
+      "url": "https://www.bankier.pl/wiadomosc/Ceny-ropy-spadaja-Wojna-z-Iranem-w-centrum-uwagi-9101397.html",
+      "published_at": "20260320T110000Z",
+      "source": "bankier.pl",
       "tags": []
     },
     {
@@ -636,14 +611,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_8e5a5be303f696e8",
-      "headline": "Sensex , Nifty rebound after sharp fall : Why the market is rising today",
-      "url": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-rebound-after-sharp-fall-why-the-market-is-rising-today-521512-2026-03-20",
-      "published_at": "20260320T064500Z",
-      "source": "businesstoday.in",
-      "tags": []
-    },
-    {
       "id": "gdelt_84e833d189010e23",
       "headline": "China 2026 Government Work Report Indicates a New Cycle of Quality Enhancement for Commercial Real Estate Stock",
       "url": "https://portal.sina.com.hk/finance/finance-mediaoutreachnewswire/media-outreach/2026/03/20/1625755/chinas-2026-government-work-report-indicates-a-new-cycle-of-quality-enhancement-for-commercial-real-estate-stock/",
@@ -652,6 +619,14 @@
       "tags": [
         "CHINA"
       ]
+    },
+    {
+      "id": "gdelt_8e5a5be303f696e8",
+      "headline": "Sensex , Nifty rebound after sharp fall : Why the market is rising today",
+      "url": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-rebound-after-sharp-fall-why-the-market-is-rising-today-521512-2026-03-20",
+      "published_at": "20260320T064500Z",
+      "source": "businesstoday.in",
+      "tags": []
     },
     {
       "id": "gdelt_0a34dbe48eeeafef",
@@ -667,14 +642,6 @@
       "url": "https://www.armstrongeconomics.com/world-news/war/takes-money-to-kill-bad-guys/",
       "published_at": "20260320T090000Z",
       "source": "armstrongeconomics.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5d70357d07540c66",
-      "headline": "허프포스트코리아",
-      "url": "https://www.huffingtonpost.kr:443/article/250429",
-      "published_at": "20260320T050000Z",
-      "source": "huffingtonpost.kr",
       "tags": []
     },
     {
@@ -699,6 +666,14 @@
       "url": "https://astanatv.kz/kz/news/164908/",
       "published_at": "20260320T091500Z",
       "source": "astanatv.kz",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4c1ba43c16f7f78b",
+      "headline": "Рішення США скасувати санкції проти Білорусі сприятиме воєнним діям Росії",
+      "url": "https://www.ukrinform.ua/rubric-world/4103668-risenna-ssa-skasuvati-sankcii-proti-bilorusi-spriatime-voennim-diam-rosii-isw.html",
+      "published_at": "20260320T110000Z",
+      "source": "ukrinform.ua",
       "tags": []
     },
     {
@@ -792,27 +767,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_3d0fbde8543a47bd",
-      "headline": "漲停排隊買單破3萬張 ！ 高端腸病毒疫苗打入越南 股價飆第三根漲停 | 市場焦點 | 證券",
-      "url": "https://money.udn.com/money/story/5607/9392515",
-      "published_at": "20260320T053000Z",
-      "source": "money.udn.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_51be1dc205d38b67",
       "headline": "USA znoszą część sankcji wobec Białorusi . Litwa reaguje ostro",
       "url": "https://www.lrt.lt/pl/wiadomosci/1261/2873079/usa-znosza-czesc-sankcji-wobec-bialorusi-litwa-reaguje-ostro",
       "published_at": "20260320T100000Z",
       "source": "lrt.lt",
-      "tags": []
-    },
-    {
-      "id": "gdelt_dc2f96ef151a162f",
-      "headline": "Hainan FTP - Hong Kong Media Conference & Promotional Event Held - 南海网",
-      "url": "https://www.hinews.cn/page?n=2807953&m=1&s=1044",
-      "published_at": "20260320T051500Z",
-      "source": "hinews.cn",
       "tags": []
     },
     {
@@ -853,14 +812,6 @@
       "url": "https://www.blic.rs/bbc/americki-ofak-produzio-licencu-nis-u-do-17-aprila/ewv0zk7",
       "published_at": "20260320T090000Z",
       "source": "blic.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6c6f13e7f45832da",
-      "headline": "Лукашенко помиловал 250 заключенных в обмен на смягчение санкций США",
-      "url": "https://www.amic.ru/news/lukashenko-pomiloval-250-zaklyuchennyh-v-obmen-na-smyagchenie-sankciy-ssha-580192",
-      "published_at": "20260320T053000Z",
-      "source": "amic.ru",
       "tags": []
     },
     {
@@ -946,14 +897,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_06f3c290265cff77",
-      "headline": "Как войната в Украйна променя геополитическата карта на Европа и света",
-      "url": "https://dariknews.bg/novini/sviat/kak-vojnata-v-ukrajna-promenia-geopoliticheskata-karta-na-evropa-i-sveta-2449217",
-      "published_at": "20260320T053000Z",
-      "source": "dariknews.bg",
-      "tags": []
-    },
-    {
       "id": "gdelt_87465f586375cd57",
       "headline": "Srbija ipak osigurala odgodu američkih sankcija za naftnu industriju",
       "url": "https://www.glasistre.hr/svijet/2026/03/20/srbija-osigurala-odgodu-americkih-sankcija-za-nis-1057940",
@@ -985,9 +928,7 @@
       "url": "https://www.zaobao.com.sg/news/china/story20260320-8766508",
       "published_at": "20260320T084500Z",
       "source": "zaobao.com.sg",
-      "tags": [
-        "CHINA"
-      ]
+      "tags": []
     },
     {
       "id": "gdelt_a0262005ab9a3850",
@@ -1035,6 +976,69 @@
       "url": "https://www.cnbc.com/2026/03/20/europe-stock-market-ftse-100-stoxx-600-unilever-share-price-iran-interest-rates.html",
       "published_at": "20260320T091500Z",
       "source": "cnbc.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_da76e9dd31222003",
+      "headline": "Lukaschenkos Deal mit united states : 250 Gefangene aus Belarus frei , US - Sanktionen gegen Banken aufgehoben",
+      "url": "https://de.euronews.com/my-europe/2026/03/20/lukaschenko-belarus-gefangene",
+      "published_at": "20260320T063000Z",
+      "source": "de.euronews.com",
+      "tags": [
+        "UNITED_STATES",
+        "BELARUS"
+      ]
+    },
+    {
+      "id": "gdelt_c13a1891a5e93169",
+      "headline": "Why Did the United States Lift Sanctions on Assad Chemical Weapons Scientists ?",
+      "url": "https://warontherocks.com/2026/03/why-did-the-united-states-lift-sanctions-on-assads-chemical-weapons-scientists/",
+      "published_at": "20260320T100000Z",
+      "source": "warontherocks.com",
+      "tags": [
+        "UNITED_STATES"
+      ]
+    },
+    {
+      "id": "gdelt_aeb3ce536293df9f",
+      "headline": "Čmilytė - Nielsen apie atšaukiamas JAV sankcijas Baltarusijai : bloga žinia mums ir visam NATO Rytų flangui",
+      "url": "https://ve.lt/aktualijos/cmilyte-nielsen-apie-atsaukiamas-jav-sankcijas-baltarusijai-bloga-zinia-mums-ir-visam",
+      "published_at": "20260320T090000Z",
+      "source": "ve.lt",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c1533fe2e1330f3b",
+      "headline": "Санкції проти NIS - США відклали обмеження проти російської компанії у Сербії",
+      "url": "https://24tv.ua/economy/sanktsiyi-proti-nis-ssha-vidklali-obmezhennya-proti-rosiyskoyi_n3032236",
+      "published_at": "20260320T093000Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0dd93f186daec2d2",
+      "headline": "US mulls lifting sanctions on Iranian oil at sea despite war on Tehran",
+      "url": "https://www.hurriyetdailynews.com/us-mulls-lifting-sanctions-on-iranian-oil-at-sea-despite-war-on-tehran-220152",
+      "published_at": "20260320T060000Z",
+      "source": "hurriyetdailynews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ee6f8bf9f259bfb5",
+      "headline": "US issues new 30 - day waiver for sale of Russian crude , adding Cuba , N . Korea exceptions",
+      "url": "https://www.thehindubusinessline.com/news/world/us-issues-new-30-day-waiver-for-sale-of-russian-crude-adding-cuba-nkorea-exceptions/article70764174.ece",
+      "published_at": "20260320T070000Z",
+      "source": "thehindubusinessline.com",
+      "tags": [
+        "CUBA"
+      ]
+    },
+    {
+      "id": "gdelt_0d00eee8183ce1c8",
+      "headline": "Snaja poludela zbog svekrve , pa se požalila svešteniku : Otac Predrag dao savet ZLATA VREDAN",
+      "url": "https://www.telegraf.rs/vesti/srbija/4292606-snaja-poludela-zbog-svekrve-pa-se-pozalila-svesteniku-otac-predrag-dao-savet-zlata-vredan",
+      "published_at": "20260320T093000Z",
+      "source": "telegraf.rs",
       "tags": []
     }
   ]
