@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-03-22T21:39:59Z",
+    "generated_at_utc": "2026-03-22T22:44:53Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "http_error status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
         "fetched": 0
       },
       {
@@ -33,6 +33,16 @@
   },
   "events": [
     {
+      "id": "gdelt_f1e3fe24d4cd16f1",
+      "headline": "Oil Price Surge : Will Yuan Payments for Hormuz Passage Reshape Global Energy Trade Amid US - Iran Escalation ?",
+      "url": "https://bravenewcoin.com/insights/oil-price-surge-will-yuan-payments-for-hormuz-passage-reshape-global-energy-trade-amid-us-iran-escalation",
+      "published_at": "20260322T221500Z",
+      "source": "bravenewcoin.com",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
       "id": "gdelt_e507f1c6dfc95bea",
       "headline": "Израиль уничтожил в Ливане мост через реку Литани",
       "url": "https://www.dw.com/ru/izrail-unictozil-v-livane-most-cerez-reku-litani/a-76477662",
@@ -55,40 +65,6 @@
       "published_at": "20260322T211500Z",
       "source": "klops.ru",
       "tags": []
-    },
-    {
-      "id": "gdelt_82392ba5a8080072",
-      "headline": "Лидер АдГ Вайдель заявила , что мира в Европе нельзя добиться без России",
-      "url": "https://www.vesti.ru/ns/lider-adg-vajdel-zayavila-chto-mira-v-evrope-nelzya-dobitsya-bez-rossii",
-      "published_at": "20260322T164500Z",
-      "source": "vesti.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_146e39dd3299d08f",
-      "headline": "Президент Ливана в панике воззвал к ООН :  Израиль готовится нас захватить",
-      "url": "https://www.9tv.co.il/item/211074",
-      "published_at": "20260322T163000Z",
-      "source": "9tv.co.il",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f10af428c946d449",
-      "headline": "В ФРГ раскрыли скрываемую Западом горькую реальность",
-      "url": "https://lenta.ru/news/2026/03/22/v-frg-raskryli-skryvaemuyu-zapadom-gorkuyu-realnost/",
-      "published_at": "20260322T163000Z",
-      "source": "lenta.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_dd9d9aeaa5f23108",
-      "headline": "Іран може вдарити по Лондону і Парижу - що відомо про ракетну загрозу",
-      "url": "https://24tv.ua/geopolitics/iran-mozhe-vdariti-po-londonu-parizhu-shho-vidomo-pro-raketnu_n3033564",
-      "published_at": "20260322T160000Z",
-      "source": "24tv.ua",
-      "tags": [
-        "IRAN"
-      ]
     },
     {
       "id": "gdelt_6ce194177ffcba98",
@@ -163,27 +139,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_2d62932cbcb5181f",
-      "headline": "Бесент : Ствари морају да ескалирају да би потом деескалирале",
-      "url": "https://www.politika.rs/scc/clanak/741058/besent-stvari-moraju-da-eskaliraju-da-bi-potom-deeskalirale",
-      "published_at": "20260322T164500Z",
-      "source": "politika.rs",
-      "tags": []
-    },
-    {
       "id": "gdelt_acc4d8b3fb99380b",
       "headline": "Ropná krize kvůli válce : Slovinsko omezuje lidem nákupy nafty a benzinu",
       "url": "https://www.blesk.cz/clanek/zpravy-svet/835764/ropna-krize-kvuli-valce-slovinsko-omezuje-lidem-nakupy-nafty-a-benzinu.html",
       "published_at": "20260322T190000Z",
       "source": "blesk.cz",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2b9b95930afc2c8e",
-      "headline": "Time . ai",
-      "url": "https://time.mk/ai/858e2e1ed1/mk/",
-      "published_at": "20260322T161500Z",
-      "source": "time.mk",
       "tags": []
     },
     {
@@ -195,13 +155,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_807ce9342ed5284b",
-      "headline": "A policy shift that could shape the Philippine investment future",
-      "url": "https://www.manilatimes.net/2026/03/23/business/top-business/a-policy-shift-that-could-shape-the-philippines-investment-future/2305077",
-      "published_at": "20260322T164500Z",
-      "source": "manilatimes.net",
+      "id": "gdelt_24ff24b20a6cdbbc",
+      "headline": "Saudi Arabia calls Israeli attacks on Syria an act of aggression - Jowhar News Leader",
+      "url": "https://jowhar.com/saudi-arabia-calls-israeli-attacks-on-syria-an-act-of-aggression/",
+      "published_at": "20260322T220000Z",
+      "source": "jowhar.com",
       "tags": [
-        "PHILIPPINES"
+        "SYRIA",
+        "SAUDI_ARABIA"
       ]
     },
     {
@@ -221,11 +182,21 @@
       "tags": []
     },
     {
-      "id": "gdelt_acf5272af96dace7",
-      "headline": "Нема мира у Европи без укључивања Русије",
-      "url": "https://www.politika.rs/scc/clanak/740876/nema-mira-u-evropi-bez-ukljucivanja-rusije",
-      "published_at": "20260322T154500Z",
-      "source": "politika.rs",
+      "id": "gdelt_14aef0d2d1fd746a",
+      "headline": "Dele Alake : Nigeria has attracted $2 . 6bn in foreign investments in last 30 months",
+      "url": "https://www.thecable.ng/dele-alake-nigeria-has-attracted-2-6bn-in-foreign-investments-in-last-30-months/",
+      "published_at": "20260322T221500Z",
+      "source": "thecable.ng",
+      "tags": [
+        "NIGERIA"
+      ]
+    },
+    {
+      "id": "gdelt_b74f057d5dab81d6",
+      "headline": "Das Hormus - Ultimatum",
+      "url": "https://www.gmx.ch/magazine/politik/nahostkonflikt/48-stunden-ultimatum-moeglichen-folgen-42036484",
+      "published_at": "20260322T220000Z",
+      "source": "gmx.ch",
       "tags": []
     },
     {
@@ -274,22 +245,6 @@
       ]
     },
     {
-      "id": "gdelt_3c845134f725a3a9",
-      "headline": "High - speed rail tickets selling fast as Hongkongers opt for short - haul trips",
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3347502/high-speed-rail-tickets-selling-fast-hongkongers-opt-short-haul-trips-amid-war",
-      "published_at": "20260322T163000Z",
-      "source": "scmp.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_85cd70cae524d27b",
-      "headline": "Амерички министар финансија поручио Техерану : Сила је једини језик који Иранци разумеју",
-      "url": "https://www.politika.rs/scc/clanak/741055/americki-ministar-finansija-porucio-teheranu-sila-je-jedini-jezik-koji-iranci-razumeju",
-      "published_at": "20260322T164500Z",
-      "source": "politika.rs",
-      "tags": []
-    },
-    {
       "id": "gdelt_9ef4282aa0359d50",
       "headline": "Цифровая изоляция смерти подобна : как ограничения интернета в белгородском приграничье лишают людей с инвалидностью не только связи , но и возможности работать",
       "url": "https://argumenti.ru/society/2026/03/991087",
@@ -298,61 +253,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_de1cbb669592f633",
-      "headline": "Trumps Hormus - Ultimatum : Welchen Folgen hat die Drohung des US - Präsidenten ?",
-      "url": "https://www.haz.de/politik/trumps-hormus-ultimatum-welchen-folgen-hat-die-drohung-des-us-praesidenten-R343RIKHDJGVFKQJ6JBVMVVF4E.html",
-      "published_at": "20260322T161500Z",
-      "source": "haz.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b2aeb0b01037ad6d",
-      "headline": "Straße von Hormus : Donald Trumps Ultimatum läuft – Iran droht zurück",
-      "url": "https://www.t-online.de/nachrichten/ausland/internationale-politik/id_101181254/strasse-von-hormus-donald-trumps-ultimatum-laeuft-iran-droht-zurueck.html",
-      "published_at": "20260322T164500Z",
-      "source": "t-online.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_71615f8ec4647ec1",
-      "headline": "Лишенные выплат беженцы из Курской области готовят бунт : возможности мирного урегулирования исчерпаны -",
-      "url": "https://www.dialog.ua/russia/lishennye-vyplat-bezhentsy-iz-kurskoy-oblasti-gotovyat-bunt-vozmozhnosti-mirnogo.html",
-      "published_at": "20260322T161500Z",
-      "source": "dialog.ua",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "gdelt_33f277a5414b3037",
-      "headline": "Trumpov ministar o ratu s Iranom : Ponekad morate eskalirati da biste deeskalirali",
-      "url": "https://www.index.hr/vijesti/clanak/trumpov-ministar-o-ratu-s-iranom-ponekad-morate-eskalirati-da-biste-deeskalirali/2773964.aspx",
-      "published_at": "20260322T164500Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_84cde767ded8472e",
-      "headline": "Trumpov ministar o ratu s Iranom : Ponekad morate eskalirati da biste deeskalirali",
-      "url": "https://www.index.hr/vijesti/clanak/trumpov-ministar-o-ratu-s-iranom-ponekad-morate-eskalirati-da-biste-deeskalirali/2773964.aspx?index_tid=963394&index_ref=naslovnica_vijesti_najnovije_d",
-      "published_at": "20260322T164500Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_72113a088515f8fa",
-      "headline": "Trumpov ministar o ratu s Iranom : Ponekad morate eskalirati da biste deeskalirali",
-      "url": "https://www.index.hr/vijesti/clanak/trumpov-ministar-o-ratu-s-iranom-ponekad-morate-eskalirati-da-biste-deeskalirali/2773964.aspx?index_tid=963394&index_ref=naslovnica_vijesti_ostalo_d_0",
-      "published_at": "20260322T164500Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3867cd96459d475d",
-      "headline": "Das Hormus - Ultimatum - Welche Folgen hat Trumps Drohung ? - Politik",
-      "url": "https://www.pz-news.de/politik_artikel,-Das-Hormus-Ultimatum-Welche-Folgen-hat-Trumps-Drohung-_arid,2343331.html",
-      "published_at": "20260322T161500Z",
-      "source": "pz-news.de",
+      "id": "gdelt_16eb73aaafcd963f",
+      "headline": "Alake advocates regional hubs to power Africa mining industry",
+      "url": "https://theeagleonline.com.ng/alake-advocates-regional-hubs-to-power-africas-mining-industry/",
+      "published_at": "20260322T220000Z",
+      "source": "theeagleonline.com.ng",
       "tags": []
     },
     {
@@ -380,19 +285,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_7b9e63680ee44b40",
-      "headline": "Сумская , Харьковская области - россияне наступают от границы",
-      "url": "https://24tv.ua/ru/sumskaja-harkovskaja-oblasti-rossijane-nastupajut-ot-granicy-zajavlenie-zelenskogo_n3033636",
-      "published_at": "20260322T184500Z",
-      "source": "24tv.ua",
-      "tags": []
-    },
-    {
       "id": "gdelt_646c981d25fec338",
       "headline": "Президент Фінляндії : послаблення санкцій США проти РФ завдає великої шкоди",
       "url": "https://www.eurointegration.com.ua/news/2026/03/22/7233782/",
       "published_at": "20260322T210000Z",
       "source": "eurointegration.com.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ff194058b16cf7f4",
+      "headline": "Edirnenin kalbinde kayıp bir tarih : İbrahim Bey Mescidi ! Meydan Cafenin altında bir ecdad yadigarı mı yatıyor ?",
+      "url": "https://www.yeniakit.com.tr/haber/edirnenin-kalbinde-kayip-bir-tarih-ibrahim-bey-mescidi-meydan-cafenin-altinda-bir-ecdad-yadigari-mi-yatiyor-1990675.html",
+      "published_at": "20260322T220000Z",
+      "source": "yeniakit.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7b9e63680ee44b40",
+      "headline": "Сумская , Харьковская области - россияне наступают от границы",
+      "url": "https://24tv.ua/ru/sumskaja-harkovskaja-oblasti-rossijane-nastupajut-ot-granicy-zajavlenie-zelenskogo_n3033636",
+      "published_at": "20260322T184500Z",
+      "source": "24tv.ua",
       "tags": []
     },
     {
@@ -412,22 +325,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_e027ef565013487c",
-      "headline": "Минфин США оценил доходы России на фоне ослабления санкций Вашингтона",
-      "url": "https://lenta.ru/news/2026/03/22/minfin-ssha-otsenil-dohody-rossii-na-fone-oslableniya-sanktsiy-vashingtona/",
-      "published_at": "20260322T163000Z",
-      "source": "lenta.ru",
+      "id": "gdelt_acd988ab42e84b32",
+      "headline": "محمد مصطفى أبو شامة : مصر تكثف جهودها لخفض التصعيد في لحظة حاسمة من الحرب",
+      "url": "https://www.elwatannews.com/news/details/8250990",
+      "published_at": "20260322T221500Z",
+      "source": "elwatannews.com",
       "tags": []
-    },
-    {
-      "id": "gdelt_3e7ad792584f1ea6",
-      "headline": "Putin wants long war - Ukraine Zelenskyy names biggest beneficiary in Iran conflict",
-      "url": "https://dailypost.ng/2026/03/22/putin-wants-long-war-ukraines-zelenskyy-names-biggest-beneficiary-in-iran-conflict/",
-      "published_at": "20260322T161500Z",
-      "source": "dailypost.ng",
-      "tags": [
-        "UKRAINE"
-      ]
     },
     {
       "id": "gdelt_32f13207a8bb4db9",
@@ -446,19 +349,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_1cf57a24ab098624",
-      "headline": "Iran - Krieg - Jetzt diplomatische Lösungen finden",
-      "url": "https://www.politikexpress.de/iran-krieg-jetzt-diplomatische-l-sungen-finden-2239473.html",
-      "published_at": "20260322T160000Z",
-      "source": "politikexpress.de",
-      "tags": []
-    },
-    {
       "id": "gdelt_eed8e4585c218521",
       "headline": "Экс - глава Еврокомиссии заявил о неизбежности нормализации отношений с Россией",
       "url": "https://news.mail.ru/politics/70253328/",
       "published_at": "20260322T204500Z",
       "source": "news.mail.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9704a2360dadf3b0",
+      "headline": "Дорогая нефть принесет бюджету дополнительно до 3 , 5 трлн : удастся ли пополнить бюджет",
+      "url": "https://iz.ru/2063245/olga-anaseva-pavel-vikhrov/dorogaia-neft-prineset-biudzhetu-dopolnitelno-do-35-trln",
+      "published_at": "20260322T221500Z",
+      "source": "iz.ru",
       "tags": []
     },
     {
@@ -472,11 +375,11 @@
       ]
     },
     {
-      "id": "gdelt_bc24990f65804ea9",
-      "headline": "Kā sankciju vājināšanās ļauj Krievijai finansēt karu",
-      "url": "https://nra.lv/pasaule/516939-ka-sankciju-vajinasanas-lauj-krievijai-finanset-karu.htm",
-      "published_at": "20260322T160000Z",
-      "source": "nra.lv",
+      "id": "gdelt_7c4db66fc78c1a72",
+      "headline": "Blog N : Dva trójske kone Ruska v srdci Európy",
+      "url": "https://dennikn.sk/blog/5216558/dva-trojske-kone-ruska-v-srdci-europy/",
+      "published_at": "20260322T200000Z",
+      "source": "dennikn.sk",
       "tags": []
     },
     {
@@ -488,19 +391,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_acfd1f552b94bd1f",
-      "headline": "У Трампа кажуть , що мають піти на ескалацію проти Ірану , щоб домогтись деескалації",
-      "url": "https://www.eurointegration.com.ua/news/2026/03/22/7233778/",
-      "published_at": "20260322T160000Z",
-      "source": "eurointegration.com.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7c4db66fc78c1a72",
-      "headline": "Blog N : Dva trójske kone Ruska v srdci Európy",
-      "url": "https://dennikn.sk/blog/5216558/dva-trojske-kone-ruska-v-srdci-europy/",
-      "published_at": "20260322T200000Z",
-      "source": "dennikn.sk",
+      "id": "gdelt_16767efe015dd71f",
+      "headline": "ZELENSKI PORUČIO SAVEZNICIMA :  Zaustavite  flotu iz senke  ili rat neće stati",
+      "url": "https://www.novosti.rs/planeta/svet/1588597/zelenski-porucio-saveznicima-zaustavite-flotu-senke-ili-rat-nece-stati",
+      "published_at": "20260322T184500Z",
+      "source": "novosti.rs",
       "tags": []
     },
     {
@@ -512,11 +407,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_16767efe015dd71f",
-      "headline": "ZELENSKI PORUČIO SAVEZNICIMA :  Zaustavite  flotu iz senke  ili rat neće stati",
-      "url": "https://www.novosti.rs/planeta/svet/1588597/zelenski-porucio-saveznicima-zaustavite-flotu-senke-ili-rat-nece-stati",
-      "published_at": "20260322T184500Z",
-      "source": "novosti.rs",
+      "id": "gdelt_11ce2c2d9be358f9",
+      "headline": "Zelenskis : Līdz ar sankciju vājināšanu Krievija saņem papildu resursus karam",
+      "url": "https://www.lsm.lv/raksts/zinas/arzemes/22.03.2026-zelenskis-lidz-ar-sankciju-vajinasanu-krievija-sanem-papildu-resursus-karam.a639911/",
+      "published_at": "20260322T170000Z",
+      "source": "lsm.lv",
       "tags": []
     },
     {
@@ -529,22 +424,6 @@
         "INDIA",
         "PAKISTAN"
       ]
-    },
-    {
-      "id": "gdelt_c0a8d84d6e17b752",
-      "headline": "الأوقاف تدين أشكال العدوان الإيراني على الدول العربية الشقيقة في منطقة الخليج العربي",
-      "url": "https://www.dostor.org/5469814",
-      "published_at": "20260322T160000Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_11ce2c2d9be358f9",
-      "headline": "Zelenskis : Līdz ar sankciju vājināšanu Krievija saņem papildu resursus karam",
-      "url": "https://www.lsm.lv/raksts/zinas/arzemes/22.03.2026-zelenskis-lidz-ar-sankciju-vajinasanu-krievija-sanem-papildu-resursus-karam.a639911/",
-      "published_at": "20260322T170000Z",
-      "source": "lsm.lv",
-      "tags": []
     },
     {
       "id": "gdelt_2c971a7a8194d644",
@@ -563,20 +442,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_0efa2172dd4ad94d",
-      "headline": "تصعيد إيراني ميداني وتهديدات متبادلة - العالم : الخبر",
-      "url": "https://www.elkhabar.com/monde/%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A-%D9%85%D9%8A%D8%AF%D8%A7%D9%86%D9%8A-%D9%88%D8%AA%D9%87%D8%AF%D9%8A%D8%AF%D8%A7%D8%AA-%D9%85%D8%AA%D8%A8%D8%A7%D8%AF%D9%84%D8%A9-269918",
-      "published_at": "20260322T161500Z",
-      "source": "elkhabar.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_70b3e96cc7186eb8",
-      "headline": "We are at a dangerous moment : Action needed to prevent deeper crisis , Government says – The Irish Times",
-      "url": "https://www.irishtimes.com/ireland/2026/03/22/we-are-at-a-dangerous-moment-action-needed-to-prevent-deeper-crisis-government-says/",
-      "published_at": "20260322T163000Z",
-      "source": "irishtimes.com",
-      "tags": []
+      "id": "gdelt_d6e7168207b93b09",
+      "headline": "Zelenskiy Urges Sanctions to Curb Russia Oil Revenues",
+      "url": "https://www.khaama.com/zelenskiy-urges-sanctions-to-curb-russia-oil-revenues/",
+      "published_at": "20260322T184500Z",
+      "source": "khaama.com",
+      "tags": [
+        "RUSSIA"
+      ]
     },
     {
       "id": "gdelt_eae5f63850006f4c",
@@ -603,16 +476,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_d6e7168207b93b09",
-      "headline": "Zelenskiy Urges Sanctions to Curb Russia Oil Revenues",
-      "url": "https://www.khaama.com/zelenskiy-urges-sanctions-to-curb-russia-oil-revenues/",
-      "published_at": "20260322T184500Z",
-      "source": "khaama.com",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
       "id": "gdelt_870c29b894f18c47",
       "headline": "محللون : مهلة الـ48 ساعة تفتح الباب أمام سيناريوهات التصعيد الأخطر",
       "url": "https://www.aljazeera.net/politics/2026/3/22/%D9%85%D8%B6%D9%8A%D9%82-%D9%87%D8%B1%D9%85%D8%B2-%D9%81%D9%8A-%D9%85%D9%87%D9%84%D8%A9-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%AD%D8%B1%D8%A8-%D8%B7%D8%A7%D9%82%D8%A9-%D8%A3%D9%85",
@@ -621,12 +484,22 @@
       "tags": []
     },
     {
-      "id": "gdelt_68c6c06e9c5f266f",
-      "headline": "الأوقاف تدين الاعتداءات الإيرانية على الدول العربية وتحذر من استغلال الدين في النزاعات الإقليمية",
-      "url": "https://www.vetogate.com/5619807",
-      "published_at": "20260322T160000Z",
-      "source": "vetogate.com",
+      "id": "gdelt_e204e2f3ba601686",
+      "headline": "النفط في اتجاه صاعد .. ومحللون يتوقعون زيادات جديدة",
+      "url": "https://www.dostor.org/5470241",
+      "published_at": "20260322T220000Z",
+      "source": "dostor.org",
       "tags": []
+    },
+    {
+      "id": "gdelt_573db9dfb9d11e27",
+      "headline": "اتصالات مصرية مكثفة لخفض التصعيد ووقف الحرب",
+      "url": "https://www.albayan.ae/news/middle-east/egypt/1149262",
+      "published_at": "20260322T221500Z",
+      "source": "albayan.ae",
+      "tags": [
+        "EGYPT"
+      ]
     },
     {
       "id": "gdelt_afc23fa2242f225a",
@@ -634,24 +507,6 @@
       "url": "https://www.tportal.hr/vijesti/clanak/zelenski-postoje-naznake-da-ce-doci-do-razmjene-zatvorenika-s-rusijom-20260322",
       "published_at": "20260322T203000Z",
       "source": "tportal.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a83e5f188bca5a51",
-      "headline": "Lebanon Aoun warns Israeli attack on bridge  prelude to ground invasion  - Grenada Chronicle – Daily Grenada And Caribbean News",
-      "url": "https://grenadachronicle.com/lebanons-aoun-warns-israeli-attack-on-bridge-prelude-to-ground-invasion/",
-      "published_at": "20260322T203000Z",
-      "source": "grenadachronicle.com",
-      "tags": [
-        "LEBANON"
-      ]
-    },
-    {
-      "id": "gdelt_72303269205bcac1",
-      "headline": "Писториус выступил против ослабления санкций в отношении РФ",
-      "url": "https://www.dw.com/ru/ministr-oborony-frg-vystupil-protiv-oslablenia-sankcij-v-otnosenii-rf/a-76476134",
-      "published_at": "20260322T160000Z",
-      "source": "dw.com",
       "tags": []
     },
     {
@@ -671,30 +526,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_145554479991ca46",
-      "headline": "Zelenskiy urges allies to keep up pressure on Russia ahead of talks with US",
-      "url": "https://www.thestar.com.my/news/world/2026/03/22/zelenskiy-urges-allies-to-keep-up-pressure-on-russia-ahead-of-talks-with-us",
-      "published_at": "20260322T163000Z",
-      "source": "thestar.com.my",
+      "id": "gdelt_a83e5f188bca5a51",
+      "headline": "Lebanon Aoun warns Israeli attack on bridge  prelude to ground invasion  - Grenada Chronicle – Daily Grenada And Caribbean News",
+      "url": "https://grenadachronicle.com/lebanons-aoun-warns-israeli-attack-on-bridge-prelude-to-ground-invasion/",
+      "published_at": "20260322T203000Z",
+      "source": "grenadachronicle.com",
       "tags": [
-        "RUSSIA"
+        "LEBANON"
       ]
-    },
-    {
-      "id": "gdelt_82a82352934bb89e",
-      "headline": "Λίβανος : Καταδίκασε ο πρόεδρος τα πλήγματα στις γέφυρες του ποταμού Λιτάνι – « Είναι συλλογική τιμωρία »",
-      "url": "https://www.inewsgr.com/227/livanos-katadikase-o-proedros-ta-pligmata-stis-gefyres-tou-potamou-litani--einai-syllogiki-timoria.htm",
-      "published_at": "20260322T174500Z",
-      "source": "inewsgr.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6bc82b931c1796a4",
-      "headline": "Șoferii , vizați de noi reguli stricte . Amenzile , executate inclusiv în alte state . Se suspendă permisul pentru neplată",
-      "url": "https://www.capital.ro/soferii-vizati-de-noi-reguli-stricte-amenzile-executate-inclusiv-in-alte-state-se-suspenda-permisul-pentru-neplata.html",
-      "published_at": "20260322T161500Z",
-      "source": "capital.ro",
-      "tags": []
     },
     {
       "id": "gdelt_5d7580c71f0f396a",
@@ -705,11 +544,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_f6cfe93958f842ed",
-      "headline": "Эскалация нужна для деэскалации : в США пояснили смысл ультиматума Трампа",
-      "url": "https://www.9tv.co.il/item/211073",
-      "published_at": "20260322T163000Z",
-      "source": "9tv.co.il",
+      "id": "gdelt_82a82352934bb89e",
+      "headline": "Λίβανος : Καταδίκασε ο πρόεδρος τα πλήγματα στις γέφυρες του ποταμού Λιτάνι – « Είναι συλλογική τιμωρία »",
+      "url": "https://www.inewsgr.com/227/livanos-katadikase-o-proedros-ta-pligmata-stis-gefyres-tou-potamou-litani--einai-syllogiki-timoria.htm",
+      "published_at": "20260322T174500Z",
+      "source": "inewsgr.com",
       "tags": []
     },
     {
@@ -718,14 +557,6 @@
       "url": "https://www.wnp.pl/rynki/ukraina-zelenski-rosja-probuje-nasilic-dzialania-ofensywne,1044936.html",
       "published_at": "20260322T194500Z",
       "source": "wnp.pl",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2fa65be687cbed16",
-      "headline": "Pacheco : Inside the El Paso - Santa Teresa industrial market",
-      "url": "https://www.abqjournal.com/business/pacheco-inside-the-el-paso-santa-teresa-industrial-market/3004578",
-      "published_at": "20260322T170000Z",
-      "source": "abqjournal.com",
       "tags": []
     },
     {
@@ -745,6 +576,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_2fa65be687cbed16",
+      "headline": "Pacheco : Inside the El Paso - Santa Teresa industrial market",
+      "url": "https://www.abqjournal.com/business/pacheco-inside-the-el-paso-santa-teresa-industrial-market/3004578",
+      "published_at": "20260322T170000Z",
+      "source": "abqjournal.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_3dbb5bd6082ead15",
       "headline": "48 - Stunden - Ultimatum : Welche Folgen könnte Trumps Drohung haben ?",
       "url": "https://www.tagesschau.de/ausland/asien/iran-usa-israel-krieg-102.html",
@@ -753,22 +592,6 @@
       "tags": [
         "ISRAEL"
       ]
-    },
-    {
-      "id": "gdelt_d2103ad0811d14fd",
-      "headline": "تحليل يثير تساؤلات .. هل تسبب صاروخ باتريوت أميركي بانفجار حي سكني في البحرين ؟",
-      "url": "https://arabic.euronews.com/2026/03/22/analysis-raises-questions-did-a-us-patriot-missile-cause-a-residential-neighborhood-explo",
-      "published_at": "20260322T161500Z",
-      "source": "arabic.euronews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_41c2bb9c1b5771ca",
-      "headline": "Predsjednik iranskog parlamenta ismijao Trumpa : Žao mi je , rasprodani smo",
-      "url": "https://www.oslobodjenje.ba/vijesti/svijet/predsjednik-iranskog-parlamenta-ismijao-trumpa-zao-mi-je-rasprodani-smo/",
-      "published_at": "20260322T160000Z",
-      "source": "oslobodjenje.ba",
-      "tags": []
     },
     {
       "id": "gdelt_4204f5c0ea2c26b9",
@@ -781,29 +604,14 @@
       ]
     },
     {
-      "id": "gdelt_80383884d8eaacd7",
-      "headline": "Минфин США не исключил отправку американских войск на иранский остров Харк",
-      "url": "http://govoritmoskva.ru/news/486438/",
-      "published_at": "20260322T163000Z",
-      "source": "govoritmoskva.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a8f161332256656e",
-      "headline": "18 ألف انتهاك بالضفة منذ مطلع 2026 .. تصعيد إسرائيلي متواصل يسفر عن 34 شهيدًا",
-      "url": "https://palinfo.com/news/2026/03/22/1103934/",
-      "published_at": "20260322T160000Z",
-      "source": "palinfo.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_4be1021d348e90af",
       "headline": "French Navy Boards A Tanker In The Mediterranean Suspected Of Being Part Of Russia Shadow Fleet – The Yeshiva World",
       "url": "https://www.theyeshivaworld.com/news/israel-news/2528010/french-navy-boards-a-tanker-in-the-mediterranean-suspected-of-being-part-of-russias-shadow-fleet.html",
       "published_at": "20260322T204500Z",
       "source": "theyeshivaworld.com",
       "tags": [
-        "ISRAEL"
+        "ISRAEL",
+        "RUSSIA"
       ]
     },
     {
@@ -823,14 +631,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_b8121515deb2d173",
-      "headline": "Iran refuses to back down after Trump issues 48 - hour deadline – NBC Connecticut",
-      "url": "https://www.nbcconnecticut.com/news/national-international/iran-trump-48-hour-deadline-strait-of-hormuz/3716639/",
-      "published_at": "20260322T161500Z",
-      "source": "nbcconnecticut.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_77e434c4b36db0cc",
       "headline": "US using Iran oil strategy against them to curb price surge , Waltz says",
       "url": "https://www.foxnews.com/media/waltz-says-trump-using-irans-own-oil-strategy-against-drive-down-global-prices",
@@ -839,18 +639,18 @@
       "tags": []
     },
     {
-      "id": "gdelt_b3d741adebc04930",
-      "headline": "Iran refuses to back down after Trump issues 48 - hour deadline – NBC10 Philadelphia",
-      "url": "https://www.nbcphiladelphia.com/news/national-international/iran-trump-48-hour-deadline-strait-of-hormuz/4372409/",
-      "published_at": "20260322T164500Z",
-      "source": "nbcphiladelphia.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_7202e1fe3b556eae",
       "headline": "كيف استخدمت إيران مضيق هرمز كسلاح للتأثير على الاقتصاد العالمي ؟.. خبيرة توضح",
       "url": "https://www.dostor.org/5470151",
       "published_at": "20260322T210000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_acdfa4478ae55854",
+      "headline": "جيش الاحتلال : رصدنا إطلاق صواريخ من إيران باتجاه صفد ومحيطها",
+      "url": "https://www.dostor.org/5470253",
+      "published_at": "20260322T221500Z",
       "source": "dostor.org",
       "tags": []
     },
@@ -863,11 +663,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_a3fa714c7097ad48",
-      "headline": "Кац отдал стратегический приказ армия ведет бой и докладывает",
-      "url": "https://www.9tv.co.il/item/211065",
-      "published_at": "20260322T163000Z",
-      "source": "9tv.co.il",
+      "id": "gdelt_6e03881269f8c128",
+      "headline": "Zaključeni američko - ukrajinski pregovori : Ima jedna dobra vijest",
+      "url": "https://www.vecernji.hr/vijesti/zakljuceni-americko-ukrajinski-pregovori-ima-jedna-dobra-vijest-1944778",
+      "published_at": "20260322T221500Z",
+      "source": "vecernji.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5b9f51645313481a",
+      "headline": "اتصالات مصرية مكثفة مع وزراء ومسؤولين بالمنطقة وأميركا لخفض التصعيد ووقف الحرب",
+      "url": "https://alwasat.ly/news/arabic/512219",
+      "published_at": "20260322T221500Z",
+      "source": "alwasat.ly",
       "tags": []
     },
     {
@@ -879,12 +687,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_535159140bd8a99b",
-      "headline": "الخارجية : اتصالات مصرية مكثفة لوقف الحرب بالمنطقة ومنع خروج الوضع عن السيطرة",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=22032026&id=b1c17cd7-026d-44af-a3b7-262756210593",
-      "published_at": "20260322T160000Z",
-      "source": "shorouknews.com",
-      "tags": []
+      "id": "gdelt_945d1994af20b285",
+      "headline": "Zelenskiy Urges Allies To Keep Up Pressure On Russia Ahead Of Talks With US",
+      "url": "https://gcaptain.com/zelenskiy-urges-allies-to-keep-up-pressure-on-russia-ahead-of-talks-with-us/",
+      "published_at": "20260322T190000Z",
+      "source": "gcaptain.com",
+      "tags": [
+        "RUSSIA"
+      ]
     },
     {
       "id": "gdelt_1659e4cd6193da6f",
@@ -892,38 +702,6 @@
       "url": "https://www.jawharafm.net/ar/article/%D9%85%D8%A8%D8%A7%D8%AD%D8%AB%D8%A7%D8%AA-%D9%85%D8%B5%D8%B1%D9%8A%D8%A9-%D9%85%D8%B9-5-%D8%AF%D9%88%D9%84-%D9%84%D9%85%D9%86%D8%B9-%D8%A7%D8%AA%D8%B3%D8%A7%D8%B9-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8/106/290556",
       "published_at": "20260322T194500Z",
       "source": "jawharafm.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_945d1994af20b285",
-      "headline": "Zelenskiy Urges Allies To Keep Up Pressure On Russia Ahead Of Talks With US",
-      "url": "https://gcaptain.com/zelenskiy-urges-allies-to-keep-up-pressure-on-russia-ahead-of-talks-with-us/",
-      "published_at": "20260322T190000Z",
-      "source": "gcaptain.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_40d13517232c34aa",
-      "headline": "خبير : التصعيد الأمريكي الإسرائيلي يهدد بانفجار شامل يتجاوز الشرق الأوسط ( فيديو )",
-      "url": "https://www.dostor.org/5469843",
-      "published_at": "20260322T161500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0cbfa9bd65b194b3",
-      "headline": "خبير أمني : استهداف منشآت الطاقة تصعيد خطير يهدد استقرار المنطقة",
-      "url": "https://www.dostor.org/5469831",
-      "published_at": "20260322T164500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0d4920883c0f377f",
-      "headline": "Finski predsjednik : Zapad se podijelio . Spašavajmo što se spasiti da",
-      "url": "https://www.dnevnik.ba/vijesti/finski-predsjednik-zapad-se-podijelio-spasavajmo-sto-se-spasiti-da/",
-      "published_at": "20260322T163000Z",
-      "source": "dnevnik.ba",
       "tags": []
     },
     {
@@ -943,6 +721,16 @@
       "tags": []
     },
     {
+      "id": "gdelt_f6915f56df07804e",
+      "headline": "رئيس الدولة والرئيس الصربي يبحثان تداعيات التصعيد العسكري في المنطقة",
+      "url": "https://www.albayan.ae/news/uae/1149107",
+      "published_at": "20260322T221500Z",
+      "source": "albayan.ae",
+      "tags": [
+        "UAE"
+      ]
+    },
+    {
       "id": "gdelt_bd60209c0ef668aa",
       "headline": "Πρόεδρος Λιβάνου : Προοίμιο χερσαίας εισβολής η ανατίναξη της γέφυρας Κασμίγια",
       "url": "https://www.inewsgr.com/184/proedros-livanou-prooimio-chersaias-eisvolis-i-anatinaxi-tis-gefyras-kasmigia.htm",
@@ -956,14 +744,6 @@
       "url": "https://palinfo.com/news/2026/03/22/1103954/",
       "published_at": "20260322T204500Z",
       "source": "palinfo.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_83effbdbd3b6a713",
-      "headline": "Бессент прокомментировал угрозу Трампа атаковать иранские электростанции",
-      "url": "https://ria.ru/20260322/ssha-2082271805.html",
-      "published_at": "20260322T164500Z",
-      "source": "ria.ru",
       "tags": []
     },
     {
@@ -983,6 +763,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_c4f737b5effcc3c5",
+      "headline": "إيران : الولايات المتحدة وإسرائيل تتحملان مسئولية أي تصعيد بالمنطقة",
+      "url": "https://www.dostor.org/5470137",
+      "published_at": "20260322T201500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
       "id": "gdelt_6c98e7bad80537ce",
       "headline": "أستاذ العلوم السياسية : تهديدات ترامب بضرب إيران اختبار لمصداقية واشنطن ( فيديو )",
       "url": "https://www.dostor.org/5470008",
@@ -991,10 +779,10 @@
       "tags": []
     },
     {
-      "id": "gdelt_c4f737b5effcc3c5",
-      "headline": "إيران : الولايات المتحدة وإسرائيل تتحملان مسئولية أي تصعيد بالمنطقة",
-      "url": "https://www.dostor.org/5470137",
-      "published_at": "20260322T201500Z",
+      "id": "gdelt_54fa590e65d615dc",
+      "headline": "البيطار : مصر تضبط إيقاع المنطقة وتتحرك لمنع الانزلاق إلى حرب شاملة ( خاص )",
+      "url": "https://www.dostor.org/5470250",
+      "published_at": "20260322T220000Z",
       "source": "dostor.org",
       "tags": []
     },
@@ -1007,16 +795,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_4cc6742252f5c0fa",
-      "headline": "Cuba Announces Second Nationwide Power Blackout In A Week , 3rd Time This Month",
-      "url": "https://article.wn.com/view/2026/03/22/Cuba_Announces_Second_Nationwide_Power_Blackout_In_A_Week_3r/",
-      "published_at": "20260322T160000Z",
-      "source": "article.wn.com",
-      "tags": [
-        "CUBA"
-      ]
-    },
-    {
       "id": "gdelt_a25674687bd04263",
       "headline": "الملك القائد في مواجهة  خرائط الدم : رؤية ملكية استباقية تحمي الهوية وتكبح جماح التصعيد",
       "url": "https://alanbatnews.net/article/474862",
@@ -1025,11 +803,238 @@
       "tags": []
     },
     {
-      "id": "gdelt_08d4cecdcc77fba3",
-      "headline": "Iran Unveils 10 Million Rial Note Worth Just Rs 650 As Crisis Deepens",
-      "url": "https://article.wn.com/view/2026/03/22/Iran_Unveils_10_Million_Rial_Note_Worth_Just_Rs_650_As_Crisi/",
-      "published_at": "20260322T160000Z",
-      "source": "article.wn.com",
+      "id": "gdelt_57b512e02b86e537",
+      "headline": "Zaključeni američko - ukrajinski pregovori , moguća razamjena zarobljenika",
+      "url": "https://www.novilist.hr/novosti/svijet/zakljuceni-americko-ukrajinski-pregovori-moguca-razamjena-zarobljenika/",
+      "published_at": "20260322T211500Z",
+      "source": "novilist.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7a158ebc034d8f3e",
+      "headline": "Επικοινωνία Κάλας - Aραγτσί στο τηλέφωνο , για την κλιμάκωση του πολέμου στο Ιράν",
+      "url": "https://www.athensvoice.gr/epikairotita/diethni/953808/epikoinonia-kalas-aragtsi-sto-tilefono-gia-tin-klimakosi-tou-polemou-sto-iran/",
+      "published_at": "20260322T220000Z",
+      "source": "athensvoice.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_82157a02ea8dc648",
+      "headline": "فرج عبدالله : استمرار التصعيد يضاعف الأعباء الاقتصادية على العالم ( فيديو )",
+      "url": "https://www.dostor.org/5470093",
+      "published_at": "20260322T191500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_57561e175d003773",
+      "headline": "World Current Affairs This Week : 22 - Nation Coalition Over Strait of Hormuz , Antibiotic - Resistant Cave Bacteria , and US - Iran Oil Sanctions Relief",
+      "url": "https://www.jagranjosh.com/current-affairs/world-current-affairs-this-week-22-nation-coalition-over-strait-of-hormuz-antibiotic-resistant-cave-bacteria-and-usiran-oil-sanctions-relief-1850000807-1",
+      "published_at": "20260322T190000Z",
+      "source": "jagranjosh.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a12b1fc66d62b030",
+      "headline": "« Ωρολογιακή βόμβα » αυξημένης αβεβαιότητας στις αγορές - Φόβοι για νέα εκτίναξη του πετρελαίου από Δευτέρα",
+      "url": "https://www.in.gr/2026/03/22/economy/diethnis-oikonomia/orologiaki-vomva-ayksimenis-avevaiotitas-stis-agores-fovoi-gia-nea-ektinaksi-tou-petrelaiou-apo-deytera/",
+      "published_at": "20260322T211500Z",
+      "source": "in.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7a7ef8b801fe396a",
+      "headline": "Zelenskij : završili smo novi krug pregovora , moguća je razmjena zarobljenika",
+      "url": "https://www.glas-slavonije.hr/novosti/svijet/2026/03/22/zelenskij-zavrsili-smo-novi-krug-pregovora-moguca-je-razmjena-zarobljenika-753823/",
+      "published_at": "20260322T221500Z",
+      "source": "glas-slavonije.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e4bb996abd5101bb",
+      "headline": "موقع بكرا - اتصالات مصرية لخفض التصعيد في الشرق الأوسط ومنع اتساع الصراع",
+      "url": "https://bokra.net/Article-1590817",
+      "published_at": "20260322T210000Z",
+      "source": "bokra.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_32e925749ebcc2e6",
+      "headline": "„ Abgründe im engen Freundeskreis : Erstes Statement von Ulmens „ Jerks - Kumpel Fahri Yardim ! | Unterhaltung",
+      "url": "https://www.bild.de/unterhaltung/jerks-kumpel-fahri-yardm-aeussert-sich-zu-christian-ulmen-69c05aceaf187d606b80f57f",
+      "published_at": "20260322T221500Z",
+      "source": "bild.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5c884276da56e039",
+      "headline": "Πετρέλαιο : Γιατί αναμένεται νέα αύξηση από Δευτέρα",
+      "url": "https://www.lykavitos.gr/news/greece/petrelaio-giati-anamenetai-nea-ayksisi-apo-deytera",
+      "published_at": "20260322T221500Z",
+      "source": "lykavitos.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d5c94ef7715068c3",
+      "headline": "Financial Stocks To Research – March 22nd",
+      "url": "https://www.themarketsdaily.com/2026/03/22/financial-stocks-to-research-march-22nd.html",
+      "published_at": "20260322T181500Z",
+      "source": "themarketsdaily.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a8b78e6f841c81c9",
+      "headline": "У Трампа стверджують , що прибутки Росії після відміни санкцій зменшилися DSnews . ua",
+      "url": "https://www.dsnews.ua/ukr/world/u-trampa-utverzhdayut-chto-dohody-rossii-posle-otmeny-sankciy-umenshilis-22032026-455717",
+      "published_at": "20260322T221500Z",
+      "source": "dsnews.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d0853331aef5a71f",
+      "headline": "Avrupa , ABD ile İrana Karşı Yürütülen Savaşa Neden Katılmakta İsteksiz ?",
+      "url": "https://sana.sy/tr/international/2288125/",
+      "published_at": "20260322T183000Z",
+      "source": "sana.sy",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7a796e4c0ed9449d",
+      "headline": "Макрон : Иран мора да заустави нападе и осигура пловидбу",
+      "url": "https://www.politika.rs/scc/clanak/741112/makron-iran-mora-da-zaustavi-napade-i-osigura-plovidbu",
+      "published_at": "20260322T211500Z",
+      "source": "politika.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c6e50f3244ada7a7",
+      "headline": "Von united states und Israel kritisiert : IStGH - Chefankläger noch nicht von Vorwürfen der sexuellen Belästigung entlastet",
+      "url": "https://www.n-tv.de/ticker/IStGH-Chefanklaeger-noch-nicht-von-Vorwuerfen-der-sexuellen-Belaestigung-entlastet-id30499119.html",
+      "published_at": "20260322T194500Z",
+      "source": "n-tv.de",
+      "tags": [
+        "ISRAEL",
+        "UNITED_STATES"
+      ]
+    },
+    {
+      "id": "gdelt_a9734809e1b6e5d9",
+      "headline": "Trgovinska razmjena EU - a i Irana na povijesnom minimumu , evo kako stoji Hrvatska",
+      "url": "https://www.tportal.hr/biznis/clanak/trgovinska-razmjena-eu-a-i-irana-na-povijesnom-minimumu-evo-kako-stoji-hrvatska-20260322",
+      "published_at": "20260322T203000Z",
+      "source": "tportal.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5ec177e78d9dddbb",
+      "headline": "طارق فهمي : إيران تتبع استراتيجية  الباب الموارب  لترك مساحة للتفاوض ( فيديو )",
+      "url": "https://www.dostor.org/5470018",
+      "published_at": "20260322T181500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_692a184c7e6b5b9c",
+      "headline": "أبو شامة : الحرب الإيرانية أمام منعطف خطير ( فيديو )",
+      "url": "https://www.dostor.org/5470202",
+      "published_at": "20260322T211500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_929d25abcc69c1d9",
+      "headline": "عماد الدين حسين : جولة الرئيس السيسي بالخليج رسالة دعم عملي للأمن العربي",
+      "url": "https://www.dostor.org/5469987",
+      "published_at": "20260322T184500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1f1a9d8fcb6c1b08",
+      "headline": "Iran threatens regional blackout after Trump ultimatum on Hormuz , warns Gulf energy a",
+      "url": "https://www.ynetnews.com/article/ryt3396911g",
+      "published_at": "20260322T200000Z",
+      "source": "ynetnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_aed8de6adcac13ac",
+      "headline": "Λίβανος : Καταδίκασε ο πρόεδρος τα πλήγματα στις γέφυρες του ποταμού Λιτάνι",
+      "url": "https://www.enikos.gr/international/livanos-katadikase-o-proedros-ta-pligmata-stis-gefyres-tou-potamou-litani-einai-syllogiki-timoria/2553227/",
+      "published_at": "20260322T193000Z",
+      "source": "enikos.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b331c47a623b9759",
+      "headline": "World News : Zelenskiy urges allies to keep up pressure on Russia ahead of talks with US",
+      "url": "https://www.gdnonline.com:443/Details/1379314/Zelenskiy-urges-allies-to-keep-up-pressure-on-Russia-ahead-of-talks-with-US",
+      "published_at": "20260322T204500Z",
+      "source": "gdnonline.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6d8555b72e91e96d",
+      "headline": "World News : Zelenskiy urges allies to keep up pressure on Russia ahead of talks with US",
+      "url": "https://www.gdnonline.com:443/Details/1379314",
+      "published_at": "20260322T204500Z",
+      "source": "gdnonline.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c21b5f8a1335ab25",
+      "headline": "Рютте рассказал о последствиях санкций против РФ и планах Трампа по миру в Украине - видео",
+      "url": "https://www.obozrevatel.com/politics-news/oni-hotyat-zakonchit-vojnu-ryutte-o-posledstviyah-davleniya-na-rf-i-mirnoj-initsiative-trampa.htm",
+      "published_at": "20260322T211500Z",
+      "source": "obozrevatel.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_27e56a8f3a400dd2",
+      "headline": "أستاذ علوم سياسية : الحرب مع إيران تجاوزت توقعات ترامب وتحولت إلى مواجهة ممتدة",
+      "url": "https://www.dostor.org/5469853",
+      "published_at": "20260322T170000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f35fae26a682514c",
+      "headline": "Sánchez : Zahtijevamo otvaranje Hormuza . Svijet ne smije plaćati cijenu ovog rata",
+      "url": "https://www.index.hr/vijesti/clanak/s%C3%A1nchez-zahtijevamo-otvaranje-hormuza-svijet-ne-smije-placati-cijenu-ovog-rata/2774006.aspx",
+      "published_at": "20260322T200000Z",
+      "source": "index.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6642cbd7011d1acf",
+      "headline": "US issues worldwide travel alert for American citizens abroad amid Iran escalation",
+      "url": "https://timesofindia.indiatimes.com/world/us/us-issues-worldwide-travel-alert-for-american-citizens-abroad-amid-iran-escalation/articleshow/129738411.cms",
+      "published_at": "20260322T203000Z",
+      "source": "timesofindia.indiatimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bb25d8709d8c457b",
+      "headline": "Іран може вдарити по Європі - Лондон відреагував на заяви про ракети Тегерану",
+      "url": "https://24tv.ua/geopolitics/iran-mozhe-vdariti-po-yevropi-london-vidreaguvav-zayavi-pro-raketi_n3033671",
+      "published_at": "20260322T204500Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f1c6a05b544a9985",
+      "headline": "항공기  무단 탑승  반복 승객 , 결국  30년 탑승 금지 … 무슨 일 ?",
+      "url": "https://www.munhwa.com:443/article/11576422",
+      "published_at": "20260322T200000Z",
+      "source": "munhwa.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0f290c67922f3040",
+      "headline": "Nächster Schock für Kreuzfahrt - Passagiere : AIDA streicht komplette Reisen aus Programm",
+      "url": "http://www.hna.de/welt/urlauber-aida-streicht-komplette-saison-schock-fuer-kreuzfahrt-94225191.html",
+      "published_at": "20260322T190000Z",
+      "source": "hna.de",
       "tags": []
     }
   ]
