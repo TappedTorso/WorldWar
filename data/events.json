@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-03-22T07:50:51Z",
+    "generated_at_utc": "2026-03-22T08:52:35Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "http_error status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
         "fetched": 0
       },
       {
@@ -19,7 +19,7 @@
       }
     ],
     "fetched_articles": 120,
-    "previous_event_count": 120,
+    "previous_event_count": 119,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -32,6 +32,16 @@
     }
   },
   "events": [
+    {
+      "id": "gdelt_ccc7f33b8f8c0733",
+      "headline": "In 36 hours , Trump went from rejecting ceasefire to peace talks to threatening Iran again",
+      "url": "https://www.moneycontrol.com/world/in-36-hours-trump-went-from-rejecting-ceasefire-to-peace-talks-to-threatening-iran-again-article-13867028.html",
+      "published_at": "20260322T074500Z",
+      "source": "moneycontrol.com",
+      "tags": [
+        "IRAN"
+      ]
+    },
     {
       "id": "gdelt_307b6788604c4bfd",
       "headline": "闪评｜欧盟峰会聚焦中东局势与能源安全 欧洲的  权衡  与  坚决",
@@ -52,14 +62,20 @@
       ]
     },
     {
-      "id": "gdelt_f24784003a62a0d8",
-      "headline": "Foreign firms see growing opportunities in China over next five years",
-      "url": "http://www.china.org.cn/2026-03/22/content_118395164.shtml",
-      "published_at": "20260322T061500Z",
-      "source": "china.org.cn",
-      "tags": [
-        "CHINA"
-      ]
+      "id": "gdelt_05359d3d578cf667",
+      "headline": "商务部部长王文涛集体会见美国药品研究与制造企业协会和跨国医药企业负责人",
+      "url": "https://www.yicai.com/brief/103098050.html",
+      "published_at": "20260322T081500Z",
+      "source": "yicai.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0cef09c111ff3865",
+      "headline": "Атомная подлодка Британии с ракетами Tomahawk встала на позицию у берегов Ирана",
+      "url": "https://www.vedomosti.ru/politics/news/2026/03/22/1184602-atomnaya-podlodka",
+      "published_at": "20260322T083000Z",
+      "source": "vedomosti.ru",
+      "tags": []
     },
     {
       "id": "gdelt_637e2cde5fbe2887",
@@ -68,6 +84,16 @@
       "published_at": "20260322T033000Z",
       "source": "nettavisen.no",
       "tags": []
+    },
+    {
+      "id": "gdelt_f24784003a62a0d8",
+      "headline": "Foreign firms see growing opportunities in China over next five years",
+      "url": "http://www.china.org.cn/2026-03/22/content_118395164.shtml",
+      "published_at": "20260322T061500Z",
+      "source": "china.org.cn",
+      "tags": [
+        "CHINA"
+      ]
     },
     {
       "id": "gdelt_271f6da3d9784e66",
@@ -96,22 +122,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_a3e8c2fb45429bc5",
-      "headline": "释放商业AI  超能力 ： SAP助力中国企业构建全球智能运营体系",
-      "url": "https://baijiahao.baidu.com/s?id=1860157127266454154",
-      "published_at": "20260322T064500Z",
-      "source": "baijiahao.baidu.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fbccde529bcdd0ef",
-      "headline": "Singapore - Malaysia : ministri asingaporeani incontrano i reali di Johor",
-      "url": "https://www.ilgiornaledivicenza.it/news/mondo/singapore-malaysia-ministri-asingaporeani-incontrano-i-reali-di-johor-1.12963565",
-      "published_at": "20260322T070000Z",
-      "source": "ilgiornaledivicenza.it",
-      "tags": []
-    },
-    {
       "id": "gdelt_b76567e0ad1f5246",
       "headline": "Trump threatens to  obliterate  Iran power plants if Strait of Hormuz not opened within 48 hours",
       "url": "http://europe.chinadaily.com.cn/a/202603/22/WS69bf306ca310d6866eb3f1cb.html",
@@ -127,9 +137,23 @@
       "url": "http://africa.chinadaily.com.cn/a/202603/22/WS69bf306ca310d6866eb3f1cb.html",
       "published_at": "20260322T051500Z",
       "source": "africa.chinadaily.com.cn",
-      "tags": [
-        "IRAN"
-      ]
+      "tags": []
+    },
+    {
+      "id": "gdelt_a3e8c2fb45429bc5",
+      "headline": "释放商业AI  超能力 ： SAP助力中国企业构建全球智能运营体系",
+      "url": "https://baijiahao.baidu.com/s?id=1860157127266454154",
+      "published_at": "20260322T064500Z",
+      "source": "baijiahao.baidu.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fbccde529bcdd0ef",
+      "headline": "Singapore - Malaysia : ministri asingaporeani incontrano i reali di Johor",
+      "url": "https://www.ilgiornaledivicenza.it/news/mondo/singapore-malaysia-ministri-asingaporeani-incontrano-i-reali-di-johor-1.12963565",
+      "published_at": "20260322T070000Z",
+      "source": "ilgiornaledivicenza.it",
+      "tags": []
     },
     {
       "id": "gdelt_f68b250f6398f5b0",
@@ -148,11 +172,21 @@
       "tags": []
     },
     {
-      "id": "gdelt_fe22c9808310106b",
-      "headline": "Trump mixed messages on Iran :  Winding down  the war and easing sanctions but adding more troops",
-      "url": "https://economictimes.indiatimes.com/news/international/global-trends/trumps-mixed-messages-on-iran-winding-down-the-war-and-easing-sanctions-but-adding-more-troops/articleshow/129727327.cms",
-      "published_at": "20260322T023000Z",
-      "source": "economictimes.indiatimes.com",
+      "id": "gdelt_067f42ce201d3036",
+      "headline": "Russia Accuses US of Global Energy Market Domination",
+      "url": "https://www.newkerala.com/news/a/us-attempts-dominate-global-energy-market-russian-fm-733.htm",
+      "published_at": "20260322T083000Z",
+      "source": "newkerala.com",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "gdelt_d1f428f50e28146a",
+      "headline": "Trump mixed messages on Iran :  Winding down  the war and easing sanctions but adding more troops – Twin Cities",
+      "url": "https://www.twincities.com/2026/03/21/trumps-mixed-messages-on-iran-winding-down-the-war-and-easing-sanctions-but-adding-more-troops/",
+      "published_at": "20260322T064500Z",
+      "source": "twincities.com",
       "tags": []
     },
     {
@@ -164,11 +198,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_d1f428f50e28146a",
-      "headline": "Trump mixed messages on Iran :  Winding down  the war and easing sanctions but adding more troops – Twin Cities",
-      "url": "https://www.twincities.com/2026/03/21/trumps-mixed-messages-on-iran-winding-down-the-war-and-easing-sanctions-but-adding-more-troops/",
-      "published_at": "20260322T064500Z",
-      "source": "twincities.com",
+      "id": "gdelt_4db242f4245d516f",
+      "headline": "Terungkap Alasan dan Kronologi Presenter Anwar BAB Terancam Kena Sanksi KPI",
+      "url": "https://belitung.tribunnews.com/seleb/212640/terungkap-alasan-presenter-anwar-bab-terancam-kena-sanksi-kpi",
+      "published_at": "20260322T030000Z",
+      "source": "belitung.tribunnews.com",
       "tags": []
     },
     {
@@ -191,14 +225,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_4db242f4245d516f",
-      "headline": "Terungkap Alasan dan Kronologi Presenter Anwar BAB Terancam Kena Sanksi KPI",
-      "url": "https://belitung.tribunnews.com/seleb/212640/terungkap-alasan-presenter-anwar-bab-terancam-kena-sanksi-kpi",
-      "published_at": "20260322T030000Z",
-      "source": "belitung.tribunnews.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_a0c853556705b13b",
       "headline": "Das freie Wort - Sanktionen sind relativ",
       "url": "https://www.krone.at/das-freie-wort/69bf380cb76459e58b0cdc79",
@@ -207,12 +233,46 @@
       "tags": []
     },
     {
-      "id": "gdelt_8cb25138c0f9c7e7",
-      "headline": "На Западе разозлились на Украину после решения Зеленского продавать оружие",
-      "url": "https://1prime.ru/20260322/ukraina-868529592.html",
-      "published_at": "20260322T060000Z",
-      "source": "1prime.ru",
+      "id": "gdelt_bfdec1addcde0d90",
+      "headline": "Coaleʼas pasisakė po susitikimo su Vėgėle , Gražuliu ir Jankūnu",
+      "url": "https://www.delfi.lt/naujienos/politika/coale-as-pasisake-po-susitikimo-su-vegele-grazuliu-ir-jankunu-nori-isgirsti-ivairius-poziurius-120227063",
+      "published_at": "20260322T081500Z",
+      "source": "delfi.lt",
       "tags": []
+    },
+    {
+      "id": "gdelt_9ce02f0eba0eb042",
+      "headline": "Iran 2025 – 2026 Repression Record : Over 2 , 600 Executions and Tens of Thousands Arrested in a Single Year",
+      "url": "https://irannewsupdate.com/news/human-rights/irans-2025-2026-repression-record-over-2600-executions-and-tens-of-thousands-arrested-in-a-single-year/",
+      "published_at": "20260322T081500Z",
+      "source": "irannewsupdate.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_700ebc76149dc782",
+      "headline": "2026黑面琵鷺全球普查 台灣大增550隻再創歷史新高 - 生活",
+      "url": "https://news.ltn.com.tw/news/life/breakingnews/5378791",
+      "published_at": "20260322T083000Z",
+      "source": "news.ltn.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_65f06e7f4e1535fb",
+      "headline": "Coaleʼas : susitikimai su įvairiais politikais skirti išgirsti skirtingas nuomones",
+      "url": "https://www.lrt.lt/naujienos/pasaulyje/6/2875019/coale-as-susitikimai-su-ivairiais-politikais-skirti-isgirsti-skirtingas-nuomones",
+      "published_at": "20260322T074500Z",
+      "source": "lrt.lt",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a96f62ea97abbc8d",
+      "headline": "Refiners in India , Elsewhere in Asia Look to Buy Iranian Oil after US Waives Sanctions",
+      "url": "https://english.aawsat.com/business/5253883-refiners-india-elsewhere-asia-look-buy-iranian-oil-after-us-waives-sanctions",
+      "published_at": "20260322T083000Z",
+      "source": "english.aawsat.com",
+      "tags": [
+        "INDIA"
+      ]
     },
     {
       "id": "gdelt_8a5ad50d36404e68",
@@ -225,11 +285,35 @@
       ]
     },
     {
+      "id": "gdelt_3455592516460386",
+      "headline": "Россия не способна прорвать украинский  пояс крепостей  - оценка ISW",
+      "url": "https://gazeta.ua/ru/articles/np/_rossiya-ne-sposobna-prorvat-ukrainskij-poyas-krepostej-ocenka-isw/1246701",
+      "published_at": "20260322T083000Z",
+      "source": "gazeta.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8cb25138c0f9c7e7",
+      "headline": "На Западе разозлились на Украину после решения Зеленского продавать оружие",
+      "url": "https://1prime.ru/20260322/ukraina-868529592.html",
+      "published_at": "20260322T060000Z",
+      "source": "1prime.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_a519cf8b212c9606",
       "headline": "Trump mixed messages on Iran :  Winding down  the war and easing sanctions but adding more troops | News , Sports , Jobs",
       "url": "https://www.mauinews.com/wire/?category=5186&ID=390941",
       "published_at": "20260322T050000Z",
       "source": "mauinews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7606307afd7437b1",
+      "headline": "Индия готова возобновить закупки иранской нефти на фоне ослабления санкций США",
+      "url": "https://www.newsru.co.il/finance/22mar2026/india_oil_117.html",
+      "published_at": "20260322T061500Z",
+      "source": "newsru.co.il",
       "tags": []
     },
     {
@@ -249,19 +333,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_9a3aed811a6920c9",
-      "headline": "Để xảy ra sự cố hạt nhân sẽ bị xử lý như thế nào ?",
-      "url": "https://dantri.com.vn/khoa-hoc/de-xay-ra-su-co-hat-nhan-se-bi-xu-ly-nhu-the-nao-20260321094906699.htm",
-      "published_at": "20260322T023000Z",
-      "source": "dantri.com.vn",
+      "id": "gdelt_b3356e1e7809b05f",
+      "headline": "美 , 이란산 원유 제재 30일간 면제 … 인도 · 중국 , 수입 재개 분주",
+      "url": "https://inews24.com/view/1951917",
+      "published_at": "20260322T074500Z",
+      "source": "inews24.com",
       "tags": []
     },
     {
-      "id": "gdelt_7606307afd7437b1",
-      "headline": "Индия готова возобновить закупки иранской нефти на фоне ослабления санкций США",
-      "url": "https://www.newsru.co.il/finance/22mar2026/india_oil_117.html",
-      "published_at": "20260322T061500Z",
-      "source": "newsru.co.il",
+      "id": "gdelt_4c20222c2ad59418",
+      "headline": "Политолог : встреча Вегеле , Янкунаса и Гражулиса с Коулом вредит репутации",
+      "url": "https://www.lrt.lt/ru/novosti/17/2874178/politolog-vstrecha-vegele-iankunasa-i-grazhulisa-s-koulom-vredit-reputatsii",
+      "published_at": "20260322T074500Z",
+      "source": "lrt.lt",
       "tags": []
     },
     {
@@ -273,19 +357,37 @@
       "tags": []
     },
     {
-      "id": "gdelt_79c7bba9181fc754",
-      "headline": "Зеленський розповів про плани з ЄС щодо конфіскації нафти тіньового флоту",
-      "url": "https://www.rbc.ua/rus/news/ukrayina-ta-es-gotuyut-plan-konfiskatsiyi-1774135013.html",
-      "published_at": "20260322T023000Z",
-      "source": "rbc.ua",
-      "tags": []
-    },
-    {
       "id": "gdelt_723368d52d48feff",
       "headline": "Апокалипсис в Хайфе и Тель - Авиве : иранские ракеты ставят новые рекорды",
       "url": "https://aif.ru/politics/apokalipsis-v-hayfe-i-tel-avive-iranskie-rakety-stavyat-novye-rekordy",
       "published_at": "20260322T041500Z",
       "source": "aif.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d709c47344f2c5e4",
+      "headline": "Who is Daniel Lambert ? The Kneecap manager and Bohs executive on a mission to Cuba",
+      "url": "https://www.independent.ie/irish-news/hes-willing-to-push-boundaries-kneecap-manager-daniel-lamberts-provocative-playbook-from-bohs-to-iran/a940965625.html",
+      "published_at": "20260322T081500Z",
+      "source": "independent.ie",
+      "tags": [
+        "CUBA"
+      ]
+    },
+    {
+      "id": "gdelt_dfad24b7dc14bd46",
+      "headline": "Fatih Birol ( IEA ):  The war in Iran is already the biggest threat to energy security in history  | Economy and Business",
+      "url": "https://english.elpais.com/economy-and-business/2026-03-22/fatih-birol-iea-the-war-in-iran-is-already-the-biggest-threat-to-energy-security-in-history.html",
+      "published_at": "20260322T064500Z",
+      "source": "english.elpais.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_32d9fd128521b806",
+      "headline": "Trump gives Iran 48 hours on Hormuz , threatens power plants",
+      "url": "https://fortune.com/2026/03/21/trump-iran-war-48-hours-deadline-strait-of-hormuz-power-plants/",
+      "published_at": "20260322T041500Z",
+      "source": "fortune.com",
       "tags": []
     },
     {
@@ -307,22 +409,6 @@
       "tags": [
         "INDIA"
       ]
-    },
-    {
-      "id": "gdelt_dfad24b7dc14bd46",
-      "headline": "Fatih Birol ( IEA ):  The war in Iran is already the biggest threat to energy security in history  | Economy and Business",
-      "url": "https://english.elpais.com/economy-and-business/2026-03-22/fatih-birol-iea-the-war-in-iran-is-already-the-biggest-threat-to-energy-security-in-history.html",
-      "published_at": "20260322T064500Z",
-      "source": "english.elpais.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_32d9fd128521b806",
-      "headline": "Trump gives Iran 48 hours on Hormuz , threatens power plants",
-      "url": "https://fortune.com/2026/03/21/trump-iran-war-48-hours-deadline-strait-of-hormuz-power-plants/",
-      "published_at": "20260322T041500Z",
-      "source": "fortune.com",
-      "tags": []
     },
     {
       "id": "gdelt_c42e9d5bc6665f9a",
@@ -373,6 +459,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_48897ef1f9546208",
+      "headline": "ఇరాన్‌ చమురు మనకు దక్కుతుందా ?",
+      "url": "https://www.eenadu.net/telugu-news/business/general/0199/126050350",
+      "published_at": "20260322T063000Z",
+      "source": "eenadu.net",
+      "tags": []
+    },
+    {
       "id": "gdelt_b66866f0e360f6cc",
       "headline": "Саудовская Аравия пытается не допустить участия хуситов в конфликте",
       "url": "https://aif.ru/politics/world/saudovskaya-araviya-pytaetsya-ne-dopustit-uchastiya-husitov-v-konflikte",
@@ -391,6 +485,14 @@
       ]
     },
     {
+      "id": "gdelt_09b5f3d75b86df38",
+      "headline": "Kubu zasiahol ďalší rozsiahly výpadok v dodávkach elektriny",
+      "url": "https://www.topky.sk/cl/11/9353737/Kriticky-stav-na-Kube--Stvrty-celostatny-vypadok-za-styri-mesiace--Situaciu-zhorsuje-ropna-blokada-USA",
+      "published_at": "20260322T064500Z",
+      "source": "topky.sk",
+      "tags": []
+    },
+    {
       "id": "gdelt_7500efbf0ed11fbe",
       "headline": "Singapore ministers visit Johor royal family Hari Raya Open House , discuss ways to enhance cooperation",
       "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/03/22/singapore-ministers-visit-johor-royal-familys-hari-raya-open-house-discuss-ways-to-enhance-cooperation",
@@ -404,22 +506,6 @@
       "url": "https://www.straitstimes.com/singapore/spore-ministers-visit-johor-royal-familys-hari-raya-open-house-discuss-ways-to-enhance-cooperation",
       "published_at": "20260322T034500Z",
       "source": "straitstimes.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_48897ef1f9546208",
-      "headline": "ఇరాన్‌ చమురు మనకు దక్కుతుందా ?",
-      "url": "https://www.eenadu.net/telugu-news/business/general/0199/126050350",
-      "published_at": "20260322T063000Z",
-      "source": "eenadu.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_09b5f3d75b86df38",
-      "headline": "Kubu zasiahol ďalší rozsiahly výpadok v dodávkach elektriny",
-      "url": "https://www.topky.sk/cl/11/9353737/Kriticky-stav-na-Kube--Stvrty-celostatny-vypadok-za-styri-mesiace--Situaciu-zhorsuje-ropna-blokada-USA",
-      "published_at": "20260322T064500Z",
-      "source": "topky.sk",
       "tags": []
     },
     {
@@ -439,19 +525,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_4db6284691a31747",
-      "headline": "ترمب يهدد بقصف محطات الطاقة الإيرانية فهل تخضع طهران ؟",
-      "url": "https://www.aljazeera.net/news/2026/3/22/%D8%AA%D8%B1%D9%85%D8%A8-%D9%8A%D9%87%D8%AF%D8%AF-%D8%A8%D9%82%D8%B5%D9%81-%D9%85%D8%AD%D8%B7%D8%A7%D8%AA-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A%D8%A9",
-      "published_at": "20260322T034500Z",
-      "source": "aljazeera.net",
-      "tags": []
-    },
-    {
       "id": "gdelt_1591233f480d045f",
       "headline": "Europe trade with Iran : Which countries do the most business with Tehran ?",
       "url": "https://www.euronews.com/business/2026/03/22/europes-trade-with-iran-which-countries-do-the-most-business-with-tehran",
       "published_at": "20260322T063000Z",
       "source": "euronews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4db6284691a31747",
+      "headline": "ترمب يهدد بقصف محطات الطاقة الإيرانية فهل تخضع طهران ؟",
+      "url": "https://www.aljazeera.net/news/2026/3/22/%D8%AA%D8%B1%D9%85%D8%A8-%D9%8A%D9%87%D8%AF%D8%AF-%D8%A8%D9%82%D8%B5%D9%81-%D9%85%D8%AD%D8%B7%D8%A7%D8%AA-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A%D8%A9",
+      "published_at": "20260322T034500Z",
+      "source": "aljazeera.net",
       "tags": []
     },
     {
@@ -471,6 +557,50 @@
       "tags": []
     },
     {
+      "id": "gdelt_939d2b28fe4f87b4",
+      "headline": "US removing sanctions on Iran and Russia will soften crude oil market , Foreign Affairs Expert says",
+      "url": "https://news.webindia123.com/news/Articles/World/20260322/4430079.html",
+      "published_at": "20260322T041500Z",
+      "source": "news.webindia123.com",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "gdelt_61f54d231a6d7382",
+      "headline": "ABDnin petrol satrancı : Önce Rusya şimdi İran ... Gözler 11 ve 19 Nisanda ... Trump  ın zor kararı",
+      "url": "https://www.odatv.com/dunya/abdnin-petrol-satranci-once-rusya-simdi-iran-gozler-11-ve-19-nisanda-trumpin-zor-karari-120140226",
+      "published_at": "20260322T060000Z",
+      "source": "odatv.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_db4715e9faa74219",
+      "headline": "إيران تتحدى ترامب وتضع شروطًا للمرور من مضيق هرمز",
+      "url": "https://www.dostor.org/5469081",
+      "published_at": "20260322T081500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3cd20dc1fdfb2db0",
+      "headline": "위기관리리스크삼성증권 잇따른 내부통제 미흡발행어음 인가 영향 - NSP통신",
+      "url": "http://www.nspna.com/news_issue/?mode=view&issue_id=71&newsid=794708",
+      "published_at": "20260322T060000Z",
+      "source": "nspna.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0ad375b0273b1f85",
+      "headline": "US removing sanctions on Iran and Russia will soften crude oil market , Foreign Affairs Expert says",
+      "url": "https://aninews.in/news/world/asia/us-removing-sanctions-on-iran-and-russia-will-soften-crude-oil-market-foreign-affairs-expert-says20260322070445/",
+      "published_at": "20260322T034500Z",
+      "source": "aninews.in",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
       "id": "gdelt_697c2efdbcfe2f4f",
       "headline": "FIR against Laljit Singh Bhullar after his resignation as Punjab minister over suicide of warehousing corporation official",
       "url": "https://indianexpress.com/article/cities/chandigarh/punjab-minister-laljit-singh-bhullar-fir-suicide-gagandeep-randhawa-10594919/",
@@ -487,14 +617,20 @@
       "tags": []
     },
     {
-      "id": "gdelt_939d2b28fe4f87b4",
-      "headline": "US removing sanctions on Iran and Russia will soften crude oil market , Foreign Affairs Expert says",
-      "url": "https://news.webindia123.com/news/Articles/World/20260322/4430079.html",
-      "published_at": "20260322T041500Z",
-      "source": "news.webindia123.com",
-      "tags": [
-        "RUSSIA"
-      ]
+      "id": "gdelt_a8809ccbaa3a5f8c",
+      "headline": "外籍人才成为嘉兴发展  合伙人",
+      "url": "https://zjnews.zjol.com.cn/zjnews/202603/t20260322_31564385.shtml",
+      "published_at": "20260322T033000Z",
+      "source": "zjnews.zjol.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1975a9704858d221",
+      "headline": "Kubu zasiahol ďalší rozsiahly výpadok v dodávkach elektriny",
+      "url": "https://www.teraz.sk/zahranicie/kubu-zasiahol-dalsi-rozsiahly-vypado/949948-clanok.html",
+      "published_at": "20260322T083000Z",
+      "source": "teraz.sk",
+      "tags": []
     },
     {
       "id": "gdelt_f52848ddf07a74cc",
@@ -507,19 +643,11 @@
       ]
     },
     {
-      "id": "gdelt_a8809ccbaa3a5f8c",
-      "headline": "外籍人才成为嘉兴发展  合伙人",
-      "url": "https://zjnews.zjol.com.cn/zjnews/202603/t20260322_31564385.shtml",
+      "id": "gdelt_0c5ae201b96ca9df",
+      "headline": "금감원  홍콩 ELS 유사사례 발생 땐 감경 없다",
+      "url": "https://biz.heraldcorp.com/article/10699565",
       "published_at": "20260322T033000Z",
-      "source": "zjnews.zjol.com.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_61f54d231a6d7382",
-      "headline": "ABDnin petrol satrancı : Önce Rusya şimdi İran ... Gözler 11 ve 19 Nisanda ... Trump  ın zor kararı",
-      "url": "https://www.odatv.com/dunya/abdnin-petrol-satranci-once-rusya-simdi-iran-gozler-11-ve-19-nisanda-trumpin-zor-karari-120140226",
-      "published_at": "20260322T060000Z",
-      "source": "odatv.com",
+      "source": "biz.heraldcorp.com",
       "tags": []
     },
     {
@@ -539,21 +667,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_0ad375b0273b1f85",
-      "headline": "US removing sanctions on Iran and Russia will soften crude oil market , Foreign Affairs Expert says",
-      "url": "https://aninews.in/news/world/asia/us-removing-sanctions-on-iran-and-russia-will-soften-crude-oil-market-foreign-affairs-expert-says20260322070445/",
-      "published_at": "20260322T034500Z",
-      "source": "aninews.in",
-      "tags": [
-        "RUSSIA"
-      ]
+      "id": "gdelt_93758e8eb88e33be",
+      "headline": "Trump news at a glance : president says ICE agents at airports would  do security like no one has ever seen before  | Trump administration",
+      "url": "https://www.theguardian.com/us-news/2026/mar/22/trump-news-latest-updates-today",
+      "published_at": "20260322T033000Z",
+      "source": "theguardian.com",
+      "tags": []
     },
     {
-      "id": "gdelt_3cd20dc1fdfb2db0",
-      "headline": "위기관리리스크삼성증권 잇따른 내부통제 미흡발행어음 인가 영향 - NSP통신",
-      "url": "http://www.nspna.com/news_issue/?mode=view&issue_id=71&newsid=794708",
-      "published_at": "20260322T060000Z",
-      "source": "nspna.com",
+      "id": "gdelt_9dd4feaac1cdbdd3",
+      "headline": "ट्रम्पको अल्टिमेटमविरुद्ध इरानको जवाफ -  मध्यपूर्वका सबै ऊर्जा केन्द्रमा प्रत्याक्रमण गर्नेछौं  – Online Khabar",
+      "url": "https://www.onlinekhabar.com/2026/03/1895492/irans-response-to-trumps-ultimatum-we-will-counterattack-all-energy-centers-in-the-middle-east",
+      "published_at": "20260322T074500Z",
+      "source": "onlinekhabar.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6064ca6cd7c454f3",
+      "headline": "Krypto - Netzwerk unter Verdacht : Ein Todgeweihter lässt Mullah - Milliarden verschwinden",
+      "url": "https://www.n-tv.de/wirtschaft/Ein-Todgeweihter-laesst-Mullah-Milliarden-verschwinden-id30480964.html",
+      "published_at": "20260322T081500Z",
+      "source": "n-tv.de",
       "tags": []
     },
     {
@@ -565,30 +699,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_0c5ae201b96ca9df",
-      "headline": "금감원  홍콩 ELS 유사사례 발생 땐 감경 없다",
-      "url": "https://biz.heraldcorp.com/article/10699565",
-      "published_at": "20260322T033000Z",
-      "source": "biz.heraldcorp.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_93758e8eb88e33be",
-      "headline": "Trump news at a glance : president says ICE agents at airports would  do security like no one has ever seen before  | Trump administration",
-      "url": "https://www.theguardian.com/us-news/2026/mar/22/trump-news-latest-updates-today",
-      "published_at": "20260322T033000Z",
-      "source": "theguardian.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_27e9fc9417dab8b3",
-      "headline": "موقع بكرا - إلغاء التعليم الوجاهي في إسرائيل ومواصلة للتعليم عن بُعد بسبب التصعيد",
-      "url": "https://bokra.net/Article-1590734",
-      "published_at": "20260322T073000Z",
-      "source": "bokra.net",
-      "tags": []
-    },
-    {
       "id": "gdelt_d735a4cd882e42f4",
       "headline": "Damaged Russian tanker to be towed to Libya : state - owned company",
       "url": "https://www.yahoo.com/news/articles/damaged-russian-tanker-towed-libya-034729583.html",
@@ -597,11 +707,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_d59c32a23b39ef33",
-      "headline": "Trump Issues 48 - Hour Ultimatum To Iran Over Strait Of Hormuz , Threatens Power Plant Strikes",
-      "url": "https://www.benzinga.com/news/politics/26/03/51396161/trump-issues-48-hour-ultimatum-to-iran-over-strait-of-hormuz",
-      "published_at": "20260322T033000Z",
-      "source": "benzinga.com",
+      "id": "gdelt_42e12b425a82cb67",
+      "headline": "KBS 뉴스",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8514927",
+      "published_at": "20260322T083000Z",
+      "source": "news.kbs.co.kr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f97855206a7c5417",
+      "headline": "Damaged Russian Tanker to Be Towed to Libya",
+      "url": "https://english.aawsat.com/arab-world/5253925-damaged-russian-tanker-be-towed-libya",
+      "published_at": "20260322T083000Z",
+      "source": "english.aawsat.com",
       "tags": []
     },
     {
@@ -613,11 +731,37 @@
       "tags": []
     },
     {
-      "id": "gdelt_231041161cff84cd",
-      "headline": "未成年人模式  这道防护墙不能失守",
-      "url": "https://baijiahao.baidu.com/s?id=1860157520798936531",
-      "published_at": "20260322T023000Z",
-      "source": "baijiahao.baidu.com",
+      "id": "gdelt_27e9fc9417dab8b3",
+      "headline": "موقع بكرا - إلغاء التعليم الوجاهي في إسرائيل ومواصلة للتعليم عن بُعد بسبب التصعيد",
+      "url": "https://bokra.net/Article-1590734",
+      "published_at": "20260322T073000Z",
+      "source": "bokra.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3a72ea0a1d1a3be5",
+      "headline": "What Trump war on Iran has meant for Ukraine",
+      "url": "https://www.rte.ie/news/2026/0322/1564430-trump-ukraine-iran/",
+      "published_at": "20260322T081500Z",
+      "source": "rte.ie",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_d59c32a23b39ef33",
+      "headline": "Trump Issues 48 - Hour Ultimatum To Iran Over Strait Of Hormuz , Threatens Power Plant Strikes",
+      "url": "https://www.benzinga.com/news/politics/26/03/51396161/trump-issues-48-hour-ultimatum-to-iran-over-strait-of-hormuz",
+      "published_at": "20260322T033000Z",
+      "source": "benzinga.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5a62e76a05fbf7be",
+      "headline": "Reform treasurer  met sanctioned individuals on ­Nicaragua trip",
+      "url": "https://www.kentonline.co.uk/news/national/reform-treasurer-met-sanctioned-individuals-on-nicaragua-trip-164368/",
+      "published_at": "20260322T033000Z",
+      "source": "kentonline.co.uk",
       "tags": []
     },
     {
@@ -637,35 +781,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_5a62e76a05fbf7be",
-      "headline": "Reform treasurer  met sanctioned individuals on ­Nicaragua trip",
-      "url": "https://www.kentonline.co.uk/news/national/reform-treasurer-met-sanctioned-individuals-on-nicaragua-trip-164368/",
-      "published_at": "20260322T033000Z",
-      "source": "kentonline.co.uk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cc8f463ccfafe5a0",
-      "headline": "Chiến tranh Trung Đông và cái giá của những phận người yếu thế",
-      "url": "https://baomoi.com/chien-tranh-trung-dong-va-cai-gia-cua-nhung-phan-nguoi-yeu-the-c54752370.epi",
-      "published_at": "20260322T064500Z",
-      "source": "baomoi.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_e1df0e1949c75ca0",
       "headline": "Trump news at a glance : president says ICE agents at airports would  do security like no one has ever seen before",
       "url": "https://www.aol.co.uk/articles/trump-news-glance-president-says-020403117.html",
       "published_at": "20260322T033000Z",
       "source": "aol.co.uk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8c86616fafc34f49",
-      "headline": "Frenar el turismo del aborto en la UE y fuera aborto de la Constitución Española",
-      "url": "https://www.periodistadigital.com/tresforamontanos/20260322/frenar-el-turismo-del-aborto-en-la-ue-y-fuera-aborto-de-la-constitucion-espanola-689405184677/",
-      "published_at": "20260322T070000Z",
-      "source": "periodistadigital.com",
       "tags": []
     },
     {
@@ -685,11 +805,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_7e66687f649682f3",
-      "headline": "Reform treasurer  met sanctioned individuals on ­Nicaragua trip",
-      "url": "https://www.bucksfreepress.co.uk/news/national/25957440.reform-treasurer-met-sanctioned-individuals--nicaragua-trip/",
-      "published_at": "20260322T023000Z",
-      "source": "bucksfreepress.co.uk",
+      "id": "gdelt_5d451e2a482b31b5",
+      "headline": "Straße von Hormus : Trump droht Iran mit 48 - Stunden - Ultimatum",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-03/68004296-strasse-von-hormus-trump-droht-iran-mit-48-stunden-ultimatum-102.htm",
+      "published_at": "20260322T081500Z",
+      "source": "finanznachrichten.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4ad7bf9af6051a27",
+      "headline": "Евродепутат Мариани : ЕС напуган последствиями конфликта на Ближнем Востоке",
+      "url": "https://russian.rt.com/world/news/1610358-es-blizhnii-vostok",
+      "published_at": "20260322T081500Z",
+      "source": "russian.rt.com",
       "tags": []
     },
     {
@@ -701,14 +829,54 @@
       "tags": []
     },
     {
-      "id": "gdelt_69802d7925268fe5",
-      "headline": "Ukraine war briefing : US , Ukrainian negotiators meet in Florida as Russian attacks kill more civilians",
-      "url": "https://www.theguardian.com/world/2026/mar/22/ukraine-war-briefing-us-ukrainian-negotiators-meet-in-florida-as-russian-attacks-kill-more-civilians",
-      "published_at": "20260322T030000Z",
-      "source": "theguardian.com",
+      "id": "gdelt_cc8f463ccfafe5a0",
+      "headline": "Chiến tranh Trung Đông và cái giá của những phận người yếu thế",
+      "url": "https://baomoi.com/chien-tranh-trung-dong-va-cai-gia-cua-nhung-phan-nguoi-yeu-the-c54752370.epi",
+      "published_at": "20260322T064500Z",
+      "source": "baomoi.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0531c2ffe748d13a",
+      "headline": "Trump postavio ultimatum Iranu : 48 sati za otvaranje Ormuza ili udari na energetiku",
+      "url": "https://naslovi.net/2026-03-22/bloomberg-adria/trump-postavio-ultimatum-iranu-48-sati-za-otvaranje-ormuza-ili-udari-na-energetiku/41518087",
+      "published_at": "20260322T081500Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8c86616fafc34f49",
+      "headline": "Frenar el turismo del aborto en la UE y fuera aborto de la Constitución Española",
+      "url": "https://www.periodistadigital.com/tresforamontanos/20260322/frenar-el-turismo-del-aborto-en-la-ue-y-fuera-aborto-de-la-constitucion-espanola-689405184677/",
+      "published_at": "20260322T070000Z",
+      "source": "periodistadigital.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_064b1e59cd20dc5f",
+      "headline": "Attacks in Baghdad Breach Fragile Militia Truce",
+      "url": "https://english.aawsat.com/arab-world/5253896-attacks-baghdad-breach-fragile-militia-truce",
+      "published_at": "20260322T083000Z",
+      "source": "english.aawsat.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5cc13f941b96e451",
+      "headline": "Israel says it attacked Iran university used to  develop nuclear components",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-says-it-attacked-iran-university-used-develop-nuclear-components",
+      "published_at": "20260322T041500Z",
+      "source": "middleeasteye.net",
       "tags": [
-        "UKRAINE"
+        "ISRAEL"
       ]
+    },
+    {
+      "id": "gdelt_b086431da3b4cd3c",
+      "headline": "Μέση Ανατολή : Η ΕΚΤ ζυγίζει τις επόμενες κινήσεις της – Προβλέψεις με χαμηλότερη ανάπτυξη και υψηλότερο πληθωρισμό",
+      "url": "https://www.inewsgr.com/227/mesi-anatoli-i-ekt-zygizei-tis-epomenes-kiniseis-tis--provlepseis-me-chamiloteri-anaptyxi-kai-ypsilotero-plithorismo.htm",
+      "published_at": "20260322T081500Z",
+      "source": "inewsgr.com",
+      "tags": []
     },
     {
       "id": "gdelt_8507b508b991f6c5",
@@ -716,6 +884,14 @@
       "url": "https://athens-times.com/middle-east-trump-gives-iran-48-hour-ultimatum-to-open-strait-of-hormuz/",
       "published_at": "20260322T063000Z",
       "source": "athens-times.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_83ac31c19c5376a0",
+      "headline": "ABDden İran petrolünün satışına 30 günlük izin",
+      "url": "https://www.yeniasir.com.tr/gundem/2026/03/22/abdden-iran-petrolunun-satisina-30-gunluk-izin",
+      "published_at": "20260322T063000Z",
+      "source": "yeniasir.com.tr",
       "tags": []
     },
     {
@@ -727,6 +903,22 @@
       "tags": [
         "SAUDI_ARABIA"
       ]
+    },
+    {
+      "id": "gdelt_aa937e6c4fad3a7d",
+      "headline": "Юрист рассказал о необходимости смены названия группы « Иванушки International »",
+      "url": "https://iz.ru/2063879/2026-03-22/iurist-rasskazal-o-neobkhodimosti-smeny-nazvaniia-gruppy-ivanushki-international",
+      "published_at": "20260322T040000Z",
+      "source": "iz.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_41e0f2db317dbd35",
+      "headline": "בין אל - ג  זירה לאל - ערביה : כך מסוקרת המלחמה בעולם הערבי",
+      "url": "https://www.ynet.co.il/radio/hakoteret/article/omnyb41400a23a23",
+      "published_at": "20260322T083000Z",
+      "source": "ynet.co.il",
+      "tags": []
     },
     {
       "id": "gdelt_466c31fd6ebc1877",
@@ -741,24 +933,20 @@
       ]
     },
     {
-      "id": "gdelt_69312953f23c391b",
-      "headline": "Ukraine war briefing : US , Ukrainian negotiators meet in Florida as Russian attacks kill more civilians",
-      "url": "https://www.aol.co.uk/articles/ukraine-war-briefing-us-ukrainian-021006831.html",
-      "published_at": "20260322T033000Z",
-      "source": "aol.co.uk",
-      "tags": [
-        "UKRAINE"
-      ]
+      "id": "gdelt_1e604763c7504e7f",
+      "headline": "tayyar . org - خاص tayyar . org - باريس تختبر الديبلوماسية على وقع النار .. والمفاوضات مؤجلة",
+      "url": "https://www.tayyar.org/News/World/712931/_guid=712931",
+      "published_at": "20260322T074500Z",
+      "source": "tayyar.org",
+      "tags": []
     },
     {
-      "id": "gdelt_5cc13f941b96e451",
-      "headline": "Israel says it attacked Iran university used to  develop nuclear components",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-says-it-attacked-iran-university-used-develop-nuclear-components",
-      "published_at": "20260322T041500Z",
-      "source": "middleeasteye.net",
-      "tags": [
-        "ISRAEL"
-      ]
+      "id": "gdelt_4092180ff1806035",
+      "headline": "Aixiner Revives a Century - Old Factory , Setting a New Standard in Professional Attire",
+      "url": "https://portal.sina.com.hk/finance/finance-prnewswire/prnasia/2026/03/22/1630563/aixiner-revives-a-century-old-factory-setting-a-new-standard-in-professional-attire/",
+      "published_at": "20260322T063000Z",
+      "source": "portal.sina.com.hk",
+      "tags": []
     },
     {
       "id": "gdelt_ec9d09e43b924b7b",
@@ -772,11 +960,11 @@
       ]
     },
     {
-      "id": "gdelt_4092180ff1806035",
-      "headline": "Aixiner Revives a Century - Old Factory , Setting a New Standard in Professional Attire",
-      "url": "https://portal.sina.com.hk/finance/finance-prnewswire/prnasia/2026/03/22/1630563/aixiner-revives-a-century-old-factory-setting-a-new-standard-in-professional-attire/",
-      "published_at": "20260322T063000Z",
-      "source": "portal.sina.com.hk",
+      "id": "gdelt_5679c28255631dbf",
+      "headline": "State of the Law : The Architecture of Crypto - Why Its Layered Design Challenges Traditional Regulation",
+      "url": "https://www.barandbench.com/columns/state-of-the-law-the-architecture-of-crypto-why-its-layered-design-challenges-traditional-regulation",
+      "published_at": "20260322T083000Z",
+      "source": "barandbench.com",
       "tags": []
     },
     {
@@ -786,6 +974,24 @@
       "published_at": "20260322T064500Z",
       "source": "gulte.com",
       "tags": []
+    },
+    {
+      "id": "gdelt_012182294616337a",
+      "headline": "Kübada Ulusal Elektrik Sistemi Bir Hafta İçerisinde İkinci Kez kt",
+      "url": "https://www.haberler.com/guncel/kuba-da-elektrik-kesintisi-ulusal-sebeke-tamamen-devre-disi-19677952-haberi/",
+      "published_at": "20260322T064500Z",
+      "source": "haberler.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_69802d7925268fe5",
+      "headline": "Ukraine war briefing : US , Ukrainian negotiators meet in Florida as Russian attacks kill more civilians",
+      "url": "https://www.theguardian.com/world/2026/mar/22/ukraine-war-briefing-us-ukrainian-negotiators-meet-in-florida-as-russian-attacks-kill-more-civilians",
+      "published_at": "20260322T030000Z",
+      "source": "theguardian.com",
+      "tags": [
+        "UKRAINE"
+      ]
     },
     {
       "id": "gdelt_add0ad93985374c4",
@@ -804,11 +1010,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_83ac31c19c5376a0",
-      "headline": "ABDden İran petrolünün satışına 30 günlük izin",
-      "url": "https://www.yeniasir.com.tr/gundem/2026/03/22/abdden-iran-petrolunun-satisina-30-gunluk-izin",
-      "published_at": "20260322T063000Z",
-      "source": "yeniasir.com.tr",
+      "id": "gdelt_6076dfbfabcd656e",
+      "headline": "ВТБ : предприниматели на две трети увеличили обороты трансграничных платежей в 2025 году",
+      "url": "https://i38.ru:443/dengi-obichnie/vtb-predprinimateli-na-dve-treti-uvelichili-oboroti-transgranichnich-platezhey-v-2025-godu",
+      "published_at": "20260322T064500Z",
+      "source": "i38.ru",
       "tags": []
     },
     {
@@ -820,214 +1026,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_aa937e6c4fad3a7d",
-      "headline": "Юрист рассказал о необходимости смены названия группы « Иванушки International »",
-      "url": "https://iz.ru/2063879/2026-03-22/iurist-rasskazal-o-neobkhodimosti-smeny-nazvaniia-gruppy-ivanushki-international",
-      "published_at": "20260322T040000Z",
-      "source": "iz.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_28cb1792432d1023",
-      "headline": "UP Police Bust ISI Spy Racket Using Solar CCTV Cameras , 15 Held",
-      "url": "https://dailypioneer.com/news/police-bust-isi-espionage-racket-nine-arrested",
-      "published_at": "20260322T044500Z",
-      "source": "dailypioneer.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c852b9141aea7e06",
-      "headline": "ديلي ميل : غواصة بريطانية تعمل بالطاقة النووية تصل إلى بحر العرب",
-      "url": "https://www.albayan.ae/news/middle-east/1147913",
-      "published_at": "20260322T064500Z",
-      "source": "albayan.ae",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6076dfbfabcd656e",
-      "headline": "ВТБ : предприниматели на две трети увеличили обороты трансграничных платежей в 2025 году",
-      "url": "https://i38.ru:443/dengi-obichnie/vtb-predprinimateli-na-dve-treti-uvelichili-oboroti-transgranichnich-platezhey-v-2025-godu",
-      "published_at": "20260322T064500Z",
-      "source": "i38.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3071b13ab9558261",
-      "headline": "Британская атомная подлодка заняла позицию на Ближнем Востоке",
-      "url": "https://lenta.ru/news/2026/03/22/britanskaya-atomnaya-podlodka-zanyala-pozitsiyu-na-blizhnem-vostoke/",
-      "published_at": "20260322T064500Z",
-      "source": "lenta.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_96d215d771c1d11a",
-      "headline": "India pushes peace in PM Modi – Iran President talks",
-      "url": "https://dailypioneer.com/news/india-pushes-peace-in-pm-modi-iran-president-talks",
-      "published_at": "20260322T044500Z",
-      "source": "dailypioneer.com",
-      "tags": [
-        "INDIA"
-      ]
-    },
-    {
-      "id": "gdelt_012182294616337a",
-      "headline": "Kübada Ulusal Elektrik Sistemi Bir Hafta İçerisinde İkinci Kez kt",
-      "url": "https://www.haberler.com/guncel/kuba-da-elektrik-kesintisi-ulusal-sebeke-tamamen-devre-disi-19677952-haberi/",
-      "published_at": "20260322T064500Z",
-      "source": "haberler.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_079dcb756f82d187",
-      "headline": "Tàu ngầm hạt nhân Anh mang tên lửa Tomahawk đã đến biển Ả Rập ?",
-      "url": "https://thanhnien.vn/tau-ngam-hat-nhan-anh-mang-ten-lua-tomahawk-da-den-bien-a-rap-185260322075613182.htm",
-      "published_at": "20260322T020000Z",
-      "source": "thanhnien.vn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_effce0c645737a3e",
-      "headline": "Europas Tanker -„ Jagd : Russland plant Eskorte für Schattenflotte",
-      "url": "https://www.hna.de/politik/fuer-schattenflotte-europas-tanker-jagd-russland-plant-kriegsschiff-eskorte-zr-94228329.html",
-      "published_at": "20260322T071500Z",
-      "source": "hna.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_774e180e1f14e2b7",
-      "headline": "Europas Tanker -„ Jagd : Russland plant Eskorte für Schattenflotte",
-      "url": "http://www.wa.de/politik/fuer-schattenflotte-europas-tanker-jagd-russland-plant-kriegsschiff-eskorte-zr-94228329.html",
-      "published_at": "20260322T044500Z",
-      "source": "wa.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1354d1000a9e70b3",
-      "headline": "Юрист оценил необходимость изменить название группы « Иванушки International »",
-      "url": "https://lenta.ru/news/2026/03/22/yurist-otsenil-neobhodimost-izmenit-nazvanie-gruppy-ivanushki-international/",
-      "published_at": "20260322T064500Z",
-      "source": "lenta.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_03f070bb80bf7b16",
-      "headline": "Энергосистема Кубы полностью отключилась в третий раз за месяц",
-      "url": "https://life.ru/p/1854679",
-      "published_at": "20260322T034500Z",
-      "source": "life.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_24f42d1951494e9d",
-      "headline": "Savaşın faturası herkese çıkıyor !",
-      "url": "https://www.milliyet.com.tr/ekonomi/savasin-faturasi-herkese-cikiyor-7558469",
-      "published_at": "20260322T070000Z",
-      "source": "milliyet.com.tr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_90d1282f44d9be04",
-      "headline": "بماذا أخطأ دونالد ترامب ؟ - RT Arabic",
-      "url": "https://arabic.rt.com/press/1769633-%D8%A8%D9%85%D8%A7%D8%B0%D8%A7-%D8%A3%D8%AE%D8%B7%D8%A3-%D8%AF%D9%88%D9%86%D8%A7%D9%84%D8%AF-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8/",
-      "published_at": "20260322T044500Z",
-      "source": "arabic.rt.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_89dbcac307554f38",
-      "headline": "Flugverkehr : Luftfahrt in Not",
-      "url": "https://www.zeit.de/wirtschaft/2026-03/flugverkehr-fluggesellschaft-oelpreis-kerosin-iran-krieg",
-      "published_at": "20260322T070000Z",
-      "source": "zeit.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0eda54b23f1682c1",
-      "headline": "Лидер демократов в Палате представителей Джеффрис призвал к смене режима в США",
-      "url": "https://life.ru/p/1854684",
-      "published_at": "20260322T034500Z",
-      "source": "life.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2d8be0692c3d7561",
-      "headline": "Live updates : Israel says Iran war at halfway point ; Trump says it may be  winding down",
-      "url": "https://www.fox5dc.com/news/iran-war-live-updates-trump-says-attacks-winding-down",
-      "published_at": "20260322T023000Z",
-      "source": "fox5dc.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3468f49a9850da94",
-      "headline": "Σαουδική Αραβία : Στόχος βαλλιστικών πυραύλων και drones το Ριάντ",
-      "url": "https://www.enikos.gr/international/saoudiki-aravia-stochos-vallistikon-pyravlon-kai-drones-to-riant/2553021/",
-      "published_at": "20260322T051500Z",
-      "source": "enikos.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_169bd659c7f1ef0d",
-      "headline": "The first major stock index just fell into correction territory . Will others follow ?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/first-major-stock-index-just-211800449.html",
-      "published_at": "20260322T050000Z",
-      "source": "finance.yahoo.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d31ebdf652c15e10",
-      "headline": "Ιράν - Ισραήλ : Πυρηνική κλιμάκωση μετά τις επιθέσεις σε Ντιμόνα και Νατάνζ",
-      "url": "https://www.enikos.gr/international/iran-israil-pyriniki-klimakosi-meta-tis-epitheseis-se-ntimona-kai-natanz/2553060/",
-      "published_at": "20260322T051500Z",
-      "source": "enikos.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3dbebf3a6ab26bd7",
-      "headline": "Anh đưa tàu ngầm hạt nhân đến Biển Ả - rập , chuẩn bị cho kịch bản leo thang",
-      "url": "https://baomoi.com/anh-dua-tau-ngam-hat-nhan-den-bien-a-rap-chuan-bi-cho-kich-ban-leo-thang-c54751840.epi",
-      "published_at": "20260322T051500Z",
-      "source": "baomoi.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a28ab0897c21acdd",
-      "headline": "Xe khách chở quá 22 người bị phạt gần 80 triệu đồng",
-      "url": "https://dantri.com.vn/phap-luat/xe-khach-cho-qua-22-nguoi-bi-phat-gan-80-trieu-dong-20260322005605701.htm",
-      "published_at": "20260322T023000Z",
-      "source": "dantri.com.vn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3679f7401ef69182",
-      "headline": "Гонконг - це Китай чи ні , карта , чому зупинилися протести",
-      "url": "https://24tv.ua/geopolitics/gonkong-tse-kitay-ni-karta-chomu-zupinilisya-protesti-intervyu_n3030779",
-      "published_at": "20260322T071500Z",
-      "source": "24tv.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_36577ba24883a9be",
-      "headline": "البحرين : منظومة باتريوت اعترضت مسيرة إيرانية فوق منطقة سكنية",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=22032026&id=a140fd91-107a-4889-ac88-7caef13893ec",
+      "id": "gdelt_69312953f23c391b",
+      "headline": "Ukraine war briefing : US , Ukrainian negotiators meet in Florida as Russian attacks kill more civilians",
+      "url": "https://www.aol.co.uk/articles/ukraine-war-briefing-us-ukrainian-021006831.html",
       "published_at": "20260322T033000Z",
-      "source": "shorouknews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c1a020097f90424d",
-      "headline": "Mỹ ra lệnh  trừng phạt cuối cùng  với Iran trong 48 giờ , tuyên bố đã xóa sổ nước này sớm hơn dự kiến",
-      "url": "https://www.techz.vn/216-326-5-my-ra-lenh-voi-iran-trong-48-gio-tuyen-bo-da-xoa-so-nuoc-nay-som-hon-du-kien-ylt683848.html",
-      "published_at": "20260322T040000Z",
-      "source": "techz.vn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_eb92c24e45c9a3b5",
-      "headline": "Iran tấn công cơ sở hạt nhân Israel , căng thẳng Trung Đông leo thang",
-      "url": "https://voh.com.vn/the-gioi/iran-tan-cong-co-so-hat-nhan-israel-cang-thang-trung-dong-leo-thang-650136.html",
-      "published_at": "20260322T060000Z",
-      "source": "voh.com.vn",
-      "tags": []
+      "source": "aol.co.uk",
+      "tags": [
+        "UKRAINE"
+      ]
     }
   ]
 }
