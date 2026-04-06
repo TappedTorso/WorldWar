@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-04-06T19:19:16Z",
+    "generated_at_utc": "2026-04-06T20:55:50Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -33,12 +33,31 @@
   },
   "events": [
     {
-      "id": "gdelt_530a2fa9b4cc0207",
-      "headline": "Hindu : Индия изучает возможность использовать змей и крокодилов в охране границ :: Новости дня / ВЗГЛЯД",
-      "url": "https://vz.ru/news/2026/4/6/1408486.html",
-      "published_at": "20260406T141500Z",
-      "source": "vz.ru",
+      "id": "gdelt_271f1d8888e7b5ef",
+      "headline": "Tridon Mk2 передасть Швеція для України - характеристика системи ППО",
+      "url": "https://24tv.ua/military/tridon-mk2-peredast-shvetsiya-dlya-ukrayini-harakteristika-sistemi_n3043900",
+      "published_at": "20260406T191500Z",
+      "source": "24tv.ua",
       "tags": []
+    },
+    {
+      "id": "gdelt_ee5d7891b63c4830",
+      "headline": "Tridon Mk2 передаст Швеция для Украины - характеристика системы ПВО",
+      "url": "https://24tv.ua/military/ru/tridon-mk2-peredast-shvecija-dlja-ukrainy-harakteristika-sistemy_n3043914",
+      "published_at": "20260406T201500Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4077e96f4f0835bc",
+      "headline": "Hezbollah repels Israeli ground attack in southern Lebanon",
+      "url": "https://www.albawaba.com/news/hezbollah-repels-israeli-ground-attack-1625051",
+      "published_at": "20260406T203000Z",
+      "source": "albawaba.com",
+      "tags": [
+        "LEBANON",
+        "HEZBOLLAH"
+      ]
     },
     {
       "id": "gdelt_91d4df03117ee450",
@@ -46,14 +65,6 @@
       "url": "https://www.vesti.ru/ns/politolog-sukhotin-nazval-osnovnuyu-prichinu-ehnergeticheskogo-krizisa-v-evrope",
       "published_at": "20260406T190000Z",
       "source": "vesti.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_29d655b4827a6df2",
-      "headline": "Bus from Zimbabwe intercepted after legally entering SA , driver in hot water over 32 illegal immigrants",
-      "url": "https://www.citizen.co.za/news/zimbabwe-bus-intercepted-illegal-immigrants/",
-      "published_at": "20260406T143000Z",
-      "source": "citizen.co.za",
       "tags": []
     },
     {
@@ -111,6 +122,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_533dc847dfdd77f7",
+      "headline": "Više od 7 . 100 povrijeđenih u Izraelu od početka rata s Iranom",
+      "url": "https://www.federalna.ba/vise-od-7100-povrijedenih-u-izraelu-od-pocetka-rata-s-iranom-cly2x",
+      "published_at": "20260406T203000Z",
+      "source": "federalna.ba",
+      "tags": []
+    },
+    {
       "id": "gdelt_1a29c91ab64ccf9e",
       "headline": "Time . ai",
       "url": "https://time.mk/ai/29fe01224a/mk/",
@@ -146,14 +165,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_3f33472365b540a5",
-      "headline": "Ультиматумы Трампа по Ормузскому проливу говорят о близкой капитуляции США",
-      "url": "https://www.pravda.ru/world/2342659-iran-hormuz-crisis-global-economy/",
-      "published_at": "20260406T134500Z",
-      "source": "pravda.ru",
-      "tags": [
-        "IRAN"
-      ]
+      "id": "gdelt_4d58fbe686589a86",
+      "headline": "Delhi Police arrest two key operatives in ISI - sponsored gun smuggling network at IGI Airport",
+      "url": "https://www.tribuneindia.com/news/delhi/delhi-police-arrest-two-key-operatives-in-isi-sponsored-gun-smuggling-network-at-igi-airport/",
+      "published_at": "20260406T150000Z",
+      "source": "tribuneindia.com",
+      "tags": []
     },
     {
       "id": "gdelt_d13d07e12d883259",
@@ -161,14 +178,6 @@
       "url": "https://time.mk/ai/b219f2b318/mk/",
       "published_at": "20260406T154500Z",
       "source": "time.mk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a148e1442d7fcc89",
-      "headline": "Rusija o ratu u Iranu : Cijela regija je u plamenu , posljedice osjeti cijeli svijet",
-      "url": "https://www.index.hr/vijesti/clanak/rusija-o-ratu-u-iranu-cijela-regija-je-u-plamenu-posljedice-osjeti-cijeli-svijet/2779058.aspx",
-      "published_at": "20260406T134500Z",
-      "source": "index.hr",
       "tags": []
     },
     {
@@ -180,32 +189,6 @@
       "tags": [
         "IRAN"
       ]
-    },
-    {
-      "id": "gdelt_36720b2713a5dc3b",
-      "headline": "Пакистан предложил США и Ирану план прекращения огня с 6 апреля",
-      "url": "https://www.svoboda.org/a/pakistan-predlozhil-ssha-i-iranu-plan-prekrascheniya-ognya-s-6-aprelya/33725843.html",
-      "published_at": "20260406T134500Z",
-      "source": "svoboda.org",
-      "tags": [
-        "PAKISTAN"
-      ]
-    },
-    {
-      "id": "gdelt_4d58fbe686589a86",
-      "headline": "Delhi Police arrest two key operatives in ISI - sponsored gun smuggling network at IGI Airport",
-      "url": "https://www.tribuneindia.com/news/delhi/delhi-police-arrest-two-key-operatives-in-isi-sponsored-gun-smuggling-network-at-igi-airport/",
-      "published_at": "20260406T150000Z",
-      "source": "tribuneindia.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_dc0fa041681772d6",
-      "headline": "Angola : Les plateformes logistiques de Luvo et Yema dynamiseront les échanges avec la RDC , selon ARCCLA",
-      "url": "https://fr.allafrica.com/stories/202604060517.html",
-      "published_at": "20260406T141500Z",
-      "source": "fr.allafrica.com",
-      "tags": []
     },
     {
       "id": "gdelt_961d2c1f36c67685",
@@ -224,6 +207,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_f2e92495f2c4b001",
+      "headline": "ד  ר רז צימט מנתח את הציוץ הבוטה של דונלד טראמפ כלפי איראן",
+      "url": "https://www.maariv.co.il/news/world/article-1305683",
+      "published_at": "20260406T203000Z",
+      "source": "maariv.co.il",
+      "tags": []
+    },
+    {
       "id": "gdelt_f82a12edc0049475",
       "headline": "Eksperti : Eiropas Savienības sankcijas pret Krieviju strādā ilgtermiņā",
       "url": "https://www.lsm.lv/raksts/zinas/ekonomika/06.04.2026-eksperti-eiropas-savienibas-sankcijas-pret-krieviju-strada-ilgtermina.a641817/",
@@ -232,19 +223,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_d34506131e222e85",
-      "headline": "Китай сдвинул дедлайн безвиза",
-      "url": "https://www.kommersant.ru/doc/8570218",
-      "published_at": "20260406T134500Z",
-      "source": "kommersant.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_d2c710687d967897",
       "headline": "炸彈威脅取消神韻演出 加國議員譴責恐嚇捍衛自由 | 中共跨國鎮壓 | 國會議員",
       "url": "https://www.ntdtv.com/b5/2026/04/06/a104083737.html",
       "published_at": "20260406T170000Z",
       "source": "ntdtv.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f99ca6a9eb1cfde7",
+      "headline": "Češi míří k zubařům do Polska . Zjednodušila to přeshraniční smlouva pojišťovny",
+      "url": "https://www.denik.cz/zdravotnictvi/zdravi-cesi-miri-za-zubari-k-sousedum-polsko-ordinace-pohotovost.html",
+      "published_at": "20260406T193000Z",
+      "source": "denik.cz",
       "tags": []
     },
     {
@@ -261,7 +252,9 @@
       "url": "https://www.thehindubusinessline.com/news/world/south-pars-natural-gas-complex-is-an-energy-lifeline-for-iran-amid-conflict/article70831781.ece",
       "published_at": "20260406T190000Z",
       "source": "thehindubusinessline.com",
-      "tags": []
+      "tags": [
+        "IRAN"
+      ]
     },
     {
       "id": "gdelt_b4b0059fe2c8ef41",
@@ -298,14 +291,6 @@
       ]
     },
     {
-      "id": "gdelt_e35a71c4b86607ba",
-      "headline": "Tridon Mk2 характеристики – Швеція передасть Україні хайтек - винищувачі Шахедів – військова допомога",
-      "url": "https://war.obozrevatel.com/ukr/shvetsiya-peredast-ukraini-hajtek-vinischuvachi-shahediv-scho-vidomo-pro-tridon-mk2-foto.htm",
-      "published_at": "20260406T134500Z",
-      "source": "war.obozrevatel.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_8682d23b098ef8a5",
       "headline": "From Panic to Posture",
       "url": "https://tribune.com.pk/article/98134/from-panic-to-posture",
@@ -338,12 +323,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_3c366980b04d3b1d",
-      "headline": "Индия может начать использовать змей и крокодилов для защиты госграницы СМИ / Новости / Независимая газета",
-      "url": "https://www.ng.ru/news/836968.html",
-      "published_at": "20260406T134500Z",
-      "source": "ng.ru",
-      "tags": []
+      "id": "gdelt_e6dc61d97185c402",
+      "headline": "Attacks on UN peacekeepers in Lebanon  must cease immediately : Spanish premier – Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20260406-attacks-on-un-peacekeepers-in-lebanon-must-cease-immediately-spanish-premier/",
+      "published_at": "20260406T191500Z",
+      "source": "middleeastmonitor.com",
+      "tags": [
+        "LEBANON"
+      ]
     },
     {
       "id": "gdelt_1bf9bfdb71b148f5",
@@ -370,14 +357,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_0e1b72f8c0385635",
-      "headline": "67 Perusahaan Dijatuhi Sanksi Administratif Buntut Banjir Sumatra",
-      "url": "https://mediaindonesia.com/humaniora/876732/67-perusahaan-dijatuhi-sanksi-administratif-buntut-banjir-sumatra",
-      "published_at": "20260406T134500Z",
-      "source": "mediaindonesia.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_d816ea06ff9d9159",
       "headline": "Time . ai",
       "url": "https://time.mk/ai/53bc2fdb88/mk/",
@@ -394,11 +373,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_3e2ada98a4e9fdc7",
-      "headline": "Israeli military says 11 soldiers killed , 375 wounded since Iran war",
-      "url": "https://www.middleeastmonitor.com/20260406-israeli-military-says-11-soldiers-killed-375-wounded-since-iran-war/",
-      "published_at": "20260406T143000Z",
-      "source": "middleeastmonitor.com",
+      "id": "gdelt_82c95097ee87fe4d",
+      "headline": "The South Pars natural gas complex is an energy lifeline for Iran",
+      "url": "https://www.stcatharinesstandard.ca/business/the-south-pars-natural-gas-complex-is-an-energy-lifeline-for-iran/article_cf928df1-f0ef-5886-941c-784feb974ddf.html",
+      "published_at": "20260406T193000Z",
+      "source": "stcatharinesstandard.ca",
       "tags": []
     },
     {
@@ -410,6 +389,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_bdd86b8f19c24f57",
+      "headline": "Швеція передасть Україні сучасні системи для збиття Shahed вартістю €400 млн",
+      "url": "https://gordonua.com/ukr/news/war/shvetsija-peredast-ukrajini-suchasni-sistemi-dlja-zbittja-shahed-vartistju-400-mln-1778076.html",
+      "published_at": "20260406T193000Z",
+      "source": "gordonua.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_e84283de078a21a0",
       "headline": "Everstone , others said to have invested $150m in SaaS firm Wingify",
       "url": "https://www.dealstreetasia.com/stories/everstone-wingify-2-478069",
@@ -418,11 +405,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_ba0e3899805a01d8",
+      "headline": "İran , ABDnin ateşkes teklifini reddetti",
+      "url": "https://www.bloomberght.com/iran-abd-nin-ateskes-teklifini-reddetti-3773875",
+      "published_at": "20260406T193000Z",
+      "source": "bloomberght.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_039768ca662ee991",
       "headline": "Δείτε σε ζωντανή μετάδοση - Διπλή συνεδρίαση Δημοτικού Συμβουλίου - Εφημερίδα Ημέρα , Ζάκυνθος .",
       "url": "https://www.imerazante.gr/2026/04/06/389882",
       "published_at": "20260406T164500Z",
       "source": "imerazante.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ab00dd9c2152e1d6",
+      "headline": "Cina pubblica linee guida per promuovere sviluppo e - commerce di alta qualità",
+      "url": "https://www.sanremonews.it/2026/04/06/leggi-notizia/argomenti/top-news/articolo/cina-pubblica-linee-guida-per-promuovere-sviluppo-e-commerce-di-alta-qualita.html",
+      "published_at": "20260406T171500Z",
+      "source": "sanremonews.it",
       "tags": []
     },
     {
@@ -444,12 +447,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_ab00dd9c2152e1d6",
-      "headline": "Cina pubblica linee guida per promuovere sviluppo e - commerce di alta qualità",
-      "url": "https://www.sanremonews.it/2026/04/06/leggi-notizia/argomenti/top-news/articolo/cina-pubblica-linee-guida-per-promuovere-sviluppo-e-commerce-di-alta-qualita.html",
-      "published_at": "20260406T171500Z",
-      "source": "sanremonews.it",
-      "tags": []
+      "id": "gdelt_be56a965f01ad731",
+      "headline": "Twin Bannu Attacks Kill Three Security Personnel - Pakistan Today",
+      "url": "https://www.pakistantoday.com.pk/2026/04/06/three-security-personnel-martyred-in-twin-bannu-attacks",
+      "published_at": "20260406T153000Z",
+      "source": "pakistantoday.com.pk",
+      "tags": [
+        "PAKISTAN"
+      ]
     },
     {
       "id": "gdelt_6454f66cca793d5b",
@@ -460,20 +465,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_be56a965f01ad731",
-      "headline": "Twin Bannu Attacks Kill Three Security Personnel - Pakistan Today",
-      "url": "https://www.pakistantoday.com.pk/2026/04/06/three-security-personnel-martyred-in-twin-bannu-attacks",
-      "published_at": "20260406T153000Z",
-      "source": "pakistantoday.com.pk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_201ee35fa1243c0f",
-      "headline": "Белоруссия оставила за собой право ответить на блокировки своих СМИ на YouTube",
-      "url": "https://www.vesti.ru/ns/belorussiya-ostavila-za-soboj-pravo-otvetit-na-blokirovki-svoikh-smi-na-youtube",
-      "published_at": "20260406T134500Z",
-      "source": "vesti.ru",
-      "tags": []
+      "id": "gdelt_8cf6e955fc2587bc",
+      "headline": "Serpenti e coccodrilli a guardia della frontiera : così lIndia vuole contrastare limmigrazione illegale",
+      "url": "https://www.quotidiano.net/esteri/serpenti-coccodrilli-frontiera-india-at0ducxl",
+      "published_at": "20260406T193000Z",
+      "source": "quotidiano.net",
+      "tags": [
+        "INDIA"
+      ]
     },
     {
       "id": "gdelt_055514402c5ae6b3",
@@ -489,14 +488,6 @@
       "url": "https://www.upi.com/Top_News/World-News/2026/04/06/Circle-KB-Financial-digital-currency/8141775483439/",
       "published_at": "20260406T164500Z",
       "source": "upi.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9937d17ef43dce3d",
-      "headline": "OJK shuts down 953 illegal online lenders in Q1 2026",
-      "url": "https://en.antaranews.com/news/411433/ojk-shuts-down-953-illegal-online-lenders-in-q1-2026",
-      "published_at": "20260406T163000Z",
-      "source": "en.antaranews.com",
       "tags": []
     },
     {
@@ -516,6 +507,22 @@
       "tags": []
     },
     {
+      "id": "gdelt_9937d17ef43dce3d",
+      "headline": "OJK shuts down 953 illegal online lenders in Q1 2026",
+      "url": "https://en.antaranews.com/news/411433/ojk-shuts-down-953-illegal-online-lenders-in-q1-2026",
+      "published_at": "20260406T163000Z",
+      "source": "en.antaranews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0788b47a95f923fb",
+      "headline": "موارد اقتصاد إيران .. ما الذي بقي منه في الحرب ؟",
+      "url": "https://www.albayan.ae/news/middle-east/iran/1180039",
+      "published_at": "20260406T201500Z",
+      "source": "albayan.ae",
+      "tags": []
+    },
+    {
       "id": "gdelt_16e033cb361ecf43",
       "headline": "Iranian Leader Warns of Prolonged Conflict Ahead of Trump Address – NaturalNews . com",
       "url": "https://www.naturalnews.com/2026-04-06-iranian-leader-warns-prolonged-conflict-trump-address.html",
@@ -524,11 +531,35 @@
       "tags": []
     },
     {
-      "id": "gdelt_56f67fc203bbe8e5",
-      "headline": "Imbas Kasus Amsal Sitepu , Komjak akan Evaluasi Berbagai Perkara di Kejari Karo",
-      "url": "https://mediaindonesia.com/politik-dan-hukum/876653/imbas-kasus-amsal-sitepu-komjak-akan-evaluasi-berbagai-perkara-di-kejari-karo",
-      "published_at": "20260406T134500Z",
-      "source": "mediaindonesia.com",
+      "id": "gdelt_cf9b68cc970690a9",
+      "headline": "Seoul bedauert Drohnenflüge : Pjöngjang lobt Südkoreas  kluge  Entschuldigung",
+      "url": "https://www.n-tv.de/politik/Pjoengjang-lobt-Suedkoreas-kluge-Entschuldigung-id30685855.html",
+      "published_at": "20260406T201500Z",
+      "source": "n-tv.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_dd37de06ae1a0840",
+      "headline": "Time . ai",
+      "url": "https://time.mk/ai/a43113fd60/mk/",
+      "published_at": "20260406T203000Z",
+      "source": "time.mk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1e210c927d1a824d",
+      "headline": "„ Haltung eines aufrichtigen und großzügigen Mannes : Kim Jong - un lobt in ungewöhnlichen Tönen den südkoreanischen Präsidenten",
+      "url": "https://www.tagesspiegel.de/internationales/haltung-eines-aufrichtigen-und-grosszugigen-mannes-kim-jong-un-lobt-in-ungewohnlichen-tonen-den-sudkoreanischen-prasidenten-15439503.html",
+      "published_at": "20260406T173000Z",
+      "source": "tagesspiegel.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c47f8ce940085568",
+      "headline": "Israeli Military Confirms Airstrikes On Three Iranian Airports , Largest Petrochemical Complex",
+      "url": "https://saharareporters.com/2026/04/06/israeli-military-confirms-airstrikes-three-iranian-airports-largest-petrochemical",
+      "published_at": "20260406T201500Z",
+      "source": "saharareporters.com",
       "tags": []
     },
     {
@@ -551,40 +582,6 @@
       ]
     },
     {
-      "id": "gdelt_a2bf2aba0c1a4d79",
-      "headline": "Punjab Police foil terror plot , arrest three linked to ISI - backed module | India News",
-      "url": "https://timesofindia.indiatimes.com/india/punjab-police-foil-terror-plot-arrest-three-linked-to-isi-backed-module/articleshow/130062183.cms",
-      "published_at": "20260406T134500Z",
-      "source": "timesofindia.indiatimes.com",
-      "tags": [
-        "INDIA"
-      ]
-    },
-    {
-      "id": "gdelt_1e210c927d1a824d",
-      "headline": "„ Haltung eines aufrichtigen und großzügigen Mannes : Kim Jong - un lobt in ungewöhnlichen Tönen den südkoreanischen Präsidenten",
-      "url": "https://www.tagesspiegel.de/internationales/haltung-eines-aufrichtigen-und-grosszugigen-mannes-kim-jong-un-lobt-in-ungewohnlichen-tonen-den-sudkoreanischen-prasidenten-15439503.html",
-      "published_at": "20260406T173000Z",
-      "source": "tagesspiegel.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6d785a3c6d3fcfcc",
-      "headline": "Банк России объявил официальный курс валют на вторник",
-      "url": "https://1prime.ru/20260406/kurs-868957884.html",
-      "published_at": "20260406T154500Z",
-      "source": "1prime.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e366aad7a5f78577",
-      "headline": "مارسيل بالوكجي : قرار إسرائيل بإلغاء جميع رحلات الخطوط الجوية مؤشر على تصعيد محتمل",
-      "url": "https://www.dostor.org/5493179",
-      "published_at": "20260406T143000Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
       "id": "gdelt_3b0482652ab5dc03",
       "headline": "Уряд спростив дообладнання авіації для боротьби з  шахедами",
       "url": "https://ua.korrespondent.net/ukraine/4868599-uriad-sprostyv-doobladnannia-aviatsii-dlia-borotby-z-shakhedamy",
@@ -595,14 +592,12 @@
       ]
     },
     {
-      "id": "gdelt_19a481e3e16cee82",
-      "headline": "Czy 45 - dniowy rozejm zatrzyma eskalację ? Wymiana SMS - ów między united states a Iranem",
-      "url": "https://www.bankier.pl/wiadomosc/Czy-45-dniowy-rozejm-zatrzyma-eskalacje-Wymiana-SMS-ow-miedzy-USA-a-Iranem-9109652.html",
-      "published_at": "20260406T143000Z",
-      "source": "bankier.pl",
-      "tags": [
-        "UNITED_STATES"
-      ]
+      "id": "gdelt_6d785a3c6d3fcfcc",
+      "headline": "Банк России объявил официальный курс валют на вторник",
+      "url": "https://1prime.ru/20260406/kurs-868957884.html",
+      "published_at": "20260406T154500Z",
+      "source": "1prime.ru",
+      "tags": []
     },
     {
       "id": "gdelt_242b634b39e5971a",
@@ -621,14 +616,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_c26b256aba81fadf",
-      "headline": "Imbas Kajari Karo Danke Rajagukguk Diamankan Kejagung Bersama 3 Anak Buah , Benarkah Dipatsuskan ?",
-      "url": "https://surabaya.tribunnews.com/news/1935672/imbas-kajari-karo-danke-rajagukguk-diamankan-kejagung-bersama-3-anak-buah-benarkah-dipatsuskan",
-      "published_at": "20260406T153000Z",
-      "source": "surabaya.tribunnews.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_06fad483e4d48701",
       "headline": "news . gov . hk - Wealth summit set for Mar 24",
       "url": "https://www.news.gov.hk/eng/2026/03/20260318/20260318_143414_985.html",
@@ -637,11 +624,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_f4ef31ec4384ed81",
-      "headline": "С такого долга какой гешефт",
-      "url": "https://www.kommersant.ru/doc/8570510",
-      "published_at": "20260406T174500Z",
-      "source": "kommersant.ru",
+      "id": "gdelt_c26b256aba81fadf",
+      "headline": "Imbas Kajari Karo Danke Rajagukguk Diamankan Kejagung Bersama 3 Anak Buah , Benarkah Dipatsuskan ?",
+      "url": "https://surabaya.tribunnews.com/news/1935672/imbas-kajari-karo-danke-rajagukguk-diamankan-kejagung-bersama-3-anak-buah-benarkah-dipatsuskan",
+      "published_at": "20260406T153000Z",
+      "source": "surabaya.tribunnews.com",
       "tags": []
     },
     {
@@ -653,11 +640,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_132bdaba0fe1ceab",
-      "headline": "Iran odbacio američko primirje i poslao odgovor preko Pakistana : Traži trajni prekid sukoba i ukidanje sankcija",
-      "url": "https://www.glasistre.hr/svijet/2026/04/06/iran-odbacio-prijedlog-primirja-zeli-trajni-prekid-rata-1061254",
-      "published_at": "20260406T164500Z",
-      "source": "glasistre.hr",
+      "id": "gdelt_f4ef31ec4384ed81",
+      "headline": "С такого долга какой гешефт",
+      "url": "https://www.kommersant.ru/doc/8570510",
+      "published_at": "20260406T174500Z",
+      "source": "kommersant.ru",
       "tags": []
     },
     {
@@ -669,43 +656,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_9523845c3bb593fa",
-      "headline": "Private jets , deserted shores and an unbuilt resort : alleged links to sanctioned  scam  empire revealed in Timor - Leste | Asia Pacific",
-      "url": "https://www.theguardian.com/world/ng-interactive/2026/apr/06/prince-group-timor-leste-links-to-alleged-scam-empire",
-      "published_at": "20260406T153000Z",
-      "source": "theguardian.com",
+      "id": "gdelt_591fbb8a330a45c5",
+      "headline": "OJK usul sanksi pidana bagi  finfluencer  masuk revisi UU P2SK",
+      "url": "https://www.antaranews.com/berita/5514661/ojk-usul-sanksi-pidana-bagi-finfluencer-masuk-revisi-uu-p2sk",
+      "published_at": "20260406T193000Z",
+      "source": "antaranews.com",
       "tags": []
     },
     {
-      "id": "gdelt_4172c307c21ccecb",
-      "headline": "Україна отримає ППО Tridon Mk2 від Швеції - система проти Шахедів",
-      "url": "https://tsn.ua/ato/ukrayina-otrymaye-vbyvtsiu-shakhediv-shcho-tse-za-systema-3056516.html",
-      "published_at": "20260406T134500Z",
-      "source": "tsn.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c1fbb346e8230b87",
-      "headline": "خطة تطبخ عبر الوسطاء .. هرمز مقابل وقف النار .. « صفقة القرن » بين إيران وأمريكا",
-      "url": "https://www.okaz.com.sa/politics/na/2242996",
-      "published_at": "20260406T141500Z",
-      "source": "okaz.com.sa",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0b55f49f2a1cb00c",
-      "headline": "Через Ормузский пролив прошло рекордное количество танкеров . Но это в шесть раз меньше , чем обычно",
-      "url": "https://www.pravda.ru/news/economics/2342668-proliv/",
-      "published_at": "20260406T134500Z",
-      "source": "pravda.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2e320cce6de26141",
-      "headline": "伊方传出消息显示 伊朗已回应美方停战提议并提出十项要求",
-      "url": "https://world.qianlong.com/2026/0407/8651110.shtml",
+      "id": "gdelt_132bdaba0fe1ceab",
+      "headline": "Iran odbacio američko primirje i poslao odgovor preko Pakistana : Traži trajni prekid sukoba i ukidanje sankcija",
+      "url": "https://www.glasistre.hr/svijet/2026/04/06/iran-odbacio-prijedlog-primirja-zeli-trajni-prekid-rata-1061254",
       "published_at": "20260406T164500Z",
-      "source": "world.qianlong.com",
+      "source": "glasistre.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fa043b6d2b7f5a66",
+      "headline": "قطر لـ إيران : ندين استهدافكم لنا ولدول المنطقة",
+      "url": "https://www.almasryalyoum.com/news/details/4239172",
+      "published_at": "20260406T201500Z",
+      "source": "almasryalyoum.com",
       "tags": []
     },
     {
@@ -722,6 +693,30 @@
       "url": "https://money.bg/business/onbuy-pred-money-bg-sled-8-novi-pazara-v-evropa-idva-li-red-na-balgariya.html",
       "published_at": "20260406T171500Z",
       "source": "money.bg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9523845c3bb593fa",
+      "headline": "Private jets , deserted shores and an unbuilt resort : alleged links to sanctioned  scam  empire revealed in Timor - Leste | Asia Pacific",
+      "url": "https://www.theguardian.com/world/ng-interactive/2026/apr/06/prince-group-timor-leste-links-to-alleged-scam-empire",
+      "published_at": "20260406T153000Z",
+      "source": "theguardian.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1cc530f9ec3b1577",
+      "headline": "In case you missed it : Bus from Zimbabwe intercepted | 7 killed in M17 head - on crash | McKenzie on superfan trips",
+      "url": "https://www.citizen.co.za/news/in-case-you-missed-it-6-april-2026/",
+      "published_at": "20260406T193000Z",
+      "source": "citizen.co.za",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2e320cce6de26141",
+      "headline": "伊方传出消息显示 伊朗已回应美方停战提议并提出十项要求",
+      "url": "https://world.qianlong.com/2026/0407/8651110.shtml",
+      "published_at": "20260406T164500Z",
+      "source": "world.qianlong.com",
       "tags": []
     },
     {
@@ -757,6 +752,16 @@
       "tags": []
     },
     {
+      "id": "gdelt_05dc23b721c1e823",
+      "headline": "Грешка машиновође узрок инцидента у станици Ловћенац – Мали Иђош",
+      "url": "https://www.politika.rs/scc/clanak/745382/greska-masinovode-uzrok-incidenta-u-stanici-lovcenac-mali-idos",
+      "published_at": "20260406T203000Z",
+      "source": "politika.rs",
+      "tags": [
+        "MALI"
+      ]
+    },
+    {
       "id": "gdelt_e7d2b64c8bbfff4b",
       "headline": "Colombia Petro asks Brazil to extend Pix payment system",
       "url": "https://www.upi.com/Top_News/World-News/2026/04/06/latam-colombia-pix-system-Petro-support/2021775493058/",
@@ -767,13 +772,13 @@
       ]
     },
     {
-      "id": "gdelt_895892108c6c5bbc",
-      "headline": "CPI ( M ) calls for humanitarian assistance to Cuba",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cpim-calls-for-humanitarian-assistance-to-cuba/article70830231.ece",
-      "published_at": "20260406T141500Z",
-      "source": "thehindu.com",
+      "id": "gdelt_d7bf0de78874167c",
+      "headline": "Reise nach Saudi - Arabien – Ministerin will zur Deeskalation im Krieg beitragen",
+      "url": "https://www.heute.at/s/ministerin-will-zur-deeskalation-im-krieg-beitragen-120178600",
+      "published_at": "20260406T193000Z",
+      "source": "heute.at",
       "tags": [
-        "CUBA"
+        "SAUDI_ARABIA"
       ]
     },
     {
@@ -785,14 +790,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_76c765c702caffef",
-      "headline": "Comunicat de presă - Inspectoratul de Jandarmi Județean Maramureș",
-      "url": "https://agerpres.ro/comunicate/2026/04/06/comunicat-de-presa---inspectoratul-de-jandarmi-judetean-maramures--1544686",
-      "published_at": "20260406T134500Z",
-      "source": "agerpres.ro",
-      "tags": []
-    },
-    {
       "id": "gdelt_ed91647474345a79",
       "headline": "خلال مباحثات هاتفية .. قطر لـ إيران : ندين استهدافكم لنا ولدول المنطقة",
       "url": "https://www.shorouknews.com/news/view.aspx?cdate=06042026&id=3ba6017f-57e3-4bcb-8231-355724bf3eb8",
@@ -801,11 +798,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_144b07de6c066df8",
-      "headline": "مشاهد جوية لآثار الدمار جراء سقوط صاروخ إيراني في حيفا ( فيديو )",
-      "url": "https://www.dostor.org/5493218",
-      "published_at": "20260406T143000Z",
-      "source": "dostor.org",
+      "id": "gdelt_5b85c2d075e02f3e",
+      "headline": "Лидеры Франции и Катара заявили о важности усилий для поставок топлива",
+      "url": "https://1prime.ru/20260406/toplivo-868961778.html",
+      "published_at": "20260406T203000Z",
+      "source": "1prime.ru",
       "tags": []
     },
     {
@@ -833,30 +830,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_e740c253945f24e7",
-      "headline": "Sanctioned ship suspected of causing oil spill in Baltic Sea",
-      "url": "https://www.globalsecurity.org/intell/library/news/2026/intell-260403-finpol01.htm",
-      "published_at": "20260406T143000Z",
-      "source": "globalsecurity.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3d2bc29f4a612dcd",
-      "headline": "واشنطن ترفض التهدئة .. ترامب يختار التصعيد العسكري ضد إيران رغم مبادرات الوساطة",
-      "url": "https://www.dostor.org/5493309",
-      "published_at": "20260406T154500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f82f643a52403686",
-      "headline": "Todeszahl im Libanon steigt auf fast 1 . 500",
-      "url": "https://www.finanzen.net/nachricht/aktien/todeszahl-im-libanon-steigt-auf-fast-1-500-15595953",
-      "published_at": "20260406T144500Z",
-      "source": "finanzen.net",
-      "tags": []
-    },
-    {
       "id": "gdelt_14658bfbb40609bc",
       "headline": "Nigerian traders halt onions exports to Ghana over harassment , truck seizures",
       "url": "https://www.vanguardngr.com/2026/04/nigerian-traders-halt-onions-exports-to-ghana-over-harassment-truck-seizures/",
@@ -867,11 +840,43 @@
       ]
     },
     {
-      "id": "gdelt_302d4872faa6a178",
-      "headline": "Một lần lao động công ích đủ để răn đe hành vi bạo lực gia đình",
-      "url": "https://baomoi.com/mot-lan-lao-dong-cong-ich-du-de-ran-de-hanh-vi-bao-luc-gia-dinh-c54871683.epi",
-      "published_at": "20260406T133000Z",
-      "source": "baomoi.com",
+      "id": "gdelt_3d2bc29f4a612dcd",
+      "headline": "واشنطن ترفض التهدئة .. ترامب يختار التصعيد العسكري ضد إيران رغم مبادرات الوساطة",
+      "url": "https://www.dostor.org/5493309",
+      "published_at": "20260406T154500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1217b0e01d4f6db2",
+      "headline": "韓議員 ： 朝鮮希望與美建立新關係 與伊朗保持距離 | 美國打擊伊朗 | 朝鮮疏遠伊朗 | 朝鮮和美國關係",
+      "url": "https://www.ntdtv.com/b5/2026/04/06/a104083784.html",
+      "published_at": "20260406T203000Z",
+      "source": "ntdtv.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6536ffd74ee2cf1f",
+      "headline": "Οι Ισπανοί θεωρούν τον Τραμπ μεγαλύτερη απειλή για την παγκόσμια ειρήνη από ...",
+      "url": "https://www.capital.gr/diethni/3983774/oi-ispanoi-theoroun-ton-tramp-megaluteri-apeili-gia-tin-pagkosmia-eirini-apo-oti-ton-poutin/",
+      "published_at": "20260406T153000Z",
+      "source": "capital.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_867cce1773545c33",
+      "headline": "« غرفة السياحة »: « استمرار التوتر قد ينعكس على رحلات الحج والعمرة",
+      "url": "https://www.almasryalyoum.com/news/details/4229170",
+      "published_at": "20260406T191500Z",
+      "source": "almasryalyoum.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f079f3654720c07e",
+      "headline": "Prime Minister receives phone call from Iran Minister of Foreign Affairs",
+      "url": "http://thepeninsulaqatar.com/article/06/04/2026/prime-minister-receives-phone-call-from-irans-minister-of-foreign-affairs-1",
+      "published_at": "20260406T193000Z",
+      "source": "thepeninsulaqatar.com",
       "tags": []
     },
     {
@@ -885,6 +890,14 @@
       ]
     },
     {
+      "id": "gdelt_549ff61c829e5f61",
+      "headline": "Οι Ισπανοί θεωρούν τον Τραμπ μεγαλύτερη απειλή για την παγκόσμια ειρήνη από ό , τι τον Πούτιν , σύμφωνα με δημοσκόπηση",
+      "url": "https://www.inewsgr.com/182/oi-ispanoi-theoroun-ton-trab-megalyteri-apeili-gia-tin-pagkosmia-eirini-apo-oti-ton-poutin-symfona-me-dimoskopisi.htm",
+      "published_at": "20260406T173000Z",
+      "source": "inewsgr.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_8a761ec22e3792eb",
       "headline": "Иран отверг предложение США о перемирии",
       "url": "http://govoritmoskva.ru/news/488154/",
@@ -893,19 +906,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_6536ffd74ee2cf1f",
-      "headline": "Οι Ισπανοί θεωρούν τον Τραμπ μεγαλύτερη απειλή για την παγκόσμια ειρήνη από ...",
-      "url": "https://www.capital.gr/diethni/3983774/oi-ispanoi-theoroun-ton-tramp-megaluteri-apeili-gia-tin-pagkosmia-eirini-apo-oti-ton-poutin/",
-      "published_at": "20260406T153000Z",
-      "source": "capital.gr",
+      "id": "gdelt_084afb93beed58ff",
+      "headline": "Οι Ισπανοί θεωρούν τον Τραμπ μεγαλύτερη απειλή για την παγκόσμια ειρήνη απ  ό , τι τον Πούτιν",
+      "url": "https://www.voria.gr/article/oi-ispanoi-theoroyn-ton-tramp-megalyteri-apeili-gia-tin-pagkosmia-eirini-ap-oti-ton-poytin",
+      "published_at": "20260406T164500Z",
+      "source": "voria.gr",
       "tags": []
     },
     {
-      "id": "gdelt_549ff61c829e5f61",
-      "headline": "Οι Ισπανοί θεωρούν τον Τραμπ μεγαλύτερη απειλή για την παγκόσμια ειρήνη από ό , τι τον Πούτιν , σύμφωνα με δημοσκόπηση",
-      "url": "https://www.inewsgr.com/182/oi-ispanoi-theoroun-ton-trab-megalyteri-apeili-gia-tin-pagkosmia-eirini-apo-oti-ton-poutin-symfona-me-dimoskopisi.htm",
-      "published_at": "20260406T173000Z",
-      "source": "inewsgr.com",
+      "id": "gdelt_4077d97eeedcea74",
+      "headline": "أحمد موسى : جميع الدول تأثرت بالحرب الأمريكية الإيرانية",
+      "url": "https://www.dostor.org/5493678",
+      "published_at": "20260406T193000Z",
+      "source": "dostor.org",
       "tags": []
     },
     {
@@ -933,22 +946,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_136b1948b415798a",
-      "headline": "Šis ir pēdējais mēģinājums izvairīties no nopietnas kara eskalācijas … ASV un Irāna cenšas vienoties par pamieru",
-      "url": "https://www.la.lv/sis-ir-pedejais-meginajums-izvairities-no-nopietnas-kara-eskalacijas-asv-un-irana-censas-vienoties-par-pamieru",
-      "published_at": "20260406T134500Z",
-      "source": "la.lv",
-      "tags": []
-    },
-    {
-      "id": "gdelt_084afb93beed58ff",
-      "headline": "Οι Ισπανοί θεωρούν τον Τραμπ μεγαλύτερη απειλή για την παγκόσμια ειρήνη απ  ό , τι τον Πούτιν",
-      "url": "https://www.voria.gr/article/oi-ispanoi-theoroyn-ton-tramp-megalyteri-apeili-gia-tin-pagkosmia-eirini-ap-oti-ton-poytin",
-      "published_at": "20260406T164500Z",
-      "source": "voria.gr",
-      "tags": []
-    },
-    {
       "id": "gdelt_ada2b1a40f23bdb0",
       "headline": "Οι Ισπανοί θεωρούν τον Τραμπ μεγαλύτερη απειλή για την παγκόσμια ειρήνη από τον Πούτιν",
       "url": "https://www.news.gr/kosmos/article/4110790/i-ispani-theoroun-ton-trab-megaliteri-apili-gia-tin-pagkosmia-irini-apo-oti-ton-poutin.html",
@@ -957,35 +954,21 @@
       "tags": []
     },
     {
+      "id": "gdelt_473d69d9e3223808",
+      "headline": "DR Congo launches $46 . 5m Ubangi River project to drive trade , jobs and food security",
+      "url": "https://theheraldghana.com/dr-congo-launches-46-5m-ubangi-river-project-to-drive-trade-jobs-and-food-security/",
+      "published_at": "20260406T203000Z",
+      "source": "theheraldghana.com",
+      "tags": [
+        "DEMOCRATIC_REPUBLIC_OF_CONGO"
+      ]
+    },
+    {
       "id": "gdelt_4d86ef0735a30f73",
       "headline": "Глава Евросовета назвал дипломатию единственным путем урегулирования конфликта с Ираном",
       "url": "https://vestikavkaza.ru/news/glava-evrosoveta-nazval-diplomatiu-edinstvennym-putem-uregulirovania-konflikta-s-iranom.html",
       "published_at": "20260406T153000Z",
       "source": "vestikavkaza.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_488348c3f098063e",
-      "headline": "Η απάντηση του Ιράν στο Πακιστάν : Όχι στην εκεχειρία , μόνιμο τέλος του πολέμου με νέο πρωτόκολλο για Ορμούζ και άρση κυρώσεων",
-      "url": "https://pelop.gr/i-apantisi-tou-iran-sto-pakistan-ochi-stin-ekecheiria-monimo-telos-tou-polemou-me-neo-protokollo-gia-ormouz-kai-arsi-kyroseon/",
-      "published_at": "20260406T153000Z",
-      "source": "pelop.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_efee7f00ed6bcd85",
-      "headline": "وزير الخارجية : نؤكد ضرورة تغليب الحكمة والعمل على نزع فتيل التوتر بالمنطقة",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=06042026&id=b75a08b0-5956-4a43-bdfb-99f1a64139f0",
-      "published_at": "20260406T163000Z",
-      "source": "shorouknews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0718574dfc24bc9d",
-      "headline": "Son dakika : İran ABDnin ateşkes teklifini reddetti , kalıcı barış istiyor",
-      "url": "https://www.haberturk.com/son-dakika-iran-abd-nin-ateskes-teklifini-reddetti-kalici-baris-istiyor-3875243",
-      "published_at": "20260406T153000Z",
-      "source": "haberturk.com",
       "tags": []
     },
     {
@@ -997,27 +980,51 @@
       "tags": []
     },
     {
-      "id": "gdelt_f831359158c2d7a1",
-      "headline": "تصاعد التوترات يهدد استقرار أسواق الطاقة العالمية .. خبير يستعرض التفاصيل",
-      "url": "https://www.dostor.org/5493197",
-      "published_at": "20260406T143000Z",
-      "source": "dostor.org",
+      "id": "gdelt_efee7f00ed6bcd85",
+      "headline": "وزير الخارجية : نؤكد ضرورة تغليب الحكمة والعمل على نزع فتيل التوتر بالمنطقة",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=06042026&id=b75a08b0-5956-4a43-bdfb-99f1a64139f0",
+      "published_at": "20260406T163000Z",
+      "source": "shorouknews.com",
       "tags": []
     },
     {
-      "id": "gdelt_2f0e5d17a74e2cf8",
-      "headline": "Latest Oil Market News and Analysis for April 6",
-      "url": "https://www.bloomberg.com:443/news/articles/2026-04-05/latest-oil-market-news-and-analysis-for-april-6",
-      "published_at": "20260406T174500Z",
-      "source": "bloomberg.com",
+      "id": "gdelt_13f4cf16e9875d15",
+      "headline": "Teheran u odgovoru Pakistanu odbacio mogućnost prekida vatre na predlog SAD",
+      "url": "https://naslovi.net/2026-04-06/politika/teheran-u-odgovoru-pakistanu-odbacio-mogucnost-prekida-vatre-na-predlog-sad/41592967",
+      "published_at": "20260406T193000Z",
+      "source": "naslovi.net",
       "tags": []
     },
     {
-      "id": "gdelt_f423af6c023579ae",
-      "headline": "No mercy on  bad fuel , UDA proposes massive Sh15bn sanctions",
-      "url": "https://www.the-star.co.ke/news/2026-04-06-no-mercy-on-bad-fuel-uda-proposes-sh15bn-penalty",
-      "published_at": "20260406T171500Z",
-      "source": "the-star.co.ke",
+      "id": "gdelt_488348c3f098063e",
+      "headline": "Η απάντηση του Ιράν στο Πακιστάν : Όχι στην εκεχειρία , μόνιμο τέλος του πολέμου με νέο πρωτόκολλο για Ορμούζ και άρση κυρώσεων",
+      "url": "https://pelop.gr/i-apantisi-tou-iran-sto-pakistan-ochi-stin-ekecheiria-monimo-telos-tou-polemou-me-neo-protokollo-gia-ormouz-kai-arsi-kyroseon/",
+      "published_at": "20260406T153000Z",
+      "source": "pelop.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0718574dfc24bc9d",
+      "headline": "Son dakika : İran ABDnin ateşkes teklifini reddetti , kalıcı barış istiyor",
+      "url": "https://www.haberturk.com/son-dakika-iran-abd-nin-ateskes-teklifini-reddetti-kalici-baris-istiyor-3875243",
+      "published_at": "20260406T153000Z",
+      "source": "haberturk.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f41370589a1fa99b",
+      "headline": "ترامب : كل جسر في إيران سيتم تدميره",
+      "url": "https://www.skynewsarabia.com/world/1862792-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%AC%D8%B3%D8%B1-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%B3%D9%8A%D8%AA%D9%85-%D8%AA%D8%AF%D9%85%D9%8A%D8%B1%D9%87",
+      "published_at": "20260406T193000Z",
+      "source": "skynewsarabia.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b0b70228847eb298",
+      "headline": "Srbija izručila Marjana Vujačića Crnoj Gori : Osuđen za tri ubistva , evo gde će odslužiti kaznu",
+      "url": "https://naslovi.net/2026-04-06/mondo/srbija-izrucila-marjana-vujacica-crnoj-gori-osudjen-za-tri-ubistva-evo-gde-ce-odsluziti-kaznu/41592962",
+      "published_at": "20260406T193000Z",
+      "source": "naslovi.net",
       "tags": []
     },
     {
