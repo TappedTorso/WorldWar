@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-04-09T05:57:45Z",
+    "generated_at_utc": "2026-04-09T07:54:25Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -33,34 +33,6 @@
   },
   "events": [
     {
-      "id": "gdelt_1dad08121840afbc",
-      "headline": "Росія розширює інструменти обходу санкцій – криптоплатіжні канали в Африці",
-      "url": "https://www.obozrevatel.com/ukr/ekonomika-glavnaya/analytics-and-forecasts/u-fokusi-nigeriya-i-zimbabve-v-tspd-poyasnili-yak-rosiya-rozshiryue-instrumenti-obhodu-sanktsij.htm",
-      "published_at": "20260409T000000Z",
-      "source": "obozrevatel.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f1fecd952613b46d",
-      "headline": "Крах курдской мечты : Вашингтон в очередной раз списал прокси - силы в утиль",
-      "url": "https://www.pravda.ru/world/2343352-trump-kurds-iran-conflict-betrayal/",
-      "published_at": "20260409T013000Z",
-      "source": "pravda.ru",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_0b47413de9790633",
-      "headline": "Meta - Urteil : Datenübermittlung in die united states ist rechtmig",
-      "url": "https://www.stimme.de/leben/technik/digitales/meta-urteil-datenuebermittlung-in-die-usa-ist-rechtmaessig-art-5159945",
-      "published_at": "20260409T011500Z",
-      "source": "stimme.de",
-      "tags": [
-        "UNITED_STATES"
-      ]
-    },
-    {
       "id": "gdelt_9853e077ce59ef35",
       "headline": "朱帅 ： 伊朗为何迫切希望摆脱  软杀伤",
       "url": "https://baijiahao.baidu.com/s?id=1861943836882888897",
@@ -69,14 +41,33 @@
       "tags": []
     },
     {
-      "id": "gdelt_205f9a497c66482c",
-      "headline": "Meta - Urteil : Datenübermittlung in die united states ist rechtmig",
-      "url": "https://www.focus.de/panorama/welt/meta-urteil-datenuebermittlung-in-die-usa-ist-rechtmaessig_564fc947-6a43-4069-a9d9-7279a12f580b.html",
-      "published_at": "20260409T003000Z",
-      "source": "focus.de",
+      "id": "gdelt_52d1fada04d57286",
+      "headline": "West Africa : Sahel - the World Bank Group Launches a New Country Partnership Framework for Burkina Faso , Chad , Mali , and Niger to Promote Jobs , Growth , and Resilience",
+      "url": "https://allafrica.com/stories/202604090047.html",
+      "published_at": "20260409T054500Z",
+      "source": "allafrica.com",
       "tags": [
-        "UNITED_STATES"
+        "CHAD",
+        "BURKINA_FASO",
+        "MALI",
+        "NIGER"
       ]
+    },
+    {
+      "id": "gdelt_fd05464cc109956d",
+      "headline": "中 전자상거래 고품질 발전 본격화 ... 트래픽 경쟁  서  품질 경쟁  으로 - Xinhua",
+      "url": "http://kr.xinhuanet.com/20260409/d84bf8a2e12646a39778858d6dffbf0c/c.html",
+      "published_at": "20260409T064500Z",
+      "source": "kr.xinhuanet.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5d2d0c77ef431771",
+      "headline": "Stablecoin Volumes Could Hit $1 . 5 Quadrillion in a Decade : Chainalysis",
+      "url": "https://cointelegraph.com/news/stablecoin-volumes-1-5-quadrillion-2035-how",
+      "published_at": "20260409T061500Z",
+      "source": "cointelegraph.com",
+      "tags": []
     },
     {
       "id": "gdelt_3060087fd0343205",
@@ -95,6 +86,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_a4a2c9610a195b20",
+      "headline": "Des autorités et experts ouest - africains veulent faire des frontières un levier de stabilité",
+      "url": "http://french.people.com.cn/Afrique/n3/2026/0409/c96852-20444691.html",
+      "published_at": "20260409T054500Z",
+      "source": "french.people.com.cn",
+      "tags": []
+    },
+    {
       "id": "gdelt_59f9f75631722445",
       "headline": "Иранский кризис далек от завершения вместо этого мы вступаем в новую фазу неопределенности ( The Guardian , Великобритания )",
       "url": "https://inosmi.ru/20260409/peremirie-277900621.html",
@@ -103,14 +102,36 @@
       "tags": []
     },
     {
-      "id": "gdelt_0e9821fd58313fe3",
-      "headline": "Germany AfD Expels Chechen Member After Gift Featuring Nazi Symbolism",
-      "url": "https://www.kyivpost.com/post/73526",
-      "published_at": "20260409T000000Z",
-      "source": "kyivpost.com",
-      "tags": [
-        "GERMANY"
-      ]
+      "id": "gdelt_faaedbca1ce58aaf",
+      "headline": "ActuNiger | Sahel : la Banque mondiale valide un nouveau cadre de partenariat axé sur lemploi , la croissance et la résilience",
+      "url": "https://www.actuniger.com/politique/21896-sahel-la-banque-mondiale-valide-un-nouveau-cadre-de-partenariat-axe-sur-lemploi-la-croissance-et-la-resilience.html",
+      "published_at": "20260409T054500Z",
+      "source": "actuniger.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_40b5541281ff1345",
+      "headline": "Naujasis „ Litgrid  vadovas : Lietuvoje atsinaujinančiai energetikai bus 2 – 3 kartus daugiau vietos",
+      "url": "https://www.vz.lt/energetika/2026/04/09/naujasis-litgrid-vadovas-lietuvoje-atsinaujinanciai-energetikai-bus-2-3-kartus-daugiau-vietos-582894",
+      "published_at": "20260409T061500Z",
+      "source": "vz.lt",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ef2e701a8e5e673d",
+      "headline": "Британия может закрыть въезд гражданам стран , претендующих на репарации | MigNews - Новости Израиля и Мира на русском языке",
+      "url": "http://mignews.com/news/politic/britaniya-mozhet-zakryt-vezd-grazhdanam-stran-pretenduyushih-na-reparacii.html",
+      "published_at": "20260409T070000Z",
+      "source": "mignews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_70aedb46e727d5f4",
+      "headline": "Британия может закрыть въезд гражданам стран , претендующих на репарации | MigNews - Новости Израиля и Мира на русском языке",
+      "url": "https://mignews.com/news/politic/britaniya-mozhet-zakryt-vezd-grazhdanam-stran-pretenduyushih-na-reparacii.html",
+      "published_at": "20260409T070000Z",
+      "source": "mignews.com",
+      "tags": []
     },
     {
       "id": "gdelt_f62ec40cd2ba7d61",
@@ -121,12 +142,40 @@
       "tags": []
     },
     {
-      "id": "gdelt_bf7e824d858ce82b",
-      "headline": "Шокирующее заявление Тегерана : США нарушили три ключевых условия перемирия",
-      "url": "https://runews24.ru/politics/09/04/2026/shokiruyushhee-zayavlenie-tegerana-ssha-narushili-tri-klyuchevyix-usloviya-peremiriya",
-      "published_at": "20260409T000000Z",
-      "source": "runews24.ru",
+      "id": "gdelt_342ca292d951cd01",
+      "headline": "Стало известно о применении оптоволокна для управления БПЛА у Сумской области",
+      "url": "https://iz.ru/2075563/2026-04-09/stalo-izvestno-o-primenenii-vsu-optovolokna-dlia-upravleniia-bpla-u-sumskoi-oblasti",
+      "published_at": "20260409T054500Z",
+      "source": "iz.ru",
       "tags": []
+    },
+    {
+      "id": "gdelt_7a76f93c5b33da98",
+      "headline": "Situation deteriorates after ceasefire ; Death toll rises in Lebanon as regional tensions escalate",
+      "url": "http://www.sahilonline.org/situation-deteriorates-after-ceasefire-death-toll-rises-in-lebanon-as-regional-tensions-escalate",
+      "published_at": "20260409T060000Z",
+      "source": "sahilonline.org",
+      "tags": [
+        "LEBANON"
+      ]
+    },
+    {
+      "id": "gdelt_e868f0129b69f7ce",
+      "headline": "Гладков рассказал о восстановлении жилья в Белгородской области",
+      "url": "https://ria.ru/20260409/gladkov-2086048731.html",
+      "published_at": "20260409T070000Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e7f1882de3f55717",
+      "headline": "Uzbekneftegaz , China Tapline explore new frontiers in gas transport co - op",
+      "url": "https://www.trend.az/business/4172801.html",
+      "published_at": "20260409T061500Z",
+      "source": "trend.az",
+      "tags": [
+        "CHINA"
+      ]
     },
     {
       "id": "gdelt_b35291b3c272ad6c",
@@ -140,37 +189,11 @@
       ]
     },
     {
-      "id": "gdelt_1d263e52ccdee388",
-      "headline": "Digitaler Durchblick : Meta - Urteil : Datenübermittlung in die united states ist rechtmig - Netzwelt",
-      "url": "https://www.rhein-zeitung.de/deutschland-welt/netzwelt/meta-urteil-datenuebermittlung-in-die-usa-ist-rechtmaessig_arid-4117087.html",
-      "published_at": "20260409T000000Z",
-      "source": "rhein-zeitung.de",
-      "tags": [
-        "UNITED_STATES"
-      ]
-    },
-    {
-      "id": "gdelt_b6878fa2d70a95f4",
-      "headline": "Digitaler Durchblick : Meta - Urteil : Datenübermittlung in die united states ist rechtmig",
-      "url": "https://www.volksstimme.de/leben/technik/meta-urteil-datenubermittlung-in-die-usa-ist-rechtmassig-4229639",
-      "published_at": "20260409T000000Z",
-      "source": "volksstimme.de",
-      "tags": []
-    },
-    {
       "id": "gdelt_a820544a437aecae",
       "headline": "Tycoon Syed Mokhtar said to be mulling property company IPO",
       "url": "https://www.freemalaysiatoday.com/category/nation/2026/04/09/tycoon-syed-mokhtar-said-to-be-mulling-property-company-ipo",
       "published_at": "20260409T043000Z",
       "source": "freemalaysiatoday.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_301eeeea04d59eab",
-      "headline": "Meta - Urteil : Datenübermittlung in die united states ist rechtmig",
-      "url": "https://www.freiepresse.de/ratgeber/technik-digitales/meta-urteil-datenuebermittlung-in-die-usa-ist-rechtmaessig-artikel14205217",
-      "published_at": "20260409T000000Z",
-      "source": "freiepresse.de",
       "tags": []
     },
     {
@@ -198,16 +221,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_9f2212a37c3113ba",
-      "headline": "China biotech flow picks up as Everest seals US$250 million deal",
-      "url": "https://www.scmp.com/business/banking-finance/article/3349390/china-biotech-flow-picks-everest-seals-us250-million-deal",
-      "published_at": "20260409T014500Z",
-      "source": "scmp.com",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
       "id": "gdelt_e36af4d8013940d6",
       "headline": "China - Laos Railway sees robust growth in cross - border trade",
       "url": "http://www.china.org.cn/2026-04/09/content_118426925.shtml",
@@ -228,6 +241,42 @@
         "ISRAEL",
         "CHINA"
       ]
+    },
+    {
+      "id": "gdelt_5f78568d1ab52446",
+      "headline": "智利警方破獲巨額竊銅走私案 ， 298 億元銅料銷往中國",
+      "url": "https://technews.tw/2026/04/09/chile-exposes-smuggling-ring-that-shipped-us917m-in-stolen-copper-to-chinese-buyers/",
+      "published_at": "20260409T064500Z",
+      "source": "technews.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e5d9d2c58f933d74",
+      "headline": "Iran original peace proposal was  literally thrown in garbage  by Trump : White House",
+      "url": "https://www.hindustantimes.com/world-news/irans-original-peace-proposal-literally-thrown-in-garbage-says-white-house-amid-conflicting-claims-over-deal-content-101775703740259.html",
+      "published_at": "20260409T070000Z",
+      "source": "hindustantimes.com",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_aa6c95ae479116af",
+      "headline": "Serba - serbi Gencatan Senjata AS - Iran , 10 Tuntutan Dikabulkan hingga Mediasi Pakistan",
+      "url": "https://kabar24.bisnis.com/read/20260409/19/1965345/serba-serbi-gencatan-senjata-as-iran-10-tuntutan-dikabulkan-hingga-mediasi-pakistan",
+      "published_at": "20260409T061500Z",
+      "source": "kabar24.bisnis.com",
+      "tags": [
+        "PAKISTAN"
+      ]
+    },
+    {
+      "id": "gdelt_e566691731789bd6",
+      "headline": "WSJ : Ο Τραμπ θα « τιμωρήσει » χώρες του ΝΑΤΟ που δεν βοήθησαν στο Ιράν",
+      "url": "https://www.lykavitos.gr/news/planet/wsj-o-tramp-tha-timorisei-xores-tou-nato-pou-den-voithisan-sto-iran",
+      "published_at": "20260409T061500Z",
+      "source": "lykavitos.gr",
+      "tags": []
     },
     {
       "id": "gdelt_39e720b9f48b5721",
@@ -254,21 +303,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_76437c6f49ec937d",
-      "headline": "Comment le Pakistan a réussi à négocier une trêve entre lIran et les Etats - Unis",
-      "url": "https://www.lalibre.be/dernieres-depeches/2026/04/08/comment-le-pakistan-a-reussi-a-negocier-une-treve-entre-liran-et-les-etats-unis-GFGBYYPM5ZA5VBEFWWIQ4SGJEM/",
-      "published_at": "20260409T011500Z",
-      "source": "lalibre.be",
-      "tags": [
-        "PAKISTAN"
-      ]
-    },
-    {
-      "id": "gdelt_95c28d7ad8359ef4",
-      "headline": "Норвегія досі не передала Україні жодного з обіцяних F - 16 . У чому річ ?",
-      "url": "https://gordonua.com/ukr/news/war/norvehija-dosi-ne-peredala-ukrajini-zhodnoho-z-obitsjanikh-f-16-u-chomu-rich-1778265.html",
-      "published_at": "20260409T020000Z",
-      "source": "gordonua.com",
+      "id": "gdelt_9ea7426fe3988739",
+      "headline": "伊朗所開10條件 華爾街日報逐點分析談判空間 | 國際",
+      "url": "https://www.cna.com.tw/news/aopl/202604090107.aspx",
+      "published_at": "20260409T061500Z",
+      "source": "cna.com.tw",
       "tags": []
     },
     {
@@ -280,11 +319,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_95c28d7ad8359ef4",
+      "headline": "Норвегія досі не передала Україні жодного з обіцяних F - 16 . У чому річ ?",
+      "url": "https://gordonua.com/ukr/news/war/norvehija-dosi-ne-peredala-ukrajini-zhodnoho-z-obitsjanikh-f-16-u-chomu-rich-1778265.html",
+      "published_at": "20260409T020000Z",
+      "source": "gordonua.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_6df6ba56a702e4cb",
       "headline": "Нови правила за отпадъци в ЕС и задължителна е - система от 21 май",
       "url": "https://www.mediapool.bg/novi-pravila-za-otpadatsi-v-es-i-zadalzhitelna-e-sistema-ot-21-mai-news382187.html",
       "published_at": "20260409T050000Z",
       "source": "mediapool.bg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1ff7a8092c3afd36",
+      "headline": "Foreign Investors Pour $18 . 65 Billion into Japanese Stocks Amid Market Stabilization",
+      "url": "http://www.econotimes.com/Foreign-Investors-Pour-1865-Billion-into-Japanese-Stocks-Amid-Market-Stabilization-1738520",
+      "published_at": "20260409T061500Z",
+      "source": "econotimes.com",
       "tags": []
     },
     {
@@ -296,6 +351,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_51a3ac698922185e",
+      "headline": "Eşitsizlik yaratma riski var  - Son Haberler",
+      "url": "https://www.milliyet.com.tr/ekonomi/esitsizlik-yaratma-riski-var-7568313",
+      "published_at": "20260409T061500Z",
+      "source": "milliyet.com.tr",
+      "tags": []
+    },
+    {
       "id": "gdelt_e8c13246692c094a",
       "headline": "Happy Birthday . eu : Europa feiert 20 Jahre digitale Identität",
       "url": "https://www.heise.de/news/Happy-Birthday-eu-Europa-feiert-20-Jahre-digitale-Identitaet-11249784.html",
@@ -304,19 +367,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_c9c53a82136a00da",
-      "headline": "Global Leaders to Scale Energy Investment at NOG Energy Week – THISDAYLIVE",
-      "url": "https://www.thisdaylive.com/2026/04/09/global-leaders-to-scale-energy-investment-at-nog-energy-week/",
-      "published_at": "20260409T011500Z",
-      "source": "thisdaylive.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f343298436b59aee",
-      "headline": "Signalling Deeper Reach , Bank Verification Number Rises to 68 . 6M – THISDAYLIVE",
-      "url": "https://www.thisdaylive.com/2026/04/09/signalling-deeper-reach-bank-verification-number-rises-to-68-6m/",
-      "published_at": "20260409T011500Z",
-      "source": "thisdaylive.com",
+      "id": "gdelt_a9744f9ba7714908",
+      "headline": "解析伊朗10点停火条件 ， 双方或都有松口 ， 和平谈判迎重大转机 _ 期市动态 _ 期货 _ 中金在线",
+      "url": "http://futures.cnfol.com/qishidongtai/20260409/32132958.shtml",
+      "published_at": "20260409T041500Z",
+      "source": "futures.cnfol.com",
       "tags": []
     },
     {
@@ -328,11 +383,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_a9744f9ba7714908",
-      "headline": "解析伊朗10点停火条件 ， 双方或都有松口 ， 和平谈判迎重大转机 _ 期市动态 _ 期货 _ 中金在线",
-      "url": "http://futures.cnfol.com/qishidongtai/20260409/32132958.shtml",
-      "published_at": "20260409T041500Z",
-      "source": "futures.cnfol.com",
+      "id": "gdelt_22000eb0506dc0f2",
+      "headline": "두나무 , 행정소송 승소에 규제 불확실성 덜어 … 네이버와 포괄적 주식교환 숨통",
+      "url": "https://www.etoday.co.kr/news/view/2574334",
+      "published_at": "20260409T064500Z",
+      "source": "etoday.co.kr",
       "tags": []
     },
     {
@@ -378,35 +433,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_b4efab6772c767cf",
-      "headline": "US Iran Ceasefire Boosts Bitcoin , Stocks : Will It Hold ?",
-      "url": "https://cointelegraph.com/markets/bitcoin-tops-dollar72k-after-dollar280m-liquidation-targets-bears-will-the-fragile-truce-hold",
-      "published_at": "20260409T011500Z",
-      "source": "cointelegraph.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_65b4da894bcda045",
       "headline": "Dubes UEA Respons Gencatan Senjata AS - Iran , Harap Hasil Nyata dalam Dua Pekan",
       "url": "https://kabar24.bisnis.com/read/20260409/19/1965310/dubes-uea-respons-gencatan-senjata-as-iran-harap-hasil-nyata-dalam-dua-pekan",
       "published_at": "20260409T041500Z",
       "source": "kabar24.bisnis.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d4bb1b1e4bd4af5e",
-      "headline": "Tehran Takes the Strait and the Premium",
-      "url": "https://oilprice.com/Energy/Crude-Oil/Tehran-Takes-the-Strait-and-the-Premium.html",
-      "published_at": "20260409T001500Z",
-      "source": "oilprice.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_31f8eb78267cb9a3",
-      "headline": "법원 , 앤트로픽  공급망위험  제재 유지 … 엇갈린 두 법원",
-      "url": "http://www.koreatimes.com/article/20260408/1608434",
-      "published_at": "20260409T011500Z",
-      "source": "koreatimes.com",
       "tags": []
     },
     {
@@ -418,27 +449,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_8c769e763621d589",
-      "headline": "小商品城 ： 2025年归母净利润同比增长36 . 76 %， 数实融合推动核心指标连创新高",
-      "url": "https://www.stcn.com/article/detail/3733858.html",
-      "published_at": "20260409T003000Z",
-      "source": "stcn.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a9351ea6a4f6d729",
-      "headline": "Commerzbank Aktie : Absage mit Ansage ()",
-      "url": "https://www.aktiencheck.de/news/Artikel-Commerzbank_Aktie_Absage_Ansage-19642579",
-      "published_at": "20260409T003000Z",
-      "source": "aktiencheck.de",
-      "tags": []
-    },
-    {
       "id": "gdelt_596b1312ed14477b",
       "headline": "迎泰國潑水節 ！ 台南移民署辦講座 新住民齊聚 「 辣 」 出好運 | ETtoday地方新聞",
       "url": "https://www.ettoday.net/news/20260409/3146278.htm",
       "published_at": "20260409T033000Z",
       "source": "ettoday.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a1278b87ffce44ef",
+      "headline": "K . Budrys : bendra situacija dėl Baltarusijos dabar yra stabilesnė",
+      "url": "https://www.lrytas.lt/lietuvosdiena/aktualijos/2026/04/09/news/k-budrys-bendra-situacija-del-baltarusijos-dabar-yra-stabilesne-41996374/",
+      "published_at": "20260409T070000Z",
+      "source": "lrytas.lt",
       "tags": []
     },
     {
@@ -466,11 +489,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_c437321c21e1ff45",
-      "headline": "Jukir Tak Patuh ya Diganti , Sikap Tegas Wali Kota Berlakukan Parkir Elektronik di Surabaya Bulan Ini",
-      "url": "https://surabaya.tribunnews.com/surabaya-metro/1935943/jukir-tak-patuh-ya-diganti-sikap-tegas-wali-kota-berlakukan-parkir-elektronik-di-surabaya-bulan-ini",
-      "published_at": "20260409T003000Z",
-      "source": "surabaya.tribunnews.com",
+      "id": "gdelt_b65b73b28794d882",
+      "headline": "Manipulasi Aduan JAKI Kembali Terungkap , Pemprov DKI Akui Ada Rekayasa Petugas",
+      "url": "https://jakarta.tribunnews.com/jakarta/433285/manipulasi-aduan-jaki-kembali-terungkap-pemprov-dki-akui-ada-rekayasa-petugas",
+      "published_at": "20260409T061500Z",
+      "source": "jakarta.tribunnews.com",
       "tags": []
     },
     {
@@ -506,14 +529,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_ea1efa1e921a261f",
-      "headline": "Eskalation gestoppt : Daran muss sich Trump nun messen lassen",
-      "url": "https://www.gn-online.de/deutschland-und-welt/eskalation-gestoppt-daran-muss-sich-trump-nun-messen-lassen-606851.html",
-      "published_at": "20260409T001500Z",
-      "source": "gn-online.de",
-      "tags": []
-    },
-    {
       "id": "gdelt_e33e73f0ab4c7337",
       "headline": "破解  不可能三角 ： Ftrans飞驰云联的速度 、 安全与合规之道 _ 中华网",
       "url": "https://digi.china.com/articles/20260409/202604091842332.html",
@@ -522,51 +537,35 @@
       "tags": []
     },
     {
-      "id": "gdelt_a1907a914abed38b",
-      "headline": "Vi phạm quy định về điện mặt trời , điện gió có thể bị phạt tới 100 triệu đồng",
-      "url": "https://baomoi.com/vi-pham-quy-dinh-ve-dien-mat-troi-dien-gio-co-the-bi-phat-toi-100-trieu-dong-c54892385.epi",
-      "published_at": "20260409T011500Z",
-      "source": "baomoi.com",
+      "id": "gdelt_ac3f586423331a05",
+      "headline": "Росія пропонує країнам Південної Азії санкціонований газ зі знижкою – Bloomberg",
+      "url": "https://epravda.com.ua/biznes/rosiya-proponuye-krajinam-pivdennoji-aziji-sankcionovaniy-gaz-zi-znizhkoyu-bloomberg-820240/",
+      "published_at": "20260409T070000Z",
+      "source": "epravda.com.ua",
       "tags": []
     },
     {
-      "id": "gdelt_0ad142e1c8029d2e",
-      "headline": "Drama Paspoortgate Dean James Belum Usai , NAC Breda Buka Opsi Banding",
-      "url": "https://bola.kompas.com/read/2026/04/09/06342198/drama-paspoortgate-dean-james-belum-usai-nac-breda-buka-opsi-banding",
-      "published_at": "20260409T004500Z",
-      "source": "bola.kompas.com",
+      "id": "gdelt_4ab69540798b0baf",
+      "headline": "Зеленский объяснил , почему перемирие в Иране является критическим для Украины",
+      "url": "https://politics.comments.ua/news/president/neftyanoy-udar-po-kremlyu-zelenskiy-obyasnil-pochemu-teper-stoit-zhdat-padeniya-dohodov-rf-803372.html",
+      "published_at": "20260409T063000Z",
+      "source": "politics.comments.ua",
       "tags": []
     },
     {
-      "id": "gdelt_1b1e528cc97f6280",
-      "headline": "موقع بكرا - إيران تربط مشاركتها بالمحادثات بوقف النار في لبنان وتلوّح بخيارات تصعيد",
-      "url": "https://bokra.net/Article-1591973",
-      "published_at": "20260409T000000Z",
-      "source": "bokra.net",
+      "id": "gdelt_92175167bec171de",
+      "headline": "uživo Krhko primirje na ivici : Spor oko Libana i Ormuskog moreuza preti novom eskalacijom",
+      "url": "https://naslovi.net/2026-04-09/nin/uzivo-krhko-primirje-na-ivici-spor-oko-libana-i-ormuskog-moreuza-preti-novom-eskalacijom/41604113",
+      "published_at": "20260409T063000Z",
+      "source": "naslovi.net",
       "tags": []
     },
     {
-      "id": "gdelt_aeb9c2e894a9210e",
-      "headline": "The Weirdest Detail in Iran Ceasefire Agreement",
-      "url": "https://newrepublic.com/post/208811/iran-ceasefire-strait-hormuz-cryptocurrency",
-      "published_at": "20260409T004500Z",
-      "source": "newrepublic.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e0658781bb7eda08",
-      "headline": "Bombshell Report Reveals Trump Was Begging for Iran to Join Ceasefire",
-      "url": "https://newrepublic.com/post/208815/trump-asked-iran-ceasefire",
-      "published_at": "20260409T004500Z",
-      "source": "newrepublic.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ec0f69a04b6cfdad",
-      "headline": "New report puts outstanding Oregon criminal court sanctions at more than $1 billion",
-      "url": "https://ktvz.com/news/crime-courts/2026/04/08/new-report-puts-outstanding-oregon-criminal-court-sanctions-at-more-than-1-billion/",
-      "published_at": "20260409T003000Z",
-      "source": "ktvz.com",
+      "id": "gdelt_4f25553634e6facc",
+      "headline": "美伊戰爭牽動川普地緣布局 ！ 外交學者鄭欽模 ： 控石油以壓制中國擴張 | 國際 | 三立新聞網 SETN . COM",
+      "url": "https://www.setn.com/News.aspx?NewsID=1820019",
+      "published_at": "20260409T061500Z",
+      "source": "setn.com",
       "tags": []
     },
     {
@@ -578,19 +577,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_b782c9f27c036842",
-      "headline": "印度考虑在印孟边境投放蛇和鳄鱼",
-      "url": "https://baijiahao.baidu.com/s?id=1861879901260166258",
-      "published_at": "20260409T003000Z",
-      "source": "baijiahao.baidu.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f98d12c2f58a1b26",
-      "headline": "Waka BGN Murka Gara - Gara SPPG Beroperasi Tanpa Pengawas Gizi",
-      "url": "https://www.liputan6.com/news/read/6312763/waka-bgn-murka-gara-gara-sppg-beroperasi-tanpa-pengawas-gizi",
-      "published_at": "20260409T011500Z",
-      "source": "liputan6.com",
+      "id": "gdelt_bb8089f7b0c52a55",
+      "headline": "Ταξίδια στην ΕΕ - Τι αλλάζει από τις 10 Απριλίου",
+      "url": "https://www.patrasevents.gr/article/744761-taksidia-stin-ee-ti-allazei-apo-tis-10-apriliou",
+      "published_at": "20260409T063000Z",
+      "source": "patrasevents.gr",
       "tags": []
     },
     {
@@ -610,11 +601,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_8bb2525b4208fb2d",
-      "headline": "فانس يحدد شرطا رئيسيا لتخفيف العقوبات الأمريكية على إيران",
-      "url": "https://www.dostor.org/5497967",
-      "published_at": "20260409T013000Z",
-      "source": "dostor.org",
+      "id": "gdelt_80ea62c0d1be36fd",
+      "headline": "Европейците вече смятат САЩ за по - голяма заплаха от Китай",
+      "url": "https://news.bg/int-politics/evropeytsite-veche-smyatat-sasht-za-po-golyama-zaplaha-ot-kitay.html",
+      "published_at": "20260409T060000Z",
+      "source": "news.bg",
       "tags": []
     },
     {
@@ -626,35 +617,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_3f92d0d006a482c5",
-      "headline": "مجزرة إسرائيلية في لبنان .. والرئاسة تحمّل المجتمع الدولي المسؤولية",
-      "url": "https://www.okaz.com.sa/politics/na/2243365",
-      "published_at": "20260409T013000Z",
-      "source": "okaz.com.sa",
-      "tags": []
-    },
-    {
       "id": "gdelt_7dfe4654afa8dd19",
       "headline": "AEG , BigLaw Atty In Hot Seat As Live Nation Trial Nears End",
       "url": "https://www.law360.com:443/articles/2463134/aeg-biglaw-atty-in-hot-seat-as-live-nation-trial-nears-end",
       "published_at": "20260409T043000Z",
       "source": "law360.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bddd560e6142d183",
-      "headline": "Pacific Mind Health Releases Free De - Escalation Guide to Help People Manage Emotional Triggers in the Moment",
-      "url": "http://www.prnewswire.com/news-releases/pacific-mind-health-releases-free-de-escalation-guide-to-help-people-manage-emotional-triggers-in-the-moment-302733514.html",
-      "published_at": "20260409T003000Z",
-      "source": "prnewswire.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_59c274daff9f6498",
-      "headline": "Jessica Tarlov Paints Grim Picture Of Trump Iran Deal",
-      "url": "https://www.mediaite.com/media/news/there-is-no-ceasefire-foxs-jessica-tarlov-paints-grim-picture-of-trumps-iran-deal/",
-      "published_at": "20260409T003000Z",
-      "source": "mediaite.com",
       "tags": []
     },
     {
@@ -666,11 +633,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_ea9a64c5cb46aca6",
-      "headline": "Sempat Ditunda , Sidang Kasus Pemukulan Karyawan Zaskia Mecca Akhirnya Digelar",
-      "url": "https://www.kompas.com/hype/read/2026/04/09/081500466/sempat-ditunda-sidang-kasus-pemukulan-karyawan-zaskia-mecca-akhirnya",
-      "published_at": "20260409T014500Z",
-      "source": "kompas.com",
+      "id": "gdelt_2f3b0f0c3aadfbde",
+      "headline": "全球公共安全合作论坛 ( 连云港 ) 2023年大会即将开幕 公共港年较2021年增长15 %- 奉若神明网",
+      "url": "http://www.nashfm923krst.com/html/765f1099224.html",
+      "published_at": "20260409T061500Z",
+      "source": "nashfm923krst.com",
       "tags": []
     },
     {
@@ -679,6 +646,14 @@
       "url": "https://finance.sina.com.cn/jjxw/2026-04-09/doc-inhtwnxh1010219.shtml",
       "published_at": "20260409T050000Z",
       "source": "finance.sina.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c3b2276efffa44b2",
+      "headline": "Letter : Were tough on sanctions ... until were not - Anchorage Daily News",
+      "url": "https://www.adn.com/opinions/letters/2026/04/08/letter-were-tough-on-sanctions-until-were-not/",
+      "published_at": "20260409T061500Z",
+      "source": "adn.com",
       "tags": []
     },
     {
@@ -698,19 +673,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_eeee16c9899ab45d",
-      "headline": "重庆航空直飞首航抵槟 黄汉伟 ： 每周4班往返山城海城 | 北马 | 地方",
-      "url": "https://www.orientaldaily.com.my/news/north/2026/04/09/810010",
-      "published_at": "20260409T040000Z",
-      "source": "orientaldaily.com.my",
-      "tags": []
-    },
-    {
-      "id": "gdelt_712ca38254bb21e2",
-      "headline": "Meta - Urteil : Datenübermittlung in die united states ist rechtmig",
-      "url": "https://www.az-online.de/ratgeber/digital/meta-urteil-datenuebermittlung-in-die-usa-ist-rechtmaessig-zr-94253863.html",
-      "published_at": "20260409T000000Z",
-      "source": "az-online.de",
+      "id": "gdelt_ece1c206ce33b8de",
+      "headline": "Востоковед Руслан Сулейманов о перемирии США и Ирана : Мир может оказаться хрупким",
+      "url": "https://www.lrt.lt/ru/novosti/17/2892316/vostokoved-ruslan-suleimanov-o-peremirii-ssha-i-irana-mir-mozhet-okazat-sia-khrupkim",
+      "published_at": "20260409T061500Z",
+      "source": "lrt.lt",
       "tags": []
     },
     {
@@ -719,6 +686,14 @@
       "url": "https://original.antiwar.com/dan_steinbock/2026/04/08/the-unwarranted-iran-war-us-china-stakes-regional-costs-global-losses/",
       "published_at": "20260409T040000Z",
       "source": "original.antiwar.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_eeee16c9899ab45d",
+      "headline": "重庆航空直飞首航抵槟 黄汉伟 ： 每周4班往返山城海城 | 北马 | 地方",
+      "url": "https://www.orientaldaily.com.my/news/north/2026/04/09/810010",
+      "published_at": "20260409T040000Z",
+      "source": "orientaldaily.com.my",
       "tags": []
     },
     {
@@ -748,24 +723,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_a9e91c4a04d0ed8d",
-      "headline": "CP advises govt . to turn to Russia to tackle rising cost of living",
-      "url": "https://island.lk/cp-advises-govt-to-turn-to-russia-to-tackle-rising-cost-of-living/",
-      "published_at": "20260409T001500Z",
-      "source": "island.lk",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "gdelt_991b5d68bb6f08b1",
-      "headline": "Ravi : Outdated regulations hindering tourism inflows , digital services , SME - led exports",
-      "url": "https://island.lk/ravi-outdated-regulations-hindering-tourism-inflows-digital-services-sme-led-exports/",
-      "published_at": "20260409T004500Z",
-      "source": "island.lk",
-      "tags": []
-    },
-    {
       "id": "gdelt_1068bf74bb227535",
       "headline": "停火只是暫停鍵 ！ 德銀 ： 中東地緣已徹底重塑 它將成為受益者",
       "url": "https://ec.ltn.com.tw/article/breakingnews/5397929",
@@ -779,6 +736,14 @@
       "url": "https://timesofindia.indiatimes.com/world/middle-east/will-us-iran-ceasefire-hold-trump-issues-bigger-better-shooting-warning-over-strait-of-hormuz-nuclear-weapons/articleshow/130129115.cms",
       "published_at": "20260409T053000Z",
       "source": "timesofindia.indiatimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f4677e1cd5719c64",
+      "headline": "أبرز عناوين الصحف الفلسطينية",
+      "url": "https://www.wafa.ps/news/2026/4/9/%D8%A3%D8%A8%D8%B1%D8%B2-%D8%B9%D9%86%D8%A7%D9%88%D9%8A%D9%86-%D8%A7%D9%84%D8%B5%D8%AD%D9%81-%D8%A7%D9%84%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A%D8%A9-145284",
+      "published_at": "20260409T064500Z",
+      "source": "wafa.ps",
       "tags": []
     },
     {
@@ -822,11 +787,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_0f4d577874dce1fe",
-      "headline": "Trump Ceasefire Declaration Sparks Confusion",
-      "url": "https://politicalwire.com/2026/04/08/trumps-iran-ceasefire-declaration-sparks-confusion/",
-      "published_at": "20260409T000000Z",
-      "source": "politicalwire.com",
+      "id": "gdelt_af3b3bd2718ed98d",
+      "headline": "Jaga Stok Plastik , Industri Jajaki Pasokan Nafta dari Negara di Luar Timur Tengah",
+      "url": "https://www.liputan6.com/bisnis/read/6313031/jaga-stok-plastik-industri-jajaki-pasokan-nafta-dari-negara-di-luar-timur-tengah",
+      "published_at": "20260409T060000Z",
+      "source": "liputan6.com",
       "tags": []
     },
     {
@@ -835,6 +800,14 @@
       "url": "https://www.almasryalyoum.com/news/details/4241032",
       "published_at": "20260409T031500Z",
       "source": "almasryalyoum.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bf973cab5b8bdb11",
+      "headline": "Κερδισμένοι και χαμένοι",
+      "url": "https://www.naftemporiki.gr/opinion/2096270/kerdismenoi-kai-chamenoi/",
+      "published_at": "20260409T061500Z",
+      "source": "naftemporiki.gr",
       "tags": []
     },
     {
@@ -854,6 +827,14 @@
       "tags": [
         "PAKISTAN"
       ]
+    },
+    {
+      "id": "gdelt_656033726c774b55",
+      "headline": "Иран , Израиль и США навеки друзья и кому теперь нужна русская нефть",
+      "url": "https://ria.ru/20260409/ssha-2086019847.html",
+      "published_at": "20260409T054500Z",
+      "source": "ria.ru",
+      "tags": []
     },
     {
       "id": "gdelt_00f9de419e3b9fe7",
@@ -882,6 +863,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_28a864c8a54d2e9a",
+      "headline": "Трамп опроверг план переговоров с Ираном и пригрозил ударами | MigNews - Новости Израиля и Мира на русском языке",
+      "url": "https://mignews.com/news/politic/tramp-oproverg-plan-peregovorov-s-iranom-i-prigrozil-udarami.html",
+      "published_at": "20260409T063000Z",
+      "source": "mignews.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_6a563ff9db744491",
       "headline": "У Росії знову заговорили про ядерну ескалацію – причина – аналіз ISW",
       "url": "https://www.obozrevatel.com/ukr/politics-news/sproba-vbiti-klin-v-isw-poyasnili-chomu-v-rosii-znovu-zagovorili-pro-yadernu-eskalatsiyu.htm",
@@ -906,27 +895,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_a59d0164a3c36f78",
-      "headline": "Gencatan Senjata AS - Iran di Ujung Tanduk , Libanon Membara dan Ancaman Meluas hingga ke Selat Hormuz",
-      "url": "https://kaltim.tribunnews.com/news/1143842/gencatan-senjata-as-iran-di-ujung-tanduk-libanon-membara-dan-ancaman-meluas-hingga-ke-selat-hormuz",
-      "published_at": "20260409T014500Z",
-      "source": "kaltim.tribunnews.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_e03088c93f2197de",
       "headline": "В России снова заговорили о ядерной эскалации – причина – анализ ISW",
       "url": "https://www.obozrevatel.com/politics-news/popyitka-vbit-klin-v-isw-obyasnili-pochemu-v-rossii-snova-zagovorili-o-yadernoj-eskalatsii.htm",
       "published_at": "20260409T040000Z",
       "source": "obozrevatel.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7abfea38779a3b2c",
-      "headline": "Nilai Tukar Rupiah terhadap Dolar AS Hari Ini , Kamis 9 April 2026",
-      "url": "https://market.bisnis.com/read/20260409/93/1965273/nilai-tukar-rupiah-terhadap-dolar-as-hari-ini-kamis-9-april-2026",
-      "published_at": "20260409T001500Z",
-      "source": "market.bisnis.com",
       "tags": []
     },
     {
@@ -938,27 +911,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_3faab58d61d99fa8",
-      "headline": "트럼프 , 나토 비협조국서 미군 철수 검토⋯협조국 재배치 논의 중",
-      "url": "https://www.etoday.co.kr/news/view/2574119",
-      "published_at": "20260409T003000Z",
-      "source": "etoday.co.kr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b5de1d91fbfde70b",
-      "headline": "GAP - Prämien gekürzt : Warum Festmist am gleichen Lagerplatz teuer wird",
-      "url": "https://www.topagrar.com/betriebsleitung/news/festmistlager-orte-wechseln-b-20024418.html",
-      "published_at": "20260409T003000Z",
-      "source": "topagrar.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_db3d040c791dd32a",
-      "headline": "موقع بكرا - قرابة الـ300 شهيد في لبنان في لبنان وإعلان الخميس يوم حداد وطني",
-      "url": "https://bokra.net/Article-1591978",
-      "published_at": "20260409T000000Z",
-      "source": "bokra.net",
+      "id": "gdelt_c09cb65b697fde2f",
+      "headline": "小鹏澳大利亚经销商爆雷 ！ 中国车企出海渠道坑有多深 ？",
+      "url": "https://finance.sina.com.cn/stock/relnews/hk/2026-04-09/doc-inhtwnwy2125197.shtml",
+      "published_at": "20260409T054500Z",
+      "source": "finance.sina.com.cn",
       "tags": []
     },
     {
@@ -980,6 +937,22 @@
       "tags": []
     },
     {
+      "id": "gdelt_1e21dad98f65b613",
+      "headline": "Da li je rat u Iranu konačni udarac NATO - u : Sve dublje podele Evrope i SAD po pitanju odbrane i savezništva",
+      "url": "https://naslovi.net/2026-04-09/nin/da-li-je-rat-u-iranu-konacni-udarac-nato-u-sve-dublje-podele-evrope-i-sad-po-pitanju-odbrane-i-saveznistva/41604185",
+      "published_at": "20260409T064500Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_412196c053987d63",
+      "headline": "Лев Кишакевич кандидат України до Міжнародного суду",
+      "url": "https://pravda.if.ua/eksgolova-frankivsiokogo-sudu-stav-osovnym-kandydatom-vid-ukrayiny-na-posadu-suddi-mizhnarodnogo-kryminalionogo-sudu/",
+      "published_at": "20260409T070000Z",
+      "source": "pravda.if.ua",
+      "tags": []
+    },
+    {
       "id": "gdelt_0e572d7482a9ae5a",
       "headline": "Opinion – phnompenhpost . com",
       "url": "https://phnompenhpost.com/category/opinion/",
@@ -988,12 +961,23 @@
       "tags": []
     },
     {
-      "id": "gdelt_6b4e02499888e105",
-      "headline": "中国电信AI+物联网助力宁波智造连通全球",
-      "url": "https://finance.sina.com.cn/roll/2026-04-09/doc-inhtwaii5957568.shtml",
-      "published_at": "20260409T000000Z",
-      "source": "finance.sina.com.cn",
+      "id": "gdelt_28a766492f5b0ed1",
+      "headline": "Arequipa : Clausuran  falsa cevichería  que operaba como cantina clandestina frente a la UNSA | EDICION",
+      "url": "https://diariocorreo.pe/edicion/arequipa/arequipa-clausuran-falsa-cevicheria-que-operaba-como-cantina-clandestina-frente-a-la-unsa-noticia/",
+      "published_at": "20260409T061500Z",
+      "source": "diariocorreo.pe",
       "tags": []
+    },
+    {
+      "id": "gdelt_29ee271b1a2d4b63",
+      "headline": "Israel pounding of Lebanon is  deeply damaging , united kingdom foreign minister says",
+      "url": "https://www.yahoo.com/news/articles/israels-pounding-lebanon-deeply-damaging-061840592.html",
+      "published_at": "20260409T064500Z",
+      "source": "yahoo.com",
+      "tags": [
+        "ISRAEL",
+        "UNITED_KINGDOM"
+      ]
     },
     {
       "id": "gdelt_2ee82b676fe24b39",
@@ -1002,8 +986,41 @@
       "published_at": "20260409T033000Z",
       "source": "economictimes.indiatimes.com",
       "tags": [
-        "ISRAEL",
-        "LEBANON"
+        "ISRAEL"
+      ]
+    },
+    {
+      "id": "gdelt_c8d82eab4f1000bc",
+      "headline": "29家券商投顾成绩 ： 去年收入增超40 %； 量化私募扎堆LOF ， 牛散大户  扫货  ETF | 券商基金早参",
+      "url": "https://www.nbd.com.cn/articles/2026-04-09/4330931.html",
+      "published_at": "20260409T061500Z",
+      "source": "nbd.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8967595669ac617f",
+      "headline": "План Трампа по Ирану встретил сопротивление в нефтяной промышленности",
+      "url": "https://aif.ru/money/market/plan-trampa-po-iranu-vstretil-soprotivlenie-v-neftyanoy-promyshlennosti",
+      "published_at": "20260409T061500Z",
+      "source": "aif.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ff9658df2b020674",
+      "headline": "Esperti segnalano traffico di scimmie dopo scoperta in Thailandia di unendemia del Borneo .",
+      "url": "https://www.sicilianews24.it/esperti-segnalano-traffico-di-scimmie-dopo-scoperta-in-thailandia-di-unendemia-del-borneo-825278.html",
+      "published_at": "20260409T063000Z",
+      "source": "sicilianews24.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9fcb4ec794feef4f",
+      "headline": "Israel pounding of Lebanon is  deeply damaging , united kingdom foreign minister says",
+      "url": "https://www.marketscreener.com/news/israel-s-pounding-of-lebanon-is-deeply-damaging-uk-foreign-minister-says-ce7e50dbdc8cf523",
+      "published_at": "20260409T070000Z",
+      "source": "marketscreener.com",
+      "tags": [
+        "UNITED_KINGDOM"
       ]
     },
     {
@@ -1012,22 +1029,6 @@
       "url": "https://www.antiwar.com/blog/2026/04/08/the-kyle-anzalone-show-trump-lies-about-iran-talks-folding-or-just-buying-time-for-a-ground-invasion-w-larry-johnson/",
       "published_at": "20260409T040000Z",
       "source": "antiwar.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fd101e12b45ab3ce",
-      "headline": "مشاهد للحظة استهداف الاحتلال منطقة كورنيش المزرعة بالعاصمة بيروت ( فيديو )",
-      "url": "https://www.dostor.org/5497996",
-      "published_at": "20260409T031500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_af89c56ee91767d0",
-      "headline": "BJP desperate to stop Mamata campaign , approaches the Commission again",
-      "url": "https://bartamanpatrika.com/news/-bjp-desperate-to-stop-mamatas-campaign-approaches-the-commission-again",
-      "published_at": "20260409T004500Z",
-      "source": "bartamanpatrika.com",
       "tags": []
     }
   ]
