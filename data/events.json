@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-04-10T17:05:40Z",
+    "generated_at_utc": "2026-04-10T18:00:36Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -42,14 +42,6 @@
         "LEBANON",
         "INDIA"
       ]
-    },
-    {
-      "id": "gdelt_0404033e7aa490cc",
-      "headline": "Selenskyj :  Bis September wird es sehr schwer",
-      "url": "https://www.oe24.at/welt/selenskyj-bis-september-wird-es-sehr-schwer/675795648",
-      "published_at": "20260410T120000Z",
-      "source": "oe24.at",
-      "tags": []
     },
     {
       "id": "gdelt_c1f675808cb5da2a",
@@ -185,11 +177,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_7c1370af5955cb3a",
+      "headline": "Time . ai",
+      "url": "https://time.mk/ai/bb5e0edc62/mk/",
+      "published_at": "20260410T171500Z",
+      "source": "time.mk",
+      "tags": []
+    },
+    {
       "id": "gdelt_d8d6bf1c3ee458d2",
       "headline": "Hochleistungsbahnverbindung Linz - Prag wird analysiert",
       "url": "https://www.vol.at/hochleistungsbahnverbindung-linz-prag-wird-analysiert/10102805",
       "published_at": "20260410T143000Z",
       "source": "vol.at",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e4d36b00453d7c64",
+      "headline": "Минобороны сообщило об усилении противодроновой защиты в Донецкой области",
+      "url": "https://korrespondent.net/world/4869934-mynoborony-soobschylo-ob-usylenyy-protyvodronovoi-zaschyty-v-donetskoi-oblasty",
+      "published_at": "20260410T171500Z",
+      "source": "korrespondent.net",
       "tags": []
     },
     {
@@ -261,22 +269,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_afd15ca6e13eb7c8",
-      "headline": "Repubblica Ceca e Slovacchia : indagine Eppo su merci cinesi nel mercato Ue",
-      "url": "https://www.adnkronos.com/internazionale/esteri/repubblica-ceca-e-slovacchia-indagine-eppo-su-merci-cinesi-nel-mercato-ue_3e9cFpWCr6a62iUXomtQSe",
-      "published_at": "20260410T120000Z",
-      "source": "adnkronos.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_895393efab34a1b3",
-      "headline": "Bartulici izrečena novčana kazna od 4000 , a Medvedu od 700 eura",
-      "url": "https://www.index.hr/clanak.aspx?id=2780490&index_ref=homepage_status_box_d",
-      "published_at": "20260410T120000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
       "id": "gdelt_20eebd5c17c2086d",
       "headline": "歐盟指非法移民顯著減少 分析 ： 新規難根本解決問題 | 國際",
       "url": "https://www.cna.com.tw:443/news/aopl/202604100319.aspx",
@@ -293,11 +285,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_b355e688b7b31316",
-      "headline": "Deca iz Srbije 10 sati maltretirana na Batrovcima",
-      "url": "https://informer.rs/politika/vesti/1106282/deca-srbija-hrvatska-granicni-prelaz-batrovci",
-      "published_at": "20260410T111500Z",
-      "source": "informer.rs",
+      "id": "gdelt_65d7e0756dbc211d",
+      "headline": "Отец Маска назвал антироссийские санкции абсолютной чепухой :: Новости дня / ВЗГЛЯД",
+      "url": "https://vz.ru/news/2026/4/10/1409866.html",
+      "published_at": "20260410T173000Z",
+      "source": "vz.ru",
       "tags": []
     },
     {
@@ -306,14 +298,6 @@
       "url": "https://fedpress.ru/news/52/society/3432760",
       "published_at": "20260410T143000Z",
       "source": "fedpress.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d720ed1cddf46c18",
-      "headline": "ECB backs EU plan to centralise financial supervision",
-      "url": "https://www.marketscreener.com/news/ecb-backs-eu-plan-to-centralise-financial-supervision-ce7e50d8d088f723",
-      "published_at": "20260410T120000Z",
-      "source": "marketscreener.com",
       "tags": []
     },
     {
@@ -351,14 +335,20 @@
       "tags": []
     },
     {
-      "id": "gdelt_c2194d0fc764529a",
-      "headline": "Kremlgesandter zu Wirtschaftsgesprächen in den united states",
-      "url": "https://www.wallstreet-online.de/nachricht/20717715-kremlgesandter-wirtschaftsgespraechen-usa",
-      "published_at": "20260410T120000Z",
-      "source": "wallstreet-online.de",
-      "tags": [
-        "UNITED_STATES"
-      ]
+      "id": "gdelt_086854649615ba0b",
+      "headline": "How do fuel protests compare to French yellow vest movement and Canadian freedom convoy ?",
+      "url": "https://www.breakingnews.ie/explained/how-do-fuel-protests-compare-to-french-yellow-vest-movement-and-canadian-freedom-convoy-1885118.html",
+      "published_at": "20260410T171500Z",
+      "source": "breakingnews.ie",
+      "tags": []
+    },
+    {
+      "id": "gdelt_09c8b5a8707e3b2b",
+      "headline": "Отец Илона Маска назвал введённые в отношении Москвы санкции « абсолютной чепухой »",
+      "url": "http://govoritmoskva.ru/news/488681/",
+      "published_at": "20260410T171500Z",
+      "source": "govoritmoskva.ru",
+      "tags": []
     },
     {
       "id": "gdelt_f9f0ccaa4250df72",
@@ -377,22 +367,6 @@
       "tags": [
         "UNITED_STATES"
       ]
-    },
-    {
-      "id": "gdelt_a03e43bc09ff1194",
-      "headline": "中國 「 三無船 」 摸黑闖金門水域 海巡依法取締捍衛主權 - 政治",
-      "url": "https://news.ltn.com.tw/news/politics/breakingnews/5399912",
-      "published_at": "20260410T120000Z",
-      "source": "news.ltn.com.tw",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d1eb3b4ebaede3c6",
-      "headline": "中國 「 三無船 」 摸黑闖金門水域 海巡依法取締捍衛主權 - 金門縣",
-      "url": "https://news.ltn.com.tw/news/Kinmen/breakingnews/5399912",
-      "published_at": "20260410T120000Z",
-      "source": "news.ltn.com.tw",
-      "tags": []
     },
     {
       "id": "gdelt_34deecbc728ece3d",
@@ -467,6 +441,14 @@
       "tags": [
         "UAE"
       ]
+    },
+    {
+      "id": "gdelt_dc60ade863f9b56e",
+      "headline": "Insolvency And Bankruptcy Code ( Amendment ) Act , 2026 – Comprehensive Analysis",
+      "url": "https://www.livelaw.in/articles/insolvency-bankruptcy-code-amendment-act2026-comprehensive-analysis-529563",
+      "published_at": "20260410T171500Z",
+      "source": "livelaw.in",
+      "tags": []
     },
     {
       "id": "gdelt_5dce1b9c8314d93f",
@@ -573,6 +555,16 @@
       "tags": []
     },
     {
+      "id": "gdelt_e345ab8071b6863f",
+      "headline": "China sees solid rise in cross - border travel in Q1 , with foreign national trips surging",
+      "url": "http://www.hongkongherald.com/news/278975895/china-sees-solid-rise-in-cross-border-travel-in-q1-with-foreign-national-trips-surging",
+      "published_at": "20260410T173000Z",
+      "source": "hongkongherald.com",
+      "tags": [
+        "CHINA"
+      ]
+    },
+    {
       "id": "gdelt_4d4315b2b640c3ac",
       "headline": "美智庫 ： 中共持續支援伊朗重建飛彈 | 中共 | 大紀元 | 飛彈",
       "url": "http://www.epochtimes.com.tw/n500224/%E7%BE%8E%E6%99%BA%E5%BA%AB-%E4%B8%AD%E5%85%B1%E6%8C%81%E7%BA%8C%E6%94%AF%E6%8F%B4%E4%BC%8A%E6%9C%97%E9%87%8D%E5%BB%BA%E9%A3%9B%E5%BD%88.html",
@@ -597,19 +589,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_666711ffb4a9bee0",
-      "headline": "FinancialContent - The March Shock : European Natural Gas Prices Skyrocket 59 . 4 % Amidst Geopolitical Siege",
-      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-4-10-the-march-shock-european-natural-gas-prices-skyrocket-594-amidst-geopolitical-siege",
-      "published_at": "20260410T143000Z",
-      "source": "markets.financialcontent.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_d16c5b22ec598035",
       "headline": "Экс - премьер Британии о провале с задержанием танкеров :  Путин смеется над нами",
       "url": "https://utro.ru/news/politics/2026/04/10/1570909.shtml",
       "published_at": "20260410T133000Z",
       "source": "utro.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_666711ffb4a9bee0",
+      "headline": "FinancialContent - The March Shock : European Natural Gas Prices Skyrocket 59 . 4 % Amidst Geopolitical Siege",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-4-10-the-march-shock-european-natural-gas-prices-skyrocket-594-amidst-geopolitical-siege",
+      "published_at": "20260410T143000Z",
+      "source": "markets.financialcontent.com",
       "tags": []
     },
     {
@@ -635,6 +627,14 @@
       "headline": "وزير الخارجية البلجيكي : استثناء الساحة اللبنانية من التهدئة غير مقبول",
       "url": "https://www.dostor.org/5500220",
       "published_at": "20260410T141500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_66d952872c25734c",
+      "headline": "رئيس تعليم الشيوخ : مصر في عهد السيسي شريك ووسيط يحظي بثقة جميع الأطراف",
+      "url": "https://www.dostor.org/5500357",
+      "published_at": "20260410T170000Z",
       "source": "dostor.org",
       "tags": []
     },
@@ -667,11 +667,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_3f2bde9ba596f1b0",
-      "headline": "Nahost - Konflikt und Tourismus : Ifo : Stimmung in Reisebranche bricht ein",
-      "url": "https://www.rnz.de/politik/wirtschaft-regional_artikel,-Nahost-Konflikt-und-Tourismus-Ifo-Stimmung-in-Reisebranche-bricht-ein-_arid,2212522.html",
-      "published_at": "20260410T111500Z",
-      "source": "rnz.de",
+      "id": "gdelt_3d5d2f2b81990c52",
+      "headline": "Suriye ile Türkiye Arasında  Muhabir Banka  Dönemi : Finansal Engeller Aşılıyor",
+      "url": "https://sana.sy/tr/economy/2291402/",
+      "published_at": "20260410T171500Z",
+      "source": "sana.sy",
       "tags": []
     },
     {
@@ -680,6 +680,14 @@
       "url": "https://www.index.hr/vijesti/clanak/plenkovic-najavljuje-plivajuci-pdv-za-gorivo-objavljeni-detalji/2780570.aspx",
       "published_at": "20260410T143000Z",
       "source": "index.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6d6c90519dc7d600",
+      "headline": "تفجير بناية سكنية داخل مخيم طولكرم وسط حصار متواصل",
+      "url": "https://palinfo.com/news/2026/04/10/1105731/",
+      "published_at": "20260410T171500Z",
+      "source": "palinfo.com",
       "tags": []
     },
     {
@@ -723,27 +731,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_42d0dc1d99736d54",
-      "headline": "海南自贸港低空经济专场招商大会4月14日在海口举行 - 南海网",
-      "url": "https://www.hinews.cn/page?n=2815141&m=1&s=1044",
-      "published_at": "20260410T120000Z",
-      "source": "hinews.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0fc8c6a2cf8d2ef5",
-      "headline": "海南自贸港低空经济专场招商大会4月14日在海口举行 - 南海网",
-      "url": "https://www.hinews.cn:443/page?n=2815141&m=1&s=1044",
-      "published_at": "20260410T120000Z",
-      "source": "hinews.cn",
-      "tags": []
-    },
-    {
       "id": "gdelt_4e98c844ffc20d0d",
       "headline": "Штрафи і цифровий контроль : уряд і Рада по - різному бачать підхід до фінансових порушень",
       "url": "https://sud.ua/uk/news/publication/358128-shtrafy-i-tsifrovoy-kontrol-pravitelstvo-i-rada-po-raznomu-vidyat-podkhod-k-finansovym-narusheniyam",
       "published_at": "20260410T160000Z",
       "source": "sud.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_18f0805819325dba",
+      "headline": "Trinidad y Tobago reconoce a Delcy Rodríguez y enviará delegación a Caracas",
+      "url": "https://www.eluniversal.com.co/mundo/2026/04/10/trinidad-y-tobago-reconoce-a-delcy-rodriguez-y-enviara-delegacion-a-caracas/",
+      "published_at": "20260410T171500Z",
+      "source": "eluniversal.com.co",
       "tags": []
     },
     {
@@ -768,6 +768,14 @@
       "url": "https://www.wort.lu/international/grosser-ukrainischer-drohnenangriff-auf-russland/8183959.html",
       "published_at": "20260410T124500Z",
       "source": "wort.lu",
+      "tags": []
+    },
+    {
+      "id": "gdelt_40933f8969d9ef1a",
+      "headline": "Schneider Electric Perspectives Day Asia Reframes Risk",
+      "url": "https://www.3blmedia.com/news/schneider-electrics-perspectives-day-asia-reframes-risk",
+      "published_at": "20260410T171500Z",
+      "source": "3blmedia.com",
       "tags": []
     },
     {
@@ -805,16 +813,6 @@
       "published_at": "20260410T140000Z",
       "source": "runews24.ru",
       "tags": []
-    },
-    {
-      "id": "gdelt_1457841b2b8d24aa",
-      "headline": "TotalEnergies shuts Saudi refinery after damage from Middle East attacks",
-      "url": "https://economictimes.indiatimes.com/news/international/business/totalenergies-shuts-saudi-refinery-after-damage-from-middle-east-attacks/articleshow/130167311.cms",
-      "published_at": "20260410T111500Z",
-      "source": "economictimes.indiatimes.com",
-      "tags": [
-        "SAUDI_ARABIA"
-      ]
     },
     {
       "id": "gdelt_29dd6d4522fbf41f",
@@ -862,6 +860,14 @@
       "url": "https://focus.ua/uk/lifestyle/750308-volodimir-ostapchuk-emigruye-do-kanadi-shcho-vidomo-pro-yogo-zhittya",
       "published_at": "20260410T124500Z",
       "source": "focus.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4019ebe1b156300d",
+      "headline": "Zelenskiy : Druzhba petrol boru hattı bahar aylarında onarılmış olacak",
+      "url": "https://tr.euronews.com/2026/04/10/zelenskiy-druzhba-petrol-boru-hatti-bahar-aylarinda-onarilmis-olacak",
+      "published_at": "20260410T171500Z",
+      "source": "tr.euronews.com",
       "tags": []
     },
     {
@@ -969,22 +975,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_bf5353dffa4e6ea3",
-      "headline": "Kalimi në Hormuz me pagesë në kriptovaluta , plani i ri i Iranit",
-      "url": "https://telegrafi.com/kalimi-ne-hormuz-me-pagese-ne-kriptovaluta-plani-i-ri-i-iranit/",
-      "published_at": "20260410T120000Z",
-      "source": "telegrafi.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1af5be6c25368d01",
-      "headline": "Ucrania confía en cerrar pronto un acuerdo :  Ahora todos comprenden los límites de lo que es aceptable",
-      "url": "https://www.larazon.es/internacional/ucrania-confia-cerrar-pronto-acuerdo-ahora-todos-comprenden-limites-que-aceptable_2026041069d921689e87c91dbfefecc6.html",
-      "published_at": "20260410T163000Z",
-      "source": "larazon.es",
-      "tags": []
-    },
-    {
       "id": "gdelt_622cd36d7c3985b7",
       "headline": "రష్యాలో చిక్కుకుపోయిన 26 మంది భారతీయులు .. కేంద్రాన్ని వివరణ కోరిన సుప్రీంకోర్టు | SC seeks centres response on plea to repatriate Indians allegedly forced by Russia to fight Ukraine AVR",
       "url": "https://www.andhrajyothy.com/2026/national/sc-seeks-centres-response-on-plea-to-repatriate-indians-allegedly-forced-by-russia-to-fight-ukraine-avr-1512456.html",
@@ -996,19 +986,19 @@
       ]
     },
     {
+      "id": "gdelt_1af5be6c25368d01",
+      "headline": "Ucrania confía en cerrar pronto un acuerdo :  Ahora todos comprenden los límites de lo que es aceptable",
+      "url": "https://www.larazon.es/internacional/ucrania-confia-cerrar-pronto-acuerdo-ahora-todos-comprenden-limites-que-aceptable_2026041069d921689e87c91dbfefecc6.html",
+      "published_at": "20260410T163000Z",
+      "source": "larazon.es",
+      "tags": []
+    },
+    {
       "id": "gdelt_661574b833f87ca7",
       "headline": "Гаага рассматривает отправку войск для защиты Ормузского пролива",
       "url": "https://wek.ru/gaaga-rassmatrivaet-otpravku-vojsk-dlya-zashhity-ormuzskogo-proliva",
       "published_at": "20260410T144500Z",
       "source": "wek.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7796c15ef4f9f890",
-      "headline": "Это очевидно . На Западе раскрыли , что произошло с Трампом из - за Ирана",
-      "url": "https://ria.ru/20260410/tramp-2086390439.html",
-      "published_at": "20260410T143000Z",
-      "source": "ria.ru",
       "tags": []
     },
     {
@@ -1020,11 +1010,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_e5f47a7b1fbd8577",
-      "headline": "Middle East crisis has given Iran new way to resist nuclear limits , say former US - Iran envoys",
-      "url": "https://www.theguardian.com/world/2026/apr/10/middle-east-crisis-has-given-iran-new-way-to-resist-nuclear-limits-say-former-us-iran-envoys",
-      "published_at": "20260410T120000Z",
-      "source": "theguardian.com",
+      "id": "gdelt_7796c15ef4f9f890",
+      "headline": "Это очевидно . На Западе раскрыли , что произошло с Трампом из - за Ирана",
+      "url": "https://ria.ru/20260410/tramp-2086390439.html",
+      "published_at": "20260410T143000Z",
+      "source": "ria.ru",
       "tags": []
     },
     {
@@ -1033,6 +1023,14 @@
       "url": "https://www.shorouknews.com/news/view.aspx?cdate=10042026&id=7a531692-a417-4aa2-ad83-d01a2d24a545",
       "published_at": "20260410T163000Z",
       "source": "shorouknews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a788d5110fb5cc3d",
+      "headline": "Kisah Arif , Disabilitas Netra Dulu Ditolak 2 SD Kini Berhasil Jadi Awardee LPDP",
+      "url": "https://www.kompas.com/edu/read/2026/04/10/190000071/kisah-arif-disabilitas-netra-dulu-ditolak-2-sd-kini-berhasil-jadi-awardee",
+      "published_at": "20260410T123000Z",
+      "source": "kompas.com",
       "tags": []
     }
   ]
