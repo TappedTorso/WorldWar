@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-04-11T07:57:50Z",
+    "generated_at_utc": "2026-04-11T09:56:54Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "http_error status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
         "fetched": 0
       },
       {
@@ -19,7 +19,7 @@
       }
     ],
     "fetched_articles": 120,
-    "previous_event_count": 119,
+    "previous_event_count": 120,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -33,22 +33,6 @@
   },
   "events": [
     {
-      "id": "gdelt_b53a6528addef91e",
-      "headline": "Trump considering US troop pullout from Europe",
-      "url": "https://www.khaama.com/trump-considering-partial-us-troop-pullout-from-europe/",
-      "published_at": "20260411T024500Z",
-      "source": "khaama.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_75f02dffb8cf2938",
-      "headline": "Эстония отказалась задерживать российские танкеры",
-      "url": "https://korrespondent.net/world/4870006-estonyia-otkazalas-zaderzhyvat-rossyiskye-tankery",
-      "published_at": "20260411T030000Z",
-      "source": "korrespondent.net",
-      "tags": []
-    },
-    {
       "id": "gdelt_f5bad9001ad5a6ed",
       "headline": "Глава ВМС Эстонии заявил об отказе задерживать российские суда в Балтийском море",
       "url": "http://govoritmoskva.ru/news/488702/",
@@ -57,20 +41,23 @@
       "tags": []
     },
     {
-      "id": "gdelt_cc8bc58f961201d9",
-      "headline": "Эстония решила не задерживать суда РФ в Балтийском море из - за риска эскалации , примитивно струсив",
-      "url": "https://7freiheit.livejournal.com/2603839.html",
-      "published_at": "20260411T030000Z",
-      "source": "7freiheit.livejournal.com",
+      "id": "gdelt_bf3154e942dd229c",
+      "headline": "Эстония отказалась задерживать российские суда из - за риска эскалации",
+      "url": "https://wek.ru/yestoniya-otkazalas-zaderzhivat-rossijskie-suda-iz-za-riska-yeskalacii",
+      "published_at": "20260411T091500Z",
+      "source": "wek.ru",
       "tags": []
     },
     {
-      "id": "gdelt_98f374513e58d512",
-      "headline": "Nation expands pilot FTZ network to 23",
-      "url": "http://europe.chinadaily.com.cn/a/202604/11/WS69d98c06a310d6866eb42d3c.html",
-      "published_at": "20260411T021500Z",
-      "source": "europe.chinadaily.com.cn",
-      "tags": []
+      "id": "gdelt_105313354fdd1978",
+      "headline": "What are the main talking points at the US - Iran negotiations in Pakistan ?",
+      "url": "https://www.marketscreener.com/news/what-are-the-main-talking-points-at-the-us-iran-negotiations-in-pakistan-ce7e50d9dc8cf72d",
+      "published_at": "20260411T091500Z",
+      "source": "marketscreener.com",
+      "tags": [
+        "IRAN",
+        "PAKISTAN"
+      ]
     },
     {
       "id": "gdelt_7cc4fde8a36668d6",
@@ -84,6 +71,14 @@
       ]
     },
     {
+      "id": "gdelt_6a1db23fcdc8f62e",
+      "headline": "Qianhai Shenzhen - Hong Kong Youth Innovation and Entrepreneur Hub Debuts at GITEX AI ASIA",
+      "url": "https://portal.sina.com.hk/finance/finance-prnewswire/prnasia/2026/04/11/1687118/qianhai-shenzhen-hong-kong-youth-innovation-and-entrepreneur-hub-debuts-at-gitex-ai-asia/",
+      "published_at": "20260411T083000Z",
+      "source": "portal.sina.com.hk",
+      "tags": []
+    },
+    {
       "id": "gdelt_5ecb644ce043fede",
       "headline": "Тіньовий флот РФ - Естонія не затримуватиме судна в Балтійському морі",
       "url": "https://zn.ua/ukr/WORLD/riziki-zanadto-visoki-estonija-pro-zatrimannja-tankeriv-tinovoho-flotu-rf.html",
@@ -92,15 +87,23 @@
       "tags": []
     },
     {
-      "id": "gdelt_7dc11d5a658710f9",
-      "headline": "Vereinte Nationen : UN - Chef vor Gesprächen : united states und Iran sollten Chance nutzen",
-      "url": "https://www.wiwo.de/politik/ausland/vereinte-nationen-un-chef-vor-gespraechen-usa-und-iran-sollten-chance-nutzen/100216034.html",
-      "published_at": "20260411T021500Z",
-      "source": "wiwo.de",
+      "id": "gdelt_2b111408156025a5",
+      "headline": "What At Stake In Hungary Election For Ukraine And Russia",
+      "url": "https://www.forbes.com/sites/davidkirichenko/2026/04/11/whats-at-stake-in-hungarys-election-for-ukraine-and-russia/",
+      "published_at": "20260411T080000Z",
+      "source": "forbes.com",
       "tags": [
-        "IRAN",
-        "UNITED_STATES"
+        "RUSSIA",
+        "UKRAINE"
       ]
+    },
+    {
+      "id": "gdelt_0fcfa87bd4fde743",
+      "headline": "La globalizzazione è davvero finita ? I dati dicono unaltra cosa",
+      "url": "https://www.money.it/la-globalizzazione-e-davvero-finita-i-dati-dicono-un-altra-cosa",
+      "published_at": "20260411T080000Z",
+      "source": "money.it",
+      "tags": []
     },
     {
       "id": "gdelt_2ade5fcfbb892c75",
@@ -113,16 +116,6 @@
       ]
     },
     {
-      "id": "gdelt_9a801bd9833938e2",
-      "headline": "Vereinte Nationen : UN - Chef vor Gesprächen : united states und Iran sollten Chance nutzen",
-      "url": "https://www.handelsblatt.com/politik/international/vereinte-nationen-un-chef-vor-gespraechen-usa-und-iran-sollten-chance-nutzen/100216033.html",
-      "published_at": "20260411T021500Z",
-      "source": "handelsblatt.com",
-      "tags": [
-        "UNITED_STATES"
-      ]
-    },
-    {
       "id": "gdelt_e1b69c18d2cc53a7",
       "headline": "За сутки в Курской области ликвидировали 17 вражеских БПЛА",
       "url": "https://www.vesti.ru/ns/za-sutki-v-kurskoj-oblasti-likvidirovali-17-vrazheskikh-bpla",
@@ -131,22 +124,28 @@
       "tags": []
     },
     {
-      "id": "gdelt_52a54c670f65012d",
-      "headline": "Economy , forex sector move to higher - level opening - up",
-      "url": "http://europe.chinadaily.com.cn/a/202604/11/WS69d98b36a310d6866eb42d37.html",
-      "published_at": "20260411T021500Z",
-      "source": "europe.chinadaily.com.cn",
+      "id": "gdelt_6a81291ad1a66297",
+      "headline": "What on the table as US - Iran talks begin in Islamabad",
+      "url": "https://www.geo.tv/latest/659471-whats-on-the-table-as-us-iran-talks-begin-in-islamabad",
+      "published_at": "20260411T080000Z",
+      "source": "geo.tv",
       "tags": []
     },
     {
-      "id": "gdelt_ac6914da44f18041",
-      "headline": "UN - Chef vor Gesprächen : united states und Iran sollten Chance nutzen",
-      "url": "https://www.nw.de/nachrichten/politik/24308684_UN-Chef-vor-Gespraechen-USA-und-Iran-sollten-Chance-nutzen.html",
-      "published_at": "20260411T021500Z",
-      "source": "nw.de",
-      "tags": [
-        "UNITED_STATES"
-      ]
+      "id": "gdelt_93dc1b530a4fd634",
+      "headline": "Ameliyatsız  Parkinson  tedavisi mümkün ! Uzman isim anlattı",
+      "url": "https://www.haber7.com/saglik/haber/3619124-ameliyatsiz-parkinson-tedavisi-mumkun-uzman-isim-anlatti",
+      "published_at": "20260411T080000Z",
+      "source": "haber7.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fe666b81a0ff3f3f",
+      "headline": "Москалькова : Переговоры по возвращению курян из плена были нелёгкими",
+      "url": "https://life.ru/p/1862303",
+      "published_at": "20260411T091500Z",
+      "source": "life.ru",
+      "tags": []
     },
     {
       "id": "gdelt_378c228c83619e69",
@@ -165,11 +164,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_08e5b3598eaefeec",
-      "headline": "Vereinte Nationen : UN - Chef vor Gesprächen : united states und Iran sollten Chance nutzen - Politik",
-      "url": "https://www.rhein-zeitung.de/deutschland-welt/politik/un-chef-vor-gespraechen-usa-und-iran-sollten-chance-nutzen_arid-4117642.html",
-      "published_at": "20260411T021500Z",
-      "source": "rhein-zeitung.de",
+      "id": "gdelt_458a6177f9558c5e",
+      "headline": "تقارير استخباراتية أمريكية تكشف عن شحنات صواريخ صينية لإيران | أخبار",
+      "url": "https://www.aljazeera.net/news/2026/4/11/%D8%A7%D8%B3%D8%AA%D8%AE%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9-%D8%A7%D9%84%D8%B5%D9%8A%D9%86-%D8%AA%D8%B3%D8%AA%D8%B9%D8%AF-%D9%84%D8%A5%D8%B1%D8%B3%D8%A7%D9%84",
+      "published_at": "20260411T091500Z",
+      "source": "aljazeera.net",
       "tags": []
     },
     {
@@ -178,7 +177,9 @@
       "url": "https://www.gazetaprawna.pl/wiadomosci/swiat/artykuly/11231632,chiny-zaprzeczaja-ale-usa-maja-dane-chodzi-o-bron-dla-iranu.html",
       "published_at": "20260411T071500Z",
       "source": "gazetaprawna.pl",
-      "tags": []
+      "tags": [
+        "UNITED_STATES"
+      ]
     },
     {
       "id": "gdelt_c61019c1ab3662cf",
@@ -194,24 +195,6 @@
       "url": "https://www.internethaber.com/medipolden-ameliyatsiz-parkinson-tedavisi-artik-cozumsuz-degil-2438956h.htm",
       "published_at": "20260411T071500Z",
       "source": "internethaber.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c524b64b78b393cf",
-      "headline": "Welche Rolle spielt Pakistan bei den Iran - Gesprächen ?",
-      "url": "https://www.weser-kurier.de/politik/ausland/welche-rolle-spielt-pakistan-bei-den-iran-gespraechen-doc85cnseq873di4b5gkv8",
-      "published_at": "20260411T033000Z",
-      "source": "weser-kurier.de",
-      "tags": [
-        "PAKISTAN"
-      ]
-    },
-    {
-      "id": "gdelt_9ba852b32753d0ba",
-      "headline": "UN - Chef vor Gesprächen : united states und Iran sollten Chance nutzen",
-      "url": "https://www.nwzonline.de/politik-meldungen/vereinte-nationen-un-chef-vor-gespraechen-usa-und-iran-sollten-chance-nutzen_a_4,3,153078202.html",
-      "published_at": "20260411T033000Z",
-      "source": "nwzonline.de",
       "tags": []
     },
     {
@@ -231,19 +214,37 @@
       "tags": []
     },
     {
-      "id": "gdelt_e98bb862b9abcebb",
-      "headline": "UN - Chef vor Gesprächen : united states und Iran sollten Chance nutzen",
-      "url": "https://www.fnweb.de/politik_artikel,-politik-un-chef-vor-gespraechen-usa-und-iran-sollten-chance-nutzen-_arid,2369363.html",
-      "published_at": "20260411T021500Z",
-      "source": "fnweb.de",
+      "id": "gdelt_9d0298457915d6fc",
+      "headline": "Пункт пропуска  Полтавка  в Приморье временно закроют для грузового транспорта",
+      "url": "https://primamedia.ru/news/2459825/",
+      "published_at": "20260411T083000Z",
+      "source": "primamedia.ru",
       "tags": []
     },
     {
-      "id": "gdelt_32ec53348f427985",
-      "headline": "Москалькова заявила о намерении рассказать в ООН об атаках ВСУ на гражданских :: Новости дня / ВЗГЛЯД",
-      "url": "https://vz.ru/news/2026/4/11/1409922.html",
-      "published_at": "20260411T033000Z",
-      "source": "vz.ru",
+      "id": "gdelt_bdb6f93cda5277d5",
+      "headline": "Urumqi talks and the hard truth about Afghanistan",
+      "url": "https://tribune.com.pk/story/2602084/urumqi-talks-and-the-hard-truth-about-afghanistan",
+      "published_at": "20260411T074500Z",
+      "source": "tribune.com.pk",
+      "tags": [
+        "AFGHANISTAN"
+      ]
+    },
+    {
+      "id": "gdelt_72fc6d6480517bfe",
+      "headline": "Težave in izzivi čezmejnega zdravstva",
+      "url": "https://www.primorski.eu/goriska/tezave-in-izzivi-cezmejnega-zdravstva-CF2160994",
+      "published_at": "20260411T091500Z",
+      "source": "primorski.eu",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8c19f811e68da63e",
+      "headline": "Težave in izzivi čezmejnega zdravstva",
+      "url": "http://www.primorski.eu/goriska/tezave-in-izzivi-cezmejnega-zdravstva-CF2160994",
+      "published_at": "20260411T091500Z",
+      "source": "primorski.eu",
       "tags": []
     },
     {
@@ -252,6 +253,32 @@
       "url": "https://www.preberi.si/content/view/133934208-Tezave-in-izzivi-cezmejnega-zdravstva.html",
       "published_at": "20260411T071500Z",
       "source": "preberi.si",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b8095c3013f2a801",
+      "headline": "Three killed in Israeli strike on south Lebanon amid Iran - US talks",
+      "url": "https://pakobserver.net/three-killed-in-israeli-strike-on-south-lebanon-amid-iran-us-talks/",
+      "published_at": "20260411T083000Z",
+      "source": "pakobserver.net",
+      "tags": [
+        "LEBANON"
+      ]
+    },
+    {
+      "id": "gdelt_59c8d5092dcfc83f",
+      "headline": "Larmée nationale participe du 13 au 29 avril à lexercice militaire  African Lion 2026",
+      "url": "https://africanmanager.com/larmee-nationale-participe-du-13-au-29-avril-a-lexercice-militaire-african-lion-2026/",
+      "published_at": "20260411T083000Z",
+      "source": "africanmanager.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_168fd07258b3c1c4",
+      "headline": "Más de 1 , 5 millones de euros para el proyecto THESILO que transformará silos en sistemas de almacenamiento energético en Extremadura",
+      "url": "https://www.elperiodicoextremadura.com/caceres/2026/04/11/1-5-millones-euros-proyecto-128956201.html",
+      "published_at": "20260411T083000Z",
+      "source": "elperiodicoextremadura.com",
       "tags": []
     },
     {
@@ -281,6 +308,14 @@
       ]
     },
     {
+      "id": "gdelt_040ad7eb589ed3d4",
+      "headline": "Российский омбудсмен обсудит с ООН обстрелы гражданских объектов",
+      "url": "https://wek.ru/rossijskij-ombudsmen-obsudit-s-oon-obstrely-grazhdanskix-obektov",
+      "published_at": "20260411T091500Z",
+      "source": "wek.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_b1078aa6e6643b25",
       "headline": "ВС России изменили тактику атак « Геранями »",
       "url": "https://lenta.ru/news/2026/04/11/vs-rossii-izmenili-taktiku-atak-geranyami/",
@@ -297,11 +332,37 @@
       "tags": []
     },
     {
-      "id": "gdelt_40b186f83ac4b656",
-      "headline": "Швейцария зарабатывает на обходе санкций против РФ через дочерние компании | MigNews - Новости Израиля и Мира на русском языке",
-      "url": "https://mignews.com/news/economics/shvejcariya-zarabatyvaet-na-obhode-sankcij-protiv-rf-cherez-dochernie-kompanii.html",
-      "published_at": "20260411T024500Z",
-      "source": "mignews.com",
+      "id": "gdelt_205a738ea9ca9b4f",
+      "headline": "Fintech z Polski rozjeżdża europejski system finansowy ? Widać lukę w przepisach",
+      "url": "https://www.wnp.pl/rynki/paszport-i-luka-w-przepisach-tak-fintech-z-polski-testuje-europejski-system-finansowy,1051180.html",
+      "published_at": "20260411T093000Z",
+      "source": "wnp.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2924db816cf2d54b",
+      "headline": "Для Путіна падіння Ірану стане непоправною втратою , – NYT",
+      "url": "https://www.unian.ua/world/dlya-rosiji-padinnya-iranu-stane-nepopravnoyu-vtratoyu-nyt-13345521.html",
+      "published_at": "20260411T083000Z",
+      "source": "unian.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_04767fa1e756c00c",
+      "headline": "There people dying for your petrol : while Israel bombs Beirut , Lebanese Australians feel outrage and fear | Islamophobia",
+      "url": "https://www.theguardian.com/news/2026/apr/11/lebanese-australians-reaction-israel-bombing-beirut-ntwnfb",
+      "published_at": "20260411T093000Z",
+      "source": "theguardian.com",
+      "tags": [
+        "ISRAEL"
+      ]
+    },
+    {
+      "id": "gdelt_28dface6e110859a",
+      "headline": "Iran , US teams in Islamabad for talks amid stalemate",
+      "url": "https://www.jagonews24.com/en/international/news/91702",
+      "published_at": "20260411T083000Z",
+      "source": "jagonews24.com",
       "tags": []
     },
     {
@@ -309,6 +370,14 @@
       "headline": "Neues IT - System verweigert zehntausenden Ausländern die Einreise",
       "url": "http://www.merkur.de/wirtschaft/einreise-eu-grenzschutz-system-it-europa-asyl-migration-auslaender-fluechtlinge-schengen-zr-94257343.html",
       "published_at": "20260411T063000Z",
+      "source": "merkur.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_30ee9dce20e78a74",
+      "headline": "Neues IT - System verweigert zehntausenden Ausländern die Einreise",
+      "url": "https://www.merkur.de/wirtschaft/einreise-eu-grenzschutz-system-it-europa-asyl-migration-auslaender-fluechtlinge-schengen-zr-94257343.html",
+      "published_at": "20260411T074500Z",
       "source": "merkur.de",
       "tags": []
     },
@@ -329,12 +398,15 @@
       "tags": []
     },
     {
-      "id": "gdelt_faaad86e2ad45c98",
-      "headline": "« Риск слишком высок »: Эстония не будет задерживать российские суда из - за страха эскалации",
-      "url": "https://news.mail.ru/society/70499490/",
-      "published_at": "20260411T024500Z",
-      "source": "news.mail.ru",
-      "tags": []
+      "id": "gdelt_ba47b6429b1eeb49",
+      "headline": "Ukraine Strikes Cancel Out Russia Oil Windfall – Zelensky Envoy",
+      "url": "https://www.kyivpost.com/post/73712",
+      "published_at": "20260411T083000Z",
+      "source": "kyivpost.com",
+      "tags": [
+        "RUSSIA",
+        "UKRAINE"
+      ]
     },
     {
       "id": "gdelt_16a58156d5eadb2b",
@@ -355,6 +427,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_d408c71b7c7738de",
+      "headline": "Refugee or infiltrator ? Abhishek presses BJP over Sheikh Hasina",
+      "url": "https://www.jagonews24.com/en/international/news/91701",
+      "published_at": "20260411T083000Z",
+      "source": "jagonews24.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_99b5464acf2538bf",
       "headline": "CJI Surya Kant emphasises need to regulate use of AI in arbitration",
       "url": "https://www.tribuneindia.com/news/india/cji-surya-kant-emphasises-need-to-regulate-use-of-ai-in-arbitration/",
@@ -362,16 +442,6 @@
       "source": "tribuneindia.com",
       "tags": [
         "INDIA"
-      ]
-    },
-    {
-      "id": "gdelt_a45e81093dbf2983",
-      "headline": "China launches new pilot FTZ in historic step toward northern opening up",
-      "url": "http://en.people.cn/n3/2026/0411/c90000-20445591.html",
-      "published_at": "20260411T021500Z",
-      "source": "en.people.cn",
-      "tags": [
-        "CHINA"
       ]
     },
     {
@@ -400,7 +470,9 @@
       "url": "http://www.russiaherald.com/news/278976490/china-launches-new-pilot-ftz-in-historic-step-toward-northern-opening-up",
       "published_at": "20260411T051500Z",
       "source": "russiaherald.com",
-      "tags": []
+      "tags": [
+        "CHINA"
+      ]
     },
     {
       "id": "gdelt_db8ca03c57732d68",
@@ -408,6 +480,30 @@
       "url": "http://www.australiannews.net/news/278976490/china-launches-new-pilot-ftz-in-historic-step-toward-northern-opening-up",
       "published_at": "20260411T041500Z",
       "source": "australiannews.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_25a5b9bff889548c",
+      "headline": "China launches new pilot FTZ in historic step toward northern opening up",
+      "url": "http://www.nepalnational.com/news/278976490/china-launches-new-pilot-ftz-in-historic-step-toward-northern-opening-up",
+      "published_at": "20260411T074500Z",
+      "source": "nepalnational.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6183ec192a700f82",
+      "headline": "China launches new pilot FTZ in historic step toward northern opening up",
+      "url": "http://www.afghanistannews.net/news/278976490/china-launches-new-pilot-ftz-in-historic-step-toward-northern-opening-up",
+      "published_at": "20260411T071500Z",
+      "source": "afghanistannews.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f45785e8b2858a05",
+      "headline": "China launches new pilot FTZ in historic step toward northern opening up",
+      "url": "http://www.afghanistansun.com/news/278976490/china-launches-new-pilot-ftz-in-historic-step-toward-northern-opening-up",
+      "published_at": "20260411T063000Z",
+      "source": "afghanistansun.com",
       "tags": []
     },
     {
@@ -427,14 +523,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_f45785e8b2858a05",
-      "headline": "China launches new pilot FTZ in historic step toward northern opening up",
-      "url": "http://www.afghanistansun.com/news/278976490/china-launches-new-pilot-ftz-in-historic-step-toward-northern-opening-up",
-      "published_at": "20260411T063000Z",
-      "source": "afghanistansun.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_8b35384c3740a554",
       "headline": "China launches new pilot FTZ in historic step toward northern opening up",
       "url": "http://www.vietnamtribune.com/news/278976490/china-launches-new-pilot-ftz-in-historic-step-toward-northern-opening-up",
@@ -451,43 +539,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_6183ec192a700f82",
-      "headline": "China launches new pilot FTZ in historic step toward northern opening up",
-      "url": "http://www.afghanistannews.net/news/278976490/china-launches-new-pilot-ftz-in-historic-step-toward-northern-opening-up",
-      "published_at": "20260411T071500Z",
-      "source": "afghanistannews.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_32fba79162be1aa6",
-      "headline": "WFH Perdana ASN di Kota Surabaya , Dipantau Lewat GPS dan Kirim Laporan Hasil Kinerja",
-      "url": "https://surabaya.bisnis.com/read/20260411/531/1965835/wfh-perdana-asn-di-kota-surabaya-dipantau-lewat-gps-dan-kirim-laporan-hasil-kinerja",
-      "published_at": "20260411T030000Z",
-      "source": "surabaya.bisnis.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_60244a2ab535d538",
-      "headline": "当你把同事做成  数字分身 ： 谁在越界 ， 谁在缺席 ？ |张雪峰|AI",
-      "url": "https://finance.sina.com.cn/tech/roll/2026-04-11/doc-inhuauvh7700335.shtml",
-      "published_at": "20260411T034500Z",
-      "source": "finance.sina.com.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_951b1a31cb94cf76",
-      "headline": "当你把同事做成  数字分身 ： 谁在越界 ， 谁在缺席 ？ |刘军|张雪峰|陈楸帆|博尔赫斯|托尔斯泰|埃隆 _ 马斯克",
-      "url": "https://www.163.com/dy/article/KQ7SAL1M055284JB.html",
-      "published_at": "20260411T034500Z",
-      "source": "163.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e5411b1f82b59593",
-      "headline": "当你把同事做成  数字分身 ： 谁在越界 ， 谁在缺席 ？ |刘军|张雪峰|陈楸帆|博尔赫斯|托尔斯泰|埃隆 _ 马斯克",
-      "url": "https://www.163.com/dy/article/KQ7RS5RR0512D3VJ.html",
-      "published_at": "20260411T033000Z",
-      "source": "163.com",
+      "id": "gdelt_6f63f61bf5f2d14f",
+      "headline": "ΕΕ : Εμπορικές υπηρεσίες αξίας €5 , 9 τρισ . το 2023 & Πλεόνασμα €605 δισ .",
+      "url": "https://www.reporter.gr/diethnh/diethneis-eidhseis/671746-ee-emporikes-ypiresies-aksias-5-9-tris-to-2023-pleonasma-605-dis",
+      "published_at": "20260411T083000Z",
+      "source": "reporter.gr",
       "tags": []
     },
     {
@@ -499,12 +555,50 @@
       "tags": []
     },
     {
-      "id": "gdelt_b161b9b01969bfbd",
-      "headline": "华为AI眼镜即将登场 ！ 何刚实拍展示 解放双手功能强大引期待 - 手机快报 - ITBear比尔科技",
-      "url": "https://www.itbear.com.cn/html/2026-04/1270430.html",
-      "published_at": "20260411T021500Z",
-      "source": "itbear.com.cn",
+      "id": "gdelt_075d3ba95d190a94",
+      "headline": "« Ώρα μηδέν » για ΗΠΑ – Ιράν : Στο Πακιστάν οι κρίσιμες συνομιλίες – Απειλές Τραμπ , τελεσίγραφα και φόβος νέας ανάφλεξης στη Μέση Ανατολή",
+      "url": "https://www.eleftherostypos.gr/diethni/ora-miden-gia-ipa-iran-sto-pakistan-oi-krisimes-synomilies-apeiles-trab-telesigrafa-kai-fovos-neas-anaflexis-sti-mesi-anatoli",
+      "published_at": "20260411T083000Z",
+      "source": "eleftherostypos.gr",
       "tags": []
+    },
+    {
+      "id": "gdelt_796b66f3a1e9eb81",
+      "headline": "Iran - Gespräche in Islamabad : Verhandlungen mit vielen Hürden",
+      "url": "https://www.tagesschau.de/ausland/asien/pakistan-verhandlungen-iran-usa-100.html",
+      "published_at": "20260411T080000Z",
+      "source": "tagesschau.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_42df892a7eb0b83d",
+      "headline": "India accounts for 49 pc of global real time digital payments as UPI turns 10",
+      "url": "https://www.prokerala.com/news/articles/a1749700.html",
+      "published_at": "20260411T093000Z",
+      "source": "prokerala.com",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
+      "id": "gdelt_e6d647d4e376e176",
+      "headline": "Putins Trump - Karte in Gefahr : united states könnten Russland - Zölle reaktivieren",
+      "url": "http://www.merkur.de/wirtschaft/putins-trump-karte-in-gefahr-usa-koennten-russland-zoelle-reaktivieren-94257441.html",
+      "published_at": "20260411T091500Z",
+      "source": "merkur.de",
+      "tags": [
+        "UNITED_STATES"
+      ]
+    },
+    {
+      "id": "gdelt_333f738a6a6779e0",
+      "headline": "Putins Trump - Karte in Gefahr : united states könnten Russland - Zölle reaktivieren",
+      "url": "https://www.merkur.de/wirtschaft/putins-trump-karte-in-gefahr-usa-koennten-russland-zoelle-reaktivieren-94257441.html",
+      "published_at": "20260411T093000Z",
+      "source": "merkur.de",
+      "tags": [
+        "UNITED_STATES"
+      ]
     },
     {
       "id": "gdelt_c5d27bd32ca652d1",
@@ -512,6 +606,38 @@
       "url": "https://www.bjnews.com.cn/detail/1775870658129664.html",
       "published_at": "20260411T044500Z",
       "source": "bjnews.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_44ddf0a0b6695963",
+      "headline": "Videohinweise am Samstag",
+      "url": "https://www.nachdenkseiten.de/?p=148984",
+      "published_at": "20260411T083000Z",
+      "source": "nachdenkseiten.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7b10f305edc944ab",
+      "headline": "Putins Trump - Karte in Gefahr : united states könnten Russland - Zölle reaktivieren",
+      "url": "https://www.hna.de/wirtschaft/putins-trump-karte-in-gefahr-usa-koennten-russland-zoelle-reaktivieren-94257442.html",
+      "published_at": "20260411T091500Z",
+      "source": "hna.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b0cb923a10bb37a6",
+      "headline": "Putins Trump - Karte in Gefahr : united states könnten Russland - Zölle reaktivieren",
+      "url": "http://www.hna.de/wirtschaft/putins-trump-karte-in-gefahr-usa-koennten-russland-zoelle-reaktivieren-94257442.html",
+      "published_at": "20260411T093000Z",
+      "source": "hna.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_694280a9d43576fc",
+      "headline": "SEBI chief reaffirms open - door policy for global capital",
+      "url": "https://aninews.in/news/business/sebi-chief-reaffirms-open-door-policy-for-global-capital20260411124624/",
+      "published_at": "20260411T091500Z",
+      "source": "aninews.in",
       "tags": []
     },
     {
@@ -523,12 +649,22 @@
       "tags": []
     },
     {
-      "id": "gdelt_d0af9ae7dcce463c",
-      "headline": "Từ 18 - 5 , hành vi ngoại tình có thể bị xử phạt đến 10 triệu đồng",
-      "url": "https://plo.vn/tu-18-5-hanh-vi-ngoai-tinh-co-the-bi-xu-phat-den-10-trieu-dong-post903694.html",
-      "published_at": "20260411T034500Z",
-      "source": "plo.vn",
+      "id": "gdelt_111bd9208e65b16b",
+      "headline": "وزير الخارجية : رفض مصر الكامل المساس بسيادة لبنان ووحدة وسلامة أراضيه",
+      "url": "https://www.dostor.org/5500942",
+      "published_at": "20260411T080000Z",
+      "source": "dostor.org",
       "tags": []
+    },
+    {
+      "id": "gdelt_57b17fb34d368703",
+      "headline": "tayyar . org -  استخفاف غير مقبول … روابط القطاع العام تهاجم الحكومة",
+      "url": "https://www.tayyar.org/News/Lebanon/717161/_guid=717161",
+      "published_at": "20260411T084500Z",
+      "source": "tayyar.org",
+      "tags": [
+        "LEBANON"
+      ]
     },
     {
       "id": "gdelt_dcfb6c48904cb9df",
@@ -547,35 +683,21 @@
       "tags": []
     },
     {
-      "id": "gdelt_799e3762d1412257",
-      "headline": "China sees solid rise in cross - border travel in Q1 , with foreign national trips surging",
-      "url": "http://en.people.cn/n3/2026/0411/c90000-20445596.html",
-      "published_at": "20260411T021500Z",
-      "source": "en.people.cn",
-      "tags": []
+      "id": "gdelt_49edd0474de76358",
+      "headline": "Open and welcoming to global capital : Sebi chair Tuhin Kanta hails India finance landscape",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/open-and-welcoming-to-global-capital-sebi-chair-tuhin-kanta-hails-indias-finance-landscape/articleshow/130187204.cms",
+      "published_at": "20260411T084500Z",
+      "source": "timesofindia.indiatimes.com",
+      "tags": [
+        "INDIA"
+      ]
     },
     {
-      "id": "gdelt_fab40c6d64fb4a93",
-      "headline": "Sécurité : malgré de vives tensions , le Brésil et les États - Unis activent un programme conjoint dinterception",
-      "url": "https://senego.com/securite-malgre-de-vives-tensions-le-bresil-et-les-etats-unis-activent-un-programme-conjoint-dinterception_1948406.html",
-      "published_at": "20260411T024500Z",
-      "source": "senego.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_02bed11faffb0c67",
-      "headline": "Нафта з Росії - Трамп може продовжити дозвіл на закупівлю",
-      "url": "https://zn.ua/ukr/WORLD/reuters-diznavsja-chi-planuje-tramp-prodovzhiti-dozvil-na-kupivlju-rosijskoji-nafti-vsuperech-sanktsijam.html",
-      "published_at": "20260411T033000Z",
-      "source": "zn.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e8cec32b66ad365e",
-      "headline": "Diễn biến mới vụ tịch thu 42 gốc mai vàng gây xôn xao dư luận ở Côn Đảo",
-      "url": "https://tienphong.vn/dien-bien-moi-vu-tich-thu-42-goc-mai-vang-gay-xon-xao-du-luan-o-con-dao-post1834736.tpo",
-      "published_at": "20260411T021500Z",
-      "source": "tienphong.vn",
+      "id": "gdelt_64443f98e6087c0b",
+      "headline": "La Tunisie accueille African Lion 2026 , vitrine de sa coopération sécuritaire avec Washington",
+      "url": "https://www.webdo.tn/fr/actualite/national/la-tunisie-accueille-african-lion-2026-vitrine-de-sa-cooperation-securitaire-avec-washington/396047/",
+      "published_at": "20260411T091500Z",
+      "source": "webdo.tn",
       "tags": []
     },
     {
@@ -587,11 +709,43 @@
       "tags": []
     },
     {
+      "id": "gdelt_9aa7ad62f84451a6",
+      "headline": "Decimated  but not defeated : Iran still holds thousands of missiles , US intel warns",
+      "url": "https://timesofindia.indiatimes.com/defence/international/decimated-but-not-defeated-iran-still-holds-thousands-of-missiles-us-intel-warns/articleshow/130183503.cms",
+      "published_at": "20260411T080000Z",
+      "source": "timesofindia.indiatimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_52728f057cf453ee",
+      "headline": "إشادة ألمانية إيطالية بالدور المصري في خفض التصعيد وتعزيز الاستقرار الإقليمي",
+      "url": "https://www.dostor.org/5500937",
+      "published_at": "20260411T080000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_87d70b699acd23e6",
+      "headline": "جمال رائف : التحركات المصرية ركيزة أساسية لخفض التصعيد في الشرق الأوسط",
+      "url": "https://www.dostor.org/5501011",
+      "published_at": "20260411T091500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
       "id": "gdelt_c2de25b291138063",
       "headline": "What did the Pope say about the Iran war ?",
       "url": "https://alltoc.com/world/what-did-the-pope-say-about-the-iran-war",
       "published_at": "20260411T071500Z",
       "source": "alltoc.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a004dc53491d88be",
+      "headline": "Uživo HAOS NA BLISKOM ISTOKU ! Tramp preti , Iran drži prst na obaraču : Počinju ključni pregovori - Vesti",
+      "url": "https://www.telegraf.rs/vesti/svet/4306113-haos-na-bliskom-istoku-ovog-vikenda-pocinju-mirovni-pregovori",
+      "published_at": "20260411T080000Z",
+      "source": "telegraf.rs",
       "tags": []
     },
     {
@@ -601,16 +755,6 @@
       "published_at": "20260411T050000Z",
       "source": "jogja.jpnn.com",
       "tags": []
-    },
-    {
-      "id": "gdelt_ea48d3935831a123",
-      "headline": "Israeli Strikes Across Iran and Lebanon Raise Concerns of Broader Regional Instability",
-      "url": "https://www.globalissues.org/news/2026/04/10/42741",
-      "published_at": "20260411T033000Z",
-      "source": "globalissues.org",
-      "tags": [
-        "LEBANON"
-      ]
     },
     {
       "id": "gdelt_86ad021a8450a0cd",
@@ -629,27 +773,53 @@
       "tags": []
     },
     {
-      "id": "gdelt_73fa55e15dec6bb0",
-      "headline": "Indonesia Threatens YouTube for Violating Ban on Social Media for Teens",
-      "url": "https://www.breitbart.com/national-security/2026/04/10/indonesia-threatens-youtube-for-violating-ban-on-social-media-for-teens/",
-      "published_at": "20260411T021500Z",
-      "source": "breitbart.com",
+      "id": "gdelt_e211c76ef0e2a1c7",
+      "headline": "Qianhai Shenzhen - Hong Kong Youth Innovation and Entrepreneur Hub Debuts at GITEX AI ASIA",
+      "url": "http://www.australiannews.net/news/278977472/qianhai-shenzhen-hong-kong-youth-innovation-and-entrepreneur-hub-debuts-at-gitex-ai-asia",
+      "published_at": "20260411T091500Z",
+      "source": "australiannews.net",
       "tags": []
     },
     {
-      "id": "gdelt_dca18a97c4b32f07",
-      "headline": "Dhurandhar 2 box - office day 23 : Ranveer Singh spy drama collections dip further , earns Rs 6 . 70 crore",
-      "url": "https://economictimes.indiatimes.com/magazines/panache/dhurandhar-2-box-office-day-23-ranveer-singhs-spy-drama-collections-dip-further-earns-rs-6-70-crore/articleshow/130183242.cms",
-      "published_at": "20260411T033000Z",
-      "source": "economictimes.indiatimes.com",
+      "id": "gdelt_041258d2adcdba6b",
+      "headline": "Qianhai Shenzhen - Hong Kong Youth Innovation and Entrepreneur Hub Debuts at GITEX AI ASIA",
+      "url": "https://www.thailand-business-news.com/pr-news/qianhai-shenzhen-hong-kong-youth-innovation-and-entrepreneur-hub-debuts-at-gitex-ai-asia",
+      "published_at": "20260411T084500Z",
+      "source": "thailand-business-news.com",
+      "tags": [
+        "THAILAND"
+      ]
+    },
+    {
+      "id": "gdelt_293a0e75d148d64f",
+      "headline": "Qianhai Shenzhen - Hong Kong Youth Innovation and Entrepreneur Hub Debuts at GITEX AI ASIA",
+      "url": "http://www.nepalnational.com/news/278976864/qianhai-shenzhen-hong-kong-youth-innovation-and-entrepreneur-hub-debuts-at-gitex-ai-asia",
+      "published_at": "20260411T074500Z",
+      "source": "nepalnational.com",
       "tags": []
     },
     {
-      "id": "gdelt_1dd99a115415078a",
-      "headline": "Visa - free , favorable policies boost foreign arrivals",
-      "url": "http://europe.chinadaily.com.cn/a/202604/11/WS69d986f4a310d6866eb42d29.html",
-      "published_at": "20260411T021500Z",
-      "source": "europe.chinadaily.com.cn",
+      "id": "gdelt_8e10fc3afeddcbd8",
+      "headline": "Qianhai Shenzhen - Hong Kong Youth Innovation and Entrepreneur Hub Debuts at GITEX AI ASIA",
+      "url": "http://www.srilankasource.com/news/278976864/qianhai-shenzhen-hong-kong-youth-innovation-and-entrepreneur-hub-debuts-at-gitex-ai-asia",
+      "published_at": "20260411T091500Z",
+      "source": "srilankasource.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ce7253a0e65dcf3a",
+      "headline": "Σε « κόκκινο » συναγερμό η Μέση Ανατολή : Τελεσίγραφο Τραμπ πριν τις κρίσιμες συνομιλίες με το Ιράν - « Γεμίζουμε τα πλοία με τα καλύτερα πυρομαχικά »",
+      "url": "https://www.eleftherostypos.gr/diethni/se-kokkino-synagermo-i-mesi-anatoli-telesigrafo-trab-prin-tis-krisimes-synomilies-me-to-iran-gemizoume-ta-ploia-me-ta-kalytera-pyromachika",
+      "published_at": "20260411T083000Z",
+      "source": "eleftherostypos.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4d6e8e871d5b0c11",
+      "headline": "India remains open , attractive destination for global capital : SEBI chief",
+      "url": "https://www.prokerala.com/news/articles/a1749694.html",
+      "published_at": "20260411T093000Z",
+      "source": "prokerala.com",
       "tags": []
     },
     {
@@ -669,6 +839,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_06346d1d2cdf0856",
+      "headline": "HRCC Condemns Rising Abuse Of Social Media , Warns Of Threats To Judiciary , Public Trust , And Rule Of Law In Malawi - Malawi Nyasa Times",
+      "url": "https://www.nyasatimes.com/hrcc-condemns-rising-abuse-of-social-media-warns-of-threats-to-judiciary-public-trust-and-rule-of-law-in-malawi/",
+      "published_at": "20260411T093000Z",
+      "source": "nyasatimes.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_4ffc11fccc3a6be8",
       "headline": "إسرائيل تستعد لاحتمال انهيار التهدئة مع إيران وتفقد عنصرا هاما في المواجهة المقبلة",
       "url": "https://www.dostor.org/5500903",
@@ -677,27 +855,19 @@
       "tags": []
     },
     {
+      "id": "gdelt_06edad2c76ef6c32",
+      "headline": "Neues IT - System verweigert zehntausenden Ausländern die Einreise",
+      "url": "http://www.soester-anzeiger.de/wirtschaft/einreise-eu-grenzschutz-system-it-europa-asyl-migration-auslaender-fluechtlinge-schengen-zr-94257343.html",
+      "published_at": "20260411T080000Z",
+      "source": "soester-anzeiger.de",
+      "tags": []
+    },
+    {
       "id": "gdelt_4df400b6f30db7d5",
       "headline": "Tiết lộ giới tính thai nhi có thể bị phạt đến 15 triệu đồng , tước chứng chỉ hành nghề",
       "url": "https://baomoi.com/tiet-lo-gioi-tinh-thai-nhi-co-the-bi-phat-den-15-trieu-dong-tuoc-chung-chi-hanh-nghe-c54911322.epi",
       "published_at": "20260411T041500Z",
       "source": "baomoi.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4686c3dce30f20df",
-      "headline": "Естонія відмовилася затримувати російські танкери",
-      "url": "https://news.bigmir.net/ua/world/10331308-estoniya-vidmovilasya-zatrimuvati-rosijski-tankeri",
-      "published_at": "20260411T033000Z",
-      "source": "news.bigmir.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_67e4a6bcf6320e60",
-      "headline": "وزير الخارجية من العراق : مصر تتضامن مع الدول العربية فى مواجهة أى تهديدات",
-      "url": "https://www.almasryalyoum.com/news/details/4242709",
-      "published_at": "20260411T030000Z",
-      "source": "almasryalyoum.com",
       "tags": []
     },
     {
@@ -717,19 +887,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_6e190d70f571f532",
-      "headline": "China sees solid rise in cross - border travel in Q1 , with foreign national trips surging -- China Economic Net",
-      "url": "http://en.ce.cn/main/latest/202604/t20260411_2897152.shtml",
-      "published_at": "20260411T033000Z",
-      "source": "en.ce.cn",
-      "tags": []
-    },
-    {
       "id": "gdelt_c3f46605da1163c8",
       "headline": "US Iran peace talks : Negotiations to take place in Islamabad ; details on key obstacles , top attendees",
       "url": "https://www.businesstoday.in/world/story/us-iran-peace-talks-negotiations-to-take-place-in-islamabad-details-on-key-obstacles-top-attendees-525197-2026-04-11",
       "published_at": "20260411T050000Z",
       "source": "businesstoday.in",
+      "tags": []
+    },
+    {
+      "id": "gdelt_87b2670863f05f1f",
+      "headline": "China witnesses surge in international travel , Ambassador Xu Feihong highlights 2026 Q1 Growth",
+      "url": "https://aninews.in/news/world/asia/china-witnesses-surge-in-international-travel-ambassador-xu-feihong-highlights-2026-q1-growth20260411140310/",
+      "published_at": "20260411T091500Z",
+      "source": "aninews.in",
       "tags": []
     },
     {
@@ -741,11 +911,43 @@
       "tags": []
     },
     {
-      "id": "gdelt_3477fff751a4a32b",
-      "headline": "Stanley Druckenmiller Says Stablecoins Will Dominate Global Payments Within 15 Years . Are Visa and Mastercard Stock in Trouble ?",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/stanley-druckenmiller-says-stablecoins-dominate-022500365.html",
-      "published_at": "20260411T030000Z",
-      "source": "finance.yahoo.com",
+      "id": "gdelt_01def40bb66bde90",
+      "headline": "Слични теми",
+      "url": "https://time.mk/sc/4b210f201d/mk/",
+      "published_at": "20260411T074500Z",
+      "source": "time.mk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d8388da97d8aecd5",
+      "headline": "Слични теми",
+      "url": "https://time.mk/sc/b0dd010791/mk/",
+      "published_at": "20260411T080000Z",
+      "source": "time.mk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e193494fa05b2e0d",
+      "headline": "Израел няма да обсъжда примирие с  Хизбула  по време на преговорите с Ливан следващата седмица",
+      "url": "https://www.focus-news.net/novini/mejdunarodni/Izrael-nyama-da-obsuzhda-primirie-s-Hizbula-po-vreme-na-pregovorite-s-Livan-sledvashtata-sedmica-2949866",
+      "published_at": "20260411T093000Z",
+      "source": "focus-news.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_035b6df0445be8ec",
+      "headline": "Израел няма да обсъжда примирие с  Хизбула  по време на преговорите с Ливан следващата седмица",
+      "url": "https://www.focus-news.net/novini/mejdunarodni/Izrael-nyama-da-obsuzhda-primirie-s-Hizbula-po-vreme-na-pregovorite-s-L-2949866",
+      "published_at": "20260411T093000Z",
+      "source": "focus-news.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_632325efde11ac64",
+      "headline": "Mara Jade refusée encore et toujours : les fans de Star Wars perdent patience face à Lucasfilm",
+      "url": "https://www.fredzone.org/mara-jade-refusee-encore-et-toujours-les-fans-de-star-wars-perdent-patience-face-a-lucasfilm/",
+      "published_at": "20260411T080000Z",
+      "source": "fredzone.org",
       "tags": []
     },
     {
@@ -789,19 +991,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_123e98eb10e2066a",
-      "headline": "中國獨立煉油廠據報多年來首次溢價採購伊朗原油 | 兩岸",
-      "url": "https://www.cna.com.tw:443/news/acn/202604110027.aspx",
-      "published_at": "20260411T034500Z",
-      "source": "cna.com.tw",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0f5331f5fcb6c1d7",
-      "headline": "鄭習會 學者 ： 中共沒有興趣在安全議題上示好 | 兩岸",
-      "url": "https://www.cna.com.tw:443/news/acn/202604110092.aspx",
-      "published_at": "20260411T071500Z",
-      "source": "cna.com.tw",
+      "id": "gdelt_73a4b43346eeffc7",
+      "headline": "خبير : ليس لدى ترامب أي آلية لإجبار إيران على فتح مضيق هرمز",
+      "url": "https://www.dostor.org/5501078",
+      "published_at": "20260411T093000Z",
+      "source": "dostor.org",
       "tags": []
     },
     {
@@ -813,11 +1007,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_2600a1bfd50a60a9",
-      "headline": "Bloomberg : до конца года Индия продолжит импорт российской нефти | MigNews - Новости Израиля и Мира на русском языке",
-      "url": "https://mignews.com/news/economics/bloomberg-do-konca-goda-indiya-prodolzhit-import-rossijskoj-nefti.html",
-      "published_at": "20260411T024500Z",
-      "source": "mignews.com",
+      "id": "gdelt_0f5331f5fcb6c1d7",
+      "headline": "鄭習會 學者 ： 中共沒有興趣在安全議題上示好 | 兩岸",
+      "url": "https://www.cna.com.tw:443/news/acn/202604110092.aspx",
+      "published_at": "20260411T071500Z",
+      "source": "cna.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_24ad5456d3b630f8",
+      "headline": "Gündüz kuşağı programları için teklif ! – Güncel Haberler , Son Dakika Haberleri , Turktime Haber Portalı",
+      "url": "https://www.turktime.com/haber/gunduz-kusagi-programlari-icin-teklif/742276",
+      "published_at": "20260411T074500Z",
+      "source": "turktime.com",
       "tags": []
     },
     {
@@ -834,198 +1036,6 @@
       "url": "https://1prime.ru/20260411/finlyandiya-869051001.html",
       "published_at": "20260411T054500Z",
       "source": "1prime.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_05f42439d11a1f0c",
-      "headline": "Россия возвращает активы Абрамовича и крупных бизнесменов",
-      "url": "https://pronedra.ru/zamuchaetes-pyl-glotat-rossiya-nachala-aktivnyj-vozvrat-zarubezhnyh-aktivov-pervaya-lastochka-roman-abramovich-814948.html",
-      "published_at": "20260411T071500Z",
-      "source": "pronedra.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d6849034fb52ed42",
-      "headline": "High - Stakes Islamabad Talks : Trump Says Iran  Alive Only to Negotiate",
-      "url": "https://www.outlookindia.com/international/high-stakes-islamabad-talks-trump-says-iran-alive-only-to-negotiate",
-      "published_at": "20260411T054500Z",
-      "source": "outlookindia.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_64e744bb76b5dfc4",
-      "headline": "امریکا ، ایران بات چیت اسلام آباد میں شروع ، مذاکرات کی میز پر کیا کچھ ہوگا ؟",
-      "url": "https://jang.com.pk/news/1572943-topstory",
-      "published_at": "20260411T033000Z",
-      "source": "jang.com.pk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_af723e3cf49da585",
-      "headline": "Sabka Malik Ek : Watch Army Chief Gen Upendra Dwivedi reveal reason why India didnt strike Pakistan during Namaz in Op Sindoor",
-      "url": "https://economictimes.indiatimes.com/news/new-updates/sabka-malik-ek-watch-army-chief-gen-upendra-dwivedi-reveal-reason-why-india-didnt-strike-pakistan-during-namaz-in-op-sindoor/articleshow/130184495.cms",
-      "published_at": "20260411T054500Z",
-      "source": "economictimes.indiatimes.com",
-      "tags": [
-        "INDIA"
-      ]
-    },
-    {
-      "id": "gdelt_0c7b9306848ce5cb",
-      "headline": "Dua Bus Listrik Mulai Uji Coba di Pekanbaru , Layani Koridor Utama TMP",
-      "url": "https://sumatra.bisnis.com/read/20260411/533/1965845/dua-bus-listrik-mulai-uji-coba-di-pekanbaru-layani-koridor-utama-tmp",
-      "published_at": "20260411T050000Z",
-      "source": "sumatra.bisnis.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_41ca36fdf52c2f11",
-      "headline": "Kita bina mesin hebat tapi lupa bina manusia",
-      "url": "https://www.utusan.com.my/rencana/forum/2026/04/kita-bina-mesin-hebat-tapi-lupa-bina-manusia/",
-      "published_at": "20260411T024500Z",
-      "source": "utusan.com.my",
-      "tags": []
-    },
-    {
-      "id": "gdelt_81554cd5663eddf5",
-      "headline": "Samira Muhammadi tekad tuntut keadilan kematian anak",
-      "url": "https://www.utusan.com.my/seri/2026/04/samira-muhammadi-tekad-tuntut-keadilan-kematian-anak/",
-      "published_at": "20260411T060000Z",
-      "source": "utusan.com.my",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f857e181a28f8cb1",
-      "headline": "ATM pushes for Ramaphosa impeachment after explosive IPID Phala Phala report released",
-      "url": "https://www.citizen.co.za/news/atm-pushes-ramaphosa-impeachment-explosive-ipid-phala-phala-report-released/",
-      "published_at": "20260411T071500Z",
-      "source": "citizen.co.za",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d274784422895a2b",
-      "headline": "CPI Mỹ tăng cao nhất 4 năm , kịch bản Fed hạ lãi suất dần xa tầm tay ?",
-      "url": "https://dantri.com.vn/kinh-doanh/cpi-my-tang-cao-nhat-4-nam-kich-ban-fed-ha-lai-suat-dan-xa-tam-tay-20260411111227334.htm",
-      "published_at": "20260411T054500Z",
-      "source": "dantri.com.vn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_48146468d45e4012",
-      "headline": "Hacienda sanciona a una zaragozana por no declarar en la Renta apuestas online que no había hecho",
-      "url": "https://www.heraldo.es/noticias/economia/2026/04/10/hacienda-sanciona-zaragozana-por-no-declarar-renta-apuestas-online-que-resultaron-no-ser-suyas-2010819.html",
-      "published_at": "20260411T054500Z",
-      "source": "heraldo.es",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f7fa99af44e4ee10",
-      "headline": "美 · 이란 , 오늘 파키스탄서 첫 협상 … 호르무즈 해협 돌파구 나올까",
-      "url": "https://www.etnews.com/20260411000001",
-      "published_at": "20260411T024500Z",
-      "source": "etnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b66abc35ef5a6c46",
-      "headline": "Sabtu , SIM Keliling Siap Layani Warga Jakarta di Empat Lokasi",
-      "url": "https://koran-jakarta.com/2026-04-11/sabtu-sim-keliling-siap-layani-warga-jakarta-di-empat-lokasi",
-      "published_at": "20260411T030000Z",
-      "source": "koran-jakarta.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e298b5be4bead15d",
-      "headline": "Afghanistan and Pakistan Pledge to Halt Escalation in China - Brokered Talks",
-      "url": "https://voiceofvienna.org/afghanistan-and-pakistan-pledge-to-halt-escalation-in-china-brokered-talks/",
-      "published_at": "20260411T051500Z",
-      "source": "voiceofvienna.org",
-      "tags": [
-        "AFGHANISTAN"
-      ]
-    },
-    {
-      "id": "gdelt_55a5ae4c1f380a75",
-      "headline": "غوتيريش يدعو واشنطن وطهران لاغتنام المحادثات لخفض التصعيد | أخبار",
-      "url": "https://www.aljazeera.net/news/2026/4/11/%D8%BA%D9%88%D8%AA%D9%8A%D8%B1%D9%8A%D8%B4-%D9%8A%D8%AF%D8%B9%D9%88-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%88%D8%B7%D9%87%D8%B1%D8%A7%D9%86-%D9%84%D8%A7%D8%BA%D8%AA%D9%86%D8%A7%D9%85",
-      "published_at": "20260411T070000Z",
-      "source": "aljazeera.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b458ebf8e7ae8dab",
-      "headline": "Порушення мовного закону - де найбільше скарг у 2026 - му і які штрафи",
-      "url": "https://www.rbc.ua/rus/news/shtrafi-12-tisyach-griven-de-ukrayini-naychastishe-1775551875.html",
-      "published_at": "20260411T053000Z",
-      "source": "rbc.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_11292072a75ab71e",
-      "headline": "트럼프  이란군 격퇴  호언장담 … WSJ  지하 미사일 수천발",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02020486645415136&mediaCodeNo=257",
-      "published_at": "20260411T021500Z",
-      "source": "edaily.co.kr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a880cc05aad12730",
-      "headline": "Iran Announces Acceptance of Bitcoin for Strait of Hormuz Transit Fees – NaturalNews . com",
-      "url": "https://www.naturalnews.com/2026-04-10-iran-to-accept-bitcoin-for-hormuz-transit.html",
-      "published_at": "20260411T041500Z",
-      "source": "naturalnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4966f4b443ca524b",
-      "headline": "Ukraine - Krieg im Liveticker : +++ 02 : 53 Chinas Außenminister : Wollen verstärkte Zusammenarbeit mit Nordkorea +++",
-      "url": "https://www.n-tv.de/politik/02-53-Chinas-Aussenminister-Wollen-verstaerkte-Zusammenarbeit-mit-Nordkorea-article23143824.html",
-      "published_at": "20260411T021500Z",
-      "source": "n-tv.de",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "gdelt_d39fb14bcb2e5b97",
-      "headline": "UN - Chef vor Gesprächen : united states und Iran sollten Chance nutzen",
-      "url": "https://www.berchtesgadener-anzeiger.de/startseite_artikel,-unchef-vor-gespraechen-usa-und-iran-sollten-chance-nutzen-_arid,990615.html",
-      "published_at": "20260411T024500Z",
-      "source": "berchtesgadener-anzeiger.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2d893493cdd5a1bf",
-      "headline": "Israeli strike in Lebanon kills 13 security forces",
-      "url": "https://www.jagonews24.com/en/international/news/91691",
-      "published_at": "20260411T040000Z",
-      "source": "jagonews24.com",
-      "tags": [
-        "LEBANON"
-      ]
-    },
-    {
-      "id": "gdelt_87b89e1d916a13fe",
-      "headline": "OTSEBLOGI | Kiievis kaheldakse , kas Moskva peab õigeusu lihavõtte relvarahu lubadust , Eesti loobus Vene varilaevade kinnipidamisest",
-      "url": "https://www.ohtuleht.ee/1155260/otseblogi-kiievis-kaheldakse-kas-moskva-peab-oigeusu-lihavotte-relvarahu-lubadust-eesti-loobus-vene-varilaevade-kinnipidamisest",
-      "published_at": "20260411T063000Z",
-      "source": "ohtuleht.ee",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cd868dd3fd0c4493",
-      "headline": "Естонія відмовляється затримувати російські танкери",
-      "url": "https://gazeta.ua/articles/world-life/_estoniya-vidmovlyayetsya-zatrimuvati-rosijski-tankeri/1248130",
-      "published_at": "20260411T054500Z",
-      "source": "gazeta.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f86114d4c5e0dd9b",
-      "headline": "Khổ như mua vé máy bay , du lịch dịp 30 / 4 - 1 / 5",
-      "url": "https://tienphong.vn/kho-nhu-mua-ve-may-bay-du-lich-dip-304-15-post1834759.tpo",
-      "published_at": "20260411T044500Z",
-      "source": "tienphong.vn",
       "tags": []
     }
   ]
