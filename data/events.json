@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-04-13T21:07:47Z",
+    "generated_at_utc": "2026-04-13T22:01:38Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -32,6 +32,14 @@
     }
   },
   "events": [
+    {
+      "id": "gdelt_1ca363de83f61ddb",
+      "headline": "ناقلة نفط خاضعة للعقوبات تعبر مضيق هرمز رغم الحصار الأمريكي",
+      "url": "https://www.dostor.org/5505231",
+      "published_at": "20260413T211500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
     {
       "id": "gdelt_636ffab0735d7c49",
       "headline": "Digital trade deadlock : What at stake for Africa ?",
@@ -57,22 +65,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_eae7e708e112b0c7",
-      "headline": "Zašto Trump uopće blokira cijelu obalu Irana ?",
-      "url": "https://www.index.hr/vijesti/clanak/zasto-trump-uopce-blokira-cijelu-obalu-irana/2781405.aspx?index_tid=986927&index_ref=naslovnica_vijesti_ostalo_d_0",
-      "published_at": "20260413T151500Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c264e5de6a1c1a05",
-      "headline": "Cest inné chez elle , on ne lui a rien appris    : Wapy , la chienne surfeuse qui épate ses maîtres et dompte lOcéan",
-      "url": "https://www.midilibre.fr/2026/04/13/cest-inne-chez-elle-on-ne-lui-a-rien-appris-wapy-la-chienne-surfeuse-qui-epate-ses-maitres-et-dompte-locean-13323036.php",
-      "published_at": "20260413T194500Z",
-      "source": "midilibre.fr",
-      "tags": []
-    },
-    {
       "id": "gdelt_9765a9c0a57c8644",
       "headline": "Trump threat to blockade Hormuz : Why it the latest major escalation | US - Israel war on Iran News",
       "url": "https://www.aljazeera.com/news/2026/4/13/trumps-threat-to-blockade-hormuz-why-its-wars-latest-major-escalation",
@@ -82,6 +74,14 @@
         "IRAN",
         "ISRAEL"
       ]
+    },
+    {
+      "id": "gdelt_c264e5de6a1c1a05",
+      "headline": "Cest inné chez elle , on ne lui a rien appris    : Wapy , la chienne surfeuse qui épate ses maîtres et dompte lOcéan",
+      "url": "https://www.midilibre.fr/2026/04/13/cest-inne-chez-elle-on-ne-lui-a-rien-appris-wapy-la-chienne-surfeuse-qui-epate-ses-maitres-et-dompte-locean-13323036.php",
+      "published_at": "20260413T194500Z",
+      "source": "midilibre.fr",
+      "tags": []
     },
     {
       "id": "gdelt_3fbdbcc043db1837",
@@ -152,6 +152,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_b2f8bbc8d24ac6de",
+      "headline": "Розвідка Латвії : в РФ визнають величезні втрати від західних санкцій , але Путіну не кажуть",
+      "url": "https://www.eurointegration.com.ua/news/2026/04/13/7235355/",
+      "published_at": "20260413T211500Z",
+      "source": "eurointegration.com.ua",
+      "tags": []
+    },
+    {
       "id": "gdelt_7bf521982eb427a6",
       "headline": "Impondría EU aranceles a China si da ayuda militar a Irán",
       "url": "https://www.eldiariodechihuahua.mx/economia/2026/apr/13/impondria-eu-aranceles-a-china-si-da-ayuda-militar-a-iran-787274.html",
@@ -187,6 +195,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_452eb3ebe611d423",
+      "headline": "Kremlin reacts to Orbans defeat in Hungarian election",
+      "url": "http://www.austinglobe.com/news/278981963/kremlin-reacts-to-orbans-defeat-in-hungarian-election",
+      "published_at": "20260413T210000Z",
+      "source": "austinglobe.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_026e1199c7c4b95c",
       "headline": "Coinspaid Announces Strategic Partnership with The Residency",
       "url": "https://www.benzinga.com/pressreleases/26/04/51785897/coinspaid-announces-strategic-partnership-with-the-residency",
@@ -195,11 +211,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_641a5c5fd247a935",
-      "headline": "e - Book : Staying Ahead : Modern strategies for third - party risk in a disrupted world",
-      "url": "https://www.complianceweek.com/risk-management/e-book-staying-ahead-modern-strategies-for-third-party-risk-in-a-disrupted-world/",
-      "published_at": "20260413T151500Z",
-      "source": "complianceweek.com",
+      "id": "gdelt_572cb0c66410a7af",
+      "headline": "ഹോര്‍മുസില്‍ യുദ്ധസമാനസാഹചര്യം ; യു . എസ് പടക്കപ്പലുകള്‍ സമീപത്തേക്ക് ; ഇറാന്‍ തുറമുഖങ്ങളില്‍ ഉപരോധം",
+      "url": "https://www.manoramanews.com/gulf-and-global/middle-east/2026/04/13/hormuz-strait-crisis-us-blockade.html",
+      "published_at": "20260413T211500Z",
+      "source": "manoramanews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0d87acd0c0730dd3",
+      "headline": "ഇറാനെതിരെ നാവിക ഉപരോധം ശക്തമാക്കി അമേരിക്ക ; ഹോർമുസ് കടലിടുക്കിൽ വൻ സൈനിക സന്നാഹം",
+      "url": "https://www.sirajlive.com/us-tightens-naval-sanctions-against-iran-large-military-buildup-in-strait-of-hormuz.html",
+      "published_at": "20260413T210000Z",
+      "source": "sirajlive.com",
       "tags": []
     },
     {
@@ -253,6 +277,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_e8fa85b8757eb575",
+      "headline": "Trump orders naval blockade of Hormuz",
+      "url": "https://tribune.com.pk/story/2602499/trump-orders-naval-blockade-of-hormuz",
+      "published_at": "20260413T211500Z",
+      "source": "tribune.com.pk",
+      "tags": []
+    },
+    {
       "id": "gdelt_a0d8a9af1a4d73d3",
       "headline": "Time . ai",
       "url": "https://time.mk/ai/e65ae28ff9/mk/",
@@ -269,14 +301,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_c6463fb02b1289a3",
-      "headline": "Tribunal sul - africano anula contrato milionário para muro fronteiriço com Moçambique",
-      "url": "https://sapo.pt/artigo/tribunal-sul-africano-anula-contrato-milionario-para-muro-fronteirico-com-mocambique-69dd02718cf3d9f226ad3e0a",
-      "published_at": "20260413T151500Z",
-      "source": "sapo.pt",
-      "tags": []
-    },
-    {
       "id": "gdelt_d300b360a02eafba",
       "headline": "Зарплаты педагогов повысят еще на 20 % - что изменится уже с сентября 2026 года",
       "url": "https://www.obozrevatel.com/ekonomika-glavnaya/fea/zarplatyi-uchitelej-vyirastut-vtoroj-raz-za-god-chto-izmenitsya-uzhe-s-sentyabrya.htm",
@@ -285,11 +309,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_1aa3511e24075c5a",
-      "headline": "ВСУ продолжили атаки во время перемирия : что произошло в зоне СВО 13 апреля | Москва",
-      "url": "https://fedpress.ru/news/77/society/3433015",
-      "published_at": "20260413T151500Z",
-      "source": "fedpress.ru",
+      "id": "gdelt_ed43446923cea139",
+      "headline": "Dialogue between US , Iran still alive after Islamabad talks ended",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-892899",
+      "published_at": "20260413T211500Z",
+      "source": "jpost.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9b0dcf131cae2b92",
+      "headline": "تهديدات ترامب الغامضة .. رسائل تصعيد وسط تعثر المفاوضات",
+      "url": "https://www.dostor.org/5505070",
+      "published_at": "20260413T211500Z",
+      "source": "dostor.org",
       "tags": []
     },
     {
@@ -298,6 +330,14 @@
       "url": "https://www.jdsupra.com/legalnews/ofac-issues-guidance-on-sham-4040639/",
       "published_at": "20260413T174500Z",
       "source": "jdsupra.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_df5fc8370b42ace8",
+      "headline": "Automatic draft registration",
+      "url": "https://www.mdislander.com/opinion/letters_to_editor/automatic-draft-registration/article_3e47c612-4382-44e7-ba4f-05561349fced.html",
+      "published_at": "20260413T211500Z",
+      "source": "mdislander.com",
       "tags": []
     },
     {
@@ -322,6 +362,14 @@
       "url": "https://www.163.com/dy/article/KQEG1IIV0549BAP0.html",
       "published_at": "20260413T173000Z",
       "source": "163.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c99faf5606283e6e",
+      "headline": "‏الصين تدعو لوقف التصعيد وتحذر من هشاشة الهدنة وسط تحركات دبلوماسية مكثفة",
+      "url": "https://alanbatnews.net/article/475869",
+      "published_at": "20260413T210000Z",
+      "source": "alanbatnews.net",
       "tags": []
     },
     {
@@ -359,11 +407,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_93ea3be33813f0d7",
-      "headline": "Сіярто після поразки Орбана почав знищувати документи , пов  язані з санкціями , – Мадяр",
-      "url": "https://www.volynnews.com/news/all/siiarto-pislia-porazky-orbana-pochav-znyshchuvaty-dokumenty-poviazani-z-sanktsiiamy-madiar-/",
-      "published_at": "20260413T161500Z",
-      "source": "volynnews.com",
+      "id": "gdelt_3ef32688854b0be7",
+      "headline": "Top Senate Democrats urge Trump administration to reinstate Russian oil sanctions",
+      "url": "https://wwmt.com/news/nation-world/top-senate-democrats-chuck-schumer-elizabeth-warren-jeanne-shaheen-urge-trump-administration-treasury-to-reinstate-russian-oil-sanctions",
+      "published_at": "20260413T211500Z",
+      "source": "wwmt.com",
       "tags": []
     },
     {
@@ -375,6 +423,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_93ea3be33813f0d7",
+      "headline": "Сіярто після поразки Орбана почав знищувати документи , пов  язані з санкціями , – Мадяр",
+      "url": "https://www.volynnews.com/news/all/siiarto-pislia-porazky-orbana-pochav-znyshchuvaty-dokumenty-poviazani-z-sanktsiiamy-madiar-/",
+      "published_at": "20260413T161500Z",
+      "source": "volynnews.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_819f8c6a41f55993",
       "headline": "جريدة الرياض | برنامج الأمم المتحدة الإنمائي : التصعيد في الشرق الأوسط يعمّق الفقر عالميًّا",
       "url": "https://www.alriyadh.com/2183482",
@@ -383,11 +439,29 @@
       "tags": []
     },
     {
+      "id": "gdelt_26d9287c64fca660",
+      "headline": "China terms military conflict root cause of disruptions in Strait of Hormuz",
+      "url": "https://tribune.com.pk/story/2602603/china-says-islamabad-us-iran-talks-a-step-towards-de-escalation-hopes-ceasefire-holds",
+      "published_at": "20260413T211500Z",
+      "source": "tribune.com.pk",
+      "tags": [
+        "CHINA"
+      ]
+    },
+    {
       "id": "gdelt_15cc81be0c1002a1",
       "headline": "الصين : وقف إطلاق النار بين أميركا وإيران  هش للغاية  ويجب منع التصعيد",
       "url": "https://www.emaratalyoum.com/politics/news/2026-04-13-1.2035266",
       "published_at": "20260413T163000Z",
       "source": "emaratalyoum.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_85c1dbbfd9336351",
+      "headline": "Shtëpia e Bardhë : Eric Wendt nominohet si ambasador i SHBA në Shqipëri , pritet miratimi nga Senati",
+      "url": "https://top-channel.tv/2026/04/13/shtepia-e-bardhe-eric-wendt-nominohet-si-ambasador-i-shba-ne-shqiperi-pritet-miratimi-nga-senati/",
+      "published_at": "20260413T211500Z",
+      "source": "top-channel.tv",
       "tags": []
     },
     {
@@ -410,6 +484,14 @@
       ]
     },
     {
+      "id": "gdelt_916b3a789a5d0e3c",
+      "headline": "حصار 30 % وضربات 35 % وتفاوض 35 %.. ماذا ينتظر المنطقة ؟ | سياسة",
+      "url": "https://www.aljazeera.net/politics/2026/4/13/%D8%AD%D8%B5%D8%A7%D8%B1-30-%D9%88%D8%B6%D8%B1%D8%A8%D8%A7%D8%AA-35-%D9%88%D8%AA%D9%81%D8%A7%D9%88%D8%B6-35-%D9%85%D8%A7%D8%B0%D8%A7-%D9%8A%D9%86%D8%AA%D8%B8%D8%B1",
+      "published_at": "20260413T211500Z",
+      "source": "aljazeera.net",
+      "tags": []
+    },
+    {
       "id": "gdelt_95c175ebf1016db6",
       "headline": "Οι πόλεις με τον πιο μολυσμένο αέρα στην Αττική – Ανάμεσά τους δύο του Βόρειου Τομέα",
       "url": "https://www.inewsgr.com/388/oi-poleis-me-ton-pio-molysmeno-aera-stin-attiki--anamesa-tous-dyo-tou-voreiou-tomea.htm",
@@ -418,11 +500,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_950f5656472d04cd",
-      "headline": "Xuất nhập khẩu Việt Nam đạt gần 250 tỷ USD nhưng  cơn gió ngược  đang mạnh dần",
-      "url": "https://baomoi.com/xuat-nhap-khau-viet-nam-dat-gan-250-ty-usd-nhung-con-gio-nguoc-dang-manh-dan-c54928668.epi",
-      "published_at": "20260413T151500Z",
-      "source": "baomoi.com",
+      "id": "gdelt_6321e469a71be46a",
+      "headline": "Shtëpia e Bardhë : Eric Wendt nominohet si ambasador i SHBA në Shqipëri , pritet miratimi nga Kongresi",
+      "url": "https://www.botasot.info/shqiperia/2471039/shtepia-e-bardhe-eric-wendt-nominohet-si-ambasador-i-shba-ne-shqiperi-pritet-miratimi-nga-kongresi/",
+      "published_at": "20260413T211500Z",
+      "source": "botasot.info",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9f40aec68fafdeb3",
+      "headline": "Sanktionen : Grüner : Putins Schattenflotte schärfer ins Visier nehmen",
+      "url": "https://www.zeit.de/news/2026-04/13/gruener-putins-schattenflotte-schaerfer-ins-visier-nehmen",
+      "published_at": "20260413T210000Z",
+      "source": "zeit.de",
       "tags": []
     },
     {
@@ -466,11 +556,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_b6a74e9ee9eab463",
+      "headline": "منال خليفة : حصار ترامب للموانئ الإيرانية ورقة ضغط ذكية قد تغير مسار المفاوضات",
+      "url": "https://www.dostor.org/5505318",
+      "published_at": "20260413T211500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
       "id": "gdelt_a808573b74096ca2",
       "headline": "Time . ai",
       "url": "https://time.mk/ai/a5f4fd1929/mk/",
       "published_at": "20260413T200000Z",
       "source": "time.mk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_28e280e421623f8f",
+      "headline": "PRETNJE BIJENALU BEZ RUSA : Brisel u klinču sa italijanskim Festivalom , traže da se ne dozvoli RF da učestvuje u suprotnom smanjuju finansije",
+      "url": "https://www.novosti.rs/planeta/svet/1596663/pretnje-bijenalu-bez-rusa-brisel-klincu-italijanskim-festivalom-traze-dozvoli-ucestvuje-suprotnom-smanjuju-finansije",
+      "published_at": "20260413T210000Z",
+      "source": "novosti.rs",
       "tags": []
     },
     {
@@ -506,6 +612,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_78185169aa403116",
+      "headline": "Okul Müdürleri Hafta Sonu Öğretmenleri Kanunsuz Bir Biçimde Okula Çağırıyor , Sendikalar Nerede ?",
+      "url": "https://www.kamuajans.com/meb-personel/okul-mudurleri-hafta-sonu-ogretmenleri-kanunsuz-bir-bicimde-okula-cagiriyor-610597",
+      "published_at": "20260413T211500Z",
+      "source": "kamuajans.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_7dddc12f6651b19d",
       "headline": "پاکستانی کرنسی کے مقابلے میں‌ ایران کے ریال کی قدر بڑھ گئی",
       "url": "https://javedch.com/business/2026/04/13/1113951",
@@ -519,6 +633,14 @@
       "url": "https://www.digi24.ro/stiri/externe/cristian-diaconescu-despre-situatia-din-iran-e-o-escaladare-in-ideea-de-a-dezescalada-pana-la-urma-unde-s-au-blocat-negocierile-3725369",
       "published_at": "20260413T193000Z",
       "source": "digi24.ro",
+      "tags": []
+    },
+    {
+      "id": "gdelt_891f200cd22ae379",
+      "headline": "Bürgergeld - Sanktionen steigen um 25 Prozent – und ab Juli drohen noch härtere Regeln",
+      "url": "https://www.merkur.de/wirtschaft/buergergeld-sanktionen-steigen-um-25-prozent-und-ab-juli-drohen-noch-haertere-regeln-zr-94260545.html",
+      "published_at": "20260413T213000Z",
+      "source": "merkur.de",
       "tags": []
     },
     {
@@ -538,11 +660,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_31f56e78d55bcd5a",
-      "headline": "Europe Archives - Compliance Week",
-      "url": "https://www.complianceweek.com/category/europe/",
-      "published_at": "20260413T151500Z",
-      "source": "complianceweek.com",
+      "id": "gdelt_4401d46fd31f52a0",
+      "headline": "ترامب ومخاوف المضيق .. هل يدفع العالم ثمن  صراع هرمز ؟",
+      "url": "https://www.dostor.org/5505405",
+      "published_at": "20260413T213000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_896780faf12f76d5",
+      "headline": "Report : U . S . Proposes 20 - year Iran Enrichment Halt , Softening Earlier Demand",
+      "url": "https://www.haaretz.com/middle-east-news/iran/2026-04-13/ty-article/report-u-s-proposes-20-year-iran-enrichment-halt-softening-earlier-demand/0000019d-880a-dedb-afbd-a8ffc2f90000",
+      "published_at": "20260413T211500Z",
+      "source": "haaretz.com",
       "tags": []
     },
     {
@@ -577,6 +707,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_47bf5cdf50291a8b",
+      "headline": "Suudi Arabistanda Hac öncesi Mekkeye girişler izne bağlandı",
+      "url": "https://www.haberler.com/haberler/suudi-arabistanda-hac-oncesi-mekkeye-girisler-19746893-haberi/",
+      "published_at": "20260413T211500Z",
+      "source": "haberler.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_d730a12b5293039f",
       "headline": "Bürgergeld - Sanktionen steigen um 25 Prozent – und ab Juli drohen noch härtere Regeln",
       "url": "http://www.fnp.de/wirtschaft/buergergeld-sanktionen-steigen-um-25-prozent-und-ab-juli-drohen-noch-haertere-regeln-zr-94260545.html",
@@ -593,14 +731,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_84de136cc4dbb034",
-      "headline": "Nowy rząd Węgier będzie nadal kupował rosyjską ropę . Magyar ogłasza",
-      "url": "https://dorzeczy.pl/ekonomia/873025/nowy-rzad-wegier-bedzie-nadal-kupowal-rosyjska-rope-magyar-oglasza.html",
-      "published_at": "20260413T203000Z",
-      "source": "dorzeczy.pl",
-      "tags": []
-    },
-    {
       "id": "gdelt_b2d9f6539c98afc2",
       "headline": "عاجل| تحذير جديد من الحرس الثوري .. في حال استمرار الحرب سنكشف عن إمكانات لا تملكوا تصورا عنها",
       "url": "https://www.elwatannews.com/news/details/8264755",
@@ -609,11 +739,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_96d5db896588dede",
-      "headline": "В Кремле отказались поздравлять Петера Мадьяра с победой на выборах в Венгрии",
-      "url": "https://expert.ru/news/v-kremle-otkazalis-pozdravlyat-petera-madyara-s-pobedoy-na-vyborakh-v-vengrii/",
-      "published_at": "20260413T153000Z",
-      "source": "expert.ru",
+      "id": "gdelt_84de136cc4dbb034",
+      "headline": "Nowy rząd Węgier będzie nadal kupował rosyjską ropę . Magyar ogłasza",
+      "url": "https://dorzeczy.pl/ekonomia/873025/nowy-rzad-wegier-bedzie-nadal-kupowal-rosyjska-rope-magyar-oglasza.html",
+      "published_at": "20260413T203000Z",
+      "source": "dorzeczy.pl",
       "tags": []
     },
     {
@@ -681,11 +811,43 @@
       "tags": []
     },
     {
-      "id": "gdelt_963851067ca91eb3",
-      "headline": "Кремль не будет поздравлять победителя парламентских выборов в Венгрии",
-      "url": "http://govoritmoskva.ru/news/488946/",
-      "published_at": "20260413T151500Z",
-      "source": "govoritmoskva.ru",
+      "id": "gdelt_762f43155bf1295b",
+      "headline": "UE , fără cecuri în alb pentru Peter Magyar . 27 de condiții pentru a se debloca cele 32 de miliarde de euro aflate sub sechestru",
+      "url": "https://ziare.com/alegeri-ungaria-2026/ue-27-conditii-peter-magyar-deblocare-32-miliarde-2006300",
+      "published_at": "20260413T210000Z",
+      "source": "ziare.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2d27bd2fd1f2f9a5",
+      "headline": "اتحاد الكرة : لا نخشى تهديدات الأهلي ونفذنا اللوائح في أزمة حكام مباراة القمة",
+      "url": "https://www.dostor.org/5505438",
+      "published_at": "20260413T213000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4a792d05c87d4797",
+      "headline": "Dilema dari Harga Batu Bara",
+      "url": "https://epaper.bisnis.com/articles/read/20260414/451/1966315/dilema-dari-harga-batu-bara",
+      "published_at": "20260413T211500Z",
+      "source": "epaper.bisnis.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_738ab25532d0594a",
+      "headline": "Bernie Sanders vows to push resolution to block US weapons to Israel",
+      "url": "https://www.aljazeera.com/news/2026/4/13/bernie-sanders-vows-to-push-resolution-to-block-us-weapons-to-israel",
+      "published_at": "20260413T213000Z",
+      "source": "aljazeera.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2cb2f4e032ae7c11",
+      "headline": "ВСУ не прекращали атаки во время пасхального перемирия",
+      "url": "https://www.bnkomi.ru/data/news/197439/",
+      "published_at": "20260413T211500Z",
+      "source": "bnkomi.ru",
       "tags": []
     },
     {
@@ -694,14 +856,6 @@
       "url": "https://www.akhbarona.com/politic/424288.html",
       "published_at": "20260413T193000Z",
       "source": "akhbarona.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8615a07448eb5954",
-      "headline": "Песков заявил , что в графике Путина нет контактов с Мадьяром",
-      "url": "https://aif.ru/politics/world/peskov-zayavil-chto-v-grafike-putina-net-kontaktov-s-madyarom",
-      "published_at": "20260413T151500Z",
-      "source": "aif.ru",
       "tags": []
     },
     {
@@ -745,19 +899,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_96f3a445b4b69854",
-      "headline": "Argentina detecta más narcos chilenos en red transnacional de tráfico de fentanilo",
-      "url": "https://www.24horas.cl/informe-especial/codigo/argentina-detecta-mas-narcos-chilenos-en-red-transnacional-trafico-fentanilo",
-      "published_at": "20260413T203000Z",
-      "source": "24horas.cl",
-      "tags": []
-    },
-    {
       "id": "gdelt_317b8198809fded3",
       "headline": "بقيادة الحاخام  تسينوف .. مئات المستعمرين يقتحمون الأقصى ومحافظة القدس تحذر من تصاعد سياسات التهويد",
       "url": "https://pnn.ps/news/721729",
       "published_at": "20260413T194500Z",
       "source": "pnn.ps",
+      "tags": []
+    },
+    {
+      "id": "gdelt_96f3a445b4b69854",
+      "headline": "Argentina detecta más narcos chilenos en red transnacional de tráfico de fentanilo",
+      "url": "https://www.24horas.cl/informe-especial/codigo/argentina-detecta-mas-narcos-chilenos-en-red-transnacional-trafico-fentanilo",
+      "published_at": "20260413T203000Z",
+      "source": "24horas.cl",
       "tags": []
     },
     {
@@ -808,14 +962,6 @@
       "url": "https://nra.lv/pasaule/518683-peskovs-skaidro-krievijas-attiecibas-ar-ungarijas-valdibu.htm",
       "published_at": "20260413T190000Z",
       "source": "nra.lv",
-      "tags": []
-    },
-    {
-      "id": "gdelt_26f8a4140a1ff7ed",
-      "headline": "Мадьяр : Венгрия не собирается отказываться от российских энергоносителей",
-      "url": "http://govoritmoskva.ru/news/488960/",
-      "published_at": "20260413T151500Z",
-      "source": "govoritmoskva.ru",
       "tags": []
     },
     {
@@ -872,152 +1018,6 @@
       "url": "https://ria.ru/20260413/es-2086855590.html",
       "published_at": "20260413T163000Z",
       "source": "ria.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_02abb376a50e1118",
-      "headline": "كلمة مرتقبة لقاسم اليوم",
-      "url": "https://www.lebanondebate.com/article/822686-%D9%83%D9%84%D9%85%D8%A9-%D9%85%D8%B1%D8%AA%D9%82%D8%A8%D8%A9-%D9%84%D9%82%D8%A7%D8%B3%D9%85-%D8%A7%D9%84%D9%8A%D9%88%D9%85-6",
-      "published_at": "20260413T161500Z",
-      "source": "lebanondebate.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d7e90dbd325df47d",
-      "headline": "Незаконный оборот крипты станет в РФ уголовным преступлением",
-      "url": "https://www.dw.com/ru/nezakonnyj-oborot-kriptovaluty-stanet-v-rf-ugolovnym-prestupleniem/a-76767694",
-      "published_at": "20260413T174500Z",
-      "source": "dw.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8581980a8a3a988c",
-      "headline": "Dušan Nikezić ( SSP ) traži od Vučića da država preuzme NIS",
-      "url": "https://www.danas.rs/vesti/politika/dusan-nikezic-ssp-trazi-od-vucica-da-drzava-preuzme-nis/",
-      "published_at": "20260413T161500Z",
-      "source": "danas.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b4c9156099d97975",
-      "headline": "إعلام روسي : جولة جديدة من المفاوضات بين طهران وواشنطن الخميس المقبل بإسلام آباد",
-      "url": "https://www.elwatannews.com/news/details/8264800",
-      "published_at": "20260413T204500Z",
-      "source": "elwatannews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8b04fa5a9da1a3e8",
-      "headline": "Медведев вспомнил Оруэлла , комментируя блокировку Ормузского пролива США",
-      "url": "https://www.mk.ru/politics/2026/04/13/medvedev-vspomnil-oruella-kommentiruya-blokirovku-ormuzskogo-proliva-ssha.html",
-      "published_at": "20260413T181500Z",
-      "source": "mk.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8d97327d6e9ac60c",
-      "headline": "إضراب جديد لمضيفي طيران لوفتهانزا الألمانية",
-      "url": "https://www.dostor.org/5505197",
-      "published_at": "20260413T193000Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_28e94a850a78f824",
-      "headline": "Krieg in Nahost - Trump : « Iran will ein Abkommen »",
-      "url": "https://www.srf.ch/news/international/nahost/krieg-in-nahost-trump-iran-will-ein-abkommen",
-      "published_at": "20260413T203000Z",
-      "source": "srf.ch",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5b67817e49f65ad7",
-      "headline": "Недружня країна : Кремль відмовився вітати Мадяра з перемогою",
-      "url": "https://www.pravda.com.ua/news/2026/04/13/8029973/",
-      "published_at": "20260413T153000Z",
-      "source": "pravda.com.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8e49143d1274c985",
-      "headline": "Песков за победата на Маѓар : Не испраќаме честитки до непријателски земји",
-      "url": "https://mkd.mk/svet/vesti-svet/peskov-za-pobedata-na-magjar-ne-isprakjame-chestitki-do-neprijatelski-zemji/",
-      "published_at": "20260413T174500Z",
-      "source": "mkd.mk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fdf2d47bf57b47f1",
-      "headline": "الصين : وقف إطلاق النار الحالي بين الولايات المتحدة وإيران هش للغاية",
-      "url": "https://sana.sy/international/2449695/",
-      "published_at": "20260413T173000Z",
-      "source": "sana.sy",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7fd1a769f86f6958",
-      "headline": "FT : Евросоюз выдвинул Мадьяру 27 условий",
-      "url": "https://vm.ru/news/1318381-smi-evrosoyuz-vydvinul-madyaru-27-uslovij",
-      "published_at": "20260413T204500Z",
-      "source": "vm.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2972679ac6a889ea",
-      "headline": "Europe Looks For Reset With Hungary After Magyar Stunning Victory",
-      "url": "https://www.rferl.org/a/hungary-election-magyar-eu-relations-ukraine-sanctions/33731311.html",
-      "published_at": "20260413T204500Z",
-      "source": "rferl.org",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "gdelt_bbfc25c0522dc284",
-      "headline": "Говори Москва : Това ще окаже негативно влияние върху глобалните пазари ᐉ Новини от Fakti . bg - Свят",
-      "url": "https://fakti.bg/world/1047954-govori-moskva-tova-shte-okaje-negativno-vlianie-varhu-globalnite-pazari",
-      "published_at": "20260413T193000Z",
-      "source": "fakti.bg",
-      "tags": []
-    },
-    {
-      "id": "gdelt_66f037c48071a621",
-      "headline": "Freight forwarders protest GRA valuation system with nationwide strike",
-      "url": "https://www.graphic.com.gh/news/general-news/freight-forwarders-protest-gra-valuation-system-with-nationwide-strike.html",
-      "published_at": "20260413T190000Z",
-      "source": "graphic.com.gh",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8bb0ac19e736c9ce",
-      "headline": "Мадьяр согласен с отказом Венгрии от участия в кредите для Киева на 90 млрд евро",
-      "url": "https://www.vesti.ru/ns/madyar-soglasen-s-otkazom-vengrii-ot-uchastiya-v-kredite-dlya-kieva-na-90-mlrd-evro",
-      "published_at": "20260413T151500Z",
-      "source": "vesti.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1804ed002cb044d1",
-      "headline": "ইরানি বন্দরগুলোতে মার্কিন নৌ - অবরোধ শুরু",
-      "url": "https://www.jugantor.com/international/1088744",
-      "published_at": "20260413T153000Z",
-      "source": "jugantor.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_381f8caf7fa60cc0",
-      "headline": "J . P . Morgan , Morgan Stanley urge buying the dip as US earnings stay resilient",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/j-p-morgan-morgan-stanley-153806163.html",
-      "published_at": "20260413T161500Z",
-      "source": "finance.yahoo.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7e4a92c51ec1b7d8",
-      "headline": "Венгрия при новом премьере продолжит закупать нефть у России",
-      "url": "https://www.bfm.ru/news/603618",
-      "published_at": "20260413T204500Z",
-      "source": "bfm.ru",
       "tags": []
     }
   ]
