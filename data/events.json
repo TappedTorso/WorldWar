@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-04-14T06:09:22Z",
+    "generated_at_utc": "2026-04-14T08:03:58Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -33,6 +33,44 @@
   },
   "events": [
     {
+      "id": "gdelt_a45a69e6f39f2e57",
+      "headline": "Pakistan launches fresh rocket strikes in eastern Afghanistan",
+      "url": "https://www.khaama.com/pakistan-launches-fresh-rocket-strikes-in-eastern-afghanistan/",
+      "published_at": "20260414T064500Z",
+      "source": "khaama.com",
+      "tags": [
+        "PAKISTAN",
+        "AFGHANISTAN"
+      ]
+    },
+    {
+      "id": "gdelt_2a9cfbf6b84f9a55",
+      "headline": "Сыртланов : « Россия начнет классическую войну на уничтожение , время игр прошло »",
+      "url": "https://u-f.ru/news/politics/u9/2026/04/14/415356",
+      "published_at": "20260414T064500Z",
+      "source": "u-f.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b998fdb8028091dc",
+      "headline": "Китай готовится тестировать канатную дорогу в Россию этим летом",
+      "url": "https://deita.ru/article/583882",
+      "published_at": "20260414T063000Z",
+      "source": "deita.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7d127efcba668669",
+      "headline": "Trump warnt China vor Waffenlieferungen an den Iran",
+      "url": "https://www.merkur.de/politik/usa-erhoehen-druck-auf-china-wegen-mutmasslicher-waffenlieferungen-an-den-iran-zr-94260623.html",
+      "published_at": "20260414T061500Z",
+      "source": "merkur.de",
+      "tags": [
+        "IRAN",
+        "CHINA"
+      ]
+    },
+    {
       "id": "gdelt_a6044ca5f8ac5a88",
       "headline": "Trump warnt China vor Waffenlieferungen an den Iran",
       "url": "http://www.tz.de/politik/usa-erhoehen-druck-auf-china-wegen-mutmasslicher-waffenlieferungen-an-den-iran-zr-94260623.html",
@@ -55,15 +93,20 @@
       ]
     },
     {
+      "id": "gdelt_04e8e36d641af2c1",
+      "headline": "Trump warnt China vor Waffenlieferungen an den Iran",
+      "url": "http://www.wa.de/politik/usa-erhoehen-druck-auf-china-wegen-mutmasslicher-waffenlieferungen-an-den-iran-zr-94260623.html",
+      "published_at": "20260414T061500Z",
+      "source": "wa.de",
+      "tags": []
+    },
+    {
       "id": "gdelt_b555bd54f6d4541c",
       "headline": "Trump warnt China vor Waffenlieferungen an den Iran",
       "url": "http://www.fnp.de/politik/usa-erhoehen-druck-auf-china-wegen-mutmasslicher-waffenlieferungen-an-den-iran-zr-94260623.html",
       "published_at": "20260414T041500Z",
       "source": "fnp.de",
-      "tags": [
-        "IRAN",
-        "CHINA"
-      ]
+      "tags": []
     },
     {
       "id": "gdelt_7d13e30fa9fc6ad1",
@@ -95,14 +138,6 @@
       "url": "https://www.kosmo.com.my/2026/04/14/serik-pergi-sekolah-rentas-sempadan-guna-pangkalan-haram/",
       "published_at": "20260414T031500Z",
       "source": "kosmo.com.my",
-      "tags": []
-    },
-    {
-      "id": "gdelt_57acd2b38b9ea764",
-      "headline": "Toll Booths and Tankers : How the US Navy and Economic Sanctions Aim To Squeeze Tehran",
-      "url": "https://www.rferl.org/a/33731428.html",
-      "published_at": "20260414T004500Z",
-      "source": "rferl.org",
       "tags": []
     },
     {
@@ -150,19 +185,11 @@
       ]
     },
     {
-      "id": "gdelt_ed3f6ad049aafff9",
-      "headline": "Stretto di Hormuz , Israele sostiene il blocco navale e la tensione cresce",
-      "url": "https://www.notizie.it/stretto-di-hormuz-israele-sostiene-il-blocco-navale-e-la-tensione-cresce/",
-      "published_at": "20260414T011500Z",
-      "source": "notizie.it",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7207c5dca05acc2d",
-      "headline": "Глава Минобороны Украины : Бельгия и Испания выделят по миллиарду военной помощи",
-      "url": "https://vm.ru/news/1318412-glava-minoborony-ukrainy-belgiya-i-ispaniya-vydelyat-po-milliardu-voennoj-pomoshi",
-      "published_at": "20260414T014500Z",
-      "source": "vm.ru",
+      "id": "gdelt_10a2acf8af30e1f5",
+      "headline": "Air Astana eyes biz expansion in China market",
+      "url": "http://africa.chinadaily.com.cn/a/202604/14/WS69dd97eca310d6866eb433b9.html",
+      "published_at": "20260414T041500Z",
+      "source": "africa.chinadaily.com.cn",
       "tags": []
     },
     {
@@ -171,14 +198,6 @@
       "url": "http://usa.chinadaily.com.cn/a/202604/14/WS69dd97eca310d6866eb433b9.html",
       "published_at": "20260414T024500Z",
       "source": "usa.chinadaily.com.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_10a2acf8af30e1f5",
-      "headline": "Air Astana eyes biz expansion in China market",
-      "url": "http://africa.chinadaily.com.cn/a/202604/14/WS69dd97eca310d6866eb433b9.html",
-      "published_at": "20260414T041500Z",
-      "source": "africa.chinadaily.com.cn",
       "tags": []
     },
     {
@@ -198,16 +217,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_5b57f94395adeed5",
-      "headline": "Thailand is Turning Scam Allegations into Airstrikes",
-      "url": "https://phnompenhpost.com/opinion/thailand-is-turning-scam-allegations-into-airstrikes/",
-      "published_at": "20260414T001500Z",
-      "source": "phnompenhpost.com",
-      "tags": [
-        "THAILAND"
-      ]
-    },
-    {
       "id": "gdelt_3d6e3d88205382b8",
       "headline": "Trump warnt China vor Waffenlieferungen an den Iran",
       "url": "http://www.az-online.de/politik/usa-erhoehen-druck-auf-china-wegen-mutmasslicher-waffenlieferungen-an-den-iran-zr-94260623.html",
@@ -216,11 +225,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_01b8c51da26073a3",
-      "headline": "CEMAC : Gabon , Cameroun et Congo concentrent 80 % de la dette sur le marché régional",
-      "url": "https://www.financialafrik.com/2026/04/13/cemac-gabon-cameroun-et-congo-concentrent-80-de-la-dette-sur-le-marche-regional/",
-      "published_at": "20260414T001500Z",
-      "source": "financialafrik.com",
+      "id": "gdelt_0e7a3ac5e4f5d85a",
+      "headline": "IRAN NAPAO AMERIKU :  Žele eskalaciju rata !",
+      "url": "https://www.alo.rs/vesti/svet/16697558/iran-napao-ameriku-zele-eskalaciju-rata.html",
+      "published_at": "20260414T073000Z",
+      "source": "alo.rs",
       "tags": []
     },
     {
@@ -264,11 +273,53 @@
       "tags": []
     },
     {
-      "id": "gdelt_0c560427e0331e7f",
-      "headline": "Dangote plans landmark pan - African refinery IPO",
-      "url": "https://punchng.com/dangote-plans-pan-african-ipo-for-20bn-refinery/",
-      "published_at": "20260414T003000Z",
-      "source": "punchng.com",
+      "id": "gdelt_17588f8892549a55",
+      "headline": "Federal Reserve Holds Rates at 3 . 50 % as Yield Drought Pushes",
+      "url": "https://www.openpr.com/news/4469434/federal-reserve-holds-rates-at-3-50-as-yield-drought-pushes",
+      "published_at": "20260414T063000Z",
+      "source": "openpr.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3af2f6ceb9ecd965",
+      "headline": "Bitcoin ( BTC ) Extreme Fear at 11 for 46 Consecutive Days Matches",
+      "url": "https://www.openpr.com/news/4469460/bitcoin-btc-extreme-fear-at-11-for-46-consecutive-days-matches",
+      "published_at": "20260414T063000Z",
+      "source": "openpr.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e9ce47932ab48b9e",
+      "headline": "Best Crypto to Invest in April 2026 : Cardano ( ADA ) Protocol 11",
+      "url": "https://www.openpr.com/news/4469455/best-crypto-to-invest-in-april-2026-cardano-ada-protocol-11",
+      "published_at": "20260414T063000Z",
+      "source": "openpr.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0dcfbf4b2e05115c",
+      "headline": "טראמפ מנסה למנוע פיצוץ , אך לא מוותר על הגרעין :  הכדור במגרש של האיראנים",
+      "url": "https://www.kipa.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA/1222657-0/",
+      "published_at": "20260414T061500Z",
+      "source": "kipa.co.il",
+      "tags": []
+    },
+    {
+      "id": "gdelt_24b8b03723102968",
+      "headline": "Israeli soldier killed , three injured in clashes in southern Lebanon",
+      "url": "https://aa.com.tr/en/middle-east/israeli-soldier-killed-three-injured-in-clashes-in-southern-lebanon/3904591",
+      "published_at": "20260414T071500Z",
+      "source": "aa.com.tr",
+      "tags": [
+        "LEBANON"
+      ]
+    },
+    {
+      "id": "gdelt_796ac7fe2ca496b9",
+      "headline": "Islamabad or not ? US – Iran talks inch toward second round after first failed ; 5 things we know",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/islamabad-or-not-usiran-talks-inch-toward-second-round-after-first-failed-5-things-we-know/articleshow/130252211.cms",
+      "published_at": "20260414T071500Z",
+      "source": "timesofindia.indiatimes.com",
       "tags": []
     },
     {
@@ -296,6 +347,30 @@
       "tags": []
     },
     {
+      "id": "gdelt_d89d0501ead6c4f6",
+      "headline": "Rwandan Lawmaker Leads Bid to Step Up Regional Anti - Human Trafficking Fight",
+      "url": "https://allafrica.com/stories/202604140076.html",
+      "published_at": "20260414T061500Z",
+      "source": "allafrica.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_226cd71e20a4159b",
+      "headline": "手手公益與AAR Japan推動柬埔寨輪椅計畫 助地雷傷者行動",
+      "url": "https://n.yam.com/Article/20260414679067",
+      "published_at": "20260414T073000Z",
+      "source": "n.yam.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_20f1bebcaa774875",
+      "headline": "European Youth Capital : Bewerbung macht Jugendprojekte sichtbar",
+      "url": "https://www.wn.de/muensterland/kreis-borken/gronau/bewerbung-macht-jugendprojekte-sichtbar-3530912",
+      "published_at": "20260414T061500Z",
+      "source": "wn.de",
+      "tags": []
+    },
+    {
       "id": "gdelt_8d5c84dab29b1587",
       "headline": "Хезболла  провела 75 боевых операций против Израиля - РИА Новости , 14 . 04 . 2026",
       "url": "https://ria.ru/20260414/khezbolla-2086919125.html",
@@ -314,11 +389,19 @@
       ]
     },
     {
-      "id": "gdelt_2df5a75641e4eb7e",
-      "headline": "Visit to strengthen Sino - Vietnamese ties",
-      "url": "http://usa.chinadaily.com.cn/a/202604/14/WS69dd8e1ca310d6866eb43324.html",
-      "published_at": "20260414T014500Z",
-      "source": "usa.chinadaily.com.cn",
+      "id": "gdelt_717da2a3384b5b94",
+      "headline": "Цены на фисташки выросли до максимума из - за войны в Иране",
+      "url": "https://24tv.ua/agro24/ru/ceny-na-fistashki-vyrosli-do-maksimuma-iz-za-vojny-v-irane_n3048443",
+      "published_at": "20260414T073000Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a7db59850d410a3d",
+      "headline": "Ціни на фісташки зросли до максимуму через війну в Ірані",
+      "url": "https://24tv.ua/agro24/tsini-fistashki-zrosli-do-maksimumu-cherez-viynu-irani_n3048414",
+      "published_at": "20260414T073000Z",
+      "source": "24tv.ua",
       "tags": []
     },
     {
@@ -340,6 +423,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_c527ae9635c51cca",
+      "headline": "Cops believe cross - border robbers targeting churches in St James",
+      "url": "https://jamaica-gleaner.com/article/news/20260414/cops-believe-cross-border-robbers-targeting-churches-st-james",
+      "published_at": "20260414T063000Z",
+      "source": "jamaica-gleaner.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_2d99df528a8006f4",
       "headline": "Оккупанты продвинулись в трех селах - DeepState",
       "url": "https://korrespondent.net/ukraine/4870656-okkupanty-prodvynulys-v-trekh-selakh-DeepState",
@@ -348,14 +439,6 @@
       "tags": [
         "UKRAINE"
       ]
-    },
-    {
-      "id": "gdelt_208a9daded494bd4",
-      "headline": "Poonch - Rajouri Rail Link",
-      "url": "https://www.dailyexcelsior.com/poonch-rajouri-rail-link/",
-      "published_at": "20260414T013000Z",
-      "source": "dailyexcelsior.com",
-      "tags": []
     },
     {
       "id": "gdelt_706a7f01ff3287a4",
@@ -374,6 +457,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_69db171686231b93",
+      "headline": "Trump warnt China vor Waffenlieferungen an den Iran",
+      "url": "https://www.kreiszeitung.de/politik/usa-erhoehen-druck-auf-china-wegen-mutmasslicher-waffenlieferungen-an-den-iran-zr-94260623.html",
+      "published_at": "20260414T063000Z",
+      "source": "kreiszeitung.de",
+      "tags": []
+    },
+    {
       "id": "gdelt_6837c30ec874b9a5",
       "headline": "THE DOLLAR DOMINANCE - OrissaPOST",
       "url": "https://www.orissapost.com/the-dollar-dominance/",
@@ -382,19 +473,21 @@
       "tags": []
     },
     {
-      "id": "gdelt_872484e61bac2c60",
-      "headline": "Федоров провів переговори щодо посилення ППО України з Бельгією та Іспанією",
-      "url": "https://www.rbc.ua/rus/news/fedorov-uzgodiv-belgieyu-ta-ispanieyu-posilennya-1776122887.html",
-      "published_at": "20260414T014500Z",
-      "source": "rbc.ua",
-      "tags": []
+      "id": "gdelt_b450a2afac0d29c5",
+      "headline": "Autoridades libanesas confirmaron que hay más de 2 . 000 víctimas por ataques de Israel",
+      "url": "http://www.lanueva.com/nota/2026-4-12-8-0-0-autoridades-libanesas-confirmaron-que-hay-mas-de-2-000-victimas-por-ataques-de-israel",
+      "published_at": "20260414T073000Z",
+      "source": "lanueva.com",
+      "tags": [
+        "ISRAEL"
+      ]
     },
     {
-      "id": "gdelt_554fb9c34fb0fc53",
-      "headline": "新卒ビジネス職を1カ月で技術者へ転換 、 TOKIUM AI時代は皆 「 越境人材 」",
-      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03537/033000002/",
-      "published_at": "20260414T001500Z",
-      "source": "xtech.nikkei.com",
+      "id": "gdelt_50bae77e9cc460c1",
+      "headline": "桑德斯擬推決議案 擋美近5億美元對以色列軍售",
+      "url": "https://n.yam.com/Article/20260414126724",
+      "published_at": "20260414T063000Z",
+      "source": "n.yam.com",
       "tags": []
     },
     {
@@ -432,6 +525,14 @@
       ]
     },
     {
+      "id": "gdelt_363eb7d7175a3fac",
+      "headline": "Kanada : U Libanonu ubijen naš državljanin , pozivamo Izrael da zaustavi napade",
+      "url": "https://www.index.hr/vijesti/clanak/kanada-u-libanonu-ubijen-nas-drzavljanin-pozivamo-izrael-da-zaustavi-napade/2781573.aspx",
+      "published_at": "20260414T064500Z",
+      "source": "index.hr",
+      "tags": []
+    },
+    {
       "id": "gdelt_075996a0d6e521bc",
       "headline": "Canada says Canadian citizen killed in Lebanon , urges Israel to cease attacks",
       "url": "https://aa.com.tr/en/world/canada-says-canadian-citizen-killed-in-lebanon-urges-israel-to-cease-attacks/3904574",
@@ -451,39 +552,59 @@
       "tags": []
     },
     {
-      "id": "gdelt_8bf6acbbcc303c80",
-      "headline": "Киев получит новую подачку от Европы : Украине пообещали помощь на миллиарды евро | Украина",
-      "url": "https://fedpress.ru/news/ukraine/policy/3433072",
-      "published_at": "20260414T013000Z",
-      "source": "fedpress.ru",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "gdelt_c0a5fc190cce9ed2",
-      "headline": "India : Consolidating Peace In Tripura – Analysis",
-      "url": "https://www.eurasiareview.com/14042026-india-consolidating-peace-in-tripura-analysis/",
-      "published_at": "20260414T011500Z",
-      "source": "eurasiareview.com",
-      "tags": [
-        "INDIA"
-      ]
-    },
-    {
-      "id": "gdelt_bf9d68a83c394b4b",
-      "headline": "Kremlin reacts to Orban defeat in Hungarian election",
-      "url": "http://www.russiaherald.com/news/278981994/kremlin-reacts-to-orban-defeat-in-hungarian-election",
-      "published_at": "20260414T004500Z",
-      "source": "russiaherald.com",
+      "id": "gdelt_c824001df4b67212",
+      "headline": "Otkriveno kako i pod kojim uvjetima će Amerika ukinuti sankcije Iranu",
+      "url": "https://www.telegram.hr/politika-kriminal/otkriveno-kako-i-pod-kojim-uvjetima-ce-amerika-ukinuti-sankcije-iranu/",
+      "published_at": "20260414T071500Z",
+      "source": "telegram.hr",
       "tags": []
     },
     {
-      "id": "gdelt_df77be9a8434f254",
-      "headline": "Kremlin reacts to Orbans defeat in Hungarian election",
-      "url": "http://www.russiaherald.com/news/278981963/kremlin-reacts-to-orbans-defeat-in-hungarian-election",
-      "published_at": "20260414T004500Z",
-      "source": "russiaherald.com",
+      "id": "gdelt_2130ea4b382a5023",
+      "headline": "Kineski tanker pod američkim sankcijama prošao kroz Ormuski moreuz",
+      "url": "https://naslovi.net/2026-04-14/nova/kineski-tanker-pod-americkim-sankcijama-prosao-kroz-ormuski-moreuz/41624150",
+      "published_at": "20260414T071500Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2401a8efe87c4c9e",
+      "headline": "Стало известно , когда запустят канатную дорогу между Благовещенском и Хэйхэ АМУР . Инфо",
+      "url": "https://amur.info/2026/04/14/stalo-izvestno-kogda-zapustyat-kanatnuyu-dorogu-mezhdu-blagoveshhenskom-i-hejhe/",
+      "published_at": "20260414T061500Z",
+      "source": "amur.info",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f527e88587d099f7",
+      "headline": "纪录片 《 中老铁路纪行 》 将在中老两国首播",
+      "url": "https://china.qianlong.com/2026/0414/8654351.shtml",
+      "published_at": "20260414T063000Z",
+      "source": "china.qianlong.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0ce609b625567e38",
+      "headline": "Kineski tanker pod sankcijama SAD prošao Ormuski moreuz iz luke u Emiratima",
+      "url": "https://naslovi.net/2026-04-14/insajder/kineski-tanker-pod-sankcijama-sad-prosao-ormuski-moreuz-iz-luke-u-emiratima/41623845",
+      "published_at": "20260414T060000Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a9ca6f94647aaaf5",
+      "headline": "Как ЕАО увеличить присутствие в инфоповестке , предложили на Дальневосточном МедиаСаммите",
+      "url": "https://primamedia.ru/news/2462459/",
+      "published_at": "20260414T073000Z",
+      "source": "primamedia.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a750c60302681a93",
+      "headline": "Атака на Чернигов 14 апреля 2026 - какие последствия - взрывы в Чернигове сегодня , что известно",
+      "url": "https://24tv.ua/ru/ataka-na-chernigov-14-aprelja-2026-kakie-posledstvija-vzryvy-v-chernigove-segodnja-chto-izvestno_n3048441",
+      "published_at": "20260414T073000Z",
+      "source": "24tv.ua",
       "tags": []
     },
     {
@@ -495,27 +616,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_602638a2da152ed0",
-      "headline": "US , Iran leave door open to dialogue after tense Islamabad talks",
-      "url": "https://www.asiaone.com/world/us-iran-leave-door-open-dialogue-after-tense-islamabad-talks",
-      "published_at": "20260414T003000Z",
-      "source": "asiaone.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_9be6556d25654b90",
       "headline": "Німеччина офіційно продовжила тимчасовий захист для українців",
       "url": "https://riasv.ru/ekonomika/2026/04/14/nimechchina-oficiino-prodovjila-timchasovii-zahist-dlia-ykrainciv/",
       "published_at": "20260414T041500Z",
       "source": "riasv.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_48a0df3eeeb431f6",
-      "headline": "Toll Booths And Tankers : How The US Navy And Economic Sanctions Aim To Squeeze Tehran – Interview",
-      "url": "https://www.eurasiareview.com/14042026-toll-booths-and-tankers-how-the-us-navy-and-economic-sanctions-aim-to-squeeze-tehran-interview/",
-      "published_at": "20260414T014500Z",
-      "source": "eurasiareview.com",
       "tags": []
     },
     {
@@ -546,11 +651,35 @@
       ]
     },
     {
+      "id": "gdelt_42e5084d0b846c65",
+      "headline": "Kineski tanker pod sankcijama SAD prošao Ormuski moreuz uprkos blokadi",
+      "url": "https://www.telegraf.rs/vesti/svet/4307405-kineski-tanker-pod-sankcijama-sad-prosao-ormuski-moreuz-uprkos-blokadi",
+      "published_at": "20260414T063000Z",
+      "source": "telegraf.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8f5282978f22defe",
+      "headline": "Uživo Kineski brod prošao Ormuski moreuz uprkos blokadi : Džej Di Vens optužio Iran za  ekonomski terorizam  - Vesti",
+      "url": "https://www.telegraf.rs/vesti/svet/4307393-sukobi-na-bliskom-istoku-usli-su-u-46-dan",
+      "published_at": "20260414T063000Z",
+      "source": "telegraf.rs",
+      "tags": []
+    },
+    {
       "id": "gdelt_c6fad52d6b800b46",
       "headline": "Tanker pod sankcijama SAD - a prošao Hormuškim tjesnacem usprkos blokadi",
       "url": "https://www.index.hr/vijesti/clanak/tanker-pod-sankcijama-sada-prosao-hormuskim-tjesnacem-usprkos-blokadi/2781536.aspx",
       "published_at": "20260414T050000Z",
       "source": "index.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_282c3ba3ef5234e4",
+      "headline": "इरानी बन्दरगाहमा अमेरिकी नाकाबन्दी  गम्भीर सार्वभौमिकता उल्लङ्घन  | Nepal first 24 - hour updated news portal",
+      "url": "https://www.ratopati.com/story/556880/us-blockade-of-iranian-ports-serious-violation-of-sovereignty",
+      "published_at": "20260414T071500Z",
+      "source": "ratopati.com",
       "tags": []
     },
     {
@@ -570,6 +699,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_3f78a5bae4aabff0",
+      "headline": "Kapal Tanker China Aman - aman Saja Lewati Hormuz meski Ada Blokade AS , Kenapa ?",
+      "url": "https://www.kompas.com/tren/read/2026/04/14/134535065/kapal-tanker-china-aman-aman-saja-lewati-hormuz-meski-ada-blokade-as-kenapa",
+      "published_at": "20260414T071500Z",
+      "source": "kompas.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_0b14a57ec93305f4",
       "headline": "Kineski tanker pod sankcijama SAD - a prošao jutros kroz Hormuški tjesnac unatoč američkoj blokadi",
       "url": "https://www.novilist.hr/novosti/svijet/kineski-tanker-pod-sankcijama-sad-a-prosao-jutros-kroz-hormuski-tjesnac-unatoc-americkoj-blokadi/",
@@ -578,19 +715,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_e6f0e245ef94c614",
-      "headline": "Crude Cargo Traffic Likely to Get Caught Up in War Logjam Again",
-      "url": "https://economictimes.indiatimes.com/et-front/crude-cargo-traffic-likely-to-get-caught-up-in-war-logjam-again/articleshow/130247641.cms",
-      "published_at": "20260414T011500Z",
-      "source": "economictimes.indiatimes.com",
+      "id": "gdelt_a6372603f772a95d",
+      "headline": "Vens optužio Iran za ekonomski terorizam ; Tanker pod sankcijama SAD - a prošao Hormuškim moreuzom usprkos blokadi",
+      "url": "https://www.portalanalitika.me/clanak/tanker-pod-sankcijama-sad-a-prosao-hormuskim-moreuzom-usprkos-blokadi",
+      "published_at": "20260414T073000Z",
+      "source": "portalanalitika.me",
       "tags": []
     },
     {
-      "id": "gdelt_ee8f4f09b3bb7d0e",
-      "headline": "US , Iran leave door open to dialogue after tense talks",
-      "url": "https://www.omanobserver.om/article/1187849/world/region/us-iran-leave-door-open-to-dialogue-after-tense-talks",
-      "published_at": "20260414T013000Z",
-      "source": "omanobserver.om",
+      "id": "gdelt_500c413584ba76e8",
+      "headline": "Trump Deploys 15 Warships and F - 35s to Blockade Strait​| ഹോര്‍മുസില്‍ 15 യുദ്ധക്കപ്പലുകള്‍ ; F - 35 വിമാനങ്ങളും MV - 22 ഓസ്പ്രേയും വിന്യസിച്ച് ട്രംപ് ; ബലപ്രയോഗമോ ലക്ഷ്യം ?",
+      "url": "https://www.manoramanews.com/gulf-and-global/middle-east/2026/04/14/trump-deploys-warships-f35-blockade-strait-of-hormuz.html",
+      "published_at": "20260414T063000Z",
+      "source": "manoramanews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_39b0ace8ffc36088",
+      "headline": "ԱՄՆ - ի կողմից պատժամիջոցների տակ գտնվող տանկերները անցել են Հորմուզի նեղուցով",
+      "url": "https://www.azatutyun.am/a/amn-i-koghmits-patzhamijotsneri-tak-gtnvogh-tankernery-antsel-en-hormouzi-neghoutsov/33731748.html",
+      "published_at": "20260414T061500Z",
+      "source": "azatutyun.am",
       "tags": []
     },
     {
@@ -602,14 +747,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_2593b9d83b113c09",
-      "headline": "इरानद्वारा परमाणु परियोजना ५ वर्ष रोक्ने प्रस्ताव , अमेरिका २० वर्षमा अडिग",
-      "url": "https://www.onlinekhabar.com/2026/04/1910830/iran-proposes-to-halt-nuclear-project-for-5-years-us-insists-on-20-years",
-      "published_at": "20260414T034500Z",
-      "source": "onlinekhabar.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_f3c3727065317152",
       "headline": "Căng thẳng Mỹ - Iran leo thang sau đàm phán thất bại , quốc tế kêu gọi kiềm chế",
       "url": "https://vov.vn/the-gioi/cang-thang-my-iran-leo-thang-sau-dam-phan-that-bai-quoc-te-keu-goi-kiem-che-post1283771.vov",
@@ -618,27 +755,19 @@
       "tags": []
     },
     {
+      "id": "gdelt_2593b9d83b113c09",
+      "headline": "इरानद्वारा परमाणु परियोजना ५ वर्ष रोक्ने प्रस्ताव , अमेरिका २० वर्षमा अडिग",
+      "url": "https://www.onlinekhabar.com/2026/04/1910830/iran-proposes-to-halt-nuclear-project-for-5-years-us-insists-on-20-years",
+      "published_at": "20260414T034500Z",
+      "source": "onlinekhabar.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_ae6d72dca8cdc475",
       "headline": "Chinese scientific groups launch initiative on open , fair global AI governance _ Guangming Online",
       "url": "https://en.gmw.cn/2026-04/14/content_38706312.htm",
       "published_at": "20260414T041500Z",
       "source": "en.gmw.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a0ce419b1d304316",
-      "headline": "Donald Trump Isyaratkan Kuba Jadi Target Berikutnya Usai Iran , Havana Siap Melawan",
-      "url": "https://www.jawapos.com/internasional/2604140040/donald-trump-isyaratkan-kuba-jadi-target-berikutnya-usai-iran-havana-siap-melawan",
-      "published_at": "20260414T011500Z",
-      "source": "jawapos.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f0c23257012ed8e3",
-      "headline": "Đề xuất công an xã được xử phạt vi phạm trật tự an toàn giao thông gấp 15 lần hiện tại",
-      "url": "https://baomoi.com/de-xuat-cong-an-xa-duoc-xu-phat-vi-pham-trat-tu-an-toan-giao-thong-gap-15-lan-hien-tai-c54929520.epi",
-      "published_at": "20260414T010000Z",
-      "source": "baomoi.com",
       "tags": []
     },
     {
@@ -666,11 +795,75 @@
       "tags": []
     },
     {
-      "id": "gdelt_1b43fd9f51969815",
-      "headline": "中国公民尽快撤离刚果金 安全形势严峻升级 _ 军事频道 _ 中华网",
-      "url": "https://military.china.com/news/13004177/20260414/49412396.html",
-      "published_at": "20260414T011500Z",
-      "source": "military.china.com",
+      "id": "gdelt_314a76c662c01ce7",
+      "headline": "Kineski tanker prošao kroz Ormuski moreuz , uprkos američkoj blokadi",
+      "url": "https://www.danas.rs/vesti/ekonomija/kineski-tanker-prosao-kroz-ormuski-moreuz-uprkos-americkoj-blokadi/",
+      "published_at": "20260414T073000Z",
+      "source": "danas.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f44ccc2bf334bf04",
+      "headline": "Reuters : Kινεζικό τάνκερ πέρασε τα Στενά του Ορμούζ υπό το καθεστώς των αμερικανικών κυρώσεων",
+      "url": "https://www.inewsgr.com/364/Reuters-Kineziko-tanker-perase-ta-stena-tou-ormouz-ypo-to-kathestos-ton-amerikanikon-kyroseon.htm",
+      "published_at": "20260414T061500Z",
+      "source": "inewsgr.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1f59490f7f7aff83",
+      "headline": "Военные США ударили по судну в Тихом океане",
+      "url": "https://gazeta.ua/ru/articles/world-life/_voennye-ssa-udarili-po-sudnu-v-tihom-okeane/1248256",
+      "published_at": "20260414T064500Z",
+      "source": "gazeta.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e22afdc9f04dbda8",
+      "headline": "纪录片 《 中老铁路纪行 》 将在中老两国首播",
+      "url": "https://news.ycwb.com/ikimvkotjo/content_54062963.htm",
+      "published_at": "20260414T071500Z",
+      "source": "news.ycwb.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ce9628be32539c02",
+      "headline": "Une piste cyclable à un million deuros le kilomètre :  Un investissement pour lavenir",
+      "url": "https://www.dhnet.be/regions/luxembourg/2026/04/14/une-piste-cyclable-a-un-million-deuros-le-kilometre-un-investissement-pour-lavenir-RK3VGIYBARBEFN2EQ5ESGG2BAQ/",
+      "published_at": "20260414T073000Z",
+      "source": "dhnet.be",
+      "tags": []
+    },
+    {
+      "id": "gdelt_be2353278a1463a8",
+      "headline": "Китайский танкер , находящийся под санкциями США пересек Ормузский пролив | MigNews - Новости Израиля и Мира на русском языке",
+      "url": "https://mignews.com/news/economics/kitajskij-tanker-pod-sankciyami-ssha-peresek-ormuzskij-proliv.html",
+      "published_at": "20260414T071500Z",
+      "source": "mignews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bf1ee0b0b2c3c900",
+      "headline": "Une piste cyclable à un million deuros le kilomètre :  Un investissement pour lavenir",
+      "url": "https://www.lavenir.net/regions/luxembourg/2026/04/14/une-piste-cyclable-a-un-million-deuros-le-kilometre-un-investissement-pour-lavenir-5ULYQJA4QRGUHEW4RALZRJBRKI/",
+      "published_at": "20260414T061500Z",
+      "source": "lavenir.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c51565788c5f186d",
+      "headline": "X Generali akıllı ol ! - Selahattin ADIGÜZELLER",
+      "url": "https://www.bursahakimiyet.com.tr/yazarlar/selahattin-adiguzeller-108/x-generali-akilli-ol-30518",
+      "published_at": "20260414T064500Z",
+      "source": "bursahakimiyet.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_51c43c3be5113e4a",
+      "headline": "Τάνκερ υπό καθεστώς αμερικανικών κυρώσεων πέρασε το Στενό του Ορμούζ",
+      "url": "https://www.skai.gr/news/world/tanker-ypo-kathestos-amerikanikon-kyroseon-perase-to-steno-tou-ormouz",
+      "published_at": "20260414T071500Z",
+      "source": "skai.gr",
       "tags": []
     },
     {
@@ -688,6 +881,24 @@
       "published_at": "20260414T041500Z",
       "source": "newkerala.com",
       "tags": []
+    },
+    {
+      "id": "gdelt_3d31751b0fd7bfee",
+      "headline": "UI Buka Peluang DO Mahasiswa Terduga Pelaku Pelecehan Seksual di Grup Chat : Okezone News",
+      "url": "https://news.okezone.com/read/2026/04/14/337/3212335/ui-buka-peluang-do-mahasiswa-terduga-pelaku-pelecehan-seksual-di-grup-chat",
+      "published_at": "20260414T060000Z",
+      "source": "news.okezone.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4405acf60913d1f1",
+      "headline": "German Federal Police donates 21 motorbikes to Ghana Immigration Service",
+      "url": "http://www.businessghana.com/site/news/general/346630/German-Federal-Police-donates-21-motorbikes-to-Ghana-Immigration-Service",
+      "published_at": "20260414T060000Z",
+      "source": "businessghana.com",
+      "tags": [
+        "GHANA"
+      ]
     },
     {
       "id": "gdelt_92772034e0f7c406",
@@ -714,12 +925,30 @@
       "tags": []
     },
     {
-      "id": "gdelt_c62b564e73c212d0",
-      "headline": "Sorotan Tajam DPRD DKI Jakarta untuk Raperda Air Minum",
-      "url": "https://megapolitan.kompas.com/read/2026/04/14/08271131/sorotan-tajam-dprd-dki-jakarta-untuk-raperda-air-minum",
-      "published_at": "20260414T020000Z",
-      "source": "megapolitan.kompas.com",
+      "id": "gdelt_149b33aa4939b439",
+      "headline": "ABD ablukasını tanımadı ! Çin gemisi Hürmüz Boğazı  ndan geçti",
+      "url": "https://www.bursadabugun.com/haber/abd-ablukasini-tanimadi-cin-gemisi-hurmuz-bogazi-ndan-gecti-1912282.html",
+      "published_at": "20260414T073000Z",
+      "source": "bursadabugun.com",
       "tags": []
+    },
+    {
+      "id": "gdelt_ecc18d5fde614d8f",
+      "headline": "Rič Stari  - prvi tanker koji je prošao američku blokadu Ormuza",
+      "url": "https://naslovi.net/2026-04-14/rtv/ric-stari-prvi-tanker-koji-je-prosao-americku-blokadu-ormuza/41623795",
+      "published_at": "20260414T061500Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8c55008a524daaee",
+      "headline": "Кредит Украине и санкции против России - разблокирует ли Петер Мадьяр эти решения ради денег ЕС",
+      "url": "https://24tv.ua/economy/ru/kredit-ukraine-i-sankcii-protiv-rossii-razblokiruet-li-peter-madjar-jeti-reshenija-radi-deneg-es_n3048424",
+      "published_at": "20260414T073000Z",
+      "source": "24tv.ua",
+      "tags": [
+        "UKRAINE"
+      ]
     },
     {
       "id": "gdelt_6cce056ee0351f45",
@@ -727,6 +956,14 @@
       "url": "https://news.ltn.com.tw/news/world/breakingnews/5402854",
       "published_at": "20260414T031500Z",
       "source": "news.ltn.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ead6e7cbf643715c",
+      "headline": "Sahroni tegaskan pelaku pelecehan seksual di FH UI harus disanksi",
+      "url": "https://www.antaranews.com/berita/5525691/sahroni-tegaskan-pelaku-pelecehan-seksual-di-fh-ui-harus-disanksi",
+      "published_at": "20260414T073000Z",
+      "source": "antaranews.com",
       "tags": []
     },
     {
@@ -746,14 +983,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_d32151eea0819f1a",
-      "headline": "Bói toán xác định giới tính thai nhi bị phạt tới 7 triệu đồng",
-      "url": "https://baomoi.com/boi-toan-xac-dinh-gioi-tinh-thai-nhi-bi-phat-toi-7-trieu-dong-c54932031.epi",
-      "published_at": "20260414T044500Z",
-      "source": "baomoi.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_24c22082ea5ab5b5",
       "headline": "Chinese scientific groups launch initiative on open , fair global AI governance",
       "url": "http://en.people.cn/n3/2026/0414/c90000-20446308.html",
@@ -762,11 +991,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_e364f2b1da0710b9",
-      "headline": "ഹോര്‍മുസ് ഇറാന്റെ സ്വത്തല്ലെന്ന് യുഎഇ ; യുഎസ് ഇടപെടല്‍ വേണ്ടെന്ന് ചൈന",
-      "url": "https://www.manoramanews.com/gulf-and-global/middle-east/2026/04/14/china-criticizes-us-hormuz-blockade-admiral-dong-jun-hormuz-statement.html",
-      "published_at": "20260414T014500Z",
-      "source": "manoramanews.com",
+      "id": "gdelt_d32151eea0819f1a",
+      "headline": "Bói toán xác định giới tính thai nhi bị phạt tới 7 triệu đồng",
+      "url": "https://baomoi.com/boi-toan-xac-dinh-gioi-tinh-thai-nhi-bi-phat-toi-7-trieu-dong-c54932031.epi",
+      "published_at": "20260414T044500Z",
+      "source": "baomoi.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fe78d91cef9f2542",
+      "headline": "미 · 이란 협상 핵심은  핵 ... 우라늄 농축 중단 · 반출  레드라인",
+      "url": "https://www.newspim.com/news/view/20260414001032",
+      "published_at": "20260414T064500Z",
+      "source": "newspim.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_765668a4e5b37970",
+      "headline": "Vens optužuje Iran za  ekonomski terorizam ; kineski tanker probio američku blokadu",
+      "url": "https://naslovi.net/2026-04-14/rts/vens-optuzuje-iran-za-ekonomski-terorizam-kineski-tanker-probio-americku-blokadu/41623644",
+      "published_at": "20260414T063000Z",
+      "source": "naslovi.net",
       "tags": []
     },
     {
@@ -783,250 +1028,6 @@
       "url": "https://www.munhwa.com:443/article/11582039",
       "published_at": "20260414T034500Z",
       "source": "munhwa.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5ad34946f70a61b3",
-      "headline": "ട്രംപിന്റെ ഭീഷണിക്ക് പുല്ലുവില ; ഹുർമുസ് ഉപരോധത്തിൽ പങ്കുചേരില്ലെന്ന് നാറ്റോ സഖ്യകക്ഷികൾ | NATO allies refuse to join Trump Iranian port blockade",
-      "url": "https://www.madhyamam.com/world/nato-allies-refuse-to-join-trumps-iranian-port-blockade-1511239",
-      "published_at": "20260414T041500Z",
-      "source": "madhyamam.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4fcbc086d2c2e485",
-      "headline": "ഞങ്ങളുടെ കാര്യത്തിൽ ഇടപെടേണ്ട ; ഹുർമുസ് ഉപരോധത്തിൽ അമേരിക്കക്ക് ചൈനയുടെ മുന്നറിയിപ്പ് | china Warns US Over Hormuz Blockade",
-      "url": "https://www.madhyamam.com/world/china-warns-us-over-hormuz-blockade-1511226",
-      "published_at": "20260414T041500Z",
-      "source": "madhyamam.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_16d3dea325688df3",
-      "headline": "इरानका बन्दरगाहहरूमा घेराबन्दी गर्ने ट्रम्पको योजनामा नेटो राष्ट्रहरूले साथ नदिने | Nepal first 24 - hour updated news portal",
-      "url": "https://www.ratopati.com/story/556825/nato-nations-will-not-support-trumps-plan-to-blockade-iranian-ports",
-      "published_at": "20260414T030000Z",
-      "source": "ratopati.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d35b6e13a0e14c5c",
-      "headline": "纪录片 《 中老铁路纪行 》 将在中老两国首播 - 西部网 （ 陕西新闻网 ）",
-      "url": "http://news.cnwest.com/szyw/a/2026/04/14/23335463.html",
-      "published_at": "20260414T044500Z",
-      "source": "news.cnwest.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ea8c13e17fa75b03",
-      "headline": "Lula empossa Guimarães na SRI e sanciona PNE nesta quarta - feira ( 14 )",
-      "url": "https://radiogov.ebc.com.br/programas/e-noticia/lula-empossa-guimaraes-na-sri-e-sanciona-pne-nesta-quarta-feira-14",
-      "published_at": "20260414T003000Z",
-      "source": "radiogov.ebc.com.br",
-      "tags": []
-    },
-    {
-      "id": "gdelt_87e03088ab873141",
-      "headline": "美伊談判破局油價暴衝 ！ 印度 、 菲律賓緊急向美國求放寬制裁豁免 | 東南亞新聞 | 四方報",
-      "url": "https://www.nownews.com/news/6807010",
-      "published_at": "20260414T053000Z",
-      "source": "nownews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1d26ce1bf3a6c6a4",
-      "headline": "26 Kenyans detained in India over alleged Sh235 million gold smuggling",
-      "url": "https://www.the-star.co.ke/news/2026-04-14-26-kenyans-detained-in-india-over-sh235m-gold",
-      "published_at": "20260414T053000Z",
-      "source": "the-star.co.ke",
-      "tags": [
-        "INDIA"
-      ]
-    },
-    {
-      "id": "gdelt_44bad4960bcd8719",
-      "headline": "Ungheria , Magyar :  finita la guerra , lEuropa dovrà revocare le sanzioni alla Russia",
-      "url": "https://www.strettoweb.com/2026/04/ungheria-magyar-finita-la-guerra-leuropa-dovra-revocare-le-sanzioni-alla-russia/2069788/",
-      "published_at": "20260414T004500Z",
-      "source": "strettoweb.com",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "gdelt_7a78ba047d4da180",
-      "headline": "Wali Kota Bogor Pastikan Gaji ASN Lancar , Dedie Rachim Soroti Gadai SK Satpol PP sebagai Pelanggaran Berat",
-      "url": "https://bogor.viva.co.id/kabar-bogor/4501-wali-kota-bogor-pastikan-gaji-asn-lancar-dedie-rachim-soroti-gadai-sk-satpol-pp-sebagai-pelanggaran-berat",
-      "published_at": "20260414T044500Z",
-      "source": "bogor.viva.co.id",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5ce07945cf626e8d",
-      "headline": "UI Buka Suara Soal Dugaan Pelecehan Verbal di Fakultas Hukum , Kini Diselidiki Satgas",
-      "url": "https://www.viva.co.id/berita/metro/1891802-ui-buka-suara-soal-dugaan-pelecehan-verbal-di-fakultas-hukum-kini-diselidiki-satgas",
-      "published_at": "20260414T033000Z",
-      "source": "viva.co.id",
-      "tags": []
-    },
-    {
-      "id": "gdelt_94f80d48cb556e25",
-      "headline": "受制裁油轮通过霍尔木兹海峡 似乎无视美国封锁 | 国际",
-      "url": "https://www.orientaldaily.com.my/news/international/2026/04/14/811152",
-      "published_at": "20260414T040000Z",
-      "source": "orientaldaily.com.my",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9b3246b276a7b6c5",
-      "headline": "周海媚经纪人 、 张国荣密友 金牌监制郑振邦离世光华日报 | 1910年创刊 创新每一天生活",
-      "url": "https://www.kwongwah.com.my/20260414/%E5%91%A8%E6%B5%B7%E5%AA%9A%E7%BB%8F%E7%BA%AA%E4%BA%BA%E3%80%81%E5%BC%A0%E5%9B%BD%E8%8D%A3%E5%AF%86%E5%8F%8B-%E9%87%91%E7%89%8C%E7%9B%91%E5%88%B6%E9%83%91%E6%8C%AF%E9%82%A6%E7%A6%BB%E4%B8%96/",
-      "published_at": "20260414T041500Z",
-      "source": "kwongwah.com.my",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f6a61ef8821da7d8",
-      "headline": "欧尔班败选对欧洲格局有何影响 地缘政治大洗牌 _ 军事频道 _ 中华网",
-      "url": "https://military.china.com/news/13004177/20260414/49412388.html",
-      "published_at": "20260414T011500Z",
-      "source": "military.china.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_26c5d02ff93c6c82",
-      "headline": "이 대통령  웬만한 건 형벌로 처벌하니 사법권력 이용해 정치",
-      "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003224378&PAGE_CD=N0002&CMPT_CD=M0112",
-      "published_at": "20260414T040000Z",
-      "source": "ohmynews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c58b1f747352b026",
-      "headline": "美国盟友成伊朗战争输家 盟友地位受损 _ 新闻频道 _ 中华网",
-      "url": "https://news.china.com/socialgd/10000169/20260414/49412965.html",
-      "published_at": "20260414T020000Z",
-      "source": "news.china.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_acb0efb96b9c6d72",
-      "headline": "Gouvernance sécuritaire dans les zones frontalières : formation des sous - préfets de Kédougou , Kolda et Tambacounda",
-      "url": "https://senego.com/gouvernance-securitaire-dans-les-zones-frontalieres-formation-des-sous-prefets-de-kedougou-kolda-et-tambacounda_1949437.html",
-      "published_at": "20260414T010000Z",
-      "source": "senego.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_41e67949c2977397",
-      "headline": "Не можешь победить возглавь . Трамп взял на вооружение тактику Ирана",
-      "url": "https://ria.ru/20260414/ormuz-2086845317.html",
-      "published_at": "20260414T053000Z",
-      "source": "ria.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ed569f67b6feb417",
-      "headline": "ارتفاع أسعار النفط في هايتي يثير احتجاجات والعمال يطالبون بزيادة الأجور",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=14042026&id=d0d84762-e2ee-4167-81c4-86ac0031e56e",
-      "published_at": "20260414T021500Z",
-      "source": "shorouknews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_654c69af71c43e27",
-      "headline": "Evo šta Peter Mađar , čovek koji je srušio Orbana , zaista misli o Putinu Rusiji",
-      "url": "https://www.blic.rs/vesti/svet/evo-sta-peter-madjar-covek-koji-je-srusio-orbana-zaista-misli-o-putinu-rusiji/fpekv8b",
-      "published_at": "20260414T043000Z",
-      "source": "blic.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_09729655bd5566e9",
-      "headline": "Iran ready for peace , also ready for war : Iran envoy as US port blockade kicks in",
-      "url": "https://www.dailyexcelsior.com/iran-ready-for-peace-also-ready-for-war-iran-envoy-as-us-port-blockade-kicks-in/",
-      "published_at": "20260414T013000Z",
-      "source": "dailyexcelsior.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_92b324e4dc2933f2",
-      "headline": "Report : Iranian tanker broke US blockade on Strait of Hormuz",
-      "url": "https://www.israelnationalnews.com/flashes/683181",
-      "published_at": "20260414T053000Z",
-      "source": "israelnationalnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f2fd1b0b92166fea",
-      "headline": "Imigrasi Surabaya Amankan 3 WN China yang Gunakan Visa Wisata untuk Bekerja",
-      "url": "https://surabaya.kompas.com/read/2026/04/14/074550878/imigrasi-surabaya-amankan-3-wn-china-yang-gunakan-visa-wisata-untuk-bekerja",
-      "published_at": "20260414T011500Z",
-      "source": "surabaya.kompas.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a7af50e0700902e7",
-      "headline": "UI investigasi dugaan pelecehan verbal sejumlah mahasiswa di FHUI",
-      "url": "https://www.antaranews.com/berita/5525371/ui-investigasi-dugaan-pelecehan-verbal-sejumlah-mahasiswa-di-fhui",
-      "published_at": "20260414T031500Z",
-      "source": "antaranews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ebc24545df8fdc39",
-      "headline": "Ra u Iranu , 43 . dan : Amerika blokirala Ormuski moreuz , Iran preti napadom",
-      "url": "https://www.blic.rs/vesti/svet/ra-u-iranu-43-dan-amerika-blokirala-ormuski-moreuz-iran-preti-napadom/pdnw5bs",
-      "published_at": "20260414T011500Z",
-      "source": "blic.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_23ce1d9c2d13075d",
-      "headline": "أستاذ علاقات دولية : مصر تتحرك نحو التهدئة إدراكًا لتداعيات تصاعد التوتر فى الشرق الأوسط",
-      "url": "https://www.dostor.org/5505594",
-      "published_at": "20260414T011500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cffb3c6ee78111c1",
-      "headline": "Ukraine - Krieg im Liveticker : +++ 06 : 24 Nur noch marodes Material in Russlands alten Panzer - Lagern aus der Sowjetzeit ? +++",
-      "url": "https://www.n-tv.de/politik/06-24-Nur-noch-marodes-Material-in-Russlands-alten-Panzer-Lagern-aus-der-Sowjetzeit-article23143824.html",
-      "published_at": "20260414T044500Z",
-      "source": "n-tv.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_814a663cf14e8bf2",
-      "headline": "ISCA and LawSoc Team Up to Help Professional Services Firms Expand Regionally and Offer More Value",
-      "url": "https://www.manilatimes.net/2026/04/14/tmt-newswire/media-outreach-newswire/isca-and-lawsoc-team-up-to-help-professional-services-firms-expand-regionally-and-offer-more-value/2319564",
-      "published_at": "20260414T041500Z",
-      "source": "manilatimes.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8ef5cf75aae044de",
-      "headline": "서클 CEO  韓금융권과 발행 · 국경 결제 · 토큰화 논의  [ 크립토360 ]",
-      "url": "https://biz.heraldcorp.com/article/10716554",
-      "published_at": "20260414T013000Z",
-      "source": "biz.heraldcorp.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e9502f1b84710df9",
-      "headline": "서클 CEO  韓금융권과 발행 · 국경 결제 · 토큰화 논의",
-      "url": "https://biz.heraldcorp.com/article/10716767",
-      "published_at": "20260414T030000Z",
-      "source": "biz.heraldcorp.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e19b9dcb8dd810b0",
-      "headline": "The Peace President  Gets Belligerent with Iran and the Pope",
-      "url": "https://www.newyorker.com/news/the-lede/the-peace-president-gets-belligerent-with-iran-and-the-pope",
-      "published_at": "20260414T010000Z",
-      "source": "newyorker.com",
       "tags": []
     }
   ]
