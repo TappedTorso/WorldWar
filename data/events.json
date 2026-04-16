@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-04-15T23:58:57Z",
+    "generated_at_utc": "2026-04-16T03:47:09Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -33,26 +33,6 @@
   },
   "events": [
     {
-      "id": "gdelt_a19599cccbe33501",
-      "headline": "Afghan Taliban shell Bajaur village , killing two children among three civilians",
-      "url": "https://dunyanews.tv/en/Pakistan/946145-afghan-taliban-shell-bajaur-village-killing-two-children-among-three-",
-      "published_at": "20260415T190000Z",
-      "source": "dunyanews.tv",
-      "tags": [
-        "PAKISTAN"
-      ]
-    },
-    {
-      "id": "gdelt_8643530127dfe9ca",
-      "headline": "U . S . Treasury sanctions Nuevo Laredo casino tied to Cartel del Noreste",
-      "url": "https://www.lmtonline.com/local/article/laredo-south-texas-border-mexico-cartel-violence-22207607.php",
-      "published_at": "20260415T211500Z",
-      "source": "lmtonline.com",
-      "tags": [
-        "MEXICO"
-      ]
-    },
-    {
       "id": "gdelt_4226911293382485",
       "headline": "Rusko zverejnilo zoznam továrni , možu byť cieľom útokov",
       "url": "https://www.cas.sk/spravy/rusko-ukazalo-prstom-na-europu-tieto-tovarne-mozu-byt-tercom-utoku",
@@ -61,22 +41,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_4d9c6b2c7482c244",
-      "headline": "Британия получила предупреждение о возможном конфликте с Россией",
-      "url": "https://www.infox.ru/news/251/377288-britania-polucila-preduprezdenie-o-vozmoznom-konflikte-s-rossiej",
-      "published_at": "20260415T184500Z",
-      "source": "infox.ru",
+      "id": "gdelt_72d2aabf937ba431",
+      "headline": "美國財政部制裁伊朗石油運輸大亨 瓦解數十億美元銷售帝國",
+      "url": "https://www.singtaousa.com/2026/04/15/news/usa/the-u-s-treasury-department-sanctions-an-iranian-oil-shipping-tycoon-targeting-elite-families-in-the-regime-and-dismantling-a-multi-billion-dollar-sales-empire/",
+      "published_at": "20260416T014500Z",
+      "source": "singtaousa.com",
       "tags": []
-    },
-    {
-      "id": "gdelt_ad50ffbed768085e",
-      "headline": "nclt : India plans special NCLT bench for cross - border insolvency cases to speed up resolutions",
-      "url": "https://economictimes.indiatimes.com/news/india/india-plans-special-nclt-bench-for-cross-border-insolvency-cases-to-speed-up-resolutions/articleshow/130292575.cms",
-      "published_at": "20260415T194500Z",
-      "source": "economictimes.indiatimes.com",
-      "tags": [
-        "INDIA"
-      ]
     },
     {
       "id": "gdelt_1e7400bddda9601e",
@@ -87,12 +57,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_1578dcf697dd426d",
-      "headline": "Three civilians killed in Bajaur in Afghan Taliban unprovoked shelling across border : security sources",
-      "url": "https://tribune.com.pk/story/2602958/3-civilians-killed-by-afghan-talibans-unprovoked-cross-border-shelling-in-k-ps-bajaur-state-media",
-      "published_at": "20260415T190000Z",
-      "source": "tribune.com.pk",
-      "tags": []
+      "id": "gdelt_f4056332fbe1ce8b",
+      "headline": "USA : అమెరికా మరో షాక్‌ .. ఇరాన్‌పై ఆర్థిక ఒత్తిడి తీవ్రతరం",
+      "url": "https://www.eenadu.net/telugu-news/world/us-announces-more-sanctions-on-iran-oil/0801/126066528",
+      "published_at": "20260416T031500Z",
+      "source": "eenadu.net",
+      "tags": [
+        "IRAN"
+      ]
     },
     {
       "id": "gdelt_cd3e8cf284b661d7",
@@ -106,301 +78,39 @@
       ]
     },
     {
-      "id": "gdelt_ccbfdb9cef70263f",
-      "headline": "Jammu Narco Network : Cross - border narco - network busted in Jammu ; kingpin held | India News",
-      "url": "https://timesofindia.indiatimes.com/india/cross-border-narco-network-busted-in-jammu-kingpin-held/articleshow/130293028.cms",
-      "published_at": "20260415T211500Z",
-      "source": "timesofindia.indiatimes.com",
+      "id": "gdelt_fe66f1520a043d78",
+      "headline": "米軍基地のフェンス 、 敷地外に越境 防衛省 「 原因不明 」 京都",
+      "url": "https://mainichi.jp/articles/20260416/k00/00m/040/014000c",
+      "published_at": "20260416T021500Z",
+      "source": "mainichi.jp",
+      "tags": []
+    },
+    {
+      "id": "gdelt_63d19a0fe85c4728",
+      "headline": "Заседание Рамштайн Украине выделили 4 млрд на ПВО и еще 1 , 5 млрд на БПЛА Федоров",
+      "url": "https://focus.ua/voennye-novosti/750876-zasedanie-ramshtayn-ukraine-vydelili-4-mlrd-na-pvo-i-eshche-1-5-mlrd-na-bpla-fedorov",
+      "published_at": "20260416T010000Z",
+      "source": "focus.ua",
       "tags": [
-        "INDIA"
+        "UKRAINE"
       ]
     },
     {
-      "id": "gdelt_8dcefe867ca847c2",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10989392",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
+      "id": "gdelt_1d14b7a294458167",
+      "headline": "Kabinet Keselamatan Israel bincang kemungkinan gencatan senjata dengan Lubnan",
+      "url": "https://www.astroawani.com/berita-dunia/kabinet-keselamatan-israel-bincang-kemungkinan-gencatan-senjata-dengan-lubnan",
+      "published_at": "20260416T010000Z",
+      "source": "astroawani.com",
+      "tags": [
+        "ISRAEL"
+      ]
     },
     {
-      "id": "gdelt_968fd61124d19cde",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10990832",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b245abae979adc32",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_tid=990026&index_ref=naslovnica_vijesti_prva_d",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ea3dc4e1e736530e",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10989721",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fcf9df5e22c5ac8e",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10990663",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a094b1c1d3be0b30",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10988821",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_89943e5eaf90e9c5",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10989841",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8bf3ecead2606bd9",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10989650",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_554a1f503807c9de",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10989494",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8fdbc8d8bf0eaec9",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10988796",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1a6d3b3f4e5e62ef",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10990626",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_350fcd28da5bf20f",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10990091",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_01349227722f02be",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10988915",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c40900021458f123",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10990543",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_652c5e2857c4990c",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10990587",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8f3fe2469f2f3de7",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10989383",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0bd92235bdc04095",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10988644",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6a2ed2cc19825911",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10990602",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d987987714ca8130",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10990270",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e8b429b149bf06bc",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10991021",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d28a8052c70c80a9",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10990659",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_09914bf01d1ceb08",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10991133",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_65bc1a5cf453bc68",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10988706",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_320d9330960f3879",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_tid=990026&index_ref=naslovnica_vijesti_najnovije_d",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_31471d9e98622a3a",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10989087",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_90ec1b23dd487bec",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10990396",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c0a9554d52f9a663",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10991157",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_287460d0f3160429",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10990803",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8608fa1d6c83addb",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10988960",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a184ffb00b2eb3cd",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10990951",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d8f3df0ae8f68044",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10991301",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a5327614872c02db",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_tid=990026&index_ref=naslovnica_vijesti_najcitanije_d",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_dc69564b2c6d95a7",
-      "headline": "Amerika uvela nove sankcije Iranu .  Bližimo se dogovoru o kraju rata",
-      "url": "https://www.index.hr/vijesti/clanak/amerika-uvela-nove-sankcije-iranu-blizimo-se-dogovoru-o-kraju-rata/2781951.aspx?index_ref=homepage_comment_box_d&commentId=10989148",
-      "published_at": "20260415T213000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_800a5b4ac065bdcd",
-      "headline": "Parlym décroche les études dingénierie du projet gazier transfrontalier Yoyo - Yolanda",
-      "url": "https://www.investiraucameroun.com/mines/1504-23289-parlym-decroche-les-etudes-d-ingenierie-du-projet-gazier-transfrontalier-yoyo-yolanda",
-      "published_at": "20260415T193000Z",
-      "source": "investiraucameroun.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0a5c0e025dd67336",
-      "headline": "СВО : российское наступление изменяет условия мира",
-      "url": "https://sputnik-georgia.ru/20260415/svo-rossiyskoe-nastuplenie-izmenyaet-usloviya-mira-298141750.html",
-      "published_at": "20260415T190000Z",
-      "source": "sputnik-georgia.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c42b3d62b9b417eb",
-      "headline": "Amerika upravo sprema novi napad ? Procurili tajni planovi za udar",
-      "url": "https://www.blic.rs/vesti/svet/amerika-upravo-sprema-novi-napad-procurili-tajni-planovi-za-udar/8vj524t",
-      "published_at": "20260415T200000Z",
-      "source": "blic.rs",
+      "id": "gdelt_d85696656dd63ae0",
+      "headline": "النفط ينخفض وسط آمال خفض التصعيد بين أمريكا وإيران",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=16042026&id=dff6b8ea-1631-47eb-8bce-e9c5e8800b78",
+      "published_at": "20260416T030000Z",
+      "source": "shorouknews.com",
       "tags": []
     },
     {
@@ -412,50 +122,25 @@
       "tags": []
     },
     {
-      "id": "gdelt_be5d86e21c938332",
-      "headline": "Politico назвало пять политиков , которые могут стать  следующим разрушителем устоев ЕС  после Орбана",
-      "url": "https://www.dialog.ua/world/politico-nazvalo-pyat-politikov-kotorye-mogut-stat-sleduyushchim-razrushitelem-ustoev.html",
-      "published_at": "20260415T191500Z",
-      "source": "dialog.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cef5bd4ab52d6d69",
-      "headline": "US ramps up pressure on Iran with blockade , sanctions to force nuclear deal",
-      "url": "https://www.wptv.com/us-news/iran-war/us-ramps-up-pressure-on-iran-with-blockade-sanctions-to-force-nuclear-deal",
-      "published_at": "20260415T191500Z",
-      "source": "wptv.com",
+      "id": "gdelt_2890001167e701d1",
+      "headline": "Dow Futures Rise Above 100 Points ; Trump Signals Iran War Near End While Scott Bessent Threatens Fresh Oi",
+      "url": "https://www.benzinga.com/news/politics/26/04/51848161/dow-futures-up-trump-iran-war-end-bessent-iran-oil-sanctions",
+      "published_at": "20260416T030000Z",
+      "source": "benzinga.com",
       "tags": [
         "IRAN"
       ]
     },
     {
-      "id": "gdelt_e7cf09dd59ec22b3",
-      "headline": "US ramps up pressure on Iran with blockade , sanctions to force nuclear deal",
-      "url": "https://www.wcpo.com/us-news/iran-war/us-ramps-up-pressure-on-iran-with-blockade-sanctions-to-force-nuclear-deal",
-      "published_at": "20260415T200000Z",
-      "source": "wcpo.com",
+      "id": "gdelt_a23f96fdc15d328f",
+      "headline": "AS Optimistis Perundingan Kedua dengan Iran di Pakistan Akan Akhiri Konflik",
+      "url": "https://www.liputan6.com/global/read/6317299/as-optimistis-perundingan-kedua-dengan-iran-di-pakistan-akan-akhiri-konflik",
+      "published_at": "20260416T031500Z",
+      "source": "liputan6.com",
       "tags": [
-        "IRAN"
+        "IRAN",
+        "PAKISTAN"
       ]
-    },
-    {
-      "id": "gdelt_72324e7ec75f9dc4",
-      "headline": "US ramps up pressure on Iran with blockade , sanctions to force nuclear deal",
-      "url": "https://www.wtkr.com/us-news/iran-war/us-ramps-up-pressure-on-iran-with-blockade-sanctions-to-force-nuclear-deal",
-      "published_at": "20260415T191500Z",
-      "source": "wtkr.com",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_94a72f5b1f2931ec",
-      "headline": "US ramps up pressure on Iran with blockade , sanctions to force nuclear deal",
-      "url": "https://www.10news.com/us-news/iran-war/us-ramps-up-pressure-on-iran-with-blockade-sanctions-to-force-nuclear-deal",
-      "published_at": "20260415T211500Z",
-      "source": "10news.com",
-      "tags": []
     },
     {
       "id": "gdelt_3f00a3b0c13512cd",
@@ -468,11 +153,11 @@
       ]
     },
     {
-      "id": "gdelt_1b9082db8387c0af",
-      "headline": "Eski ABD Terörle Mücadele Direktörü , Orta Doğuya ek asker göndermenin  tuzak  olduğunu söyledi",
-      "url": "https://www.haberler.com/guncel/abd-li-eski-terorle-mucadele-merkezi-direktoru-orta-dogu-ya-daha-fazla-asker-gondermek-tirmanis-tuza-19753084-haberi/",
-      "published_at": "20260415T184500Z",
-      "source": "haberler.com",
+      "id": "gdelt_52e1e88e34b6cf8b",
+      "headline": "Η Euronet εξαγοράζει την PaynoPain και επεκτείνει τις omnichannel λύσεις πληρωμών της",
+      "url": "https://www.inewsgr.com/389/i-Euronet-exagorazei-tin-PaynoPain-kai-epekteinei-tis-omnichannel-lyseis-pliromon-tis.htm",
+      "published_at": "20260416T010000Z",
+      "source": "inewsgr.com",
       "tags": []
     },
     {
@@ -484,36 +169,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_bdae8e8a54d9dd52",
-      "headline": "Sécheresse dans les Pyrénées - Orientales  : une alliance avec les Catalans du Sud pour mieux gérer leau",
-      "url": "https://www.lindependant.fr/2026/04/15/secheresse-dans-les-pyrenees-orientales-une-alliance-avec-les-catalans-du-sud-pour-mieux-gerer-leau-13326582.php",
-      "published_at": "20260415T201500Z",
-      "source": "lindependant.fr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b5e8586d0f7be73f",
-      "headline": "« Ливанские » разговоры",
-      "url": "https://actualcomment.ru/livanskie-razgovory-2604151826.html",
-      "published_at": "20260415T211500Z",
-      "source": "actualcomment.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c5528fbd7126fb50",
-      "headline": "From dropping bombs to pressuring banks : US pivots to economic warfare on Iran",
-      "url": "https://www.ksat.com/news/politics/2026/04/15/from-dropping-bombs-to-pressuring-banks-us-pivots-to-economic-warfare-on-iran/",
-      "published_at": "20260415T211500Z",
-      "source": "ksat.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_e2ddae7126074a4c",
       "headline": "From bombs to economic warfare : US pivots on Iran",
       "url": "https://www.koreatimes.co.kr/world/20260416/from-bombs-to-economic-warfare-us-pivots-on-iran",
       "published_at": "20260415T230000Z",
       "source": "koreatimes.co.kr",
-      "tags": []
+      "tags": [
+        "IRAN"
+      ]
     },
     {
       "id": "gdelt_4477de107667c369",
@@ -521,7 +184,9 @@
       "url": "https://mynorthwest.com/national/from-dropping-bombs-to-pressuring-banks-u-s-pivots-to-economic-warfare-on-iran/4228546",
       "published_at": "20260415T220000Z",
       "source": "mynorthwest.com",
-      "tags": []
+      "tags": [
+        "IRAN"
+      ]
     },
     {
       "id": "gdelt_6605dfcb111a81c8",
@@ -529,14 +194,16 @@
       "url": "https://www.washingtonexaminer.com/policy/economy/4530644/us-iran-bessent-economic-pressure/",
       "published_at": "20260415T233000Z",
       "source": "washingtonexaminer.com",
-      "tags": []
+      "tags": [
+        "IRAN"
+      ]
     },
     {
-      "id": "gdelt_304b93e94d2685c5",
+      "id": "gdelt_e97ae199d7e9d3cf",
       "headline": "From dropping bombs to pressuring banks : US pivots to economic warfare on Iran",
-      "url": "https://www.news4jax.com/news/politics/2026/04/15/from-dropping-bombs-to-pressuring-banks-us-pivots-to-economic-warfare-on-iran/",
-      "published_at": "20260415T210000Z",
-      "source": "news4jax.com",
+      "url": "https://economictimes.indiatimes.com/news/defence/from-dropping-bombs-to-pressuring-banks-us-pivots-to-economic-warfare-on-iran/articleshow/130295676.cms",
+      "published_at": "20260416T023000Z",
+      "source": "economictimes.indiatimes.com",
       "tags": []
     },
     {
@@ -556,11 +223,35 @@
       "tags": []
     },
     {
-      "id": "gdelt_64efad3b5ab03b3e",
+      "id": "gdelt_959c546b93bf5a3f",
       "headline": "From dropping bombs to pressuring banks : US pivots to economic warfare on Iran",
-      "url": "https://www.clickorlando.com/news/politics/2026/04/15/from-dropping-bombs-to-pressuring-banks-us-pivots-to-economic-warfare-on-iran/",
-      "published_at": "20260415T210000Z",
-      "source": "clickorlando.com",
+      "url": "https://www.baltimoresun.com/2026/04/15/iran-us-economic-warfare/",
+      "published_at": "20260416T010000Z",
+      "source": "baltimoresun.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1ca1ca59157b0f8c",
+      "headline": "From dropping bombs to pressuring banks : US pivots to economic warfare on Iran",
+      "url": "https://www.sun-sentinel.com/2026/04/15/iran-us-economic-warfare/",
+      "published_at": "20260416T014500Z",
+      "source": "sun-sentinel.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ffc97135f356cf06",
+      "headline": "From dropping bombs to pressuring banks : US pivots to economic warfare on Iran",
+      "url": "https://www.orlandosentinel.com/2026/04/15/iran-us-economic-warfare/",
+      "published_at": "20260416T014500Z",
+      "source": "orlandosentinel.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e9a21bbc38a80e92",
+      "headline": "From dropping bombs to pressuring banks : US pivots to economic warfare on Iran",
+      "url": "https://www.sandiegouniontribune.com/2026/04/15/iran-us-economic-warfare/",
+      "published_at": "20260416T021500Z",
+      "source": "sandiegouniontribune.com",
       "tags": []
     },
     {
@@ -572,45 +263,77 @@
       "tags": []
     },
     {
-      "id": "gdelt_49d2cc9db7dce9da",
-      "headline": "Time . ai",
-      "url": "https://time.mk/ai/dab17d1a39/mk/",
-      "published_at": "20260415T211500Z",
-      "source": "time.mk",
+      "id": "gdelt_ebce3f1ff835d23a",
+      "headline": "From dropping bombs to pressuring banks : US pivots to economic warfare on Iran",
+      "url": "https://www.pilotonline.com/2026/04/15/iran-us-economic-warfare/",
+      "published_at": "20260416T021500Z",
+      "source": "pilotonline.com",
       "tags": []
     },
     {
-      "id": "gdelt_45b22ab1b73d6e74",
-      "headline": "Cameroun : le pape invite le gouvernement à  briser les chaînes de la corruption",
-      "url": "https://www.financialafrik.com/2026/04/15/cameroun-le-pape-invite-le-gouvernement-a-briser-les-chaines-de-la-corruption/",
-      "published_at": "20260415T201500Z",
-      "source": "financialafrik.com",
+      "id": "gdelt_638acd18d843d5cb",
+      "headline": "IBMATA urges responsible tech , data sharing to combat human trafficking and secure Ph borders , ports",
+      "url": "https://www.manilatimes.net/2026/04/16/business/maritime/ibmata-urges-responsible-tech-data-sharing-to-combat-human-trafficking-and-secure-ph-borders-ports/2321501",
+      "published_at": "20260415T234500Z",
+      "source": "manilatimes.net",
       "tags": []
     },
     {
-      "id": "gdelt_d3e2edabaa3b2747",
-      "headline": "Украина и Италия проработают возможность подписания дронового соглашения сотрудничество Украины и Италии",
-      "url": "https://racurs.ua/n213252-zelenskiy-i-meloni-v-italii-obsudili-sovmestnoe-proizvodstvo-dronov.html",
-      "published_at": "20260415T213000Z",
-      "source": "racurs.ua",
+      "id": "gdelt_120f1c472e2ce535",
+      "headline": "From dropping bombs to pressuring banks : US pivots to economic warfare on Iran",
+      "url": "https://www.local10.com/news/world/2026/04/15/from-dropping-bombs-to-pressuring-banks-us-pivots-to-economic-warfare-on-iran/",
+      "published_at": "20260416T021500Z",
+      "source": "local10.com",
       "tags": []
     },
     {
-      "id": "gdelt_8ed41e48af68a348",
-      "headline": "Рютте пообещал Украине 60 млрд в 2026 году – куда их направят",
-      "url": "https://www.dialog.ua/world/ryutte-poobeshchal-ukraine-mlrd-v-godu-kuda-ikh-napravyat.html",
-      "published_at": "20260415T191500Z",
-      "source": "dialog.ua",
+      "id": "gdelt_1f92057a6f8fdf9d",
+      "headline": "From dropping bombs to pressuring banks : US pivots to economic warfare on Iran",
+      "url": "https://www.twincities.com/2026/04/15/iran-us-economic-warfare/",
+      "published_at": "20260416T011500Z",
+      "source": "twincities.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ca372d06b4479cef",
+      "headline": "NATO cam kết viện trợ quân sự 60 tỷ USD cho Ukraine",
+      "url": "https://vov.vn/the-gioi/nato-cam-ket-vien-tro-quan-su-60-ty-usd-cho-ukraine-post1284315.vov",
+      "published_at": "20260416T014500Z",
+      "source": "vov.vn",
       "tags": [
         "UKRAINE"
       ]
     },
     {
-      "id": "gdelt_8e348246eb552df1",
-      "headline": "US ramps up pressure on Iran with blockade , sanctions to force nuclear deal",
-      "url": "https://www.lex18.com/us-news/iran-war/us-ramps-up-pressure-on-iran-with-blockade-sanctions-to-force-nuclear-deal",
-      "published_at": "20260415T203000Z",
-      "source": "lex18.com",
+      "id": "gdelt_843b1614e4046e38",
+      "headline": "From dropping bombs to pressuring banks : US pivots to economic warfare on Iran",
+      "url": "https://www.therecord.com/business/from-dropping-bombs-to-pressuring-banks-us-pivots-to-economic-warfare-on-iran/article_b0a3063a-98d9-57d3-ba6b-a3803b753a62.html",
+      "published_at": "20260416T021500Z",
+      "source": "therecord.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_72e03e02940225ff",
+      "headline": "From dropping bombs to pressuring banks : US pivots to economic warfare on Iran",
+      "url": "https://www.citizensvoice.com/2026/04/15/iran-us-economic-warfare/",
+      "published_at": "20260416T001500Z",
+      "source": "citizensvoice.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c35f486aad52bb75",
+      "headline": "US Tightens Iran Oil Sanctions , Targets Global Trade Links",
+      "url": "https://www.newkerala.com/news/a/us-tightens-pressure-iran-signals-crackdown-global-oil-518.htm",
+      "published_at": "20260416T031500Z",
+      "source": "newkerala.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5602f121247545f8",
+      "headline": "3D Animation Market Size Surging at 11 . 8 % CAGR",
+      "url": "https://www.openpr.com/news/4473057/3d-animation-market-size-surging-at-11-8-cagr-by-key-players",
+      "published_at": "20260416T001500Z",
+      "source": "openpr.com",
       "tags": []
     },
     {
@@ -632,94 +355,112 @@
       "tags": []
     },
     {
-      "id": "gdelt_2f511b0d607fcb3d",
-      "headline": "Maximum Pressure Returns : U . S . Targets Shadow Fleet Tankers as Iran Oil Waiver Expires",
-      "url": "https://gcaptain.com/maximum-pressure-returns-u-s-targets-shadow-fleet-tankers-as-iran-oil-waiver-expires/",
-      "published_at": "20260415T213000Z",
-      "source": "gcaptain.com",
+      "id": "gdelt_091117238e99f9c4",
+      "headline": "Trump administration pivots to economic warfare on Iran",
+      "url": "https://www.wsbradio.com/news/world/dropping-bombs/BFDIUWYOIU42JJFR3WX27F6NFM/",
+      "published_at": "20260416T010000Z",
+      "source": "wsbradio.com",
       "tags": []
     },
     {
-      "id": "gdelt_7e86f70ba672d581",
-      "headline": "Rutte verí v financovanie pomoci pre Ukrajinu do konca roka",
-      "url": "https://www.cas.sk/spravy/nato-rutte-je-optimista-ohladom-financovania-obrannej-pomoci-pre-ukrajinu",
-      "published_at": "20260415T201500Z",
-      "source": "cas.sk",
+      "id": "gdelt_bf5a0c8fec2cca4d",
+      "headline": "From dropping bombs to pressuring banks : US pivots to economic warfare on Iran",
+      "url": "https://www.dailylocal.com/2026/04/15/iran-us-economic-warfare/",
+      "published_at": "20260416T031500Z",
+      "source": "dailylocal.com",
       "tags": []
     },
     {
-      "id": "gdelt_d40af86ff01ef06f",
-      "headline": "З початку року прикордонникам Мукачівського загону 14 разів пропонували хабар , найбільший – $8000",
-      "url": "https://mukachevo.net/news/z-pochatku-roku-prykordonnykam-mukachivskoho-zahonu-14-raziv-proponuvaly-khabar-naybilshyy-8000_6280400.html",
-      "published_at": "20260415T190000Z",
-      "source": "mukachevo.net",
+      "id": "gdelt_f5dc106545ff9909",
+      "headline": "From dropping bombs to pressuring banks : US pivots to economic warfare on Iran",
+      "url": "https://isp.netscape.com:443/news/world/story/0001/20260415/f45619d7ea3050bd4b1cdd9c3881ca2b",
+      "published_at": "20260416T003000Z",
+      "source": "isp.netscape.com",
       "tags": []
     },
     {
-      "id": "gdelt_920b4a96f7cead3e",
-      "headline": "Иран приостановил экспорт нефтехимической продукции из - за повреждений заводов - 15 апреля 2026",
-      "url": "https://www.fontanka.ru/2026/04/15/76368388/",
-      "published_at": "20260415T213000Z",
-      "source": "fontanka.ru",
+      "id": "gdelt_b84ae57389d4c944",
+      "headline": "From dropping bombs to pressuring banks : US pivots to economic warfare on Iran",
+      "url": "https://www.capitalgazette.com/2026/04/15/iran-us-economic-warfare/",
+      "published_at": "20260416T013000Z",
+      "source": "capitalgazette.com",
       "tags": []
     },
     {
-      "id": "gdelt_0d19262592c0eb79",
-      "headline": "Derrota de Orbán na Hungria pode destravar ajuda militar à Ucrânia , afirma UE",
-      "url": "https://operamundi.uol.com.br/europa/derrota-de-orban-na-hungria-pode-destravar-ajuda-militar-a-ucrania-afirma-ue/",
-      "published_at": "20260415T203000Z",
-      "source": "operamundi.uol.com.br",
+      "id": "gdelt_d07fe513d6a5e5cc",
+      "headline": "Police uncover cross - border drug links in Lau Gujjar case ; 3 held , 8 - 10 detained",
+      "url": "https://www.dailyexcelsior.com/police-uncover-cross-border-drug-links-in-lau-gujjar-case-3-held-8-10-detained/",
+      "published_at": "20260416T011500Z",
+      "source": "dailyexcelsior.com",
       "tags": []
     },
     {
-      "id": "gdelt_ae1cde272630b6c3",
-      "headline": "Посольство РФ в Армении : еще 94 эвакуированных с АЭС  Бушер  вылетели в РФ",
-      "url": "https://www.vesti.ru/ns/posolstvo-rf-v-armenii-eshche-94-ehvakuirovannykh-s-aehs-busher-vyleteli-v-rf",
-      "published_at": "20260415T200000Z",
-      "source": "vesti.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_70bdfd827f578cb5",
-      "headline": "Była strata - jest zysk . Polska spółka z branży kosmicznej pokazała wyniki",
-      "url": "https://www.wnp.pl/tech/byla-strata-jest-zysk-polska-spolka-z-branzy-kosmicznej-pokazala-wyniki,1052852.html",
-      "published_at": "20260415T200000Z",
-      "source": "wnp.pl",
-      "tags": []
-    },
-    {
-      "id": "gdelt_831172c7cb4564ec",
-      "headline": "Anderlecht schrikt : prijskaartje Lukaku bekend",
-      "url": "https://www.voetbalnieuws.be/news/896618/anderlecht-schrikt-prijskaartje-lukaku-bekend",
-      "published_at": "20260415T213000Z",
-      "source": "voetbalnieuws.be",
-      "tags": []
-    },
-    {
-      "id": "gdelt_be73b99a2cdfe6ae",
-      "headline": "EU nach Abwahl Orbans : Tschechien und Slowakei als neue Blockierer ?",
-      "url": "https://www.tagesschau.de/ausland/europa/eu-slowakei-tschechien-ungarn-blockade-100.html",
-      "published_at": "20260415T191500Z",
-      "source": "tagesschau.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e719661c3a1b1308",
-      "headline": "Anchored Finance : Anchored Launches as the Onchain Market Layer for Real - World Assets , Connecting US Equities , Fund Products , and Hong Kong - Listed Stocks in One Programmable Infrastructure Stack",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-04/68209506-anchored-finance-anchored-launches-as-the-onchain-market-layer-for-real-world-assets-connecting-us-equities-fund-products-and-hong-kong-listed-sto-008.htm",
-      "published_at": "20260415T203000Z",
-      "source": "finanznachrichten.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_acd7732b8758eecb",
-      "headline": "¿ El fracking en Texas afecta a México ? Sheinbaum reconoce falta de información , expertos descartan daños graves y crece debate por riesgos ambientales y dependencia energética del gas",
-      "url": "https://www.elimparcial.com/mexico/2026/04/15/el-fracking-en-texas-afecta-a-mexico-sheinbaum-reconoce-falta-de-informacion-expertos-descartan-danos-graves-y-crece-debate-por-riesgos-ambientales-y-dependencia-energetica-del-gas/",
-      "published_at": "20260415T201500Z",
-      "source": "elimparcial.com",
+      "id": "gdelt_78f101d956288762",
+      "headline": "Sanders fails again : Senate votes down Israel arms ban",
+      "url": "https://www.israelnationalnews.com/flashes/683387",
+      "published_at": "20260416T031500Z",
+      "source": "israelnationalnews.com",
       "tags": [
-        "MEXICO"
+        "ISRAEL"
       ]
+    },
+    {
+      "id": "gdelt_1307099ef946938d",
+      "headline": "From dropping bombs to pressuring banks : US pivots to economic warfare on Iran",
+      "url": "https://www.timescall.com/2026/04/15/iran-us-economic-warfare/",
+      "published_at": "20260416T001500Z",
+      "source": "timescall.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ed42f9a595b85675",
+      "headline": "From dropping bombs to pressuring banks : US pivots to economic warfare on Iran",
+      "url": "https://www.dailybreeze.com/2026/04/15/iran-us-economic-warfare/",
+      "published_at": "20260416T014500Z",
+      "source": "dailybreeze.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d33649161314deaa",
+      "headline": "From dropping bombs to pressuring banks : US pivots to economic warfare on Iran",
+      "url": "https://www.presstelegram.com/2026/04/15/iran-us-economic-warfare/",
+      "published_at": "20260416T003000Z",
+      "source": "presstelegram.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_41087113cc5279d5",
+      "headline": "From ideology to Interests : India Gulf Policy Post 9 / 11",
+      "url": "https://pakobserver.net/from-ideology-to-interests-indias-gulf-policy-post-9-11-2/",
+      "published_at": "20260416T031500Z",
+      "source": "pakobserver.net",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
+      "id": "gdelt_255d72df98f84ae1",
+      "headline": "From dropping bombs to pressuring banks : US pivots to economic warfare on Iran",
+      "url": "https://www.chicoer.com/2026/04/15/iran-us-economic-warfare/",
+      "published_at": "20260416T001500Z",
+      "source": "chicoer.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_aa9c36758f4cc11f",
+      "headline": "Sehebat Apa Hantaman Blokade AS Selat Hormuz untuk Iran ?",
+      "url": "https://www.cnnindonesia.com/internasional/20260415211122-120-1348446/sehebat-apa-hantaman-blokade-as-selat-hormuz-untuk-iran",
+      "published_at": "20260416T023000Z",
+      "source": "cnnindonesia.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7f1f54cfd6804757",
+      "headline": "From dropping bombs to pressuring banks : US pivots to economic warfare on Iran",
+      "url": "https://www.news-herald.com/2026/04/15/iran-us-economic-warfare/",
+      "published_at": "20260416T013000Z",
+      "source": "news-herald.com",
+      "tags": []
     },
     {
       "id": "gdelt_a59090261767a0e0",
@@ -730,27 +471,22 @@
       "tags": []
     },
     {
-      "id": "gdelt_35b42436827e370c",
-      "headline": "Новые взносы в программу PURL осуществит ряд стран военная помощь Украине",
-      "url": "https://racurs.ua/n213253-pyat-stran-evropy-obyavili-o-novyh-vkladah-v-programmu-purl.html",
-      "published_at": "20260415T213000Z",
-      "source": "racurs.ua",
-      "tags": []
+      "id": "gdelt_c5de62e93475aec5",
+      "headline": "Hezbollah dakwa lancar 39 serangan terhadap sasaran Israel dalam tempoh 24 jam",
+      "url": "https://www.astroawani.com/berita-dunia/hezbollah-dakwa-lancar-39-serangan-terhadap-sasaran-israel-dalam-tempoh-24-jam",
+      "published_at": "20260416T010000Z",
+      "source": "astroawani.com",
+      "tags": [
+        "ISRAEL",
+        "HEZBOLLAH"
+      ]
     },
     {
-      "id": "gdelt_1398271337c7b7c9",
-      "headline": "Efter tv - program : Én ting holder Morten Spiegelhauer stadig fast i",
-      "url": "https://www.billedbladet.dk/kendte/danmark/tv/tv-2/efter-tv-program-en-ting-holder-morten-spiegelhauer-stadig-fast-i",
-      "published_at": "20260415T190000Z",
-      "source": "billedbladet.dk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8a3a827450366901",
-      "headline": "IeM : robežpunktu modernizācijas projektu pārtraukt nedrīkst",
-      "url": "https://nra.lv/latvija/518852-iem-robezpunktu-modernizacijas-projektu-partraukt-nedrist.htm",
-      "published_at": "20260415T193000Z",
-      "source": "nra.lv",
+      "id": "gdelt_99be39ef8c9decae",
+      "headline": "From dropping bombs to pressuring banks : US pivots to economic warfare on Iran",
+      "url": "https://www.pasadenastarnews.com/2026/04/15/iran-us-economic-warfare/",
+      "published_at": "20260416T024500Z",
+      "source": "pasadenastarnews.com",
       "tags": []
     },
     {
@@ -764,28 +500,38 @@
       ]
     },
     {
-      "id": "gdelt_79f42f9237ec5b91",
-      "headline": "Amerika Serikat Blokade Selat Hormuz 24 Jam Pertama , Pelabuhan Iran Lumpuh",
-      "url": "https://kupang.tribunnews.com/news/958912/amerika-serikat-blokade-selat-hormuz-24-jam-pertama-pelabuhan-iran-lumpuh",
-      "published_at": "20260415T213000Z",
-      "source": "kupang.tribunnews.com",
+      "id": "gdelt_a82810c8f881ee9d",
+      "headline": "Премьер Израиля намерен уничтожить город на юге Ливана",
+      "url": "https://www.mk.ru/politics/2026/04/16/premer-izrailya-nameren-unichtozhit-gorod-na-yuge-livana.html",
+      "published_at": "20260416T003000Z",
+      "source": "mk.ru",
       "tags": []
     },
     {
-      "id": "gdelt_565b6e4f7d5d5dc1",
-      "headline": "Maroc - Espagne : Coordination sécuritaire renforcée à Las Palmas",
-      "url": "https://www.yabiladi.com/articles/details/192475/maroc-espagne-coordination-securitaire-renforcee-palmas.html",
-      "published_at": "20260415T190000Z",
-      "source": "yabiladi.com",
+      "id": "gdelt_fc69ba43208fff30",
+      "headline": "Oil price today : Crude dips to $90 amid hopes of Middle East de escalation",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/oil-price-today-crude-dips-to-90-amid-hopes-of-middle-east-de-escalation/articleshow/130296028.cms",
+      "published_at": "20260416T031500Z",
+      "source": "timesofindia.indiatimes.com",
       "tags": []
     },
     {
-      "id": "gdelt_9a473555657ba49d",
-      "headline": "英国计划今年向乌克兰提供12万架无人机",
-      "url": "https://world.qianlong.com/2026/0416/8655235.shtml",
-      "published_at": "20260415T201500Z",
-      "source": "world.qianlong.com",
+      "id": "gdelt_26d8db25b9135e58",
+      "headline": "ארה  ב : הסנאט דחה הצעת חוק לחסימת משלוחי דחפורים לישראל , 40 תמכו במהלך",
+      "url": "https://www.ynet.co.il/news/article/hkf3bj6h11e",
+      "published_at": "20260416T014500Z",
+      "source": "ynet.co.il",
       "tags": []
+    },
+    {
+      "id": "gdelt_c9696bbab24452d4",
+      "headline": "Talks after Islamabad talks - Pakistan Observer",
+      "url": "https://pakobserver.net/talks-after-islamabad-talks/",
+      "published_at": "20260416T031500Z",
+      "source": "pakobserver.net",
+      "tags": [
+        "PAKISTAN"
+      ]
     },
     {
       "id": "gdelt_625804c8a117ad18",
@@ -796,32 +542,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_3a1ce7486641ad78",
-      "headline": "СВР фиксирует рост военной активности у границ России и Белоруссии",
-      "url": "https://www.mk.ru/politics/2026/04/16/svr-fiksiruet-rost-voennoy-aktivnosti-u-granic-rossii-i-belorussii.html",
-      "published_at": "20260415T214500Z",
-      "source": "mk.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cbe7f128781cdbe4",
-      "headline": "Legal Considerations When Transacting Commercial Aircraft Portfolio Acquisitions and Financings in the Midst of War | Baker Botts L . L . P .",
-      "url": "https://www.jdsupra.com/legalnews/legal-considerations-when-transacting-8605181/",
-      "published_at": "20260415T193000Z",
-      "source": "jdsupra.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3203585b80ddd91a",
-      "headline": "Писториус : поставки Украине ракет Patriot растянут на четыре года",
-      "url": "https://www.sb.by/articles/pistorius-postavki-ukraine-raket-patriot-rastyanut-na-chetyre-goda.html",
-      "published_at": "20260415T213000Z",
-      "source": "sb.by",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
       "id": "gdelt_c4f8d30fee40973e",
       "headline": "From dropping bombs to pressuring banks : U . S . pivots to economic warfare on Iran",
       "url": "https://www.winchesterstar.com/associated_press/washington/from-dropping-bombs-to-pressuring-banks-u-s-pivots-to-economic-warfare-on-iran/article_b91a0bb1-96bb-5525-bfe1-c2e19c7e6570.html",
@@ -830,101 +550,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_c6cca5a7aa5c687a",
-      "headline": "Serangan baharu Israel korbankan 16 orang di selatan Lubnan",
-      "url": "https://www.astroawani.com/berita-dunia/serangan-baharu-israel-korbankan-16-orang-di-selatan-lubnan",
-      "published_at": "20260415T203000Z",
-      "source": "astroawani.com",
-      "tags": [
-        "ISRAEL"
-      ]
-    },
-    {
-      "id": "gdelt_c4244f2942358b35",
-      "headline": "Жителей приграничных поселков предупредили о возможном усилении обстрелов из Ливана",
-      "url": "https://www.newsru.co.il/israel/15apr2026/alert_0014.html",
-      "published_at": "20260415T193000Z",
-      "source": "newsru.co.il",
-      "tags": [
-        "ISRAEL"
-      ]
-    },
-    {
-      "id": "gdelt_cbff84d390a0f29a",
-      "headline": "Ολλανδία : Χρηματοδότηση σχεδόν 250 εκατ . ευρώ για κατασκευή drones για την ...",
-      "url": "https://www.capital.gr/diethni/3985583/ollandia-xrimatodotisi-sxedon-250-ekat-euro-gia-kataskeui-drones-gia-tin-oukrania/",
-      "published_at": "20260415T194500Z",
-      "source": "capital.gr",
+      "id": "gdelt_0a33580f26e7e262",
+      "headline": "Bernie Sander effort to block US weapons sales to Israel fails in Senate",
+      "url": "https://www.aol.co.uk/articles/bernie-sanders-pushes-resolutions-block-172828537.html",
+      "published_at": "20260416T011500Z",
+      "source": "aol.co.uk",
       "tags": []
     },
     {
-      "id": "gdelt_fc0a9bc4d21dbc7c",
-      "headline": "Medien : united states und Iran grundsätzlich über neues Treffen einig",
-      "url": "https://www.sn.at/politik/weltpolitik/medien-usa-und-iran-grundsaetzlich-ueber-neues-treffen-einig-art-645887",
-      "published_at": "20260415T201500Z",
-      "source": "sn.at",
-      "tags": [
-        "UNITED_STATES"
-      ]
-    },
-    {
-      "id": "gdelt_ec284463e3e5e95e",
-      "headline": "Ολλανδία : Χρηματοδοτεί 250 εκατ . δολάρια σε drones για την Ουκρανία",
-      "url": "https://www.sigmalive.com/news/international/1310234/ollandia-xrimatodoti-250-ekat-dolaria-se-drones-ghia-tin-oykrania",
-      "published_at": "20260415T184500Z",
-      "source": "sigmalive.com",
+      "id": "gdelt_eed4704cf7b3c8fe",
+      "headline": "Oil prices fall as hopes for US - Iran deal outweigh supply disruption concerns",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-fall-as-hopes-for-us-iran-deal-outweigh-supply-disruption-concerns/articleshow/130295779.cms",
+      "published_at": "20260416T023000Z",
+      "source": "economictimes.indiatimes.com",
       "tags": []
     },
     {
-      "id": "gdelt_bd6f36b697d33372",
-      "headline": "Damascus Foils Smuggling of 6 , 000 Detonators to Lebanon",
-      "url": "https://english.aawsat.com/arab-world/5262799-damascus-foils-smuggling-6000-detonators-lebanon",
-      "published_at": "20260415T193000Z",
-      "source": "english.aawsat.com",
-      "tags": [
-        "LEBANON"
-      ]
-    },
-    {
-      "id": "gdelt_351e2e893b64a742",
-      "headline": "Nigeria Police Arrest  Fake  World Bank Official For Defrauding Kenyan Victims Of $250 , 000 In Cross - Border Scam",
-      "url": "https://saharareporters.com/2026/04/15/nigeria-police-arrest-fake-world-bank-official-defrauding-kenyan-victims-250000-cross",
-      "published_at": "20260415T184500Z",
-      "source": "saharareporters.com",
-      "tags": [
-        "NIGERIA"
-      ]
-    },
-    {
-      "id": "gdelt_fb9f4f6c47f53114",
-      "headline": "ΕΕ : Η Βρετανία επιστρέφει στο πρόγραμμα Erasmus από το 2027",
-      "url": "https://www.sigmalive.com/news/international/1310229/ee-h-bretania-epistrefei-sto-proghramma-erasmus-apo-to-2027",
-      "published_at": "20260415T184500Z",
-      "source": "sigmalive.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b0627866f05a5fae",
-      "headline": "Η Βρετανία επιστρέφει στο πρόγραμμα Erasmus από το 2027",
-      "url": "https://www.news247.gr/kosmos/i-vretania-epistrefei-sto-programma-erasmus-apo-to-2027/",
-      "published_at": "20260415T194500Z",
-      "source": "news247.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2ae1147c84886d9b",
-      "headline": "Η Βρετανία επιστρέφει στο ευρωπαϊκό πρόγραμμα Erasmus από το 2027",
-      "url": "https://www.lifo.gr/now/world/i-bretania-epistrefei-sto-eyropaiko-programma-erasmus-apo-2027",
-      "published_at": "20260415T210000Z",
-      "source": "lifo.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5839ec4ee4f2e83f",
-      "headline": "H Βρετανία επιστρέφει στο Erasmus έξι χρόνια μετά το Brexit",
-      "url": "https://www.kathimerini.gr/world/564176350/h-vretania-epistrefei-sto-erasmus-exi-chronia-meta-apo-to-brexit/",
-      "published_at": "20260415T193000Z",
-      "source": "kathimerini.gr",
+      "id": "gdelt_1ebe3d066909b232",
+      "headline": "Obtuvo dictamen un convenio sobre control transfronterizo de desechos peligrosos",
+      "url": "https://www.parlamentario.com/2026/04/15/obtuvo-dictamen-un-convenio-sobre-control-transfronterizo-de-desechos-peligrosos/",
+      "published_at": "20260416T004500Z",
+      "source": "parlamentario.com",
       "tags": []
     },
     {
@@ -936,35 +582,29 @@
       "tags": []
     },
     {
-      "id": "gdelt_b869f0042b33be75",
-      "headline": "Η Βρετανία επιστρέφει στο πρόγραμμα Erasmus από το 2027",
-      "url": "https://www.capital.gr/diethni/3985576/i-bretania-epistrefei-sto-programma-erasmus-apo-to-2027/",
-      "published_at": "20260415T184500Z",
-      "source": "capital.gr",
+      "id": "gdelt_6cba3295a0999cfb",
+      "headline": "US Pushes Global Crypto Rules , India Central to Future Framework",
+      "url": "https://www.newkerala.com/news/a/us-eyes-global-crypto-rules-india-central-future-967.htm",
+      "published_at": "20260416T031500Z",
+      "source": "newkerala.com",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
+      "id": "gdelt_fff96c350ade9fcd",
+      "headline": "美国针对伊朗石油运输网络出台新制裁措施 ， 将总计20多个实体 、 个人和船只列为制裁对象",
+      "url": "https://baijiahao.baidu.com/s?id=1862582152051403698",
+      "published_at": "20260416T011500Z",
+      "source": "baijiahao.baidu.com",
       "tags": []
     },
     {
-      "id": "gdelt_aa4d8d61c425cde5",
-      "headline": "Quién es José Luis Pascual , el exalcalde de Trabanca detenido en la redada de Salamanca",
-      "url": "https://www.lagacetadesalamanca.es/provincia/jose-luis-exalcalde-trabanca-detenido-redada-salamanca-20260415204152-nt.html",
-      "published_at": "20260415T194500Z",
-      "source": "lagacetadesalamanca.es",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9b9e9e9544884fc1",
-      "headline": "Ukraine - Krieg : Großbritannien will 120 . 000 Drohnen liefern",
-      "url": "https://www.spiegel.de/ausland/ukraine-krieg-grossbritannien-will-120-000-drohnen-liefern-a-826a6691-22fe-4e8f-84ac-9ad4ce211aed",
-      "published_at": "20260415T194500Z",
-      "source": "spiegel.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7a7fa8850896ae25",
-      "headline": "Η Βρετανία επιστρέφει στο Erasmus από το 2027",
-      "url": "https://www.voria.gr/article/i-bretania-epistrefei-sto-erasmus-apo-2027",
-      "published_at": "20260415T193000Z",
-      "source": "voria.gr",
+      "id": "gdelt_0471aeb62e57f5fa",
+      "headline": "Посол РФ : Хельсинки остаётся одним из ведущих поставщиков оружия ВСУ",
+      "url": "https://www.mk.ru/politics/2026/04/16/posol-rf-khelsinki-ostayotsya-odnim-iz-vedushhikh-postavshhikov-oruzhiya-vsu.html",
+      "published_at": "20260416T011500Z",
+      "source": "mk.ru",
       "tags": []
     },
     {
@@ -984,6 +624,22 @@
       "tags": []
     },
     {
+      "id": "gdelt_9136c84a52834b18",
+      "headline": "IMPEX 2026 returns as Hong Kong largest immigration and property expo on 18 - 19 April , expanding its focus on global mobility and asset planning",
+      "url": "https://portal.sina.com.hk/finance/finance-mediaoutreachnewswire/media-outreach/2026/04/16/1700316/impex-2026-returns-as-hong-kongs-largest-immigration-and-property-expo-on-18-19-april-expanding-its-focus-on-global-mobility-and-asset-planning/",
+      "published_at": "20260416T030000Z",
+      "source": "portal.sina.com.hk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9bdc8e1a8b7c5f26",
+      "headline": "미 , 이란산 원유구매국  2차 제재  경고 … 중국 정조준 · 러 · 이란 판매 허가 종료",
+      "url": "https://www.etoday.co.kr/news/view/2576206",
+      "published_at": "20260416T003000Z",
+      "source": "etoday.co.kr",
+      "tags": []
+    },
+    {
       "id": "gdelt_370d3631567e6a4f",
       "headline": "베선트 재무  이란 원유 제재 해제 연장 안할 것 … 이란 자금줄 죄며 중국도 압박 - 국민일보",
       "url": "https://www.kmib.co.kr/article/view.asp?arcid=0029686755&code=61131111&sid1=int",
@@ -992,46 +648,392 @@
       "tags": []
     },
     {
-      "id": "gdelt_c5195f5a528300d3",
-      "headline": "ΕΕ : Η Βρετανία επιστρέφει στο πρόγραμμα Erasmus από το 2027",
-      "url": "https://www.sofokleousin.gr/epikairotita/diethni/ee-i-vretania-epistrefei-sto-programma-erasmus-apo-to-2027",
-      "published_at": "20260415T211500Z",
-      "source": "sofokleousin.gr",
+      "id": "gdelt_49431133bc3bb108",
+      "headline": "США объявили о введении новых санкций против Ирана",
+      "url": "https://www.unian.net/world/ssha-obyavili-o-vvedenii-novyh-sankciy-protiv-irana-13350696.html",
+      "published_at": "20260416T004500Z",
+      "source": "unian.net",
       "tags": []
     },
     {
-      "id": "gdelt_c2fe04136d6229a4",
-      "headline": "Зеленський підбив підсумки нового  Рамштайну",
-      "url": "https://uainfo.org/blognews/1776277459-zelenskiy-pidbiv-pidsumki-novogo-ramshtaynu-.html",
-      "published_at": "20260415T213000Z",
-      "source": "uainfo.org",
+      "id": "gdelt_8092536f512bc975",
+      "headline": "美国针对伊朗石油运输网络出台新制裁措施",
+      "url": "https://world.qianlong.com/2026/0416/8655283.shtml",
+      "published_at": "20260416T010000Z",
+      "source": "world.qianlong.com",
       "tags": []
     },
     {
-      "id": "gdelt_546f316fcbd7288d",
-      "headline": "考古生活節登場 新北推雙館暢遊文化廊帶",
-      "url": "https://n.yam.com/Article/20260416919705",
-      "published_at": "20260415T214500Z",
-      "source": "n.yam.com",
+      "id": "gdelt_f4aabc903f70dc95",
+      "headline": "全面封殺 ！ 美財長警告2中國銀行 「 涉伊朗資金將實施次級制裁 」",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/5405348",
+      "published_at": "20260416T001500Z",
+      "source": "ec.ltn.com.tw",
       "tags": []
     },
     {
-      "id": "gdelt_ea10b5bf834a1b47",
-      "headline": "США включили в список антииранских санкций девять танкеров и 14 компаний",
-      "url": "https://www.kommersant.ru/doc/8590173",
-      "published_at": "20260415T193000Z",
-      "source": "kommersant.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d964ff691c51db89",
-      "headline": "Enabling the Won : Circle CEO Jeremy Allaire Positions Firm as South Korea Blockchain Backbone",
-      "url": "http://www.econotimes.com/Enabling-the-Won-Circle-CEO-Jeremy-Allaire-Positions-Firm-as-South-Koreas-Blockchain-Backbone-1739112",
-      "published_at": "20260415T184500Z",
-      "source": "econotimes.com",
+      "id": "gdelt_dc3446f941c5a362",
+      "headline": "美国针对伊朗石油运输网络出台新制裁措施",
+      "url": "https://china.zjol.com.cn/gjxw/202604/t20260416_31608356.shtml",
+      "published_at": "20260416T023000Z",
+      "source": "china.zjol.com.cn",
       "tags": [
-        "SOUTH_KOREA"
+        "CHINA"
       ]
+    },
+    {
+      "id": "gdelt_af60d12307dbf3ae",
+      "headline": "美国针对伊朗石油运输网络出台新制裁措施 - 新华网",
+      "url": "https://www.news.cn/world/20260416/b2f1eb7c551440279780db8a15b49da1/c.html",
+      "published_at": "20260416T001500Z",
+      "source": "news.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d3fa38bd91d9e34b",
+      "headline": "IMPEX 2026 returns as Hong Kong largest immigration and property expo on 18 - 19 April , expanding its focus on global mobility and asset planning",
+      "url": "https://www.manilatimes.net/2026/04/16/tmt-newswire/media-outreach-newswire/impex-2026-returns-as-hong-kongs-largest-immigration-and-property-expo-on-18-19-april-expanding-its-focus-on-global-mobility-and-asset-planning/2321525",
+      "published_at": "20260416T014500Z",
+      "source": "manilatimes.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0ab855f27e54509c",
+      "headline": "美国针对伊朗石油运输网络出台新制裁措施 - 南海网",
+      "url": "https://www.hinews.cn:443/page?n=2816969&m=1&s=1044",
+      "published_at": "20260416T003000Z",
+      "source": "hinews.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_efa03da080b38693",
+      "headline": "美国针对伊朗石油运输网络出台新制裁措施 - 南海网",
+      "url": "https://www.hinews.cn/page?n=2816969&m=1&s=1044",
+      "published_at": "20260416T023000Z",
+      "source": "hinews.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2e6f2461e83fffdd",
+      "headline": "美對伊朗政權精英運營的石油走私網實施制裁 | 美財政部 | 美國制裁",
+      "url": "https://www.epochtimes.com/b5/26/4/15/n14742374.htm",
+      "published_at": "20260415T224500Z",
+      "source": "epochtimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2b05bf1dd11420c7",
+      "headline": "Three - Tier Dollar Zone Structure And Pathways For Breakthroughs In Yuan Internationalization – Analysis",
+      "url": "https://www.eurasiareview.com/16042026-three-tier-dollar-zone-structure-and-pathways-for-breakthroughs-in-yuan-internationalization-analysis/",
+      "published_at": "20260416T030000Z",
+      "source": "eurasiareview.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d5b4de54204d1e72",
+      "headline": "Amerika Serikat Serukan Pengetatan Sanksi Minyak ke Iran",
+      "url": "https://www.cnnindonesia.com/ekonomi/20260416084551-85-1348516/amerika-serikat-serukan-pengetatan-sanksi-minyak-ke-iran",
+      "published_at": "20260416T023000Z",
+      "source": "cnnindonesia.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6ffbe69c047066df",
+      "headline": "美国针对伊朗石油运输网络出台新制裁措施 - 国际视野",
+      "url": "https://news.voc.com.cn/news/202604/32444560.html",
+      "published_at": "20260416T031500Z",
+      "source": "news.voc.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_aa2a42ad54039bdf",
+      "headline": "США оголосили нові санкції проти Ірану",
+      "url": "https://www.unian.ua/world/ssha-ogolosili-novi-sankciji-proti-iranu-13350699.html",
+      "published_at": "20260416T001500Z",
+      "source": "unian.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cd6af8d23b4c1817",
+      "headline": "美國警告將制裁伊朗石油買家 貝森特 ： 中國會暫停採購 - 國際",
+      "url": "https://news.ltn.com.tw/news/world/breakingnews/5405368",
+      "published_at": "20260416T010000Z",
+      "source": "news.ltn.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_45846e950cd1d10e",
+      "headline": "How the Iran War Confirmed , Contradicted , and Complicated U . S . Policy",
+      "url": "https://www.cfr.org/articles/how-the-iran-war-confirmed-contradicted-and-complicated-u-s-policy",
+      "published_at": "20260415T233000Z",
+      "source": "cfr.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5165707e40684c12",
+      "headline": "PHLPost resumes full US - bound parcel services after system upgrade",
+      "url": "https://www.manilatimes.net/2026/04/16/news/phlpost-resumes-full-us-bound-parcel-services-after-system-upgrade/2321527",
+      "published_at": "20260416T014500Z",
+      "source": "manilatimes.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f547349a216b38b8",
+      "headline": "外籍人才成缺工救火隊 104 ： 求職人數年增28 % 八成大學學歷 | 產業綜合 | 產經",
+      "url": "https://udn.com/news/story/7241/9444977",
+      "published_at": "20260416T021500Z",
+      "source": "udn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_72bf06b7fa835b9d",
+      "headline": "Бессент : смягчение санкций против российской нефти предотвратило  конец света",
+      "url": "https://www.vesti.ru/ns/bessent-smyagchenie-sankcij-protiv-rf-predotvratilo-konec-sveta-s-cenoj-nefti",
+      "published_at": "20260415T233000Z",
+      "source": "vesti.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9e3f07dcea145323",
+      "headline": "美国针对伊朗石油运输网络出台新制裁措施 _ 天下 _ 新闻频道 _ 福州新闻网",
+      "url": "https://news.fznews.com.cn/gngj/20260416/1nUgOnV47A.shtml",
+      "published_at": "20260416T024500Z",
+      "source": "news.fznews.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cec734211738aedc",
+      "headline": "ASN Sukoharjo Dilarang Keluyuran Saat WFH , Pelanggar Terancam Sanksi Disiplin",
+      "url": "https://bangka.tribunnews.com/news/1681797/asn-sukoharjo-dilarang-keluyuran-saat-wfh-pelanggar-terancam-sanksi-disiplin",
+      "published_at": "20260416T001500Z",
+      "source": "bangka.tribunnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_978fa3027a7c3792",
+      "headline": "Скотт Бессент – США возобновили действие санкций против российской и иранской нефти",
+      "url": "https://www.obozrevatel.com/ekonomika-glavnaya/analytics-and-forecasts/sanktsii-vozobnovlenyi-bessent-podtverdil-chto-ssha-ne-budut-prodlevat-razreshenie-na-prodazhu-rossijskoj-nefti.htm",
+      "published_at": "20260415T224500Z",
+      "source": "obozrevatel.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c87aa56187bd0241",
+      "headline": "法国全票通过文物归还法案 ， 曾捐抗战照片的法国小伙马库斯发声",
+      "url": "https://news.ifeng.com/c/8sMdeXhcelw",
+      "published_at": "20260416T023000Z",
+      "source": "news.ifeng.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fab5bcedfd487a8e",
+      "headline": "Минфин США : смягчение санкций против нефти из РФ предотвратило конец света",
+      "url": "https://tvzvezda.ru/news/2026416121-mmEGD.html",
+      "published_at": "20260416T031500Z",
+      "source": "tvzvezda.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6be08c2cc8218897",
+      "headline": "美擴大對石油大亨的制裁 繼續向伊朗施壓",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/5405386",
+      "published_at": "20260416T014500Z",
+      "source": "ec.ltn.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2c7c3c1a6947d057",
+      "headline": "Sanctioning Senior Operatives Of Cártel Del Noreste",
+      "url": "https://www.scoop.co.nz/stories/WO2604/S00143/sanctioning-senior-operatives-of-cartel-del-noreste.htm",
+      "published_at": "20260415T223000Z",
+      "source": "scoop.co.nz",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0547464b5a1180b3",
+      "headline": "米 、 イラン産原油購入者に制裁警告 海上封鎖で中国が購入停止と予想",
+      "url": "https://jp.reuters.com/markets/commodities/4D55RN7WAFPWJKFWLCLWAAGFMM-2026-04-15/",
+      "published_at": "20260416T004500Z",
+      "source": "jp.reuters.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a7c6807e3f4fefd1",
+      "headline": "美财长又威胁 ： 要是中方有伊朗资金往来 ， 就二级制裁",
+      "url": "https://news.ifeng.com/c/8sMe5TU7hnu",
+      "published_at": "20260416T023000Z",
+      "source": "news.ifeng.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6fb6f1a204b3cd78",
+      "headline": "Respons Orangtua Pelaku Pelecehan di FH UI Disorot , Terungkap Profesinya , Sesumbar Bawa Barracuda",
+      "url": "https://kaltim.tribunnews.com/news/1144865/respons-orangtua-pelaku-pelecehan-di-fh-ui-disorot-terungkap-profesinya-sesumbar-bawa-barracuda",
+      "published_at": "20260416T023000Z",
+      "source": "kaltim.tribunnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_333e0ac741977f35",
+      "headline": "США возобновили санкции на нефть РФ",
+      "url": "https://korrespondent.net/world/4871283-ssha-vozobnovyly-sanktsyy-na-neft-rf",
+      "published_at": "20260415T230000Z",
+      "source": "korrespondent.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bf4c3d6d0ae1a3d8",
+      "headline": "Iran wont give up enriching uranium to get peace deal , official says",
+      "url": "https://www.yahoo.com/news/articles/iran-wont-enriching-uranium-peace-231003410.html",
+      "published_at": "20260415T234500Z",
+      "source": "yahoo.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e62e2de22a203c67",
+      "headline": "Editorial | Digital cooperation is a vital link for Greater Bay Area integration",
+      "url": "https://www.scmp.com/opinion/comment/article/3350119/digital-cooperation-vital-link-greater-bay-area-integration",
+      "published_at": "20260416T004500Z",
+      "source": "scmp.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_99f1fd2e18751d5f",
+      "headline": "Business owners are invited to take survey on Canadian customer decline",
+      "url": "http://www.thenorthernlight.com/stories/business-owners-are-invited-to-take-survey-on-canadian-customer-decline,43302",
+      "published_at": "20260416T024500Z",
+      "source": "thenorthernlight.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c7fb5bd3a0ffdbf5",
+      "headline": "US rules out extending India Russian oil sanctions waiver",
+      "url": "https://www.siasat.com/us-rules-out-extending-indias-russian-oil-sanctions-waiver-3453845/",
+      "published_at": "20260416T030000Z",
+      "source": "siasat.com",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
+      "id": "gdelt_04624a250f80c16a",
+      "headline": "US announces new sanctions against Iranian oil sector",
+      "url": "https://www.freemalaysiatoday.com/category/highlight/2026/04/16/us-announces-new-sanctions-against-iran-oil-sector",
+      "published_at": "20260416T013000Z",
+      "source": "freemalaysiatoday.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_24a1cfe9e43e899e",
+      "headline": "visite de la Zone militaire n°4 : le CEMGA Oumar Wade salue la vigilance des troupes et annonce un renforcement sécuritaire",
+      "url": "https://www.dakaractu.com/visite-de-la-Zone-militaire-n-4-le-CEMGA-Oumar-Wade-salue-la-vigilance-des-troupes-et-annonce-un-renforcement_a271053.html",
+      "published_at": "20260416T013000Z",
+      "source": "dakaractu.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4fee5f0ee98f25f2",
+      "headline": "US announces new sanctions on Iranian oil as it holds Hormuz  hostage",
+      "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/us-tightens-iran-oil-sanctions-says-move-will-decisively-limit-tehrans-revenue-as-it-holds-hormuz-hostage/articleshow/130295578.cms",
+      "published_at": "20260416T023000Z",
+      "source": "economictimes.indiatimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6eea0a3c00b1769b",
+      "headline": "Russland , Olje | Russisk oljeboom : Doblet salget",
+      "url": "https://www.nettavisen.no/nyheter/russisk-oljeboom-doblet-salget/s/5-95-2985557",
+      "published_at": "20260415T231500Z",
+      "source": "nettavisen.no",
+      "tags": []
+    },
+    {
+      "id": "gdelt_41a13215b86a1a2c",
+      "headline": "أمير قطر يتلقى اتصالا من ترمب ويشدد على خفض التصعيد بالمنطقة",
+      "url": "https://www.aljazeera.net/news/2026/4/16/%D8%A3%D9%85%D9%8A%D8%B1-%D9%82%D8%B7%D8%B1-%D9%8A%D8%AA%D9%84%D9%82%D9%89-%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%D8%A7-%D9%85%D9%86-%D8%AA%D8%B1%D9%85%D8%A8-%D9%88%D9%8A%D8%A4%D9%83%D8%AF-%D8%B9%D9%84%D9%89",
+      "published_at": "20260415T231500Z",
+      "source": "aljazeera.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1cdc819f84ffae96",
+      "headline": "美加強反制德黑蘭 揚言對伊朗石油買家祭次級制裁 - 國際",
+      "url": "https://news.cts.com.tw/cna/international/202604/202604163020193.html",
+      "published_at": "20260416T024500Z",
+      "source": "news.cts.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_20ce421065005e5e",
+      "headline": "Bessent says US could slap secondary sanctions on Iranian oil buyers",
+      "url": "https://www.marketscreener.com/news/bessent-says-us-could-slap-secondary-sanctions-on-iranian-oil-buyers-ce7e50ddd98bf126",
+      "published_at": "20260415T223000Z",
+      "source": "marketscreener.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5d81b22089c028ad",
+      "headline": "Kasus Pelecehan Seksual FH UI : Drop Out atau Dialog ?",
+      "url": "https://www.kompas.com/edu/read/2026/04/16/071000871/kasus-pelecehan-seksual-fh-ui--drop-out-atau-dialog-",
+      "published_at": "20260416T003000Z",
+      "source": "kompas.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2a35ec13fa7539f9",
+      "headline": "US announces new sanctions against Iran oil sector",
+      "url": "https://www.al-monitor.com/originals/2026/04/us-announces-new-sanctions-against-iran-oil-sector",
+      "published_at": "20260416T031500Z",
+      "source": "al-monitor.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_37ffce82f7443fa0",
+      "headline": "美재무  6~9월 돼야 기름값 하락 … 러 원유 제재는 복구",
+      "url": "https://www.fnnews.com/news/202604160434200842",
+      "published_at": "20260416T004500Z",
+      "source": "fnnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9194eda520761c19",
+      "headline": "US announces new sanctions against Iran oil sector",
+      "url": "https://www.manilatimes.net/2026/04/16/world/americas-emea/us-announces-new-sanctions-against-iran-oil-sector/2321519",
+      "published_at": "20260416T014500Z",
+      "source": "manilatimes.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d6cadc002fa932a9",
+      "headline": "금융판 폭격 시작  美 , 러 · 이란산 원유 제재 유예 끝낸다",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02607606645416776&mediaCodeNo=257",
+      "published_at": "20260415T231500Z",
+      "source": "edaily.co.kr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bd7348cab21c16e0",
+      "headline": "针对伊朗石油运输网络 ， 美国宣布新制裁措施 ， 还涉及阿联酋 、 印度 ！ 伊朗警告 ： 若美国继续封锁 ， 伊朗将封锁波斯湾 、 阿曼湾和红海",
+      "url": "https://www.nbd.com.cn/articles/2026-04-16/4341848.html",
+      "published_at": "20260416T024500Z",
+      "source": "nbd.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d4fe7d00376b8297",
+      "headline": "Trump signs several pipeline permits to facilitate Canada - U . S . oil transport",
+      "url": "https://globalnews.ca/news/11803379/trump-pipeline-permits-canada-enbridge/",
+      "published_at": "20260416T004500Z",
+      "source": "globalnews.ca",
+      "tags": []
+    },
+    {
+      "id": "gdelt_078b41a209ee3492",
+      "headline": "Jejak Supriadi , Napi Kasus Korupsi Rp 233 Miliar yang Ketahuan Ngopi di Kendari",
+      "url": "https://regional.kompas.com/read/2026/04/16/062509478/jejak-supriadi-napi-kasus-korupsi-rp-233-miliar-yang-ketahuan-ngopi-di",
+      "published_at": "20260416T003000Z",
+      "source": "regional.kompas.com",
+      "tags": []
     }
   ]
 }
