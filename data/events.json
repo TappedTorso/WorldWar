@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-04-18T15:52:21Z",
+    "generated_at_utc": "2026-04-18T16:57:55Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "http_error status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
         "fetched": 0
       },
       {
@@ -62,6 +62,14 @@
       ]
     },
     {
+      "id": "gdelt_10bb41aa15dba193",
+      "headline": "Перемирие в Ливане нарушено - минобороны Израиля",
+      "url": "https://vesti.az/v-mire/peremirie-v-livane-naruseno-minoborony-izrailya-589867",
+      "published_at": "20260418T154500Z",
+      "source": "vesti.az",
+      "tags": []
+    },
+    {
       "id": "gdelt_eb45f5b9b1a3564a",
       "headline": "The Pro - Putin Bulgarian set to take Orban role as the EU worst nightmare",
       "url": "https://www.aol.co.uk/articles/pro-putin-bulgarian-set-orban-150155241.html",
@@ -75,14 +83,6 @@
       "url": "https://espreso.tv/svit-pro-ukrainu-pentagon-khoche-shchob-evropa-vzyala-na-sebe-bilshu-chastinu-dopomogi-ukraini-poki-rosiya-namagaetsya-znovu-vtyagnuti-bilorus-u-viynu-aktsenti-svitovikh-zmi-18-kvitnya",
       "published_at": "20260418T153000Z",
       "source": "espreso.tv",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0bc710d2a2c1be75",
-      "headline": "Punjab Police Crack Down On Cross - Border Heroin Smuggling",
-      "url": "https://www.rediff.com/news/report/heroin-recovered-two-arrested-in-amritsar-punjab-police/20260418.htm",
-      "published_at": "20260418T103000Z",
-      "source": "rediff.com",
       "tags": []
     },
     {
@@ -115,14 +115,6 @@
       "url": "https://drimble.nl/regio/noord-holland/amsterdam/106626081/tuchtcollege-amsterdam-berispt-chirurg-die-assistent-ezel-noemt.html",
       "published_at": "20260418T120000Z",
       "source": "drimble.nl",
-      "tags": []
-    },
-    {
-      "id": "gdelt_193bf4034b5f5716",
-      "headline": "EBANX expands cross - border payments reach with Southeast Asia focus",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/ebanx-expands-cross-border-payments-064507706.html",
-      "published_at": "20260418T100000Z",
-      "source": "finance.yahoo.com",
       "tags": []
     },
     {
@@ -194,22 +186,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_3b859e031f350705",
-      "headline": "Przeszukanie w biurach producenta Nutelli . Trwa śledztwo",
-      "url": "https://www.dlahandlu.pl/detal-hurt/przeszukanie-w-biurach-producenta-nutelli-trwa-sledztwo,169191.html",
-      "published_at": "20260418T101500Z",
-      "source": "dlahandlu.pl",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fb8aac6329309ee6",
-      "headline": "Trafic de Skunk déjoué : deux individus arrêtés par la Brigade des stupéfiants",
-      "url": "https://www.leral.net/Trafic-de-Skunk-dejoue-deux-individus-arretes-par-la-Brigade-des-stupefiants_a397773.html",
-      "published_at": "20260418T101500Z",
-      "source": "leral.net",
-      "tags": []
-    },
-    {
       "id": "gdelt_2a018e0dc3e12f45",
       "headline": "Turkiye says Israel using security as a pretext to acquire  more land",
       "url": "http://thepeninsulaqatar.com/article/18/04/2026/turkiyesays-israel-using-security-as-a-pretext-to-acquire-more-land",
@@ -218,14 +194,6 @@
       "tags": [
         "ISRAEL"
       ]
-    },
-    {
-      "id": "gdelt_1c363dd72d91131b",
-      "headline": "Saisie de drogue à Fatick , la quantité de Skunk interceptée par lOCRTIS",
-      "url": "https://senego.com/saisie-de-drogue-a-fatick-la-quantite-de-skunk-interceptee-par-locrtis_1951249.html",
-      "published_at": "20260418T103000Z",
-      "source": "senego.com",
-      "tags": []
     },
     {
       "id": "gdelt_6ba68267549a880b",
@@ -244,14 +212,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_cfb4e7e443d30ac7",
-      "headline": "Antalya Diplomasi Forumu 2026",
-      "url": "https://www.haberler.com/guncel/nato-zirvesi-oncesi-daha-guclu-avrupa-daha-guclu-nato-vurgusu-19761192-haberi/",
-      "published_at": "20260418T101500Z",
-      "source": "haberler.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_29a3538bfa8ef7bd",
       "headline": "Mercado Libre : centro en Lurín seguirá pasos de Chile mientras busca conexión con China",
       "url": "https://gestion.pe/economia/empresas/mercado-libre-centro-en-lurin-seguira-los-pasos-de-chile-mientras-busca-conexion-con-china-noticia/",
@@ -267,16 +227,6 @@
       "url": "https://www.mathrubhumi.com/news/world/iran-closes-strait-of-hormuz--us-sanctions-update-ttnsvmnf",
       "published_at": "20260418T120000Z",
       "source": "mathrubhumi.com",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_ea99ae1420a06ccf",
-      "headline": "ഹുർമുസ് വീണ്ടും അടച്ചു , കടുപ്പിച്ച് ഇറാൻ ; നടപടി യു . എസ് നാവിക ഉപരോധം തുടരുന്നതിനാൽ | Iran says Hormoz closed again over US naval blockade",
-      "url": "https://www.madhyamam.com/world/iran-says-hormoz-closed-again-over-us-naval-blockade-1512361",
-      "published_at": "20260418T101500Z",
-      "source": "madhyamam.com",
       "tags": [
         "IRAN"
       ]
@@ -335,7 +285,9 @@
       "url": "https://aninews.in/news/world/asia/hormuz-safety-valve-snaps-shut-iran-reimposes-blockade-fires-on-tankers20260418200256/",
       "published_at": "20260418T151500Z",
       "source": "aninews.in",
-      "tags": []
+      "tags": [
+        "IRAN"
+      ]
     },
     {
       "id": "gdelt_12a7eb969d199acb",
@@ -343,14 +295,6 @@
       "url": "https://www.madhyamam.com/world/gunboats-fire-on-tanker-in-hormuz-1512389",
       "published_at": "20260418T144500Z",
       "source": "madhyamam.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f9ed5f6f94ad6ec8",
-      "headline": "SAD produžile izuzeće za kupovinu ruske nafte , Dmitrijev : Izazvaće histeriju u EU",
-      "url": "https://www.blic.rs/vesti/svet/sad-produzile-izuzece-za-kupovinu-ruske-nafte-dmitrijev-izazvace-histeriju-u-eu/hswy5p1",
-      "published_at": "20260418T101500Z",
-      "source": "blic.rs",
       "tags": []
     },
     {
@@ -369,14 +313,6 @@
       "url": "https://korrespondent.net/world/4872026-smiahchenye-sanktsyi-protyv-rf-senat-krytykuet-trampa",
       "published_at": "20260418T113000Z",
       "source": "korrespondent.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_40590fb82f12685c",
-      "headline": "इरानको युरेनियम अमेरिका लैजाने ट्रम्पको दावीमा इरानले फर्कायो यस्तो जवाफ",
-      "url": "https://www.annapurnapost.com/story/498266/",
-      "published_at": "20260418T101500Z",
-      "source": "annapurnapost.com",
       "tags": []
     },
     {
@@ -401,14 +337,6 @@
       "url": "https://www.ensonhaber.com/dunya/israile-yaptirim-ab-yeniden-gundemine-alacak",
       "published_at": "20260418T113000Z",
       "source": "ensonhaber.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_23581aae5053c5c0",
-      "headline": "Jugend gestaltet Zukunft : Junge Tiroler jetzt für Alpenenergie - Workshop bewerben",
-      "url": "https://www.meinbezirk.at/tirol/c-wirtschaft/junge-tiroler-jetzt-fuer-alpenenergie-workshop-bewerben_a8593870",
-      "published_at": "20260418T103000Z",
-      "source": "meinbezirk.at",
       "tags": []
     },
     {
@@ -476,14 +404,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_1d449db19df00a6f",
-      "headline": "ABDden Rus petrolü kararı ! Süreyi 16 Mayısa kadar uzattı",
-      "url": "https://www.haber7.com/dunya/haber/3621005-abdden-rus-petrolu-karari-sureyi-16-mayisa-kadar-uzatti",
-      "published_at": "20260418T101500Z",
-      "source": "haber7.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_6170e1d3de539a2c",
       "headline": "Лавров предостерег от возможных сравнений России с  бумажным тигром",
       "url": "https://www.mk.ru/politics/2026/04/18/lavrov-predostereg-ot-vozmozhnykh-sravneniy-rossii-s-bumazhnym-tigrom.html",
@@ -526,14 +446,6 @@
       "tags": [
         "UNITED_STATES"
       ]
-    },
-    {
-      "id": "gdelt_ca6d6908280b2905",
-      "headline": "ABDden Iraktaki İran bağlantılı milis komutanlarına yaptırım",
-      "url": "https://www.internethaber.com/abdden-iraktaki-iran-baglantili-milis-komutanlarina-yaptirim-2439962h.htm",
-      "published_at": "20260418T101500Z",
-      "source": "internethaber.com",
-      "tags": []
     },
     {
       "id": "gdelt_7ea32c4c77a4b473",
@@ -585,14 +497,6 @@
       "url": "https://www.cna.com.tw:443/news/acn/202604180172.aspx",
       "published_at": "20260418T111500Z",
       "source": "cna.com.tw",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5c6a65393f5e2c07",
-      "headline": "Saison der Radtouren startet in Brandenburg : Mit dem Fahrrad durch Wälder , zu Schlössern und an Badeseen",
-      "url": "https://www.tagesspiegel.de/berlin/freizeitaktivitaten-saison-der-radtouren-beginnt-in-brandenburg-15495571.html",
-      "published_at": "20260418T101500Z",
-      "source": "tagesspiegel.de",
       "tags": []
     },
     {
@@ -712,18 +616,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_35c7994414745bee",
-      "headline": "Zelensky issues stark warning Russia will pull Belarus back into Ukraine war",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-belarus-zelensky-putin-b2960260.html",
-      "published_at": "20260418T103000Z",
-      "source": "independent.co.uk",
-      "tags": [
-        "RUSSIA",
-        "UKRAINE",
-        "BELARUS"
-      ]
-    },
-    {
       "id": "gdelt_fff894f494918d95",
       "headline": "India approves ₹12 , 980 crore maritime insurance pool amid rising shipping risks",
       "url": "https://www.thehindubusinessline.com/economy/logistics/india-approves-12980-crore-maritime-insurance-pool-amid-rising-shipping-risks/article70877208.ece",
@@ -737,14 +629,6 @@
       "url": "https://www.newkerala.com/news/a/hormuz-safety-valve-snaps-shut-iran-reimposes-blockade-481.htm",
       "published_at": "20260418T151500Z",
       "source": "newkerala.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2e896a67b9211d1e",
-      "headline": "Đề xuất công an được phạt đến 100 triệu với vi phạm kinh doanh xổ số",
-      "url": "https://thanhnien.vn/de-xuat-cong-an-duoc-phat-den-100-trieu-voi-vi-pham-kinh-doanh-xo-so-185260418104722666.htm",
-      "published_at": "20260418T101500Z",
-      "source": "thanhnien.vn",
       "tags": []
     },
     {
@@ -769,24 +653,6 @@
       "url": "https://www.elwatannews.com/news/details/8267919",
       "published_at": "20260418T144500Z",
       "source": "elwatannews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_212f87ed64c79552",
-      "headline": "《 浪姐 》 七年之痒 ： 拥抱流量些许跑偏 搞笑综艺意外出圈 _ 新闻频道 _ 中华网",
-      "url": "https://news.china.com/socialgd/10000169/20260418/49428100.html",
-      "published_at": "20260418T101500Z",
-      "source": "news.china.com",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
-      "id": "gdelt_0d1a43968958242d",
-      "headline": "女子泼水节被砸中有视网膜脱落风险 意外伤害引关注 _ 新闻频道 _ 中华网",
-      "url": "https://news.china.com/socialgd/10000169/20260418/49428093.html",
-      "published_at": "20260418T101500Z",
-      "source": "news.china.com",
       "tags": []
     },
     {
@@ -832,22 +698,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_5228be2069ab86ad",
-      "headline": "Bu akşam hangi diziler var ? 18 Nisan 2026 Show TV , Kanal D , Star TV , TV8 , TRT1 , ATV yayın akışı",
-      "url": "https://www.gunes.com/medya/bu-aksam-hangi-diziler-var-18-nisan-2026-show-tv-kanal-d-star-tv-tv8-trt1-atv-yayin-akisi-1226335",
-      "published_at": "20260418T101500Z",
-      "source": "gunes.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ae572d9e3156846b",
-      "headline": "Сальдо раскрыл истинные планы Зеленского относительно урегулирования",
-      "url": "https://ria.ru/20260418/zelenskij-2087693953.html",
-      "published_at": "20260418T101500Z",
-      "source": "ria.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_30499b337c7ed66b",
       "headline": "خبير عسكري : مراقبة بحرية مشددة تضغط على إيران بين التفاوض أو التصعيد",
       "url": "https://www.elwatannews.com/news/details/8267797",
@@ -864,14 +714,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_0890829ea81bba68",
-      "headline": "اسرائیلی پابندیوں کی وجہ سے بورڈ آف پیس کو بھی غزہ میں مشکلات کا سامنا",
-      "url": "https://www.express.pk/story/2809086/board-of-peace-says-israels-border-restrictions-main-obstacle-2809086",
-      "published_at": "20260418T101500Z",
-      "source": "express.pk",
-      "tags": []
-    },
-    {
       "id": "gdelt_947d40582cd01c95",
       "headline": "Лавров заявил о большом количестве разногласий с администрацией США",
       "url": "https://www.interfax.ru/russia/1084701",
@@ -880,14 +722,6 @@
       "tags": [
         "RUSSIA"
       ]
-    },
-    {
-      "id": "gdelt_b65b563af71a3071",
-      "headline": "Хакеры похитили с российской биржи Grinex криптоактивы 1 млрд рублей",
-      "url": "https://knews.kg/2026/04/18/hakery-pohitili-s-rossijskoj-birzhi-grinex-kriptoaktivy-1-mlrd-rublej/",
-      "published_at": "20260418T104500Z",
-      "source": "knews.kg",
-      "tags": []
     },
     {
       "id": "gdelt_e15d367f02598693",
@@ -903,7 +737,9 @@
       "url": "https://www.express.co.uk/news/world/2195599/putin-call-up-planes-1940s-russia-aviation-crisis",
       "published_at": "20260418T111500Z",
       "source": "express.co.uk",
-      "tags": []
+      "tags": [
+        "RUSSIA"
+      ]
     },
     {
       "id": "gdelt_166960b89802e38a",
@@ -927,22 +763,6 @@
       "url": "https://www.merdeka.com/peristiwa/terobosan-hukum-kejari-palembang-terapkan-plea-bargaining-percepat-penanganan-perkara-563907-mvk.html",
       "published_at": "20260418T111500Z",
       "source": "merdeka.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bf76b30894a15225",
-      "headline": "النائب أحمد صبور : إغلاق مضيق هرمز تصعيد خطير يهدد أسواق الطاقة",
-      "url": "https://www.dostor.org/5511980",
-      "published_at": "20260418T101500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2f9d6f56137de1d5",
-      "headline": "Photograph of Uranium drums on Tehran tarmac is the prize Trump wants : Foreign affairs expert Robinder Sachdev",
-      "url": "https://news.webindia123.com/news/Articles/World/20260418/4440759.html",
-      "published_at": "20260418T101500Z",
-      "source": "news.webindia123.com",
       "tags": []
     },
     {
@@ -1018,19 +838,199 @@
       "tags": []
     },
     {
-      "id": "gdelt_33179cf29ec2065e",
-      "headline": "Time . ai",
-      "url": "https://time.mk/ai/1bbd2be178/mk/",
-      "published_at": "20260418T101500Z",
-      "source": "time.mk",
-      "tags": []
-    },
-    {
       "id": "gdelt_ceb3900953a23394",
       "headline": "Ескалација во Ормускиот теснец : Иран отвори оган кон танкер и повторно го затвори преминот",
       "url": "https://time.mk/c/0e6b52aedf/eskalacija-vo-ormuskiot-tesnec-iran-otvori-ogan-kon-tanker-i-povtorno-go-zatvori-preminot.html",
       "published_at": "20260418T141500Z",
       "source": "time.mk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5f4cb55feb2f2280",
+      "headline": "Empat Polisi Resmi Dipecat Buntut Tewasnya Bripda Natanael",
+      "url": "https://jateng.tribunnews.com/nasional/1250337/empat-polisi-resmi-dipecat-buntut-tewasnya-bripda-natanael",
+      "published_at": "20260418T151500Z",
+      "source": "jateng.tribunnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9539d981346553d4",
+      "headline": "Єгипет і Пакистан працюють над механізмом миру між США та Іраном ,",
+      "url": "https://espreso.tv/svit-egipet-i-pakistan-pratsyuyut-nad-mekhanizmom-trivalogo-miru-mizh-ssha-ta-iranom-reuters",
+      "published_at": "20260418T153000Z",
+      "source": "espreso.tv",
+      "tags": [
+        "PAKISTAN"
+      ]
+    },
+    {
+      "id": "gdelt_77b77c47200589aa",
+      "headline": "Watershed study delay prolongs uncertainty for Elk - Kootenai / y communities : My Creston Now",
+      "url": "https://www.mycrestonnow.com/46452/news/environment/watershed-study-delay-prolongs-uncertainty-for-elk-kootenai-y-communities/",
+      "published_at": "20260418T144500Z",
+      "source": "mycrestonnow.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_320e9323b87f4793",
+      "headline": "وزير الخارجية ونظيرته البريطانية يبحثان توسيع الشراكة الاقتصادية ومستجدات المنطقة",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=18042026&id=b27dcc2a-8bdb-4400-9580-8c2cf085edaa",
+      "published_at": "20260418T113000Z",
+      "source": "shorouknews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_96b9c4dd287f4b6c",
+      "headline": "Лавров заявил о большом количестве разногласий с администрацией США - Россия |",
+      "url": "https://www.interfax-russia.ru/rossiya-i-mir/lavrov-zayavil-o-bolshom-kolichestve-raznoglasiy-s-administraciey-ssha",
+      "published_at": "20260418T144500Z",
+      "source": "interfax-russia.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bf6575f63b25ddf0",
+      "headline": "Rusyadan Türkiye mesajı : Olumlu karşılıyoruz",
+      "url": "https://www.haber7.com/dunya/haber/3621126-rusyadan-turkiye-mesaji-olumlu-karsiliyoruz",
+      "published_at": "20260418T144500Z",
+      "source": "haber7.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fbbd9bbffabf9ff0",
+      "headline": "Rusyadan Türkiye ve arabuluculuk mesajı : Olumlu yaklaşıyoruz",
+      "url": "https://www.milliyet.com.tr/dunya/rusyadan-turkiye-ve-arabuluculuk-mesaji-olumlu-yaklasiyoruz-7573539",
+      "published_at": "20260418T144500Z",
+      "source": "milliyet.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_23ff0da39041b7c1",
+      "headline": "Alegeri în Bulgaria : Cine candidează și ce este în joc ?",
+      "url": "https://ziare.com/bulgaria-alegeri-legislative/bulgria-alegeri-candodati-promisiuni-2007379",
+      "published_at": "20260418T141500Z",
+      "source": "ziare.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0315226d44c2bcb9",
+      "headline": "جيش الاحتلال يعلن إنشاء  الخط الأصفر  في جنوب لبنان",
+      "url": "https://studio.dostor.org/176062",
+      "published_at": "20260418T120000Z",
+      "source": "studio.dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_681b73e294756a42",
+      "headline": "又崩了 ！ 斥美持續封鎖港口 伊朗放話荷姆茲 「 恢復 」 先前封鎖狀態 | 國際",
+      "url": "https://newtalk.tw/news/view/2026-04-18/1030515",
+      "published_at": "20260418T114500Z",
+      "source": "newtalk.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_20d446a997ec11c3",
+      "headline": "САД го продолжуваат рокот за привремен исклучок од забраната за купување руска нафта",
+      "url": "https://republika.mk/vesti/svet/sad-go-prodolzhuvaat-rokot-za-privremen-iskluchok-od-zabranata-za-kupuvane-ruska-nafta/",
+      "published_at": "20260418T121500Z",
+      "source": "republika.mk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8e6906ac1042e78b",
+      "headline": "Лавров : у России много разногласий с нынешней администрацией США",
+      "url": "https://russian.rt.com/world/news/1621606-lavrov-rossiya-raznoglasiya",
+      "published_at": "20260418T131500Z",
+      "source": "russian.rt.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_20f737bbda918297",
+      "headline": "Μυτιλήνη : Για 5η ημέρα αποκλεισμένο το λιμάνι από κτηνοτρόφους – Έκτακτη σύσκεψη σήμερα για τις κινητοποιήσεις",
+      "url": "https://www.inewsgr.com/226/mytilini-gia-5i-imera-apokleismeno-to-limani-apo-ktinotrofous--ektakti-syskepsi-simera-gia-tis-kinitopoiiseis.htm",
+      "published_at": "20260418T110000Z",
+      "source": "inewsgr.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b9e0cdb78d28b8a3",
+      "headline": "САД ДОЗВОЛИЈА ДА СЕ КУПУВА РУСКА НАФТА НАТОВАРЕНА НА ТАНКЕРИ Обид да се ограничи покачувањето на глобалните цени на енергијата",
+      "url": "https://plusinfo.mk/sad-dozvoli-a-da-se-kupuva-ruska-nafta-natovarena-na-tankeri-obid-da-se-ogranichi-pokachuva-eto-na-globalnite-ceni-na-energi-ata/",
+      "published_at": "20260418T114500Z",
+      "source": "plusinfo.mk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_30696959f69ff7ea",
+      "headline": "نائب وزير الخارجية الإيراني : الولايات المتحدة لا تستطيع فرض إرادتها وحصار مضيق هرمز",
+      "url": "https://www.elwatannews.com/news/details/8267803",
+      "published_at": "20260418T114500Z",
+      "source": "elwatannews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_19e0ac3d37ef1cb6",
+      "headline": "نائب وزير الخارجية الإيراني : واشنطن لا تستطيع فرض حصار على هرمز",
+      "url": "https://www.dostor.org/5512281",
+      "published_at": "20260418T114500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_20fb0705f790c9bd",
+      "headline": "नेपाल सरकार ने भारत से खरीदारी पर नियम किए सख्त , बालेन शाह के फैसले से सीमावर्ती इलाकों में आक्रोश - nepal strict border customs araria residents face burden",
+      "url": "https://www.jagran.com/bihar/araria-nepal-strict-border-customs-araria-residents-face-burden-40211045.html",
+      "published_at": "20260418T144500Z",
+      "source": "jagran.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ee745e0ab55393b8",
+      "headline": "Saudi FM Participates in Quadrilateral Ministerial Meeting in Antalya",
+      "url": "https://english.aawsat.com/gulf/5263782-saudi-fm-participates-quadrilateral-ministerial-meeting-antalya",
+      "published_at": "20260418T111500Z",
+      "source": "english.aawsat.com",
+      "tags": [
+        "SAUDI_ARABIA"
+      ]
+    },
+    {
+      "id": "gdelt_75efa2136cadf0b1",
+      "headline": "Iran ponovo zatvara Ormuski moreuz",
+      "url": "https://www.dw.com/sr/iran-ponovo-zatvara-ormuski-moreuz/a-76841346",
+      "published_at": "20260418T120000Z",
+      "source": "dw.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_992713eea563a4d7",
+      "headline": "تسريبات عن « صفقة » بين واشنطن وطهران .. 20 مليار دولار مقابل اليورانيوم المخصب",
+      "url": "https://www.okaz.com.sa/politics/na/2244686",
+      "published_at": "20260418T123000Z",
+      "source": "okaz.com.sa",
+      "tags": []
+    },
+    {
+      "id": "gdelt_34581d16f824db21",
+      "headline": "Rusya Dışişleri Bakanı Lavrov : Müzakerelerin İstanbulda yeniden başlatılması olasılığını olumlu karşılıyoruz",
+      "url": "https://www.aa.com.tr/tr/gundem/-rusya-disisleri-bakani-lavrov-muzakerelerin-istanbul-da-yeniden-baslatilmasi-olasiligini-olumlu-karsiliyoruz/3910678",
+      "published_at": "20260418T144500Z",
+      "source": "aa.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_384b0776f537ca1e",
+      "headline": "Угроза со стороны Беларуси – какая цель России относительно движений в Беларуси",
+      "url": "https://24tv.ua/ru/ugroza-so-storony-belarusi-kakaja-cel-rossii-otnositelno-dvizhenij_n3051581",
+      "published_at": "20260418T151500Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6ce1b12ee88b278b",
+      "headline": "Magyar Péter megismételt választást követel Sárváron , ahol csak egy kamu MP ráindítása miatt nyerhetett a fideszes Ágh",
+      "url": "https://444.hu/2026/04/18/magyar-peter-megismetelt-valasztast-kovetel-sarvaron-ahol-csak-egy-kamu-mp-rainditasa-miatt-nyerhetett-a-fideszes-agh",
+      "published_at": "20260418T153000Z",
+      "source": "444.hu",
       "tags": []
     }
   ]
