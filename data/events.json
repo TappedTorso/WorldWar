@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-04-20T15:44:10Z",
+    "generated_at_utc": "2026-04-20T17:18:10Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -41,6 +41,22 @@
       "tags": []
     },
     {
+      "id": "gdelt_e6f67ecdf15e1781",
+      "headline": "People Moves : Howden Hires Thomas to Lead Trucking Specialty Practice ; Cottle to Head Clyde & Co Regulatory and Investigations",
+      "url": "https://www.insurancejournal.com/news/national/2026/04/20/866215.htm",
+      "published_at": "20260420T154500Z",
+      "source": "insurancejournal.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_31fcb4767f52cff3",
+      "headline": "Bulgariassa vaalit voittanut Radev puhuu Ukrainan sotilaallista tukea vastaan –  Vahva Bulgaria ja vahva Eurooppa tarvitsevat kriittistä ajattelua",
+      "url": "https://www.karjalainen.fi/uutissuomalainen/9390059",
+      "published_at": "20260420T164500Z",
+      "source": "karjalainen.fi",
+      "tags": []
+    },
+    {
       "id": "gdelt_b6af6f5414ff5703",
       "headline": "В Болгарии на выборах победил пророссийский Румен Радев : что он говорил про Украину",
       "url": "https://www.dialog.ua/world/v-bolgarii-na-vyborakh-pobedil-prorossiyskiy-rumen-radev-chto-on.html",
@@ -49,27 +65,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_901f80f10fb0e5d3",
-      "headline": "На парламентских выборах лидирует коалиция « Прогрессивная Болгария » во главе с Радевым",
-      "url": "https://www.bfm.ru/news/604239",
-      "published_at": "20260420T110000Z",
-      "source": "bfm.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_4b6bfc6847839727",
       "headline": "Александр Лукашенко - эксперт высказался о возможности нападения Беларуси",
       "url": "https://www.unian.net/war/aleksandr-lukashenko-ekspert-vyskazalsya-o-vozmozhnosti-napadeniya-belarusi-13355538.html",
       "published_at": "20260420T140000Z",
       "source": "unian.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_714e3a66d2ff52b9",
-      "headline": "Оружия для Украины станет меньше ? Россия победила в Болгарии",
-      "url": "https://gazeta.ua/ru/blog/64618/zbroyi-dlya-ukrayini-stane-menshe-rosiya-peremogla-v-bolgariyi",
-      "published_at": "20260420T104500Z",
-      "source": "gazeta.ua",
       "tags": []
     },
     {
@@ -89,24 +89,6 @@
       "published_at": "20260420T150000Z",
       "source": "americanbanker.com",
       "tags": []
-    },
-    {
-      "id": "gdelt_fbfa668836b000d6",
-      "headline": "OPINION | Zero - knowledge proofs redefine financial compliance and data privacy",
-      "url": "https://www.moneycontrol.com/news/opinion/zero-knowledge-proofs-redefine-financial-compliance-and-data-privacy-13893988.html",
-      "published_at": "20260420T110000Z",
-      "source": "moneycontrol.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0593c93b764e0ae2",
-      "headline": "Радев лидирует на выборах в Болгарии политик против помощи Украине",
-      "url": "https://focus.ua/world/751284-radev-lidiruet-na-vyborah-v-bolgarii-politik-protiv-pomoshchi-ukraine",
-      "published_at": "20260420T103000Z",
-      "source": "focus.ua",
-      "tags": [
-        "UKRAINE"
-      ]
     },
     {
       "id": "gdelt_44e2ebd548336936",
@@ -143,22 +125,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_d59bb45dad0c2550",
-      "headline": "The Strait , the Patient , and the Pakistani Doctor",
-      "url": "https://english.aawsat.com/opinion/5264473-strait-patient-and-pakistani-doctor",
-      "published_at": "20260420T110000Z",
-      "source": "english.aawsat.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b06f7997f19ea4dd",
-      "headline": "Природно - климатические проекты могут давать 100 – 200 млн углеродных единиц в год",
-      "url": "https://www.vedomosti.ru/esg/climate/news/2026/04/20/1191537-prirodno-klimaticheskie-proekti-mogut-davat-100-200-mln-uglerodnih-edinits-v-god",
-      "published_at": "20260420T100000Z",
-      "source": "vedomosti.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_994e794eb5ac35d3",
       "headline": "Břehy Moravy u Vnorov propojí nová lávka pro pěší a cyklisty s dvěma pruhy",
       "url": "https://www.novinky.cz/clanek/domaci-zpravy-jihomoravsky-kraj-brehy-moravy-u-vnorov-propoji-nova-lavka-pro-pesi-a-cyklisty-s-dvema-pruhy-40573881",
@@ -177,6 +143,16 @@
       ]
     },
     {
+      "id": "gdelt_a4a8e35c2fd91d72",
+      "headline": "Afghanistan Humanitarian Fund provided $73 . 5 million to needy in 2025 – Shafaqna English",
+      "url": "https://en.shafaqna.com/447226/afghanistan-humanitarian-fund-provided-73-5-million-to-needy-in-2025/",
+      "published_at": "20260420T164500Z",
+      "source": "en.shafaqna.com",
+      "tags": [
+        "AFGHANISTAN"
+      ]
+    },
+    {
       "id": "gdelt_307aafe5e30bebda",
       "headline": "Iran Withdraws From Planned Talks In Pakistan After U . S . Seized Cargo Ship In Strait Of Hormuz",
       "url": "https://saharareporters.com/2026/04/20/iran-withdraws-planned-talks-pakistan-after-us-seized-cargo-ship-strait-hormuz",
@@ -186,6 +162,14 @@
         "IRAN",
         "PAKISTAN"
       ]
+    },
+    {
+      "id": "gdelt_6ae99ac9d170034c",
+      "headline": "Китай возобновляет проекты по производству дешёвого газа из угля",
+      "url": "https://overclockers.ru/blog/vokrugsveta/show/253977/Kitaj-vozobnovlyaet-proekty-po-proizvodstvu-deshevogo-gaza-iz-uglya",
+      "published_at": "20260420T164500Z",
+      "source": "overclockers.ru",
+      "tags": []
     },
     {
       "id": "gdelt_2a02ecbca86d8590",
@@ -220,18 +204,10 @@
       "tags": []
     },
     {
-      "id": "gdelt_2c8ee0e56265a2f6",
-      "headline": "Александр Хинштейн сообщил о 70 ударах артиллерии ВСУ за сутки",
-      "url": "http://govoritmoskva.ru/news/489621/",
-      "published_at": "20260420T100000Z",
-      "source": "govoritmoskva.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d5449b0e13b2b89b",
-      "headline": "Bitcoin ( BTC ) Holds $75K Support as S & P 500 Sits 5 . 3 % Below Highs",
-      "url": "https://www.openpr.com/news/4479518/bitcoin-btc-holds-75k-support-as-s-p-500-sits-5-3-below-highs",
-      "published_at": "20260420T103000Z",
+      "id": "gdelt_1d0cb96586e5e561",
+      "headline": "Crypto Market News Today : Chainlink CCIP Clears $18 Billion in Q1",
+      "url": "https://www.openpr.com/news/4480469/crypto-market-news-today-chainlink-ccip-clears-18-billion-in-q1",
+      "published_at": "20260420T163000Z",
       "source": "openpr.com",
       "tags": []
     },
@@ -244,19 +220,37 @@
       "tags": []
     },
     {
-      "id": "gdelt_20baeff283aa4281",
-      "headline": "Дмитрий Медведев заявил о необходимости пресечения любой активности антироссийских сил",
-      "url": "http://govoritmoskva.ru/news/489631/",
-      "published_at": "20260420T100000Z",
-      "source": "govoritmoskva.ru",
+      "id": "gdelt_d2a2f67a5675e3c0",
+      "headline": "Bulgariassa vaalit voittanut Radev puhuu Ukrainan sotilaallista tukea vastaan –  Vahva Bulgaria ja vahva Eurooppa tarvitsevat kriittistä ajattelua",
+      "url": "https://www.kouvolansanomat.fi/uutissuomalainen/9390059",
+      "published_at": "20260420T154500Z",
+      "source": "kouvolansanomat.fi",
       "tags": []
     },
     {
-      "id": "gdelt_60357169f1e8bb39",
-      "headline": "War in the Middle East : latest developments",
-      "url": "https://www.al-monitor.com/originals/2026/04/war-middle-east-latest-developments-20",
-      "published_at": "20260420T094500Z",
-      "source": "al-monitor.com",
+      "id": "gdelt_b3a1b3b72f7d6f52",
+      "headline": "Bulgariassa vaalit voittanut Radev puhuu Ukrainan sotilaallista tukea vastaan –  Vahva Bulgaria ja vahva Eurooppa tarvitsevat kriittistä ajattelua",
+      "url": "https://www.esaimaa.fi/uutissuomalainen/9390059",
+      "published_at": "20260420T164500Z",
+      "source": "esaimaa.fi",
+      "tags": []
+    },
+    {
+      "id": "gdelt_09a31458b86961b0",
+      "headline": "Война в Украине – Иван Тимочко оценил угрозы со стороны Беларуси",
+      "url": "https://www.unian.net/war/voyna-v-ukraine-ivan-timochko-ocenil-ugrozy-so-storony-belarusi-13355682.html",
+      "published_at": "20260420T154500Z",
+      "source": "unian.net",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_6f1eb65efb345984",
+      "headline": "В Узбекистане обсудили новые вызовы наркопреступности – Новости из Кыргызстана – АКИpress",
+      "url": "https://kg.akipress.org/news:2454053",
+      "published_at": "20260420T163000Z",
+      "source": "kg.akipress.org",
       "tags": []
     },
     {
@@ -292,14 +286,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_a0145473acd50014",
-      "headline": "Rusko stratilo Orbána , prichádza nový spojenec ? Bulharsko si zvolilo proruského lídra",
-      "url": "https://www.aktuality.sk/clanok/5jEUPRA/po-orbanovi-prichadza-dalsi-vysledok-volieb-v-bulharsku-zneistuje-brusel-vyhral-prorusky-lider/",
-      "published_at": "20260420T103000Z",
-      "source": "aktuality.sk",
-      "tags": []
-    },
-    {
       "id": "gdelt_66e29331bd8f898c",
       "headline": "Европа проиграла в Болгарии",
       "url": "https://www.kommersant.ru/doc/8605352",
@@ -332,14 +318,6 @@
       "tags": [
         "IRAN"
       ]
-    },
-    {
-      "id": "gdelt_66a7dbe27bca8ead",
-      "headline": "W Bułgarii rośnie nowy Orban ? Niepokojące wyniki dla Polski [ OPINIA ]",
-      "url": "https://www.newsweek.pl/opinie/w-bulgarii-rosnie-nowy-orban-niepokojace-wyniki-dla-polski-opinia/kfc60tx",
-      "published_at": "20260420T110000Z",
-      "source": "newsweek.pl",
-      "tags": []
     },
     {
       "id": "gdelt_b05b6af2a9cbb553",
@@ -385,14 +363,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_720078a04abb2315",
-      "headline": "Железная дисциплина : почему уровень просрочек по кредитам в Якутии остаётся минимальным",
-      "url": "https://www.pravda.ru/news/districts/2345982-credit-far-east-economy/",
-      "published_at": "20260420T094500Z",
-      "source": "pravda.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_e41466d560505fe5",
       "headline": "Иран остановил переговоры с США после захвата судна – к чему это приведет",
       "url": "https://www.tatar-inform.ru/news/iran-ostanovil-peregovory-s-ssa-posle-zaxvata-sudna-k-cemu-eto-privedet-6024603",
@@ -432,22 +402,6 @@
       "url": "https://www.nakanune.ru/news/2026/4/20/22868057/",
       "published_at": "20260420T150000Z",
       "source": "nakanune.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d3608b0a7876181b",
-      "headline": "How daring US raid of Iranian tanker unfolded in six - hour standoff in the Strait of Hormuz",
-      "url": "https://www.aol.co.uk/articles/daring-us-raid-iranian-tanker-103042225.html",
-      "published_at": "20260420T110000Z",
-      "source": "aol.co.uk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4a20b87604090a16",
-      "headline": "Liberia : Manpower Shortages , Aging Ambulance Challenge Karnplay Health Center Amid Steady Progress",
-      "url": "https://frontpageafricaonline.com/news/liberia-manpower-shortages-aging-ambulance-challenge-karnplay-health-center-amid-steady-progress/",
-      "published_at": "20260420T094500Z",
-      "source": "frontpageafricaonline.com",
       "tags": []
     },
     {
@@ -491,14 +445,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_0b183d5237b40672",
-      "headline": "Afrique du Sud : La justice doit se prononcer sur le sort de linfluenceur Kemi Seba",
-      "url": "https://fr.allafrica.com/stories/202604200419.html",
-      "published_at": "20260420T110000Z",
-      "source": "fr.allafrica.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_4d0d9f8f233d3a84",
       "headline": "V pričakovanju socialne bombe : Podjetje na avstrijskem Štajerskem bo odpustilo 300 delavcev , večinoma Slovencev !",
       "url": "https://vecer.com/slovenija/v-pricakovanju-socialne-bombe-podjetje-na-avstrijskem-stajerskem-bo-odpustilo-300-delavcev-vecinoma-slovencev-10412498",
@@ -507,11 +453,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_2f82f0088a724ce5",
-      "headline": "20 فیصد افغان طالبان رہنما بم دھماکوں و خودکش حملوں کے ماسٹر مائنڈ ہیں : رپورٹ",
-      "url": "https://jang.com.pk/news/1575886",
-      "published_at": "20260420T110000Z",
-      "source": "jang.com.pk",
+      "id": "gdelt_dd5378c4d704230c",
+      "headline": "Congresul SUA , ofensivă împotriva lui Trump : „ Nu ‑ l mai lăsa pe Putin să te manipuleze",
+      "url": "https://www.realitatea.net/stiri/actual/congresul-sua-ofensiva-impotriva-lui-trump-nul-mai-lasa-pe-putin-sa-te-manipuleze_69e64c75270d04643a1dc98c",
+      "published_at": "20260420T164500Z",
+      "source": "realitatea.net",
       "tags": []
     },
     {
@@ -523,11 +469,21 @@
       "tags": []
     },
     {
-      "id": "gdelt_edd8cad94d73948f",
-      "headline": "Is Mastercard ( MA ) The Best Stock to Buy According to Motley Fool Asset Management ?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/mastercard-ma-best-stock-buy-094139821.html",
-      "published_at": "20260420T104500Z",
-      "source": "finance.yahoo.com",
+      "id": "gdelt_7c1cfeecccc05fa6",
+      "headline": "Sea King Mk41 - Британия передаст Украине немецкий боевой вертолет",
+      "url": "https://www.unian.net/weapons/sea-king-mk41-britaniya-peredast-ukraine-nemeckiy-boevoy-vertolet-13355787.html",
+      "published_at": "20260420T164500Z",
+      "source": "unian.net",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_dd6bae35448656d4",
+      "headline": "La oficina antifraude de la UE destapa casi 600 millones en irregularidades de fondos europeos en 2025",
+      "url": "https://www.larazon.es/economia/oficina-antifraude-destapa-casi-600-millones-irregularidades-fondos-europeos-2025_2026042069e64fe6f106942d528c3100.html",
+      "published_at": "20260420T164500Z",
+      "source": "larazon.es",
       "tags": []
     },
     {
@@ -547,27 +503,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_a3e85fec5fc36b35",
-      "headline": "Bank Of Central Banks Top Executive Flags Stablecoins As Double - Edged Sword Sees Faster Cross - Border Paym",
-      "url": "https://www.benzinga.com/crypto/cryptocurrency/26/04/51905761/bank-of-central-banks-top-executive-flags-stablecoins-as-double-edged-sword-sees-faster-cro",
-      "published_at": "20260420T100000Z",
-      "source": "benzinga.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_21592aefe6306562",
       "headline": "欧尔班下台 ， 这个欧洲国家却可能再次拥抱一位亲俄领导人",
       "url": "https://www.163.com/dy/article/KQVIOJ8F055040N3.html",
       "published_at": "20260420T133000Z",
       "source": "163.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c18a6937ca989bad",
-      "headline": "ВСУ и DeepState объяснили , что происходит на Сумском направлении и есть ли угроза Сумам",
-      "url": "https://www.dialog.ua/war/vsu-i-deepstate-obyasnili-chto-proiskhodit-na-sumskom-napravlenii-i.html",
-      "published_at": "20260420T150000Z",
-      "source": "dialog.ua",
       "tags": []
     },
     {
@@ -579,11 +519,43 @@
       "tags": []
     },
     {
+      "id": "gdelt_c18a6937ca989bad",
+      "headline": "ВСУ и DeepState объяснили , что происходит на Сумском направлении и есть ли угроза Сумам",
+      "url": "https://www.dialog.ua/war/vsu-i-deepstate-obyasnili-chto-proiskhodit-na-sumskom-napravlenii-i.html",
+      "published_at": "20260420T150000Z",
+      "source": "dialog.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cc67ae53f30c023c",
+      "headline": "Tired of political turmoil , Bulgarians give ex - president a convincing mandate for change",
+      "url": "https://www.ksat.com/news/2026/04/20/tired-of-political-turmoil-bulgarians-give-ex-president-a-convincing-mandate-for-change/",
+      "published_at": "20260420T164500Z",
+      "source": "ksat.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a29638f78211d58e",
+      "headline": "США выдали хорватской JANAF лицензию на поставки нефти сербской NIS",
+      "url": "https://pronedra.ru/neftyanaya-industriya-serbii-poluchit-neft-ot-horvatii-ssha-vydali-liczenziyu-janaf-815858.html",
+      "published_at": "20260420T164500Z",
+      "source": "pronedra.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_9de64aa313ab62e5",
       "headline": "Курган & Agregat пожаловались на артистов , которых выпускают за границу",
       "url": "https://focus.ua/lifestyle/751370-kurgan-agregat-pozhalovalis-na-artistov-kotoryh-vypuskayut-za-granicu",
       "published_at": "20260420T150000Z",
       "source": "focus.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_86feabaa76e893f9",
+      "headline": "Szybszy dojazd do Niemiec i więcej połączeń . Kolej Dolnośląskie z rekordowym wsparciem",
+      "url": "http://www.radiowroclaw.pl/articles/view/159946/Szybszy-dojazd-do-Niemiec-i-wiecej-polaczen-Kolej-Dolnoslaskie-z-rekordowym-wsparciem",
+      "published_at": "20260420T154500Z",
+      "source": "radiowroclaw.pl",
       "tags": []
     },
     {
@@ -600,6 +572,14 @@
       "url": "https://fakty.ua/470587-vybory-v-bolgarii-prorossijskaya-partiya-radeva-vyhodit-vpered",
       "published_at": "20260420T123000Z",
       "source": "fakty.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b30aa594c1ce731c",
+      "headline": "В Україні розширюють систему « єЧерга » – водії легкових авто зможуть записуватись онлайн на перетин кордону",
+      "url": "https://sud.ua/uk/news/ukraine/359002-v-ukraine-rasshiryayut-sistemu-yecherga-voditeli-legkovykh-avtomobiley-smogut-zapisyvatsya-onlayn-na-peresechenie-granitsy",
+      "published_at": "20260420T154500Z",
+      "source": "sud.ua",
       "tags": []
     },
     {
@@ -651,19 +631,19 @@
       "tags": []
     },
     {
+      "id": "gdelt_25bd6b2f56105a7d",
+      "headline": "Війна в Україні - Іван Тимочко оцінив загрози з боку Білорусі",
+      "url": "https://www.unian.ua/war/viyna-v-ukrajini-ivan-timochko-ociniv-zagrozi-z-boku-bilorusi-13355685.html",
+      "published_at": "20260420T154500Z",
+      "source": "unian.ua",
+      "tags": []
+    },
+    {
       "id": "gdelt_2baa9c64061d719f",
       "headline": "وزير الخارجية : نتطلع لعقد الجولة الثانية من المفاوضات الأمريكية - الإيرانية",
       "url": "https://www.shorouknews.com/news/view.aspx?cdate=20042026&id=a9775af9-27f3-48f3-a2ef-13df01c4c290",
       "published_at": "20260420T150000Z",
       "source": "shorouknews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4fcb7f7206320c44",
-      "headline": "Lianlian DigiTech Sets AI - Native Strategy , Expands Beyond Payments into Global Financial Infrastructure",
-      "url": "https://www.chinatechnews.com/2026/04/20/120177-lianlian-digitech-sets-ai-native-strategy-expands-beyond-payments-into-global-financial-infrastructure",
-      "published_at": "20260420T104500Z",
-      "source": "chinatechnews.com",
       "tags": []
     },
     {
@@ -675,11 +655,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_ce9a36f0fa71dc10",
-      "headline": "Павленко про ціну , яку витрачає РФ на обхід західних санкцій",
-      "url": "https://espreso.tv/poglyad-rosiya-yakshcho-sanktsii-ne-pratsyuyut-navishcho-ikh-obkhoditi",
-      "published_at": "20260420T104500Z",
-      "source": "espreso.tv",
+      "id": "gdelt_cdf4a5ab3c689349",
+      "headline": "Сергей Лавров обсудил по телефону с главой иранского МИДа ситуацию в мире",
+      "url": "http://govoritmoskva.ru/news/489692/",
+      "published_at": "20260420T164500Z",
+      "source": "govoritmoskva.ru",
       "tags": []
     },
     {
@@ -691,30 +671,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_84673f783577a271",
-      "headline": "Az amerikai szankciók ellen tiltakoznak Venezuelában – május 1 - jén a fővárosban lesz nagy demonstráció",
-      "url": "https://hirado.hu/kulfold/cikk/2026/04/20/az-amerikai-szankciok-ellen-tiltakoznak-venezuelaban-majus-1-jen-a-fovarosban-lesz-nagy-demonstracio",
-      "published_at": "20260420T110000Z",
-      "source": "hirado.hu",
-      "tags": []
-    },
-    {
       "id": "gdelt_d3d0d987ea81c30a",
       "headline": "Евросоюз против танкеров : поди - ка их останови !",
       "url": "https://www.pnp.ru/economics/evrosoyuz-protiv-tankerov-podi-ka-ikh-ostanovi.html",
       "published_at": "20260420T140000Z",
       "source": "pnp.ru",
       "tags": []
-    },
-    {
-      "id": "gdelt_6663f36baebb471d",
-      "headline": "UPDF says over 200 civilians rescued from ADF captivity in DRC",
-      "url": "https://www.monitor.co.ug/uganda/news/national/updf-says-over-200-civilians-rescued-from-adf-captivity-in-drc-5429694",
-      "published_at": "20260420T100000Z",
-      "source": "monitor.co.ug",
-      "tags": [
-        "DEMOCRATIC_REPUBLIC_OF_CONGO"
-      ]
     },
     {
       "id": "gdelt_c982fd0a1ec355a0",
@@ -726,14 +688,6 @@
         "CHAD",
         "NIGERIA"
       ]
-    },
-    {
-      "id": "gdelt_f795a4a3f46e54ea",
-      "headline": "EQS - Media : CTS EVENTIM : Verlängerung der Ticketing - Partnerschaft zwischen CTS EVENTIM und Stage Entertainment",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-04/68240933-eqs-media-cts-eventim-verlaengerung-der-ticketing-partnerschaft-zwischen-cts-eventim-und-stage-entertainment-022.htm",
-      "published_at": "20260420T094500Z",
-      "source": "finanznachrichten.de",
-      "tags": []
     },
     {
       "id": "gdelt_acb9336bfa5add89",
@@ -778,14 +732,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_c447ca9c52043c9b",
-      "headline": "Dewa United Desak Sanksi Tegas Insiden di EPA U - 20",
-      "url": "https://www.jawapos.com/sepak-bola-indonesia/2604200279/dewa-united-desak-sanksi-tegas-insiden-di-epa-u-20",
-      "published_at": "20260420T110000Z",
-      "source": "jawapos.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_6e19cc5aea6a05fe",
       "headline": "Eks Kadis LH DKI Asep Kuswanto jadi Tersangka Tragedi Maut TPST Bantargebang Bekasi",
       "url": "https://www.jawapos.com/jabodetabek/2604200335/eks-kadis-lh-dki-asep-kuswanto-jadi-tersangka-tragedi-maut-tpst-bantargebang-bekasi",
@@ -818,35 +764,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_1d99a4b818d94238",
-      "headline": "CNN : Иран запросил у США значительное ослабление санкций",
-      "url": "https://www.bfm.ru/news/604227",
-      "published_at": "20260420T110000Z",
-      "source": "bfm.ru",
+      "id": "gdelt_371750591c83e3dd",
+      "headline": "В Болгарии партия бывшего президента Румена Радева побеждает на парламентских выборах",
+      "url": "https://newsmaker.md/ru/v-bolgarii-partiya-byvshego-prezidenta-rumena-radeva-pobejdaet-na-parlamentskih-vyborah",
+      "published_at": "20260420T154500Z",
+      "source": "newsmaker.md",
       "tags": []
     },
     {
-      "id": "gdelt_11d95b32c8dcebb0",
-      "headline": "Tsunami observert",
-      "url": "https://www.dagbladet.no/nyheter/tsunami-observert/84517208",
-      "published_at": "20260420T094500Z",
-      "source": "dagbladet.no",
-      "tags": []
-    },
-    {
-      "id": "gdelt_dd05a664c4af8340",
-      "headline": "Ceny paliw wystrzeliły w kosmos . Kiedy będzie taniej ?",
-      "url": "https://www.newsweek.pl/trendy-i-inspiracje/motoryzacja/ceny-paliw-wystrzelily-w-kosmos-kiedy-bedzie-taniej/ps656k3",
-      "published_at": "20260420T110000Z",
-      "source": "newsweek.pl",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a3c473b65f0cfed8",
-      "headline": "СВО новости : мужчина погиб при атаке БПЛА на Туапсе , в США признали неэффективность санкций против РФ , Шойгу назвал Зеленского причиной геноцида русских и украинцев - БлокнотРУ - Новости СВО . СВО . Когда закончится СВО ? Новости СВО на сегодня . ...",
-      "url": "https://bloknot.ru/obshhestvo/novosti-svo-muzhchina-pogib-pri-atake-bpla-na-tuapse-v-ssha-priznali-neeffektivnost-sanktsij-protiv-rf-shojgu-nazval-zelenskogo-prichinoj-genotsida-russkih-i-ukraintsev-1509598.html",
-      "published_at": "20260420T101500Z",
-      "source": "bloknot.ru",
+      "id": "gdelt_dd536e8fbcc1f692",
+      "headline": "高端消费最新资讯 _ 高端消费最新动态 _ 高端消费场所",
+      "url": "https://www.chinaz.com/tags/gaoduanxiaofei.shtml",
+      "published_at": "20260420T154500Z",
+      "source": "chinaz.com",
       "tags": []
     },
     {
@@ -858,14 +788,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_1847715165fcc447",
-      "headline": "16 Mahasiswa FTT IPB Pelaku Pelecehan Seksual Diskors Satu Semester",
-      "url": "https://www.jawapos.com/nasional/2604200260/16-mahasiswa-ftt-ipb-pelaku-pelecehan-seksual-diskors-satu-semester",
-      "published_at": "20260420T101500Z",
-      "source": "jawapos.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_a2af6b812014e230",
       "headline": "США оказались перед выбором по Ирану : эксперт о трех сценариях эскалации | Москва",
       "url": "https://fedpress.ru/news/77/policy/3433905",
@@ -874,30 +796,22 @@
       "tags": []
     },
     {
+      "id": "gdelt_c39cc25b421fd998",
+      "headline": "Förenade Arabemiraten söker united states - stöd efter Irankriget",
+      "url": "https://www.di.se/nyheter/krigssmallen-oroar-oljebjasse-sonderar-usa-stod/",
+      "published_at": "20260420T154500Z",
+      "source": "di.se",
+      "tags": [
+        "UNITED_STATES"
+      ]
+    },
+    {
       "id": "gdelt_0fea3e43e6bfa4a6",
       "headline": "IPB University Jatuhkan Skors 1 Semester ke 16 Mahasiswa Pelaku Pelecehan Seksual",
       "url": "https://www.kompas.com/edu/read/2026/04/20/192047371/ipb-university-jatuhkan-skors-1-semester-ke-16-mahasiswa-pelaku-pelecehan",
       "published_at": "20260420T124500Z",
       "source": "kompas.com",
       "tags": []
-    },
-    {
-      "id": "gdelt_fd1ffac759afd42a",
-      "headline": "سي إن إن : إيران تشارك في محادثات باكستان رغم  الوضع المتقلب  في المنطقة",
-      "url": "https://www.dostor.org/5515260",
-      "published_at": "20260420T094500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e89627c49ac2d37e",
-      "headline": "China says  concerned  over US intercepting Iranian ship in Strait of Hormuz",
-      "url": "https://aa.com.tr/en/world/china-says-concerned-over-us-intercepting-iranian-ship-in-strait-of-hormuz/3911910",
-      "published_at": "20260420T094500Z",
-      "source": "aa.com.tr",
-      "tags": [
-        "CHINA"
-      ]
     },
     {
       "id": "gdelt_da62eb4a125c0a3d",
@@ -948,6 +862,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_ac9ae0e81a9fca94",
+      "headline": "خبير أردني لـ الدستور : المفاوضات الإيرانية الأمريكية تتجه نحو  مذكرة تفاهم  لا اتفاق نهائي",
+      "url": "https://www.dostor.org/5516054",
+      "published_at": "20260420T164500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
       "id": "gdelt_f905ccf91271c92a",
       "headline": "Rat na Bliskom istoku : Rusija poručila : Agresija na Iran kao na SRJ ; Mržnja u najčisitijem vidu : Vojnik IDF maljem razbija statuu Isusa",
       "url": "https://www.novosti.rs/planeta/svet/1598842/rat-bliskom-istoku-rusija-porucila-agresija-iran-kao-srj-mrznja-najcisitijem-vidu-vojnik-idf-maljem-razbija-statuu-isusa",
@@ -988,19 +910,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_69fbdf0006e0b214",
-      "headline": "南宁一所小学创新传承之路 千年山歌  唱  进AI与云端|广西 _ 新浪财经 _ 新浪网",
-      "url": "https://finance.sina.com.cn/roll/2026-04-20/doc-inhvcvua6853521.shtml",
-      "published_at": "20260420T094500Z",
-      "source": "finance.sina.com.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d3c38ea5c7b1fa59",
-      "headline": "CNN : в требования Ирана вошли разблокировка $20 млрд и ослабление санкций США",
-      "url": "https://www.vedomosti.ru/politics/news/2026/04/20/1191528-cnn-v-trebovaniya-irana",
-      "published_at": "20260420T100000Z",
-      "source": "vedomosti.ru",
+      "id": "gdelt_62d189daf74b6f76",
+      "headline": "Bridging Africa Insurance Protection Gap Through AfCFTA Integration And Agentic AI Innovation | Africa News",
+      "url": "https://africa.com/bridging-africas-insurance-protection-gap-through-afcfta-integration-and-agentic-ai-innovation/",
+      "published_at": "20260420T154500Z",
+      "source": "africa.com",
       "tags": []
     },
     {
@@ -1018,6 +932,98 @@
       "published_at": "20260420T141500Z",
       "source": "mondaq.com",
       "tags": []
+    },
+    {
+      "id": "gdelt_698465e453a6c31b",
+      "headline": "Russland - Sanktionen : Deutsche Bank zeigt mögliche Verste selbst an - Aktiennews ( FONDS professionell )",
+      "url": "https://www.aktiencheck.de/exklusiv/Artikel-Russland_Sanktionen_Deutsche_Bank_zeigt_moegliche_Verstoesse_selbst_Aktiennews-19677221",
+      "published_at": "20260420T143000Z",
+      "source": "aktiencheck.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_852ca836290a8347",
+      "headline": "الأمم المتحدة : جنوب السودان على حافة المجاعة مع تصاعد القتال",
+      "url": "https://www.aljazeera.net/news/2026/4/20/%D8%A7%D9%84%D8%A3%D9%85%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%AC%D9%86%D9%88%D8%A8-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86-%D8%B9%D9%84%D9%89-%D8%AD%D8%A7%D9%81%D8%A9",
+      "published_at": "20260420T141500Z",
+      "source": "aljazeera.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_302d3fd8d9e77667",
+      "headline": "Дорогие кредиты и санкции тормозят рост новых производств в Югре : мнение эксперта | Ханты - Мансийский автономный округ",
+      "url": "https://fedpress.ru/news/86/economy/3433899",
+      "published_at": "20260420T133000Z",
+      "source": "fedpress.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f61a16ff848302d5",
+      "headline": "SA organisations show solidarity with Cuba – Channel Africa",
+      "url": "https://www.channelafrica.co.za/channelafrica/news/sa-organisations-show-solidarity-with-cuba/",
+      "published_at": "20260420T134500Z",
+      "source": "channelafrica.co.za",
+      "tags": [
+        "CUBA"
+      ]
+    },
+    {
+      "id": "gdelt_d23336d069f4e409",
+      "headline": "ЕС обновляет энергополитику после перебоев в Ормузском проливе",
+      "url": "https://vesti.az/v-mire/es-obnovlyaet-energopolitiku-posle-pereboev-v-ormuzskom-prolive-590124",
+      "published_at": "20260420T154500Z",
+      "source": "vesti.az",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8e1859f317f1b353",
+      "headline": "Orbán Of Balkan Claims Victory In Bulgaria Election - Worthy Christian News",
+      "url": "https://www.worthynews.com/113777-orban-of-balkans-claims-victory-in-bulgarias-election",
+      "published_at": "20260420T154500Z",
+      "source": "worthynews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9c5e7c42b01ab147",
+      "headline": "La oficina antifraude de la UE detecta irregularidades en fondos por casi 600 millones en 2025",
+      "url": "https://www.europapress.es/eseuropa/noticia-ue-oficina-antifraude-ue-detecta-irregularidades-fondos-casi-600-millones-2025-20260420153706.html",
+      "published_at": "20260420T143000Z",
+      "source": "europapress.es",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b43654ebffac5951",
+      "headline": "Война в Украине - в DeepState рассказали , что на самом деле происходит в Сумской области",
+      "url": "https://www.unian.net/war/voyna-v-ukraine-v-deepstate-rasskazali-chto-na-samom-dele-proishodit-v-sumskoy-oblasti-13355421.html",
+      "published_at": "20260420T131500Z",
+      "source": "unian.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_285c80ffcdb0928a",
+      "headline": "Zelensky condemns US extension of Russian sanctions waiver",
+      "url": "http://www.businessghana.com/site/news/politics/347109/Zelensky-condemns-US-extension-of-Russian-sanctions-waiver",
+      "published_at": "20260420T141500Z",
+      "source": "businessghana.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f7c7494559443451",
+      "headline": "الاتحاد الأوروبي يوسع عقوبات إيران لتشمل المسئولين عن إغلاق هرمز",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=20042026&id=20a5a56a-a298-4dd2-9b41-1316bae28e33",
+      "published_at": "20260420T154500Z",
+      "source": "shorouknews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_54a3ce1ca0ee523a",
+      "headline": "Pakistan Still Fueling Terror Post - Pahalgam : Defence Expert",
+      "url": "https://www.newkerala.com/news/a/pahalgam-terror-attack-anniversary-defence-expert-says-pakistan-621.htm",
+      "published_at": "20260420T154500Z",
+      "source": "newkerala.com",
+      "tags": [
+        "PAKISTAN"
+      ]
     }
   ]
 }
