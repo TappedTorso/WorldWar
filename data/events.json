@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-05-11T08:35:44Z",
+    "generated_at_utc": "2026-05-11T12:23:16Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -33,6 +33,52 @@
   },
   "events": [
     {
+      "id": "gdelt_3c9b5a2bec7cf678",
+      "headline": "Pakistan plans fresh cross - border strikes on Taliban territory after Bannu attack kills 15 policemen",
+      "url": "https://www.moneycontrol.com/world/pakistan-plans-fresh-cross-border-strikes-on-taliban-territory-after-bannu-attack-kills-15-policemen-article-13915163.html",
+      "published_at": "20260511T103000Z",
+      "source": "moneycontrol.com",
+      "tags": [
+        "PAKISTAN"
+      ]
+    },
+    {
+      "id": "gdelt_c597f5087fa7dbb8",
+      "headline": "Борис Писториус пристигна в Киев , „ Алтернатива за Германия критикува остро визитата ᐉ Новини от Fakti . bg - Свят",
+      "url": "https://fakti.bg/world/1053734-boris-pistorius-pristigna-v-kiev-alternativa-za-germania-kritikuva-ostro-vizitata",
+      "published_at": "20260511T111500Z",
+      "source": "fakti.bg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_63610433aaf35e2e",
+      "headline": "بين الاستغناء عن واشنطن ولوم  السوشيال ميديا .. ما دلالات رسائل نتنياهو السياسية ؟",
+      "url": "https://www.aljazeera.net/news/2026/5/11/%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%BA%D9%86%D8%A7%D8%A1-%D8%B9%D9%86-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D9%88%D9%84%D9%88%D9%85-%D8%A7%D9%84%D8%B3%D9%88%D8%B4%D9%8A%D8%A7%D9%84",
+      "published_at": "20260511T111500Z",
+      "source": "aljazeera.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_62f75c5dc440facf",
+      "headline": "Netanyahu Says Israel - Hezbollah War Will Continue Despite Iran Peace Efforts",
+      "url": "https://www.khaama.com/netanyahu-says-israel-hezbollah-war-will-continue-despite-iran-peace-efforts/",
+      "published_at": "20260511T083000Z",
+      "source": "khaama.com",
+      "tags": [
+        "IRAN",
+        "ISRAEL",
+        "HEZBOLLAH"
+      ]
+    },
+    {
+      "id": "gdelt_836a9e26cdc40145",
+      "headline": "Китай осудил санкции США против компаний из - за связей с Ираном | MigNews - Новости Израиля и Мира на русском языке",
+      "url": "https://mignews.com/news/politic/kitaj-osudil-sankcii-ssha-protiv-kompanij-iz-za-svyazej-s-iranom.html",
+      "published_at": "20260511T111500Z",
+      "source": "mignews.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_3183ec82cba26775",
       "headline": "BÖRSE AKTUELL : Irans Friedensvorschlag INAKZEPTABEL ; Märkte geraten unter Druck",
       "url": "https://www.finanznachrichten.de/nachrichten-2026-05/68451783-boerse-aktuell-irans-friedensvorschlag-inakzeptabel-maerkte-geraten-unter-druck-232.htm",
@@ -49,22 +95,50 @@
       "tags": []
     },
     {
-      "id": "gdelt_f860f5f7d3325901",
-      "headline": "BZ : Антироссийская политика Запада приведёт к войне с Россией",
-      "url": "https://life.ru/p/1873743",
-      "published_at": "20260511T033000Z",
-      "source": "life.ru",
+      "id": "gdelt_0a3f2d8d17409d44",
+      "headline": "China Is  Locked and Loaded  for a Fight",
+      "url": "https://politicalwire.com/2026/05/11/china-is-locked-and-loaded-for-a-fight/",
+      "published_at": "20260511T104500Z",
+      "source": "politicalwire.com",
+      "tags": [
+        "CHINA"
+      ]
+    },
+    {
+      "id": "gdelt_a8d7eaca1d1e72e8",
+      "headline": "Премьер Нетаньяху заявил о планах Израиля отказаться от военной помощи США",
+      "url": "https://argumenti.ru/politics/2026/05/996847",
+      "published_at": "20260511T103000Z",
+      "source": "argumenti.ru",
       "tags": []
     },
     {
-      "id": "gdelt_c8575184e50db4f0",
-      "headline": "Το Ιράν απορρίπτει την αμερικανική πρόταση - Ζητά αποζημιώσεις και άρση των κυρώσεων",
-      "url": "https://www.tothemaonline.com/Article/461128/to-iran-aporriptei-thn-amerikanikh-protash---zhta-apozhmiwseis-kai-arsh-twn-kyrwsewn",
-      "published_at": "20260511T050000Z",
-      "source": "tothemaonline.com",
+      "id": "gdelt_fd4f57151fbbd5ae",
+      "headline": "Iran demands total control of Hormuz and war reparations : Trump brands Iranian response",
+      "url": "https://www.bankingnews.gr/diethni/articles/874239/iran-demands-total-control-of-hormuz-and-war-reparations-trump-brands-iranian-response-unacceptable",
+      "published_at": "20260511T083000Z",
+      "source": "bankingnews.gr",
       "tags": [
         "IRAN"
       ]
+    },
+    {
+      "id": "gdelt_4ab1b653ae1d38e1",
+      "headline": "Trump Rejects Iran Ceasefire Proposal : Gulf Truce at Risk , Strait of Hormuz and Oil Markets on Edge",
+      "url": "https://gulfnews.com/world/mena/back-to-the-brink-what-happens-next-after-trump-rejects-iran-proposal-1.500536417",
+      "published_at": "20260511T104500Z",
+      "source": "gulfnews.com",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_79d844b820ff2155",
+      "headline": "Rupiah Hari Ini Kembali Jadi Korban Pasar Panik , Timur Tengah Memanas",
+      "url": "https://koran-jakarta.com/2026-05-11/rupiah-hari-ini-kembali-jadi-korban-pasar-panik-timur-tengah-memanas",
+      "published_at": "20260511T111500Z",
+      "source": "koran-jakarta.com",
+      "tags": []
     },
     {
       "id": "gdelt_eb3b4ff3d989c30a",
@@ -72,16 +146,6 @@
       "url": "https://www.novosti.rs/planeta/svet/1605956/tenzije-bliskom-istoku-rastu-izrael-zeli-smanjenje-finansijske-vojne-podrske-sad",
       "published_at": "20260511T073000Z",
       "source": "novosti.rs",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_3bfe9c5ae8f804b7",
-      "headline": "نتنياهو يرغب في التخلص من الاعتماد على الدعم العسكري الأمريكي",
-      "url": "https://www.albayan.ae/news/middle-east/1269216",
-      "published_at": "20260511T050000Z",
-      "source": "albayan.ae",
       "tags": []
     },
     {
@@ -90,9 +154,15 @@
       "url": "https://aa.com.tr/en/world/iran-war-not-over-until-enriched-uranium-removed-netanyahu/3933285",
       "published_at": "20260511T063000Z",
       "source": "aa.com.tr",
-      "tags": [
-        "IRAN"
-      ]
+      "tags": []
+    },
+    {
+      "id": "gdelt_92b9afd3681a8d5e",
+      "headline": "Ông Netanyahu gây bất ngờ khi muốn cắt đứt sự lệ thuộc vào viện trợ quân sự từ Mỹ",
+      "url": "https://danviet.vn/ong-netanyahu-gay-bat-ngo-khi-muon-cat-dut-su-le-thuoc-vao-vien-tro-quan-su-tu-my-d1425738.html",
+      "published_at": "20260511T093000Z",
+      "source": "danviet.vn",
+      "tags": []
     },
     {
       "id": "gdelt_1fa7401f466c4ede",
@@ -100,22 +170,6 @@
       "url": "https://www.skai.gr/news/world/netaniaxou-epidioko-apeksartisi-apo-tin-amerikaniki-stratiotiki-voitheia",
       "published_at": "20260511T073000Z",
       "source": "skai.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5d98bf56ea92079b",
-      "headline": "Absolutely Unacceptable ! Trump Responds To Iranian Rejection Of Latest Deal Proposal",
-      "url": "https://www.i24news.tv/en/news/international/americas/artc-absolutely-unacceptable-trump-responds-to-iranian-rejection-of-latest-deal-proposal",
-      "published_at": "20260511T063000Z",
-      "source": "i24news.tv",
-      "tags": []
-    },
-    {
-      "id": "gdelt_364f2c7d14f1e0f2",
-      "headline": "Нетаньяху захотел отказаться от военной помощи США",
-      "url": "https://lenta.ru/news/2026/05/11/netanyahu-zahotel-otkazatsya-ot-voennoy-pomoschi-ssha/",
-      "published_at": "20260511T031500Z",
-      "source": "lenta.ru",
       "tags": []
     },
     {
@@ -129,29 +183,71 @@
       ]
     },
     {
-      "id": "gdelt_9bba8036ab2d5604",
-      "headline": "Νετανιάχου : Θέλω να μειώσω την αμερικανική στήριξη προς το Ισραήλ στο μηδέν ...",
-      "url": "https://www.capital.gr/diethni/3990684/netaniaxou-thelo-na-meioso-tin-amerikaniki-stirixi-pros-to-israil-sto-miden-mesa-stin-epomeni-dekaetia/",
-      "published_at": "20260511T060000Z",
-      "source": "capital.gr",
+      "id": "gdelt_5d98bf56ea92079b",
+      "headline": "Absolutely Unacceptable ! Trump Responds To Iranian Rejection Of Latest Deal Proposal",
+      "url": "https://www.i24news.tv/en/news/international/americas/artc-absolutely-unacceptable-trump-responds-to-iranian-rejection-of-latest-deal-proposal",
+      "published_at": "20260511T063000Z",
+      "source": "i24news.tv",
       "tags": []
     },
     {
-      "id": "gdelt_11198f4e05dafba9",
-      "headline": "Netanyahu planea reducir  a cero  la ayuda militar que Israel recibe de EEUU en diez años",
-      "url": "https://www.20minutos.es/internacional/netanyahu-planea-reducir-cero-ayuda-militar-que-israel-recibe-eeuu-diez-anos_6968641_0.html",
-      "published_at": "20260511T050000Z",
-      "source": "20minutos.es",
+      "id": "gdelt_d5ce311393749821",
+      "headline": "内塔尼亚胡接受哥伦比亚广播公司采访时表示 ， 希望以色列逐步摆脱对美国军事援助的依赖",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-05-11/doc-inhxphzf1884045.shtml",
+      "published_at": "20260511T093000Z",
+      "source": "finance.sina.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e10ac15fc1a8e21c",
+      "headline": "U . S ., China launch joint anti drug operation ahead of Trump trip – NBC New York",
+      "url": "https://www.nbcnewyork.com/news/national-international/us-china-arrest-5-joint-drug-smuggling-investigation-ahead-trump-trip/6500425/",
+      "published_at": "20260511T093000Z",
+      "source": "nbcnewyork.com",
       "tags": [
-        "ISRAEL"
+        "CHINA"
       ]
     },
     {
-      "id": "gdelt_75007d91d0363f00",
-      "headline": "Нетаньяху надеется отказаться от военной помощи США в течение десяти лет",
-      "url": "https://1prime.ru/20260511/netanjahu-869832005.html",
-      "published_at": "20260511T060000Z",
-      "source": "1prime.ru",
+      "id": "gdelt_e76ad920fd0395b3",
+      "headline": "Wise fait ses débuts sur le Nasdaq à New York tout en conservant sa cotation au LSE",
+      "url": "https://www.zonebourse.com/actualite-bourse/wise-fait-ses-debuts-sur-le-nasdaq-a-new-york-tout-en-conservant-sa-cotation-au-lse-ce7f5bd8d18af62d",
+      "published_at": "20260511T111500Z",
+      "source": "zonebourse.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fcfa6aac94cd079f",
+      "headline": "İsrail ABŞ - dan hərbi yardımı azaltmağı planlaşdırır",
+      "url": "https://musavat.com/news/israil-abs-dan-herbi-yardimi-azaltmagi-planlasdirir_1259973.html",
+      "published_at": "20260511T103000Z",
+      "source": "musavat.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ca8c542f0f458dce",
+      "headline": "U . S ., China launch joint anti drug operation ahead of Trump trip – NBC 7 San Diego",
+      "url": "https://www.nbcsandiego.com/news/national-international/us-china-arrest-5-joint-drug-smuggling-investigation-ahead-trump-trip/4021970/",
+      "published_at": "20260511T100000Z",
+      "source": "nbcsandiego.com",
+      "tags": [
+        "CHINA"
+      ]
+    },
+    {
+      "id": "gdelt_69d259099681dc30",
+      "headline": "U . S ., China launch joint anti drug operation ahead of Trump trip – NBC Connecticut",
+      "url": "https://www.nbcconnecticut.com/news/national-international/us-china-arrest-5-joint-drug-smuggling-investigation-ahead-trump-trip/3734437/",
+      "published_at": "20260511T103000Z",
+      "source": "nbcconnecticut.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_82165ddb5ee5abe5",
+      "headline": "Why Stablecoins Are Crypto Real Payments Test",
+      "url": "https://www.marketscreener.com/news/why-stablecoins-are-crypto-s-real-payments-test-ce7f5bd8d18af721",
+      "published_at": "20260511T111500Z",
+      "source": "marketscreener.com",
       "tags": []
     },
     {
@@ -165,37 +261,45 @@
       ]
     },
     {
-      "id": "gdelt_cb0108266a7f8ca3",
-      "headline": "月交易1億 ！ 人夫要求見面 「 成年人就懂 」 正妹營業員 ： 當陪酒的 ？ | ETtoday生活新聞",
-      "url": "https://www.ettoday.net/news/20260511/3163849.htm",
-      "published_at": "20260511T050000Z",
-      "source": "ettoday.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_736206cbaf557891",
-      "headline": "Israel - Lebanon ceasefire on the brink amid fresh strikes , rocket fire",
-      "url": "https://gulfnews.com/world/mena/israel-lebanon-ceasefire-on-the-brink-fresh-strikes-and-rocket-fire-threaten-to-drag-them-back-to-war-1.500536048",
-      "published_at": "20260511T054500Z",
-      "source": "gulfnews.com",
+      "id": "gdelt_eef1599b3f7d6297",
+      "headline": "Things are not going so well for Russia",
+      "url": "https://www.aljazeera.com/opinions/2026/5/11/things-are-not-going-so-well-for-russia",
+      "published_at": "20260511T090000Z",
+      "source": "aljazeera.com",
       "tags": [
-        "LEBANON"
+        "RUSSIA"
       ]
     },
     {
-      "id": "gdelt_1e80ac24a258eba4",
-      "headline": "اسرائیل کا امریکی فوجی امداد پر انحصار ختم کرنے کا ارادہ - World",
-      "url": "https://www.aaj.tv/news/30505184/netanyaho-wants-to-wean-israel-off-us-military-support",
-      "published_at": "20260511T061500Z",
-      "source": "aaj.tv",
+      "id": "gdelt_5c9dbca77a669aa0",
+      "headline": "Pourquoi les stablecoins constituent le véritable test des paiements en cryptomonnaies",
+      "url": "https://www.zonebourse.com/actualite-bourse/pourquoi-les-stablecoins-constituent-le-veritable-test-des-paiements-en-cryptomonnaies-ce7f5bd8d18af721",
+      "published_at": "20260511T111500Z",
+      "source": "zonebourse.com",
       "tags": []
     },
     {
-      "id": "gdelt_e344debe7bcc0bc2",
-      "headline": "川普斥伊朗停戰提議 「 不可接受 」 伊朗反擊 : 不配合就承擔後果 | 國際",
-      "url": "https://newtalk.tw/news/view/2026-05-11/1034413",
-      "published_at": "20260511T054500Z",
-      "source": "newtalk.tw",
+      "id": "gdelt_a61daadc1c9e29f5",
+      "headline": "На юге Ливана ранены трое военнослужащих ЦАХАЛ | MigNews - Новости Израиля и Мира на русском языке",
+      "url": "https://mignews.com/news/disasters/cahal-troe-izrailskih-voennyh-raneny-pri-atake-drona-v-livane.html",
+      "published_at": "20260511T103000Z",
+      "source": "mignews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6bf8686252e451e9",
+      "headline": "На юге Ливана ранены трое военнослужащих ЦАХАЛ | MigNews - Новости Израиля и Мира на русском языке",
+      "url": "http://mignews.com/news/disasters/cahal-troe-izrailskih-voennyh-raneny-pri-atake-drona-v-livane.html",
+      "published_at": "20260511T103000Z",
+      "source": "mignews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_92b648e61782ab58",
+      "headline": "Transakcje w warunkach geopolitycznej niestabilności",
+      "url": "https://www.rp.pl/europejski-kongres-gospodarczy/art44347541-transakcje-w-warunkach-geopolitycznej-niestabilnosci",
+      "published_at": "20260511T110000Z",
+      "source": "rp.pl",
       "tags": []
     },
     {
@@ -207,43 +311,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_ce85ef77109ab45d",
-      "headline": "Iran - Krieg : Trump weist Teherans Antwort auf Friedensvorschlag zurück",
-      "url": "http://www.merkur.de/politik/hormus-trump-reagiert-spottisch-iran-aktuell-eskalation-in-strasse-von-zr-94297472.html",
-      "published_at": "20260511T031500Z",
-      "source": "merkur.de",
+      "id": "gdelt_1e782db25798de19",
+      "headline": "Μέση Ανατολή : Ελληνόκτητο τάνκερ πέρασε από τα Στενά του Ορμούζ – Με ρωμαϊκή ιστορία απαντάει το Ιράν στον Τραμπ",
+      "url": "https://www.topontiki.gr/2026/05/11/mesi-anatoli-ellinoktito-tanker-perase-apo-ta-stena-tou-ormouz-me-romaiki-istoria-apantai-to-iran-ston-trab/",
+      "published_at": "20260511T090000Z",
+      "source": "topontiki.gr",
       "tags": []
     },
     {
-      "id": "gdelt_d32f9290d008c080",
-      "headline": "Iran - Krieg : Trump weist Teherans Antwort auf Friedensvorschlag zurück",
-      "url": "http://www.come-on.de/politik/hormus-trump-reagiert-spottisch-iran-aktuell-eskalation-in-strasse-von-zr-94297472.html",
-      "published_at": "20260511T033000Z",
-      "source": "come-on.de",
+      "id": "gdelt_16adc170c095b90b",
+      "headline": "Putin will mit Schröder - Vorstoß auf Fake - Frieden einstimmen",
+      "url": "https://www.focus.de/politik/ausland/putin-will-mit-schroeder-vorstoss-auf-fake-frieden-einstimmen_08e39185-7a9b-4589-a10d-a9c83e27e646.html",
+      "published_at": "20260511T104500Z",
+      "source": "focus.de",
       "tags": []
     },
     {
-      "id": "gdelt_c54b9c82f4e901fd",
-      "headline": "Netanyahu wants to wean Israel off US military support",
-      "url": "https://www.freemalaysiatoday.com/category/world/2026/05/11/netanyahu-wants-to-wean-israel-off-us-military-support",
-      "published_at": "20260511T054500Z",
-      "source": "freemalaysiatoday.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c0cab911e15a2d4e",
-      "headline": "Netanyahu wants to wean Israel off US military support",
-      "url": "https://www.perthnow.com.au/news/business/netanyahu-wants-to-wean-israel-off-us-military-support-c-22264840",
-      "published_at": "20260511T031500Z",
-      "source": "perthnow.com.au",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4fd425fd31658d11",
-      "headline": "Нетаняху иска да спре военната подкрепа на САЩ до 10 години",
-      "url": "https://news.bg/int-politics/netanyahu-iska-da-spre-voennata-podkrepa-na-sasht-do-10-godini.html",
-      "published_at": "20260511T033000Z",
-      "source": "news.bg",
+      "id": "gdelt_067bad46682ccf11",
+      "headline": "Netanyahu quer eliminar ajuda militar dos EUA a Israel em dez anos",
+      "url": "https://expresso.pt/medio-oriente/conflito/2026-05-11-netanyahu-quer-eliminar-ajuda-militar-dos-eua-a-israel-em-dez-anos-e2a1e757",
+      "published_at": "20260511T103000Z",
+      "source": "expresso.pt",
       "tags": []
     },
     {
@@ -255,6 +343,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_b65a42f9a8c101fe",
+      "headline": "Шесть тел найдены в грузовом вагоне поезда в Техасе",
+      "url": "https://runews24.ru/incidents/11/05/2026/shest-tel-najdenyi-v-gruzovom-vagone-poezda-v-texase",
+      "published_at": "20260511T093000Z",
+      "source": "runews24.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_7b9337d6dec889a6",
       "headline": "Νετανιάχου : Στόχος ο μηδενισμός της αμερικανικής στρατιωτικής βοήθειας την επόμενη δεκαετία",
       "url": "https://pelop.gr/netaniachou-stochos-o-midenismos-tis-amerikanikis-stratiotikis-voitheias-tin-epomeni-dekaetia/",
@@ -263,87 +359,140 @@
       "tags": []
     },
     {
-      "id": "gdelt_5c837d8c6967a1a2",
-      "headline": "Netanyahu wants to wean Israel off US military support , he tells CBS",
-      "url": "https://www.yahoo.com/news/articles/netanyahu-wants-wean-israel-off-235933987.html",
-      "published_at": "20260511T050000Z",
-      "source": "yahoo.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a977982a48fac7c0",
-      "headline": "Ny prognose sender ekstremt vejr til Fyn",
-      "url": "https://www.tv2fyn.dk/fyn/ny-prognose-sender-ekstremt-vejr-til-fyn-4e54c",
-      "published_at": "20260511T054500Z",
-      "source": "tv2fyn.dk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e3078a886df7d80a",
-      "headline": "Нетаньяху заявил о желании Израиля отказаться от военной помощи США",
-      "url": "https://russian.rt.com/world/news/1630469-izrail-ssha-pomosch-otkaz",
-      "published_at": "20260511T031500Z",
-      "source": "russian.rt.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e7f60e4a82dbba0d",
-      "headline": "华人团体集会 支持司法部起诉中共海外警察站案 | 中共跨国镇压 | 卢建旺 | 充当代理人",
-      "url": "https://www.epochtimes.com/gb/26/5/11/n14761456.htm",
-      "published_at": "20260511T050000Z",
-      "source": "epochtimes.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_33a23315a962af8e",
-      "headline": "Udbuddet af huse til salg stiger på landsplan",
-      "url": "https://www.tv2fyn.dk/fyn/udbuddet-af-huse-til-salg-stiger-pa-landsplan-36d7b",
-      "published_at": "20260511T054500Z",
-      "source": "tv2fyn.dk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9a2ec6e2c6618ff3",
-      "headline": "Mandag bliver grå , men det værste regn driver udenom Fyn",
-      "url": "https://www.tv2fyn.dk/fyn/mandag-bliver-gra-men-det-vaerste-regn-driver-udenom-fyn-91f54",
-      "published_at": "20260511T054500Z",
-      "source": "tv2fyn.dk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5418d6e3d2b502eb",
-      "headline": "Netanyahudan herkesi ters köşe yapan  ABD  çıkışı : Artık sonlandırma zamanı geldi",
-      "url": "https://www.yeniakit.com.tr/foto-galeri/netanyahudan-herkesi-ters-kose-yapan-abd-cikisi-artik-sonlandirma-zamani-geldi-156351",
-      "published_at": "20260511T060000Z",
-      "source": "yeniakit.com.tr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c3c474197c12beaf",
-      "headline": "Шесть тел нашли в товарном вагоне на границе США и Мексики",
-      "url": "https://life.ru/p/1873753",
-      "published_at": "20260511T033000Z",
+      "id": "gdelt_cd55c2b7dcc0528c",
+      "headline": "Силы ПВО уничтожили 20 украинских дронов над Курской областью за сутки",
+      "url": "https://life.ru/p/1873807",
+      "published_at": "20260511T093000Z",
       "source": "life.ru",
       "tags": []
     },
     {
-      "id": "gdelt_57c932800342c6e6",
-      "headline": "Iran warns of",
-      "url": "https://timesofoman.com/article/171645-iran-warns-of-decisive-response-over-deployment-of-french-british-warships-in-strait-of-hormuz",
-      "published_at": "20260511T053000Z",
-      "source": "timesofoman.com",
+      "id": "gdelt_a2d180b76b695101",
+      "headline": "Netanyahu quer reduzir  a zero  ajuda militar que Israel recebe dos EUA",
+      "url": "https://sapo.pt/artigo/netanyahu-quer-reduzir-a-zero-ajuda-militar-que-israel-recebe-dos-eua-6a017cb6c09daa3aa6c8b917",
+      "published_at": "20260511T093000Z",
+      "source": "sapo.pt",
       "tags": []
     },
     {
-      "id": "gdelt_811d1ced2212e87f",
-      "headline": "Pakistan Army Chief Asim Munir threatens India again on Operation Sindoor anniversary , says  any future misadventure will result in ...",
-      "url": "https://economictimes.indiatimes.com/news/new-updates/pakistan-army-chief-asim-munir-threatens-india-again-days-on-operation-sindoor-anniversary-says-any-future-misadventure-will-result-in-/articleshow/131003637.cms",
-      "published_at": "20260511T050000Z",
-      "source": "economictimes.indiatimes.com",
-      "tags": [
-        "INDIA",
-        "PAKISTAN"
-      ]
+      "id": "gdelt_2f0213f43d981a12",
+      "headline": "28 - årig gik amok på værtshus",
+      "url": "https://www.tv2fyn.dk/assens/28-arig-gik-amok-pa-vaertshus-5ae32",
+      "published_at": "20260511T093000Z",
+      "source": "tv2fyn.dk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3eb3163f23f224e2",
+      "headline": "Stort boligkvarter på vej i Vollsmose",
+      "url": "https://www.tv2fyn.dk/odense/stort-boligkvarter-pa-vej-i-vollsmose-3a2ba",
+      "published_at": "20260511T093000Z",
+      "source": "tv2fyn.dk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_37fb4afd5a9ed737",
+      "headline": "Travl rejsedag i vente på Fyn",
+      "url": "https://www.tv2fyn.dk/fyn/travl-rejsedag-i-vente-pa-fyn-f6b19",
+      "published_at": "20260511T104500Z",
+      "source": "tv2fyn.dk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b8b6edab145a5593",
+      "headline": "OB præsenterer ny trøje - en af de flotteste i nyere tid , siger OB - reporter",
+      "url": "https://www.tv2fyn.dk/odense/ob-praesenterer-ny-troje-36931",
+      "published_at": "20260511T093000Z",
+      "source": "tv2fyn.dk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_857c0131fef76f7d",
+      "headline": "Højere priser på brændstof får inflationen til at stige",
+      "url": "https://www.tv2fyn.dk/fyn/hojere-priser-pa-braendstof-far-inflationen-til-at-stige-efa2f",
+      "published_at": "20260511T093000Z",
+      "source": "tv2fyn.dk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3dc8b6a4cd4c8b72",
+      "headline": "Politie Nieuw - Zeeland onderzoekt speler Kaapverdië",
+      "url": "https://nieuws.nl/voetbal/politie-nieuw-zeeland-onderzoekt-beschuldiging-speler-kaapverdie",
+      "published_at": "20260511T101500Z",
+      "source": "nieuws.nl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0667916cc5fc1214",
+      "headline": "Αιχμές ντε Γκίντος κατά Γερμανίας για Commerzbank - UniCredit :  Ένα από τα ...",
+      "url": "https://www.capital.gr/diethni/3990756/aixmes-nte-gkintos-kata-germanias-gia-commerzbank-unicredit-ena-apo-ta-polla-paradeigmata-xoron-tis-ee-pou-parembainoun-se-epixeirimatikes-apofaseis/",
+      "published_at": "20260511T103000Z",
+      "source": "capital.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d22a088a16f2f8f8",
+      "headline": "Νετανιάχου : Θέλουμε να απεξαρτηθούμε από την στρατιωτική βοήθεια ΗΠΑ ( ΒΙΝΤΕΟ )",
+      "url": "https://www.sigmalive.com/news/international/1313183/netaniakhoy-theloyme-na-apeksartithoume-apo-tin-stratiotiki-voitheia-hpa-binteo",
+      "published_at": "20260511T090000Z",
+      "source": "sigmalive.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3adb6d68f9ed98c9",
+      "headline": "321 jailed in online gambling crackdown effort in Indonesia | The Arkansas Democrat - Gazette",
+      "url": "https://www.arkansasonline.com/news/2026/may/11/321-jailed-in-online-gambling-crackdown-effort-in/",
+      "published_at": "20260511T103000Z",
+      "source": "arkansasonline.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3560acf6011db4b3",
+      "headline": "321 jailed in online gambling crackdown effort in Indonesia | The Arkansas Democrat - Gazette",
+      "url": "http://www.arkansasonline.com/news/2026/may/11/321-jailed-in-online-gambling-crackdown-effort-in/",
+      "published_at": "20260511T111500Z",
+      "source": "arkansasonline.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7800506989e4cbc4",
+      "headline": "Thủ tướng Netanyahu muốn giảm viện trợ Mỹ cho Israel | Báo Điện tử An ninh Thủ đô",
+      "url": "https://anninhthudo.vn/thu-tuong-netanyahu-tuyen-bo-israel-khong-muon-nhan-tien-cua-my-post649250.antd",
+      "published_at": "20260511T090000Z",
+      "source": "anninhthudo.vn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f491d3109769bfc0",
+      "headline": "Reunião de câmara na quarta - feira , dia 13",
+      "url": "https://sapo.pt/artigo/reuniao-de-camara-na-quarta-feira-dia-13-6a01b13be007d4f9b5564bfe",
+      "published_at": "20260511T110000Z",
+      "source": "sapo.pt",
+      "tags": []
+    },
+    {
+      "id": "gdelt_490b7cb4582cfbd9",
+      "headline": "İngiltere Merkez Bankası Başkanı :  Stablecoin kurallarında ABD ile hesaplaşma kaçınılmaz",
+      "url": "https://www.haberler.com/kripto-para/ingiltere-merkez-bankasi-baskani-stablecoin-19835577-haberi/",
+      "published_at": "20260511T110000Z",
+      "source": "haberler.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_aa21d26f38b778ac",
+      "headline": "Global accounting company Andersen launches in Namibia",
+      "url": "https://www.namibian.com.na/global-accounting-company-andersen-launches-in-namibia/",
+      "published_at": "20260511T104500Z",
+      "source": "namibian.com.na",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c1437ea4f073c5ce",
+      "headline": "微信 4 月功能大升级 ： AI 支付 、 贴图原图发送新体验",
+      "url": "https://www.chinaz.com/ainews/27860.shtml",
+      "published_at": "20260511T110000Z",
+      "source": "chinaz.com",
+      "tags": []
     },
     {
       "id": "gdelt_8967ec59790c421c",
@@ -357,11 +506,27 @@
       ]
     },
     {
-      "id": "gdelt_d2c46272c19b36dc",
-      "headline": "Africa : Macron Arrives in Kenya Ahead of Africa Summit",
-      "url": "https://allafrica.com/stories/202605110055.html",
-      "published_at": "20260511T054500Z",
-      "source": "allafrica.com",
+      "id": "gdelt_62bb776fb74ea43c",
+      "headline": "Безпрецедентен ход на Нетаняху ! Засяга САЩ - Свят Новини Стандарт",
+      "url": "https://www.standartnews.com/svyat/bezprecedenten-hod-na-netanyahu-zasyaga-sasht-633261.html",
+      "published_at": "20260511T104500Z",
+      "source": "standartnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c13a2dffa9b675a4",
+      "headline": "Canton Network Digital Asset targets $2 billion valuation in raise led by a16z crypto : Bloomberg",
+      "url": "https://www.coindesk.com/business/2026/05/11/canton-network-s-digital-asset-targets-usd2-billion-valuation-in-a16z-crypto-led-raise-bloomberg",
+      "published_at": "20260511T103000Z",
+      "source": "coindesk.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7874d66167db8479",
+      "headline": "eclicktech and Microsoft Launch Shenzhen Global Expansion Center to Support Chinese Enterprises Going Global",
+      "url": "https://www.manilatimes.net/2026/05/11/tmt-newswire/pr-newswire/eclicktech-and-microsoft-launch-shenzhen-global-expansion-center-to-support-chinese-enterprises-going-global/2340420",
+      "published_at": "20260511T090000Z",
+      "source": "manilatimes.net",
       "tags": []
     },
     {
@@ -373,26 +538,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_4495d147565d15bb",
-      "headline": "Donald Trump și Xi Jinping se întâlnesc joi la Beijing . Pe agenda discuțiilor se află războiul cu Iranul , Taiwan , inteligența artificială , comerțul , tehnologia și mineralele rare",
-      "url": "https://www.romaniatv.net/donald-trump-si-xi-jinping-se-intalnesc-joi-la-beijing-pe-agenda-discutiilor-se-afla-razboiul-cu-iranul-taiwan-inteligenta-artificiala-comertul-tehnologia-si-mineralele-rare_9560860.html",
-      "published_at": "20260511T061500Z",
-      "source": "romaniatv.net",
-      "tags": [
-        "TAIWAN"
-      ]
-    },
-    {
-      "id": "gdelt_e0a20e514d746bdd",
-      "headline": "Operation Sindoor Marks Major Shift In India Military Doctrine : Report",
-      "url": "https://idrw.org/operation-sindoor-marks-major-shift-in-indias-military-doctrine-report/",
-      "published_at": "20260511T043000Z",
-      "source": "idrw.org",
-      "tags": [
-        "INDIA"
-      ]
-    },
-    {
       "id": "gdelt_fc7191895535ab62",
       "headline": "Глава минобороны Германии Писториус без объявлений приехал в Киев :: Новости дня / ВЗГЛЯД",
       "url": "https://vz.ru/news/2026/5/11/1417997.html",
@@ -401,11 +546,59 @@
       "tags": []
     },
     {
-      "id": "gdelt_3bb2d641b25201b5",
-      "headline": "跨黨派提 「 嚇阻中國侵略台灣法案 」 美眾議員 ： 犯台將遭毀滅性制裁 | 國際",
-      "url": "https://newtalk.tw/news/view/2026-05-11/1034464",
-      "published_at": "20260511T054500Z",
-      "source": "newtalk.tw",
+      "id": "gdelt_1c048b20e23595f9",
+      "headline": "Лондон увео нови пакет антируских санкција",
+      "url": "https://www.politika.rs/scc/clanak/754255/london-uveo-novi-paket-antiruskih-sankcija",
+      "published_at": "20260511T110000Z",
+      "source": "politika.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6c78228b8ca96958",
+      "headline": "ТЦК можуть відмінити , замість них буде Офіс резерв плюс - що ще кажуть про реформу мобілізації",
+      "url": "https://news.telegraf.com.ua/ukr/ukraina/5939754-ttsk-mozhut-zniknuti-shcho-proponuyut-zamist-nikh",
+      "published_at": "20260511T090000Z",
+      "source": "news.telegraf.com.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bf85f075d1960ebb",
+      "headline": "Британия ввела санкции против психиатрической больницы в России",
+      "url": "https://lenta.ru/news/2026/05/11/britaniya-vvela-sanktsii-protiv-psihiatricheskoy-bolnitsy-v-rossii/",
+      "published_at": "20260511T111500Z",
+      "source": "lenta.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_430b8bb4293b0878",
+      "headline": "Великобритания расширила антироссийские санкции на 85 позиций",
+      "url": "https://www.m24.ru/news/politika/11052026/899464",
+      "published_at": "20260511T104500Z",
+      "source": "m24.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7913c58e9d725ac8",
+      "headline": "Британия внесла Севастопольский госуниверситет в список санкций",
+      "url": "https://ria.ru/20260511/britanija-2091807454.html",
+      "published_at": "20260511T103000Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d0ca45c01793cc0e",
+      "headline": "Netanyahu busca romper la dependencia de EEUU y planea  reducir a cero  la ayuda militar",
+      "url": "https://www.larazon.es/internacional/netanyahu-busca-romper-dependencia-eeuu-planea-reducir-cero-ayuda-militar_202605116a01882fb5b06629960bc565.html",
+      "published_at": "20260511T083000Z",
+      "source": "larazon.es",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f553369dab3525ba",
+      "headline": "Zürich London Bahnverbindung : SBB plant Direktzug in 6 Stunden",
+      "url": "https://www.bernerzeitung.ch/zuerich-london-bahnverbindung-sbb-plant-direktzug-in-6-stunden-188439849656",
+      "published_at": "20260511T103000Z",
+      "source": "bernerzeitung.ch",
       "tags": []
     },
     {
@@ -425,11 +618,59 @@
       "tags": []
     },
     {
-      "id": "gdelt_139017f25956e803",
-      "headline": "نتنياهو يريد أن تتخلص إسرائيل من الاعتماد على الدعم العسكري الأمريكي",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=11052026&id=2d218a49-2bca-4583-ac15-c274fb8cf36b",
-      "published_at": "20260511T050000Z",
-      "source": "shorouknews.com",
+      "id": "gdelt_91e80714e66003db",
+      "headline": "La banque brésilienne Itaú fait du Luxembourg son siège européen",
+      "url": "https://paperjam.lu/article/la-banque-bresilienne-itau-fait-du-luxembourg-son-siege-europeen",
+      "published_at": "20260511T110000Z",
+      "source": "paperjam.lu",
+      "tags": []
+    },
+    {
+      "id": "gdelt_26e82479a1d54818",
+      "headline": "Великобритания ввела санкции против психбольницы в Крыму",
+      "url": "https://life.ru/p/1873885",
+      "published_at": "20260511T111500Z",
+      "source": "life.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b52c16e7cb1d3cd7",
+      "headline": "Британия внесла в список санкций главу штаба  Юнармии  - РИА Новости , 11 . 05 . 2026",
+      "url": "https://ria.ru/20260511/britanija-2091803764.html",
+      "published_at": "20260511T093000Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f7786cf71deb2335",
+      "headline": "ЕC готовит 21 - й пакет санкций , в котором намерен усилить давление на « теневой флот » и РПЦ",
+      "url": "https://argumenti.ru/politics/2026/05/996859",
+      "published_at": "20260511T103000Z",
+      "source": "argumenti.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9aaee38efbae074d",
+      "headline": "Захарова прокомментировала введение Лондоном новых санкций",
+      "url": "https://1prime.ru/20260511/zakharova--869839370.html",
+      "published_at": "20260511T111500Z",
+      "source": "1prime.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_016dcf2c28ad380d",
+      "headline": "Iran poslao odgovor Americi : Teheran traži ukidanje sankcija i garancije za svaki dogovor",
+      "url": "https://informer.rs/planeta/vesti/1114056/iran-brutalno-odgovorio-americi-nuklearke-sankcije-orumuz-tramp-dobio-udarac-od-kojeg-nema-oporavka",
+      "published_at": "20260511T100000Z",
+      "source": "informer.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_109975ec1184ec22",
+      "headline": "ЕС готовит новый пакет санкций против России - СМИ",
+      "url": "https://korrespondent.net/world/4877672-es-hotovyt-novyi-paket-sanktsyi-protyv-rossyy-smy",
+      "published_at": "20260511T090000Z",
+      "source": "korrespondent.net",
       "tags": []
     },
     {
@@ -441,53 +682,31 @@
       "tags": []
     },
     {
-      "id": "gdelt_803d1df6591290dd",
-      "headline": "Netanyahu busca poner fin a la ayuda militar de EE . UU . a Israel :  Es hora de dejar de depender de ello",
-      "url": "https://www.latercera.com/mundo/noticia/netanyahu-busca-poner-fin-a-la-ayuda-militar-de-eeuu-a-israel-es-hora-de-dejar-de-depender-de-ello/",
-      "published_at": "20260511T050000Z",
-      "source": "latercera.com",
+      "id": "gdelt_b294252462586b54",
+      "headline": "U . S . and China arrest 5 in joint drug smuggling investigation ahead of Trump trip",
+      "url": "https://www.nbcnews.com/world/asia/us-china-arrest-5-joint-drug-smuggling-investigation-ahead-trump-trip-rcna344494",
+      "published_at": "20260511T090000Z",
+      "source": "nbcnews.com",
       "tags": []
     },
     {
-      "id": "gdelt_d59c845098a66dd9",
-      "headline": "Каллас объявила о новом пакете санкций ЕС против России",
-      "url": "https://www.mk.ru/politics/2026/05/11/kallas-obyavila-o-novom-pakete-sankciy-es-protiv-rossii.html",
-      "published_at": "20260511T073000Z",
-      "source": "mk.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bb9a6e28127bd681",
-      "headline": "Tinubu Arrives Nairobi For a Two - day Africa Forward Summit – THISDAYLIVE",
-      "url": "https://www.thisdaylive.com/2026/05/11/tinubu-arrives-nairobi-for-a-two-day-africa-forward-summit/",
-      "published_at": "20260511T050000Z",
-      "source": "thisdaylive.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_528a80c5d28cc08b",
-      "headline": "Санкции против России - ЕС готовит новый пакет и хочет принудить Путина к мирному соглашению уже летом",
-      "url": "https://www.unian.net/economics/other/sankcii-protiv-rossii-es-gotovit-novyy-paket-i-hochet-prinudit-putina-k-mirnomu-soglasheniyu-uzhe-letom-13377921.html",
-      "published_at": "20260511T054500Z",
-      "source": "unian.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_66976e876ee9c9a2",
-      "headline": "Ending a war or redefining the regional order ? Diplomatic deadlock deepens over US - Israel – Iran conflict",
-      "url": "https://www.theweek.in/news/middle-east/2026/05/11/us-iran-diplomatic-standoff.html",
-      "published_at": "20260511T064500Z",
-      "source": "theweek.in",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ca459b895bfe67b9",
-      "headline": "中国民生银行广州华南支行开展第139届广交会  加强外汇自律 ， 诚信合规发展  主题宣传活动 _ 中华网",
-      "url": "https://m.tech.china.com/redian/2026/0511/052026_1865032.html",
-      "published_at": "20260511T040000Z",
-      "source": "m.tech.china.com",
+      "id": "gdelt_b3c143044293ad67",
+      "headline": "Minister : Were strengthening partnership with Ukraine ; were drawing inspiration from successful digitalisation models",
+      "url": "https://www.stiripesurse.ro/minister-were-strengthening-partnership-with-ukraine-were-drawing-inspiration-from-successful-digitalisation-models_3884904",
+      "published_at": "20260511T090000Z",
+      "source": "stiripesurse.ro",
       "tags": [
-        "CHINA"
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_c949475e10d36797",
+      "headline": "ASEAN LEADER STATEMENT ON THE RESPONSE TO THE MIDDLE EAST CRISIS 8 MAY 2026",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/05/iran-260508-philippines-dfa01.htm",
+      "published_at": "20260511T111500Z",
+      "source": "globalsecurity.org",
+      "tags": [
+        "PHILIPPINES"
       ]
     },
     {
@@ -499,6 +718,88 @@
       "tags": []
     },
     {
+      "id": "gdelt_9d340b3c413c1363",
+      "headline": "Детский лагерь в КНДР оказался под санкциями Британии из - за России",
+      "url": "https://www.mk.ru/politics/2026/05/11/detskiy-lager-v-kndr-okazalsya-pod-sankciyami-britanii-izza-rossii.html",
+      "published_at": "20260511T110000Z",
+      "source": "mk.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_66976e876ee9c9a2",
+      "headline": "Ending a war or redefining the regional order ? Diplomatic deadlock deepens over US - Israel – Iran conflict",
+      "url": "https://www.theweek.in/news/middle-east/2026/05/11/us-iran-diplomatic-standoff.html",
+      "published_at": "20260511T064500Z",
+      "source": "theweek.in",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c61801fdbc3c9866",
+      "headline": "Philippine FDI net inflows fall 31 % in February - BusinessWorld Online",
+      "url": "https://www.bworldonline.com/top-stories/2026/05/11/748732/philippines-fdi-net-inflows-fall-31-in-february/",
+      "published_at": "20260511T103000Z",
+      "source": "bworldonline.com",
+      "tags": [
+        "PHILIPPINES"
+      ]
+    },
+    {
+      "id": "gdelt_8ec21832da3a8c17",
+      "headline": "„ Politico : Putino šešėliniam laivynui gresia naujos ES sankcijos",
+      "url": "https://www.lrt.lt/naujienos/pasaulyje/6/2925176/politico-putino-seseliniam-laivynui-gresia-naujos-es-sankcijos",
+      "published_at": "20260511T101500Z",
+      "source": "lrt.lt",
+      "tags": []
+    },
+    {
+      "id": "gdelt_dddfb097539cceb3",
+      "headline": "CNBC : قادة العالم يترقبون قمة الرئيسين الأمريكي والصيني",
+      "url": "https://www.dostor.org/5548935",
+      "published_at": "20260511T094500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9bfa970b78b13e64",
+      "headline": "Çin Dışişleri Bakanlığı : Uluslararası hukuka dayanmayan yaptırımlara karşıyız",
+      "url": "https://www.haberler.com/dunya/cin-tek-tarafli-yaptirimlara-karsi-cikti-19835499-haberi/",
+      "published_at": "20260511T103000Z",
+      "source": "haberler.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d59c845098a66dd9",
+      "headline": "Каллас объявила о новом пакете санкций ЕС против России",
+      "url": "https://www.mk.ru/politics/2026/05/11/kallas-obyavila-o-novom-pakete-sankciy-es-protiv-rossii.html",
+      "published_at": "20260511T073000Z",
+      "source": "mk.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b5dec0687a39f6d2",
+      "headline": "ЕС ввёл новые санкции против России",
+      "url": "https://russian.rt.com/world/news/1630605-es-sankcii-rossiya",
+      "published_at": "20260511T114500Z",
+      "source": "russian.rt.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c9768889a4f14648",
+      "headline": "Pekinden Washingtona İran yaptırımı resti | Son dakika ekonomi haberleri",
+      "url": "https://www.bloomberght.com/pekinden-washingtona-iran-yaptirimi-resti-3777247",
+      "published_at": "20260511T103000Z",
+      "source": "bloomberght.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_52ff0d5eefa4f537",
+      "headline": "UK latest Russian sanctions target officials , media and youth programmes",
+      "url": "https://www.marketscreener.com/news/uk-s-latest-russian-sanctions-target-officials-media-and-youth-programmes-ce7f5bd8de88f023",
+      "published_at": "20260511T093000Z",
+      "source": "marketscreener.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_fcbeb8faf94d4cd3",
       "headline": "ЕС впервые согласует санкции против израильских поселенцев",
       "url": "https://ria.ru/20260511/sanktsii-2091791204.html",
@@ -507,35 +808,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_11c4f95b0bfdf690",
-      "headline": "MiniMax关联公司上海稀宇极智科技注册资本大增 跃升至40亿 - 人工智能 - ITBear科技资讯",
-      "url": "https://www.itbear.com.cn/html/2026-05/1333503.html",
-      "published_at": "20260511T044500Z",
-      "source": "itbear.com.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0b1130b9342745d9",
-      "headline": "Ізраїль планує  за 10 років  відмовитися від фіндопомоги США",
-      "url": "https://ua.korrespondent.net/world/4877652-izrail-planuie-za-10-rokiv-vidmovytysia-vid-findopomohy-ssha",
-      "published_at": "20260511T054500Z",
-      "source": "ua.korrespondent.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e4b8893045da7872",
-      "headline": "Премьер - министр Израиля говорит , что хочет отказаться от финансовой поддержки США",
-      "url": "https://www.pravda.com.ua/rus/news/2026/05/11/8034122/",
-      "published_at": "20260511T030000Z",
-      "source": "pravda.com.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_39f0df1da2da1313",
-      "headline": "涉助伊朗軍工鏈與衛星影像 ， 美制裁數家中港企業",
-      "url": "https://technews.tw/2026/05/11/us-imposes-sanctions-on-10-individuals-companies-for-aiding-irans-weapons-sector/",
-      "published_at": "20260511T063000Z",
-      "source": "technews.tw",
+      "id": "gdelt_66c1d98976fb6eac",
+      "headline": "Politico : ЕС готовит новый пакет санкций против РФ с ударом по  теневому флоту  | MigNews - Новости Израиля и Мира на русском языке",
+      "url": "http://mignews.com/news/politic/politico-es-gotovit-novyj-paket-sankcij-protiv-rf-s-udarom-po-tenevomu-flotu.html",
+      "published_at": "20260511T083000Z",
+      "source": "mignews.com",
       "tags": []
     },
     {
@@ -547,27 +824,35 @@
       "tags": []
     },
     {
-      "id": "gdelt_2e393b982440226a",
-      "headline": "Британія витратила близько 19 млн євро на Starlink , зокрема для України",
-      "url": "https://www.eurointegration.com.ua/news/2026/05/11/7237284/",
-      "published_at": "20260511T060000Z",
-      "source": "eurointegration.com.ua",
+      "id": "gdelt_46793f9a9a8c2ad6",
+      "headline": "Санкции против России - что известно о 21 - м пакете ограничений от ЕС",
+      "url": "https://24tv.ua/economy/ru/sankcii-protiv-rossii-chto-izvestno-o-21-m-pakete-ogranichenij-ot-es_n3065443",
+      "published_at": "20260511T090000Z",
+      "source": "24tv.ua",
       "tags": []
     },
     {
-      "id": "gdelt_4d3c6befcaaba8aa",
-      "headline": "Бела кућа : Одговор Ирана на амерички предлог неприхватљив ; Техеран : Не преговарамо да бисмо задовољили Трампа",
-      "url": "https://www.rts.rs/vesti/svet/5946674/bela-kuca-odgovor-irana-na-americki-predlog-neprihvatljiv-teheran-ne-pregovaramo-da-bismo-zadovoljili-trampa.html",
-      "published_at": "20260511T061500Z",
-      "source": "rts.rs",
+      "id": "gdelt_bfb376adf2a0bd56",
+      "headline": "Военная помощь США Израилю Нетаньяху хочет от нее отказаться",
+      "url": "https://glavred.info/world/nachnem-pryamo-seychas-netanyahu-zayavil-o-namerenii-sokratit-voennuyu-pomoshch-ssha-do-nulya-10763633.html",
+      "published_at": "20260511T090000Z",
+      "source": "glavred.info",
       "tags": []
     },
     {
-      "id": "gdelt_fcd735482fb7741e",
-      "headline": "Бела кућа : Одговор Ирана на амерички предлог неприхватљив ; Техеран : Не преговарамо да бисмо удовољили Трампу",
-      "url": "https://www.rts.rs/vesti/svet/5946674/bela-kuca-odgovor-irana-na-americki-predlog-neprihvatljiv-teheran-ne-pregovaramo-da-bismo-udovoljili-trampu.html",
-      "published_at": "20260511T063000Z",
-      "source": "rts.rs",
+      "id": "gdelt_b5e0331a6c56a5d0",
+      "headline": "Британия внесла в санкционный список гендиректора АНО  Диалог",
+      "url": "https://ria.ru/20260511/velikobritanija-2091807045.html",
+      "published_at": "20260511T103000Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8244ee99d7952e7f",
+      "headline": "Flota në hije e Putinit përballet me sanksione të reja nga BE - ja",
+      "url": "https://www.botasot.info/evrope-bota/2481511/flota-ne-hije-e-putinit-perballet-me-sanksione-te-reja-nga-be-ja/",
+      "published_at": "20260511T104500Z",
+      "source": "botasot.info",
       "tags": []
     },
     {
@@ -579,11 +864,59 @@
       "tags": []
     },
     {
-      "id": "gdelt_acd680c01ab9ded9",
-      "headline": "川習會前夕美頻出招壓制北京 伊朗議題成施力點 | 國際",
-      "url": "https://www.cna.com.tw:443/news/aopl/202605113002.aspx",
-      "published_at": "20260511T064500Z",
-      "source": "cna.com.tw",
+      "id": "gdelt_fd52050655cf60cd",
+      "headline": "21 - й пакет санкций ЕС против России : под ударом банки , ВПК и Патриарх Кирилл",
+      "url": "https://www.obozrevatel.com/ekonomika-glavnaya/economy/kradenoe-zerno-i-tenevoj-flot-stalo-izvestno-chto-popadet-v-21-j-paket-sanktsij-protiv-kremlya.htm",
+      "published_at": "20260511T090000Z",
+      "source": "obozrevatel.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b98b4c01d9d26b95",
+      "headline": "台股女營業員遭億級大戶要求 「 肉體換業績 ！」 崩潰 ： 砍手續費還佔便宜 | 財經 | 三立新聞網 SETN . COM",
+      "url": "https://www.setn.com/News.aspx?NewsID=1836847",
+      "published_at": "20260511T093000Z",
+      "source": "setn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a44ca4a2173f9c57",
+      "headline": "Po Orbanovem odhodu možen dogovor",
+      "url": "https://www.zurnal24.si/svet/po-orbanovem-odhodu-mozen-dogovor-458839",
+      "published_at": "20260511T093000Z",
+      "source": "zurnal24.si",
+      "tags": []
+    },
+    {
+      "id": "gdelt_39f0df1da2da1313",
+      "headline": "涉助伊朗軍工鏈與衛星影像 ， 美制裁數家中港企業",
+      "url": "https://technews.tw/2026/05/11/us-imposes-sanctions-on-10-individuals-companies-for-aiding-irans-weapons-sector/",
+      "published_at": "20260511T063000Z",
+      "source": "technews.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7f77272fa711c7db",
+      "headline": "Почему банки в ФРГ блокируют счета россиян и белорусов ?",
+      "url": "https://www.dw.com/ru/pocemu-banki-v-germanii-blokiruut-sceta-rossian-i-belorusov/a-77104629",
+      "published_at": "20260511T114500Z",
+      "source": "dw.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_83785b3462f802bb",
+      "headline": "Saygı ! serisinin yeni konuğu belli oldu : O isim ...",
+      "url": "https://www.bursadabugun.com/haber/saygi-serisinin-yeni-konugu-belli-oldu-o-isim-1921557.html",
+      "published_at": "20260511T090000Z",
+      "source": "bursadabugun.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c6f7908416776c6f",
+      "headline": "Stižu nova pravila za B kategoriju : Evo što će se sve moći voziti",
+      "url": "https://www.tportal.hr/autozona/clanak/stizu-nova-pravila-za-b-kategoriju-evo-sto-ce-se-sve-moci-voziti-20260511",
+      "published_at": "20260511T094500Z",
+      "source": "tportal.hr",
       "tags": []
     },
     {
@@ -603,16 +936,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_de40f05394dc7048",
-      "headline": "Putin shadow fleet faces fresh EU sanctions blitz – POLITICO",
-      "url": "https://www.politico.eu/article/russia-vladimir-putin-shadow-fleet-target-eu-sanctions/",
-      "published_at": "20260511T041500Z",
-      "source": "politico.eu",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
       "id": "gdelt_d158e35677aa170f",
       "headline": "Strade , autostrade e trafori : collegamenti di oggi e di domani …, un incontro a Cuneo - Targatocn . it",
       "url": "https://www.targatocn.it/2026/05/11/leggi-notizia/argomenti/attualita/articolo/strade-autostrade-e-trafori-collegamenti-di-oggi-e-di-domani-un-incontro-a-cuneo.html",
@@ -621,11 +944,35 @@
       "tags": []
     },
     {
-      "id": "gdelt_59b03ca3a1a38c73",
-      "headline": "Iran - Krieg : Trump weist Teherans Antwort auf Friedensvorschlag zurück – „ völlig inakzeptabel",
-      "url": "http://www.tz.de/politik/hormus-trump-reagiert-spottisch-iran-aktuell-eskalation-in-strasse-von-zr-94297472.html",
-      "published_at": "20260511T050000Z",
-      "source": "tz.de",
+      "id": "gdelt_fcd735482fb7741e",
+      "headline": "Бела кућа : Одговор Ирана на амерички предлог неприхватљив ; Техеран : Не преговарамо да бисмо удовољили Трампу",
+      "url": "https://www.rts.rs/vesti/svet/5946674/bela-kuca-odgovor-irana-na-americki-predlog-neprihvatljiv-teheran-ne-pregovaramo-da-bismo-udovoljili-trampu.html",
+      "published_at": "20260511T063000Z",
+      "source": "rts.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_acd680c01ab9ded9",
+      "headline": "川習會前夕美頻出招壓制北京 伊朗議題成施力點 | 國際",
+      "url": "https://www.cna.com.tw:443/news/aopl/202605113002.aspx",
+      "published_at": "20260511T064500Z",
+      "source": "cna.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ff728a163fd1fece",
+      "headline": "Homem desaparece enquanto esperava esposa fazer compras no Paraguai",
+      "url": "https://g1.globo.com/pr/oeste-sudoeste/noticia/2026/05/11/paranaense-desaparece-em-foz-do-iguacu.ghtml",
+      "published_at": "20260511T111500Z",
+      "source": "g1.globo.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b047cf1c172de37f",
+      "headline": "Pezeshkian Diplomacy : Iran Balances Resistance , Regional Outreach and Global Pressure",
+      "url": "https://www.ummid.com/news/2026/5/11/pezeshkian-diplomacy-iran-balances-resistance-regional-outreach-and-global-pressure.html",
+      "published_at": "20260511T091500Z",
+      "source": "ummid.com",
       "tags": []
     },
     {
@@ -637,401 +984,43 @@
       "tags": []
     },
     {
-      "id": "gdelt_eddd30a227b9c2cd",
-      "headline": "IPO - Fantasie bei Kraken : Kommt mit der Kraken - Aktie jetzt der nächste Krypto - Börsenriese ?",
-      "url": "https://www.finanzen.net/nachricht/aktien/boersenplaene-ipo-in-sicht-krypto-boerse-kraken-will-bald-an-die-boerse-gehen-und-setzt-auf-strategische-partnerschaft-00-15670473",
-      "published_at": "20260511T054500Z",
-      "source": "finanzen.net",
+      "id": "gdelt_f6f32b753980830a",
+      "headline": "Syarat Damai , Iran Tuntut AS Cabut Sanksi Ekspor Minyak",
+      "url": "https://koran-jakarta.com/2026-05-11/syarat-damai-iran-tuntut-as-cabut-sanksi-ekspor-minyak",
+      "published_at": "20260511T090000Z",
+      "source": "koran-jakarta.com",
       "tags": []
     },
     {
-      "id": "gdelt_8dd9c3dd88e29be0",
-      "headline": "Iran Tolak Serahkan Uranium , Tuntut AS Cabut Sanksi dan Akui Kendali Selat Hormuz",
-      "url": "https://siap.viva.co.id/news/25155-iran-tolak-serahkan-uranium-tuntut-as-cabut-sanksi-dan-akui-kendali-selat-hormuz",
-      "published_at": "20260511T031500Z",
-      "source": "siap.viva.co.id",
+      "id": "gdelt_2dc228dbb4585aaf",
+      "headline": "ЕС готовит удар по Кремлю – Politico",
+      "url": "https://glavred.info/world/es-gotovit-udar-po-rf-chtoby-prinudit-putina-k-mirnomu-soglasheniyu-letom-politico-10763648.html",
+      "published_at": "20260511T090000Z",
+      "source": "glavred.info",
       "tags": []
     },
     {
-      "id": "gdelt_e7b317a465eb7a13",
-      "headline": "Bela kuća : Odgovor Irana na američki predlog neprihvatljiv ; Teheran : Ne pregovaramo da bismo udovoljili Trampu",
-      "url": "https://naslovi.net/2026-05-11/rts/bela-kuca-odgovor-irana-na-americki-predlog-neprihvatljiv-teheran-ne-pregovaramo-da-bismo-udovoljili-trampu/41798240",
-      "published_at": "20260511T071500Z",
-      "source": "naslovi.net",
+      "id": "gdelt_f73dab2ac716290f",
+      "headline": "Một công ty dược ở Lâm Đồng bị phạt 145 triệu đồng vì sai phạm thuốc",
+      "url": "https://baomoi.com/mot-cong-ty-duoc-o-lam-dong-bi-phat-145-trieu-dong-vi-sai-pham-thuoc-c55132127.epi",
+      "published_at": "20260511T110000Z",
+      "source": "baomoi.com",
       "tags": []
     },
     {
-      "id": "gdelt_4afd07197320ebd2",
-      "headline": "创新分层孵化机制 石狮跨境电商工作经验获全省推广 - 泉州网|泉州晚报社 泉州新闻门户网站",
-      "url": "https://www.qzwb.com/gb/content/2026-05/11/content_9230018.htm",
-      "published_at": "20260511T031500Z",
-      "source": "qzwb.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e7253ff1b473c86c",
-      "headline": "Nobelpreisträger Bialiatski fordert EU - Sanktionen gegen Belarus",
-      "url": "https://www.vol.at/nobelpreistraeger-fordert-sanktionen-gegen-regime-in-belarus/10163270",
-      "published_at": "20260511T041500Z",
-      "source": "vol.at",
-      "tags": [
-        "BELARUS"
-      ]
-    },
-    {
-      "id": "gdelt_b9a529f3ca891f73",
-      "headline": "ЕС может ввести санкции против израильских поселенцев",
-      "url": "https://www.mk.ru/politics/2026/05/11/es-mozhet-vvesti-sankcii-protiv-izrailskikh-poselencev.html",
-      "published_at": "20260511T073000Z",
-      "source": "mk.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_88076d9b5ef69bba",
-      "headline": "EU ministers to increase pressure over deported Ukrainian children",
-      "url": "https://www.yahoo.com/news/articles/eu-ministers-increase-pressure-over-020839591.html",
-      "published_at": "20260511T031500Z",
-      "source": "yahoo.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5aff16afcc41016a",
-      "headline": "Israel quiere reducir  a cero  la ayuda militar de EEUU | Noticias La Tribuna de Albacete",
-      "url": "https://www.latribunadealbacete.es/noticia/z97896dd4-a46d-4174-aa4468602e1b2b56/202605/israel-quiere-reducir-a-cero-la-ayuda-militar-de-eeuu",
-      "published_at": "20260511T073000Z",
-      "source": "latribunadealbacete.es",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f555db904bc111e1",
-      "headline": "中美峰会交易清单预测 - 博客",
-      "url": "https://blog.wenxuecity.com/myblog/70246/202605/5895.html",
-      "published_at": "20260511T033000Z",
-      "source": "blog.wenxuecity.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e83518886daca0ee",
-      "headline": "是什么让特朗普非常生气 ？ 伊朗媒体公布德黑兰对美国和平方案回应的要点 _ 财经要闻 _ 黄金网 _ 中金在线",
-      "url": "http://gold.cnfol.com/caijingyaowen/20260511/32214692.shtml",
-      "published_at": "20260511T063000Z",
-      "source": "gold.cnfol.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_eaa1f5ddd3016ecf",
-      "headline": "Интернет : Великобритания ежегодно тратит €19 млн на Starlink для Украины .",
-      "url": "https://gazeta.ua/ru/articles/world-life/_velikobritaniya-ezhegodno-tratit--19-mln-na-starlink-dlya-ukrainy/1250142",
-      "published_at": "20260511T070000Z",
-      "source": "gazeta.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_66b8d6b864feb58b",
-      "headline": "Strengthening ties : RBI and ECB ink landmark cooperation pact",
-      "url": "https://timesofoman.com/article/171647-strengthening-ties-rbi-and-ecb-ink-landmark-cooperation-pact",
-      "published_at": "20260511T053000Z",
-      "source": "timesofoman.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_09ea7dee2e6e381e",
-      "headline": "失智人口逐年攀升 立委籲將團體家屋納長照給支付制 | 失智 | 劉建國 | 林月琴",
-      "url": "http://www.epochtimes.com.tw/n502844/%E5%A4%B1%E6%99%BA%E4%BA%BA%E5%8F%A3%E9%80%90%E5%B9%B4%E6%94%80%E5%8D%87-%E7%AB%8B%E5%A7%94%E7%B1%B2%E5%B0%87%E5%9C%98%E9%AB%94%E5%AE%B6%E5%B1%8B%E7%B4%8D%E9%95%B7%E7%85%A7%E7%B5%A6%E6%94%AF%E4%BB%98%E5%88%B6.html",
-      "published_at": "20260511T073000Z",
-      "source": "epochtimes.com.tw",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7d85a43c52a159a1",
-      "headline": "وزيرا خارجية مصر وتركيا يبحثان تطورات المسار التفاوضي بين أمريكا وإيران",
-      "url": "https://www.dostor.org/5549005",
-      "published_at": "20260511T071500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_dd88bd8efb23d3de",
-      "headline": "Nobelpreisträger fordert Sanktionen gegen Regime in Belarus | Tiroler Tageszeitung – Aktuelle Nachrichten auf tt . com",
-      "url": "https://www.tt.com/artikel/30933730/nobelpreistraeger-fordert-sanktionen-gegen-regime-in-belarus",
-      "published_at": "20260511T043000Z",
-      "source": "tt.com",
-      "tags": [
-        "BELARUS"
-      ]
-    },
-    {
-      "id": "gdelt_3b77ef7325721708",
-      "headline": "Iranian official says response based on regional consultations",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iranian-official-says-response-based-regional-consultations",
-      "published_at": "20260511T033000Z",
-      "source": "middleeasteye.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5ad44741329b1a7f",
-      "headline": "نتنياهو : يجب أن تتوقف إسرائيل عن الاعتماد على المساعدات العسكرية الأمريكية",
-      "url": "https://arabic.cnn.com/middle-east/article/2026/05/11/netanyahu-says-israel-should-end-reliance-on-us-military-aid-and-social-media-hurt-us-badly",
-      "published_at": "20260511T073000Z",
-      "source": "arabic.cnn.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b1d3df3e46e0b511",
-      "headline": "Нетаньяху заявил о планах Израиля сократить военную помощь со стороны США",
-      "url": "https://life.ru/p/1873745",
-      "published_at": "20260511T033000Z",
+      "id": "gdelt_45b1b5973fd785bc",
+      "headline": "Захарова предложила Лондону вызвать санитаров после санкций против психбольницы",
+      "url": "https://life.ru/p/1873875",
+      "published_at": "20260511T111500Z",
       "source": "life.ru",
       "tags": []
     },
     {
-      "id": "gdelt_a9f68618d2a663a3",
-      "headline": "Skuad Persipura Dibubarkan Usai Tanding Lawan Adhyaksa FC , Sanksi Berat Mengadang",
-      "url": "https://banjarmasin.tribunnews.com/superball/1360969/skuad-persipura-dibubarkan-usai-tanding-lawan-adhyaksa-fc-sanksi-berat-mengadang",
-      "published_at": "20260511T071500Z",
-      "source": "banjarmasin.tribunnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6f2557eb379dced0",
-      "headline": "ЄС готує 21 пакет санкцій проти рф . У фокусі тіньовий флот та банки деталі",
-      "url": "https://ain.ua:443/2026/05/11/jes-gotuje-novii-paket-sankcii-proti-rosiyi/",
-      "published_at": "20260511T080000Z",
-      "source": "ain.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b5b2a2e27d308a7e",
-      "headline": "Trump Rejects Iran Deal as Oil Surges , Strait of Hormuz Crisis Deepen",
-      "url": "https://www.kyivpost.com/post/75841",
-      "published_at": "20260511T073000Z",
-      "source": "kyivpost.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_527a39f73294e9aa",
-      "headline": "特朗普声称伊朗47年来一直在  玩弄  美国 强硬回应无缓和余地 _ 军事频道 _ 中华网",
-      "url": "https://military.china.com/news/13004177/20260511/49485612.html",
-      "published_at": "20260511T030000Z",
-      "source": "military.china.com",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
-      "id": "gdelt_1153ce68c819d5bd",
-      "headline": "Рынок акций РФ открылся в утреннюю сессию ростом индекса IMOEX2 на 1 , 9 %",
-      "url": "https://www.interfax.ru/russia/1088798",
-      "published_at": "20260511T050000Z",
-      "source": "interfax.ru",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "gdelt_f1bbba53e8e01414",
-      "headline": "Đề xuất bỏ tịch thu , tạm giữ xe với 4 lỗi vi phạm giao thông",
-      "url": "https://vnreview.vn/threads/de-xuat-bo-tich-thu-tam-giu-xe-voi-4-loi-vi-pham-giao-thong.82761/",
-      "published_at": "20260511T041500Z",
-      "source": "vnreview.vn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c8543dbb41931d18",
-      "headline": "САД појачавају извиђачке летове код Кубе , уочена нагла ескалација активности",
-      "url": "https://sputnikportal.rs/20260511/sad-pojacavaju-izvidjacke-letove-kod-kube-uocena-nagla-eskalacija-aktivnosti-1199062148.html",
-      "published_at": "20260511T064500Z",
-      "source": "sputnikportal.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7c89469472694ec5",
-      "headline": "Trump heads to China to confront Xi over support for Iran : Why Beijing holds more power than ever",
-      "url": "https://www.moneycontrol.com/world/trump-heads-to-china-to-confront-xi-over-support-for-iran-why-beijing-holds-more-power-than-ever-explained-article-13914805.html",
-      "published_at": "20260511T061500Z",
-      "source": "moneycontrol.com",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
-      "id": "gdelt_a6468d9ab7ed4867",
-      "headline": "Trump Murka soal Respons Iran atas Proposal Damai , Apa yang Dituntut Teheran ?",
-      "url": "https://www.kompas.com/tren/read/2026/05/11/121500665/trump-murka-soal-respons-iran-atas-proposal-damai-apa-yang-dituntut-teheran",
-      "published_at": "20260511T054500Z",
-      "source": "kompas.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b8a38df3840cd288",
-      "headline": "US Iran war news LIVE : Oil jumps over $105 per barrel amid Hormuz crisis as Trump rejects Iran proposal response",
-      "url": "https://www.hindustantimes.com/world-news/us-iran-war-news-live-updates-trump-proposal-tehran-strait-of-hormuz-uae-dubai-ceasefire-israel-netanyahu-latest-news-101778462313541.html",
-      "published_at": "20260511T040000Z",
-      "source": "hindustantimes.com",
-      "tags": [
-        "UAE"
-      ]
-    },
-    {
-      "id": "gdelt_1600b41e28a5f8ad",
-      "headline": "Нетаньяху : Войну в Ливане не прекратим , но откажемся от военной помощи США",
-      "url": "https://haqqin.az/newsarchive/383470",
-      "published_at": "20260511T030000Z",
-      "source": "haqqin.az",
-      "tags": []
-    },
-    {
-      "id": "gdelt_201cb19eefab6cd3",
-      "headline": "伊朗媒体公布伊朗回应美方要点",
-      "url": "https://news.hangzhou.com.cn/gjxw/content/2026-05/11/content_9220343.htm",
-      "published_at": "20260511T063000Z",
-      "source": "news.hangzhou.com.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cdedd9696d3b8e3e",
-      "headline": "( 창간기획 - 반도체 전쟁 ) ①중국 반도체 굴기 , 미국이 앞당겼다",
-      "url": "http://www.newstomato.com/ReadNews.aspx?no=1300277",
-      "published_at": "20260511T073000Z",
-      "source": "newstomato.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_602d270c4a1767de",
-      "headline": "Trump Rejects Iran Response To US War - End Proposal , Calls It  Unacceptable",
-      "url": "https://www.khaama.com/trump-rejects-iran-response-to-us-war-end-proposal-calls-it-unacceptable/",
-      "published_at": "20260511T054500Z",
-      "source": "khaama.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8620d2006b4ba254",
-      "headline": "Lebanese PM : Open to peace with Israel under specific conditions",
-      "url": "https://www.israelnationalnews.com/news/426873",
-      "published_at": "20260511T050000Z",
-      "source": "israelnationalnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_18041bd6d0190470",
-      "headline": "Иран согласился на поэтапное открытие Ормуза",
-      "url": "https://haqqin.az/newsarchive/383479",
-      "published_at": "20260511T071500Z",
-      "source": "haqqin.az",
-      "tags": []
-    },
-    {
-      "id": "gdelt_62412362a4739b65",
-      "headline": "محلل سياسي : رفض ترامب للمقترح الإيراني ينذر بتصعيد جديد في مضيق هرمز",
-      "url": "https://www.dostor.org/5548924",
-      "published_at": "20260511T071500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9babe446f64e7fc3",
-      "headline": "Понад 40 країн обговорять місію супроводу суден через Ормузьку протоку",
-      "url": "https://www.pravda.com.ua/news/2026/05/11/8034123/",
-      "published_at": "20260511T041500Z",
-      "source": "pravda.com.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2fdec34fcce23046",
-      "headline": "Санкції проти Росії – ЄС готує новий пакет і хоче змусити Путіна укласти мирну угоду вже влітку",
-      "url": "https://www.unian.ua/economics/other/sankciji-proti-rosiji-yes-gotuye-noviy-paket-i-hoche-zmusiti-putina-uklasti-mirnu-ugodu-vzhe-vlitku-13377918.html",
-      "published_at": "20260511T054500Z",
-      "source": "unian.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f5e054d390fd276b",
-      "headline": "Израел планира да се откаже напълно от американската финансова подкрепа",
-      "url": "https://www.focus-news.net/novini/mejdunarodni/Izrael-planira-da-se-otkazhe-napulno-ot-amerikanskata-finansova-podkrepa-2963903",
-      "published_at": "20260511T050000Z",
-      "source": "focus-news.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fe1cd7ee9cf393c0",
-      "headline": "Puluhan Orang Tewas di Papua , Pigai : Perlu Keputusan Politik Tingkat Tinggi Akhiri Konflik ! : Okezone News",
-      "url": "https://news.okezone.com/read/2026/05/11/337/3217650/puluhan-orang-tewas-di-papua-pigai-perlu-keputusan-politik-tingkat-tinggi-akhiri-konflik",
-      "published_at": "20260511T051500Z",
-      "source": "news.okezone.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d32a7a07fbd5a148",
-      "headline": "« Εντελώς απαράδεκτη » η ιρανική πρόταση – Οργισμένη αντίδραση Τραμπ φουντώνει την ένταση",
-      "url": "https://dialogos.com.cy/entelos-aparadekti-i-iraniki-protasi-orgismeni-antidrasi-tramp-foyntonei-tin-entasi/",
-      "published_at": "20260511T064500Z",
-      "source": "dialogos.com.cy",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0b95a5ecfe94ba85",
-      "headline": "BoE Bailey sees a Potential  Wrestle  With US Over Stablecoins",
-      "url": "https://cointelegraph.com/news/boe-governer-global-stablecoin-rules-wrestle-with-us",
-      "published_at": "20260511T080000Z",
-      "source": "cointelegraph.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_06bea8db4c4707ba",
-      "headline": "伊朗媒体公布德黑兰回应美方要点",
-      "url": "https://www.zaobao.com.sg/news/world/story20260511-9028115",
-      "published_at": "20260511T041500Z",
-      "source": "zaobao.com.sg",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3c04360b879a2abd",
-      "headline": "Евросоюз расширит санкции против России",
-      "url": "https://haqqin.az/newsarchive/383475",
-      "published_at": "20260511T071500Z",
-      "source": "haqqin.az",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bbcb37ad3b1e7261",
-      "headline": "محلل سياسي : ترامب يسعى لتوسيع دائرة الضغط على إيران",
-      "url": "https://www.dostor.org/5548953",
-      "published_at": "20260511T071500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1d6d81417da0a747",
-      "headline": "Ticino , la busta paga dei frontalieri : ancora un divario del 19 % rispetto ai residenti",
-      "url": "https://www.tio.ch/newsblog/valute-e-frontiere/1921863/ticino-la-busta-paga-dei-frontalieri-ancora-un-divario-del-19-rispetto-ai-residenti",
-      "published_at": "20260511T073000Z",
-      "source": "tio.ch",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e6d88321f7533ae2",
-      "headline": "Returning Ukrainian children illegally deported by Russia very difficult",
-      "url": "https://en.interfax.com.ua/news/general/1166484.html",
-      "published_at": "20260511T071500Z",
-      "source": "en.interfax.com.ua",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "gdelt_18025978529036c9",
-      "headline": "Objavljeni detalji iranskih zahtjeva za mir koje je Tramp ekspresno odbio",
-      "url": "https://www.portalanalitika.me/clanak/objavljeni-detalji-iranskih-zahtjeva-za-mir-koje-je-tramp-ekspresno-odbio",
-      "published_at": "20260511T064500Z",
-      "source": "portalanalitika.me",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6702f92cb48e3549",
-      "headline": "Iran responds to U . S . ceasefire proposal but Trump rejects it as  unacceptable  – Butler Eagle",
-      "url": "https://www.butlereagle.com/20260510/iran-responds-to-u-s-ceasefire-proposal-but-trump-rejects-it-as-unacceptable/",
-      "published_at": "20260511T030000Z",
-      "source": "butlereagle.com",
+      "id": "gdelt_918fd45c92a000e0",
+      "headline": "Përse Trump refuzoi përgjigjen e Iranit ndaj propozimit të fundit të SHBA - së për ti dhënë fund luftës",
+      "url": "https://kohajone.com/bota/perse-trump-refuzoi-pergjigjen-e-iranit-ndaj-propozimit-te-fundit-te-shba-se-per-ti-dhene-fund-luftes/",
+      "published_at": "20260511T083000Z",
+      "source": "kohajone.com",
       "tags": []
     }
   ]
