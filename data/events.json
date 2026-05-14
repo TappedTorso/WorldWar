@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-05-14T13:04:23Z",
+    "generated_at_utc": "2026-05-14T15:30:24Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "url_error reason=timed out",
         "fetched": 0
       },
       {
@@ -33,6 +33,14 @@
   },
   "events": [
     {
+      "id": "gdelt_1642f901e667905b",
+      "headline": "In The Room : Former Officials On National Security And Other Enforcement Issues And What It Means For Your Business",
+      "url": "https://www.mondaq.com:443/unitedstates/export-controls-trade-investment-sanctions/1786806/in-the-room-former-officials-on-national-security-and-other-enforcement-issues-and-what-it-means-for-your-business",
+      "published_at": "20260514T124500Z",
+      "source": "mondaq.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_d2e522bb400f68c1",
       "headline": "Peace cannot be piecemeal : India flags serious concerns over West Asia crisis , unilateral sanctions",
       "url": "https://www.thehindubusinessline.com/news/peace-cannot-be-piecemeal-india-flags-serious-concerns-over-west-asia-crisis-unilateral-sanctions/article70977963.ece",
@@ -53,14 +61,6 @@
       ]
     },
     {
-      "id": "gdelt_c2f7a721f7152dde",
-      "headline": "СМИ : Индия попросила США продлить действие лицензии на российскую нефть",
-      "url": "https://ria.ru/20260514/indija-2092417945.html",
-      "published_at": "20260514T091500Z",
-      "source": "ria.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_1191c95ba5c1f422",
       "headline": "Jaishankar Calls For UN Reform , Gaza Ceasefire At BRICS Meet",
       "url": "https://dailypioneer.com/news/india-calls-for-un-security-council-reform-gaza-ceasefire-at-brics-foreign-ministers-meet",
@@ -68,48 +68,6 @@
       "source": "dailypioneer.com",
       "tags": [
         "INDIA"
-      ]
-    },
-    {
-      "id": "gdelt_f23193a9cb6d50b1",
-      "headline": "Eichengreen : Gold stack - ups by central banks reflect dismal prospects of globalization",
-      "url": "https://www.livemint.com/opinion/online-views/eichengreen-gold-holding-central-banks-globalization-deglobalization-rbi-currency-11778675923670.html",
-      "published_at": "20260514T091500Z",
-      "source": "livemint.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_84d17ec6bf9221c2",
-      "headline": "СМИ узнали о просьбе Индии к США продлить лицензию на российскую нефть",
-      "url": "https://1prime.ru/20260514/neft-869921148.html",
-      "published_at": "20260514T093000Z",
-      "source": "1prime.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fe606dc9830040d5",
-      "headline": "Xflow Becomes the First Cross - Border Payments Platform to Bring Compliant Stablecoin Acceptance to Indian Businesses",
-      "url": "https://aninews.in/news/business/xflow-becomes-the-first-cross-border-payments-platform-to-bring-compliant-stablecoin-acceptance-to-indian-businesses20260514131412/",
-      "published_at": "20260514T083000Z",
-      "source": "aninews.in",
-      "tags": []
-    },
-    {
-      "id": "gdelt_57d39eb97e71ffbd",
-      "headline": "ΠΦΣ : Επικαιροποιημένος Οδηγός για τις διασυνοριακές συνταγές",
-      "url": "https://www.newsnowgr.com/article/1465991/pfs-epikairopoiimenos-odigos-gia-tis-diasynoriakes-syntages.html",
-      "published_at": "20260514T083000Z",
-      "source": "newsnowgr.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2380ae727cd7645d",
-      "headline": "Бунт против воли Трампа : демократы попытаются выбить $1 , 3 млрд для Украины",
-      "url": "https://www.pravda.ru/world/2351963-us-congress-ukraine-funding-deadlock/",
-      "published_at": "20260514T093000Z",
-      "source": "pravda.ru",
-      "tags": [
-        "UKRAINE"
       ]
     },
     {
@@ -121,14 +79,6 @@
       "tags": [
         "PAKISTAN"
       ]
-    },
-    {
-      "id": "gdelt_e85cc89626eb06dc",
-      "headline": "Una  Città dei Laghi , innovativa e transfrontaliera",
-      "url": "http://www.tio.ch/ticino/attualita/1925395/una-citta-dei-laghi-innovativa-e-transfrontaliera",
-      "published_at": "20260514T081500Z",
-      "source": "tio.ch",
-      "tags": []
     },
     {
       "id": "gdelt_806d1605d2d15f54",
@@ -174,31 +124,28 @@
       "tags": []
     },
     {
+      "id": "gdelt_0c3e837d1c152023",
+      "headline": "Фильм о добровольцах и сотрудниках Патриаршей гуманитарной миссии получил награду на Международном фестивале кино",
+      "url": "https://radonezh.ru/2026/05/14/film-o-dobrovolcah-i-sotrudnikah-patriarshey-gumanitarnoy-missii-poluchil-nagradu-na",
+      "published_at": "20260514T131500Z",
+      "source": "radonezh.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_32f635185e1267d9",
+      "headline": "В Даугавпилсе состоялась встреча с бригадным генералом , историком и издателем",
+      "url": "https://www.gorod.lv/novosti/366045-v-daugavpilse-sostoyalas-vstrecha-s-brigadnym-generalom-istorikom-i-izdatelem",
+      "published_at": "20260514T124500Z",
+      "source": "gorod.lv",
+      "tags": []
+    },
+    {
       "id": "gdelt_1d99b57e0e84258d",
       "headline": "Trump maritime marauding is a sign of a desperate empire in decline",
       "url": "https://english.hani.co.kr/arti/english_edition/e_international/1258712.html",
       "published_at": "20260514T124500Z",
       "source": "english.hani.co.kr",
       "tags": []
-    },
-    {
-      "id": "gdelt_3c37ebd7ed7fe959",
-      "headline": "NYT : китайские компании обсуждали тайные поставки оружия Ирану | MigNews - Новости Израиля и Мира на русском языке",
-      "url": "http://mignews.com/news/politic/nyt-kitajskie-kompanii-obsuzhdali-tajnye-postavki-oruzhiya-iranu.html",
-      "published_at": "20260514T084500Z",
-      "source": "mignews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c1e2cea1f6cc4436",
-      "headline": "China balancing act on Iran - World - Al - Ahram Weekly",
-      "url": "https://english.ahram.org.eg/News/567810.aspx",
-      "published_at": "20260514T080000Z",
-      "source": "english.ahram.org.eg",
-      "tags": [
-        "IRAN",
-        "CHINA"
-      ]
     },
     {
       "id": "gdelt_750e90adc66f0a75",
@@ -217,19 +164,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_ea94b7d4c0baba8c",
-      "headline": "« Командир с железным характером »: военкор рассказал о боевом генерале , который стал врио губернатора Белгородской области",
-      "url": "https://www.mk.ru/politics/2026/05/14/komandir-s-zheleznym-kharakterom-voenkor-rasskazal-o-boevom-generale-kotoryy-stal-vrio-gubernatora-belgorodskoy-oblasti.html",
-      "published_at": "20260514T081500Z",
-      "source": "mk.ru",
+      "id": "gdelt_fccb64d8730dbd44",
+      "headline": "Viaggiare in treno in Europa non sarà più unodissea : arriva il  biglietto unico  per tutte le tratte  - Targatocn . it",
+      "url": "https://www.targatocn.it/2026/05/14/leggi-notizia/argomenti/economia-7/articolo/viaggiare-in-treno-in-europa-non-sara-piu-unodissea-arriva-il-biglietto-unico-per-tutte-le-t-4.html",
+      "published_at": "20260514T130000Z",
+      "source": "targatocn.it",
       "tags": []
     },
     {
-      "id": "gdelt_2eaedb671cf74a72",
-      "headline": "Turkmenistan hosts 84th meeting of CIS railway transport council",
-      "url": "https://www.trend.az/business/4185722.html",
-      "published_at": "20260514T071500Z",
-      "source": "trend.az",
+      "id": "gdelt_e47896c1c95b8251",
+      "headline": "Первая трансграничная перевозка грузов беспилотными КамАЗами 28 мая",
+      "url": "https://www.kommersant.ru/doc/8655736",
+      "published_at": "20260514T133000Z",
+      "source": "kommersant.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_de3f21ac6d3eb445",
+      "headline": "Лантратова назвала главным приоритетом своей работы поддержку участников СВО",
+      "url": "https://www.vesti.ru/ns/lantratova-nazvala-glavnym-prioritetom-svoej-raboty-podderzhku-uchastnikov-svo",
+      "published_at": "20260514T133000Z",
+      "source": "vesti.ru",
       "tags": []
     },
     {
@@ -265,22 +220,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_7370ebff930a2ce3",
-      "headline": "율촌 , M & A 4본부 체제 개편 … 신현화 · 이수연 · 황규상 · 이태혁 전면에 [ 마켓인 ]",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=06455046645448920&mediaCodeNo=257",
-      "published_at": "20260514T091500Z",
-      "source": "edaily.co.kr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_97f58a8fd0ea982e",
-      "headline": "No justification for terrorism in any form : EAM Jaishankar at BRICS FM Meeting",
-      "url": "https://news.webindia123.com/news/Articles/World/20260514/4450075.html",
-      "published_at": "20260514T093000Z",
-      "source": "news.webindia123.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_220dcf670d866add",
       "headline": "Полянский : каждый удар по России оружием Запада приближает к точке невозврата",
       "url": "https://russian.rt.com/ussr/news/1631839-polyanskii-oruzhie-zapad-tochka-nevozvrata",
@@ -313,31 +252,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_9c7a9d9ad192e309",
-      "headline": "Trumps China - Reise ohne Glanz : Chinas Presse zeigt wenig Euphorie",
-      "url": "http://www.merkur.de/politik/trumps-china-reise-ohne-glanz-chinas-presse-zeigt-wenig-euphorie-zr-94306326.html",
-      "published_at": "20260514T083000Z",
-      "source": "merkur.de",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
-      "id": "gdelt_a4de6f4015080ce0",
-      "headline": "Trumps China - Reise ohne Glanz : Chinas Presse zeigt wenig Euphorie",
-      "url": "http://www.tz.de/politik/trumps-china-reise-ohne-glanz-chinas-presse-zeigt-wenig-euphorie-zr-94306326.html",
-      "published_at": "20260514T080000Z",
-      "source": "tz.de",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
-      "id": "gdelt_41bab214d7100d38",
-      "headline": "Trumps China - Reise ohne Glanz : Chinas Presse zeigt wenig Euphorie",
-      "url": "http://www.hna.de/politik/trumps-china-reise-ohne-glanz-chinas-presse-zeigt-wenig-euphorie-zr-94306326.html",
-      "published_at": "20260514T080000Z",
-      "source": "hna.de",
+      "id": "gdelt_33b32b00c942a0cc",
+      "headline": "Drohnenvorfall : Lettische Regierungschefin tritt zurück",
+      "url": "https://www.oe24.at/welt/drohnenvorfall-lettische-regierungschefin-tritt-zurueck/679435189",
+      "published_at": "20260514T133000Z",
+      "source": "oe24.at",
       "tags": []
     },
     {
@@ -357,11 +276,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_36fbd65c427f800b",
-      "headline": "Воздушные силы ВСУ заявили о самой масштабной атаке Армии России за 4 года",
-      "url": "https://life.ru/p/1875053",
-      "published_at": "20260514T093000Z",
-      "source": "life.ru",
+      "id": "gdelt_1c8381c4aedf5024",
+      "headline": "Deadline",
+      "url": "https://deadline.com/print-article/1236904465/",
+      "published_at": "20260514T150000Z",
+      "source": "deadline.com",
       "tags": []
     },
     {
@@ -371,24 +290,6 @@
       "published_at": "20260514T120000Z",
       "source": "bazonline.ch",
       "tags": []
-    },
-    {
-      "id": "gdelt_10c4ee8275317cc2",
-      "headline": "Lettland : Regierungschefin Silina tritt nach Drohnenstreit zurück",
-      "url": "https://www.bernerzeitung.ch/lettland-regierungschefin-silina-tritt-nach-drohnenstreit-zurueck-670072694135",
-      "published_at": "20260514T093000Z",
-      "source": "bernerzeitung.ch",
-      "tags": []
-    },
-    {
-      "id": "gdelt_19bbd93091fb6765",
-      "headline": "تقارير : بعد الصواريخ المحمولة على الكتف .. أسلحة صينية جديدة في طريقها إلى إيران ؟",
-      "url": "https://arabic.euronews.com/2026/05/14/china-iran-arms-trump-beijing",
-      "published_at": "20260514T093000Z",
-      "source": "arabic.euronews.com",
-      "tags": [
-        "IRAN"
-      ]
     },
     {
       "id": "gdelt_02575f927c7f04e2",
@@ -407,32 +308,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_f4dfab5725226b66",
-      "headline": "Макговерн заявил , что Зеленскому придется пойти на сделку с Кремлем",
-      "url": "https://utro.ru/news/ukraine/2026/05/14/1571817.shtml",
-      "published_at": "20260514T071500Z",
-      "source": "utro.ru",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "gdelt_b73fb995c1badf40",
-      "headline": "Lettland : Regierungschefin Evika Siliņa tritt nach Drohnen - Streit zurück",
-      "url": "https://www.t-online.de/nachrichten/ausland/id_101254680/lettland-regierungschefin-evika-silina-tritt-nach-drohnen-streit-zurueck.html",
-      "published_at": "20260514T091500Z",
-      "source": "t-online.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_37bef40238897f2f",
-      "headline": "東吳攜手ASU雷鳥 啟動全新雙聯學位",
-      "url": "https://n.yam.com/Article/20260514207731",
-      "published_at": "20260514T081500Z",
-      "source": "n.yam.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_14dd071042ff16d4",
       "headline": "PolyU International Future Challenge 2026 launched to drive innovative ventures through cross - border network of Mainland Translational Research Institutes",
       "url": "https://www.manilatimes.net/2026/05/14/tmt-newswire/media-outreach-newswire/polyu-international-future-challenge-2026-launched-to-drive-innovative-ventures-through-cross-border-network-of-mainland-translational-research-institutes/2343819",
@@ -441,27 +316,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_738db3d9a8f851cb",
-      "headline": "الجمهورية | قلق كبير من اقتران المفاوضات بتصعيد أمني",
-      "url": "https://www.aljoumhouria.com/ar/news/811586/%D9%82%D9%84%D9%82-%D9%83%D8%A8%D9%8A%D8%B1-%D9%85%D9%86-%D8%A7%D9%82%D8%AA%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA-%D8%A8%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D8%A7%D9%85%D9%86%D9%8A",
-      "published_at": "20260514T083000Z",
-      "source": "aljoumhouria.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_98a3ef11aed2946e",
-      "headline": "Samsung , akıllı yüzüğünü yeniliyor - Bilim Teknoloji Haberleri",
-      "url": "https://www.cnnturk.com/teknoloji/samsung-akilli-yuzugunu-yeniliyor-3422554",
-      "published_at": "20260514T093000Z",
-      "source": "cnnturk.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0b484e9f90edbe87",
-      "headline": "Dalle  memorie nere  alla giustizia climatica : doppio appuntamento al Mfsn",
-      "url": "https://www.udinetoday.it/eventi/cenere-memorie-pellizzoni-udine-15-maggio-2026.html",
-      "published_at": "20260514T120000Z",
-      "source": "udinetoday.it",
+      "id": "gdelt_aa36cc640efe41dc",
+      "headline": "Пашинян : Армения не присоединится к санкциям ЕС против России",
+      "url": "https://www.vesti.ru/ns/pashinyan-armeniya-ne-prisoedinitsya-k-sankciyam-es-protiv-rossii",
+      "published_at": "20260514T133000Z",
+      "source": "vesti.ru",
       "tags": []
     },
     {
@@ -473,11 +332,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_acd3fc0e21f072e7",
-      "headline": "ABDli yargıçtan tarihi karar : İsrail karşıtı avukata yaptırımları engelledi",
-      "url": "https://www.haberler.com/politika/abd-yargici-francesca-albanese-ye-yonelik-yaptirimlari-gecici-olarak-engelledi-19844274-haberi/",
-      "published_at": "20260514T083000Z",
-      "source": "haberler.com",
+      "id": "gdelt_0b484e9f90edbe87",
+      "headline": "Dalle  memorie nere  alla giustizia climatica : doppio appuntamento al Mfsn",
+      "url": "https://www.udinetoday.it/eventi/cenere-memorie-pellizzoni-udine-15-maggio-2026.html",
+      "published_at": "20260514T120000Z",
+      "source": "udinetoday.it",
       "tags": []
     },
     {
@@ -489,116 +348,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_c49055884fb6036e",
-      "headline": "Xflow Becomes the First Cross - Border Payments Platform to Bring Compliant Stablecoin Acceptance to Indian Businesses",
-      "url": "http://www.nepalnational.com/news/279049840/xflow-becomes-the-first-cross-border-payments-platform-to-bring-compliant-stablecoin-acceptance-to-indian-businesses",
-      "published_at": "20260514T093000Z",
-      "source": "nepalnational.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_44ffb39e6ec0b328",
-      "headline": "Xflow Becomes the First Cross - Border Payments Platform to Bring Compliant Stablecoin Acceptance to Indian Businesses",
-      "url": "http://www.heraldglobe.com/news/279049840/xflow-becomes-the-first-cross-border-payments-platform-to-bring-compliant-stablecoin-acceptance-to-indian-businesses",
-      "published_at": "20260514T093000Z",
-      "source": "heraldglobe.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e1d67200bf50f30c",
-      "headline": "Xflow Becomes the First Cross - Border Payments Platform to Bring Compliant Stablecoin Acceptance to Indian Businesses",
-      "url": "http://www.cambodiantimes.com/news/279049840/xflow-becomes-the-first-cross-border-payments-platform-to-bring-compliant-stablecoin-acceptance-to-indian-businesses",
-      "published_at": "20260514T083000Z",
-      "source": "cambodiantimes.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_08dd4d9829ff487f",
-      "headline": "魯比歐與習近平握手 梁文傑酸 ： 中國制裁的是 「 盧比歐 」 - 政治",
-      "url": "https://news.ltn.com.tw/news/politics/breakingnews/5437063",
-      "published_at": "20260514T093000Z",
-      "source": "news.ltn.com.tw",
-      "tags": []
-    },
-    {
-      "id": "gdelt_da5bd0520b35d47d",
-      "headline": "魯比歐與習近平握手 梁文傑酸 ： 中國制裁的是 「 盧比歐 」 - 臺北市",
-      "url": "https://news.ltn.com.tw/news/Taipei/breakingnews/5437063",
-      "published_at": "20260514T093000Z",
-      "source": "news.ltn.com.tw",
-      "tags": []
-    },
-    {
-      "id": "gdelt_336056bab4037626",
-      "headline": "مصر تقود الجهود لاحتواء التصعيد الإقليمي وخفض التوترات بالشرق الأوسط",
-      "url": "https://www.dostor.org/5554212",
-      "published_at": "20260514T093000Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e08da79e8dc7db7a",
-      "headline": "МИД Китая объяснил визит в страну попавшего под санкции Рубио",
-      "url": "https://lenta.ru/news/2026/05/14/mid-kitaya-ob-yasnil-vizit-v-stranu-popavshego-pod-sanktsii-rubio/",
-      "published_at": "20260514T093000Z",
-      "source": "lenta.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a426245c6862d8e5",
-      "headline": "Time . ai",
-      "url": "https://time.mk/ai/9257bbb421/mk/",
-      "published_at": "20260514T081500Z",
-      "source": "time.mk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0abbfff49cc579a5",
-      "headline": "Постсоветская страна не захотела помогать России в обходе санкций",
-      "url": "https://lenta.ru/news/2026/05/14/postsovetskaya-strana-ne-zahotela-pomogat-rossii-v-obhode-sanktsiy/",
-      "published_at": "20260514T093000Z",
-      "source": "lenta.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_dab9e5f7c59cc1bf",
-      "headline": "Нарышкин допустил возникновение новой волны эскалации вокруг Ирана",
-      "url": "https://aif.ru/politics/naryshkin-dopustil-vozniknovenie-novoy-volny-eskalacii-vokrug-irana",
-      "published_at": "20260514T091500Z",
-      "source": "aif.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f45375352ae635d6",
-      "headline": "Чемезов рассказал о развитии российской промышленности в условиях санкций",
-      "url": "https://1prime.ru/20260514/sanktsii-869919326.html",
-      "published_at": "20260514T093000Z",
-      "source": "1prime.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d69452ea34eb7cf0",
-      "headline": "В США приостановили действие санкций против Франчески Альбанезе",
-      "url": "https://ru.euronews.com/2026/05/14/ru-francesca-albanese-sanctions-us",
-      "published_at": "20260514T080000Z",
-      "source": "ru.euronews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_40c6a05651965ce9",
-      "headline": "ABDli yargıçtan tarihi karar : İsrail karşıtı avukata yaptırımları engelledi",
-      "url": "https://www.ensonhaber.com/abdli-yargictan-tarihi-karar-israil-karsiti-avukata-yaptirimlari-engelledi-h1534382",
-      "published_at": "20260514T083000Z",
-      "source": "ensonhaber.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_908782126ec7d4f7",
-      "headline": "APO Group - Africa Newsroom / Press release | Grey Joins Moonshot 2026 as Headline Sponsor",
-      "url": "https://www.africa-newsroom.com/press/grey-joins-moonshot-2026-as-headline-sponsor",
-      "published_at": "20260514T093000Z",
-      "source": "africa-newsroom.com",
-      "tags": []
+      "id": "gdelt_09a42fc326d8e709",
+      "headline": "Over 500 Detained Afghan Migrants Return From Pakistan",
+      "url": "https://www.khaama.com/over-500-detained-afghan-migrants-return-from-pakistan/",
+      "published_at": "20260514T133000Z",
+      "source": "khaama.com",
+      "tags": [
+        "PAKISTAN"
+      ]
     },
     {
       "id": "gdelt_eeb3306dd91f68ee",
@@ -617,30 +374,22 @@
       "tags": []
     },
     {
-      "id": "gdelt_9882a2ab6be0e45f",
-      "headline": "Canada trade : Push for more goods on China - owned platforms",
-      "url": "https://www.bnnbloomberg.ca/business/politics/2026/05/14/ottawa-pushing-to-get-canadian-companies-selling-goods-on-chinese-platforms/",
-      "published_at": "20260514T113000Z",
-      "source": "bnnbloomberg.ca",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9c46d410ee22499c",
-      "headline": "Preventing further escalation | The Peninsula Qatar",
-      "url": "http://thepeninsulaqatar.com/editorial/14/05/2026/preventing-further-escalation",
-      "published_at": "20260514T093000Z",
-      "source": "thepeninsulaqatar.com",
-      "tags": [
-        "QATAR"
-      ]
-    },
-    {
       "id": "gdelt_794b5593b71dd3bf",
       "headline": "„ Schutz der Meinungsfreiheit : US - Bundesrichter setzt gegen UN - Sonderbeauftragte Albanese verhängte Sanktionen aus",
       "url": "https://www.tagesspiegel.de/internationales/schutz-der-meinungsfreiheit-us-bundesrichter-setzt-gegen-un-sonderbeauftragte-albanese-verhangte-sanktionen-aus-15597359.html",
       "published_at": "20260514T120000Z",
       "source": "tagesspiegel.de",
       "tags": []
+    },
+    {
+      "id": "gdelt_9882a2ab6be0e45f",
+      "headline": "Canada trade : Push for more goods on China - owned platforms",
+      "url": "https://www.bnnbloomberg.ca/business/politics/2026/05/14/ottawa-pushing-to-get-canadian-companies-selling-goods-on-chinese-platforms/",
+      "published_at": "20260514T113000Z",
+      "source": "bnnbloomberg.ca",
+      "tags": [
+        "CHINA"
+      ]
     },
     {
       "id": "gdelt_8c87ca7d114b1695",
@@ -657,8 +406,17 @@
       "published_at": "20260514T103000Z",
       "source": "foxnews.com",
       "tags": [
+        "CHINA",
         "TAIWAN"
       ]
+    },
+    {
+      "id": "gdelt_2a8f3787f8ae6a78",
+      "headline": "Пашинян : Армения не намерена портить отношения с Россией",
+      "url": "https://www.kommersant.ru/doc/8655724",
+      "published_at": "20260514T133000Z",
+      "source": "kommersant.ru",
+      "tags": []
     },
     {
       "id": "gdelt_6612f0bb2dce107c",
@@ -668,6 +426,32 @@
       "source": "bankier.pl",
       "tags": [
         "UNITED_STATES"
+      ]
+    },
+    {
+      "id": "gdelt_97796699b83189ed",
+      "headline": "Federal judge halts US sanctions against UN expert for Palestinian territories",
+      "url": "https://pajhwok.com/2026/05/14/federal-judge-halts-us-sanctions-on-un-expert-for-palestinian-territories/",
+      "published_at": "20260514T133000Z",
+      "source": "pajhwok.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0f94d6c54585774b",
+      "headline": "汽车电子防盗锁种类整理",
+      "url": "https://k.sina.com.cn/article_7857141524_1d452771401902hdvo.html",
+      "published_at": "20260514T134500Z",
+      "source": "k.sina.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e7ca0e369a54db67",
+      "headline": "一季度深圳社会融资规模累计新增2644亿元",
+      "url": "http://news.china.com.cn/2026-05/14/content_118494805.shtml",
+      "published_at": "20260514T133000Z",
+      "source": "news.china.com.cn",
+      "tags": [
+        "CHINA"
       ]
     },
     {
@@ -689,28 +473,14 @@
       ]
     },
     {
-      "id": "gdelt_982cee22f0aad8eb",
-      "headline": "Time . ai",
-      "url": "https://time.mk/ai/aaa49c7416/mk/",
-      "published_at": "20260514T081500Z",
-      "source": "time.mk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_62112d5df1116320",
-      "headline": "„ Glanzleistungen 2026 : Junges Ehrenamt in Bozen ausgezeichnet",
-      "url": "https://www.unsertirol24.com/2026/05/14/glanzleistungen-2026-junges-ehrenamt-in-bozen-ausgezeichnet/",
-      "published_at": "20260514T091500Z",
-      "source": "unsertirol24.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fc00a3c3b15fff99",
-      "headline": "US federal judge blocks US sanctions against UN Francesca Albanese",
-      "url": "https://www.middleeasteye.net/news/us-federal-judge-blocks-us-sanctions-against-uns-francesca-albanese",
-      "published_at": "20260514T081500Z",
-      "source": "middleeasteye.net",
-      "tags": []
+      "id": "gdelt_44057d24ad253502",
+      "headline": "India and Philippines discuss current and emerging challenges to counter terrorism",
+      "url": "https://www.prokerala.com/news/articles/a1762829.html",
+      "published_at": "20260514T130000Z",
+      "source": "prokerala.com",
+      "tags": [
+        "PHILIPPINES"
+      ]
     },
     {
       "id": "gdelt_f197445c67e3f7fc",
@@ -719,25 +489,6 @@
       "published_at": "20260514T111500Z",
       "source": "diariodenavarra.es",
       "tags": []
-    },
-    {
-      "id": "gdelt_e98c342ee809beba",
-      "headline": "How China changed Rubio name to let him join Trump summit despite sanctions",
-      "url": "https://www.aljazeera.com/news/2026/5/14/how-china-changed-rubio-name-to-let-him-join-trump-summit-despite-sanctions",
-      "published_at": "20260514T093000Z",
-      "source": "aljazeera.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7b48bbb8dbb2e026",
-      "headline": "Israel , Lebanon Resume U . S .- backed Talks On Peace , Security Deal",
-      "url": "https://leadership.ng/israel-lebanon-resume-u-s-backed-talks-on-peace-security-deal/",
-      "published_at": "20260514T093000Z",
-      "source": "leadership.ng",
-      "tags": [
-        "ISRAEL",
-        "LEBANON"
-      ]
     },
     {
       "id": "gdelt_791e6a77b9479aff",
@@ -753,14 +504,6 @@
       "url": "https://kauno.diena.lt/naujienos/pasaulis/ekonomika-ir-politika/nuskendusiame-rusijos-laive-putino-ir-kim-jong-uno-paslaptis-1756282",
       "published_at": "20260514T114500Z",
       "source": "kauno.diena.lt",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cc4a8de2849aecf2",
-      "headline": "Rosyjska ropa nie przestanie płynąć ? Pilnie proszą o pomoc",
-      "url": "https://www.wnp.pl/rynki/bloomberg-indie-poprosily-usa-o-przedluzenie-zawieszenia-sankcji-na-rosyjska-rope,1062061.html",
-      "published_at": "20260514T083000Z",
-      "source": "wnp.pl",
       "tags": []
     },
     {
@@ -788,19 +531,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_04133acb2e2b0c5b",
-      "headline": "US court suspends sanctions on UN expert on Palestinians",
-      "url": "https://arynews.tv/us-court-suspends-sanctions-un-expert-palestinians",
-      "published_at": "20260514T080000Z",
-      "source": "arynews.tv",
-      "tags": []
-    },
-    {
       "id": "gdelt_14dba6f8a1074d3b",
       "headline": "ABDde mahkeme , Albanesee uygulanan yaptırımları askıya aldı",
       "url": "https://www.haksozhaber.net/abdde-mahkeme-albanesee-uygulanan-yaptirimlari-askiya-aldi-205005h.htm",
       "published_at": "20260514T101500Z",
       "source": "haksozhaber.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7620535e2dde9346",
+      "headline": "US court suspends sanctions on Albanese despite campaign against her",
+      "url": "https://www.middleeastmonitor.com/20260514-us-court-suspends-sanctions-on-albanese-despite-campaign-against-her/",
+      "published_at": "20260514T133000Z",
+      "source": "middleeastmonitor.com",
       "tags": []
     },
     {
@@ -812,63 +555,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_280873e9587b23a7",
-      "headline": "趁保母洗澡性侵弟弟 ！ 泰女星老公遭爆 「 16歲犯罪錄音 」 她照樣力挺 | ETtoday星光雲",
-      "url": "https://star.ettoday.net/news/3165888",
-      "published_at": "20260514T071500Z",
-      "source": "star.ettoday.net",
+      "id": "gdelt_3bfcfb9a8019c3e3",
+      "headline": "Stablecoin - powered neobank Fasset raises $51 million to expand across emerging markets",
+      "url": "https://www.coindesk.com/business/2026/05/14/stablecoin-powered-neobank-fasset-raises-usd51-million-to-expand-across-emerging-markets",
+      "published_at": "20260514T143000Z",
+      "source": "coindesk.com",
       "tags": []
-    },
-    {
-      "id": "gdelt_bf0a2f649fd39b3b",
-      "headline": "马化腾以船喻阐释腾讯AI进展 ： 夯实基础 、 加大投入 、 稳进上升通道",
-      "url": "https://ai.zol.com.cn/1180/11809088.html",
-      "published_at": "20260514T074500Z",
-      "source": "ai.zol.com.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a76da6f804972e7f",
-      "headline": "جريدة الرياض | مسار التهدئة",
-      "url": "https://www.alriyadh.com/2188725",
-      "published_at": "20260514T071500Z",
-      "source": "alriyadh.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cef95b014a3681e2",
-      "headline": "МИД Венгрии вызвал посла РФ из - за ударов по Закарпатью",
-      "url": "https://www.dw.com/ru/mid-vengrii-vyzval-posla-rf-izza-udarov-po-zakarpatu/a-77156832",
-      "published_at": "20260514T093000Z",
-      "source": "dw.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e1a83ce5f6473775",
-      "headline": "2026中華奧林匹克盃震撼登場 國際美業高手來台競技較勁",
-      "url": "https://n.yam.com/Article/20260514196881",
-      "published_at": "20260514T091500Z",
-      "source": "n.yam.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5dd1a20421c45f83",
-      "headline": "这是中美关系新定位 机制性病变待解 _ 新闻频道 _ 中华网",
-      "url": "https://news.china.com/socialgd/10000169/20260514/49493775.html",
-      "published_at": "20260514T071500Z",
-      "source": "news.china.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_41d03ec08e06646a",
-      "headline": "Israeli strikes in Lebanon kill 12 before talks - Pakistan Today",
-      "url": "https://www.pakistantoday.com.pk/2026/05/14/israeli-strikes-in-lebanon-kill-12-ahead-of-washington-talks",
-      "published_at": "20260514T091500Z",
-      "source": "pakistantoday.com.pk",
-      "tags": [
-        "LEBANON",
-        "PAKISTAN"
-      ]
     },
     {
       "id": "gdelt_01efa8f8d4f761e6",
@@ -887,30 +579,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_b5cdb59cc1fd266a",
-      "headline": "تصاعد غير مسبوق في أعداد الأسرى القاصرين بالعزل الانفرادي بسجون الاحتلال – قناة المنار",
-      "url": "https://www.almanar.com.lb/article/851807/",
-      "published_at": "20260514T091500Z",
-      "source": "almanar.com.lb",
-      "tags": []
-    },
-    {
-      "id": "gdelt_88fa5b0f25e6b90f",
-      "headline": "FIFA hangi Türk takımlarına transfer yasağı verdi ? FIFA Türk takımlarına neden transfer yasağı verdi ?",
-      "url": "https://www.haberler.com/haber/fifa-hangi-turk-takimlarina-transfer-yasagi-verdi-19844706-haberi/",
-      "published_at": "20260514T091500Z",
-      "source": "haberler.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_85be974ebe1cc527",
-      "headline": "تصاعد غير مسبوق في أعداد الأسرى القاصرين بالعزل الانفرادي بسجون الاحتلال",
-      "url": "https://palinfo.com/news/2026/05/14/1108974/",
-      "published_at": "20260514T083000Z",
-      "source": "palinfo.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_46d6a9aee0f7b8cf",
       "headline": "一季度深圳社会融资规模累计新增2644亿元 - 中新网",
       "url": "https://www.chinanews.com.cn/dwq/2026/05-14/10621207.shtml",
@@ -919,27 +587,19 @@
       "tags": []
     },
     {
+      "id": "gdelt_7cdfc70734f766a6",
+      "headline": "Глава МЗС Словаччини засудив останні масовані атаки РФ на Україну",
+      "url": "https://www.eurointegration.com.ua/news/2026/05/14/7237569/",
+      "published_at": "20260514T124500Z",
+      "source": "eurointegration.com.ua",
+      "tags": []
+    },
+    {
       "id": "gdelt_6651e0d197e987b0",
       "headline": "Permintaan Maaf Anggota Dewan Termuda di Jember Achmad Syahri Disorot : Anak Muda Banyak Kekurangan",
       "url": "https://surabaya.tribunnews.com/jawa-timur/1939306/permintaan-maaf-anggota-dewan-termuda-di-jember-achmad-syahri-disorot-anak-muda-banyak-kekurangan",
       "published_at": "20260514T104500Z",
       "source": "surabaya.tribunnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a74735f1946b787c",
-      "headline": "Против Ирана началась тайная война . Сводка конфликта на Ближнем Востоке",
-      "url": "https://aif.ru/politics/world/protiv-irana-nachalas-taynaya-voyna-svodka-konflikta-na-blizhnem-vostoke",
-      "published_at": "20260514T091500Z",
-      "source": "aif.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a55bf61fea073453",
-      "headline": "Why Did Lobo Technologies Stock Jump Over 33 % After Hours ?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-lobo-technologies-stock-064220237.html",
-      "published_at": "20260514T071500Z",
-      "source": "finance.yahoo.com",
       "tags": []
     },
     {
@@ -959,6 +619,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_66727643247e56c8",
+      "headline": "Исследование БРИКС : новая модель финансирования технологий",
+      "url": "https://www.kommersant.ru/doc/8655714",
+      "published_at": "20260514T133000Z",
+      "source": "kommersant.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_94079e17d8330fcb",
       "headline": "Территориальные амбиции России противоречат реальности на поле боя – могут ли оккупанты полностью захватить Донбасс – прогноз ISW",
       "url": "https://war.obozrevatel.com/territorialnyie-ambitsii-rossii-protivorechat-realnosti-na-pole-boya-v-isw-otsenili-mogut-li-okkupantyi-polnostyu-zahvatit-donbass.htm",
@@ -975,11 +643,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_367f98df4c61c11e",
-      "headline": "واشنطن تعاقب شركات فضائية صينية بتهمة دعم إيران",
-      "url": "https://www.aljazeera.net/news/2026/5/14/%D9%82%D8%A8%D9%84-%D9%82%D9%85%D8%A9-%D8%A8%D9%83%D9%8A%D9%86-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D8%AA%D8%B9%D8%A7%D9%82%D8%A8-%D8%B4%D8%B1%D9%83%D8%A7%D8%AA-%D9%81%D8%B6%D8%A7%D8%A6%D9%8A%D8%A9",
-      "published_at": "20260514T071500Z",
-      "source": "aljazeera.net",
+      "id": "gdelt_2400a6439e59e33c",
+      "headline": "Гора предложил в странах ШОС при оказании правовой помощи активнее обмениваться данными по цифровым каналам",
+      "url": "https://www.sb.by/articles/gora-predlozhil-v-stranakh-shos-pri-okazanii-pravovoy-pomoshchi-aktivnee-obmenivatsya-dannymi-po-tsi.html",
+      "published_at": "20260514T131500Z",
+      "source": "sb.by",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c5dd1a4d97c60c0e",
+      "headline": "Drohnen - Streit : Lettlands Regierungschefin tritt zurück",
+      "url": "https://www.nw.de/nachrichten/nachrichten/24332363_Drohnen-Streit-Lettlands-Regierungschefin-tritt-zurueck.html",
+      "published_at": "20260514T133000Z",
+      "source": "nw.de",
       "tags": []
     },
     {
@@ -999,14 +675,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_41fdbcf0a011aa4e",
-      "headline": "Africa CEO Forum - What People Say , Expect",
-      "url": "https://allafrica.com/stories/202605140105.html",
-      "published_at": "20260514T081500Z",
-      "source": "allafrica.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_c11889ae5bb5503a",
       "headline": "عبد العاطي أمام اجتماع البريكس : مصر ترفض الاعتداءات على الدول العربية وتواصل جهود خفض التصعيد",
       "url": "https://www.shorouknews.com/news/view.aspx?cdate=14052026&id=e50cea80-c5cc-4a48-9f41-b06c9a512fee",
@@ -1015,19 +683,352 @@
       "tags": []
     },
     {
-      "id": "gdelt_0fb36ea0992500a5",
-      "headline": "The Trump - Xi Beijing Summit : Tactical Maneuvers in an Enduring Strategic Rivalry",
-      "url": "https://www.ibtimes.co.in/trump-xi-beijing-summit-tactical-maneuvers-enduring-strategic-rivalry-902034",
-      "published_at": "20260514T083000Z",
-      "source": "ibtimes.co.in",
+      "id": "gdelt_560b0b03abb5b89f",
+      "headline": "Drohnen - Streit : Lettlands Regierungschefin tritt zurück",
+      "url": "https://www.schwaebische.de/politik/drohnen-streit-lettlands-regierungschefin-tritt-zurueck-4575238",
+      "published_at": "20260514T120000Z",
+      "source": "schwaebische.de",
       "tags": []
     },
     {
-      "id": "gdelt_82521f793951da8b",
-      "headline": "Main developments in Middle East as of Thursday morning",
-      "url": "https://news.am/en/news/1035210",
-      "published_at": "20260514T093000Z",
-      "source": "news.am",
+      "id": "gdelt_b876d9f35b33c398",
+      "headline": "Drohnen - Streit : Lettlands Regierungschefin tritt zurück",
+      "url": "https://www.weser-kurier.de/politik/ausland/drohnen-streit-lettlands-regierungschefin-tritt-zurueck-doc85ubmi6sxqozerfj6cm",
+      "published_at": "20260514T131500Z",
+      "source": "weser-kurier.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0694049f64bdaa14",
+      "headline": "AYM , kural ihlalini tekrarlayan özel eğitim kurumlarına 5 kat ceza uygulanmasını öngören hükmü iptal etti",
+      "url": "https://www.haberler.com/guncel/anayasa-mahkemesi-ozel-egitim-kurumlarina-uygulanan-agirlastirilmis-ceza-kuralini-iptal-etti-19844808-haberi/",
+      "published_at": "20260514T094500Z",
+      "source": "haberler.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f058fee5ffb4422c",
+      "headline": "Парадоксальный рекорд : почему поставки американской обуви в Россию бьют исторические максимумы",
+      "url": "https://www.pravda.ru/news/economics/2352193-us-shoes-import-russia/",
+      "published_at": "20260514T121500Z",
+      "source": "pravda.ru",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "gdelt_f4d28629c52daec1",
+      "headline": "Dünya devinde neler oluyor ? Bütün futbolcuları satılığa çıkardılar",
+      "url": "https://www.haberler.com/spor/dunya-devinde-neler-oluyor-butun-takimi-satiliga-19845580-haberi/",
+      "published_at": "20260514T114500Z",
+      "source": "haberler.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_446b5a74f603c837",
+      "headline": "Lithuania under pressure from US to renew Belarusian fertiliser transit , says FM",
+      "url": "https://www.lrt.lt/en/news-in-english/19/2928232/lithuania-under-pressure-from-us-to-renew-belarusian-fertiliser-transit-says-fm",
+      "published_at": "20260514T113000Z",
+      "source": "lrt.lt",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0e0ddf168f90a36e",
+      "headline": "Time . ai",
+      "url": "https://time.mk/ai/b67956338d/mk/",
+      "published_at": "20260514T094500Z",
+      "source": "time.mk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ce7ecb8e066ebf3b",
+      "headline": "Kenya : PWC Warns Finance Bill 2026 Could Make Digital Payments Costlier",
+      "url": "https://allafrica.com/stories/202605140339.html",
+      "published_at": "20260514T133000Z",
+      "source": "allafrica.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ec39dad17a4f1e62",
+      "headline": "Компании Китая тайно договаривались о продаже оружия Ирану - СМИ",
+      "url": "https://korrespondent.net/world/4878543-kompanyy-kytaia-taino-dohovaryvalys-o-prodazhe-oruzhyia-yranu-smy",
+      "published_at": "20260514T143000Z",
+      "source": "korrespondent.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b5ff01c609088b99",
+      "headline": "В Индии заявили о тяжелых последствиях санкций для развивающихся стран",
+      "url": "https://zerkalo.az/v-indii-zayavili-o-tyazhelyh-posledstviyah-sanktsij-dlya-razvivayushhihsya-stran/",
+      "published_at": "20260514T130000Z",
+      "source": "zerkalo.az",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ba5fc499d5daed0b",
+      "headline": "Drohnen - Streit : Lettlands Regierungschefin tritt zurück",
+      "url": "https://www.freiepresse.de/nachrichten/welt/drohnen-streit-lettlands-regierungschefin-tritt-zurueck-artikel14251210",
+      "published_at": "20260514T133000Z",
+      "source": "freiepresse.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4cf5184b05ae11f6",
+      "headline": "Ehrenamt mit Strahlkraft :  Glanzleistungen 2026  verliehen – Südtirol News",
+      "url": "https://www.suedtirolnews.it/wirtschaft/ehrenamt-mit-strahlkraft-glanzleistungen-2026-verliehen",
+      "published_at": "20260514T124500Z",
+      "source": "suedtirolnews.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4b3b364983a1d329",
+      "headline": "IT News Online - Grey Joins Moonshot 2026 as Headline Sponsor",
+      "url": "https://www.itnewsonline.com/news/Grey-Joins-Moonshot-2026-as-Headline-Sponsor/36477",
+      "published_at": "20260514T133000Z",
+      "source": "itnewsonline.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_752e07a9fd365a1e",
+      "headline": "Brussel · les proposa un bitllet únic per viatjar amb tren per tota la UE",
+      "url": "https://www.elperiodico.cat/ca/internacional/20260514/brusselles-proposa-bitllet-unic-per-130204650",
+      "published_at": "20260514T094500Z",
+      "source": "elperiodico.cat",
+      "tags": []
+    },
+    {
+      "id": "gdelt_57ea0ed332b5ea9e",
+      "headline": "Tiếp tục xử phạt Nhà xe Duy Quý",
+      "url": "https://thanhnien.vn/tiep-tuc-xu-phat-nha-xe-duy-quy-thao-chau-185260514154048261.htm",
+      "published_at": "20260514T113000Z",
+      "source": "thanhnien.vn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a1ec9bdc0ab69d35",
+      "headline": "Drohnen - Streit : Lettlands Regierungschefin tritt zurück",
+      "url": "https://www.t-online.de/nachrichten/ausland/id_101254852/drohnen-streit-lettlands-regierungschefin-tritt-zurueck.html",
+      "published_at": "20260514T133000Z",
+      "source": "t-online.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fb9c67fb8f39cfb9",
+      "headline": "UE ativa mecanismo de crise para monitorizar surto de hantavírus e reforçar coordenao",
+      "url": "https://sapo.pt/artigo/ue-ativa-mecanismo-de-crise-para-monitorizar-surto-de-hantavirus-e-reforcar-coordenacao-6a05ae2773a262a5e902af3b",
+      "published_at": "20260514T114500Z",
+      "source": "sapo.pt",
+      "tags": []
+    },
+    {
+      "id": "gdelt_38753cf08f77a687",
+      "headline": "2026年靠谱的破桩机 ， 豫工机械实力见证 _ 中华网",
+      "url": "https://m.tech.china.com/redian/2026/0514/052026_1868841.html",
+      "published_at": "20260514T104500Z",
+      "source": "m.tech.china.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_178c3d950f73429c",
+      "headline": "FIFAdan Gaziantep FK , Gençlerbirliği ve Ankaragücü  ne transfer cezası :",
+      "url": "https://www.haber3.com/spor/futbol/trendyol-super-lig/fifadan-gaziantep-fk-genclerbirligi-ve-ankaragucune-transfer-cezasi-haberi-6255167",
+      "published_at": "20260514T113000Z",
+      "source": "haber3.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_43ee74943f8c8e52",
+      "headline": "Saudi Arabia , Spain sign strategic partnership agreement during Madrid talks",
+      "url": "https://www.middleeastmonitor.com/20260514-saudi-arabia-spain-sign-strategic-partnership-agreement-during-madrid-talks/",
+      "published_at": "20260514T133000Z",
+      "source": "middleeastmonitor.com",
+      "tags": [
+        "SPAIN",
+        "SAUDI_ARABIA"
+      ]
+    },
+    {
+      "id": "gdelt_bbb4ee4d20a5346e",
+      "headline": "Rusi pri nočnom útoku zasiahli aj prístavy a železnice v Odeskej oblasti",
+      "url": "https://dennikn.sk/minuta/5333647/",
+      "published_at": "20260514T123000Z",
+      "source": "dennikn.sk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_782c866a1e555039",
+      "headline": "Anggota DPRD Jember Achmad Syahri Minta Maaf Usai Viral Main Game dan Merokok Saat Rapat Kesehatan",
+      "url": "https://sumsel.tribunnews.com/nasional/1016972/anggota-dprd-jember-achmad-syahri-minta-maaf-usai-viral-main-game-dan-merokok-saat-rapat-kesehatan",
+      "published_at": "20260514T120000Z",
+      "source": "sumsel.tribunnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_714205887fcc6ed3",
+      "headline": "الاحتلال : نفذنا غارات على مواقع حزب الله جنوب لبنان",
+      "url": "https://www.dostor.org/5554385",
+      "published_at": "20260514T094500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_045fc7a7c4e9b0c4",
+      "headline": "UKMTO : Tàu bị bắt ngoài khơi UAE , nghi bị đưa về lãnh hải Iran",
+      "url": "https://baomoi.com/ukmto-tau-bi-bat-ngoai-khoi-uae-nghi-bi-dua-ve-lanh-hai-iran-c55157976.epi",
+      "published_at": "20260514T124500Z",
+      "source": "baomoi.com",
+      "tags": [
+        "IRAN",
+        "UAE"
+      ]
+    },
+    {
+      "id": "gdelt_3b3117c78374bbf6",
+      "headline": "UKMTO : Tàu bị bắt ngoài khơi UAE , nghi bị đưa về lãnh hải Iran",
+      "url": "https://nld.com.vn/ukmto-tau-bi-bat-ngoai-khoi-uae-nghi-bi-dua-ve-lanh-hai-iran-19626051416520396.htm",
+      "published_at": "20260514T114500Z",
+      "source": "nld.com.vn",
+      "tags": [
+        "IRAN",
+        "UAE"
+      ]
+    },
+    {
+      "id": "gdelt_782e96d676d9c580",
+      "headline": "Budrys : iš JAV jaučiamas „ suaktyvėjimas  baltarusiškų trąšų tranzito atnaujinimo klausimu - Respublika . lt",
+      "url": "https://www.respublika.lt/lt/naujienos/lietuva/lietuvos_politika/budrys-is-jav-jauciamas-suaktyvejimas-baltarusisku-trasu-tranzito-atnaujinimo-klausimu/",
+      "published_at": "20260514T110000Z",
+      "source": "respublika.lt",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d232e643c69c35b8",
+      "headline": "Kurban Bayramı öncesi AŞTİ  de denetim",
+      "url": "https://www.haberler.com/yerel/kurban-bayrami-oncesi-asti-de-fahis-fiyat-denetimi-yapildi-19845459-haberi/",
+      "published_at": "20260514T113000Z",
+      "source": "haberler.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9a00694f0ecc6cb4",
+      "headline": "Tài xế xe tải cố vượt đường sắt lúc gác chắn đã hạ",
+      "url": "https://baomoi.com/tai-xe-xe-tai-co-vuot-duong-sat-luc-gac-chan-da-ha-c55158401.epi",
+      "published_at": "20260514T133000Z",
+      "source": "baomoi.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_93b2786bd0c0fefd",
+      "headline": "The Bull Case for XRP That Even Skeptics Should Read",
+      "url": "https://www.fool.com/investing/2026/05/13/the-bull-case-for-xrp-even-skeptics-should-read/",
+      "published_at": "20260514T113000Z",
+      "source": "fool.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5e65ffc1dc1cb072",
+      "headline": "Tarihi ziyarette bir harfle diplomatik krizin önüne geçildi",
+      "url": "https://haber.mynet.com/tarihi-ziyarette-bir-harfle-diplomatik-krizin-onune-gecildi-110107293336",
+      "published_at": "20260514T133000Z",
+      "source": "haber.mynet.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cf587ed31c54e6ae",
+      "headline": "البرتغال تستعد لصيف قاسٍ مع تصاعد مخاوف حرائق الغابات",
+      "url": "https://alwasat.ly/news/mixed/518190",
+      "published_at": "20260514T123000Z",
+      "source": "alwasat.ly",
+      "tags": []
+    },
+    {
+      "id": "gdelt_34a3f2b407433612",
+      "headline": "أول وزير لشؤون الأسرى يكشف أوضاع الفلسطينيين داخل سجون الاحتلال في  الجلسة سرية",
+      "url": "https://www.dostor.org/5554647",
+      "published_at": "20260514T123000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_85352e4628df803d",
+      "headline": "Санкції ЄС можуть вдарити по арктичній логістиці РФ – ЗМІ",
+      "url": "https://epravda.com.ua/biznes/sankciji-yes-mozhut-vdariti-po-arktichniy-logistici-rf-zmi-821604/",
+      "published_at": "20260514T134500Z",
+      "source": "epravda.com.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cb0e0a31ea88abe6",
+      "headline": "USA - based Silicon Road Ventures launches India - focused AIF to back B2B Agentic AI Commerce - Tech startups",
+      "url": "https://aninews.in/news/business/usa-based-silicon-road-ventures-launches-india-focused-aif-to-back-b2b-agentic-ai-commerce-tech-startups20260514164313/",
+      "published_at": "20260514T113000Z",
+      "source": "aninews.in",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8028328be1970fb9",
+      "headline": "Drohnen - Streit : Lettlands Regierungschefin tritt zurück",
+      "url": "http://www.op-online.de/politik/drohnen-streit-lettlands-regierungschefin-tritt-zurueck-zr-94306548.html",
+      "published_at": "20260514T121500Z",
+      "source": "op-online.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ff9085f16cfa8fc1",
+      "headline": "Cambodia business risks increase on cyberscam sanctions",
+      "url": "https://asia.nikkei.com/politics/international-relations/cambodia-business-risks-increase-on-cyberscam-sanctions",
+      "published_at": "20260514T104500Z",
+      "source": "asia.nikkei.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_66172be266b936e0",
+      "headline": "EXCLUSIVE : GT Biopharma Begins Testing Of Lead Solid Tumor Drug Candidate Across Multiple Cancer Types -",
+      "url": "https://www.benzinga.com/news/health-care/26/05/52556961/exclusive-gt-biopharma-begins-testing-of-lead-solid-tumor-drug-candidate-across-multiple-cancer-types",
+      "published_at": "20260514T124500Z",
+      "source": "benzinga.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_afacf7248c441cb4",
+      "headline": "Ue : Draghi , Europa troppo vulnerabile , rispondere a united states in modo piu  assertivo - 2 -",
+      "url": "https://www.borsaitaliana.it/borsa/notizie/radiocor/economia/dettaglio/ue-draghi-europa-troppo-vulnerabile-rispondere-a-usa-in-modo-piu--assertivo-2-nRC_14052026_1251_374297014.html",
+      "published_at": "20260514T114500Z",
+      "source": "borsaitaliana.it",
+      "tags": [
+        "UNITED_STATES"
+      ]
+    },
+    {
+      "id": "gdelt_ced5a79faf87f22a",
+      "headline": "Etika AI Harus Punya Kekuatan Hukum , Ini Peringatan Wamenkomdigi Nezar Patria",
+      "url": "https://www.jawapos.com/teknologi/2605140340/etika-ai-harus-punya-kekuatan-hukum-ini-peringatan-wamenkomdigi-nezar-patria",
+      "published_at": "20260514T131500Z",
+      "source": "jawapos.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_60c79ca3bb361e2d",
+      "headline": "إلى أين وصلت المفاوضات بين واشنطن وطهران ؟ | أخبار",
+      "url": "https://www.aljazeera.net/news/2026/5/14/%D8%B9%D8%A7%D8%AC%D9%84-%D8%A3%D9%83%D8%B3%D9%8A%D9%88%D8%B3-%D8%B9%D9%86-%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D9%86-%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D9%8A%D9%86-%D8%A3%D8%AD%D8%AF",
+      "published_at": "20260514T113000Z",
+      "source": "aljazeera.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_75e82e1d374513a6",
+      "headline": "غفير يقتحم الأقصى ويرفع علم الاحتلال – تلفزيون الفجر",
+      "url": "https://alfajertv.com/news/palnews/729966.html",
+      "published_at": "20260514T133000Z",
+      "source": "alfajertv.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2a6f27ff84e375ab",
+      "headline": "Draghi ,  noi europei per la prima volta siamo davvero soli insieme  - Ultima ora",
+      "url": "https://www.ansa.it/sito/notizie/topnews/2026/05/14/draghi-noi-europei-per-la-prima-volta-siamo-davvero-soli-insieme_b9525f61-6a6b-4e5f-989b-5f7972ffa04d.html",
+      "published_at": "20260514T111500Z",
+      "source": "ansa.it",
       "tags": []
     }
   ]
