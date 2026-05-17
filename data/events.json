@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-05-17T18:08:41Z",
+    "generated_at_utc": "2026-05-17T21:07:52Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -33,6 +33,16 @@
   },
   "events": [
     {
+      "id": "gdelt_16aa31c23fdf6940",
+      "headline": "Iran , Trump , and the cracks in American power",
+      "url": "https://www.middleeastmonitor.com/20260517-iran-trump-and-the-cracks-in-american-power/",
+      "published_at": "20260517T180000Z",
+      "source": "middleeastmonitor.com",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
       "id": "gdelt_f6449e47043cc5b4",
       "headline": "בצל המשבר במו  מ על פתיחת הורמוז , טהרן : השליטה תישמר",
       "url": "https://news.walla.co.il/item/3838813",
@@ -41,21 +51,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_bf3307cc56db65ee",
-      "headline": "Samit Trumpa i Sija pokazao oprezno balansiranje Kine po pitanju Irana",
-      "url": "https://www.slobodnaevropa.org/a/samit-trump-si-iran/33758362.html",
-      "published_at": "20260517T121500Z",
-      "source": "slobodnaevropa.org",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_f2a45e68d3b78cda",
-      "headline": "Time . ai",
-      "url": "https://time.mk/ai/3410ea4a17/mk/",
-      "published_at": "20260517T133000Z",
-      "source": "time.mk",
+      "id": "gdelt_b7e480adba3a574a",
+      "headline": "APEC economies advance trade agenda in Shanghai meeting",
+      "url": "https://en.antaranews.com/news/415985/apec-economies-advance-trade-agenda-in-shanghai-meeting",
+      "published_at": "20260517T190000Z",
+      "source": "en.antaranews.com",
       "tags": []
     },
     {
@@ -77,14 +77,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_3e7e4e980fc1fd9b",
-      "headline": "Time . ai",
-      "url": "https://time.mk/ai/8204b93d5f/mk/",
-      "published_at": "20260517T150000Z",
-      "source": "time.mk",
-      "tags": []
-    },
-    {
       "id": "gdelt_2eb2b56d7bdc5148",
       "headline": "Israel and Hezbollah Trade Fire Across Lebanon Border Despite Cease - fire Extension",
       "url": "https://www.haaretz.com/middle-east-news/lebanonnews/2026-05-17/ty-article/.premium/israel-and-hezbollah-trade-fire-across-border-despite-cease-fire-extension/0000019e-3577-d26f-a39e-b7ffd3d80000",
@@ -97,19 +89,19 @@
       ]
     },
     {
+      "id": "gdelt_cfb35a9eced28481",
+      "headline": "Time . ai",
+      "url": "https://time.mk/ai/f6f8abdf37/mk/",
+      "published_at": "20260517T183000Z",
+      "source": "time.mk",
+      "tags": []
+    },
+    {
       "id": "gdelt_ee28a68e876fb03b",
       "headline": "Трамп призвал власти Ирана поторопиться в решении одного вопроса",
       "url": "https://www.mk.ru/politics/2026/05/17/tramp-prizval-vlasti-irana-potoropitsya-v-reshenii-odnogo-voprosa.html",
       "published_at": "20260517T174500Z",
       "source": "mk.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_37e5a60b869e4b7a",
-      "headline": "Time . ai",
-      "url": "https://time.mk/ai/2f94cd5958/mk/",
-      "published_at": "20260517T141500Z",
-      "source": "time.mk",
       "tags": []
     },
     {
@@ -121,6 +113,24 @@
       "tags": []
     },
     {
+      "id": "gdelt_46817a66abf2ecff",
+      "headline": "Балтийский « фронт »: боевые корабли России загнали НАТО в тупик на море",
+      "url": "https://bloknot.ru/obshhestvo/baltijskij-front-boevye-korabli-rossii-zagnali-nato-v-tupik-na-more-1515408.html",
+      "published_at": "20260517T193000Z",
+      "source": "bloknot.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_940619dde5dceb05",
+      "headline": "Kuba kupila stotine dronova od Rusije i Irana zbog sukoba sa SAD",
+      "url": "https://informer.rs/planeta/vesti/1115907/kuba-kupovina-dronova-rusija-iran",
+      "published_at": "20260517T190000Z",
+      "source": "informer.rs",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
       "id": "gdelt_c7666ea9c6de9912",
       "headline": "Weaken and overthrow Islamic system : President Masoud Pezeshkian slams US - Israeli strikes for targeting internal stability",
       "url": "https://aninews.in/news/world/middle-east/weaken-and-overthrow-islamic-system-president-masoud-pezeshkian-slams-us-israeli-strikes-for-targeting-internal-stability20260517210246/",
@@ -129,22 +139,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_b1809d5c21c8bc6b",
-      "headline": "第三十五届哈洽会绥芬河分会场启幕 打造中俄合作新平台展新貌 - 商业消费 - ITBear科技资讯",
-      "url": "https://www.itbear.com.cn/html/2026-05/1344665.html",
-      "published_at": "20260517T121500Z",
-      "source": "itbear.com.cn",
+      "id": "gdelt_400c29a7d30a8d8f",
+      "headline": "ΗΠΑ : Η Κούβα συγκεντρώνει drones , μελετά ιρανικές τακτικές κατά των Ηνωμένων Πολιτειών",
+      "url": "https://gr.euronews.com/2026/05/17/hpa-h-koyba-sygkentrwnei-drones-meleta-iranikes-taktikes-kata-twn-hnwmenwn-politeiwn",
+      "published_at": "20260517T174500Z",
+      "source": "gr.euronews.com",
       "tags": []
-    },
-    {
-      "id": "gdelt_938c2a5da56e0260",
-      "headline": "Kenya on high alert over Ebola outbreak in DRC",
-      "url": "https://www.standardmedia.co.ke/national/article/2001548041/kenya-on-high-alert-over-ebola-outbreak-in-drc",
-      "published_at": "20260517T121500Z",
-      "source": "standardmedia.co.ke",
-      "tags": [
-        "DEMOCRATIC_REPUBLIC_OF_CONGO"
-      ]
     },
     {
       "id": "gdelt_5e86ada2c158a682",
@@ -152,16 +152,14 @@
       "url": "http://mignews.com/news/politic/cnn-iran-planiruet-vvesti-poshliny-na-internet-kabeli-v-prolive.html",
       "published_at": "20260517T161500Z",
       "source": "mignews.com",
-      "tags": [
-        "IRAN"
-      ]
+      "tags": []
     },
     {
-      "id": "gdelt_400c29a7d30a8d8f",
-      "headline": "ΗΠΑ : Η Κούβα συγκεντρώνει drones , μελετά ιρανικές τακτικές κατά των Ηνωμένων Πολιτειών",
-      "url": "https://gr.euronews.com/2026/05/17/hpa-h-koyba-sygkentrwnei-drones-meleta-iranikes-taktikes-kata-twn-hnwmenwn-politeiwn",
-      "published_at": "20260517T174500Z",
-      "source": "gr.euronews.com",
+      "id": "gdelt_f66b1ab726812941",
+      "headline": "قرقاش : استهداف براكة تصعيد خطير ولن يلوى أحد ذراع الإمارات",
+      "url": "https://www.almasryalyoum.com/news/details/4272462",
+      "published_at": "20260517T193000Z",
+      "source": "almasryalyoum.com",
       "tags": []
     },
     {
@@ -181,19 +179,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_32680c70cce9b5d0",
-      "headline": "Emergencia de salud internacional : Las recomendaciones de la OMS a países ante el virus mortal sin vacuna ni tratamiento",
-      "url": "https://www.eluniversal.com/internacional/233359/emergencia-de-salud-internacional-las-recomendaciones-de-la-oms-a-paises-ante-el-virus-mortal-sin",
-      "published_at": "20260517T150000Z",
-      "source": "eluniversal.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8fcd73429f723614",
-      "headline": "وزير الخارجية يبحث مع نظيره الباكستاني سبل تعزيز العلاقات الثنائية وخفض التصعيد الإقليمي",
-      "url": "https://www.almasryalyoum.com/news/details/4272394",
-      "published_at": "20260517T174500Z",
-      "source": "almasryalyoum.com",
+      "id": "gdelt_6f6bfca26157f191",
+      "headline": "Ebba Busch manar till kamp mot EU – och låter som en sann nationalist",
+      "url": "https://www.dn.se/ledare/annika-strom-melin-busch-manar-till-kamp-mot-eu-later-som-en-sann-nationalist/",
+      "published_at": "20260517T193000Z",
+      "source": "dn.se",
       "tags": []
     },
     {
@@ -205,11 +195,37 @@
       "tags": []
     },
     {
-      "id": "gdelt_0a00494bbfd523a4",
-      "headline": "Zanu - PF implicated in cross - border voter ...",
-      "url": "https://africa.com/zanu-pf-implicated-in-cross-border-voter-fraud-scheme/",
-      "published_at": "20260517T143000Z",
-      "source": "africa.com",
+      "id": "gdelt_8fcd73429f723614",
+      "headline": "وزير الخارجية يبحث مع نظيره الباكستاني سبل تعزيز العلاقات الثنائية وخفض التصعيد الإقليمي",
+      "url": "https://www.almasryalyoum.com/news/details/4272394",
+      "published_at": "20260517T174500Z",
+      "source": "almasryalyoum.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_34c671b3f871f829",
+      "headline": "وزيرا خارجية مصر وباكستان يبحثان خفض التصعيد الإقليمي وتطورات القضية الفلسطينية",
+      "url": "https://alwasat.ly/news/arabic/518569",
+      "published_at": "20260517T183000Z",
+      "source": "alwasat.ly",
+      "tags": []
+    },
+    {
+      "id": "gdelt_28e162d0009b88f1",
+      "headline": "Israel PM says close to killing all architects of October 7 attack",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3353901/israels-pm-says-close-killing-all-architects-october-7-attack",
+      "published_at": "20260517T190000Z",
+      "source": "scmp.com",
+      "tags": [
+        "ISRAEL"
+      ]
+    },
+    {
+      "id": "gdelt_33ff58218d9fb389",
+      "headline": "ترمب ونتنياهو يبحثان هاتفيا الحرب على إيران – تلفزيون الفجر",
+      "url": "https://alfajertv.com/news/worldnews/730296.html",
+      "published_at": "20260517T193000Z",
+      "source": "alfajertv.com",
       "tags": []
     },
     {
@@ -221,14 +237,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_961cb482e49c27ef",
-      "headline": "Eskalierende Angriffe im Ukrainekrieg : Ukrainische Drohnen erreichen Moskau",
-      "url": "https://taz.de/Eskalierende-Angriffe-im-Ukrainekrieg/!6179404/",
-      "published_at": "20260517T170000Z",
-      "source": "taz.de",
-      "tags": []
-    },
-    {
       "id": "gdelt_62e3803810f72eec",
       "headline": "Ebola - Ausbruch im Kongo : Virus überwindet Grenzen in Nachbarländer",
       "url": "https://taz.de/Ebola-Ausbruch-im-Kongo/!6179423/",
@@ -237,35 +245,21 @@
       "tags": []
     },
     {
-      "id": "gdelt_43eb560154350e3c",
-      "headline": "ВОЗ объявила чрезвычайную ситуацию из - за вспышки Эболы в Африке",
-      "url": "https://korrespondent.net/world/4879270-voz-obiavyla-chrezvychainuui-sytuatsyui-yz-za-vspyshky-eboly-v-afryke",
-      "published_at": "20260517T150000Z",
-      "source": "korrespondent.net",
-      "tags": []
+      "id": "gdelt_edfdce8bd181153f",
+      "headline": "أنور قرقاش : لن يلوي أحد ذراع الإمارات",
+      "url": "https://www.albayan.ae/news/uae/foreign-affairs/1292913",
+      "published_at": "20260517T204500Z",
+      "source": "albayan.ae",
+      "tags": [
+        "UAE"
+      ]
     },
     {
-      "id": "gdelt_dda3491a7e83daf8",
-      "headline": "ВООЗ оголосила спалах Еболи в Конго та Уганді надзвичайною ситуацією міжнародного значення",
-      "url": "https://www.ukrinform.ua/rubric-world/4124271-vooz-ogolosila-spalah-eboli-v-kongo-ta-ugandi-nadzvicajnou-situacieu-miznarodnogo-znacenna.html",
-      "published_at": "20260517T123000Z",
-      "source": "ukrinform.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a0ad90389cc132d0",
-      "headline": "Oil prices climb more than 3 % on fears of new US - Iran combat",
-      "url": "https://dunyanews.tv/en/Business/952100-oil-prices-climb-more-than-3-on-fears-of-new-usiran-combat",
-      "published_at": "20260517T121500Z",
-      "source": "dunyanews.tv",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b42b335b4fea0ec8",
-      "headline": "Novo surto de ébola já provocou 65 mortos na RDCongo",
-      "url": "https://sapo.pt/artigo/novo-surto-de-ebola-ja-provocou-65-mortos-na-rdcongo-6a06ee9b98c03764f6687fec",
-      "published_at": "20260517T121500Z",
-      "source": "sapo.pt",
+      "id": "gdelt_961cb482e49c27ef",
+      "headline": "Eskalierende Angriffe im Ukrainekrieg : Ukrainische Drohnen erreichen Moskau",
+      "url": "https://taz.de/Eskalierende-Angriffe-im-Ukrainekrieg/!6179404/",
+      "published_at": "20260517T170000Z",
+      "source": "taz.de",
       "tags": []
     },
     {
@@ -285,6 +279,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_a4e44c2c41ef4c19",
+      "headline": "Главы Минздрава стран Центральной Азии обсудили с ВОЗ Дорожную карту и климатические риски региона",
+      "url": "https://zdorovie.akipress.org/news:2468320",
+      "published_at": "20260517T201500Z",
+      "source": "zdorovie.akipress.org",
+      "tags": []
+    },
+    {
       "id": "gdelt_a6f5a0c747f6d8d9",
       "headline": "WHO Declares Global Health Emergency After Deadly Ebola Strain Detected in DR Congo",
       "url": "https://propakistani.pk/2026/05/17/who-declares-global-health-emergency-after-deadly-ebola-strain-detected-in-dr-congo/",
@@ -295,14 +297,6 @@
       ]
     },
     {
-      "id": "gdelt_598d84755d28d448",
-      "headline": "САД ги вратија санкциите врз руската нафта",
-      "url": "https://time.mk/c/671ff0a166/sad-gi-vratija-sankciite-vrz-ruskata-nafta.html",
-      "published_at": "20260517T121500Z",
-      "source": "time.mk",
-      "tags": []
-    },
-    {
       "id": "gdelt_57d7d7d0389990ed",
       "headline": "شروط أمريكية وتوعد إيراني وتأهب إسرائيلي .. هل حانت عودة الحرب ؟",
       "url": "https://www.aljazeera.net/news/2026/5/17/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%B9%D9%88%D8%AF%D8%A9-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8",
@@ -311,11 +305,37 @@
       "tags": []
     },
     {
-      "id": "gdelt_2df9faf80ad20022",
-      "headline": "宋清辉 ： 中国经济稳中向好 ， 外储总体稳定 ， 增持黄金有助对冲债市 _ 中金在线财经号",
-      "url": "http://mp.cnfol.com/50265/article/1778993460-142426939",
-      "published_at": "20260517T121500Z",
-      "source": "mp.cnfol.com",
+      "id": "gdelt_f31825ff0763e67a",
+      "headline": "Could Solana ( SOL ) ETFs Outperform Ripple ( XRP ) ETFs In 2026 ?",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/could-solana-sol-etfs-outperform-181049972.html",
+      "published_at": "20260517T184500Z",
+      "source": "finance.yahoo.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5ae0e2a231da4305",
+      "headline": "WHO declares Ebola outbreak in DRC , Uganda a global health emergency as cases top 300",
+      "url": "https://www.news24.com/world/africa/who-declares-ebola-outbreak-in-drc-uganda-a-global-health-emergency-as-cases-top-300-20260517-1149",
+      "published_at": "20260517T204500Z",
+      "source": "news24.com",
+      "tags": [
+        "DEMOCRATIC_REPUBLIC_OF_CONGO"
+      ]
+    },
+    {
+      "id": "gdelt_65b0fbc147446e4f",
+      "headline": "Ukraina kan vinne . Russland kan vinne . En forhandlet våpenhvile ? Svært usannsynlig .",
+      "url": "https://www.aftenposten.no/meninger/kronikk/i/L46ao9/ukraina-kan-vinne-russland-kan-vinne-en-forhandlet-vaapenhvile-svaert-usannsynlig",
+      "published_at": "20260517T190000Z",
+      "source": "aftenposten.no",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ec0c5af8510a31ed",
+      "headline": "Homem é preso suspeito de promover migrao irregular de cubanos em RR",
+      "url": "https://g1.globo.com/rr/roraima/noticia/2026/05/17/homem-e-preso-suspeito-de-promover-migracao-irregular-de-cubanos-em-roraima.ghtml",
+      "published_at": "20260517T203000Z",
+      "source": "g1.globo.com",
       "tags": []
     },
     {
@@ -335,29 +355,29 @@
       "tags": []
     },
     {
-      "id": "gdelt_72291d02d0fd231b",
-      "headline": "Malijet - Addis - Abeba : Abdoulaye Diop échange avec le COREP de lUnion africaine",
-      "url": "https://malijet.com/actualite-politique-au-mali/309566-addis-abeba--abdoulaye-diop-echange-avec-le-corep-de-l%E2%80%99union-a.html",
-      "published_at": "20260517T143000Z",
-      "source": "malijet.com",
-      "tags": [
-        "MALI"
-      ]
-    },
-    {
-      "id": "gdelt_d14879d32d3dafaf",
-      "headline": "Time . ai",
-      "url": "https://time.mk/ai/1bcf208830/mk/",
-      "published_at": "20260517T121500Z",
-      "source": "time.mk",
+      "id": "gdelt_c0f0884662f37bc2",
+      "headline": "Sulmi me dronë godet centralin bërthamor , Emiratet e Bashkuara Arabe paralajmërojnë përshkallëzim të situatës në Lindjen e Mesme",
+      "url": "https://www.panorama.com.al/sulmi-me-drone-godet-centralin-berthamor-emiratet-e-bashkuara-arabe-paralajmerojne-pershkallezim-te-situates-ne-lindjen-e-mesme/",
+      "published_at": "20260517T194500Z",
+      "source": "panorama.com.al",
       "tags": []
     },
     {
-      "id": "gdelt_b39f189ad044fc4c",
-      "headline": "Time . ai",
-      "url": "https://time.mk/ai/2257ffaced/mk/",
-      "published_at": "20260517T163000Z",
-      "source": "time.mk",
+      "id": "gdelt_49dd0aca53e73275",
+      "headline": "Prime minister , Portuguese FM review bilateral relations , regional developments",
+      "url": "https://www.qatar-tribune.com/article/234687/latest-news/prime-minister-portuguese-fm-review-bilateral-relations-regional-developments",
+      "published_at": "20260517T200000Z",
+      "source": "qatar-tribune.com",
+      "tags": [
+        "QATAR"
+      ]
+    },
+    {
+      "id": "gdelt_796c0f0967047f3c",
+      "headline": "Turmush : 91 - летний аксакал из Ат - Башинского района пожаловался полпреду президента на земельную волокиту и пропуска на джайлоо Ак - Сай",
+      "url": "https://www.turmush.kg/ru/news:2468276",
+      "published_at": "20260517T201500Z",
+      "source": "turmush.kg",
       "tags": []
     },
     {
@@ -371,6 +391,49 @@
       ]
     },
     {
+      "id": "gdelt_9b47915ab3e4a8be",
+      "headline": "Зеленский обсудил с Коштой мирные переговоры и вступление Украины в ЕС - подробности",
+      "url": "https://www.obozrevatel.com/politics-news/evropa-dolzhna-byit-v-peregovorah-zelenskij-rasskazal-kakie-temyi-obsudil-s-koshtoj.htm",
+      "published_at": "20260517T201500Z",
+      "source": "obozrevatel.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_56545897f008b9e5",
+      "headline": "Përshkallëzim në Lindjen e Mesme ! Sulm me dron pranë centralit bërthamor Barakah në Emiratet e Bashkuara",
+      "url": "https://www.vizionplus.tv/pershkallezim-ne-lindjen-e-mesme-sulm-me-dron-prane-centralit-berthamor-barakah-ne-emiratet-e-bashkuara/",
+      "published_at": "20260517T204500Z",
+      "source": "vizionplus.tv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cbbd29a381b8d194",
+      "headline": "Sulmi me dronë godet centralin bërthamor , Emiratet e Bashkuara Arabe paralajmërojnë përshkallëzim të situatës në Lindjen e Mesme",
+      "url": "https://www.botasot.info/azia-bota/2484010/sulmi-me-drone-godet-centralin-berthamor-emiratet-e-bashkuara-arabe-paralajmerojne-pershkallezim-te-situates-ne-lindjen-e-mesme/",
+      "published_at": "20260517T194500Z",
+      "source": "botasot.info",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b39f189ad044fc4c",
+      "headline": "Time . ai",
+      "url": "https://time.mk/ai/2257ffaced/mk/",
+      "published_at": "20260517T163000Z",
+      "source": "time.mk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a74d33867f7f87c5",
+      "headline": "PM Shehbaz thanks Qatar for support to Pakistan peace , de - escalation efforts in Middle East",
+      "url": "https://tribune.com.pk/story/2608649/pm-shehbaz-thanks-qatar-for-support-to-pakistans-peace-de-escalation-efforts",
+      "published_at": "20260517T194500Z",
+      "source": "tribune.com.pk",
+      "tags": [
+        "QATAR",
+        "PAKISTAN"
+      ]
+    },
+    {
       "id": "gdelt_79de275a9d7e94a9",
       "headline": "Pregovori pod tenzijama : SAD dostavile Iranu listu od pet uslova",
       "url": "https://www.alo.rs/vesti/svet/16755619/pregovori-pod-tenzijama-sad-dostavile-iranu-listu-od-pet-uslova.html",
@@ -379,28 +442,42 @@
       "tags": []
     },
     {
-      "id": "gdelt_f6f0636d8ee9704b",
-      "headline": "Παγκόσμιος συναγερμός για τον ιό Έμπολα μετά τους θανάτους σε Κονγκό και Ουγκάντα",
-      "url": "https://www.inewsgr.com/379/pagkosmios-synagermos-gia-ton-io-ebola-meta-tous-thanatous-se-kongko-kai-ougkanta.htm",
-      "published_at": "20260517T143000Z",
-      "source": "inewsgr.com",
+      "id": "gdelt_09e7e74e00a123c9",
+      "headline": "Reedereien Hapag - Lloyd und CMA CGM stoppen Kuba - Transporte",
+      "url": "https://orf.at/stories/3430619/",
+      "published_at": "20260517T203000Z",
+      "source": "orf.at",
       "tags": []
     },
     {
-      "id": "gdelt_832fd0394be2ad38",
-      "headline": "Israel to build IDF museum at ex - UNRWA HQ",
-      "url": "https://www.hurriyetdailynews.com/israel-to-build-idf-museum-at-ex-unrwa-hq-222231",
-      "published_at": "20260517T141500Z",
-      "source": "hurriyetdailynews.com",
-      "tags": [
-        "ISRAEL"
-      ]
+      "id": "gdelt_d1464adc23df3fa6",
+      "headline": "Розширення міждержавних електричних з  єднань",
+      "url": "https://nikvesti.com/news/business/318557-rozsheennia-mizhderzhavnykh-elektrychnykh-ziednan",
+      "published_at": "20260517T153000Z",
+      "source": "nikvesti.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_837c5100e267938c",
+      "headline": "OMS declara emergência global por surto de ebola em dois países africanos",
+      "url": "https://jornaldebrasilia.com.br/noticias/mundo/oms-declara-emergencia-global-por-surto-de-ebola-em-dois-paises-africanos/",
+      "published_at": "20260517T151500Z",
+      "source": "jornaldebrasilia.com.br",
+      "tags": []
     },
     {
       "id": "gdelt_327673fb1e1149c3",
       "headline": "وزير الخارجية يبحث هاتفيًا مع نظيره الإماراتي جهود خفض التصعيد ويدين استهداف محيط محطة براكة",
       "url": "https://www.dostor.org/5559314",
       "published_at": "20260517T153000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e75ec60690509e8a",
+      "headline": "خبير عسكري : إصابة أكثر من ألف جندي إسرائيلي منذ بداية التصعيد في لبنان",
+      "url": "https://www.dostor.org/5559741",
+      "published_at": "20260517T203000Z",
       "source": "dostor.org",
       "tags": []
     },
@@ -415,38 +492,6 @@
       ]
     },
     {
-      "id": "gdelt_d1464adc23df3fa6",
-      "headline": "Розширення міждержавних електричних з  єднань",
-      "url": "https://nikvesti.com/news/business/318557-rozsheennia-mizhderzhavnykh-elektrychnykh-ziednan",
-      "published_at": "20260517T153000Z",
-      "source": "nikvesti.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_44d58dc4777f7bae",
-      "headline": "SAD vratile sankcije na rusku naftu posle isteka izuzeća na kaznene mere",
-      "url": "https://www.slobodnaevropa.org/a/sad-rusija-sankcije-nafta-iuzuzece/33758733.html",
-      "published_at": "20260517T121500Z",
-      "source": "slobodnaevropa.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_485ea7eeff3a8624",
-      "headline": "Internal Rift Divided Trump Administration Over Next Steps in Deadlocked Iran War",
-      "url": "https://www.kyivpost.com/post/76309",
-      "published_at": "20260517T150000Z",
-      "source": "kyivpost.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_837c5100e267938c",
-      "headline": "OMS declara emergência global por surto de ebola em dois países africanos",
-      "url": "https://jornaldebrasilia.com.br/noticias/mundo/oms-declara-emergencia-global-por-surto-de-ebola-em-dois-paises-africanos/",
-      "published_at": "20260517T151500Z",
-      "source": "jornaldebrasilia.com.br",
-      "tags": []
-    },
-    {
       "id": "gdelt_b80a7f9897869f61",
       "headline": "OMS declara emergencia de salud internacional por brote de ébola en RDC y Uganda",
       "url": "https://www.panamaamerica.com.pa/mundo/oms-declara-emergencia-de-salud-internacional-por-brote-de-ebola-en-rdc-y-uganda-1261779",
@@ -455,11 +500,29 @@
       "tags": []
     },
     {
-      "id": "gdelt_c727736a2209c483",
-      "headline": "Crypto PR Under Regulatory Ambiguity : What Sayable and What Isnt",
-      "url": "https://everything-pr.com/crypto-pr-regulatory-ambiguity/",
-      "published_at": "20260517T174500Z",
-      "source": "everything-pr.com",
+      "id": "gdelt_3a97ee9b216bee1f",
+      "headline": "Когда закончится война в Украине : прогноз историка из Германии",
+      "url": "https://society.comments.ua/news/warrussia/kogda-zakonchitsya-voyna-v-ukraine-v-germanii-sdelali-mrachnyy-prognoz-806813.html",
+      "published_at": "20260517T180000Z",
+      "source": "society.comments.ua",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_9d8427acbb987eb7",
+      "headline": "Ahmet Almaz - Devedikeni ve İnsan İradesi : İbrahim Kalın * ın Gözünden Tolstoyun Hacı Murat  ı ve Liderlik Dersleri",
+      "url": "https://www.haberler.com/yazarlar/ahmet-almaz-2-70/devedikeni-ve-insan-iradesi-ibrahim-kalinin-gozunden-tolstoyun-haci-murati-ve-liderlik-dersleri-6347/",
+      "published_at": "20260517T200000Z",
+      "source": "haberler.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d8d6d8f2813654bb",
+      "headline": "Leállnak az építkezések a felvételi miatt : 3 napig tart a világ legnehezebb vizsgája",
+      "url": "https://divany.hu/offline/gaokao-kina-felveteli-vizsga-leallas/",
+      "published_at": "20260517T190000Z",
+      "source": "divany.hu",
       "tags": []
     },
     {
@@ -471,52 +534,41 @@
       "tags": []
     },
     {
-      "id": "gdelt_3a1f1dad48e1de33",
-      "headline": "Clip : Ô tô mất lái đâm văng người đi xe máy",
-      "url": "https://tienphong.vn/clip-o-to-mat-lai-dam-vang-nguoi-di-xe-may-post1844010.tpo",
-      "published_at": "20260517T121500Z",
-      "source": "tienphong.vn",
+      "id": "gdelt_cb0504a2a70bdfba",
+      "headline": "Daleep Singh : Ηχηρο « καμπανάκι » στις αγορές από τα αμερικανικά ομόλογα",
+      "url": "https://www.euro2day.gr/news/world/article/2351468/hhhro-kampanaki-stis-agores-apo-ta-amerikanika-omo.html",
+      "published_at": "20260517T194500Z",
+      "source": "euro2day.gr",
       "tags": []
     },
     {
-      "id": "gdelt_fe97f841fb7c1f33",
-      "headline": "СБУ : Поражены завод ВПК и нефтепредприятия в Подмосковье",
-      "url": "https://www.dw.com/ru/sbu-porazeny-zavod-vpk-i-rad-neftanyh-obektov-v-podmoskove/a-77189304",
-      "published_at": "20260517T150000Z",
-      "source": "dw.com",
+      "id": "gdelt_c727736a2209c483",
+      "headline": "Crypto PR Under Regulatory Ambiguity : What Sayable and What Isnt",
+      "url": "https://everything-pr.com/crypto-pr-regulatory-ambiguity/",
+      "published_at": "20260517T174500Z",
+      "source": "everything-pr.com",
       "tags": []
     },
     {
-      "id": "gdelt_ff8b93bfd46c7e7a",
-      "headline": "США могут снова ослабить санкции против российской нефти – СМИ",
-      "url": "https://vestikavkaza.ru/news/ssa-mogut-snova-oslabit-sankcii-protiv-rossijskoj-nefti-smi.html",
-      "published_at": "20260517T133000Z",
-      "source": "vestikavkaza.ru",
-      "tags": []
+      "id": "gdelt_74e1790f3a3641ed",
+      "headline": "قرقاش عن استهداف محطة براكة للطاقة النووية :  لن يلوي أحد ذراع الإمارات",
+      "url": "https://arabic.cnn.com/middle-east/article/2026/05/17/anwar-gargash-barakah-uae-nuclear-power-plant-targeted-by-drone",
+      "published_at": "20260517T201500Z",
+      "source": "arabic.cnn.com",
+      "tags": [
+        "UAE"
+      ]
     },
     {
-      "id": "gdelt_84b3a04985de3057",
-      "headline": "US Allows Sanctions Waiver on Russian Oil to Expire",
-      "url": "https://www.theepochtimes.com/world/us-allows-sanctions-waiver-on-russian-oil-to-expire-6026965",
-      "published_at": "20260517T150000Z",
-      "source": "theepochtimes.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_68948da873fae2dd",
-      "headline": "ZDA niso podaljšale izjem pri sankcijah na rusko nafto",
-      "url": "https://www.rtvslo.si/svet/s-in-j-amerika/zda-niso-podaljsale-izjem-pri-sankcijah-na-rusko-nafto/782422",
-      "published_at": "20260517T141500Z",
-      "source": "rtvslo.si",
-      "tags": []
-    },
-    {
-      "id": "gdelt_aaa64c54b4e470a7",
-      "headline": "موقع بكرا - القوات الإسرائيلية تتوغل 4 مرات في ريف القنيطرة خلال ساعات",
-      "url": "https://bokra.net/Article-1594617",
-      "published_at": "20260517T130000Z",
-      "source": "bokra.net",
-      "tags": []
+      "id": "gdelt_ab6c7cc95fc7588b",
+      "headline": "هجوم أوكراني غير مسبوق على روسيا يوقع قتلى .. وزيلينسكي يصف العملية بأنها  مبرّرة تمامًا",
+      "url": "https://arabic.euronews.com/my-europe/2026/05/17/ukraine-russia-moscow-drone-attack-zelensky-kyiv-war-drones",
+      "published_at": "20260517T190000Z",
+      "source": "arabic.euronews.com",
+      "tags": [
+        "RUSSIA",
+        "UKRAINE"
+      ]
     },
     {
       "id": "gdelt_12e8c9d6ac6c0bad",
@@ -527,11 +579,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_50bb851341d96a6c",
-      "headline": "تصعيد خطير .. الاحتلال يستهدف تكية تقدم الطعام للنازحين في وسط غزة",
-      "url": "https://www.dostor.org/5559187",
-      "published_at": "20260517T143000Z",
-      "source": "dostor.org",
+      "id": "gdelt_bf97d66cb6f1f548",
+      "headline": "Певица Виктория Цыганова : Мы им нефть они нам санкции и боеприпасы Украине . Нормально так . Хуже некуда",
+      "url": "https://argumenti.ru/opinion/2026/05/997635",
+      "published_at": "20260517T190000Z",
+      "source": "argumenti.ru",
       "tags": []
     },
     {
@@ -543,19 +595,59 @@
       "tags": []
     },
     {
+      "id": "gdelt_39291caa162aefbf",
+      "headline": "Ukraińcy odwinęli się za ataki na Kijów . 600 dronów nad Rosją",
+      "url": "https://wpolityce.pl/swiat/760525-ukraincy-odwineli-sie-za-ataki-na-kijow-600-dronow-nad-rosja",
+      "published_at": "20260517T200000Z",
+      "source": "wpolityce.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_abf9c0a097aa5d8b",
+      "headline": "تصعيد متبادل جنوب لبنان .. مسيّرات حزب الله وغارات إسرائيلية تعيد التوتر إلى الحدود",
+      "url": "https://www.dostor.org/5559264",
+      "published_at": "20260517T180000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ce392c71023e229c",
+      "headline": "ترامب ونتنياهو يبحثان الخيار العسكري وشن هجمات مشتركة ضد إيران",
+      "url": "https://www.dostor.org/5559573",
+      "published_at": "20260517T181500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9ade4ae7c8f095d6",
+      "headline": "Στο στόχαστρο του Ιράν υποθαλάσσια καλώδια του Ορμούζ - Πώς θα επηρέαζε από τράπεζες έως τηλεργασία",
+      "url": "https://www.politis.com.cy/politis-news/kosmos/1005820/sto-stokhastro-toy-iran-ipothalassia-kalwdia-toy-ormouz-pws-tha-epireaze-apo-trapezes-eos-tilerghasia",
+      "published_at": "20260517T183000Z",
+      "source": "politis.com.cy",
+      "tags": []
+    },
+    {
+      "id": "gdelt_99b5cfb6b90da0fc",
+      "headline": "Përshkallëzim në Lindjen e Mesme ! Sulm me dron pranë centralit bërthamor Barakah në Emiratet e Bashkuara",
+      "url": "https://javanews.al/pershkallezim-ne-lindjen-e-mesme-sulm-me-dron-prane-centralit-berthamor-barakah-ne-emiratet-e-bashkuara/",
+      "published_at": "20260517T194500Z",
+      "source": "javanews.al",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fba2c853a250322f",
+      "headline": "Savetnik predsednika Emirata osudio „ terorističko ciljanje  nuklearke",
+      "url": "https://naslovi.net/2026-05-17/politika/savetnik-predsednika-emirata-osudio-teroristicko-ciljanje-nuklearke/41829581",
+      "published_at": "20260517T194500Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
       "id": "gdelt_6180939909f9fcef",
       "headline": "川习会才结束 ！ 美军已在古巴周边密集出手",
       "url": "https://www.wenxuecity.com/news/2026/05/17/126651427.html",
       "published_at": "20260517T153000Z",
       "source": "wenxuecity.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_aab306472cb41153",
-      "headline": "Шок для европейцев и принуждение к капитуляции : как Россия планирует заставить ЕС прекратить помощь Киеву",
-      "url": "https://vesti-ua.net/novosti/politika/283795-shok-dlya-evropeycev-i-prinuzhdenie-k-kapitulyacii-kak-rossiya-planiruet-zastavit-es-prekratit-pomosch-kievu.html",
-      "published_at": "20260517T121500Z",
-      "source": "vesti-ua.net",
       "tags": []
     },
     {
@@ -579,6 +671,22 @@
       ]
     },
     {
+      "id": "gdelt_315c117863f71dae",
+      "headline": "The New York Times : SAD bi mogle napasti Iran već sutra",
+      "url": "http://www.avaz.ba/vijesti/globus/1042808/the-new-york-times-sad-bi-mogle-napasti-iran-vec-sutra",
+      "published_at": "20260517T194500Z",
+      "source": "avaz.ba",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cfd29cd0b3ea71f5",
+      "headline": "The New York Times : SAD bi mogle napasti Iran već sutra",
+      "url": "https://avaz.ba/vijesti/globus/1042808/the-new-york-times-sad-bi-mogle-napasti-iran-vec-sutra",
+      "published_at": "20260517T194500Z",
+      "source": "avaz.ba",
+      "tags": []
+    },
+    {
       "id": "gdelt_18ac77a87e66b747",
       "headline": "محافظة القدس : إقامة منشآت عسكرية إسرائيلية على أنقاض مقر أونروا تصعيد خطير",
       "url": "https://www.dostor.org/5559109",
@@ -587,43 +695,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_3755a24dbb300800",
-      "headline": "Aleanca Lindore forcohet / Irani emëron Ghalibaf të dërguar special në Kinë - Sot News",
-      "url": "https://sot.com.al/bota/aleanca-lindore-forcohet-irani-emeron-ghalibaf-te-derguar-special-ne-kine/",
-      "published_at": "20260517T143000Z",
-      "source": "sot.com.al",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ee65dfa81df705e6",
-      "headline": "الإمارات : استهداف محيط محطة براكة انتهاك للقانون الدولي",
-      "url": "https://www.dostor.org/5559450",
-      "published_at": "20260517T164500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4f153f231dcd00d7",
-      "headline": "مصر تدين استهداف محيط محطة « براكة النووية » الإماراتية : أمن الخليج جزء لا يتجزأ من أمن مصر",
-      "url": "https://www.almasryalyoum.com/news/details/4272262",
-      "published_at": "20260517T153000Z",
-      "source": "almasryalyoum.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_dcb99da79b88271e",
-      "headline": "SBU Hits Moscow Defense Plants and Crimea Airbase in Joint Drone Raid",
-      "url": "https://www.kyivpost.com/post/76319",
-      "published_at": "20260517T150000Z",
-      "source": "kyivpost.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2728a54556e92a5d",
-      "headline": "Netanyahu says Israel close to eliminating all October 7 masterminds after Hamas commander killed",
-      "url": "https://www.moneycontrol.com/world/netanyahu-says-israel-close-to-eliminating-all-october-7-masterminds-after-hamas-commander-killed-article-13921607.html",
-      "published_at": "20260517T150000Z",
-      "source": "moneycontrol.com",
+      "id": "gdelt_fecbb775a0102e6b",
+      "headline": "Иранската криза влегува во дигиталната длабочина – од заканите на Трамп до подморските интернет - кабли",
+      "url": "https://time.mk/c/757fe152d1/iran-so-nova-zakana-na-udar-se-globalnite-podmorski-internet-kabli.html",
+      "published_at": "20260517T204500Z",
+      "source": "time.mk",
       "tags": []
     },
     {
@@ -651,19 +727,35 @@
       "tags": []
     },
     {
-      "id": "gdelt_7e0d4cd2321ad749",
-      "headline": "Gripen fighter jets escort PM Narendra Modi into Sweden as he lands in Gothenburg for high - stakes bilateral talks",
-      "url": "https://news.webindia123.com/news/Articles/World/20260517/4451353.html",
-      "published_at": "20260517T141500Z",
-      "source": "news.webindia123.com",
+      "id": "gdelt_ee65dfa81df705e6",
+      "headline": "الإمارات : استهداف محيط محطة براكة انتهاك للقانون الدولي",
+      "url": "https://www.dostor.org/5559450",
+      "published_at": "20260517T164500Z",
+      "source": "dostor.org",
       "tags": []
     },
     {
-      "id": "gdelt_26e3515795c8e9bc",
-      "headline": "جو 24 : مستوطنون يهاجمون منازل الفلسطينيين",
-      "url": "https://jo24.net/article/566930",
-      "published_at": "20260517T141500Z",
-      "source": "jo24.net",
+      "id": "gdelt_4f153f231dcd00d7",
+      "headline": "مصر تدين استهداف محيط محطة « براكة النووية » الإماراتية : أمن الخليج جزء لا يتجزأ من أمن مصر",
+      "url": "https://www.almasryalyoum.com/news/details/4272262",
+      "published_at": "20260517T153000Z",
+      "source": "almasryalyoum.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a140f06f7ac969df",
+      "headline": "Каллас заявила о неготовности России к переговорам и нарвала",
+      "url": "https://wek.ru/kallas-zayavila-o-negotovnosti-rossii-k-peregovoram-i-narvalas-na-zhyostkuyu-reakciyu",
+      "published_at": "20260517T190000Z",
+      "source": "wek.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_def6bc4ef2c30744",
+      "headline": "HAE : « Επικίνδυνη κλιμάκωση » - Καταγγέλλουν το πλήγμα στον πυρηνικό σταθμό Μπαράκαχ",
+      "url": "https://www.in.gr/2026/05/17/world/hae-epikindyni-klimakosi-kataggelloun-to-pligma-ston-pyriniko-stathmo-mparakax/",
+      "published_at": "20260517T203000Z",
+      "source": "in.gr",
       "tags": []
     },
     {
@@ -675,51 +767,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_14f556e2cdb91b3e",
-      "headline": "Phạt tới 50 triệu đồng hành vi dùng hình ảnh trẻ em để  câu view , trục lợi trên mạng",
-      "url": "https://voh.com.vn/phap-luat/phat-toi-50-trieu-dong-hanh-vi-dung-hinh-anh-tre-em-de-cau-view-truc-loi-tren-mang-654762.html",
-      "published_at": "20260517T143000Z",
-      "source": "voh.com.vn",
+      "id": "gdelt_5557f026f7cb72ba",
+      "headline": "США не продовжили дію ліцензії на продаж російської нафти",
+      "url": "https://www.ukrinform.ua/rubric-economy/4124330-ssa-ne-prodovzili-diu-licenzii-na-prodaz-rosijskoi-nafti-bloomberg.html",
+      "published_at": "20260517T184500Z",
+      "source": "ukrinform.ua",
       "tags": []
     },
     {
-      "id": "gdelt_76ee010db52b2017",
-      "headline": "Нефть , товары и удобрения : как Юго - Восточная Азия обогащает Москву ( IL Fatto Quotidiano , Италия )",
-      "url": "https://inosmi.ru/20260517/energonositeli-278470919.html",
-      "published_at": "20260517T173000Z",
-      "source": "inosmi.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5bda1e9d7a78f720",
-      "headline": "鹰派卢比奥软化立场 与习握手后眨眼 小动作引热议",
-      "url": "https://www.wenxuecity.com/news/2026/05/17/126651424.html",
-      "published_at": "20260517T153000Z",
-      "source": "wenxuecity.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5f8a85e966606045",
-      "headline": "موقع بكرا - تهجير أكثر من 40 ألف فلسطيني من مخيمات شمال الضفة منذ مطلع 2025",
-      "url": "https://bokra.net/Article-1594596",
-      "published_at": "20260517T130000Z",
-      "source": "bokra.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5ef25422bc97256d",
-      "headline": "США представили Ирану новый план для разрешения конфликта из пяти пунктов",
-      "url": "https://www.vedomosti.ru/politics/news/2026/05/17/1197816-ssha-predstavili-iranu",
-      "published_at": "20260517T121500Z",
-      "source": "vedomosti.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_de121a4b51f37a2a",
-      "headline": "يشترون مقاعد في الكونغرس .. ماسي يفجر جدلا حول نفوذ إسرائيل بأمريكا",
-      "url": "https://www.aljazeera.net/news/2026/5/17/%D9%8A%D8%B4%D8%AA%D8%B1%D9%88%D9%86-%D9%85%D9%82%D8%A7%D8%B9%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D9%83%D9%88%D9%86%D8%BA%D8%B1%D8%B3-%D9%85%D8%A7%D8%B3%D9%8A-%D9%8A%D9%81%D8%AC%D8%B1",
-      "published_at": "20260517T133000Z",
-      "source": "aljazeera.net",
+      "id": "gdelt_84de1db11ce25c34",
+      "headline": "ΗΑΕ : Επίθεση με drone προκάλεσε φωτιά κοντά σε πυρηνικό εργοστάσιο – « Επικίνδυνη κλιμάκωση »",
+      "url": "https://www.inewsgr.com/227/iae-epithesi-me-drone-prokalese-fotia-konta-se-pyriniko-ergostasio--epikindyni-klimakosi.htm",
+      "published_at": "20260517T184500Z",
+      "source": "inewsgr.com",
       "tags": []
     },
     {
@@ -733,11 +793,59 @@
       ]
     },
     {
+      "id": "gdelt_76ee010db52b2017",
+      "headline": "Нефть , товары и удобрения : как Юго - Восточная Азия обогащает Москву ( IL Fatto Quotidiano , Италия )",
+      "url": "https://inosmi.ru/20260517/energonositeli-278470919.html",
+      "published_at": "20260517T173000Z",
+      "source": "inosmi.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_863423d04582ebd4",
+      "headline": "САД ги вратија санкциите врз руската нафта",
+      "url": "https://kurir.mk/vesti/svet/sad-gi-vratija-sanktsiite-vrz-ruskata-nafta/",
+      "published_at": "20260517T184500Z",
+      "source": "kurir.mk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5bda1e9d7a78f720",
+      "headline": "鹰派卢比奥软化立场 与习握手后眨眼 小动作引热议",
+      "url": "https://www.wenxuecity.com/news/2026/05/17/126651424.html",
+      "published_at": "20260517T153000Z",
+      "source": "wenxuecity.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2791342610999c45",
+      "headline": "Donald Trump anunță „ liniștea dinaintea furtunii  după blocajul negocierilor dintre SUA și Iran",
+      "url": "https://stirileprotv.ro/stiri/international/trump-anunta-linistea-dinaintea-furtunii-dupa-blocajul-negocierilor-dintre-sua-si-iran.html",
+      "published_at": "20260517T190000Z",
+      "source": "stirileprotv.ro",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d63558dd91999975",
+      "headline": "Νέες απειλές Τραμπ : « Ο χρόνος τελειώνει για το Ιράν »",
+      "url": "https://www.euro2day.gr/news/world/article/2351471/nees-apeiles-tramp-o-hronos-teleionei-gia-to-iran.html",
+      "published_at": "20260517T194500Z",
+      "source": "euro2day.gr",
+      "tags": []
+    },
+    {
       "id": "gdelt_08aec10e6fd479e7",
       "headline": "Իսրայելի հարվածներից Լիբանանում վերջին մեկ օրում 37 , պատերազմի սկզբից  2988 մարդ է զոհվել",
       "url": "https://www.azatutyun.am/a/israyeli-harvatsnerits-libananoum-paterazmi-skzbits-2988-mard-e-zohvel-verjin-mek-%D6%85roum-37/33758850.html",
       "published_at": "20260517T170000Z",
       "source": "azatutyun.am",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c0aef2225558a061",
+      "headline": "Иран обвинил США в использовании риторики Геббельса",
+      "url": "https://lenta.ru/news/2026/05/17/iran-obvinil-ssha-v-ispolzovanii-ritoriki-gebbelsa/",
+      "published_at": "20260517T203000Z",
+      "source": "lenta.ru",
       "tags": []
     },
     {
@@ -749,11 +857,93 @@
       "tags": []
     },
     {
+      "id": "gdelt_d517b72f02b67924",
+      "headline": "أبو الغيط يدين الاعتداء على محطة براكة للطاقة النووية بالإمارات",
+      "url": "https://www.dostor.org/5559638",
+      "published_at": "20260517T190000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8b87dc1d004adc4e",
+      "headline": "Trump targets Cuba : citizens told to  prepare for US invasion  – Channel 4 News",
+      "url": "https://www.channel4.com/news/trump-targets-cuba-citizens-told-to-prepare-for-us-invasion",
+      "published_at": "20260517T194500Z",
+      "source": "channel4.com",
+      "tags": [
+        "CUBA"
+      ]
+    },
+    {
+      "id": "gdelt_b803a6eb02ae3e05",
+      "headline": "الدعم السريع يطلي آلياته بالأخضر .. هل تنجح حيلة التمويه ضد المسيّرات ؟",
+      "url": "https://www.dostor.org/5559487",
+      "published_at": "20260517T194500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_eeef8298b39a1741",
+      "headline": "Eskalation in Winzerla : Attacke auf Hundehalter und Polizei",
+      "url": "https://www.otz.de/lokales/jena/article412020281/eskalation-in-winzerla-attacke-auf-hundehalter-und-polizei.html",
+      "published_at": "20260517T183000Z",
+      "source": "otz.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_37dd2bd4617bc042",
+      "headline": "【 禁聞 】 加國政府 ： 絕不容忍外國干涉或跨國鎮壓 | 京東上海大樓歪了 | 上熱搜",
+      "url": "https://www.ntdtv.com/b5/2026/05/17/a104097589.html",
+      "published_at": "20260517T194500Z",
+      "source": "ntdtv.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_23090aacb7c10e68",
+      "headline": "Σε πλήρη ετοιμότητα οι Ένοπλες Δυνάμεις του Ιράν να απαντήσουν σε νέα επίθεση – Καταρρέει η κυριαρχία των ΗΠΑ",
+      "url": "https://www.bankingnews.gr/diethni/articles/875698/se-pliri-etoimotita-oi-enoples-dynameis-tou-iran-na-apantisoun-se-nea-epithesi-katarreei-i-kyriarxia-ton-ipa%20title=",
+      "published_at": "20260517T193000Z",
+      "source": "bankingnews.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a36092623527713b",
+      "headline": "Σε πλήρη ετοιμότητα οι Ένοπλες Δυνάμεις του Ιράν να απαντήσουν σε νέα επίθεση – Καταρρέει η κυριαρχία των ΗΠΑ",
+      "url": "https://www.bankingnews.gr/diethni/articles/875698/se-pliri-etoimotita-oi-enoples-dynameis-tou-iran-na-apantisoun-se-nea-epithesi-katarreei-i-kyriarxia-ton-ipa",
+      "published_at": "20260517T193000Z",
+      "source": "bankingnews.gr",
+      "tags": []
+    },
+    {
       "id": "gdelt_802edce5dae27b70",
       "headline": "تقرير أمريكي يرصد صعود المغرب كقوة إقليمية اقتصاديا ودبلوماسيا",
       "url": "https://www.hespress.com/%D8%AA%D9%82%D8%B1%D9%8A%D8%B1-%D8%AF%D9%88%D9%84%D9%8A-%D9%8A%D8%B1%D8%B5%D8%AF-%D8%B5%D8%B9%D9%88%D8%AF-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%83%D9%82%D9%88%D8%A9-%D8%A5%D9%82%D9%84%D9%8A%D9%85-1748258.html",
       "published_at": "20260517T153000Z",
       "source": "hespress.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b19aeb09bf872cf1",
+      "headline": "OMS declara emergencia internacional por brote de ébola en la RDC y Uganda",
+      "url": "https://ultimasnoticias.com.ve/mundo/oms-declara-emergencia-internacional-por-brote-de-ebola-en-la-rdc-y-uganda/",
+      "published_at": "20260517T194500Z",
+      "source": "ultimasnoticias.com.ve",
+      "tags": []
+    },
+    {
+      "id": "gdelt_71a462fc4a2b5c40",
+      "headline": "OMS declara Emergencia Internacional por brote de ébola en la RDC y Uganda",
+      "url": "https://www.telesurtv.net/oms-emergencia-internacional-brote-ebola/",
+      "published_at": "20260517T194500Z",
+      "source": "telesurtv.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_71a08698a08543e3",
+      "headline": "Rriten tensionet në Lindjen e Mesme , shkak sulmi - Syri",
+      "url": "https://www.syri.net/bote/889636/rriten-tensionet-ne-lindjen-e-mesme-shkak-sulmi-prane-centralit-berthamor-ne-emiratet-e-bashkuara-arabe/",
+      "published_at": "20260517T204500Z",
+      "source": "syri.net",
       "tags": []
     },
     {
@@ -765,88 +955,37 @@
       "tags": []
     },
     {
-      "id": "gdelt_46dfc09491175b53",
-      "headline": "Trump , Nigeria claim killing of senior IS leader",
-      "url": "https://article.wn.com/view/2026/05/17/Trump_Nigeria_claim_killing_of_senior_IS_leader/",
-      "published_at": "20260517T121500Z",
-      "source": "article.wn.com",
+      "id": "gdelt_ff7697759a1e98b3",
+      "headline": "The countdown has started : Gulf waters witness unprecedented military activity",
+      "url": "https://www.albawaba.net/news/countdown-has-started-gulf-waters-1627895",
+      "published_at": "20260517T201500Z",
+      "source": "albawaba.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_23864f16ba19d071",
+      "headline": "أمين عام مجلس التعاون يدين الاعتداء الغاشم على الإمارات باستهداف محيط محطة براكة",
+      "url": "https://www.albayan.ae/news/uae/foreign-affairs/1293029",
+      "published_at": "20260517T204500Z",
+      "source": "albayan.ae",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b551fa8ebc461f24",
+      "headline": "DRC faces deadly Ebola resurgence amid worsening humanitarian crisis",
+      "url": "https://www.aljazeera.com/features/2026/5/17/drc-faces-deadly-ebola-resurgence-amid-worsening-humanitarian-crisis",
+      "published_at": "20260517T200000Z",
+      "source": "aljazeera.com",
       "tags": [
-        "NIGERIA"
+        "DEMOCRATIC_REPUBLIC_OF_CONGO"
       ]
     },
     {
-      "id": "gdelt_69e4a45817a469c5",
-      "headline": "Amerika postavila 5 uslova Iranu : Ovo je crvena linija",
-      "url": "https://www.blic.rs/vesti/svet/amerika-postavila-5-uslova-iranu-ovo-je-crvena-linija/0ql0kvt",
-      "published_at": "20260517T123000Z",
-      "source": "blic.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d4330931c12f81c2",
-      "headline": "Администрация Трампа не продлила разрешение на покупку российской нефти",
-      "url": "https://zerkalo.az/administratsiya-trampa-ne-prodlila-razreshenie-na-pokupku-rossijskoj-nefti/",
-      "published_at": "20260517T121500Z",
-      "source": "zerkalo.az",
-      "tags": []
-    },
-    {
-      "id": "gdelt_aa327f4c87c797ef",
-      "headline": "لماذا تصر إسرائيل على التصعيد العسكري في لبنان ؟ ( فيديو )",
-      "url": "https://www.dostor.org/5559141",
-      "published_at": "20260517T143000Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_43e853722e92a2c1",
-      "headline": "Egypt condemns drone attack near UAE Barakah Nuclear Power Plant",
-      "url": "https://www.emirates247.com/world/egypt-condemns-drone-attack-near-uaes-barakah-nuclear-power-plant/1694",
-      "published_at": "20260517T153000Z",
-      "source": "emirates247.com",
-      "tags": [
-        "UAE",
-        "EGYPT"
-      ]
-    },
-    {
-      "id": "gdelt_da0d58d41f3aa506",
-      "headline": "Далекобійні « санкції » України подолали понад 500 км і дісталися Московського регіону – Зеленський",
-      "url": "https://glavcom.ua/country/politics/dalekobijni-sanktsiji-ukrajini-podolali-ponad-500-km-i-distalisja-moskovskoho-rehionu-zelenskij-1120141.html",
-      "published_at": "20260517T121500Z",
-      "source": "glavcom.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7368cf77c4ff3b24",
-      "headline": "موقع بكرا - تقرير الهوموفوبيا 2025 : ارتفاع الاعتداءات الجسدية ضد مجتمع الميم إلى 50 % في الحيز العام",
-      "url": "https://bokra.net/Article-1594659",
-      "published_at": "20260517T170000Z",
-      "source": "bokra.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0333a9e5fece20e9",
-      "headline": "ادانة مصرية - أردنية لاستهداف أبوظبي",
-      "url": "https://addiyar.com/article/2354432-%d8%a7%d8%af%d8%a7%d9%86%d8%a9-%d9%85%d8%b5%d8%b1%d9%8a%d8%a9--%d8%a3%d8%b1%d8%af%d9%86%d9%8a%d8%a9-%d9%84%d8%a7%d8%b3%d8%aa%d9%87%d8%af%d8%a7%d9%81-%d8%a3%d8%a8%d9%88%d8%b8%d8%a8%d9%8a",
-      "published_at": "20260517T153000Z",
-      "source": "addiyar.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9dcdf0693fe14163",
-      "headline": "В Иране сравнили действия США с походами Римской империи :: Новости дня / ВЗГЛЯД",
-      "url": "https://vz.ru/news/2026/5/17/1419744.html",
-      "published_at": "20260517T121500Z",
-      "source": "vz.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_624e2515eb28fc7a",
-      "headline": "В Белоруссии объяснили , почему Киев пытается втянуть в конфликт Минск",
-      "url": "https://www.mk.ru/politics/2026/05/17/v-belorussii-obyasnili-pochemu-kiev-pytaetsya-vtyanut-v-konflikt-minsk.html",
-      "published_at": "20260517T150000Z",
-      "source": "mk.ru",
+      "id": "gdelt_f2218a31ddbdbe46",
+      "headline": "U . S ., Iran still far apart on war end , Hormuz reopening as UAE nuclear plant hit by drone",
+      "url": "https://theprovince.com/news/u-s-iran-war-hormuz-uae-drone-nuclear-plant/wcm/aab9864d-fa41-4426-a7f4-6f32b85d891a",
+      "published_at": "20260517T204500Z",
+      "source": "theprovince.com",
       "tags": []
     },
     {
@@ -858,182 +997,46 @@
       "tags": []
     },
     {
-      "id": "gdelt_0b831423434be96c",
-      "headline": "Zelenskis : triecieni pa Maskavu bija  taisnīga atbilde",
-      "url": "https://nra.lv/pasaule/521322-zelenskis-triecieni-pa-maskavu-bija-taisniga-atbilde.htm",
-      "published_at": "20260517T163000Z",
-      "source": "nra.lv",
+      "id": "gdelt_b8cedd8e8fdce82e",
+      "headline": "Trump prijeti Iranu : Zatišje pred oluju",
+      "url": "https://www.vecernji.hr/vijesti/trump-prijeti-iranu-zatisje-pred-oluju-1960708",
+      "published_at": "20260517T203000Z",
+      "source": "vecernji.hr",
       "tags": []
     },
     {
-      "id": "gdelt_10bea52f44853459",
-      "headline": "Пожар произошел в районе АЭС  Барака  в ОАЭ из - за атаки БПЛА",
-      "url": "https://www.m24.ru/news/proisshestviya/17052026/901320",
-      "published_at": "20260517T121500Z",
-      "source": "m24.ru",
+      "id": "gdelt_593419b120167c73",
+      "headline": "الخارجية القطرية : الهجمات على دول المنطقة تجاوزت كافة الخطوط الحمراء",
+      "url": "https://www.almasryalyoum.com/news/details/4272440",
+      "published_at": "20260517T193000Z",
+      "source": "almasryalyoum.com",
       "tags": []
     },
     {
-      "id": "gdelt_5d82b276e7c1a527",
-      "headline": "إدانة أردنية مصرية لاستهداف محطة براكة للطاقة النووية في الإمارات",
-      "url": "https://www.eremnews.com/news/arab-world/jzwe255",
-      "published_at": "20260517T150000Z",
-      "source": "eremnews.com",
+      "id": "gdelt_b32621761436c5f8",
+      "headline": "UAE blames Iran or its proxies for drone strike fire near nuclear plant",
+      "url": "https://www.theguardian.com/world/2026/may/17/uae-blames-iran-or-its-proxies-for-drone-strike-fire-near-nuclear-plant",
+      "published_at": "20260517T201500Z",
+      "source": "theguardian.com",
       "tags": []
     },
     {
-      "id": "gdelt_7ecaefda97bb2913",
-      "headline": "موقع بكرا - الإمارات تدين إطلاق مسيّرات باتجاه أراضيها :  هجوم إرهابي غادر",
-      "url": "https://bokra.net/Article-1594656",
-      "published_at": "20260517T170000Z",
-      "source": "bokra.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f86f571e9da07f91",
-      "headline": "US offered  no tangible concession in response to Iran proposal to end war : Report",
-      "url": "https://www.moneycontrol.com/world/us-offered-no-tangible-concessions-in-response-to-iran-proposal-to-end-war-report-article-13921540.html",
-      "published_at": "20260517T124500Z",
-      "source": "moneycontrol.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f96a03d25bea1b35",
-      "headline": "Atak na Moskwę . Ukraina potwierdza uderzenia na cele w Rosji",
-      "url": "https://niezalezna.pl/swiat/atak-na-moskwe-ukraina-potwierdza-uderzenia-na-cele-w-rosji/570617",
-      "published_at": "20260517T170000Z",
-      "source": "niezalezna.pl",
-      "tags": []
-    },
-    {
-      "id": "gdelt_309d4126c579256b",
-      "headline": "DA : Rice price cap violators face fines , prison",
-      "url": "https://www.philstar.com/headlines/2026/05/18/2528684/da-rice-price-cap-violators-face-fines-prison",
-      "published_at": "20260517T171500Z",
-      "source": "philstar.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1d12a06bc2975335",
-      "headline": "Lufta në Lindjen e Mesme / Izraeli paralajmëron qytetarët e saj : Largohuni nga Libani , gati të godasim Hezbollahun",
-      "url": "https://top-channel.tv/2026/05/17/lufta-ne-lindjen-e-mesme-izraeli-paralajmeron-qytetaret-e-saj-largohuni-nga-libani-gati-te-godasim-hezbollahun/",
-      "published_at": "20260517T174500Z",
-      "source": "top-channel.tv",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bc8eaa6a5a9a0084",
-      "headline": "广东省博物馆2026年5 · 18国际博物馆日活动精彩纷呈 _ 中华网",
-      "url": "https://m.tech.china.com/redian/2026/0517/052026_1870897.html",
-      "published_at": "20260517T163000Z",
-      "source": "m.tech.china.com",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
-      "id": "gdelt_874d23dae2cfd3d0",
-      "headline": "Опасные БАДы с маркетплейсов : как распознать подделку по номеру СГР быстро и точно",
-      "url": "https://www.pravda.ru/news/health/2353094-how-to-choose-safe-supplements/",
-      "published_at": "20260517T123000Z",
-      "source": "pravda.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_db0490326bcf1f82",
-      "headline": "Grote ebola - uitbraak was te verwachten :  Bezuinigingen kosten mensenlevens",
-      "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5602525/grote-uitbraak-ebola-was-te-verwachten",
-      "published_at": "20260517T164500Z",
-      "source": "rtl.nl",
-      "tags": []
-    },
-    {
-      "id": "gdelt_43d9e156e52e9569",
-      "headline": "Фарс : САД поставиле пет услова Ирану ; пожар у околини нуклеарке у УАЕ после напада дроном",
-      "url": "https://www.rts.rs/vesti/svet/5952096/fars-sad-postavile-pet-uslova-iranu-pozar-u-okolini-nuklearke-u-uae-posle-napada-dronom.html",
-      "published_at": "20260517T163000Z",
-      "source": "rts.rs",
-      "tags": [
-        "UAE"
-      ]
-    },
-    {
-      "id": "gdelt_deaae0d35053a486",
-      "headline": "New Intelligence Report on Cuban Drones Draws Immediate Iraq Comparison From Left",
-      "url": "https://www.newsweek.com/new-intelligence-report-on-cuban-drones-draws-iraq-comparison-from-left-11961041",
-      "published_at": "20260517T174500Z",
-      "source": "newsweek.com",
-      "tags": [
-        "IRAQ"
-      ]
-    },
-    {
-      "id": "gdelt_4b50b3649337e4cb",
-      "headline": "Pacheco : China gives Trump a poke in the eye on trade",
-      "url": "https://www.abqjournal.com/business/pacheco-china-gives-trump-a-poke-in-the-eye-on-trade/3042616",
-      "published_at": "20260517T163000Z",
-      "source": "abqjournal.com",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
-      "id": "gdelt_c5c82e1b66c9c67e",
-      "headline": "Bez sankcí a blokád . Kaspické moře se stalo klíčovou zásobovací trasou mezi Ruskem a ránem",
-      "url": "https://www.novinky.cz/clanek/zahranicni-bez-sankci-a-blokad-kaspicke-more-se-stalo-klicovou-zasobovaci-trasou-mezi-ruskem-a-iranem-40578234",
-      "published_at": "20260517T170000Z",
-      "source": "novinky.cz",
-      "tags": []
-    },
-    {
-      "id": "gdelt_04f4c21118a69e87",
-      "headline": "Русская музыка в Украине - как могут наказать бизнес , какие штрафы и статья",
-      "url": "https://24tv.ua/law/ru/russkaja-muzyka-v-ukraine-kak-mogut-nakazat-biznes-kakie-shtrafy-i-statja_n3067267",
-      "published_at": "20260517T150000Z",
-      "source": "24tv.ua",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "gdelt_9bec66877ae19d2b",
-      "headline": "Kubanezët përgatiten për  pushtim  ndërsa SHBA - të përshkallëzojnë tensionet me ishullin që ka vuajtur shumë",
-      "url": "https://telegrafi.com/kubanezet-pergatiten-per-pushtim-ndersa-shba-te-pershkallezojne-tensionet-me-ishullin-qe-ka-vuajtur-shume/",
-      "published_at": "20260517T141500Z",
-      "source": "telegrafi.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f8365e577509f89c",
-      "headline": "Nauda vairs nepaglābj : Krievijas oligarhi zaudē ietekmi Kremlī",
-      "url": "https://www.lsm.lv/raksts/zinas/arzemes/17.05.2026-nauda-vairs-nepaglabj-krievijas-oligarhi-zaude-ietekmi-kremli.a647333/",
-      "published_at": "20260517T121500Z",
-      "source": "lsm.lv",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ba519a3bb946b01a",
-      "headline": "США могут снова смягчить ограничения на закупки российской нефти",
-      "url": "https://www.vesti.ru/ns/ssha-mogut-snova-smyagchit-ogranicheniya-na-zakupki-rossijskoj-nefti",
-      "published_at": "20260517T150000Z",
-      "source": "vesti.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1918529d405a8a60",
-      "headline": "خبير : لا وقف إطلاق نار فعلي في لبنان .. وإسرائيل تدمر الجنوب بشكل ممنهج",
-      "url": "https://www.dostor.org/5558864",
-      "published_at": "20260517T121500Z",
+      "id": "gdelt_f518723cd593fa7b",
+      "headline": "فلسطين : الاستيلاء على عقارات باب السلسلة تصعيد استيطاني",
+      "url": "https://www.dostor.org/5559642",
+      "published_at": "20260517T190000Z",
       "source": "dostor.org",
       "tags": []
     },
     {
-      "id": "gdelt_b104911e3bb40f34",
-      "headline": "إسماعيل تركي : إسرائيل تسعى لتحويل جنوب لبنان إلى نموذج مشابه لقطاع غزة",
-      "url": "https://www.dostor.org/5558799",
-      "published_at": "20260517T123000Z",
-      "source": "dostor.org",
-      "tags": []
+      "id": "gdelt_43e853722e92a2c1",
+      "headline": "Egypt condemns drone attack near UAE Barakah Nuclear Power Plant",
+      "url": "https://www.emirates247.com/world/egypt-condemns-drone-attack-near-uaes-barakah-nuclear-power-plant/1694",
+      "published_at": "20260517T153000Z",
+      "source": "emirates247.com",
+      "tags": [
+        "EGYPT"
+      ]
     }
   ]
 }
