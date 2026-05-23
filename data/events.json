@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-05-23T19:36:09Z",
+    "generated_at_utc": "2026-05-23T21:07:40Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -33,14 +33,20 @@
   },
   "events": [
     {
-      "id": "gdelt_01ff1372f0de2118",
-      "headline": "Lãnh đạo Nga - Ukraine tuyên bố trái ngược về tình hình tiền tuyến",
-      "url": "https://vietnamnet.vn/lanh-dao-nga-ukraine-tuyen-bo-trai-nguoc-ve-tinh-hinh-tien-tuyen-2518599.html",
-      "published_at": "20260523T140000Z",
-      "source": "vietnamnet.vn",
-      "tags": [
-        "UKRAINE"
-      ]
+      "id": "gdelt_40d75c5175a02f48",
+      "headline": "Американский эксперт предупредил о возможных последствиях помощи ЕС Украине",
+      "url": "https://lenta.ru/news/2026/05/23/zapad/",
+      "published_at": "20260523T203000Z",
+      "source": "lenta.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e8cf986726c49c25",
+      "headline": "Наступление из Беларуси - может ли Лукашенко вступить в войну",
+      "url": "https://24tv.ua/ru/nastuplenie-iz-belarusi-mozhet-li-lukashenko-vstupit-v-vojnu_n3073655",
+      "published_at": "20260523T193000Z",
+      "source": "24tv.ua",
+      "tags": []
     },
     {
       "id": "gdelt_2006c1d83ed87637",
@@ -77,16 +83,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_c054061a4fed3d9b",
-      "headline": "Иран сделал важное заявление о конфликте с США",
-      "url": "https://www.mk.ru/politics/2026/05/23/iran-sdelal-vazhnoe-zayavlenie-o-konflikte-s-ssha.html",
-      "published_at": "20260523T141500Z",
-      "source": "mk.ru",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
       "id": "gdelt_fd62d43d91aa8ccb",
       "headline": "Харичев из АП предупредил о попытках врагов России дискредитировать выборы в ГД",
       "url": "https://life.ru/p/1878773",
@@ -103,12 +99,38 @@
       "tags": []
     },
     {
+      "id": "gdelt_626b294e59c9476e",
+      "headline": "Un lider NATO cere deconectarea Rusiei de la internet și sistemul bancar",
+      "url": "https://www.antena3.ro/externe/un-lider-nato-cere-deconectarea-rusiei-de-la-internet-si-sistemul-bancar-789330.html",
+      "published_at": "20260523T204500Z",
+      "source": "antena3.ro",
+      "tags": []
+    },
+    {
+      "id": "gdelt_157b21e1fc944474",
+      "headline": "Tego dnia skończy się wojna z Iranem ? Donald Trump wskazał konkretną datę - Super Express",
+      "url": "https://www.se.pl/wiadomosci/swiat/tego-dnia-skonczy-sie-wojna-z-iranem-trump-wskazal-konkretna-date-aa-UspN-KKKa-5x5c.html",
+      "published_at": "20260523T203000Z",
+      "source": "se.pl",
+      "tags": []
+    },
+    {
       "id": "gdelt_03f2d12d03ccda34",
       "headline": "Gespräche : Teheran und Washington signalisieren Fortschritte",
       "url": "https://www.freiepresse.de/nachrichten/welt/gespraeche-teheran-und-washington-signalisieren-fortschritte-artikel14263062",
       "published_at": "20260523T184500Z",
       "source": "freiepresse.de",
       "tags": []
+    },
+    {
+      "id": "gdelt_43b5e2a1a6926d9e",
+      "headline": "IDF Soldier Killed by Explosive Drone in Northern Israel , Two Wounded",
+      "url": "https://www.haaretz.com/israel-news/israel-security/2026-05-23/ty-article/.premium/idf-soldier-killed-by-explosive-drone-in-northern-israel-two-wounded/0000019e-55fa-d394-addf-fffa5b150000",
+      "published_at": "20260523T201500Z",
+      "source": "haaretz.com",
+      "tags": [
+        "ISRAEL"
+      ]
     },
     {
       "id": "gdelt_fb7358a4f5c6af8c",
@@ -127,35 +149,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_dc97f264bd99d902",
-      "headline": "На АмурЭкспо - 2026 » обсудили будущее российско - китайского партнерства",
-      "url": "https://expert.ru/news/na-amurekspo-2026-obsudili-buduschee-rossiysko-kitayskogo-partnerstva",
-      "published_at": "20260523T140000Z",
-      "source": "expert.ru",
+      "id": "gdelt_8b37fbe00194c26f",
+      "headline": "Sécurité au Pays basque  : le jumelage des centres de secours dHendaye et dIrún , seulement distants de 4 km de part et dautre de la frontière , officialisé",
+      "url": "https://www.sudouest.fr/pyrenees-atlantiques/securite-au-pays-basque-le-jumelage-des-centres-de-secours-d-hendaye-et-d-irun-seulement-distants-de-4-km-de-part-et-d-autre-de-la-frontiere-officialise-29181013.php",
+      "published_at": "20260523T193000Z",
+      "source": "sudouest.fr",
       "tags": []
     },
     {
-      "id": "gdelt_a5a637655ca21ea8",
-      "headline": "Ebola outbreak stirs fears of Covid - style trade curbs in East Africa",
-      "url": "https://www.theeastafrican.co.ke/tea/news/east-africa/ebola-outbreak-stirs-fears-of-covid-style-trade-in-east-africa-5470322",
-      "published_at": "20260523T140000Z",
-      "source": "theeastafrican.co.ke",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c400172f0d24f04c",
-      "headline": "Menteri perdagangan APEC komited usaha integrasi ekonomi , daya tahan rantaian bekalan",
-      "url": "https://www.astroawani.com/berita-bisnes/menteri-perdagangan-apec-komited-usaha-integrasi-ekonomi-daya-tahan-rantaian-bekalan",
-      "published_at": "20260523T150000Z",
-      "source": "astroawani.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7b6e7173eaaf084b",
-      "headline": "Tsunami Siap - siap Hantam Uni Eropa",
-      "url": "https://www.viva.co.id/bisnis/1900766-tsunami-siap-siap-hantam-uni-eropa",
-      "published_at": "20260523T140000Z",
-      "source": "viva.co.id",
+      "id": "gdelt_0f7a40d9f6b97755",
+      "headline": "Afrique de lEst : Les pays de la Corne de lAfrique et le Yémen réitèrent leur engagement à éradiquer les variants du poliovirus",
+      "url": "https://fr.allafrica.com/stories/202605230130.html",
+      "published_at": "20260523T201500Z",
+      "source": "fr.allafrica.com",
       "tags": []
     },
     {
@@ -203,12 +209,22 @@
       ]
     },
     {
+      "id": "gdelt_5b3c2201129e7779",
+      "headline": "Gespräche : Teheran und Washington signalisieren Fortschritte",
+      "url": "https://www.nw.de/nachrichten/nachrichten/24338823_Gespraeche-Teheran-und-Washington-signalisieren-Fortschritte.html",
+      "published_at": "20260523T204500Z",
+      "source": "nw.de",
+      "tags": []
+    },
+    {
       "id": "gdelt_2bff803efbf47887",
       "headline": "Gespräche : Teheran und Washington signalisieren Fortschritte",
       "url": "https://www.nwzonline.de/politik-meldungen/iran-krieg-gespraeche-teheran-und-washington-signalisieren-fortschritte_a_4,3,612566419.html",
       "published_at": "20260523T184500Z",
       "source": "nwzonline.de",
-      "tags": []
+      "tags": [
+        "IRAN"
+      ]
     },
     {
       "id": "gdelt_24cf59a7701025c2",
@@ -259,14 +275,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_5286ef7bde9360e7",
-      "headline": "« التضامن »: الانتهاء من تجهيز مخيمات عرفات ومنى استعدادا لتصعيد حجاج الجمعيات",
-      "url": "https://www.elwatannews.com/news/details/8289766",
-      "published_at": "20260523T141500Z",
-      "source": "elwatannews.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_c39af9c6b0561968",
       "headline": "У Луцьку планують відкрити Центр профілактичних досліджень і реабілітації",
       "url": "https://www.volynnews.com/news/all/u-lutsku-planuiut-vidkryty-tsentr-profilaktychnykh-doslidzhen-i-reabilitatsiyi/",
@@ -283,11 +291,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_441209369f7318e2",
-      "headline": "Санкции против России 23 . 05 . 2026 - Зеленский подписал ограничения против командиров России , флота",
-      "url": "https://24tv.ua/ru/sankcii-protiv-rossii-23052026-zelenskij-podpisal-ogranichenija_n3073462",
-      "published_at": "20260523T150000Z",
-      "source": "24tv.ua",
+      "id": "gdelt_371c6b4fbebb5e20",
+      "headline": "Pengalaman Saya Dengan HealthChain Platform – Apa Yang Sebenarnya Berlaku - Detox Room",
+      "url": "https://blog.udn.com:443/22158c9b/189150763",
+      "published_at": "20260523T201500Z",
+      "source": "blog.udn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2541ed848c46a015",
+      "headline": "Awas ! Platform CRPLAN – Kisah Benar Dari Mangsa - Judgment Training",
+      "url": "https://blog.udn.com:443/ea05b2f2/189149768",
+      "published_at": "20260523T200000Z",
+      "source": "blog.udn.com",
       "tags": []
     },
     {
@@ -323,6 +339,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_ad9030692063105a",
+      "headline": "Πιθανότητες 50 - 50 για βομβαρδισμούς ή συμφωνία με το Ιράν βλέπει ο Τραμπ -« Έχουμε έρθει πολύ πιο κοντά » λέει",
+      "url": "https://www.rethemnosnews.gr/kosmos/723438_pithanotites-50-50-gia-bombardismoys-i-symfonia-me-iran-blepei-o-tramp-ehoyme-erthei",
+      "published_at": "20260523T201500Z",
+      "source": "rethemnosnews.gr",
+      "tags": []
+    },
+    {
       "id": "gdelt_75e34062e556f1e6",
       "headline": "UPN Veteran Yogyakarta Sanksi 5 Dosen karena Pelecehan Seksual Verbal",
       "url": "https://yogyakarta.kompas.com/read/2026/05/23/215926878/upn-veteran-yogyakarta-sanksi-5-dosen-karena-pelecehan-seksual-verbal",
@@ -349,19 +373,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_1fad812738a329bf",
-      "headline": "Трамп продовжив санкції проти керівництва Білорусі",
-      "url": "https://podrobnosti.ua/2516019-tramp-prodovzhiv-sankts-proti-kervnitstva-blorus.html",
-      "published_at": "20260523T144500Z",
-      "source": "podrobnosti.ua",
+      "id": "gdelt_d9b2aaa4f108359c",
+      "headline": "Госдеп США : исключение Альбанезе из санкционного списка временное | MigNews - Новости Израиля и Мира на русском языке",
+      "url": "https://mignews.com/news/politic/gosdep-ssha-isklyuchenie-albaneze-iz-sankcionnogo-spiska-vremennoe.html",
+      "published_at": "20260523T203000Z",
+      "source": "mignews.com",
       "tags": []
     },
     {
-      "id": "gdelt_e2e1877de419475b",
-      "headline": "غارات إسرائيلية مكثفة على قطاع غزة تسفر عن شهداء ومصابين وتوسع رقعة الدمار",
-      "url": "https://www.elwatannews.com/news/details/8289777",
-      "published_at": "20260523T141500Z",
-      "source": "elwatannews.com",
+      "id": "gdelt_6d41a87cfec80acd",
+      "headline": "Charlotte Sandoval Lira celebra sus tres años de vida con una fiesta de película",
+      "url": "https://oem.com.mx:443/elsoldeirapuato/gossip/charlotte-sandoval-lira-celebra-sus-tres-anos-de-vida-con-una-fiesta-de-pelicula-29965140",
+      "published_at": "20260523T204500Z",
+      "source": "oem.com.mx",
       "tags": []
     },
     {
@@ -386,14 +410,6 @@
       ]
     },
     {
-      "id": "gdelt_ef6cf35f14223762",
-      "headline": "Увага Києву ! Є інформація з різних розвідок щодо можливої ескалації росіян з півночі , Зеленський",
-      "url": "https://www.facenews.ua/news/2026/532109/",
-      "published_at": "20260523T144500Z",
-      "source": "facenews.ua",
-      "tags": []
-    },
-    {
       "id": "gdelt_801b2e513ced17c3",
       "headline": "Is United States on verge of a Maduro - like military intervention in Cuba ?",
       "url": "https://timesofindia.indiatimes.com/world/us/is-united-states-on-verge-of-a-maduro-like-military-intervention-in-cuba/articleshow/131280980.cms",
@@ -405,10 +421,10 @@
       ]
     },
     {
-      "id": "gdelt_0a7b54d13e0201b8",
-      "headline": "أستاذ علوم سياسية : تصاعد الضربات على إيران يعمق تعقيد المشهد",
-      "url": "https://www.dostor.org/5568107",
-      "published_at": "20260523T140000Z",
+      "id": "gdelt_87593bdc5776c99d",
+      "headline": "الخارجية الإيرانية : عراقجي أطلع نظيره السعودي على التطورات الدبلوماسية لمنع التصعيد وإنهاء الحرب",
+      "url": "https://www.dostor.org/5568839",
+      "published_at": "20260523T193000Z",
       "source": "dostor.org",
       "tags": []
     },
@@ -439,11 +455,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_7142dd5b986eb91e",
-      "headline": "Franca i ndalon hyrjen ministrit izraelit Itamar Ben - Gvir , i bën thirrje BE për sanksione",
-      "url": "https://www.panorama.com.al/franca-i-ndalon-hyrjen-ministrit-izraelit-ben-gvir-i-ben-thirrje-be-per-sanksione/",
-      "published_at": "20260523T144500Z",
-      "source": "panorama.com.al",
+      "id": "gdelt_732340ece294d3ae",
+      "headline": "ASEAN holds talks to modernize cross - border trade procedures",
+      "url": "http://www.laosnews.net/news/279066447/asean-holds-talks-to-modernize-cross-border-trade-procedures",
+      "published_at": "20260523T194500Z",
+      "source": "laosnews.net",
       "tags": []
     },
     {
@@ -457,14 +473,6 @@
       ]
     },
     {
-      "id": "gdelt_ebbbfc3fb2be441d",
-      "headline": "واشنطن وطهران تقتربان من اتفاق لتمديد وقف إطلاق النار 60 يوما",
-      "url": "https://www.raya.ps/news/1218059.html",
-      "published_at": "20260523T164500Z",
-      "source": "raya.ps",
-      "tags": []
-    },
-    {
       "id": "gdelt_d307d1ccb00c3dcc",
       "headline": "القاهرة الإخبارية : تصعيد أمريكي - إسرائيلي يعيد التوتر مع إيران ويثير مخاوف من انفجار إقليمي",
       "url": "https://www.dostor.org/5568765",
@@ -473,11 +481,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_ebbbfc3fb2be441d",
+      "headline": "واشنطن وطهران تقتربان من اتفاق لتمديد وقف إطلاق النار 60 يوما",
+      "url": "https://www.raya.ps/news/1218059.html",
+      "published_at": "20260523T164500Z",
+      "source": "raya.ps",
+      "tags": []
+    },
+    {
       "id": "gdelt_b8c6fbf99234ab33",
       "headline": "Πρόεδρος Τσεχίας προς ΝΑΤΟ :  Καταρρίψτε ρωσικά αεροσκάφη αν συνεχιστούν οι προκλήσεις",
       "url": "https://www.news247.gr/kosmos/proedros-tsexias-pros-nato-katarripste-rosika-aeroskafi-an-sinexistoun-oi-prokliseis/",
       "published_at": "20260523T151500Z",
       "source": "news247.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_44009e9b544a2ddc",
+      "headline": "СМИ : США исчерпали возможности санкционного давления на Тегеран | MigNews - Новости Израиля и Мира на русском языке",
+      "url": "https://mignews.com/news/politic/smi-ssha-ischerpali-vozmozhnosti-sankcionnogo-davleniya-na-tegeran.html",
+      "published_at": "20260523T193000Z",
+      "source": "mignews.com",
       "tags": []
     },
     {
@@ -497,14 +521,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_a18c30a65d4c4f6f",
-      "headline": "Україна запровадила санкції щодо 29 морських суден  тіньового флоту  РФ",
-      "url": "https://epravda.com.ua/biznes/ukrajina-zaprovadila-sankciji-shchodo-29-morskih-suden-tinovogo-flotu-rf-821964/",
-      "published_at": "20260523T141500Z",
-      "source": "epravda.com.ua",
-      "tags": []
-    },
-    {
       "id": "gdelt_78d660b007698aa7",
       "headline": "Ukraine imposes sanctions on 127 occupiers involved in missile strikes on country – President Office",
       "url": "https://en.interfax.com.ua/news/general/1170315.html",
@@ -513,14 +529,6 @@
       "tags": [
         "UKRAINE"
       ]
-    },
-    {
-      "id": "gdelt_3119c6bf2876bbca",
-      "headline": "Україна запровадила нові санкції проти окупантів , причетних до ракетних ударів по Україні",
-      "url": "https://www.5.ua/polityka/ukraina-zaprovadyla-novi-sanktsii-proty-okupantiv-prychetnykh-do-raketnykh-udariv-po-ukraini-376735.html",
-      "published_at": "20260523T140000Z",
-      "source": "5.ua",
-      "tags": []
     },
     {
       "id": "gdelt_afdc0982c374bf89",
@@ -533,38 +541,12 @@
       ]
     },
     {
-      "id": "gdelt_585053d97d006fcd",
-      "headline": "الجيش السوداني يسقط مسيرة قرب الدمازين عابرة من الحدود الإثيوبية",
-      "url": "https://www.dostor.org/5568429",
-      "published_at": "20260523T140000Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
       "id": "gdelt_41e47a487a7539f7",
       "headline": "Поради професійного адвоката : Богдан закликав « Андрія » здати « Вову »",
       "url": "https://focus.ua/uk/politics/755264-poradi-profesiynogo-advokata-bogdan-zaklikav-andriya-zdati-vovu",
       "published_at": "20260523T170000Z",
       "source": "focus.ua",
       "tags": []
-    },
-    {
-      "id": "gdelt_1b7489a806024f71",
-      "headline": "Selain Pemulihan Hak , Iran Tegaskan Tak Minta Konsesi Apapun dari AS",
-      "url": "https://www.viva.co.id/berita/dunia/1900662-selain-pemulihan-hak-iran-tegaskan-tak-minta-konsesi-apapun-dari-as",
-      "published_at": "20260523T143000Z",
-      "source": "viva.co.id",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b43afca41d64cbed",
-      "headline": "أمير قطر والرئيس الأمريكي يبحثان هاتفيا جهود التهدئة وخفض التصعيد في المنطقة",
-      "url": "https://www.albayan.ae/news/uae/1313510",
-      "published_at": "20260523T150000Z",
-      "source": "albayan.ae",
-      "tags": [
-        "UAE"
-      ]
     },
     {
       "id": "gdelt_bd58803cfe5dd7df",
@@ -580,6 +562,14 @@
       "url": "https://www.dostor.org/5568642",
       "published_at": "20260523T163000Z",
       "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2e139fb32fb6c6ea",
+      "headline": "Переговоры США с Ираном успешны или нет – Трамп отстранил Израиль из - за ложных прогнозов Нетаньяху",
+      "url": "https://www.obozrevatel.com/novosti-mir/tramp-otstranila-izrail-ot-peregovorov-s-iranom-iz-za-fiasko-netanyahu-s-prognozami-media.htm",
+      "published_at": "20260523T204500Z",
+      "source": "obozrevatel.com",
       "tags": []
     },
     {
@@ -636,7 +626,9 @@
       "url": "https://news.bigmir.net/ua/ukraine/10358984-prezident-vviv-sanktsiyi-proti-rosijskikh-raketnikiv",
       "published_at": "20260523T154500Z",
       "source": "news.bigmir.net",
-      "tags": []
+      "tags": [
+        "UKRAINE"
+      ]
     },
     {
       "id": "gdelt_07e39cdc5d0715e7",
@@ -644,6 +636,22 @@
       "url": "https://zerkalo.az/zelenskij-vvel-novye-sanktsii-protiv-rossijskih-voennyh-i-sudov/",
       "published_at": "20260523T164500Z",
       "source": "zerkalo.az",
+      "tags": []
+    },
+    {
+      "id": "gdelt_75a628f207503415",
+      "headline": "Egyptian Foreign Minister discusses regional de - escalation efforts with US Middle East Envoy",
+      "url": "http://thepeninsulaqatar.com/article/23/05/2026/egyptian-foreign-minister-discusses-regional-de-escalation-efforts-with-us-middle-east-envoy",
+      "published_at": "20260523T193000Z",
+      "source": "thepeninsulaqatar.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d48611beac2a729a",
+      "headline": "سعيد الزغبي : واشنطن وطهران أمام سيناريوهين  التفاوض أو التصعيد المحدود",
+      "url": "https://www.dostor.org/5568842",
+      "published_at": "20260523T193000Z",
+      "source": "dostor.org",
       "tags": []
     },
     {
@@ -698,19 +706,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_19868f3721ed307f",
-      "headline": "Tko je ključni čovjek Irana koji prijeti Trumpu ?  Vrlo dominantan i radikalan",
-      "url": "https://www.index.hr/vijesti/clanak/radikalni-general-kojeg-trazi-interpol-postaje-kljucni-igrac-u-ratu-irana-i-amerike/2795232.aspx",
-      "published_at": "20260523T150000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
       "id": "gdelt_8b3396cc69e8a497",
       "headline": "Tko je ključni čovjek Irana koji prijeti Trumpu ?  Vrlo dominantan i radikalan",
       "url": "https://www.index.hr/vijesti/clanak/radikalni-general-kojeg-trazi-interpol-postaje-kljucni-igrac-u-ratu-irana-i-amerike/2795232.aspx?index_ref=homepage_comment_box_d&commentId=11211250",
       "published_at": "20260523T153000Z",
       "source": "index.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d87a6700d2793194",
+      "headline": "BRICS countries condemn Pahalgam attack , reaffirm commitment to counter - terrorism cooperation",
+      "url": "https://www.prokerala.com/news/articles/a1766611.html",
+      "published_at": "20260523T193000Z",
+      "source": "prokerala.com",
       "tags": []
     },
     {
@@ -722,6 +730,26 @@
       "tags": [
         "QATAR",
         "UAE"
+      ]
+    },
+    {
+      "id": "gdelt_15b2bd64008dff6b",
+      "headline": "Ambasada Iranu w Polsce reaguje na rewelacje ws . IRGC !  Odrzuca",
+      "url": "https://wpolityce.pl/polityka/760990-ambasada-iranu-w-polsce-reaguje-na-rewelacje-ws-irgc-odrzuca",
+      "published_at": "20260523T204500Z",
+      "source": "wpolityce.pl",
+      "tags": [
+        "IRGC"
+      ]
+    },
+    {
+      "id": "gdelt_3485b9f6fb0db0c6",
+      "headline": "Prime Minister holds telephone call with Saudi Foreign Minister",
+      "url": "http://thepeninsulaqatar.com/article/23/05/2026/prime-minister-holds-telephone-call-with-saudi-foreign-minister",
+      "published_at": "20260523T193000Z",
+      "source": "thepeninsulaqatar.com",
+      "tags": [
+        "SAUDI_ARABIA"
       ]
     },
     {
@@ -741,6 +769,40 @@
       "published_at": "20260523T173000Z",
       "source": "blog.udn.com",
       "tags": []
+    },
+    {
+      "id": "gdelt_526a66009d0b66ac",
+      "headline": "要注意 ！ SNSで話題のbitcastle LLCは危険なブラックプラットフォームです - 財務防衛講座",
+      "url": "https://blog.udn.com:443/b9a7769a/189147768",
+      "published_at": "20260523T193000Z",
+      "source": "blog.udn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1e56f2abb79bc86e",
+      "headline": "使ってみる勇気ある ？ コウソウeプロジェクトの真相大公開 - 評価システム",
+      "url": "https://blog.udn.com:443/db550ad8/189152782",
+      "published_at": "20260523T204500Z",
+      "source": "blog.udn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2e90ececa87ae850",
+      "headline": "بين واشنطن وطهران .. لماذا نعيش القلق كأسلوب حياة ؟",
+      "url": "https://www.dostor.org/5568971",
+      "published_at": "20260523T201500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_89012ce2c3163089",
+      "headline": "Prime Minister holds phone call with UAE Deputy Prime Minister and Foreign Minister",
+      "url": "http://thepeninsulaqatar.com/article/23/05/2026/prime-minister-holds-phone-call-with-uae-deputy-prime-minister-and-foreign-minister",
+      "published_at": "20260523T193000Z",
+      "source": "thepeninsulaqatar.com",
+      "tags": [
+        "UAE"
+      ]
     },
     {
       "id": "gdelt_42d9a96f45d9d866",
@@ -775,6 +837,22 @@
       "tags": []
     },
     {
+      "id": "gdelt_f4a059a068ef442c",
+      "headline": "Gespräche : Teheran und Washington signalisieren Fortschritte",
+      "url": "https://www.wn.de/schlaglichter/gespraeche-teheran-und-washington-signalisieren-fortschritte-3558811",
+      "published_at": "20260523T193000Z",
+      "source": "wn.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c864a6a01f4a077b",
+      "headline": "Власти Сербии отреклись от  братских  отношений с Россией и заявили о поддержке Украины",
+      "url": "https://www.dialog.ua/world/vlasti-serbii-otreklis-ot-bratskikh-otnosheniy-s-rossiey-i-zayavili.html",
+      "published_at": "20260523T204500Z",
+      "source": "dialog.ua",
+      "tags": []
+    },
+    {
       "id": "gdelt_c99a714dd5a19786",
       "headline": "Holiday hell : Queues of up to five hours at Dover and long delays for Eurotunnel in new EU border check chaos",
       "url": "https://www.standard.co.uk/news/uk/dover-eurotunnel-delay-queues-eu-border-checks-ees-b1283406.html",
@@ -801,22 +879,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_bc5eb7eba7678d70",
-      "headline": "Київ розширив санкції проти ракетників і тіньового флоту РФ",
-      "url": "https://www.dw.com/uk/zelenskij-rozsiriv-sankcii-proti-raketnikiv-i-tinovogo-flotu-rf/a-77273439",
-      "published_at": "20260523T140000Z",
-      "source": "dw.com",
+      "id": "gdelt_ec1ddee4e388e31e",
+      "headline": "Учесници протеста напали полицију код Председништва Србије",
+      "url": "https://www.politika.rs/scc/clanak/757492/ucesnici-protesta-napali-policiju-kod-predsednistva-srbije",
+      "published_at": "20260523T201500Z",
+      "source": "politika.rs",
       "tags": []
-    },
-    {
-      "id": "gdelt_c375fd2ca4061679",
-      "headline": "Írán hrozí united states drtivou odpovědí , pokud obnoví válečné akce",
-      "url": "https://www.ceskenoviny.cz/zpravy/iran-hrozi-usa-drtivou-odpovedi-pokud-obnovi-valecne-akce/2829125",
-      "published_at": "20260523T140000Z",
-      "source": "ceskenoviny.cz",
-      "tags": [
-        "UNITED_STATES"
-      ]
     },
     {
       "id": "gdelt_c1b5e033143b2b96",
@@ -827,6 +895,14 @@
       "tags": [
         "PAKISTAN"
       ]
+    },
+    {
+      "id": "gdelt_a9414b498b4bd0c2",
+      "headline": "Τραμπ : « 50 - 50 » για συμφωνία ή κλιμάκωση με το Ιράν",
+      "url": "https://www.sofokleousin.gr/epikairotita/diethni/tramp-50-50-gia-symfonia-i-klimakosi-me-to-iran",
+      "published_at": "20260523T193000Z",
+      "source": "sofokleousin.gr",
+      "tags": []
     },
     {
       "id": "gdelt_0fe2af14ab5f9792",
@@ -861,12 +937,30 @@
       "tags": []
     },
     {
+      "id": "gdelt_54883051626e4f10",
+      "headline": "الجارديان : ترامب يدرس توجيه  ضربة قاضية  لإيران وسط جهود وساطة إقليمية لتمديد الهدنة",
+      "url": "https://www.dostor.org/5568881",
+      "published_at": "20260523T201500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
       "id": "gdelt_f92df527a5cb1cd0",
       "headline": "Time . ai",
       "url": "https://time.mk/ai/8e90db460b/mk/",
       "published_at": "20260523T183000Z",
       "source": "time.mk",
       "tags": []
+    },
+    {
+      "id": "gdelt_264a4fd1e71b4617",
+      "headline": "Trump signals Iran decision within days as Pakistan steps up efforts in Tehran",
+      "url": "https://sana.sy/en/politics/2318826/",
+      "published_at": "20260523T201500Z",
+      "source": "sana.sy",
+      "tags": [
+        "PAKISTAN"
+      ]
     },
     {
       "id": "gdelt_60030bee4f4a777d",
@@ -877,11 +971,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_371972c02923a38d",
-      "headline": "Ормуз в обмен на компенсации - обновлено 18 : 28",
-      "url": "https://haqqin.az/newsarchive/384503",
-      "published_at": "20260523T144500Z",
-      "source": "haqqin.az",
+      "id": "gdelt_d5930b3137539835",
+      "headline": "في تصعيد جديد : ترامب يهدد إيران ويتوعد ..",
+      "url": "https://ar.webmanagercenter.com/2026/05/23/422390/%D9%81%D9%8A-%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D8%AC%D8%AF%D9%8A%D8%AF-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D9%87%D8%AF%D8%AF-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%88%D9%8A%D8%AA%D9%88%D8%B9%D8%AF/",
+      "published_at": "20260523T193000Z",
+      "source": "ar.webmanagercenter.com",
       "tags": []
     },
     {
@@ -920,14 +1014,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_c29fc3768e1e54de",
-      "headline": "Alain Prost blessé à la tête , son fils contraint douvrir le coffre - fort  : le quadruple champion du monde de F1 victime dun violent cambriolage",
-      "url": "https://www.midilibre.fr/2026/05/23/alain-prost-blesse-a-la-tete-son-fils-contraint-douvrir-le-coffre-fort-le-quadruple-champion-du-monde-de-f1-victime-dun-violent-cambriolage-13385295.php",
-      "published_at": "20260523T150000Z",
-      "source": "midilibre.fr",
-      "tags": []
-    },
-    {
       "id": "gdelt_70abfbddc542907c",
       "headline": "Чемпионат мира по русскому хоккею ( бенди ) 2027 отменён из - за отсутствия сборной России , подробности",
       "url": "https://www.championat.com/other/article-6479270-chempionat-mira-po-russkomu-hokkeyu-bendi-2027-otmenyon-iz-za-otsutstviya-sbornoj-rossii-podrobnosti.html",
@@ -936,10 +1022,10 @@
       "tags": []
     },
     {
-      "id": "gdelt_1ee91ba86069c98c",
-      "headline": "Ramai Bertanya : Velmorin Bridge Capital Platform Selamat Atau Tidak ? - Navigation Journal",
-      "url": "https://blog.udn.com:443/d694403a/189133390",
-      "published_at": "20260523T140000Z",
+      "id": "gdelt_87d250b5f1ca6f8b",
+      "headline": "Platform TOPTIER Sebenarnya Bagaimana ? - Defense Credits",
+      "url": "https://blog.udn.com:443/056df345/189146055",
+      "published_at": "20260523T190000Z",
       "source": "blog.udn.com",
       "tags": []
     },
@@ -952,96 +1038,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_87d250b5f1ca6f8b",
-      "headline": "Platform TOPTIER Sebenarnya Bagaimana ? - Defense Credits",
-      "url": "https://blog.udn.com:443/056df345/189146055",
-      "published_at": "20260523T190000Z",
-      "source": "blog.udn.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_71b4189da0188d98",
       "headline": "إعلام لبناني : غارتان إسرائيليتان تستهدفان بلدة المحمودية جنوب لبنان",
       "url": "https://studio.dostor.org/176538",
       "published_at": "20260523T190000Z",
       "source": "studio.dostor.org",
       "tags": []
-    },
-    {
-      "id": "gdelt_0ec4e8e975796a8e",
-      "headline": "Venezuela Oil Funded Iran War , Trump Claims as Drills Begin",
-      "url": "https://www.riotimesonline.com/venezuela-trump-oil-iran-war-iwo-jima-drill-may-2026/",
-      "published_at": "20260523T183000Z",
-      "source": "riotimesonline.com",
-      "tags": [
-        "VENEZUELA"
-      ]
-    },
-    {
-      "id": "gdelt_c837130e58bebe63",
-      "headline": "فايننشال تايمز : واشنطن وطهران تقتربان من اتفاق لتمديد وقف إطلاق النار 60 يومًا",
-      "url": "https://www.dostor.org/5568562",
-      "published_at": "20260523T153000Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8df942f26968515c",
-      "headline": "Эбола выходит за границы ДРК : заражённые в Уганде , под угрозой десять стран Африки",
-      "url": "https://news.israelinfo.co.il/144345",
-      "published_at": "20260523T171500Z",
-      "source": "news.israelinfo.co.il",
-      "tags": []
-    },
-    {
-      "id": "gdelt_51ac211198308565",
-      "headline": "خريطة إيران بألوان أمريكا .. منشور غامض لترامب يثير الجدل مجددا ( صورة )",
-      "url": "https://www.akhbarona.com/world/426279.html",
-      "published_at": "20260523T173000Z",
-      "source": "akhbarona.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c637388818e4122c",
-      "headline": "هيئة البث الإسرائيلية : خفض مستوى التأهب وعدم وجود توقعات بضربة ضد إيران",
-      "url": "https://www.dostor.org/5568827",
-      "published_at": "20260523T184500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3bf3d91395c9ff8e",
-      "headline": "Frankreich verbietet Israels Sicherheitsminister Ben - Gvir die Einreise",
-      "url": "https://www.tagesschau.de/ausland/europa/frankreich-einreiseverbot-ben-gvir-100.html",
-      "published_at": "20260523T181500Z",
-      "source": "tagesschau.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3a930ea8fdfcd98b",
-      "headline": "قائد الجيش الباكستاني : نسعى لإرساء الاستقرار والمفاوضات تسير بشكل جيد",
-      "url": "https://www.dostor.org/5568462",
-      "published_at": "20260523T141500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c2b8fe78fb048524",
-      "headline": "TÜKODERden , Harşit Çayı  na zehirli atık havuzun boşaltan Alagöz Madencilik hakkında suç duyurusu - Evrensel",
-      "url": "https://www.evrensel.net/haber/5985479/tukoderden-harsit-cayina-zehirli-atik-havuzun-bosaltan-alagoz-madencilik-hakkinda-suc-duyurusu",
-      "published_at": "20260523T141500Z",
-      "source": "evrensel.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c6a09f620f74b558",
-      "headline": "CFTEC , AEOTrade Co - host China - Singapore Digital Trade Roadshow at WCIFIT",
-      "url": "https://portal.sina.com.hk/finance/finance-prnewswire/prnasia/2026/05/23/1774489/cftec-aeotrade-co-host-china-singapore-digital-trade-roadshow-at-wcifit/",
-      "published_at": "20260523T181500Z",
-      "source": "portal.sina.com.hk",
-      "tags": [
-        "CHINA"
-      ]
     }
   ]
 }
