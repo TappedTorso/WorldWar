@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-05-29T19:41:42Z",
+    "generated_at_utc": "2026-05-29T23:42:02Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -41,12 +41,30 @@
       "tags": []
     },
     {
+      "id": "gdelt_b654c517c97709d3",
+      "headline": "ЄС посилить санкції проти Росії після удару дрона по Румунії",
+      "url": "https://lb.ua/world/2026/05/29/741792_kallas_rosiya_nese_povnu.html",
+      "published_at": "20260529T221500Z",
+      "source": "lb.ua",
+      "tags": []
+    },
+    {
       "id": "gdelt_1c9f9d545985f653",
       "headline": "Шахед в Румынии - СМИ раскритиковали Европу | Новости на Gazeta . ua",
       "url": "https://gazeta.ua/ru/articles/world-life/_odin-sahed-pokazal-chto-evropa-ne-sposobna-ni-zaschitit-sebya-ni-prekratit-finansirovanie-agressii-rf-smi/1251657",
       "published_at": "20260529T184500Z",
       "source": "gazeta.ua",
       "tags": []
+    },
+    {
+      "id": "gdelt_227bbacfe2e86e37",
+      "headline": "GOP Rep Don Bacon calls for removing Russia from UN Security Council",
+      "url": "https://www.foxnews.com/politics/house-republican-bacon-says-wants-pariah-state-russia-booted-un-security-council",
+      "published_at": "20260529T193000Z",
+      "source": "foxnews.com",
+      "tags": [
+        "RUSSIA"
+      ]
     },
     {
       "id": "gdelt_92da54c3b2a96cc4",
@@ -57,43 +75,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_5b8bdf735e08207f",
-      "headline": "На Буковині викрили схему переправлення чоловіків за кордон новини LB . ua",
-      "url": "https://lb.ua/pravo/2026/05/29/741696_bukovini_vikrili_kanal.html",
-      "published_at": "20260529T170000Z",
-      "source": "lb.ua",
-      "tags": []
-    },
-    {
       "id": "gdelt_3443994585d572c1",
       "headline": "Леонид Невзлин - Почему Румыния не сбила российский дрон",
       "url": "https://opinions.glavred.info/pochemu-rumyniya-ne-sbila-rossiyskiy-dron-nevzlin-nazval-nastoyashchuyu-prichinu-10768787.html",
       "published_at": "20260529T174500Z",
       "source": "opinions.glavred.info",
-      "tags": []
-    },
-    {
-      "id": "gdelt_31c41e62a90aa4a3",
-      "headline": "Hong Kong overtakes Switzerland as top cross - border wealth hub",
-      "url": "https://finance.yahoo.com/economy/articles/hong-kong-overtakes-switzerland-top-144518229.html",
-      "published_at": "20260529T151500Z",
-      "source": "finance.yahoo.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3a7defb449c1fc83",
-      "headline": "Полицейские из Латгалии и других регионов страны прошли обучение по борьбе с трансграничными угрозами",
-      "url": "https://www.gorod.lv/novosti/366488-politseiskie-iz-latgalii-i-drugih-regionov-strany-proshli-obuchenie-po-borbe-s-transgranichnymi-ugrozami",
-      "published_at": "20260529T140000Z",
-      "source": "gorod.lv",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a6c93152f0b3ae39",
-      "headline": "Анна Жубен - Брет : миссия ЮНСИТРАЛ содействие гармонизации международного торгового права",
-      "url": "https://rapsinews.ru/international_mm/20260529/311886990.html",
-      "published_at": "20260529T151500Z",
-      "source": "rapsinews.ru",
       "tags": []
     },
     {
@@ -108,14 +94,6 @@
       ]
     },
     {
-      "id": "gdelt_ee139a1c23a31a01",
-      "headline": "Финляндия направит Киеву 33 - й пакет военной помощи на 128 млн евро",
-      "url": "https://www.vesti.ru/ns/finlyandiya-napravit-kievu-33-j-paket-voennoj-pomoshchi-na-128-mln-evro",
-      "published_at": "20260529T160000Z",
-      "source": "vesti.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_54e544453bc688eb",
       "headline": "Фінляндія надасть Україні новий пакет військової допомоги на €128 млн",
       "url": "https://podrobnosti.ua/2516267-fnljandja-nadast-ukran-novij-paket-vjskovo-dopomogi-na-128-mln.html",
@@ -124,19 +102,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_15fccb4d8bf178b1",
-      "headline": "Ρουμανία : Διπλωματικό επεισόδιο μετά την πτώση drone στην Κονστάντζα -...",
-      "url": "https://www.thetoc.gr/diethni/article/diplomatiko-epeisodio-meta-tin-ptosi-drone-sti-roumania-kleinei-to-rosiko-proxeneio-kai-dioxnoun-ton-proxeno/",
-      "published_at": "20260529T143000Z",
-      "source": "thetoc.gr",
+      "id": "gdelt_a910a0dfefddd8f1",
+      "headline": "Μήνυμα τρόμου Medvedev σε Ευρώπη : Τέλος ο ήσυχος ύπνος – Πάμε σε πόλεμο , εγκλήματα von der Leyen",
+      "url": "https://www.bankingnews.gr/diethni/articles/878514/minyma-tromou-medvedev-se-evropi-telos-o-isyxos-ypnos-eimaste-se-polemo-rikste-efthynes-sti-von-der-leyen-rosiko-sok-sto-nato",
+      "published_at": "20260529T193000Z",
+      "source": "bankingnews.gr",
       "tags": []
     },
     {
-      "id": "gdelt_074afde8ca2c6608",
-      "headline": "بين التفاهم والتردد .. ما الذي يؤخر إعلان ترمب الاتفاق مع إيران ؟",
-      "url": "https://alanbatnews.net/article/477915",
-      "published_at": "20260529T140000Z",
-      "source": "alanbatnews.net",
+      "id": "gdelt_f543d5cdcbd6b1f7",
+      "headline": "Μήνυμα τρόμου Medvedev σε Ευρώπη : Τέλος ο ήσυχος ύπνος – Πάμε σε πόλεμο , εγκλήματα von der Leyen",
+      "url": "https://www.bankingnews.gr/diethni/articles/878514/minyma-tromou-medvedev-se-evropi-telos-o-isyxos-ypnos-eimaste-se-polemo-rikste-efthynes-sti-von-der-leyen-rosiko-sok-sto-nato%20title=",
+      "published_at": "20260529T193000Z",
+      "source": "bankingnews.gr",
       "tags": []
     },
     {
@@ -145,40 +123,6 @@
       "url": "https://www.dw.com/uk/padinna-drona-u-rumunii-ak-reaguut-v-ukraini-ta-es/a-77350388",
       "published_at": "20260529T174500Z",
       "source": "dw.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1392ac8f9ad1baac",
-      "headline": "Mercati Ue : sei Paesi chiedono maggiore integrazione e vigilanza",
-      "url": "https://www.adnkronos.com/economia/mercati-ue-sei-paesi-chiedono-maggiore-integrazione-e-vigilanza_2wgt0MhCfUt9DyQV8tYbjS",
-      "published_at": "20260529T164500Z",
-      "source": "adnkronos.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7b871d95046d9498",
-      "headline": "Analytička : Rusko skúša , čo všetko strpíme . Hrozia dronové incidenty aj Slovensku ?",
-      "url": "https://www.noviny.sk/zahranicie/1214635-analyticka-rusko-skusa-co-vsetko-strpime-hrozia-dronove-incidenty-aj-slovensku",
-      "published_at": "20260529T134500Z",
-      "source": "noviny.sk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bf270f81484fc6f1",
-      "headline": "NIA Raids Uncover Arms Smuggling Conspiracy Across 4 States",
-      "url": "https://www.rediff.com/news/report/nia-probes-arms-smuggling-from-pakistan-in-multi-state-raids/20260529.htm",
-      "published_at": "20260529T164500Z",
-      "source": "rediff.com",
-      "tags": [
-        "PAKISTAN"
-      ]
-    },
-    {
-      "id": "gdelt_123ef00eef411b43",
-      "headline": "Time . ai",
-      "url": "https://time.mk/ai/81ac648ec5/mk/",
-      "published_at": "20260529T173000Z",
-      "source": "time.mk",
       "tags": []
     },
     {
@@ -198,49 +142,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_07f45ad5f069a642",
-      "headline": "Cuba Is Not a Threat to the United States : Deputy Foreign Minister Rejects U . S . Coercion and Defends Sovereignty",
-      "url": "https://www.globalsecurity.org/wmd/library/news/cuba/cuba-260528-cubaminrex02.htm",
-      "published_at": "20260529T161500Z",
-      "source": "globalsecurity.org",
-      "tags": [
-        "UNITED_STATES",
-        "CUBA"
-      ]
-    },
-    {
-      "id": "gdelt_374646cc4065f5c3",
-      "headline": "Cooperazione trasfrontaliera Italia - Francia , si rinnova il consiglio dei giovani",
-      "url": "https://www.sanremonews.it/2026/05/29/leggi-notizia/argomenti/politica-1/articolo/cooperazione-trasfrontaliera-italia-francia-si-rinnova-il-consiglio-dei-giovani.html",
-      "published_at": "20260529T140000Z",
-      "source": "sanremonews.it",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a3419684dd37b33b",
-      "headline": "公海扣船施暴志愿者 以色列  越过所有边界  丨夜观天下",
-      "url": "https://cbgc.scol.com.cn/news/7630494",
-      "published_at": "20260529T140000Z",
-      "source": "cbgc.scol.com.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f30698fd14fcf6f7",
-      "headline": "Accordo tra Italia e altri 5 big dellUe sulla supervisione dei mercati",
-      "url": "https://www.quotidiano.net/economia/ultimaora/accordo-tra-italia-e-altri-875cfa8f",
-      "published_at": "20260529T160000Z",
-      "source": "quotidiano.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_819111ba02d030bb",
-      "headline": "Government Mulling Expansion Of BSF Operational Mandate : Amit Shah",
-      "url": "https://www.outlookindia.com/national/government-mulling-expansion-of-bsfs-operational-mandate-amit-shah",
-      "published_at": "20260529T173000Z",
-      "source": "outlookindia.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_8214a6a22f3beb20",
       "headline": "Специальная военная операция ВС РФ и события на Украине 29 мая , вечер Фонд стратегической культуры",
       "url": "https://fondsk.ru/news/2026/05/29/specialnaya-voennaya-operaciya-vs-rf-i-sobytiya-na-ukraine-29-maya-vecher.html",
@@ -251,45 +152,11 @@
       ]
     },
     {
-      "id": "gdelt_a77c3830df31a65c",
-      "headline": "Accordo tra Italia e altri 5 big dellUe sulla supervisione dei mercati - Ultima ora",
-      "url": "https://www.ansa.it/sito/notizie/topnews/2026/05/29/accordo-tra-italia-e-altri-5-big-dellue-sulla-supervisione-dei-mercati_bd30cde6-ff4d-4d0e-a91d-85d3773ef3a8.html",
-      "published_at": "20260529T153000Z",
-      "source": "ansa.it",
-      "tags": []
-    },
-    {
-      "id": "gdelt_87fcfc4269033dac",
-      "headline": "Ekonomik rekabette  salyangoz  vurgusu ! 6 ülkeden ABD ve Çine kar g birliði",
-      "url": "https://www.star.com.tr/dunya/ekonomik-rekabette-salyangoz-vurgusu-6-ulkeden-abd-ve-cine-karsi-guc-birligi-haber-2019131/",
-      "published_at": "20260529T160000Z",
-      "source": "star.com.tr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fcb2c2f023f6589b",
-      "headline": "BizFlex Africa receives final IMTO approval from the Central Bank of Nigeria",
-      "url": "https://techcabal.com/2026/05/29/bizflex-africa-receives-final-imto/",
-      "published_at": "20260529T160000Z",
-      "source": "techcabal.com",
-      "tags": [
-        "NIGERIA"
-      ]
-    },
-    {
-      "id": "gdelt_1f13e3cf100922f8",
-      "headline": "МТК « Восток - Запад » в Армении : что это такое , кто его будет строить , кому он выгоден ?",
-      "url": "https://vestikavkaza.ru/articles/mtk-vostok-zapad-cto-eto-takoe-kto-ego-budet-stroit-komu-on-vygoden.html",
-      "published_at": "20260529T173000Z",
-      "source": "vestikavkaza.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fafc0bc717cb2ba4",
-      "headline": "Persona non grata για τη Ρουμανία ο Ρώσος πρόξενος στην Κωνστάντζα μετά την πτώση ρωσικού drone , κλείνει το προξενείο – Αντίποινα προαναγγέλλει η Ζαχάροβα",
-      "url": "https://www.inewsgr.com/93/Persona-non-grata-gia-ti-roumania-o-rosos-proxenos-stin-konstantza-meta-tin-ptosi-rosikou-drone-kleinei-to-proxeneio--antipoina-proanangellei-i-zacharova.htm",
-      "published_at": "20260529T140000Z",
-      "source": "inewsgr.com",
+      "id": "gdelt_d14e82d45b65a492",
+      "headline": "ABnin 6 büyük ekonomisinden ortak sermaye piyasaları hamlesi",
+      "url": "https://www.bloomberght.com/ab-nin-6-buyuk-ekonomisinden-ortak-sermaye-piyasalari-hamlesi-3778612",
+      "published_at": "20260529T194500Z",
+      "source": "bloomberght.com",
       "tags": []
     },
     {
@@ -301,11 +168,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_a2871932904351c4",
-      "headline": "Cameroun : bras de fer institutionnel autour du rachat de Société Générale par lEtat",
-      "url": "https://www.financialafrik.com/2026/05/29/cameroun-bras-de-fer-institutionnel-autour-du-rachat-de-societe-generale-par-letat/",
-      "published_at": "20260529T134500Z",
-      "source": "financialafrik.com",
+      "id": "gdelt_7033912f811bd856",
+      "headline": "Time . ai",
+      "url": "https://time.mk/ai/faf7dcf313/mk/",
+      "published_at": "20260529T194500Z",
+      "source": "time.mk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bc67017fad1b1f43",
+      "headline": "Дрон ударил по машине в Белгородской области : двое погибли",
+      "url": "https://www.mk.ru/incident/2026/05/30/dron-udaril-po-mashine-v-belgorodskoy-oblasti-dvoe-pogibli.html",
+      "published_at": "20260529T224500Z",
+      "source": "mk.ru",
       "tags": []
     },
     {
@@ -324,14 +199,6 @@
       "url": "https://www.abendblatt.de/politik/article412126628/drohne-explodiert-in-rumaenien-doch-ein-szenario-ist-unwahrscheinlich.html",
       "published_at": "20260529T184500Z",
       "source": "abendblatt.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a1e97d63fa8bb633",
-      "headline": "ABnin 6 büyük ekonomisinden ,  Sermaye Piyasaları Birliği  için ortak hamle",
-      "url": "https://www.aa.com.tr/tr/ekonomi/abnin-6-buyuk-ekonomisinden-sermaye-piyasalari-birligi-icin-ortak-hamle/3951400",
-      "published_at": "20260529T173000Z",
-      "source": "aa.com.tr",
       "tags": []
     },
     {
@@ -359,44 +226,24 @@
       "tags": []
     },
     {
-      "id": "gdelt_20265c4b19bfe2d5",
-      "headline": "Xiaohongshu Business outlines three major outbound travel trends at the Singapore Outbound Tourism Forum",
-      "url": "https://www.marketing-interactive.com/xiaohongshu-business-outlines-three-major-outbound-travel-trends-at-singapore-tourism-forum",
-      "published_at": "20260529T160000Z",
-      "source": "marketing-interactive.com",
-      "tags": []
+      "id": "gdelt_a6f178ff0816d35d",
+      "headline": "Nato vows to defend its territory after Russian drone hits Romania",
+      "url": "https://www.channel4.com/news/nato-vows-to-defend-its-territory-after-russian-drone-hits-romania",
+      "published_at": "20260529T230000Z",
+      "source": "channel4.com",
+      "tags": [
+        "ROMANIA"
+      ]
     },
     {
-      "id": "gdelt_fd718a6254f8466d",
-      "headline": "The Death of the Wire Transfer : Why the Digital Entertainment Sector is Shifting to Stablecoins in 2026",
-      "url": "https://www.ibtimes.co.uk/stablecoins-revolutionising-cross-border-transactions-1799677",
-      "published_at": "20260529T154500Z",
-      "source": "ibtimes.co.uk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_124889282f6bca10",
-      "headline": "Allwyn : Ολοκληρώθηκε η μεταφορά της καταστατικής έδρας στην Ελβετία",
-      "url": "https://www.capital.gr/epixeiriseis/3995434/allwyn-oloklirothike-i-metafora-tis-katastatikis-edras-stin-elbetia/",
-      "published_at": "20260529T150000Z",
-      "source": "capital.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_23cb4a932f611365",
-      "headline": "ABnin 6 büyük ekonomisinden hamle : Sermaye piyasaları ortaklaştırılıyor",
-      "url": "https://www.birgun.net/haber/ab-nin-6-buyuk-ekonomisinden-hamle-sermaye-piyasalari-ortaklastiriliyor-715348%20target=_blank%20class=stretched-link",
-      "published_at": "20260529T160000Z",
-      "source": "birgun.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a7f4d15355b80ba1",
-      "headline": "ABnin 6 büyük ekonomisinden hamle : Sermaye piyasaları ortaklaştırılıyor",
-      "url": "https://www.birgun.net/haber/ab-nin-6-buyuk-ekonomisinden-hamle-sermaye-piyasalari-ortaklastiriliyor-715348",
-      "published_at": "20260529T173000Z",
-      "source": "birgun.net",
-      "tags": []
+      "id": "gdelt_cf30a0f3eb029c47",
+      "headline": "PH , Japan update tax rules for firms , OFWs | The Manila Times",
+      "url": "https://www.manilatimes.net/2026/05/30/business/top-business/ph-japan-update-tax-rules-for-firms-ofws/2354727",
+      "published_at": "20260529T201500Z",
+      "source": "manilatimes.net",
+      "tags": [
+        "JAPAN"
+      ]
     },
     {
       "id": "gdelt_ce80fd9a443f1178",
@@ -404,56 +251,6 @@
       "url": "https://espreso.tv/viyna-z-rosiyeyu-za-slovami-lavrova-vidchuvaetsya-pevniy-vidchay-glen-grant-pro-pogrozi-sistematichnikh-udariv",
       "published_at": "20260529T184500Z",
       "source": "espreso.tv",
-      "tags": []
-    },
-    {
-      "id": "gdelt_03e7b0d063925f2a",
-      "headline": "Японія вперше направить військових до штабу місії НАТО з підтримки України",
-      "url": "https://glavcom.ua/world/world-politics/japonija-vpershe-napravit-vijskovikh-do-shtabu-misiji-nato-z-pidtrimki-ukrajini-1122585.html",
-      "published_at": "20260529T160000Z",
-      "source": "glavcom.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e49598bfc68e194a",
-      "headline": "EU pledges €28bn military aid to Ukraine this year , vows full drone integration",
-      "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/05/ukraine-260528-presstv01.htm",
-      "published_at": "20260529T161500Z",
-      "source": "globalsecurity.org",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "gdelt_8c271ae9344cf7ef",
-      "headline": "Нетаниягу : ЦАХАЛ перешел Литани и наносит решительные удары по Хезболле | MigNews - Новости Израиля и Мира на русском языке",
-      "url": "https://mignews.com/news/politic/netaniyagu-cahal-pereshel-litani-i-nanosit-reshitelnye-udary-po-hezbolle.html",
-      "published_at": "20260529T160000Z",
-      "source": "mignews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9f278eefe8800efb",
-      "headline": "Нетаниягу : ЦАХАЛ перешел Литани и наносит решительные удары по Хезболле | MigNews - Новости Израиля и Мира на русском языке",
-      "url": "http://mignews.com/news/politic/netaniyagu-cahal-pereshel-litani-i-nanosit-reshitelnye-udary-po-hezbolle.html",
-      "published_at": "20260529T140000Z",
-      "source": "mignews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5f778d2b231db1ba",
-      "headline": "الحرب ليست نزهة خلوية",
-      "url": "https://akhbarelyom.com/news/newdetails/4827894/1/%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D9%84%D9%8A%D8%B3%D8%AA-%D9%86%D8%B2%D9%87%D8%A9-%D8%AE%D9%84%D9%88%D9%8A%D8%A9",
-      "published_at": "20260529T160000Z",
-      "source": "akhbarelyom.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e4a8c222b822285e",
-      "headline": "RBI Projects 6 . 9 % GDP Growth for FY27 , Flags Rising Global Risks ; Bank Frauds Jump to Rs48 , 021 Crore",
-      "url": "https://moneylife.in/article/rbi-projects-69-percentage-gdp-growth-for-fy27-flags-rising-global-risks-bank-frauds-jump-to-rs48021-crore/80613.html",
-      "published_at": "20260529T140000Z",
-      "source": "moneylife.in",
       "tags": []
     },
     {
@@ -465,12 +262,30 @@
       "tags": []
     },
     {
+      "id": "gdelt_33dccbd2c2a775cb",
+      "headline": "Падение дрона в Румынии – аналитики рассказали , могла ли ПВО страны сбить российский дрон",
+      "url": "https://www.unian.net/weapons/padenie-drona-v-rumynii-analitiki-rasskazali-mogla-li-pvo-strany-sbit-rossiyskiy-dron-13397217.html",
+      "published_at": "20260529T193000Z",
+      "source": "unian.net",
+      "tags": []
+    },
+    {
       "id": "gdelt_f4f4584708d11d6a",
       "headline": "NIA conducts searches in four States in cross - border arms smuggling case",
       "url": "https://www.thehindu.com/news/national/nia-conducts-searches-in-four-states-in-cross-border-arms-smuggling-case/article71038429.ece",
       "published_at": "20260529T180000Z",
       "source": "thehindu.com",
       "tags": []
+    },
+    {
+      "id": "gdelt_fe9fde87f287d429",
+      "headline": "Fundamentally Different Idea Cloud US - Iran Talks , Former Senior US Diplomat Says",
+      "url": "https://www.rferl.org/a/trump-ceasefire-framework-goldrich-nuclear-hormuz/33768612.html",
+      "published_at": "20260529T220000Z",
+      "source": "rferl.org",
+      "tags": [
+        "IRAN"
+      ]
     },
     {
       "id": "gdelt_3af7a5ceb974b099",
@@ -483,45 +298,11 @@
       ]
     },
     {
-      "id": "gdelt_5634935de963b738",
-      "headline": "Трамп због Ормуза прети и Оману",
-      "url": "https://www.politika.rs/scc/clanak/758710/tramp-zbog-ormuza-preti-i-omanu",
-      "published_at": "20260529T144500Z",
-      "source": "politika.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f2f69b0d6a17e874",
-      "headline": "Liên hợp quốc kêu gọi Nga và Ukraine giảm leo thang xung đột",
-      "url": "https://vietgiaitri.com/lien-hop-quoc-keu-goi-nga-va-ukraine-giam-leo-thang-xung-dot-20260529i7702862/",
-      "published_at": "20260529T143000Z",
-      "source": "vietgiaitri.com",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
       "id": "gdelt_06bc81d902ef7f43",
       "headline": "Дрон в Румынии - сбили ли его ПВО ВСУ | Новости на Gazeta . ua",
       "url": "https://gazeta.ua/ru/articles/politics/_dron-vs-rf-upavshij-v-rumynii-veroyatno-byl-sbit-ukrainskoj-pvo-prezident-rumynii/1251659",
       "published_at": "20260529T184500Z",
       "source": "gazeta.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_00f73ad9ed78bb10",
-      "headline": "Что известно о попадании беспилотника в жилой дом в Румынии",
-      "url": "https://www.kommersant.ru/doc/8707171",
-      "published_at": "20260529T143000Z",
-      "source": "kommersant.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cdbe86b7beb0c1c3",
-      "headline": "كييف تحذر من تصعيد خطير يهدد المفاوضات مع روسيا",
-      "url": "https://www.elwatannews.com/news/details/8292757",
-      "published_at": "20260529T144500Z",
-      "source": "elwatannews.com",
       "tags": []
     },
     {
@@ -543,22 +324,6 @@
       ]
     },
     {
-      "id": "gdelt_afd8b87afa13e118",
-      "headline": "ХАМАС назвал эскалацией требования Нетаньяху к ВС Израиля расширить контроль над Газой",
-      "url": "https://www.interfax.ru/world/1092730",
-      "published_at": "20260529T161500Z",
-      "source": "interfax.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d57fb351967d0abb",
-      "headline": "Фінляндія надає Україні новий пакет військової допомоги на €128 мільйонів",
-      "url": "https://www.ukrinform.ua/rubric-ato/4128652-finlandia-nadae-ukraini-novij-paket-vijskovoi-dopomogi-na-128-miljoniv.html",
-      "published_at": "20260529T173000Z",
-      "source": "ukrinform.ua",
-      "tags": []
-    },
-    {
       "id": "gdelt_52ac910c9ced0004",
       "headline": "Российская армия за минувшие сутки взяла под контроль четыре населенных пункта в зоне спецоперации",
       "url": "https://www.1tv.ru/news/2026-05-29/543400",
@@ -575,57 +340,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_892e8c27fe6341d6",
-      "headline": "Time . ai",
-      "url": "https://time.mk/ai/9b2993d7b3/mk/",
-      "published_at": "20260529T143000Z",
-      "source": "time.mk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_279b83138e5cb85d",
-      "headline": "Сразу четыре населенных пункта освободили ВС РФ в зоне СВО",
-      "url": "https://deita.ru/article/585901",
-      "published_at": "20260529T153000Z",
-      "source": "deita.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c55c3e1551956d90",
-      "headline": "Opinion : Chula Vista needs a different kind of university",
-      "url": "https://www.sandiegouniontribune.com/2026/05/29/opinion-chula-vista-needs-a-different-kind-of-university/",
-      "published_at": "20260529T140000Z",
-      "source": "sandiegouniontribune.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_dd62f09c40dc1bfa",
-      "headline": "Lekkasjer : united states har rigget seg for angrep på Cuba",
-      "url": "https://www.abcnyheter.no/nyheter/lekkasjer-usa-har-rigget-seg-for-angrep-pa-cuba/1556549",
-      "published_at": "20260529T160000Z",
-      "source": "abcnyheter.no",
-      "tags": [
-        "UNITED_STATES",
-        "CUBA"
-      ]
-    },
-    {
-      "id": "gdelt_e19ea776142a3663",
-      "headline": "روسيا تهدد باستخدام أسلحة « لا تترك ملاذًا آمنًا » وتصعيد مرتقب على الحدود البيلاروسية",
-      "url": "https://www.elwatannews.com/news/details/8292754",
-      "published_at": "20260529T144500Z",
-      "source": "elwatannews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3819366cc632e75d",
-      "headline": "RBI regulatory agenda in FY27 to focus on customer protection , strengthening credit ecosystem",
-      "url": "https://www.thehindubusinessline.com/money-and-banking/rbis-regulatory-agenda-in-fy27-to-focus-on-customer-protection-strengthening-credit-ecosystem/article71038220.ece",
-      "published_at": "20260529T161500Z",
-      "source": "thehindubusinessline.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_7c1e7799dd8076fd",
       "headline": "Фінляндія надасть Україні допомогу на 128 млн євро",
       "url": "https://news.bigmir.net/ua/world/10363202-finlyandiya-nadast-ukrayini-dopomogu-na-128-mln-jevro",
@@ -634,30 +348,24 @@
       "tags": []
     },
     {
-      "id": "gdelt_3b4c78a9bb599fba",
-      "headline": "Sanctions on refinery would harm  EU more than Russia",
-      "url": "https://www.rte.ie/news/politics/2026/0529/1575907-politics-aughinish-alumina-sanctions/",
-      "published_at": "20260529T140000Z",
-      "source": "rte.ie",
+      "id": "gdelt_3c49803aa77a0327",
+      "headline": "Ebola , Nigeria in allerta : 21 Stati classificati a rischio alto o moderato di importazione",
+      "url": "https://www.meteoweb.eu/2026/05/ebola-nigeria-in-allerta-21-stati-classificati-a-rischio-alto-o-moderato-di-importazione/1001939039/",
+      "published_at": "20260529T193000Z",
+      "source": "meteoweb.eu",
       "tags": [
-        "RUSSIA"
+        "NIGERIA"
       ]
     },
     {
-      "id": "gdelt_e0ed6d71e4ea9855",
-      "headline": "Марукян раскритиковал стену в Киранце",
-      "url": "https://www.panarmenian.net/rus/news/333719/",
-      "published_at": "20260529T140000Z",
-      "source": "panarmenian.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_94d89317416eb6d8",
-      "headline": "EFICYENT Marks Global Presence at Money20 / 20 Asia and Money20 / 20 Europe",
-      "url": "http://www.southeastasiapost.com/news/279087974/eficyent-marks-global-presence-at-money2020-asia-and-money2020-europe",
-      "published_at": "20260529T144500Z",
-      "source": "southeastasiapost.com",
-      "tags": []
+      "id": "gdelt_4f767f20aa4fc0d4",
+      "headline": "Nigeria : Ebola - NOA Advises Benue Residents to Be Vigilant",
+      "url": "https://allafrica.com/stories/202605290117.html",
+      "published_at": "20260529T193000Z",
+      "source": "allafrica.com",
+      "tags": [
+        "NIGERIA"
+      ]
     },
     {
       "id": "gdelt_ab0c3f5e27d2f39c",
@@ -684,21 +392,13 @@
       "tags": []
     },
     {
-      "id": "gdelt_79777c71d1f8f360",
-      "headline": "Persona non grata για τη Ρουμανία ο Ρώσος πρόξενος στην Κωνστάντζα μετά την πτώση ρωσικού drone , κλείνει το προξενείο",
-      "url": "https://www.newsit.gr/kosmos/persona-non-grata-gia-ti-roumania-o-rosos-proksenos-stin-konstantza-meta-tin-ptosi-rosikou-drone-kleinei-to-prokseneio-antipoina-proanaggellei-i-zaxarova/4689537/",
-      "published_at": "20260529T140000Z",
-      "source": "newsit.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7a3eb4cdf2188756",
-      "headline": "Iran is turning America sanctions playbook against it",
-      "url": "https://reason.com/2026/05/29/iran-is-turning-americas-sanctions-playbook-against-it/",
-      "published_at": "20260529T144500Z",
-      "source": "reason.com",
+      "id": "gdelt_a4da8bc6584db508",
+      "headline": "House Republican Don Bacon says he wants  pariah state  Russia booted from UN Security Council",
+      "url": "https://www.wfmd.com/2026/05/29/house-republican-don-bacon-says-he-wants-pariah-state-russia-booted-from-un-security-council/",
+      "published_at": "20260529T201500Z",
+      "source": "wfmd.com",
       "tags": [
-        "IRAN"
+        "RUSSIA"
       ]
     },
     {
@@ -718,6 +418,16 @@
       "tags": []
     },
     {
+      "id": "gdelt_55bdc203bb6d0ce0",
+      "headline": "Україна й Канада разом вироблятимуть дрони для ЗСУ",
+      "url": "https://ua.korrespondent.net/ukraine/4882601-ukraina-y-kanada-razom-vyrobliatymut-drony-dlia-zsu",
+      "published_at": "20260529T230000Z",
+      "source": "ua.korrespondent.net",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
       "id": "gdelt_9ce214d10c4e9357",
       "headline": "Румыния обсудила с ЕС ускорение работы над новыми санкциями против России",
       "url": "https://ria.ru/20260529/rumyniya-2095633924.html",
@@ -726,37 +436,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_e6fb294976914b87",
-      "headline": "Wizz Financial Completes First Stablecoin - Powered Cross - Border Transaction from the US to 80 Countries with BitGo",
-      "url": "http://www.nepalnational.com/news/279084641/wizz-financial-completes-first-stablecoin-powered-cross-border-transaction-from-the-us-to-80-countries-with-bitgo",
-      "published_at": "20260529T143000Z",
-      "source": "nepalnational.com",
+      "id": "gdelt_644cc2396c74f96a",
+      "headline": "САД увеле санкције иранским фирмама због набавке ограничене робе",
+      "url": "https://www.politika.rs/scc/clanak/759009/sad-uvele-sankcije-iranskim-firmama-zbog-nabavke-ogranicene-robe",
+      "published_at": "20260529T224500Z",
+      "source": "politika.rs",
       "tags": []
     },
     {
-      "id": "gdelt_72c4d833e6859c73",
-      "headline": "To the Situation Room , now ! With new message , Trump stirs Iran cauldron again",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/to-the-situation-room-now-with-new-message-trump-stirs-iran-cauldron-again/articleshow/131393983.cms",
-      "published_at": "20260529T160000Z",
-      "source": "economictimes.indiatimes.com",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_a57b8920cca57f05",
-      "headline": "Time . ai",
-      "url": "https://time.mk/ai/d34c454a22/mk/",
-      "published_at": "20260529T143000Z",
-      "source": "time.mk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0115af8699456532",
-      "headline": "Ρουμανία : Διεθνείς αντιδράσεις για το περιστατικό με ρωσικό drone",
-      "url": "https://www.inewsgr.com/182/roumania-diethneis-antidraseis-gia-to-peristatiko-me-rosiko-drone.htm",
-      "published_at": "20260529T141500Z",
-      "source": "inewsgr.com",
+      "id": "gdelt_a8419c64c9d4d825",
+      "headline": "Японія направляє своїх військових до місії НАТО з підтримки України",
+      "url": "https://lb.ua/world/2026/05/29/741764_yaponiya_vidpravlyaie_viyskovih.html",
+      "published_at": "20260529T193000Z",
+      "source": "lb.ua",
       "tags": []
     },
     {
@@ -776,6 +468,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_45a9f2c4eda9129b",
+      "headline": "ABD Hazine Bakanı : Yaptırımlar yavaş kalkacak",
+      "url": "https://www.haberturk.com/abd-hazine-bakani-yaptirimlar-yavas-kalkacak-3888120",
+      "published_at": "20260529T224500Z",
+      "source": "haberturk.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_59b056443e0b7856",
       "headline": "Putin kann nicht zurück – welche Eskalation jetzt folgen könnte",
       "url": "http://www.hna.de/politik/putin-kann-nicht-zurueck-militaerexperte-verraet-welche-eskalation-jetzt-folgen-koennte-zr-94328116.html",
@@ -792,29 +492,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_f33a31624fda421c",
-      "headline": "As worrying  New Phase  of Armed Conflict Takes Hold in Ukraine , Speakers Tell Security Council Death Spiral Must End , Caution against Systematic Strikes",
-      "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/05/ukraine-260528-unsc01.htm",
-      "published_at": "20260529T161500Z",
-      "source": "globalsecurity.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0188deac9bac7a07",
-      "headline": "Huawei - Chef : Ohne das US - Embargo wäre China nicht selbst innovativ",
-      "url": "https://winfuture.de/news,159006.html",
-      "published_at": "20260529T160000Z",
-      "source": "winfuture.de",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
       "id": "gdelt_dffd467603eae381",
       "headline": "Япония направила более $14 млн на инициативу PURL",
       "url": "https://korrespondent.net/world/4882563-yaponyia-napravyla-bolee-14-mln-na-ynytsyatyvu-PURL",
       "published_at": "20260529T184500Z",
       "source": "korrespondent.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7f99cfcbef5f3e45",
+      "headline": "Bessent : İrana yönelik yaptırımlar kademeli olarak kaldırılacak",
+      "url": "https://www.dunya.com/dunya/bessent-irana-yonelik-yaptirimlar-kademeli-olarak-kaldirilacak-haberi-826810",
+      "published_at": "20260529T221500Z",
+      "source": "dunya.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7406d4e7ae160be8",
+      "headline": "財經選讀 》 先買進 、 後稱讚 ？ 拆解 「 川普交易 」 625筆神秘委託訊號 下一波幸運兒出列 - 財經",
+      "url": "https://www.chinatimes.com/realtimenews/20260530000792-260410",
+      "published_at": "20260529T224500Z",
+      "source": "chinatimes.com",
       "tags": []
     },
     {
@@ -826,19 +524,22 @@
       "tags": []
     },
     {
-      "id": "gdelt_106d380acfd01a8b",
-      "headline": "Атака РФ на судна в Чорному морі : Туреччина заявила , що поранені двоє її громадян",
-      "url": "https://www.ukrinform.ua/rubric-ato/4128639-ataka-rf-na-sudna-v-cornomu-mori-tureccina-zaavila-so-poraneni-dvoe-ii-gromadan.html",
-      "published_at": "20260529T160000Z",
-      "source": "ukrinform.ua",
-      "tags": []
+      "id": "gdelt_7f0749c94e7baf4e",
+      "headline": "South Sudan says arms embargo leaves civilians exposed",
+      "url": "https://www.radiotamazuj.org/en/news/article/south-sudan-says-arms-embargo-leaves-civilians-exposed",
+      "published_at": "20260529T230000Z",
+      "source": "radiotamazuj.org",
+      "tags": [
+        "SUDAN",
+        "SOUTH_SUDAN"
+      ]
     },
     {
-      "id": "gdelt_0a85df7a9e83ee63",
-      "headline": "Hong Kong Matches Switzerland at $2 . 9 Trillion in Wealth",
-      "url": "https://www.el-balad.com/17015480",
-      "published_at": "20260529T160000Z",
-      "source": "el-balad.com",
+      "id": "gdelt_62a48189c1981a6c",
+      "headline": "EU usvojila dodatne sankcije protiv Hamasa i palestinskog Islamskog džihada",
+      "url": "https://www.novilist.hr/novosti/svijet/eu-usvojila-dodatne-sankcije-protiv-hamasa-i-palestinskog-islamskog-dzihada/",
+      "published_at": "20260529T224500Z",
+      "source": "novilist.hr",
       "tags": []
     },
     {
@@ -850,94 +551,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_781643ddacf01d81",
-      "headline": "Große EU - Länder einigen sich auf Position bei Kapitalmarktunion",
-      "url": "https://www.deraktionaer.de/nachricht/groeeu-laendereinigensichaufpositionbeikapitalmarktunion-528249.html",
-      "published_at": "20260529T144500Z",
-      "source": "deraktionaer.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5e927450107ecc1d",
-      "headline": "Possible Iran Deal Sends Oil Prices Lower as Trump Reviews War Memo",
-      "url": "https://www.myeaglecountry.com/2026/05/29/possible-iran-deal-sends-oil-prices-lower-as-trump-reviews-war-memo/",
-      "published_at": "20260529T144500Z",
-      "source": "myeaglecountry.com",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_e838da0c162879fd",
-      "headline": "Possible Iran Deal Sends Oil Prices Lower as Trump Reviews War Memo",
-      "url": "https://www.kmjnow.com/2026/05/29/possible-iran-deal-sends-oil-prices-lower-as-trump-reviews-war-memo/",
-      "published_at": "20260529T160000Z",
-      "source": "kmjnow.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b551e578bc2f5ffc",
-      "headline": "Possible Iran Deal Sends Oil Prices Lower as Trump Reviews War Memo",
-      "url": "https://www.1290wlby.com/2026/05/29/possible-iran-deal-sends-oil-prices-lower-as-trump-reviews-war-memo/",
-      "published_at": "20260529T160000Z",
-      "source": "1290wlby.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e9ea170c2931a6a7",
-      "headline": "Possible Iran Deal Sends Oil Prices Lower as Trump Reviews War Memo",
-      "url": "https://www.wgowam.com/2026/05/29/possible-iran-deal-sends-oil-prices-lower-as-trump-reviews-war-memo/",
-      "published_at": "20260529T160000Z",
-      "source": "wgowam.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_07c81de21f586d5b",
-      "headline": "Possible Iran Deal Sends Oil Prices Lower as Trump Reviews War Memo",
-      "url": "https://www.kynt1450.com/2026/05/29/possible-iran-deal-sends-oil-prices-lower-as-trump-reviews-war-memo/",
-      "published_at": "20260529T161500Z",
-      "source": "kynt1450.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_68a6c142799bf646",
-      "headline": "Possible Iran Deal Sends Oil Prices Lower as Trump Reviews War Memo",
-      "url": "https://www.wvlkam.com/2026/05/29/possible-iran-deal-sends-oil-prices-lower-as-trump-reviews-war-memo/",
-      "published_at": "20260529T154500Z",
-      "source": "wvlkam.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1ed6bad461ee5117",
-      "headline": "Possible Iran Deal Sends Oil Prices Lower as Trump Reviews War Memo",
-      "url": "https://www.kvor.com/2026/05/29/possible-iran-deal-sends-oil-prices-lower-as-trump-reviews-war-memo/",
-      "published_at": "20260529T173000Z",
-      "source": "kvor.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e5397b799c21e407",
-      "headline": "Possible Iran Deal Sends Oil Prices Lower as Trump Reviews War Memo",
-      "url": "https://www.1007thetiger.com/2026/05/29/possible-iran-deal-sends-oil-prices-lower-as-trump-reviews-war-memo/",
-      "published_at": "20260529T164500Z",
-      "source": "1007thetiger.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_2d839690d5d5ec02",
       "headline": "Possible Iran Deal Sends Oil Prices Lower as Trump Reviews War Memo",
       "url": "https://www.kaok.com/2026/05/29/possible-iran-deal-sends-oil-prices-lower-as-trump-reviews-war-memo/",
       "published_at": "20260529T174500Z",
       "source": "kaok.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_19ce8b64e31120e0",
-      "headline": "Possible Iran Deal Sends Oil Prices Lower as Trump Reviews War Memo",
-      "url": "https://www.wcoapensacola.com/2026/05/29/possible-iran-deal-sends-oil-prices-lower-as-trump-reviews-war-memo/",
-      "published_at": "20260529T150000Z",
-      "source": "wcoapensacola.com",
-      "tags": []
+      "tags": [
+        "IRAN"
+      ]
     },
     {
       "id": "gdelt_7ad14ef7797a760e",
@@ -945,7 +566,9 @@
       "url": "https://www.klif.com/2026/05/29/possible-iran-deal-sends-oil-prices-lower-as-trump-reviews-war-memo-2/",
       "published_at": "20260529T183000Z",
       "source": "klif.com",
-      "tags": []
+      "tags": [
+        "IRAN"
+      ]
     },
     {
       "id": "gdelt_29d0cd36e5f2bcc5",
@@ -956,53 +579,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_d6e036fc7b55c063",
-      "headline": "Russian drone launched against Ukraine crashes in Romania , injuring 2",
-      "url": "https://knpr.org/npr/2026-05-29/russian-drone-launched-against-ukraine-crashes-in-romania-injuring-2",
-      "published_at": "20260529T140000Z",
-      "source": "knpr.org",
-      "tags": [
-        "ROMANIA"
-      ]
-    },
-    {
-      "id": "gdelt_ca76758db633c974",
-      "headline": "VIDEO Ruski dron udario u zgradu u Rumunjskoj . Medvedev : Gotovo je s mirnim snom",
-      "url": "https://www.index.hr/vijesti/clanak/video-ruski-dron-pao-na-zgradu-u-rumunjskoj-oglasila-se-moskva/2797003.aspx",
-      "published_at": "20260529T160000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9f2a6fcafef32608",
-      "headline": "A Tirana un confronto sulla gestione delle emergenze fitosanitarie - Diritti & Uguaglianze",
-      "url": "https://www.ansa.it/ansa2030/notizie/diritti_uguaglianze/2026/05/29/a-tirana-un-confronto-sulla-gestione-delle-emergenze-fitosanitarie_ad2929c1-6984-425b-b6ce-7b178d25668f.html",
-      "published_at": "20260529T144500Z",
-      "source": "ansa.it",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7c6850069c07a29a",
-      "headline": "A Tirana un confronto sulla gestione delle emergenze fitosanitarie - Notizie",
-      "url": "https://www.ansa.it/puglia/notizie/2026/05/29/a-tirana-un-confronto-sulla-gestione-delle-emergenze-fitosanitarie_f2a88302-617c-468d-bb08-3a57b899d133.html",
-      "published_at": "20260529T173000Z",
-      "source": "ansa.it",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4465cd6597c46ff9",
-      "headline": "亞洲消防首長齊聚名古屋 新北交流精進災防應變 | 地方",
-      "url": "https://www.cna.com.tw/news/aloc/202605290323.aspx",
-      "published_at": "20260529T140000Z",
-      "source": "cna.com.tw",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cb51402c1f811fab",
-      "headline": "亞洲消防首長齊聚名古屋 新北交流精進災防應變 | 地方",
-      "url": "https://www.cna.com.tw:443/news/aloc/202605290323.aspx",
-      "published_at": "20260529T140000Z",
-      "source": "cna.com.tw",
+      "id": "gdelt_6aa0abdf16875d58",
+      "headline": "Possible Iran Deal Sends Oil Prices Lower as Trump Reviews War Memo",
+      "url": "https://www.wbap.com/2026/05/29/possible-iran-deal-sends-oil-prices-lower-as-trump-reviews-war-memo/",
+      "published_at": "20260529T214500Z",
+      "source": "wbap.com",
       "tags": []
     },
     {
@@ -1022,11 +603,439 @@
       "tags": []
     },
     {
-      "id": "gdelt_2d8d2d70b340b968",
-      "headline": "Битва за Україну . День тисяча п  ятсот п  ятдесят шостий",
-      "url": "https://www.ukrinform.ua/rubric-ato/4128667-bitva-za-ukrainu-den-tisaca-patsot-patdesat-sostij.html",
-      "published_at": "20260529T173000Z",
-      "source": "ukrinform.ua",
+      "id": "gdelt_a9ddebe1f39ae5ae",
+      "headline": "« Поля под защитой »: Шуваев и Лут обсудили развитие АПК Белгородской области в приграничье",
+      "url": "https://runews24.ru/belgorod/29/05/2026/polya-pod-zashhitoj-shuvaev-i-lut-obsudili-razvitie-apk-belgorodskoj-oblasti-v-prigraniche",
+      "published_at": "20260529T174500Z",
+      "source": "runews24.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5e489785ff0df6ab",
+      "headline": "Монетизация санкционированных аккаунтов : как соцсети обходят правила ЕС",
+      "url": "https://ru.euronews.com/my-europe/2026/05/29/kak-socseti-obhodyat-pravila-es",
+      "published_at": "20260529T190000Z",
+      "source": "ru.euronews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e22cd7514b55eb9d",
+      "headline": "Hamas : Netanjahuov plan za proširenje kontrole u Gazi je opasna eskalacija",
+      "url": "https://www.tanjug.rs/bliski-istok/vesti/255654/hamas-netanjahuov-plan-za-prosirenje-kontrole-u-gazi-je-opasna-eskalacija/vest",
+      "published_at": "20260529T174500Z",
+      "source": "tanjug.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0caed499f787789f",
+      "headline": "К борьбе с мароккской саранчой приступили на Ставрополье",
+      "url": "https://www.stapravda.ru/20260529/k_borbe_s_marokkskoy_saranchoy_pristupili_na_stavropole_245687.html",
+      "published_at": "20260529T193000Z",
+      "source": "stapravda.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a0236d78d3ed4ef9",
+      "headline": "Déploiement dune unité italienne en Tunisie ? Les détails derrière la rumeur qui enflamme les réseaux",
+      "url": "https://businessnews.com.tn/2026/05/29/deploiement-dune-unite-italienne-en-tunisie-les-details-derriere-la-rumeur-qui-enflamme-les-reseaux/1403850/",
+      "published_at": "20260529T183000Z",
+      "source": "businessnews.com.tn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ec4d62e92d2ed2e9",
+      "headline": "ABDden İrana ağır darbe ! 1 milyar dolarlık varlığa el konuldu",
+      "url": "https://ekonomi.haber7.com/ekonomi/haber/3631622-abdden-irana-agir-darbe-1-milyar-dolarlik-varliga-el-konuldu",
+      "published_at": "20260529T221500Z",
+      "source": "ekonomi.haber7.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a3f452e629b15aec",
+      "headline": "Moskauer OSZE - Botschafter sieht die Welt an einem gefährlichen Wendepunkt",
+      "url": "https://www.freiewelt.net/artikel/buero/konflikte/moskauer-osze-botschafter-sieht-die-welt-einem-gefaehrlichen-wendepunkt/44197",
+      "published_at": "20260529T183000Z",
+      "source": "freiewelt.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6ae41b84357e5ed9",
+      "headline": "ЕС продолжил бы вводить санкции и без случая с БПЛА в Румынии , заявили в ГД",
+      "url": "https://ria.ru/20260529/evrosoyuz-2095649551.html",
+      "published_at": "20260529T200000Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_918a919d14df961f",
+      "headline": "Toju : Rumunija povodom pada drona nastavlja konsultacije u okviru NATO - a",
+      "url": "https://www.tanjug.rs/region/politika/255461/toju-rumunija-povodom-pada-drona-nastavlja-konsultacije-u-okviru-nato-a/vest",
+      "published_at": "20260529T221500Z",
+      "source": "tanjug.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_38cbd8142c503092",
+      "headline": "Журналистам показали обломки « Орешника » и свежих ракет Х - 101 , которыми РФ атаковала Украину 24 мая",
+      "url": "https://vesti-ua.net/novosti/tehnologii/284416-zhurnalistam-pokazali-oblomki-oreshnika-i-svezhih-raket-h-101-kotorymi-rf-atakovala-ukrainu-24-maya.html",
+      "published_at": "20260529T224500Z",
+      "source": "vesti-ua.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7ed9a6c6a5c96c49",
+      "headline": "Посольство РФ в Кишиневе : Молдавия может инсценировать падение дрона",
+      "url": "https://vm.ru/news/1330719-posolstvo-rf-v-kishineve-moldaviya-mozhet-inscenirovat-padenie-drona",
+      "published_at": "20260529T194500Z",
+      "source": "vm.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6d1b3dca42992f67",
+      "headline": "Angriffe , Drohungen , Stillstand - Krieg in der Ukraine : Eskalation ohne Ende",
+      "url": "https://www.radioeins.de/programm/sendungen/die_schoene_woche/_/krieg-in-der-ukraine-eskalation-ohne-ende.html",
+      "published_at": "20260529T201500Z",
+      "source": "radioeins.de",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_e19a66c7e4f23b31",
+      "headline": "أحمد سيد أحمد : إسرائيل تسابق الزمن لتغيير الواقع في الجنوب اللبناني قبل تثبيت وقف إطلاق النار",
+      "url": "https://www.dostor.org/5576039",
+      "published_at": "20260529T194500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4472bd182238f860",
+      "headline": "Bulgaria Condemns the Russian Drone Strike in Romania",
+      "url": "http://www.russiaherald.com/news/279090794/bulgaria-condemns-the-russian-drone-strike-in-romania",
+      "published_at": "20260529T231500Z",
+      "source": "russiaherald.com",
+      "tags": [
+        "ROMANIA"
+      ]
+    },
+    {
+      "id": "gdelt_820c6d381e01460b",
+      "headline": "Census in West Bengal to start from August 1 : CM Suvendu",
+      "url": "https://www.thehindu.com/news/national/west-bengal/census-in-bengal-to-be-held-from-august-1-to-february-end-next-year-cm/article71036958.ece",
+      "published_at": "20260529T180000Z",
+      "source": "thehindu.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_726fc9844c0c0a3a",
+      "headline": "Manöver  Freedom Shield : Bundeswehr verlegt Panzer und Soldaten für Übung nach Litauen",
+      "url": "https://www.n-tv.de/politik/Bundeswehr-verlegt-Panzer-und-Soldaten-fuer-Uebung-nach-Litauen-id30873231.html",
+      "published_at": "20260529T201500Z",
+      "source": "n-tv.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_59f29d69325c51de",
+      "headline": "10800 выплата международная для украинцев - как получить деньги",
+      "url": "https://24tv.ua/economy/ru/10800-vyplata-mezhdunarodnaja-dlja-ukraincev-kak-poluchit-dengi_n3077767",
+      "published_at": "20260529T201500Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_22fd5d0263266b67",
+      "headline": "Hainan : Ein Mikrokosmos der Öffnung Chinas",
+      "url": "http://www.prnewswire.com/news-releases/hainan-ein-mikrokosmos-der-offnung-chinas-302785969.html",
+      "published_at": "20260529T191500Z",
+      "source": "prnewswire.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_02f543587709eb78",
+      "headline": "Hainan : Ein Mikrokosmos der Öffnung Chinas",
+      "url": "https://www.prnewswire.com/news-releases/hainan-ein-mikrokosmos-der-offnung-chinas-302785969.html",
+      "published_at": "20260529T183000Z",
+      "source": "prnewswire.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7ffa41e6f628a1af",
+      "headline": "Diplomatie . Comment la Russie consolide son narratif sur loppression des minorités russophones",
+      "url": "https://www.ledauphine.com/defense-guerre-conflit/2026/05/29/comment-la-russie-consolide-son-narratif-sur-l-oppression-des-minorites-russophones",
+      "published_at": "20260529T184500Z",
+      "source": "ledauphine.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f481856e2ed14d92",
+      "headline": "Իսրայելի և Լիբանանի ռազմական պատվիրակությունները կհանդիպեն ԱՄՆ - ում",
+      "url": "https://www.1in.am/3721859.html",
+      "published_at": "20260529T201500Z",
+      "source": "1in.am",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d5234c26c4bad8e2",
+      "headline": "Wildberries запустит продажи товаров из Индии и Кореи",
+      "url": "https://rb.ru/news/wildberries-zapustit-prodazhi-tovarov-iz-indii-i-yuzhnoj-korei-v-kompanii-vidyat-trend-na-vsyo-korejskoe/",
+      "published_at": "20260529T184500Z",
+      "source": "rb.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_15ecae9639c31ee8",
+      "headline": "Jamie Dimon Blasts Brian Armstrong Over CLARITY Act :  You Are Full Of ... - JPMorgan Chase ( NYSE : JPM )",
+      "url": "https://www.benzinga.com/crypto/cryptocurrency/26/05/52886081/jamie-dimon-blasts-brian-armstrong-over-clarity-act-you-are-full-of",
+      "published_at": "20260529T194500Z",
+      "source": "benzinga.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_25bedfad40a48725",
+      "headline": "Diplomatie . Comment la Russie consolide son narratif sur loppression des minorités russophones",
+      "url": "https://www.estrepublicain.fr/defense-guerre-conflit/2026/05/29/comment-la-russie-consolide-son-narratif-sur-l-oppression-des-minorites-russophones",
+      "published_at": "20260529T190000Z",
+      "source": "estrepublicain.fr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d0d413134c0d2ba6",
+      "headline": "Proxénétisme au Luxembourg : une Russe de 43 ans placée en détention provisoire",
+      "url": "https://www.lessentiel.lu/fr/story/arrestation-au-portugal-la-proxenete-presumee-dort-en-prison-au-luxembourg-103573003",
+      "published_at": "20260529T174500Z",
+      "source": "lessentiel.lu",
+      "tags": []
+    },
+    {
+      "id": "gdelt_54eb6e82d7197bb3",
+      "headline": "US Sanctions Iranian Oil Tankers , Strait Authority Despite Ceasefire Talks Progress",
+      "url": "https://www.outlookindia.com/international/us-sanctions-iranian-oil-tankers-strait-authority-despite-ceasefire-talks-progress",
+      "published_at": "20260529T221500Z",
+      "source": "outlookindia.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c0ef62c0c517c66a",
+      "headline": "Diplomatie . Comment la Russie consolide son narratif sur loppression des minorités russophones",
+      "url": "https://www.lejsl.com/defense-guerre-conflit/2026/05/29/comment-la-russie-consolide-son-narratif-sur-l-oppression-des-minorites-russophones",
+      "published_at": "20260529T194500Z",
+      "source": "lejsl.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_974966c4a7f61967",
+      "headline": "Diplomatie . Comment la Russie consolide son narratif sur loppression des minorités russophones",
+      "url": "https://www.republicain-lorrain.fr/defense-guerre-conflit/2026/05/29/comment-la-russie-consolide-son-narratif-sur-l-oppression-des-minorites-russophones",
+      "published_at": "20260529T194500Z",
+      "source": "republicain-lorrain.fr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_38ae4716710718bc",
+      "headline": "Пентагон заявил , что конфликт на Украине выявил проблемы с производством боеприпасов в США",
+      "url": "https://piter.tv/event/Pentagon_zayavil_chto_konflikt_na_Ukraine_viyavil_problemi_s_proizvodstvom_boepripasov_v_SShA/",
+      "published_at": "20260529T230000Z",
+      "source": "piter.tv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ffe7428c4cd38045",
+      "headline": "Diplomatie . Comment la Russie consolide son narratif sur loppression des minorités russophones",
+      "url": "https://www.lalsace.fr/defense-guerre-conflit/2026/05/29/comment-la-russie-consolide-son-narratif-sur-l-oppression-des-minorites-russophones",
+      "published_at": "20260529T201500Z",
+      "source": "lalsace.fr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a5c4f12b57ba1b07",
+      "headline": "الاتحاد الأوروبي : إسرائيل تواصل تهجير المقدسيين من منازلهم",
+      "url": "https://palinfo.com/news/2026/05/29/1110430/",
+      "published_at": "20260529T184500Z",
+      "source": "palinfo.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b53627fd1527a6b4",
+      "headline": "SAD uvele sankcije za više iranskih preduzeća koja su se lažno predstavljala",
+      "url": "https://www.tanjug.rs/ekonomija/svet/255712/sad-uvele-sankcije-za-vise-iranskih-preduzeca-koja-su-se-lazno-predstavljala/vest",
+      "published_at": "20260529T221500Z",
+      "source": "tanjug.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6b1b1ccfb9c02172",
+      "headline": "US , NATO vow to  defend every inch  of alliance after Russian drone strikes Romania",
+      "url": "https://wset.com/news/nation-world/us-nato-vows-to-defend-every-inch-of-alliance-after-russian-drone-strikes-romania",
+      "published_at": "20260529T221500Z",
+      "source": "wset.com",
+      "tags": [
+        "ROMANIA"
+      ]
+    },
+    {
+      "id": "gdelt_d0c474db50a49c44",
+      "headline": "Philippines , Japan seal updated tax treaty",
+      "url": "https://www.philstar.com/business/2026/05/30/2531438/philippines-japan-seal-updated-tax-treaty",
+      "published_at": "20260529T184500Z",
+      "source": "philstar.com",
+      "tags": [
+        "PHILIPPINES",
+        "JAPAN"
+      ]
+    },
+    {
+      "id": "gdelt_b148d4f7298a2aed",
+      "headline": "Od sankcija do selfija : Na summite EU stižu influenceri",
+      "url": "https://www.vecernji.hr/vijesti/od-sankcija-do-selfija-na-summite-eu-stizu-influenceri-1964110",
+      "published_at": "20260529T183000Z",
+      "source": "vecernji.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ef83a22fcebdf92c",
+      "headline": "Молдавия может готовить инсценировку с БПЛА , считает посольство в Кишиневе",
+      "url": "https://ria.ru/20260529/posolstvo-2095630980.html",
+      "published_at": "20260529T180000Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8cd64721efbefdc8",
+      "headline": "Військова допомога Україні : на яку суму новий 33 - й пакет допомоги від Фінляндії ?",
+      "url": "https://gazeta.ua/articles/politics/_finlyandiya-napravit-ukrayini--128-mln-u-mezhah-oboronnoyi-dopomogi/1251671",
+      "published_at": "20260529T220000Z",
+      "source": "gazeta.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_593d51d3474c3db6",
+      "headline": "Ударні безпілотники середньої дальності змінюють хід війни",
+      "url": "https://glavcom.ua/techno/hitech/udarni-bezpilotniki-serednoji-dalnosti-zminjujut-khid-vijni-1122646.html",
+      "published_at": "20260529T220000Z",
+      "source": "glavcom.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f72340d33ac38eb0",
+      "headline": "U . S . blames Kiir as U . N . renews South Sudan sanctions",
+      "url": "https://www.radiotamazuj.org/en/news/article/u-s-blames-kiir-as-u-n-renews-south-sudan-sanctions",
+      "published_at": "20260529T184500Z",
+      "source": "radiotamazuj.org",
+      "tags": [
+        "SUDAN",
+        "SOUTH_SUDAN"
+      ]
+    },
+    {
+      "id": "gdelt_8124b6047ed16f73",
+      "headline": "Harga Sawit di Global Malah Tidak Turun , Pabrik yang Terindikasi Mainkan Harga Terancam Sanksi",
+      "url": "https://bangka.tribunnews.com/news/1685782/harga-sawit-di-global-malah-tidak-turun-pabrik-yang-terindikasi-mainkan-harga-terancam-sanksi",
+      "published_at": "20260529T183000Z",
+      "source": "bangka.tribunnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_97f75a9c1fddb405",
+      "headline": "Мировые структуры предупредили о риске дефицита нефти из - за блокады Ормуза",
+      "url": "https://ria.ru/20260529/neft-2095650412.html",
+      "published_at": "20260529T201500Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c4506442f0c95b17",
+      "headline": "Rysk ilska efter Jas - affären :  Tar på sig ansvar",
+      "url": "https://www.expressen.se/nyheter/sverige/rysk-ilska-efter-jas-affaren--tar-pa-sig-ansvar/",
+      "published_at": "20260529T184500Z",
+      "source": "expressen.se",
+      "tags": []
+    },
+    {
+      "id": "gdelt_25ce54c563cc64c0",
+      "headline": "Escaladare fără precedent : drona prăbușită la Galați declanșează măsuri extreme . Conferință susținută de ministrul Miruță și șeful Statului Major al Apărării",
+      "url": "https://adevarul.ro/stiri-interne/evenimente/escaladare-fara-precedent-drona-prabusita-la-2533136.html",
+      "published_at": "20260529T174500Z",
+      "source": "adevarul.ro",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4789b2484d444074",
+      "headline": "AS - Iran Capai Kesepakatan Sementara",
+      "url": "https://koran-jakarta.com/2026-05-30/as-iran-capai-kesepakatan-sementara",
+      "published_at": "20260529T184500Z",
+      "source": "koran-jakarta.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2c07c07a48c42e49",
+      "headline": "Какие последствия атаки по базам ПВО будет от России",
+      "url": "https://www.5-tv.ru/news/5071504/budet-zestkij-otvet-putin-oposledstviah-ataki-pobazam-pvo-rossii/",
+      "published_at": "20260529T174500Z",
+      "source": "5-tv.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9fc838edc823a422",
+      "headline": "Orientierung an internationale Standards",
+      "url": "https://www.vaterland.li/liechtenstein/gesellschaft/orientierung-an-internationale-standards-art-734661",
+      "published_at": "20260529T180000Z",
+      "source": "vaterland.li",
+      "tags": []
+    },
+    {
+      "id": "gdelt_af314cff97467e9d",
+      "headline": "South Bow targets 2027 decision on Keystone XL partial revival",
+      "url": "https://www.cbc.ca/news/canada/calgary/south-bow-calgary-keystone-xl-pipeline-contracts-signed-9.7216750",
+      "published_at": "20260529T193000Z",
+      "source": "cbc.ca",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ada5ee92b3a4c917",
+      "headline": "Zelenski : Imamo obavještajne podatke o novom velikom napadu Rusije",
+      "url": "https://www.index.hr/vijesti/clanak/zelenski-rusija-priprema-novi-veliki-napad-na-ukrajinu/2797329.aspx",
+      "published_at": "20260529T193000Z",
+      "source": "index.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6ff76be173b57986",
+      "headline": "Kritik an Moskau nach Drohnen - Einschlag - Putin : Herkunft der Drohne unklar",
+      "url": "https://www.gmx.ch/magazine/politik/russland-krieg-ukraine/kritik-moskau-drohnen-einschlag-putin-herkunft-drohne-unklar-42327890",
+      "published_at": "20260529T221500Z",
+      "source": "gmx.ch",
+      "tags": []
+    },
+    {
+      "id": "gdelt_71100f8b7658598e",
+      "headline": "【 華府連線 】 川普將就美伊協議做最後決定 | 霍爾木茲海峽 | 水雷 | 非法石油貿易",
+      "url": "https://www.ntdtv.com/b5/2026/05/29/a104101204.html",
+      "published_at": "20260529T191500Z",
+      "source": "ntdtv.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4fd3e95424f029ab",
+      "headline": "Autohome ( ATHM ) Q1 2026 Earnings Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/29/autohome-athm-q1-2026-earnings-transcript/?source=iedfolrf0000001",
+      "published_at": "20260529T194500Z",
+      "source": "fool.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d6059dc932d97105",
+      "headline": "Военный эксперт исключил возможность конфликта с НАТО из - за БПЛА в Румынии",
+      "url": "https://www.vesti.ru/ns/voennyj-ehkspert-isklyuchil-vozmozhnost-konflikta-s-nato-iz-za-bpla-v-rumynii",
+      "published_at": "20260529T184500Z",
+      "source": "vesti.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bdc0b5b2d9fe8e7e",
+      "headline": "U . S . military dismisses Iranian claim of downed aircraft near Bushehr – NaturalNews . com",
+      "url": "https://www.naturalnews.com/2026-05-29-military-iranian-claim-aircraft-bushehr.html",
+      "published_at": "20260529T193000Z",
+      "source": "naturalnews.com",
       "tags": []
     }
   ]
