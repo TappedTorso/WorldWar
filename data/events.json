@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-06-21T15:17:56Z",
+    "generated_at_utc": "2026-06-21T16:55:49Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -19,7 +19,7 @@
       }
     ],
     "fetched_articles": 120,
-    "previous_event_count": 119,
+    "previous_event_count": 120,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -82,17 +82,6 @@
       ]
     },
     {
-      "id": "gdelt_72f92e18e9d2a21b",
-      "headline": "Pakistan PM , Army Chief Travel to Switzerland for U . S .- Iran Talks",
-      "url": "https://www.khaama.com/pakistan-pm-army-chief-travel-to-switzerland-for-u-s-iran-talks/",
-      "published_at": "20260621T103000Z",
-      "source": "khaama.com",
-      "tags": [
-        "IRAN",
-        "PAKISTAN"
-      ]
-    },
-    {
       "id": "gdelt_33bb0d5830eb92de",
       "headline": "Trump warns Iran : Stop Lebanon proxies or face  harder  US strikes",
       "url": "https://economictimes.indiatimes.com/news/defence/trump-warns-iran-stop-lebanon-proxies-or-face-harder-us-strikes/articleshow/131891979.cms",
@@ -104,11 +93,27 @@
       ]
     },
     {
+      "id": "gdelt_004837d47989f704",
+      "headline": "Щоразу , коли українці прославляють своїх героїв , це дратує поляків ,",
+      "url": "https://www.unian.ua/politics/shchorazu-koli-ukrajinci-proslavlyayut-svojih-gerojiv-ce-dratuye-polyakiv-nyt-13418646.html",
+      "published_at": "20260621T151500Z",
+      "source": "unian.ua",
+      "tags": []
+    },
+    {
       "id": "gdelt_9cd7e9d52ba888d4",
       "headline": "Iranul închide Strâmtoarea Ormuz în pline negocieri cu SUA",
       "url": "https://www.mediafax.ro/externe/iranul-inchide-stramtoarea-ormuz-in-pline-negocieri-cu-sua-23759142",
       "published_at": "20260621T141500Z",
       "source": "mediafax.ro",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f2320096ebff8596",
+      "headline": "Iranul închide Strâmtoarea Ormuz în pline negocieri cu SUA . Alertă pe piaţa petrolului",
+      "url": "https://www.romaniatv.net/iranul-inchide-stramtoarea-ormuz-in-pline-negocieri-cu-sua-alerta-pe-piata-petrolului_9647059.html",
+      "published_at": "20260621T151500Z",
+      "source": "romaniatv.net",
       "tags": []
     },
     {
@@ -118,6 +123,7 @@
       "published_at": "20260621T121500Z",
       "source": "newsx.com",
       "tags": [
+        "IRAN",
         "LEBANON"
       ]
     },
@@ -130,19 +136,19 @@
       "tags": []
     },
     {
+      "id": "gdelt_0e6d0d963fa196a8",
+      "headline": "Переговоры между США и Ираном в Швейцарии 21 июня - что обсуждают , кто присутствует",
+      "url": "https://24tv.ua/geopolitics/ru/peregovory-mezhdu-ssha-i-iranom-v-shvejcarii-21-ijunja-chto-obsuzhdajut-kto-prisutstvuet_n3091731",
+      "published_at": "20260621T151500Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
       "id": "gdelt_1ca40e9027dbe83b",
       "headline": "Иран назвал прекращения огня в Ливане условием продолжения переговоров с США",
       "url": "https://www.vedomosti.ru/politics/news/2026/06/21/1207573-tasnim-iran-ne-stanet",
       "published_at": "20260621T141500Z",
       "source": "vedomosti.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_48acc5974d9b682a",
-      "headline": "Nuclear deal , frozen funds , regional peace : What to expect from US - Iran talks in Switzerland ? | World",
-      "url": "https://www.indiatvnews.com/news/world/nuclear-deal-frozen-funds-regional-peace-what-to-expect-from-us-iran-talks-in-switzerland-2026-06-21-1045604",
-      "published_at": "20260621T111500Z",
-      "source": "indiatvnews.com",
       "tags": []
     },
     {
@@ -162,12 +168,22 @@
       "tags": []
     },
     {
-      "id": "gdelt_3b3f5475d702aac3",
-      "headline": "Захід сказав Захід не зробив : яку зброю заборгували Україні за час повномасштабного вторгнення",
-      "url": "https://itc.ua/ua/novini/zahid-skazav-zahid-ne-zrobyv-yaku-zbroyu-zaborguvaly-ukrayini-za-chas-povnomasshtabnogo-vtorgnennya/",
-      "published_at": "20260621T103000Z",
-      "source": "itc.ua",
+      "id": "gdelt_48acc5974d9b682a",
+      "headline": "Nuclear deal , frozen funds , regional peace : What to expect from US - Iran talks in Switzerland ? | World",
+      "url": "https://www.indiatvnews.com/news/world/nuclear-deal-frozen-funds-regional-peace-what-to-expect-from-us-iran-talks-in-switzerland-2026-06-21-1045604",
+      "published_at": "20260621T111500Z",
+      "source": "indiatvnews.com",
       "tags": []
+    },
+    {
+      "id": "gdelt_557afac4a75db213",
+      "headline": "Stop Lebanon proxies or US will hit  very hard again , Trump warns Iran amid peace talks in Switzerland",
+      "url": "https://aninews.in/news/world/us/stop-lebanon-proxies-or-us-will-hit-very-hard-again-trump-warns-iran-amid-peace-talks-in-switzerland20260621201736/",
+      "published_at": "20260621T163000Z",
+      "source": "aninews.in",
+      "tags": [
+        "LEBANON"
+      ]
     },
     {
       "id": "gdelt_98e90eabce893f4a",
@@ -202,6 +218,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_8ba290edd25ed26d",
+      "headline": "باحثة بالشأن الإسرائيلي : تصعيد جيش الاحتلال في لبنان جزء من المواجهة مع إيران",
+      "url": "https://www.vetogate.com/5678882",
+      "published_at": "20260621T143000Z",
+      "source": "vetogate.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_3a0624662149095f",
       "headline": "Trump warns Iran over Hezbollah :  Well hit Iran very hard again  amid Switzerland talks",
       "url": "https://www.moneycontrol.com/world/trump-warns-iran-over-hezbollah-we-ll-hit-iran-very-hard-again-amid-switzerland-talks-article-13955047.html",
@@ -212,19 +236,11 @@
       ]
     },
     {
-      "id": "gdelt_8ba290edd25ed26d",
-      "headline": "باحثة بالشأن الإسرائيلي : تصعيد جيش الاحتلال في لبنان جزء من المواجهة مع إيران",
-      "url": "https://www.vetogate.com/5678882",
-      "published_at": "20260621T143000Z",
-      "source": "vetogate.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d413517cbaa8da5a",
-      "headline": "הטעות האסטרטגית שיכולה לעלות ביוקר לאיראן",
-      "url": "https://www.globes.co.il/news/article.aspx?did=1001546508",
-      "published_at": "20260621T104500Z",
-      "source": "globes.co.il",
+      "id": "gdelt_b004594e2f23f96d",
+      "headline": "Votre prochaine voiture devra contenir plus de plastique recyclé , mais pas tout de suite",
+      "url": "https://www.clubic.com/actualite-617917-votre-prochaine-voiture-devra-contenir-plus-de-plastique-recycle-mais-pas-tout-de-suite.html",
+      "published_at": "20260621T133000Z",
+      "source": "clubic.com",
       "tags": []
     },
     {
@@ -236,27 +252,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_b004594e2f23f96d",
-      "headline": "Votre prochaine voiture devra contenir plus de plastique recyclé , mais pas tout de suite",
-      "url": "https://www.clubic.com/actualite-617917-votre-prochaine-voiture-devra-contenir-plus-de-plastique-recycle-mais-pas-tout-de-suite.html",
-      "published_at": "20260621T133000Z",
-      "source": "clubic.com",
+      "id": "gdelt_ce9ae76deeed395d",
+      "headline": "ميلوني تطلب من ترامب  التركيز على شعبيته  مع تصاعد الخلاف ، فما القصة ؟",
+      "url": "https://www.bbc.com/arabic/articles/cpq3nqgedl5o",
+      "published_at": "20260621T154500Z",
+      "source": "bbc.com",
       "tags": []
     },
     {
-      "id": "gdelt_d3d3170124272b2d",
-      "headline": "破获大麻种植案涉跨国资金 , 六名中国籍人士将遣返",
-      "url": "https://www.wenxuecity.com/news/2026/06/21/126685187.html",
-      "published_at": "20260621T104500Z",
-      "source": "wenxuecity.com",
+      "id": "gdelt_3245e2a261be1a0d",
+      "headline": "Eskalacija brutalnog sukoba definiše predsedničke izbore u Kolumbiji",
+      "url": "https://naslovi.net/2026-06-21/juzne-vesti/eskalacija-brutalnog-sukoba-definise-predsednicke-izbore-u-kolumbiji/41985955",
+      "published_at": "20260621T153000Z",
+      "source": "naslovi.net",
       "tags": []
     },
     {
-      "id": "gdelt_1d9c72de63a27d9a",
-      "headline": "分析 ： 伊朗等设法规避制裁 美国经济施压难奏效",
-      "url": "https://www.zaobao.com.sg/news/world/story20260621-9240582",
-      "published_at": "20260621T104500Z",
-      "source": "zaobao.com.sg",
+      "id": "gdelt_4c2a9648b876f19d",
+      "headline": "Izraeli thotë se trupat e tij janë të lirë të veprojnë në Liban",
+      "url": "https://www.evropaelire.org/a/izrael-ushtare-jug-liban/33785671.html",
+      "published_at": "20260621T154500Z",
+      "source": "evropaelire.org",
       "tags": []
     },
     {
@@ -268,22 +284,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_87afed0fb1040740",
-      "headline": "3 Negara Ini Berhasil Buat AS Kelimpungan , Tetap Bertahan meski Dihantam Sanksi",
-      "url": "https://www.kompas.com/global/read/2026/06/21/161701770/3-negara-ini-berhasil-buat-as-kelimpungan-tetap-bertahan-meski-dihantam",
-      "published_at": "20260621T094500Z",
-      "source": "kompas.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_74c026cfaa6a8a74",
-      "headline": "Ribuan Sanksi Gagal Paksa Iran Menyerah , Teheran Bikin AS Kewalahan",
-      "url": "https://www.kompas.com/global/read/2026/06/21/160100870/ribuan-sanksi-gagal-paksa-iran-menyerah-teheran-bikin-as-kewalahan",
-      "published_at": "20260621T093000Z",
-      "source": "kompas.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_5695cf482a06df21",
       "headline": "Taktik Iran Tembus Sanksi AS , Tetap Raup Miliaran Dollar dari Minyak",
       "url": "https://www.kompas.com/global/read/2026/06/21/201632070/taktik-iran-tembus-sanksi-as-tetap-raup-miliaran-dollar-dari-minyak",
@@ -292,11 +292,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_6fce041d67116849",
-      "headline": "涉绑架两名男子掳往泰国案 一嫌犯落网另一人在逃 | 社会",
-      "url": "https://www.orientaldaily.com.my/news/society/2026/06/21/827385",
-      "published_at": "20260621T093000Z",
-      "source": "orientaldaily.com.my",
+      "id": "gdelt_cdb206fc0500343f",
+      "headline": "Eskalacija brutalnog sukoba definiše predsedničke izbore u Kolumbiji",
+      "url": "https://naslovi.net/2026-06-21/radio-021/eskalacija-brutalnog-sukoba-definise-predsednicke-izbore-u-kolumbiji/41985961",
+      "published_at": "20260621T154500Z",
+      "source": "naslovi.net",
       "tags": []
     },
     {
@@ -340,6 +340,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_ba6581bbc950269b",
+      "headline": "Eskalacija brutalnog sukoba definiše predsedničke izbore u Kolumbiji",
+      "url": "https://www.danas.rs/bbc-news-serbian/eskalacija-brutalnog-sukoba-definise-predsednicke-izbore-u-kolumbiji/",
+      "published_at": "20260621T151500Z",
+      "source": "danas.rs",
+      "tags": []
+    },
+    {
       "id": "gdelt_6155e84ab1fef843",
       "headline": "Spiegel : в Германии сохраняется раскол по линии ГДР и ФРГ из - за Украины",
       "url": "https://expert.ru/news/spiegel-v-germanii-sokhranyaetsya-raskol-po-linii-gdr-i-frg-iz-za-ukrainy",
@@ -356,21 +364,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_b489da013843f837",
-      "headline": "16 , 000 today , 26 , 000 by 2030 : India wealthy club is getting bigger",
-      "url": "https://www.businesstoday.in/latest/trends/story/16000-today-26000-by-2030-indias-wealthy-club-is-getting-bigger-538286-2026-06-21",
-      "published_at": "20260621T104500Z",
-      "source": "businesstoday.in",
-      "tags": [
-        "INDIA"
-      ]
-    },
-    {
       "id": "gdelt_7ea60e3a93044926",
       "headline": "[ 특파원리포트 ] 비핵화 협상의 기시감",
       "url": "https://segye.com:443/newsView/20260621507683",
       "published_at": "20260621T144500Z",
       "source": "segye.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5719d53da0230d86",
+      "headline": "Indonesia Supreme Court Urges Lawyers to Uphold Reason , Instinct , and Conscience Amid Growing Legal Complexity",
+      "url": "https://en.antaranews.com/news/419917/indonesias-supreme-court-urges-lawyers-to-uphold-reason-instinct-and-conscience-amid-growing-legal-complexity",
+      "published_at": "20260621T163000Z",
+      "source": "en.antaranews.com",
       "tags": []
     },
     {
@@ -398,10 +404,34 @@
       "tags": []
     },
     {
+      "id": "gdelt_949b3c905715a830",
+      "headline": "Минэнерго США : количество судов , прошедших через Ормуз за два дня , превысило 100",
+      "url": "https://www.mk.ru/politics/2026/06/21/minenergo-ssha-kolichestvo-sudov-proshedshikh-cherez-ormuz-za-dva-dnya-prevysilo-100.html",
+      "published_at": "20260621T163000Z",
+      "source": "mk.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cf4ecee10cafad3e",
+      "headline": "ماذا ربحت الصين من الحرب الإيرانية ؟",
+      "url": "https://24.ae/article/962025/%D9%85%D8%A7%D8%B0%D8%A7-%D8%B1%D8%A8%D8%AD%D8%AA-%D8%A7%D9%84%D8%B5%D9%8A%D9%86-%D9%85%D9%86-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%A7%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A%D8%A9-",
+      "published_at": "20260621T154500Z",
+      "source": "24.ae",
+      "tags": []
+    },
+    {
       "id": "gdelt_8e2e0a499ed05095",
       "headline": "الكاتب الصحفي طه يوسف : ملف لبنان ومضيق هرمز يمثلان أبرز التحديات في المفاوضات الجارية",
       "url": "https://www.elwatannews.com/news/details/8306374",
       "published_at": "20260621T111500Z",
+      "source": "elwatannews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4351c1e698e2b300",
+      "headline": "أستاذ علوم سياسية : إسرائيل قد تكثف استهداف لبنان للضغط في الملف النووي الإيراني",
+      "url": "https://www.elwatannews.com/news/details/8306547",
+      "published_at": "20260621T161500Z",
       "source": "elwatannews.com",
       "tags": []
     },
@@ -414,11 +444,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_18be0aa5c21dd71a",
-      "headline": "خبير : الملف النووي وهدنة لبنان أهم ملفات واشنطن على طاولة محادثات إيران",
-      "url": "https://www.dostor.org/5606847",
-      "published_at": "20260621T101500Z",
-      "source": "dostor.org",
+      "id": "gdelt_1b8961f1e031d7a1",
+      "headline": "Зміна ситуації на полі бою в Україні не вирішила гуманітарну кризу - Міжнародний комітет порятунку",
+      "url": "https://www.ukrinform.ua/rubric-society/4136127-zmina-situacii-na-poli-bou-v-ukraini-ne-virisila-gumanitarnu-krizu-miznarodnij-komitet-poratunku.html",
+      "published_at": "20260621T161500Z",
+      "source": "ukrinform.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_60be18748f59c43f",
+      "headline": "Trump threatens Iran with fresh strikes as Vance attends talks in Switzerland",
+      "url": "https://www.businesstimes.com.sg/international/global/trump-threatens-iran-fresh-strikes-vance-attends-talks-switzerland",
+      "published_at": "20260621T153000Z",
+      "source": "businesstimes.com.sg",
       "tags": []
     },
     {
@@ -430,27 +468,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_7bc8bb5c44ece007",
-      "headline": "Upaya damai AS dan Iran , memorandum hingga pembicaraan di Swiss",
-      "url": "https://www.antaranews.com/berita/5616925/upaya-damai-as-dan-iran-memorandum-hingga-pembicaraan-di-swiss",
-      "published_at": "20260621T110000Z",
-      "source": "antaranews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_84f9279cf0824f8c",
-      "headline": "محسب : التصعيد في لبنان وتهديد الملاحة بمضيق هرمز ينذران بتداعيات خطيرة",
-      "url": "https://www.dostor.org/5606769",
-      "published_at": "20260621T104500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
       "id": "gdelt_cc77e302f23e6fac",
       "headline": "Iran – U . S . negotiations enter critical phase after ceasefire deal",
       "url": "https://www.iranoilgas.com/news/details.aspx?id=28796&title=Iran%E2%80%93U.S.+negotiations+enter+critical+phase+after+ceasefire+deal",
       "published_at": "20260621T111500Z",
       "source": "iranoilgas.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7bc8bb5c44ece007",
+      "headline": "Upaya damai AS dan Iran , memorandum hingga pembicaraan di Swiss",
+      "url": "https://www.antaranews.com/berita/5616925/upaya-damai-as-dan-iran-memorandum-hingga-pembicaraan-di-swiss",
+      "published_at": "20260621T110000Z",
+      "source": "antaranews.com",
       "tags": []
     },
     {
@@ -462,19 +492,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_a5a821e2f04e993d",
-      "headline": "ABDli milletvekili heyeti Hristodulidis ile görüştü - Halkın Sesi",
-      "url": "https://www.halkinsesikibris.com/abdli-milletvekili-heyeti-hristodulidis-ile-gorustu",
-      "published_at": "20260621T104500Z",
-      "source": "halkinsesikibris.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6c9fb0c3837020e7",
-      "headline": "Eskalation in U2 - Station – Verfolgungsjagd , dann zieht Koks - Mann vor Polizei blank",
-      "url": "https://www.heute.at/s/verfolgungsjagd-dann-zieht-koks-mann-vor-polizei-blank-120212028",
-      "published_at": "20260621T100000Z",
-      "source": "heute.at",
+      "id": "gdelt_724522049a572b09",
+      "headline": "Tamedia : 54 % швейцарцев против закрепления военного нейтралитета в конституции",
+      "url": "https://life.ru/p/1890193",
+      "published_at": "20260621T154500Z",
+      "source": "life.ru",
       "tags": []
     },
     {
@@ -483,6 +505,14 @@
       "url": "https://war.obozrevatel.com/zelenskij-nazval-glavnuyu-zadachu-ukrainyi-posle-sammitov-g7-i-evrosoveta.htm",
       "published_at": "20260621T111500Z",
       "source": "war.obozrevatel.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_434fca3af28ba479",
+      "headline": "В Польше запущена система Eurodac как она работает",
+      "url": "https://24tv.ua/zakordon24/ru/v-polshe-zapushhena-sistema-eurodac-kak-ona-rabotaet_n3091789",
+      "published_at": "20260621T163000Z",
+      "source": "24tv.ua",
       "tags": []
     },
     {
@@ -502,11 +532,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_a57b2139f9ea95f7",
+      "headline": "Большинство швейцарцев выступили против закрепления нейтралитета в конституции | Европа",
+      "url": "https://fedpress.ru/news/77/policy/3441479",
+      "published_at": "20260621T151500Z",
+      "source": "fedpress.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_4605b8bbd1cac4e8",
       "headline": "من القاهرة إلى جنيف .. دور مصري بارز للتوصل إلى اتفاق سلام نهائي بين واشنطن وطهران",
       "url": "https://www.dostor.org/5607209",
       "published_at": "20260621T143000Z",
       "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9145eeab2b862c9f",
+      "headline": "Війна в Ірані : Трамп погрожує Тегерану новими ударами , доки тривають переговори про угоду Світ",
+      "url": "https://tsn.ua/svit/tramp-vybukhnuv-novymy-pohrozamy-iranu-poky-vens-u-shveytsariyi-namahayetsia-dosiahnuty-uhody-z-teheranom-3111083.html",
+      "published_at": "20260621T161500Z",
+      "source": "tsn.ua",
       "tags": []
     },
     {
@@ -536,6 +582,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_887fab1bab88a294",
+      "headline": "США и Иран пытаются завершить войну ...",
+      "url": "https://www.ng.ru/week/2026-06-21/8_9520_worldweek.html",
+      "published_at": "20260621T161500Z",
+      "source": "ng.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_53213c2c8f45bda7",
       "headline": "Russia supplies half of India crude as imports jump in June",
       "url": "https://www.livemint.com/industry/energy/russian-oil-supply-india-crude-import-june-iran-war-strait-of-hormuz-energy-imports-11782040010355.html",
@@ -552,25 +606,6 @@
       "url": "http://inews24.com/view/1978314",
       "published_at": "20260621T111500Z",
       "source": "inews24.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_55b5e99829fc21dd",
-      "headline": "The moment we ...  : Pakistan defence minister issues war threat to India over Indus Water Treaty",
-      "url": "https://timesofindia.indiatimes.com/world/pakistan/the-moment-we-pakistan-defence-minister-issues-war-threat-to-india-over-indus-water-treaty/articleshow/131888719.cms",
-      "published_at": "20260621T104500Z",
-      "source": "timesofindia.indiatimes.com",
-      "tags": [
-        "INDIA",
-        "PAKISTAN"
-      ]
-    },
-    {
-      "id": "gdelt_eee75dce85879eb9",
-      "headline": "澤倫斯基限白俄一週內拆除俄軍通訊中繼設備 否則烏克蘭將自行採取行動 - 國際",
-      "url": "https://www.chinatimes.com/realtimenews/20260621002344-260408",
-      "published_at": "20260621T130000Z",
-      "source": "chinatimes.com",
       "tags": []
     },
     {
@@ -594,6 +629,22 @@
       ]
     },
     {
+      "id": "gdelt_eee75dce85879eb9",
+      "headline": "澤倫斯基限白俄一週內拆除俄軍通訊中繼設備 否則烏克蘭將自行採取行動 - 國際",
+      "url": "https://www.chinatimes.com/realtimenews/20260621002344-260408",
+      "published_at": "20260621T130000Z",
+      "source": "chinatimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c0752f0ee330e1a9",
+      "headline": "Disney+ europaweit eingeschränkt : Dolby - Vision - Streit geht weiter",
+      "url": "https://winfuture.de/news,159489.html",
+      "published_at": "20260621T144500Z",
+      "source": "winfuture.de",
+      "tags": []
+    },
+    {
       "id": "gdelt_b7693f4c517e6feb",
       "headline": "Германия и Франция призвали ужесточить меры против  теневого флота  России | MigNews - Новости Израиля и Мира на русском языке",
       "url": "http://mignews.com/news/economics/germaniya-i-franciya-prizvali-uzhestochit-mery-protiv-tenevogo-flota-rossii.html",
@@ -610,22 +661,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_8f9d884f13052fb2",
-      "headline": "Muškarac čistio kuću , a zbog onog što je pronašao brzo je intervenirala policija",
-      "url": "https://dnevnik.hr/vijesti/crna-kronika/pronasao-eksplozivna-sredstva-i-streljivo-prilikom-ciscenja-kuce---987101.html",
-      "published_at": "20260621T130000Z",
-      "source": "dnevnik.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c0752f0ee330e1a9",
-      "headline": "Disney+ europaweit eingeschränkt : Dolby - Vision - Streit geht weiter",
-      "url": "https://winfuture.de/news,159489.html",
-      "published_at": "20260621T144500Z",
-      "source": "winfuture.de",
-      "tags": []
-    },
-    {
       "id": "gdelt_9ca8d28486e79248",
       "headline": "Jonathan Hill : Iran emerges from the crisis with more negotiating leverage",
       "url": "https://article.wn.com/view/2026/06/21/Jonathan_Hill_Iran_emerges_from_the_crisis_with_more_negotia/",
@@ -634,11 +669,54 @@
       "tags": []
     },
     {
-      "id": "gdelt_019ad762d58c4cea",
-      "headline": "İran  ın dondurulmuş varlıkları iade ediliyor",
-      "url": "https://www.bloomberght.com/iran-in-dondurulmus-varliklari-iade-ediliyor-3780729",
-      "published_at": "20260621T100000Z",
-      "source": "bloomberght.com",
+      "id": "gdelt_a9df97bb7a2d1223",
+      "headline": "Perundingan Iran - AS Fokus Cabut Sanksi dan Gencatan Senjata Lebanon",
+      "url": "https://www.jawapos.com/internasional/2606210282/perundingan-iran-as-fokus-cabut-sanksi-dan-gencatan-senjata-lebanon",
+      "published_at": "20260621T154500Z",
+      "source": "jawapos.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8f9d884f13052fb2",
+      "headline": "Muškarac čistio kuću , a zbog onog što je pronašao brzo je intervenirala policija",
+      "url": "https://dnevnik.hr/vijesti/crna-kronika/pronasao-eksplozivna-sredstva-i-streljivo-prilikom-ciscenja-kuce---987101.html",
+      "published_at": "20260621T130000Z",
+      "source": "dnevnik.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_09fe57bd31b78912",
+      "headline": "Germany and France Demand Stricter Measures Against Russian Shadow Fleet",
+      "url": "https://www.kyivpost.com/post/78652",
+      "published_at": "20260621T154500Z",
+      "source": "kyivpost.com",
+      "tags": [
+        "GERMANY",
+        "FRANCE"
+      ]
+    },
+    {
+      "id": "gdelt_2fc248b3397ec04b",
+      "headline": "Переговоры между Ираном и США в Швейцарии – Ормузский пролив не откроют , пока не прекратится война в Ливане – ядерная программа Ирана",
+      "url": "https://www.obozrevatel.com/novosti-mir/iran-nazval-uslovie-pri-kotorom-otkroet-ormuzskij-proliv-i-prodolzhit-peregovoryi-o-yadernoj-programme-v-shvejtsarii-nachalis-peregovoryi.htm",
+      "published_at": "20260621T154500Z",
+      "source": "obozrevatel.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b1f1e834c4ca78e4",
+      "headline": "Boutiqaat Positioned for a New Era of Expansion Following Reported IPO Plans",
+      "url": "https://www.manilatimes.net/2026/06/21/tmt-newswire/pr-newswire/boutiqaat-positioned-for-a-new-era-of-expansion-following-reported-ipo-plans/2369644",
+      "published_at": "20260621T134500Z",
+      "source": "manilatimes.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8a7e43276a603ce4",
+      "headline": "Kuba je našla rešenje da ojača ekonomsku politiku",
+      "url": "https://www.novosti.rs/ekonomija/vesti/1620305/obimne-ekonomske-reforme-kuba-nasla-resenje-ojaca-ekonomsku-politiku",
+      "published_at": "20260621T113000Z",
+      "source": "novosti.rs",
       "tags": []
     },
     {
@@ -652,29 +730,11 @@
       ]
     },
     {
-      "id": "gdelt_8a7e43276a603ce4",
-      "headline": "Kuba je našla rešenje da ojača ekonomsku politiku",
-      "url": "https://www.novosti.rs/ekonomija/vesti/1620305/obimne-ekonomske-reforme-kuba-nasla-resenje-ojaca-ekonomsku-politiku",
-      "published_at": "20260621T113000Z",
-      "source": "novosti.rs",
-      "tags": []
-    },
-    {
       "id": "gdelt_da9574260ee3593a",
       "headline": "War in Lebanon casts shadow over renewed Iran - US nuclear talks",
       "url": "https://www.livemint.com/global/war-in-lebanon-casts-shadow-over-renewed-iran-us-nuclear-talks-11782039844557.html",
       "published_at": "20260621T121500Z",
       "source": "livemint.com",
-      "tags": [
-        "LEBANON"
-      ]
-    },
-    {
-      "id": "gdelt_b1f1e834c4ca78e4",
-      "headline": "Boutiqaat Positioned for a New Era of Expansion Following Reported IPO Plans",
-      "url": "https://www.manilatimes.net/2026/06/21/tmt-newswire/pr-newswire/boutiqaat-positioned-for-a-new-era-of-expansion-following-reported-ipo-plans/2369644",
-      "published_at": "20260621T134500Z",
-      "source": "manilatimes.net",
       "tags": []
     },
     {
@@ -694,11 +754,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_c2f38e157f437039",
-      "headline": "Вночі наші далекобійні санкції застосовувались по воєнній логістиці , нафтовій галузі та протиповітряній обороні окупантів , Зеленський DSnews . ua",
-      "url": "https://www.dsnews.ua/ukr/politics/vnochi-nashi-dalekobiyni-sankciji-zastosovuvalis-po-voyenniy-logistici-naftoviy-galuzi-ta-protipovitryaniy-oboroni-okupantiv-zelenskiy-21062026-461986",
-      "published_at": "20260621T110000Z",
-      "source": "dsnews.ua",
+      "id": "gdelt_dff4c4368905c240",
+      "headline": "Кац : Израелските сили могат да действат без ограничения в Ливан",
+      "url": "https://news.bg/world/kats-izraelskite-sili-mogat-da-deystvat-bez-ogranicheniya-v-livan.html",
+      "published_at": "20260621T144500Z",
+      "source": "news.bg",
       "tags": []
     },
     {
@@ -710,11 +770,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_dff4c4368905c240",
-      "headline": "Кац : Израелските сили могат да действат без ограничения в Ливан",
-      "url": "https://news.bg/world/kats-izraelskite-sili-mogat-da-deystvat-bez-ogranicheniya-v-livan.html",
-      "published_at": "20260621T144500Z",
-      "source": "news.bg",
+      "id": "gdelt_c2f38e157f437039",
+      "headline": "Вночі наші далекобійні санкції застосовувались по воєнній логістиці , нафтовій галузі та протиповітряній обороні окупантів , Зеленський DSnews . ua",
+      "url": "https://www.dsnews.ua/ukr/politics/vnochi-nashi-dalekobiyni-sankciji-zastosovuvalis-po-voyenniy-logistici-naftoviy-galuzi-ta-protipovitryaniy-oboroni-okupantiv-zelenskiy-21062026-461986",
+      "published_at": "20260621T110000Z",
+      "source": "dsnews.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a41b15fdf8d413b3",
+      "headline": "Poljski ministar odbrane upozorava da rat ordenjem sa Ukrajinom koristi Rusiji",
+      "url": "https://naslovi.net/2026-06-21/snm/poljski-ministar-odbrane-upozorava-da-rat-ordenjem-sa-ukrajinom-koristi-rusiji/41984955",
+      "published_at": "20260621T111500Z",
+      "source": "naslovi.net",
       "tags": []
     },
     {
@@ -734,14 +802,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_a41b15fdf8d413b3",
-      "headline": "Poljski ministar odbrane upozorava da rat ordenjem sa Ukrajinom koristi Rusiji",
-      "url": "https://naslovi.net/2026-06-21/snm/poljski-ministar-odbrane-upozorava-da-rat-ordenjem-sa-ukrajinom-koristi-rusiji/41984955",
-      "published_at": "20260621T111500Z",
-      "source": "naslovi.net",
-      "tags": []
-    },
-    {
       "id": "gdelt_9052c7e9cc09af4d",
       "headline": "Perusahaan Pemilik Kabel Menjuntai Penyebab Siswi SMAN 6 Jakarta Tewas Harus Disanksi !",
       "url": "https://megapolitan.kompas.com/read/2026/06/21/20044711/perusahaan-pemilik-kabel-menjuntai-penyebab-siswi-sman-6-jakarta-tewas",
@@ -758,21 +818,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_9a0996fd88479e1c",
-      "headline": "قلب كردفان وملاذ النازحين : مجلس الأمن الدولي يحذّر من  فظائع جماعية  وشيكة في الأبيض السودانية",
-      "url": "https://arabic.euronews.com/2026/06/21/unsc-warns-imminent-mass-atrocities-al-ubayyid-sudan",
-      "published_at": "20260621T100000Z",
-      "source": "arabic.euronews.com",
-      "tags": [
-        "SUDAN"
-      ]
-    },
-    {
-      "id": "gdelt_a0d48abaa73eda20",
-      "headline": "SHBA dhe Irani nisin bisedimet në Zvicër , Katari konfirmon takimin",
-      "url": "https://top-channel.tv/2026/06/21/shba-dhe-irani-nisin-bisedimet-ne-zvicer-katari-konfirmon-takimin/",
+      "id": "gdelt_e9a215cc054151ac",
+      "headline": "Ουκρανία : Τρεις νεκροί από ρωσικά πλήγματα - Νέα κλιμάκωση με drones και επιθέσεις σε ενεργειακές εγκαταστάσεις",
+      "url": "https://www.tanea.gr/2026/06/21/world/oukrania-treis-nekroi-apo-rosika-pligmata-nea-klimakosi-me-drones-kai-epitheseis-se-energeiakes-egkatastaseis/",
       "published_at": "20260621T134500Z",
-      "source": "top-channel.tv",
+      "source": "tanea.gr",
       "tags": []
     },
     {
@@ -786,35 +836,27 @@
       ]
     },
     {
-      "id": "gdelt_ae74086c1958bcf9",
-      "headline": "الرئيس الإيراني : جميع بنود مذكرة التفاهم مع واشنطن تصب في مصلحتنا",
-      "url": "https://www.vetogate.com/5678726",
-      "published_at": "20260621T100000Z",
-      "source": "vetogate.com",
+      "id": "gdelt_60a3774f97e65494",
+      "headline": "Пошлины за проход через Ормуз не будут вводить в течение 60 дней",
+      "url": "https://1prime.ru/20260621/ormuz-870950503.html",
+      "published_at": "20260621T161500Z",
+      "source": "1prime.ru",
       "tags": []
     },
     {
-      "id": "gdelt_e9a215cc054151ac",
-      "headline": "Ουκρανία : Τρεις νεκροί από ρωσικά πλήγματα - Νέα κλιμάκωση με drones και επιθέσεις σε ενεργειακές εγκαταστάσεις",
-      "url": "https://www.tanea.gr/2026/06/21/world/oukrania-treis-nekroi-apo-rosika-pligmata-nea-klimakosi-me-drones-kai-epitheseis-se-energeiakes-egkatastaseis/",
-      "published_at": "20260621T134500Z",
-      "source": "tanea.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7dca57ee48bee577",
-      "headline": "Menko Zulhas Tegaskan Sanksi Sampah Open Dumping , Masyarakat Akan Diberi Insentif Lewat Sistem Baru",
-      "url": "https://koran-jakarta.com/2026-06-21/jakarta-beri-diskon-pajak-50-persen-untuk-industri-film-dorong-ibu-kota-jadi-kota-sinema",
-      "published_at": "20260621T093000Z",
-      "source": "koran-jakarta.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2dbe0420b2d45dbd",
+      "id": "gdelt_a0d48abaa73eda20",
       "headline": "SHBA dhe Irani nisin bisedimet në Zvicër , Katari konfirmon takimin",
-      "url": "https://www.oranews.tv/bota/shba-dhe-irani-nisin-bisedimet-ne-zvicer-katari-konfirmon-takimin-i1330901",
+      "url": "https://top-channel.tv/2026/06/21/shba-dhe-irani-nisin-bisedimet-ne-zvicer-katari-konfirmon-takimin/",
       "published_at": "20260621T134500Z",
-      "source": "oranews.tv",
+      "source": "top-channel.tv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1a68ac21054911b0",
+      "headline": "Eskalacija brutalnog sukoba definiše predsedničke izbore u Kolumbiji",
+      "url": "https://naslovi.net/2026-06-21/danas/eskalacija-brutalnog-sukoba-definise-predsednicke-izbore-u-kolumbiji/41985936",
+      "published_at": "20260621T163000Z",
+      "source": "naslovi.net",
       "tags": []
     },
     {
@@ -826,6 +868,22 @@
       "tags": []
     },
     {
+      "id": "gdelt_2dbe0420b2d45dbd",
+      "headline": "SHBA dhe Irani nisin bisedimet në Zvicër , Katari konfirmon takimin",
+      "url": "https://www.oranews.tv/bota/shba-dhe-irani-nisin-bisedimet-ne-zvicer-katari-konfirmon-takimin-i1330901",
+      "published_at": "20260621T134500Z",
+      "source": "oranews.tv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8ff075f6f12e0d6d",
+      "headline": "إيران تربط  فتح هرمز  بوقف هجمات الاحتلال في لبنان",
+      "url": "https://www.dostor.org/5607295",
+      "published_at": "20260621T154500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
       "id": "gdelt_142de1dbd4f342f2",
       "headline": "Большинство жителей Швейцарии выступили против военного нейтралитета",
       "url": "https://www.mk.ru/politics/2026/06/21/bolshinstvo-zhiteley-shveycarii-vystupili-protiv-voennogo-neytraliteta.html",
@@ -834,19 +892,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_6246c5176ce8257f",
-      "headline": "Israeli occupiers attack Palestinian towns , homes in West Bank under army protection",
-      "url": "https://www.middleeastmonitor.com/20260621-israeli-occupiers-attack-palestinian-towns-homes-in-west-bank-under-army-protection/",
-      "published_at": "20260621T104500Z",
-      "source": "middleeastmonitor.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_eb44ce9e6449bc74",
-      "headline": "حرب الظل والإشارات .. ماذا يحدث بين إيران وأمريكا وإسرائيل ؟",
-      "url": "https://www.almasryalyoum.com/news/details/4298097",
-      "published_at": "20260621T094500Z",
-      "source": "almasryalyoum.com",
+      "id": "gdelt_cfc19cf91239f0a0",
+      "headline": "Trump akuzon Iranin për përshkallëzimin e situatës në Liban dhe paralajmëron goditje të tjera : Nëse nuk ndaloni , do tju sulmojmë shumë fort",
+      "url": "https://albeu.com/lajme/bota/trump-akuzon-iranin-per-pershkallezimin-e-situates-ne-liban-dhe-paralajmeron-goditje-te-tjera-nese-nuk-ndaloni-do-tju-sulmojme-shume-fort/890636/",
+      "published_at": "20260621T154500Z",
+      "source": "albeu.com",
       "tags": []
     },
     {
@@ -858,11 +908,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_00ad5ae3f30c8ea4",
-      "headline": "Mile Jandrić ispričao detalje vezane za funkcionisanje zatvora u Srbiji",
-      "url": "https://www.kurir.rs/vesti/politika/10028201/mile-jandric-ispricao-detalje-vezane-za-funkcionisanje-zatvora-u-srbiji",
-      "published_at": "20260621T111500Z",
-      "source": "kurir.rs",
+      "id": "gdelt_57f0d4cc2f8a6e51",
+      "headline": "Hem şok , hem hüzün",
+      "url": "https://www.kocaeligazetesi.com.tr/makale/28208977/gokhan-besiktas/hem-sok-hem-huzun",
+      "published_at": "20260621T154500Z",
+      "source": "kocaeligazetesi.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c5f3693aaf9e7623",
+      "headline": "Німеччина і Франція закликають посилити санкції проти тіньового флоту РФ новини LB . ua",
+      "url": "https://lb.ua/world/2026/06/21/746742_zmi_nimechchina_frantsiya.html",
+      "published_at": "20260621T150000Z",
+      "source": "lb.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b3bf39a2ca16db45",
+      "headline": "Убирайся к черту . Выпад главы МИД Украины в адрес России поразил Запад",
+      "url": "https://1prime.ru/20260621/sibiga-870951635.html",
+      "published_at": "20260621T161500Z",
+      "source": "1prime.ru",
       "tags": []
     },
     {
@@ -877,19 +943,35 @@
       ]
     },
     {
-      "id": "gdelt_d818d17977a27340",
-      "headline": "Was Trumps 300 - Milliarden - Dollar - Geschenk für Teherans Wirtschaft bedeutet",
-      "url": "http://www.tz.de/politik/was-trumps-300-milliarden-dollar-geschenk-an-iran-fuer-teherans-wankende-wirtschaft-bedeutet-zr-94361343.html",
-      "published_at": "20260621T123000Z",
-      "source": "tz.de",
-      "tags": []
-    },
-    {
       "id": "gdelt_52fa90f5e09f5a7d",
       "headline": "ضغوط دولية تستهدف التأثير على سيادة سوريا",
       "url": "https://alanbatnews.net/article/479008",
       "published_at": "20260621T141500Z",
       "source": "alanbatnews.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_00ad5ae3f30c8ea4",
+      "headline": "Mile Jandrić ispričao detalje vezane za funkcionisanje zatvora u Srbiji",
+      "url": "https://www.kurir.rs/vesti/politika/10028201/mile-jandric-ispricao-detalje-vezane-za-funkcionisanje-zatvora-u-srbiji",
+      "published_at": "20260621T111500Z",
+      "source": "kurir.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1ed3a8c6a7063de6",
+      "headline": "مقتل 36 ضابطا وجنديا إسرائيليا في لبنان منذ 2 مارس – تلفزيون الفجر",
+      "url": "https://alfajertv.com/news/palnews/733869.html",
+      "published_at": "20260621T111500Z",
+      "source": "alfajertv.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d818d17977a27340",
+      "headline": "Was Trumps 300 - Milliarden - Dollar - Geschenk für Teherans Wirtschaft bedeutet",
+      "url": "http://www.tz.de/politik/was-trumps-300-milliarden-dollar-geschenk-an-iran-fuer-teherans-wankende-wirtschaft-bedeutet-zr-94361343.html",
+      "published_at": "20260621T123000Z",
+      "source": "tz.de",
       "tags": []
     },
     {
@@ -906,14 +988,6 @@
       "url": "https://www.evrensel.net/haber/5989197/iran-cumhurbaskani-pezeskiyan-katartaki-6-milyar-dolarimiz-geri-donecek",
       "published_at": "20260621T111500Z",
       "source": "evrensel.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1ed3a8c6a7063de6",
-      "headline": "مقتل 36 ضابطا وجنديا إسرائيليا في لبنان منذ 2 مارس – تلفزيون الفجر",
-      "url": "https://alfajertv.com/news/palnews/733869.html",
-      "published_at": "20260621T111500Z",
-      "source": "alfajertv.com",
       "tags": []
     },
     {
@@ -949,93 +1023,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_1ba229daebf30397",
-      "headline": "Russia understands only strength , says Zelenskyy after Ukraine strikes on Crimean Bridge logistics",
-      "url": "https://aninews.in/news/world/europe/russia-understands-only-strength-says-zelenskyy-after-ukraine-strikes-on-crimean-bridge-logistics20260621145151/",
-      "published_at": "20260621T104500Z",
-      "source": "aninews.in",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
       "id": "gdelt_0936830e80c7923d",
       "headline": "Trump možná přežije ponížení spojené s jeho dohodou s Íránem . Netanjahu nikoli | 21 . 6 . 2026",
       "url": "https://www.blisty.cz/art/134218-trump-mozna-prezije-ponizeni-spojene-s-jeho-dohodou-s-iranem-netanjahu-nikoli.html",
       "published_at": "20260621T121500Z",
       "source": "blisty.cz",
-      "tags": []
-    },
-    {
-      "id": "gdelt_17e8a27b36171f9d",
-      "headline": "Η συμφωνία ΗΠΑ Ιράν στο πρώτο κρίσιμο crash test",
-      "url": "https://www.sbctv.gr/2026/06/%CF%83%CF%85%CE%BC%CF%86%CF%89%CE%BD%CE%B9%CE%B1-%CE%B7%CF%80%CE%B1-%CE%B9%CF%81%CE%B1%CE%BD-34/",
-      "published_at": "20260621T103000Z",
-      "source": "sbctv.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_311e2d44cbdc0dab",
-      "headline": "Katarda bloke edilen 6 milyar dolarımız geri dönecek",
-      "url": "https://www.trthaber.com/haber/dunya/iran-cumhurbaskani-pezeskiyan-katarda-bloke-edilen-6-milyar-dolarimiz-geri-donecek-948881.html",
-      "published_at": "20260621T100000Z",
-      "source": "trthaber.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9271e6283a1388f2",
-      "headline": "Respublika - Naujienų ir žinių portalas",
-      "url": "https://www.respublika.lt/lt/naujienos/lietuva/lietuvos_politika/vokietijos-ir-prancuzijos-parlamentarai-sieks-grieztesniu-priemoniu-pries-rusijos-seselini-laivyna/,coments.1",
-      "published_at": "20260621T094500Z",
-      "source": "respublika.lt",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3ba4c92ee12b10be",
-      "headline": "ماذا أظهرت الأقمار الصناعية عن حركة ناقلات النفط في جزيرة خارك الإيرانية ؟",
-      "url": "https://www.aljazeera.net/news/2026/6/21/%D9%85%D8%A7%D8%B0%D8%A7-%D8%A3%D8%B8%D9%87%D8%B1%D8%AA-%D8%A7%D9%84%D8%A3%D9%82%D9%85%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D9%8A%D8%A9-%D8%B9%D9%86-%D8%AD%D8%B1%D9%83%D8%A9",
-      "published_at": "20260621T121500Z",
-      "source": "aljazeera.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5d3315ab7cc7ffe5",
-      "headline": "Industri Kecil Tertekan , Said Abdullah Usulkan Kebijakan Afirmasi Cukai Rokok Golongan III",
-      "url": "https://www.liputan6.com/news/read/7894517/industri-kecil-tertekan-said-abdullah-usulkan-kebijakan-afirmasi-cukai-rokok-golongan-iii",
-      "published_at": "20260621T100000Z",
-      "source": "liputan6.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_23f6ec246c2a6f68",
-      "headline": "أشرف سنجر : الانزعاج الإسرائيلي يؤكد وجود إرادة أمريكية حقيقية لوقف التصعيد في لبنان",
-      "url": "https://www.dostor.org/5607039",
-      "published_at": "20260621T120000Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_17d235338fdc7772",
-      "headline": "صحفي معتمد بالأمم المتحدة : الوفود بسويسرا دخلت مرحلة جادة من المباحثات الأمريكية الإيرانية",
-      "url": "https://www.dostor.org/5607033",
-      "published_at": "20260621T120000Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_055a08348e268c66",
-      "headline": "Окончание войны в Украине Сибига озвучил стратегию , которая заставит Путина остановиться",
-      "url": "https://www.obozrevatel.com/politics-news/sibiga-ozvuchil-strategiyu-kotoraya-zastavit-putina-ostanovit-vojnu.htm",
-      "published_at": "20260621T141500Z",
-      "source": "obozrevatel.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6c6b0ecc7cc3cc8c",
-      "headline": "Egyptian universities expand branch - campus push in region",
-      "url": "https://www.universityworldnews.com/post.php?story=20260619070719811",
-      "published_at": "20260621T120000Z",
-      "source": "universityworldnews.com",
       "tags": []
     }
   ]
