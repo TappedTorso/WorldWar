@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-06-27T17:21:38Z",
+    "generated_at_utc": "2026-06-27T19:44:05Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -33,14 +33,6 @@
   },
   "events": [
     {
-      "id": "gdelt_a02461738fa18b13",
-      "headline": "人权组织促加国制裁迫害法轮功的中共官员 | 制裁中共官员 | 法轮大法 | 活摘器官",
-      "url": "https://www.epochtimes.com/gb/26/6/22/n14794305.htm",
-      "published_at": "20260627T121500Z",
-      "source": "epochtimes.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_50e32a7a4aaccd0e",
       "headline": "Junge Welt сравнила угрозы Зеленского Белоруссии с ультиматумами Третьего рейха",
       "url": "https://vm.ru/news/1338119-junge-welt-sravnila-ugrozy-zelenskogo-belorussii-s-ultimatumami-tretego-rejha",
@@ -49,49 +41,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_ccaa2073dc81d9d4",
-      "headline": "Ukrajina tvrdi da je pogodila rusku fabriku oružja dok Moskva napada dronovima",
-      "url": "https://naslovi.net/2026-06-27/slobodna-evropa/ukrajina-tvrdi-da-je-pogodila-rusku-fabriku-oruzja-dok-moskva-napada-dronovima/42011967",
-      "published_at": "20260627T124500Z",
-      "source": "naslovi.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c60227c0224fbaad",
-      "headline": "Мохсен Резаи заявил о нарушении США двух пунктов меморандума с Ираном",
-      "url": "https://www.kommersant.ru/doc/8778636",
-      "published_at": "20260627T121500Z",
-      "source": "kommersant.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3f7b605a4e7da56f",
-      "headline": "Sudan El Obeid at Risk of Becoming Another El Fasher , Security Council Speakers Warn , as Drone Use , Aid Constraints Intensify Risk of Mass Civilian Harm",
-      "url": "https://www.globalsecurity.org/military/library/news/2026/06/mil-260626-unsc02.htm",
-      "published_at": "20260627T123000Z",
-      "source": "globalsecurity.org",
+      "id": "gdelt_4dac33b579edd49f",
+      "headline": "Neue Rückendeckung - Macron : Jetzt steht Trump im Ukraine - Krieg an Kiews Seite",
+      "url": "https://de.nachrichten.yahoo.com/neue-r%C3%BCckendeckung-macron-steht-trump-094548518.html",
+      "published_at": "20260627T174500Z",
+      "source": "de.nachrichten.yahoo.com",
       "tags": [
-        "SUDAN"
+        "UKRAINE"
       ]
-    },
-    {
-      "id": "gdelt_025488ce9c82604c",
-      "headline": "США молчат в тряпочку : Израиль нагло заявил , что не ушел бы из Ливана даже по их указке",
-      "url": "https://www.pravda.ru/news/world/2364998-israel-lebanon-buffer-zone-occupation/",
-      "published_at": "20260627T114500Z",
-      "source": "pravda.ru",
-      "tags": [
-        "ISRAEL",
-        "LEBANON"
-      ]
-    },
-    {
-      "id": "gdelt_71aa47183fc5da79",
-      "headline": "Атаки на НПЗ России - какие последствия , как москвичи начинают ощущать реалии войны",
-      "url": "https://24tv.ua/geopolitics/ru/ataki-na-neftepererabatyvajushhie-zavody-rossii-kakie-posledstvija-kak-moskvichi-nachinajut-oshhushhat-realii-vojny_n3095415",
-      "published_at": "20260627T114500Z",
-      "source": "24tv.ua",
-      "tags": []
     },
     {
       "id": "gdelt_1ed0441cced9d1b4",
@@ -162,22 +119,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_276ae9ebd5de3bfa",
-      "headline": "Africa CDC Brings 13 Countries Together in Kampala to Strengthen Regional Readiness Against Bundibugyo Virus Disease",
-      "url": "https://www.globalsecurity.org/security/library/news/2026/06/sec-260626-africacdc01.htm",
-      "published_at": "20260627T123000Z",
-      "source": "globalsecurity.org",
+      "id": "gdelt_6c9d31e5484ced20",
+      "headline": "Військова допомога Україні - Фіцо пояснив , чому він проти",
+      "url": "https://24tv.ua/geopolitics/viyskova-dopomoga-ukrayini-fitso-poyasniv-chomu-vin-proti_n3095631",
+      "published_at": "20260627T191500Z",
+      "source": "24tv.ua",
       "tags": []
-    },
-    {
-      "id": "gdelt_f31286bd041acc62",
-      "headline": "Israeli drone strike hits southern Lebanon day after security deal",
-      "url": "https://www.arabnews.com/node/2648761/middle-east",
-      "published_at": "20260627T123000Z",
-      "source": "arabnews.com",
-      "tags": [
-        "LEBANON"
-      ]
     },
     {
       "id": "gdelt_3e706f2cde57af18",
@@ -188,11 +135,35 @@
       "tags": []
     },
     {
+      "id": "gdelt_5628cc92c528d259",
+      "headline": "EBRD daje 46 milijuna eura za elektroenergetsku mrežu BiH",
+      "url": "https://www.poslovni.hr/regija/ebrd-daje-46-milijuna-eura-za-elektroenergetsku-mrezu-bih-4544149",
+      "published_at": "20260627T183000Z",
+      "source": "poslovni.hr",
+      "tags": []
+    },
+    {
       "id": "gdelt_419670d6cca6f578",
       "headline": "Ukraina godet fabrikën e armatimit në Rusi , teksa Moska lëshon një breshëri dronësh",
       "url": "https://kallxo.com/lajm/ukraina-godet-fabriken-e-armatimit-ne-rusi-teksa-moska-leshon-nje-bresheri-dronesh/",
       "published_at": "20260627T170000Z",
       "source": "kallxo.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6c4b3e1c65e03140",
+      "headline": "SIA Kashmir executes proclamation proceedings against absconding narco - terror handler",
+      "url": "https://aninews.in/news/national/general-news/sia-kashmir-executes-proclamation-proceedings-against-absconding-narco-terror-handler20260627213545/",
+      "published_at": "20260627T171500Z",
+      "source": "aninews.in",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a805d515324fce6d",
+      "headline": "Bank of America ( BAC ) Announces Real - Time Cross - Border Payment Solution for Corporate Clients",
+      "url": "https://www.insidermonkey.com/blog/bank-of-america-bac-announces-real-time-cross-border-payment-solution-for-corporate-clients-1790312/",
+      "published_at": "20260627T174500Z",
+      "source": "insidermonkey.com",
       "tags": []
     },
     {
@@ -236,19 +207,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_7a25f138e7594b1f",
-      "headline": "Долги колони за влез во Грција",
-      "url": "https://republika.mk/zhivot/patuvanja/dolgi-koloni-za-vlez-vo-grczija/",
-      "published_at": "20260627T120000Z",
-      "source": "republika.mk",
-      "tags": []
-    },
-    {
       "id": "gdelt_64b9af487b553aa9",
       "headline": "Фицо : Словачка неће учествовати у пакету помоћи за Украјину",
       "url": "https://www.politika.rs/scc/clanak/766421/fico-slovacka-nece-ucestvovati-u-paketu-pomoci-za-ukrajinu",
       "published_at": "20260627T151500Z",
       "source": "politika.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cbc38b3f129f45f7",
+      "headline": "Linux存在新的本機權限提升漏洞pedit COW ， 搭配5 . 18版至 7 . 1 - rc6版核心的系統均可能受影響",
+      "url": "https://www.ithome.com.tw/news/176912",
+      "published_at": "20260627T183000Z",
+      "source": "ithome.com.tw",
       "tags": []
     },
     {
@@ -260,21 +231,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_b6bc682e67b63c5d",
-      "headline": "Словакия не будет участвовать в военной помощи Украине , заявил Фицо",
-      "url": "https://ria.ru/20260627/slovakija-2101438333.html",
-      "published_at": "20260627T123000Z",
-      "source": "ria.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b69b521facf9c191",
-      "headline": "US and Iran may have agreed in negotiating rooms , but at sea , Hormuz remains  chaotic",
-      "url": "https://edition.cnn.com/2026/06/27/world/iran-us-hormuz-agreement-mou-intl",
-      "published_at": "20260627T131500Z",
-      "source": "edition.cnn.com",
+      "id": "gdelt_2e626d54c5e032a9",
+      "headline": "Netanyahu : Israel to Stay in South Lebanon Despite New Peace Framework",
+      "url": "https://voiceofvienna.org/netanyahu-israel-to-stay-in-south-lebanon-despite-new-peace-framework/",
+      "published_at": "20260627T191500Z",
+      "source": "voiceofvienna.org",
       "tags": [
-        "IRAN"
+        "ISRAEL",
+        "LEBANON"
       ]
     },
     {
@@ -302,14 +266,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_edc2393e8c95f773",
-      "headline": "Американська підтримка України - Пентагон не витратив 910 мільйонів військової допомоги",
-      "url": "https://24tv.ua/geopolitics/amerikanska-pidtrimka-ukrayini-pentagon-ne-vitrativ-910-milyoniv_n3095524",
-      "published_at": "20260627T143000Z",
-      "source": "24tv.ua",
-      "tags": []
-    },
-    {
       "id": "gdelt_f6e2f1f29ac45f8d",
       "headline": "Лантратова : Вопрос по возвращению с Украины жителей Курской области закрыт",
       "url": "https://www.pnp.ru/social/lantratova-vopros-po-vozvrashheniyu-s-ukrainy-zhiteley-kurskoy-oblasti-zakryt.html",
@@ -318,11 +274,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_2ad61a4f2a7569d5",
-      "headline": "Хинштейн : 171 житель курского приграничья возвращён с Украины за всё время",
-      "url": "https://life.ru/p/1892624",
-      "published_at": "20260627T120000Z",
-      "source": "life.ru",
+      "id": "gdelt_edc2393e8c95f773",
+      "headline": "Американська підтримка України - Пентагон не витратив 910 мільйонів військової допомоги",
+      "url": "https://24tv.ua/geopolitics/amerikanska-pidtrimka-ukrayini-pentagon-ne-vitrativ-910-milyoniv_n3095524",
+      "published_at": "20260627T143000Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2af6d460ba8f034c",
+      "headline": "المحامون يتشبثون بمواصلة التصعيد",
+      "url": "https://www.hespress.com/%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%85%D9%88%D9%86-%D9%8A%D8%AA%D8%B4%D8%A8%D8%AB%D9%88%D9%86-%D8%A8%D9%85%D9%88%D8%A7%D8%B5%D9%84%D8%A9-%D8%A7%D9%84%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-1768564.html",
+      "published_at": "20260627T183000Z",
+      "source": "hespress.com",
       "tags": []
     },
     {
@@ -336,6 +300,14 @@
       ]
     },
     {
+      "id": "gdelt_ced8d7ea094693af",
+      "headline": "Дрон ударил по рынку в Сватово , есть пострадавшие",
+      "url": "https://www.5-tv.ru/news/5075827/cetyre-celoveka-postradali-pri-udare-drona-porynku-vsvatovo-vlnr/",
+      "published_at": "20260627T174500Z",
+      "source": "5-tv.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_4886974d61806f55",
       "headline": "Ukraine strikes industrial facility in Russia Volgograd as Russian drone attack kills 1",
       "url": "https://www.arabnews.com/node/2648770/world",
@@ -347,14 +319,6 @@
       ]
     },
     {
-      "id": "gdelt_9266ff6c01dc5ff5",
-      "headline": "Fico odmieta vojnové pôžičky pre Ukrajinu . Pred samitom NATO v Ankare zvoláva schôdzku najvyšších činiteľov",
-      "url": "https://www.ta3.com/clanok/1057613/fico-odmieta-vojnove-pozicky-pre-ukrajinu-pred-samitom-nato-v-ankare-zvolava-schodzku-najvyssich-cinitelov",
-      "published_at": "20260627T120000Z",
-      "source": "ta3.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_13a446a0fcdc2f6d",
       "headline": "Подобно нацистам . Решение Зеленского против Белоруссии возмутило Запад",
       "url": "https://1prime.ru/20260627/zelenskiy-871114269.html",
@@ -363,18 +327,18 @@
       "tags": []
     },
     {
-      "id": "gdelt_fa0bc4fedb72242d",
-      "headline": "Вопрос о возвращении курян с Украины закрыт , заявила Лантратова",
-      "url": "https://life.ru/p/1892666",
-      "published_at": "20260627T131500Z",
-      "source": "life.ru",
+      "id": "gdelt_c1dc36c842cb4f41",
+      "headline": "2026 - 06 - 27 | ROSEN , RECOGNIZED INVESTOR COUNSEL , Encourages UP Fintech Holding Limited Investors to Inquire About Securities Class Action Investigation - TIGR | NDAQ : TIGR",
+      "url": "https://stockhouse.com/news/press-releases/2026/06/27/rosen-recognized-investor-counsel-encourages-up-fintech-holding-limited",
+      "published_at": "20260627T174500Z",
+      "source": "stockhouse.com",
       "tags": []
     },
     {
-      "id": "gdelt_aff3d18a407a48c4",
-      "headline": "Посилена охорона кордону Латвії – МВС пропонує подовжити режим до 31 грудня Світ",
-      "url": "https://tsn.ua/svit/krayina-nato-posyliuye-okhoronu-kordonu-z-rf-3115649.html",
-      "published_at": "20260627T123000Z",
+      "id": "gdelt_25ad2b3629728ccb",
+      "headline": "Наступ Білорусі на Україну - які наслідки прогнозують у FirePoint Світ",
+      "url": "https://tsn.ua/svit/znyshchat-za-kilka-hodyn-v-ukrayini-zorstko-poperedyly-lukashenka-u-razi-napadu-3115793.html",
+      "published_at": "20260627T174500Z",
       "source": "tsn.ua",
       "tags": []
     },
@@ -384,16 +348,6 @@
       "url": "http://french.china.org.cn/foreign/txt/2026-06/27/content_118571252.htm",
       "published_at": "20260627T161500Z",
       "source": "french.china.org.cn",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
-      "id": "gdelt_6397a938e038d62d",
-      "headline": "China urges easing of travel barriers as Apec tourism ministers meet in Macau",
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3358612/china-urges-easing-travel-barriers-apec-tourism-ministers-meet-macau",
-      "published_at": "20260627T121500Z",
-      "source": "scmp.com",
       "tags": [
         "CHINA"
       ]
@@ -423,11 +377,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_e5d5dcb0f201003c",
-      "headline": "При атаке дронов под Белгородом погиб сотрудник завода , пробита газовая труба",
-      "url": "https://life.ru/p/1892633",
-      "published_at": "20260627T120000Z",
-      "source": "life.ru",
+      "id": "gdelt_38c20523f3acbe9f",
+      "headline": "مندوب مصر بالأمم المتحدة : التصعيد العسكري في السودان يطيل أمد الأزمة",
+      "url": "https://www.elwatannews.com/news/details/8310119",
+      "published_at": "20260627T183000Z",
+      "source": "elwatannews.com",
       "tags": []
     },
     {
@@ -439,6 +393,14 @@
       "tags": [
         "BAHRAIN"
       ]
+    },
+    {
+      "id": "gdelt_975adf1f91f988a5",
+      "headline": "مفوضية حقوق الإنسان : أكثر من ألف مدني قُتلوا في السودان منذ بداية العام وسط تصاعد حرب المسيّرات",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=27062026&id=36843a53-c4ee-4e19-95e4-e47739491fac",
+      "published_at": "20260627T183000Z",
+      "source": "shorouknews.com",
+      "tags": []
     },
     {
       "id": "gdelt_668e0007eab6a7c7",
@@ -457,26 +419,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_1ddea181db0f490e",
-      "headline": "Egypt welcomes Lebanon - Israel framework agreement - Foreign Affairs - Egypt",
-      "url": "https://english.ahram.org.eg/NewsContent/1/1234/571719/Egypt/Foreign-Affairs/Egypt-welcomes-LebanonIsrael-framework-agreement-.aspx",
-      "published_at": "20260627T121500Z",
-      "source": "english.ahram.org.eg",
-      "tags": [
-        "ISRAEL",
-        "LEBANON",
-        "EGYPT"
-      ]
-    },
-    {
       "id": "gdelt_9ff29d089980b71c",
       "headline": "Фицо : причин для выделения денег на военную помощь Украине у Словакии нет",
       "url": "https://www.vesti.ru/ns/fico-prichin-dlya-vydeleniya-deneg-na-voennuyu-pomoshch-ukraine-u-slovakii-net",
       "published_at": "20260627T141500Z",
       "source": "vesti.ru",
-      "tags": [
-        "UKRAINE"
-      ]
+      "tags": []
     },
     {
       "id": "gdelt_fbf3db7ac039395e",
@@ -487,11 +435,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_044cf862e400355a",
-      "headline": "Volle Frühstückstafeln an Nordseedeichen",
-      "url": "https://www.shz.de/pagebuilding/artikel-archiv/artikel/volle-fruehstueckstafeln-an-nordseedeichen-50841487",
-      "published_at": "20260627T120000Z",
-      "source": "shz.de",
+      "id": "gdelt_d1d2e26aabe84733",
+      "headline": "ЗАЕДНИЧКИ ГРАНИЧНИ ПРЕМИНИ И КОНТРОЛИ МЕЃУ МАКЕДОНИЈА И АЛБАНИЈА Министрите за внатрешни работи потпишаа договор",
+      "url": "https://plusinfo.mk/zaednichki-granichni-premini-i-kontroli-me-u-makedoni-a-i-albani-a-ministrite-za-vnatreshni-raboti-potpishaa-dogovor/",
+      "published_at": "20260627T171500Z",
+      "source": "plusinfo.mk",
       "tags": []
     },
     {
@@ -505,64 +453,12 @@
       ]
     },
     {
-      "id": "gdelt_013e4acc95454ad3",
-      "headline": "Volle Frühstückstafeln an Nordseedeichen",
-      "url": "https://www.noz.de/deutschland-welt/niedersachsen/artikel/volle-fruehstueckstafeln-an-nordseedeichen-50841486",
-      "published_at": "20260627T123000Z",
-      "source": "noz.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d2242a8d04ad018e",
-      "headline": "Ukraine Extended Sanctions Against Companies Supporting Russia Military - Industrial Complex and Imposed Restrictions on Collaborationists Who Have Betrayed Ukraine",
-      "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/06/ukraine-260626-ukraine-president03.htm",
-      "published_at": "20260627T123000Z",
-      "source": "globalsecurity.org",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "gdelt_6bada02bbddd8906",
-      "headline": "Лантратова : В Россию из украинского плена вернулись семь мирных жителей",
-      "url": "https://life.ru/p/1892640",
-      "published_at": "20260627T120000Z",
-      "source": "life.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_603b0bb75745a068",
       "headline": "Kerajaan tangani isu etnik Rohingya secara menyeluruh , perkukuh kawalan sempadan",
       "url": "https://www.astroawani.com/berita-malaysia/kerajaan-tangani-isu-etnik-rohingya-secara-menyeluruh-perkukuh-kawalan-sempadan",
       "published_at": "20260627T140000Z",
       "source": "astroawani.com",
       "tags": []
-    },
-    {
-      "id": "gdelt_859b0c7d48ccc854",
-      "headline": "Τζιτζικώστας : Eγκαινίασε τη νέα σιδηροδρομική σύνδεση Πράγας – Βερολίνου – Κοπεγχάγης",
-      "url": "https://www.typosthes.gr/diethni/433781_tzitzikostas-egkainiase-ti-nea-sidirodromiki-syndesi-pragas-berolinoy-kopeghagis",
-      "published_at": "20260627T114500Z",
-      "source": "typosthes.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8bfe125d8b26246f",
-      "headline": "البحرين تدين استهداف أراضيها بمسيّرات إيرانية وتؤكد احتفاظها بحق الرد",
-      "url": "https://www.dostor.org/5614481",
-      "published_at": "20260627T124500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_486d29acb40b25a7",
-      "headline": "Sudan : Window is closing to prevent wider escalation in El Obeid",
-      "url": "https://www.globalsecurity.org/military/library/news/2026/06/mil-260626-unnews01.htm",
-      "published_at": "20260627T123000Z",
-      "source": "globalsecurity.org",
-      "tags": [
-        "SUDAN"
-      ]
     },
     {
       "id": "gdelt_f9415cb87be40b7c",
@@ -583,19 +479,11 @@
       ]
     },
     {
-      "id": "gdelt_77a864ce5edff6ce",
-      "headline": "Экс - аналитик ЦРУ Джонсон : Запад эскалацией губит мирный процесс по Украине",
-      "url": "https://life.ru/p/1892672",
-      "published_at": "20260627T131500Z",
-      "source": "life.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_35d7f9fe4700c2b3",
-      "headline": "España saca a Gibraltar de la lista de paraísos fiscales",
-      "url": "https://www.rtve.es/noticias/20260627/espana-saca-a-gibraltar-lista-paraisos-fiscales-estado-35-anos-incorpora-a-rusia/17134164.shtml",
-      "published_at": "20260627T124500Z",
-      "source": "rtve.es",
+      "id": "gdelt_6e4b9848d489d733",
+      "headline": "Tri decenije akademskog interneta u BiH : Veza koja je otvorila prozor prema svijetu",
+      "url": "https://avaz.ba/sci-tech/tehnologija/1052679/tri-decenije-akademskog-interneta-u-bih-veza-koja-je-otvorila-prozor-prema-svijetu",
+      "published_at": "20260627T174500Z",
+      "source": "avaz.ba",
       "tags": []
     },
     {
@@ -604,15 +492,9 @@
       "url": "https://kesq.com/news/national-world/cnn-world/2026/06/27/the-us-and-iran-have-a-deal-on-paper-at-sea-the-strait-of-hormuz-is-chaotic/",
       "published_at": "20260627T151500Z",
       "source": "kesq.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_38c6a1ad7bf86318",
-      "headline": "هيئة بحرية بريطانية : استهداف ناقلة بمقذوف فى مضيق هرمز",
-      "url": "https://www.almasryalyoum.com/news/details/4302877",
-      "published_at": "20260627T123000Z",
-      "source": "almasryalyoum.com",
-      "tags": []
+      "tags": [
+        "IRAN"
+      ]
     },
     {
       "id": "gdelt_0ec57afdff651665",
@@ -620,6 +502,14 @@
       "url": "https://www.freemalaysiatoday.com/category/nation/2026/06/27/ewon-calls-for-sabah-sarawak-to-compete-globally-under-borneo-identity",
       "published_at": "20260627T161500Z",
       "source": "freemalaysiatoday.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5f764ce0a5b137d0",
+      "headline": "智能翻译机深度测评 ： 四款热门设备助力跨国交流与户外探险无忧沟通 - 业界动态 - ITBear科技资讯",
+      "url": "https://www.itbear.com.cn/html/2026-06/1416555.html",
+      "published_at": "20260627T174500Z",
+      "source": "itbear.com.cn",
       "tags": []
     },
     {
@@ -642,14 +532,6 @@
       "tags": [
         "UNITED_STATES"
       ]
-    },
-    {
-      "id": "gdelt_7b539a0acd6244b0",
-      "headline": "Eskalimi i ri pas sulmit amerikan - një anije cisternë u godit me raketë në Ngushticën e Hormuzit",
-      "url": "https://telegrafi.com/eskalimi-i-ri-pas-sulmit-amerikan-nje-anije-cisterne-u-godit-me-rakete-ne-ngushticen-e-hormuzit/",
-      "published_at": "20260627T114500Z",
-      "source": "telegrafi.com",
-      "tags": []
     },
     {
       "id": "gdelt_ccbf7142f81746fd",
@@ -704,19 +586,27 @@
       ]
     },
     {
-      "id": "gdelt_f2c57d9dc36da0a0",
-      "headline": "Фицо : Словакия не станет давать деньги на военную помощь Украине",
-      "url": "https://life.ru/p/1892678",
-      "published_at": "20260627T131500Z",
-      "source": "life.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_1f159bb6234e4df2",
       "headline": "عبد الله نعمة لـ  الدستور : فشل الاتفاق الإطاري بين لبنان وإسرائيل سيقودنا لمرحلة خطرة",
       "url": "https://www.dostor.org/5614712",
       "published_at": "20260627T143000Z",
       "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c3eb208afcbe8a9c",
+      "headline": "Hezbollahu kritikon marrëveshjen Izrael - Liban / IDF nuk ndërpret sulmet , rajoni i frikësuar nga përshkallëzimi",
+      "url": "https://www.oranews.tv/bota/hezbollahu-kritikon-marreveshjen-izrael-liban-idf-nuk-nderpret-et-rajon-i1332564",
+      "published_at": "20260627T184500Z",
+      "source": "oranews.tv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_839c52c585e0cc6d",
+      "headline": "Фіцо заблокує військову допомогу Україні",
+      "url": "https://www.rbc.ua/rus/news/fitso-zablokue-novi-poziki-ukrayini-nayblizhchomu-1782580932.html",
+      "published_at": "20260627T181500Z",
+      "source": "rbc.ua",
       "tags": []
     },
     {
@@ -728,11 +618,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_3ba9ece29043bd64",
-      "headline": "Александр Хинштейн : всего с территории Украины вернули 171 жителя курского приграничья",
-      "url": "https://expert.ru/news/aleksandr-hinshteyn-vsego-s-territorii-ukrainy-vernuli-171-zhitelya-kurskogo-prigranichya",
-      "published_at": "20260627T123000Z",
-      "source": "expert.ru",
+      "id": "gdelt_fd6e85d5646b0053",
+      "headline": "LISTA E ZEZË / Dalin emrat e subjekteve juridike nga Shqipëria që janë të sanksionuara nga SHBA",
+      "url": "https://www.oranews.tv/vendi/lista-e-zez-dalin-emrat-e-subjekteve-juridike-nga-shqiperia-qe-jane-te-san-i1332546",
+      "published_at": "20260627T174500Z",
+      "source": "oranews.tv",
       "tags": []
     },
     {
@@ -744,27 +634,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_e2c1637f40e729a0",
-      "headline": "НОВ БРАН ТУРКАНИЦИ НА ГРЧКАТА ГРАНИЦА Оние кои патуваат низ Грција треба да очекуваат и гужви на обиколницата кај Солун",
-      "url": "https://plusinfo.mk/nov-bran-turkanici-na-grchkata-granica-onie-koi-patuvaat-niz-grci-a-treba-da-ochekuvaat-i-guzhvi-na-obikolnicata-ka-solun/",
-      "published_at": "20260627T123000Z",
-      "source": "plusinfo.mk",
-      "tags": []
-    },
-    {
       "id": "gdelt_47e04653f8f7f0ac",
       "headline": "Fresh tanker attack rocks Hormuz amid worst Iran - US escalation since truce",
       "url": "https://article.wn.com/view/2026/06/27/Fresh_tanker_attack_rocks_Hormuz_amid_worst_IranUS_escalatio/",
       "published_at": "20260627T154500Z",
       "source": "article.wn.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f07d4eeaa8d2fe48",
-      "headline": "أستاذ في العلوم السياسية : الضربات الأمريكية لإيران ردع لخرق التفاهمات بمضيق هرمز",
-      "url": "https://www.elwatannews.com/news/details/8309943",
-      "published_at": "20260627T114500Z",
-      "source": "elwatannews.com",
       "tags": []
     },
     {
@@ -776,11 +650,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_9142b4d176531302",
-      "headline": "Goge Africa Launches Cultural Dialogue , Diplomatic Series July 2 – THISDAYLIVE",
-      "url": "https://www.thisdaylive.com/2026/06/27/goge-africa-launches-cultural-dialogue-diplomatic-series-july-2/",
-      "published_at": "20260627T114500Z",
-      "source": "thisdaylive.com",
+      "id": "gdelt_4ced406d4f73cad5",
+      "headline": "ممثلة مفوضية حقوق الإنسان : أكثر من ألف مدني قُتلوا في السودان منذ بداية العام",
+      "url": "https://www.dostor.org/5615014",
+      "published_at": "20260627T183000Z",
+      "source": "dostor.org",
       "tags": []
     },
     {
@@ -800,11 +674,21 @@
       "tags": []
     },
     {
-      "id": "gdelt_b94b85f89e29e0f4",
-      "headline": "خبير سياسات دولية : التفاهمات الأمريكية الإيرانية هشة وقابلة للاشتعال في أي لحظة",
-      "url": "https://www.elwatannews.com/news/details/8309936",
-      "published_at": "20260627T114500Z",
-      "source": "elwatannews.com",
+      "id": "gdelt_aad98265424b58ec",
+      "headline": "Israelis see their friendship with the US slipping away",
+      "url": "https://www.bostonglobe.com/2026/06/27/world/israel-us-friendship-slipping/",
+      "published_at": "20260627T174500Z",
+      "source": "bostonglobe.com",
+      "tags": [
+        "ISRAEL"
+      ]
+    },
+    {
+      "id": "gdelt_f71b29ce6f5145c3",
+      "headline": "Македонија и Албанија потпишаа договор за заеднички гранични премини и гранични контроли",
+      "url": "https://mkd.mk/makedonija/makedonija-i-albanija-potpishaa-dogovor-za-zaednichki-granichni-premini-i-granichni-kontroli/",
+      "published_at": "20260627T191500Z",
+      "source": "mkd.mk",
       "tags": []
     },
     {
@@ -840,6 +724,22 @@
       "tags": []
     },
     {
+      "id": "gdelt_0241f056237388cf",
+      "headline": "Поради високите температури да се наводнуваат површините",
+      "url": "https://makfax.com.mk/makedonija/poradi-visokite-temperaturi-da-se-navodnuvaat-povrshinite/",
+      "published_at": "20260627T164500Z",
+      "source": "makfax.com.mk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5a136f8eb91d8ca9",
+      "headline": "Тошковски и Љамалари со потпис се договорија за заеднички гранични контроли меѓу Македонија и Албанија",
+      "url": "https://makfax.com.mk/makedonija/toshkovski-i-lamalari-so-potpis-se-dogovorija-za-zaednichki-granichni-kontroli-megu-makedonija-i-albanija/",
+      "published_at": "20260627T164500Z",
+      "source": "makfax.com.mk",
+      "tags": []
+    },
+    {
       "id": "gdelt_266069dac360f813",
       "headline": "( Видео ) Ѓорѓиевски тврди дека Вардариште ќе биде мега - парк и нови бели дробови на Скопје",
       "url": "https://makfax.com.mk/makedonija/gorgievski-tvrdi-deka-vardarishte-ke-bide-mega-park-i-novi-beli-drobovi-na-skopje/",
@@ -864,30 +764,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_0241f056237388cf",
-      "headline": "Поради високите температури да се наводнуваат површините",
-      "url": "https://makfax.com.mk/makedonija/poradi-visokite-temperaturi-da-se-navodnuvaat-povrshinite/",
-      "published_at": "20260627T164500Z",
-      "source": "makfax.com.mk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5a136f8eb91d8ca9",
-      "headline": "Тошковски и Љамалари со потпис се договорија за заеднички гранични контроли меѓу Македонија и Албанија",
-      "url": "https://makfax.com.mk/makedonija/toshkovski-i-lamalari-so-potpis-se-dogovorija-za-zaednichki-granichni-kontroli-megu-makedonija-i-albanija/",
-      "published_at": "20260627T164500Z",
-      "source": "makfax.com.mk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f06a3d0cf27ceed0",
-      "headline": "Komnas Perempuan : Nyawa YTR Nyaris Melayang jika Penyekapan Taufik Hidayat Tidak Terbongkar",
-      "url": "https://jabar.tribunnews.com/metro-bandung/1176964/komnas-perempuan-nyawa-ytr-nyaris-melayang-jika-penyekapan-taufik-hidayat-tidak-terbongkar",
-      "published_at": "20260627T120000Z",
-      "source": "jabar.tribunnews.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_9c9f252503d491cd",
       "headline": "„ Бордер бајт  во Дојран : Различни вкусови , рачни изработки и музички изведби го промовираа прекуграничниот регион",
       "url": "https://republika.mk/vesti/ekonomija/border-bajt-vo-dojran-razlichni-vkusovi-rachni-izrabotki-i-muzichki-izvedbi-go-promoviraa-prekugranichniot-region/",
@@ -896,19 +772,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_3fe6e5a61cbcd316",
-      "headline": "هدوء حذر في جنوب لبنان .. وانقسام سياسي حول الاتفاق الإطاري",
-      "url": "https://www.elwatannews.com/news/details/8309957",
-      "published_at": "20260627T114500Z",
-      "source": "elwatannews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d4be69d109c6f8a4",
-      "headline": "« اتفاق هش يمكن أن ينفجر في أي لحظة ».. خبير دولي يُحذر من ألغام مذكرة التفاهم الأمريكية الإيرانية",
-      "url": "https://www.dostor.org/5614806",
-      "published_at": "20260627T154500Z",
-      "source": "dostor.org",
+      "id": "gdelt_f5175cac504cba2b",
+      "headline": "Vendet arabe dënojnë sulmin iranian me dron ndaj - Syri",
+      "url": "https://www.syri.net/bote/899303/vendet-arabe-denojne-sulmin-iranian-me-dron-ndaj-bahreinit/",
+      "published_at": "20260627T174500Z",
+      "source": "syri.net",
       "tags": []
     },
     {
@@ -922,19 +790,27 @@
       ]
     },
     {
-      "id": "gdelt_7b59499232038976",
-      "headline": "Игорь Мартынов поздравил астраханцев с Днем молодежи",
-      "url": "https://www.nakanune.ru/news/2026/06/27/22877519/",
-      "published_at": "20260627T121500Z",
-      "source": "nakanune.ru",
+      "id": "gdelt_d4be69d109c6f8a4",
+      "headline": "« اتفاق هش يمكن أن ينفجر في أي لحظة ».. خبير دولي يُحذر من ألغام مذكرة التفاهم الأمريكية الإيرانية",
+      "url": "https://www.dostor.org/5614806",
+      "published_at": "20260627T154500Z",
+      "source": "dostor.org",
       "tags": []
     },
     {
-      "id": "gdelt_ef2ac6e98b36e226",
-      "headline": "Игорь Мартынов поздравил астраханцев с Днем молодежи",
-      "url": "https://www.nakanune.ru/news/2026/6/27/22877519/",
-      "published_at": "20260627T154500Z",
-      "source": "nakanune.ru",
+      "id": "gdelt_2ca41892021cb55d",
+      "headline": "Fenerbahçeden yıldız isme yaptırım kararı : Ceza yolda !",
+      "url": "https://www.turkiyegazetesi.com.tr/spor/fenerbahceden-yildiz-isme-yaptirim-karari-ceza-verilecek-1799790",
+      "published_at": "20260627T184500Z",
+      "source": "turkiyegazetesi.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bbe386072a7afe17",
+      "headline": "BlackSeaNews | Країни Балтії закликали ЄС прискорити відмову від російської нафти FT",
+      "url": "https://www.blackseanews.net/read/245486",
+      "published_at": "20260627T181500Z",
+      "source": "blackseanews.net",
       "tags": []
     },
     {
@@ -946,11 +822,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_20734c502e2f4cc8",
-      "headline": "موقع بكرا - البحرين تتهم إيران بقصف أراضيها : تهديد مباشر للسيادة والأمن",
-      "url": "https://bokra.net/Article-1597781",
-      "published_at": "20260627T131500Z",
-      "source": "bokra.net",
+      "id": "gdelt_ef2ac6e98b36e226",
+      "headline": "Игорь Мартынов поздравил астраханцев с Днем молодежи",
+      "url": "https://www.nakanune.ru/news/2026/6/27/22877519/",
+      "published_at": "20260627T154500Z",
+      "source": "nakanune.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_66bf6ec7463d271e",
+      "headline": "Will the US - Iran ceasefire hold ? Fresh strikes renew Gulf tensions",
+      "url": "https://www.moneycontrol.com/world/will-the-us-iran-ceasefire-hold-fresh-strikes-renew-gulf-tensions-article-13960115.html",
+      "published_at": "20260627T181500Z",
+      "source": "moneycontrol.com",
       "tags": []
     },
     {
@@ -978,12 +862,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_395c87494b292274",
-      "headline": "تصعيد جديد بين واشنطن وطهران مع تبادل ضربات في الخليج",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=27062026&id=194bdb44-5d25-4954-8254-b48805ceac6a",
-      "published_at": "20260627T170000Z",
-      "source": "shorouknews.com",
-      "tags": []
+      "id": "gdelt_019f5d4194bece34",
+      "headline": "الإمارات تعرب عن قلقها البالغ إزاء استمرار التصعيد العسكري في مدينة الأبيض السودانية",
+      "url": "https://www.albayan.ae/news/uae/foreign-affairs/1444010",
+      "published_at": "20260627T174500Z",
+      "source": "albayan.ae",
+      "tags": [
+        "UAE"
+      ]
     },
     {
       "id": "gdelt_4d8cc0931a69483e",
@@ -994,11 +880,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_8afeb58b69b463da",
-      "headline": "حماس : إقامة البؤر الاستيطانية في القدس لن تغير هويتها العربية الإسلامية",
-      "url": "https://assabeel.net/76390",
-      "published_at": "20260627T121500Z",
-      "source": "assabeel.net",
+      "id": "gdelt_395c87494b292274",
+      "headline": "تصعيد جديد بين واشنطن وطهران مع تبادل ضربات في الخليج",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=27062026&id=194bdb44-5d25-4954-8254-b48805ceac6a",
+      "published_at": "20260627T170000Z",
+      "source": "shorouknews.com",
       "tags": []
     },
     {
@@ -1010,11 +896,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_4c2b45bf964569d0",
-      "headline": "زيلينسكي يعلن استهداف مصنع أسلحة روسي في فولجوجراد",
-      "url": "https://www.dostor.org/5614398",
-      "published_at": "20260627T124500Z",
-      "source": "dostor.org",
+      "id": "gdelt_2b1d34802d367458",
+      "headline": "США поновили санкції проти  Роснефти  та  Лукойлу  Delo . ua",
+      "url": "https://delo.ua/news/ssa-ponovili-sankciyi-proti-rosnefti-ta-lukoilu-468192/",
+      "published_at": "20260627T191500Z",
+      "source": "delo.ua",
       "tags": []
     },
     {
@@ -1039,6 +925,110 @@
       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-and-us-trade-attacks-worst-escalation-peace-deal",
       "published_at": "20260627T140000Z",
       "source": "middleeasteye.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e17ea853969f03f3",
+      "headline": "رئيسة المفوضية الأوروبية : يجب نزع سلاح الجماعات غير الحكومية والحفاظ على سيادة لبنان ووحدة أراضيه",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=27062026&id=42a71cb3-ca77-4914-976c-4e7faf3a647a",
+      "published_at": "20260627T140000Z",
+      "source": "shorouknews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b0d0121f00868605",
+      "headline": "国际锐评丨  中国链  何以赋能未来 ？",
+      "url": "https://www.sxdaily.com.cn/2026-06/27/content_20046726.html",
+      "published_at": "20260627T140000Z",
+      "source": "sxdaily.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c894340ad1728af4",
+      "headline": "قطر والسعودية والأردن تدين الاعتداءات الإيرانية على البحرين وتؤكد تضامنها معها",
+      "url": "https://sana.sy/international/2512509/",
+      "published_at": "20260627T151500Z",
+      "source": "sana.sy",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a93ee58a73f97dcc",
+      "headline": "Shqipëri - Maqedoni e Veriut , arrihet marrëveshja  One Stop  për lehtësimin e kalimit kufitar – 24 ore",
+      "url": "https://24-ore.com/shqiperi-maqedoni-e-veriut-arrihet-marreveshja-one-stop-per-lehtesimin-e-kalimit-kufitar/",
+      "published_at": "20260627T153000Z",
+      "source": "24-ore.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6c38c544625d707f",
+      "headline": "Dommeren siktet Israels statsminister . Nå er han sanksjonert av united states .",
+      "url": "https://www.aftenposten.no/verden/i/vrwGJV/dommeren-siktet-israels-statsminister-naa-er-han-sanksjonert-av-usa",
+      "published_at": "20260627T183000Z",
+      "source": "aftenposten.no",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b8bb62df5ec79621",
+      "headline": "烏空襲引發俄強硬派籲用核武 普京堅持邊打邊談 | 烏克蘭無人機 | 莫斯科",
+      "url": "https://www.ntdtv.com/b5/2026/06/27/a104110037.html",
+      "published_at": "20260627T184500Z",
+      "source": "ntdtv.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7185d841cfddc3eb",
+      "headline": "Iran - Krieg aktuell : Drohnen in Bahrain – neue Angriffe zwischen united states und Teheran erschüttern Abkommen",
+      "url": "http://www.op-online.de/politik/iran-krieg-aktuell-drohnen-in-bahrain-neue-angriffe-zwischen-usa-und-teheran-erschuettern-abkommen-zr-94372007.html",
+      "published_at": "20260627T151500Z",
+      "source": "op-online.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_90531f307bcf7462",
+      "headline": "Фицо : Словакия няма да плаща военния заем на НАТО ᐉ Новини от Fakti . bg - Свят",
+      "url": "https://fakti.bg/world/1063921-fico-slovakia-nama-da-plashta-voennia-zaem-na-nato",
+      "published_at": "20260627T181500Z",
+      "source": "fakti.bg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_17202d0fa0c33164",
+      "headline": "Rudal Ukraina Hancurkan Pabrik Senjata Rusia",
+      "url": "https://international.sindonews.com/read/1722299/41/rudal-ukraina-hancurkan-pabrik-senjata-rusia-1782562017",
+      "published_at": "20260627T140000Z",
+      "source": "international.sindonews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cef11328fb63e32c",
+      "headline": "Donald Trump : US - Präsident setzt auf Militärschläge – Iran kündigt Vergeltung an",
+      "url": "https://www.news.de/politik/859768827/donald-trump-startet-neue-angriffe-gegen-iran-us-praesident-militaerschlaege-strasse-von-hormus/1/",
+      "published_at": "20260627T164500Z",
+      "source": "news.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4a8ad831e3b18883",
+      "headline": "Dev çelik fabrikasının Türk patronu FBI tarafından gözaltına alındı",
+      "url": "https://www.medyafaresi.com/haber/dev-celik-fabrikasinin-turk-patronu-fbi-tarafindan-gozaltina-alindi/1044217",
+      "published_at": "20260627T141500Z",
+      "source": "medyafaresi.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3f01371967bcd0dd",
+      "headline": "فيصل بن فرحان يبحث التطورات في المنطقة مع نظيره ال ...",
+      "url": "https://www.almowaten.net/2026/06/%D9%81%D9%8A%D8%B5%D9%84-%D8%A8%D9%86-%D9%81%D8%B1%D8%AD%D8%A7%D9%86-%D9%8A%D8%A8%D8%AD%D8%AB-%D8%A7%D9%84%D8%AA%D8%B7%D9%88%D8%B1%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9-4/",
+      "published_at": "20260627T174500Z",
+      "source": "almowaten.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0ee6b1a25e0d6066",
+      "headline": "Фицо осудил передачу Западом новых военных технологий Украине",
+      "url": "https://www.m24.ru/news/27062026/914830",
+      "published_at": "20260627T151500Z",
+      "source": "m24.ru",
       "tags": []
     }
   ]
