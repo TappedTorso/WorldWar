@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-07-05T00:11:51Z",
+    "generated_at_utc": "2026-07-05T04:18:58Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,17 +9,17 @@
       {
         "name": "core",
         "status": "error",
-        "error": "http_error status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
         "fetched": 0
       },
       {
         "name": "tripwire",
         "status": "ok",
-        "fetched": 33
+        "fetched": 120
       }
     ],
-    "fetched_articles": 33,
-    "previous_event_count": 0,
+    "fetched_articles": 120,
+    "previous_event_count": 33,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -32,6 +32,71 @@
     }
   },
   "events": [
+    {
+      "id": "gdelt_3c73f64ffb966fd0",
+      "headline": "Why Hong Kong students are heading to mainland China to intern",
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3359412/why-hong-kong-students-are-heading-mainland-china-intern",
+      "published_at": "20260705T020000Z",
+      "source": "scmp.com",
+      "tags": [
+        "CHINA"
+      ]
+    },
+    {
+      "id": "gdelt_06eb251917c5ed00",
+      "headline": "Love across borders : Pakistani youth crosses LoC to meet girlfriend in Kashmir , repatriated after a month",
+      "url": "https://www.moneycontrol.com/news/india/love-across-borders-pakistani-youth-crosses-loc-to-meet-snapchat-girlfriend-in-kashmir-repatriated-after-a-month-13966218.html",
+      "published_at": "20260705T034500Z",
+      "source": "moneycontrol.com",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
+      "id": "gdelt_e8a648ae1a851f75",
+      "headline": "Islamabad frontrunner to host US - Iran talks - Newspaper",
+      "url": "https://www.dawn.com/news/2013076",
+      "published_at": "20260705T030000Z",
+      "source": "dawn.com",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_82032dba0bd800aa",
+      "headline": "Juniku bëhet me Ballkon Panoramik",
+      "url": "https://zeri.info/aktuale/628840/juniku-behet-me-ballkon-panoramik/",
+      "published_at": "20260705T013000Z",
+      "source": "zeri.info",
+      "tags": []
+    },
+    {
+      "id": "gdelt_63d83955e968d532",
+      "headline": "Видео : какие перспективы открывает взятие Константиновки",
+      "url": "https://www.5-tv.ru/news/5077026/vorota-donbassa-putin-ukazal-navaznost-osvobozdenia-konstantinovki/",
+      "published_at": "20260705T020000Z",
+      "source": "5-tv.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_20fa5b4374ade8c1",
+      "headline": "Centre designates new crop of Pak Jihadis against India",
+      "url": "https://www.hindustantimes.com/india-news/centre-designates-23-from-jaish-e-mohammed-lashkar-e-tayyeba-as-terrorists-under-uapa-act-pakistan-groups-101783212971676.html",
+      "published_at": "20260705T024500Z",
+      "source": "hindustantimes.com",
+      "tags": [
+        "INDIA",
+        "PAKISTAN"
+      ]
+    },
+    {
+      "id": "gdelt_e6b22ba601f2ac6a",
+      "headline": "WATCH : Trump new Air Force One makes July 4 flyover over Washington , DC , escorted by US Air Force jets",
+      "url": "https://www.hindustantimes.com/trending/us/watch-trumps-new-air-force-one-makes-july-4-flyover-over-washington-dc-escorted-by-us-air-force-jets-101783211155117.html",
+      "published_at": "20260705T024500Z",
+      "source": "hindustantimes.com",
+      "tags": []
+    },
     {
       "id": "gdelt_c461ce4d640b3ccc",
       "headline": "World Bank and AfDB Expand Power Investment Program",
@@ -77,6 +142,112 @@
       "tags": []
     },
     {
+      "id": "gdelt_b44dce3f12238cee",
+      "headline": "La caída del otro muro de Berlín | Noticias Diario de Burgos",
+      "url": "https://www.diariodeburgos.es/noticia/zea4fb122-318d-4aa7-b1916c2de3b58124/202607/la-caida-del-otro-muro-de-berlin",
+      "published_at": "20260705T034500Z",
+      "source": "diariodeburgos.es",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7eabe7b085b67af0",
+      "headline": "MHA Names 23 More Individuals as Terrorists Under UAPA in Major Anti - Terror Action",
+      "url": "https://dailypioneer.com/news/23-named-terrorists-under-uapa-mha",
+      "published_at": "20260705T040000Z",
+      "source": "dailypioneer.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e5144968f75c9910",
+      "headline": "На Закарпатті суд відправив за ґрати відразу трьох переправників ухилянтів",
+      "url": "https://www.ukrinform.ua/rubric-regions/4140872-na-zakarpatti-sud-vidpraviv-za-grati-vidrazu-troh-perepravnikiv-uhilantiv.html",
+      "published_at": "20260705T014500Z",
+      "source": "ukrinform.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e1670b47fc0339b6",
+      "headline": "В Казахстане усилили контроль за вывозом бензина в приграничных районах » Gazeta . kg новости Кыргызстана и Бишкека сегодня",
+      "url": "https://gazeta.kg/exclusive/205895-v-kazahstane-usilili-kontrol-za-vyvozom-benzina-v-prigranichnyh-rajonah.html",
+      "published_at": "20260705T013000Z",
+      "source": "gazeta.kg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4587d67d0f57741e",
+      "headline": "Německý senior zemřel v zařízení amerického imigračního úřadu ICE",
+      "url": "https://www.novinky.cz/clanek/zahranicni-amerika-nemecky-senior-zemrel-v-zarizeni-americkeho-imigracniho-uradu-ice-40586651",
+      "published_at": "20260705T040000Z",
+      "source": "novinky.cz",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6b275aef819ba98c",
+      "headline": "Polis tahan 3 lelaki Indonesia disyaki seludup lebih 70 , 000 kotak minuman keras",
+      "url": "https://www.astroawani.com/berita-malaysia/polis-tahan-3-lelaki-indonesia-disyaki-seludup-lebih-70000-kotak-minuman-keras",
+      "published_at": "20260705T013000Z",
+      "source": "astroawani.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_597e7d32a0a96e87",
+      "headline": "POWERGRID Secures ¥80 Billion Green Loan from JBIC for HVDC Transmission Project",
+      "url": "https://dailypioneer.com/news/powergrid-and-jbic-partner-to-advance-indias-renewable-energy-transition",
+      "published_at": "20260705T040000Z",
+      "source": "dailypioneer.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_435ab19ac3511f4b",
+      "headline": "強颱巴威長胖增強挑戰風王 吳德榮 ： 9日轉向西北逼近台灣 「 來者不善 」 | 生活新聞 | 生活",
+      "url": "https://udn.com/news/story/7266/9607490",
+      "published_at": "20260705T001500Z",
+      "source": "udn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a8556d4ab0fae372",
+      "headline": "乾元e信陷阱提嶺不出背後是血 本無歸 - 真相風險曝光錄",
+      "url": "https://blog.udn.com:443/8987c413/191051967",
+      "published_at": "20260705T030000Z",
+      "source": "blog.udn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c818a1c8ae80eee7",
+      "headline": "移民排斥にあらがい 「 社会を面白く 」 混迷照らすアートの力とは",
+      "url": "https://mainichi.jp/articles/20260703/k00/00m/200/053000c",
+      "published_at": "20260705T030000Z",
+      "source": "mainichi.jp",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6a8cfddc7af13534",
+      "headline": "Ukrainekrieg : Trump bietet nach Gesprächen mit Putin und Selenskyj Vermittlung an",
+      "url": "https://www.zeit.de/politik/ausland/2026-07/trump-putin-selenskyj-ukraine-telefonat-nato-gipfel",
+      "published_at": "20260705T014500Z",
+      "source": "zeit.de",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_877a861e2b331c0d",
+      "headline": "KLH Akui TPA Jatiwaringi Pernah Terkena Sanksi",
+      "url": "https://rri.co.id/nasional/2546277/klh-akui-tpa-jatiwaringi-pernah-terkena-sanksi",
+      "published_at": "20260705T024500Z",
+      "source": "rri.co.id",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4261b79d76232173",
+      "headline": "Centenas participaram na primeira edio no Madeira Festival em Londres",
+      "url": "https://www.dnoticias.pt/2026/7/4/497912-centenas-participaram-na-primeira-edicao-no-madeira-festival-em-londres/",
+      "published_at": "20260705T001500Z",
+      "source": "dnoticias.pt",
+      "tags": []
+    },
+    {
       "id": "gdelt_a5906586bbad3736",
       "headline": "天氣 ／ 挑戰風王紀錄 ！ 強颱巴威暴風圈擴大 這2天對台影響最劇│TVBS新聞網",
       "url": "https://news.tvbs.com.tw/life/3248825",
@@ -93,11 +264,62 @@
       "tags": []
     },
     {
+      "id": "gdelt_cdff5d0d56f4f248",
+      "headline": "国際犯罪組織 「 プリンスG 」 の幹部を再逮捕 在留カード不正使用容疑 ： 朝日新聞",
+      "url": "https://www.asahi.com/articles/ASV747561V74UTIL02QM.html",
+      "published_at": "20260705T030000Z",
+      "source": "asahi.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a7bd042c1f519094",
+      "headline": "Война в Черном море могла уничтожить до 100 тысяч дельфинов | MigNews - Новости Израиля и Мира на русском языке",
+      "url": "https://mignews.com/news/disasters/vojna-v-chernom-more-mogla-unichtozhit-do-100-tysyach-delfinov.html",
+      "published_at": "20260705T020000Z",
+      "source": "mignews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_32ab279461a284e5",
+      "headline": "Война в Черном море могла уничтожить до 100 тысяч дельфинов | MigNews - Новости Израиля и Мира на русском языке",
+      "url": "http://mignews.com/news/disasters/vojna-v-chernom-more-mogla-unichtozhit-do-100-tysyach-delfinov.html",
+      "published_at": "20260705T024500Z",
+      "source": "mignews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_968588e1fe8e0844",
+      "headline": "誤信 「 DeeP LOVE 」 錢拿的回來嗎 - 安全真相觀測站",
+      "url": "https://blog.udn.com:443/15f4bb2b/191050735",
+      "published_at": "20260705T020000Z",
+      "source": "blog.udn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_aa7875cf9ad5b3d0",
+      "headline": "Iran exploring oil sales to Japan , buyers seek longer sanctions waiver , sources say",
+      "url": "https://www.asiaone.com:443/world/iran-exploring-oil-sales-japan-buyers-seek-longer-sanctions-waiver",
+      "published_at": "20260705T034500Z",
+      "source": "asiaone.com",
+      "tags": [
+        "IRAN",
+        "JAPAN"
+      ]
+    },
+    {
       "id": "gdelt_3f6e282397020aef",
       "headline": "Kreml : Putin ja Trump keskustelivat Ukrainan tilanteesta puhelimitse",
       "url": "https://www.karjalainen.fi/uutissuomalainen/9594319",
       "published_at": "20260705T000000Z",
       "source": "karjalainen.fi",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bed1038f106450d2",
+      "headline": "巴威恐怖數據曝 「 直逼最強風王 」！ 示警這2天最劇 不排除海陸警齊發 | 生活 | 三立新聞網 SETN . COM",
+      "url": "https://www.setn.com/News.aspx?NewsID=1867190",
+      "published_at": "20260705T010000Z",
+      "source": "setn.com",
       "tags": []
     },
     {
@@ -107,6 +329,66 @@
       "published_at": "20260705T000000Z",
       "source": "naslovi.net",
       "tags": []
+    },
+    {
+      "id": "gdelt_c63fd772e7d713af",
+      "headline": "Санкції проти РФ – що в ЄС готують для виробників компонентів для  Шахедів",
+      "url": "https://www.rbc.ua/rus/news/es-mozhut-vzhe-nastupnogo-tizhnya-zaprovaditi-1783203455.html",
+      "published_at": "20260705T014500Z",
+      "source": "rbc.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_afa1b2ad19f9c569",
+      "headline": "KPU Kaltim Ungkap Dua Parpol Belum Perbarui Data SIPOL Semester I 2026",
+      "url": "https://kaltim.tribunnews.com/tribun-etam/1155581/kpu-kaltim-ungkap-dua-parpol-belum-perbarui-data-sipol-semester-i-2026",
+      "published_at": "20260705T024500Z",
+      "source": "kaltim.tribunnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_34aceb18c7402601",
+      "headline": "중 · 한 식탁 잇는  건강한 메밀 ... 양국 무역 가교 역할  톡톡 - Xinhua",
+      "url": "http://kr.xinhuanet.com/20260705/485faf52d1214ba4a2d1f38096eb7d2a/c.html",
+      "published_at": "20260705T023000Z",
+      "source": "kr.xinhuanet.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2e3f8c612b61aff9",
+      "headline": "참교육에 열광하는 사회  ⋯무너진 교권 , 해법은 따로 있다 [ T 같은 F ]",
+      "url": "https://www.etoday.co.kr/news/view/2600145",
+      "published_at": "20260705T023000Z",
+      "source": "etoday.co.kr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a78ec12a7feda0c9",
+      "headline": "Chile intercepta camión procedente de Bolivia con casi $us 280 mil ocultos en la cabina",
+      "url": "https://eju.tv/2026/07/chile-intercepta-camion-procedente-de-bolivia-con-casi-us-280-mil-ocultos-en-la-cabina/",
+      "published_at": "20260705T023000Z",
+      "source": "eju.tv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_872b1d0f8f1f2847",
+      "headline": "Ukraine tấn công cảng dầu tại St . Petersburg",
+      "url": "https://baomoi.com/ukraine-tan-cong-cang-dau-tai-st-petersburg-c55547391.epi",
+      "published_at": "20260705T023000Z",
+      "source": "baomoi.com",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_9d1da898330fcb78",
+      "headline": "Pastor freed from prison in China weeks after Trump requested his release",
+      "url": "https://www.thehindu.com/news/international/pastor-freed-from-prison-in-china-weeks-after-trump-requested-his-release/article71185058.ece",
+      "published_at": "20260705T034500Z",
+      "source": "thehindu.com",
+      "tags": [
+        "CHINA"
+      ]
     },
     {
       "id": "gdelt_633e172db5769a98",
@@ -125,11 +407,398 @@
       "tags": []
     },
     {
+      "id": "gdelt_95e03742878da44e",
+      "headline": "Müzakerelerin 11 Temmuzda Pakistanda devam edeceği iddia edildi",
+      "url": "https://www.radikal.com.tr/dunya/muzakerelerin-11-temmuzda-pakistanda-devam-edecegi-iddia-edildi-33782/",
+      "published_at": "20260705T014500Z",
+      "source": "radikal.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d097f705b09b65a2",
+      "headline": "Trump administration emboldening of Pakistan will eventually cost US dearly : Report",
+      "url": "https://idrw.org/trump-administrations-emboldening-of-pakistan-will-eventually-cost-us-dearly-report/",
+      "published_at": "20260705T034500Z",
+      "source": "idrw.org",
+      "tags": [
+        "PAKISTAN"
+      ]
+    },
+    {
+      "id": "gdelt_6fcb0d380bec5973",
+      "headline": "UE sancționează șase cercetători acuzați că au fost implicați în otrăvirea lui Alexei Navalnîi , principalul rival al lui Putin",
+      "url": "https://adevarul.ro/stiri-externe/europa/ue-sanctioneaza-sase-cercetatori-acuzati-ca-au-2541004.html",
+      "published_at": "20260705T034500Z",
+      "source": "adevarul.ro",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a6956b5e25a94efe",
+      "headline": "O Couto Mixto nomea os seus novos xuíces honorarios nun acto que reivindica o seu legado histórico e transfronteirizo",
+      "url": "https://www.lavozdegalicia.es/noticia/ourense/2026/07/04/span-langgl-couto-mixto-nomea-os-seus-novos-xuices-honorarios-nun-acto-reivindica-seu-legado-historico-transfronteirizospan/00031783175501945193470.htm",
+      "published_at": "20260705T040000Z",
+      "source": "lavozdegalicia.es",
+      "tags": []
+    },
+    {
+      "id": "gdelt_212ecd4676da0d6c",
+      "headline": "Pastor freed from prison in China weeks after Trump requested his release",
+      "url": "https://asia.nikkei.com/spotlight/trump-administration/pastor-freed-from-prison-in-china-weeks-after-trump-requested-his-release2",
+      "published_at": "20260705T040000Z",
+      "source": "asia.nikkei.com",
+      "tags": [
+        "CHINA"
+      ]
+    },
+    {
+      "id": "gdelt_b66e397fbbcabf9c",
+      "headline": "Tổng thống Nga - Mỹ điện đàm hơn 1 giờ , thảo luận loạt vấn đề nóng",
+      "url": "https://dantri.com.vn/the-gioi/tong-thong-nga-my-dien-dam-hon-1-gio-thao-luan-loat-van-de-nong-20260705061524906.htm",
+      "published_at": "20260705T014500Z",
+      "source": "dantri.com.vn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_41ff829c602aabda",
+      "headline": "Ông Trump - Putin trao đổi gì trong cuộc điện đàm 1 , 5 giờ ?",
+      "url": "https://vietnamnet.vn/ong-trump-putin-trao-doi-gi-trong-cuoc-dien-dam-1-5-gio-2532681.html",
+      "published_at": "20260705T023000Z",
+      "source": "vietnamnet.vn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_83fd96d2e69be376",
+      "headline": "الفيدرالي الأمريكي يشدد السياسة النقدية",
+      "url": "https://www.raya.com/2026/07/05/%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D8%B1%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A-%D9%8A%D8%B4%D8%AF%D8%AF-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9-%D8%A7%D9%84%D9%86%D9%82%D8%AF%D9%8A%D8%A9",
+      "published_at": "20260705T001500Z",
+      "source": "raya.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_335e15d5f71defa3",
+      "headline": "乌克兰 ： 证据显示俄导弹无人机使用中制零件",
+      "url": "https://www.epochtimes.com/gb/26/7/4/n14802952.htm",
+      "published_at": "20260705T014500Z",
+      "source": "epochtimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_801487e8de0beeee",
+      "headline": "曝光 【 Inspire 】 手法拿回血汗錢 - 收割機終結者",
+      "url": "https://blog.udn.com:443/785d572d/191050402",
+      "published_at": "20260705T014500Z",
+      "source": "blog.udn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_218f75e115276c59",
+      "headline": "⚠️警惕 「 Inspire 」 穩賺不賠高獲利虚假陷阱 - 原形畢露",
+      "url": "https://blog.udn.com:443/c2c86ba6/191050396",
+      "published_at": "20260705T014500Z",
+      "source": "blog.udn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0c0877fe8fc44b71",
+      "headline": "Сводка событий в Иране и на Ближнем Востоке за 4 июля 2026 г .",
+      "url": "https://anna-news.info/svodka-sobytij-v-irane-i-na-blizhnem-vostoke-za-4-iyulya-2026-g/",
+      "published_at": "20260705T024500Z",
+      "source": "anna-news.info",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d8659936f3636856",
+      "headline": "Trump spricht mit Putin und Selenskyj über Lage in Ukraine | Tiroler Tageszeitung – Aktuelle Nachrichten auf tt . com",
+      "url": "https://www.tt.com/artikel/30937481/trump-spricht-mit-putin-und-selenskyj-ueber-lage-in-ukraine",
+      "published_at": "20260705T013000Z",
+      "source": "tt.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3fc8093034a99c04",
+      "headline": "密令曝光 ！ 美国正施压多国",
+      "url": "https://baijiahao.baidu.com/s?id=1869833284150841105",
+      "published_at": "20260705T014500Z",
+      "source": "baijiahao.baidu.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6a6fccd0f54592f1",
+      "headline": "密令曝光 ！ 美国正施压多国",
+      "url": "https://baijiahao.baidu.com/s?id=1869831652434132921",
+      "published_at": "20260705T030000Z",
+      "source": "baijiahao.baidu.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a0364452edb42ef4",
+      "headline": "국힘  입틀막법 , 표현의 자유 위축 … 시행 즉시 헌법소송",
+      "url": "https://www.etoday.co.kr/news/view/2600302",
+      "published_at": "20260705T023000Z",
+      "source": "etoday.co.kr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_12fb7c7a983759c1",
+      "headline": "Nordkorea : Xi vill arbeta för stabil relation",
+      "url": "https://www.expressen.se/nyheter/expressen-direkt/?post=8bde58df-2999-4791-b0ce-7c00326d15f7",
+      "published_at": "20260705T030000Z",
+      "source": "expressen.se",
+      "tags": []
+    },
+    {
+      "id": "gdelt_891b12b98710d0cb",
+      "headline": "The Myth of Israeli Self - Reliance",
+      "url": "https://slguardian.org/the-myth-of-israeli-self-reliance/",
+      "published_at": "20260705T001500Z",
+      "source": "slguardian.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f08da6983c12963a",
+      "headline": "امریکا ، ایران مذاکرات کا اگلا دور 11 جولائی کو پاکستان میں متوقع",
+      "url": "https://jang.com.pk/news/1596680-topstory",
+      "published_at": "20260705T023000Z",
+      "source": "jang.com.pk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f241485b38d2489d",
+      "headline": "امریکا ، ایران مذاکرات کا اگلا دور 11 جولائی کو پاکستان میں متوقع",
+      "url": "https://jang.com.pk/news/1596680",
+      "published_at": "20260705T024500Z",
+      "source": "jang.com.pk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_052b99e24877fc43",
+      "headline": "İsrail basını : Bakan Ben - Gvir  gözaltına alınma  korkusuyla New York ziyaretini iptal etti",
+      "url": "https://www.aa.com.tr/tr/dunya/israil-basini-bakan-ben-gvir-gozaltina-alinma-korkusuyla-new-york-ziyaretini-iptal-etti/3986400",
+      "published_at": "20260705T023000Z",
+      "source": "aa.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2832c87627b10b47",
+      "headline": "Військова допомога - у чому Україна має нагальну потребу , але не отримає до 2027 року",
+      "url": "https://24tv.ua/viyskova-dopomoga-chomu-ukrayina-maye-nagalnu-potrebu-ne-otrimaye_n3099771",
+      "published_at": "20260705T040000Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ce483f9610adffdd",
+      "headline": "Romance Club提領不出怎麼辦你還在上當 - |星際漫遊|",
+      "url": "https://blog.udn.com:443/a1c0115f/191052825",
+      "published_at": "20260705T034500Z",
+      "source": "blog.udn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_eaf98b5b7c8b9e6a",
+      "headline": "在Romance Club投 資提領不出如何拿回 - |透視生活|",
+      "url": "https://blog.udn.com:443/2733e6b5/191052832",
+      "published_at": "20260705T034500Z",
+      "source": "blog.udn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9d6c5acc91440c36",
+      "headline": "Applications open for â ‚ ¬500 , 000 North - South Business Cooperation Awards",
+      "url": "https://www.businesspost.ie/commercial-reports/applications-open-for-e500000-north-south-business-cooperation-awards/",
+      "published_at": "20260705T030000Z",
+      "source": "businesspost.ie",
+      "tags": []
+    },
+    {
       "id": "gdelt_783539156087017f",
       "headline": "Órganos que fuera del cuerpo pueden seguir funcionando y por cuánto tiempo",
       "url": "https://laverdadnoticias.com/pulso-viral/curiosidades-y-hacks/organos-funcionando-cuerpo",
       "published_at": "20260705T000000Z",
       "source": "laverdadnoticias.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_76a620af3e75538e",
+      "headline": "Какие области Армении самые проблемные и как решить их проблемы ?",
+      "url": "https://vestikavkaza.ru/articles/kakie-oblasti-armenii-samye-problemnye-i-kak-resit-ih-problemy.html",
+      "published_at": "20260705T020000Z",
+      "source": "vestikavkaza.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bd2d75da937fb1e3",
+      "headline": "İsrail basını : Bakan Ben - Gvir  gözaltına alınma  korkusuyla New York ziyaretini iptal etti",
+      "url": "https://www.haberler.com/guncel/asiri-sagci-israil-bakani-ben-gvir-gozalti-endisesiyle-abd-ziyaretini-iptal-etti-20020160-haberi/",
+      "published_at": "20260705T014500Z",
+      "source": "haberler.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_416b310b0c558b9b",
+      "headline": "انقسام حول أولويات بريطانيا .. الدفاع أم الاقتصاد ؟",
+      "url": "https://www.aljazeera.net/politics/2026/7/5/%D8%A7%D9%86%D9%82%D8%B3%D8%A7%D9%85-%D8%AD%D9%88%D9%84-%D8%A3%D9%88%D9%84%D9%88%D9%8A%D8%A7%D8%AA-%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A%D8%A7-%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9-%D8%A3%D9%85",
+      "published_at": "20260705T001500Z",
+      "source": "aljazeera.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_14f4a4093fdb086c",
+      "headline": "Путин созвонился с Трампом в День независимости США",
+      "url": "https://www.vedomosti.ru/politics/articles/2026/07/05/1211241-putin-sozvonilsya-s-trampom",
+      "published_at": "20260705T001500Z",
+      "source": "vedomosti.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d346973f2bdcfa5d",
+      "headline": "طائرة إنذار مبكر تابعة للناتو تحلق في منطقة البحر الأسود قرب الحدود الرومانية الأوكرانية – قناة المنار",
+      "url": "https://www.almanar.com.lb/article/998357/",
+      "published_at": "20260705T020000Z",
+      "source": "almanar.com.lb",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c5dbe459f0e6c645",
+      "headline": "Комментарий помощника Президента России Юрия Ушакова по итогам телефонного разговора Владимира Путина с Президентом США Дональдом Трампом",
+      "url": "http://kremlin.ru/events/president/news/80225",
+      "published_at": "20260705T001500Z",
+      "source": "kremlin.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bf19e91979210274",
+      "headline": "Трамп и Путин провели телефонный разговор : в Кремле снова солгали о фронте и переговорах подробности",
+      "url": "https://focus.ua/voennye-novosti/759846-tramp-i-putin-proveli-telefonnyy-razgovor-v-kremle-snova-solgali-o-fronte-i-peregovorah-podrobnosti",
+      "published_at": "20260705T020000Z",
+      "source": "focus.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_377bc8de46d0e225",
+      "headline": "Trump telefoniert mit Putin und Selenskyj und bietet Vermittlung an",
+      "url": "https://www.spiegel.de/ausland/trump-telefoniert-mit-putin-und-selenskyj-und-bietet-vermittlung-an-a-3ed99d27-6d3a-4de9-9137-3758ad3133c7",
+      "published_at": "20260705T040000Z",
+      "source": "spiegel.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_dcd4a4514931c8e6",
+      "headline": "أحمد سيد أحمد : الاتصال بين ترامب وبوتين لا يعني الاقتراب من تسوية للحرب",
+      "url": "https://www.elwatannews.com/news/details/8314439",
+      "published_at": "20260705T040000Z",
+      "source": "elwatannews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5763e637766942aa",
+      "headline": "Abbasi Shaheed house officers at breaking point",
+      "url": "https://tribune.com.pk/story/2616567/abbasi-shaheed-house-officers-at-breaking-point",
+      "published_at": "20260705T030000Z",
+      "source": "tribune.com.pk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_64478eae9082e020",
+      "headline": "Путин указал Трампу на ложь Украины и Евросоюза про ситуацию на фронте",
+      "url": "https://www.m24.ru/news/05072026/917074",
+      "published_at": "20260705T010000Z",
+      "source": "m24.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_328025cf92dbbf2f",
+      "headline": "Pakistan to host next round of US - Iran talks on July 11 : report",
+      "url": "http://europe.chinadaily.com.cn/a/202607/04/WS6a491cc5a310986e2b463903.html",
+      "published_at": "20260705T020000Z",
+      "source": "europe.chinadaily.com.cn",
+      "tags": [
+        "IRAN",
+        "PAKISTAN"
+      ]
+    },
+    {
+      "id": "gdelt_2b38aeb9e7beea21",
+      "headline": "Pakistan to host next round of US - Iran talks on July 11 : report",
+      "url": "http://global.chinadaily.com.cn/a/202607/04/WS6a491cc5a310986e2b463903.html",
+      "published_at": "20260705T024500Z",
+      "source": "global.chinadaily.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4f7f901817c03017",
+      "headline": "Eve çıkmanın maliyeti 120 bin lira ! Fahiş depozito ve yıllık peşin kiraya sınır getirilmeli",
+      "url": "https://www.turkiyegazetesi.com.tr/ekonomi/fahis-depozito-ve-yillik-pesin-kiraya-sinir-getirilmeli-1801332",
+      "published_at": "20260705T020000Z",
+      "source": "turkiyegazetesi.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6e48f84ea0b0639e",
+      "headline": "Pakistan to host next round of US - Iran talks on July 11 -- Saudi media",
+      "url": "http://www.china.org.cn/2026-07/05/content_118583370.shtml",
+      "published_at": "20260705T024500Z",
+      "source": "china.org.cn",
+      "tags": [
+        "SAUDI_ARABIA"
+      ]
+    },
+    {
+      "id": "gdelt_d94a0ebca6826fad",
+      "headline": "Operation Sindoor : How India First Fully Integrated Tri - Service Strike Redefined Modern Warfare",
+      "url": "https://idrw.org/operation-sindoor-how-indias-first-fully-integrated-tri-service-strike-redefined-modern-warfare/",
+      "published_at": "20260705T034500Z",
+      "source": "idrw.org",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
+      "id": "gdelt_9907e9e45b00b014",
+      "headline": "« Ответ будет жёстким »: дроны НАТО атаковали Петербург с баз в Прибалтике",
+      "url": "https://aif.ru/society/-otvet-budet-zhyostkim-drony-nato-atakovali-peterburg-s-baz-v-pribaltike",
+      "published_at": "20260705T040000Z",
+      "source": "aif.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_518ddb1db79c3d98",
+      "headline": "الكرملين : بوتين وترامب بحثا هاتفياً العلاقات الثنائية والملفات الدولية والإقليمية",
+      "url": "https://sana.sy/international/2519200/",
+      "published_at": "20260705T023000Z",
+      "source": "sana.sy",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ef28f92b8b2675a0",
+      "headline": "Những vấn đề chính trong cuộc điện đàm giữa Tổng thống Mỹ và Nga",
+      "url": "https://baotintuc.vn/the-gioi/nhung-van-de-chinh-trong-cuoc-dien-dam-giua-tong-thong-my-va-nga-20260705093423127.htm",
+      "published_at": "20260705T030000Z",
+      "source": "baotintuc.vn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_863278872d5bed80",
+      "headline": "好评中国｜数字友好 ， 搭建数联全球发展新通路 _ 原创阵地 _ 齐鲁时评 _ 齐鲁网",
+      "url": "https://pinglun.iqilu.com/yuanchuang/2026/0705/5926565.shtml",
+      "published_at": "20260705T034500Z",
+      "source": "pinglun.iqilu.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3fb8a1dac32cc34d",
+      "headline": "武器購入元 米国１位 / ２５年度防衛省 前年度比１１００億円増 / 衛星企業とも初契約",
+      "url": "https://www.jcp.or.jp/akahata/aik26/2026-07-05/2026070501_01_0.php",
+      "published_at": "20260705T034500Z",
+      "source": "jcp.or.jp",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c47c9db713cf25cf",
+      "headline": "解析喪屍煙彈 ／ 追喪屍煙彈原料來源 刑事局 ： 集中印度與東南亞 | 社會",
+      "url": "https://www.cna.com.tw/news/asoc/202607050030.aspx",
+      "published_at": "20260705T034500Z",
+      "source": "cna.com.tw",
       "tags": []
     },
     {
@@ -149,11 +818,183 @@
       "tags": []
     },
     {
-      "id": "gdelt_f761794eb5081ce3",
-      "headline": "وسيم أحمد : مشاركة هيثم حسن أمام أستراليا قانوني وتأخر تغيير الجنسية الرياضية حرمه من أول مباراتين",
-      "url": "https://www.vetogate.com/5687339",
-      "published_at": "20260705T000000Z",
-      "source": "vetogate.com",
+      "id": "gdelt_ed46822c41779beb",
+      "headline": "Dogane , misure premiali per ladempimento spontaneo",
+      "url": "https://www.italiaoggi.it/diritto-e-fisco/fisco/dogane-misure-premiali-per-ladempimento-spontaneo-rhay17in",
+      "published_at": "20260705T030000Z",
+      "source": "italiaoggi.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_95f4df42da9e0d89",
+      "headline": "Token经济究竟如何落地 ？ 润建股份把答案带到了WAIC",
+      "url": "https://www.163.com/dy/article/L12O58Q605119C3G.html",
+      "published_at": "20260705T034500Z",
+      "source": "163.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_231a6fcc9d0647e7",
+      "headline": "警惕SGTRD提款受阻 真實經歷 - 航海日誌",
+      "url": "https://blog.udn.com:443/25bc5637/191051969",
+      "published_at": "20260705T030000Z",
+      "source": "blog.udn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4c4bb7f33037c448",
+      "headline": "Rusia Sebut Selat Hormuz Adalah  Senjata Nuklir - nya Iran",
+      "url": "https://international.sindonews.com/read/1725001/43/rusia-sebut-selat-hormuz-adalah-senjata-nuklir-nya-iran-1783210031",
+      "published_at": "20260705T024500Z",
+      "source": "international.sindonews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_93bc44ec915e3896",
+      "headline": "పుంజుకున్న నైరుతి",
+      "url": "https://www.sakshi.com/telugu-news/national/heavy-monsoon-rains-have-inundated-parts-india-mumbai-2834342",
+      "published_at": "20260705T024500Z",
+      "source": "sakshi.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4b193f11f8db9fb3",
+      "headline": "North Korea Kim oversees latest naval weapons tests",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/07/05/north-koreas-kim-oversees-latest-naval-weapons-tests",
+      "published_at": "20260705T024500Z",
+      "source": "freemalaysiatoday.com",
+      "tags": [
+        "NORTH_KOREA"
+      ]
+    },
+    {
+      "id": "gdelt_848a0868c784929b",
+      "headline": "شہید خامنہ ای کے دیدار کیلئے مجمع امڈ آیا ، انتقام کے نعرے",
+      "url": "https://jang.com.pk/news/1596612",
+      "published_at": "20260705T024500Z",
+      "source": "jang.com.pk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_de67e483829a82ed",
+      "headline": "iFLYTEK CO ., LTD .: iFLYTEK Officially Launches Open Platform in Central Asia , Positioning Uzbekistan as a New Regional AI Hub",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-07/68943813-iflytek-co-ltd-iflytek-officially-launches-open-platform-in-central-asia-positioning-uzbekistan-as-a-new-regional-ai-hub-399.htm",
+      "published_at": "20260705T023000Z",
+      "source": "finanznachrichten.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e6bd55b84b43a916",
+      "headline": "Pastor freed from prison in China weeks after Trump requested his release – Winnipeg Free Press",
+      "url": "https://www.winnipegfreepress.com/arts-and-life/life/faith/2026/07/04/pastor-freed-from-prison-in-china-weeks-after-trump-requested-his-release",
+      "published_at": "20260705T034500Z",
+      "source": "winnipegfreepress.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cdcdd7544d27e68c",
+      "headline": "Путин и Трамп поговорили по телефону : конструктивный разговор по инициативе США , обсуждение ситуации на Украине , приглашение Трампа и Уиткоффа в Москву , разговор Трампа и Зеленского",
+      "url": "https://lenta.ru/news/2026/07/05/putin-i-tramp-pogovorili-po-telefonu-prezidenty-obsudili-situatsiyu-na-ukraine-i-perspektivy-sotrudnichestva/",
+      "published_at": "20260705T023000Z",
+      "source": "lenta.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c8d502a12bbf6c02",
+      "headline": "Nga tuyên bố bẻ gãy đòn tập kích quy mô lớn của Ukraine , bắn hạ hơn 500 mục tiêu",
+      "url": "http://vov.vn/the-gioi/nga-tuyen-bo-be-gay-don-tap-kich-quy-mo-lon-cua-ukraine-ban-ha-hon-500-muc-tieu-post1312482.vov",
+      "published_at": "20260705T014500Z",
+      "source": "vov.vn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_200decbc1cef179e",
+      "headline": "Tổng thống Mỹ Trump điện đàm với lãnh đạo Nga và Ukraine trước thượng đỉnh NATO",
+      "url": "https://baomoi.com/tong-thong-my-trump-dien-dam-voi-lanh-dao-nga-va-ukraine-truoc-thuong-dinh-nato-c55547316.epi",
+      "published_at": "20260705T020000Z",
+      "source": "baomoi.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f0d6d67d38802b9e",
+      "headline": "Напад Росії на НАТО – президент Латвії Едгарс Рінкевичс закликав Альянс надіслати РФ чіткий сигнал",
+      "url": "https://www.obozrevatel.com/ukr/politics-news/mi-perebuvaemo-v-stani-naprugi-ta-stresu-lider-latvii-zaklikav-nato-poperediti-rosiyu.htm",
+      "published_at": "20260705T010000Z",
+      "source": "obozrevatel.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_eb18d1a1f4d567ad",
+      "headline": "Нападение России на НАТО – президент Латвии Эдгарс Ринкевичс призвал Альянс послать РФ четкий сигнал",
+      "url": "https://www.obozrevatel.com/politics-news/myi-nahodimsya-v-sostoyanii-napryazheniya-i-stressa-lider-latvii-prizval-nato-predupredit-rossiyu.htm",
+      "published_at": "20260705T014500Z",
+      "source": "obozrevatel.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b3442599c92ad76c",
+      "headline": "Pastor freed from prison in China weeks after Trump requested his release",
+      "url": "https://www.wsbradio.com/news/world/pastor-freed-prison/DKW6VIJK54Z2LBOJZE7BOI6EN4/",
+      "published_at": "20260705T034500Z",
+      "source": "wsbradio.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5dee228dc529687a",
+      "headline": "Đăng ảnh người khác lên Facebook để bóc phốt có thể bị phạt bao nhiêu tiền ?",
+      "url": "https://danviet.vn/dang-anh-nguoi-khac-len-facebook-de-boc-phot-co-the-bi-phat-bao-nhieu-tien-d1440572.html",
+      "published_at": "20260705T014500Z",
+      "source": "danviet.vn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_243e3c3c4f9c5d3e",
+      "headline": "Тръмп и Путин с извънреден разговор за Украйна и Иран ᐉ Новини от Fakti . bg - Свят",
+      "url": "https://fakti.bg/world/1065440-tramp-i-putin-s-izvanreden-razgovor-za-ukraina-i-iran",
+      "published_at": "20260705T014500Z",
+      "source": "fakti.bg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_10a145f051b17b27",
+      "headline": "用虚拟货币非法换汇超2亿 ！ 揭秘跨境  对敲  换汇黑产|外汇|外币|虚拟币",
+      "url": "https://www.163.com/dy/article/L12I2SE60514R9OJ.html",
+      "published_at": "20260705T020000Z",
+      "source": "163.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_aede8d4d97f099d6",
+      "headline": "Trump says Netanyahu  knows who the boss i ahead of possible White House meeting",
+      "url": "https://www.moneycontrol.com/world/trump-says-netanyahu-knows-who-the-boss-is-ahead-of-possible-white-house-meeting-article-13966204.html",
+      "published_at": "20260705T034500Z",
+      "source": "moneycontrol.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0de4ded47ba90ad9",
+      "headline": "تداول حساب قديم لإمام عاشور يثير ضجة على « فيسبوك ».. ما علاقته برونالدو ؟",
+      "url": "https://www.elwatannews.com/news/details/8314423",
+      "published_at": "20260705T020000Z",
+      "source": "elwatannews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f7b03a68ebdfb8c5",
+      "headline": "Ukraine hits major oil terminal 500 miles inside Russia , disputes Putin claim of capturing frontline town | World News",
+      "url": "https://indianexpress.com/article/world/ukraine-russia-war-st-petersburg-oil-terminal-strike-kostiantynivka-10771901/",
+      "published_at": "20260705T010000Z",
+      "source": "indianexpress.com",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "gdelt_e7944f065eea7ec2",
+      "headline": "巴勒斯坦人在西岸建设家园 以色列定居者违法侵占",
+      "url": "https://www.zaobao.com.sg/news/world/story20260705-9314091",
+      "published_at": "20260705T001500Z",
+      "source": "zaobao.com.sg",
       "tags": []
     },
     {
@@ -165,144 +1006,32 @@
       "tags": []
     },
     {
-      "id": "gdelt_8cdb4ea94c0bf04f",
-      "headline": "올해만 1조 싹쓸이한 北라자루스 , 이번엔  가짜 코드  로 전세계 개발자 낚았다",
-      "url": "https://biz.heraldcorp.com/article/10798215",
-      "published_at": "20260705T000000Z",
-      "source": "biz.heraldcorp.com",
+      "id": "gdelt_bc99d5f26a06df8c",
+      "headline": "Tổng thống Mỹ Trump điện đàm với lãnh đạo Nga và Ukraine trước thượng đỉnh NATO",
+      "url": "https://tienphong.vn/tong-thong-my-trump-dien-dam-voi-lanh-dao-nga-va-ukraine-truoc-thuong-dinh-nato-post1857032.tpo",
+      "published_at": "20260705T010000Z",
+      "source": "tienphong.vn",
       "tags": []
     },
     {
-      "id": "gdelt_13fcc440893a219f",
-      "headline": "当着中方的面 ， 菲律宾许下三点承诺",
-      "url": "https://news.sina.com.cn/c/2026-07-05/doc-inifszch2886728.shtml",
-      "published_at": "20260705T000000Z",
-      "source": "news.sina.com.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d3e56b3c741fe290",
-      "headline": "_ 江波龙 ( 301308 ) 股吧 _ 东方财富网股吧",
-      "url": "https://guba.eastmoney.com/o/news,301308,1737907536.html",
-      "published_at": "20260705T000000Z",
-      "source": "guba.eastmoney.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4899f03f202979b4",
-      "headline": "Nigel Farage  did not declare financial support from convicted criminal",
-      "url": "https://www.lancashiretelegraph.co.uk/news/national/26253751.nigel-farage-did-not-declare-financial-support-convicted-criminal/",
-      "published_at": "20260705T000000Z",
-      "source": "lancashiretelegraph.co.uk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_755e2f160a0b3834",
-      "headline": "Chevron vs . Exxon Mobil : Which Energy Stock Is a Better Buy in 2026 ?",
-      "url": "https://www.fool.com/coverage/better-buy/2026/07/04/chevron-vs-exxon-mobil-which-energy-stock-is-a-better-buy-in-2026/?source=iedfolrf0000001",
-      "published_at": "20260705T000000Z",
-      "source": "fool.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ca93771bd841c080",
-      "headline": "Πούτιν για πόλεμος στην Ουκρανία και ρόλο Τραμπ",
-      "url": "https://www.sbctv.gr/2026/07/%CF%80%CE%BF%CE%BB%CE%B5%CE%BC%CE%BF%CF%82-%CF%83%CF%84%CE%B7%CE%BD-%CE%BF%CF%85%CE%BA%CF%81%CE%B1%CE%BD%CE%B9%CE%B1-5/",
-      "published_at": "20260705T000000Z",
-      "source": "sbctv.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_76adefb8494b9438",
-      "headline": "نادي الأسير : الاحتلال يحاول تصفية د . أبو صفية",
-      "url": "https://arn.ps/post/304104.html",
-      "published_at": "20260705T000000Z",
-      "source": "arn.ps",
-      "tags": []
-    },
-    {
-      "id": "gdelt_77de670b4b060278",
-      "headline": "Nigel Farage  did not declare financial support from convicted criminal",
-      "url": "https://www.fenlandcitizen.co.uk/national/nigel-farage-did-not-declare-financial-support-from-convicted-criminal-168888/",
-      "published_at": "20260705T000000Z",
-      "source": "fenlandcitizen.co.uk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_36dd9d205bbd01e3",
-      "headline": "Nigel Farage  did not declare financial support from convicted criminal",
-      "url": "https://www.wiltshiretimes.co.uk/news/national/26253751.nigel-farage-did-not-declare-financial-support-convicted-criminal/",
-      "published_at": "20260705T000000Z",
-      "source": "wiltshiretimes.co.uk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_95c7e87268504d64",
-      "headline": "Nigel Farage  did not declare financial support from convicted criminal",
-      "url": "https://www.dailyecho.co.uk/news/national/26253751.nigel-farage-did-not-declare-financial-support-convicted-criminal/",
-      "published_at": "20260705T000000Z",
-      "source": "dailyecho.co.uk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b65b68f207c05413",
-      "headline": "Nigel Farage  did not declare financial support from convicted criminal  | East London and West Essex Guardian Series",
-      "url": "https://www.guardian-series.co.uk/news/national/26253751.nigel-farage-did-not-declare-financial-support-convicted-criminal/",
-      "published_at": "20260705T000000Z",
-      "source": "guardian-series.co.uk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6933ba687f56673c",
-      "headline": "Nigel Farage  did not declare financial support from convicted criminal",
-      "url": "https://www.keighleynews.co.uk/news/national/26253751.nigel-farage-did-not-declare-financial-support-convicted-criminal/",
-      "published_at": "20260705T000000Z",
-      "source": "keighleynews.co.uk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7fe85a9b43927d27",
-      "headline": "Nigel Farage  did not declare financial support from convicted criminal",
-      "url": "https://www.chardandilminsternews.co.uk/news/national/26253751.nigel-farage-did-not-declare-financial-support-convicted-criminal/",
-      "published_at": "20260705T000000Z",
-      "source": "chardandilminsternews.co.uk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d941f1499fb47fa3",
-      "headline": "Nigel Farage  did not declare financial support from convicted criminal  | Dumbarton and Vale of Leven Reporter",
-      "url": "https://www.dumbartonreporter.co.uk/news/national/26253751.nigel-farage-did-not-declare-financial-support-convicted-criminal/",
-      "published_at": "20260705T000000Z",
-      "source": "dumbartonreporter.co.uk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_915fba3745b05ecb",
-      "headline": "This decade will be India defining era for semiconductor , electronics sectors : Gujarat CM Patel",
-      "url": "http://www.indiagazette.com/news/279167283/this-decade-will-be-india-defining-era-for-semiconductor-electronics-sectors-gujarat-cm-patel",
-      "published_at": "20260705T000000Z",
-      "source": "indiagazette.com",
+      "id": "gdelt_aa0153a93c8f820d",
+      "headline": "North Korea Kim Oversees Latest Naval Weapons Tests",
+      "url": "https://www.deccanchronicle.com/world/asia/north-koreas-kim-oversees-latest-naval-weapons-tests-1968502",
+      "published_at": "20260705T034500Z",
+      "source": "deccanchronicle.com",
       "tags": [
-        "INDIA"
+        "NORTH_KOREA"
       ]
     },
     {
-      "id": "gdelt_31a08990d2c97fdd",
-      "headline": "This decade will be India defining era for semiconductor , electronics sectors : Gujarat CM Patel",
-      "url": "http://www.calcuttanews.net/news/279167283/this-decade-will-be-india-defining-era-for-semiconductor-electronics-sectors-gujarat-cm-patel",
-      "published_at": "20260705T000000Z",
-      "source": "calcuttanews.net",
+      "id": "gdelt_4c34fdeff35534f5",
+      "headline": "Thousands protest in Germany as far - right AfD sets sights on power",
+      "url": "https://www.koreaherald.com/article/10798365",
+      "published_at": "20260705T030000Z",
+      "source": "koreaherald.com",
       "tags": [
-        "INDIA"
+        "GERMANY"
       ]
-    },
-    {
-      "id": "gdelt_5412c3d8112684f8",
-      "headline": "When  Ubuntu  turns violent : Can African nations legally , politically punish South Africa for xenophobic attacks ?",
-      "url": "https://www.maravipost.com/when-ubuntu-turns-violent-can-african-nations-legally-politically-punish-south-africa-for-xenophobic-attacks/",
-      "published_at": "20260705T000000Z",
-      "source": "maravipost.com",
-      "tags": []
     }
   ]
 }
