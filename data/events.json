@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-07-09T04:12:19Z",
+    "generated_at_utc": "2026-07-09T07:52:17Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -33,12 +33,45 @@
   },
   "events": [
     {
-      "id": "gdelt_d7ba562bd67fc9b6",
-      "headline": "Δέσμευση του NATO για στρατιωτική βοήθεια 140 δισ . ευρώ στην Ουκρανία και άδεια παραγωγής Patriot",
-      "url": "https://www.protothema.gr/world/article/1847877/desmeusi-tou-nato-gia-stratiotiki-voitheia-140-dis-euro-stin-oukrania-kai-adeia-paragogis-patriot/",
-      "published_at": "20260709T001500Z",
-      "source": "protothema.gr",
-      "tags": []
+      "id": "gdelt_81db6a5deaac9562",
+      "headline": "Never Tariffied : Spotlight On Singapore : A Balancing Act Between U . S . And China Regulatory Regimes ( Podcast )",
+      "url": "https://www.mondaq.com:443/unitedstates/export-controls-trade-investment-sanctions/1814062/never-tariffied-spotlight-on-singapore-a-balancing-act-between-us-and-china-regulatory-regimes-podcast",
+      "published_at": "20260709T061500Z",
+      "source": "mondaq.com",
+      "tags": [
+        "CHINA"
+      ]
+    },
+    {
+      "id": "gdelt_c2417f6ce1e1c0b5",
+      "headline": "Ba Lan cảnh báo Ukraine về khả năng gia nhập EU",
+      "url": "https://vnexpress.net/ba-lan-canh-bao-ukraine-ve-kha-nang-gia-nhap-eu-5095266.html",
+      "published_at": "20260709T044500Z",
+      "source": "vnexpress.net",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_7af56a7ddab10876",
+      "headline": "Iran - Krieg : „ Müssen uns auf dauerhaft hohe Ölpreise einstellen  – Hofreiter warnt wegen neuer Eskalation",
+      "url": "https://www.welt.de/politik/ausland/article6a4f2eccbb0cf80de56a2eef/iran-krieg-muessen-uns-auf-dauerhaft-hohe-oelpreise-einstellen-hofreiter-warnt-wegen-neuer-eskalation.html",
+      "published_at": "20260709T060000Z",
+      "source": "welt.de",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_ce82047d052d4add",
+      "headline": "India - Pakistan war was going to go nuclear : Trump repeats mediation claim",
+      "url": "https://www.moneycontrol.com/world/india-pakistan-war-was-going-to-go-nuclear-donald-trump-repeats-mediation-claim-article-13969441.html",
+      "published_at": "20260709T050000Z",
+      "source": "moneycontrol.com",
+      "tags": [
+        "INDIA",
+        "PAKISTAN"
+      ]
     },
     {
       "id": "gdelt_d137dfb24b36b69f",
@@ -59,22 +92,46 @@
       "tags": []
     },
     {
-      "id": "gdelt_04a56833e88cf4ac",
-      "headline": "RTS Link bakal ubah perjalanan ulang - alik Johor - Singapura",
-      "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/09/rts-link-bakal-ubah-perjalanan-ulang-alik-johor-singapura",
-      "published_at": "20260709T014500Z",
-      "source": "freemalaysiatoday.com",
+      "id": "gdelt_44f52951e6a428b4",
+      "headline": "涉针对新加坡人跨国诈骗活动 两大马男今被控 | 新加坡 | 国际",
+      "url": "https://www.orientaldaily.com.my/news/spr/2026/07/09/831590",
+      "published_at": "20260709T051500Z",
+      "source": "orientaldaily.com.my",
       "tags": []
     },
     {
-      "id": "gdelt_b346b5219b7c2f1e",
-      "headline": "EthSwitch explores Huawei partnership on AI and China payment connectivity",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ethswitch-explores-huawei-partnership-ai-234059586.html",
-      "published_at": "20260709T001500Z",
-      "source": "finance.yahoo.com",
+      "id": "gdelt_ad796097250b666d",
+      "headline": "Nigeria : Senate Backs 15 - Year Jail Term , Asset Forfeiture for Fake Drug Offenders",
+      "url": "https://allafrica.com/stories/202607090030.html",
+      "published_at": "20260709T043000Z",
+      "source": "allafrica.com",
       "tags": [
-        "CHINA"
+        "NIGERIA"
       ]
+    },
+    {
+      "id": "gdelt_75913bb5ce45b1a5",
+      "headline": "Израиль уступит преимущество на Ближнем Востоке ?",
+      "url": "https://vestikavkaza.ru/analytics/izrail-ustupit-preimusestvo-na-bliznem-vostoke.html",
+      "published_at": "20260709T051500Z",
+      "source": "vestikavkaza.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_da3dd080610818ce",
+      "headline": "Москвичи собрали более 5 , 1 млн необходимых товаров для жителей новых регионов",
+      "url": "https://iz.ru/2129614/2026-07-09/moskvichi-sobrali-bolee-51-mln-neobkhodimykh-tovarov-dlia-zhitelei-novykh-regionov",
+      "published_at": "20260709T053000Z",
+      "source": "iz.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6a3c1b21c0a3a70b",
+      "headline": "Hyundai Card tests stablecoin transfer for Hyundai Motor units",
+      "url": "https://www.koreaherald.com/article/10803760",
+      "published_at": "20260709T060000Z",
+      "source": "koreaherald.com",
+      "tags": []
     },
     {
       "id": "gdelt_522f9d20d650971e",
@@ -83,16 +140,6 @@
       "published_at": "20260709T021500Z",
       "source": "dealstreetasia.com",
       "tags": []
-    },
-    {
-      "id": "gdelt_d2870638bd345029",
-      "headline": "War On Iran : Both Sides Declare Their MoU To Be Ineffective – Moon of Alabama",
-      "url": "https://www.moonofalabama.org/2026/07/war-on-iran-both-sides-declare-their-mou-to-be-ineffective.html/comment-page-2",
-      "published_at": "20260709T013000Z",
-      "source": "moonofalabama.org",
-      "tags": [
-        "IRAN"
-      ]
     },
     {
       "id": "gdelt_70d68a53df778261",
@@ -106,6 +153,24 @@
       ]
     },
     {
+      "id": "gdelt_958a80c68494f1ef",
+      "headline": "War On Iran : Both Sides Declare Their MoU To Be Ineffective – Moon of Alabama",
+      "url": "https://www.moonofalabama.org/2026/07/war-on-iran-both-sides-declare-their-mou-to-be-ineffective.html/comment-page-3",
+      "published_at": "20260709T054500Z",
+      "source": "moonofalabama.org",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_b2db62cada710a16",
+      "headline": "Как москвичи поддерживают жителей новых и приграничных регионов России",
+      "url": "https://vm.ru/news/1341089-kak-moskvichi-podderzhivayut-zhitelej-novyh-i-prigranichnyh-regionov-rossii",
+      "published_at": "20260709T064500Z",
+      "source": "vm.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_beffbb8ed27a7e4a",
       "headline": "They were going to go nuclear : Trump reiterates claim of ending India - Pakistan conflict",
       "url": "https://economictimes.indiatimes.com/news/international/global-trends/they-were-going-to-go-nuclear-trump-reiterates-claim-of-ending-india-pakistan-conflict/articleshow/132275577.cms",
@@ -117,544 +182,119 @@
       ]
     },
     {
+      "id": "gdelt_36cfe4f570d9b9f0",
+      "headline": "Nga tập kích lớn , đồng minh NATO nói  hết vũ khí  cho Ukraine - Moscow : Chiến sự kết thúc nếu Kiev làm 1 điều",
+      "url": "https://soha.vn/nga-tap-kich-lon-dong-minh-nato-noi-het-vu-khi-cho-ukraine-moscow-chien-su-ket-thuc-neu-kiev-lam-1-dieu-198260708152609819.htm",
+      "published_at": "20260709T060000Z",
+      "source": "soha.vn",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_3bb14aabbfcce5c4",
+      "headline": "Trump Repeats Claim of Ending India - Pakistan Conflict",
+      "url": "https://www.deccanchronicle.com/world/americas/trump-repeats-claim-of-ending-india-pakistan-conflict-1969466",
+      "published_at": "20260709T043000Z",
+      "source": "deccanchronicle.com",
+      "tags": [
+        "PAKISTAN"
+      ]
+    },
+    {
+      "id": "gdelt_790fd38c4271f7e6",
+      "headline": "They were going to go nuclear : Trump reiterates claim of ending India - Pakistan conflict",
+      "url": "https://news.webindia123.com/news/Articles/World/20260709/4472631.html",
+      "published_at": "20260709T051500Z",
+      "source": "news.webindia123.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_34275ee91a5c3335",
       "headline": "They were going to go nuclear : Trump reiterates claim of ending India - Pakistan conflict",
       "url": "https://aninews.in/news/world/europe/they-were-going-to-go-nuclear-trump-reiterates-claim-of-ending-india-pakistan-conflict20260709071612/",
       "published_at": "20260709T031500Z",
       "source": "aninews.in",
-      "tags": [
-        "INDIA",
-        "PAKISTAN"
-      ]
-    },
-    {
-      "id": "gdelt_e37ed9371c17f38d",
-      "headline": "Δέσμευση του NATO για στρατιωτική βοήθεια 140 δισ . ευρώ στην Ουκρανία και άδεια παραγωγής Patriot – Η αντίδραση της Ρωσίας – news . makedonias . gr",
-      "url": "https://news.makedonias.gr/2026/07/2192426/",
-      "published_at": "20260709T014500Z",
-      "source": "news.makedonias.gr",
       "tags": []
     },
     {
-      "id": "gdelt_30ba28801c05a5c6",
-      "headline": "Rahm Emanuel anti - Israel bash wont win over the jew - hating Dems he trying to appease",
-      "url": "https://nypost.com/2026/07/08/opinion/rahm-emanuels-anti-israel-bash-wont-win-over-the-jew-hating-dems-hes-trying-to-appease/",
-      "published_at": "20260709T003000Z",
-      "source": "nypost.com",
-      "tags": [
-        "ISRAEL"
-      ]
-    },
-    {
-      "id": "gdelt_327e3fc78c220364",
-      "headline": "AS dan Iran kembali saling serang di tengah eskalasi ketegangan",
-      "url": "https://www.antaranews.com/berita/5641615/as-dan-iran-kembali-saling-serang-di-tengah-eskalasi-ketegangan",
-      "published_at": "20260709T004500Z",
-      "source": "antaranews.com",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_b37fcbb0b75efbe5",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wsyr.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T223000Z",
-      "source": "wsyr.iheart.com",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_ea074ccc8142deab",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://woc1420.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T223000Z",
-      "source": "woc1420.iheart.com",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_c083a93d32a50d3b",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://kfyr.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T223000Z",
-      "source": "kfyr.iheart.com",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_0d483a0534185407",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wrak.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T223000Z",
-      "source": "wrak.iheart.com",
+      "id": "gdelt_58e3d11b05af62ca",
+      "headline": "Swift Blockchain Ledger Ready for Use as 17 Banks Set to Pioneer Tokenised Cross - Border Payments on Trusted Global Infrastructure",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-07/68981362-swift-s-blockchain-ledger-ready-for-use-as-17-banks-set-to-pioneer-tokenised-cross-border-payments-on-trusted-global-infrastructure-004.htm",
+      "published_at": "20260709T073000Z",
+      "source": "finanznachrichten.de",
       "tags": []
     },
     {
-      "id": "gdelt_4f87a6f3ad3a36ff",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://newsradio710.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T223000Z",
-      "source": "newsradio710.iheart.com",
+      "id": "gdelt_a6fd3dff7b427688",
+      "headline": "Rutte und die Selbstachtung vor Trump : NATO - Chef weicht pikanter Frage aus",
+      "url": "https://www.merkur.de/politik/unterwuerfig-vor-trump-pikante-frage-bringt-rutte-auf-nato-gipfel-in-bedraengnis-zr-94389139.html",
+      "published_at": "20260709T044500Z",
+      "source": "merkur.de",
       "tags": []
     },
     {
-      "id": "gdelt_3b578093948f0140",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions | News Radio 1410 AM & 100 . 9 FM",
-      "url": "https://newsradio1410.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T223000Z",
-      "source": "newsradio1410.iheart.com",
+      "id": "gdelt_846257e71be09cc0",
+      "headline": "Rutte und die Selbstachtung vor Trump : NATO - Chef weicht pikanter Frage aus",
+      "url": "http://www.merkur.de/politik/unterwuerfig-vor-trump-pikante-frage-bringt-rutte-auf-nato-gipfel-in-bedraengnis-zr-94389139.html",
+      "published_at": "20260709T044500Z",
+      "source": "merkur.de",
       "tags": []
     },
     {
-      "id": "gdelt_6ac747f4dccfeff4",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://1150wima.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T223000Z",
-      "source": "1150wima.iheart.com",
+      "id": "gdelt_91e6c6241d7c5c8a",
+      "headline": "Rutte und die Selbstachtung vor Trump : NATO - Chef weicht pikanter Frage aus",
+      "url": "https://www.hna.de/politik/unterwuerfig-vor-trump-pikante-frage-bringt-rutte-auf-nato-gipfel-in-bedraengnis-zr-94389139.html",
+      "published_at": "20260709T043000Z",
+      "source": "hna.de",
       "tags": []
     },
     {
-      "id": "gdelt_aebadf179daccfad",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://710wor.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T233000Z",
-      "source": "710wor.iheart.com",
+      "id": "gdelt_197c0cf574ba3f61",
+      "headline": "Rutte und die Selbstachtung vor Trump : NATO - Chef weicht pikanter Frage aus",
+      "url": "http://www.wa.de/politik/unterwuerfig-vor-trump-pikante-frage-bringt-rutte-auf-nato-gipfel-in-bedraengnis-zr-94389139.html",
+      "published_at": "20260709T044500Z",
+      "source": "wa.de",
       "tags": []
     },
     {
-      "id": "gdelt_5e1b7015f81c0967",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wsfcam.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T233000Z",
-      "source": "wsfcam.iheart.com",
+      "id": "gdelt_acf31840689b089e",
+      "headline": "Rutte und die Selbstachtung vor Trump : NATO - Chef weicht pikanter Frage aus",
+      "url": "http://www.come-on.de/politik/unterwuerfig-vor-trump-pikante-frage-bringt-rutte-auf-nato-gipfel-in-bedraengnis-zr-94389139.html",
+      "published_at": "20260709T043000Z",
+      "source": "come-on.de",
       "tags": []
     },
     {
-      "id": "gdelt_5440fe6eda59cb9c",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions | PowerTalk 1460 AM & 101 . 1 FM",
-      "url": "https://powertalk1460.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T233000Z",
-      "source": "powertalk1460.iheart.com",
+      "id": "gdelt_2c5019c3906fca7a",
+      "headline": "Rutte und die Selbstachtung vor Trump : NATO - Chef weicht pikanter Frage aus",
+      "url": "http://www.fnp.de/politik/unterwuerfig-vor-trump-pikante-frage-bringt-rutte-auf-nato-gipfel-in-bedraengnis-zr-94389139.html",
+      "published_at": "20260709T050000Z",
+      "source": "fnp.de",
       "tags": []
     },
     {
-      "id": "gdelt_c74e16c835a57d86",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions | WJBO Newsradio 1150 AM & 98 . 7 FM",
-      "url": "https://wjbo.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T230000Z",
-      "source": "wjbo.iheart.com",
+      "id": "gdelt_aab9b314b08b2baf",
+      "headline": "Rutte und die Selbstachtung vor Trump : NATO - Chef weicht pikanter Frage aus",
+      "url": "http://www.op-online.de/politik/unterwuerfig-vor-trump-pikante-frage-bringt-rutte-auf-nato-gipfel-in-bedraengnis-zr-94389139.html",
+      "published_at": "20260709T043000Z",
+      "source": "op-online.de",
       "tags": []
     },
     {
-      "id": "gdelt_9456d2a4e12fff6f",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wrko.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T230000Z",
-      "source": "wrko.iheart.com",
+      "id": "gdelt_bf59731ea78bab0b",
+      "headline": "Oil extends gains as US strikes in Iran rattle markets",
+      "url": "https://www.irishtimes.com/business/markets/2026/07/09/oil-extends-gains-as-us-strikes-in-iran-rattle-markets/",
+      "published_at": "20260709T064500Z",
+      "source": "irishtimes.com",
       "tags": []
     },
     {
-      "id": "gdelt_f4bdedd061eb91af",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions | Talk Radio 105 . 9",
-      "url": "https://knrs.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T230000Z",
-      "source": "knrs.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_252eb62fa15e4ee6",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://whp580.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T233000Z",
-      "source": "whp580.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b5a6c1314aada182",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://talk1200boston.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T233000Z",
-      "source": "talk1200boston.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a0419e68043e58ee",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions | Newsradio WFLA Orlando",
-      "url": "https://wflaorlando.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T224500Z",
-      "source": "wflaorlando.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6af106b6bb3eae51",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://powertalk967.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T224500Z",
-      "source": "powertalk967.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bdf9ff3d646ed07f",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://1440wgig.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T230000Z",
-      "source": "1440wgig.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c7c82c4c2353178f",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://koacolorado.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T230000Z",
-      "source": "koacolorado.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_398117bd77c2ca36",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wbex.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T224500Z",
-      "source": "wbex.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2f1ce27746d0507e",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://945wpti.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T003000Z",
-      "source": "945wpti.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4c6861d328bbc980",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wvoc.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T003000Z",
-      "source": "wvoc.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b09e3a1d5e784d6b",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wiba.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T003000Z",
-      "source": "wiba.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cfb6fbe1b81df4f3",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://whnz.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T004500Z",
-      "source": "whnz.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1431b4c5a83af221",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wtam.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T004500Z",
-      "source": "wtam.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_048166620c2d3604",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wlac.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T004500Z",
-      "source": "wlac.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_136f84f39630a7e5",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://newsradio1170.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T004500Z",
-      "source": "newsradio1170.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a4bc8e992382f9bf",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions | NewsRadio WKCY",
-      "url": "https://newsradiowkcy.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T013000Z",
-      "source": "newsradiowkcy.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d310f405762a272b",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://whyn.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T013000Z",
-      "source": "whyn.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c61949353df94fd7",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://newsradio967.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T013000Z",
-      "source": "newsradio967.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f44f03d2298e04ac",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions | News Radio 920 AM & 104 . 7 FM",
-      "url": "https://newsradiori.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T013000Z",
-      "source": "newsradiori.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_689b5bdf4cbadbd1",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://650keni.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T013000Z",
-      "source": "650keni.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a2b243c9df002a70",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://1190kex.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T011500Z",
-      "source": "1190kex.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ed8a0358d883bdd7",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions | NewsRadio 1450 / 1370 WKIP",
-      "url": "https://1450wkip.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T011500Z",
-      "source": "1450wkip.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_13b5a30b61e24ebc",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://kprcradio.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T011500Z",
-      "source": "kprcradio.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d84cdfa1b88e2dfe",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://talkradio1080.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T010000Z",
-      "source": "talkradio1080.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6fe760afa0ee6338",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wbhpam.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T010000Z",
-      "source": "wbhpam.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4516b86e4a7b501f",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://newstalk1230.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T010000Z",
-      "source": "newstalk1230.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_36b248b8500d1a65",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions | News Talk 1090 WKBZ - AM",
-      "url": "https://newstalk1090.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T010000Z",
-      "source": "newstalk1090.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c74cff690a3579cc",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://powertalk1360.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T010000Z",
-      "source": "powertalk1360.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2fb501b03ac7310f",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://600wrec.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T003000Z",
-      "source": "600wrec.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_71027cdfa80761e0",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://960weli.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T001500Z",
-      "source": "960weli.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5b46309630fa0fb6",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://590kqnt.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T001500Z",
-      "source": "590kqnt.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cf189ebbeba9da45",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://1190talkradio.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T001500Z",
-      "source": "1190talkradio.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f232b9a3a1e349df",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://kfbk.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T001500Z",
-      "source": "kfbk.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c7092f368a1bb0e1",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wiod.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T001500Z",
-      "source": "wiod.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_19cdfef20a6fceb0",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wercfm.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T001500Z",
-      "source": "wercfm.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7e46eeae0faa53f1",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://newsradio1470.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T001500Z",
-      "source": "newsradio1470.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1df2ed1924517396",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://720thevoice.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T234500Z",
-      "source": "720thevoice.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b387d902a2b5027d",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wtkg.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T234500Z",
-      "source": "wtkg.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f1cb14b74755592b",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wccfradio.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T234500Z",
-      "source": "wccfradio.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_30a4c5cf23488355",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions | News Radio 101 . 9 Big WAAX",
-      "url": "https://1019bigwaax.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T234500Z",
-      "source": "1019bigwaax.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_593913b2811661f8",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wrno.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260708T234500Z",
-      "source": "wrno.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4f4f139c55f6da82",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://ktok.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T000000Z",
-      "source": "ktok.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_08c6362a8f33ae06",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://95wxtk.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T000000Z",
-      "source": "95wxtk.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8355d3848ce81f94",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://1360kktx.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T000000Z",
-      "source": "1360kktx.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ecab09687228b53a",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wflafm.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T000000Z",
-      "source": "wflafm.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2ed3c35eb494524f",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://newsradio1290wtks.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T000000Z",
-      "source": "newsradio1290wtks.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c2667c3c59324b4b",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://veropatriot.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T001500Z",
-      "source": "veropatriot.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b67cc66478cd0f0b",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://talkradio1059.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T001500Z",
-      "source": "talkradio1059.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8be3f6592364a95d",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions | NewsRadio 1370 AM & 92 . 9 FM WSPD",
-      "url": "https://wspd.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T001500Z",
-      "source": "wspd.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_aed02376350cb2c0",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://1430kasi.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T001500Z",
-      "source": "1430kasi.iheart.com",
+      "id": "gdelt_7d78068aed4fd8fb",
+      "headline": "折叠屏多语言AI翻译哪家强 ？ 国际会议跨国出差实测四大品牌告诉你谁才是涉外商务最佳搭档 - 热点资讯 - ITBear科技资讯",
+      "url": "https://www.itbear.com.cn/html/2026-07/1435973.html",
+      "published_at": "20260709T064500Z",
+      "source": "itbear.com.cn",
       "tags": []
     },
     {
@@ -674,102 +314,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_72ed10ac6ea7df68",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://newsradio540.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T014500Z",
-      "source": "newsradio540.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8263b441307ff473",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions | NewsTalk WMEQ",
-      "url": "https://wmeq.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T014500Z",
-      "source": "wmeq.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e869ec4e62ed4de8",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://kfab.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T014500Z",
-      "source": "kfab.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b798b0a6c7663873",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wtag.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T013000Z",
-      "source": "wtag.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_406bf889e768c05d",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://twincitiesnewstalk.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T013000Z",
-      "source": "twincitiesnewstalk.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b7ddcc365c3ab2dc",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wilm.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T013000Z",
-      "source": "wilm.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_920a5c62b3790afb",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wmanfm.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T004500Z",
-      "source": "wmanfm.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6ce69f4a952d696a",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wmrn.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T004500Z",
-      "source": "wmrn.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e2c22d993af8ffd8",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://ktsmradio.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T004500Z",
-      "source": "ktsmradio.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e13078f17cb0f16b",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://943wsc.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T014500Z",
-      "source": "943wsc.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e10fce78d16b7c75",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wmmbam.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T014500Z",
-      "source": "wmmbam.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ad6b333d24e5a603",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://wgiram.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T014500Z",
-      "source": "wgiram.iheart.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_e940f86b00fd8bbf",
       "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions | Newsradio WOOD 1300 and 106 . 9 FM",
       "url": "https://woodradio.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
@@ -778,19 +322,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_c494cf07117cabd5",
-      "headline": "U . S . Launches New Strikes on Iran Amid Rising Tensions",
-      "url": "https://newsradio1049.iheart.com/content/2026-07-08-us-launches-new-strikes-on-iran-amid-rising-tensions/",
-      "published_at": "20260709T010000Z",
-      "source": "newsradio1049.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d3358d7ff5f525c8",
-      "headline": "C O R R E C T I O N -- Zetrix",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-07/68979479-c-o-r-r-e-c-t-i-o-n-zetrix-008.htm",
-      "published_at": "20260709T013000Z",
-      "source": "finanznachrichten.de",
+      "id": "gdelt_12016be3c264569f",
+      "headline": "👨🏿‍🚀TechCabal Daily – Koko runs out of gas",
+      "url": "https://techcabal.com/2026/07/09/techcabal-daily-koko-runs-out-of-gas/",
+      "published_at": "20260709T073000Z",
+      "source": "techcabal.com",
       "tags": []
     },
     {
@@ -802,20 +338,46 @@
       "tags": []
     },
     {
-      "id": "gdelt_4815254a362e2c3c",
-      "headline": "Эскалация конфликта США и Ирана : обмен ударами и конец перемирию ?",
-      "url": "https://vestikavkaza.ru/analytics/eskalacia-konflikta-ssa-i-irana-obmen-udarami-i-konec-peremiriu.html",
-      "published_at": "20260709T004500Z",
-      "source": "vestikavkaza.ru",
+      "id": "gdelt_4acde9476dbf49aa",
+      "headline": "Rusko ostro odsúdilo novú pomoc pre Ukrajinu . Sľuby zo samitu NATO podľa Moskvy povedú ku katastrofe",
+      "url": "https://www.ta3.com/clanok/1059767/rusko-ostro-odsudilo-novu-pomoc-pre-ukrajinu-sluby-zo-samitu-nato-podla-moskvy-povedu-ku-katastrofe",
+      "published_at": "20260709T054500Z",
+      "source": "ta3.com",
       "tags": []
     },
     {
-      "id": "gdelt_b55d98e69dbdc815",
-      "headline": "Переговори з Трампом , ліцензія на виробництво Patriot , 140 млрд євро для ЗСУ : новини дня",
-      "url": "https://www.eurointegration.com.ua/news/2026/07/8/7241267/",
-      "published_at": "20260709T001500Z",
-      "source": "eurointegration.com.ua",
+      "id": "gdelt_7fe5b240db34e20f",
+      "headline": "Energy , aviation , insurance , automobile : What could be impacted as US Iran war restarts",
+      "url": "https://www.businesstoday.in/world/story/energy-aviation-insurance-automobile-what-could-be-impacted-as-us-iran-war-restarts-541910-2026-07-09",
+      "published_at": "20260709T073000Z",
+      "source": "businesstoday.in",
       "tags": []
+    },
+    {
+      "id": "gdelt_f258a2c3efdaad8b",
+      "headline": "Цената на петрола леко спада въпреки новите удари на САЩ срещу Иран *",
+      "url": "https://www.investor.bg/a/538-pazari/433292-tsenata-na-petrola-leko-spada-vapreki-novite-udari-na-sasht-sreshtu-iran",
+      "published_at": "20260709T073000Z",
+      "source": "investor.bg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b6fbcc9523d73af4",
+      "headline": "Crude extends rally as US - Iran flare - up rocks peace hopes",
+      "url": "https://www.geo.tv/latest/672186-crude-extends-rally-as-us-iran-flare-up-rocks-peace-hopes",
+      "published_at": "20260709T070000Z",
+      "source": "geo.tv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f802e32784b34bd4",
+      "headline": "« Китай остановит войну на Украине в 24 часа »: МИД Белоруссии верит в Си - БлокнотРУ - Новости Беларуси . Беларусь новости . Беларусь новости сегодня . Новости Белоруссии . Белоруссия новости . Новости Белоруссии сегодня . Последние новости Белорус...",
+      "url": "https://bloknot.ru/v-mire/kitaj-ostanovit-vojnu-na-ukraine-v-24-chasa-mid-belorussii-verit-v-si-1526059.html",
+      "published_at": "20260709T064500Z",
+      "source": "bloknot.ru",
+      "tags": [
+        "UKRAINE"
+      ]
     },
     {
       "id": "gdelt_c51a4a029e595904",
@@ -826,29 +388,69 @@
       "tags": []
     },
     {
+      "id": "gdelt_6619e0ec4e3f6c02",
+      "headline": "Как москвичи поддерживают жителей новых и приграничных регионов России",
+      "url": "https://www.m24.ru/news/09072026/918389",
+      "published_at": "20260709T070000Z",
+      "source": "m24.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_4b92d841bf99c64b",
       "headline": "Trump : I Stopped India - Pakistan Nuclear War",
       "url": "https://www.newkerala.com/news/a/they-going-go-nuclear-trump-reiterates-claim-ending-389.htm",
       "published_at": "20260709T023000Z",
       "source": "newkerala.com",
-      "tags": [
-        "PAKISTAN"
-      ]
-    },
-    {
-      "id": "gdelt_85756f45266b03a9",
-      "headline": "JS - SEZ mesti beri manfaat nyata kepada rakyat Johor",
-      "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/09/js-sez-mesti-beri-manfaat-nyata-kepada-rakyat-johor",
-      "published_at": "20260709T014500Z",
-      "source": "freemalaysiatoday.com",
       "tags": []
     },
     {
-      "id": "gdelt_713c16c70fb677da",
-      "headline": "První zprávy - Domácí - Co odhalují Trumpova prohlášení na schůzce se Zelenským",
-      "url": "https://www.prvnizpravy.cz/zpravy/zpravy/co-odhaluji-trumpova-prohlaseni-na-schuzce-se-zelenskym/",
-      "published_at": "20260709T031500Z",
-      "source": "prvnizpravy.cz",
+      "id": "gdelt_134f1a18434132d8",
+      "headline": "Trump Batalkan Gencatan Senjata , AS Kembali Bombardir Iran Usai Serangan di Selat Hormuz – News",
+      "url": "https://news.batampos.co.id/trump-batalkan-gencatan-senjata-as-kembali-bombardir-iran-usai-serangan-di-selat-hormuz/",
+      "published_at": "20260709T060000Z",
+      "source": "news.batampos.co.id",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4bd56c5a7a4de595",
+      "headline": "Moskva kritizuje NATO za sľuby Ukrajine , obviňuje Západ z príprav na konflikt",
+      "url": "https://www.aktuality.sk/clanok/ziNGv5g/moskva-kritizuje-nato-za-sluby-ukrajine-obvinuje-zapad-z-priprav-na-konflikt/",
+      "published_at": "20260709T064500Z",
+      "source": "aktuality.sk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7275c2bc2d9c32fd",
+      "headline": "SMI vorbörslich robust -- DAX vor Stabilisierung -- Asiens Börsen tiefer - Japan gegen den Trend mit Gewinnen",
+      "url": "https://www.finanzen.ch/nachrichten/aktien/boerse-aktuell-09-07-2026-1036309596",
+      "published_at": "20260709T060000Z",
+      "source": "finanzen.ch",
+      "tags": [
+        "JAPAN"
+      ]
+    },
+    {
+      "id": "gdelt_64fe51ff8ebd6967",
+      "headline": "ΝΑΤΟ : Patriot και 140 δισ . ευρώ για βοήθεια στην Ουκρανία",
+      "url": "https://www.philenews.com/kosmos/article/1743766/sinodos-nato-klidose-i-stratiotiki-voithia-140-dis-evro-stin-oukrania-ke-i-paragogi-patriot-i-antidrasi-tis-rosias/",
+      "published_at": "20260709T043000Z",
+      "source": "philenews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5efc308c716ba59c",
+      "headline": "Настоящий экспорт головорезов . Чем украинские беженцы шокировали Европу",
+      "url": "https://ria.ru/20260709/evropa-2103524361.html",
+      "published_at": "20260709T070000Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d70e710aa7fb8cd9",
+      "headline": "跨境电商收款用PingPong ： 收款服务覆盖电商 、 独立站 ， 全方位支撑品牌全域扩张",
+      "url": "https://baijiahao.baidu.com/s?id=1870213607701533634",
+      "published_at": "20260709T064500Z",
+      "source": "baijiahao.baidu.com",
       "tags": []
     },
     {
@@ -860,6 +462,38 @@
       "tags": []
     },
     {
+      "id": "gdelt_febcde31c7a780bd",
+      "headline": "Итоги саммита НАТО в Анкаре : Трамп пригрозил союзникам , а Зеленский получил Patriot",
+      "url": "https://azh.kz/ru/news/view/129878",
+      "published_at": "20260709T064500Z",
+      "source": "azh.kz",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e50cc9ddf82990ff",
+      "headline": "Trump eskaliert im Iran und im Streit mit Europa",
+      "url": "https://www.badische-zeitung.de/trump-eskaliert-im-iran-und-im-streit-mit-europa?commentID=1e9fc452-9c74-4c30-a38c-f485dffdf496",
+      "published_at": "20260709T044500Z",
+      "source": "badische-zeitung.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0ef11d35d4f9315d",
+      "headline": "Τραμπ στο ΝΑΤΟ : Ξεκίνησε με προσβολές , έκλεισε με « τεράστια αγάπη »",
+      "url": "https://www.sofokleousin.gr/epikairotita/amyna-diplomatia/tramp-sto-nato-ksekinise-me-prosvoles-ekleise-me-terastia-agapi",
+      "published_at": "20260709T054500Z",
+      "source": "sofokleousin.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_713c16c70fb677da",
+      "headline": "První zprávy - Domácí - Co odhalují Trumpova prohlášení na schůzce se Zelenským",
+      "url": "https://www.prvnizpravy.cz/zpravy/zpravy/co-odhaluji-trumpova-prohlaseni-na-schuzce-se-zelenskym/",
+      "published_at": "20260709T031500Z",
+      "source": "prvnizpravy.cz",
+      "tags": []
+    },
+    {
       "id": "gdelt_6fc5e8581ccb396a",
       "headline": "How the US - Iran Fight in the Strait of Hormuz Can Be Resolved Before It Blows Up the MoU",
       "url": "https://original.antiwar.com/trita-parsi/2026/07/08/how-the-us-iran-fight-in-the-strait-of-hormuz-can-be-resolved-before-it-blows-up-the-mou/",
@@ -868,27 +502,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_db07e44da5200b02",
-      "headline": "In JS - SEZ , gains matter more than infrastructure",
-      "url": "https://www.freemalaysiatoday.com/category/nation/2026/07/09/in-js-sez-gains-matter-more-than-infrastructure",
-      "published_at": "20260709T014500Z",
-      "source": "freemalaysiatoday.com",
+      "id": "gdelt_6238076905e68ae1",
+      "headline": "Сводка событий в Иране и на Ближнем Востоке за 8 июля 2026 г .",
+      "url": "https://anna-news.info/svodka-sobytij-v-irane-i-na-blizhnem-vostoke-za-8-iyulya-2026-g/",
+      "published_at": "20260709T060000Z",
+      "source": "anna-news.info",
       "tags": []
     },
     {
-      "id": "gdelt_b034ef975c60e835",
-      "headline": "Stárnoucí evropské elektrizační sítě bojují s byrokracií . Čeká je nákladná modernizace a rozšíření",
-      "url": "https://www.idnes.cz/ekonomika/domaci/evropska-komise-entso-e.A260708_144826_ekonomika_hyk",
-      "published_at": "20260708T233000Z",
-      "source": "idnes.cz",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a98465566c63e997",
-      "headline": "矢板明夫遇襲案 凶嫌身分曝光 跨國鎮壓受譴責 | 中共跨國鎮壓 | 廖港發 | 中共民族團結惡法",
-      "url": "https://www.ntdtv.com/b5/2026/07/08/a104113614.html",
-      "published_at": "20260709T010000Z",
-      "source": "ntdtv.com",
+      "id": "gdelt_4b699511b40c0c40",
+      "headline": "Чим завершився саміт НАТО для України - BBC News Україна",
+      "url": "https://www.bbc.com/ukrainian/articles/c9v29yx0k3po",
+      "published_at": "20260709T070000Z",
+      "source": "bbc.com",
       "tags": []
     },
     {
@@ -897,6 +523,22 @@
       "url": "https://www.zaobao.com.sg/news/world/story20260709-9336045",
       "published_at": "20260709T023000Z",
       "source": "zaobao.com.sg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6f11b9d4066db03b",
+      "headline": "Bruxelles stvara bankarske divove : Nova pravila trebaju osloboditi bilijune za ulaganja",
+      "url": "https://www.poslovni.hr/trzista/bruxelles-stvara-bankarske-divove-nova-pravila-trebaju-osloboditi-bilijune-za-ulaganja-4546137",
+      "published_at": "20260709T070000Z",
+      "source": "poslovni.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4265da791de02cf4",
+      "headline": "US Iran ceasefire ends : Crude supply resilient , but LNG , LPG face bigger Hormuz risk ; Here why",
+      "url": "https://www.businesstoday.in/india/story/us-iran-ceasefire-ends-crude-supply-resilient-but-lng-lpg-face-bigger-hormuz-risk-heres-why-541900-2026-07-09",
+      "published_at": "20260709T073000Z",
+      "source": "businesstoday.in",
       "tags": []
     },
     {
@@ -916,19 +558,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_a6108f0d7bf8fe78",
-      "headline": "US - Iran talks : Pakistan pivots to gradual incrementalism",
-      "url": "https://pakobserver.net/us-iran-talks-pakistan-pivots-to-gradual-incrementalism/",
-      "published_at": "20260709T031500Z",
-      "source": "pakobserver.net",
-      "tags": []
-    },
-    {
       "id": "gdelt_a404bdc0d7d2007c",
       "headline": "肺癌免疫治療開啟全新 「 斷電 」 新方向 ！ 臺大肺癌團隊跨國研究榮登Cell頂尖期刊",
       "url": "https://n.yam.com/Article/20260709144335",
       "published_at": "20260709T033000Z",
       "source": "n.yam.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f02892d52dca3331",
+      "headline": "Harga Minyak Mentah Lanjutkan Kenaikan karena Ketegangan AS - Iran Mengguncang Harapan Perdamaian",
+      "url": "https://koran-jakarta.com/2026-07-09/harga-minyak-mentah-lanjutkan-kenaikan-karena-ketegangan-as-iran-mengguncang-harapan-perdamaian",
+      "published_at": "20260709T051500Z",
+      "source": "koran-jakarta.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a6108f0d7bf8fe78",
+      "headline": "US - Iran talks : Pakistan pivots to gradual incrementalism",
+      "url": "https://pakobserver.net/us-iran-talks-pakistan-pivots-to-gradual-incrementalism/",
+      "published_at": "20260709T031500Z",
+      "source": "pakobserver.net",
       "tags": []
     },
     {
@@ -940,6 +590,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_78f2c44e1dc8417d",
+      "headline": "Казахстан обмежив в  їзд росіянам , бо ті вивозять бензин DSnews . ua",
+      "url": "https://www.dsnews.ua/ukr/world/kazahstan-obmezhiv-v-jizd-rosiyanam-bo-ti-vivozyat-benzin-09072026-463066",
+      "published_at": "20260709T054500Z",
+      "source": "dsnews.ua",
+      "tags": []
+    },
+    {
       "id": "gdelt_86590055dc033784",
       "headline": "Crude extends rally as US - Iran flare - up rocks peace hopes",
       "url": "https://finance.yahoo.com/energy/articles/crude-extends-rally-us-iran-024259885.html",
@@ -948,77 +606,432 @@
       "tags": []
     },
     {
-      "id": "gdelt_e3a44d1dde89c68f",
-      "headline": "আধুনিক ও প্রযুক্তিভিত্তিক জাতিসংঘ পুলিশ গঠনের আহ্বান",
-      "url": "https://www.mzamin.com/article/27232",
-      "published_at": "20260709T003000Z",
-      "source": "mzamin.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_effa9b8ecb26f766",
+      "id": "gdelt_c2e64802a7dbc303",
       "headline": "Markets Jitterbug as War Drums Beat Again",
-      "url": "https://economictimes.indiatimes.com/et-front/markets-jitterbug-as-war-drums-beat-again/articleshow/132272637.cms",
-      "published_at": "20260709T004500Z",
+      "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/jul/09/et-front/markets-jitterbug-as-war-drums-beat-again/articleshow/132272637.cms",
+      "published_at": "20260709T061500Z",
       "source": "economictimes.indiatimes.com",
       "tags": []
     },
     {
-      "id": "gdelt_008853800f20bdc8",
-      "headline": "Rosen Law Firm Encourages UP Fintech Holding Limited Investors to Inquire About Securities Class Action Investigation",
-      "url": "http://www.prnewswire.com/news-releases/rosen-law-firm-encourages-up-fintech-holding-limited-investors-to-inquire-about-securities-class-action-investigation--tigr-302821289.html",
-      "published_at": "20260709T014500Z",
-      "source": "prnewswire.com",
+      "id": "gdelt_923787a55e0fc848",
+      "headline": "Пострадавшие от ЧС в Крыму получат по 15 тысяч рублей",
+      "url": "https://www.amic.ru/news/postradavshie-ot-chs-v-krymu-poluchat-po-15-000-rubley-587584",
+      "published_at": "20260709T071500Z",
+      "source": "amic.ru",
       "tags": []
     },
     {
-      "id": "gdelt_7778d71ecb35a01e",
-      "headline": "Rosen Law Firm Encourages UP Fintech Holding Limited Investors to Inquire About Securities Class Action Investigation",
-      "url": "https://www.prnewswire.com/news-releases/rosen-law-firm-encourages-up-fintech-holding-limited-investors-to-inquire-about-securities-class-action-investigation--tigr-302821289.html",
-      "published_at": "20260709T014500Z",
-      "source": "prnewswire.com",
+      "id": "gdelt_2794243d5b786422",
+      "headline": "Ανάλυση CNN : Οι επιλογές του Τραμπ στο Ιράν πλέον είναι λίγες και κακές",
+      "url": "https://www.skai.gr/news/world/analysi-cnn-oi-epiloges-tou-tramp-sto-iran-einai-liges-kai-kakes",
+      "published_at": "20260709T064500Z",
+      "source": "skai.gr",
       "tags": []
     },
     {
-      "id": "gdelt_62788daae554b146",
-      "headline": "挑撥 ！ 俄羅斯譴責援烏 酸北約 「 與美國有裂痕 」 - 國際",
-      "url": "https://news.ltn.com.tw/news/world/breakingnews/5498920",
-      "published_at": "20260709T010000Z",
+      "id": "gdelt_5b79d991e0110915",
+      "headline": "H αγορά ... θέλει ένα μεγάλο deal στο Χρηματιστήριο και ειδικά στις τράπεζες αλλά υπομονή μετά τις εκλογές ... οι εξελίξεις",
+      "url": "https://www.bankingnews.gr/to-paraskinio-tis-agoras/articles/887017/h-agora-thelei-ena-megalo-deal-sto-xrimatistirio-kai-eidika-stis-trapezes-alla-ypomoni-meta-tis-ekloges-oi-ekselikseis",
+      "published_at": "20260709T050000Z",
+      "source": "bankingnews.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a03e23bca6e0843a",
+      "headline": "4行动起市值1334万大麻花 警捕5男女毒驴归案 | 社会",
+      "url": "https://www.orientaldaily.com.my/news/society/2026/07/09/831609",
+      "published_at": "20260709T060000Z",
+      "source": "orientaldaily.com.my",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6c29c5be8f81d7f9",
+      "headline": "Москва с остра реакция след срещата на НАТО в Анкара : Решенията за Украйна могат да доведат до глобална катастрофа ᐉ Новини от Fakti . bg - Свят",
+      "url": "https://fakti.bg/world/1066354-moskva-s-ostra-reakcia-sled-sreshtata-na-nato-v-ankara-resheniata-za-ukraina-mogat-da-dovedat-do-globalna-katastrofa",
+      "published_at": "20260709T044500Z",
+      "source": "fakti.bg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4f097d22d662c545",
+      "headline": "Private equity firm acquires K & L Freight Management",
+      "url": "https://finance.yahoo.com/small-business/articles/private-equity-firm-acquires-k-201256896.html",
+      "published_at": "20260709T070000Z",
+      "source": "finance.yahoo.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ddb810a18a48406f",
+      "headline": "US , Iran trade fresh strikes for second day as Hormuz tensions escalate",
+      "url": "https://www.samaa.tv/2087353265-us-iran-trade-fresh-strikes-for-second-day-as-hormuz-tensions-escalate",
+      "published_at": "20260709T064500Z",
+      "source": "samaa.tv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b9d53e8c92c595f0",
+      "headline": "Tổng Thư ký Liên hợp quốc cảnh báo nguy cơ leo thang xung đột Iran",
+      "url": "http://vov.vn/the-gioi/tong-thu-ky-lien-hop-quoc-canh-bao-nguy-co-leo-thang-xung-dot-iran-my-post1313664.vov",
+      "published_at": "20260709T040000Z",
+      "source": "vov.vn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_12297bb0d6e8e1b9",
+      "headline": "Rutte und die Selbstachtung vor Trump : NATO - Chef weicht pikanter Frage aus",
+      "url": "https://www.az-online.de/politik/unterwuerfig-vor-trump-pikante-frage-bringt-rutte-auf-nato-gipfel-in-bedraengnis-zr-94389139.html",
+      "published_at": "20260709T053000Z",
+      "source": "az-online.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6b645649799ce054",
+      "headline": "Rutte und die Selbstachtung vor Trump : NATO - Chef weicht pikanter Frage aus",
+      "url": "http://www.az-online.de/politik/unterwuerfig-vor-trump-pikante-frage-bringt-rutte-auf-nato-gipfel-in-bedraengnis-zr-94389139.html",
+      "published_at": "20260709T060000Z",
+      "source": "az-online.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a054ce434f97ed21",
+      "headline": "Александр Тищенко : Почему нужна глобальная система контроля над ядерным оружием",
+      "url": "https://www.sb.by/articles/garantii-mira-pochemu-nuzhna-globalnaya-sistema-kontrolya-nad-yadernym-oruzhiem.html",
+      "published_at": "20260709T073000Z",
+      "source": "sb.by",
+      "tags": []
+    },
+    {
+      "id": "gdelt_dd4b5a29176cb8e3",
+      "headline": "香港 「 14K 」 黑幫成員毆打矢板明夫 桑普 ： 後續可能出現新江南案 - 政治",
+      "url": "https://news.ltn.com.tw/news/politics/breakingnews/5499454",
+      "published_at": "20260709T070000Z",
       "source": "news.ltn.com.tw",
       "tags": []
     },
     {
-      "id": "gdelt_384d0097703ba384",
-      "headline": "Chandigarh police bust Pakistan - linked narco terror network after raids in border districts , 3 held",
-      "url": "https://www.thehindu.com/news/national/punjab/chandigarh-police-bust-pakistan-linked-narco-terror-network-after-raids-in-border-districts-3-held/article71200746.ece",
-      "published_at": "20260709T013000Z",
-      "source": "thehindu.com",
+      "id": "gdelt_ea5c636ee6761fde",
+      "headline": "OJK Jatuhkan 45 Sanksi Terkait Kewajiban Pelaporan Kegiatan Literasi dan Inklusi",
+      "url": "https://keuangan.kontan.co.id/news/ojk-jatuhkan-45-sanksi-terkait-kewajiban-pelaporan-kegiatan-literasi-dan-inklusi",
+      "published_at": "20260709T043000Z",
+      "source": "keuangan.kontan.co.id",
       "tags": []
     },
     {
-      "id": "gdelt_0752716ea593e2ef",
-      "headline": "Саммит НАТО привел к обещаниям помощи Украине на 140 млрд евро",
-      "url": "https://www.vedomosti.ru/politics/articles/2026/07/09/1212283-sammit-nato-privel-k-obeschaniyam-pomoschi-ukraine",
-      "published_at": "20260708T223000Z",
-      "source": "vedomosti.ru",
+      "id": "gdelt_0d9379f47d1db51f",
+      "headline": "Droni , Ķīna un slepenās sarunas : Putins spiež , Lukašenko pretojas",
+      "url": "https://nra.lv/neatkariga/politika/525129-baltkrievijas-un-krievijas-attiecibu-saspilejums-pec-dronu-incidentiem.htm",
+      "published_at": "20260709T053000Z",
+      "source": "nra.lv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1472aae87f9be1c0",
+      "headline": "Sinoexpo Informa Markets : China Clean Expo 2027 : Your Gateway to China Surging Cleaning Ecosystem and Booming Opportunities",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-07/68979946-sinoexpo-informa-markets-china-clean-expo-2027-your-gateway-to-china-s-surging-cleaning-ecosystem-and-booming-opportunities-008.htm",
+      "published_at": "20260709T053000Z",
+      "source": "finanznachrichten.de",
       "tags": [
-        "UKRAINE"
+        "CHINA"
       ]
     },
     {
-      "id": "gdelt_c03ebe6088d36340",
-      "headline": "RTS Link set to transform Johor - Singapore commute",
-      "url": "https://www.freemalaysiatoday.com/category/nation/2026/07/09/rts-link-set-to-transform-johor-singapore-commute",
-      "published_at": "20260709T013000Z",
+      "id": "gdelt_b9a525cb2f4e5091",
+      "headline": "Ông Trump khẳng định Mỹ muốn ở lại NATO",
+      "url": "https://baomoi.com/ong-trump-khang-dinh-my-muon-o-lai-nato-c55575411.epi",
+      "published_at": "20260709T021500Z",
+      "source": "baomoi.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5a5f715d5e054573",
+      "headline": "Ряд стран ЕС начал открыто саботировать помощь Украине Хазин",
+      "url": "https://deita.ru/article/587555",
+      "published_at": "20260709T034500Z",
+      "source": "deita.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ca568080b7259905",
+      "headline": "Politik - Deutsche Außenpolitiker warnen vor Folgen neuer Eskalation zwischen united states und Iran",
+      "url": "https://unternehmen-heute.de/news.php?newsid=6704241",
+      "published_at": "20260709T044500Z",
+      "source": "unternehmen-heute.de",
+      "tags": [
+        "UNITED_STATES"
+      ]
+    },
+    {
+      "id": "gdelt_a242fa72efd37540",
+      "headline": "Teheranul lansează atacuri asupra Bahrainului și a Kuweitului în urma loviturilor SUA . Avertisment pentru „ complicii  europeni",
+      "url": "https://www.digi24.ro/stiri/externe/teheranul-lanseaza-atacuri-asupra-bahrainului-si-a-kuweitului-in-urma-loviturilor-sua-avertisment-pentru-complicii-europeni-3854301",
+      "published_at": "20260709T054500Z",
+      "source": "digi24.ro",
+      "tags": []
+    },
+    {
+      "id": "gdelt_445376756d8d2084",
+      "headline": "PwC Philippines admits four new partners to strengthen leadership across assurance and regional practices",
+      "url": "https://www.philstar.com/business/business-as-usual/2026/07/09/2540745/pwc-philippines-admits-four-new-partners-strengthen-leadership-across-assurance-and-regional-practices",
+      "published_at": "20260709T034500Z",
+      "source": "philstar.com",
+      "tags": [
+        "PHILIPPINES"
+      ]
+    },
+    {
+      "id": "gdelt_b28a2f68412e6386",
+      "headline": "Община Самоков вече е част от Сдружението на Югозападните общини",
+      "url": "https://www.actualno.com/sofia/obshtina-samokov-veche-e-chast-ot-sdrujenieto-na-ugozapadnite-obshtini-news_2616207.html",
+      "published_at": "20260709T064500Z",
+      "source": "actualno.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_488a81b35a6d45a5",
+      "headline": "Тревожные сигналы для Киева : Залужный заявил о риске потери постоянной поддержки со стороны Запада",
+      "url": "https://runews24.ru/politics/09/07/2026/trevozhnyie-signalyi-dlya-kieva-zaluzhnyij-zayavil-o-riske-poteri-postoyannoj-podderzhki-so-storonyi-zapada",
+      "published_at": "20260709T061500Z",
+      "source": "runews24.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_50d265fee5cdab33",
+      "headline": "India , Myanmar review border security , agree to boost intelligence sharing",
+      "url": "https://indianexpress.com/article/india/india-myanmar-review-border-security-agree-to-boost-intelligence-sharing-10778350/",
+      "published_at": "20260709T063000Z",
+      "source": "indianexpress.com",
+      "tags": [
+        "MYANMAR"
+      ]
+    },
+    {
+      "id": "gdelt_d033ef939c24bad1",
+      "headline": "Сбер в I полугодии увеличил чистую прибыль по РСБУ на 20 %, до 995 , 3 млрд руб .",
+      "url": "https://www.interfax.ru/business/1102193",
+      "published_at": "20260709T073000Z",
+      "source": "interfax.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f1f27ac36b927238",
+      "headline": "СМИ : в США допускают , что эскалация вокруг Ирана может растянуться на месяц",
+      "url": "https://1prime.ru/20260709/iran-871397185.html",
+      "published_at": "20260709T063000Z",
+      "source": "1prime.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a1b5c4641f31d158",
+      "headline": "Замглавы МИД РФ : Европа использует переговоры с Москвой как прикрытие для эскалации",
+      "url": "https://iz.ru/2129597/2026-07-09/v-mid-rf-rasskazali-o-skrytykh-tceliakh-evropy-v-vozmozhnykh-peregovorakh-s-moskvoi",
+      "published_at": "20260709T051500Z",
+      "source": "iz.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7bc1ebf42f8fa695",
+      "headline": "베네수 강진 사망자 3811명 … 국제사회에 제재 해제 촉구",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=04313206645512880&mediaCodeNo=257",
+      "published_at": "20260709T060000Z",
+      "source": "edaily.co.kr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b0f6341b038fc89c",
+      "headline": "مفاوضات أم مواجهة ؟.. فرص التقارب بين واشنطن وطهران",
+      "url": "https://www.dostor.org/5628567",
+      "published_at": "20260709T033000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e28e55dd3a5c91f8",
+      "headline": "Kerajaan tanggung RM51 . 4 bilion liabiliti 1MDB , kata timbalan menteri",
+      "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/07/09/kerajaan-tanggung-rm51-4-bilion-liabiliti-1mdb-kata-timbalan-menteri",
+      "published_at": "20260709T051500Z",
       "source": "freemalaysiatoday.com",
       "tags": []
     },
     {
-      "id": "gdelt_782e90adafa2bf72",
-      "headline": "Крах перемир  я на 20 днів . США б  є по Ірану - Korrespondent . net",
-      "url": "https://ua.korrespondent.net/world/4892758-krakh-peremyria-na-20-dniv-ssha-bie-po-iranu",
-      "published_at": "20260708T223000Z",
-      "source": "ua.korrespondent.net",
+      "id": "gdelt_ce50f8b4ad32adac",
+      "headline": "Rusko označilo nové sľuby a záväzky NATO voči Ukrajine za nezodpovedné",
+      "url": "https://www.teraz.sk/zahranicie/rusko-oznacilo-nove-sluby-a-zavazky/976583-clanok.html",
+      "published_at": "20260709T063000Z",
+      "source": "teraz.sk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_52f44f8d816d2d29",
+      "headline": "US strikes Iran after ceasefire ends , raising fears of escalation",
+      "url": "https://www.wmur.com/article/us-strikes-iran-ceasefire-end-fears-escalation/71873992",
+      "published_at": "20260709T020000Z",
+      "source": "wmur.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5582483c67e16e16",
+      "headline": "Kuwait and Bahrain repel fresh attacks amid escalating Iran - US confrontation",
+      "url": "https://thefrontierpost.com/kuwait-and-bahrain-repel-fresh-attacks-amid-escalating-iran-us-confrontation/",
+      "published_at": "20260709T064500Z",
+      "source": "thefrontierpost.com",
+      "tags": [
+        "BAHRAIN",
+        "KUWAIT"
+      ]
+    },
+    {
+      "id": "gdelt_3776ae9159f8daa6",
+      "headline": "US strikes Iran after ceasefire ends , raising fears of escalation",
+      "url": "https://www.kcci.com/article/us-strikes-iran-ceasefire-end-fears-escalation/71873992",
+      "published_at": "20260709T023000Z",
+      "source": "kcci.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f9ca608e922bd40b",
+      "headline": "В МИД рассказали о плане Европы , связанном с переговорами с Россией",
+      "url": "https://ria.ru/20260709/mid-2103694601.html",
+      "published_at": "20260709T034500Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_de0adc7a711253cf",
+      "headline": "A bitterly divided Iran grapples with Khamenei legacy as he is laid to rest",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/a-bitterly-divided-iran-grapples-with-khameneis-legacy-as-he-is-laid-to-rest/articleshow/132279791.cms",
+      "published_at": "20260709T073000Z",
+      "source": "economictimes.indiatimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5c20f685e78c7682",
+      "headline": "F - 35  Te anahtar S - 400 ve Putinde",
+      "url": "https://www.sozcu.com.tr/f-35-te-anahtar-s-400-ve-putin-de-p334908",
+      "published_at": "20260709T031500Z",
+      "source": "sozcu.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_38c66d508de7b3f7",
+      "headline": "Ölpreise ziehen etwas an - Iran - Krieg bleibt im Fokus",
+      "url": "https://www.finanzen.net/nachricht/rohstoffe/oelpreise-ziehen-etwas-an-iran-krieg-bleibt-im-fokus-15788653",
+      "published_at": "20260709T060000Z",
+      "source": "finanzen.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e54358024fb652fb",
+      "headline": "What options does Trump have now in Iran ? Not many , and theyre all bad",
+      "url": "https://edition.cnn.com/2026/07/09/politics/trump-iran-peace-deal-strait-analysis",
+      "published_at": "20260709T044500Z",
+      "source": "edition.cnn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_13044ba6c54cb777",
+      "headline": "What options does Trump have now in Iran ? Not many , and theyre all bad",
+      "url": "https://www.cnn.com/2026/07/09/politics/trump-iran-peace-deal-strait-analysis",
+      "published_at": "20260709T050000Z",
+      "source": "cnn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_61fc38673ea563fc",
+      "headline": "Pertamina Patra Niaga Sanksi 130 SPBU dan 2 Pertashop di Sumbagsel , Perketat Penyaluran BBM Subsidi",
+      "url": "https://palembang.tribunnews.com/metro/1322426/pertamina-patra-niaga-sanksi-130-spbu-dan-2-pertashop-di-sumbagsel-perketat-penyaluran-bbm-subsidi",
+      "published_at": "20260709T044500Z",
+      "source": "palembang.tribunnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1dd66b79c025a473",
+      "headline": "CAATSA ve F - 35  lerde takvim ne ? Ankara - Washington hattındaki konuşulan yol haritası",
+      "url": "https://www.cnnturk.com/turkiye/caatsa-ve-f-35lerde-takvim-ne-ankara-washington-hattindaki-konusulan-yol-haritasi-3440435",
+      "published_at": "20260709T060000Z",
+      "source": "cnnturk.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fb703350bf8ff116",
+      "headline": "Turning a blind eye no more : India envoy welcomes Canada - US action against crime rings linked to Nijjar case",
+      "url": "https://www.moneycontrol.com/news/india/turning-a-blind-eye-no-more-india-s-envoy-welcomes-canada-us-action-against-crime-rings-linked-to-nijjar-case-13969490.html",
+      "published_at": "20260709T050000Z",
+      "source": "moneycontrol.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7155db127141e2cb",
+      "headline": "特朗普宣布将解除对土耳其制裁 ， 或重启出售F - 35 _ 军事频道 _ 中华网",
+      "url": "https://military.china.com/important/64/20260709/49598320.html",
+      "published_at": "20260709T060000Z",
+      "source": "military.china.com",
+      "tags": [
+        "CHINA"
+      ]
+    },
+    {
+      "id": "gdelt_88f0ecc442293fd7",
+      "headline": "Pertamina berikan sanksi SPBU di Timika tak boleh jual Pertalite",
+      "url": "https://www.antaranews.com/berita/5641812/pertamina-berikan-sanksi-spbu-di-timika-tak-boleh-jual-pertalite",
+      "published_at": "20260709T043000Z",
+      "source": "antaranews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3b52bba45acf8fe5",
+      "headline": "Reacția Rusiei după summitul NATO din Turcia : „ Ar putea duce la o catastrofă",
+      "url": "https://www.mediafax.ro/externe/reactia-rusiei-dupa-summitul-nato-din-turcia-ar-putea-duce-la-o-catastrofa-23769276",
+      "published_at": "20260709T061500Z",
+      "source": "mediafax.ro",
+      "tags": []
+    },
+    {
+      "id": "gdelt_988d9a069bd8228a",
+      "headline": "Cene nafte skočile za oko sedam odsto",
+      "url": "https://naslovi.net/2026-07-09/blic/cene-nafte-skocile-za-oko-sedam-odsto/42064236",
+      "published_at": "20260709T070000Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_083bf71ae9a7266b",
+      "headline": "Auf Zweiwochenhoch : Ölpreise steigen nach neuen US - Angriffen auf den Iran",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-07/68981263-auf-zweiwochenhoch-oelpreise-steigen-nach-neuen-us-angriffen-auf-den-iran-049.htm",
+      "published_at": "20260709T071500Z",
+      "source": "finanznachrichten.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1e6b164d0cfee4ff",
+      "headline": "Axios : обострение конфликта США и Ирана может затянуться на месяц",
+      "url": "https://aif.ru/politics/axios-obostrenie-konflikta-ssha-i-irana-mozhet-zatyanutsya-na-mesyac",
+      "published_at": "20260709T064500Z",
+      "source": "aif.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_faeca8562f8aaba7",
+      "headline": "Българските евродепутати с ключова роля в Страсбург : ЕП гласува новата данъчна рамка и отбранителната стратегия на ЕС ᐉ Новини от Fakti . bg - България",
+      "url": "https://fakti.bg/bulgaria/1066347-balgarskite-evrodeputati-s-kluchova-rola-v-strasburg-ep-glasuva-novata-danachna-ramka-i-otbranitelnata-strategia-na-es",
+      "published_at": "20260709T044500Z",
+      "source": "fakti.bg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_808bd6f3ffc06f73",
+      "headline": "Трамп заявив , що Іран просив про угоду після ударів США . Axios прогнозує тривалу ескалацію",
+      "url": "https://gordonua.com/ukr/section-worldnews/news-tramp-zayavyv-shcho-iran-prosyv-pro-uhodu-pislya-udariv-ssha-axios-prohnozuye-tryvalu-eskalatsiyu-09-07-2026.html",
+      "published_at": "20260709T073000Z",
+      "source": "gordonua.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a0931ee3cbb748bf",
+      "headline": "« Wir werden sie heute Nacht richtig hart treffen »: Trump lässt weitere Angriffe auf den Iran fliegen",
+      "url": "https://weltwoche.ch/daily/wir-werden-sie-heute-nacht-richtig-hart-treffen-trump-laesst-weitere-angriffe-auf-den-iran-fliegen/",
+      "published_at": "20260709T073000Z",
+      "source": "weltwoche.ch",
       "tags": []
     }
   ]
