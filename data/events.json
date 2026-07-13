@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-07-13T21:12:05Z",
+    "generated_at_utc": "2026-07-13T22:08:45Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -49,6 +49,14 @@
       "tags": [
         "UKRAINE"
       ]
+    },
+    {
+      "id": "gdelt_581abcdb6838f1b4",
+      "headline": "Принятие 21 пакета санкций против России : ЕС не согласовал ограничения",
+      "url": "https://iz.ru/2131756/kirill-fenin/srazu-neskolko-stran-es-blokiruyut-21-j-paket-sankcij",
+      "published_at": "20260713T214500Z",
+      "source": "iz.ru",
+      "tags": []
     },
     {
       "id": "gdelt_da663a3799081378",
@@ -109,30 +117,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_261bf18749c65101",
-      "headline": "Lindsey Graham death deprives Ukraine of a key ally who had Trump ear , experts say",
-      "url": "https://www.independent.co.uk/news/world/europe/lindsey-graham-death-ukraine-russia-putin-trump-b3013760.html",
-      "published_at": "20260713T160000Z",
-      "source": "independent.co.uk",
-      "tags": [
-        "RUSSIA",
-        "UKRAINE"
-      ]
-    },
-    {
       "id": "gdelt_6bbeb462b203dd74",
       "headline": "Latvija ES Ārlietu padomes sanāksmē akcentē turpmāka spiediena palielināšanu uz Krieviju un aicina pēc iespējas ātrāk vienoties par spēcīgu sankciju 21 . kārtu",
       "url": "https://www.mfa.gov.lv/lv/jaunums/latvija-es-arlietu-padomes-sanaksme-akcente-turpmaka-spiediena-palielinasanu-uz-krieviju-un-aicina-pec-iespejas-atrak-vienoties-par-specigu-sankciju-21-kartu",
       "published_at": "20260713T170000Z",
       "source": "mfa.gov.lv",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d43706662b40c7ab",
-      "headline": "Российский дипломат отреагировал на обвинения ЕС в адрес Москвы",
-      "url": "https://www.mk.ru/politics/2026/07/13/rossiyskiy-diplomat-otreagiroval-na-obvineniya-es-v-adres-moskvy.html",
-      "published_at": "20260713T153000Z",
-      "source": "mk.ru",
       "tags": []
     },
     {
@@ -192,14 +181,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_58971591a2cbcfde",
-      "headline": "Trump Patience With the Iranian Regime Runs Out – HotAir",
-      "url": "https://hotair.com/headlines/2026/07/13/trumps-patience-with-the-iranian-regime-runs-out-n3816855",
-      "published_at": "20260713T160000Z",
-      "source": "hotair.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_81b234a169774be5",
       "headline": "La voce di Pasolini risuona a Casa Colussi dove nacque la sua poesia - Cultura e Società",
       "url": "https://www.ansa.it/nuova_europa/it/notizie/rubriche/cultura/2026/07/13/la-voce-di-pasolini-risuona-a-casa-colussi-dove-nacque-la-sua-poesia_b1d93cf3-aee4-48d2-a996-06338abdba6b.html",
@@ -213,6 +194,33 @@
       "url": "https://www.ansa.it/friuliveneziagiulia/notizie/2026/07/13/la-voce-di-pasolini-risuona-a-casa-colussi-dove-nacque-la-sua-poesia_1635a737-9844-43ac-827f-594d23c5faeb.html",
       "published_at": "20260713T180000Z",
       "source": "ansa.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b7b4e21340e3277a",
+      "headline": "Η Γαλλία εξοπλίζει την Ουκρανία με 16 Rafale και νέα αντιαεροπορικά συστήματα",
+      "url": "https://www.protagon.gr/epikairotita/i-gallia-eksoplizei-tin-oukrania-me-16-rafale-kai-nea-antiaeroporika-systimata-44343405499",
+      "published_at": "20260713T214500Z",
+      "source": "protagon.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_26d891d9fd251184",
+      "headline": "Russia subverts sanctions by acquiring military technology in Japan – NaturalNews . com",
+      "url": "https://www.naturalnews.com/2026-07-13-russia-subverts-sanctions-by-acquiring-military-technology-in-japan.html",
+      "published_at": "20260713T213000Z",
+      "source": "naturalnews.com",
+      "tags": [
+        "RUSSIA",
+        "JAPAN"
+      ]
+    },
+    {
+      "id": "gdelt_abbe0b5bed22df2b",
+      "headline": "Was vom US - Iran - Rahmenabkommen noch übrig bleibt",
+      "url": "https://www.watson.ch/international/iran/675820335-was-vom-us-iran-rahmenabkommen-noch-uebrig-bleibt",
+      "published_at": "20260713T210000Z",
+      "source": "watson.ch",
       "tags": []
     },
     {
@@ -240,6 +248,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_b38cb422d8d1d6cf",
+      "headline": "14 миллиардов на восстановление : как Белгородская область получит помощь от правительства",
+      "url": "https://runews24.ru/belgorod/13/07/2026/14-milliardov-na-vosstanovlenie-kak-belgorodskaya-oblast-poluchit-pomoshh-ot-pravitelstva",
+      "published_at": "20260713T184500Z",
+      "source": "runews24.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_0c8d5bbeb1c05c40",
       "headline": "US - Iran - Rahmenabkommen : Was hat Trump überhaupt erreicht ?",
       "url": "https://www.noz.de/deutschland-welt/politik/artikel/us-iran-rahmenabkommen-was-hat-trump-ueberhaupt-erreicht-50918142",
@@ -248,12 +264,16 @@
       "tags": []
     },
     {
-      "id": "gdelt_b38cb422d8d1d6cf",
-      "headline": "14 миллиардов на восстановление : как Белгородская область получит помощь от правительства",
-      "url": "https://runews24.ru/belgorod/13/07/2026/14-milliardov-na-vosstanovlenie-kak-belgorodskaya-oblast-poluchit-pomoshh-ot-pravitelstva",
-      "published_at": "20260713T184500Z",
-      "source": "runews24.ru",
-      "tags": []
+      "id": "gdelt_2ee4c8105856c354",
+      "headline": "Iran , Pakistan , Qatar , Oman talks continue to prevent US esc",
+      "url": "https://www.pakistantoday.com.pk/2026/07/14/iran-says-talks-with-pakistan-qatar-and-oman-continue-to-avert-us-escalation",
+      "published_at": "20260713T210000Z",
+      "source": "pakistantoday.com.pk",
+      "tags": [
+        "QATAR",
+        "OMAN",
+        "PAKISTAN"
+      ]
     },
     {
       "id": "gdelt_56c51692b712b781",
@@ -280,19 +300,19 @@
       "tags": []
     },
     {
+      "id": "gdelt_8e5548d383ef1a82",
+      "headline": "Mad mullahs : Is Washington misreading Tehran ? * WorldNetDaily * by Hamid Enayat",
+      "url": "https://www.wnd.com/2026/07/mad-mullahs-is-washington-misreading-tehran/",
+      "published_at": "20260713T210000Z",
+      "source": "wnd.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_f659902381625248",
       "headline": "US - Iran - Rahmenabkommen : Was hat Trump überhaupt erreicht ?",
       "url": "http://www.op-online.de/politik/us-iran-rahmenabkommen-was-hat-trump-ueberhaupt-erreicht-zr-94395871.html",
       "published_at": "20260713T184500Z",
       "source": "op-online.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_65084d44c8b440c7",
-      "headline": "Schweiz : Freihandelsabkommen mit Grossbritannien steht",
-      "url": "https://www.bazonline.ch/schweiz-freihandelsabkommen-mit-grossbritannien-steht-636519786927",
-      "published_at": "20260713T153000Z",
-      "source": "bazonline.ch",
       "tags": []
     },
     {
@@ -312,6 +332,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_8e141ef625dd61bb",
+      "headline": "US - Iran - Rahmenabkommen : Was hat Trump überhaupt erreicht ?",
+      "url": "https://www.die-glocke.de/blick-in-die-welt/politik/artikel/us-iran-rahmenabkommen-was-hat-trump-ueberhaupt-erreicht-1783965905",
+      "published_at": "20260713T210000Z",
+      "source": "die-glocke.de",
+      "tags": []
+    },
+    {
       "id": "gdelt_4c26f5a3a611c8b6",
       "headline": "Naher Osten : Was hat Trump mit dem Iran - Rahmenabkommen überhaupt erreicht ?",
       "url": "https://www.handelsblatt.com/politik/international/naher-osten-was-hat-trump-mit-dem-iran-rahmenabkommen-ueberhaupt-erreicht/100239927.html",
@@ -320,11 +348,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_ffce0de767116818",
-      "headline": "Británia sa bude podieľať na vojenskej pomoci Ukrajine v rámci pôžičky EÚ",
-      "url": "https://dennikn.sk/minuta/5453231/",
-      "published_at": "20260713T181500Z",
-      "source": "dennikn.sk",
+      "id": "gdelt_600cca8c7e5c30db",
+      "headline": "US - Iran - Rahmenabkommen : Was hat Trump überhaupt erreicht ? | Nachrichten aus aller Welt",
+      "url": "https://www.lz.de/ueberregional/nachrichten/24374641_US-Iran-Rahmenabkommen-Was-hat-Trump-ueberhaupt-erreicht.html",
+      "published_at": "20260713T210000Z",
+      "source": "lz.de",
       "tags": []
     },
     {
@@ -333,6 +361,14 @@
       "url": "https://www.nakedcapitalism.com/2026/07/trapped-at-home-climate-stress-is-more-likely-to-immobilize-the-poor-than-to-move-them.html",
       "published_at": "20260713T180000Z",
       "source": "nakedcapitalism.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ffce0de767116818",
+      "headline": "Británia sa bude podieľať na vojenskej pomoci Ukrajine v rámci pôžičky EÚ",
+      "url": "https://dennikn.sk/minuta/5453231/",
+      "published_at": "20260713T181500Z",
+      "source": "dennikn.sk",
       "tags": []
     },
     {
@@ -378,19 +414,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_9f720e0c77b69859",
-      "headline": "بعد فرنسا .. هولندا تستدعي سفير روسيا بشأن هجمات إلكترونية",
-      "url": "https://www.eremnews.com/news/world/wndpysq",
-      "published_at": "20260713T181500Z",
-      "source": "eremnews.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_bb31a3bb5349dcf3",
       "headline": "Visa et MasterCard face à la nouvelle donne mondiale  : pourquoi Washington pourrait nuire à sa propre suprématie financière",
       "url": "https://www.challenges.fr/entreprise/banque-et-assurance/visa-et-mastercard-face-a-la-nouvelle-donne-mondiale-pourquoi-washington-pourrait-nuire-a-sa-propre-suprematie-financiere_644865",
       "published_at": "20260713T181500Z",
       "source": "challenges.fr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9f720e0c77b69859",
+      "headline": "بعد فرنسا .. هولندا تستدعي سفير روسيا بشأن هجمات إلكترونية",
+      "url": "https://www.eremnews.com/news/world/wndpysq",
+      "published_at": "20260713T181500Z",
+      "source": "eremnews.com",
       "tags": []
     },
     {
@@ -426,6 +462,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_46353f0d6c882189",
+      "headline": "PYMNTS | Vocalink Future Turns on Europe Faster Payments Shift",
+      "url": "https://www.pymnts.com/cryptocurrency/2026/vocalink-future-turns-europe-faster-payments-shift/",
+      "published_at": "20260713T210000Z",
+      "source": "pymnts.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_1653980ef8ce4536",
       "headline": "В лесах Рязанской области введен особый противопожарный режим и усилен мониторинг | Рязанская область",
       "url": "https://fedpress.ru/news/62/society/3443986",
@@ -439,6 +483,14 @@
       "url": "https://www.ont.by/ru/policy-ru/view/putin-otvety-na-udary-po-territorii-rossii-budut-v-razy-moschnee-321996-2026",
       "published_at": "20260713T180000Z",
       "source": "ont.by",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6a5f755cbbe7c601",
+      "headline": "Sécurité : Tunis et Paris renforcent leur coordination",
+      "url": "https://www.webdo.tn/fr/actualite/national/securite-tunis-et-paris-renforcent-leur-coordination/401012/",
+      "published_at": "20260713T213000Z",
+      "source": "webdo.tn",
       "tags": []
     },
     {
@@ -457,7 +509,9 @@
       "url": "http://www.heraldglobe.com/news/279184856/nato-state-president-reveals-bloc-lack-of-enthusiasm-for-funding-ukraine",
       "published_at": "20260713T171500Z",
       "source": "heraldglobe.com",
-      "tags": []
+      "tags": [
+        "UKRAINE"
+      ]
     },
     {
       "id": "gdelt_e4de1261fe8b492c",
@@ -492,14 +546,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_972e60a83ec31ee5",
-      "headline": "Un tratado histórico para el Campo de Gibraltar y la provincia de Cádiz",
-      "url": "https://www.lavozdigital.es/provincia/campo-gibraltar/tratado-historico-campo-gibraltar-provincia-cadiz-20260713131431-ntv.html",
-      "published_at": "20260713T160000Z",
-      "source": "lavozdigital.es",
-      "tags": []
-    },
-    {
       "id": "gdelt_ef961ef3e871c590",
       "headline": "Nahost - Ticker : Trump kündigt erneut Blockade iranischer Häfen an",
       "url": "https://www.br.de/nachrichten/deutschland-welt/usa-israel-iran-krieg-aktuelle-news-vom-13-bis-19-juli-im-ticker,VP8qwl3",
@@ -510,11 +556,11 @@
       ]
     },
     {
-      "id": "gdelt_1c92f17bff7d3d61",
-      "headline": "Врио губернатора Белгородской области Александр Шуваев обсудил с Максимом Решетниковым расширение СЭЗ на весь регион",
-      "url": "https://runews24.ru/belgorod/13/07/2026/vrio-gubernatora-belgorodskoj-oblasti-aleksandr-shuvaev-obsudil-s-maksimom-reshetnikovyim-rasshirenie-sez-na-ves-region",
-      "published_at": "20260713T160000Z",
-      "source": "runews24.ru",
+      "id": "gdelt_59ed551c89b8e854",
+      "headline": "Punjab , Haryana , Himachal , Rajasthan , Delhi DGPs to meet NIA over action against gangs",
+      "url": "https://www.tribuneindia.com/news/punjab/punjab-haryana-himachal-delhi-dgps-of-five-states-to-meet-nia-over-action-against-gangs/",
+      "published_at": "20260713T210000Z",
+      "source": "tribuneindia.com",
       "tags": []
     },
     {
@@ -572,14 +618,12 @@
       ]
     },
     {
-      "id": "gdelt_933ff6b4620dcd91",
-      "headline": "欧盟对俄4名个人和5家实体实施制裁 资产冻结与入境禁令 _ 新闻频道 _ 中华网",
-      "url": "https://news.china.com/socialgd/10000169/20260714/49607338.html",
-      "published_at": "20260713T183000Z",
-      "source": "news.china.com",
-      "tags": [
-        "CHINA"
-      ]
+      "id": "gdelt_6805e97b6f55735a",
+      "headline": "Blokirali cestu zbog problema na hrvatskoj granici : Ugrožen nam je svakodnevni život",
+      "url": "https://www.glas-slavonije.hr/novosti/svijet/2026/07/13/blokirali-cestu-zbog-problema-na-hrvatskoj-granici-ugrozen-nam-je-svakodnevni-zivot-774332/",
+      "published_at": "20260713T214500Z",
+      "source": "glas-slavonije.hr",
+      "tags": []
     },
     {
       "id": "gdelt_6a64fd9e78ab6be3",
@@ -592,27 +636,21 @@
       ]
     },
     {
-      "id": "gdelt_68d2212637b248b0",
-      "headline": "Trump declares U . S .  Guardian of the Strait of Hormuz , announces 20 % shipping fee",
-      "url": "https://www.albawaba.com/news/trump-declares-us-%E2%80%98guardian-strait-1632900",
-      "published_at": "20260713T151500Z",
-      "source": "albawaba.com",
-      "tags": []
+      "id": "gdelt_933ff6b4620dcd91",
+      "headline": "欧盟对俄4名个人和5家实体实施制裁 资产冻结与入境禁令 _ 新闻频道 _ 中华网",
+      "url": "https://news.china.com/socialgd/10000169/20260714/49607338.html",
+      "published_at": "20260713T183000Z",
+      "source": "news.china.com",
+      "tags": [
+        "CHINA"
+      ]
     },
     {
-      "id": "gdelt_3ae0d3d3ca8ff773",
-      "headline": "مع تصاعد الضربات .. سفن تعبر مضيق هرمز مع تعطيل أجهزة الإرسال والتتبع",
-      "url": "https://alwasat.ly/news/economy/524640",
-      "published_at": "20260713T171500Z",
-      "source": "alwasat.ly",
-      "tags": []
-    },
-    {
-      "id": "gdelt_696978450616e8ab",
-      "headline": "В посольстве России прокомментировали новые санкции Лондона",
-      "url": "https://ria.ru/20260713/sanktsii-2104603958.html",
-      "published_at": "20260713T160000Z",
-      "source": "ria.ru",
+      "id": "gdelt_b0cdbad9da66850b",
+      "headline": "Mještani pograničnih sela u Vojvodini blokirali cestu zbog problema na hrvatskoj granici",
+      "url": "https://net.hr/danas/svijet/mjestani-pogranicnih-sela-u-vojvodini-blokirali-cestu-zbog-problema-na-hrvatskoj-granici-fb740ed0-7eee-11f1-936f-9600040c8f8e",
+      "published_at": "20260713T214500Z",
+      "source": "net.hr",
       "tags": []
     },
     {
@@ -624,18 +662,18 @@
       "tags": []
     },
     {
+      "id": "gdelt_3ae0d3d3ca8ff773",
+      "headline": "مع تصاعد الضربات .. سفن تعبر مضيق هرمز مع تعطيل أجهزة الإرسال والتتبع",
+      "url": "https://alwasat.ly/news/economy/524640",
+      "published_at": "20260713T171500Z",
+      "source": "alwasat.ly",
+      "tags": []
+    },
+    {
       "id": "gdelt_6dc4150f424018ac",
       "headline": "ЕС выделит Молдове 120 млн евро на усиление системы ПВО | MigNews - Новости Израиля и Мира на русском языке",
       "url": "https://mignews.com/news/politic/es-vydelit-moldove-120-mln-evro-na-usilenie-sistemy-pvo.html",
       "published_at": "20260713T161500Z",
-      "source": "mignews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c86d7c85676777c6",
-      "headline": "ЕС выделит Молдове 120 млн евро на усиление системы ПВО | MigNews - Новости Израиля и Мира на русском языке",
-      "url": "http://mignews.com/news/politic/es-vydelit-moldove-120-mln-evro-na-usilenie-sistemy-pvo.html",
-      "published_at": "20260713T160000Z",
       "source": "mignews.com",
       "tags": []
     },
@@ -682,11 +720,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_75808d0d14bbd6e2",
-      "headline": "AB , Rusyadaki insan hakları ihlalleri nedeniyle uyguladığı yaptırımları genişletti",
-      "url": "https://www.ensonhaber.com/ab-rusyadaki-insan-haklari-ihlalleri-nedeniyle-uyguladigi-yaptirimlari-genisletti-h1549689",
-      "published_at": "20260713T151500Z",
-      "source": "ensonhaber.com",
+      "id": "gdelt_2bcc8f70e9662d39",
+      "headline": "Valença celebra 140 anos da Ponte Internacional com 12 horas de cultura ibérica",
+      "url": "https://bragatv.pt/valenca-celebra-140-anos-da-ponte-internacional-com-12-horas-de-cultura-iberica/",
+      "published_at": "20260713T184500Z",
+      "source": "bragatv.pt",
       "tags": []
     },
     {
@@ -706,11 +744,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_2bcc8f70e9662d39",
-      "headline": "Valença celebra 140 anos da Ponte Internacional com 12 horas de cultura ibérica",
-      "url": "https://bragatv.pt/valenca-celebra-140-anos-da-ponte-internacional-com-12-horas-de-cultura-iberica/",
-      "published_at": "20260713T184500Z",
-      "source": "bragatv.pt",
+      "id": "gdelt_1bf4a7bf53ce1589",
+      "headline": "Rubio vows to  dismantle  International Criminal Court",
+      "url": "https://www.kcra.com/article/rubio-dismantle-international-criminal-court/71920198",
+      "published_at": "20260713T214500Z",
+      "source": "kcra.com",
       "tags": []
     },
     {
@@ -722,11 +760,35 @@
       "tags": []
     },
     {
+      "id": "gdelt_0d59f9410fc0bcf7",
+      "headline": "« اليمني للدراسات »: الشرعية ترفض التصعيد الإيراني وتحركات ميليشيا الحوثي",
+      "url": "https://www.elwatannews.com/news/details/8319831",
+      "published_at": "20260713T213000Z",
+      "source": "elwatannews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d59e277f904b1f17",
+      "headline": "World leaders begin public farewells to Sir Keir Starmer",
+      "url": "https://www.edp24.co.uk/news/national/26277119.world-leaders-begin-public-farewells-sir-keir-starmer/",
+      "published_at": "20260713T214500Z",
+      "source": "edp24.co.uk",
+      "tags": []
+    },
+    {
       "id": "gdelt_1d38e58e255ae543",
       "headline": "Посол России отверг обвинения Германии в кибератаках против ЕС",
       "url": "https://www.kommersant.ru/doc/8814308",
       "published_at": "20260713T173000Z",
       "source": "kommersant.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9eeb7c7e989692b3",
+      "headline": "منطق الثأر ومنطق الاتفاق",
+      "url": "https://www.albayan.ae/opinions/articles/1525001",
+      "published_at": "20260713T213000Z",
+      "source": "albayan.ae",
       "tags": []
     },
     {
@@ -738,22 +800,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_01d02d3b63a05512",
-      "headline": "Эксперт : Евросоюз вводит санкции против России без должного анализа последствий",
-      "url": "https://www.pnp.ru/politics/ekspert-evrosoyuz-vvodit-sankcii-protiv-rossii-bez-dolzhnogo-analiza-posledstviy.html",
-      "published_at": "20260713T151500Z",
-      "source": "pnp.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_354b544e29ddb466",
-      "headline": "ВСУ готовят системную войну дронов против инфраструктуры РФ , считает военэксперт",
-      "url": "https://life.ru/p/1899360",
-      "published_at": "20260713T160000Z",
-      "source": "life.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_9d01a4d0fd837d56",
       "headline": "AB Rusyaya yönelik 21  nci yaptırım paketi konusunda anlaşamadı",
       "url": "https://www.haberler.com/politika/ab-rusya-ya-21-yaptirim-paketinde-anlasamadi-20047770-haberi/",
@@ -762,11 +808,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_10a5375ce5340503",
+      "headline": "ԱՄՆ - ն ընդլայնել է Իրանի դեմ սահմանված պատժամիջոցները",
+      "url": "https://b24.am/economy/461039.html",
+      "published_at": "20260713T213000Z",
+      "source": "b24.am",
+      "tags": []
+    },
+    {
       "id": "gdelt_b827a54fe4362846",
       "headline": "ЕС и РФ : на Западе признали , что санкции против России причиняют боль Евросоюзу",
       "url": "https://ura.news/news/1053109263",
       "published_at": "20260713T183000Z",
       "source": "ura.news",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3b1215b95da06e4b",
+      "headline": "World leaders begin public farewells to Sir Keir Starmer",
+      "url": "https://www.salisburyjournal.co.uk/news/national/26277119.world-leaders-begin-public-farewells-sir-keir-starmer/",
+      "published_at": "20260713T213000Z",
+      "source": "salisburyjournal.co.uk",
       "tags": []
     },
     {
@@ -802,6 +864,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_59ba37dd6de13136",
+      "headline": "Велика Британія приєдналася до програми кредиту ЄС на €90 млрд для України",
+      "url": "https://www.ostro.org/news/velyka-brytaniya-pryyednalasya-do-programy-kredytu-yes-na-90-mlrd-dlya-ukrayiny-i561615",
+      "published_at": "20260713T194500Z",
+      "source": "ostro.org",
+      "tags": []
+    },
+    {
       "id": "gdelt_1e5a6c585158f645",
       "headline": "Названа дата новой попытки принять 21 - й пакет санкций ЕС против России",
       "url": "https://lenta.ru/news/2026/07/13/raskryta-data-novoy-popytki-prinyat-21-y-paket-sanktsiy-es-protiv-rossii/",
@@ -818,14 +888,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_59ba37dd6de13136",
-      "headline": "Велика Британія приєдналася до програми кредиту ЄС на €90 млрд для України",
-      "url": "https://www.ostro.org/news/velyka-brytaniya-pryyednalasya-do-programy-kredytu-yes-na-90-mlrd-dlya-ukrayiny-i561615",
-      "published_at": "20260713T194500Z",
-      "source": "ostro.org",
-      "tags": []
-    },
-    {
       "id": "gdelt_515c45203da88129",
       "headline": "Formel - 1 - Kalender : Bahrain - Rückkehr ausgeschlossen , Sorgen um Saisonfinale",
       "url": "https://www.formel1.de/news/news/2026-07-13/formel-1-kalender-bahrain-rueckkehr-ausgeschlossen-sorgen-um-saisonfinale",
@@ -836,14 +898,6 @@
       ]
     },
     {
-      "id": "gdelt_25d676bcb8726d6f",
-      "headline": "В Евросоюзе сорвалось согласование очередного пакета антироссийских санкций | Европа",
-      "url": "https://fedpress.ru/news/europe/policy/3443999",
-      "published_at": "20260713T181500Z",
-      "source": "fedpress.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_32817d5cacf7ec94",
       "headline": "Štáty Európskej únie zatiaľ neprijali 21 . balík sankcií proti Rusku . Podľa Eštoka však neohrozuje záujmy Slovenska",
       "url": "https://www.ta3.com/clanok/1060501/staty-europskej-unie-zatial-neprijali-21-balik-sankcii-proti-rusku-podla-estoka-vsak-neohrozuje-zaujmy-slovenska",
@@ -852,35 +906,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_3692b874babd82d5",
-      "headline": "Европейские банки подают иски к Linde из - за убытков от антироссийских санкций - 13 июля 2026",
-      "url": "https://www.fontanka.ru/2026/07/13/76531950/",
-      "published_at": "20260713T184500Z",
-      "source": "fontanka.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b7092c89f4c6e591",
-      "headline": "Загадкова смерть сенатора Грема : США розслідують « російський слід » на тлі рекордних закупівель газу Європою",
-      "url": "https://www.facenews.ua/news/2026/535748/",
-      "published_at": "20260713T173000Z",
-      "source": "facenews.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9af9e333df4a9533",
-      "headline": "Раскрыта судьба сокрушительных санкций США против России после ухода из жизни их автора",
-      "url": "https://lenta.ru/news/2026/07/13/raskryta-sudba-sokrushitelnyh-sanktsiy-ssha-protiv-rossii-posle-uhoda-iz-zhizni-ih-avtora/",
-      "published_at": "20260713T163000Z",
-      "source": "lenta.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_434c498454cfc97b",
-      "headline": "Евросоюз отменил ограничения на поставки одного вида продукции из РФ",
-      "url": "https://www.mk.ru/politics/2026/07/13/evrosoyuz-otmenil-ogranicheniya-na-postavki-odnogo-vida-produkcii-iz-rf.html",
-      "published_at": "20260713T161500Z",
-      "source": "mk.ru",
+      "id": "gdelt_25d676bcb8726d6f",
+      "headline": "В Евросоюзе сорвалось согласование очередного пакета антироссийских санкций | Европа",
+      "url": "https://fedpress.ru/news/europe/policy/3443999",
+      "published_at": "20260713T181500Z",
+      "source": "fedpress.ru",
       "tags": []
     },
     {
@@ -900,27 +930,35 @@
       "tags": []
     },
     {
-      "id": "gdelt_d65f7edb830c7917",
-      "headline": "Новые санкции против РФ : в Европе не согласовали 21 - ый пакет санкций против России",
-      "url": "https://ura.news/news/1053109248",
-      "published_at": "20260713T170000Z",
-      "source": "ura.news",
+      "id": "gdelt_3692b874babd82d5",
+      "headline": "Европейские банки подают иски к Linde из - за убытков от антироссийских санкций - 13 июля 2026",
+      "url": "https://www.fontanka.ru/2026/07/13/76531950/",
+      "published_at": "20260713T184500Z",
+      "source": "fontanka.ru",
       "tags": []
     },
     {
-      "id": "gdelt_daf9167d912e2500",
-      "headline": "Kallas : IOC decision to reinstate Russians is out of touch with reality",
-      "url": "https://en.interfax.com.ua/news/general/1184578.html",
-      "published_at": "20260713T174500Z",
-      "source": "en.interfax.com.ua",
+      "id": "gdelt_b7092c89f4c6e591",
+      "headline": "Загадкова смерть сенатора Грема : США розслідують « російський слід » на тлі рекордних закупівель газу Європою",
+      "url": "https://www.facenews.ua/news/2026/535748/",
+      "published_at": "20260713T173000Z",
+      "source": "facenews.ua",
       "tags": []
     },
     {
-      "id": "gdelt_d5b905a6a31d9214",
-      "headline": "Déterminés à accélérer les progrès vers la paix : Déclaratio",
-      "url": "https://www.elysee.fr/emmanuel-macron/2026/07/13/determines-a-accelerer-les-progres-vers-la-paix-declaration-des-copresidents-de-la-coalition-des-volontaires",
-      "published_at": "20260713T194500Z",
-      "source": "elysee.fr",
+      "id": "gdelt_97e9cd5226ee0c40",
+      "headline": "Генеральный директор Daimler Truck бьет тревогу : Европа не готова к тому , чтобы к 2030 году 35 % грузовиков были электрическими",
+      "url": "https://24tv.ua/auto/ru/daimler_truck_prizyvaet_es_peresmotret_normy_po_vybrosam_co_zaplanirovannye_mery_privedut_k_krahu_avtoproma_n73970",
+      "published_at": "20260713T214500Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_09a4de2a4641cb9e",
+      "headline": "Калас : ЕУ није постигла договор од 21 . пакету санкција Москви",
+      "url": "https://www.rtrs.tv/vijesti/vijest.php?id=652918",
+      "published_at": "20260713T214500Z",
+      "source": "rtrs.tv",
       "tags": []
     },
     {
@@ -932,6 +970,54 @@
       "tags": []
     },
     {
+      "id": "gdelt_9af9e333df4a9533",
+      "headline": "Раскрыта судьба сокрушительных санкций США против России после ухода из жизни их автора",
+      "url": "https://lenta.ru/news/2026/07/13/raskryta-sudba-sokrushitelnyh-sanktsiy-ssha-protiv-rossii-posle-uhoda-iz-zhizni-ih-avtora/",
+      "published_at": "20260713T163000Z",
+      "source": "lenta.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_434c498454cfc97b",
+      "headline": "Евросоюз отменил ограничения на поставки одного вида продукции из РФ",
+      "url": "https://www.mk.ru/politics/2026/07/13/evrosoyuz-otmenil-ogranicheniya-na-postavki-odnogo-vida-produkcii-iz-rf.html",
+      "published_at": "20260713T161500Z",
+      "source": "mk.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d5b905a6a31d9214",
+      "headline": "Déterminés à accélérer les progrès vers la paix : Déclaratio",
+      "url": "https://www.elysee.fr/emmanuel-macron/2026/07/13/determines-a-accelerer-les-progres-vers-la-paix-declaration-des-copresidents-de-la-coalition-des-volontaires",
+      "published_at": "20260713T194500Z",
+      "source": "elysee.fr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d65f7edb830c7917",
+      "headline": "Новые санкции против РФ : в Европе не согласовали 21 - ый пакет санкций против России",
+      "url": "https://ura.news/news/1053109248",
+      "published_at": "20260713T170000Z",
+      "source": "ura.news",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1cf35e061042a613",
+      "headline": "Каллас удивилась геополитическому значению российской рыбы для ЕС",
+      "url": "https://www.vedomosti.ru/politics/news/2026/07/13/1213398-kallas-udivilas-znacheniyu-ribi",
+      "published_at": "20260713T214500Z",
+      "source": "vedomosti.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_daf9167d912e2500",
+      "headline": "Kallas : IOC decision to reinstate Russians is out of touch with reality",
+      "url": "https://en.interfax.com.ua/news/general/1184578.html",
+      "published_at": "20260713T174500Z",
+      "source": "en.interfax.com.ua",
+      "tags": []
+    },
+    {
       "id": "gdelt_7effc6cafb6f3e80",
       "headline": "Каллас сделала неожиданное признание о российской рыбе",
       "url": "https://lenta.ru/news/2026/07/13/kallas-sdelala-neozhidannoe-priznanie-o-rossiyskoy-rybe/",
@@ -940,93 +1026,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_b062de092c84f1be",
-      "headline": "موقع بكرا - الحوثيون : استهداف مطار صنعاء ينهي مرحلة خفض التصعيد ونحتفظ بحق الرد",
-      "url": "https://bokra.net/Article-1598942",
-      "published_at": "20260713T153000Z",
-      "source": "bokra.net",
-      "tags": []
-    },
-    {
       "id": "gdelt_1c30f28f459223f6",
       "headline": "Антироссийские санкции : ЕС исключил рыбу из списка",
       "url": "https://iz.ru/2131881/strany-es-iskliuchili-rybu-iz-antirossiiskikh-sanktcii-izi",
       "published_at": "20260713T171500Z",
       "source": "iz.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e25efa5420781228",
-      "headline": "Эксперт Астафьев назвал условия , при которых цены на нефть превысят $90 за баррель",
-      "url": "https://www.mk.ru/economics/2026/07/13/ekspert-astafev-nazval-usloviya-pri-kotorykh-ceny-na-neft-prevysyat-90-za-barrel.html",
-      "published_at": "20260713T161500Z",
-      "source": "mk.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_dde91fe1322563de",
-      "headline": "Ambasador Nečajev : Pretnje EU o proširenju sankcija imaće posledice",
-      "url": "https://www.novosti.rs/planeta/svet/1627414/rusija-odbacila-optuzbe-sajber-napade-necajev-zapretio",
-      "published_at": "20260713T174500Z",
-      "source": "novosti.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_55dc81065fc34b53",
-      "headline": "Einer der wichtigsten Wirtschaftszweige : united states sanktioniert nun auch das Tourismusministerium Kubas",
-      "url": "https://www.n-tv.de/ticker/USA-sanktioniert-nun-auch-das-Tourismusministerium-Kubas-id31081716.html",
-      "published_at": "20260713T180000Z",
-      "source": "n-tv.de",
-      "tags": [
-        "UNITED_STATES"
-      ]
-    },
-    {
-      "id": "gdelt_52f347280c100985",
-      "headline": "Посол Нечаев предупредил ЕС о последствиях новых санкций :: Новости дня / ВЗГЛЯД",
-      "url": "https://vz.ru/news/2026/7/13/1434553.html",
-      "published_at": "20260713T171500Z",
-      "source": "vz.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a76cb449f99079aa",
-      "headline": "Европа не договорилась по России",
-      "url": "https://haqqin.az/newsarchive/388380",
-      "published_at": "20260713T173000Z",
-      "source": "haqqin.az",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a4a9c63f5c92a4db",
-      "headline": "Евросоюз не согласовал 21 - й пакет санкций против России : подробности и причины исключения запрета на поставки рыбы - 13 июля 2026",
-      "url": "https://www.fontanka.ru/2026/07/13/76532155/",
-      "published_at": "20260713T184500Z",
-      "source": "fontanka.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_39d459da4393b976",
-      "headline": "Истребители Rafale – когда они появятся в Украине , что известно – заявление Макрона",
-      "url": "https://24tv.ua/military/ru/istrebiteli-rafale-kogda-oni-pojavjatsja-v-ukraine-chto-izvestno-zajavlenie-makrona_n3105086",
-      "published_at": "20260713T194500Z",
-      "source": "24tv.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1fa0597b4f5d5ad5",
-      "headline": "ЕС исключил российскую рыбу из проекта нового пакета санкций",
-      "url": "https://tvzvezda.ru/news/20267131955-vWZKl.html",
-      "published_at": "20260713T173000Z",
-      "source": "tvzvezda.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_61eea68dcd2b0536",
-      "headline": "Лондон не справляется с нагнетанием  российской угрозы , заявило посольство",
-      "url": "https://ria.ru/20260713/britaniya-2104609191.html",
-      "published_at": "20260713T161500Z",
-      "source": "ria.ru",
       "tags": []
     }
   ]
