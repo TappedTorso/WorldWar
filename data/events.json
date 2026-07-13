@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-07-12T21:05:52Z",
+    "generated_at_utc": "2026-07-13T00:08:42Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -32,14 +32,6 @@
     }
   },
   "events": [
-    {
-      "id": "gdelt_cfeb7664cc218c3d",
-      "headline": "Полиция Украины запланировала карательные рейды в Черниговской области",
-      "url": "https://tvzvezda.ru/news/20267122029-yGPNS.html",
-      "published_at": "20260712T180000Z",
-      "source": "tvzvezda.ru",
-      "tags": []
-    },
     {
       "id": "gdelt_0e6716f213716595",
       "headline": "Полиция Украины готовит карательные операции новости",
@@ -76,27 +68,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_1ce55663c64477d5",
-      "headline": "美国会头号反华鹰派暴毙 ， 台独  关键人脉靠山塌了",
-      "url": "https://www.163.com/dy/article/L1LSU8N4055080L4.html",
-      "published_at": "20260712T151500Z",
-      "source": "163.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_cf264abefb0674b8",
       "headline": "КСИР уничтожил пусковые установки HIMARS США в Кувейте трое погибших",
       "url": "https://www.kommersant.ru/doc/8813714",
       "published_at": "20260712T183000Z",
       "source": "kommersant.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0be388124b585228",
-      "headline": "Адвокат України в адміністрації Трампа : чому вплив Ліндсі Грема не варто перебільшувати",
-      "url": "https://www.bbc.com/ukrainian/articles/cx2v87n3d7ro",
-      "published_at": "20260712T154500Z",
-      "source": "bbc.com",
       "tags": []
     },
     {
@@ -108,11 +84,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_92a240d2f9b22125",
-      "headline": "Умер сенатор Линдси Грэм один из самых последовательных союзников Израиля в США",
-      "url": "http://www.isra.com/news/281890",
-      "published_at": "20260712T163000Z",
-      "source": "isra.com",
+      "id": "gdelt_9632e985d7afdb51",
+      "headline": "США и Иран обменялись ударами в районе Ормузского пролива",
+      "url": "https://iz.ru/2131320/daniil-sechkin/obmen-udarami-mezhdu-ssha-i-iranom-riskuet-stat-zatiazhnym",
+      "published_at": "20260712T213000Z",
+      "source": "iz.ru",
       "tags": []
     },
     {
@@ -129,22 +105,6 @@
       "url": "https://www.nakanune.ru/news/2026/07/12/22879595/",
       "published_at": "20260712T191500Z",
       "source": "nakanune.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0e9e0a2635e61fed",
-      "headline": "СВ : Киев готовит карательную акцию против пророссийских жителей Черниговщины",
-      "url": "https://rg.ru/2026/07/12/sv-kiev-gotovit-karatelnuiu-akciiu-protiv-prorossijskih-zhitelej-chernigovshchiny.html",
-      "published_at": "20260712T153000Z",
-      "source": "rg.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3bb97569fb7f5a3f",
-      "headline": "Polska zaraz w funkcji hubu gazowego",
-      "url": "https://wgospodarce.pl/informacje/157192-polska-zaraz-w-funkcji-hubu-gazowego",
-      "published_at": "20260712T161500Z",
-      "source": "wgospodarce.pl",
       "tags": []
     },
     {
@@ -188,19 +148,22 @@
       "tags": []
     },
     {
-      "id": "gdelt_808d6173e8253d80",
-      "headline": "Сенатор США Ліндсі Грем помер від зупинки серця у 71 рік",
-      "url": "https://week.ukrainianwall.com/166830-senator-ssha-lindsi-grem-pomer-u-71-rik-zupinka-sercya-obirvala-zhittya-soyuznika-ukrajini",
-      "published_at": "20260712T170000Z",
-      "source": "week.ukrainianwall.com",
-      "tags": []
+      "id": "gdelt_8be3b1054514ed55",
+      "headline": "Iran - US Escalation Hits Kuwait",
+      "url": "https://athens-times.com/iran-us-escalation-deadly-strikes-and-retaliatory-attacks-on-kuwait/",
+      "published_at": "20260712T220000Z",
+      "source": "athens-times.com",
+      "tags": [
+        "IRAN",
+        "KUWAIT"
+      ]
     },
     {
-      "id": "gdelt_adbef53d5f29637e",
-      "headline": "Смерть американского сенатора Линдси Грэма : последствия для политики США - 12 июля 2026",
-      "url": "https://www.fontanka.ru/2026/07/12/76530056/",
-      "published_at": "20260712T171500Z",
-      "source": "fontanka.ru",
+      "id": "gdelt_c6a4e602dcd8a0a3",
+      "headline": "Reuters : Германия профинансирует закупку 50 тысяч дронов для Украины",
+      "url": "https://aif.ru/politics/reuters-germaniya-profinansiruet-zakupku-50-tysyach-dronov-dlya-ukrainy",
+      "published_at": "20260712T220000Z",
+      "source": "aif.ru",
       "tags": []
     },
     {
@@ -214,35 +177,19 @@
       ]
     },
     {
-      "id": "gdelt_e8a7de3894f8e811",
-      "headline": "Israeli attacks in Gaza kill five people , including a girl , say medics",
-      "url": "https://www.arabnews.com/node/2650628/middle-east",
-      "published_at": "20260712T151500Z",
-      "source": "arabnews.com",
+      "id": "gdelt_614b972d45559700",
+      "headline": "Макрон собирает « Коалицию желающих »",
+      "url": "https://haqqin.az/newsarchive/388308",
+      "published_at": "20260712T220000Z",
+      "source": "haqqin.az",
       "tags": []
     },
     {
-      "id": "gdelt_1b6c03c75d15ebd8",
-      "headline": "FBI局长 ： 2026已驱逐62名中国间谍 粉碎中共  深度潜伏",
-      "url": "https://www.wenxuecity.com/news/2026/07/12/126706266.html",
-      "published_at": "20260712T164500Z",
-      "source": "wenxuecity.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e09c2b7076b4c446",
-      "headline": "Israeli attacks in Gaza kill five people , including a girl , say medics",
-      "url": "https://tribune.com.pk/story/2617827/israeli-attacks-in-gaza-kill-five-people-including-a-girl-say-medics",
-      "published_at": "20260712T170000Z",
-      "source": "tribune.com.pk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2be3655086e981cf",
-      "headline": "Президент Словакии сообщил об отказе ряда стран НАТО финансировать Киев :: Новости дня / ВЗГЛЯД",
-      "url": "https://vz.ru/news/2026/7/12/1434312.html",
-      "published_at": "20260712T153000Z",
-      "source": "vz.ru",
+      "id": "gdelt_de059a80b213b7fb",
+      "headline": "باحث سياسي : مضيق هرمز سيبقى ورقة الضغط الأقوى في يد إيران",
+      "url": "https://www.elwatannews.com/news/details/8319215",
+      "published_at": "20260712T214500Z",
+      "source": "elwatannews.com",
       "tags": []
     },
     {
@@ -254,30 +201,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_0b5d296b4e6bdbdc",
-      "headline": "Дрони ЗСУ б  ють по Кремлю : Путін шукає варіанти ескалації , Захід готується до « небезпечного літа »",
-      "url": "https://www.facenews.ua/news/2026/535639/",
-      "published_at": "20260712T180000Z",
-      "source": "facenews.ua",
+      "id": "gdelt_5aeafc60231dfbeb",
+      "headline": "Lazada Gmarket : Singapore shoppers buy more Korean goods",
+      "url": "https://www.straitstimes.com/business/companies-markets/spore-shoppers-among-s-e-asias-top-spenders-on-korean-goods-in-lazadas-gmarket-tie-up",
+      "published_at": "20260712T233000Z",
+      "source": "straitstimes.com",
       "tags": []
     },
     {
-      "id": "gdelt_3fe51f233f457f3c",
-      "headline": "Lindsey Graham Last 48 Hours : A Ukraine Trip , Russia Tensions and a  Sudden Illnes That Has the Internet Asking Questions",
-      "url": "https://www.latintimes.com/lindsey-grahams-last-48-hours-ukraine-trip-russia-tensions-sudden-illness-that-has-598202",
-      "published_at": "20260712T161500Z",
-      "source": "latintimes.com",
-      "tags": [
-        "RUSSIA",
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "gdelt_a2f67c3684147a58",
-      "headline": "Govt acts to stop illegal lithops trafficking",
-      "url": "https://www.namibian.com.na/govt-acts-to-stop-illegal-lithops-trafficking/",
-      "published_at": "20260712T160000Z",
-      "source": "namibian.com.na",
+      "id": "gdelt_379d0d11ff5b8959",
+      "headline": "ЕС убрал Вагита Алекперова из 21 - го пакета санкций против России",
+      "url": "https://haqqin.az/newsarchive/388312",
+      "published_at": "20260712T220000Z",
+      "source": "haqqin.az",
       "tags": []
     },
     {
@@ -289,33 +225,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_596f383e1e13f167",
-      "headline": "Lindsey Graham draws tributes for his support of Ukraine , trans - Atlantic ties and Israel",
-      "url": "https://www.local10.com/news/world/2026/07/12/lindsey-graham-draws-tributes-for-his-support-of-ukraine-trans-atlantic-ties-and-israel/",
-      "published_at": "20260712T151500Z",
-      "source": "local10.com",
-      "tags": [
-        "ISRAEL",
-        "UKRAINE"
-      ]
-    },
-    {
       "id": "gdelt_6f3c905cfbd968bb",
       "headline": "Трамп наказав приспустити прапори США на вшанування Ліндсі Грема",
       "url": "https://lb.ua/world/2026/07/12/751426_tramp_nakazav_prispustiti.html",
       "published_at": "20260712T200000Z",
       "source": "lb.ua",
       "tags": []
-    },
-    {
-      "id": "gdelt_5766957caaca11a0",
-      "headline": "Pakistan expresses  deep concern  over escalating ME tensions , urges parties to exercise restraint",
-      "url": "https://tribune.com.pk/story/2617832/pakistan-expresses-deep-concern-over-escalating-me-tensions-urges-parties-to-exercise-restraint",
-      "published_at": "20260712T153000Z",
-      "source": "tribune.com.pk",
-      "tags": [
-        "PAKISTAN"
-      ]
     },
     {
       "id": "gdelt_644b5bd35634411f",
@@ -334,6 +249,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_cc1d800d50244b17",
+      "headline": "Economist vê riscos à supremacia financeira dos EUA e destaca papel do Pix no debate",
+      "url": "https://www.infomoney.com.br/economia/economist-ve-riscos-a-supremacia-financeira-dos-eua-e-destaca-papel-do-pix-no-debate/",
+      "published_at": "20260712T214500Z",
+      "source": "infomoney.com.br",
+      "tags": []
+    },
+    {
       "id": "gdelt_e30726127ba38028",
       "headline": "Turner says he hopes Senate will pass Russia sanctions as part of Lindsey Graham legacy",
       "url": "https://www.yahoo.com/news/politics/articles/turner-says-hopes-senate-pass-165526588.html",
@@ -344,15 +267,12 @@
       ]
     },
     {
-      "id": "gdelt_33bf2c44f912b48e",
-      "headline": "IRAN THREATENS ISRAEL : Tehran Officials Call for Direct Strikes After Latest U . S . Attacks",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2573652/iran-threatens-israel-tehran-officials-call-for-direct-strikes-after-latest-u-s-attacks.html",
-      "published_at": "20260712T164500Z",
-      "source": "theyeshivaworld.com",
-      "tags": [
-        "IRAN",
-        "ISRAEL"
-      ]
+      "id": "gdelt_97fd774ea45a6716",
+      "headline": "إسماعيل تركي : التصعيد بين الولايات المتحدة وإيران يهدد مذكرة التفاهم والمسار التفاوضي",
+      "url": "https://www.dostor.org/5632868",
+      "published_at": "20260712T214500Z",
+      "source": "dostor.org",
+      "tags": []
     },
     {
       "id": "gdelt_adc0297a47f14f01",
@@ -371,38 +291,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_3572290dd43b7d21",
-      "headline": "ТАСС : на Черниговщине готовят карательную операцию против пророссийских жителей",
-      "url": "https://news.mail.ru/politics/71606586/",
-      "published_at": "20260712T154500Z",
-      "source": "news.mail.ru",
+      "id": "gdelt_19e87d0be4dad19e",
+      "headline": "Ambasadorët e BE - së nuk arrijnë të bien dakord për paketën e 21 - të të sanksioneve ndaj Rusisë",
+      "url": "https://telegrafi.com/ambasadoret-e-be-se-nuk-arrijne-te-bien-dakord-per-paketen-e-21-te-te-sanksioneve-ndaj-rusise/",
+      "published_at": "20260712T214500Z",
+      "source": "telegrafi.com",
       "tags": []
     },
     {
-      "id": "gdelt_d70bb29849631f7e",
-      "headline": "Israeli attacks in Gaza kill six people , including a nine - year - old girl , health officials say",
-      "url": "https://www.theglobeandmail.com/world/article-israeli-attacks-gaza-six-people-dead/",
-      "published_at": "20260712T173000Z",
-      "source": "theglobeandmail.com",
+      "id": "gdelt_1a6aecb01416b4bf",
+      "headline": "Milyarlarca dolarlık satış için formül masada : Trump F - 35 için o imzayı atacak mı ?",
+      "url": "https://www.turkiyegazetesi.com.tr/kose-yazilari/muzeyyen-biyik/milyarlarca-dolarlik-satis-icin-formul-masada-trump-f-35-icin-o-imzayi-atacak-mi-1802899",
+      "published_at": "20260712T214500Z",
+      "source": "turkiyegazetesi.com.tr",
       "tags": []
     },
     {
-      "id": "gdelt_f7189550ac21bc8f",
-      "headline": "Lindsey Graham draws tributes for his support of Ukraine , trans - Atlantic ties and Israel",
-      "url": "https://wtop.com/national/2026/07/lindsey-graham-draws-tributes-for-his-support-of-ukraine-trans-atlantic-ties-and-israel/",
-      "published_at": "20260712T164500Z",
-      "source": "wtop.com",
-      "tags": [
-        "ISRAEL",
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "gdelt_5896e802b4bf856d",
-      "headline": "SWIFT blokklánca kihívja a stabilcoinokat és a BRICS - et",
-      "url": "https://profitline.hu/a-swift-blokklanccal-tamadja-a-stabilcoinokat-megallithatja-a-brics-fizetesi-terveit-488926",
-      "published_at": "20260712T163000Z",
-      "source": "profitline.hu",
+      "id": "gdelt_95027942481b14fe",
+      "headline": "باحث سياسي : مفاوضات وقف إطلاق النار بين واشنطن وطهران تواجه ضغوطا",
+      "url": "https://www.elwatannews.com/news/details/8319214",
+      "published_at": "20260712T214500Z",
+      "source": "elwatannews.com",
       "tags": []
     },
     {
@@ -414,35 +323,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_69655e8556fb8528",
-      "headline": "Patriot для України : Польща передала п  ять ракет деталі скандалу Світ",
-      "url": "https://tsn.ua/svit/huchnyy-skandal-navkolo-patriot-u-zmi-nazvaly-kilkist-peredanykh-polshcheiu-raket-ukrayini-tsyfra-smishna-3126320.html",
-      "published_at": "20260712T163000Z",
-      "source": "tsn.ua",
-      "tags": []
-    },
-    {
       "id": "gdelt_fd4cf05644aaed53",
       "headline": "تحذير دولي مما يحدث في الخليج",
       "url": "https://www.alsumaria.tv/news/international/569852/%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1-%D8%AF%D9%88%D9%84%D9%8A-%D9%85%D9%85%D8%A7-%D9%8A%D8%AD%D8%AF%D8%AB-%D9%81%D9%8A-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D8%AC",
       "published_at": "20260712T190000Z",
       "source": "alsumaria.tv",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a2ed9469e75d1d49",
-      "headline": "أستاذ دراسات إيرانية : التيار الرافض للتفاوض حسم موقفه داخل طهران",
-      "url": "https://www.elwatannews.com/news/details/8319196",
-      "published_at": "20260712T203000Z",
-      "source": "elwatannews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7202aaf948ad75c0",
-      "headline": "صحيفة إسرائيلية تكشف موعد حل الكنيست وإجراء الانتخابات",
-      "url": "https://www.vetogate.com/5692089",
-      "published_at": "20260712T163000Z",
-      "source": "vetogate.com",
       "tags": []
     },
     {
@@ -454,19 +339,19 @@
       "tags": []
     },
     {
+      "id": "gdelt_a2ed9469e75d1d49",
+      "headline": "أستاذ دراسات إيرانية : التيار الرافض للتفاوض حسم موقفه داخل طهران",
+      "url": "https://www.elwatannews.com/news/details/8319196",
+      "published_at": "20260712T203000Z",
+      "source": "elwatannews.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_460561486e008529",
       "headline": "Еврокомиссию заподозрили в намерении смягчить 21 - й санкционный пакет",
       "url": "https://www.ng.ru/world/2026-07-12/1_9535_sanctions.html",
       "published_at": "20260712T183000Z",
       "source": "ng.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c1c1942d5bc214d5",
-      "headline": "У Парижі обговорять посилення ППО України та антибалістичні системи",
-      "url": "https://lb.ua/world/2026/07/12/751408_zustrichi_koalitsiyi_ohochih.html",
-      "published_at": "20260712T163000Z",
-      "source": "lb.ua",
       "tags": []
     },
     {
@@ -486,11 +371,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_77e929070eaa3d48",
-      "headline": "BP Rebana promotes investment potentials to Malaysian business players",
-      "url": "https://en.antaranews.com/news/422359/bp-rebana-promotes-investment-potentials-to-malaysian-business-players",
-      "published_at": "20260712T161500Z",
-      "source": "en.antaranews.com",
+      "id": "gdelt_c8456cbc0051a33b",
+      "headline": "Ataques israelenses deixam mortos em Gaza durante negociaes",
+      "url": "https://www.brasil247.com/mundo/ataques-israelenses-deixam-mortos-em-gaza-durante-negociacoes/",
+      "published_at": "20260712T220000Z",
+      "source": "brasil247.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9c77e70c02e0f07f",
+      "headline": "رويترز : 3 % ارتفاعا في أسعار النفط مع تصاعد التوترات بالشرق الأوسط",
+      "url": "https://www.vetogate.com/5692258",
+      "published_at": "20260712T233000Z",
+      "source": "vetogate.com",
       "tags": []
     },
     {
@@ -502,22 +395,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_c6c9ccff2c7fd1c7",
-      "headline": "سنتكوم  لـ  إرم نيوز : العمليات ضد طهران لم تنته وجميع الخيارات مطروحة",
-      "url": "https://www.eremnews.com/news/world/3spf4gl",
-      "published_at": "20260712T151500Z",
-      "source": "eremnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3f5ef358a6e42f04",
-      "headline": "Trump  i ka të gjitha kartat  në raport me Iranin",
-      "url": "https://www.botasot.info/bota/2505652/trump-i-ka-te-gjitha-kartat-ne-raport-me-iranin/",
-      "published_at": "20260712T180000Z",
-      "source": "botasot.info",
-      "tags": []
-    },
-    {
       "id": "gdelt_7e866753dcc4b2a0",
       "headline": "Гутерреш : возобновление боевых действий США и Ирана грозит катастрофой",
       "url": "https://ria.ru/20260712/guterresh-2104399851.html",
@@ -526,38 +403,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_8a7e54c54f24839e",
-      "headline": "Авиаудары США по иранской провинции Бушир затронули пять городов",
-      "url": "https://www.mk.ru/politics/2026/07/12/aviaudary-ssha-po-iranskoy-provincii-bushir-zatronuli-pyat-gorodov.html",
-      "published_at": "20260712T170000Z",
-      "source": "mk.ru",
+      "id": "gdelt_fcf849e7c6a45cb9",
+      "headline": "Axios : Грэм * шутил , что перед смертью ему надо разобраться с санкциями против РФ",
+      "url": "https://vm.ru/news/1341886-axios-grem-pered-smertyu-poshutil-o-sankciyah-protiv-rossii-i-irana",
+      "published_at": "20260712T210000Z",
+      "source": "vm.ru",
       "tags": []
-    },
-    {
-      "id": "gdelt_e91e9f96b7af4ee8",
-      "headline": "Bíblia nas escolas de Porto Velho : Léo Moraes sanciona nova lei",
-      "url": "https://g1.globo.com/ro/rondonia/noticia/2026/07/12/prefeito-sanciona-lei-que-autoriza-leitura-da-biblia-nas-escolas-de-porto-velho-entenda.ghtml",
-      "published_at": "20260712T154500Z",
-      "source": "g1.globo.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3af63bced95631b9",
-      "headline": "جريدة البلاد | باكستان : ندعم سيادة دول المنطقة وسلامة أراضيها .. وندعو لضبط النفس",
-      "url": "https://www.albiladpress.com/news/2026/6481/arab-and-world/1008831.html",
-      "published_at": "20260712T170000Z",
-      "source": "albiladpress.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5e90caf0b43e1059",
-      "headline": "China pushes African nations to repay debt in yuan ; missile launch in South Pacific raises geopolitical concerns",
-      "url": "https://www.ibtimes.co.in/china-pushes-african-nations-repay-debt-yuan-missile-launch-south-pacific-raises-geopolitical-903798",
-      "published_at": "20260712T154500Z",
-      "source": "ibtimes.co.in",
-      "tags": [
-        "CHINA"
-      ]
     },
     {
       "id": "gdelt_d5b01af354b9e511",
@@ -565,14 +416,6 @@
       "url": "https://www.dialog.ua/opinion/esli-rf-ne-perelomit-khod-voyny-do-oseni-putin-veroyatno.html",
       "published_at": "20260712T200000Z",
       "source": "dialog.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a0d6e170b32af3ce",
-      "headline": "Гутерриш призвал США и Иран к переговорам на фоне эскалации",
-      "url": "https://www.kommersant.ru/doc/8813710",
-      "published_at": "20260712T183000Z",
-      "source": "kommersant.ru",
       "tags": []
     },
     {
@@ -586,27 +429,19 @@
       ]
     },
     {
-      "id": "gdelt_fcf849e7c6a45cb9",
-      "headline": "Axios : Грэм * шутил , что перед смертью ему надо разобраться с санкциями против РФ",
-      "url": "https://vm.ru/news/1341886-axios-grem-pered-smertyu-poshutil-o-sankciyah-protiv-rossii-i-irana",
-      "published_at": "20260712T210000Z",
-      "source": "vm.ru",
+      "id": "gdelt_a0d6e170b32af3ce",
+      "headline": "Гутерриш призвал США и Иран к переговорам на фоне эскалации",
+      "url": "https://www.kommersant.ru/doc/8813710",
+      "published_at": "20260712T183000Z",
+      "source": "kommersant.ru",
       "tags": []
     },
     {
-      "id": "gdelt_1081aa5f16b8f105",
-      "headline": "FT : Линдси Грэм незадолго до смерти готовил новый антироссийский пакет санкций",
-      "url": "https://www.bfm.ru/news/611947",
-      "published_at": "20260712T154500Z",
-      "source": "bfm.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_42d12e614b25b13d",
-      "headline": "Германия профинансирует поставку 50 000 ударных дронов для Украины",
-      "url": "https://www.vedomosti.ru/politics/news/2026/07/12/1213055-germaniya-profinansiruet",
-      "published_at": "20260712T153000Z",
-      "source": "vedomosti.ru",
+      "id": "gdelt_f47b175c98524480",
+      "headline": "Гутерриш : возвращение к боевым действиям США и Ирана грозит катастрофой",
+      "url": "https://aif.ru/incidents/guterrish-vozvrashchenie-k-boevym-deystviyam-ssha-i-irana-grozit-katastrofoy",
+      "published_at": "20260712T220000Z",
+      "source": "aif.ru",
       "tags": []
     },
     {
@@ -618,11 +453,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_4ba5607cf32dc989",
-      "headline": "Trump  i ka të gjitha kartat  në raport me Iranin",
-      "url": "https://kallxo.com/lajm/trump-i-ka-te-gjitha-kartat-ne-raport-me-iranin/",
-      "published_at": "20260712T180000Z",
-      "source": "kallxo.com",
+      "id": "gdelt_bec551d96c729bcb",
+      "headline": "محلل سياسي كويتي : استهداف إيران لدول الخليج يهدد استقرار المنطقة .. ومضيق هرمز يبقى محور المواجهة ( خاص )",
+      "url": "https://www.dostor.org/5632788",
+      "published_at": "20260712T214500Z",
+      "source": "dostor.org",
       "tags": []
     },
     {
@@ -642,11 +477,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_60fbdc9a31ebc096",
-      "headline": "Çfarë po ndodh në Gjirin Persik ? Irani i dërgon mesazh SHBA - së , forcat amerikane vendosen në Ngushticën e Hormuzit",
-      "url": "https://www.botasot.info/azia-bota/2505492/cfare-po-ndodh-ne-gjirin-persik-irani-i-dergon-mesazh-shba-se-forcat-amerikane-vendosen-ne-ngushticen-e-hormuzit/",
-      "published_at": "20260712T151500Z",
-      "source": "botasot.info",
+      "id": "gdelt_324855c2dbcee306",
+      "headline": "ЗМІ дізнались , що обговорюватимуть на зустрічі  коаліції рішучих  в Парижі",
+      "url": "https://www.eurointegration.com.ua/news/2026/07/12/7241467/",
+      "published_at": "20260712T220000Z",
+      "source": "eurointegration.com.ua",
       "tags": []
     },
     {
@@ -663,22 +498,17 @@
       "url": "https://www.ocregister.com/2026/07/12/lindsey-graham-draws-tributes-for-his-support-of-ukraine-trans-atlantic-ties-and-israel/",
       "published_at": "20260712T201500Z",
       "source": "ocregister.com",
-      "tags": []
+      "tags": [
+        "ISRAEL",
+        "UKRAINE"
+      ]
     },
     {
-      "id": "gdelt_baed16bc8ea4bda6",
-      "headline": "وفاة السيناتور الأمريكي ليندسي غراهام أحد أبرز صقور السياسة الخارجية بعد مرض مفاجئ – اليوم 24",
-      "url": "https://alyaoum24.com/2033022.html",
-      "published_at": "20260712T171500Z",
-      "source": "alyaoum24.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ee190f66b35161ed",
-      "headline": "Помер великий друг України - сенатор США Ліндсі Грем . Зеленський висловив глибокі співчуття",
-      "url": "https://www.ostro.org/news/pomer-velykyj-drug-ukrayiny-senator-ssha-lindsi-grem-zelenskyj-vyslovyv-glyboki-spivchuttya-i561488",
-      "published_at": "20260712T153000Z",
-      "source": "ostro.org",
+      "id": "gdelt_0e6d6b2c56fdc9cd",
+      "headline": "Запрошення для Зеленського та нові члени коаліції : Макрон збирає  Коаліцію охочих  у Парижі",
+      "url": "https://uainfo.org/blognews/1783878251-zaproshennya-dlya-zelenskogo-ta-novi-chleni-koalitsiyi-makron.html",
+      "published_at": "20260712T214500Z",
+      "source": "uainfo.org",
       "tags": []
     },
     {
@@ -692,27 +522,11 @@
       ]
     },
     {
-      "id": "gdelt_1e7587e008e6d9ec",
-      "headline": "Lindsey Graham draws tributes for his support of Ukraine , trans - Atlantic ties and Israel",
-      "url": "https://www.stcatharinesstandard.ca/news/world/united-states/lindsey-graham-draws-tributes-for-his-support-of-ukraine-trans-atlantic-ties-and-israel/article_6aab7a16-0721-52a0-b4e4-8a1c617ceaee.html",
-      "published_at": "20260712T151500Z",
-      "source": "stcatharinesstandard.ca",
-      "tags": []
-    },
-    {
       "id": "gdelt_9160d8d6083bb0d5",
       "headline": "Ο γενικός γραμματέας του ΟΗΕ , Αντόνιο Γκουτέρες ζητά άμεσο τερματισμό των εχθροπραξιών στον Κόλπο",
       "url": "https://www.inewsgr.com/97/o-genikos-grammateas-tou-oie-antonio-gkouteres-zita-ameso-termatismo-ton-echthropraxion-ston-kolpo.htm",
       "published_at": "20260712T201500Z",
       "source": "inewsgr.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3f23ecbba1b8421c",
-      "headline": "Foreign visitor flight bookings to Yiwu up 60 %; Huaqiangbei in top 10 hotel districts : platform",
-      "url": "https://www.globaltimes.cn/page/202607/1365740.shtml",
-      "published_at": "20260712T161500Z",
-      "source": "globaltimes.cn",
       "tags": []
     },
     {
@@ -724,54 +538,15 @@
       "tags": []
     },
     {
-      "id": "gdelt_a8f6fc5259b18b6e",
-      "headline": "اقتحامات جديدة للأقصى بمشاركة 135 مستوطنًا .. ودعوات للنفير وشدّ الرحال",
-      "url": "https://palinfo.com/news/2026/07/12/1113400/",
-      "published_at": "20260712T153000Z",
-      "source": "palinfo.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d64c5ae363069e0a",
-      "headline": "Трамп рассказал о жалобах Грэма на самочувствие после визита в Киев",
-      "url": "https://rg.ru/2026/07/12/tramp-rasskazal-o-zhalobah-grema-na-samochuvstvie-posle-vizita-v-kiev.html",
-      "published_at": "20260712T153000Z",
-      "source": "rg.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bc50bea4af34cc32",
-      "headline": "美加跨國大橋本月通車 | 底特律 | 通車 | 跨國",
-      "url": "http://www.epochtimes.com.tw/n508052/%E7%BE%8E%E5%8A%A0%E8%B7%A8%E5%9C%8B%E5%A4%A7%E6%A9%8B%E6%9C%AC%E6%9C%88%E9%80%9A%E8%BB%8A.html",
-      "published_at": "20260712T154500Z",
-      "source": "epochtimes.com.tw",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c81ee81c05e7c217",
-      "headline": "« كانوا على وشك التنازل ثم حدثت المفاجأة ».. تصريحات جديدة لـ « ترامب » عن إيران",
-      "url": "https://www.almasryalyoum.com/news/details/4313755",
-      "published_at": "20260712T170000Z",
-      "source": "almasryalyoum.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9579abb4d36c4f5b",
-      "headline": "Έντονη ανησυχία Πακιστάν και Κατάρ για την κλιμάκωση της έντασης στη Μέση Ανατολή , ζητούν την επιστροφή στη διπλωματία",
-      "url": "https://www.bankingnews.gr/diethni/articles/887718/entoni-anisyxia-pakistan-kai-katar-gia-tin-klimakosi-tis-entasis-sti-mesi-anatoli-zitoyn-tin-epistrofi-sti-diplomatia",
-      "published_at": "20260712T173000Z",
-      "source": "bankingnews.gr",
+      "id": "gdelt_be532a5c8888dc6d",
+      "headline": "Pakistan Urges Immediate De - escalation as US - Iran Strikes Ri",
+      "url": "https://www.pakistantoday.com.pk/2026/07/13/pakistan-urges-urgent-de-escalation-as-middle-east-crisis-spirals",
+      "published_at": "20260712T214500Z",
+      "source": "pakistantoday.com.pk",
       "tags": [
+        "IRAN",
         "PAKISTAN"
       ]
-    },
-    {
-      "id": "gdelt_eca8b4a682687c37",
-      "headline": "Россия отравила Линдси Грэма ? - близкая к Трампу американская блогер Лора Лумер",
-      "url": "https://www.dialog.ua/world/rossiya-otravila-lindsi-grema-blizkaya-k-trampu-amerikanskaya-bloger-lora.html",
-      "published_at": "20260712T153000Z",
-      "source": "dialog.ua",
-      "tags": []
     },
     {
       "id": "gdelt_ee0b5c0e0679d681",
@@ -798,6 +573,22 @@
       "tags": []
     },
     {
+      "id": "gdelt_b62122fc6c84e679",
+      "headline": "Перед смертю Ліндсі Грем жартував про санкції проти Росії Axios",
+      "url": "https://zn.ua/ukr/usa/ostannij-dzvinok-zharti-i-raptova-smert-shcho-vidomo-pro-ostanni-hodini-lindsi-hrema.html",
+      "published_at": "20260712T214500Z",
+      "source": "zn.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ac15d8f5091fb864",
+      "headline": "Mediji : Patrijarh Kiril i osnivač Lukoila izuzeti iz nacrta 21 . paketa sankcija EU ; ambasadorka Ukrajine u SAD podnela ostavku",
+      "url": "https://naslovi.net/2026-07-12/rts/mediji-patrijarh-kiril-i-osnivac-lukoila-izuzeti-iz-nacrta-21-paketa-sankcija-eu-ambasadorka-ukrajine-u-sad-podnela-ostavku/42076651",
+      "published_at": "20260712T214500Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
       "id": "gdelt_4c0552071eef2082",
       "headline": "Lufta në Lindjen e Mesme , SHBA sulmon sërish pranë portit të Bandar Abbas dhe ishullit Qeshm të Iranitt",
       "url": "https://albeu.com/lajme/bota/lufta-ne-lindjen-e-mesme-shba-sulmon-serish-prane-portit-te-bandar-abbas-dhe-ishullit-qeshm-te-iranitt/923011/",
@@ -806,11 +597,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_7e1a47b5d1f888e0",
-      "headline": "إسرائيل تحدد رسميًا موعد حل الكنيست وإجراء الانتخابات التشريعية",
-      "url": "https://www.eremnews.com/news/arab-world/9e8w50g",
-      "published_at": "20260712T151500Z",
-      "source": "eremnews.com",
+      "id": "gdelt_1c5fa59e3441b4b6",
+      "headline": "Lindsey Graham Shrugged Off Calls to See Doctor Before Death",
+      "url": "https://www.thedailybeast.com/lindsey-graham-shrugged-off-calls-to-see-doctor-before-death/",
+      "published_at": "20260712T220000Z",
+      "source": "thedailybeast.com",
       "tags": []
     },
     {
@@ -822,6 +613,17 @@
       "tags": []
     },
     {
+      "id": "gdelt_008414cac0a9f9f7",
+      "headline": "Lindsey Graham draws tributes for his support of Ukraine , trans - Atlantic ties and Israel",
+      "url": "https://www.dailynews.com/2026/07/12/lindsey-graham-draws-tributes-for-his-support-of-ukraine-trans-atlantic-ties-and-israel/",
+      "published_at": "20260712T194500Z",
+      "source": "dailynews.com",
+      "tags": [
+        "ISRAEL",
+        "UKRAINE"
+      ]
+    },
+    {
       "id": "gdelt_dd9677d0c1278269",
       "headline": "США ударили по военным объектам Ирана в районе Ормузского пролива – Москва 24 , 12 . 07 . 2026",
       "url": "https://www.m24.ru/news/12072026/919370",
@@ -830,19 +632,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_008414cac0a9f9f7",
-      "headline": "Lindsey Graham draws tributes for his support of Ukraine , trans - Atlantic ties and Israel",
-      "url": "https://www.dailynews.com/2026/07/12/lindsey-graham-draws-tributes-for-his-support-of-ukraine-trans-atlantic-ties-and-israel/",
-      "published_at": "20260712T194500Z",
-      "source": "dailynews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_272ca871444a329a",
-      "headline": "Yedi Bölü Yedi sergisi sanatseverlerle buluştu",
-      "url": "https://www.haberler.com/kultur-sanat/yedi-bolu-yedi-sergisi-sanatseverlerle-bulustu-20044673-haberi/",
-      "published_at": "20260712T173000Z",
-      "source": "haberler.com",
+      "id": "gdelt_bd0fccd1203b5d9e",
+      "headline": "صحيفة  اندبندنت عربية : النفوذ الروسي في ليبيا يواجه اختبارا متزايد الصعوبة مع تصاعد التحر",
+      "url": "https://www.libyaakhbar.com/breaking/2833605.html",
+      "published_at": "20260712T214500Z",
+      "source": "libyaakhbar.com",
       "tags": []
     },
     {
@@ -859,16 +653,6 @@
       "url": "https://www.dagelijksestandaard.nl/midden-oosten/iran-sluit-straat-van-hormuz-na-amerikaanse-bombardementen-en-aanval-op-containerschip?comment=1002016",
       "published_at": "20260712T200000Z",
       "source": "dagelijksestandaard.nl",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_5aa4bd6b3414f0fa",
-      "headline": "CBS раскрыл заявление Грэма перед смертью о пошлинах на российскую нефть",
-      "url": "https://rg.ru/2026/07/12/cbs-grem-poluchil-ot-belogo-doma-podderzhku-plana-o-poshlinah-na-neft-rossii.html",
-      "published_at": "20260712T153000Z",
-      "source": "rg.ru",
       "tags": []
     },
     {
@@ -880,19 +664,19 @@
       "tags": []
     },
     {
+      "id": "gdelt_c0b3946d1866762e",
+      "headline": "لماذا يرفض اليمين الإسرائيلي  المرحلة الثانية  من مفاوضات غزة ؟ ( خاص )",
+      "url": "https://www.dostor.org/5632900",
+      "published_at": "20260712T214500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
       "id": "gdelt_a7941dc27ffb44b0",
       "headline": "Iran zaatakował Kuwejt , Amerykanie uderzyli w rejonie cieśninie Ormuz . Eskalacja konfliktu",
       "url": "https://www.rp.pl/konflikty-zbrojne/art44812111-eskalacja-na-bliskim-wschodzie-kuwejt-zglasza-ataki-usa-uderzaja-przy-ciesninie-ormuz",
       "published_at": "20260712T193000Z",
       "source": "rp.pl",
-      "tags": []
-    },
-    {
-      "id": "gdelt_63ec55ec936ad93f",
-      "headline": "Іран закриває Ормуз : наслідки для ринків і безпеки",
-      "url": "https://infoline.ua/main/world/iran-ogolosiv-pro-zakrittia-ormuzu-naslidki-dlia-rinkiv-i-bezpeki_392.html",
-      "published_at": "20260712T170000Z",
-      "source": "infoline.ua",
       "tags": []
     },
     {
@@ -904,27 +688,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_1b8bb5de0b0a0ccd",
-      "headline": "بعد إغلاقه .. مستشار المرشد الإيرانى : مضيق هرمز أهم من عشرات القنابل الذرية",
-      "url": "https://www.almasryalyoum.com/news/details/4313742",
-      "published_at": "20260712T170000Z",
-      "source": "almasryalyoum.com",
+      "id": "gdelt_5dc2c435741e11ce",
+      "headline": "Eskalation im Krisenzentrum – Jugendlicher rastet aus – Security mit Messer bedroht",
+      "url": "https://www.heute.at/s/jugendlicher-rastet-aus-security-mit-messer-bedroht-120221820",
+      "published_at": "20260712T214500Z",
+      "source": "heute.at",
       "tags": []
     },
     {
-      "id": "gdelt_aa7f53ece9109c61",
-      "headline": "Журналистка CBS сообщила о заявлении Грэма о российской нефти перед смертью",
-      "url": "https://pronedra.ru/poslednie-zayavleniya-grema-chto-senator-govoril-o-rossijskoj-nefti-pered-smertyu-824942.html",
-      "published_at": "20260712T160000Z",
-      "source": "pronedra.ru",
+      "id": "gdelt_ca68ec012caceb22",
+      "headline": "La banca europea urge acelerar el mercado digital único",
+      "url": "https://www.expansion.com/empresas/banca/2026/07/13/6a513216468aeb191a8b45ac.html",
+      "published_at": "20260712T233000Z",
+      "source": "expansion.com",
       "tags": []
     },
     {
-      "id": "gdelt_a8a84160dd5e1dc7",
-      "headline": "אחרי שגורשו מאירופה - מרגלי רוסיה מצאו בית חדש בטוקיו",
-      "url": "https://news.walla.co.il/item/3852920",
-      "published_at": "20260712T163000Z",
-      "source": "news.walla.co.il",
+      "id": "gdelt_d5960bc434d76eb2",
+      "headline": "أمريكا توجه ضربات إلى إيران .. وطهران تتهم واشنطن بإفشال الدبلوماسية",
+      "url": "https://www.hespress.com/%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D8%A7-%D8%AA%D9%88%D8%AC%D9%87-%D8%B6%D8%B1%D8%A8%D8%A7%D8%AA-%D8%A5%D9%84%D9%89-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%88%D8%B7%D9%87%D8%B1%D8%A7%D9%86-%D8%AA%D8%AA-1776233.html",
+      "published_at": "20260712T233000Z",
+      "source": "hespress.com",
       "tags": []
     },
     {
@@ -936,35 +720,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_70f2a96bfcbdd335",
-      "headline": "Kabine Beştepede Toplanıyor : Gündem NATO Zirvesi , F - 35 ve Terörsüz Türkiye",
-      "url": "https://www.timeturk.com/kabine-bestepede-toplaniyor-gundem-nato-zirvesi-f-35-ve-terorsuz-turkiye",
-      "published_at": "20260712T164500Z",
-      "source": "timeturk.com",
+      "id": "gdelt_7ebd05dd2105166f",
+      "headline": "UN chief urges halt to Gulf attacks , immediate return to diplomacy",
+      "url": "https://tribune.com.pk/story/2617874/un-chief-urges-halt-to-gulf-attacks-immediate-return-to-diplomacy",
+      "published_at": "20260712T220000Z",
+      "source": "tribune.com.pk",
       "tags": []
     },
     {
-      "id": "gdelt_107414ea55ba93e4",
-      "headline": "Pakistan expresses concern over escalation in regional tensions",
-      "url": "https://www.radio.gov.pk/12-07-2026/pakistan-expresses-deep-concern-over-escalation-in-regional-tensions",
-      "published_at": "20260712T170000Z",
-      "source": "radio.gov.pk",
+      "id": "gdelt_cf4d6ccf5f032739",
+      "headline": "Posledice će biti katastrofalne  Šef UN poziva SAD i Iran da okončaju neprijateljstva i vrate se razgovorima - Povezane vesti",
+      "url": "https://naslovi.net/tema/2536227",
+      "published_at": "20260712T220000Z",
+      "source": "naslovi.net",
       "tags": []
     },
     {
-      "id": "gdelt_dbbe5b208702f10a",
-      "headline": "ЧВК Вагнер во главе с сыном Пригожина создала наркоимперию в ЦАР",
-      "url": "https://24tv.ua/ru/chvk-vagner-glave-synom-prigozhina-sozdala-narkoimperiju-car_n3104323",
-      "published_at": "20260712T164500Z",
-      "source": "24tv.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0d1f3543f54dcdf3",
-      "headline": "Patrullajes en Coiba detectan a yate realizando pesca deportiva sin autorización",
-      "url": "https://www.panamaamerica.com.pa/sociedad/patrullajes-en-coiba-detectan-yate-realizando-pesca-deportiva-sin-autorizacion-1263875",
-      "published_at": "20260712T154500Z",
-      "source": "panamaamerica.com.pa",
+      "id": "gdelt_c0cda748bd124cbc",
+      "headline": "Stablecoin in calo di 10 miliardi : cosa sta succedendo al mercato crypto",
+      "url": "https://www.soldionline.it/notizie/forex-commodities/stablecoin-in-calo-di-10-miliardi-cosa-sta-succedendo-al-mercato-crypto",
+      "published_at": "20260712T214500Z",
+      "source": "soldionline.it",
       "tags": []
     },
     {
@@ -984,14 +760,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_99ca3efbbf6c16f3",
-      "headline": "Как откроются рынки в понедельник ?",
-      "url": "https://www.bfm.ru/news/611942",
-      "published_at": "20260712T154500Z",
-      "source": "bfm.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_1924aa15680a808c",
       "headline": "Putins Dilemma : Mit Kiew verhandeln oder auf Eskalation setzen ?",
       "url": "https://www.hna.de/politik/eskalation-setzen-putins-dilemma-mit-kiew-verhandeln-oder-auf-zr-94392917.html",
@@ -1000,11 +768,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_adc0430370b43844",
-      "headline": "中共強化國安管控 台人赴中失聯激增 | 公務員 | 中國 | 民進黨",
-      "url": "http://www.epochtimes.com.tw/n508014/%E4%B8%AD%E5%85%B1%E5%BC%B7%E5%8C%96%E5%9C%8B%E5%AE%89%E7%AE%A1%E6%8E%A7-%E5%8F%B0%E4%BA%BA%E8%B5%B4%E4%B8%AD%E5%A4%B1%E8%81%AF%E6%BF%80%E5%A2%9E.html",
-      "published_at": "20260712T154500Z",
-      "source": "epochtimes.com.tw",
+      "id": "gdelt_946023c93ceedfc8",
+      "headline": "Ο Γκουτέρες ζητά άμεσα παύση εχθροπραξιών στη Μ . Ανατολή",
+      "url": "https://pelop.gr/o-gkouteres-zita-amesa-pafsi-echthropraxion-sti-m-anatoli/",
+      "published_at": "20260712T213000Z",
+      "source": "pelop.gr",
       "tags": []
     },
     {
@@ -1016,11 +784,248 @@
       "tags": []
     },
     {
+      "id": "gdelt_18c54fddd58d4d8f",
+      "headline": "Ще участват Молдова и Северна Македония : Макрон свиква важна среща на  Коалицията на желаещите  в Париж",
+      "url": "https://www.focus-news.net/novini/mejdunarodni/Shte-uchastvat-Moldova-i-Severna-Makedoniya-Makron-svikva-vazhna-sreshta-na-Koaliciyata-na-zhelaeshtite-v-Parizh-2994501",
+      "published_at": "20260712T190000Z",
+      "source": "focus-news.net",
+      "tags": []
+    },
+    {
       "id": "gdelt_5e0aaa609f677af4",
       "headline": "Μέση Ανατολή : Εκκλήσεις Γκουτέρες και Πάπα για αποκλιμάκωση της έντασης μετά τις νέες επιθέσεις",
       "url": "https://www.in.gr/2026/07/12/world/mesi-anatoli-ekkliseis-gkouteres-kai-papa-gia-apoklimakosi-tis-entasis-meta-tis-nees-epitheseis/",
       "published_at": "20260712T194500Z",
       "source": "in.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a5462536ed5c2fa3",
+      "headline": "RBI steps up scrutiny of Corporate India foreign investments",
+      "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-steps-up-scrutiny-of-corporate-indias-foreign-investments/articleshow/132351203.cms",
+      "published_at": "20260712T194500Z",
+      "source": "economictimes.indiatimes.com",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
+      "id": "gdelt_43a8ebffa3a8f5a4",
+      "headline": "Shaheen pushes Congress to pass Graham Russia sanctions bill after senator death",
+      "url": "https://article.wn.com/view/2026/07/12/Shaheen_pushes_Congress_to_pass_Graham_s_Russia_sanctions_bi/",
+      "published_at": "20260712T220000Z",
+      "source": "article.wn.com",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "gdelt_9ba970990370c541",
+      "headline": "US - Iran War Live Updates : Iran claims attacks on US assets as Gulf remains on high alert",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/us-iran-war-news-live-updates-west-asia-conflict-strait-of-hormuz-trump-tehran-talks-ceasefire-gulf-states/liveblog/132351209.cms",
+      "published_at": "20260712T194500Z",
+      "source": "timesofindia.indiatimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_752b14bfe8d1d125",
+      "headline": "Politico : смерть Грэма осложнила новые санкции США против РФ",
+      "url": "https://www.vesti.ru/ns/politico-smert-grehma-oslozhnila-novye-sankcii-ssha-protiv-rf",
+      "published_at": "20260712T193000Z",
+      "source": "vesti.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_296ce40d6361a1ed",
+      "headline": "Lindsey Graham draws tributes for his support of Ukraine , trans - Atlantic ties and Israel",
+      "url": "https://www.dailybreeze.com/2026/07/12/lindsey-graham-draws-tributes-for-his-support-of-ukraine-trans-atlantic-ties-and-israel/",
+      "published_at": "20260712T200000Z",
+      "source": "dailybreeze.com",
+      "tags": [
+        "ISRAEL",
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_912c8f6fe943b8bc",
+      "headline": "Oil conundrum : on India energy imports from Russia",
+      "url": "https://www.thehindu.com/opinion/editorial/oil-conundrum-on-indias-energy-imports-from-russia/article71214010.ece",
+      "published_at": "20260712T193000Z",
+      "source": "thehindu.com",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
+      "id": "gdelt_aefd5371ed72e049",
+      "headline": "Putins Dilemma : Mit Kiew verhandeln oder auf Eskalation setzen ?",
+      "url": "http://www.fnp.de/politik/eskalation-setzen-putins-dilemma-mit-kiew-verhandeln-oder-auf-zr-94392917.html",
+      "published_at": "20260712T183000Z",
+      "source": "fnp.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_899431a1d7684f97",
+      "headline": "Сенатор Линдси Грэм - после смерти политика Украина лишилась одного из главных сторонников в США",
+      "url": "https://www.unian.net/world/senator-lindsi-grem-posle-smerti-politika-ukraina-lishilas-odnogo-iz-glavnyh-storonnikov-v-ssha-13438827.html",
+      "published_at": "20260712T200000Z",
+      "source": "unian.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5da6563e34a8967d",
+      "headline": "مخطط إسرائيلي لبناء أكبر مشروع استيطاني في القدس",
+      "url": "https://www.aljazeera.net/news/2026/7/13/%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%AA%D9%85%D8%B6%D9%8A-%D9%82%D8%AF%D9%85%D8%A7-%D9%81%D9%8A-%D8%AE%D8%B7%D8%A9-%D9%83%D8%A8%D9%8A%D8%B1%D8%A9-%D9%84%D8%A8%D9%86%D8%A7%D8%A1-450",
+      "published_at": "20260712T233000Z",
+      "source": "aljazeera.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_27907db2c9b1e521",
+      "headline": "ASN Terlibat Jaringan LGBT Bakal Langsung Dipecat",
+      "url": "https://www.jpnn.com/news/asn-terlibat-jaringan-lgbt-bakal-langsung-dipecat",
+      "published_at": "20260712T220000Z",
+      "source": "jpnn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3087a80d56c59818",
+      "headline": "Eskalacija na Bliskom istoku : Ormuski moreuz u centru sukoba , SAD bombardovale Iran , Teheran uzvratio i preti osvetom",
+      "url": "https://naslovi.net/2026-07-12/nin/eskalacija-na-bliskom-istoku-ormuski-moreuz-u-centru-sukoba-sad-bombardovale-iran-teheran-uzvratio-i-preti-osvetom/42077522",
+      "published_at": "20260712T203000Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_afbb36bb442e27ee",
+      "headline": "Benzina se scumpește din nou după escaladarea conflictului dintre SUA și Iran",
+      "url": "https://www.cotidianul.ro/benzina-se-scumpeste-din-nou-dupa-escaladarea-conflictului-dintre-sua-si-iran/",
+      "published_at": "20260712T193000Z",
+      "source": "cotidianul.ro",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7aedf0d0b20aaedb",
+      "headline": "אולטימטום אמריקני חריף לאיראן :  קיבלתם החלטה רעה - עכשיו תשלמו",
+      "url": "https://www.kipa.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA/1227665-0/",
+      "published_at": "20260712T183000Z",
+      "source": "kipa.co.il",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4a908b05260bdb39",
+      "headline": "Dramatično upozorenje UN ! Gutereš pozvao SAD i Iran da hitno prekinu sukob : Posledice će biti katastrofalne !",
+      "url": "https://naslovi.net/2026-07-13/kurir/dramaticno-upozorenje-un-guteres-pozvao-sad-i-iran-da-hitno-prekinu-sukob-posledice-ce-biti-katastrofalne/42079719",
+      "published_at": "20260712T233000Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_aa5f8ae4065afeeb",
+      "headline": "Lindsey Graham remembered for a vision of American foreign policy that fading in Washington | Us",
+      "url": "http://www.idahopress.com/ap_news/us/lindsey-graham-remembered-for-a-vision-of-american-foreign-policy-that-s-fading-in-washington/article_3e8c5959-09f8-5024-9131-b7502f38a7a3.html",
+      "published_at": "20260712T214500Z",
+      "source": "idahopress.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0ef63c8c205e37ae",
+      "headline": "Posledice će biti katastrofalne  Šef UN poziva SAD i Iran da okončaju neprijateljstva i vrate se razgovorima",
+      "url": "https://naslovi.net/2026-07-12/blic/posledice-ce-biti-katastrofalne-sef-un-poziva-sad-i-iran-da-okoncaju-neprijateljstva-i-vrate-se-razgovorima/42079621",
+      "published_at": "20260712T220000Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0ec16136ff3fba91",
+      "headline": "رويترز : هجوم بمسيرات يستهدف موقعًا في السليمانية شرق العراق",
+      "url": "https://www.dostor.org/5632813",
+      "published_at": "20260712T194500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8138cd35a0aaa3d3",
+      "headline": "جو 24 : الأردن والسعودية تدينان الاعتداءات الإيرانية المتكررة على الدول العربية",
+      "url": "https://jo24.net/article/572567",
+      "published_at": "20260712T200000Z",
+      "source": "jo24.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2d98b32b40e8ca25",
+      "headline": "Was Lindsey Graham Poisoned by Russia or Iran ?",
+      "url": "https://radaronline.com/p/lindsey-graham-poisoned-russia-iran-conspiracy-theories-sudden-death/",
+      "published_at": "20260712T201500Z",
+      "source": "radaronline.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_68e8a1bd9ef5feab",
+      "headline": "Qatar condemns repeated Iranian attacks its territory , sisterly states",
+      "url": "http://thepeninsulaqatar.com/article/12/07/2026/qatar-condemns-repeated-iranian-attacks-its-territory-sisterly-states",
+      "published_at": "20260712T183000Z",
+      "source": "thepeninsulaqatar.com",
+      "tags": [
+        "QATAR"
+      ]
+    },
+    {
+      "id": "gdelt_020800e6097b3bc6",
+      "headline": "Iran Klaim Lakukan Serangan Balasan di Oman , Targetkan Logistik Kapal Induk AS",
+      "url": "https://www.merdeka.com/peristiwa/read/8244693/iran-klaim-lakukan-serangan-balasan-di-oman-targetkan-logistik-kapal-induk-as",
+      "published_at": "20260712T201500Z",
+      "source": "merdeka.com",
+      "tags": [
+        "OMAN"
+      ]
+    },
+    {
+      "id": "gdelt_8fdba4e02add107b",
+      "headline": "التنسيق المصرى الإماراتى",
+      "url": "https://www.dostor.org/5632648",
+      "published_at": "20260712T194500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2bb250b52a66ff59",
+      "headline": "Гутериш призова САЩ и Иран към преговори ᐉ Новини от Fakti . bg - Свят",
+      "url": "https://fakti.bg/world/1067189-guterish-prizova-sasht-i-iran-kam-pregovori",
+      "published_at": "20260712T203000Z",
+      "source": "fakti.bg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c190eb669498c472",
+      "headline": "USA : Zmarł republikański senator Lindsey Graham ; miał 71 lat ( synteza )",
+      "url": "https://www.wnp.pl/rynki/usa-zmarl-republikanski-senator-lindsey-graham-mial-71-lat-synteza,1080531.html",
+      "published_at": "20260712T194500Z",
+      "source": "wnp.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_56ae19e0e843d71e",
+      "headline": "트럼프 측근  린지 그레이엄 美상원의원 별세 … 이란 공격해야  백악관 설득한 강경파",
+      "url": "https://biz.heraldcorp.com/article/10806192",
+      "published_at": "20260712T213000Z",
+      "source": "biz.heraldcorp.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2d80369207432138",
+      "headline": "Turner urges legal pathways for Haitians to remain | Local",
+      "url": "https://www.daytondailynews.com/local/turner-backs-immigration-path-for-haitians-in-springfield/article_21f25970-0208-5c89-ae95-e4c0ac997cb2.html",
+      "published_at": "20260712T233000Z",
+      "source": "daytondailynews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_58836f06754b951d",
+      "headline": "Gutereš poziva SAD i Iran da okončaju neprijateljstva i vrate se razgovorima",
+      "url": "https://naslovi.net/2026-07-12/euronews/guteres-poziva-sad-i-iran-da-okoncaju-neprijateljstva-i-vrate-se-razgovorima/42079467",
+      "published_at": "20260712T203000Z",
+      "source": "naslovi.net",
       "tags": []
     }
   ]
