@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-07-16T22:14:43Z",
+    "generated_at_utc": "2026-07-17T00:11:36Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=Queries containing OR'd terms must be surrounded by (). ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -33,35 +33,11 @@
   },
   "events": [
     {
-      "id": "gdelt_46910f6518f14d02",
-      "headline": "Болгария и Украина : все более двусмысленный курс Софии ( Le Monde , Франция )",
-      "url": "https://inosmi.ru/20260716/radev-279320380.html",
-      "published_at": "20260716T173000Z",
-      "source": "inosmi.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_90f6a4af85aea41d",
-      "headline": "FATF warns criminals exploiting gaps in virtual asset regulation",
-      "url": "https://aninews.in/news/world/asia/fatf-warns-criminals-exploiting-gaps-in-virtual-asset-regulation20260716215520/",
-      "published_at": "20260716T180000Z",
-      "source": "aninews.in",
-      "tags": []
-    },
-    {
       "id": "gdelt_50d3ef635a2a112a",
       "headline": "跨國股票主動式ETF火 | 存股族愛ETF | 股市",
       "url": "https://udn.com/news/story/123006/9632836",
       "published_at": "20260716T204500Z",
       "source": "udn.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_91832169535e6192",
-      "headline": "FATF : Criminals Exploit Virtual Asset Regulation Gaps",
-      "url": "https://www.newkerala.com/news/a/fatf-warns-criminals-exploiting-gaps-virtual-asset-regulation-233.htm",
-      "published_at": "20260716T170000Z",
-      "source": "newkerala.com",
       "tags": []
     },
     {
@@ -91,6 +67,30 @@
       ]
     },
     {
+      "id": "gdelt_bc76c133cb6af953",
+      "headline": "أمريكا بين السياسة والاقتصاد .. تمرّد ديمقراطي ضد دعم إسرائيل وتصعيد تجاري مع البرازيل",
+      "url": "https://www.libyaakhbar.com/business-news/2836470.html",
+      "published_at": "20260716T233000Z",
+      "source": "libyaakhbar.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c532b5b80cd94afb",
+      "headline": "Как изменился законопроект о криптовалютах ко второму чтению",
+      "url": "https://www.vedomosti.ru/finance/articles/2026/07/16/1214389-zakona-o-kriptovalyutah",
+      "published_at": "20260716T230000Z",
+      "source": "vedomosti.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0d3e4d0b17c9d273",
+      "headline": "Republican senator plans sanctions on Canada over wildfire smoke",
+      "url": "https://www.castanetkamloops.net/news/Canada/625025/Republican-senator-plans-sanctions-on-Canada-over-wildfire-smoke",
+      "published_at": "20260716T233000Z",
+      "source": "castanetkamloops.net",
+      "tags": []
+    },
+    {
       "id": "gdelt_78ef514623d22fc8",
       "headline": "توتر بين أمريكا وإسرائيل بسبب إيران .. ونائب ترامب يقود راية العصيان ضد نفوذ تل أبيب في واشنطن",
       "url": "https://www.dostor.org/5637734",
@@ -107,25 +107,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_d6d757c26d2d85cd",
-      "headline": "Iraqi government orders probe over weapons smuggling to Hezbollah in Lebanon",
-      "url": "https://www.middleeasteye.net/news/iraqi-government-orders-probe-weapons-smuggling-hezbollah-lebanon",
-      "published_at": "20260716T173000Z",
-      "source": "middleeasteye.net",
-      "tags": [
-        "LEBANON",
-        "HEZBOLLAH"
-      ]
-    },
-    {
-      "id": "gdelt_354876a12784246c",
-      "headline": "RTS Link to intensify competition for Singapore retailers , F & B operators as spending in JB rises : Study",
-      "url": "https://www.asiaone.com:443/singapore/rts-link-singapore-jb-opens-spending-retailers-fnb",
-      "published_at": "20260716T173000Z",
-      "source": "asiaone.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_7086f8b9c6563e09",
       "headline": "Mexico , Texas , New Mexico authorities analyze New World screwworm impact on cattle trade",
       "url": "https://kvia.com/news/border/2026/07/16/mexico-texas-new-mexico-authorities-analyze-new-world-screwworm-impact-on-cattle-trade/",
@@ -136,14 +117,6 @@
       ]
     },
     {
-      "id": "gdelt_5390e33dbf16a9ee",
-      "headline": "Joel Thayer - The Daily Signal",
-      "url": "https://www.dailysignal.com/author/joel-thayer/",
-      "published_at": "20260716T200000Z",
-      "source": "dailysignal.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_51d0b3e959f17bdf",
       "headline": "Knaken Has Been Declared Bankrupt . Investigators Say €7 Million Is Missing .",
       "url": "https://www.ibtimes.com/knaken-has-been-declared-bankrupt-investigators-say-7-million-missing-3805379",
@@ -152,22 +125,28 @@
       "tags": []
     },
     {
-      "id": "gdelt_bff63788bb03e647",
-      "headline": "Британія надасть кошти на закупівлю 16 сучасних літаків для України , – Стармер",
-      "url": "https://kp.ua/ua/politics/a733263-britanija-nadast-koshti-na-zakupivlju-16-suchasnikh-litakiv-dlja-ukrajini-starmer",
-      "published_at": "20260716T174500Z",
-      "source": "kp.ua",
+      "id": "gdelt_5390e33dbf16a9ee",
+      "headline": "Joel Thayer - The Daily Signal",
+      "url": "https://www.dailysignal.com/author/joel-thayer/",
+      "published_at": "20260716T200000Z",
+      "source": "dailysignal.com",
       "tags": []
     },
     {
-      "id": "gdelt_2c2375d46124d969",
-      "headline": "Миллиарды долларов в экономику : Шанхай зафиксировал сдвиг в торговых отношениях с Казахстаном",
-      "url": "https://www.pravda.ru/news/world/2372506-kazakhstan-china-economic-partnership/",
-      "published_at": "20260716T174500Z",
-      "source": "pravda.ru",
-      "tags": [
-        "CHINA"
-      ]
+      "id": "gdelt_20d34777667bb569",
+      "headline": "FATF warns criminals exploiting gaps in virtual asset regulation",
+      "url": "http://www.brazilsun.com/news/279192108/fatf-warns-criminals-exploiting-gaps-in-virtual-asset-regulation",
+      "published_at": "20260716T220000Z",
+      "source": "brazilsun.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8e4d6f940d018408",
+      "headline": "FATF warns criminals exploiting gaps in virtual asset regulation",
+      "url": "http://www.northkoreatimes.com/news/279192108/fatf-warns-criminals-exploiting-gaps-in-virtual-asset-regulation",
+      "published_at": "20260716T230000Z",
+      "source": "northkoreatimes.com",
+      "tags": []
     },
     {
       "id": "gdelt_eb51fcbc18e6d6df",
@@ -180,29 +159,11 @@
       ]
     },
     {
-      "id": "gdelt_4a1fdfa7e0b3d440",
-      "headline": "Défense , travail , budget … Les enjeux du dernier conseil des ministres franco - allemand avant la présidentielle",
-      "url": "https://www.lopinion.fr/international/defense-travail-budget-les-enjeux-du-dernier-conseil-des-ministres-franco-allemand-avant-la-presidentielle",
-      "published_at": "20260716T163000Z",
-      "source": "lopinion.fr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d2ba4734f5dccb5c",
-      "headline": "How a team of African founders built Gravy , a global super app , and launched it at home first",
-      "url": "https://techcabal.com/2026/07/16/gravy-super-app-nigeria/",
-      "published_at": "20260716T173000Z",
-      "source": "techcabal.com",
-      "tags": [
-        "NIGERIA"
-      ]
-    },
-    {
-      "id": "gdelt_80c819fcefd62f1b",
-      "headline": "Per Gesetz - Ministerin plant Hausarrest für kriminelle Kinder",
-      "url": "https://www.krone.at/4219755",
-      "published_at": "20260716T174500Z",
-      "source": "krone.at",
+      "id": "gdelt_d3e9155a5fd863b8",
+      "headline": "Cameroun : le gouvernement lance un redressement fiscal dans le secteur aurifère",
+      "url": "https://www.financialafrik.com/2026/07/16/cameroun-le-gouvernement-lance-un-redressement-fiscal-dans-le-secteur-aurifere/",
+      "published_at": "20260716T230000Z",
+      "source": "financialafrik.com",
       "tags": []
     },
     {
@@ -235,11 +196,11 @@
       ]
     },
     {
-      "id": "gdelt_ae8dd83253c8ef7e",
-      "headline": "Flywire vs . Mastercard : Which Financial Payments Stock Is a Better Buy in 2026 ?",
-      "url": "https://www.fool.com/coverage/better-buy/2026/07/16/flywire-vs-mastercard-which-financial-payments-stock-is-a-better-buy-in-2026/?source=iedfolrf0000001",
-      "published_at": "20260716T170000Z",
-      "source": "fool.com",
+      "id": "gdelt_799df01eef9a5408",
+      "headline": "Así fue el fin de la Verja entre España y Gibraltar y el comienzo de una era histórica de libre tránsito",
+      "url": "https://www.elobservador.com.uy/espana/actualidad/asi-fue-el-fin-la-verja-gibraltar-espana-y-el-penon-inauguran-una-era-historica-libre-transito-n6050828",
+      "published_at": "20260716T231500Z",
+      "source": "elobservador.com.uy",
       "tags": []
     },
     {
@@ -253,54 +214,11 @@
       ]
     },
     {
-      "id": "gdelt_8cd9af580a3e7b20",
-      "headline": "Jobs der Woche | KW 29 : Große Fragen unserer Zeit und die passenden Jobs dazu",
-      "url": "https://www.lto.de/karriere/im-job/stories/detail/jobs-der-woche-kw-29-rechtsanwalt-associate-volljurist",
-      "published_at": "20260716T170000Z",
-      "source": "lto.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d8cb3fca31f50e9d",
-      "headline": "Пропао тендер за обнову крова Градске куће",
-      "url": "https://www.politika.rs/scc/clanak/771136/propao-tender-za-obnovu-krova-gradske-kuce",
-      "published_at": "20260716T171500Z",
-      "source": "politika.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_204874a574aae3cd",
-      "headline": "Дорадча рада ДТЕК розробила рекомендації , як залучити інвестиції в українську енергетику",
-      "url": "https://gordonua.com/ukr/section-money/news-doradcha-rada-dtek-rozrobyla-rekomendatsiyi-yak-zaluchyty-investytsiyi-v-ukrayinsku-enerhetyku-16-07-2026.html",
-      "published_at": "20260716T174500Z",
-      "source": "gordonua.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_96ca0a3951d41d26",
       "headline": "Мужчина погиб в ДНР при ударе беспилотником по грузовику",
       "url": "https://www.pnp.ru/incident/muzhchina-pogib-v-dnr-pri-udare-bespilotnikom-po-gruzoviku.html",
       "published_at": "20260716T213000Z",
       "source": "pnp.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_06197b37b440ceec",
-      "headline": "Iraqi government orders probe over weapons smuggling to Hezbollah in Lebanon",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iraqi-government-orders-probe-over-weapons-smuggling-hezbollah-lebanon",
-      "published_at": "20260716T173000Z",
-      "source": "middleeasteye.net",
-      "tags": [
-        "LEBANON",
-        "HEZBOLLAH"
-      ]
-    },
-    {
-      "id": "gdelt_2baf91b6a7f0fd05",
-      "headline": "Baijiahao : EC и США готовят новые санкции против России ответ Путина стал неожиданностью",
-      "url": "https://abnews.ru/news/2026/7/16/baijiahao-ec-i-ssha-gotovyat-novye-sankczii-protiv-rossii-otvet-putina-stal-neozhidannostyu",
-      "published_at": "20260716T174500Z",
-      "source": "abnews.ru",
       "tags": []
     },
     {
@@ -338,14 +256,6 @@
       ]
     },
     {
-      "id": "gdelt_1d2f1592fb6788c8",
-      "headline": "Timothy Busfield  kan nooit meer werken door zedenzaak",
-      "url": "https://nieuws.nl/entertainment/timothy-busfield-kan-nooit-meer-werken-door-zedenzaak",
-      "published_at": "20260716T163000Z",
-      "source": "nieuws.nl",
-      "tags": []
-    },
-    {
       "id": "gdelt_3876062d63daf689",
       "headline": "J & K SIA Frames Charges in Narco - Terror Case",
       "url": "https://www.newkerala.com/news/a/jk-sia-frames-charges-narco-terror-case-604.htm",
@@ -362,30 +272,20 @@
       "tags": []
     },
     {
+      "id": "gdelt_beb6de08dc48625f",
+      "headline": "Global shift",
+      "url": "https://tribune.com.pk/story/2618639/global-shift",
+      "published_at": "20260716T230000Z",
+      "source": "tribune.com.pk",
+      "tags": []
+    },
+    {
       "id": "gdelt_d977352a37488a81",
       "headline": "New Polling Shakes Up Michigan Senate Race",
       "url": "https://time.com/article/2026/07/16/new-polling-after-mcmorrow-s-exit-shake-up-michigan-senate-race/",
       "published_at": "20260716T210000Z",
       "source": "time.com",
       "tags": []
-    },
-    {
-      "id": "gdelt_9a375ba4ec8ea9f0",
-      "headline": "​Goditet rrjeti i kontrabandës së migrantëve në kufirin Bullgari - Serbi , pesë të arrestuar",
-      "url": "https://www.botasot.info/evrope-bota/2507169/goditet-rrjeti-i-kontrabandes-se-migranteve-ne-kufirin-bullgari-serbi-pese-te-arrestuar/",
-      "published_at": "20260716T173000Z",
-      "source": "botasot.info",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4b0a7323127033dd",
-      "headline": "Iranian Attacks on Gulf Intensify , Kuwait Bears Brunt",
-      "url": "https://english.aawsat.com/gulf/5296848-iranian-attacks-gulf-intensify-kuwait-bears-brunt",
-      "published_at": "20260716T174500Z",
-      "source": "english.aawsat.com",
-      "tags": [
-        "KUWAIT"
-      ]
     },
     {
       "id": "gdelt_99da23a6ed1ea510",
@@ -412,14 +312,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_c5ce2942658b49ef",
-      "headline": "Election period begins in BARMM | The Manila Times",
-      "url": "https://www.manilatimes.net/2026/07/17/regions/election-period-begins-in-barmm/2386033",
-      "published_at": "20260716T174500Z",
-      "source": "manilatimes.net",
-      "tags": []
-    },
-    {
       "id": "gdelt_77e3dbd087ef96ad",
       "headline": "Polis sahkan dua rakyat Malaysia ditahan di Hong Kong jadi keldai dadah",
       "url": "https://www.utusan.com.my/nasional/2026/07/polis-sahkan-dua-rakyat-malaysia-ditahan-di-hong-kong-jadi-keldai-dadah/",
@@ -434,6 +326,17 @@
       "published_at": "20260716T203000Z",
       "source": "novosti.rs",
       "tags": []
+    },
+    {
+      "id": "gdelt_fbeec87844f943b9",
+      "headline": "Pakistan urges US , Iran to end hostilities via MoU",
+      "url": "https://www.pakistantoday.com.pk/2026/07/17/pakistan-urges-us-iran-to-revive-mou-talks-as-regional-conflict-deepens",
+      "published_at": "20260716T233000Z",
+      "source": "pakistantoday.com.pk",
+      "tags": [
+        "IRAN",
+        "PAKISTAN"
+      ]
     },
     {
       "id": "gdelt_5114b3ca277dd360",
@@ -457,21 +360,7 @@
       "url": "https://www.efsyn.gr/kosmos/1429622/xefeygei-i-katastasi-sti-mesi-anatoli-synehi-kymata-epitheseon-apo-ipa-apeiles-gia-klimakosi-apo-iran/",
       "published_at": "20260716T210000Z",
       "source": "efsyn.gr",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_b222573e99bbe393",
-      "headline": "Israel tells US Pentagon it keeping its forces inside  security zone in Gaza , Lebanon , and Syria",
-      "url": "https://www.albawaba.net/news/israel-tells-us-pentagon-its-keeping-1633123",
-      "published_at": "20260716T173000Z",
-      "source": "albawaba.net",
-      "tags": [
-        "ISRAEL",
-        "LEBANON",
-        "SYRIA"
-      ]
+      "tags": []
     },
     {
       "id": "gdelt_ba15607504721381",
@@ -490,19 +379,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_5cf8b72eeadd5146",
-      "headline": "Вашингтон усиливает давление на покупателей российской нефти",
-      "url": "https://24tv.ua/economy/ru/vashington-usilivaet-davlenie-na-pokupatelej-rossijskoj-nefti-chto-zhdet-indiju_n3106719",
-      "published_at": "20260716T170000Z",
-      "source": "24tv.ua",
-      "tags": []
-    },
-    {
       "id": "gdelt_a4043c89a9e96c63",
       "headline": "Почему Трамп отказался от нового проекта санкций против РФ : СМИ",
       "url": "https://ura.news/news/1053110295",
       "published_at": "20260716T200000Z",
       "source": "ura.news",
+      "tags": []
+    },
+    {
+      "id": "gdelt_eff99b2a4cb8af27",
+      "headline": "В США пригрозили Канаде санкциями из - за лесных пожаров",
+      "url": "https://www.m24.ru/news/17072026/920799",
+      "published_at": "20260716T231500Z",
+      "source": "m24.ru",
       "tags": []
     },
     {
@@ -530,14 +419,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_f64baca7dcbee38b",
-      "headline": "Visa Launches Stablecoin Platform for Minting , Wallets and Payments",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/visa-launches-stablecoin-platform-minting-162300938.html",
-      "published_at": "20260716T170000Z",
-      "source": "finance.yahoo.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_9681dc48e4efb640",
       "headline": "Ajit Doval chairs BIMSTEC NSA meeting on terrorism , cyber security and organised crime in Bay of Bengal",
       "url": "https://economictimes.indiatimes.com/news/defence/ajit-doval-chairs-bimstec-nsa-meeting-on-terrorism-cyber-security-and-organised-crime-in-bay-of-bengal/articleshow/132447407.cms",
@@ -546,11 +427,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_3d93e22a8fe866b3",
-      "headline": "Стало известно о санкциях ФИФА в отношении Аргентины из - за политического баннера",
-      "url": "https://lenta.ru/news/2026/07/16/stalo-izvestno-o-sanktsiyah-fifa-v-otnoshenii-argentiny-iz-za-politicheskogo-bannera/",
-      "published_at": "20260716T163000Z",
-      "source": "lenta.ru",
+      "id": "gdelt_0c10e1989e2c12c3",
+      "headline": "全球54團體聯合譴責 ： 中共新法助長跨國鎮壓 | 民族團結促進法 | 中共跨國鎮壓 | 香港監察",
+      "url": "https://www.ntdtv.com/b5/2026/07/16/a104116044.html",
+      "published_at": "20260716T231500Z",
+      "source": "ntdtv.com",
       "tags": []
     },
     {
@@ -612,14 +493,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_cddaa2d1c0b09653",
-      "headline": "m10 launched instant international transfers to over 140 countries - Fast , Direct , Commission - Free",
-      "url": "https://en.apa.az/finance/m10-launched-instant-international-transfers-to-over-140-countries-fast-direct-commission-free-516486",
-      "published_at": "20260716T163000Z",
-      "source": "en.apa.az",
-      "tags": []
-    },
-    {
       "id": "gdelt_bb16960896a644ae",
       "headline": "Google Play разом стёр « ВКонтакте », « Одноклассники » и « Макс » сработали санкции ЕС",
       "url": "https://www.securitylab.ru/news/574944.php",
@@ -628,43 +501,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_c2e84348b73a0b65",
-      "headline": "ADX , Botswana Stock Exchange sign agreement to connect Middle East and Africa capital markets via Tabadul",
-      "url": "http://www.middleeaststar.com/news/279191384/adx-botswana-stock-exchange-sign-agreement-to-connect-middle-east-and-africa-capital-markets-via-tabadul",
-      "published_at": "20260716T173000Z",
-      "source": "middleeaststar.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fdc4725158147cf2",
-      "headline": "ADX , Botswana Stock Exchange sign agreement to connect Middle East and Africa capital markets via Tabadul",
-      "url": "http://www.iraqsun.com/news/279191384/adx-botswana-stock-exchange-sign-agreement-to-connect-middle-east-and-africa-capital-markets-via-tabadul",
-      "published_at": "20260716T170000Z",
-      "source": "iraqsun.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_32fa64e5ca80e8be",
-      "headline": "塞勒斯 · 霍兹 ： 搭建全球AI安全协作网络",
-      "url": "https://baijiahao.baidu.com/s?id=1870847087791781432",
-      "published_at": "20260716T174500Z",
-      "source": "baijiahao.baidu.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_6a5f50e4cb2a3e88",
       "headline": "Eurofighter - bázis : Merz és Macron légierő - egységet látogat meg",
       "url": "https://hu.euronews.com/my-europe/2026/07/16/eurofighter-bazis-merz-es-macron-legiero-egyseget-latogat-meg",
       "published_at": "20260716T193000Z",
       "source": "hu.euronews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c5830bc080bacaee",
-      "headline": "Оценены шансы принятия « адских санкций » в отношении России",
-      "url": "https://www.mk.ru/economics/2026/07/16/oceneny-shansy-prinyatiya-adskikh-sankciy-v-otnoshenii-rossii.html",
-      "published_at": "20260716T170000Z",
-      "source": "mk.ru",
       "tags": []
     },
     {
@@ -692,35 +533,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_cb0a968d27f047ab",
-      "headline": "التصعيد الأمريكي ‑ الإيراني يتوسع بضربات داخل العمق وتهديدات تمتد إلى دول المنطقة",
-      "url": "https://sana.sy/international/2529476/",
-      "published_at": "20260716T170000Z",
-      "source": "sana.sy",
-      "tags": []
-    },
-    {
       "id": "gdelt_124fcb2814aeb1ce",
       "headline": "Κλιμάκωση στη Μέση Ανατολή : Σε εξέλιξη το νέο κύμα αμερικανικών επιθέσεων κατά του Ιράν",
       "url": "https://www.inewsgr.com/226/klimakosi-sti-mesi-anatoli-se-exelixi-to-neo-kyma-amerikanikon-epitheseon-kata-tou-iran.htm",
       "published_at": "20260716T203000Z",
       "source": "inewsgr.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fc8b698902d10789",
-      "headline": "Щодо  картонок  – можлива нова ескалація",
-      "url": "https://gordonua.com/ukr/section-blogs/news-shchodo-kartonok-mozhlyva-nova-eskalatsiya-16-07-2026.html",
-      "published_at": "20260716T174500Z",
-      "source": "gordonua.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_738815fe4b4f2d29",
-      "headline": "VK и Макс пропали из Google Play : что делать пользователям",
-      "url": "https://wek.ru/vk-i-maks-propali-iz-google-play-chto-delat-polzovatelyam",
-      "published_at": "20260716T170000Z",
-      "source": "wek.ru",
       "tags": []
     },
     {
@@ -734,48 +551,6 @@
       ]
     },
     {
-      "id": "gdelt_ace9dd1989607386",
-      "headline": "House Defeats Bid To End Israel Aid While Senate Blocks US - Israel Intel Integration",
-      "url": "https://www.zerohedge.com/political/house-defeats-bid-end-israel-aid-while-senate-blocks-us-israel-intel-integration",
-      "published_at": "20260716T173000Z",
-      "source": "zerohedge.com",
-      "tags": [
-        "ISRAEL"
-      ]
-    },
-    {
-      "id": "gdelt_8733d0d4e23b51f8",
-      "headline": "Lidnzi Grejem nekoliko sati pred smrt povukao potez kojim bi srušio Putina i Rusiju",
-      "url": "https://www.blic.rs/vesti/svet/lidnzi-grejem-nekoliko-sati-pred-smrt-povukao-potez-kojim-bi-srusio-putina-i-rusiju/d6dv1lx",
-      "published_at": "20260716T173000Z",
-      "source": "blic.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_59a6c6b03a1b66c7",
-      "headline": "Відбудова України - Іспанія збільшила підтримку до 570 млн євро - новини світу",
-      "url": "https://zn.ua/ukr/europe/ispanija-sprjamuje-570-mln-jevro-na-vidbudovu-ukrajini-el-pas.html",
-      "published_at": "20260716T174500Z",
-      "source": "zn.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_31c23f13135a1f20",
-      "headline": "Houthi leader :  A full - scale escalation will be met with full - scale escalation",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-leader-full-scale-escalation-will-be-met-full-scale-escalation",
-      "published_at": "20260716T173000Z",
-      "source": "middleeasteye.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c9246ae98c32481f",
-      "headline": "Onoja Attah Onoja honoured by U . S . congress for advancing international trade",
-      "url": "https://thenationonlineng.net/onoja-attah-onoja-honoured-by-u-s-congress-for-advancing-international-trade/",
-      "published_at": "20260716T203000Z",
-      "source": "thenationonlineng.net",
-      "tags": []
-    },
-    {
       "id": "gdelt_f7f465a34b08b498",
       "headline": "UN Sanctions M23 Nangaa , FDLR and ADF Commanders",
       "url": "https://chimpreports.com/un-sanctions-m23s-nangaa-fdlr-and-adf-commanders/",
@@ -784,6 +559,14 @@
       "tags": [
         "M23_AFC"
       ]
+    },
+    {
+      "id": "gdelt_c9246ae98c32481f",
+      "headline": "Onoja Attah Onoja honoured by U . S . congress for advancing international trade",
+      "url": "https://thenationonlineng.net/onoja-attah-onoja-honoured-by-u-s-congress-for-advancing-international-trade/",
+      "published_at": "20260716T203000Z",
+      "source": "thenationonlineng.net",
+      "tags": []
     },
     {
       "id": "gdelt_8be12e72e6c33cec",
@@ -802,30 +585,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_f5b8a07c7eac98dc",
-      "headline": "باحث : مصر تؤكد دعم أمن الخليج وترفض الاعتداءات الإيرانية والتصعيد الإقليمي",
-      "url": "https://www.dostor.org/5637517",
-      "published_at": "20260716T163000Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_62567e022b0103c4",
-      "headline": "Praktik Merugikan Peternak Diburu , Pelaku Usaha Terancam Sanksi",
-      "url": "https://koran-jakarta.com/2026-07-17/praktik-merugikan-peternak-diburu-pelaku-usaha-terancam-sanksi",
-      "published_at": "20260716T174500Z",
-      "source": "koran-jakarta.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_480792aa68848d78",
-      "headline": "Οι ΗΠΑ σφυροκοπούν το Ιράν για έκτη συνεχόμενη νύχτα",
-      "url": "https://www.skai.gr/news/world/oi-ipa-sfyrokopoun-to-iran-gia-pempti-synexomeni-nyxta",
-      "published_at": "20260716T203000Z",
-      "source": "skai.gr",
-      "tags": []
-    },
-    {
       "id": "gdelt_6b88a6810ea3b252",
       "headline": "Через інтереси судноплавного бізнесу Греція затримує нові санкції ЄС проти Росії",
       "url": "https://www.bagnet.org/news/politics/1401104/cherez-interesi-sudnoplavnogo-biznesu-gretsiya-zatrimue-novi-sanktsiyi-es-proti-rosiyi",
@@ -834,11 +593,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_681526733b9a0a60",
-      "headline": "Соловьев счел неизбежной большую войну в Европе",
-      "url": "https://lenta.ru/news/2026/07/17/soloviev-schel-neizbezhnoy-bolshuyu-voynu-v-evrope/",
-      "published_at": "20260716T193000Z",
-      "source": "lenta.ru",
+      "id": "gdelt_480792aa68848d78",
+      "headline": "Οι ΗΠΑ σφυροκοπούν το Ιράν για έκτη συνεχόμενη νύχτα",
+      "url": "https://www.skai.gr/news/world/oi-ipa-sfyrokopoun-to-iran-gia-pempti-synexomeni-nyxta",
+      "published_at": "20260716T203000Z",
+      "source": "skai.gr",
       "tags": []
     },
     {
@@ -858,11 +617,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_681526733b9a0a60",
+      "headline": "Соловьев счел неизбежной большую войну в Европе",
+      "url": "https://lenta.ru/news/2026/07/17/soloviev-schel-neizbezhnoy-bolshuyu-voynu-v-evrope/",
+      "published_at": "20260716T193000Z",
+      "source": "lenta.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_2b55bf6276b11780",
       "headline": "Nisi nata e pestë radhazi e sulmeve amerikane ndaj Iranit",
       "url": "https://telegrafi.com/nisi-nata-e-peste-radhazi-e-sulmeve-amerikane-ndaj-iranit/",
       "published_at": "20260716T194500Z",
       "source": "telegrafi.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7149c1bf6b78bc93",
+      "headline": "Lurer . com | Եվրոպայում շարունակվում են Ռուսաստանի դեմ նոր պատժամիջոցների շուրջ քննարկումները",
+      "url": "https://lurer.com/article/742265/am",
+      "published_at": "20260716T201500Z",
+      "source": "lurer.com",
       "tags": []
     },
     {
@@ -882,19 +657,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_7149c1bf6b78bc93",
-      "headline": "Lurer . com | Եվրոպայում շարունակվում են Ռուսաստանի դեմ նոր պատժամիջոցների շուրջ քննարկումները",
-      "url": "https://lurer.com/article/742265/am",
-      "published_at": "20260716T201500Z",
-      "source": "lurer.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_52a0f19b4dc99d3b",
-      "headline": "RuStore продан . VK без предупреждения избавился от главного суверенного магазина приложений для Android",
-      "url": "https://www.cnews.ru/news/top/2026-07-16_rustore_prodan_s_potrohamivk",
-      "published_at": "20260716T170000Z",
-      "source": "cnews.ru",
+      "id": "gdelt_1858b0f00c4f67bb",
+      "headline": "Прем  єр Латвії розкритикував країни ЄС через санкції проти РФ Світ",
+      "url": "https://tsn.ua/svit/zarobliaiut-hroshi-premyer-latviyi-poiasnyv-chomu-deiaki-krayiny-yevropy-halmuiut-sanktsiyi-proty-rosiyi-3129413.html",
+      "published_at": "20260716T231500Z",
+      "source": "tsn.ua",
       "tags": []
     },
     {
@@ -909,27 +676,27 @@
       ]
     },
     {
-      "id": "gdelt_d65ff20e86f47500",
-      "headline": "NIA to charge 10  for role in J & K narco - terror syndicate",
-      "url": "https://www.thehindu.com/news/national/nia-to-charge-10-for-role-injk-narco-terror-syndicate/article71230705.ece",
-      "published_at": "20260716T180000Z",
-      "source": "thehindu.com",
+      "id": "gdelt_be014da29df8b2b2",
+      "headline": "IMD ： 2026年世界竞争力年鉴",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-07-17/doc-iniiaaik7465176.shtml",
+      "published_at": "20260716T221500Z",
+      "source": "finance.sina.com.cn",
       "tags": []
     },
     {
-      "id": "gdelt_8c50d8082c55b254",
-      "headline": "Συμβολική συνάντηση Μερτς - Μακρόν στη βάση των Eurofighter",
-      "url": "https://gr.euronews.com/my-europe/2026/07/16/symbolikh-synanthsh-merts-makron-bash-eurofighter",
-      "published_at": "20260716T170000Z",
-      "source": "gr.euronews.com",
+      "id": "gdelt_4beb4ac8fff68827",
+      "headline": "Труд : Ястреб отлетал свое , но дело его живет",
+      "url": "https://www.trud.ru/article/17-07-2026/1822171_jastreb_otletal_svoe_no_delo_ego_zhivet.html",
+      "published_at": "20260716T223000Z",
+      "source": "trud.ru",
       "tags": []
     },
     {
-      "id": "gdelt_b90940aecf9737ec",
-      "headline": "الخارجية الإيرانية : واشنطن خرقت مذكرة التفاهم بتصعيد الهجمات والحصار البحري",
-      "url": "https://www.eremnews.com/news/world/0be76wd",
-      "published_at": "20260716T170000Z",
-      "source": "eremnews.com",
+      "id": "gdelt_8d0452ed77f0a1da",
+      "headline": "RTS Link : Boosting Singapore retail and F & B",
+      "url": "https://www.straitstimes.com/business/economy/ahead-of-rts-link-spore-industry-groups-pitch-ways-to-boost-spend-ease-retail-and-fb-pressures",
+      "published_at": "20260716T231500Z",
+      "source": "straitstimes.com",
       "tags": []
     },
     {
@@ -946,14 +713,6 @@
       "url": "https://www.taxydromos.gr/diethni/1343963/israilina-mme-to-israil-proetoimazetai-gia-pithani-klimakosi-metaxy-ipa-kai-iran-tin-epomeni-evdomada/",
       "published_at": "20260716T204500Z",
       "source": "taxydromos.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4d9674775331a991",
-      "headline": "ما دلالات التصعيد الجاري عند مضيق هرمز بين واشنطن وطهران ؟.. أستاذ اقتصاد تجيب",
-      "url": "https://www.dostor.org/5637529",
-      "published_at": "20260716T170000Z",
-      "source": "dostor.org",
       "tags": []
     },
     {
@@ -981,19 +740,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_3d3201312028991e",
-      "headline": "Citigroup Announces Full Redemption of Series T Preferred Stock",
-      "url": "https://thestarphoenix.com/press-releases/business-wire/citigroup-announces-full-redemption-of-series-t-preferred-stock/",
-      "published_at": "20260716T210000Z",
-      "source": "thestarphoenix.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_af20022938216d01",
       "headline": "Patruschew erklärt Russlands Atomflotte für gefechtsbereit",
       "url": "https://www.merkur.de/politik/patruschew-erklaert-russlands-atomflotte-fuer-gefechtsbereit-zr-94401251.html",
       "published_at": "20260716T201500Z",
       "source": "merkur.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3d3201312028991e",
+      "headline": "Citigroup Announces Full Redemption of Series T Preferred Stock",
+      "url": "https://thestarphoenix.com/press-releases/business-wire/citigroup-announces-full-redemption-of-series-t-preferred-stock/",
+      "published_at": "20260716T210000Z",
+      "source": "thestarphoenix.com",
       "tags": []
     },
     {
@@ -1035,6 +794,242 @@
       "published_at": "20260716T191500Z",
       "source": "hna.de",
       "tags": []
+    },
+    {
+      "id": "gdelt_b0e0bcc1d7721a35",
+      "headline": "Patruschew erklärt Russlands Atomflotte für gefechtsbereit",
+      "url": "https://www.hna.de/politik/patruschew-erklaert-russlands-atomflotte-fuer-gefechtsbereit-zr-94401251.html",
+      "published_at": "20260716T193000Z",
+      "source": "hna.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_88f8233ef256d806",
+      "headline": "Zoom patches account takeover hole",
+      "url": "https://www.csoonline.com/article/4197962/zoom-patches-account-takeover-hole-2.html",
+      "published_at": "20260716T221500Z",
+      "source": "csoonline.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_677b17586ca94013",
+      "headline": "Special NIA Court Frames Charges Against 10 in Narco - Terror Case",
+      "url": "https://kashmirlife.net/special-nia-court-frames-charges-against-10-in-narco-terror-case-443454/",
+      "published_at": "20260716T233000Z",
+      "source": "kashmirlife.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_516be219e7e75217",
+      "headline": "Sovereignty comes with responsibility : U . S . lawmakers to Canada on wildfires - National",
+      "url": "https://globalnews.ca/news/11968608/wildfires-united-states-canada/",
+      "published_at": "20260716T190000Z",
+      "source": "globalnews.ca",
+      "tags": []
+    },
+    {
+      "id": "gdelt_529b15d6afd33e7c",
+      "headline": "France – Maroc : le retour dun partenariat stratégique à haute valeur géopolitique | adiac - congo . com : toute lactualité du Bassin du Congo",
+      "url": "https://www.adiac-congo.com/content/france-maroc-le-retour-dun-partenariat-strategique-haute-valeur-geopolitique-170868",
+      "published_at": "20260716T230000Z",
+      "source": "adiac-congo.com",
+      "tags": [
+        "FRANCE"
+      ]
+    },
+    {
+      "id": "gdelt_b032c84f78741da0",
+      "headline": "الحرب الأمريكية الإيرانية .. معركة الرهانات والتهديدات والتصريحات !",
+      "url": "https://www.dostor.org/5637739",
+      "published_at": "20260716T210000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0e1d5bd0ab684ada",
+      "headline": "ЦБ скроет данные о банках и НПЗ для защиты от санкций",
+      "url": "https://deita.ru/article/587827",
+      "published_at": "20260716T191500Z",
+      "source": "deita.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e75df1e6f1d83ca5",
+      "headline": "Российские соцсети исчезли из Google Play",
+      "url": "https://www.bnkomi.ru/data/news/201126/",
+      "published_at": "20260716T184500Z",
+      "source": "bnkomi.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2a77bbd31e1c1c15",
+      "headline": "Iran , US intensify attacks as hostage release offers hope of de - escalation",
+      "url": "https://economictimes.indiatimes.com/news/defence/iran-us-intensify-attacks-as-hostage-release-offers-hope-of-de-escalation/articleshow/132447648.cms",
+      "published_at": "20260716T201500Z",
+      "source": "economictimes.indiatimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_408366398c1a577c",
+      "headline": "تصعيد أمريكي يستهدف بنية النقل جنوبي إيران .. وسقوط قتيل وإصابات في بندر عباس",
+      "url": "https://www.elwatannews.com/news/details/8321712",
+      "published_at": "20260716T231500Z",
+      "source": "elwatannews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1172f4cc2133df4b",
+      "headline": "Ο Πούτιν , ο Τραμπ και οι εκλογές στην Ελλάδα",
+      "url": "https://www.inewsgr.com/351/o-poutin-o-trab-kai-oi-ekloges-stin-ellada.htm",
+      "published_at": "20260716T203000Z",
+      "source": "inewsgr.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c78a56ffcd74cba2",
+      "headline": "Iran war : US military attacks Iran for fifth night running",
+      "url": "https://www.dw.com/en/iran-war-us-military-attacks-iran-for-fifth-night-running/live-77976690",
+      "published_at": "20260716T193000Z",
+      "source": "dw.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_44489494f3d4ecc3",
+      "headline": "Patruschew erklärt Russlands Atomflotte für gefechtsbereit",
+      "url": "http://www.fnp.de/politik/patruschew-erklaert-russlands-atomflotte-fuer-gefechtsbereit-zr-94401251.html",
+      "published_at": "20260716T200000Z",
+      "source": "fnp.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_73ba0caef3acb47d",
+      "headline": "Μυστηριώδης συγκέντρωση γιοτ Ρώσων ολιγαρχών στην Αλικαρνασσό : Πώς « εμπλέκεται » ο Πούτιν",
+      "url": "https://www.inewsgr.com/27/mystiriodis-sygkentrosi-giot-roson-oligarchon-stin-alikarnasso-pos-ebleketai-o-poutin.htm",
+      "published_at": "20260716T193000Z",
+      "source": "inewsgr.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6774f6d649b2e57b",
+      "headline": "Μυστήριο με γιοτ Ρώσων billionaires που κατέπλευσαν στην Αλικαρνασσό – Ανάμεσά τους και το « πλωτό παλάτι » του Πούτιν",
+      "url": "https://www.inewsgr.com/364/mystirio-me-giot-roson-billionaires-pou-kateplefsan-stin-alikarnasso--anamesa-tous-kai-to-ploto-palati-tou-poutin.htm",
+      "published_at": "20260716T181500Z",
+      "source": "inewsgr.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_817c159a8a569029",
+      "headline": "قطر تنفي مزاعم إسرائيلية بموافقتها على عمل عسكري ضد إيران",
+      "url": "https://www.aljazeera.net/news/2026/7/16/%D9%82%D8%B7%D8%B1-%D8%AA%D8%B3%D8%AA%D9%86%D9%83%D8%B1-%D8%AA%D9%82%D8%A7%D8%B1%D9%8A%D8%B1-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%B2%D8%B9%D9%85%D8%AA",
+      "published_at": "20260716T204500Z",
+      "source": "aljazeera.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cbe49c7fe4e1880c",
+      "headline": "Индекс Мосбиржи обновил минимум с октября 2022 года на фоне падения акций банков",
+      "url": "https://www.kommersant.ru/doc/8816710",
+      "published_at": "20260716T201500Z",
+      "source": "kommersant.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9826a9ef79b9916c",
+      "headline": "Qatar , UAE and Kuwait condemn Iranian attacks on neighboring states",
+      "url": "https://sana.sy/en/international/2329986/",
+      "published_at": "20260716T191500Z",
+      "source": "sana.sy",
+      "tags": [
+        "KUWAIT",
+        "QATAR",
+        "UAE"
+      ]
+    },
+    {
+      "id": "gdelt_830f9eed3d93ff00",
+      "headline": "قطر تنفي تقارير إسرائيلية تزعم موافقتها على المشاركة في عمل عسكري ضد إيران",
+      "url": "https://sana.sy/international/2529651/",
+      "published_at": "20260716T203000Z",
+      "source": "sana.sy",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ced4deedacbeab4c",
+      "headline": "Spanish taxis warned they will be stopped from entering Gibraltar as border removed | World | News",
+      "url": "https://www.express.co.uk/news/world/2230035/spanish-taxis-warned-gibraltar-spain-border",
+      "published_at": "20260716T204500Z",
+      "source": "express.co.uk",
+      "tags": [
+        "SPAIN"
+      ]
+    },
+    {
+      "id": "gdelt_2991675e2ee89665",
+      "headline": "Canada Wildfire Management Failures Choke Millions Of Americans With Toxic Smoke",
+      "url": "https://www.zerohedge.com/weather/canadas-wildfire-management-failures-choke-millions-americans-toxic-smoke",
+      "published_at": "20260716T214500Z",
+      "source": "zerohedge.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6582c30e16a94716",
+      "headline": "Patruschew erklärt Russlands Atomflotte für gefechtsbereit",
+      "url": "http://www.op-online.de/politik/patruschew-erklaert-russlands-atomflotte-fuer-gefechtsbereit-zr-94401251.html",
+      "published_at": "20260716T201500Z",
+      "source": "op-online.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_11c858bde6a22773",
+      "headline": "Cinco amistosos de nivel para la puesta en escena de la UD Ourense",
+      "url": "https://www.lavozdegalicia.es/noticia/ourense/2026/07/15/cinco-amistosos-nivel-puesta-escena-ourense/00031784116133923925155.htm",
+      "published_at": "20260716T203000Z",
+      "source": "lavozdegalicia.es",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9e81d92a14a078a4",
+      "headline": "Les Malouines demandent à la FIFA de sanctionner lArgentine",
+      "url": "https://www.foot01.com/mondial-2026/les-malouines-demandent-a-la-fifa-de-sanctionner-largentine",
+      "published_at": "20260716T220000Z",
+      "source": "foot01.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1c651b4831d35763",
+      "headline": "الذهب ينخفض 2 % مع تصاعد توتر الشرق الأوسط وتوقعات رفع الفائدة الأمريكية",
+      "url": "https://www.vetogate.com/5694766",
+      "published_at": "20260716T191500Z",
+      "source": "vetogate.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f721ba3b8715d178",
+      "headline": "DOJ Charges Russians Who Ran Hosting Infrastructure for LockBit , Cl0p , Play",
+      "url": "https://www.techtimes.com/articles/320673/20260716/doj-charges-russians-who-ran-hosting-infrastructure-lockbit-cl0p-play.htm",
+      "published_at": "20260716T210000Z",
+      "source": "techtimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0ef386bf44ab16ef",
+      "headline": "How Democrats are shifting on aid for Israel",
+      "url": "https://www.delawarepublic.org/2026-07-16/how-democrats-are-shifting-on-aid-for-israel",
+      "published_at": "20260716T204500Z",
+      "source": "delawarepublic.org",
+      "tags": [
+        "ISRAEL"
+      ]
+    },
+    {
+      "id": "gdelt_65062cb9126c4137",
+      "headline": "How Democrats are shifting on aid for Israel",
+      "url": "https://www.klcc.org/npr-politics/2026-07-16/how-democrats-are-shifting-on-aid-for-israel",
+      "published_at": "20260716T220000Z",
+      "source": "klcc.org",
+      "tags": [
+        "ISRAEL"
+      ]
     }
   ]
 }
