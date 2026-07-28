@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-07-28T18:43:59Z",
+    "generated_at_utc": "2026-07-28T20:34:07Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "http_error status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
         "fetched": 0
       },
       {
@@ -32,6 +32,14 @@
     }
   },
   "events": [
+    {
+      "id": "gdelt_d9d35553bd1292ca",
+      "headline": "Встреча Зеленского и Трампа : речь шла о конце войны и дипломатии",
+      "url": "https://focus.ua/politics/762594-vstrecha-zelenskogo-i-trampa-rech-shla-o-konce-voyny-i-diplomatii",
+      "published_at": "20260728T200000Z",
+      "source": "focus.ua",
+      "tags": []
+    },
     {
       "id": "gdelt_bac78d4bb0032f81",
       "headline": "Банки смогут предоставлять государству больше информации что предлагают изменить и зачем",
@@ -89,20 +97,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_dabb8aa58eb3647b",
-      "headline": "Dėl drono įsiveržimo į Rumunijos oro erdvę ES iškvietė Rusijos ambasadorių",
-      "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3004331/del-drono-isiverzimo-i-rumunijos-oro-erdve-es-iskviete-rusijos-ambasadoriu",
-      "published_at": "20260728T143000Z",
-      "source": "lrt.lt",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d12d6beefec27783",
-      "headline": "Kwanza é segunda moeda integrada no sistema de pagamentos transfronteiriços da SADC",
-      "url": "https://www.angonoticias.com/Artigos/item/82431/kwanza-e-segunda-moeda-integrada-no-sistema-de-pagamentos-transfronteiricos-da-sadc",
-      "published_at": "20260728T131500Z",
-      "source": "angonoticias.com",
-      "tags": []
+      "id": "gdelt_e2e01b27a0313963",
+      "headline": "Война в Украине : Путин продолжит эскалацию , пока не появится угроза для его власти",
+      "url": "https://www.unian.net/war/voyna-v-ukraine-putin-prodolzhit-eskalaciyu-poka-ne-poyavitsya-ugroza-dlya-ego-vlasti-13454430.html",
+      "published_at": "20260728T193000Z",
+      "source": "unian.net",
+      "tags": [
+        "UKRAINE"
+      ]
     },
     {
       "id": "gdelt_6749841f20962bbc",
@@ -135,14 +137,6 @@
       ]
     },
     {
-      "id": "gdelt_c780f2c48a5150cd",
-      "headline": "Курт Волкер : « Трамп видит , что ситуация на местах сильно отличается от того , как он ее воспринимал в январе - феврале прошлого года »",
-      "url": "http://gazetaby.com/post/kurt-volker-tramp-vidit-chto-situaciya-na-mestax-silno-otlichaetsya-ot/215505/",
-      "published_at": "20260728T180000Z",
-      "source": "gazetaby.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_e1c985793aa64292",
       "headline": "India invokes Gen Z in statement condemning PoK elections",
       "url": "https://www.rediff.com/news/report/india-invokes-gen-z-in-statement-condemning-pok-elections/20260728.htm",
@@ -153,24 +147,20 @@
       ]
     },
     {
-      "id": "gdelt_32a6ec30df51938d",
-      "headline": "India blasts PoK polls as Pakistan  cosmetic exercise  to mask its illegal occupation",
-      "url": "https://www.newindianexpress.com/india/2026/Jul/28/india-blasts-pok-polls-as-pakistans-cosmetic-exercise-to-mask-its-illegal-occupation",
-      "published_at": "20260728T141500Z",
-      "source": "newindianexpress.com",
-      "tags": [
-        "PAKISTAN"
-      ]
+      "id": "gdelt_c780f2c48a5150cd",
+      "headline": "Курт Волкер : « Трамп видит , что ситуация на местах сильно отличается от того , как он ее воспринимал в январе - феврале прошлого года »",
+      "url": "http://gazetaby.com/post/kurt-volker-tramp-vidit-chto-situaciya-na-mestax-silno-otlichaetsya-ot/215505/",
+      "published_at": "20260728T180000Z",
+      "source": "gazetaby.com",
+      "tags": []
     },
     {
-      "id": "gdelt_56873dc7a35387b5",
-      "headline": "Іран пригрозив ракетними ударами Україні - які можливі наслідки такої атаки",
-      "url": "https://24tv.ua/iran-prigroziv-raketnimi-udarami-ukrayini-yaki-mozhlivi-naslidki_n3113413",
-      "published_at": "20260728T133000Z",
-      "source": "24tv.ua",
-      "tags": [
-        "IRAN"
-      ]
+      "id": "gdelt_366c808b066cd3a9",
+      "headline": "Поминальная служба сенатора Линдси Грэма в Капитолии США – фото – Владимир Зеленский",
+      "url": "https://www.obozrevatel.com/novosti-mir/v-ssha-s-pochestyami-pohoronili-senatora-grema-na-tseremonii-prisutstvoval-prezident-ukrainyi-foto.htm",
+      "published_at": "20260728T194500Z",
+      "source": "obozrevatel.com",
+      "tags": []
     },
     {
       "id": "gdelt_a68c564afcd70240",
@@ -181,11 +171,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_288fdfeff945cef8",
-      "headline": "MEA Rejects Pakistan Indus Valley Civilization Claim",
-      "url": "https://www.newkerala.com/news/a/islamabad-promoting-cross-border-terror-cannot-claim-pluralistic-cultural-213.htm",
-      "published_at": "20260728T140000Z",
-      "source": "newkerala.com",
+      "id": "gdelt_80eb991c6af1efec",
+      "headline": "Війна в Україні : Путін продовжуватиме ескалацію , доки не з  явиться загроза його владі",
+      "url": "https://www.unian.ua/war/viyna-v-ukrajini-putin-prodovzhuvatime-eskalaciyu-doki-ne-z-yavitsya-zagroza-yogo-vladi-13454427.html",
+      "published_at": "20260728T193000Z",
+      "source": "unian.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_760e4b9cf191ee3c",
+      "headline": "India first direct container freight train reaches Nepal in big push to cross - border trade",
+      "url": "https://www.prokerala.com/news/articles/a1793581.html",
+      "published_at": "20260728T171500Z",
+      "source": "prokerala.com",
       "tags": []
     },
     {
@@ -200,35 +198,11 @@
       ]
     },
     {
-      "id": "gdelt_760e4b9cf191ee3c",
-      "headline": "India first direct container freight train reaches Nepal in big push to cross - border trade",
-      "url": "https://www.prokerala.com/news/articles/a1793581.html",
-      "published_at": "20260728T171500Z",
-      "source": "prokerala.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_80ecb3856e4afb79",
       "headline": "CJP Protest : Maharashtra cyber police bust cross - border disinformation campaign",
       "url": "https://www.rediff.com/news/report/cjp-protest-maharashtra-cyber-police-bust-cross-border-disinformation-campaign/20260728.htm",
       "published_at": "20260728T161500Z",
       "source": "rediff.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7a4febc26d8b0735",
-      "headline": "India blasts PoK polls as  cosmetic exercise  by Pakistan to mask its illegal occupation",
-      "url": "https://www.tribuneindia.com/news/j-k/india-blasts-pok-polls-as-cosmetic-exercise-by-pakistan-to-mask-its-illegal-occupation/",
-      "published_at": "20260728T133000Z",
-      "source": "tribuneindia.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e14c50f722a8cc54",
-      "headline": "Министр обороны Италии объяснил , почему Украине нужно помогать",
-      "url": "https://society.comments.ua/news/warrussia/v-italii-sravnili-ukrainu-s-tyazhelobolnym-pacientom-detali-skandalnogo-zayavleniya-812243.html",
-      "published_at": "20260728T160000Z",
-      "source": "society.comments.ua",
       "tags": []
     },
     {
@@ -240,11 +214,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_05ea7766e48a67a0",
-      "headline": "India blasts PoK polls as  cosmetic exercise  by Pakistan to mask its illegal occupation",
-      "url": "https://economictimes.indiatimes.com/news/india/india-blasts-pok-polls-as-cosmetic-exercise-by-pakistan-to-mask-its-illegal-occupation/articleshow/132684845.cms",
-      "published_at": "20260728T133000Z",
-      "source": "economictimes.indiatimes.com",
+      "id": "gdelt_e14c50f722a8cc54",
+      "headline": "Министр обороны Италии объяснил , почему Украине нужно помогать",
+      "url": "https://society.comments.ua/news/warrussia/v-italii-sravnili-ukrainu-s-tyazhelobolnym-pacientom-detali-skandalnogo-zayavleniya-812243.html",
+      "published_at": "20260728T160000Z",
+      "source": "society.comments.ua",
       "tags": []
     },
     {
@@ -254,6 +228,32 @@
       "published_at": "20260728T150000Z",
       "source": "unian.net",
       "tags": []
+    },
+    {
+      "id": "gdelt_0fed0c0c4f6dcb72",
+      "headline": "Visa сократит 7 % сотрудников в рамках реорганизации компании",
+      "url": "https://expert.ru/news/visa-sokratit-7-sotrudnikov-v-ramkakh-reorganizatsii-kompanii",
+      "published_at": "20260728T184500Z",
+      "source": "expert.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_21b2f745a0b64f0c",
+      "headline": "Ubezpieczyciele pod ściślejszym nadzorem . KNF sprawdzi wypłacalność",
+      "url": "https://www.bankier.pl/wiadomosc/Ubezpieczyciele-pod-scislejszym-nadzorem-KNF-sprawdzi-wyplacalnosc-9174585.html",
+      "published_at": "20260728T191500Z",
+      "source": "bankier.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1f7b733b11889bf1",
+      "headline": "india reacts pakistan support for gen z students cjp protests mea randhir jaiswal big statement on terrorism |  Gen - Z पीढीसह सर्व भारतीयांची इच्छा आहे की पाकिस्तान ...; भारताचं शेजारी देशाला सडेतोड प्रत्युत्तर",
+      "url": "https://www.lokmat.com/international/india-reacts-pakistan-support-for-gen-z-students-cjp-protests-mea-randhir-jaiswal-big-statement-on-terrorism-a-a747/",
+      "published_at": "20260728T190000Z",
+      "source": "lokmat.com",
+      "tags": [
+        "PAKISTAN"
+      ]
     },
     {
       "id": "gdelt_f5266f391688e902",
@@ -283,6 +283,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_66ecd3cfb688ba63",
+      "headline": "Zelenskyy and Netanyahu brave the whims of Trump darkly confounding White House",
+      "url": "https://www.aol.co.uk/articles/zelenskyy-netanyahu-brave-whims-trump-185304000.html",
+      "published_at": "20260728T193000Z",
+      "source": "aol.co.uk",
+      "tags": []
+    },
+    {
       "id": "gdelt_a2c873a9332c36a2",
       "headline": "Опытный походник прошел по маршруту семьи Усольцевых",
       "url": "https://www.vesti.ru/ns/opytnyj-pokhodnik-proshel-po-marshrutu-semi-usolcevykh",
@@ -291,30 +299,20 @@
       "tags": []
     },
     {
-      "id": "gdelt_800c21311b17535a",
-      "headline": "İsrailden Türkiyeye peş peşe tehditler : Bize bulaşma Erdoğan",
-      "url": "https://www.haber7.com/dunya/haber/3646923-israilden-turkiyeye-pes-pese-tehditler-bize-bulasma-erdogan",
-      "published_at": "20260728T133000Z",
-      "source": "haber7.com",
+      "id": "gdelt_31da20ba14935e3f",
+      "headline": "Berlin Pride attack sparks fresh questions over EU intelligence",
+      "url": "https://www.euronews.com/my-europe/2026/07/28/berlin-pride-attack-sparks-fresh-questions-over-eu-intelligence-sharing",
+      "published_at": "20260728T184500Z",
+      "source": "euronews.com",
       "tags": []
     },
     {
-      "id": "gdelt_7be30b1b2eb480a5",
-      "headline": "Moskau droht Rumänien nach Abschuss von drei Drohnen – NATO rüstet auf",
-      "url": "http://www.tz.de/politik/moskau-droht-rumaenien-nach-abschuss-von-drei-drohnen-nato-ruestet-auf-zr-94418368.html",
-      "published_at": "20260728T133000Z",
-      "source": "tz.de",
+      "id": "gdelt_78a37498ca467640",
+      "headline": "India launches first direct container freight train to Nepal , carrying 1 , 225 tonnes of canola from Kolkata port",
+      "url": "https://indianexpress.com/article/business/india-direct-container-frieght-train-nepal-kolkata-port-10807910/",
+      "published_at": "20260728T171500Z",
+      "source": "indianexpress.com",
       "tags": []
-    },
-    {
-      "id": "gdelt_8dd4553616fdfdec",
-      "headline": "Analysts : Houthi Future Tied to Iran Fate , Solution Begins With Restoring the State",
-      "url": "https://english.aawsat.com/arab-world/5300904-analysts-houthis%E2%80%99-future-tied-iran%E2%80%99s-fate-solution-begins-restoring-state",
-      "published_at": "20260728T143000Z",
-      "source": "english.aawsat.com",
-      "tags": [
-        "IRAN"
-      ]
     },
     {
       "id": "gdelt_db35641154ec6cdb",
@@ -327,43 +325,11 @@
       ]
     },
     {
-      "id": "gdelt_fa4bcafbd522a045",
-      "headline": "Moskau droht Rumänien nach Abschuss von drei Drohnen – NATO rüstet auf",
-      "url": "http://www.come-on.de/politik/moskau-droht-rumaenien-nach-abschuss-von-drei-drohnen-nato-ruestet-auf-zr-94418368.html",
-      "published_at": "20260728T133000Z",
-      "source": "come-on.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_78a37498ca467640",
-      "headline": "India launches first direct container freight train to Nepal , carrying 1 , 225 tonnes of canola from Kolkata port",
-      "url": "https://indianexpress.com/article/business/india-direct-container-frieght-train-nepal-kolkata-port-10807910/",
-      "published_at": "20260728T171500Z",
-      "source": "indianexpress.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e11e49ba16c5a7e5",
-      "headline": "Xryma Plc kündigt die bevorstehende Einführung von XrymaCoin ( XREUR ) an - einem regulierten Euro - Stablecoin , der so konzipiert ist , dass er wie Geld funktioniert",
-      "url": "https://www.prnewswire.com:443/news-releases/xryma-plc-kundigt-die-bevorstehende-einfuhrung-von-xrymacoin-xreur-an--einem-regulierten-euro-stablecoin-der-so-konzipiert-ist-dass-er-wie-geld-funktioniert-302836542.html",
-      "published_at": "20260728T133000Z",
-      "source": "prnewswire.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_3bd7fd2f8858988f",
       "headline": "Kuruc . info - Kreml : a Kijev jelentette terrorfenyegetést végérvényesen fel kell számolni",
       "url": "https://kuruc.info/r/67/305199/",
       "published_at": "20260728T171500Z",
       "source": "kuruc.info",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d2a1e2f7bdf8f67c",
-      "headline": "Moskau droht Rumänien nach Abschuss von drei Drohnen – NATO rüstet auf",
-      "url": "http://www.fnp.de/politik/moskau-droht-rumaenien-nach-abschuss-von-drei-drohnen-nato-ruestet-auf-zr-94418368.html",
-      "published_at": "20260728T133000Z",
-      "source": "fnp.de",
       "tags": []
     },
     {
@@ -378,19 +344,31 @@
       ]
     },
     {
-      "id": "gdelt_8998ddc02405fdcb",
-      "headline": "На прохання Сі Цзіньпіна ? Що змусило президента Казахстану сказати Путіну про необхідність зупинити війну з Україною",
-      "url": "https://www.radiosvoboda.org/a/kazakhstan-tokayev-putin-zayava-pro-kinets-viyny-z-ukrayinoyu/33816610.html",
-      "published_at": "20260728T141500Z",
-      "source": "radiosvoboda.org",
-      "tags": []
+      "id": "gdelt_bcb9cbee1c34fb1e",
+      "headline": "Новый звонок Сибиги и Арагчи после угроз Ирана 28 июля 2026 | Новости Украины",
+      "url": "https://news.liga.net/politics/news/sibiga-pogovoril-s-top-diplomatom-irana-posle-ugroz-ukraine",
+      "published_at": "20260728T193000Z",
+      "source": "news.liga.net",
+      "tags": [
+        "UKRAINE"
+      ]
     },
     {
-      "id": "gdelt_a6ef8e08c3b8a5bc",
-      "headline": "Remarks at a UN Security Council Briefing on Nonproliferation",
-      "url": "https://www.globalsecurity.org/wmd/library/news/un/un-260710-usmissionun01.htm",
-      "published_at": "20260728T141500Z",
-      "source": "globalsecurity.org",
+      "id": "gdelt_060d8216ae4178b7",
+      "headline": "OVO ORUŽJE MENJA SVE ! Iran lansira  nevidljivu smrt  i ima samo jedan cilj !",
+      "url": "https://www.alo.rs/vesti/svet/16871977/ovo-oruzje-menja-sve-iran-lansira-nevidljivu-smrt-i-ima-samo-jedan-cilj.html",
+      "published_at": "20260728T194500Z",
+      "source": "alo.rs",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_5b50a5ddf9060c64",
+      "headline": "Китайский шопинг захватил Россию : зарубежные покупки выросли на сотни миллиардов рублей",
+      "url": "https://www.pravda.ru/news/economics/2379872-cross-border-trade-growth/",
+      "published_at": "20260728T193000Z",
+      "source": "pravda.ru",
       "tags": []
     },
     {
@@ -410,27 +388,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_8f8fd4249e320ad6",
-      "headline": "Συνάντηση Τραμπ – Ζελένσκι στον Λευκό Οίκο με φόντο τον πόλεμο στην Ουκρανία",
-      "url": "https://www.inewsgr.com/441/synantisi-trab--zelenski-ston-lefko-oiko-me-fonto-ton-polemo-stin-oukrania.htm",
-      "published_at": "20260728T143000Z",
-      "source": "inewsgr.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_0fbb194eeabaeb73",
       "headline": "Россия и Белоруссия запустят новые электрички между городами к 2027 году",
       "url": "https://www.nakanune.ru/news/2026/7/28/22881691/",
       "published_at": "20260728T150000Z",
       "source": "nakanune.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_dfe530b627fb4c13",
-      "headline": "BiH pred velikom promjenom : Milioni eura više neće nestajati na provizije",
-      "url": "https://avaz.ba/vijesti/biznis/1060641/bih-pred-velikom-promjenom-milioni-eura-vise-nece-nestajati-na-provizije",
-      "published_at": "20260728T143000Z",
-      "source": "avaz.ba",
       "tags": []
     },
     {
@@ -450,35 +412,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_8415fb44180c8638",
-      "headline": "СМИ узнали о планах ЕС ввести санкции против 1 , 6 тысячи компаний",
-      "url": "https://1prime.ru/20260728/smi-871832118.html",
-      "published_at": "20260728T160000Z",
-      "source": "1prime.ru",
+      "id": "gdelt_20b99910eaf05c51",
+      "headline": "미 재무부 , 대북 제재 명단 일부 정비 … 중복 항목 통합",
+      "url": "https://www.voakorea.com/a/ofac-nk-modernization-072826/8178965.html",
+      "published_at": "20260728T184500Z",
+      "source": "voakorea.com",
       "tags": []
     },
     {
-      "id": "gdelt_77b7a8fede8b91a4",
-      "headline": "Freight Technologies Expands Fleet Rocket to 92 Integrated GPS Providers",
-      "url": "https://www.manilatimes.net/2026/07/28/tmt-newswire/globenewswire/freight-technologies-expands-fleet-rocket-to-92-integrated-gps-providers/2393188",
-      "published_at": "20260728T140000Z",
-      "source": "manilatimes.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_af8155f2b1bd381a",
-      "headline": "Сенаторы США согласовали законопроект Грэма об антироссийских санкциях",
-      "url": "https://www.kommersant.ru/doc/8846734",
-      "published_at": "20260728T160000Z",
-      "source": "kommersant.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_87e0d47a911d3430",
-      "headline": "IMF Brezilya stablecoin denetimi için uyarıda bulundu",
-      "url": "https://www.haberler.com/kripto-para/imf-brezilya-stablecoin-denetimi-icin-uyarida-20095385-haberi/",
-      "published_at": "20260728T143000Z",
-      "source": "haberler.com",
+      "id": "gdelt_25e8af5dd375aeab",
+      "headline": "Далекобійні санкції  України : куди дістають і чи є ефект ?",
+      "url": "https://www.dw.com/uk/dalekobijni-sankcii-ukraini-kudi-distaut-i-ci-e-efekt/a-78149092",
+      "published_at": "20260728T193000Z",
+      "source": "dw.com",
       "tags": []
     },
     {
@@ -487,6 +433,46 @@
       "url": "https://www.tazabek.kg/news:2509180",
       "published_at": "20260728T151500Z",
       "source": "tazabek.kg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_334132acfc40f91b",
+      "headline": "Почему встреча Зеленского и Трампа в Вашингтоне 28 июля прошла успешно | Новости Украины",
+      "url": "https://www.liga.net/politics/articles/zavet-grema-vizit-lumer-i-ukrainskie-tehnologii-kak-proshla-vstrecha-zelenskogo-i-trampa",
+      "published_at": "20260728T193000Z",
+      "source": "liga.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f0e29441961e806d",
+      "headline": "США и Иран торгуются за судьбу Красного моря",
+      "url": "https://www.ng.ru/world/2026-07-28/1_9547_iran.html",
+      "published_at": "20260728T193000Z",
+      "source": "ng.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8ddc27067919e662",
+      "headline": "IMF Puts Brazil Stablecoins Under Scrutiny as Crypto Flows Outpace Traditional Channels",
+      "url": "http://www.econotimes.com/IMF-Puts-Brazil-Stablecoins-Under-Scrutiny-as-Crypto-Flows-Outpace-Traditional-Channels-1747936",
+      "published_at": "20260728T153000Z",
+      "source": "econotimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8415fb44180c8638",
+      "headline": "СМИ узнали о планах ЕС ввести санкции против 1 , 6 тысячи компаний",
+      "url": "https://1prime.ru/20260728/smi-871832118.html",
+      "published_at": "20260728T160000Z",
+      "source": "1prime.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_af8155f2b1bd381a",
+      "headline": "Сенаторы США согласовали законопроект Грэма об антироссийских санкциях",
+      "url": "https://www.kommersant.ru/doc/8846734",
+      "published_at": "20260728T160000Z",
+      "source": "kommersant.ru",
       "tags": []
     },
     {
@@ -514,6 +500,24 @@
       "tags": []
     },
     {
+      "id": "gdelt_269f315dd2b89612",
+      "headline": "KRAJ VISOKIM BANKARSKIM NAKNADAMA ?: BiH napravila ključan korak prema SEPA - i , građanima stižu dobre vijesti",
+      "url": "https://www.slobodna-bosna.ba/vijest/497636/kraj_visokim_bankarskim_naknadama_bih_napravila_kljuchan_korak_prema_sepa_i_gradjanima_stizu_dobre_vijesti.html",
+      "published_at": "20260728T174500Z",
+      "source": "slobodna-bosna.ba",
+      "tags": []
+    },
+    {
+      "id": "gdelt_160683dcb888966d",
+      "headline": "Washington Sent 7 , 000 Troops to Deter China",
+      "url": "https://fpif.org/washington-sent-7000-troops-to-deter-china/",
+      "published_at": "20260728T194500Z",
+      "source": "fpif.org",
+      "tags": [
+        "CHINA"
+      ]
+    },
+    {
       "id": "gdelt_5205ef87c6c9a070",
       "headline": "Bloomberg : ЕС намерен ввести санкции против 1 , 6 тысячи связанных с Россией компаний",
       "url": "https://www.bfm.ru/news/613492",
@@ -522,19 +526,22 @@
       "tags": []
     },
     {
+      "id": "gdelt_f25f74c6b08092b9",
+      "headline": "Ukraine - Krieg im Liveticker : +++ 21 : 13 Ukraine richtet Botschaft an den Iran +++",
+      "url": "https://www.n-tv.de/politik/21-13-Ukraine-richtet-Botschaft-an-den-Iran-id30859357.html",
+      "published_at": "20260728T200000Z",
+      "source": "n-tv.de",
+      "tags": [
+        "IRAN",
+        "UKRAINE"
+      ]
+    },
+    {
       "id": "gdelt_f5c47d83509922b6",
       "headline": "В ЕС отреагировали на обжалование санкций женой пресс - секретаря Путина",
       "url": "https://korrespondent.net/world/4897943-v-es-otreahyrovaly-na-obzhalovanye-sanktsyi-zhenoi-press-sekretaria-putyna",
       "published_at": "20260728T150000Z",
       "source": "korrespondent.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8ddc27067919e662",
-      "headline": "IMF Puts Brazil Stablecoins Under Scrutiny as Crypto Flows Outpace Traditional Channels",
-      "url": "http://www.econotimes.com/IMF-Puts-Brazil-Stablecoins-Under-Scrutiny-as-Crypto-Flows-Outpace-Traditional-Channels-1747936",
-      "published_at": "20260728T153000Z",
-      "source": "econotimes.com",
       "tags": []
     },
     {
@@ -554,11 +561,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_269f315dd2b89612",
-      "headline": "KRAJ VISOKIM BANKARSKIM NAKNADAMA ?: BiH napravila ključan korak prema SEPA - i , građanima stižu dobre vijesti",
-      "url": "https://www.slobodna-bosna.ba/vijest/497636/kraj_visokim_bankarskim_naknadama_bih_napravila_kljuchan_korak_prema_sepa_i_gradjanima_stizu_dobre_vijesti.html",
-      "published_at": "20260728T174500Z",
-      "source": "slobodna-bosna.ba",
+      "id": "gdelt_345a6792781f4be3",
+      "headline": "Навка подала иск в Европейский суд из - за санкций ЕС",
+      "url": "https://www.m24.ru/news/28072026/924638",
+      "published_at": "20260728T194500Z",
+      "source": "m24.ru",
       "tags": []
     },
     {
@@ -578,19 +585,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_3043f2e1232ffe40",
-      "headline": "India slams Pakistan  desperate and phoney  attempts to claim pluralistic cultural legacy",
-      "url": "https://www.prokerala.com/news/articles/a1793540.html",
-      "published_at": "20260728T140000Z",
-      "source": "prokerala.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_e8b13412339d3050",
       "headline": "Сенат США одобрил проект жестких санкций против России тарифы до 500 % на товары из РФ",
       "url": "https://www.obozrevatel.com/politics-news/senat-ssha-odobril-proekt-adskih-sanktsij-protiv-rossii-kogda-planiruetsya-prinyat-zakon.htm",
       "published_at": "20260728T161500Z",
       "source": "obozrevatel.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_15793a2796ff7530",
+      "headline": "Раннее выявление саранчовых и предотвращение рисков : ФАО и ИОПБ укрепляют потенциал специалистов Центральной Азии",
+      "url": "https://nuz.uz/2026/07/28/rannee-vyyavlenie-saranchovyh-i-predotvrashhenie-riskov-fao-i-iopb-ukreplyayut-potenczial-speczialistov-czentralnoj-azii/",
+      "published_at": "20260728T151500Z",
+      "source": "nuz.uz",
       "tags": []
     },
     {
@@ -602,19 +609,51 @@
       "tags": []
     },
     {
+      "id": "gdelt_46656acf733e37d1",
+      "headline": "Китай уже инвестировал в российский Дальний Восток триллион рублей",
+      "url": "https://www.bfm.ru/news/613483",
+      "published_at": "20260728T164500Z",
+      "source": "bfm.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a2673bea529fb19d",
+      "headline": "Visa taglierà il 7 % della forza lavoro",
+      "url": "https://www.teleborsa.it/News/2026/07/28/visa-tagliera-il-7percent-della-forza-lavoro-181.html",
+      "published_at": "20260728T171500Z",
+      "source": "teleborsa.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_356fd6dec208af8f",
+      "headline": "Турция и Ирак намерены реализовать новые совместные проекты в энергетике",
+      "url": "https://1prime.ru/20260728/turtsija-871833356.html",
+      "published_at": "20260728T174500Z",
+      "source": "1prime.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e62fa7faae72de6c",
+      "headline": "Зеленський і Трамп зустрілись 28 липня - про що говорили президенти",
+      "url": "https://www.rbc.ua/rus/news/zelenskiy-rozkriv-shcho-govoriv-iz-trampom-1785252908.html",
+      "published_at": "20260728T180000Z",
+      "source": "rbc.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fa38bcf05cc8305e",
+      "headline": "Singapore ministers continue working visits in Australia after joint ministerial meeting",
+      "url": "https://www.asiaone.com:443/singapore/singapore-ministers-continue-with-working-visits-perth-australia",
+      "published_at": "20260728T151500Z",
+      "source": "asiaone.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_14946ea974dc5764",
       "headline": "NE MOGU NI BEZ GASA , NI BEZ BUNDI : EU izuzela rusko krzno samura iz sankcija",
       "url": "https://www.novosti.rs/planeta/svet/1632268/mogu-bez-gasa-bez-bundi-izuzela-rusko-krzno-samura-sankcija",
       "published_at": "20260728T153000Z",
       "source": "novosti.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_15793a2796ff7530",
-      "headline": "Раннее выявление саранчовых и предотвращение рисков : ФАО и ИОПБ укрепляют потенциал специалистов Центральной Азии",
-      "url": "https://nuz.uz/2026/07/28/rannee-vyyavlenie-saranchovyh-i-predotvrashhenie-riskov-fao-i-iopb-ukreplyayut-potenczial-speczialistov-czentralnoj-azii/",
-      "published_at": "20260728T151500Z",
-      "source": "nuz.uz",
       "tags": []
     },
     {
@@ -642,19 +681,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_46656acf733e37d1",
-      "headline": "Китай уже инвестировал в российский Дальний Восток триллион рублей",
-      "url": "https://www.bfm.ru/news/613483",
-      "published_at": "20260728T164500Z",
-      "source": "bfm.ru",
+      "id": "gdelt_2a33ba5d5696e18f",
+      "headline": "Bloomberg : ЕС планирует ввести санкции против 1600 компаний за содействие России",
+      "url": "https://argumenti.ru/world/bloomberg-es-planiruet-vvesti-sankcii-protiv-1600-kompaniy-za-sodeystvie-rossii-1004723",
+      "published_at": "20260728T200000Z",
+      "source": "argumenti.ru",
       "tags": []
     },
     {
-      "id": "gdelt_a2673bea529fb19d",
-      "headline": "Visa taglierà il 7 % della forza lavoro",
-      "url": "https://www.teleborsa.it/News/2026/07/28/visa-tagliera-il-7percent-della-forza-lavoro-181.html",
+      "id": "gdelt_9c218662efb9e4ed",
+      "headline": "Visa сократит 7 % сотрудников",
+      "url": "https://www.sostav.ru/publication/visa-sokratit-7-sotrudnikov-85647.html",
+      "published_at": "20260728T174500Z",
+      "source": "sostav.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0406762aac79eff6",
+      "headline": "Mezinárodní odborná konference k nelegální migraci v Evropě se zaměřením na česko - saské příhraničí",
+      "url": "https://policie.gov.cz/clanek/mezinarodni-odborna-konference-k-nelegalni-migraci-v-evrope-se-zamerenim-na-cesko-saske-prihranici.aspx",
       "published_at": "20260728T171500Z",
-      "source": "teleborsa.it",
+      "source": "policie.gov.cz",
       "tags": []
     },
     {
@@ -666,11 +713,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_e62fa7faae72de6c",
-      "headline": "Зеленський і Трамп зустрілись 28 липня - про що говорили президенти",
-      "url": "https://www.rbc.ua/rus/news/zelenskiy-rozkriv-shcho-govoriv-iz-trampom-1785252908.html",
-      "published_at": "20260728T180000Z",
-      "source": "rbc.ua",
+      "id": "gdelt_55738b55230c4eca",
+      "headline": "UE planuje nałożyć sankcje na rekordowe 1600 firm za wspieranie Rosji",
+      "url": "https://www.pb.pl/ue-planuje-nalozyc-sankcje-na-rekordowe-1600-firm-za-wspieranie-rosji-1264836",
+      "published_at": "20260728T190000Z",
+      "source": "pb.pl",
       "tags": []
     },
     {
@@ -690,22 +737,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_356fd6dec208af8f",
-      "headline": "Турция и Ирак намерены реализовать новые совместные проекты в энергетике",
-      "url": "https://1prime.ru/20260728/turtsija-871833356.html",
-      "published_at": "20260728T174500Z",
-      "source": "1prime.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_44896d38ba646cc9",
-      "headline": "Macron thanks Türkiye for wildfire support",
-      "url": "https://www.hurriyetdailynews.com/macron-thanks-turkiye-for-wildfire-support-224933",
-      "published_at": "20260728T133000Z",
-      "source": "hurriyetdailynews.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_afda5861dbcafe2a",
       "headline": "Bloomberg : ЕК намерена принять 22 - й пакет санкций против России в октябре",
       "url": "https://www.pnp.ru/politics/bloomberg-ek-namerena-prinyat-22-y-paket-sankciy-protiv-rossii-v-oktyabre.html",
@@ -714,19 +745,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_fa38bcf05cc8305e",
-      "headline": "Singapore ministers continue working visits in Australia after joint ministerial meeting",
-      "url": "https://www.asiaone.com:443/singapore/singapore-ministers-continue-with-working-visits-perth-australia",
-      "published_at": "20260728T151500Z",
-      "source": "asiaone.com",
+      "id": "gdelt_77dd7c87905cc337",
+      "headline": "سياسي فلسطيني لـ  الدستور : إسرائيل تحول الضفة الغربية لساحة حرب جديدة .. والاستيطان جريمة",
+      "url": "https://www.dostor.org/5650130",
+      "published_at": "20260728T190000Z",
+      "source": "dostor.org",
       "tags": []
     },
     {
-      "id": "gdelt_22badf956653099b",
-      "headline": "Singapore ministers continue working visits in Australia after joint ministerial meeting",
-      "url": "https://www.asiaone.com/singapore/singapore-ministers-continue-with-working-visits-perth-australia",
-      "published_at": "20260728T143000Z",
-      "source": "asiaone.com",
+      "id": "gdelt_6367daca10f6bf57",
+      "headline": "ЄС готує санкції проти рекордної кількості компаній за допомогу Росії ,",
+      "url": "https://www.unian.ua/world/yes-gotuye-sankciji-proti-rekordnoji-kilkosti-kompaniy-za-dopomogu-rosiji-bloomberg-13454388.html",
+      "published_at": "20260728T190000Z",
+      "source": "unian.ua",
       "tags": []
     },
     {
@@ -738,6 +769,22 @@
       "tags": []
     },
     {
+      "id": "gdelt_e15cfeef3b84dfdc",
+      "headline": "ООН : у более 400 млн африканцев нет базового доступа к питьевой воде , что негативно сказывается на здоровье",
+      "url": "https://www.sb.by/articles/oon-u-bolee-400-mln-afrikantsev-net-bazovogo-dostupa-k-pitevoy-vode-chto-negativno-skazyvaetsya-na-z.html",
+      "published_at": "20260728T151500Z",
+      "source": "sb.by",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c01f6e935661ac8b",
+      "headline": "News : CDF Gen . Kainerugaba visit to Kigali deepens Uganda - Rw",
+      "url": "https://www.newvision.co.ug/category/news/cdf-gen-kainerugaba-visit-to-kigali-deepens-u-NV_237842_072026",
+      "published_at": "20260728T150000Z",
+      "source": "newvision.co.ug",
+      "tags": []
+    },
+    {
       "id": "gdelt_d1e24ea28a28e7f7",
       "headline": "Санкции Грэма - сенаторы США договорились принять новые ограничения",
       "url": "https://gazeta.ua/ru/articles/world-life/_senatory-ssa-dogovorilis-prinyat-sankcii-grema-protiv-rossii-i-irana-smi/1255479",
@@ -746,11 +793,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_9c218662efb9e4ed",
-      "headline": "Visa сократит 7 % сотрудников",
-      "url": "https://www.sostav.ru/publication/visa-sokratit-7-sotrudnikov-85647.html",
-      "published_at": "20260728T174500Z",
-      "source": "sostav.ru",
+      "id": "gdelt_f538f7704b9aa205",
+      "headline": "إيران : لا نسعى للتصعيد مع أوكرانيا والهجوم على سفينتنا غير متعمد",
+      "url": "https://www.vetogate.com/5702280",
+      "published_at": "20260728T194500Z",
+      "source": "vetogate.com",
       "tags": []
     },
     {
@@ -770,19 +817,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_594f8203d47a57e0",
-      "headline": "Tunnel del Brennero , scavo austriaco si congiunge a quello italiano",
-      "url": "https://www.lagazzettadelmezzogiorno.it/news/ultima-ora/2071446/tunnel-del-brennero-scavo-austriaco-si-congiunge-a-quello-italiano.html",
-      "published_at": "20260728T131500Z",
-      "source": "lagazzettadelmezzogiorno.it",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0406762aac79eff6",
-      "headline": "Mezinárodní odborná konference k nelegální migraci v Evropě se zaměřením na česko - saské příhraničí",
-      "url": "https://policie.gov.cz/clanek/mezinarodni-odborna-konference-k-nelegalni-migraci-v-evrope-se-zamerenim-na-cesko-saske-prihranici.aspx",
-      "published_at": "20260728T171500Z",
-      "source": "policie.gov.cz",
+      "id": "gdelt_53a395edf99b008d",
+      "headline": "Нардеп Давидюк рассказал о новой украинской дипломатии",
+      "url": "https://24tv.ua/ru/nardep-davidjuk-rasskazal-o-novoj-ukrainskoj-diplomatii_n3113498",
+      "published_at": "20260728T150000Z",
+      "source": "24tv.ua",
       "tags": []
     },
     {
@@ -794,6 +833,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_3a855842c9674c22",
+      "headline": "خبير شؤون إيرانية : نتنياهو سيحدد اتجاه الحرب المقبلة",
+      "url": "https://www.dostor.org/5650370",
+      "published_at": "20260728T190000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
       "id": "gdelt_a367ec230ee8d488",
       "headline": "Mere  Lietuvā varētu mainīt nosaukumu , lai apietu sankcijas",
       "url": "https://nra.lv/ekonomika/latvija/526431-lietuvas-bridina-par-meres-iespejamo-sankciju-apiesanu.htm",
@@ -802,35 +849,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_e15cfeef3b84dfdc",
-      "headline": "ООН : у более 400 млн африканцев нет базового доступа к питьевой воде , что негативно сказывается на здоровье",
-      "url": "https://www.sb.by/articles/oon-u-bolee-400-mln-afrikantsev-net-bazovogo-dostupa-k-pitevoy-vode-chto-negativno-skazyvaetsya-na-z.html",
-      "published_at": "20260728T151500Z",
-      "source": "sb.by",
-      "tags": []
-    },
-    {
       "id": "gdelt_f9fe8dfb7a88805d",
       "headline": "Almanya Başbakanı Merz : İsraile yönelik genel yaptırımları doğru bulmuyoruz",
       "url": "https://www.bursadabugun.com/haber/almanya-basbakani-merz-israil-e-yonelik-genel-yaptirimlari-dogru-bulmuyoruz-1938324.html",
       "published_at": "20260728T150000Z",
       "source": "bursadabugun.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c01f6e935661ac8b",
-      "headline": "News : CDF Gen . Kainerugaba visit to Kigali deepens Uganda - Rw",
-      "url": "https://www.newvision.co.ug/category/news/cdf-gen-kainerugaba-visit-to-kigali-deepens-u-NV_237842_072026",
-      "published_at": "20260728T150000Z",
-      "source": "newvision.co.ug",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7e1dd700f4adbb63",
-      "headline": "Страны ЕС не могут применять российские вертолеты для тушения пожаров из - за санкций – Москва 24 , 28 . 07 . 2026",
-      "url": "https://www.m24.ru/news/28072026/924561",
-      "published_at": "20260728T143000Z",
-      "source": "m24.ru",
       "tags": []
     },
     {
@@ -858,27 +881,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_53a395edf99b008d",
-      "headline": "Нардеп Давидюк рассказал о новой украинской дипломатии",
-      "url": "https://24tv.ua/ru/nardep-davidjuk-rasskazal-o-novoj-ukrainskoj-diplomatii_n3113498",
-      "published_at": "20260728T150000Z",
-      "source": "24tv.ua",
-      "tags": []
-    },
-    {
       "id": "gdelt_531dca67c3f86f2c",
       "headline": "Bloomberg узнало о планах ЕС ввести санкции против 1 , 6 тыс . компаний",
       "url": "https://iz.ru/2140058/2026-07-28/bloomberg-uznalo-o-planakh-es-vvesti-sanktcii-protiv-16-tys-kompanii",
       "published_at": "20260728T153000Z",
       "source": "iz.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0a3c8d83f642d4c1",
-      "headline": "Berliner Zeitung : Санкции против РФ препятствуют тушению пожаров в Европе",
-      "url": "https://rg.ru/2026/07/28/berliner-zeitung-sankcii-protiv-rf-prepiatstvuiut-tusheniiu-pozharov-v-evrope.html",
-      "published_at": "20260728T141500Z",
-      "source": "rg.ru",
       "tags": []
     },
     {
@@ -890,11 +897,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_f7affe50980e9bde",
+      "headline": "Putin Will Escalate",
+      "url": "https://foreignpolicy.com/2026/07/28/why-putin-will-escalate/",
+      "published_at": "20260728T153000Z",
+      "source": "foreignpolicy.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_233e4d4962cc58b0",
       "headline": "Сенаторы США пришли к соглашению относительно  адских санкций  против России : когда состоится голосование",
       "url": "https://24tv.ua/ru/senatory-ssha-prishli-k-soglasheniju-otnositelno-adskih-sankcij-protiv-rossii-kogda-sostoitsja-golosovanie_n3113507",
       "published_at": "20260728T150000Z",
       "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9f4f86994ac2f4f9",
+      "headline": "Россельхозбанк заявил о сохранении финансовой устойчивости после новых санкций ЕС",
+      "url": "https://www.m24.ru/news/28072026/924645",
+      "published_at": "20260728T194500Z",
+      "source": "m24.ru",
       "tags": []
     },
     {
@@ -906,11 +929,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_aeef5a7204308cb3",
-      "headline": "BZ : Европа горит из - за санкций против России",
-      "url": "https://tvzvezda.ru/news/20267281610-t39oZ.html",
-      "published_at": "20260728T133000Z",
-      "source": "tvzvezda.ru",
+      "id": "gdelt_0b03bfba79f97c48",
+      "headline": "Stubb , Netanjahu ja Zelenskyi osallistuvat hautajaisiin , kun taustalla puhutaan sodasta",
+      "url": "https://www.hs.fi/maailma/art-2000012168343.html",
+      "published_at": "20260728T200000Z",
+      "source": "hs.fi",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a6d9f6ae104c9199",
+      "headline": "« Это не наша нефть »: названо последствие новых санкций Трампа для России",
+      "url": "https://www.mk.ru/economics/2026/07/28/eto-ne-nasha-neft-nazvano-posledstvie-novykh-sankciy-trampa-dlya-rossii.html",
+      "published_at": "20260728T193000Z",
+      "source": "mk.ru",
       "tags": []
     },
     {
@@ -922,19 +953,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_f7affe50980e9bde",
-      "headline": "Putin Will Escalate",
-      "url": "https://foreignpolicy.com/2026/07/28/why-putin-will-escalate/",
-      "published_at": "20260728T153000Z",
-      "source": "foreignpolicy.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8c7fd533846272d7",
-      "headline": "Almanya Başbakanı Merz : İsraile yönelik genel yaptırımları doğru bulmuyoruz",
-      "url": "https://www.ensonhaber.com/almanya-basbakani-merz-israile-yonelik-genel-yaptirimlari-dogru-bulmuyoruz-h1553244",
-      "published_at": "20260728T143000Z",
-      "source": "ensonhaber.com",
+      "id": "gdelt_03da56df1bb00096",
+      "headline": "Karriere - Spotlight für Volljuristen : Ausgabe 13 : Daten , Deals und Dienst am Staat",
+      "url": "https://www.lto.de/karriere/im-job/stories/detail/karriere-spotlight-fuer-volljuristen-13-rechtsanwalt-associate-referent",
+      "published_at": "20260728T151500Z",
+      "source": "lto.de",
       "tags": []
     },
     {
@@ -954,12 +977,32 @@
       "tags": []
     },
     {
+      "id": "gdelt_54bb8608059767e0",
+      "headline": "Kennedy Funding Expands International Lending Footprint with $1 . 26 Million Land Loan in Cartagena , Colombia",
+      "url": "https://www.prnewswire.com/news-releases/kennedy-funding-expands-international-lending-footprint-with-1-26-million-land-loan-in-cartagena-colombia-302836659.html",
+      "published_at": "20260728T151500Z",
+      "source": "prnewswire.com",
+      "tags": [
+        "COLOMBIA"
+      ]
+    },
+    {
       "id": "gdelt_e711939e902a8e58",
       "headline": "Bloomberg узнал о подготовке новых санкций ЕС против 1 , 6 тыс . связанных с Россией компаний",
       "url": "https://www.kommersant.ru/doc/8846744",
       "published_at": "20260728T160000Z",
       "source": "kommersant.ru",
       "tags": []
+    },
+    {
+      "id": "gdelt_2809c3655b762726",
+      "headline": "US Senators reach agreement on bill to sanction Russia , Iran",
+      "url": "https://www.hindustantimes.com/world-news/us-news/us-senators-reach-agreement-on-bill-to-sanction-russia-iran-101785263460127.html",
+      "published_at": "20260728T200000Z",
+      "source": "hindustantimes.com",
+      "tags": [
+        "RUSSIA"
+      ]
     },
     {
       "id": "gdelt_c9c4dd42a4943097",
@@ -976,40 +1019,6 @@
       "published_at": "20260728T150000Z",
       "source": "diena.lt",
       "tags": []
-    },
-    {
-      "id": "gdelt_f377da170a2c98ad",
-      "headline": "US - Senatoren einig auf Gesetz zu mehr Russland - Sanktionen",
-      "url": "https://www.freiepresse.de/nachrichten/welt/us-senatoren-einig-auf-gesetz-zu-mehr-russland-sanktionen-artikel14350422",
-      "published_at": "20260728T171500Z",
-      "source": "freiepresse.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_03da56df1bb00096",
-      "headline": "Karriere - Spotlight für Volljuristen : Ausgabe 13 : Daten , Deals und Dienst am Staat",
-      "url": "https://www.lto.de/karriere/im-job/stories/detail/karriere-spotlight-fuer-volljuristen-13-rechtsanwalt-associate-referent",
-      "published_at": "20260728T151500Z",
-      "source": "lto.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f24ca7978d47b28c",
-      "headline": "Pertamina Beri Sanksi Dua SPBU di Minahasa , Penyaluran Biosolar dan Pertalite Dialihkan",
-      "url": "https://regional.kompas.com/read/2026/07/28/200040978/pertamina-beri-sanksi-dua-spbu-di-minahasa-penyaluran-biosolar-dan",
-      "published_at": "20260728T133000Z",
-      "source": "regional.kompas.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a8096fca8dfbb1bb",
-      "headline": "Remarks at a UN Security Council Emergency Meeting on the Situation in Yemen",
-      "url": "https://www.globalsecurity.org/military/library/news/2026/07/mil-260713-usmissionun01.htm",
-      "published_at": "20260728T141500Z",
-      "source": "globalsecurity.org",
-      "tags": [
-        "YEMEN"
-      ]
     },
     {
       "id": "gdelt_e2292730ef859a29",
