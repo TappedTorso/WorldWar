@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-08-02T13:51:41Z",
+    "generated_at_utc": "2026-08-02T15:18:30Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -33,30 +33,12 @@
   },
   "events": [
     {
-      "id": "gdelt_b927f4e5721fbe0f",
-      "headline": "Перенос складов Wildberries в Казахстан приведет к удорожанию товаров",
-      "url": "https://knews.kg/2026/08/02/perenos-skladov-wildberries-v-kazahstan-privedet-k-udorozhaniyu-tovarov/",
-      "published_at": "20260802T081500Z",
-      "source": "knews.kg",
-      "tags": []
-    },
-    {
       "id": "gdelt_64ead2b6451ca6eb",
       "headline": "滑手机竟接到  暗杀任务  ＊ 阿波罗新闻网",
       "url": "https://www.aboluowang.com/2026/0802/2415853.html",
       "published_at": "20260802T111500Z",
       "source": "aboluowang.com",
       "tags": []
-    },
-    {
-      "id": "gdelt_3ddcee9860502fbb",
-      "headline": "Trump wstrzymał uderzenie na Iran . Postawił Teheranowi jeden warunek",
-      "url": "https://www.rp.pl/konflikty-zbrojne/art44926131-trump-odwolal-atak-na-iran-jedna-rozmowa-miala-zmienic-wszystko",
-      "published_at": "20260802T080000Z",
-      "source": "rp.pl",
-      "tags": [
-        "IRAN"
-      ]
     },
     {
       "id": "gdelt_f5a2e0998925aeee",
@@ -91,18 +73,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_db844d01be7aeca6",
-      "headline": "Ukraine and Gulf conflicts increasingly intertwined , says Russia - Iran analyst",
-      "url": "https://www.lrt.lt/en/news-in-english/19/3005131/ukraine-and-gulf-conflicts-increasingly-intertwined-says-russia-iran-analyst",
-      "published_at": "20260802T083000Z",
-      "source": "lrt.lt",
-      "tags": [
-        "IRAN",
-        "RUSSIA",
-        "UKRAINE"
-      ]
-    },
-    {
       "id": "gdelt_55252797b5c44325",
       "headline": "六萬移民湧入休達 歐盟將召開緊急會議 | 國際",
       "url": "https://www.hkcna.hk/docDetail.jsp?id=101385196&channel=2810",
@@ -129,11 +99,11 @@
       ]
     },
     {
-      "id": "gdelt_05cb49116986f7c5",
-      "headline": "休达 ， 怎么成了危机焦点",
-      "url": "https://baijiahao.baidu.com/s?id=1872396225247848086",
-      "published_at": "20260802T080000Z",
-      "source": "baijiahao.baidu.com",
+      "id": "gdelt_92ede0f4f335cba3",
+      "headline": "3 SPBU di Minahasa Dijatuhi Sanksi , Dosen Hukum Unsrat Sebut Penegakan Aturan Sesuai Pelanggaran",
+      "url": "https://manado.tribunnews.com/minahasa/1886764/3-spbu-di-minahasa-dijatuhi-sanksi-dosen-hukum-unsrat-sebut-penegakan-aturan-sesuai-pelanggaran",
+      "published_at": "20260802T100000Z",
+      "source": "manado.tribunnews.com",
       "tags": []
     },
     {
@@ -142,14 +112,6 @@
       "url": "https://tribune.com.pk/story/2621658/two-police-personnel-injured-in-ied-blast-near-police-vehicle-in-peshawar",
       "published_at": "20260802T124500Z",
       "source": "tribune.com.pk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_92ede0f4f335cba3",
-      "headline": "3 SPBU di Minahasa Dijatuhi Sanksi , Dosen Hukum Unsrat Sebut Penegakan Aturan Sesuai Pelanggaran",
-      "url": "https://manado.tribunnews.com/minahasa/1886764/3-spbu-di-minahasa-dijatuhi-sanksi-dosen-hukum-unsrat-sebut-penegakan-aturan-sesuai-pelanggaran",
-      "published_at": "20260802T100000Z",
-      "source": "manado.tribunnews.com",
       "tags": []
     },
     {
@@ -177,11 +139,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_926ac59ea0c252b1",
-      "headline": "Zelenski : Nedostatak protivbalističkih raketa ugrožava Ukrajinu – apel partnerima",
-      "url": "https://www.blic.rs/vesti/svet/zelenski-nedostatak-protivbalistickih-raketa-ugrozava-ukrajinu-apel-partnerima/2gz8xb2",
-      "published_at": "20260802T091500Z",
-      "source": "blic.rs",
+      "id": "gdelt_945e42d8f2de3c40",
+      "headline": "США рискуют отложить ужесточение санкций против РФ",
+      "url": "https://korrespondent.net/world/4899350-ssha-ryskuuit-otlozhyt-uzhestochenye-sanktsyi-protyv-rf",
+      "published_at": "20260802T123000Z",
+      "source": "korrespondent.net",
       "tags": []
     },
     {
@@ -195,12 +157,14 @@
       ]
     },
     {
-      "id": "gdelt_945e42d8f2de3c40",
-      "headline": "США рискуют отложить ужесточение санкций против РФ",
-      "url": "https://korrespondent.net/world/4899350-ssha-ryskuuit-otlozhyt-uzhestochenye-sanktsyi-protyv-rf",
-      "published_at": "20260802T123000Z",
-      "source": "korrespondent.net",
-      "tags": []
+      "id": "gdelt_8e5665265a0040db",
+      "headline": "Трагедия в Беэр - Шеве : в лесу Рамот в окрестностях города найдено тело резервиста",
+      "url": "https://www.newsru.co.il/israel/2aug2026/ravsamal507.html",
+      "published_at": "20260802T140000Z",
+      "source": "newsru.co.il",
+      "tags": [
+        "ISRAEL"
+      ]
     },
     {
       "id": "gdelt_52c95e51f5bf48b4",
@@ -227,6 +191,17 @@
       "tags": []
     },
     {
+      "id": "gdelt_b817849c681bc574",
+      "headline": "South Sudan , Kenya renew push for direct road to boost trade",
+      "url": "https://www.radiotamazuj.org/en/news/article/south-sudan-kenya-renew-push-for-direct-road-to-boost-trade",
+      "published_at": "20260802T140000Z",
+      "source": "radiotamazuj.org",
+      "tags": [
+        "SUDAN",
+        "SOUTH_SUDAN"
+      ]
+    },
+    {
       "id": "gdelt_6b952dcf198be0ac",
       "headline": "After the fall of Donbass , what comes next : Russia needs Odesa , a simple victory is not enough , Ukraine must be partitioned",
       "url": "https://www.bankingnews.gr/diethni/articles/891805/after-the-fall-of-donbass-what-comes-next-russia-needs-odesa-a-simple-victory-is-not-enough-ukraine-must-be-partitioned",
@@ -246,6 +221,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_cb47b7b96d4aff2b",
+      "headline": "Белоруссия решила создать десантно - штурмовую бригаду на границе с Украиной :: Новости дня / ВЗГЛЯД",
+      "url": "https://vz.ru/news/2026/8/2/1439574.html",
+      "published_at": "20260802T144500Z",
+      "source": "vz.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_1f66e4a82fb0f7de",
       "headline": "Минобороны Румынии зафиксировало НЛО у границы с Украиной",
       "url": "https://www.kommersant.ru/doc/8860894",
@@ -259,6 +242,14 @@
       "url": "https://news.liga.net/war/news/neponyatno-gde-budet-finalochka-onistrat-prokommentiroval-vliyanie-postoyannyh-udarov-vsu-po-rossii",
       "published_at": "20260802T120000Z",
       "source": "news.liga.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_93395344f36b7c2b",
+      "headline": "Security forces kill 10 terrorists in IBOs under Operation 11 Gurj across K - P",
+      "url": "https://tribune.com.pk/story/2621669/security-forces-kill-10-terrorists-in-ibos-under-operation-11-gurj-across-k-p",
+      "published_at": "20260802T144500Z",
+      "source": "tribune.com.pk",
       "tags": []
     },
     {
@@ -280,43 +271,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_13069dab59c334b8",
-      "headline": "Зеленський закликав передати ракети для ЗРК Patriot : Вони мають захищати людей , а не лежати на складах",
-      "url": "https://for-ua.com/article/1260516",
-      "published_at": "20260802T091500Z",
-      "source": "for-ua.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_00df513b045154aa",
-      "headline": "Израиль хочет создать аналог F - 35 – что известно о будущем самолете",
-      "url": "https://www.obozrevatel.com/novosti-mir/izrail-hochet-sozdat-revolyutsionnyij-analog-f-35-chto-izvestno.htm",
-      "published_at": "20260802T091500Z",
-      "source": "obozrevatel.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_f75a2600761be834",
       "headline": "Latvijas - Baltkrievijas robežkontroles punktā iestrēgušas vairākas kravas automašīnas",
       "url": "https://www.delfi.lv/193/politics/120128825/latvijas-baltkrievijas-robezkontroles-punkta-iestregusas-vairakas-kravas-automasinas",
       "published_at": "20260802T123000Z",
       "source": "delfi.lv",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b5c71ff0881d89cc",
-      "headline": "Ракети для Patriot є , а рішення передачі нам немає – Зеленський",
-      "url": "https://dengi.ua/ua/suspilstvo/9761781-raketi-dlya-patriot-je-a-rishennya-peredachi-nam-nemaje-zelenskij",
-      "published_at": "20260802T081500Z",
-      "source": "dengi.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_659f3e765e189147",
-      "headline": "Волонтеры проекта « Москва помогает » передали гуманитарный груз в Курскую область",
-      "url": "https://vm.ru/news/1347160-volontery-proekta-moskva-pomogaet-peredali-gumanitarnyj-gruz-v-kurskuyu-oblast",
-      "published_at": "20260802T080000Z",
-      "source": "vm.ru",
       "tags": []
     },
     {
@@ -436,86 +395,6 @@
       "headline": "Kolone na jugu Hrvatske duže od 20km , mještani putnike puštaju u svoje domove",
       "url": "https://www.index.hr/vijesti/clanak/kolone-na-jugu-hrvatske-duze-od-20km-mjestani-putnicima-daju-vodu-i-pustaju-ih-na-wc/2819911.aspx?index_ref=homepage_comment_box_d&commentId=11681894",
       "published_at": "20260802T113000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3379a4fefe79ec0d",
-      "headline": "Kolone na jugu Hrvatske duže od 20km , mještani turiste puštaju u svoje domove",
-      "url": "https://www.index.hr/vijesti/clanak/kolone-na-jugu-hrvatske-duze-od-20km-mjestani-turistima-daju-vodu-i-pustaju-ih-na-wc/2819911.aspx?index_ref=homepage_comment_box_d&commentId=11680626",
-      "published_at": "20260802T090000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8a1e19147d7f59f9",
-      "headline": "Kolone na jugu Hrvatske duže od 20km , mještani turiste puštaju u svoje domove",
-      "url": "https://www.index.hr/vijesti/clanak/kolone-na-jugu-hrvatske-duze-od-20km-mjestani-turistima-daju-vodu-i-pustaju-ih-na-wc/2819911.aspx?index_ref=homepage_comment_box_d&commentId=11680594",
-      "published_at": "20260802T090000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9d7213d3d2ab0038",
-      "headline": "Kolone na jugu Hrvatske duže od 20km , mještani turiste puštaju u svoje domove",
-      "url": "https://www.index.hr/vijesti/clanak/kolone-na-jugu-hrvatske-duze-od-20km-mjestani-turistima-daju-vodu-i-pustaju-ih-na-wc/2819911.aspx?index_ref=homepage_comment_box_d&commentId=11680505",
-      "published_at": "20260802T090000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c31552b50d7b8559",
-      "headline": "Kolone na jugu Hrvatske duže od 20km , mještani turiste puštaju u svoje domove",
-      "url": "https://www.index.hr/vijesti/clanak/kolone-na-jugu-hrvatske-duze-od-20km-mjestani-turistima-daju-vodu-i-pustaju-ih-na-wc/2819911.aspx?index_ref=homepage_comment_box_d&commentId=11680938",
-      "published_at": "20260802T090000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a1575c1155c5c367",
-      "headline": "Kolone na jugu Hrvatske duže od 20km , mještani turiste puštaju u svoje domove",
-      "url": "https://www.index.hr/vijesti/clanak/kolone-na-jugu-hrvatske-duze-od-20km-mjestani-turistima-daju-vodu-i-pustaju-ih-na-wc/2819911.aspx?index_ref=homepage_comment_box_d&commentId=11680854",
-      "published_at": "20260802T090000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a659a5e0b3a5781d",
-      "headline": "Kolone na jugu Hrvatske duže od 20km , mještani turiste puštaju u svoje domove",
-      "url": "https://www.index.hr/vijesti/clanak/kolone-na-jugu-hrvatske-duze-od-20km-mjestani-turistima-daju-vodu-i-pustaju-ih-na-wc/2819911.aspx?index_ref=homepage_comment_box_d&commentId=11680927",
-      "published_at": "20260802T090000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f7dfb52172f3424a",
-      "headline": "Kolone na jugu Hrvatske duže od 20km , mještani turiste puštaju u svoje domove",
-      "url": "https://www.index.hr/vijesti/clanak/kolone-na-jugu-hrvatske-duze-od-20km-mjestani-turistima-daju-vodu-i-pustaju-ih-na-wc/2819911.aspx",
-      "published_at": "20260802T090000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e14d46ff8abac206",
-      "headline": "Kolone na jugu Hrvatske duže od 20km , mještani turiste puštaju u svoje domove",
-      "url": "https://www.index.hr/vijesti/clanak/kolone-na-jugu-hrvatske-duze-od-20km-mjestani-turistima-daju-vodu-i-pustaju-ih-na-wc/2819911.aspx?index_ref=homepage_comment_box_d&commentId=11680830",
-      "published_at": "20260802T090000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6cf3268ce381a86b",
-      "headline": "Kolone na jugu Hrvatske duže od 20km , mještani turiste puštaju u svoje domove",
-      "url": "https://www.index.hr/vijesti/clanak/kolone-na-jugu-hrvatske-duze-od-20km-mjestani-turistima-daju-vodu-i-pustaju-ih-na-wc/2819911.aspx?index_ref=homepage_comment_box_d&commentId=11680669",
-      "published_at": "20260802T090000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5c6372e9c6c9103e",
-      "headline": "Kolone na jugu Hrvatske duže od 20km , mještani turiste puštaju u svoje domove",
-      "url": "https://www.index.hr/vijesti/clanak/kolone-na-jugu-hrvatske-duze-od-20km-mjestani-turistima-daju-vodu-i-pustaju-ih-na-wc/2819911.aspx?index_ref=homepage_comment_box_d&commentId=11680892",
-      "published_at": "20260802T090000Z",
       "source": "index.hr",
       "tags": []
     },
@@ -640,14 +519,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_0f316bb7965c520c",
-      "headline": "Hơn 7 . 000 trường hợp vi phạm khi đi xe đạp bị cảnh sát Nhật xử phạt",
-      "url": "https://anninhthudo.vn/hon-7000-truong-hop-vi-pham-khi-di-xe-dap-bi-canh-sat-nhat-xu-phat-post661687.antd",
-      "published_at": "20260802T083000Z",
-      "source": "anninhthudo.vn",
-      "tags": []
-    },
-    {
       "id": "gdelt_fa0310ddc9051814",
       "headline": "Pakistan  dismantled goodwill  behind Indus Waters Treaty , instead of dismantling terror infrastructure : Indian envoy to US",
       "url": "https://www.prokerala.com/news/articles/a1795485.html",
@@ -656,6 +527,14 @@
       "tags": [
         "PAKISTAN"
       ]
+    },
+    {
+      "id": "gdelt_80d7a1c2f0b6951a",
+      "headline": "خبير : نتنياهو يسعى لإفشال المرحلة الثانية من اتفاق غزة بالتصعيد في القطاع",
+      "url": "https://www.dostor.org/5654691",
+      "published_at": "20260802T103000Z",
+      "source": "dostor.org",
+      "tags": []
     },
     {
       "id": "gdelt_2d4df677c39673ac",
@@ -674,14 +553,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_80d7a1c2f0b6951a",
-      "headline": "خبير : نتنياهو يسعى لإفشال المرحلة الثانية من اتفاق غزة بالتصعيد في القطاع",
-      "url": "https://www.dostor.org/5654691",
-      "published_at": "20260802T103000Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
       "id": "gdelt_7b77e34c70f3ce03",
       "headline": "Former Israeli premier says Trump ignores Netanyahu , Gaza framework sidelines Israel",
       "url": "https://aa.com.tr/en/americas/former-israeli-premier-says-trump-ignores-netanyahu-gaza-framework-sidelines-israel/4016269",
@@ -692,14 +563,20 @@
       ]
     },
     {
-      "id": "gdelt_341047a408b6339f",
-      "headline": "Bangladesh Myanmar Border Yaba Drugs Smuggling | Yaba , crystal meth become the new narco currency",
-      "url": "https://www.thedailystar.net/news/bangladesh/news/yaba-crystal-meth-become-the-new-narco-currency-4237986",
-      "published_at": "20260802T093000Z",
-      "source": "thedailystar.net",
-      "tags": [
-        "MYANMAR"
-      ]
+      "id": "gdelt_cf81dce63c5e0d27",
+      "headline": "Гильдия коммерции зафиксировала рост числа российских предприятий в Китае :: Новости дня / ВЗГЛЯД",
+      "url": "https://vz.ru/news/2026/8/2/1439577.html",
+      "published_at": "20260802T144500Z",
+      "source": "vz.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9bc4935789b83529",
+      "headline": "محللة لـCNN : أي تصعيد أمريكي ضد إيران سيجعل دول الخليج الخاسر الأكبر",
+      "url": "https://www.vetogate.com/5705181",
+      "published_at": "20260802T134500Z",
+      "source": "vetogate.com",
+      "tags": []
     },
     {
       "id": "gdelt_5b0a3fb5711cf937",
@@ -718,20 +595,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_11aeeff8619e29ae",
-      "headline": "遭美列強迫勞動清單 陸棉協 ：「 有罪推定 」 機採棉已逾90 % | 陸港經貿 | 兩岸",
-      "url": "https://udn.com/news/story/7333/9666064",
-      "published_at": "20260802T083000Z",
-      "source": "udn.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_333bf2e9fc1ff302",
-      "headline": "ولي العهد السعودي يؤكد لترامب ضرورة تغليب لغة الحوار لخفض التصعيد",
-      "url": "https://www.vetogate.com/5704878",
-      "published_at": "20260802T083000Z",
-      "source": "vetogate.com",
-      "tags": []
+      "id": "gdelt_341047a408b6339f",
+      "headline": "Bangladesh Myanmar Border Yaba Drugs Smuggling | Yaba , crystal meth become the new narco currency",
+      "url": "https://www.thedailystar.net/news/bangladesh/news/yaba-crystal-meth-become-the-new-narco-currency-4237986",
+      "published_at": "20260802T093000Z",
+      "source": "thedailystar.net",
+      "tags": [
+        "MYANMAR"
+      ]
     },
     {
       "id": "gdelt_909aa17f4388d7d5",
@@ -758,11 +629,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_069910708feb2eb1",
+      "headline": "The Guardian : Puy du Fou співпрацювала з Малофєєвим у Криму",
+      "url": "https://lb.ua/world/2026/08/02/756202_guardian_frantsuzka_kompaniya.html",
+      "published_at": "20260802T140000Z",
+      "source": "lb.ua",
+      "tags": []
+    },
+    {
       "id": "gdelt_ec46eb1e82317f16",
       "headline": "Диверсия в Белгородской области - какой объект уничтожили украинские агенты",
       "url": "https://gazeta.ua/ru/articles/world-life/_partizany-ates-unichtozhili-rossijskij-retranslyator-v-belgorodskoj-oblasti/1255803",
       "published_at": "20260802T100000Z",
       "source": "gazeta.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_81e092cb2551d770",
+      "headline": "Зеленський : за тиждень РФ випустила по Україні 1900 дронів і 144 ракети новини LB . ua",
+      "url": "https://lb.ua/society/2026/08/02/756146_zelenskiy_tsey_tizhden_rosiya.html",
+      "published_at": "20260802T103000Z",
+      "source": "lb.ua",
       "tags": []
     },
     {
@@ -774,14 +661,6 @@
       "tags": [
         "ISRAEL"
       ]
-    },
-    {
-      "id": "gdelt_81e092cb2551d770",
-      "headline": "Зеленський : за тиждень РФ випустила по Україні 1900 дронів і 144 ракети новини LB . ua",
-      "url": "https://lb.ua/society/2026/08/02/756146_zelenskiy_tsey_tizhden_rosiya.html",
-      "published_at": "20260802T103000Z",
-      "source": "lb.ua",
-      "tags": []
     },
     {
       "id": "gdelt_6bf85408c28577fd",
@@ -802,12 +681,14 @@
       ]
     },
     {
-      "id": "gdelt_3559e24f15ca0452",
-      "headline": "Владимир Путин поздравил железнодорожников с профессиональным праздником . Новости . Первый канал",
-      "url": "https://www.1tv.ru/news/2026-08-02/549245",
-      "published_at": "20260802T084500Z",
-      "source": "1tv.ru",
-      "tags": []
+      "id": "gdelt_7c6a33a354158c26",
+      "headline": "Зеленский рассказал о российских ударах за неделю",
+      "url": "https://korrespondent.net/ukraine/4899336-zelenskyi-rasskazal-o-rossyiskykh-udarakh-za-nedelui",
+      "published_at": "20260802T123000Z",
+      "source": "korrespondent.net",
+      "tags": [
+        "UKRAINE"
+      ]
     },
     {
       "id": "gdelt_56fafa22f4ccc6d2",
@@ -818,28 +699,24 @@
       "tags": []
     },
     {
-      "id": "gdelt_96f7bc701ae27af4",
-      "headline": "Израиль планирует создать беспилотный аналог истребителя F - 35 | MigNews - Новости Израиля и Мира на русском языке",
-      "url": "https://mignews.com/news/politic/izrail-planiruet-sozdat-bespilotnyj-analog-istrebitelya-f-35.html",
-      "published_at": "20260802T084500Z",
-      "source": "mignews.com",
-      "tags": []
+      "id": "gdelt_873d3b852f5094c6",
+      "headline": "China Cotton Association slams US inclusion of 43 Chinese companies on  Entity List  under groundless  forced labor  claim , warns sanctions have undermined global cotton industry chain",
+      "url": "https://www.globaltimes.cn/page/202608/1367345.shtml",
+      "published_at": "20260802T093000Z",
+      "source": "globaltimes.cn",
+      "tags": [
+        "CHINA"
+      ]
     },
     {
-      "id": "gdelt_7c6a33a354158c26",
-      "headline": "Зеленский рассказал о российских ударах за неделю",
-      "url": "https://korrespondent.net/ukraine/4899336-zelenskyi-rasskazal-o-rossyiskykh-udarakh-za-nedelui",
-      "published_at": "20260802T123000Z",
-      "source": "korrespondent.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d144557d65eae5a0",
-      "headline": "Latvijas - Baltkrievijas robežkontroles punktā turpinās nedienas ; iestrēguši daudzi šoferi",
-      "url": "https://nra.lv/latvija/regionos/526835-soferi-iestregusi-latvijas-baltkrievijas-robezkontroles-punkta.htm",
-      "published_at": "20260802T114500Z",
-      "source": "nra.lv",
-      "tags": []
+      "id": "gdelt_0e1b19dd516b67ac",
+      "headline": "China to Expand Cross - Border Yuan Payments",
+      "url": "https://sputnikglobe.com/20260802/china-to-expand-cross-border-yuan-payments---central-bank-1124529991.html",
+      "published_at": "20260802T144500Z",
+      "source": "sputnikglobe.com",
+      "tags": [
+        "CHINA"
+      ]
     },
     {
       "id": "gdelt_dc28e46ec9e34b59",
@@ -860,24 +737,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_873d3b852f5094c6",
-      "headline": "China Cotton Association slams US inclusion of 43 Chinese companies on  Entity List  under groundless  forced labor  claim , warns sanctions have undermined global cotton industry chain",
-      "url": "https://www.globaltimes.cn/page/202608/1367345.shtml",
-      "published_at": "20260802T093000Z",
-      "source": "globaltimes.cn",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
-      "id": "gdelt_741a10f5bca2107c",
-      "headline": "Forum Pemuda China - ASEAN 2026 jadi ruang dialog generasi muda",
-      "url": "https://www.antaranews.com/berita/5676573/forum-pemuda-china-asean-2026-jadi-ruang-dialog-generasi-muda",
-      "published_at": "20260802T083000Z",
-      "source": "antaranews.com",
-      "tags": [
-        "CHINA"
-      ]
+      "id": "gdelt_d144557d65eae5a0",
+      "headline": "Latvijas - Baltkrievijas robežkontroles punktā turpinās nedienas ; iestrēguši daudzi šoferi",
+      "url": "https://nra.lv/latvija/regionos/526835-soferi-iestregusi-latvijas-baltkrievijas-robezkontroles-punkta.htm",
+      "published_at": "20260802T114500Z",
+      "source": "nra.lv",
+      "tags": []
     },
     {
       "id": "gdelt_55f1693f9a227820",
@@ -885,14 +750,6 @@
       "url": "https://www.heraldgoa.in/goa/hc-orders-banks-to-defreeze-marine-officers-accounts/483884/",
       "published_at": "20260802T104500Z",
       "source": "heraldgoa.in",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d00ed7ff772a77bf",
-      "headline": "אחדות בחזית , פיצול בעורף : המאבק בצמרת האיראנית על מתווה הלחימה",
-      "url": "https://www.ynet.co.il/news/article/sysbnwhrzg",
-      "published_at": "20260802T120000Z",
-      "source": "ynet.co.il",
       "tags": []
     },
     {
@@ -904,41 +761,28 @@
       "tags": []
     },
     {
-      "id": "gdelt_4d2a7206da4d8a0d",
-      "headline": "北京支持伊朗代价来了 ！ 中共开始付这么多账单",
-      "url": "https://www.aboluowang.com/2026/0802/2415810.html",
-      "published_at": "20260802T081500Z",
-      "source": "aboluowang.com",
+      "id": "gdelt_d00ed7ff772a77bf",
+      "headline": "אחדות בחזית , פיצול בעורף : המאבק בצמרת האיראנית על מתווה הלחימה",
+      "url": "https://www.ynet.co.il/news/article/sysbnwhrzg",
+      "published_at": "20260802T120000Z",
+      "source": "ynet.co.il",
       "tags": []
     },
     {
-      "id": "gdelt_8a3db4167266d168",
-      "headline": "Владимир Путин поздравил железнодорожников с профессиональным праздником . Новости . Первый канал",
-      "url": "https://www.1tv.ru/news/2026-08-02/549237",
-      "published_at": "20260802T090000Z",
-      "source": "1tv.ru",
+      "id": "gdelt_4067e993865aef1c",
+      "headline": "إعلام إيراني : طهران لم تطلب من واشنطن وقف هجماتها",
+      "url": "https://www.vetogate.com/5705077",
+      "published_at": "20260802T113000Z",
+      "source": "vetogate.com",
       "tags": []
     },
     {
-      "id": "gdelt_68ddd12e482486b6",
-      "headline": "Pakistan conduct forced India to keep Indus treaty in abeyance , says envoy Vinay Kwatra",
-      "url": "https://www.newindianexpress.com/india/2026/Aug/02/pakistans-conduct-forced-india-to-keep-indus-treaty-in-abeyance-says-envoy-vinay-kwatra",
-      "published_at": "20260802T090000Z",
-      "source": "newindianexpress.com",
-      "tags": [
-        "INDIA",
-        "PAKISTAN"
-      ]
-    },
-    {
-      "id": "gdelt_c54797fbee643ea5",
-      "headline": "ترامب يعلّق الضربة المخططة ضد إيران .. هل غيّرت مكالمة بن سلمان حسابات واشنطن ؟",
-      "url": "https://arabic.euronews.com/2026/08/02/trump-suspends-iran-strike-mbs-call-change-washington-calculus",
-      "published_at": "20260802T083000Z",
-      "source": "arabic.euronews.com",
-      "tags": [
-        "IRAN"
-      ]
+      "id": "gdelt_720ef9197d153985",
+      "headline": "Carta didentità cartacea , dal 3 agosto non è più valida per andare allestero",
+      "url": "https://www.ilfattoquotidiano.it/2026/08/02/carta-identita-cartacea-non-valida-espatrio-3-agosto-come-funziona/8466144/",
+      "published_at": "20260802T140000Z",
+      "source": "ilfattoquotidiano.it",
+      "tags": []
     },
     {
       "id": "gdelt_a5969d12ceac0995",
@@ -957,11 +801,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_4067e993865aef1c",
-      "headline": "إعلام إيراني : طهران لم تطلب من واشنطن وقف هجماتها",
-      "url": "https://www.vetogate.com/5705077",
-      "published_at": "20260802T113000Z",
-      "source": "vetogate.com",
+      "id": "gdelt_259fcfad2fb51f90",
+      "headline": "Koniec pobłażania dla propagandy . Francuzi deportują byłą szefową rosyjskiej telewizji",
+      "url": "https://www.bankier.pl/wiadomosc/Koniec-poblazania-dla-propagandy-Francuzi-deportuja-byla-szefowa-rosyjskiej-telewizji-9174981.html",
+      "published_at": "20260802T093000Z",
+      "source": "bankier.pl",
       "tags": []
     },
     {
@@ -973,27 +817,35 @@
       "tags": []
     },
     {
-      "id": "gdelt_9192a3cad4cd4acc",
-      "headline": "游泳就能去欧洲 ： 一场误读引爆的非法移民危机 _ 凤凰网",
-      "url": "https://news.ifeng.com/c/8vGMe8c2dNJ",
-      "published_at": "20260802T084500Z",
-      "source": "news.ifeng.com",
+      "id": "gdelt_3c24aed707b82b00",
+      "headline": "القدس في تموز : تصعيد ميداني واستهداف ممنهج للأقصى والهوية المقدسية",
+      "url": "https://palinfo.com/news/2026/08/02/1114710/",
+      "published_at": "20260802T140000Z",
+      "source": "palinfo.com",
       "tags": []
     },
     {
-      "id": "gdelt_259fcfad2fb51f90",
-      "headline": "Koniec pobłażania dla propagandy . Francuzi deportują byłą szefową rosyjskiej telewizji",
-      "url": "https://www.bankier.pl/wiadomosc/Koniec-poblazania-dla-propagandy-Francuzi-deportuja-byla-szefowa-rosyjskiej-telewizji-9174981.html",
-      "published_at": "20260802T093000Z",
-      "source": "bankier.pl",
+      "id": "gdelt_07b96294569f8513",
+      "headline": "Sampai 31 Agustus 2026 , Program Pemutihan Pajak Kendaraan Berlaku di Semua Samsat di Riau",
+      "url": "https://pekanbaru.tribunnews.com/riau-region/1110844/sampai-31-agustus-2026-program-pemutihan-pajak-kendaraan-berlaku-di-semua-samsat-di-riau",
+      "published_at": "20260802T103000Z",
+      "source": "pekanbaru.tribunnews.com",
       "tags": []
     },
     {
-      "id": "gdelt_595a61d69ef74434",
-      "headline": "تفاصيل استئناف الحرب الأمريكية الإيرانية وتوقفها مجددا .. ماذا يحدث ؟",
-      "url": "https://www.dostor.org/5654595",
-      "published_at": "20260802T091500Z",
-      "source": "dostor.org",
+      "id": "gdelt_2fe244beb5fe0daa",
+      "headline": "Diduga LGBT , Pria dan 2 Teman Laki - lakinya Diusir dari Kampung , Nasib Istri dan Anak Disorot",
+      "url": "https://medan.tribunnews.com/news/1805681/diduga-lgbt-pria-dan-2-teman-laki-lakinya-diusir-dari-kampung-nasib-istri-dan-anak-disorot",
+      "published_at": "20260802T104500Z",
+      "source": "medan.tribunnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_db02cc0818dc70e6",
+      "headline": "Լատվիան փակել է Բելառուսի հետ սահմանը",
+      "url": "https://www.1in.am/3743442.html",
+      "published_at": "20260802T140000Z",
+      "source": "1in.am",
       "tags": []
     },
     {
@@ -1015,21 +867,169 @@
       ]
     },
     {
-      "id": "gdelt_493924fee058a27b",
-      "headline": "Fake identities , phone numbers : How 5 men impersonated deceased owners in ₹2 . 29 crore land fraud in Navi Mumbai",
-      "url": "https://www.hindustantimes.com/india-news/fake-identities-phone-numbers-how-5-men-impersonated-deceased-owners-in-rs-2-29-crore-land-fraud-in-navi-mumbai-101785653234195.html",
-      "published_at": "20260802T081500Z",
-      "source": "hindustantimes.com",
+      "id": "gdelt_7c6cd4fb197868ce",
+      "headline": "وزراء خارجية السعودية والكويت وتركيا يبحثون وقف التصعيد في المنطقة",
+      "url": "https://www.libyaakhbar.com/world-news/2846754.html",
+      "published_at": "20260802T120000Z",
+      "source": "libyaakhbar.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6e6cb4bb3ce83f14",
+      "headline": "اتصالات قطرية مكثفة مع السعودية والأردن لبحث خفض التصعيد واحتواء توتر المنطقة",
+      "url": "https://www.vetogate.com/5705128",
+      "published_at": "20260802T121500Z",
+      "source": "vetogate.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_085d649b94a6f6c2",
+      "headline": "خبير سياسات دولية : لا اختراق في مفاوضات واشنطن وطهران والتصعيد الأمريكي يهدف لزيادة الضغوط على إيران",
+      "url": "https://www.almasryalyoum.com/news/details/4328636",
+      "published_at": "20260802T131500Z",
+      "source": "almasryalyoum.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_304526154e110c8e",
+      "headline": "أكسيوس : محمد بن سلمان أبلغ ترامب مخاوفه من شن ضربات واسعة على إيران ودعاه إلى خفض التصعيد",
+      "url": "https://www.almasryalyoum.com/news/details/4328626",
+      "published_at": "20260802T131500Z",
+      "source": "almasryalyoum.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_03183a9122048795",
+      "headline": "Стало известно об обстановке на погранпереходе между Марокко и Сеутой",
+      "url": "https://www.mk.ru/politics/2026/08/02/stalo-izvestno-ob-obstanovke-na-pogranperekhode-mezhdu-marokko-i-seutoy.html",
+      "published_at": "20260802T100000Z",
+      "source": "mk.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_94653590ef1260c2",
+      "headline": "休达省长 ： 马德里为应对移民潮已派遣逾3000名人员 - 世界",
+      "url": "https://www.ansa.it/china/notizie/mondo/2026/08/02/3000_900ca385-27b9-40ad-9bf2-31a8201ee4d3.html",
+      "published_at": "20260802T140000Z",
+      "source": "ansa.it",
+      "tags": [
+        "CHINA"
+      ]
+    },
+    {
+      "id": "gdelt_97017b6c46c212e8",
+      "headline": "China Central Bank Pledges Timely Policy Tool Adjustment",
+      "url": "https://english.aawsat.com/business/5302572-china%E2%80%99s-central-bank-pledges-timely-policy-tool-adjustment",
+      "published_at": "20260802T104500Z",
+      "source": "english.aawsat.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d80c3ed9ec764066",
+      "headline": "China central bank pledges timely policy tool adjustment",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/08/02/china-s-central-bank-pledges-timely-policy-tool-adjustment",
+      "published_at": "20260802T121500Z",
+      "source": "freemalaysiatoday.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_aab6fddc07793fb9",
+      "headline": "خبير اقتصادي : التصعيد بين واشنطن وطهران يهدد الاقتصاد العالمي وأسواق الطاقة",
+      "url": "https://www.dostor.org/5654773",
+      "published_at": "20260802T124500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_06c510cab5130efd",
+      "headline": "Orman yangınlarıyla ilgili 6 şüpheli tutuklandı",
+      "url": "https://www.yenisafak.com/gundem/orman-yanginlariyla-ilgili-6-supheli-tutuklandi-4844962",
+      "published_at": "20260802T124500Z",
+      "source": "yenisafak.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7d0300b0773467a1",
+      "headline": "10 kg heroin , foreign - made weapons seized along Indo - Pak border in Bikaner , one held",
+      "url": "https://economictimes.indiatimes.com/news/india/10-kg-heroin-foreign-made-weapons-seized-along-indo-pak-border-in-bikaner-one-held/articleshow/132807469.cms",
+      "published_at": "20260802T140000Z",
+      "source": "economictimes.indiatimes.com",
       "tags": [
         "INDIA"
       ]
     },
     {
-      "id": "gdelt_07b96294569f8513",
-      "headline": "Sampai 31 Agustus 2026 , Program Pemutihan Pajak Kendaraan Berlaku di Semua Samsat di Riau",
-      "url": "https://pekanbaru.tribunnews.com/riau-region/1110844/sampai-31-agustus-2026-program-pemutihan-pajak-kendaraan-berlaku-di-semua-samsat-di-riau",
-      "published_at": "20260802T103000Z",
-      "source": "pekanbaru.tribunnews.com",
+      "id": "gdelt_04e28e8922e317e1",
+      "headline": "Генштаб назвал самое горячее направление фронта",
+      "url": "https://korrespondent.net/ukraine/4899371-henshtab-nazval-samoe-horiachee-napravlenye-fronta",
+      "published_at": "20260802T144500Z",
+      "source": "korrespondent.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_76ea6e0bc228e3bd",
+      "headline": "وزير الخارجية ونظيره الكويتي يؤكدان أهمية تكثيف جهود خفض التصعيد وتجنب اتساع دائرة الصراع",
+      "url": "https://gate.ahram.org.eg/News/5881714.aspx",
+      "published_at": "20260802T144500Z",
+      "source": "gate.ahram.org.eg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cee0715a60c1045d",
+      "headline": "Vozio 220 km / h tamo gde je dozvoljeno 70 - ostao bez automobila ! FOTO",
+      "url": "https://naslovi.net/2026-08-02/b92/vozio-220-km-h-tamo-gde-je-dozvoljeno-70-ostao-bez-automobila-foto/42169640",
+      "published_at": "20260802T144500Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6d2d216fbfd8553f",
+      "headline": "马国警方参与调查马航机师印尼运毒案",
+      "url": "https://www.zaobao.com.sg/news/sea/story20260802-9458924",
+      "published_at": "20260802T114500Z",
+      "source": "zaobao.com.sg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_10cd1621726a32d6",
+      "headline": "Bangladesh , Myanmar eye reopening border trade to boost agri , pharma flows",
+      "url": "https://www.thedailystar.net/business/news/bangladesh-myanmar-eye-reopening-border-trade-boost-agri-pharma-flows-4238291",
+      "published_at": "20260802T134500Z",
+      "source": "thedailystar.net",
+      "tags": [
+        "MYANMAR"
+      ]
+    },
+    {
+      "id": "gdelt_e13df28e29b310ab",
+      "headline": "Футболистка из Марокко погибла на пути к лучшей жизни",
+      "url": "https://argumenti.ru/society/futbolistka-iz-marokko-pogibla-na-puti-k-luchshey-zhizni-1005135",
+      "published_at": "20260802T131500Z",
+      "source": "argumenti.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a9fbdc98798a666c",
+      "headline": "Блокада портов и удары по судам : конфликт в Черноморском регионе достиг наивысшего напряжения",
+      "url": "https://vesti-ua.net/novosti/politika/287409-blokada-portov-i-udary-po-sudam-konflikt-v-chernomorskom-regione-dostig-naivysshego-napryazheniya.html",
+      "published_at": "20260802T104500Z",
+      "source": "vesti-ua.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1ca09f3dd24d0948",
+      "headline": "China central bank pledges timely policy tool adjustment",
+      "url": "https://www.businesstimes.com.sg/international/chinas-central-bank-pledges-timely-policy-tool-adjustment",
+      "published_at": "20260802T104500Z",
+      "source": "businesstimes.com.sg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2d5123a7b51ec60a",
+      "headline": "44 orman yangınıyla ilgili 6 tutuklama",
+      "url": "https://www.konhaber.com/guncel/44_orman_yanginiyla_ilgili_6_tutuklama-2005917h",
+      "published_at": "20260802T114500Z",
+      "source": "konhaber.com",
       "tags": []
     }
   ]
