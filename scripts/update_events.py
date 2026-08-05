@@ -196,7 +196,11 @@ def _query_gdelt(params: Dict[str, str], retries: int = 4) -> Dict[str, Any]:
     raise RuntimeError(last_error or "unknown query failure")
 
 
-def fetch_stream(stream_name: str, query: str) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
+def fetch_stream(
+    stream_name: str,
+    query: str,
+    fallback_query: Optional[str] = None,
+) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
     params = {
         "query": query,
         "mode": "ArtList",
@@ -211,7 +215,33 @@ def fetch_stream(stream_name: str, query: str) -> Tuple[List[Dict[str, Any]], Di
         articles = payload.get("articles") or []
         return articles, {"name": stream_name, "status": "ok", "fetched": len(articles)}
     except Exception as exc:
-        return [], {"name": stream_name, "status": "error", "error": str(exc), "fetched": 0}
+        error = str(exc)
+
+    if (
+        fallback_query
+        and query != fallback_query
+        and "specified phrase is too short" in error.lower()
+    ):
+        print(f"::warning::{stream_name} query rejected; retrying with vetted default.")
+        params["query"] = fallback_query
+        try:
+            payload = _query_gdelt(params)
+            articles = payload.get("articles") or []
+            return articles, {
+                "name": stream_name,
+                "status": "ok",
+                "fetched": len(articles),
+                "fallback_used": True,
+            }
+        except Exception as fallback_exc:
+            error = f"{error}; fallback_error={fallback_exc}"
+
+    return [], {
+        "name": stream_name,
+        "status": "error",
+        "error": error,
+        "fetched": 0,
+    }
 
 
 def _event_key(title: str, url: str) -> str:
@@ -282,15 +312,18 @@ def main() -> int:
     now = _utc_now_iso()
     previous = _load_previous_events()
 
-    streams = [("core", CORE_QUERY), ("tripwire", TRIPWIRE_QUERY)]
+    streams = [
+        ("core", CORE_QUERY, DEFAULT_CORE_QUERY),
+        ("tripwire", TRIPWIRE_QUERY, DEFAULT_TRIPWIRE_QUERY),
+    ]
     all_articles: List[Dict[str, Any]] = []
     stream_results: List[Dict[str, Any]] = []
 
-    for stream_name, query in streams:
+    for stream_name, query, fallback_query in streams:
         if not query:
             stream_results.append({"name": stream_name, "status": "skipped", "fetched": 0})
             continue
-        articles, result = fetch_stream(stream_name, query)
+        articles, result = fetch_stream(stream_name, query, fallback_query)
         stream_results.append(result)
         all_articles.extend(articles)
 
