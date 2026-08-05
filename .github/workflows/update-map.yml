@@ -39,14 +39,14 @@ jobs:
         with:
           ref: main
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
-        env:
-          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
       - name: Run LLM map update
         id: update
+        # Scheduled provider/billing outages should warn, not fail the daily workflow.
+        continue-on-error: ${{ github.event_name == 'schedule' }}
         run: python scripts/update_map.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
