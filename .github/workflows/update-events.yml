@@ -34,6 +34,7 @@ jobs:
           python-version: "3.11"
 
       - name: Jitter to avoid rate-limit spikes
+        if: github.event_name == 'schedule'
         shell: bash
         run: sleep $((RANDOM % 120))
 
