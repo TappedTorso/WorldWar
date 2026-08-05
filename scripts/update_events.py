@@ -42,11 +42,25 @@ TIMESPAN = os.getenv("GDELT_TIMESPAN", "6h").strip() or "6h"
 MAX_EVENTS = int(os.getenv("MAX_EVENTS", "120"))
 MAX_TAGS_PER_EVENT = int(os.getenv("MAX_TAGS_PER_EVENT", "12"))
 PER_TAG_PER_DAY_LIMIT = int(os.getenv("PER_TAG_PER_DAY_LIMIT", "3"))
+MAX_STALE_HOURS = int(os.getenv("MAX_STALE_HOURS", "12"))
 DRY_RUN = os.getenv("DRY_RUN", "0").strip().lower() in {"1", "true", "yes"}
 
 
 def _utc_now_iso() -> str:
     return _dt.datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
+
+
+def _feed_age_hours(value: Optional[str]) -> Optional[float]:
+    if not value:
+        return None
+    try:
+        parsed = _dt.datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=_dt.timezone.utc)
+        now = _dt.datetime.now(_dt.timezone.utc)
+        return max(0.0, (now - parsed.astimezone(_dt.timezone.utc)).total_seconds() / 3600)
+    except (TypeError, ValueError):
+        return None
 
 
 def _day_bucket(iso: Optional[str]) -> str:
@@ -132,7 +146,7 @@ def _tags_for_text(text: str) -> List[str]:
 
 
 def _query_gdelt(params: Dict[str, str], retries: int = 4) -> Dict[str, Any]:
-    backoffs = [1, 2, 4, 8]
+    backoffs = [5, 15, 30, 60]
     last_error: Optional[str] = None
 
     for attempt in range(retries):
@@ -162,7 +176,14 @@ def _query_gdelt(params: Dict[str, str], retries: int = 4) -> Dict[str, Any]:
             transient = (exc.code == 429) or (500 <= exc.code < 600)
             last_error = f"http_error status={exc.code}"
             if transient and attempt < retries - 1:
-                time.sleep(backoffs[min(attempt, len(backoffs) - 1)])
+                delay = backoffs[min(attempt, len(backoffs) - 1)]
+                retry_after = exc.headers.get("Retry-After") if exc.headers else None
+                if retry_after:
+                    try:
+                        delay = max(delay, float(retry_after))
+                    except (TypeError, ValueError):
+                        pass
+                time.sleep(delay)
                 continue
             raise RuntimeError(last_error) from exc
         except urllib.error.URLError as exc:
@@ -280,6 +301,18 @@ def main() -> int:
         print("All streams failed; keeping previous events file unchanged.")
         for r in failed_streams:
             print(f"- {r.get('name')}: {r.get('error')}")
+
+        cached_events = previous.get("events") or []
+        cached_at = (previous.get("metadata") or {}).get("generated_at_utc")
+        cached_age = _feed_age_hours(cached_at)
+        if cached_events and cached_age is not None and cached_age <= MAX_STALE_HOURS:
+            print(
+                f"::warning::GDELT is temporarily unavailable; keeping "
+                f"{len(cached_events)} cached events ({cached_age:.1f}h old)."
+            )
+            return 0
+
+        print(f"Cached feed is missing, unreadable, or older than {MAX_STALE_HOURS}h.")
         return 1
 
     events = _build_events(all_articles)
