@@ -23,7 +23,7 @@ jobs:
         with:
           ref: main
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
@@ -34,11 +34,12 @@ jobs:
       - name: Update events data
         run: python scripts/update_events.py
         env:
-          GDELT_QUERY: ${{ secrets.GDELT_QUERY }}
+          # The stored override currently fails GDELT validation; use the vetted built-in query.
           GDELT_TRIPWIRE_QUERY: ${{ secrets.GDELT_TRIPWIRE_QUERY }}
           GDELT_TIMESPAN: ${{ secrets.GDELT_TIMESPAN }}
           MAX_EVENTS: "120"
           PER_TAG_PER_DAY_LIMIT: "3"
+          MAX_STALE_HOURS: "12"
 
       - name: Commit updated data if changed
         shell: bash
