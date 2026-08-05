@@ -40,6 +40,7 @@ CORE_QUERY = os.getenv("GDELT_QUERY", "").strip() or DEFAULT_CORE_QUERY
 TRIPWIRE_QUERY = os.getenv("GDELT_TRIPWIRE_QUERY", "").strip() or DEFAULT_TRIPWIRE_QUERY
 TIMESPAN = os.getenv("GDELT_TIMESPAN", "6h").strip() or "6h"
 MAX_EVENTS = int(os.getenv("MAX_EVENTS", "120"))
+PER_STREAM_MAX_RECORDS = max(1, (MAX_EVENTS + 1) // 2)
 MAX_TAGS_PER_EVENT = int(os.getenv("MAX_TAGS_PER_EVENT", "12"))
 PER_TAG_PER_DAY_LIMIT = int(os.getenv("PER_TAG_PER_DAY_LIMIT", "3"))
 MAX_STALE_HOURS = int(os.getenv("MAX_STALE_HOURS", "12"))
@@ -207,7 +208,7 @@ def fetch_stream(
         "format": "json",
         "timespan": TIMESPAN,
         "sort": "HybridRel",
-        "maxrecords": str(MAX_EVENTS),
+        "maxrecords": str(PER_STREAM_MAX_RECORDS),
     }
 
     try:
