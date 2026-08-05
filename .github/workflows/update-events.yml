@@ -5,6 +5,12 @@ on:
     # Run hourly at :17 to avoid the busiest top-of-hour / half-hour windows
     - cron: "17 * * * *"
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Fetch and validate GDELT data without writing or committing files"
+        required: false
+        default: true
+        type: boolean
 
 permissions:
   contents: write
@@ -21,7 +27,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
-          ref: main
+          ref: ${{ github.ref }}
 
       - uses: actions/setup-python@v6
         with:
@@ -40,6 +46,7 @@ jobs:
           MAX_EVENTS: "120"
           PER_TAG_PER_DAY_LIMIT: "3"
           MAX_STALE_HOURS: "12"
+          DRY_RUN: ${{ inputs.dry_run || false }}
 
       - name: Commit updated data if changed
         shell: bash
