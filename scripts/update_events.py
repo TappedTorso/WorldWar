@@ -33,7 +33,7 @@ OUT_PATH = DATA_DIR / "events.json"
 GDELT_DOC_API = "https://api.gdeltproject.org/api/v2/doc/doc"
 
 # Environment overrides. If secrets are absent, defaults keep the pipeline alive.
-DEFAULT_CORE_QUERY = '("war" OR "armed conflict" OR "ceasefire" OR "airstrike" OR "missile")'
+DEFAULT_CORE_QUERY = '("armed conflict" OR "ceasefire" OR "airstrike" OR "missile attack" OR "military offensive")'
 DEFAULT_TRIPWIRE_QUERY = '("sanctions" OR "military aid" OR "troop deployment" OR "cross-border" OR "escalation")'
 
 CORE_QUERY = os.getenv("GDELT_QUERY", "").strip() or DEFAULT_CORE_QUERY
