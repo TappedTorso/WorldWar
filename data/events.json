@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-08-07T18:00:38Z",
+    "generated_at_utc": "2026-08-07T19:14:20Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -32,6 +32,26 @@
     }
   },
   "events": [
+    {
+      "id": "gdelt_dc0e5708b7602a7e",
+      "headline": "AS - China Saling Balas Sanksi Jelang Pertemuan Trump dan Xi Jinping",
+      "url": "https://ekbis.sindonews.com/read/1736803/33/as-china-saling-balas-sanksi-jelang-pertemuan-trump-dan-xi-jinping-1786115290",
+      "published_at": "20260807T174500Z",
+      "source": "ekbis.sindonews.com",
+      "tags": [
+        "CHINA"
+      ]
+    },
+    {
+      "id": "gdelt_74160392911ff910",
+      "headline": "Ukraine Zelenskiy arrives in Serbia for first visit",
+      "url": "https://www.moneycontrol.com/world/ukraine-s-zelenskiy-arrives-in-serbia-for-first-visit-article-13998414.html",
+      "published_at": "20260807T180000Z",
+      "source": "moneycontrol.com",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
     {
       "id": "gdelt_76ed79f5d5535109",
       "headline": "US sanctions 13 Cuban entities , individuals over military ties , security concerns ; Cuba calls move  hostile",
@@ -114,6 +134,17 @@
       "tags": []
     },
     {
+      "id": "gdelt_6e05fddcf327be63",
+      "headline": "Why is there fighting in Yemen and what does it mean for the Iran war ?",
+      "url": "https://kesq.com/news/national-world/cnn-world/2026/08/07/why-is-there-fighting-in-yemen-and-what-does-it-mean-for-the-iran-war/",
+      "published_at": "20260807T174500Z",
+      "source": "kesq.com",
+      "tags": [
+        "IRAN",
+        "YEMEN"
+      ]
+    },
+    {
       "id": "gdelt_d168f305733af123",
       "headline": "Yılmaz Özdilden Trabzonspor , Mohamed Salah yorumu : Acayip ötesi",
       "url": "https://www.61saat.com/yilmaz-ozdilden-trabzonspor-mohamed-salah-yorumu-acayip-otesi",
@@ -130,16 +161,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_54951126c25a4402",
-      "headline": "Houthi attacks on govt forces hint that a major battle in Yemen is brewing | Conflict News",
-      "url": "https://www.aljazeera.com/news/2026/8/7/houthi-attacks-on-govt-forces-hint-that-a-major-battle-in-yemen-is-brewing",
-      "published_at": "20260807T131500Z",
-      "source": "aljazeera.com",
-      "tags": [
-        "YEMEN"
-      ]
-    },
-    {
       "id": "gdelt_03846392815a9740",
       "headline": "Uganda : Stanbic Uganda Launches Direct Yuan Payment System to Boost Trade With China",
       "url": "https://allafrica.com/stories/202608070292.html",
@@ -148,14 +169,6 @@
       "tags": [
         "CHINA"
       ]
-    },
-    {
-      "id": "gdelt_4802991818536c2e",
-      "headline": "Чего ждать от разморозки конфликта в Йемене",
-      "url": "https://iz.ru/2145512/leonid-tcukanov/chego-zhdat-ot-razmorozki-konflikta-v-jemene",
-      "published_at": "20260807T130000Z",
-      "source": "iz.ru",
-      "tags": []
     },
     {
       "id": "gdelt_65c87e4a9ac0615c",
@@ -188,6 +201,14 @@
       ]
     },
     {
+      "id": "gdelt_8dc61e2932c744b4",
+      "headline": "Afrique : ZLECAf / Intégration économique - La CEA renforce les capacités des parlementaires de lAfrique de lEst",
+      "url": "https://fr.allafrica.com/stories/202608070633.html",
+      "published_at": "20260807T180000Z",
+      "source": "fr.allafrica.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_b0f4c4a6952bf652",
       "headline": "Saudi Arabia , Turkey and Pakistan sign defence deal",
       "url": "https://www.standard.net.au/story/9326253/saudi-arabia-turkey-and-pakistan-sign-defence-deal/",
@@ -216,11 +237,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_4a8764e55f14f1ee",
+      "headline": "ארה  ב מטילה סנקציות חדשות על רשתות שסייעו לאיראן",
+      "url": "https://news.walla.co.il/break/3859160",
+      "published_at": "20260807T183000Z",
+      "source": "news.walla.co.il",
+      "tags": []
+    },
+    {
       "id": "gdelt_e4e4ac9a66df5314",
       "headline": "ES po Rusijos oro smūgių Kyjivui patvirtino naujas sankcijas",
       "url": "https://www.15min.lt/naujiena/aktualu/pasaulis/es-po-rusijos-oro-smugiu-kyjivui-patvirtino-naujas-sankcijas-57-2739220",
       "published_at": "20260807T134500Z",
       "source": "15min.lt",
+      "tags": []
+    },
+    {
+      "id": "gdelt_47511aad16583f66",
+      "headline": "Путин проверяет решимость Запада , – Сенат США официально взялся за  адские санкции  против России",
+      "url": "https://www.dialog.ua/world/putin-proveryaet-reshimost-zapada-senat-ssha-ofitsialno-vzyalsya-za-adskie.html",
+      "published_at": "20260807T184500Z",
+      "source": "dialog.ua",
       "tags": []
     },
     {
@@ -240,6 +277,46 @@
       "tags": []
     },
     {
+      "id": "gdelt_2d5e495233966fc1",
+      "headline": "Санкції США проти Росії : Сенат підтримав масштабний законопроєкт Політика",
+      "url": "https://tsn.ua/politika/senat-ssha-skhvalyv-pekelni-sanktsiyi-proty-rosiyi-shcho-zminytsia-3144452.html",
+      "published_at": "20260807T180000Z",
+      "source": "tsn.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_67d100051e650d7a",
+      "headline": "US - Senat macht Weg für neue Russland - Sanktionen frei",
+      "url": "http://www.tz.de/politik/us-senat-macht-weg-fuer-neue-russland-sanktionen-frei-zr-94434301.html",
+      "published_at": "20260807T180000Z",
+      "source": "tz.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_006279602d5238f0",
+      "headline": "Сенат США одобрил законопроект об ужесточении санкций против России",
+      "url": "https://lenta.ru/news/2026/08/07/senat-ssha-odobril-zakonoproekt-ob-uzhestochenii-sanktsiy-protiv-rossii/",
+      "published_at": "20260807T181500Z",
+      "source": "lenta.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c423951ee32a1e46",
+      "headline": "US - Senat macht Weg für neue Russland - Sanktionen frei",
+      "url": "https://www.hna.de/politik/us-senat-macht-weg-fuer-neue-russland-sanktionen-frei-zr-94434301.html",
+      "published_at": "20260807T180000Z",
+      "source": "hna.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f33c1074e279cb0a",
+      "headline": "Пекельні санкції США : Сенат схвалив законопроект Ліндсі Гремма",
+      "url": "https://www.unian.ua/world/pekelni-sankciji-ssha-senat-shvaliv-zakonoproekt-lindsi-gremma-13463940.html",
+      "published_at": "20260807T181500Z",
+      "source": "unian.ua",
+      "tags": []
+    },
+    {
       "id": "gdelt_aac640850253e85b",
       "headline": "ЕС ввел санкции против пяти лиц , причастных к ВПК России",
       "url": "https://korrespondent.net/world/4900952-es-vvel-sanktsyy-protyv-piaty-lyts-prychastnykh-k-vpk-rossyy",
@@ -248,12 +325,16 @@
       "tags": []
     },
     {
-      "id": "gdelt_8f7235a4d464f2b4",
-      "headline": "Иран требует отмены санкций в обмен на проход судов через Ормузский пролив",
-      "url": "https://www.kommersant.ru/doc/8869062",
-      "published_at": "20260807T131500Z",
-      "source": "kommersant.ru",
-      "tags": []
+      "id": "gdelt_d1727e1c14454caa",
+      "headline": "US Senate passes sanctions bill on Russia , Iran ; India could face tariff pressure over oil",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/us-senate-passes-sanctions-bill-on-russia-iran-india-could-face-tariff-pressure-over-oil/articleshow/133039520.cms",
+      "published_at": "20260807T181500Z",
+      "source": "timesofindia.indiatimes.com",
+      "tags": [
+        "IRAN",
+        "RUSSIA",
+        "INDIA"
+      ]
     },
     {
       "id": "gdelt_4bbddd6e750d154f",
@@ -285,6 +366,22 @@
       ]
     },
     {
+      "id": "gdelt_584795c7289940e4",
+      "headline": "이란 불법 자금줄 차단  美재무부 , 환전상 · 페이퍼컴퍼니 제재",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01384166645545352&mediaCodeNo=257",
+      "published_at": "20260807T184500Z",
+      "source": "edaily.co.kr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1ce54cf9f91b8436",
+      "headline": "Сенат США одобрил ужесточение санкций против России",
+      "url": "https://ria.ru/20260807/ssha-2109660365.html",
+      "published_at": "20260807T180000Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_c7d03e77b3b842ac",
       "headline": "ЕС ввел санкции против пяти россиян , связанных с ВПК РФ",
       "url": "https://www.dw.com/ru/es-vvel-sankcii-protiv-pati-rossian-v-otvet-na-nedavnie-udary-rf-po-ukraine/a-78280668",
@@ -303,11 +400,43 @@
       "tags": []
     },
     {
-      "id": "gdelt_033601901f299054",
-      "headline": "Aerodromi Srbije za Aero : Ryanair još u julu upozorio na problem sa snabdevanjem gorivom zbog sankcija NIS - u",
-      "url": "https://naslovi.net/2026-08-07/aero/aerodromi-srbije-za-aero-ryanair-jos-u-julu-upozorio-na-problem-sa-snabdevanjem-gorivom-zbog-sankcija-nis-u/42191554",
-      "published_at": "20260807T123000Z",
-      "source": "naslovi.net",
+      "id": "gdelt_165ae6272ae1fb65",
+      "headline": "Сенат США одобрил ужесточение санкций против России и Ирана",
+      "url": "https://www.m24.ru/news/07082026/928433",
+      "published_at": "20260807T180000Z",
+      "source": "m24.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9f888f0483839441",
+      "headline": "Američki Senat izglasao oštre sankcije Rusiji",
+      "url": "https://www.index.hr/vijesti/clanak/americki-senat-izglasao-ostre-sankcije-rusiji/2821723.aspx?index_tid=1115265&index_ref=naslovnica_vijesti_najnovije_d",
+      "published_at": "20260807T180000Z",
+      "source": "index.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9753cca2f9482935",
+      "headline": "Američki Senat izglasao oštre sankcije Rusiji",
+      "url": "https://www.index.hr/vijesti/clanak/americki-senat-izglasao-ostre-sankcije-rusiji/2821723.aspx?index_tid=1115265&index_ref=naslovnica_vijesti_ostalo_d_1",
+      "published_at": "20260807T180000Z",
+      "source": "index.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7c62422c1bc42056",
+      "headline": "Američki Senat izglasao oštre sankcije Rusiji",
+      "url": "https://www.index.hr/vijesti/clanak/americki-senat-izglasao-ostre-sankcije-rusiji/2821723.aspx",
+      "published_at": "20260807T181500Z",
+      "source": "index.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3b2221a90fe3ff1a",
+      "headline": "Санкции США против России - Сенат поддержал законопроект Линдси Грэма",
+      "url": "https://24tv.ua/geopolitics/ru/senat-ssha-odobril-zakonoproekt-o-adskih-sankcijah-grjema-protiv-rossii-smi_n3119741",
+      "published_at": "20260807T184500Z",
+      "source": "24tv.ua",
       "tags": []
     },
     {
@@ -331,11 +460,43 @@
       ]
     },
     {
+      "id": "gdelt_5f6b5b569e1611f0",
+      "headline": "US sanctions 13 Cuban entities , individuals over military ties , security concerns ; Cuba calls move  hostile",
+      "url": "http://www.chinanationalnews.com/news/279226318/us-sanctions-13-cuban-entities-individuals-over-military-ties-security-concerns-cuba-calls-move-hostile",
+      "published_at": "20260807T180000Z",
+      "source": "chinanationalnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6ee8277d876f3f08",
+      "headline": "Что известно о законопроекте Сената США об ужесточении санкций против России - 7 августа 2026",
+      "url": "https://www.fontanka.ru/2026/08/07/76577616/",
+      "published_at": "20260807T180000Z",
+      "source": "fontanka.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bdbb3f8088afbe22",
+      "headline": "US - Senat stimmt für Gesetz zu Russland - Sanktionen",
+      "url": "https://www.freiepresse.de/nachrichten/welt/us-senat-stimmt-fuer-gesetz-zu-russland-sanktionen-artikel14362502",
+      "published_at": "20260807T180000Z",
+      "source": "freiepresse.de",
+      "tags": []
+    },
+    {
       "id": "gdelt_2b01626366dfeb31",
       "headline": "Антироссийская психопатка : в Сети возмутились из - за новых санкций Запада",
       "url": "https://1prime.ru/20260807/sanktsii-872133144.html",
       "published_at": "20260807T151500Z",
       "source": "1prime.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c7fd15a1401ccf19",
+      "headline": "ЕС расширил санкционный список против России",
+      "url": "https://monavista.ru/7/4882042-es-rasshiril-sankcionnyy-spisok-protiv-rossii.html",
+      "published_at": "20260807T174500Z",
+      "source": "monavista.ru",
       "tags": []
     },
     {
@@ -347,12 +508,64 @@
       "tags": []
     },
     {
-      "id": "gdelt_ac4c949cb4023808",
-      "headline": "Видео : ВС РФ ударили по сухогрузам для ВСУ",
-      "url": "https://www.5-tv.ru/news/5081613/trojnoj-udar-vsrfporazili-suda-sgruzami-dla-vsu-vcernom-more/",
-      "published_at": "20260807T123000Z",
-      "source": "5-tv.ru",
+      "id": "gdelt_18e44215d11c07c6",
+      "headline": "Пекельні санкції Ліндсі Грема – нове рішення Сенату США | Новини України",
+      "url": "https://news.liga.net/ua/politics/news/senatory-ssha-pidtrymaly-pekelni-sanktsii-hrema",
+      "published_at": "20260807T180000Z",
+      "source": "news.liga.net",
       "tags": []
+    },
+    {
+      "id": "gdelt_fc95ac0f6a5c20e3",
+      "headline": "Сенат США поддержал масштабные санкции против России и Ирана",
+      "url": "https://haqqin.az/newsarchive/390321",
+      "published_at": "20260807T180000Z",
+      "source": "haqqin.az",
+      "tags": []
+    },
+    {
+      "id": "gdelt_824865dd29ce1a26",
+      "headline": "Wladimir Putin : US - Senat macht ernst – neue Sanktionen gegen Russland beschlossen",
+      "url": "https://www.news.de/politik/859888002/wladimir-putin-neue-russland-sanktionen-von-den-usa-us-senat-beschluss-sanktionen-gegen-russland/1/",
+      "published_at": "20260807T184500Z",
+      "source": "news.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d4597c9112986a2a",
+      "headline": "Сенат США одобрил законопроект об « адских санкциях » против РФ и Ирана",
+      "url": "https://life.ru/p/1909275",
+      "published_at": "20260807T180000Z",
+      "source": "life.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_15b4fd0ce6359b6e",
+      "headline": "Senate passes sweeping Russia sanctions bill negotiated by the late Sen . Lindsey Graham",
+      "url": "https://www.koat.com/article/senate-russia-sanctions-bill-lindsey-graham/73378262",
+      "published_at": "20260807T184500Z",
+      "source": "koat.com",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "gdelt_8a863184d4fa7628",
+      "headline": "US - Senat stimmt für Gesetz zu Russland - Sanktionen - Nachrichten aus aller Welt",
+      "url": "https://www.zvw.de/mehr-nachrichten/ausland/us-senat-stimmt-f%C3%BCr-gesetz-zu-russland-sanktionen_arid-1093693",
+      "published_at": "20260807T184500Z",
+      "source": "zvw.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7b70111fcf69da9d",
+      "headline": "US Senate passes sweeping Russia sanctions bill ; new tariff threat for India , China ahead",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/us-senate-passes-sweeping-russia-sanctions-bill-india-tariffs-negotiated-by-the-late-sen-lindsey-graham/articleshow/133039509.cms",
+      "published_at": "20260807T181500Z",
+      "source": "economictimes.indiatimes.com",
+      "tags": [
+        "INDIA"
+      ]
     },
     {
       "id": "gdelt_dc1a1f57b680775d",
@@ -374,11 +587,59 @@
       ]
     },
     {
+      "id": "gdelt_9e55350172124d70",
+      "headline": "US - Senat stimmt für Gesetz zu Russland - Sanktionen",
+      "url": "https://www.shz.de/deutschland-welt/politik/artikel/us-senat-stimmt-fuer-gesetz-zu-russland-sanktionen-51047549",
+      "published_at": "20260807T180000Z",
+      "source": "shz.de",
+      "tags": []
+    },
+    {
       "id": "gdelt_0fd1d92e32496d24",
       "headline": "打擊古巴軍購網絡 美再公布制裁名單 駐中俄武官在列 | 美國 | 武器 | 制裁",
       "url": "http://www.epochtimes.com.tw/n510394/%E6%89%93%E6%93%8A%E5%8F%A4%E5%B7%B4%E8%BB%8D%E8%B3%BC%E7%B6%B2%E7%B5%A1-%E7%BE%8E%E5%86%8D%E5%85%AC%E5%B8%83%E5%88%B6%E8%A3%81%E5%90%8D%E5%96%AE-%E9%A7%90%E4%B8%AD%E4%BF%84%E6%AD%A6%E5%AE%98%E5%9C%A8%E5%88%97.html",
       "published_at": "20260807T133000Z",
       "source": "epochtimes.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_20bc03c9a5a324b7",
+      "headline": "Senate overwhelmingly passes Lindsey Graham Russia sanctions bill",
+      "url": "https://katu.com/news/nation-world/senate-passes-lindsey-graham-russia-sanctions-bill-sends-it-to-house-oil-natural-gas-china-india-tariffs-negotiations-blumenthalsudden-death-darline-sister-white-house-waiver-trump-zelenskyy-putin-war",
+      "published_at": "20260807T183000Z",
+      "source": "katu.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_71972189396edc29",
+      "headline": "Senate passes sweeping Russia sanctions bill negotiated by Graham",
+      "url": "https://www.sandiegouniontribune.com/2026/08/07/senate-russia-sanctions-lindsey-graham/",
+      "published_at": "20260807T180000Z",
+      "source": "sandiegouniontribune.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_93de1495b4bebf15",
+      "headline": "US - Senat stimmt für Gesetz zu Russland - Sanktionen",
+      "url": "https://www.nwzonline.de/politik-meldungen/druck-auf-moskau-us-senat-stimmt-fuer-gesetz-zu-russland-sanktionen_a_4,3,1409102976.html",
+      "published_at": "20260807T180000Z",
+      "source": "nwzonline.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8a80a344e2a7fbc3",
+      "headline": "US - Senat stimmt für Gesetz zu Russland - Sanktionen",
+      "url": "http://www.come-on.de/politik/us-senat-stimmt-fuer-gesetz-zu-russland-sanktionen-zr-94434285.html",
+      "published_at": "20260807T181500Z",
+      "source": "come-on.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8354e651af3498c5",
+      "headline": "Senate passes long - stalled Russia sanctions bill championed by Lindsey Graham",
+      "url": "https://www.cbsnews.com/news/russia-sanctions-bill-iran-senate-lindsey-graham/",
+      "published_at": "20260807T181500Z",
+      "source": "cbsnews.com",
       "tags": []
     },
     {
@@ -390,13 +651,28 @@
       "tags": []
     },
     {
+      "id": "gdelt_064a3750d3b5dbde",
+      "headline": "US - Senat stimmt für Gesetz zu Russland - Sanktionen",
+      "url": "https://www.wn.de/schlaglichter/us-senat-stimmt-fuer-gesetz-zu-russland-sanktionen-3615053",
+      "published_at": "20260807T183000Z",
+      "source": "wn.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_67a6492108e4f8b7",
+      "headline": "Senate passes sweeping Russia sanctions bill negotiated by the late Sen . Lindsey Graham",
+      "url": "https://www.ksat.com/news/world/2026/08/07/senate-passes-sweeping-russia-sanctions-bill-negotiated-by-the-late-sen-lindsey-graham/",
+      "published_at": "20260807T180000Z",
+      "source": "ksat.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_a050206fb8210582",
       "headline": "Ukraine Zelensky to make first visit to Russia - friendly Serbia",
       "url": "https://www.timeslive.co.za/news/world/2026-08-07-ukraines-zelensky-to-make-first-visit-to-russia-friendly-serbia/",
       "published_at": "20260807T143000Z",
       "source": "timeslive.co.za",
       "tags": [
-        "RUSSIA",
         "UKRAINE"
       ]
     },
@@ -414,6 +690,14 @@
       "url": "https://gazeta.ua/ru/articles/politics/_es-vvel-novye-sankcii-protiv-rf-v-otvet-na-ballisticheskij-terror-kieva/1256160",
       "published_at": "20260807T141500Z",
       "source": "gazeta.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_81eff55aa836ffaa",
+      "headline": "US - Senat stimmt für Gesetz zu Russland - Sanktionen",
+      "url": "https://www.ruhrnachrichten.de/dpa-infoline-zvr/us-senat-stimmt-fuer-gesetz-zu-russland-sanktionen-w1231231-2002177525/",
+      "published_at": "20260807T180000Z",
+      "source": "ruhrnachrichten.de",
       "tags": []
     },
     {
@@ -441,11 +725,123 @@
       "tags": []
     },
     {
+      "id": "gdelt_77e62aba199aad9b",
+      "headline": "US - Senat stimmt für Gesetz zu Russland - Sanktionen",
+      "url": "https://www.westfalen-blatt.de/ueberregional/nachrichten/themen-des-tages/us-senat-stimmt-fuer-gesetz-zu-russland-sanktionen-3615053",
+      "published_at": "20260807T184500Z",
+      "source": "westfalen-blatt.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d912cc5a3e6ba217",
+      "headline": "Сенат США принял законопроект о новых санкциях против России",
+      "url": "https://1prime.ru/20260807/sanktsii-872140053.html",
+      "published_at": "20260807T180000Z",
+      "source": "1prime.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d929ae6bfb29c5b0",
+      "headline": "Russia sanctions bill passes Senate targeting Putin oil and gas",
+      "url": "https://www.foxnews.com/politics/lindsey-grahams-final-mission-punish-putin-clears-senate-after-yearlong-fight",
+      "published_at": "20260807T180000Z",
+      "source": "foxnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ba242b93954f8810",
+      "headline": "Druck auf Moskau : US - Senat stimmt für Gesetz zu Russland - Sanktionen",
+      "url": "https://www.zeit.de/news/2026-08/07/us-senat-stimmt-fuer-gesetz-zu-russland-sanktionen",
+      "published_at": "20260807T180000Z",
+      "source": "zeit.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a7b75a86b1a3e066",
+      "headline": "US - Senat macht Weg für neue Russland - Sanktionen frei",
+      "url": "http://www.come-on.de/politik/us-senat-macht-weg-fuer-neue-russland-sanktionen-frei-zr-94434301.html",
+      "published_at": "20260807T181500Z",
+      "source": "come-on.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e26891ab378908fc",
+      "headline": "Umstrittenes Gesetz : US - Senat sagt Ja zu Russland - Sanktionen",
+      "url": "https://www.gmx.at/magazine/politik/us-politik/umstrittenes-gesetz-us-senat-russland-sanktionen-42590612",
+      "published_at": "20260807T184500Z",
+      "source": "gmx.at",
+      "tags": []
+    },
+    {
       "id": "gdelt_8b8596f4ab0db75d",
       "headline": "« Крышка котла захлопнется »: ВС РФ прорываются в Харьковской области",
       "url": "https://bloknot.ru/obshhestvo/vooruzhenny-e-sily/kryshka-kotla-zahlopnetsya-vs-rf-proryvayutsya-v-harkovskoj-oblasti-1531910.html",
       "published_at": "20260807T151500Z",
       "source": "bloknot.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2bee057b0e20518d",
+      "headline": "ROUNDUP : US - Senat stimmt für Gesetz zu Russland - Sanktionen",
+      "url": "https://www.finanzen.net/nachricht/aktien/roundup-us-senat-stimmt-fuer-gesetz-zu-russland-sanktionen-15857970",
+      "published_at": "20260807T180000Z",
+      "source": "finanzen.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0d8f316c79f1e813",
+      "headline": "US - Senat stimmt für Gesetz zu Russland - Sanktionen",
+      "url": "http://www.op-online.de/politik/us-senat-stimmt-fuer-gesetz-zu-russland-sanktionen-zr-94434285.html",
+      "published_at": "20260807T181500Z",
+      "source": "op-online.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_dcba2246c1675ddc",
+      "headline": "Kaja Kalas : Novi ruski napadi dodatni razlog za pooštravanje sankcija Moskvi",
+      "url": "https://naslovi.net/2026-08-07/kurir/kaja-kalas-novi-ruski-napadi-dodatni-razlog-za-poostravanje-sankcija-moskvi/42193190",
+      "published_at": "20260807T184500Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fc051b3ebc6bf6a4",
+      "headline": "Erster Freisinger Dialogpreis würdigt Stiftung für Verständigung",
+      "url": "https://www.domradio.de/artikel/erster-freisinger-dialogpreis-wuerdigt-stiftung-fuer-verstaendigung",
+      "published_at": "20260807T180000Z",
+      "source": "domradio.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bbfbc3b3bd32adbc",
+      "headline": "Senate passes sweeping Russia sanctions bill negotiated by the late Sen . Lindsey Graham – Winnipeg Free Press",
+      "url": "https://www.winnipegfreepress.com/world/2026/08/07/senate-passes-sweeping-russia-sanctions-bill-negotiated-by-the-late-sen-lindsey-graham",
+      "published_at": "20260807T180000Z",
+      "source": "winnipegfreepress.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_912897495fb0e4a4",
+      "headline": "US - Senat stimmt für Gesetz zu Russland - Sanktionen",
+      "url": "https://www.nordkurier.de/politik/us-senat-stimmt-fuer-gesetz-zu-russland-sanktionen-4772280",
+      "published_at": "20260807T183000Z",
+      "source": "nordkurier.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_51cf34f02a507d84",
+      "headline": "Senate overwhelmingly passes Lindsey Graham Russia sanctions bill",
+      "url": "https://ktul.com/news/nation-world/senate-passes-lindsey-graham-russia-sanctions-bill-sends-it-to-house-oil-natural-gas-china-india-tariffs-negotiations-blumenthalsudden-death-darline-sister-white-house-waiver-trump-zelenskyy-putin-war",
+      "published_at": "20260807T183000Z",
+      "source": "ktul.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f6f11507e960f580",
+      "headline": "Druck auf Moskau : US - Senat stimmt für Gesetz zu Russland - Sanktionen - Politik",
+      "url": "https://www.rhein-zeitung.de/deutschland-welt/politik/us-senat-stimmt-fuer-gesetz-zu-russland-sanktionen_arid-4146022.html",
+      "published_at": "20260807T181500Z",
+      "source": "rhein-zeitung.de",
       "tags": []
     },
     {
@@ -457,19 +853,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_1d6242325f3f0bcd",
-      "headline": "Senate Rushes To Finalize Bills Before August Recess",
-      "url": "https://600wmtradio.iheart.com/content/2026-08-07-senate-rushes-to-finalize-bills-before-august-recess/",
-      "published_at": "20260807T131500Z",
-      "source": "600wmtradio.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5fa8e6953285c182",
-      "headline": "Senate Rushes To Finalize Bills Before August Recess",
-      "url": "https://newsradio710.iheart.com/content/2026-08-07-senate-rushes-to-finalize-bills-before-august-recess/",
-      "published_at": "20260807T130000Z",
-      "source": "newsradio710.iheart.com",
+      "id": "gdelt_ebe7e2c73400d4eb",
+      "headline": "Senate overwhelmingly passes Lindsey Graham Russia sanctions bill",
+      "url": "https://cbs12.com/news/nation-world/senate-passes-lindsey-graham-russia-sanctions-bill-sends-it-to-house-oil-natural-gas-china-india-tariffs-negotiations-blumenthalsudden-death-darline-sister-white-house-waiver-trump-zelenskyy-putin-war",
+      "published_at": "20260807T183000Z",
+      "source": "cbs12.com",
       "tags": []
     },
     {
@@ -478,14 +866,6 @@
       "url": "https://kfbk.iheart.com/content/2026-08-07-senate-rushes-to-finalize-bills-before-august-recess/",
       "published_at": "20260807T143000Z",
       "source": "kfbk.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_dc0578c6f8bc3477",
-      "headline": "Senate Rushes To Finalize Bills Before August Recess | Sports Radio 800 KXIC",
-      "url": "https://kxic.iheart.com/content/2026-08-07-senate-rushes-to-finalize-bills-before-august-recess/",
-      "published_at": "20260807T123000Z",
-      "source": "kxic.iheart.com",
       "tags": []
     },
     {
@@ -537,17 +917,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_6414138807fa1678",
-      "headline": "Iran grip on trade is a potent weapon , but it has an expiry date | US - Israel war on Iran",
-      "url": "https://www.aljazeera.com/opinions/2026/8/7/irans-grip-on-trade-is-a-potent-weapon-but-it-has-an-expiry-date",
-      "published_at": "20260807T131500Z",
-      "source": "aljazeera.com",
-      "tags": [
-        "IRAN",
-        "ISRAEL"
-      ]
-    },
-    {
       "id": "gdelt_9fea84ed39fdc1ca",
       "headline": "Hrvatski istoričar :  Vučić je možda procenio bolje od onih koji su birali crno ili belo",
       "url": "https://www.blic.rs/vesti/politika/hrvatski-istoricar-vucic-je-mozda-procenio-bolje-od-onih-koji-su-birali-crno-ili-belo/tnc5pyx",
@@ -561,6 +930,14 @@
       "url": "https://podrobnosti.ua/2518848-s-zaprovadiv-nov-sankts-proti-ros-pslja-masovanih-udarv-po-ukran.html",
       "published_at": "20260807T134500Z",
       "source": "podrobnosti.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fed6128f0e758aaf",
+      "headline": "Pirmasis Zelenskio vizitas Serbijoje : paaiškėjo , apie ką kalbės su Vučičiumi",
+      "url": "https://www.15min.lt/naujiena/aktualu/pasaulis/volodymyras-zelenskis-atvyko-pirmojo-nuo-karo-pradzios-vizito-i-serbija-57-2739310",
+      "published_at": "20260807T181500Z",
+      "source": "15min.lt",
       "tags": []
     },
     {
@@ -588,15 +965,20 @@
       "tags": []
     },
     {
+      "id": "gdelt_2840ee9da4295e17",
+      "headline": "« Берегини » добыли материалы о причастности НАТО к ударам по российским энергообъектам",
+      "url": "https://u-f.ru/news/politics/u19761/2026/08/07/422709",
+      "published_at": "20260807T180000Z",
+      "source": "u-f.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_aeaaee423cade9fc",
       "headline": "Ukraine Zelenskyy arrives for first visit to Russia - friendly Serbia",
       "url": "https://www.wral.com/news/ap/525ab-ukraines-zelenskyy-arrives-for-first-visit-to-russia-friendly-serbia/",
       "published_at": "20260807T173000Z",
       "source": "wral.com",
-      "tags": [
-        "RUSSIA",
-        "UKRAINE"
-      ]
+      "tags": []
     },
     {
       "id": "gdelt_8ceef427e4747e9f",
@@ -639,14 +1021,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_0faf400892b437af",
-      "headline": "Каллас : ЄС запровадив санкції проти пяти осіб причетних до ВПК РФ",
-      "url": "https://lb.ua/world/2026/08/07/757360_ies_zaprovadzhuie_sanktsiyi.html",
-      "published_at": "20260807T123000Z",
-      "source": "lb.ua",
-      "tags": []
-    },
-    {
       "id": "gdelt_3978c81037095e22",
       "headline": "Odisha Fertiliser Supply Kharif 2026 Update - Pragativadi I Latest Odisha News in English I Breaking News",
       "url": "https://pragativadi.com/odisha-govt-ensures-adequate-fertiliser-supply-for-kharif-season-2026/",
@@ -655,395 +1029,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_e69189042a0c0852",
-      "headline": "Usai Stase Disetop RSUP Dr Sardjito , Kini UGM Nonaktifkan Elda dari PPDS selama 3 Bulan",
-      "url": "https://jogja.tribunnews.com/diy/1220369/usai-stase-disetop-rsup-dr-sardjito-kini-ugm-nonaktifkan-elda-dari-ppds-selama-3-bulan",
-      "published_at": "20260807T143000Z",
-      "source": "jogja.tribunnews.com",
+      "id": "gdelt_b8067563c1b63d1e",
+      "headline": "Зеленский впервые едет в Сербию Вучич готов обсуждать ЕС , но санкции против РФ не введёт",
+      "url": "https://runews24.ru/politics/07/08/2026/zelenskij-vpervyie-edet-v-serbiyu-vuchich-gotov-obsuzhdat-es-no-sankczii-protiv-rf-ne-vvedyot",
+      "published_at": "20260807T183000Z",
+      "source": "runews24.ru",
       "tags": []
     },
     {
-      "id": "gdelt_785590f0e565e312",
-      "headline": "В Йемене заявили о новом витке эскалации после ударов хуситов",
-      "url": "https://ria.ru/20260807/yemen-2109616330.html",
-      "published_at": "20260807T151500Z",
-      "source": "ria.ru",
-      "tags": [
-        "YEMEN"
-      ]
-    },
-    {
-      "id": "gdelt_c30cad98a0d2f6c2",
-      "headline": "Nekat Buang Sampah Sembarangan di Muara Enim , Warga Siap - siap Kena Sanksi dan Denda",
-      "url": "https://sumsel.tribunnews.com/sumsel/1025879/nekat-buang-sampah-sembarangan-di-muara-enim-warga-siap-siap-kena-sanksi-dan-denda",
-      "published_at": "20260807T123000Z",
-      "source": "sumsel.tribunnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d7813dcb96d9ca8c",
-      "headline": "Deloitte : Αποκλειστικός σύμβουλος Ομίλου ΔΕΗ για την είσοδο στην πολωνική αγορά",
-      "url": "https://www.skai.gr/news/business/deloitte-apokleistikos-symvoulos-omilou-dei-gia-tin-eisodo-stin-poloniki-agora",
-      "published_at": "20260807T151500Z",
-      "source": "skai.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_921a364911483a7a",
-      "headline": "Aerodrom u Nišu : Pratimo situaciju sa Rajanerom , problem sa gorivom zbog sankcija NIS - u",
-      "url": "https://www.tanjug.rs/ekonomija/srbija/272030/aerodrom-u-nisu-pratimo-situaciju-sa-rajaneromproblem-sa-gorivom-zbog-sankcija-nis-u/vest",
-      "published_at": "20260807T150000Z",
-      "source": "tanjug.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e3a165928a2494d8",
-      "headline": "India must build export - oriented medical devices industry , says pharma secretary",
-      "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/india-must-build-export-oriented-medical-devices-industry-says-pharma-secretary/articleshow/133034449.cms",
-      "published_at": "20260807T133000Z",
-      "source": "economictimes.indiatimes.com",
-      "tags": [
-        "INDIA"
-      ]
-    },
-    {
-      "id": "gdelt_a6726ab834cd296d",
-      "headline": "Повышение правительством железнодорожных тарифов на фоне блокировки портов необходимо остановить , – Забловский",
-      "url": "https://www.obozrevatel.com/ekonomika-glavnaya/povyishenie-pravitelstvom-zheleznodorozhnyih-tarifov-na-fone-blokirovki-portov-neobhodimo-ostanovit-zablovskij.htm",
-      "published_at": "20260807T133000Z",
-      "source": "obozrevatel.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e0ca32b34ee06de4",
-      "headline": "India , Bhutan to double down on energy sector cooperation",
-      "url": "https://www.prokerala.com/news/articles/a1797603.html",
-      "published_at": "20260807T130000Z",
-      "source": "prokerala.com",
-      "tags": [
-        "INDIA"
-      ]
-    },
-    {
-      "id": "gdelt_2c61a00be190bc27",
-      "headline": "Senatorë amerikanë kërkojnë rikthimin e sanksioneve ndaj zyrtarëve të Republikës Sërpska",
-      "url": "https://albeu.com/kosove/senatore-amerikane-kerkojne-rikthimin-e-sanksioneve-ndaj-zyrtareve-te-republikes-serpska/961722/",
-      "published_at": "20260807T131500Z",
-      "source": "albeu.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_29281f80890690fa",
-      "headline": "Wine Shops Closed : ఎల్లుండి వైన్ షాపులు బంద్",
-      "url": "https://vaartha.com/business/wine-shops-closed-bonalu-liquor-ban-hyderabad/756629/",
-      "published_at": "20260807T134500Z",
-      "source": "vaartha.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2c08948c5eb449f8",
-      "headline": "India , Sri Lanka review key power projects ; reaffirm commitment to strengthening energy partnership",
-      "url": "https://news.webindia123.com/news/Articles/World/20260807/4484548.html",
-      "published_at": "20260807T173000Z",
-      "source": "news.webindia123.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_09503cd30fddaced",
-      "headline": "Зеленський заслухав доповідь Драпатого : обговорили питання захисту Донеччини , антибалістику , далекобійні санкції та кадрові питання",
-      "url": "https://uainfo.org/blognews/1786103445-zelenskiy-zasluhav-dopovid-drapatogo-obgovorili-pitannya.html",
-      "published_at": "20260807T134500Z",
-      "source": "uainfo.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3bf2c7a61a30f639",
-      "headline": "ترامب يتوقع نهاية حرب إيران قريبًا .. ماذا يدور في الكواليس ؟.. توماس واريك يُجيب",
-      "url": "https://www.dostor.org/5660018",
-      "published_at": "20260807T150000Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6c4f903ceac54a52",
-      "headline": "EU hits 5 more linked to Russia military - industrial complex with sanctions – Kallas",
-      "url": "https://en.interfax.com.ua/news/general/1191538.html",
-      "published_at": "20260807T141500Z",
-      "source": "en.interfax.com.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_94cf8d183bb246be",
-      "headline": "India , Sri Lanka review key power projects ; reaffirm commitment to strengthening energy partnership",
-      "url": "https://aninews.in/news/world/asia/india-sri-lanka-review-key-power-projects-reaffirm-commitment-to-strengthening-energy-partnership20260807210356/",
-      "published_at": "20260807T171500Z",
-      "source": "aninews.in",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e9441277243b3969",
-      "headline": "Senatorët kërkojnë që SHBA - ja të rivendosë sanksione ndaj zyrtarëve të Republikës Sërpska",
-      "url": "https://www.vizionplus.tv/senatoret-kerkojne-qe-shba-ja-te-rivendose-sanksione-ndaj-zyrtareve-te-republikes-serpska/",
-      "published_at": "20260807T131500Z",
-      "source": "vizionplus.tv",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4780942f96eaa844",
-      "headline": "Goditet rrjeti i madh i trafikut të drogës dhe emigrantëve mes Spanjës e Algjerisë , 78 të arrestuar",
-      "url": "https://www.botasot.info/bota/2514773/goditet-rrjeti-i-madh-i-trafikut-te-droges-dhe-emigranteve-mes-spanjes-e-algjerise-78-te-arrestuar/",
-      "published_at": "20260807T150000Z",
-      "source": "botasot.info",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ad4a5ab24e01d073",
-      "headline": "Что случилось 7 августа . Главные новости дня",
-      "url": "https://www.pnp.ru/social/chto-sluchilos-7-avgusta-glavnye-novosti-dnya.html",
-      "published_at": "20260807T173000Z",
-      "source": "pnp.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_56a7a09bbe0995f6",
-      "headline": "Ukraine Zelensky to make first visit to Russia - friendly Serbia",
-      "url": "https://www.naharnet.com:443/stories/en/321719-ukraine-s-zelensky-to-make-first-visit-to-russia-friendly-serbia",
-      "published_at": "20260807T151500Z",
-      "source": "naharnet.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9871ef4978fc34dc",
-      "headline": "Oil price volatile as Houthi attacks renew supply crunch fears",
-      "url": "https://www.thenationalnews.com/business/energy/2026/08/07/oil-price-volatile-as-houthi-attacks-renew-supply-crunch-fears/",
-      "published_at": "20260807T131500Z",
-      "source": "thenationalnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c978fa357a7c2cae",
-      "headline": "Goditet rrjeti i madh i trafikut të drogës dhe emigrantëve mes Spanjës e Algjerisë , 78 të arrestuar",
-      "url": "https://www.balkanweb.com/goditet-rrjeti-i-madh-i-trafikut-te-droges-dhe-emigranteve-mes-spanjes-e-algjerise-78-te-arrestuar/",
-      "published_at": "20260807T150000Z",
-      "source": "balkanweb.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ae6dcc242d9ad31f",
-      "headline": "رئيس البرلمان العربي يدين هجمات ميليشيا الحوثي على السعودية واليمن",
-      "url": "https://gate.ahram.org.eg/News/5884571.aspx",
-      "published_at": "20260807T143000Z",
-      "source": "gate.ahram.org.eg",
-      "tags": []
-    },
-    {
-      "id": "gdelt_40a9d227faa4216a",
-      "headline": "Boss Scam  on the rise : MHA warns finance professionals of WhatsApp hijack fraud",
-      "url": "https://www.newindianexpress.com/india/2026/Aug/07/boss-scam-on-the-rise-mha-warns-finance-professionals-of-whatsapp-hijack-fraud",
-      "published_at": "20260807T154500Z",
-      "source": "newindianexpress.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_62c049a784eab56a",
-      "headline": "Rinn Pharma & Biopharma to join NordicPharmaTrain network",
-      "url": "https://www.siliconrepublic.com/innovation/rinn-pharma-biopharma-nordicpharmatrain-network-ai-medicine",
-      "published_at": "20260807T143000Z",
-      "source": "siliconrepublic.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ffbc2a03bc6ee7cc",
-      "headline": "Remitly Announces Upcoming Webinar and Investor Conference Participation",
-      "url": "https://www.manilatimes.net/2026/08/07/tmt-newswire/globenewswire/remitly-announces-upcoming-webinar-and-investor-conference-participation/2401046",
-      "published_at": "20260807T141500Z",
-      "source": "manilatimes.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1c392ca11ef15ba5",
-      "headline": "Zelenskyj pricestoval do Belehradu . Srbský prezident s ním chce rokovať o ekonomike aj vstupe do Únie",
-      "url": "https://hnonline.sk/svet/96295916-zelenskyj-pricestoval-do-belehradu-srbsky-prezident-s-nim-chce-rokovat-o-ekonomike-aj-vstupe-do-unie",
-      "published_at": "20260807T173000Z",
-      "source": "hnonline.sk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_21c99d8b3a26ecb8",
-      "headline": "Trump orders 15 % tariff on key chip material to challenge China",
-      "url": "http://www.batonrougepost.com/news/279226650/trump-orders-15-tariff-on-key-chip-material-to-challenge-china",
-      "published_at": "20260807T171500Z",
-      "source": "batonrougepost.com",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
-      "id": "gdelt_2dcbbbc7740d8aeb",
-      "headline": "Trump orders 15 % tariff on key chip material to challenge China",
-      "url": "http://www.russiaherald.com/news/279226650/trump-orders-15-tariff-on-key-chip-material-to-challenge-china",
-      "published_at": "20260807T173000Z",
-      "source": "russiaherald.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2942b725a412c06b",
-      "headline": "ΥΠΑΑΤ : Επιπλέον 12 , 5 εκατ . ευρώ στις Περιφέρειες για την ενίσχυση της βιοασφάλειας",
-      "url": "https://www.skai.gr/news/politics/ypaat-epipleon-125-ekat-eyro-stis-perifereies-gia-tin-enisxysi-tis-vioasfaleias",
-      "published_at": "20260807T143000Z",
-      "source": "skai.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cdb6d77aa4958026",
-      "headline": "Qdenga dengue vaccine may be included in India Universal Immunisation Programme : Panel",
-      "url": "https://www.tribuneindia.com/news/india/qdenga-dengue-vaccine-may-be-included-in-indias-universal-immunisation-programme-panel/",
-      "published_at": "20260807T154500Z",
-      "source": "tribuneindia.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_87f3f198e73ce2c4",
-      "headline": "Амурский фестиваль вырос из локального события в крупную бизнес площадку АМУР . Инфо",
-      "url": "https://amur.info/2026/08/07/amurskij-festival-vyros-iz-lokalnogo-sobytiya-v-krupnuyu-biznes-ploshhadku/",
-      "published_at": "20260807T143000Z",
-      "source": "amur.info",
-      "tags": []
-    },
-    {
-      "id": "gdelt_740e5da98f61dbed",
-      "headline": "FUTA Express and VET partner to strengthen Việt Nam – Cambodia cross - border logistics",
-      "url": "https://vietnamnews.vn/economy/1797087/futa-express-and-vet-partner-to-strengthen-viet-nam-cambodia-cross-border-logistics.html",
-      "published_at": "20260807T123000Z",
-      "source": "vietnamnews.vn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_75d17274dacd2404",
-      "headline": "Clea Launches Vendor Payments for International Suppliers : TechMoran",
-      "url": "https://techmoran.com/2026/08/07/clea-launches-vendor-payments-to-simplify-international-supplier-payments/",
-      "published_at": "20260807T173000Z",
-      "source": "techmoran.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9e2372745071ab7f",
-      "headline": "Підтримка України розколює італійські партії напередодні виборів – Politico",
-      "url": "https://ipress.ua/news/pidtrymka_ukrainy_rozkolyuie_italiyski_partii_naperedodni_vyboriv__politico_388853.html",
-      "published_at": "20260807T164500Z",
-      "source": "ipress.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_18a7b9d489129b77",
-      "headline": "Weather , war send global food prices to over 3 - year high in July",
-      "url": "https://www.dailysabah.com/business/economy/weather-war-send-global-food-prices-to-over-3-year-high-in-july",
-      "published_at": "20260807T150000Z",
-      "source": "dailysabah.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_deb230ed0b4f0357",
-      "headline": "How to Verify Ultimate Beneficial Owner of Foreign Company",
-      "url": "https://en.interfax.com.ua/news/press-release/1191556.html",
-      "published_at": "20260807T141500Z",
-      "source": "en.interfax.com.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2307d1ff817b90d1",
-      "headline": "Passive Defence , Not Drone Jammers : A Wartime Survival Strategy for India Border Industries",
-      "url": "https://idrw.org/passive-defence-not-drone-jammers-a-wartime-survival-strategy-for-indias-border-industries/",
-      "published_at": "20260807T151500Z",
-      "source": "idrw.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_79c6dbf1dce4c913",
-      "headline": "Владимир Зеленский – президент впервые отправится с официальным визитом в Сербию",
-      "url": "https://www.unian.net/politics/vladimir-zelenskiy-prezident-vpervye-otpravitsya-s-oficialnym-vizitom-v-serbiyu-13463778.html",
-      "published_at": "20260807T144500Z",
-      "source": "unian.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_082e4113c30dc2fc",
-      "headline": "Šta se očekuje od prve posete Zelenskog Vučiću i Srbiji ?",
-      "url": "https://www.danas.rs/vesti/politika/prva-poseta-zelenskog-srbiji-vucic-ocekivanja/",
-      "published_at": "20260807T144500Z",
-      "source": "danas.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5f6045e38c0007dc",
-      "headline": "Ισπανία : Εξαρθρώθηκε μεγάλο δίκτυο διακίνησης μεταναστών και ναρκωτικών στη Μεσόγειο",
-      "url": "https://www.kathimerini.gr/world/564389866/ispania-exarthrothike-megalo-diktyo-diakinisis-metanaston-kai-narkotikon-sti-mesogeio/",
-      "published_at": "20260807T133000Z",
-      "source": "kathimerini.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_67702b6aa4dbfdd7",
-      "headline": "62 عملًا مقاومًا في الضفة والقدس خلال أسبوع",
-      "url": "https://www.dostor.org/5660008",
-      "published_at": "20260807T141500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3e1dda221b968194",
-      "headline": "Šta će Srbima jeftini letovi kad imaju Er Srbiju",
-      "url": "https://naslovi.net/2026-08-07/vreme/sta-ce-srbima-jeftini-letovi-kad-imaju-er-srbiju/42191783",
-      "published_at": "20260807T133000Z",
-      "source": "naslovi.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f517ec7df501518c",
-      "headline": "WSJ : US Intelligence Warns Putin Could Test NATO With Limited Attack In Coming Years",
-      "url": "https://www.i24news.tv/en/news/international/artc-wsj-us-intelligence-warns-putin-could-test-nato-with-limited-attack-in-coming-years",
-      "published_at": "20260807T154500Z",
-      "source": "i24news.tv",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7cca6dbf9a456b57",
-      "headline": "15 августа 2026 года на территории Ивангородской крепости пройдет масштабный фестиваль « Былины и богатыри »",
-      "url": "https://spbvedomosti.ru/news/culture/15-avgusta-2026-goda-na-territorii-ivangorodskoy-kreposti-proydet-masshtabnyy-festival-byliny-i-boga/",
-      "published_at": "20260807T173000Z",
-      "source": "spbvedomosti.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_63d8f84ce06fd903",
-      "headline": "Kemenkum Jabar Kaji Ulang Aturan Pemilihan Dewan Pendidikan Kota Tasikmalaya , Simak Poin Pentingnya !",
-      "url": "https://jabar.tribunnews.com/kemenkumham/1180857/kemenkum-jabar-kaji-ulang-aturan-pemilihan-dewan-pendidikan-kota-tasikmalaya-simak-poin-pentingnya",
-      "published_at": "20260807T134500Z",
-      "source": "jabar.tribunnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cfe3c8c12071387e",
-      "headline": "Up to negotiators : Top White House adviser on Russia sanction impact on US - India trade talks amid evolving tariffs",
-      "url": "https://news.webindia123.com/news/Articles/World/20260807/4484562.html",
-      "published_at": "20260807T173000Z",
-      "source": "news.webindia123.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_765963564bd6d177",
-      "headline": "الهيئة العامة للاستعلامات : الاتحاد الأوروبي يدعم جهود التعافي المبكر وإعادة الإعمار في غزة",
-      "url": "https://www.elwatannews.com/news/details/8335085",
-      "published_at": "20260807T150000Z",
-      "source": "elwatannews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e3ef6bb49ec6d2d2",
-      "headline": "На Украине раскрыли позицию Маска по урегулированию конфликта",
-      "url": "https://lenta.ru/news/2026/08/07/na-ukraine-raskryli-pozitsiyu-maska-po-uregulirovaniyu-konflikta/",
-      "published_at": "20260807T151500Z",
-      "source": "lenta.ru",
+      "id": "gdelt_81a26cd26eff135d",
+      "headline": "В США предупредили о последствиях вторичных санкций против России",
+      "url": "https://1prime.ru/20260807/ssha-872139438.html",
+      "published_at": "20260807T180000Z",
+      "source": "1prime.ru",
       "tags": []
     }
   ]
