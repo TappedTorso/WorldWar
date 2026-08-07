@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-08-07T22:54:51Z",
+    "generated_at_utc": "2026-08-07T23:47:41Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -73,16 +73,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_dc0e5708b7602a7e",
-      "headline": "AS - China Saling Balas Sanksi Jelang Pertemuan Trump dan Xi Jinping",
-      "url": "https://ekbis.sindonews.com/read/1736803/33/as-china-saling-balas-sanksi-jelang-pertemuan-trump-dan-xi-jinping-1786115290",
-      "published_at": "20260807T174500Z",
-      "source": "ekbis.sindonews.com",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
       "id": "gdelt_74160392911ff910",
       "headline": "Ukraine Zelenskiy arrives in Serbia for first visit",
       "url": "https://www.moneycontrol.com/world/ukraine-s-zelenskiy-arrives-in-serbia-for-first-visit-article-13998414.html",
@@ -128,6 +118,14 @@
       "url": "http://www.russiaherald.com/news/279226808/us-senate-passes-lindsey-grahams-russia-sanctions-bill",
       "published_at": "20260807T221500Z",
       "source": "russiaherald.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_08cbb4a036e74b94",
+      "headline": "US Senate passes Lindsey Grahams Russia sanctions bill",
+      "url": "http://www.shanghainews.net/news/279226808/us-senate-passes-lindsey-grahams-russia-sanctions-bill",
+      "published_at": "20260807T231500Z",
+      "source": "shanghainews.net",
       "tags": []
     },
     {
@@ -177,27 +175,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_43d21296ec6caa5b",
-      "headline": "Why are the Houthis escalating attacks on Saudi - backed targets ?",
-      "url": "https://www.thenationalnews.com/news/mena/2026/08/07/why-are-the-houthis-escalating-attacks-on-saudi-backed-targets/",
-      "published_at": "20260807T173000Z",
-      "source": "thenationalnews.com",
-      "tags": [
-        "SAUDI_ARABIA"
-      ]
-    },
-    {
-      "id": "gdelt_6e05fddcf327be63",
-      "headline": "Why is there fighting in Yemen and what does it mean for the Iran war ?",
-      "url": "https://kesq.com/news/national-world/cnn-world/2026/08/07/why-is-there-fighting-in-yemen-and-what-does-it-mean-for-the-iran-war/",
-      "published_at": "20260807T174500Z",
-      "source": "kesq.com",
-      "tags": [
-        "IRAN",
-        "YEMEN"
-      ]
-    },
-    {
       "id": "gdelt_58912caa4484a1f3",
       "headline": "Литовец пытался пересечь границу с РФ через закрытый КПП",
       "url": "https://www.5-tv.ru/news/5081675/litovec-protaranil-slagbaumy-nakpp-pytaas-prorvatsa-vrossiu-aii/",
@@ -212,6 +189,7 @@
       "published_at": "20260807T220000Z",
       "source": "news.webindia123.com",
       "tags": [
+        "IRAN",
         "INDIA"
       ]
     },
@@ -302,11 +280,27 @@
       ]
     },
     {
+      "id": "gdelt_19664b3926f12bc4",
+      "headline": "美參院通過對俄制裁案 川普可課俄商品最高500 % 關稅 | 國際",
+      "url": "https://www.cna.com.tw:443/news/aopl/202608080005.aspx",
+      "published_at": "20260807T231500Z",
+      "source": "cna.com.tw",
+      "tags": []
+    },
+    {
       "id": "gdelt_bd40d6ba4e6f34b8",
       "headline": "ABDden İrana kripto yaptırımı",
       "url": "https://www.haberler.com/ekonomi/abd-den-iran-ile-baglantili-kripto-para-20126748-haberi/",
       "published_at": "20260807T194500Z",
       "source": "haberler.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_13bb87d35a75ec9b",
+      "headline": "Američki Senat odobrio nove sankcije Rusiji - Na udaru i najveći kupci nafte",
+      "url": "http://net.hr/danas/svijet/americki-senat-odobrio-nove-sankcije-rusiji-na-udaru-i-najveci-kupci-nafte-dbdf2452-929c-11f1-936f-9600040c8f8e",
+      "published_at": "20260807T231500Z",
+      "source": "net.hr",
       "tags": []
     },
     {
@@ -430,17 +424,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_4bbddd6e750d154f",
-      "headline": "Myanmar : Min Aung Hlaing Cari Legitimasi di Thailand",
-      "url": "https://www.dw.com/id/myanmar-min-aung-hlaing-cari-legitimasi-di-thailand/a-78282055",
-      "published_at": "20260807T171500Z",
-      "source": "dw.com",
-      "tags": [
-        "MYANMAR",
-        "THAILAND"
-      ]
-    },
-    {
       "id": "gdelt_fb2c4fa53378cd10",
       "headline": "KALAS U NOVOM IZLIVU MRŽNJE : Novi ruski napadi dodatni razlog za pooštravanje sankcija Moskvi",
       "url": "https://www.novosti.rs/planeta/svet/1635638/kalas-novom-izlivu-mrznje-novi-ruski-napadi-dodatni-razlog-poostravanje-sankcija-moskvi",
@@ -513,11 +496,67 @@
       "tags": []
     },
     {
+      "id": "gdelt_2dea17468444e02f",
+      "headline": "Senate Passes Bill On Russia Sanctions | NEWSRADIO 1040 WHO",
+      "url": "https://whoradio.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
+      "published_at": "20260807T231500Z",
+      "source": "whoradio.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_01e506b97f4f9764",
+      "headline": "Senate Passes Bill On Russia Sanctions | NewsTalk 1320 KWHN",
+      "url": "https://kwhn.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
+      "published_at": "20260807T231500Z",
+      "source": "kwhn.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_91c58cdb33ef179b",
+      "headline": "Senate Passes Bill On Russia Sanctions",
+      "url": "https://newsradio710.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
+      "published_at": "20260807T221500Z",
+      "source": "newsradio710.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5170367a07967b1d",
+      "headline": "Senate Passes Bill On Russia Sanctions | Newsradio 95 WXTK",
+      "url": "https://95wxtk.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
+      "published_at": "20260807T221500Z",
+      "source": "95wxtk.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_63f1a34908e1fd0c",
+      "headline": "Senate Passes Bill On Russia Sanctions | News Talk 99 . 5 WRNO",
+      "url": "https://wrno.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
+      "published_at": "20260807T221500Z",
+      "source": "wrno.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e8a35bb982e87044",
+      "headline": "Senate Passes Bill On Russia Sanctions | News Radio 1410 AM & 100 . 9 FM",
+      "url": "https://newsradio1410.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
+      "published_at": "20260807T220000Z",
+      "source": "newsradio1410.iheart.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_f81f52a91815d108",
       "headline": "Senate Passes Bill On Russia Sanctions | The Patriot KEIB AM 1150",
       "url": "https://patriotla.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
       "published_at": "20260807T210000Z",
       "source": "patriotla.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_dc0460bcb1af5d7d",
+      "headline": "Senate Passes Bill On Russia Sanctions | NewsRadio 600 WMT",
+      "url": "https://600wmtradio.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
+      "published_at": "20260807T230000Z",
+      "source": "600wmtradio.iheart.com",
       "tags": []
     },
     {
@@ -601,35 +640,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_e8a35bb982e87044",
-      "headline": "Senate Passes Bill On Russia Sanctions | News Radio 1410 AM & 100 . 9 FM",
-      "url": "https://newsradio1410.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
-      "published_at": "20260807T220000Z",
-      "source": "newsradio1410.iheart.com",
+      "id": "gdelt_0b1b29ecfc194cbe",
+      "headline": "Senate Passes Bill On Russia Sanctions | NewsRadio 1360 KKTX",
+      "url": "https://1360kktx.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
+      "published_at": "20260807T231500Z",
+      "source": "1360kktx.iheart.com",
       "tags": []
     },
     {
-      "id": "gdelt_91c58cdb33ef179b",
+      "id": "gdelt_6a20b021b8194730",
+      "headline": "Senate Passes Bill On Russia Sanctions | Hallelujah 95 . 5",
+      "url": "https://hallelujah955.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
+      "published_at": "20260807T231500Z",
+      "source": "hallelujah955.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7aa046698853da00",
       "headline": "Senate Passes Bill On Russia Sanctions",
-      "url": "https://newsradio710.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
-      "published_at": "20260807T221500Z",
-      "source": "newsradio710.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5170367a07967b1d",
-      "headline": "Senate Passes Bill On Russia Sanctions | Newsradio 95 WXTK",
-      "url": "https://95wxtk.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
-      "published_at": "20260807T221500Z",
-      "source": "95wxtk.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_63f1a34908e1fd0c",
-      "headline": "Senate Passes Bill On Russia Sanctions | News Talk 99 . 5 WRNO",
-      "url": "https://wrno.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
-      "published_at": "20260807T221500Z",
-      "source": "wrno.iheart.com",
+      "url": "https://whp580.iheart.com/content/2026-08-07-senate-passes-bill-on-russia-sanctions/",
+      "published_at": "20260807T231500Z",
+      "source": "whp580.iheart.com",
       "tags": []
     },
     {
@@ -662,14 +693,6 @@
       "url": "https://www.dunya.com/dunya/abdden-irana-yeni-yaptirim-iki-kripto-borsasi-kara-listeye-alindi-haberi-835403",
       "published_at": "20260807T200000Z",
       "source": "dunya.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fa916b11b32175d6",
-      "headline": "EU tightens pressure on Russia with sanctions targeting missile industry chiefs",
-      "url": "https://news.az/news/eu-tightens-pressure-on-russia-with-sanctions-targeting-missile-industry-chiefs",
-      "published_at": "20260807T173000Z",
-      "source": "news.az",
       "tags": []
     },
     {
@@ -795,14 +818,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_c7fd15a1401ccf19",
-      "headline": "ЕС расширил санкционный список против России",
-      "url": "https://monavista.ru/7/4882042-es-rasshiril-sankcionnyy-spisok-protiv-rossii.html",
-      "published_at": "20260807T174500Z",
-      "source": "monavista.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_e49fa47d622990c4",
       "headline": "Schärfere Sanktionen beschlossen : US - Senat sendet Signal an Putin :  Du wirst die Ukraine nicht erobern",
       "url": "https://www.n-tv.de/politik/US-Senat-sendet-Signal-an-Putin-Du-wirst-die-Ukraine-nicht-erobern-id31171586.html",
@@ -861,19 +876,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_d4597c9112986a2a",
-      "headline": "Сенат США одобрил законопроект об « адских санкциях » против РФ и Ирана",
-      "url": "https://life.ru/p/1909275",
-      "published_at": "20260807T180000Z",
-      "source": "life.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_b45abba6405dc900",
       "headline": "Литовец попытался проникнуть в Россию , протаранив шлагбаумы на КПП – Москва 24 , 07 . 08 . 2026",
       "url": "https://www.m24.ru/news/07082026/928438",
       "published_at": "20260807T193000Z",
       "source": "m24.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d4597c9112986a2a",
+      "headline": "Сенат США одобрил законопроект об « адских санкциях » против РФ и Ирана",
+      "url": "https://life.ru/p/1909275",
+      "published_at": "20260807T180000Z",
+      "source": "life.ru",
       "tags": []
     },
     {
@@ -901,6 +916,22 @@
       "tags": [
         "CHINA"
       ]
+    },
+    {
+      "id": "gdelt_0eeafa098e338304",
+      "headline": "Пекельні санкції . Рішення Сената США",
+      "url": "https://news.bigmir.net/ua/world/10406835-pekelni-sanktsiyi-rishennya-senata-ssha",
+      "published_at": "20260807T231500Z",
+      "source": "news.bigmir.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7a624cc906da96c3",
+      "headline": "U . S . targets Iran banking system , companies with new sanctions",
+      "url": "https://www.cbsnews.com/news/u-s-treasury-sanctions-iran-banking-system-trump/",
+      "published_at": "20260807T231500Z",
+      "source": "cbsnews.com",
+      "tags": []
     },
     {
       "id": "gdelt_5f284d967ac8a4a8",
@@ -993,46 +1024,6 @@
       "tags": [
         "CHINA"
       ]
-    },
-    {
-      "id": "gdelt_5798ab2e38576a02",
-      "headline": "Krieg in der Ukraine : US - Senat stimmt für Gesetz zu Russland - Sanktionen",
-      "url": "https://www.stuttgarter-nachrichten.de/politik/krieg-in-der-ukraine-us-senat-stimmt-fuer-gesetz-zu-russland-sanktionen-79367848.html",
-      "published_at": "20260807T213000Z",
-      "source": "stuttgarter-nachrichten.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bd7210a7fe718de6",
-      "headline": "Senate passes sweeping Russia sanctions bill negotiated by the late Sen . Lindsey Graham - Boston News , Weather , Sports",
-      "url": "https://whdh.com/news/senate-passes-sweeping-russia-sanctions-bill-negotiated-by-the-late-sen-lindsey-graham/",
-      "published_at": "20260807T203000Z",
-      "source": "whdh.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1bac057315eb53b3",
-      "headline": "Сенат США підтримав  пекельні санкції  проти РФ",
-      "url": "https://news.bigmir.net/ua/world/10406730-senat-ssha-pidtrimav-pekelni-sanktsiyi-proti-rf",
-      "published_at": "20260807T200000Z",
-      "source": "news.bigmir.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_09ef0630189b5bc3",
-      "headline": "Krieg in der Ukraine : US - Senat stimmt für Gesetz zu Russland - Sanktionen",
-      "url": "https://www.schwarzwaelder-bote.de/politik/krieg-in-der-ukraine-us-senat-stimmt-fuer-gesetz-zu-russland-sanktionen-79367848.html",
-      "published_at": "20260807T194500Z",
-      "source": "schwarzwaelder-bote.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_71972189396edc29",
-      "headline": "Senate passes sweeping Russia sanctions bill negotiated by Graham",
-      "url": "https://www.sandiegouniontribune.com/2026/08/07/senate-russia-sanctions-lindsey-graham/",
-      "published_at": "20260807T180000Z",
-      "source": "sandiegouniontribune.com",
-      "tags": []
     }
   ]
 }
