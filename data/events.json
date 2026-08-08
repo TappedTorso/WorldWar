@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-08-08T13:10:49Z",
+    "generated_at_utc": "2026-08-08T13:54:54Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -73,6 +73,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_7a5c39f58b829580",
+      "headline": "Украина теряет накопленный дипломатический и военный перелом во взаимоотношениях с США ,",
+      "url": "https://vesti-ua.net/novosti/politika/287688-ukraina-teryaet-nakoplennyy-diplomaticheskiy-i-voennyy-perelom-vo-vzaimootnosheniyah-s-ssha-the-atlantic.html",
+      "published_at": "20260808T130000Z",
+      "source": "vesti-ua.net",
+      "tags": []
+    },
+    {
       "id": "gdelt_a9256ff5ba90d6a0",
       "headline": "Ukraine Zelensky visits Russian ally Serbia for talks",
       "url": "https://arynews.tv/ukraines-zelensky-visits-russian-ally-serbia-talks",
@@ -83,11 +91,31 @@
       ]
     },
     {
+      "id": "gdelt_83e38b1fea26655f",
+      "headline": "What Pakistan defence pact with Saudi Arabia and Turkey means for the Middle East",
+      "url": "https://www.middleeasteye.net/news/what-pakistan-saudi-arabia-turkey-defence-pact-means-middle-east",
+      "published_at": "20260808T133000Z",
+      "source": "middleeasteye.net",
+      "tags": [
+        "PAKISTAN",
+        "TURKEY",
+        "SAUDI_ARABIA"
+      ]
+    },
+    {
       "id": "gdelt_119b1a05c9b6aaec",
       "headline": "澤倫斯基首訪塞爾維亞 會晤武契奇尋求支持 | 國際",
       "url": "https://www.cna.com.tw:443/news/aopl/202608080120.aspx",
       "published_at": "20260808T083000Z",
       "source": "cna.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fb4aab93d6339c96",
+      "headline": "新闻分析丨美国人工智能模型为何屡屡  越界 - 新华网",
+      "url": "https://www.news.cn/world/20260808/b161ba29a7024de38a34a9cdf6eae5a7/c.html",
+      "published_at": "20260808T133000Z",
+      "source": "news.cn",
       "tags": []
     },
     {
@@ -143,27 +171,11 @@
       ]
     },
     {
-      "id": "gdelt_e1dd4765db59ff28",
-      "headline": "Ukraine Zelensky Visits Russian Ally Serbia for Talks",
-      "url": "https://english.aawsat.com/world/5304639-ukraine%E2%80%99s-zelensky-visits-russian-ally-serbia-talks",
-      "published_at": "20260808T073000Z",
-      "source": "english.aawsat.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_e4114bfd17c77d44",
       "headline": "尝试突破人类控制 ？ 报道显示美国AI开始攻击真人了 _ 3DM单机",
       "url": "https://www.3dmgame.com/news/202608/3950147.html",
       "published_at": "20260808T091500Z",
       "source": "3dmgame.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2a3b865b836d2c73",
-      "headline": "Ukraine Zelensky visits Russian ally Serbia for talks",
-      "url": "https://www.yahoo.com/news/world/articles/ukraines-zelensky-visits-russian-ally-063305954.html",
-      "published_at": "20260808T071500Z",
-      "source": "yahoo.com",
       "tags": []
     },
     {
@@ -188,14 +200,6 @@
       "url": "https://thenextweb.com/news/south-africa-corporate-stablecoin-ban-exchange-control-backlash",
       "published_at": "20260808T114500Z",
       "source": "thenextweb.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_253e4d082b3c0249",
-      "headline": "Paul Merchants Gets RBI Approval for Perpetual AD Category - II Licence Under Revised FEMA Framework",
-      "url": "https://aninews.in/news/business/paul-merchants-gets-rbi-approval-for-perpetual-ad-category-ii-licence-under-revised-fema-framework20260808105117/",
-      "published_at": "20260808T073000Z",
-      "source": "aninews.in",
       "tags": []
     },
     {
@@ -252,14 +256,6 @@
       "url": "https://news.israelinfo.co.il/146739",
       "published_at": "20260808T093000Z",
       "source": "news.israelinfo.co.il",
-      "tags": []
-    },
-    {
-      "id": "gdelt_724412d5a764c084",
-      "headline": "Η ναυτιλία μπροστά σε υψηλό ρίσκο και στη Μαύρη Θάλασσα – Αυξημένα ναύλα και ασφάλιστρα πολέμου",
-      "url": "https://www.inewsgr.com/93/i-naftilia-brosta-se-ypsilo-risko-kai-sti-mavri-thalassa--afximena-navla-kai-asfalistra-polemou.htm",
-      "published_at": "20260808T073000Z",
-      "source": "inewsgr.com",
       "tags": []
     },
     {
@@ -454,14 +450,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_59f171c1bb207841",
-      "headline": "Фон дер Ляйен призвала закрыть все источники доходов России",
-      "url": "https://www.mk.ru/politics/2026/08/08/fon-der-lyayen-prizvala-zakryt-vse-istochniki-dokhodov-rossii.html",
-      "published_at": "20260808T073000Z",
-      "source": "mk.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_85c59d41b62dbe26",
       "headline": "Elles sankcijas  jau ir uz papīra : ASV gatavo jaunu triecienu Krievijas ekonomikai",
       "url": "https://www.la.lv/elles-sankcijas-jau-ir-uz-papira-asv-gatavo-jaunu-triecienu-krievijas-ekonomikai",
@@ -491,6 +479,14 @@
       "url": "https://reporter.si/clanek/slovenija/stevilo-tujih-delavcev-raste-nepoznavanje-jezika-je-resen-problem-1918016",
       "published_at": "20260808T101500Z",
       "source": "reporter.si",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4744a80c105c6f77",
+      "headline": "Зеленский упрекнул Запад в волоките с лицензиями на системы ПВО",
+      "url": "https://www.vesti.ru/ns/zelenskij-upreknul-zapad-v-volokite-s-licenziyami-na-sistemy-pvo",
+      "published_at": "20260808T130000Z",
+      "source": "vesti.ru",
       "tags": []
     },
     {
@@ -620,14 +616,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_782db3d3f7b20e3b",
-      "headline": "Фон дер Ляйен сделала резкий выпад в адрес России",
-      "url": "https://ria.ru/20260808/ursula-2109715597.html",
-      "published_at": "20260808T083000Z",
-      "source": "ria.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_45a4d58ced4e8bc5",
       "headline": "ICJ sets schedule for DRC legal action against Rwanda – Channel Africa",
       "url": "https://www.channelafrica.co.za/channelafrica/news/icj-sets-schedule-for-drc-legal-action-against-rwanda/",
@@ -637,6 +625,14 @@
         "DEMOCRATIC_REPUBLIC_OF_CONGO",
         "RWANDA"
       ]
+    },
+    {
+      "id": "gdelt_782db3d3f7b20e3b",
+      "headline": "Фон дер Ляйен сделала резкий выпад в адрес России",
+      "url": "https://ria.ru/20260808/ursula-2109715597.html",
+      "published_at": "20260808T083000Z",
+      "source": "ria.ru",
+      "tags": []
     },
     {
       "id": "gdelt_5189fba304b23e3d",
@@ -665,22 +661,20 @@
       "tags": []
     },
     {
+      "id": "gdelt_c70d6dcf0d940d0c",
+      "headline": "Главный генерал Трампа ищет выход из войны с Ираном – подробности",
+      "url": "https://www.obozrevatel.com/novosti-mir/voennyie-vozmozhnosti-ogranichenyi-glavnyij-general-trampa-ischet-vyihod-iz-vojnyi-s-iranom-cnn.htm",
+      "published_at": "20260808T133000Z",
+      "source": "obozrevatel.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_572a1bf056fe89af",
       "headline": "Фон дер Ляйен призвала США и ЕС сообща перекрывать доходы России",
       "url": "https://life.ru/p/1909428",
       "published_at": "20260808T120000Z",
       "source": "life.ru",
       "tags": []
-    },
-    {
-      "id": "gdelt_72a44098e0e9d4b7",
-      "headline": "US Senate approves bill to tighten sanctions on Russia",
-      "url": "https://pajhwok.com/2026/08/08/us-senate-approves-bill-to-tighten-sanctions-on-russia/",
-      "published_at": "20260808T071500Z",
-      "source": "pajhwok.com",
-      "tags": [
-        "RUSSIA"
-      ]
     },
     {
       "id": "gdelt_bdad2cc9acb195da",
@@ -704,7 +698,9 @@
       "url": "https://en.interfax.com.ua/news/general/1191718.html",
       "published_at": "20260808T110000Z",
       "source": "en.interfax.com.ua",
-      "tags": []
+      "tags": [
+        "RUSSIA"
+      ]
     },
     {
       "id": "gdelt_64b150f3add2a774",
@@ -712,6 +708,14 @@
       "url": "https://avaz.ba/vijesti/bih/1063437/politolog-davor-gjenero-za-avaz-vrh-americke-politike-trazi-sankcije-za-dodika",
       "published_at": "20260808T123000Z",
       "source": "avaz.ba",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f84ecc6aa284b7ab",
+      "headline": "Сенат США одобрил « адские санкции » против России , но эксперт называет их символическими",
+      "url": "https://www.kommersant.ru/doc/8875522",
+      "published_at": "20260808T133000Z",
+      "source": "kommersant.ru",
       "tags": []
     },
     {
@@ -789,11 +793,30 @@
       "tags": []
     },
     {
+      "id": "gdelt_cdf6e0a4ed12b9fb",
+      "headline": "China and India Hold the 36th Meeting of Working Mechanism for Consultation and Coordination on Border Affairs",
+      "url": "https://www.globalsecurity.org/military/library/news/2026/08/mil-260807-prc-mofa01.htm",
+      "published_at": "20260808T133000Z",
+      "source": "globalsecurity.org",
+      "tags": [
+        "CHINA",
+        "INDIA"
+      ]
+    },
+    {
       "id": "gdelt_214fd587108e8c87",
       "headline": "Сергунина отметила рост количества волонтеров в столице",
       "url": "https://iz.ru/2145731/2026-08-08/sergunina-otmetila-rost-kolichestva-volonterov-v-stolitce",
       "published_at": "20260808T093000Z",
       "source": "iz.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1e9479eaac80f26e",
+      "headline": "US Senate passes sweeping sanctions targeting Russian energy revenues",
+      "url": "https://www.africanews.com/2026/08/08/us-senate-passes-sweeping-sanctions-targeting-russian-energy-revenues/",
+      "published_at": "20260808T133000Z",
+      "source": "africanews.com",
       "tags": []
     },
     {
@@ -836,14 +859,6 @@
       "url": "https://www.yenisafak.com/ekonomi/e-ihracatta-20-milyar-dolarlik-potansiyel-kanun-yeniden-degerlendirilmeli-4846538",
       "published_at": "20260808T113000Z",
       "source": "yenisafak.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_dc152f01fc6e886d",
-      "headline": "Südafrika setzt nach fremdenfeindlichen Krawallen auf Schadensbegrenzung",
-      "url": "https://www.tagesschau.de/ausland/afrika/suedafrika-fremdenfeindliche-krawalle-wogen-glaetten-100.html",
-      "published_at": "20260808T073000Z",
-      "source": "tagesschau.de",
       "tags": []
     },
     {
@@ -985,6 +1000,14 @@
       ]
     },
     {
+      "id": "gdelt_62a5aac4078abf63",
+      "headline": "英AI安全研究所首曝大模型自主实施真实人类欺骗与攻击行为",
+      "url": "https://ai.zol.com.cn/1228/12284127.html",
+      "published_at": "20260808T090000Z",
+      "source": "ai.zol.com.cn",
+      "tags": []
+    },
+    {
       "id": "gdelt_675f9be3b63a1fdb",
       "headline": "Phạt 6 người Nigeria tạm trú quá hạn và hai cơ sở lưu trú",
       "url": "https://baomoi.com/phat-6-nguoi-nigeria-tam-tru-qua-han-va-hai-co-so-luu-tru-c55790262.epi",
@@ -993,14 +1016,6 @@
       "tags": [
         "NIGERIA"
       ]
-    },
-    {
-      "id": "gdelt_62a5aac4078abf63",
-      "headline": "英AI安全研究所首曝大模型自主实施真实人类欺骗与攻击行为",
-      "url": "https://ai.zol.com.cn/1228/12284127.html",
-      "published_at": "20260808T090000Z",
-      "source": "ai.zol.com.cn",
-      "tags": []
     },
     {
       "id": "gdelt_5c2312a5cff7ad4c",
@@ -1016,14 +1031,6 @@
       "url": "https://sana.sy/international/2548257/",
       "published_at": "20260808T121500Z",
       "source": "sana.sy",
-      "tags": []
-    },
-    {
-      "id": "gdelt_02973f0eb653779e",
-      "headline": "تركيا تقيد حركة الملاحة في البحر الأسود بعد تصاعد الهجمات بين روسيا وأوكرانيا",
-      "url": "https://www.vetogate.com/5708851",
-      "published_at": "20260808T121500Z",
-      "source": "vetogate.com",
       "tags": []
     }
   ]
