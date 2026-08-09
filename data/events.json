@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-08-09T07:13:59Z",
+    "generated_at_utc": "2026-08-09T08:00:51Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -32,14 +32,6 @@
     }
   },
   "events": [
-    {
-      "id": "gdelt_a7d41c45f05ee719",
-      "headline": "Тегеран выдвинул Вашингтону ультиматум по Ормузскому проливу | Западная Азия",
-      "url": "https://fedpress.ru/news/western-asia/policy/3447213",
-      "published_at": "20260809T020000Z",
-      "source": "fedpress.ru",
-      "tags": []
-    },
     {
       "id": "gdelt_e82b46eb2c04e935",
       "headline": "První zprávy - Domácí - BRICS : Podkope nová platební platforma hegemonii dolaru ?",
@@ -123,14 +115,6 @@
       ]
     },
     {
-      "id": "gdelt_b8165212daf3809b",
-      "headline": "Lima kawasan kekal catat IPU tidak sihat di Sarawak",
-      "url": "https://www.astroawani.com/berita-malaysia/lima-kawasan-kekal-catat-ipu-tidak-sihat-di-sarawak",
-      "published_at": "20260809T020000Z",
-      "source": "astroawani.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_c7e73aa95ce3e924",
       "headline": "Sindiket dadah eksploitasi pulau kecil Sabah",
       "url": "https://www.sinarharian.com.my/article/791295/berita/nasional/sindiket-dadah-eksploitasi-pulau-kecil-sabah",
@@ -170,6 +154,14 @@
       "url": "https://www.philenews.com/oikonomia/apopsis-ikonomia/article/1756800/geopolitiki-ke-forologia/",
       "published_at": "20260809T050000Z",
       "source": "philenews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d82aaa695199efbd",
+      "headline": "Declassified missions of SAS revealed including daring raid",
+      "url": "https://www.swindonadvertiser.co.uk/news/26445275.five-recently-declassified-missions-sas/",
+      "published_at": "20260809T073000Z",
+      "source": "swindonadvertiser.co.uk",
       "tags": []
     },
     {
@@ -265,14 +257,20 @@
       "tags": []
     },
     {
-      "id": "gdelt_277cac482d2783c3",
-      "headline": "Israel prepares for possible unilateral strikes on Iran : Israeli media",
-      "url": "https://aa.com.tr/en/middle-east/israel-prepares-for-possible-unilateral-strikes-on-iran-israeli-media/4022186",
-      "published_at": "20260809T030000Z",
-      "source": "aa.com.tr",
-      "tags": [
-        "ISRAEL"
-      ]
+      "id": "gdelt_44725c7bea9463ed",
+      "headline": "CNN : الخيارات العسكرية الأمريكية في حرب ايران قد تأتي بنتائج عكسية",
+      "url": "https://www.dostor.org/5661356",
+      "published_at": "20260809T070000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_164c279c4addd37e",
+      "headline": "القوات المسلحة اليمنية تستهدف مصفاة لـ « أرامكو » في جيزان بمسيّرة – قناة المنار",
+      "url": "https://www.almanar.com.lb/article/1082977/",
+      "published_at": "20260809T071500Z",
+      "source": "almanar.com.lb",
+      "tags": []
     },
     {
       "id": "gdelt_373768ff8a6f8d3f",
@@ -283,12 +281,32 @@
       "tags": []
     },
     {
+      "id": "gdelt_277cac482d2783c3",
+      "headline": "Israel prepares for possible unilateral strikes on Iran : Israeli media",
+      "url": "https://aa.com.tr/en/middle-east/israel-prepares-for-possible-unilateral-strikes-on-iran-israeli-media/4022186",
+      "published_at": "20260809T030000Z",
+      "source": "aa.com.tr",
+      "tags": [
+        "ISRAEL"
+      ]
+    },
+    {
       "id": "gdelt_f64b0ff9277b2241",
       "headline": "NASIB 5 Polisi Jambi Dipecat Kasus Kematian Brigadir EWS , Terbongkar Setelah Sebut Karena Jatuh",
       "url": "https://medan.tribunnews.com/news/1806532/nasib-5-polisi-jambi-dipecat-kasus-kematian-brigadir-ews-terbongkar-setelah-sebut-karena-jatuh",
       "published_at": "20260809T050000Z",
       "source": "medan.tribunnews.com",
       "tags": []
+    },
+    {
+      "id": "gdelt_beb87c16e61b4b97",
+      "headline": "Trung tướng Charles Costanza bị cách chức",
+      "url": "https://giaoducthoidai.vn/my-cach-chuc-vi-tuong-dieu-phoi-vien-tro-quan-su-cho-ukraine-post787603.html",
+      "published_at": "20260809T070000Z",
+      "source": "giaoducthoidai.vn",
+      "tags": [
+        "UKRAINE"
+      ]
     },
     {
       "id": "gdelt_fc56c49707e43496",
@@ -319,6 +337,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_4e7c45afe7d0c162",
+      "headline": "الاحتلال الإسرائيلي يصعد القصف في غزة ويكثف الاقتحامات والاعتداءات بالضفة الغربية",
+      "url": "https://www.vetogate.com/5709201",
+      "published_at": "20260809T070000Z",
+      "source": "vetogate.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_ae9dbad2af024433",
       "headline": "العراق يفكك شبكة مسلحة لديها طائرات مسيرة - بوابة الشروق",
       "url": "https://www.shorouknews.com/news/view.aspx?cdate=09082026&id=9c34ecd4-0363-4045-9c78-6c0098242985",
@@ -340,14 +366,6 @@
       "url": "https://www.cna.com.tw/news/aopl/202608090019.aspx",
       "published_at": "20260809T023000Z",
       "source": "cna.com.tw",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3c05a95fc0c0642c",
-      "headline": "Turcia cere moratoriu în Marea Neagră după atacurile cu drone",
-      "url": "https://www.stiripesurse.ro/turcia-moratoriu-marea-neagra-nave-atacate-drone_3910648",
-      "published_at": "20260809T020000Z",
-      "source": "stiripesurse.ro",
       "tags": []
     },
     {
@@ -375,11 +393,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_6990d12d33e88f3f",
-      "headline": "أستاذ علوم سياسية : تقديرات بوجود نقص حاد في الأسلحة والذخائر الأمريكية بسبب إيران",
-      "url": "https://www.elwatannews.com/news/details/8335934",
-      "published_at": "20260809T020000Z",
-      "source": "elwatannews.com",
+      "id": "gdelt_0223e5d5947c4e11",
+      "headline": "Iran says deal on Strait of Hormuz close",
+      "url": "https://tribune.com.pk/story/2622898/iran-says-deal-on-strait-of-hormuz-close",
+      "published_at": "20260809T070000Z",
+      "source": "tribune.com.pk",
       "tags": []
     },
     {
@@ -433,11 +451,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_e9435d27e6cf4e8a",
-      "headline": "Direkt – Krisen i Mellanöstern – Turkiet : Egypten på väg in i samarbete",
-      "url": "https://www.dn.se/direkt/mellanostern/2026-08-09/turkiet-egypten-pa-vag-in-i-samarbete/",
-      "published_at": "20260809T034500Z",
-      "source": "dn.se",
+      "id": "gdelt_683063ac5d8f458b",
+      "headline": "Irani vendos kushtet për rihapjen e Hormuzit : Heqje sanksionesh dhe kompensim për dëmet e luftës",
+      "url": "https://www.gazetatema.net/bota/irani-vendos-kushtet-per-rihapjen-e-hormuzit-heqje-sanksionesh-dhe-kompensi-i578598",
+      "published_at": "20260809T073000Z",
+      "source": "gazetatema.net",
       "tags": []
     },
     {
@@ -449,11 +467,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_510ff9680dbe4e4c",
-      "headline": "CDB funds feasibility study on CARICOM regional stock exchange",
-      "url": "https://jamaica-gleaner.com/article/business/20260809/cdb-funds-feasibility-study-caricom-regional-stock-exchange",
-      "published_at": "20260809T063000Z",
-      "source": "jamaica-gleaner.com",
+      "id": "gdelt_e9435d27e6cf4e8a",
+      "headline": "Direkt – Krisen i Mellanöstern – Turkiet : Egypten på väg in i samarbete",
+      "url": "https://www.dn.se/direkt/mellanostern/2026-08-09/turkiet-egypten-pa-vag-in-i-samarbete/",
+      "published_at": "20260809T034500Z",
+      "source": "dn.se",
       "tags": []
     },
     {
@@ -465,11 +483,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_510ff9680dbe4e4c",
+      "headline": "CDB funds feasibility study on CARICOM regional stock exchange",
+      "url": "https://jamaica-gleaner.com/article/business/20260809/cdb-funds-feasibility-study-caricom-regional-stock-exchange",
+      "published_at": "20260809T063000Z",
+      "source": "jamaica-gleaner.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_240e1087b49c20b5",
       "headline": "Türkiyenin sınır ötesi güvenlik ağı - MELİH ALTINOK",
       "url": "https://www.sabah.com.tr/yazarlar/melihaltinok/2026/08/09/turkiyenin-sinir-otesi-guvenlik-agi",
       "published_at": "20260809T050000Z",
       "source": "sabah.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_591fbfa1a6e5fbda",
+      "headline": "勸世三姊妹5萬張門票搶光 9月前進百老匯讀劇 | 文化",
+      "url": "https://www.cna.com.tw:443/news/acul/202608090090.aspx",
+      "published_at": "20260809T070000Z",
+      "source": "cna.com.tw",
       "tags": []
     },
     {
@@ -481,19 +515,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_263e309f9212582a",
-      "headline": "Nemecký minister po incidente v Lipsku varuje pred každodennými hybridnými útokmi",
-      "url": "https://hnonline.sk/svet/96296028-nemecky-minister-po-incidente-v-lipsku-varuje-pred-kazdodennymi-hybridnymi-utokmi",
-      "published_at": "20260809T054500Z",
-      "source": "hnonline.sk",
-      "tags": []
-    },
-    {
       "id": "gdelt_82d03fc260ca74ce",
       "headline": "被中方反制的7家美国实体有何来头 ？- 新闻中心 - 中国宁波网",
       "url": "http://news.cnnb.com.cn/system/2026/08/09/030801978.shtml",
       "published_at": "20260809T033000Z",
       "source": "news.cnnb.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_263e309f9212582a",
+      "headline": "Nemecký minister po incidente v Lipsku varuje pred každodennými hybridnými útokmi",
+      "url": "https://hnonline.sk/svet/96296028-nemecky-minister-po-incidente-v-lipsku-varuje-pred-kazdodennymi-hybridnymi-utokmi",
+      "published_at": "20260809T054500Z",
+      "source": "hnonline.sk",
       "tags": []
     },
     {
@@ -505,14 +539,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_919838db9564785b",
-      "headline": "tayyar . org - بعد 5 أشهر في الظل ... إيران تنشر أول فيديو لمجتبى خامنئي",
-      "url": "https://www.tayyar.org/News/World/736222/_guid=736222",
-      "published_at": "20260809T043000Z",
-      "source": "tayyar.org",
-      "tags": []
-    },
-    {
       "id": "gdelt_d912c400deab9aa8",
       "headline": "越禁越买 ！ 美国人热衷来中国扫货 制裁清单VS真香清单 _ 新闻频道 _ 中华网",
       "url": "https://news.china.com/socialgd/10000169/20260809/49662926.html",
@@ -521,6 +547,14 @@
       "tags": [
         "CHINA"
       ]
+    },
+    {
+      "id": "gdelt_919838db9564785b",
+      "headline": "tayyar . org - بعد 5 أشهر في الظل ... إيران تنشر أول فيديو لمجتبى خامنئي",
+      "url": "https://www.tayyar.org/News/World/736222/_guid=736222",
+      "published_at": "20260809T043000Z",
+      "source": "tayyar.org",
+      "tags": []
     },
     {
       "id": "gdelt_7349aba5be028b00",
@@ -555,6 +589,16 @@
       "tags": []
     },
     {
+      "id": "gdelt_32a7f1258838c94f",
+      "headline": "هجمات متبادلة ليلاً بين موسكو وكييف وسط دعوات تركية للتهدئة في البحر الأسود",
+      "url": "https://www.albayan.ae/news/world/russia/1545055",
+      "published_at": "20260809T071500Z",
+      "source": "albayan.ae",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
       "id": "gdelt_d40bb9e161412735",
       "headline": "The Atlantic : Маск призывает к сделке и блокирует Starlink для ударов по РФ | MigNews - Новости Израиля и Мира на русском языке",
       "url": "http://mignews.com/news/politic/the-atlantic-mask-prizyvaet-k-sdelke-i-blokiruet-starlink-dlya-udarov-po-rf.html",
@@ -576,14 +620,6 @@
       "url": "https://danviet.vn/tinh-bao-my-canh-bao-nga-co-the-tan-cong-nato-trong-vong-vai-tuan-toi-d1450090.html",
       "published_at": "20260809T063000Z",
       "source": "danviet.vn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5d0db3c64489ee1f",
-      "headline": "خبير : واشنطن تسعى إلى تسوية دبلوماسية رغم صعوبة التراجع عن التصعيد",
-      "url": "https://www.elwatannews.com/news/details/8335936",
-      "published_at": "20260809T020000Z",
-      "source": "elwatannews.com",
       "tags": []
     },
     {
@@ -622,19 +658,19 @@
       ]
     },
     {
-      "id": "gdelt_0ab3f90f25946e8b",
-      "headline": "Дръзките удари на Украйна : Помагат ли на Путин ? ᐉ Новини от Fakti . bg - Свят",
-      "url": "https://fakti.bg/world/1073204-drazkite-udari-na-ukraina-pomagat-li-na-putin",
-      "published_at": "20260809T050000Z",
-      "source": "fakti.bg",
-      "tags": []
-    },
-    {
       "id": "gdelt_cd84b7eb1fcc7796",
       "headline": "Россия усилила удары по топливной и портовой логистике Украины",
       "url": "https://www.mk.ru/politics/2026/08/09/rossiya-usilila-udary-po-toplivnoy-i-portovoy-logistike-ukrainy.html",
       "published_at": "20260809T033000Z",
       "source": "mk.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0ab3f90f25946e8b",
+      "headline": "Дръзките удари на Украйна : Помагат ли на Путин ? ᐉ Новини от Fakti . bg - Свят",
+      "url": "https://fakti.bg/world/1073204-drazkite-udari-na-ukraina-pomagat-li-na-putin",
+      "published_at": "20260809T050000Z",
+      "source": "fakti.bg",
       "tags": []
     },
     {
@@ -715,78 +751,6 @@
       "url": "https://ktsmradio.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
       "published_at": "20260809T060000Z",
       "source": "ktsmradio.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_62531f3c262ee226",
-      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz | Newstalk 1400 , 104 . 5 , and 105 . 9 WJMX",
-      "url": "https://newstalk1400online.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
-      "published_at": "20260809T060000Z",
-      "source": "newstalk1400online.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_74b952a519207545",
-      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
-      "url": "https://newstalk1230.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
-      "published_at": "20260809T060000Z",
-      "source": "newstalk1230.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3a90ba5d289c819a",
-      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
-      "url": "https://newstalk1130.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
-      "published_at": "20260809T061500Z",
-      "source": "newstalk1130.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_809dffc13a4dbc7d",
-      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
-      "url": "https://wham1180.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
-      "published_at": "20260809T061500Z",
-      "source": "wham1180.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fee2d23628409aaf",
-      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
-      "url": "https://700wlw.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
-      "published_at": "20260809T061500Z",
-      "source": "700wlw.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_22255630c9db62a1",
-      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
-      "url": "https://talkradio1059.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
-      "published_at": "20260809T061500Z",
-      "source": "talkradio1059.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8bb52055a534efa4",
-      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
-      "url": "https://wmrn.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
-      "published_at": "20260809T061500Z",
-      "source": "wmrn.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_460bb56a076669bc",
-      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
-      "url": "https://kogo.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
-      "published_at": "20260809T061500Z",
-      "source": "kogo.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2bbf54ba2017b8cc",
-      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
-      "url": "https://1190talkradio.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
-      "published_at": "20260809T061500Z",
-      "source": "1190talkradio.iheart.com",
       "tags": []
     },
     {
@@ -886,11 +850,123 @@
       "tags": []
     },
     {
+      "id": "gdelt_3a90ba5d289c819a",
+      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
+      "url": "https://newstalk1130.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
+      "published_at": "20260809T061500Z",
+      "source": "newstalk1130.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_809dffc13a4dbc7d",
+      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
+      "url": "https://wham1180.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
+      "published_at": "20260809T061500Z",
+      "source": "wham1180.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fee2d23628409aaf",
+      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
+      "url": "https://700wlw.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
+      "published_at": "20260809T061500Z",
+      "source": "700wlw.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_22255630c9db62a1",
+      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
+      "url": "https://talkradio1059.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
+      "published_at": "20260809T061500Z",
+      "source": "talkradio1059.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8bb52055a534efa4",
+      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
+      "url": "https://wmrn.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
+      "published_at": "20260809T061500Z",
+      "source": "wmrn.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_62531f3c262ee226",
+      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz | Newstalk 1400 , 104 . 5 , and 105 . 9 WJMX",
+      "url": "https://newstalk1400online.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
+      "published_at": "20260809T060000Z",
+      "source": "newstalk1400online.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_74b952a519207545",
+      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
+      "url": "https://newstalk1230.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
+      "published_at": "20260809T060000Z",
+      "source": "newstalk1230.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8f848d23157c97f9",
+      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
+      "url": "https://wilm.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
+      "published_at": "20260809T070000Z",
+      "source": "wilm.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_124f27cde4477132",
+      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
+      "url": "https://wccfradio.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
+      "published_at": "20260809T070000Z",
+      "source": "wccfradio.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b0e54e251a9d077b",
+      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
+      "url": "https://newsradio1290wtks.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
+      "published_at": "20260809T070000Z",
+      "source": "newsradio1290wtks.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cb86009ea004d8d0",
+      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz | News Radio 101 . 9 Big WAAX",
+      "url": "https://1019bigwaax.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
+      "published_at": "20260809T070000Z",
+      "source": "1019bigwaax.iheart.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_45ea89141c733fb7",
       "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
       "url": "https://veropatriot.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
       "published_at": "20260809T064500Z",
       "source": "veropatriot.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_54222a606d5aa5f1",
+      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
+      "url": "https://whoradio.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
+      "published_at": "20260809T073000Z",
+      "source": "whoradio.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_460bb56a076669bc",
+      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
+      "url": "https://kogo.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
+      "published_at": "20260809T061500Z",
+      "source": "kogo.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2bbf54ba2017b8cc",
+      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
+      "url": "https://1190talkradio.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
+      "published_at": "20260809T061500Z",
+      "source": "1190talkradio.iheart.com",
       "tags": []
     },
     {
@@ -944,85 +1020,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_b92e7066ebd5582f",
-      "headline": "保加利亚称无人机闯边境爆炸 乌克兰否认发动攻击 | 国际",
-      "url": "https://www.orientaldaily.com.my/news/international/2026/08/09/839264",
-      "published_at": "20260809T040000Z",
-      "source": "orientaldaily.com.my",
-      "tags": []
-    },
-    {
       "id": "gdelt_52b42dc98d3d6944",
       "headline": "Iran postavio Americi šest zahteva : Ormuški moreuz ostaje zatvoren dok ih ne ispune , kaže Teheran",
       "url": "https://naslovi.net/2026-08-09/kurir/iran-postavio-americi-sest-zahteva-ormuski-moreuz-ostaje-zatvoren-dok-ih-ne-ispune-kaze-teheran/42197062",
       "published_at": "20260809T033000Z",
       "source": "naslovi.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b29449daa8dacbb7",
-      "headline": "Krieg - Öffnung der Straße von Hormus : Iran stellt möglicherweise inakzeptable Forderungen an die united states",
-      "url": "https://www.deutschlandfunk.de/oeffnung-der-strasse-von-hormus-iran-stellt-moeglicherweise-inakzeptable-forderungen-an-die-usa-100.html",
-      "published_at": "20260809T050000Z",
-      "source": "deutschlandfunk.de",
-      "tags": [
-        "UNITED_STATES"
-      ]
-    },
-    {
-      "id": "gdelt_f2dc01565f1c20e8",
-      "headline": "Iran asetti ehtoja Hormuzinsalmen avaamiselle",
-      "url": "https://www.karjalainen.fi/uutissuomalainen/9684157",
-      "published_at": "20260809T060000Z",
-      "source": "karjalainen.fi",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2c24d6a759f5541d",
-      "headline": "Iran med nye krav",
-      "url": "https://www.tv2.no/nyheter/iran-med-nye-krav/19112405/",
-      "published_at": "20260809T064500Z",
-      "source": "tv2.no",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4cd1b2f2d1dfaac7",
-      "headline": "WP : Пентагон потребовал от подрядчиков ускорить производство оружия :: Новости дня / ВЗГЛЯД",
-      "url": "https://vz.ru/news/2026/8/9/1441302.html",
-      "published_at": "20260809T034500Z",
-      "source": "vz.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5d7c2988d8f6234c",
-      "headline": "هل يؤثر نقص الأسلحة والذخائر الأمريكية على الحرب مع إيران ؟",
-      "url": "https://www.dostor.org/5661379",
-      "published_at": "20260809T061500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8cdd9a0be30e753a",
-      "headline": "حالة الطقس اليوم الأحد 9 أغسطس 2026 ودرجات الحرارة المتوقعة",
-      "url": "https://www.dostor.org/5661381",
-      "published_at": "20260809T061500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3f9dabfb0a4a986d",
-      "headline": "Starlink для ударів України по Росії - Маск проти та закликає укласти мир",
-      "url": "https://24tv.ua/starlink-dlya-udariv-ukrayini-po-rosiyi-mask-proti-zaklikaye_n3120149",
-      "published_at": "20260809T040000Z",
-      "source": "24tv.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ced184ef7e0ee05c",
-      "headline": "الاحتلال يواصل خرق وقف إطلاق النار في غزة .. قصف وإطلاق نار على مناطق عدة – قناة المنار",
-      "url": "https://www.almanar.com.lb/article/1082852/",
-      "published_at": "20260809T063000Z",
-      "source": "almanar.com.lb",
       "tags": []
     }
   ]
