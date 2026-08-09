@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-08-09T09:54:11Z",
+    "generated_at_utc": "2026-08-09T10:51:01Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "http_error status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
         "fetched": 0
       },
       {
@@ -32,14 +32,6 @@
     }
   },
   "events": [
-    {
-      "id": "gdelt_59155f0bde702713",
-      "headline": "爱尔兰政府派专机直飞迪拜 押解黑帮头目回国受审",
-      "url": "https://baijiahao.baidu.com/s?id=1873016613534309126",
-      "published_at": "20260809T044500Z",
-      "source": "baijiahao.baidu.com",
-      "tags": []
-    },
     {
       "id": "gdelt_63f15835baf17cc4",
       "headline": "视频丨OpenAI等美企被曝旗下AI模型  越界  安全风险引担忧|openai|人工智能|网络安全",
@@ -110,16 +102,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_ca8ce17f04d99985",
-      "headline": "Iran Hormuz gamble puts Trump between escalation and capitulation",
-      "url": "https://www.theweek.in/news/middle-east/2026/08/09/strait-of-hormuz-us-iran-negotiations-middle-east.html",
-      "published_at": "20260809T040000Z",
-      "source": "theweek.in",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
       "id": "gdelt_ab016fffdb4ea35a",
       "headline": "KI gegen KI vor Gericht : Beide Seiten erfinden Urteile – Anwälte werden bestraft",
       "url": "https://t3n.de/news/ki-gegen-ki-gericht-anwaelte-fake-urteile-bestraft-1747710/",
@@ -147,29 +129,11 @@
       ]
     },
     {
-      "id": "gdelt_6ef8f39be49bea3e",
-      "headline": "Iran Sets Conditions for Reopening Strait of Hormuz , Demands US Compensation , Troop Withdrawal – THISDAYLIVE",
-      "url": "https://www.thisdaylive.com/2026/08/09/iran-sets-conditions-for-reopening-strait-of-hormuz-demands-us-compensation-troop-withdrawal/",
-      "published_at": "20260809T054500Z",
-      "source": "thisdaylive.com",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
       "id": "gdelt_23997acc60fdca10",
       "headline": "Srbija i Ukrajina potpisale memorandum o zdravlju životinja i bezbednosti hrane : Šta on predviđa ?",
       "url": "https://naslovi.net/2026-08-09/radio-021/srbija-i-ukrajina-potpisale-memorandum-o-zdravlju-zivotinja-i-bezbednosti-hrane-sta-on-predvidja/42197172",
       "published_at": "20260809T054500Z",
       "source": "naslovi.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_224606ccb9f24983",
-      "headline": "Γεωπολιτική και Φορολογία",
-      "url": "https://www.philenews.com/oikonomia/apopsis-ikonomia/article/1756800/geopolitiki-ke-forologia/",
-      "published_at": "20260809T050000Z",
-      "source": "philenews.com",
       "tags": []
     },
     {
@@ -181,14 +145,22 @@
       "tags": []
     },
     {
-      "id": "gdelt_3bf9a2af4d74f33a",
-      "headline": "El auge de políticos musulmanes en Estados Unidos acelera el giro contra Israel",
-      "url": "https://www.heraldo.es/noticias/internacional/2026/08/09/auge-politicos-musulmanes-estados-unidos-acelera-giro-contra-israel-2043352.html",
-      "published_at": "20260809T044500Z",
-      "source": "heraldo.es",
+      "id": "gdelt_6ef8f39be49bea3e",
+      "headline": "Iran Sets Conditions for Reopening Strait of Hormuz , Demands US Compensation , Troop Withdrawal – THISDAYLIVE",
+      "url": "https://www.thisdaylive.com/2026/08/09/iran-sets-conditions-for-reopening-strait-of-hormuz-demands-us-compensation-troop-withdrawal/",
+      "published_at": "20260809T054500Z",
+      "source": "thisdaylive.com",
       "tags": [
-        "ISRAEL"
+        "IRAN"
       ]
+    },
+    {
+      "id": "gdelt_224606ccb9f24983",
+      "headline": "Γεωπολιτική και Φορολογία",
+      "url": "https://www.philenews.com/oikonomia/apopsis-ikonomia/article/1756800/geopolitiki-ke-forologia/",
+      "published_at": "20260809T050000Z",
+      "source": "philenews.com",
+      "tags": []
     },
     {
       "id": "gdelt_78f462e6ff8f4c4b",
@@ -202,14 +174,6 @@
       ]
     },
     {
-      "id": "gdelt_a7a731496e37f92a",
-      "headline": "KONYANGO : Trade , not tariffs will drive next wave of growth",
-      "url": "https://www.the-star.co.ke/siasa/2026-08-09-konyango-trade-not-tariffs-will-drive-next-wave-of-growth",
-      "published_at": "20260809T084500Z",
-      "source": "the-star.co.ke",
-      "tags": []
-    },
-    {
       "id": "gdelt_53ac2731e0123abb",
       "headline": "В России заявили об оказании Румынией прямой военной помощи Украине",
       "url": "https://lenta.ru/news/2026/08/09/v-rossii-zayavili-ob-okazanii-rumyniey-pryamoy-voennoy-pomoschi-ukraine/",
@@ -218,6 +182,14 @@
       "tags": [
         "UKRAINE"
       ]
+    },
+    {
+      "id": "gdelt_a7a731496e37f92a",
+      "headline": "KONYANGO : Trade , not tariffs will drive next wave of growth",
+      "url": "https://www.the-star.co.ke/siasa/2026-08-09-konyango-trade-not-tariffs-will-drive-next-wave-of-growth",
+      "published_at": "20260809T084500Z",
+      "source": "the-star.co.ke",
+      "tags": []
     },
     {
       "id": "gdelt_8701a8de224a03ed",
@@ -242,8 +214,17 @@
       "published_at": "20260809T054500Z",
       "source": "economictimes.indiatimes.com",
       "tags": [
+        "IRAN",
         "UAE"
       ]
+    },
+    {
+      "id": "gdelt_53eab99069f0eb94",
+      "headline": "Dimanta : Ja izskanējusī informācija atbilst patiesībai , tas būtu ļoti nopietns apdraudējums valsts drošībai",
+      "url": "https://www.la.lv/dimanta-ja-izskanejusi-informacija-atbilst-patiesibai-tas-butu-loti-nopietns-apdraudejums-valsts-drosibai",
+      "published_at": "20260809T094500Z",
+      "source": "la.lv",
+      "tags": []
     },
     {
       "id": "gdelt_b777905547cf6a97",
@@ -262,12 +243,41 @@
       "tags": []
     },
     {
+      "id": "gdelt_91e1e1e738546c8b",
+      "headline": "Houthis Target Saudi Aramco Facility As Iran Sets Conditions To Reopen Hormuz",
+      "url": "https://www.deccanchronicle.com/west-asia/houthis-target-saudi-aramco-facility-as-iran-sets-conditions-to-reopen-hormuz-1977854",
+      "published_at": "20260809T103000Z",
+      "source": "deccanchronicle.com",
+      "tags": [
+        "SAUDI_ARABIA"
+      ]
+    },
+    {
+      "id": "gdelt_038fd726af381e74",
+      "headline": "BPJPH Perketat Aturan Jaminan Produk Halal , Ini Sanksi bagi Pelanggar",
+      "url": "https://money.kompas.com/read/2026/08/09/161053726/bpjph-perketat-aturan-jaminan-produk-halal-ini-sanksi-bagi-pelanggar",
+      "published_at": "20260809T094500Z",
+      "source": "money.kompas.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_510016971e71c53a",
       "headline": "زيلينسكي : بوتين يعتزم حشد مئات الآلاف من الروس لتصعيد الحرب في أوكرانيا",
       "url": "https://gate.ahram.org.eg/News/5885367.aspx",
       "published_at": "20260809T084500Z",
       "source": "gate.ahram.org.eg",
       "tags": []
+    },
+    {
+      "id": "gdelt_9cfc75761bc1c39c",
+      "headline": "Yemen Houthis claim attack on Aramco oil facility in Saudi Arabia , and other Middle East news",
+      "url": "https://www.clickorlando.com/business/2026/08/09/yemens-houthis-claim-attack-on-aramco-oil-facility-in-saudi-arabia-and-other-middle-east-news/",
+      "published_at": "20260809T100000Z",
+      "source": "clickorlando.com",
+      "tags": [
+        "YEMEN",
+        "SAUDI_ARABIA"
+      ]
     },
     {
       "id": "gdelt_44725c7bea9463ed",
@@ -294,12 +304,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_373768ff8a6f8d3f",
-      "headline": "獨 ／ 超越界線 ！《 一級棒 》 陳孟賢不忍撂重話 ： 互相尊重很難 ？",
-      "url": "https://news.tvbs.com.tw/entertainment/music/4004414",
-      "published_at": "20260809T043000Z",
-      "source": "news.tvbs.com.tw",
-      "tags": []
+      "id": "gdelt_c19153245725aaec",
+      "headline": "New Zealand announces further sanctions against Russia",
+      "url": "https://www.siasat.com/new-zealand-announces-further-sanctions-against-russia-3521532/",
+      "published_at": "20260809T100000Z",
+      "source": "siasat.com",
+      "tags": [
+        "RUSSIA"
+      ]
     },
     {
       "id": "gdelt_ac20c2ecf115f9c9",
@@ -310,17 +322,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_939fd174d967dfea",
-      "headline": "Yemen Houthis claim attack on Aramco oil facility in Saudi Arabia , and other Middle East news",
-      "url": "https://www.wsls.com/business/2026/08/09/yemens-houthis-claim-attack-on-aramco-oil-facility-in-saudi-arabia-and-other-middle-east-news/",
-      "published_at": "20260809T093000Z",
-      "source": "wsls.com",
-      "tags": [
-        "YEMEN",
-        "SAUDI_ARABIA"
-      ]
-    },
-    {
       "id": "gdelt_beb87c16e61b4b97",
       "headline": "Trung tướng Charles Costanza bị cách chức",
       "url": "https://giaoducthoidai.vn/my-cach-chuc-vi-tuong-dieu-phoi-vien-tro-quan-su-cho-ukraine-post787603.html",
@@ -328,6 +329,16 @@
       "source": "giaoducthoidai.vn",
       "tags": [
         "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_939fd174d967dfea",
+      "headline": "Yemen Houthis claim attack on Aramco oil facility in Saudi Arabia , and other Middle East news",
+      "url": "https://www.wsls.com/business/2026/08/09/yemens-houthis-claim-attack-on-aramco-oil-facility-in-saudi-arabia-and-other-middle-east-news/",
+      "published_at": "20260809T093000Z",
+      "source": "wsls.com",
+      "tags": [
+        "YEMEN"
       ]
     },
     {
@@ -347,16 +358,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_af21abd0f4ffc279",
-      "headline": "Iran makes new strait demands as UAE says ship was targeted",
-      "url": "https://www.journalgazette.net/news/world/iran-makes-new-strait-demands-as-uae-says-ship-was-targeted/article_cb652287-6d0d-52e5-952d-57dbe5d69c91.html",
-      "published_at": "20260809T043000Z",
-      "source": "journalgazette.net",
-      "tags": [
-        "UAE"
-      ]
-    },
-    {
       "id": "gdelt_f9f11a5532ca906e",
       "headline": "Mekke Anlaşması  nın perde arkası ! 3 ülkenin özellikleri tek tek sıralandı :  Türkiye için yeni fırsat",
       "url": "https://www.milliyet.com.tr/dunya/mekke-anlasmasinin-perde-arkasi-3-ulkenin-ozellikleri-tek-tek-siralandi-turkiye-icin-yeni-firsat-7637898",
@@ -373,14 +374,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_ae9dbad2af024433",
-      "headline": "العراق يفكك شبكة مسلحة لديها طائرات مسيرة - بوابة الشروق",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=09082026&id=9c34ecd4-0363-4045-9c78-6c0098242985",
-      "published_at": "20260809T050000Z",
-      "source": "shorouknews.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_3f55b2a29c5bd83a",
       "headline": "美参议院通过对俄制裁新法案 ： 对从俄进口的商品最高征收500 % 从价关税 ， 对俄原油或天然气前五大进口方的输美商品最高征收100 % 从价关税",
       "url": "https://baijiahao.baidu.com/s?id=1872935424583306199",
@@ -394,6 +387,14 @@
       "url": "https://www.madhyamam.com/kerala/local-news/alappuzha/cherthala-uyarapatha-strike-action-council-decision-1544405",
       "published_at": "20260809T074500Z",
       "source": "madhyamam.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ae9dbad2af024433",
+      "headline": "العراق يفكك شبكة مسلحة لديها طائرات مسيرة - بوابة الشروق",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=09082026&id=9c34ecd4-0363-4045-9c78-6c0098242985",
+      "published_at": "20260809T050000Z",
+      "source": "shorouknews.com",
       "tags": []
     },
     {
@@ -437,11 +438,35 @@
       "tags": []
     },
     {
-      "id": "gdelt_dc515705577e4813",
-      "headline": "龍科三期計畫提報行政院審議 拚119年開放產業申租 | 產經",
-      "url": "https://www.cna.com.tw/news/afe/202608090034.aspx",
-      "published_at": "20260809T040000Z",
-      "source": "cna.com.tw",
+      "id": "gdelt_627a85bcbdba8b8b",
+      "headline": "Украинского посла вызвали в МИД Болгарии – инцидент с дроном в Болгарии",
+      "url": "https://www.obozrevatel.com/novosti-mir/mid-bolgarii-vyizval-ukrainskogo-posla-iz-za-intsidenta-s-dronom-chto-proizoshlo.htm",
+      "published_at": "20260809T094500Z",
+      "source": "obozrevatel.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_100f9584c90db29d",
+      "headline": "Houthi colpiscono raffinerie Aramco : lescalation in Yemen e le ripercussioni regionali",
+      "url": "https://www.notizie.it/houthi-colpiscono-raffinerie-aramco-lescalation-in-yemen-e-le-ripercussioni-regionali/",
+      "published_at": "20260809T100000Z",
+      "source": "notizie.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_36169b0780104e2b",
+      "headline": "Dia dos Pais : o que acontece com o cérebro de um homem quando ele se torna pai ?",
+      "url": "https://www.correio24horas.com.br/saude/dia-dos-pais-o-que-acontece-com-o-cerebro-de-um-homem-quando-ele-se-torna-pai-0826",
+      "published_at": "20260809T103000Z",
+      "source": "correio24horas.com.br",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cb9eddcefd60e6b0",
+      "headline": "广西药品检验研究院与越南河内药科大学签署合作备忘录 - 广西新闻网",
+      "url": "http://health.gxnews.com.cn/staticpages/20260809/newgx6a77f0d3-21978997.shtml",
+      "published_at": "20260809T060000Z",
+      "source": "health.gxnews.com.cn",
       "tags": []
     },
     {
@@ -455,11 +480,29 @@
       ]
     },
     {
-      "id": "gdelt_cb9eddcefd60e6b0",
-      "headline": "广西药品检验研究院与越南河内药科大学签署合作备忘录 - 广西新闻网",
-      "url": "http://health.gxnews.com.cn/staticpages/20260809/newgx6a77f0d3-21978997.shtml",
-      "published_at": "20260809T060000Z",
-      "source": "health.gxnews.com.cn",
+      "id": "gdelt_368c99131cf0cf7b",
+      "headline": "视频丨OpenAI等美企被曝旗下AI模型  越界  安全风险引担忧 - 水母网",
+      "url": "https://news.shm.com.cn/2026-08/09/content_5500497.htm",
+      "published_at": "20260809T091500Z",
+      "source": "news.shm.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ab0bf62c571d77b9",
+      "headline": "US Russia sanctions bill could tighten oil markets , put India energy security at risk , says Kpler : Report",
+      "url": "https://www.hindustantimes.com/india-news/us-russia-sanctions-bill-could-tighten-oil-markets-put-indias-energy-security-at-risk-says-kpler-report-101786261168022.html",
+      "published_at": "20260809T090000Z",
+      "source": "hindustantimes.com",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
+      "id": "gdelt_1dd94b31fe1ab09b",
+      "headline": "„ Každý deň sme terčom hybridnej vojny . Nemecký minister po incidente s dronom varuje pred sabotážami aj špionážou",
+      "url": "https://www.ta3.com/clanok/1065019/kazdy-den-sme-tercom-hybridnej-vojny-nemecky-minister-po-incidente-s-dronom-varuje-pred-sabotazami-aj-spionazou",
+      "published_at": "20260809T093000Z",
+      "source": "ta3.com",
       "tags": []
     },
     {
@@ -479,33 +522,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_368c99131cf0cf7b",
-      "headline": "视频丨OpenAI等美企被曝旗下AI模型  越界  安全风险引担忧 - 水母网",
-      "url": "https://news.shm.com.cn/2026-08/09/content_5500497.htm",
-      "published_at": "20260809T091500Z",
-      "source": "news.shm.com.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ab0bf62c571d77b9",
-      "headline": "US Russia sanctions bill could tighten oil markets , put India energy security at risk , says Kpler : Report",
-      "url": "https://www.hindustantimes.com/india-news/us-russia-sanctions-bill-could-tighten-oil-markets-put-indias-energy-security-at-risk-says-kpler-report-101786261168022.html",
-      "published_at": "20260809T090000Z",
-      "source": "hindustantimes.com",
-      "tags": [
-        "RUSSIA",
-        "INDIA"
-      ]
-    },
-    {
-      "id": "gdelt_1dd94b31fe1ab09b",
-      "headline": "„ Každý deň sme terčom hybridnej vojny . Nemecký minister po incidente s dronom varuje pred sabotážami aj špionážou",
-      "url": "https://www.ta3.com/clanok/1065019/kazdy-den-sme-tercom-hybridnej-vojny-nemecky-minister-po-incidente-s-dronom-varuje-pred-sabotazami-aj-spionazou",
-      "published_at": "20260809T093000Z",
-      "source": "ta3.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_ca583104c6b2c281",
       "headline": "US Bill for 100 % India Tariff gets Senate Nod",
       "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/aug/09/sunet-front/us-bill-for-100-india-tariff-gets-senate-nod/articleshow/133059238.cms",
@@ -516,14 +532,6 @@
       ]
     },
     {
-      "id": "gdelt_bba9483ee123b6db",
-      "headline": "Военные из КНДР в России : заявление Зеленского , сколько бойцов",
-      "url": "https://lenta.ru/news/2026/08/09/long-zelenskiy-kndr/",
-      "published_at": "20260809T040000Z",
-      "source": "lenta.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_1c72bb8dfc5c14c6",
       "headline": "US Senate Russia sanctions vote raises risk for Indian crude supplies , says Kpler",
       "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/us-senate-russia-sanctions-vote-raises-risk-for-indian-crude-supplies-says-kpler/articleshow/133063930.cms",
@@ -532,19 +540,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_d08c8e0f1a5ddbe1",
-      "headline": "الحرس الثوري الإيراني : نواصل السيطرة على هرمز حتى توافق أمريكا على شروطنا",
-      "url": "https://www.elwatannews.com/news/details/8336046",
-      "published_at": "20260809T084500Z",
-      "source": "elwatannews.com",
+      "id": "gdelt_58ccd2aed1ee7bc2",
+      "headline": "Wladimir Putin : Geheimnis um sein Vermögen - wie reich ist der Kremlchef tatsächlich ?",
+      "url": "https://www.news.de/politik/859878534/wladimir-putins-geheimes-vermoegen-wie-reich-ist-der-kremlchef-wie-viel-verdient-er-als-praesident/1/",
+      "published_at": "20260809T103000Z",
+      "source": "news.de",
       "tags": []
     },
     {
-      "id": "gdelt_769ab5c64a121d65",
-      "headline": "蓝厅观察丨被中方反制的7家美国实体有何来头 ？",
-      "url": "https://world.qianlong.com/2026/0809/8709490.shtml",
-      "published_at": "20260809T044500Z",
-      "source": "world.qianlong.com",
+      "id": "gdelt_fc3d3b4be701d062",
+      "headline": "Pepe Pérez - Muelas Alcázar : Postales desde Roma",
+      "url": "https://www.laverdad.es/opinion/pepe-perezmuelas-alcazar-postales-roma-20260809075605-nt.html",
+      "published_at": "20260809T081500Z",
+      "source": "laverdad.es",
       "tags": []
     },
     {
@@ -556,11 +564,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_fc3d3b4be701d062",
-      "headline": "Pepe Pérez - Muelas Alcázar : Postales desde Roma",
-      "url": "https://www.laverdad.es/opinion/pepe-perezmuelas-alcazar-postales-roma-20260809075605-nt.html",
-      "published_at": "20260809T081500Z",
-      "source": "laverdad.es",
+      "id": "gdelt_d08c8e0f1a5ddbe1",
+      "headline": "الحرس الثوري الإيراني : نواصل السيطرة على هرمز حتى توافق أمريكا على شروطنا",
+      "url": "https://www.elwatannews.com/news/details/8336046",
+      "published_at": "20260809T084500Z",
+      "source": "elwatannews.com",
       "tags": []
     },
     {
@@ -591,14 +599,6 @@
       ]
     },
     {
-      "id": "gdelt_48d5f822dcfba16b",
-      "headline": "DUNAV ĆEMO PREBRODITI , NIS NAM JE NAJVAŽNIJI  Đedović Handanović : Nadamo se skoroj finalizaciji dogovora između  Gaspromnjefta  i  Mola",
-      "url": "https://www.novosti.rs/ekonomija/vesti/1635900/dunav-cemo-prebroditi-nis-nam-najvazniji-djedovic-handanovic-nadamo-skoroj-finalizaciji-dogovora-izmedju-gaspromnjefta-mola",
-      "published_at": "20260809T090000Z",
-      "source": "novosti.rs",
-      "tags": []
-    },
-    {
       "id": "gdelt_683063ac5d8f458b",
       "headline": "Irani vendos kushtet për rihapjen e Hormuzit : Heqje sanksionesh dhe kompensim për dëmet e luftës",
       "url": "https://www.gazetatema.net/bota/irani-vendos-kushtet-per-rihapjen-e-hormuzit-heqje-sanksionesh-dhe-kompensi-i578598",
@@ -607,11 +607,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_0e28c62f2b3496f7",
-      "headline": "شعار  بيع أمريكا  يثير مخاوف الأسواق .. الذهب والفضة أبرز المستفيدين من تراجع الثقة",
-      "url": "https://www.dostor.org/5661457",
+      "id": "gdelt_299a42b09b549d95",
+      "headline": "جريدة الرياض | إصابة 11 شخصًا في هجمات روسية على خاركيف وأوديسا بأوكرانيا",
+      "url": "https://www.alriyadh.com/2201519",
+      "published_at": "20260809T100000Z",
+      "source": "alriyadh.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_48d5f822dcfba16b",
+      "headline": "DUNAV ĆEMO PREBRODITI , NIS NAM JE NAJVAŽNIJI  Đedović Handanović : Nadamo se skoroj finalizaciji dogovora između  Gaspromnjefta  i  Mola",
+      "url": "https://www.novosti.rs/ekonomija/vesti/1635900/dunav-cemo-prebroditi-nis-nam-najvazniji-djedovic-handanovic-nadamo-skoroj-finalizaciji-dogovora-izmedju-gaspromnjefta-mola",
       "published_at": "20260809T090000Z",
-      "source": "dostor.org",
+      "source": "novosti.rs",
       "tags": []
     },
     {
@@ -621,16 +629,6 @@
       "published_at": "20260809T063000Z",
       "source": "jamaica-gleaner.com",
       "tags": []
-    },
-    {
-      "id": "gdelt_496be4e951726861",
-      "headline": "Iran - Krieg News : Neue Forderungen an united states zur Straße von Hormus",
-      "url": "https://www.otz.de/politik/article412152244/iran-israel-krieg-news-aktuell-blog-forderungen-usa-strasse-von-hormus.html",
-      "published_at": "20260809T081500Z",
-      "source": "otz.de",
-      "tags": [
-        "UNITED_STATES"
-      ]
     },
     {
       "id": "gdelt_240e1087b49c20b5",
@@ -657,21 +655,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_dfe83ed4fadd06e4",
-      "headline": "Iraqi Militia Leader Threatens Retaliation After Reported US - Saudi Strikes",
-      "url": "https://www.khaama.com/iraqi-militia-leader-threatens-retaliation-after-reported-us-saudi-strikes/",
-      "published_at": "20260809T093000Z",
-      "source": "khaama.com",
-      "tags": [
-        "SAUDI_ARABIA"
-      ]
-    },
-    {
       "id": "gdelt_fa8718943ded08ad",
       "headline": "Türkiyenin sınır ötesi güvenlik ağı",
       "url": "https://www.ahaber.com.tr/yazarlar/melih-altinok/2026/08/09/turkiyenin-sinir-otesi-guvenlik-agi",
       "published_at": "20260809T064500Z",
       "source": "ahaber.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f0815947894ad0c9",
+      "headline": "Dikenai Sanksi Pembatasan Usaha , OJK : KoinP2P Tidak Bisa Salurkan Pembiayaan Baru",
+      "url": "https://keuangan.kontan.co.id/news/dikenai-sanksi-pembatasan-usaha-ojk-koinp2p-tidak-bisa-salurkan-pembiayaan-baru",
+      "published_at": "20260809T094500Z",
+      "source": "keuangan.kontan.co.id",
       "tags": []
     },
     {
@@ -691,6 +687,41 @@
       "tags": []
     },
     {
+      "id": "gdelt_496be4e951726861",
+      "headline": "Iran - Krieg News : Neue Forderungen an united states zur Straße von Hormus",
+      "url": "https://www.otz.de/politik/article412152244/iran-israel-krieg-news-aktuell-blog-forderungen-usa-strasse-von-hormus.html",
+      "published_at": "20260809T081500Z",
+      "source": "otz.de",
+      "tags": [
+        "ISRAEL",
+        "UNITED_STATES"
+      ]
+    },
+    {
+      "id": "gdelt_0e28c62f2b3496f7",
+      "headline": "شعار  بيع أمريكا  يثير مخاوف الأسواق .. الذهب والفضة أبرز المستفيدين من تراجع الثقة",
+      "url": "https://www.dostor.org/5661457",
+      "published_at": "20260809T090000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_dfe83ed4fadd06e4",
+      "headline": "Iraqi Militia Leader Threatens Retaliation After Reported US - Saudi Strikes",
+      "url": "https://www.khaama.com/iraqi-militia-leader-threatens-retaliation-after-reported-us-saudi-strikes/",
+      "published_at": "20260809T093000Z",
+      "source": "khaama.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cc1dfd520f8bcfbc",
+      "headline": "Jemenski Hutiji preuzeli odgovornost za napad na naftno postrojenje u Saudijskoj Arabiji",
+      "url": "https://www.danas.rs/svet/jemenski-hutiji-preuzeli-odgovornost-za-napad-na-naftno-postrojenje-u-saudijskoj-arabiji/",
+      "published_at": "20260809T094500Z",
+      "source": "danas.rs",
+      "tags": []
+    },
+    {
       "id": "gdelt_ea3c1bf3c38489fd",
       "headline": "אטליז ברהט נסגר - וואלה חדשות",
       "url": "https://news.walla.co.il/item/3859384",
@@ -699,37 +730,19 @@
       "tags": []
     },
     {
+      "id": "gdelt_55d2c2afa4905e96",
+      "headline": "В Подмосковье оштрафовали предпринимательницу за продажу 90 кг санкционного сыра :: Новости дня / ВЗГЛЯД",
+      "url": "https://vz.ru/news/2026/8/9/1441353.html",
+      "published_at": "20260809T100000Z",
+      "source": "vz.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_6eddcd7eb1721da1",
       "headline": "موقع بكرا - واشنطن أمام مأزق إيران .. رئيس الأركان يحذر من استمرار الحرب",
       "url": "https://bokra.net/Article-1600864",
       "published_at": "20260809T063000Z",
       "source": "bokra.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_919838db9564785b",
-      "headline": "tayyar . org - بعد 5 أشهر في الظل ... إيران تنشر أول فيديو لمجتبى خامنئي",
-      "url": "https://www.tayyar.org/News/World/736222/_guid=736222",
-      "published_at": "20260809T043000Z",
-      "source": "tayyar.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d912c400deab9aa8",
-      "headline": "越禁越买 ！ 美国人热衷来中国扫货 制裁清单VS真香清单 _ 新闻频道 _ 中华网",
-      "url": "https://news.china.com/socialgd/10000169/20260809/49662926.html",
-      "published_at": "20260809T040000Z",
-      "source": "news.china.com",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
-      "id": "gdelt_7349aba5be028b00",
-      "headline": "تعديل موعد الموسم الدراسي بالجزائر",
-      "url": "https://www.hespress.com/%D8%AA%D8%B9%D8%AF%D9%8A%D9%84-%D9%85%D9%88%D8%B9%D8%AF-%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%85-%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A-%D8%A8%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1-1789473.html",
-      "published_at": "20260809T060000Z",
-      "source": "hespress.com",
       "tags": []
     },
     {
@@ -743,11 +756,11 @@
       ]
     },
     {
-      "id": "gdelt_a4238dc7d8589824",
-      "headline": "Iran leaders think they have Trump cornered , but their strategy carries great risks - Las Vegas Sun News",
-      "url": "https://lasvegassun.com/news/2026/aug/07/irans-leaders-think-they-have-trump-cornered-but-t/",
-      "published_at": "20260809T054500Z",
-      "source": "lasvegassun.com",
+      "id": "gdelt_7349aba5be028b00",
+      "headline": "تعديل موعد الموسم الدراسي بالجزائر",
+      "url": "https://www.hespress.com/%D8%AA%D8%B9%D8%AF%D9%8A%D9%84-%D9%85%D9%88%D8%B9%D8%AF-%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%85-%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A-%D8%A8%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1-1789473.html",
+      "published_at": "20260809T060000Z",
+      "source": "hespress.com",
       "tags": []
     },
     {
@@ -756,6 +769,14 @@
       "url": "https://www.elplural.com/politica/internacional/el-sayed-rompe-planes-aparato-democrata-convierte-michigan-examen-contra-trump_397607102",
       "published_at": "20260809T093000Z",
       "source": "elplural.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a4238dc7d8589824",
+      "headline": "Iran leaders think they have Trump cornered , but their strategy carries great risks - Las Vegas Sun News",
+      "url": "https://lasvegassun.com/news/2026/aug/07/irans-leaders-think-they-have-trump-cornered-but-t/",
+      "published_at": "20260809T054500Z",
+      "source": "lasvegassun.com",
       "tags": []
     },
     {
@@ -799,19 +820,19 @@
       "tags": []
     },
     {
+      "id": "gdelt_54ad1410c24b0d3e",
+      "headline": "OK忠訓mobiel01沒勞健保快速借錢 - 屏東萬丹鄉身分證借款 , 台新銀行OK忠訓 沒工作辦貸款 , 富邦銀行貸款ptt",
+      "url": "https://blog.udn.com:443/v7iv2xa1w/191999297",
+      "published_at": "20260809T094500Z",
+      "source": "blog.udn.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_9a1c44ab1af1f47b",
       "headline": "The Atlantic : Маск призывает к сделке и блокирует Starlink для ударов по РФ | MigNews - Новости Израиля и Мира на русском языке",
       "url": "https://mignews.com/news/politic/the-atlantic-mask-prizyvaet-k-sdelke-i-blokiruet-starlink-dlya-udarov-po-rf.html",
       "published_at": "20260809T064500Z",
       "source": "mignews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b620fbc018751d06",
-      "headline": "Tình báo Mỹ cảnh báo Nga có thể tấn công NATO trong vòng vài tuần tới",
-      "url": "https://danviet.vn/tinh-bao-my-canh-bao-nga-co-the-tan-cong-nato-trong-vong-vai-tuan-toi-d1450090.html",
-      "published_at": "20260809T063000Z",
-      "source": "danviet.vn",
       "tags": []
     },
     {
@@ -823,11 +844,51 @@
       "tags": []
     },
     {
+      "id": "gdelt_b620fbc018751d06",
+      "headline": "Tình báo Mỹ cảnh báo Nga có thể tấn công NATO trong vòng vài tuần tới",
+      "url": "https://danviet.vn/tinh-bao-my-canh-bao-nga-co-the-tan-cong-nato-trong-vong-vai-tuan-toi-d1450090.html",
+      "published_at": "20260809T063000Z",
+      "source": "danviet.vn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ab3ef7d86a95806e",
+      "headline": "Ukraine Zelensky to make first visit to Russia - friendly Serbia",
+      "url": "https://naharnet.com/stories/en/321719-ukraine-s-zelensky-to-make-first-visit-to-russia-friendly-serbia",
+      "published_at": "20260809T100000Z",
+      "source": "naharnet.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c70918dbb2f38d48",
+      "headline": "US Senate committee votes to hold top Covid expert Fauci in contempt",
+      "url": "https://naharnet.com/stories/en/321693-us-senate-committee-votes-to-hold-top-covid-expert-fauci-in-contempt",
+      "published_at": "20260809T100000Z",
+      "source": "naharnet.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_86e779dd57e8272a",
       "headline": "ओमानसँगको सम्झौताले मात्र हर्मुज जलमार्ग नखुल्ने इरानको अडान",
       "url": "https://www.annapurnapost.com/story/505157/",
       "published_at": "20260809T050000Z",
       "source": "annapurnapost.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_601f47ba51071dc0",
+      "headline": "Iran Makes New Strait of Hormuz Demands",
+      "url": "https://english.aawsat.com/world/5304905-iran-makes-new-strait-hormuz-demands",
+      "published_at": "20260809T061500Z",
+      "source": "english.aawsat.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b4625a6dc1166cb9",
+      "headline": "Zelenskiy : Rusya bir haftada Ukraynaya 61 füze fırlattı",
+      "url": "https://www.evrensel.net/haber/5995717/zelenskiy-rusya-bir-haftada-ukraynaya-61-fuze-firlatti",
+      "published_at": "20260809T103000Z",
+      "source": "evrensel.net",
       "tags": []
     },
     {
@@ -844,22 +905,6 @@
       "url": "https://www.inewsgr.com/97/oosa-protathlitria-sti-meiosi-tou-diathesimou-eisodimatos-i-ellada-to-proto-trimino.htm",
       "published_at": "20260809T081500Z",
       "source": "inewsgr.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_601f47ba51071dc0",
-      "headline": "Iran Makes New Strait of Hormuz Demands",
-      "url": "https://english.aawsat.com/world/5304905-iran-makes-new-strait-hormuz-demands",
-      "published_at": "20260809T061500Z",
-      "source": "english.aawsat.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0ab3f90f25946e8b",
-      "headline": "Дръзките удари на Украйна : Помагат ли на Путин ? ᐉ Новини от Fakti . bg - Свят",
-      "url": "https://fakti.bg/world/1073204-drazkite-udari-na-ukraina-pomagat-li-na-putin",
-      "published_at": "20260809T050000Z",
-      "source": "fakti.bg",
       "tags": []
     },
     {
@@ -988,54 +1033,6 @@
       "url": "https://95wxtk.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
       "published_at": "20260809T081500Z",
       "source": "95wxtk.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5650442b7ec77f59",
-      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
-      "url": "https://55krc.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
-      "published_at": "20260809T081500Z",
-      "source": "55krc.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_82d1e3fde6f45a60",
-      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz | Newsradio WOOD 1300 and 106 . 9 FM",
-      "url": "https://woodradio.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
-      "published_at": "20260809T084500Z",
-      "source": "woodradio.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f37e7fa62baffeb0",
-      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
-      "url": "https://wtkg.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
-      "published_at": "20260809T084500Z",
-      "source": "wtkg.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9e62ee3007b0a13b",
-      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
-      "url": "https://wjdx.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
-      "published_at": "20260809T084500Z",
-      "source": "wjdx.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_89c749018869d1e1",
-      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
-      "url": "https://570wkbn.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
-      "published_at": "20260809T084500Z",
-      "source": "570wkbn.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_112904dbd4c174d2",
-      "headline": "Iran Demands U . S . Action To Reopen Strait Of Hormuz",
-      "url": "https://960weli.iheart.com/content/2026-08-09-iran-demands-us-action-to-reopen-strait-of-hormuz/",
-      "published_at": "20260809T074500Z",
-      "source": "960weli.iheart.com",
       "tags": []
     }
   ]
