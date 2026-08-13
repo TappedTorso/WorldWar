@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-08-13T17:11:07Z",
+    "generated_at_utc": "2026-08-13T18:06:14Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "http_error status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
         "fetched": 0
       },
       {
@@ -33,37 +33,11 @@
   },
   "events": [
     {
-      "id": "gdelt_3bd876f43e99c42a",
-      "headline": "Bloomberg : США вернутся к экономическому давлению на Иран",
-      "url": "https://www.pnp.ru/in-world/bloomberg-ssha-vernutsya-k-ekonomicheskomu-davleniyu-na-iran.html",
-      "published_at": "20260813T111500Z",
-      "source": "pnp.ru",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
       "id": "gdelt_7238aba6bba7751c",
       "headline": "UNSC sanctions report says Red Fort attack  officially attributed  to Al - Qaeda in Indian Subcontinent",
       "url": "https://www.thehindu.com/news/national/unsc-sanctions-report-says-red-fort-attack-officially-attributed-to-al-qaeda-in-indian-subcontinent/article71340905.ece",
       "published_at": "20260813T124500Z",
       "source": "thehindu.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1d03f144e815cacd",
-      "headline": "Seit gestern gilt neue EU - Regel : Erste Händler schränken ihre Lieferungen ein",
-      "url": "https://www.chip.de/news/geld-finanzen-recht/seit-gestern-gilt-neue-eu-regel-erste-haendler-schraenken-ihre-lieferungen-ein_a9118e8d-9f78-4a3c-826d-8f53af23a0f3.html",
-      "published_at": "20260813T114500Z",
-      "source": "chip.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b6ccf5704e0abe50",
-      "headline": "The Global Cross - Border Trade Industrial Cluster : Converging Trade in Nansha , Connecting the Globe : The Heart of the GBA Shapes a New Landscape for the Global Cross - Border Trade Ecosystem",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69302395-the-global-cross-border-trade-industrial-cluster-converging-trade-in-nansha-connecting-the-globe-the-heart-of-the-gba-shapes-a-new-landscape-for-th-399.htm",
-      "published_at": "20260813T111500Z",
-      "source": "finanznachrichten.de",
       "tags": []
     },
     {
@@ -107,16 +81,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_5acadc8177be2005",
-      "headline": "South Korea Tightens Crypto Grip : Travel Rule Expands , But No Outright Ban",
-      "url": "http://www.econotimes.com/South-Korea-Tightens-Crypto-Grip-Travel-Rule-Expands-But-No-Outright-Ban-1749379",
-      "published_at": "20260813T113000Z",
-      "source": "econotimes.com",
-      "tags": [
-        "SOUTH_KOREA"
-      ]
-    },
-    {
       "id": "gdelt_e4831c14aa0b3a74",
       "headline": "愛家也愛自己 移民署帶領新住民從自我照顧出發 打造幸福生活",
       "url": "https://n.yam.com/Article/20260813428264",
@@ -149,16 +113,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_cdf15ebfda943fcb",
-      "headline": "Ukraine - Support - Tracker : Institut : Europa baut Hilfe für die Ukraine aus",
-      "url": "https://www.zeit.de/news/2026-08/13/institut-europa-baut-hilfe-fuer-die-ukraine-aus",
-      "published_at": "20260813T114500Z",
-      "source": "zeit.de",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
       "id": "gdelt_99b3be297e775ab7",
       "headline": "Rund elf Milliarden Euro : IfW - Institut : Europa hat Ukraine - Hilfe im Mai und Juni ausgebaut",
       "url": "https://www.n-tv.de/ticker/IfW-Institut-Europa-hat-Ukraine-Hilfe-im-Mai-und-Juni-ausgebaut-id31190046.html",
@@ -169,37 +123,11 @@
       ]
     },
     {
-      "id": "gdelt_66769376ffcfa1cc",
-      "headline": "Institut : Europa baut Hilfe für die Ukraine aus",
-      "url": "https://www.finanzen.net/nachricht/aktien/institut-europa-baut-hilfe-fuer-die-ukraine-aus-15872853",
-      "published_at": "20260813T114500Z",
-      "source": "finanzen.net",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "gdelt_7b133a08a9231a60",
-      "headline": "Institut : Europa baut Hilfe für die Ukraine aus",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69302854-institut-europa-baut-hilfe-fuer-die-ukraine-aus-016.htm",
-      "published_at": "20260813T114500Z",
-      "source": "finanznachrichten.de",
-      "tags": []
-    },
-    {
       "id": "gdelt_9f4604b1a9f4d5cf",
       "headline": "Uji i Ibrit , si armë për presion politik në Ballkan",
       "url": "https://lajmi.net/uji-i-ibrit-si-arme-per-presion-politik-ne-ballkan/",
       "published_at": "20260813T123000Z",
       "source": "lajmi.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3396fe227eac2b3d",
-      "headline": "Institut : Europa baut Hilfe für die Ukraine aus",
-      "url": "https://www.welt.de/regionales/hamburg/article6a7da84e0773f8de2467299a/institut-europa-baut-hilfe-fuer-die-ukraine-aus.html",
-      "published_at": "20260813T114500Z",
-      "source": "welt.de",
       "tags": []
     },
     {
@@ -211,11 +139,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_aaeb151a3c40d010",
-      "headline": "Geplanter Besuch der Mutter endet im Gefängnis - Baden - Württemberg",
-      "url": "https://www.zvw.de/baden-w%C3%BCrttemberg/geplanter-besuch-der-mutter-endet-im-gef%C3%A4ngnis_arid-1094295",
-      "published_at": "20260813T111500Z",
-      "source": "zvw.de",
+      "id": "gdelt_e3127b1f3c4e3200",
+      "headline": "ABDden Sınır Ötesi Siber Tehditlere Karşı Özel Sektör Hamlesi",
+      "url": "https://sana.sy/tr/international/2316747/",
+      "published_at": "20260813T171500Z",
+      "source": "sana.sy",
       "tags": []
     },
     {
@@ -224,46 +152,6 @@
       "url": "https://www.astroawani.com/berita-malaysia/jerebu-penutupan-sekolah-di-serian-dilanjut-hingga-jumaat",
       "published_at": "20260813T154500Z",
       "source": "astroawani.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_47cf0d0ad846f46e",
-      "headline": "EU new packaging regime locks small publishers out of single market – EUobserver",
-      "url": "https://euobserver.com/232272/eu-new-packaging-regime-locks-small-publishers-out-of-single-market/",
-      "published_at": "20260813T114500Z",
-      "source": "euobserver.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4fa796d66db8865a",
-      "headline": "Institut : Europa baut Hilfe für die Ukraine aus ()",
-      "url": "https://www.aktiencheck.de/analysen/Artikel-Institut_Europa_baut_Hilfe_fuer_Ukraine_aus-20017255",
-      "published_at": "20260813T114500Z",
-      "source": "aktiencheck.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_51485bcfefb506b3",
-      "headline": "Institut : Europa baut Hilfe für die Ukraine aus ()",
-      "url": "https://www.aktiencheck.de/news/Artikel-Institut_Europa_baut_Hilfe_fuer_Ukraine_aus-20017255",
-      "published_at": "20260813T114500Z",
-      "source": "aktiencheck.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_563ec1e06bcd143f",
-      "headline": "أمين الجامعة العربية يدين التصعيد الإسرائيلي في فلسطين ولبنان",
-      "url": "https://www.elwatannews.com/news/details/8338762",
-      "published_at": "20260813T114500Z",
-      "source": "elwatannews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0c6825d8726adcb4",
-      "headline": "Geplanter Besuch der Mutter endet im Gefängnis",
-      "url": "https://www.schwaebische.de/regional/baden-wuerttemberg/geplanter-besuch-der-mutter-endet-im-gefaengnis-4783033",
-      "published_at": "20260813T111500Z",
-      "source": "schwaebische.de",
       "tags": []
     },
     {
@@ -291,28 +179,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_8a258352f41cc06a",
-      "headline": "Jerebu : Penutupan sekolah di Serian dilanjut hingga Jumaat",
-      "url": "https://www.utusan.com.my/nasional/2026/08/jerebu-penutupan-sekolah-di-serian-dilanjut-hingga-jumaat/",
-      "published_at": "20260813T114500Z",
-      "source": "utusan.com.my",
-      "tags": []
-    },
-    {
       "id": "gdelt_a159606c7396b569",
       "headline": "Европейские страны увеличили помощь Украине с начала года",
       "url": "https://www.lrt.lt/ru/novosti/17/3020317/evropeiskie-strany-uvelichili-pomoshch-ukraine-s-nachala-goda",
       "published_at": "20260813T143000Z",
       "source": "lrt.lt",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ad6d9ac0f7808b2f",
-      "headline": "261 против 24 : Россия и Украина обменялись телами погибших",
-      "url": "https://wek.ru/261-protiv-24-rossiya-i-ukraina-obmenyalis-telami-pogibshix",
-      "published_at": "20260813T113000Z",
-      "source": "wek.ru",
-      "tags": []
+      "tags": [
+        "UKRAINE"
+      ]
     },
     {
       "id": "gdelt_be96662407cfb01e",
@@ -419,11 +293,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_79df8721dff2ade0",
-      "headline": "La batalla financiera contra occidente",
-      "url": "https://www.elfinanciero.com.mx/opinion/raquel-lopez-portillo-maltos/2026/08/13/la-batalla-financiera-contra-occidente/",
-      "published_at": "20260813T114500Z",
-      "source": "elfinanciero.com.mx",
+      "id": "gdelt_2c5c038a2d19e29d",
+      "headline": "Мендель заявила об ответственности Зеленского за эскалацию конфликта на Украине",
+      "url": "https://life.ru/p/1911590",
+      "published_at": "20260813T174500Z",
+      "source": "life.ru",
       "tags": []
     },
     {
@@ -440,22 +314,6 @@
       "url": "https://www.rts.rs/vesti/politika/6018881/vlada-poljoprivreda-osnazivanjnjezena.html",
       "published_at": "20260813T143000Z",
       "source": "rts.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6dac28b3466ef3d1",
-      "headline": "باكستان تشدد على أهمية خفض التصعيد في الشرق الأوسط",
-      "url": "https://www.vetogate.com/5712045",
-      "published_at": "20260813T113000Z",
-      "source": "vetogate.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4eef6594dca2f7a5",
-      "headline": "Власюк про нові санкції партнерів проти РФ : Головне завдання зараз – не дати ворогу часу на адаптацію",
-      "url": "https://interfax.com.ua/news/general/1192875.html",
-      "published_at": "20260813T113000Z",
-      "source": "interfax.com.ua",
       "tags": []
     },
     {
@@ -481,7 +339,8 @@
       "published_at": "20260813T121500Z",
       "source": "newsday.com",
       "tags": [
-        "RUSSIA"
+        "RUSSIA",
+        "UKRAINE"
       ]
     },
     {
@@ -501,31 +360,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_d05dd9cddb6a6903",
-      "headline": "الحصار الاقتصادي وحده لن يحسم المواجهة .. خبير : ترامب بمفترق طرق أمام إيران",
-      "url": "https://www.dostor.org/5666083",
-      "published_at": "20260813T113000Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
       "id": "gdelt_6dfe6da6f510cb5a",
       "headline": "الأمين العام لجامعة الدول العربية يدين التصعيد الإسرائيلي في فلسطين ولبنان ويحذر من اتساع المواجهة",
       "url": "https://gate.ahram.org.eg/News/5887954.aspx",
       "published_at": "20260813T123000Z",
       "source": "gate.ahram.org.eg",
       "tags": []
-    },
-    {
-      "id": "gdelt_82bbfa15dfff8f71",
-      "headline": "Syria , Iraq seek stronger judicial cooperation in Damascus talks",
-      "url": "https://sana.sy/en/syria/2336100/",
-      "published_at": "20260813T114500Z",
-      "source": "sana.sy",
-      "tags": [
-        "SYRIA",
-        "IRAQ"
-      ]
     },
     {
       "id": "gdelt_913be38c0bfab164",
@@ -596,14 +436,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_ab55533202e219f3",
-      "headline": "Bank interest in tokenized deposits grew in second quarter",
-      "url": "https://www.americanbanker.com/payments/news/banks-interest-in-tokenized-deposits-grew-in-second-quarter",
-      "published_at": "20260813T141500Z",
-      "source": "americanbanker.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_712c326ca2584744",
       "headline": "Украина получила рекордный объем военной помощи , – СМИ",
       "url": "https://vv.com.ua/20260813/ykraina-polychila-rekordnyi-obem-voennoi-pomoshi-smi/",
@@ -612,14 +444,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_d4a188cc0ef56eeb",
-      "headline": "Tiba - Tiba Batal Lawan Timnas Indonesia di ASEAN Cup 2026 , India Berharap Tak Kena Sanksi FIFA : Okezone Bola",
-      "url": "https://bola.okezone.com/read/2026/08/13/51/3235941/tiba-tiba-batal-lawan-timnas-indonesia-di-asean-cup-2026-india-berharap-tak-kena-sanksi-fifa",
-      "published_at": "20260813T111500Z",
-      "source": "bola.okezone.com",
-      "tags": [
-        "INDIA"
-      ]
+      "id": "gdelt_ab55533202e219f3",
+      "headline": "Bank interest in tokenized deposits grew in second quarter",
+      "url": "https://www.americanbanker.com/payments/news/banks-interest-in-tokenized-deposits-grew-in-second-quarter",
+      "published_at": "20260813T141500Z",
+      "source": "americanbanker.com",
+      "tags": []
     },
     {
       "id": "gdelt_de9674089b0d06b6",
@@ -637,6 +467,14 @@
       "url": "https://www.dw.com/zh/11%E4%BA%BA%E6%B6%89%E5%AB%8C%E7%BB%84%E7%BB%87%E5%81%87%E7%BB%93%E5%A9%9A%E5%9C%A8%E7%BE%8E%E8%A2%AB%E6%8D%95-%E5%BD%93%E4%BA%8B%E4%BA%BA%E5%A4%9A%E4%B8%BA%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E6%88%96%E5%8D%8E%E8%A3%94/a-78351317",
       "published_at": "20260813T124500Z",
       "source": "dw.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ae6bbe3798f094f3",
+      "headline": "Romanyada nükleer alarm ! Tuna Nehri kurudu , santral devre d kald",
+      "url": "https://www.aksam.com.tr/dunya/romanyada-nukleer-alarm-tuna-nehri-kurudu-santral-devre-disi-kaldi/haber-1690441",
+      "published_at": "20260813T170000Z",
+      "source": "aksam.com.tr",
       "tags": []
     },
     {
@@ -664,28 +502,22 @@
       "tags": []
     },
     {
-      "id": "gdelt_a2a01e5f8e9c9ad8",
-      "headline": "الأونروا : نقص الوقود وقطع الغيار يهدد استمرار الخدمات الإنسانية في غزة",
-      "url": "https://www.vetogate.com/5712049",
-      "published_at": "20260813T113000Z",
-      "source": "vetogate.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2adddbf56ea3f3ce",
-      "headline": "Privacy watchdog warns of  serious risk over EU police agency surveillance – POLITICO",
-      "url": "https://www.politico.eu/article/europol-data-processing-reform-privacy-risks-edps-warning/",
-      "published_at": "20260813T111500Z",
-      "source": "politico.eu",
-      "tags": []
-    },
-    {
       "id": "gdelt_415261207da3e96b",
       "headline": "Ukraine drones hit major Russian refinery 800 miles from the border , sparking fire",
       "url": "https://abcnews.com/International/wireStory/ukraines-drones-hit-major-russian-refinery-800-miles-135605504",
       "published_at": "20260813T143000Z",
       "source": "abcnews.com",
       "tags": []
+    },
+    {
+      "id": "gdelt_d4a0519550c67e7b",
+      "headline": "Thailand Advances Toward Global Digital Asset Standards as Bitazza Achieves Travel Rule Readiness with Sumsub",
+      "url": "https://portal.sina.com.hk/finance/finance-prnewswire/prnasia/2026/08/13/1886127/thailand-advances-toward-global-digital-asset-standards-as-bitazza-achieves-travel-rule-readiness-with-sumsub/",
+      "published_at": "20260813T170000Z",
+      "source": "portal.sina.com.hk",
+      "tags": [
+        "THAILAND"
+      ]
     },
     {
       "id": "gdelt_f4653bbda4574f13",
@@ -706,43 +538,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_927baa81207028bf",
-      "headline": "Kasus Perundungan Terulang di SMPN 1 Blora , Kepala Sekolah Akui Masih Kecolongan",
-      "url": "https://jateng.tribunnews.com/jawa-tengah/1263068/kasus-perundungan-terulang-di-smpn-1-blora-kepala-sekolah-akui-masih-kecolongan",
-      "published_at": "20260813T111500Z",
-      "source": "jateng.tribunnews.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_e06d212a87285b1b",
       "headline": "Финляндия выделяет 28 , 5 млн евро на электростанции для Украины",
       "url": "https://korrespondent.net/world/4902643-fynliandyia-vydeliaet-285-mln-evro-na-elektrostantsyy-dlia-ukrayny",
       "published_at": "20260813T154500Z",
       "source": "korrespondent.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c7c20f0155e7fe6d",
-      "headline": "冲上热搜 ， 却没真相 ： 雅典娜  失踪3年后的重重疑云 _ 凤凰网",
-      "url": "https://news.ifeng.com/c/8vYlVt9Qtz0",
-      "published_at": "20260813T114500Z",
-      "source": "news.ifeng.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_69e3f251a40aa07c",
-      "headline": "极端高温或令欧盟国家损失约1800亿欧元 - 新闻中心 - 中国宁波网",
-      "url": "http://news.cnnb.com.cn/system/2026/08/13/030803351.shtml",
-      "published_at": "20260813T111500Z",
-      "source": "news.cnnb.com.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_73ad4677dae110ef",
-      "headline": "Europa ruszyła za flotą cieni . Moskwa grozi odwetem",
-      "url": "https://spidersweb.pl/2026/08/putin-flota-cieni-europa-statki-odwet.html",
-      "published_at": "20260813T113000Z",
-      "source": "spidersweb.pl",
       "tags": []
     },
     {
@@ -769,22 +569,6 @@
       "url": "https://www.vedomosti.ru/press_releases/2026/08/13/prakticheskoe-sotrudnichestvo-stran-briks-obsudyat-na-forume-v-moskve",
       "published_at": "20260813T123000Z",
       "source": "vedomosti.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_119adb2695899df6",
-      "headline": "Problematischer Medizintourismus in plastischer Chirurgie",
-      "url": "https://www.sn.at/panorama/wissen/problematischer-medizintourismus-in-plastischer-chirurgie-art-667407",
-      "published_at": "20260813T113000Z",
-      "source": "sn.at",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1c648509ade75175",
-      "headline": "إسرائيل تلغي قرار إخلاء عائلات فلسطينية من قصرة : سنكتفي باحتلال المنازل غير المأهولة",
-      "url": "https://www.elwatannews.com/news/details/8338759",
-      "published_at": "20260813T114500Z",
-      "source": "elwatannews.com",
       "tags": []
     },
     {
@@ -822,14 +606,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_d1689401c7a60e14",
-      "headline": "Yemeni forces say Houthi attack repelled in Taiz amid escalation",
-      "url": "https://www.aljazeera.com/news/2026/8/13/yemeni-forces-say-houthi-attack-repelled-in-taiz-amid-escalation",
-      "published_at": "20260813T114500Z",
-      "source": "aljazeera.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_519c75db31b87e4b",
       "headline": "مصابون في قصف إسرائيلي على قطاع غزة",
       "url": "https://www.vetogate.com/5712128",
@@ -843,14 +619,6 @@
       "url": "https://argumenti.ru/society/zelenskiy-i-lukashenko-vozmozhno-posmotryat-drug-drugu-v-glaza-1006178",
       "published_at": "20260813T123000Z",
       "source": "argumenti.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e75d7d601a7e4d96",
-      "headline": "عجز في الجبهات واستهداف للمرافق .. كواليس التصعيد الحوثي ضد ميناء المخا",
-      "url": "https://www.eremnews.com/news/arab-world/5qnoqfj",
-      "published_at": "20260813T114500Z",
-      "source": "eremnews.com",
       "tags": []
     },
     {
@@ -947,11 +715,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_b6fd1b127f15d6f6",
-      "headline": "Росія атакувала пасажирський потяг на Одещині : загинули двоє людей",
-      "url": "https://news.bigmir.net/ua/ukraine/10410174-rosiya-atakuvala-pasazhirskij-potyag-na-odeschini-zaginuli-dvoje-lyudej",
-      "published_at": "20260813T113000Z",
-      "source": "news.bigmir.net",
+      "id": "gdelt_7e12aeb9b6394585",
+      "headline": "Помощник Лулы да Силвы : Европа просит Бразилию о помощи в диалоге с Россией",
+      "url": "https://life.ru/p/1911616",
+      "published_at": "20260813T174500Z",
+      "source": "life.ru",
       "tags": []
     },
     {
@@ -964,6 +732,14 @@
         "PAKISTAN",
         "SAUDI_ARABIA"
       ]
+    },
+    {
+      "id": "gdelt_0c4ca3cd7c593d3a",
+      "headline": "Energy nationalism and interconnectors : the next power threat ? | Nils Pratley",
+      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/aug/13/energy-nationalism-interconnectors-next-power-",
+      "published_at": "20260813T174500Z",
+      "source": "theguardian.com",
+      "tags": []
     },
     {
       "id": "gdelt_a78a3f570ef663bd",
@@ -990,22 +766,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_436d76b00d245263",
-      "headline": "Pemerintah Perketat Langkah Pencegahan Antisipasi Karhutla",
-      "url": "https://koran-jakarta.com/2026-08-13/pemerintah-perketat-langkah-pencegahan-antisipasi-karhutla",
-      "published_at": "20260813T114500Z",
-      "source": "koran-jakarta.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e02327ee045993f0",
-      "headline": "نبيل فهمي : اعتداءات إسرائيل في فلسطين ولبنان تستهدف فرض وقائع جديدة وتهدد المنطقة",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=13082026&id=7dc26b5b-9b35-4ed6-a352-e5fe052aa554",
-      "published_at": "20260813T111500Z",
-      "source": "shorouknews.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_bf18f79c0a95c73f",
       "headline": "Турция предложила России и Украине прекращение огня в Черном море : подробности , к чему это приведет",
       "url": "https://ura.news/articles/1053118127",
@@ -1027,6 +787,244 @@
       "url": "http://www.merkur.de/wirtschaft/kein-kollaps-aber-ein-gefaehrlicher-verschleiss-was-russlands-oelsektor-laut-experten-droht-zr-94442215.html",
       "published_at": "20260813T141500Z",
       "source": "merkur.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_156f4d8216c96a46",
+      "headline": "Украина получила рекордный объем военной помощи | Комментарии Украина",
+      "url": "https://society.comments.ua/news/warrussia/rekordnaya-za-vse-vremena-summa-es-poshel-na-kardinalnyy-shag-dlya-podderzhki-ukrainy-813647.html",
+      "published_at": "20260813T173000Z",
+      "source": "society.comments.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5333cb151b5b5e0f",
+      "headline": "Sulap Cilincing Jadi Gunungan Busuk , 4 Perusahaan Sampah Didenda Rp10 Juta",
+      "url": "https://wartakota.tribunnews.com/jakarta/898260/sulap-cilincing-jadi-gunungan-busuk-4-perusahaan-sampah-didenda-rp10-juta",
+      "published_at": "20260813T174500Z",
+      "source": "wartakota.tribunnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_23b724b1b1c6da6e",
+      "headline": "Kein Kollaps , aber ein gefährlicher Verschleiß : Was Russlands Ölsektor laut Experten droht",
+      "url": "http://www.hna.de/wirtschaft/kein-kollaps-aber-ein-gefaehrlicher-verschleiss-was-russlands-oelsektor-laut-experten-droht-zr-94442215.html",
+      "published_at": "20260813T143000Z",
+      "source": "hna.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0a7f4f85b8c50ab6",
+      "headline": "Kein Kollaps , aber ein gefährlicher Verschleiß : Was Russlands Ölsektor laut Experten droht",
+      "url": "https://www.hna.de/wirtschaft/kein-kollaps-aber-ein-gefaehrlicher-verschleiss-was-russlands-oelsektor-laut-experten-droht-zr-94442215.html",
+      "published_at": "20260813T141500Z",
+      "source": "hna.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_dba0936178f9938d",
+      "headline": "BCE faz lista das fraudes mais comuns que utilizam o seu nome",
+      "url": "https://sapo.pt/artigo/bce-faz-lista-das-fraudes-mais-comuns-que-utilizam-o-seu-nome-6a7dd619722a0e2b23233d71",
+      "published_at": "20260813T150000Z",
+      "source": "sapo.pt",
+      "tags": []
+    },
+    {
+      "id": "gdelt_083a013656a120b2",
+      "headline": "Kein Kollaps , aber ein gefährlicher Verschleiß : Was Russlands Ölsektor laut Experten droht",
+      "url": "http://www.come-on.de/wirtschaft/kein-kollaps-aber-ein-gefaehrlicher-verschleiss-was-russlands-oelsektor-laut-experten-droht-zr-94442215.html",
+      "published_at": "20260813T143000Z",
+      "source": "come-on.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a4c4773b0954a177",
+      "headline": "Italien verschärft Verkehrsregeln und erhöht Bußgelder",
+      "url": "https://www.gmx.at/magazine/reise/italien-verschaerft-verkehrsregeln-erhoeht-bussgelder-42608462",
+      "published_at": "20260813T124500Z",
+      "source": "gmx.at",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d27fea90b322eec9",
+      "headline": "Beliebter Urlaubssee so leer wie nie – Italien und Schweiz greifen zu drastischer Notmaßnahme",
+      "url": "http://www.merkur.de/welt/beliebter-urlaubssee-so-leer-wie-nie-italien-und-schweiz-greifen-zu-drastischer-notmassnahme-zr-94442199.html",
+      "published_at": "20260813T131500Z",
+      "source": "merkur.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fcb235daa7822efd",
+      "headline": "Geheimgeschäfte mit Russland : Hintermänner noch nicht gefasst",
+      "url": "https://www.news.at/politik/prozess-wien-russland-sanktionen-umgehung-hintermaenner",
+      "published_at": "20260813T124500Z",
+      "source": "news.at",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3efb5bb3d183b4e2",
+      "headline": "Иран очаква да се присъдени към банката на БРИКС",
+      "url": "https://news.bg/int-economics/iran-ochakva-da-se-prisadeni-kam-bankata-na-briks.html",
+      "published_at": "20260813T123000Z",
+      "source": "news.bg",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_5973ccf5ee770cf2",
+      "headline": "Guerre en Ukraine  : laide militaire rebondit en juin grâce à lUnion européenne , mais ralentit sur le long terme",
+      "url": "https://www.sudouest.fr:443/international/europe/ukraine/guerre-en-ukraine-l-aide-militaire-rebondit-en-juin-grace-a-l-union-europeenne-mais-ralentit-sur-le-long-terme-30240291.php",
+      "published_at": "20260813T144500Z",
+      "source": "sudouest.fr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_eea1d2a47e4a5691",
+      "headline": "UK weighs raft of measures against Israel as pressure grows for action to match rhetoric",
+      "url": "https://www.middleeastmonitor.com/20260813-uk-weighs-raft-of-measures-against-israel-as-pressure-grows-for-action-to-match-rhetoric/",
+      "published_at": "20260813T123000Z",
+      "source": "middleeastmonitor.com",
+      "tags": [
+        "ISRAEL"
+      ]
+    },
+    {
+      "id": "gdelt_223022fb915867dc",
+      "headline": "Ketum Bamus : Tak Boleh Ada Penistaan Agama di Tanah Betawi",
+      "url": "https://rri.co.id/regional/2649681/ketum-bamus-tak-boleh-ada-penistaan-agama-di-tanah-betawi",
+      "published_at": "20260813T123000Z",
+      "source": "rri.co.id",
+      "tags": []
+    },
+    {
+      "id": "gdelt_931e5ba88ac792ca",
+      "headline": "نيوزيمن - مؤسسة أمريكية : الحوثيون يوسعون الحرب واليمنيون يدفعون الكلفة",
+      "url": "https://www.newsyemen.net/new/105650",
+      "published_at": "20260813T170000Z",
+      "source": "newsyemen.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4a33677beefd3f9b",
+      "headline": "Pemprov DKI denda empat perusahaan pengangkut sampah Rp10 juta",
+      "url": "https://www.antaranews.com/berita/5693349/pemprov-dki-denda-empat-perusahaan-pengangkut-sampah-rp10-juta",
+      "published_at": "20260813T154500Z",
+      "source": "antaranews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9a0ea506168b8b58",
+      "headline": "Poľsko zmarilo atentát na človeka nepohodlného Putinovmu režimu . Poprave sme zabránili na poslednú chvíľu , oznámil Tusk",
+      "url": "https://www.ta3.com/clanok/1065911/polsko-zadrzalo-naverbovaneho-rusa-vo-varsave-mal-zavrazdit-cloveka-nepohodlneho-pre-putinov-rezim",
+      "published_at": "20260813T154500Z",
+      "source": "ta3.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4987ff37e7849382",
+      "headline": "抗议普京访择捉岛 高市 ： 伤害日人感情  绝不允许  | 国际 | 東方網 馬來西亞東方日報",
+      "url": "https://www.orientaldaily.com.my/news/international/2026/08/13/840452",
+      "published_at": "20260813T144500Z",
+      "source": "orientaldaily.com.my",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8e99f1020d75227e",
+      "headline": "Эксперт оценил реакцию Японии на визит Путина на Курилы",
+      "url": "https://ria.ru/20260813/japonija-2110691582.html",
+      "published_at": "20260813T123000Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_54c0308fb660d36e",
+      "headline": "Cục CSGT đề xuất có thể nộp phạt nguội hoàn toàn qua mạng",
+      "url": "https://vnexpress.net/cuc-csgt-de-xuat-co-the-nop-phat-nguoi-hoan-toan-qua-mang-5108788.html",
+      "published_at": "20260813T154500Z",
+      "source": "vnexpress.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ed8e4ddfb64a70f3",
+      "headline": "Solothurner Regierungsrat will Kantonspolizei um 100 Stellen aufstocken",
+      "url": "https://www.watson.ch/schweiz/gesellschaft-politik/665764664-solothurner-regierungsrat-will-kantonspolizei-um-100-stellen-aufstocken",
+      "published_at": "20260813T124500Z",
+      "source": "watson.ch",
+      "tags": []
+    },
+    {
+      "id": "gdelt_40eeac2129b9fce0",
+      "headline": "Iran moves closer to BRICS bank membership as sanctions bite - reports ( CL1 : COM : Commodity )",
+      "url": "https://seekingalpha.com/news/4632387-iran-moves-closer-to-brics-bank-membership-as-sanctions-bite---reports",
+      "published_at": "20260813T144500Z",
+      "source": "seekingalpha.com",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_28c830b2dc8a425c",
+      "headline": "Beliebter Urlaubssee so leer wie nie – Italien und Schweiz greifen zu drastischer Notmaßnahme",
+      "url": "http://www.op-online.de/welt/beliebter-urlaubssee-so-leer-wie-nie-italien-und-schweiz-greifen-zu-drastischer-notmassnahme-zr-94442199.html",
+      "published_at": "20260813T131500Z",
+      "source": "op-online.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ca1a3e23cc6ab2f6",
+      "headline": "Why is the world second - largest banking institution betting big on the Ambani - owned Jio Credit ?",
+      "url": "https://www.theweek.in/news/biz-tech/2026/08/13/why-is-the-worlds-second-largest-banking-institution-betting-big-on-the-ambani-owned-jio-credit.html",
+      "published_at": "20260813T143000Z",
+      "source": "theweek.in",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6cc6a27a2677fe6f",
+      "headline": "الجامعة العربية تدين اقتحام 584 مستوطنا للمسجد الأقصى",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=13082026&id=eb082dac-a0fd-454d-a79e-b4cf8b42fb2f",
+      "published_at": "20260813T141500Z",
+      "source": "shorouknews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e9ffb188bfdf91e8",
+      "headline": "Côte dIvoire – Mauritanie : Ouattara et Ghazouani resserrent leur coopération - Presse et Portail dInformations Générales",
+      "url": "https://ivorian.net/cote-divoire-mauritanie-ouattara-et-ghazouani-resserrent-leur-cooperation/",
+      "published_at": "20260813T131500Z",
+      "source": "ivorian.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ff684433758adbcd",
+      "headline": "Россия оснащает танкеры теневого флота защитой от дронов – что известно",
+      "url": "https://www.obozrevatel.com/novosti-mir/rossiya-osnaschaet-tankeryi-tenevogo-flota-zaschitoj-ot-dronov-v-ft-raskryili-podrobnosti.htm",
+      "published_at": "20260813T124500Z",
+      "source": "obozrevatel.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ddb8f186d2a27cbd",
+      "headline": "Vodafone Rejects Zia Yusufs Call To Suspend SIM Card Support",
+      "url": "https://www.huffingtonpost.co.uk/entry/exclusive-vodafone-zia-yusuf-sim-cards-migrants_uk_6a7dc391e4b08accea25a063",
+      "published_at": "20260813T143000Z",
+      "source": "huffingtonpost.co.uk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a3340f837fcbe480",
+      "headline": "Kê hoạch trang bị găng tay gây sốc điện cho đặc vụ di trú Mỹ gây tranh cãi",
+      "url": "https://vietgiaitri.com/ke-hoach-trang-bi-gang-tay-gay-soc-dien-cho-dac-vu-di-tru-my-gay-tranh-cai-20260813i7752632/",
+      "published_at": "20260813T144500Z",
+      "source": "vietgiaitri.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_86f0db18f87fcbb8",
+      "headline": "ЦПД : у Чехії поширюють проросійські наративи про Україну",
+      "url": "https://lb.ua/society/2026/08/13/758704_cheskomu_infoprostori.html",
+      "published_at": "20260813T124500Z",
+      "source": "lb.ua",
       "tags": []
     }
   ]
