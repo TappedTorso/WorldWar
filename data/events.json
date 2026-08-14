@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-08-14T21:38:32Z",
+    "generated_at_utc": "2026-08-14T22:39:22Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -43,26 +43,6 @@
       ]
     },
     {
-      "id": "gdelt_681614b3db79e4b7",
-      "headline": "Yemen facing escalation from Houthi attacks on Red Sea shipping , UN envoy warns",
-      "url": "http://www.jpost.com/middle-east/article-905541",
-      "published_at": "20260814T160000Z",
-      "source": "jpost.com",
-      "tags": [
-        "YEMEN"
-      ]
-    },
-    {
-      "id": "gdelt_a13840351801c2f7",
-      "headline": "China expands cross - border cash pooling to benefit multinationals",
-      "url": "http://usa.chinadaily.com.cn/a/202608/14/WS6a7f112ea31073853ec53673.html",
-      "published_at": "20260814T160000Z",
-      "source": "usa.chinadaily.com.cn",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
       "id": "gdelt_5e6da26cfa877cf7",
       "headline": "Токио повышает градус",
       "url": "https://actualcomment.ru/tokio-povyshaet-gradus-2608141900.html",
@@ -77,16 +57,6 @@
       "published_at": "20260814T164500Z",
       "source": "delfi.lt",
       "tags": []
-    },
-    {
-      "id": "gdelt_7f9ca1aae5ad8f3d",
-      "headline": "Bessent : US Readies Economic Isolation Of Iran  Like The World Has Never Seen Before",
-      "url": "https://www.zerohedge.com/economics/bessent-us-readies-economic-isolation-iran-world-has-never-seen",
-      "published_at": "20260814T163000Z",
-      "source": "zerohedge.com",
-      "tags": [
-        "IRAN"
-      ]
     },
     {
       "id": "gdelt_a3c290f52c8335d3",
@@ -105,17 +75,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_96e95f12c6892b25",
-      "headline": "No change : India reaffirms Indus Waters stance , slams Pakistan after Sharif  red - line  warning",
-      "url": "https://aninews.in/news/world/asia/no-change-india-reaffirms-indus-waters-stance-slams-pakistan-after-sharifs-red-linewarning20260814202014/",
-      "published_at": "20260814T154500Z",
-      "source": "aninews.in",
-      "tags": [
-        "INDIA",
-        "PAKISTAN"
-      ]
-    },
-    {
       "id": "gdelt_31fc8ab6f0bb1f7d",
       "headline": "Neue EU - Verpackungsverordnung : Wie das EU - Parlament den Bürger rät die PPWR - Vorgabe zu missachten",
       "url": "https://www.hna.de/wirtschaft/missachten-neue-eu-verpackungsverordnung-wie-das-eu-parlament-den-buerger-raet-die-ppwr-vorgabe-zu-zr-94443094.html",
@@ -132,14 +91,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_7a6533d70fbdf5b6",
-      "headline": "Движение в Ормузском проливе замедлилось после угроз США | MigNews - Новости Израиля и Мира на русском языке",
-      "url": "https://mignews.com/news/economics/dvizhenie-v-ormuzskom-prolive-zamedlilos-posle-ugroz-ssha.html",
-      "published_at": "20260814T163000Z",
-      "source": "mignews.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_afb80ab1ef4554c8",
       "headline": "Military called in as wildfires rage across south Wales",
       "url": "https://www.dailypost.co.uk/military-called-wildfires-rage-across-34461050",
@@ -148,19 +99,19 @@
       "tags": []
     },
     {
+      "id": "gdelt_0ac67556433fac81",
+      "headline": "لماذا أصبحت « إيريني » مصدر تهديد بصدام مباشر بين روسيا والاتحاد الأوروبي في البحر المتوسط ؟",
+      "url": "https://alwasat.ly/news/libya/528085",
+      "published_at": "20260814T214500Z",
+      "source": "alwasat.ly",
+      "tags": []
+    },
+    {
       "id": "gdelt_4594ee217b145b84",
       "headline": "Op Sindoor Sent Firm Message To Terrorists And Their Backers Of Consequences , Indus Waters Treaty Suspension In Country Interest : President",
       "url": "https://www.dailyexcelsior.com/op-sindoor-sent-firm-message-to-terrorists-and-their-backers-of-consequences-indus-waters-treaty-suspension-in-countrys-interest-president/",
       "published_at": "20260814T171500Z",
       "source": "dailyexcelsior.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cd42998faafa65c4",
-      "headline": "Tech news : Suralink expands Agent Library",
-      "url": "https://www.accountingtoday.com/list/tech-news-suralink-expands-agent-library-includes-client-document-pre-screener",
-      "published_at": "20260814T160000Z",
-      "source": "accountingtoday.com",
       "tags": []
     },
     {
@@ -180,14 +131,21 @@
       "tags": []
     },
     {
-      "id": "gdelt_f6d397fb7947c98a",
-      "headline": "India hits back at Norway FM Kashmir remarks during Pakistan visit",
-      "url": "https://www.hindustantimes.com/india-news/india-hits-back-at-norway-fm-s-kashmir-remarks-during-pakistan-visit-101786723128875.html",
-      "published_at": "20260814T163000Z",
-      "source": "hindustantimes.com",
+      "id": "gdelt_ce107311cade3439",
+      "headline": "issue17427",
+      "url": "https://aawsat.com/files/pdf/issue17427/",
+      "published_at": "20260814T214500Z",
+      "source": "aawsat.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c252a54853455fb3",
+      "headline": "Хуситы ударили по объекту Saudi Aramco – СМИ",
+      "url": "https://vestikavkaza.ru/news/husity-udarili-po-obektu-saudi-aramco-smi.html",
+      "published_at": "20260814T214500Z",
+      "source": "vestikavkaza.ru",
       "tags": [
-        "INDIA",
-        "PAKISTAN"
+        "SAUDI_ARABIA"
       ]
     },
     {
@@ -209,11 +167,11 @@
       ]
     },
     {
-      "id": "gdelt_70dbfe5f4d50f0f9",
-      "headline": "바이낸스 , EU · 영국 제재 여파로 HTX 등 11개 플랫폼과 거래 전면 중단",
-      "url": "https://www.wikitree.co.kr/articles/1152580",
-      "published_at": "20260814T163000Z",
-      "source": "wikitree.co.kr",
+      "id": "gdelt_bb5c3378033e1ed3",
+      "headline": "السيسي وزيلينسكي يدعوان إلى خفض التصعيد والتوتر في الشرق الأوسط",
+      "url": "https://alwasat.ly/news/international/528080",
+      "published_at": "20260814T214500Z",
+      "source": "alwasat.ly",
       "tags": []
     },
     {
@@ -358,6 +316,24 @@
       "tags": []
     },
     {
+      "id": "gdelt_b9cefc48f6fd6285",
+      "headline": "Приложения Ozon исчезли из Google Play , но доступны в App Store",
+      "url": "https://www.kommersant.ru/doc/8890134",
+      "published_at": "20260814T214500Z",
+      "source": "kommersant.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5b033f48bf61acd9",
+      "headline": "US threatens indefinite blockade on Iran : Update",
+      "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2865687-us-threatens-indefinite-blockade-on-iran-update",
+      "published_at": "20260814T220000Z",
+      "source": "argusmedia.com",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
       "id": "gdelt_2226b4fc301bb23a",
       "headline": "Санкції проти Росії - Зеленський увів нові обмеження проти суден , десятків компанії та людей",
       "url": "https://24tv.ua/economy/sanktsiyi-proti-rosiyi-zelenskiy-uviv-novi-obmezhennya-proti_n3123723",
@@ -374,11 +350,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_aef55b70677f9798",
-      "headline": "НБУ пояснив , як валютні послаблення вплинуть на попит на долар і євро Delo . ua",
-      "url": "https://delo.ua/news/nbu-poyasniv-yak-valyutni-poslablennya-vplinut-na-popit-na-dolar-i-jevro-470792/",
-      "published_at": "20260814T163000Z",
-      "source": "delo.ua",
+      "id": "gdelt_01179423498cc1c6",
+      "headline": "Канада ввела новые санкции против Ирана",
+      "url": "https://vestikavkaza.ru/news/kanada-vvela-novye-sankcii-protiv-irana.html",
+      "published_at": "20260814T214500Z",
+      "source": "vestikavkaza.ru",
       "tags": []
     },
     {
@@ -406,14 +382,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_face1ab2bfe5ba93",
-      "headline": "واشنطن تُطلق حزمة « عزل اقتصادى » ضد إيران",
-      "url": "https://www.dostor.org/5667344",
-      "published_at": "20260814T173000Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
       "id": "gdelt_34872d0139f71ca5",
       "headline": "Massør tiltalt for voldtægt : Brugte vibrator på kvindes underliv",
       "url": "https://www.bt.dk/krimi/massoer-tiltalt-for-voldtaegt-brugte-vibrator-paa-kvindes-underliv",
@@ -422,14 +390,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_c53d812b6da9aebb",
-      "headline": "Зеленский назвал ключевой вопрос Ставки",
-      "url": "https://korrespondent.net/ukraine/4902952-zelenskyi-nazval-kluichevoi-vopros-stavky",
-      "published_at": "20260814T160000Z",
-      "source": "korrespondent.net",
-      "tags": [
-        "UKRAINE"
-      ]
+      "id": "gdelt_face1ab2bfe5ba93",
+      "headline": "واشنطن تُطلق حزمة « عزل اقتصادى » ضد إيران",
+      "url": "https://www.dostor.org/5667344",
+      "published_at": "20260814T173000Z",
+      "source": "dostor.org",
+      "tags": []
     },
     {
       "id": "gdelt_6934d786168bc2eb",
@@ -519,7 +485,9 @@
       "url": "https://sud.ua/uk/news/ukraine/369345-ukraina-zaprovadyla-sanktsii-za-nezakonne-vyvezennia-ukrainskoho-zerna-shchodo-13-suden-28-kompanii-ta-11-hromadian-rf",
       "published_at": "20260814T174500Z",
       "source": "sud.ua",
-      "tags": []
+      "tags": [
+        "UKRAINE"
+      ]
     },
     {
       "id": "gdelt_3bb688689b2d8340",
@@ -535,14 +503,6 @@
       "url": "https://lb.ua/society/2026/08/14/759030_ukrayina_vvela_sanktsiyi_proti.html",
       "published_at": "20260814T180000Z",
       "source": "lb.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d0a2975eeeec2b4a",
-      "headline": "США готовят  двойной удар  по Ирану - Korrespondent . net",
-      "url": "https://korrespondent.net/world/4902970-ssha-hotoviat-dvoinoi-udar-po-yranu",
-      "published_at": "20260814T160000Z",
-      "source": "korrespondent.net",
       "tags": []
     },
     {
@@ -562,11 +522,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_b3d64be4adf30217",
-      "headline": "На Закарпатті поліція викрила схему переправлення чоловіків через кордон",
-      "url": "https://mukachevo.net/news/na-zakarpatti-politsiia-vykryla-skhemu-perepravlennia-viyskovykh-cherez-kordon_6282838.html",
-      "published_at": "20260814T163000Z",
-      "source": "mukachevo.net",
+      "id": "gdelt_78ea7a42a07109a0",
+      "headline": "بہت جلد میں آبنائے ہرمز کو امریکا کا علاقہ قرار دینے کا اعلان کروں گا ، ٹرمپ",
+      "url": "https://jang.com.pk/news/1607529",
+      "published_at": "20260814T214500Z",
+      "source": "jang.com.pk",
       "tags": []
     },
     {
@@ -578,19 +538,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_79b28695e47e53b9",
-      "headline": "الرئاسة الفلسطينية : تصاعد اعتداءات المستوطنين يهدد بتفجير الأوضاع",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=14082026&id=87c13c98-4412-4fcb-9dff-ab5e2a1d76c9",
-      "published_at": "20260814T163000Z",
-      "source": "shorouknews.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_aea28fcedfcb0885",
       "headline": "Вивезення зерна : Зеленський ввів нові санкції проти суден",
       "url": "https://epravda.com.ua/biznes/vivezennya-zerna-zelenskiy-vviv-novi-sankciji-proti-suden-824660/",
       "published_at": "20260814T204500Z",
       "source": "epravda.com.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4732a6199e4210b0",
+      "headline": "Импорт российских товаров в ЕС 2026 : рост поставок",
+      "url": "https://iz.ru/2149103/daniil-sechkin/pyat-stran-es-narastili-import-iz-rossii-v-pervoj-polovine-2026-go",
+      "published_at": "20260814T214500Z",
+      "source": "iz.ru",
       "tags": []
     },
     {
@@ -610,7 +570,10 @@
       "url": "http://www.heraldglobe.com/news/279242302/no-change-india-reaffirms-indus-waters-stance-slams-pakistan-after-sharif-red-linewarning",
       "published_at": "20260814T204500Z",
       "source": "heraldglobe.com",
-      "tags": []
+      "tags": [
+        "INDIA",
+        "PAKISTAN"
+      ]
     },
     {
       "id": "gdelt_46a8277df4df57f8",
@@ -618,6 +581,14 @@
       "url": "https://www.otz.de/politik/article412860267/martialischer-auftritt-von-putin-doch-zu-hause-waechst-der-druck-auf-ihn.html",
       "published_at": "20260814T193000Z",
       "source": "otz.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cb814431c0550e5e",
+      "headline": "Hearing Notice - CIRO to Hold a Sanctions Hearing for Haimeng Wang",
+      "url": "https://thestarphoenix.com/press-releases/pr-newswire/hearing-notice-ciro-to-hold-a-sanctions-hearing-for-haimeng-wang/",
+      "published_at": "20260814T171500Z",
+      "source": "thestarphoenix.com",
       "tags": []
     },
     {
@@ -629,14 +600,6 @@
       "tags": [
         "UAE"
       ]
-    },
-    {
-      "id": "gdelt_cb814431c0550e5e",
-      "headline": "Hearing Notice - CIRO to Hold a Sanctions Hearing for Haimeng Wang",
-      "url": "https://thestarphoenix.com/press-releases/pr-newswire/hearing-notice-ciro-to-hold-a-sanctions-hearing-for-haimeng-wang/",
-      "published_at": "20260814T171500Z",
-      "source": "thestarphoenix.com",
-      "tags": []
     },
     {
       "id": "gdelt_746e0d8065c408b1",
@@ -652,14 +615,6 @@
       "url": "https://vz.ru/world/2026/8/14/1442744.html",
       "published_at": "20260814T173000Z",
       "source": "vz.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ca8ce52bb7cfb2b3",
-      "headline": "Что Евросоюз продолжает покупать у России вопреки санкциям , почему Европа не может отказаться от РФ",
-      "url": "https://ura.news/articles/1053118481",
-      "published_at": "20260814T160000Z",
-      "source": "ura.news",
       "tags": []
     },
     {
@@ -751,14 +706,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_aa8f97a1191cc963",
-      "headline": "Військова допомога Україні - Польща хоче якнайшвидше домовитися про МіГ - 29",
-      "url": "https://24tv.ua/viyskova-dopomoga-ukrayini-polshha-hoche-yaknayshvidshe-domovitisya_n3123748",
-      "published_at": "20260814T191500Z",
-      "source": "24tv.ua",
-      "tags": []
-    },
-    {
       "id": "gdelt_c8469e54856c398d",
       "headline": "US Readies Unprecedented  Economic Isolation  Plan for Iran",
       "url": "https://www.military.com/us-readies-unprecedented-economic-isolation-plan-for-iran",
@@ -767,6 +714,22 @@
       "tags": [
         "IRAN"
       ]
+    },
+    {
+      "id": "gdelt_aa8f97a1191cc963",
+      "headline": "Військова допомога Україні - Польща хоче якнайшвидше домовитися про МіГ - 29",
+      "url": "https://24tv.ua/viyskova-dopomoga-ukrayini-polshha-hoche-yaknayshvidshe-domovitisya_n3123748",
+      "published_at": "20260814T191500Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bb8ef931cce53db2",
+      "headline": "Canada sanctions five Iranian officials over blockade of Strait of Hormuz",
+      "url": "https://panow.com/2026/08/14/canada-sanctions-five-iranian-officials-over-blockade-of-strait-of-hormuz/",
+      "published_at": "20260814T214500Z",
+      "source": "panow.com",
+      "tags": []
     },
     {
       "id": "gdelt_b33db3885972b250",
@@ -801,27 +764,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_9f71063cf0d98387",
-      "headline": "Ceuta : Madrid y Rabat anuncian medidas ante rumores de un inminente ingreso de marroquíes",
-      "url": "https://eju.tv/2026/08/ceuta-madrid-y-rabat-anuncian-medidas-ante-rumores-de-un-inminente-ingreso-de-marroquies/",
-      "published_at": "20260814T163000Z",
-      "source": "eju.tv",
-      "tags": []
-    },
-    {
       "id": "gdelt_2412e495e850a6b1",
       "headline": "На кордоні затримали двох жителів Полтави – Конгрес  Світ",
       "url": "https://worldua.net/main/na-kordon%D1%96-zatrimali-dvoh-jitel%D1%96v-poltavi.html",
       "published_at": "20260814T191500Z",
       "source": "worldua.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3071eae802140c02",
-      "headline": "Хуситы атаковали дронами и ракетами порт Моха в Йемене",
-      "url": "https://www.vesti.ru/ns/khusity-atakovali-dronami-i-raketami-port-mokha-v-jemene",
-      "published_at": "20260814T181500Z",
-      "source": "vesti.ru",
       "tags": []
     },
     {
@@ -833,11 +780,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_48900c89d7162ce1",
-      "headline": "تراجع حاد في حركة الملاحة .. سفينتان فقط تعبران مضيق هرمز اليوم",
-      "url": "https://www.dostor.org/5667350",
-      "published_at": "20260814T173000Z",
-      "source": "dostor.org",
+      "id": "gdelt_3071eae802140c02",
+      "headline": "Хуситы атаковали дронами и ракетами порт Моха в Йемене",
+      "url": "https://www.vesti.ru/ns/khusity-atakovali-dronami-i-raketami-port-mokha-v-jemene",
+      "published_at": "20260814T181500Z",
+      "source": "vesti.ru",
       "tags": []
     },
     {
@@ -849,19 +796,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_eda7ccef93d1bf7e",
-      "headline": "Crypto firm Tether says KPMG completes long - promised audit",
-      "url": "https://www.accountingtoday.com/articles/crypto-firm-tether-says-kpmg-completes-long-promised-audit",
-      "published_at": "20260814T160000Z",
-      "source": "accountingtoday.com",
+      "id": "gdelt_48900c89d7162ce1",
+      "headline": "تراجع حاد في حركة الملاحة .. سفينتان فقط تعبران مضيق هرمز اليوم",
+      "url": "https://www.dostor.org/5667350",
+      "published_at": "20260814T173000Z",
+      "source": "dostor.org",
       "tags": []
     },
     {
-      "id": "gdelt_97380b80842cbca4",
-      "headline": "Молдова , Україна і Румунія мають посилити співпрацю для безпеки судноплавства у Чорному морі та на Дунаї",
-      "url": "https://www.ukrinform.ua/rubric-economy/4154203-moldova-ukraina-i-rumunia-maut-posiliti-spivpracu-dla-bezpeki-sudnoplavstva-u-cornomu-mori-ta-na-dunai-ekspert.html",
-      "published_at": "20260814T163000Z",
-      "source": "ukrinform.ua",
+      "id": "gdelt_4959510a665a54fe",
+      "headline": "Turska zapretila SAD ; Ankara , Katar i Egipat spremni za eskalaciju",
+      "url": "https://www.b92.net/info/svet/259123/turska-zapretila-sad-ankara-katar-i-egipat-spremni-za-eskalaciju/vest",
+      "published_at": "20260814T214500Z",
+      "source": "b92.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_af30eba14f921885",
+      "headline": "Svi komentari - Turska zapretila SAD ; Ankara , Katar i Egipat spremni za eskalaciju",
+      "url": "https://www.b92.net/svi-komentari/259123",
+      "published_at": "20260814T214500Z",
+      "source": "b92.net",
       "tags": []
     },
     {
@@ -882,6 +837,16 @@
       "source": "hindustantimes.com",
       "tags": [
         "YEMEN"
+      ]
+    },
+    {
+      "id": "gdelt_b65864780ef0e3b7",
+      "headline": "الحوثيون  يعلنون استهداف تحشيدات سعودية وزوارق حربية في المخا بصواريخ باليستية",
+      "url": "https://arabic.euronews.com/2026/08/14/houthis-yahya-saree-mokha-ballistic-missiles-saudi-arabia-mokha-port-aramco-najran",
+      "published_at": "20260814T213000Z",
+      "source": "arabic.euronews.com",
+      "tags": [
+        "SAUDI_ARABIA"
       ]
     },
     {
@@ -906,6 +871,22 @@
       "url": "http://www.koreatimes.com/article/20260814/1625684",
       "published_at": "20260814T181500Z",
       "source": "koreatimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ed4b0560492b67fb",
+      "headline": "החות  ים תקפו את נמל מוח  א ב - 44 כטב  מים , טילים וסירות נפץ",
+      "url": "https://www.maariv.co.il/news/world/article-1355976",
+      "published_at": "20260814T213000Z",
+      "source": "maariv.co.il",
+      "tags": []
+    },
+    {
+      "id": "gdelt_17113e57a749b6b4",
+      "headline": "Lurer . com | Մեզ հաջողվել է շրջափակել Ռուսաստանի հարավը ․ Զելենսկի",
+      "url": "https://lurer.com/article/747245/am",
+      "published_at": "20260814T214500Z",
+      "source": "lurer.com",
       "tags": []
     },
     {
@@ -940,14 +921,6 @@
       "url": "https://24.ae/article/965323/%D9%85%D8%B5%D8%B1-%D8%AA%D8%AF%D9%8A%D9%86-%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D9%86%D8%A7%D9%82%D9%84%D8%AA%D9%8A-%D8%A3%D8%AF%D9%86%D9%88%D9%83-%D9%81%D9%8A-%D9%85%D8%B6%D9%8A%D9%82-%D9%87%D8%B1%D9%85%D8%B2",
       "published_at": "20260814T181500Z",
       "source": "24.ae",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6a8dcdbdcd228a2f",
-      "headline": "Muž podozrivý z vraždy riaditeľa UnitedHealthcare sa priznal , že ho chcel zabiť",
-      "url": "https://dennikn.sk/minuta/5507783/",
-      "published_at": "20260814T163000Z",
-      "source": "dennikn.sk",
       "tags": []
     },
     {
@@ -1009,27 +982,51 @@
       "tags": []
     },
     {
-      "id": "gdelt_0b5c8b1546646a6b",
-      "headline": "NITI Aayog suggests allowing multi - disciplinary law firms , easing advertising rules",
-      "url": "https://aninews.in/news/business/niti-aayog-suggests-allowing-multi-disciplinary-law-firms-easing-advertising-rules20260814210740/",
-      "published_at": "20260814T163000Z",
-      "source": "aninews.in",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1df873ba770d99db",
-      "headline": "Canadair e tre aerei sloveni contro lincendio di Chiusaforte",
-      "url": "https://www.friulioggi.it/cronaca/canadair-tre-aerei-sloveni-contro-incendio-chiusaforte-14-agosto-2026/",
-      "published_at": "20260814T160000Z",
-      "source": "friulioggi.it",
-      "tags": []
-    },
-    {
       "id": "gdelt_ccada7b2c0085cbd",
       "headline": "Innate Pharma Secures €30M , Extends Cash Runway Into 2028",
       "url": "https://finance.yahoo.com/healthcare/articles/innate-pharma-secures-30m-extends-190231408.html",
       "published_at": "20260814T193000Z",
       "source": "finance.yahoo.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7d86d0abc15935e5",
+      "headline": "Ядерний удар по Росії міста , які знищать насамперед , прогноз Gemini",
+      "url": "https://news.telegraf.com.ua/ukr/politika/5947800-rossiyan-pugayut-yadernym-udarom-kakie-goroda-ischeznut-s-karty-pervymi-karta",
+      "published_at": "20260814T174500Z",
+      "source": "news.telegraf.com.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f060a2c37446012d",
+      "headline": "الجيش اليمني : الاستهداف الحوثي للموانئ يمثل حصارًا وتجويعًا للشعب",
+      "url": "https://www.vetogate.com/5712844",
+      "published_at": "20260814T193000Z",
+      "source": "vetogate.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a4e7f010225d2a64",
+      "headline": "الحرس الثوري يعلن إسقاط مسيرة أميركية جنوب إيران",
+      "url": "https://alwasat.ly/news/international/528072",
+      "published_at": "20260814T181500Z",
+      "source": "alwasat.ly",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d7961790b64c6ca5",
+      "headline": "Україна запровадила санкції через незаконне вивезення зерна . У списку 13 суден , 11 осіб і 28 компаній",
+      "url": "https://www.radiosvoboda.org/a/news-ukrajina-sankciji-nezakonne-vyvezennja-zerna/33830579.html",
+      "published_at": "20260814T181500Z",
+      "source": "radiosvoboda.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_764753e21201d342",
+      "headline": "Güney Korede Google ve Applea  telekomünikasyon kurallarını ihlal",
+      "url": "https://www.kibrispostasi.com/c39-BILIM_TEKNOLOJI/n610874-guney-korede-google-ve-applea-telekomunikasyon-kurallarini-ihlal-suclamasi",
+      "published_at": "20260814T183000Z",
+      "source": "kibrispostasi.com",
       "tags": []
     }
   ]
