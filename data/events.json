@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-08-15T22:35:52Z",
+    "generated_at_utc": "2026-08-15T23:33:15Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -33,6 +33,16 @@
   },
   "events": [
     {
+      "id": "gdelt_57bb1ce21e2770df",
+      "headline": "Washington is coming for Iran wallet",
+      "url": "http://www.albawaba.com/index.php/business/washington-coming-irans-wallet-1635084",
+      "published_at": "20260815T230000Z",
+      "source": "albawaba.com",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
       "id": "gdelt_750baf3e576afb7a",
       "headline": "Europa lidera na ajuda à Ucrânia , mas as armas dos EUA continuam a ser fundamentais para Kiev",
       "url": "https://sapo.pt/artigo/europa-lidera-na-ajuda-a-ucrania-mas-as-armas-dos-eua-continuam-a-ser-fundamentais-para-kiev-6a80a740bec1d8607eeece8b",
@@ -46,30 +56,6 @@
       "url": "https://www.zelenograd.ru/news/63290/",
       "published_at": "20260815T191500Z",
       "source": "zelenograd.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a6b43e7e61fc39a7",
-      "headline": "Bakan Çiftçi : Suç Örgütlerine Geçit Yok",
-      "url": "https://www.haberler.com/guncel/bakan-ciftci-den-azerbaycan-daki-operasyona-katki-20148467-haberi/",
-      "published_at": "20260815T173000Z",
-      "source": "haberler.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_637c47ef8807eb78",
-      "headline": "Züccaciye sektörü 4 , 5 milyar dolara ulaştı : Türkiyeden Çine rakip olacak ihracat hedefi",
-      "url": "https://www.dunya.com/sektorler/zuccaciye-sektoru-45-milyar-dolara-ulasti-turkiyeden-cine-rakip-olacak-ihracat-hedefi-haberi-836341",
-      "published_at": "20260815T171500Z",
-      "source": "dunya.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_caa8e98b6025fa08",
-      "headline": "В Марокко задержали 111 нелегалов при попытке пересечь границу с Сеутой",
-      "url": "https://zerkalo.az/v-marokko-zaderzhali-111-nelegalov-pri-popytke-peresech-granitsu-s-seutoj/",
-      "published_at": "20260815T171500Z",
-      "source": "zerkalo.az",
       "tags": []
     },
     {
@@ -91,19 +77,11 @@
       ]
     },
     {
-      "id": "gdelt_edb5ff7f2b0cc51d",
-      "headline": "خبير عسكري : إسرائيل تستخدم الحديث عن الأهداف العسكرية ذريعة لتصعيد القصف في لبنان",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=15082026&id=1fe29428-7e75-40a4-a197-c1fabb097928",
-      "published_at": "20260815T171500Z",
-      "source": "shorouknews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6d15bbcf8a31fcd2",
-      "headline": "مسؤول أمريكي سابق : الحلول الدبلوماسية لم تعد كافية وأتوقع تصعيدًا قريبًا",
-      "url": "https://www.elwatannews.com/news/details/8339966",
-      "published_at": "20260815T171500Z",
-      "source": "elwatannews.com",
+      "id": "gdelt_08f16fb934afba43",
+      "headline": "مسؤول أمريكي سابق : الحلول الدبلوماسية مع إيران لم تعد كافية وأتوقع تصعيدًا قريبًا",
+      "url": "https://www.almasryalyoum.com/news/details/4338600",
+      "published_at": "20260815T230000Z",
+      "source": "almasryalyoum.com",
       "tags": []
     },
     {
@@ -112,14 +90,6 @@
       "url": "https://hyeres.maville.com/actu/actudet_-au-maroc-le-chomage-ravive-les-reves-d-europe-de-la-jeune-generation_fil-7441524_actu.Htm",
       "published_at": "20260815T174500Z",
       "source": "hyeres.maville.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_19ccedef65822583",
-      "headline": "Au Maroc , le chômage ravive les rêves dEurope de la jeune génération",
-      "url": "https://laseyne.maville.com/actu/actudet_-au-maroc-le-chomage-ravive-les-reves-d-europe-de-la-jeune-generation_fil-7441524_actu.Htm",
-      "published_at": "20260815T171500Z",
-      "source": "laseyne.maville.com",
       "tags": []
     },
     {
@@ -154,14 +124,6 @@
       "url": "https://www.libyaakhbar.com/libya-news/2855565.html",
       "published_at": "20260815T184500Z",
       "source": "libyaakhbar.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0ca672073ceaa5c8",
-      "headline": "Почему лучше не затягивать с эвакуацией на Харьковщине , показал Задоренко",
-      "url": "https://www.objectiv.tv/objectively/2026/08/15/pochemu-luchshe-ne-zatyagivat-s-evakuatsiej-na-harkovshhine-pokazal-zadorenko/",
-      "published_at": "20260815T171500Z",
-      "source": "objectiv.tv",
       "tags": []
     },
     {
@@ -270,9 +232,7 @@
       "url": "https://www.dagelijksestandaard.nl/buitenland/trump-straat-van-hormuz-amerikaans-grondgebied-blunder-iran?comment=1018508",
       "published_at": "20260815T213000Z",
       "source": "dagelijksestandaard.nl",
-      "tags": [
-        "IRAN"
-      ]
+      "tags": []
     },
     {
       "id": "gdelt_a5c4d56e46052b9f",
@@ -290,32 +250,6 @@
       "url": "https://www.almasryalyoum.com/news/details/4338404",
       "published_at": "20260815T191500Z",
       "source": "almasryalyoum.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_56e38da3433681a1",
-      "headline": "Почему Swissquote закрывает счета российским клиентам",
-      "url": "https://www.kommersant.ru/doc/8890534",
-      "published_at": "20260815T170000Z",
-      "source": "kommersant.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9ece1a3eea5fa543",
-      "headline": "Indian Army Displays Footage of Civil Unrest in Pakistan - Occupied Kashmir on Frontier Digital Screens near LOC",
-      "url": "https://idrw.org/indian-army-displays-footage-of-civil-unrest-in-pakistan-occupied-kashmir-on-frontier-digital-screens-near-loc/",
-      "published_at": "20260815T170000Z",
-      "source": "idrw.org",
-      "tags": [
-        "PAKISTAN"
-      ]
-    },
-    {
-      "id": "gdelt_c10ce6ed31fe45d3",
-      "headline": "وزيرة لبنانية تؤكد على الجهوزية لمواكبة أي حركة نزوح والاستجابة للاحتياجات الطارئة",
-      "url": "https://gate.ahram.org.eg/News/5889168.aspx",
-      "published_at": "20260815T170000Z",
-      "source": "gate.ahram.org.eg",
       "tags": []
     },
     {
@@ -357,14 +291,6 @@
       ]
     },
     {
-      "id": "gdelt_69cc0807f6512981",
-      "headline": "Bloomberg узнал слабые места американской « экономической блокады » Ирана",
-      "url": "https://news.mail.ru/politics/72005360/",
-      "published_at": "20260815T171500Z",
-      "source": "news.mail.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_bd03dcf1734a0c76",
       "headline": "Jutarnji list - VIDEO Nova drama kod španjolske granice , stotine krenule prema EU , policija ih presrela helikopterima i psima",
       "url": "https://www.jutarnji.hr/vijesti/svijet/maroko-zaustavio-masovni-pokusaj-prelaska-prema-ceuti-kod-fnideqa-15737398",
@@ -400,37 +326,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_3633d9e9361588af",
-      "headline": "باحث في الشئون الإيرانية : طهران تستخدم ورقة مضيق هرمز لتحسين شروط التفاوض مع واشنطن",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=15082026&id=208562ee-e3f4-405b-aa35-5fcfbe7c176c",
-      "published_at": "20260815T173000Z",
-      "source": "shorouknews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_447badd64cdf363c",
-      "headline": "Эксперт : Турция не будет поставлять Украине оружие своего производства",
-      "url": "https://www.vedomosti.ru/politics/news/2026/08/15/1221390-turtsii-ukraine-oruzhie",
-      "published_at": "20260815T170000Z",
-      "source": "vedomosti.ru",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
       "id": "gdelt_bda06f8207f9518d",
       "headline": "الحوثيون يجددون استهداف مأرب ومقتل ضابط حكومي في صعدة باليمن",
       "url": "https://www.aljazeera.net/news/2026/8/15/%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D9%85%D9%82%D8%AA%D9%84-%D8%B6%D8%A7%D8%A8%D8%B7-%D8%AD%D9%83%D9%88%D9%85%D9%8A-%D9%88%D8%AA%D9%88%D9%82%D9%81-%D8%A7%D9%84%D9%85%D9%84%D8%A7%D8%AD%D8%A9-%D9%81%D9%8A",
       "published_at": "20260815T190000Z",
       "source": "aljazeera.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7d77cd543f279b1c",
-      "headline": "فيصل كرامي : هذا تطوّر خطير يطرح علامات استفهام حول مستقبل لبنان",
-      "url": "https://www.mtv.com.lb/news/1727641",
-      "published_at": "20260815T171500Z",
-      "source": "mtv.com.lb",
       "tags": []
     },
     {
@@ -490,14 +390,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_9693666ee23195ed",
-      "headline": "جريدة البلاد | نزوح المئات من جنوب لبنان .. وحزب الله يلوح بالرد على إسرائيل",
-      "url": "https://www.albiladpress.com/news/2026/6515/arab-and-world/1014226.html",
-      "published_at": "20260815T170000Z",
-      "source": "albiladpress.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_c890982da3bbc9ad",
       "headline": "Ukraine - Drohne legt russische Ölraffinerie lahm – Ausfall könnte ein halbes Jahr dauern",
       "url": "http://www.merkur.de/politik/jahr-dauern-ukraine-drohne-legt-russische-oelraffinerie-lahm-ausfall-koennte-ein-halbes-zr-94443941.html",
@@ -536,14 +428,6 @@
       ]
     },
     {
-      "id": "gdelt_b415f159c7ea864f",
-      "headline": "Iran defiant on strait as Trump tells Americans to accept high fuel prices",
-      "url": "https://www.news24.com/world/iran-defiant-on-strait-as-trump-tells-americans-to-accept-high-fuel-prices-20260815-0896",
-      "published_at": "20260815T170000Z",
-      "source": "news24.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_1650c1ae36420960",
       "headline": "مجلس التعاون الخليجي يدين الاعتداءات الإيرانية على ناقلتي  أدنوك  في مضيق هرمز",
       "url": "https://www.dostor.org/5668540",
@@ -557,14 +441,6 @@
       "url": "https://www.ledauphine.com/societe/2026/08/15/malgre-des-rumeurs-d-ouverture-de-la-frontiere-pas-d-afflux-de-migrants-a-ceuta",
       "published_at": "20260815T181500Z",
       "source": "ledauphine.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_70def4f54faef474",
-      "headline": "Immigration . Malgré des rumeurs douverture de la frontière , pas dafflux de migrants à Ceuta",
-      "url": "https://www.leprogres.fr/societe/2026/08/15/malgre-des-rumeurs-d-ouverture-de-la-frontiere-pas-d-afflux-de-migrants-a-ceuta",
-      "published_at": "20260815T171500Z",
-      "source": "leprogres.fr",
       "tags": []
     },
     {
@@ -611,11 +487,11 @@
       ]
     },
     {
-      "id": "gdelt_afa655dac96c3aaf",
-      "headline": "شكوى فاتورة الكهرباء المرتفعة .. الخطوات ورقم العداد والمستندات",
-      "url": "https://www.dostor.org/5668246",
-      "published_at": "20260815T170000Z",
-      "source": "dostor.org",
+      "id": "gdelt_eb68ff94ab57140d",
+      "headline": "بريطانيا | ويلز تنال نصيبها من الحرائق التي تجتاح أوروبا وسط موجة حر تاريخية و جفاف شديد تشهده القارّة – قناة المنار",
+      "url": "https://www.almanar.com.lb/article/1100077/",
+      "published_at": "20260815T224500Z",
+      "source": "almanar.com.lb",
       "tags": []
     },
     {
@@ -651,6 +527,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_7b373785538fc846",
+      "headline": "Најавија дека ќе влезат на 15 август и влегоа во Сеута",
+      "url": "https://republika.mk/vesti/svet/najavija-deka-ke-vlezat-na-15-avgust-i-vlegoa-vo-seuta/",
+      "published_at": "20260815T224500Z",
+      "source": "republika.mk",
+      "tags": []
+    },
+    {
       "id": "gdelt_d8f1edaedcfaf650",
       "headline": "Yemen government says Houthi missiles kill at least four civilians in port city",
       "url": "https://www.thehindu.com/news/international/yemen-government-says-houthi-missiles-kill-at-least-four-civilians-in-port-city/article71350552.ece",
@@ -669,11 +553,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_cd8f6c4593323408",
-      "headline": "Sulmet izraelite vrasin të paktën nëntë persona në Libanin jugor",
-      "url": "https://www.gazetatema.net/bota/et-izraelite-vrasin-te-pakten-nente-persona-ne-libanin-jugor-i579915",
-      "published_at": "20260815T170000Z",
-      "source": "gazetatema.net",
+      "id": "gdelt_fbbd127c21252c51",
+      "headline": "В вузах тестируют ИИ - сервис синхронного перевода « Билингво » для помощи иностранным студентам",
+      "url": "https://www.bfm.ru/news/615282",
+      "published_at": "20260815T230000Z",
+      "source": "bfm.ru",
       "tags": []
     },
     {
@@ -709,35 +593,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_e406d1b3317bb368",
-      "headline": "1 Million Schweizer Franken pro Stück : Im Fels der Alpen können Superreiche bald riesige Tresore kaufen",
-      "url": "https://www.focus.de/panorama/welt/1-million-schweizer-franken-pro-stueck-im-fels-der-alpen-koennen-superreiche-bald-riesige-tresore-kaufen_707651f4-0343-4df4-b6bb-4fa03d118236.html",
-      "published_at": "20260815T170000Z",
-      "source": "focus.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_36d7a820fdde4dbf",
-      "headline": "الكويت تدين بشدة الهجوم الإيراني الآثم على سفينة تابعة لـ  أدنوك",
-      "url": "https://www.eremnews.com/news/arab-world/fmlt3bd",
-      "published_at": "20260815T171500Z",
-      "source": "eremnews.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_883782a53538b61c",
       "headline": "Iran Tells U . S . to Admit Defeat as Trump Calls Tehran  Evil  - Jowhar News Leader",
       "url": "https://jowhar.com/iran-tells-u-s-to-admit-defeat-as-trump-calls-tehran-evil/",
       "published_at": "20260815T184500Z",
       "source": "jowhar.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bb87ad60e96630d0",
-      "headline": "حزب الله يتوعد إسرائيل بالرد على الهجمات في لبنان ويطالب بوقف المفاوضات",
-      "url": "https://www.elwatannews.com/news/details/8339958",
-      "published_at": "20260815T171500Z",
-      "source": "elwatannews.com",
       "tags": []
     },
     {
@@ -762,14 +622,6 @@
       "url": "https://www.bgonair.bg/a/4-world/427467-9-zaginali-pri-izraelski-udar-v-yuzhen-livan",
       "published_at": "20260815T174500Z",
       "source": "bgonair.bg",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4dead26d60249312",
-      "headline": "مواجهات بين فلسطينيين ومستوطنين هاجموا منازل في رام الله",
-      "url": "https://www.vetogate.com/5713329",
-      "published_at": "20260815T173000Z",
-      "source": "vetogate.com",
       "tags": []
     },
     {
@@ -829,14 +681,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_70005600a8909ebf",
-      "headline": "« Хезболла » призвала Ливан прекратить переговоры с Израилем :: Новости дня / ВЗГЛЯД",
-      "url": "https://vz.ru/news/2026/8/15/1443105.html",
-      "published_at": "20260815T173000Z",
-      "source": "vz.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_602d713f153ef476",
       "headline": "GCC Secretary General condemns repeated Iranian attacks on UAE ADNOC tankers in Strait of Hormuz",
       "url": "http://thepeninsulaqatar.com/article/15/08/2026/gcc-secretary-general-condemns-repeated-iranian-attacks-on-uae-adnoc-tankers-in-strait-of-hormuz",
@@ -861,7 +705,8 @@
       "published_at": "20260815T191500Z",
       "source": "ru.euronews.com",
       "tags": [
-        "RUSSIA"
+        "RUSSIA",
+        "UKRAINE"
       ]
     },
     {
@@ -901,14 +746,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_1025d92ef85ce112",
-      "headline": "Обломки дрона нашли в саду в турецкой провинции Дюздже",
-      "url": "https://www.vedomosti.ru/politics/news/2026/08/15/1221395-drona-turetskoi-provintsii",
-      "published_at": "20260815T170000Z",
-      "source": "vedomosti.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_580a3fff87455ce6",
       "headline": "المتحدث باسم نتنياهو : إسرائيل تريد مفاوضات « أكثر جدية » مع لبنان",
       "url": "https://www.almasryalyoum.com/news/details/4338370",
@@ -922,14 +759,6 @@
       "url": "https://www.okaz.com.sa/local/na/2261472",
       "published_at": "20260815T213000Z",
       "source": "okaz.com.sa",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3db4624a75e5c522",
-      "headline": "بجوار لامين يامال .. حمزة عبد الكريم ضمن قائمة برشلونة لمواجهة بازل",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=15082026&id=2645e2aa-7a3b-4f1e-8f36-4fda5559e463",
-      "published_at": "20260815T173000Z",
-      "source": "shorouknews.com",
       "tags": []
     },
     {
@@ -965,37 +794,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_0832269aaa7747ae",
-      "headline": "Yemen Mocha port halts operations after Houthi attacks , port director says",
-      "url": "https://www.straitstimes.com/world/middle-east/yemens-mocha-port-halts-operations-after-houthi-attacks-port-director-says",
-      "published_at": "20260815T170000Z",
-      "source": "straitstimes.com",
-      "tags": [
-        "YEMEN"
-      ]
-    },
-    {
-      "id": "gdelt_d6bbd20b1215c77b",
-      "headline": "تونس تمدد العمل بالمنطقة العسكرية العازلة على حدودها مع ليبيا",
-      "url": "https://www.libyaakhbar.com/libya-news/2855507.html",
-      "published_at": "20260815T171500Z",
-      "source": "libyaakhbar.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_cc1eeee2bdc86a1a",
       "headline": "انفجار قرب محطة كهرباء الزاوية يخرج محطات إنتاج عن الخدمة",
       "url": "https://www.libyaakhbar.com/libya-news/2855679.html",
       "published_at": "20260815T223000Z",
       "source": "libyaakhbar.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d2e1bd45cd2ac408",
-      "headline": "Bengal STF nabs 3 in Cooch Behar over spying for ISI ahead of I - Day",
-      "url": "https://www.rediff.com/news/report/bengal-stf-nabs-3-in-cooch-behar-over-spying-for-isi-ahead-of-i-day/20260815.htm",
-      "published_at": "20260815T171500Z",
-      "source": "rediff.com",
       "tags": []
     },
     {
@@ -1026,14 +829,6 @@
       ]
     },
     {
-      "id": "gdelt_ff56348888a12f95",
-      "headline": "Sẽ bị xử phạt tới 6 triệu đồng nếu chậm sang tên sổ đỏ ngay trong tháng này",
-      "url": "https://kenh14.vn/se-bi-xu-phat-toi-6-trieu-dong-neu-cham-sang-ten-so-do-ngay-trong-thang-nay-215260815210705319.chn",
-      "published_at": "20260815T170000Z",
-      "source": "kenh14.vn",
-      "tags": []
-    },
-    {
       "id": "gdelt_0d4420a186383c06",
       "headline": "Russia Threatens to Board united kingdom and French Ships over  Shadow Fleet  Seizures",
       "url": "https://www.breitbart.com/politics/2026/08/15/russia-threatens-to-board-british-and-french-ships-in-revenge/",
@@ -1043,6 +838,213 @@
         "RUSSIA",
         "UNITED_KINGDOM"
       ]
+    },
+    {
+      "id": "gdelt_6c8665653b1e729e",
+      "headline": "موقع بكرا - قطر تدين اعتداءات المستوطنين وتحذر من اتساع التهجير في الضفة الغربية",
+      "url": "https://bokra.net/Article-1601339",
+      "published_at": "20260815T183000Z",
+      "source": "bokra.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_86ec173e0f44722b",
+      "headline": "Column : Independent oversight would serve ICE and the public",
+      "url": "https://www.pilotonline.com/2026/08/15/column-independent-oversight-would-serve-ice-and-the-public/",
+      "published_at": "20260815T220000Z",
+      "source": "pilotonline.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a63c7fa3929735ff",
+      "headline": "Volo Ryanair in overbooking , marito sale a bordo ma la moglie resta a terra . Luomo si infuria , multato di 3mila euro",
+      "url": "https://www.corriereadriatico.it:443/attualita/ryanair_overbooking_marito_sale_moglie_resta_a_terra_multa_caos-9709458.html",
+      "published_at": "20260815T180000Z",
+      "source": "corriereadriatico.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4971203debfa3f33",
+      "headline": "Пошкодив плакат : євродепутат від АдН побив 14 - річного хлопця",
+      "url": "https://www.dw.com/uk/evrodeputat-vid-adn-pobiv-14ricnogo-hlopca-akij-poskodiv-viborcij-plakat/a-78384886",
+      "published_at": "20260815T190000Z",
+      "source": "dw.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5301bd7c82ddb6f0",
+      "headline": "Русия иска обяснения от САЩ и Турция за въоръжаване на Украйна през България",
+      "url": "https://www.bgonair.bg/a/4-world/427488-rusiya-iska-obyasneniya-ot-sasht-i-turtsiya-za-vaorazhavane-na-ukrayna-prez-balgariya",
+      "published_at": "20260815T174500Z",
+      "source": "bgonair.bg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_12edb375c79b58da",
+      "headline": "ما خيارات بيسنت لعزل إيران عن النظام المالي العالمي ؟",
+      "url": "https://www.albayan.ae/economy/business/world-economy/1546322",
+      "published_at": "20260815T213000Z",
+      "source": "albayan.ae",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ba64988796c321a6",
+      "headline": "Yemen Mocha port halts operations after Houthi attacks , port director says",
+      "url": "https://www.al-monitor.com/originals/2026/08/yemens-mocha-port-halts-operations-after-houthi-attacks-port-director-says",
+      "published_at": "20260815T190000Z",
+      "source": "al-monitor.com",
+      "tags": [
+        "YEMEN"
+      ]
+    },
+    {
+      "id": "gdelt_4b9080ca504fab29",
+      "headline": "نائب وزير النقل اليمني لـ « عكاظ »: المنشآت الاقتصادية لن تكون رهينة للابتزاز الحوثي",
+      "url": "https://www.okaz.com.sa/economy/arabian/2261420",
+      "published_at": "20260815T174500Z",
+      "source": "okaz.com.sa",
+      "tags": []
+    },
+    {
+      "id": "gdelt_083c7663a621795c",
+      "headline": "Den russiske skyggeflåten , Russland | Vladimir Putin truer Vesten etter ny avsløring om den russiske skyggeflåten",
+      "url": "https://www.nettavisen.no/nyheter/vladimir-putin-truer-vesten-etter-ny-avsloring-om-den-russiske-skyggeflaten/s/5-95-3199857",
+      "published_at": "20260815T181500Z",
+      "source": "nettavisen.no",
+      "tags": []
+    },
+    {
+      "id": "gdelt_01721922ce31b70b",
+      "headline": "视频丨俄外交部驳斥日方抗议普京登岛 专家 ： 俄方意在强调主权归属",
+      "url": "https://world.qianlong.com/2026/0816/8712778.shtml",
+      "published_at": "20260815T200000Z",
+      "source": "world.qianlong.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a7e6d07b7f665338",
+      "headline": "Trump tha se Ngushtica e Hormuzit do të jetë territor amerikan , përgjigjet Irani",
+      "url": "https://telegrafi.com/trump-tha-se-ngushtica-e-hormuzit-do-te-jete-territor-amerikan-pergjigjet-irani/",
+      "published_at": "20260815T184500Z",
+      "source": "telegrafi.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f44cb83babeb29a6",
+      "headline": "Европа боится России : досмотр судов может обернуться ударом по ценам",
+      "url": "https://www.mk.ru/politics/2026/08/15/evropa-boitsya-rossii-dosmotr-sudov-mozhet-obernutsya-udarom-po-cenam.html",
+      "published_at": "20260815T180000Z",
+      "source": "mk.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_074abbbf8e02eacb",
+      "headline": "Drese zum CSD : Lassen uns unsere Freiheit nicht nehmen",
+      "url": "https://www.queer.de/detail.php?article_id=59181",
+      "published_at": "20260815T200000Z",
+      "source": "queer.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_11dc6080e890f61c",
+      "headline": "Πόλεμος στον Κόλπο : Το Ιράν ανεβάζει την πήχη των απαιτήσεων για συμφωνία",
+      "url": "https://www.capital.gr/story/4010838/polemos-ston-kolpo-to-iran-anebazei-tin-pixi-ton-apaitiseon-gia-sumfonia/",
+      "published_at": "20260815T184500Z",
+      "source": "capital.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a257f3483b47967b",
+      "headline": "Kemenimipas Buka Pendaftaran Sekolah Kedinasan 2026 , Tersedia 405 Formasi untuk Umum dan PNS",
+      "url": "https://www.tribunnews.com/nasional/7869142/kemenimipas-buka-pendaftaran-sekolah-kedinasan-2026-tersedia-405-formasi-untuk-umum-dan-pns",
+      "published_at": "20260815T181500Z",
+      "source": "tribunnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_72a38629e583ead6",
+      "headline": "Η Χεζμπολάχ απειλεί με αντίποινα το Ισραήλ",
+      "url": "https://www.euro2day.gr/news/world/article/2364419/h-hezmpolah-apeilei-me-antipoina-to-israhl-.html",
+      "published_at": "20260815T200000Z",
+      "source": "euro2day.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2ef77c21e30019c9",
+      "headline": "هجمات الزاوية تضغط على أمن النفط وتعيد ملف التشكيلات المسلحة إلى الواجهة",
+      "url": "https://www.libyaakhbar.com/libya-news/2855513.html",
+      "published_at": "20260815T184500Z",
+      "source": "libyaakhbar.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4d7dc28c76abd355",
+      "headline": "Росія програє війну на виснаження і наближається до соціальної кризи ВЕБ . РФ",
+      "url": "https://espreso.tv/ekonomika-mi-tsyu-viynu-na-visnazhennya-ne-vigraemo-golovniy-ekonomist-derzhavnoi-korporatsii-rozvitku-rf-viznav-progrash-rosii",
+      "published_at": "20260815T230000Z",
+      "source": "espreso.tv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a9dacce1050ae09c",
+      "headline": "Middle East news : Iran says Qatar is holding pilots , Israeli strikes kill 9 in Lebanon | Politics and Government",
+      "url": "https://www.reviewjournal.com/news/politics-and-government/iran-says-qatar-is-holding-pilots-israeli-strikes-kill-9-in-lebanon-3864542/",
+      "published_at": "20260815T181500Z",
+      "source": "reviewjournal.com",
+      "tags": [
+        "QATAR"
+      ]
+    },
+    {
+      "id": "gdelt_403ab26bd332e168",
+      "headline": "حسن سلامة : انعدام الثقة العقبة الأكبر بين واشنطن وطهران",
+      "url": "https://www.dostor.org/5668467",
+      "published_at": "20260815T180000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8ef948d20a96c4b4",
+      "headline": "Koniec vojny po 73 rokoch ? Soul poslal Kim Čong - unovi historickú ponuku - Svet - Správy",
+      "url": "https://www.pravda.sk/spravy/svet/clanok/2024895-koniec-vojny-po-73-rokoch-soul-poslal-kim-cong-unovi-historicku-ponuku",
+      "published_at": "20260815T181500Z",
+      "source": "pravda.sk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7552f291127e24d4",
+      "headline": "Reuters : дезінформація Росії у Польщі зросла більш ніж на 250 %",
+      "url": "http://internetua.com/reuters-dezinformaciya-rf-u-polsxi-zrosla-bilsh-nij-na-250-",
+      "published_at": "20260815T174500Z",
+      "source": "internetua.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ef3cbdbcd03dd6ab",
+      "headline": "Iran claims Qatar holding pilots as UAE says ship attacked in Strait of Hormuz",
+      "url": "https://www.edp24.co.uk/news/national/26467922.iran-claims-qatar-holding-pilots-uae-says-ship-attacked-strait-hormuz/",
+      "published_at": "20260815T183000Z",
+      "source": "edp24.co.uk",
+      "tags": [
+        "QATAR",
+        "UAE"
+      ]
+    },
+    {
+      "id": "gdelt_5dc4748292afc17d",
+      "headline": "Νέος ουκρανικός βαλλιστικός πύραυλος θα φτάνει έως τη Μόσχα – Τι σχεδιάζει το Κίεβο",
+      "url": "https://www.huffingtonpost.gr/diethnes/neos-oukranikos-vallistikos-pyravlos-tha-ftanei-eos-ti-moscha-ti-schediazei-to-kievo/",
+      "published_at": "20260815T181500Z",
+      "source": "huffingtonpost.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7143b40b28cef9c0",
+      "headline": "Iran fires back at Trump threat to declare Hormuz a US territory",
+      "url": "https://www.channelnewsasia.com/world/iran-fires-back-trumps-threat-declare-hormuz-us-territory-6321731",
+      "published_at": "20260815T220000Z",
+      "source": "channelnewsasia.com",
+      "tags": []
     }
   ]
 }
