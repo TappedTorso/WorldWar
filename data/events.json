@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-08-16T17:33:02Z",
+    "generated_at_utc": "2026-08-16T19:31:21Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -33,21 +33,19 @@
   },
   "events": [
     {
-      "id": "gdelt_7a86a78a68abb76d",
-      "headline": "SAD obećavaju  neviđenu  ekonomsku izolaciju Irana . Šta bi to moglo da znači ?",
-      "url": "https://www.slobodnaevropa.org/a/sad-iran-ekonomski-pritisak/33831056.html",
-      "published_at": "20260816T124500Z",
-      "source": "slobodnaevropa.org",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
       "id": "gdelt_8334e1dc0ecf4b69",
       "headline": "Почти 6 тыс . мигрантов обратились за медпомощью в Сеуте",
       "url": "https://www.mk.ru/politics/2026/08/16/pochti-6-tys-migrantov-obratilis-za-medpomoshhyu-v-seute.html",
       "published_at": "20260816T140000Z",
       "source": "mk.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_02db0afa35a93ffc",
+      "headline": "إيران والولايات المتحدة من يصمد أكثر في حرب الضغط الاقتصادي ؟.. الشروف يوضح",
+      "url": "https://www.dostor.org/5669698",
+      "published_at": "20260816T183000Z",
+      "source": "dostor.org",
       "tags": []
     },
     {
@@ -67,27 +65,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_e8277c35f44953c6",
-      "headline": "Кандидат в президенты США высказалась о недопустимости эскалации отношений с РФ",
-      "url": "https://www.vesti.ru/ns/kandidat-v-prezidenty-ssha-vyskazalas-o-nedopustimosti-ehskalacii-otnoshenij-s-rf",
-      "published_at": "20260816T130000Z",
-      "source": "vesti.ru",
+      "id": "gdelt_c94452b47411bc1e",
+      "headline": "Срок соглашения между США и Ираком истек : конфликт переходит в экономику | MigNews - Новости Израиля и Мира на русском языке",
+      "url": "http://mignews.com/news/politic/srok-soglasheniya-mezhdu-ssha-i-irakom-istek-konflikt-perehodit-v-ekonomiku.html",
+      "published_at": "20260816T181500Z",
+      "source": "mignews.com",
       "tags": []
     },
     {
-      "id": "gdelt_b1e42741f4d667cf",
-      "headline": "Teisingumo ministerija : pasitraukimas iš Tarptautinio baudžiamojo teismo nesvarstomas",
-      "url": "https://www.lrt.lt/naujienos/lietuvoje/2/3023027/teisingumo-ministerija-pasitraukimas-is-tarptautinio-baudziamojo-teismo-nesvarstomas",
-      "published_at": "20260816T130000Z",
-      "source": "lrt.lt",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9d3165c164d07827",
-      "headline": "БпЛА Nyan - які характеристики , що відомо , яка дальність",
-      "url": "https://24tv.ua/military/bpla-nyan-yaki-harakteristiki-shho-vidomo-yaka-dalnist_n3124335",
-      "published_at": "20260816T131500Z",
-      "source": "24tv.ua",
+      "id": "gdelt_4bf03cd78771f70b",
+      "headline": "Срок соглашения между США и Ираком истек : конфликт переходит в экономику | MigNews - Новости Израиля и Мира на русском языке",
+      "url": "https://mignews.com/news/politic/srok-soglasheniya-mezhdu-ssha-i-irakom-istek-konflikt-perehodit-v-ekonomiku.html",
+      "published_at": "20260816T184500Z",
+      "source": "mignews.com",
       "tags": []
     },
     {
@@ -99,11 +89,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_2f408cef214564b3",
-      "headline": "Нападения на украинцев дали результат : эксперт объяснил , что будет с союзом Киева и Варшавы",
-      "url": "https://glavred.info/politics/napadeniya-na-ukraincev-dali-rezultat-ekspert-obyasnil-chto-budet-s-soyuzom-kieva-i-varshavy-10788869.html",
-      "published_at": "20260816T124500Z",
-      "source": "glavred.info",
+      "id": "gdelt_10eabc39b37fa795",
+      "headline": "KI gegen KI vor Gericht : Wenn Chatbots Urteile erfinden und Anwälte gefeuert werden",
+      "url": "https://t3n.de/news/ki-gegen-ki-vor-gericht-1747710/",
+      "published_at": "20260816T151500Z",
+      "source": "t3n.de",
       "tags": []
     },
     {
@@ -115,12 +105,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_10eabc39b37fa795",
-      "headline": "KI gegen KI vor Gericht : Wenn Chatbots Urteile erfinden und Anwälte gefeuert werden",
-      "url": "https://t3n.de/news/ki-gegen-ki-vor-gericht-1747710/",
-      "published_at": "20260816T151500Z",
-      "source": "t3n.de",
-      "tags": []
+      "id": "gdelt_fa635d47f7b3224f",
+      "headline": "Netanyahu is not alone in failing to rein in Israel settler violence",
+      "url": "https://www.latimes.com/world-nation/story/2026-08-16/netanyahu-is-not-alone-in-failing-to-rein-in-israels-settler-violence",
+      "published_at": "20260816T190000Z",
+      "source": "latimes.com",
+      "tags": [
+        "ISRAEL"
+      ]
     },
     {
       "id": "gdelt_4ee1f5ba0556186a",
@@ -149,14 +141,6 @@
       ]
     },
     {
-      "id": "gdelt_70ce69836146545f",
-      "headline": "Indonesia steps up transboundary haze monitoring in W Kalimantan",
-      "url": "https://en.antaranews.com/news/427325/indonesia-steps-up-transboundary-haze-monitoring-in-w-kalimantan",
-      "published_at": "20260816T123000Z",
-      "source": "en.antaranews.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_9d87061ab41a6cc5",
       "headline": "Haiti – Stop the money flow to Organised Crime",
       "url": "https://kaieteurnewsonline.com/2026/08/16/haiti-stop-the-money-flow-to-organised-crime/",
@@ -164,16 +148,6 @@
       "source": "kaieteurnewsonline.com",
       "tags": [
         "HAITI"
-      ]
-    },
-    {
-      "id": "gdelt_5b2ae1875a40d4f3",
-      "headline": "Trump weighs more economic pressure on Iran : What are his options ?",
-      "url": "https://www.business-standard.com/world-news/trump-weighs-more-economic-pressure-on-iran-what-are-his-options-126081600377_1.html",
-      "published_at": "20260816T120000Z",
-      "source": "business-standard.com",
-      "tags": [
-        "IRAN"
       ]
     },
     {
@@ -187,51 +161,21 @@
       ]
     },
     {
-      "id": "gdelt_7c5f4bbea960c5ca",
-      "headline": "Trump wants more economic pressure on Iran . What are his options ?",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/trump-wants-more-economic-pressure-on-iran-what-are-his-options/articleshow/133273712.cms",
-      "published_at": "20260816T114500Z",
-      "source": "economictimes.indiatimes.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d4c13aa00b0fa874",
-      "headline": "Donald Trump wants more economic pressure on Iran . What are his options ?",
-      "url": "https://www.moneycontrol.com/world/donald-trump-wants-more-economic-pressure-on-iran-what-are-his-options-article-14006758.html",
-      "published_at": "20260816T120000Z",
-      "source": "moneycontrol.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_fed5bc3340e7ced0",
       "headline": "What are Trump options as he seeks to pile more economic pressure on Iran ?",
       "url": "https://www.jpost.com/middle-east/iran-news/article-905659",
       "published_at": "20260816T141500Z",
       "source": "jpost.com",
-      "tags": []
+      "tags": [
+        "IRAN"
+      ]
     },
     {
-      "id": "gdelt_f941cd98f26980de",
-      "headline": "Explainer - Trump wants more economic pressure on Iran . What are his options ?",
-      "url": "https://www.al-monitor.com/originals/2026/08/explainer-trump-wants-more-economic-pressure-iran-what-are-his-options",
-      "published_at": "20260816T120000Z",
-      "source": "al-monitor.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d4df53a9027405f2",
-      "headline": "Жительница Курской области рассказала , что боевик ВСУ хотел сделать бусы из глаз",
-      "url": "https://www.vesti.ru/ns/zhitelnica-kurskoj-oblasti-rasskazala-chto-boevik-vsu-khotel-sdelat-busy-iz-glaz",
-      "published_at": "20260816T114500Z",
-      "source": "vesti.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_78151a5eec1bf1ff",
-      "headline": "Берн заморозил активы на 10 , 4 млрд долларов . Что это означает для России",
-      "url": "https://pronedra.ru/shvejczarskij-sejf-dlya-rossijskih-milliardov-pochemu-bern-zamorozil-aktivy-na-104-mlrd-dollarov-i-chto-eto-oznachaet-dlya-rossii-828794.html",
-      "published_at": "20260816T130000Z",
-      "source": "pronedra.ru",
+      "id": "gdelt_6b280d4fc5c09bdf",
+      "headline": "Санкции против России – почему США и ЕС не применяют их в полную силу",
+      "url": "https://24tv.ua/ru/sankcii-protiv-rossii-pochemu-ssha-i-es-ne-primenjajut-ih-v-polnuju-silu_n3124487",
+      "published_at": "20260816T184500Z",
+      "source": "24tv.ua",
       "tags": []
     },
     {
@@ -244,14 +188,6 @@
         "LEBANON",
         "HEZBOLLAH"
       ]
-    },
-    {
-      "id": "gdelt_27b3320796cf09a7",
-      "headline": "Женщина погибла , мужчина пострадал при ударе ВСУ по авто в Курской области",
-      "url": "https://www.vesti.ru/ns/zhenshchina-pogibla-muzhchina-postradal-pri-udare-vsu-po-avto-v-kurskoj-oblasti",
-      "published_at": "20260816T114500Z",
-      "source": "vesti.ru",
-      "tags": []
     },
     {
       "id": "gdelt_9353aa3b372bf2a4",
@@ -278,30 +214,15 @@
       "tags": []
     },
     {
-      "id": "gdelt_6b5655d7b6bace80",
-      "headline": "خبير عسكري : تصعيد إسرائيلي متدرج في لبنان لرفع سقف المطالب",
-      "url": "https://www.dostor.org/5669541",
-      "published_at": "20260816T151500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
       "id": "gdelt_0feba4d606d3214e",
       "headline": "India works out Chabahar handover to Iran amid US sanctions",
       "url": "https://www.thehindubusinessline.com/economy/logistics/india-works-out-chabahar-handover-to-iran-amid-us-sanctions/article71352548.ece",
       "published_at": "20260816T160000Z",
       "source": "thehindubusinessline.com",
       "tags": [
+        "IRAN",
         "INDIA"
       ]
-    },
-    {
-      "id": "gdelt_dfbb67e0dba3043c",
-      "headline": "Запад может нанести России более сильный удар , но он этого не сделает",
-      "url": "https://24tv.ua/ru/zapad-mozhet-nanesti-rossii-bolee-silnyj-udar-on-jetogo-ne-sdelaet_n3124330",
-      "published_at": "20260816T120000Z",
-      "source": "24tv.ua",
-      "tags": []
     },
     {
       "id": "gdelt_f67dd2a02a624a93",
@@ -312,11 +233,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_35d2d0824f0263a3",
-      "headline": "رئيس حزب الائتلاف الجمهوري ، عز الدين عقيل : يتم تصعيد العنف بشكل كبير في الدول التي تعيش ال",
-      "url": "https://www.libyaakhbar.com/breaking/2855886.html",
-      "published_at": "20260816T120000Z",
-      "source": "libyaakhbar.com",
+      "id": "gdelt_6b5655d7b6bace80",
+      "headline": "خبير عسكري : تصعيد إسرائيلي متدرج في لبنان لرفع سقف المطالب",
+      "url": "https://www.dostor.org/5669541",
+      "published_at": "20260816T151500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f76b406444cbed2e",
+      "headline": "إعلام إسرائيلي : الجيش يستعد لاحتمال التصعيد في لبنان عقب أحداث مرتفعات علي الطاهر",
+      "url": "https://www.dostor.org/5669754",
+      "published_at": "20260816T183000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b8815e1b942263ca",
+      "headline": "Макрель , а в перспективе – треска . Российская рыба под ограничениями в ЕС",
+      "url": "https://www.svoboda.org/a/makrelj-a-v-perspektive-treska-rossiyskaya-ryba-pod-ogranicheniyami-v-es/33831512.html",
+      "published_at": "20260816T184500Z",
+      "source": "svoboda.org",
       "tags": []
     },
     {
@@ -336,37 +273,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_04213df1c0a26af3",
-      "headline": "Polio - Free Afghanistan to Launch Vaccination Campaign Tomorrow Amid New Polio Cases",
-      "url": "https://www.khaama.com/polio-free-afghanistan-to-launch-vaccination-campaign-tomorrow-amid-new-polio-cases/",
-      "published_at": "20260816T130000Z",
-      "source": "khaama.com",
-      "tags": [
-        "AFGHANISTAN"
-      ]
-    },
-    {
       "id": "gdelt_8adc15e154ef97c4",
       "headline": "Nga Gjermania drejt Kosovës , shoferi i autobusit kapet në kufi me 63 mijë euro të padeklaruara",
       "url": "https://telegrafi.com/nga-gjermania-drejt-kosoves-shoferi-i-autobusit-kapet-ne-kufi-me-63-mije-euro-te-padeklaruara/",
       "published_at": "20260816T134500Z",
       "source": "telegrafi.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3f300c5332533a1b",
-      "headline": "西班牙F - 18羅馬尼亞擊落入侵無人機 北約東翼防空再升級 - 軍事",
-      "url": "https://www.chinatimes.com/realtimenews/20260816002507-260417",
-      "published_at": "20260816T114500Z",
-      "source": "chinatimes.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9e5961ebe623c6a7",
-      "headline": "63 mijë eurot e padeklaruara në Doganë , ja cila kompani po i transportonte",
-      "url": "https://indeksonline.net/63-mije-eurot-e-padeklaruara-ne-dogane-ja-cila-kompani-po-i-transportonte/",
-      "published_at": "20260816T160000Z",
-      "source": "indeksonline.net",
       "tags": []
     },
     {
@@ -378,14 +289,6 @@
       "tags": [
         "UNITED_STATES"
       ]
-    },
-    {
-      "id": "gdelt_1f2fc1c0deaeeed8",
-      "headline": "مؤسس حملة التضامن مع الشعب الفلسطيني في إسكتلندا : اعتداءات المستوطنين بالضفة الغربية تطهير عرقي",
-      "url": "https://www.dostor.org/5669447",
-      "published_at": "20260816T151500Z",
-      "source": "dostor.org",
-      "tags": []
     },
     {
       "id": "gdelt_04411cbb21d61612",
@@ -404,27 +307,43 @@
       "tags": []
     },
     {
-      "id": "gdelt_64fac94a3eb3b182",
-      "headline": "В Сеуте за две недели медпомощь получили около 5 , 8 тыс . мигрантов",
-      "url": "https://www.sb.by/articles/v-seute-za-dve-nedeli-medpomoshch-poluchili-okolo-5-8-tys-migrantov-.html",
-      "published_at": "20260816T160000Z",
-      "source": "sb.by",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f1d7ee062bfa6eba",
-      "headline": "美國喊話本周將加碼對伊朗實施 「 經濟怒火 」 可能會有哪些行動 ？ | 中東戰火連綿 | 全球",
-      "url": "https://udn.com/news/story/124061/9695025",
-      "published_at": "20260816T120000Z",
-      "source": "udn.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_5eda2fc4d07925e4",
       "headline": "A dëshiron Zvicra të bëhet edhe më neutrale ?",
       "url": "https://www.gazetaexpress.com/a-deshiron-zvicra-te-behet-edhe-me-neutrale/",
       "published_at": "20260816T141500Z",
       "source": "gazetaexpress.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9e5961ebe623c6a7",
+      "headline": "63 mijë eurot e padeklaruara në Doganë , ja cila kompani po i transportonte",
+      "url": "https://indeksonline.net/63-mije-eurot-e-padeklaruara-ne-dogane-ja-cila-kompani-po-i-transportonte/",
+      "published_at": "20260816T160000Z",
+      "source": "indeksonline.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1f2fc1c0deaeeed8",
+      "headline": "مؤسس حملة التضامن مع الشعب الفلسطيني في إسكتلندا : اعتداءات المستوطنين بالضفة الغربية تطهير عرقي",
+      "url": "https://www.dostor.org/5669447",
+      "published_at": "20260816T151500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c007db7ec950e863",
+      "headline": "Південна Корея відкрила попереджувальний вогонь на кордоні з КНДР",
+      "url": "https://espreso.tv/svit-viyskovi-kndr-peretnuli-demarkatsiynu-liniyu-pivdenna-koreya-vidpovila-poperedzhuvalnim-vognem-zmi",
+      "published_at": "20260816T174500Z",
+      "source": "espreso.tv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0bf2312649d6d179",
+      "headline": "US considers new sanctions on Brazilian judge , FT reports",
+      "url": "https://www.yahoo.com/news/articles/us-considers-sanctions-brazilian-judge-174251954.html",
+      "published_at": "20260816T183000Z",
+      "source": "yahoo.com",
       "tags": []
     },
     {
@@ -436,11 +355,43 @@
       "tags": []
     },
     {
-      "id": "gdelt_5b884a8387d88c31",
-      "headline": "Школьники из Шебекино рассказали об атаках ВСУ - Новости на Вести . ru",
-      "url": "https://www.vesti.ru/ns/shkolniki-iz-shebekino-rasskazali-ob-atakakh-vsu",
-      "published_at": "20260816T114500Z",
-      "source": "vesti.ru",
+      "id": "gdelt_94201737c1866f5e",
+      "headline": "Україна та Азербайджан посилюють співпрацю у сфері безпеки та гуманітарної підтримки",
+      "url": "https://wz.lviv.ua/news/557053-ukraina-ta-azerbaidzhan-posyliuiut-spivpratsiu-u-sferi-bezpeky-ta-humanitarnoi-pidtrymky",
+      "published_at": "20260816T183000Z",
+      "source": "wz.lviv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_64fac94a3eb3b182",
+      "headline": "В Сеуте за две недели медпомощь получили около 5 , 8 тыс . мигрантов",
+      "url": "https://www.sb.by/articles/v-seute-za-dve-nedeli-medpomoshch-poluchili-okolo-5-8-tys-migrantov-.html",
+      "published_at": "20260816T160000Z",
+      "source": "sb.by",
+      "tags": []
+    },
+    {
+      "id": "gdelt_23fd0d15cbefeaab",
+      "headline": "Политолог не исключил отзыв посла Японии из России",
+      "url": "http://govoritmoskva.ru/news/502439/",
+      "published_at": "20260816T141500Z",
+      "source": "govoritmoskva.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1af5c2bed9220e0b",
+      "headline": "باحث : الإخوان يستغلون ذكرى رابعة وتبعات 3 يوليو في تصعيد حملاتهم ضد مصر",
+      "url": "https://www.elwatannews.com/news/details/8340609",
+      "published_at": "20260816T174500Z",
+      "source": "elwatannews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a8f4727be81cd66b",
+      "headline": "בלי מטוסים וטילים : כך יכול טראמפ להדק את טבעת החנק סביב איראן",
+      "url": "https://www.globes.co.il/news/article.aspx?did=1001552432",
+      "published_at": "20260816T164500Z",
+      "source": "globes.co.il",
       "tags": []
     },
     {
@@ -460,27 +411,35 @@
       "tags": []
     },
     {
-      "id": "gdelt_23fd0d15cbefeaab",
-      "headline": "Политолог не исключил отзыв посла Японии из России",
-      "url": "http://govoritmoskva.ru/news/502439/",
-      "published_at": "20260816T141500Z",
-      "source": "govoritmoskva.ru",
+      "id": "gdelt_ed0945b3960639f4",
+      "headline": "Pemkot Manado Keluarkan Edaran , Ada Sanksi bagi yang Melanggar , Berikut Isi Suratnya",
+      "url": "https://manado.tribunnews.com/manado/1888875/pemkot-manado-keluarkan-edaran-ada-sanksi-bagi-yang-melanggar-berikut-isi-suratnya",
+      "published_at": "20260816T174500Z",
+      "source": "manado.tribunnews.com",
       "tags": []
     },
     {
-      "id": "gdelt_a8f4727be81cd66b",
-      "headline": "בלי מטוסים וטילים : כך יכול טראמפ להדק את טבעת החנק סביב איראן",
-      "url": "https://www.globes.co.il/news/article.aspx?did=1001552432",
-      "published_at": "20260816T164500Z",
-      "source": "globes.co.il",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d781d5958cb9a529",
-      "headline": "Kapen mbi 63 mijë euro të fshehura në bagazhin e shoferit në autobusin Gjermani - Kosovë në Merdar",
-      "url": "https://www.gazetaexpress.com/kapen-mbi-63-mije-euro-te-fshehura-ne-bagazhin-e-shoferit-ne-autobusin-gjermani-kosove-ne-merdar/",
+      "id": "gdelt_3e29621d8223f65a",
+      "headline": "Kepala BGN Ancam Pecat Kepala SPPG yang Lalai",
+      "url": "https://rri.co.id/regional/2656717/kepala-bgn-ancam-pecat-kepala-sppg-yang-lalai",
       "published_at": "20260816T161500Z",
-      "source": "gazetaexpress.com",
+      "source": "rri.co.id",
+      "tags": []
+    },
+    {
+      "id": "gdelt_61e40d4fab0e0129",
+      "headline": "Санкції проти Росії - чому США і ЄС не запускають їх на повну силу",
+      "url": "https://24tv.ua/sanktsiyi-proti-rosiyi-chomu-ssha-yes-ne-zapuskayut-yih-povnu_n3124486",
+      "published_at": "20260816T183000Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fd98f55d173e6242",
+      "headline": "سيرجي ماركوف : روسيا تضم أراضٍ للضغط على أوكرانيا وتتقدم في الحرب",
+      "url": "https://www.dostor.org/5669726",
+      "published_at": "20260816T174500Z",
+      "source": "dostor.org",
       "tags": []
     },
     {
@@ -489,6 +448,14 @@
       "url": "https://www.balkanweb.com/dhunuan-fizikisht-shefin-e-krimeve-ne-sarande-mateo-bakalli-arrestohen-autoret-nje-tjeter-ende-ne-kerkim-pezullohen-dy-efektive-policie-emrat/",
       "published_at": "20260816T160000Z",
       "source": "balkanweb.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d781d5958cb9a529",
+      "headline": "Kapen mbi 63 mijë euro të fshehura në bagazhin e shoferit në autobusin Gjermani - Kosovë në Merdar",
+      "url": "https://www.gazetaexpress.com/kapen-mbi-63-mije-euro-te-fshehura-ne-bagazhin-e-shoferit-ne-autobusin-gjermani-kosove-ne-merdar/",
+      "published_at": "20260816T161500Z",
+      "source": "gazetaexpress.com",
       "tags": []
     },
     {
@@ -508,14 +475,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_3e29621d8223f65a",
-      "headline": "Kepala BGN Ancam Pecat Kepala SPPG yang Lalai",
-      "url": "https://rri.co.id/regional/2656717/kepala-bgn-ancam-pecat-kepala-sppg-yang-lalai",
-      "published_at": "20260816T161500Z",
-      "source": "rri.co.id",
-      "tags": []
-    },
-    {
       "id": "gdelt_936ea4245ce5823b",
       "headline": "Căng thẳng quân sự leo thang tại Yemen",
       "url": "https://vietgiaitri.com/cang-thang-quan-su-leo-thang-tai-yemen-20260816i7754095/",
@@ -526,37 +485,27 @@
       ]
     },
     {
-      "id": "gdelt_afd709c5f53cfb12",
-      "headline": "Реактивный дрон БМ - 35 , что известно - в России продемонстрировали модернизированный дрон",
-      "url": "https://24tv.ua/military/ru/reaktivnyj-dron-bm-35-chto-izvestno-v-rossii-prodemonstrirovali-modernizirovannyj-dron_n3124314",
-      "published_at": "20260816T120000Z",
-      "source": "24tv.ua",
+      "id": "gdelt_172349b3e28d840b",
+      "headline": "Россия и Украина придают обмену дроновыми ударами реактивную силу",
+      "url": "https://www.ng.ru/armies/2026-08-16/1_9560_drones.html",
+      "published_at": "20260816T183000Z",
+      "source": "ng.ru",
       "tags": []
     },
     {
-      "id": "gdelt_61679e389a1bfcd2",
-      "headline": "ONGC Gets US Licence to Resume Full Venezuela Operations , Eyes Operatorship",
-      "url": "https://dailypioneer.com/news/ongc-us-licence-resume-venezuela-operations-operatorship",
-      "published_at": "20260816T130000Z",
-      "source": "dailypioneer.com",
-      "tags": [
-        "VENEZUELA"
-      ]
-    },
-    {
-      "id": "gdelt_79b307b454beef58",
-      "headline": "Netikėta įtakingo Kremliaus bankininko prognozė : „ Mes nelaimėsime  | Verslas",
-      "url": "https://www.15min.lt/verslas/naujiena/finansai/netiketa-itakingo-kremliaus-bankininko-prognoze-mes-nelaimesime-662-2744048",
-      "published_at": "20260816T133000Z",
-      "source": "15min.lt",
+      "id": "gdelt_9c595dc4eba45995",
+      "headline": "جريدة الرياض | التوترات تدفع النفط إلى 100 دولار رغم ارتفاع المخزونات",
+      "url": "https://www.alriyadh.com/2202602",
+      "published_at": "20260816T184500Z",
+      "source": "alriyadh.com",
       "tags": []
     },
     {
-      "id": "gdelt_f828dad41a46bc06",
-      "headline": "Захід може вдарити по Росії сильніше , чому він цього не зробить",
-      "url": "https://24tv.ua/zahid-mozhe-vdariti-po-rosiyi-silnishe-chomu-vin-tsogo-ne-zrobit_n3124328",
-      "published_at": "20260816T114500Z",
-      "source": "24tv.ua",
+      "id": "gdelt_95a5012cc07ffd7e",
+      "headline": "Belgische Behörden fordern Einsatzkräfte aus Deutschland an",
+      "url": "https://www.welt.de/regionales/nrw/article6a81ede6a87e8142c31d20a1/belgische-behoerden-fordern-einsatzkraefte-aus-deutschland-an.html",
+      "published_at": "20260816T174500Z",
+      "source": "welt.de",
       "tags": []
     },
     {
@@ -568,6 +517,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_61faf0709124a260",
+      "headline": "Eskalacija u Jemenu : Saudijska Arabija pokreće pomorsku koaliciju",
+      "url": "https://www.novosti.rs/planeta/svet/1638404/saudijska-arabija-pomorska-koalicija-jemen-sukob",
+      "published_at": "20260816T183000Z",
+      "source": "novosti.rs",
+      "tags": []
+    },
+    {
       "id": "gdelt_22f2025774a07b30",
       "headline": "Сотні нелегалів з Марокко знову намагалися прорватися в іспанську Сеуту",
       "url": "https://kp.ua/ua/incidents/a734659-sotni-nelehaliv-iz-marokko-znovu-namahalisja-prorvatisja-do-ispanskoji-seuti",
@@ -576,11 +533,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_c3848787abcd6a6e",
-      "headline": "Поставки российской рыбы в Европу за год выросли на 22 процента | Москва",
-      "url": "https://fedpress.ru/news/77/economy/3448089",
-      "published_at": "20260816T114500Z",
-      "source": "fedpress.ru",
+      "id": "gdelt_777c415651e47032",
+      "headline": "烏克蘭發動開戰以來最大規模無人機攻擊 俄軍防空系統面臨極限 - 國際",
+      "url": "https://news.ltn.com.tw/news/world/breakingnews/5542118",
+      "published_at": "20260816T174500Z",
+      "source": "news.ltn.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1c5f573d6d6026a4",
+      "headline": "Waldbrand : Belgische Behörden fordern Einsatzkräfte aus Deutschland an",
+      "url": "https://www.news.de/panorama/859909121/belgische-behoerden-fordern-einsatzkraefte-aus-deutschland-an-news-der-dpa-aktuell-zu-natur-notfall-und-waldbraenden/1/",
+      "published_at": "20260816T190000Z",
+      "source": "news.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9b68debf8e1f47ae",
+      "headline": "İsrail ile İngiltere arasında yeni kriz : Netanyahunun sözleri tepki çekti",
+      "url": "https://www.odatv.com/dunya/israil-ile-ingiltere-arasinda-yeni-kriz-netanyahunun-sozleri-tepki-cekti-120158930",
+      "published_at": "20260816T151500Z",
+      "source": "odatv.com",
       "tags": []
     },
     {
@@ -616,22 +589,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_b701b612d32dd9ed",
-      "headline": "구글 , 한국 정치 여론공작 채널 449개 폐쇄",
-      "url": "https://www.fnnews.com/news/202608162059005922",
-      "published_at": "20260816T124500Z",
-      "source": "fnnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9b68debf8e1f47ae",
-      "headline": "İsrail ile İngiltere arasında yeni kriz : Netanyahunun sözleri tepki çekti",
-      "url": "https://www.odatv.com/dunya/israil-ile-ingiltere-arasinda-yeni-kriz-netanyahunun-sozleri-tepki-cekti-120158930",
-      "published_at": "20260816T151500Z",
-      "source": "odatv.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_16a726c442631eeb",
       "headline": "В Бельгии крупнейший лесной пожар в истории страны охватил 3000 гектаров | MigNews - Новости Израиля и Мира на русском языке",
       "url": "https://mignews.com/news/disasters/v-belgii-krupnejshij-lesnoj-pozhar-v-istorii-strany-ohvatil-3000-gektarov.html",
@@ -648,6 +605,22 @@
       "tags": []
     },
     {
+      "id": "gdelt_4eae17b0c05c6cde",
+      "headline": "日 1리터 배급 이란 vs 4달러 재돌파 미국 … 휘발유  치킨 게임 - 국민일보",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000003477&code=11141100&sid1=int",
+      "published_at": "20260816T174500Z",
+      "source": "kmib.co.kr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_71ab242de4a24a04",
+      "headline": "日 1리터 배급 이란 vs 4달러 재돌파 미국 … 휘발유  치킨 게임 - 국민일보",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000003477&code=11141100&stg=wm_rank",
+      "published_at": "20260816T174500Z",
+      "source": "kmib.co.kr",
+      "tags": []
+    },
+    {
       "id": "gdelt_e42f3d345e1a7679",
       "headline": "West Africa : Lithium in the Sahel - How Armed Groups Are Exploiting the Global Scramble for the Critical Mineral",
       "url": "https://allafrica.com/stories/202608160006.html",
@@ -656,35 +629,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_f83792668d33dc8b",
-      "headline": "إيران : مكافأة لقتل أو أسر جندي أمريكي",
-      "url": "https://www.hespress.com/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D9%83%D8%A7%D9%81%D8%A3%D8%A9-%D9%84%D9%82%D8%AA%D9%84-%D8%A3%D9%88-%D8%A3%D8%B3%D8%B1-%D8%AC%D9%86%D8%AF%D9%8A-%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A-1792886.html",
-      "published_at": "20260816T130000Z",
-      "source": "hespress.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c91895f6ed8832ed",
-      "headline": "Ο Τραμπ διατρανώνει ότι θα ασκήσει μεγαλύτερη οικονομική πίεση στο Ιράν ....",
-      "url": "https://www.capital.gr/diethni/4010916/o-tramp-diatranonei-oti-tha-askisei-megaluteri-oikonomiki-piesi-sto-iran-poies-einai-oi-epiloges-tou/",
-      "published_at": "20260816T124500Z",
-      "source": "capital.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c24dc57de6247287",
-      "headline": "北韓士兵越線遭鳴槍逼退 南韓軍方 ： 密切監視 「 無異動 」 - 國際",
-      "url": "https://news.ltn.com.tw/news/world/breakingnews/5541985",
-      "published_at": "20260816T123000Z",
-      "source": "news.ltn.com.tw",
-      "tags": []
-    },
-    {
-      "id": "gdelt_622f97df2c132d72",
-      "headline": "奥德赛的真正遗产 ： 宾主法则与古典博弈智慧",
-      "url": "http://www.ftchinese.com/story/001110623",
-      "published_at": "20260816T124500Z",
-      "source": "ftchinese.com",
+      "id": "gdelt_869b3e69f7c43588",
+      "headline": "ВСУ кратно нарастили удары  Фламинго  по РФ , пока Fire Point разгоняет производство до максимума",
+      "url": "https://www.dialog.ua/war/vsu-kratno-narastili-udary-flamingo-po-rf-poka-fire-point.html",
+      "published_at": "20260816T190000Z",
+      "source": "dialog.ua",
       "tags": []
     },
     {
@@ -704,27 +653,35 @@
       "tags": []
     },
     {
+      "id": "gdelt_9daa30993a0b863f",
+      "headline": "أجواء الانتخابات الإيطالية تدفع « ميلوني » للعودة إلى جذورها السياسية",
+      "url": "https://www.elwatannews.com/news/details/8340608",
+      "published_at": "20260816T174500Z",
+      "source": "elwatannews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_baee7da0b5e394dc",
+      "headline": "پنج سال از بازگشت طالبان به قدرت گذشت",
+      "url": "http://www.afghanpaper.com/nbody.php?id=200721",
+      "published_at": "20260816T190000Z",
+      "source": "afghanpaper.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_134db5422b96a38d",
+      "headline": "لبنان وإسرائيل : كيف ينعكس التصعيد العسكري الجاري على مسار المفاوضات ؟",
+      "url": "https://www.bbc.com/arabic/articles/cr599p4jlejo",
+      "published_at": "20260816T183000Z",
+      "source": "bbc.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_28fb1cfc391e00c4",
       "headline": "179 مستوطنًا يقتحمون الأقصى وسط حماية مشددة",
       "url": "https://palinfo.com/news/2026/08/16/1115568/",
       "published_at": "20260816T154500Z",
       "source": "palinfo.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_037fffdd1c22ecf6",
-      "headline": "Россия увеличила поставки рыбы в ЕС в 1 , 7 раза за месяц",
-      "url": "https://life.ru/p/1912500",
-      "published_at": "20260816T123000Z",
-      "source": "life.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2f6caf4d5035818e",
-      "headline": "تحليق حربي إسرائيلي في أجواء جنوب لبنان وتفجيرات واسعة في المنصوري ومجدل زون",
-      "url": "https://gate.ahram.org.eg/News/5889583.aspx",
-      "published_at": "20260816T131500Z",
-      "source": "gate.ahram.org.eg",
       "tags": []
     },
     {
@@ -744,11 +701,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_0c341f15a0bcdff6",
-      "headline": "Venäjn talouseliitin synkkä arvio levi :  Me häviämme",
-      "url": "https://www.iltalehti.fi/ulkomaat/a/705c263a-b7f6-497f-a4ef-4306ac3636f5",
-      "published_at": "20260816T123000Z",
-      "source": "iltalehti.fi",
+      "id": "gdelt_063945bd33f6cda1",
+      "headline": "تحذير ليبي .. المسيرات تؤجج الصراع",
+      "url": "https://arabic.rt.com/prg/%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1-%D9%84%D9%8A%D8%A8%D9%8A-%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA-%D8%AA%D8%A4%D8%AC%D8%AC-%D8%A7%D9%84%D8%B5%D8%B1%D8%A7%D8%B9-1821833/%D9%86%D9%8A%D9%88%D8%B2%D9%85%D9%8A%D9%83%D8%B1/",
+      "published_at": "20260816T184500Z",
+      "source": "arabic.rt.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bba0a1366d5bfd13",
+      "headline": "تصعيد واسع في اليمن والقوات الحكومية تعلن تنفيذ 18 عملية ضد الحوثيين",
+      "url": "https://www.elwatannews.com/news/details/8340620",
+      "published_at": "20260816T183000Z",
+      "source": "elwatannews.com",
       "tags": []
     },
     {
@@ -768,35 +733,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_385113e51ef3cb34",
-      "headline": "Israel claims it shot down senior Hezbollah commander in south Lebanon",
-      "url": "http://www.greekherald.com/news/279244913/israel-claims-it-shot-down-senior-hezbollah-commander-in-south-lebanon",
-      "published_at": "20260816T120000Z",
-      "source": "greekherald.com",
-      "tags": [
-        "ISRAEL",
-        "LEBANON",
-        "HEZBOLLAH"
-      ]
+      "id": "gdelt_c19c2c87f8de5c99",
+      "headline": "Belgische Behörden fordern Einsatzkräfte aus Deutschland an",
+      "url": "https://www.die-glocke.de/blick-in-die-welt/nrw/artikel/belgische-behoerden-fordern-einsatzkraefte-aus-deutschland-an-1786899904",
+      "published_at": "20260816T174500Z",
+      "source": "die-glocke.de",
+      "tags": []
     },
     {
-      "id": "gdelt_d1dcc7e78e80ba43",
-      "headline": "Israel claims it shot down senior Hezbollah commander in south Lebanon",
-      "url": "http://www.arabherald.com/news/279244913/israel-claims-it-shot-down-senior-hezbollah-commander-in-south-lebanon",
-      "published_at": "20260816T133000Z",
-      "source": "arabherald.com",
-      "tags": [
-        "ISRAEL",
-        "LEBANON",
-        "HEZBOLLAH"
-      ]
+      "id": "gdelt_eedb2772ae1f7e67",
+      "headline": "Роберт Серри - первый посол Нидерландов рассказал об ошибке Запада",
+      "url": "https://gazeta.ua/ru/articles/politics/_zapad-ne-ponyal-chto-putin-schitaet-ukrainu-svoim-zadnim-dvorom-diplomat/1256728",
+      "published_at": "20260816T173000Z",
+      "source": "gazeta.ua",
+      "tags": []
     },
     {
-      "id": "gdelt_e303e2aa8131c6f8",
-      "headline": "I . I . leader says were it not for the cross border scheme , hospital waiting lists would be much worse - Highland Radio",
-      "url": "https://highlandradio.com/2026/08/16/i-i-leader-says-were-it-not-for-the-cross-border-scheme-hospital-waiting-lists-would-be-much-worse/",
-      "published_at": "20260816T133000Z",
-      "source": "highlandradio.com",
+      "id": "gdelt_751f419bc09d3269",
+      "headline": "習將訪美 傳底線是鬥而不破 | 中共 | 習近平 | 稀土",
+      "url": "http://www.epochtimes.com.tw/n511041/%E7%BF%92%E5%B0%87%E8%A8%AA%E7%BE%8E-%E5%82%B3%E5%BA%95%E7%B7%9A%E6%98%AF%E9%AC%A5%E8%80%8C%E4%B8%8D%E7%A0%B4.html",
+      "published_at": "20260816T190000Z",
+      "source": "epochtimes.com.tw",
       "tags": []
     },
     {
@@ -808,43 +765,19 @@
       "tags": []
     },
     {
+      "id": "gdelt_98b16424129c0214",
+      "headline": "Пентагон блокує 400 млн доларів на зброю для України - Чалий пояснив причину Політика",
+      "url": "https://tsn.ua/politika/ukrayina-moze-vtratyty-400-mln-na-zbroiu-chalyy-poiasnyv-shcho-blokuye-pentahon-3149804.html",
+      "published_at": "20260816T190000Z",
+      "source": "tsn.ua",
+      "tags": []
+    },
+    {
       "id": "gdelt_5f939cdac56e2276",
       "headline": "Dhunuan shefin e Krimeve në Sarandë , Mateo Bakalli / Policia arreston autorët , një tjetër ende në kërkim",
       "url": "https://albeu.com/lajme/dhunuan-shefin-e-krimeve-ne-sarande-mateo-bakalli-policia-arreston-autoret-nje-tjeter-ende-ne-kerkim/974025/",
       "published_at": "20260816T160000Z",
       "source": "albeu.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_373a09c9239de03e",
-      "headline": "Solar Meroket Tembus Rp 30 . 000 , Proyek Yudikatif IKN Aman hingga 2027",
-      "url": "https://ikn.kompas.com/read/2026/08/16/220644887/solar-meroket-tembus-rp-30000-proyek-yudikatif-ikn-aman-hingga-2027",
-      "published_at": "20260816T153000Z",
-      "source": "ikn.kompas.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_54acdb6c5ad491fb",
-      "headline": "خبير عسكري : إيران تستخدم مضيق هرمز ورقة ضغط لمواجهة الحصار الأمريكي",
-      "url": "https://www.elwatannews.com/news/details/8340427",
-      "published_at": "20260816T131500Z",
-      "source": "elwatannews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_638586a8166d4665",
-      "headline": "韩军向越过东部军事分界线朝鲜军人鸣枪警告 - 新闻中心 - 中国宁波网",
-      "url": "http://news.cnnb.com.cn/system/2026/08/16/030804275.shtml",
-      "published_at": "20260816T123000Z",
-      "source": "news.cnnb.com.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5046113a548b128d",
-      "headline": "Brüchige Waffenruhe : Weitere Eskalation im Südlibanon - Verhandlungen in Gefahr ?",
-      "url": "https://www.handelsblatt.com/politik/international/bruechige-waffenruhe-weitere-eskalation-im-suedlibanon-verhandlungen-in-gefahr/100247546.html",
-      "published_at": "20260816T130000Z",
-      "source": "handelsblatt.com",
       "tags": []
     },
     {
@@ -856,53 +789,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_1b0578bf6b7f50df",
-      "headline": "韩军向越过东部军事分界线朝鲜军人鸣枪警告 - 中新网",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-16/10678689.shtml",
-      "published_at": "20260816T133000Z",
-      "source": "chinanews.com.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_64207fea0b25f427",
-      "headline": "Tükəndirmə müharibəsi : VEB iqtisadçısının xəbərdarlığı niyə Kreml n siqnala çevrildi ?",
-      "url": "https://turan.az/az/kecmis-sovet-mekani/tukendirme-muharibesi-veb-iqtisadcisinin-xeberdarligi-niye-kreml-ucun-siqnala-cevrildi-791851",
-      "published_at": "20260816T124500Z",
-      "source": "turan.az",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a179e6f467a3dfea",
-      "headline": "عاجل . - تقرير إسرائيلي : حزب الله وحماس ينسقان تحركاتهما بمساعدة إيرانية",
-      "url": "https://arabic.euronews.com/2026/08/16/israel-hezbollah-hamas-iran-lebanon-gaza-idf-negotiations-us",
+      "id": "gdelt_373a09c9239de03e",
+      "headline": "Solar Meroket Tembus Rp 30 . 000 , Proyek Yudikatif IKN Aman hingga 2027",
+      "url": "https://ikn.kompas.com/read/2026/08/16/220644887/solar-meroket-tembus-rp-30000-proyek-yudikatif-ikn-aman-hingga-2027",
       "published_at": "20260816T153000Z",
-      "source": "arabic.euronews.com",
-      "tags": [
-        "ISRAEL"
-      ]
-    },
-    {
-      "id": "gdelt_6e3bb3d6dc2088dc",
-      "headline": "مرحلة جديدة من الحرب .. المسيّرات تشعل موسكو والصواريخ تخنق كييف",
-      "url": "https://www.aljazeera.net/news/2026/8/16/%D9%85%D8%B1%D8%AD%D9%84%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA-%D8%AA%D8%B4%D8%B9%D9%84",
-      "published_at": "20260816T133000Z",
-      "source": "aljazeera.net",
+      "source": "ikn.kompas.com",
       "tags": []
     },
     {
-      "id": "gdelt_deac571e8ecbae5d",
-      "headline": "Hauptstädte - Vergleich – Großer Nachtzug - Check – Wien ist Nummer 1 in der EU",
-      "url": "https://www.heute.at/s/grosser-nachtzug-check-wien-ist-nummer-1-in-der-eu-120238761",
-      "published_at": "20260816T161500Z",
-      "source": "heute.at",
+      "id": "gdelt_26d0fb427f87cade",
+      "headline": "الدفاع الروسية : تدمير 72 مسيّرة أوكرانية فوق مناطق روسية والبحرين الأسود وآزوف",
+      "url": "https://www.dostor.org/5669767",
+      "published_at": "20260816T184500Z",
+      "source": "dostor.org",
       "tags": []
     },
     {
-      "id": "gdelt_0e17fe09fab73fc9",
-      "headline": "ترمب يضغط اقتصاديا على إيران .. ما الخيارات المتاحة ؟",
-      "url": "https://www.aljazeera.net/ebusiness/2026/8/16/%D8%AA%D8%B1%D9%85%D8%A8-%D9%8A%D8%B6%D8%BA%D8%B7-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A%D8%A7-%D8%B9%D9%84%D9%89-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D8%A7",
-      "published_at": "20260816T164500Z",
-      "source": "aljazeera.net",
+      "id": "gdelt_5eaf461dc86e1bb3",
+      "headline": "Каспаров предупредил о попытке резкого и мощного прорыва в ближайшее время",
+      "url": "https://www.dialog.ua/opinion/kasparov-predupredil-o-popytke-rezkogo-i-moshchnogo-proryva-v-blizhayshee.html",
+      "published_at": "20260816T190000Z",
+      "source": "dialog.ua",
       "tags": []
     },
     {
@@ -914,11 +821,39 @@
       "tags": []
     },
     {
+      "id": "gdelt_a179e6f467a3dfea",
+      "headline": "عاجل . - تقرير إسرائيلي : حزب الله وحماس ينسقان تحركاتهما بمساعدة إيرانية",
+      "url": "https://arabic.euronews.com/2026/08/16/israel-hezbollah-hamas-iran-lebanon-gaza-idf-negotiations-us",
+      "published_at": "20260816T153000Z",
+      "source": "arabic.euronews.com",
+      "tags": [
+        "ISRAEL",
+        "LEBANON",
+        "HEZBOLLAH"
+      ]
+    },
+    {
+      "id": "gdelt_0e17fe09fab73fc9",
+      "headline": "ترمب يضغط اقتصاديا على إيران .. ما الخيارات المتاحة ؟",
+      "url": "https://www.aljazeera.net/ebusiness/2026/8/16/%D8%AA%D8%B1%D9%85%D8%A8-%D9%8A%D8%B6%D8%BA%D8%B7-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A%D8%A7-%D8%B9%D9%84%D9%89-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D8%A7",
+      "published_at": "20260816T164500Z",
+      "source": "aljazeera.net",
+      "tags": []
+    },
+    {
       "id": "gdelt_4f4314f207da54df",
       "headline": "بن غفير يدعو إلى استئناف العدوان على بيروت : آمل جدا أن نكون مقبلين على تصعيد",
       "url": "https://www.shorouknews.com/news/view.aspx?cdate=16082026&id=9f314ffa-14f7-4ab5-8f91-59a5442d4e3d",
       "published_at": "20260816T134500Z",
       "source": "shorouknews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_deac571e8ecbae5d",
+      "headline": "Hauptstädte - Vergleich – Großer Nachtzug - Check – Wien ist Nummer 1 in der EU",
+      "url": "https://www.heute.at/s/grosser-nachtzug-check-wien-ist-nummer-1-in-der-eu-120238761",
+      "published_at": "20260816T161500Z",
+      "source": "heute.at",
       "tags": []
     },
     {
@@ -930,75 +865,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_80243fea6339a943",
-      "headline": "Ιός του Δυτικού Νείλου : Η Ελληνική Εταιρεία Λοιμώξεων ζητά άμεση κλιμάκωση ...",
-      "url": "https://www.capital.gr/health/4010918/ios-tou-dutikou-neilou-i-elliniki-etaireia-loimoxeon-zita-amesi-klimakosi-ton-draseon/",
-      "published_at": "20260816T124500Z",
-      "source": "capital.gr",
-      "tags": []
-    },
-    {
       "id": "gdelt_11bf13e8a79b7a8d",
       "headline": "الصحة اللبنانية : 4346 شهيدًا و12301 جريح منذ 2 مارس الماضي",
       "url": "https://www.dostor.org/5669629",
       "published_at": "20260816T164500Z",
       "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e18652e0a9c50645",
-      "headline": "بابا الفاتيكان يدعو لإنهاء العنف ضد الفلسطينيين في الضفة الغربية",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=16082026&id=8d783ece-d530-4ee5-b1de-64a9ae634ef9",
-      "published_at": "20260816T131500Z",
-      "source": "shorouknews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_16e3146d728050cb",
-      "headline": "Πώς ο Τραμπ σχεδιάζει να « λυγίσει » οικονομικά το Ιράν : Τα 5 σενάρια που εξετάζει ο Λευκός Οίκος",
-      "url": "https://www.lifo.gr/now/world/pos-o-tramp-shediazei-na-lygise-oikonomika-iran-ta-5-senaria-poy-exetazei-o-leykos-oikos",
-      "published_at": "20260816T120000Z",
-      "source": "lifo.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a181586dc19e8d88",
-      "headline": "Nočné ruské útoky na Ukrajinu si vyžiadali najmenej päť obetí a desiatky zranených civilistov",
-      "url": "https://www.aktuality.sk/clanok/7iG51kd/nocne-ruske-utoky-na-ukrajinu-si-vyziadali-najmenej-pat-obeti-a-desiatky-zranenych-civilistov/",
-      "published_at": "20260816T130000Z",
-      "source": "aktuality.sk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_415c487d486fe822",
-      "headline": "Kam smeruje stupňujúca sa vzdušná vojna medzi štátmi ? O novej stratégii Kyjeva a Moskvy hovoril expert Jan Šír",
-      "url": "https://www.ta3.com/relacia/1066353/kam-smeruje-stupnujuca-sa-vzdusna-vojna-medzi-statmi-o-novej-strategii-kyjeva-a-moskvy-hovoril-expert-jan-sir",
-      "published_at": "20260816T120000Z",
-      "source": "ta3.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9abceb52b4dbbf0d",
-      "headline": "Trump Iran Strategy Strains Gulf Ties : Why Arab Allies Are Losing Faith in US Diplomacy and Security Guarantees",
-      "url": "https://openthemagazine.com/world/trumps-iran-diplomacy-is-testing-gulf-patience-why-americas-arab-allies-are-losing-faith",
-      "published_at": "20260816T114500Z",
-      "source": "openthemagazine.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_70822dd62cc7547a",
-      "headline": "美军撤离五周年 阿富汗社会仍面临诸多挑战",
-      "url": "https://baijiahao.baidu.com/s?id=1873654753599796080",
-      "published_at": "20260816T114500Z",
-      "source": "baijiahao.baidu.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cd3f89c5fad2e199",
-      "headline": "Polizei - News Düsseldorf , 16 . 08 . 26 : Feuerwehr Düsseldorf unterstützt mit Einheiten bei Waldbränden in Düren",
-      "url": "https://www.news.de/lokales/859908759/blaulicht-news-polizeiticker-duesseldorf-16-08-26-feuerwehreinsatz-heute/1/",
-      "published_at": "20260816T120000Z",
-      "source": "news.de",
       "tags": []
     },
     {
@@ -1010,6 +881,22 @@
       "tags": []
     },
     {
+      "id": "gdelt_ce59361290d2597f",
+      "headline": "Ebola au Nord - Kivu : le gouverneur militaire Somo Kakule obtient de lOuganda des mesures pour faciliter les déplacements à la frontière et renforcer la coopération sanitaire",
+      "url": "https://www.mediacongo.net/article-actualite-166530_ebola_au_nord_kivu_le_gouverneur_militaire_somo_kakule_obtient_de_l_ouganda_des_mesures_pour_faciliter_les_deplacements_a_la_frontiere_et_renforcer_la.html",
+      "published_at": "20260816T183000Z",
+      "source": "mediacongo.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0a8036d7cc3f0453",
+      "headline": "هجوم روسى على « كييف » يشعل حرائق ويوقع إصابتين",
+      "url": "https://www.almasryalyoum.com/news/details/4339179",
+      "published_at": "20260816T180000Z",
+      "source": "almasryalyoum.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_009a16e53927a2d8",
       "headline": "ΠΑΟΚ : Κλιμάκωση αντιδράσεων στην Τούμπα για τον Κωνσταντέλια – Πανό « Κατάληψη » και αίτημα για επικοινωνία με Σαββίδη",
       "url": "https://www.inewsgr.com/430/paok-klimakosi-antidraseon-stin-touba-gia-ton-konstantelia--pano-katalipsi-kai-aitima-gia-epikoinonia-me-savvidi.htm",
@@ -1018,11 +905,119 @@
       "tags": []
     },
     {
-      "id": "gdelt_11251e98a8eb6021",
-      "headline": "رسميا .. بيراميدز يعلن التعاقد مع خالد عوض",
-      "url": "https://akhbarelyom.com/news/newdetails/4865432/1/%D8%B1%D8%B3%D9%85%D9%8A%D8%A7--%D8%A8%D9%8A%D8%B1%D8%A7%D9%85%D9%8A%D8%AF%D8%B2-%D9%8A%D8%B9%D9%84%D9%86-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%82%D8%AF-%D9%85%D8%B9-%D8%AE%D8%A7%D9%84%D8%AF-%D8%B9%D9%88%D8%B6",
-      "published_at": "20260816T123000Z",
-      "source": "akhbarelyom.com",
+      "id": "gdelt_ecfdded5163204ef",
+      "headline": "Истец попытался незаметно приказать ИИ поддержать его дело судья впервые в США пресёк атаку на судебные документы",
+      "url": "https://www.ixbt.com/news/2026/08/16/istec-popytalsja-nezametno-prikazat-ii-podderzhat-ego-delo--sudja-vpervye-v-ssha-presjok-ataku-na-sudebnye-dokumenty.html",
+      "published_at": "20260816T184500Z",
+      "source": "ixbt.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_901e240ac5dd4448",
+      "headline": "Jedan potez kroz prozor automobila može završiti katastrofom : Kazna ide do 19 . 900 eura",
+      "url": "https://www.tportal.hr/autozona/clanak/jedan-potez-kroz-prozor-automobila-moze-zavrsiti-katastrofom-kazna-ide-do-19-900-eura-20260816",
+      "published_at": "20260816T140000Z",
+      "source": "tportal.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_326d20df8fb8d384",
+      "headline": "При ударах хуситов по Мохе и Марибу погибли четверо , пострадали 12 человек",
+      "url": "https://1news.az/news/20260816191012518-Pri-udarakh-khusitov-po-Mokhe-i-Maribu-pogibli-chetvero-postradali-12-chelovek",
+      "published_at": "20260816T190000Z",
+      "source": "1news.az",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9fa3a9fe3763f139",
+      "headline": "Weitere Eskalation im Südlibanon - Verhandlungen in Gefahr ?",
+      "url": "https://www.finanzen.net/nachricht/aktien/weitere-eskalation-im-suedlibanon-verhandlungen-in-gefahr-15881195",
+      "published_at": "20260816T174500Z",
+      "source": "finanzen.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2ceb3805563770bc",
+      "headline": "Weitere Eskalation im Südlibanon - Verhandlungen in Gefahr ?",
+      "url": "https://www.onvista.de/news/2026/08-16-weitere-eskalation-im-suedlibanon-verhandlungen-in-gefahr-0-10-26543505",
+      "published_at": "20260816T183000Z",
+      "source": "onvista.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6625bb6ea8c681c9",
+      "headline": "Портников пояснив , навіщо військовим може бути потрібен Єрмак",
+      "url": "https://espreso.tv/suspilstvo-tse-deklaratsiya-zvyazku-z-vladoyu-portnikov-pro-spivpratsyu-ermaka-z-viyskovimi",
+      "published_at": "20260816T174500Z",
+      "source": "espreso.tv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6856d6bb2708896f",
+      "headline": "Weitere Eskalation im Südlibanon - Verhandlungen in Gefahr ?",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69323866-weitere-eskalation-im-suedlibanon-verhandlungen-in-gefahr-016.htm",
+      "published_at": "20260816T174500Z",
+      "source": "finanznachrichten.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_476239744cc56ec9",
+      "headline": "Pharmaceutical manufacturers seek lower energy costs , stronger local API production",
+      "url": "https://thenationonlineng.net/pharmaceutical-manufacturers-seek-lower-energy-costs-stronger-local-api-production/",
+      "published_at": "20260816T164500Z",
+      "source": "thenationonlineng.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ed91f24354d52946",
+      "headline": "Weitere Eskalation im Südlibanon - Verhandlungen in Gefahr ?",
+      "url": "https://www.freiepresse.de/nachrichten/welt/weitere-eskalation-im-suedlibanon-verhandlungen-in-gefahr-artikel14371666",
+      "published_at": "20260816T134500Z",
+      "source": "freiepresse.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_37757e6f12cbc18a",
+      "headline": "FW - D : Folgemeldung 3 : Überörtliche Hilfe bei Waldbränden - Feuerwehr Düsseldorf ...",
+      "url": "https://www.presseportal.de/blaulicht/pm/115876/6334256",
+      "published_at": "20260816T134500Z",
+      "source": "presseportal.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_997687fb44955aeb",
+      "headline": "Guerre en Ukraine  : une patrouille de lOTAN , composée de deux avions de chasse F - 18 de larmée de lair espagnole , abat un drone dans lespace aérien roumain",
+      "url": "https://www.lindependant.fr/2026/08/16/guerre-en-ukraine-une-patrouille-de-lotan-composee-de-deux-avions-de-chasse-f-18-de-larmee-de-lair-espagnole-abat-un-drone-dans-lespace-aerien-roumain-13511105.php",
+      "published_at": "20260816T184500Z",
+      "source": "lindependant.fr",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_df8ec9ecf8e9c3e4",
+      "headline": "Ο Ουκρανικός « ατσάλινος σκατζόχοιρος » και ο βάλτος του πολέμου",
+      "url": "https://www.naftemporiki.gr/kosmos/2150669/o-oykranikos-atsalinos-skatzochoiros-kai-o-valtos-toy-polemoy/",
+      "published_at": "20260816T170000Z",
+      "source": "naftemporiki.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1956855c7ac8a353",
+      "headline": "Luftangriffe im Südlibanon : Israel droht mit weiteren Attacken im Libanon",
+      "url": "https://www.zeit.de/politik/ausland/2026-08/libanon-hisbollah-israel-drohung-angriffe-tote",
+      "published_at": "20260816T140000Z",
+      "source": "zeit.de",
+      "tags": [
+        "ISRAEL"
+      ]
+    },
+    {
+      "id": "gdelt_91b6fa492324e58b",
+      "headline": "ارتدادات نزاع أوكرانيا تهز عمق أوروبا",
+      "url": "https://arabic.rt.com/prg/%D8%A7%D8%B1%D8%AA%D8%AF%D8%A7%D8%AF%D8%A7%D8%AA-%D9%86%D8%B2%D8%A7%D8%B9-%D8%A3%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7-%D8%AA%D9%87%D8%B2-%D8%B9%D9%85%D9%82-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7-1821828/studio-paris/",
+      "published_at": "20260816T184500Z",
+      "source": "arabic.rt.com",
       "tags": []
     }
   ]
