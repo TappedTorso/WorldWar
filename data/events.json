@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-08-17T21:38:06Z",
+    "generated_at_utc": "2026-08-17T22:38:23Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "http_error status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
         "fetched": 0
       },
       {
@@ -33,11 +33,39 @@
   },
   "events": [
     {
+      "id": "gdelt_a7846e303de62e8e",
+      "headline": "Russian Embassy Warns Britain Faces  Higher Price  for Arming Ukraine With Attack Drones",
+      "url": "https://www.ibtimes.co.uk/uk-diplomatic-fallout-attack-drones-ukraine-1814740",
+      "published_at": "20260817T220000Z",
+      "source": "ibtimes.co.uk",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
       "id": "gdelt_6dca9d282eb5e6ac",
       "headline": "В Австрии раскритиковали требование ЕС ввести новые санкции против России",
       "url": "https://ria.ru/20260817/sanktsii-2111445516.html",
       "published_at": "20260817T181500Z",
       "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3585933a9eeea406",
+      "headline": "Latvia wants EU billions for its anti - Russia policies",
+      "url": "http://www.heraldglobe.com/news/279248090/latvia-wants-eu-billions-for-its-anti-russia-policies",
+      "published_at": "20260817T213000Z",
+      "source": "heraldglobe.com",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "gdelt_6794c919e4c3541f",
+      "headline": "Запад и укры готовят масштабную провокацию с « российским оружием » для наркокартелей Латинской Америки",
+      "url": "https://www.zavtra.ru/events/zapad_i_ukri_gotovyat_masshtabnuyu_provokatciyu_s_rossijskim_oruzhiem_dlya_narkokartelej_latinskoj_ameriki",
+      "published_at": "20260817T220000Z",
+      "source": "zavtra.ru",
       "tags": []
     },
     {
@@ -101,27 +129,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_dd0a0488df305f56",
-      "headline": "Thunes dará soporte a los pagos globales en tiempo real de Fiserv para plataformas",
-      "url": "https://www.prnewswire.com/news-releases/thunes-dara-soporte-a-los-pagos-globales-en-tiempo-real-de-fiserv-para-plataformas-302853004.html",
-      "published_at": "20260817T161500Z",
-      "source": "prnewswire.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_4a483fea5292baa1",
       "headline": "Dronekrigen fortsætter : Nu har Rusland bygget affyringsramper , der kan nå Nato",
       "url": "https://www.dr.dk/nyheder/udland/dronekrigen-fortsaetter-nu-har-rusland-bygget-affyringsramper-der-kan-naa-nato",
       "published_at": "20260817T201500Z",
       "source": "dr.dk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f8ef74d90ed314f2",
-      "headline": "שינוי המדיניות  של טהרן , והדד - ליין שהציבה לארה  ב :  יש לכם כמה שבועות",
-      "url": "https://www.ynet.co.il/news/article/bkkwwklwml",
-      "published_at": "20260817T174500Z",
-      "source": "ynet.co.il",
       "tags": []
     },
     {
@@ -135,14 +147,28 @@
       ]
     },
     {
-      "id": "gdelt_6b4b062a226bb406",
-      "headline": "Trump scales back US - South Korea drills , cites  very good  ties with Kim Jong Un",
-      "url": "https://abcnews.com/International/trump-scales-back-us-south-korea-drills-cites/story?id=135700334",
-      "published_at": "20260817T160000Z",
-      "source": "abcnews.com",
-      "tags": [
-        "SOUTH_KOREA"
-      ]
+      "id": "gdelt_f8ef74d90ed314f2",
+      "headline": "שינוי המדיניות  של טהרן , והדד - ליין שהציבה לארה  ב :  יש לכם כמה שבועות",
+      "url": "https://www.ynet.co.il/news/article/bkkwwklwml",
+      "published_at": "20260817T174500Z",
+      "source": "ynet.co.il",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9284b8780da2fc0b",
+      "headline": "Guinée équatoriale : le gouvernement table sur un budget 2027 équilibré malgré un déclin pétrolier structurel",
+      "url": "https://www.financialafrik.com/2026/08/17/guinee-equatoriale-le-gouvernement-table-sur-un-budget-2027-equilibre-malgre-un-declin-petrolier-structurel/",
+      "published_at": "20260817T221500Z",
+      "source": "financialafrik.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_35e83e17ea872afe",
+      "headline": "卡拉斯称欧盟将提出新一轮对俄制裁计划",
+      "url": "https://baijiahao.baidu.com/s?id=1873775645503083495",
+      "published_at": "20260817T214500Z",
+      "source": "baijiahao.baidu.com",
+      "tags": []
     },
     {
       "id": "gdelt_a579f9b19183cc38",
@@ -150,6 +176,14 @@
       "url": "https://interfax.com.ua/news/general/1193796.html",
       "published_at": "20260817T171500Z",
       "source": "interfax.com.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9e65b8ae0fa0bf65",
+      "headline": "Dansaren Sofia Södergård död",
+      "url": "https://www.expressen.se/nyheter/expressen-direkt/?post=8e74e311-b414-44d0-87cc-0ebaec19075e",
+      "published_at": "20260817T220000Z",
+      "source": "expressen.se",
       "tags": []
     },
     {
@@ -203,6 +237,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_87fb79fc931c8b3c",
+      "headline": "На двох трасах Одещини зняли обмеження комендантської години",
+      "url": "https://uainfo.org/blognews/1786985143-na-dvoh-trasah-odeshchini-znyali-obmezhennya-komendantskoyi.html",
+      "published_at": "20260817T220000Z",
+      "source": "uainfo.org",
+      "tags": []
+    },
+    {
       "id": "gdelt_b88f9d849753d32d",
       "headline": "ЕС может ввести 100 % пошлины против стран , которые помогают России обходить санкции : что известно",
       "url": "https://ura.news/news/1053119110",
@@ -227,19 +269,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_635edf4c1001f601",
-      "headline": "Almanyadaki iktidardan İsrailli Bakan Ben - Gvire yaptırım çağrısı",
-      "url": "https://www.yenisafak.com/dunya/almanyadaki-iktidardan-israilli-bakan-ben-gvire-yaptirim-cagrisi-4848776",
-      "published_at": "20260817T190000Z",
-      "source": "yenisafak.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_39ec88e6e63ef744",
       "headline": "GDL - Streik bei Saarbahn - Ersatzkonzept auch am Dienstag",
       "url": "https://www.welt.de/regionales/rheinland-pfalz-saarland/article6a835a989fcb5798aae39c34/gdl-streik-bei-saarbahn-ersatzkonzept-auch-am-dienstag.html",
       "published_at": "20260817T194500Z",
       "source": "welt.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_635edf4c1001f601",
+      "headline": "Almanyadaki iktidardan İsrailli Bakan Ben - Gvire yaptırım çağrısı",
+      "url": "https://www.yenisafak.com/dunya/almanyadaki-iktidardan-israilli-bakan-ben-gvire-yaptirim-cagrisi-4848776",
+      "published_at": "20260817T190000Z",
+      "source": "yenisafak.com",
       "tags": []
     },
     {
@@ -259,6 +301,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_b857018cad5b6d0c",
+      "headline": "Govt dismantled ISI - backed Shahzad Bhatti network , over 200 arrested : Shah",
+      "url": "https://idrw.org/govt-dismantled-isi-backed-shahzad-bhatti-network-over-200-arrested-shah/",
+      "published_at": "20260817T171500Z",
+      "source": "idrw.org",
+      "tags": []
+    },
+    {
       "id": "gdelt_8ac4d9975a46be7b",
       "headline": "Houthis Kill Four in Overnight Mokha Strike as Marib Missile Barrage Escalates Yemen War Risk",
       "url": "https://www.hngn.com/articles/272756/20260816/yemens-civil-war-reignites-houthi-forces-escalate-attacks-government-positions-taiz.htm",
@@ -267,14 +317,6 @@
       "tags": [
         "YEMEN"
       ]
-    },
-    {
-      "id": "gdelt_b857018cad5b6d0c",
-      "headline": "Govt dismantled ISI - backed Shahzad Bhatti network , over 200 arrested : Shah",
-      "url": "https://idrw.org/govt-dismantled-isi-backed-shahzad-bhatti-network-over-200-arrested-shah/",
-      "published_at": "20260817T171500Z",
-      "source": "idrw.org",
-      "tags": []
     },
     {
       "id": "gdelt_0a4caf50f3baf303",
@@ -295,18 +337,26 @@
       ]
     },
     {
+      "id": "gdelt_93f2db32b6dbc92d",
+      "headline": "В Совете ЕС намерены как можно скорее принять новый пакет санкций против РФ",
+      "url": "https://iz.ru/2150688/2026-08-18/v-sovete-es-namereny-kak-mozhno-skoree-priniat-novyi-paket-sanktcii-protiv-rf",
+      "published_at": "20260817T221500Z",
+      "source": "iz.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f5130e411e338f84",
+      "headline": "Rheinland - Pfalz & Saarland : GDL - Streik bei Saarbahn - Ersatzkonzept auch am Dienstag",
+      "url": "https://www.n-tv.de/regionales/rheinland-pfalz-und-saarland/GDL-Streik-bei-Saarbahn-Ersatzkonzept-auch-am-Dienstag-id31203827.html",
+      "published_at": "20260817T220000Z",
+      "source": "n-tv.de",
+      "tags": []
+    },
+    {
       "id": "gdelt_0aae508e21e0381a",
       "headline": "تطورات ميدانية متسارعة .. الجيش السوداني يسقط مسيرتين ويكثف عملياته في النيل الأزرق",
       "url": "https://www.dostor.org/5670816",
       "published_at": "20260817T181500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d7dee06371267855",
-      "headline": "فيدان يبحث مع عراقجي مستجدات مفاوضات فتح مضيق هرمز",
-      "url": "https://www.dostor.org/5671043",
-      "published_at": "20260817T194500Z",
       "source": "dostor.org",
       "tags": []
     },
@@ -319,6 +369,22 @@
       "tags": []
     },
     {
+      "id": "gdelt_bfd02d5459268ad1",
+      "headline": "В Курской области к началу учебного года подготовили 544 образовательных учреждения",
+      "url": "https://runews24.ru/kursk/17/08/2026/v-kurskoj-oblasti-k-nachalu-uchebnogo-goda-podgotovili-544-obrazovatelnyix-uchrezhdeniya",
+      "published_at": "20260817T210000Z",
+      "source": "runews24.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d7dee06371267855",
+      "headline": "فيدان يبحث مع عراقجي مستجدات مفاوضات فتح مضيق هرمز",
+      "url": "https://www.dostor.org/5671043",
+      "published_at": "20260817T194500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
       "id": "gdelt_043916f0edfc491e",
       "headline": "باحث سياسي : نتنياهو متمسك بموقفه الرافض لاستكمال اتفاق غزة بسبب الانتخابات التشريعية",
       "url": "https://www.dostor.org/5670780",
@@ -327,11 +393,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_bfd02d5459268ad1",
-      "headline": "В Курской области к началу учебного года подготовили 544 образовательных учреждения",
-      "url": "https://runews24.ru/kursk/17/08/2026/v-kurskoj-oblasti-k-nachalu-uchebnogo-goda-podgotovili-544-obrazovatelnyix-uchrezhdeniya",
-      "published_at": "20260817T210000Z",
-      "source": "runews24.ru",
+      "id": "gdelt_4eeae4cdeddc5de4",
+      "headline": "Комендантська година в Україні на Одещині скасували обмеження для транзитного руху Фокус",
+      "url": "https://focus.ua/uk/auto/764796-komendantska-godina-v-ukrajini-na-odeshchini-skasuvali-obmezhennya-dlya-tranzitnogo-ruhu-fokus",
+      "published_at": "20260817T174500Z",
+      "source": "focus.ua",
       "tags": []
     },
     {
@@ -345,19 +411,19 @@
       ]
     },
     {
-      "id": "gdelt_4eeae4cdeddc5de4",
-      "headline": "Комендантська година в Україні на Одещині скасували обмеження для транзитного руху Фокус",
-      "url": "https://focus.ua/uk/auto/764796-komendantska-godina-v-ukrajini-na-odeshchini-skasuvali-obmezhennya-dlya-tranzitnogo-ruhu-fokus",
-      "published_at": "20260817T174500Z",
-      "source": "focus.ua",
-      "tags": []
-    },
-    {
       "id": "gdelt_35053a66d242fe5d",
       "headline": "Санкції проти Росії - Кремль досі отримує необхідні компоненти",
       "url": "https://24tv.ua/kritichni-dlya-rosiyskoyi-agresiyi-komponenti-dosi-nadhodyat_n3125136",
       "published_at": "20260817T171500Z",
       "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a4e98137d4620db7",
+      "headline": "الجيش اليمني يقصف بالمدفعية مواقع وتجمعات لميليشيا الحوثي في جبهات مأرب الجنوبية",
+      "url": "https://www.elwatannews.com/news/details/8341360",
+      "published_at": "20260817T214500Z",
+      "source": "elwatannews.com",
       "tags": []
     },
     {
@@ -385,6 +451,24 @@
       "tags": []
     },
     {
+      "id": "gdelt_3a99ce172d304377",
+      "headline": "EU plans  most far - reaching sanctions against Russia in coming month – The Irish Times",
+      "url": "https://www.irishtimes.com/world/europe/2026/08/17/eu-plans-most-far-reaching-sanctions-against-russia-in-coming-months/",
+      "published_at": "20260817T214500Z",
+      "source": "irishtimes.com",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "gdelt_293551dd21a0092e",
+      "headline": "EU plans most far - reaching sanctions against Russia in coming months , Kallas says",
+      "url": "https://japantoday.com/category/world/eu-plans-most-far-reaching-sanctions-against-russia-in-coming-months-kallas-says",
+      "published_at": "20260817T214500Z",
+      "source": "japantoday.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_b81793425fdfee20",
       "headline": "إيران تعلن احتجاز ناقلة نفط في مضيق هرمز وسط تصاعد التوترات",
       "url": "https://www.dostor.org/5670973",
@@ -393,19 +477,19 @@
       "tags": []
     },
     {
+      "id": "gdelt_ad0d013c71e7cdd4",
+      "headline": "PULJIĆ DIREKTNO IZ WASHINGTONA : Upozorava na novu Dodikovu lobističku ofanzivu u SAD - u , treba biti oprezan",
+      "url": "https://www.slobodna-bosna.ba/vijest/500553/puljic_direktno_iz_washingtona_upozorava_na_novu_dodikovu_lobistichku_ofanzivu_u_sad_u_treba_biti_oprezan.html",
+      "published_at": "20260817T210000Z",
+      "source": "slobodna-bosna.ba",
+      "tags": []
+    },
+    {
       "id": "gdelt_cb48141cead522d8",
       "headline": "Axios : США и Израиль создадут механизм для предотвращения эскалации в Газе",
       "url": "https://russian.rt.com/world/news/1671041-kushner-netanyahu-gaza-mehanizm",
       "published_at": "20260817T211500Z",
       "source": "russian.rt.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1b44fa139e0ea35e",
-      "headline": "Правительство ФРГ отвергло угрозы Лаврова партнерам Киева",
-      "url": "https://www.dw.com/ru/pravitelstvo-frg-otverglo-ugrozy-lavrova-partneram-kieva/a-78401333",
-      "published_at": "20260817T160000Z",
-      "source": "dw.com",
       "tags": []
     },
     {
@@ -425,14 +509,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_ad0d013c71e7cdd4",
-      "headline": "PULJIĆ DIREKTNO IZ WASHINGTONA : Upozorava na novu Dodikovu lobističku ofanzivu u SAD - u , treba biti oprezan",
-      "url": "https://www.slobodna-bosna.ba/vijest/500553/puljic_direktno_iz_washingtona_upozorava_na_novu_dodikovu_lobistichku_ofanzivu_u_sad_u_treba_biti_oprezan.html",
-      "published_at": "20260817T210000Z",
-      "source": "slobodna-bosna.ba",
-      "tags": []
-    },
-    {
       "id": "gdelt_877a8344627bb744",
       "headline": "بعد السماح لكييف باستخدام مسيراتها .. موسكو : لندن تراهن على تصعيد الصراع",
       "url": "https://alanbatnews.net/article/481822",
@@ -449,11 +525,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_ca9ceef8f78c9a62",
-      "headline": "مسئول إيراني : طهران تنتقل من السياسة الدفاعية إلى الهجومية بالكامل",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=17082026&id=89bc38fc-0a65-4df0-b2e9-7c41c1339000",
-      "published_at": "20260817T190000Z",
-      "source": "shorouknews.com",
+      "id": "gdelt_83eafc355151c86d",
+      "headline": "Tucker Carlson : Eliten wollen eskalierenden Krieg , um eine Neuordnung der Weltordnung herbeizuführen",
+      "url": "https://freiewelt.net/artikel/redaktion/tucker-carlson-eliten-wollen-eskalierenden-krieg-um-eine-neuordnung-der-weltordnung-herbeizufuehren/44854",
+      "published_at": "20260817T220000Z",
+      "source": "freiewelt.net",
       "tags": []
     },
     {
@@ -481,11 +557,35 @@
       "tags": []
     },
     {
+      "id": "gdelt_ca9ceef8f78c9a62",
+      "headline": "مسئول إيراني : طهران تنتقل من السياسة الدفاعية إلى الهجومية بالكامل",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=17082026&id=89bc38fc-0a65-4df0-b2e9-7c41c1339000",
+      "published_at": "20260817T190000Z",
+      "source": "shorouknews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cc113e4a6a9c080f",
+      "headline": "EU - Verpackungsverordnung zerstört tausende kleine Online - Händler : Brüssel reagiert mit seltsamer Stellungnahme",
+      "url": "https://freiewelt.net/artikel/redaktion/politik/eu-verpackungsverordnung-zerstoert-tausende-kleine-online-haendler-bruessel-reagiert-mit-seltsamer-stellungnahme/44842",
+      "published_at": "20260817T220000Z",
+      "source": "freiewelt.net",
+      "tags": []
+    },
+    {
       "id": "gdelt_b7155048a2760ccb",
       "headline": "تصعيد إيراني في كردستان العراق وتهديدات أمريكية بقصف سلطنة عُمان",
       "url": "https://www.alquds.co.uk/%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A-%D9%81%D9%8A-%D9%83%D8%B1%D8%AF%D8%B3%D8%AA%D8%A7%D9%86-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82-%D9%88%D8%AA%D9%87%D8%AF%D9%8A%D8%AF/",
       "published_at": "20260817T181500Z",
       "source": "alquds.co.uk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_df8782bf81f19004",
+      "headline": "Kaja Kallas do të paraqesë  listën më të gjerë të sanksioneve  kundër Rusisë",
+      "url": "https://www.botasot.info/evrope-bota/2518005/kaja-kallas-do-te-paraqese-listen-me-te-gjere-te-sanksioneve-kunder-rusise/",
+      "published_at": "20260817T211500Z",
+      "source": "botasot.info",
       "tags": []
     },
     {
@@ -497,11 +597,21 @@
       "tags": []
     },
     {
-      "id": "gdelt_df8782bf81f19004",
-      "headline": "Kaja Kallas do të paraqesë  listën më të gjerë të sanksioneve  kundër Rusisë",
-      "url": "https://www.botasot.info/evrope-bota/2518005/kaja-kallas-do-te-paraqese-listen-me-te-gjere-te-sanksioneve-kunder-rusise/",
+      "id": "gdelt_29023ea2eec03c92",
+      "headline": "Dışişleri Bakanı El - Şeybani , ABDli Özel Temsilci Barak ile İstanbulda Görüştü",
+      "url": "https://sana.sy/tr/syria-and-the-world/2317449/",
       "published_at": "20260817T211500Z",
-      "source": "botasot.info",
+      "source": "sana.sy",
+      "tags": [
+        "SYRIA"
+      ]
+    },
+    {
+      "id": "gdelt_c122ca29d02c3cdf",
+      "headline": "John Manley : Taoiseach Micheál Martin is increasingly isolated in his  softly , softly  approach to Irish unity – The Irish News",
+      "url": "https://www.irishnews.com/news/politics/john-manley-taoiseach-micheal-martin-is-increasingly-isolated-in-his-softly-softly-approach-to-irish-unity-SKMAYRTBPFBLVEARQKE2BTL5TY/",
+      "published_at": "20260817T181500Z",
+      "source": "irishnews.com",
       "tags": []
     },
     {
@@ -515,16 +625,6 @@
       ]
     },
     {
-      "id": "gdelt_29023ea2eec03c92",
-      "headline": "Dışişleri Bakanı El - Şeybani , ABDli Özel Temsilci Barak ile İstanbulda Görüştü",
-      "url": "https://sana.sy/tr/syria-and-the-world/2317449/",
-      "published_at": "20260817T211500Z",
-      "source": "sana.sy",
-      "tags": [
-        "SYRIA"
-      ]
-    },
-    {
       "id": "gdelt_ae2d4fbe3770daa4",
       "headline": "Russian websites could soon be easy pickings for hackers as security certificates expire banks , emails , and government systems all potentially at risk",
       "url": "https://www.techradar.com/pro/security/russian-websites-could-soon-be-easy-pickings-for-hackers-as-security-certificates-expire-banks-emails-and-government-systems-all-potentially-at-risk",
@@ -533,30 +633,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_c122ca29d02c3cdf",
-      "headline": "John Manley : Taoiseach Micheál Martin is increasingly isolated in his  softly , softly  approach to Irish unity – The Irish News",
-      "url": "https://www.irishnews.com/news/politics/john-manley-taoiseach-micheal-martin-is-increasingly-isolated-in-his-softly-softly-approach-to-irish-unity-SKMAYRTBPFBLVEARQKE2BTL5TY/",
-      "published_at": "20260817T181500Z",
-      "source": "irishnews.com",
+      "id": "gdelt_cfb5bd42b1287061",
+      "headline": "Журналист Berliner Zeitung призвал Берлин к диалогу с Москвой после визита в РФ",
+      "url": "https://www.vesti.ru/ns/zhurnalist-berliner-zeitung-prizval-berlin-k-dialogu-s-moskvoj-posle-vizita-v-rf",
+      "published_at": "20260817T220000Z",
+      "source": "vesti.ru",
       "tags": []
-    },
-    {
-      "id": "gdelt_1c8368aa7c29127f",
-      "headline": "برلمانية لبنانية : نتنياهو يسعى للتصعيد في غزة ولبنان لاستقطاب الجمهور الإسرائيلي",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=17082026&id=08a6d7f8-8fd9-4d8e-8496-08b386c7abf6",
-      "published_at": "20260817T194500Z",
-      "source": "shorouknews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3f611008995a576b",
-      "headline": "Іран погрожує атакою для прориву морської блокади США в Ормузькій протоці",
-      "url": "https://epravda.com.ua/svit/iran-pogrozhuye-atakoyu-dlya-prorivu-morskoji-blokadi-ssha-v-ormuzkiy-protoci-824716/",
-      "published_at": "20260817T184500Z",
-      "source": "epravda.com.ua",
-      "tags": [
-        "IRAN"
-      ]
     },
     {
       "id": "gdelt_d03bea5f7fc6baa9",
@@ -573,8 +655,25 @@
       "published_at": "20260817T201500Z",
       "source": "ibtimes.com",
       "tags": [
+        "IRAN",
         "CHINA"
       ]
+    },
+    {
+      "id": "gdelt_1c8368aa7c29127f",
+      "headline": "برلمانية لبنانية : نتنياهو يسعى للتصعيد في غزة ولبنان لاستقطاب الجمهور الإسرائيلي",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=17082026&id=08a6d7f8-8fd9-4d8e-8496-08b386c7abf6",
+      "published_at": "20260817T194500Z",
+      "source": "shorouknews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3f611008995a576b",
+      "headline": "Іран погрожує атакою для прориву морської блокади США в Ормузькій протоці",
+      "url": "https://epravda.com.ua/svit/iran-pogrozhuye-atakoyu-dlya-prorivu-morskoji-blokadi-ssha-v-ormuzkiy-protoci-824716/",
+      "published_at": "20260817T184500Z",
+      "source": "epravda.com.ua",
+      "tags": []
     },
     {
       "id": "gdelt_1090b8b66b777db0",
@@ -582,9 +681,7 @@
       "url": "https://en.interfax.com.ua/news/general/1193820.html",
       "published_at": "20260817T200000Z",
       "source": "en.interfax.com.ua",
-      "tags": [
-        "RUSSIA"
-      ]
+      "tags": []
     },
     {
       "id": "gdelt_60610240d587579c",
@@ -600,6 +697,38 @@
       "url": "https://www.telegraf.rs/vesti/svet/4380017-drama-u-moldaviji-odjeknula-snazna-eksplozija-odmah-se-podigli-i-vojska-i-policija",
       "published_at": "20260817T191500Z",
       "source": "telegraf.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6a85d69b7efe4f12",
+      "headline": "برلمانية لبنانية : الوجود الإيراني في الأنفاق احتلال لبلادنا",
+      "url": "https://www.elwatannews.com/news/details/8341357",
+      "published_at": "20260817T214500Z",
+      "source": "elwatannews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cbeaab4dc0bb334d",
+      "headline": "Chinese Exporters Shift to Direct Global Sales Through Cross - Border E - Commerce",
+      "url": "https://www.chinatechnews.com/2026/08/18/127494-chinese-exporters-shift-to-direct-global-sales-through-cross-border-e-commerce",
+      "published_at": "20260817T213000Z",
+      "source": "chinatechnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7126d4ec3f03141c",
+      "headline": "Chihana pushes Malawi economic ambitions in high - level Mnangagwa talks - Politics News Malawi",
+      "url": "https://www.nyasatimes.com/chihana-pushes-malawis-economic-ambitions-in-high-level-mnangagwa-talks/",
+      "published_at": "20260817T220000Z",
+      "source": "nyasatimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7d3366e85c5e112a",
+      "headline": "Фидан и Арагчи о отварању Ормуског мореуза и примирју",
+      "url": "https://www.politika.rs/scc/clanak/779195/fidan-i-aragci-o-otvaranju-ormuskog-moreuza-i-primirju",
+      "published_at": "20260817T214500Z",
+      "source": "politika.rs",
       "tags": []
     },
     {
@@ -629,11 +758,45 @@
       "tags": []
     },
     {
-      "id": "gdelt_4e1030ef42de5177",
-      "headline": "مستشار بوتين السابق : الرد الروسي على ضربات أوكرانيا سيكون قويًا جدا",
-      "url": "https://www.elwatannews.com/news/details/8341289",
-      "published_at": "20260817T181500Z",
-      "source": "elwatannews.com",
+      "id": "gdelt_4f296c99bee52151",
+      "headline": "Novinar upozorava : Nova Dodikovu lobistička ofanziva u SAD - u",
+      "url": "https://avaz.ba/bih/republika-srpska/1065902/novinar-upozorava-nova-dodikovu-lobisticka-ofanziva-u-sad-u",
+      "published_at": "20260817T213000Z",
+      "source": "avaz.ba",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3735d51c28ef63fb",
+      "headline": "Novinar upozorava : Nova Dodikovu lobistička ofanziva u SAD - u",
+      "url": "http://www.avaz.ba/bih/republika-srpska/1065902/novinar-upozorava-nova-dodikovu-lobisticka-ofanziva-u-sad-u",
+      "published_at": "20260817T213000Z",
+      "source": "avaz.ba",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c339b14a9b0ff845",
+      "headline": "Russia threatens consequences over  use of united kingdom drones in Ukraine deep strikes",
+      "url": "https://www.standard.co.uk/news/politics/sunday-times-russia-ukraine-kyiv-moscow-b1293735.html",
+      "published_at": "20260817T214500Z",
+      "source": "standard.co.uk",
+      "tags": [
+        "UNITED_KINGDOM"
+      ]
+    },
+    {
+      "id": "gdelt_3110f30ba5190df1",
+      "headline": "Германия отвергла угрозы Лаврова партнерам Киева",
+      "url": "https://zerkalo.az/germaniya-otvergla-ugrozy-lavrova-partneram-kieva/",
+      "published_at": "20260817T213000Z",
+      "source": "zerkalo.az",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e001964fbf95139a",
+      "headline": "العراق يطالب إيران بتفسير الهجوم على مقر بارزاني .. وعراقجي : لا معلومات عن مصدره",
+      "url": "https://www.almasryalyoum.com/news/details/4340036",
+      "published_at": "20260817T213000Z",
+      "source": "almasryalyoum.com",
       "tags": []
     },
     {
@@ -645,12 +808,22 @@
       "tags": []
     },
     {
-      "id": "gdelt_6031480778b859a8",
-      "headline": "CEUTA | Más de un centenar de inmigrantes de la playa del Trampolín inician una huelga de hambre",
-      "url": "https://www.levante-emv.com/sociedad/2026/08/17/centenar-inmigrantes-ceuta-inician-huelga-133439067.html",
+      "id": "gdelt_4e1030ef42de5177",
+      "headline": "مستشار بوتين السابق : الرد الروسي على ضربات أوكرانيا سيكون قويًا جدا",
+      "url": "https://www.elwatannews.com/news/details/8341289",
       "published_at": "20260817T181500Z",
-      "source": "levante-emv.com",
+      "source": "elwatannews.com",
       "tags": []
+    },
+    {
+      "id": "gdelt_0ba818b3b1f88f5f",
+      "headline": "ISI - backed Bhatti terror syndicate busted in multi - state crackdown",
+      "url": "https://www.tribuneindia.com/news/india/security-agencies-bust-pak-based-isi-backed-shahzad-bhatti-syndicate-thwart-i-day-disruption-plan/",
+      "published_at": "20260817T214500Z",
+      "source": "tribuneindia.com",
+      "tags": [
+        "INDIA"
+      ]
     },
     {
       "id": "gdelt_619610ceac60e994",
@@ -658,6 +831,14 @@
       "url": "https://gfmag.com/award/award-winners/best-treasury-and-cash-management-banks-2026-western-europe/",
       "published_at": "20260817T211500Z",
       "source": "gfmag.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6031480778b859a8",
+      "headline": "CEUTA | Más de un centenar de inmigrantes de la playa del Trampolín inician una huelga de hambre",
+      "url": "https://www.levante-emv.com/sociedad/2026/08/17/centenar-inmigrantes-ceuta-inician-huelga-133439067.html",
+      "published_at": "20260817T181500Z",
+      "source": "levante-emv.com",
       "tags": []
     },
     {
@@ -677,14 +858,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_a2e27ce9e0476b77",
-      "headline": "Maryland issues body cameras to all state prison officers",
-      "url": "https://wjla.com/newsletter-daily/maryland-issues-body-cameras-all-state-prison-officers",
-      "published_at": "20260817T183000Z",
-      "source": "wjla.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_67b15271e7c0383e",
       "headline": "CEUTA | Más de un centenar de inmigrantes de la playa del Trampolín inician una huelga de hambre",
       "url": "https://www.laopiniondemurcia.es/sociedad/2026/08/17/centenar-inmigrantes-ceuta-inician-huelga-133439058.html",
@@ -693,11 +866,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_d1d1ddcd1c9e2047",
-      "headline": "Teheran droht mit Eskalation in Straße von Hormuz",
-      "url": "https://www.derstandard.at/consent/tcf/story/3000000335959/iran-teheran-droht-mit-eskalation-in-stra223e-von-hormuz",
-      "published_at": "20260817T170000Z",
-      "source": "derstandard.at",
+      "id": "gdelt_6c482c21a5ba3b80",
+      "headline": "Bakkt ( BKKT ) Q2 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/17/bakkt-bkkt-q2-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "published_at": "20260817T214500Z",
+      "source": "fool.com",
       "tags": []
     },
     {
@@ -717,6 +890,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_a2e27ce9e0476b77",
+      "headline": "Maryland issues body cameras to all state prison officers",
+      "url": "https://wjla.com/newsletter-daily/maryland-issues-body-cameras-all-state-prison-officers",
+      "published_at": "20260817T183000Z",
+      "source": "wjla.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_75efbe668f91133c",
       "headline": "Senior German lawmaker urges EU sanctions on Israel Ben - Gvir over Gaza killing remarks – Middle East Monitor",
       "url": "https://www.middleeastmonitor.com/20260817-senior-german-lawmaker-urges-eu-sanctions-on-israels-ben-gvir-over-gaza-killing-remarks/",
@@ -727,14 +908,12 @@
       ]
     },
     {
-      "id": "gdelt_393581dc1702831c",
-      "headline": "Kurilen - Inseln : Japan im Dauerstreit mit Russland",
-      "url": "https://www.dw.com/de/kurilen-inseln-japan-im-dauerstreit-mit-russland/a-78400801",
-      "published_at": "20260817T163000Z",
-      "source": "dw.com",
-      "tags": [
-        "JAPAN"
-      ]
+      "id": "gdelt_d1d1ddcd1c9e2047",
+      "headline": "Teheran droht mit Eskalation in Straße von Hormuz",
+      "url": "https://www.derstandard.at/consent/tcf/story/3000000335959/iran-teheran-droht-mit-eskalation-in-stra223e-von-hormuz",
+      "published_at": "20260817T170000Z",
+      "source": "derstandard.at",
+      "tags": []
     },
     {
       "id": "gdelt_2faf5f7d26c29b78",
@@ -742,6 +921,14 @@
       "url": "https://www.vanguardia.com/politica/2026/08/17/procuraduria-sanciona-a-exalcalde-de-cimitarra-santander/",
       "published_at": "20260817T211500Z",
       "source": "vanguardia.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_65c0d9b441b269da",
+      "headline": "CEUTA | Más de un centenar de inmigrantes de la playa del Trampolín inician una huelga de hambre",
+      "url": "https://www.eldia.es/sociedad/2026/08/17/centenar-inmigrantes-ceuta-inician-huelga-133439054.html",
+      "published_at": "20260817T201500Z",
+      "source": "eldia.es",
       "tags": []
     },
     {
@@ -755,32 +942,6 @@
       ]
     },
     {
-      "id": "gdelt_4d021f5a5682e495",
-      "headline": "ONGC gets US nod to step up Venezuela operations , looks to take control of oil projects",
-      "url": "https://aninews.in/news/business/ongc-gets-us-nod-to-step-up-venezuela-operations-looks-to-take-control-of-oil-projects20260817194812/",
-      "published_at": "20260817T160000Z",
-      "source": "aninews.in",
-      "tags": [
-        "VENEZUELA"
-      ]
-    },
-    {
-      "id": "gdelt_65c0d9b441b269da",
-      "headline": "CEUTA | Más de un centenar de inmigrantes de la playa del Trampolín inician una huelga de hambre",
-      "url": "https://www.eldia.es/sociedad/2026/08/17/centenar-inmigrantes-ceuta-inician-huelga-133439054.html",
-      "published_at": "20260817T201500Z",
-      "source": "eldia.es",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7ac7430426de1226",
-      "headline": "Diplomacy vs . deterrence ? Trump reduces South Korea military drills with N . Korea in mind",
-      "url": "https://katu.com/news/nation-world/diplomacy-or-deterrence-trump-scales-back-military-exercise-with-south-korea",
-      "published_at": "20260817T210000Z",
-      "source": "katu.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_fc183050fe237458",
       "headline": "Maritim - Experten raten , Kreml - Drohungen Ernst zu nehmen",
       "url": "http://www.fnp.de/wirtschaft/nehmen-maritim-experten-raten-kreml-drohungen-ernst-zu-zr-94446198.html",
@@ -789,27 +950,21 @@
       "tags": []
     },
     {
+      "id": "gdelt_7ac7430426de1226",
+      "headline": "Diplomacy vs . deterrence ? Trump reduces South Korea military drills with N . Korea in mind",
+      "url": "https://katu.com/news/nation-world/diplomacy-or-deterrence-trump-scales-back-military-exercise-with-south-korea",
+      "published_at": "20260817T210000Z",
+      "source": "katu.com",
+      "tags": [
+        "SOUTH_KOREA"
+      ]
+    },
+    {
       "id": "gdelt_9f6fb76df0229f0f",
       "headline": "Τραμπ : Δεν θέλω παράταση μνημονίου με Ιράν - Δεν θα συμφωνήσει με αυτά που θέλω",
       "url": "https://www.sigmalive.com/news/international/1326015/tramp-den-thelo-paratasi-mnimonioy-me-iran-den-tha-simfonisei-me-auta-poy-thelo",
       "published_at": "20260817T193000Z",
       "source": "sigmalive.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5679274147666bd9",
-      "headline": "Diplomacy vs . deterrence ? Trump reduces South Korea military drills with N . Korea in mind",
-      "url": "https://wlos.com/news/nation-world/diplomacy-or-deterrence-trump-scales-back-military-exercise-with-south-korea",
-      "published_at": "20260817T211500Z",
-      "source": "wlos.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_96df550433c77054",
-      "headline": "القوات اليمنية تنشر لقطات استهداف مواقع حوثية بالساحل الغربي .. فيديو",
-      "url": "https://slaati.com/2026/08/17/p2859027.html",
-      "published_at": "20260817T201500Z",
-      "source": "slaati.com",
       "tags": []
     },
     {
@@ -829,11 +984,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_cbbbb5f23f90044c",
-      "headline": "UE pregătește o lovitură masivă pentru Rusia : Kaja Kallas anunță cele mai ample liste de sancțiuni de la începutul războiului",
-      "url": "https://www.stiripesurse.ro/ue-pregateste-o-lovitura-masiva-pentru-rusia-kaja-kallas-anunta-cele-mai-ample-liste-de-sanctiuni-de-la-inceputul-razboiului_3912631",
-      "published_at": "20260817T163000Z",
-      "source": "stiripesurse.ro",
+      "id": "gdelt_5679274147666bd9",
+      "headline": "Diplomacy vs . deterrence ? Trump reduces South Korea military drills with N . Korea in mind",
+      "url": "https://wlos.com/news/nation-world/diplomacy-or-deterrence-trump-scales-back-military-exercise-with-south-korea",
+      "published_at": "20260817T211500Z",
+      "source": "wlos.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_96df550433c77054",
+      "headline": "القوات اليمنية تنشر لقطات استهداف مواقع حوثية بالساحل الغربي .. فيديو",
+      "url": "https://slaati.com/2026/08/17/p2859027.html",
+      "published_at": "20260817T201500Z",
+      "source": "slaati.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a97c297eb375523e",
+      "headline": "Mulai 18 Agustus , Denda Pajak Kendaraan di Banten Dihapus",
+      "url": "https://www.merdeka.com/peristiwa/read/8271781/mulai-18-agustus-denda-pajak-kendaraan-di-banten-dihapus",
+      "published_at": "20260817T214500Z",
+      "source": "merdeka.com",
       "tags": []
     },
     {
@@ -845,11 +1016,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_6ca6937d0f012496",
-      "headline": "طهران تطالب الدوحة بكشف مصير 3 طيارين مفقودين .. ماذا جرى في سماء قطر ؟",
-      "url": "https://arabic.euronews.com/2026/08/17/tehran-demands-doha-reveal-the-fate-of-three-missing-pilotswhat-happened-in-qatars-airsp",
-      "published_at": "20260817T194500Z",
-      "source": "arabic.euronews.com",
+      "id": "gdelt_f1c32792fcfd60f3",
+      "headline": "Trump rejects extension of Iran memorandum as 60 - day window expires",
+      "url": "https://www.albawaba.net/news/trump-rejects-extension-iran-memorandum-1635254",
+      "published_at": "20260817T220000Z",
+      "source": "albawaba.net",
       "tags": []
     },
     {
@@ -858,182 +1029,6 @@
       "url": "https://www.kauppalehti.fi/uutiset/a/153e3a9e-058f-41bd-8aaf-c88eb3187c4d",
       "published_at": "20260817T170000Z",
       "source": "kauppalehti.fi",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f4785b07705c7b5b",
-      "headline": "Oil prices climb again as Iran tensions fuel supply fears",
-      "url": "https://wcti12.com/news/nation-world/oil-jumps-more-than-2-as-trump-casts-doubt-on-iran-nuclear-deal-framework",
-      "published_at": "20260817T210000Z",
-      "source": "wcti12.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_865947d9351cf482",
-      "headline": "Oil prices climb again as Iran tensions fuel supply fears",
-      "url": "https://katu.com/news/nation-world/oil-jumps-more-than-2-as-trump-casts-doubt-on-iran-nuclear-deal-framework",
-      "published_at": "20260817T210000Z",
-      "source": "katu.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ada0b5561188ba28",
-      "headline": "Şeybani ve Barrack İstanbulda görüştü",
-      "url": "https://www.haberler.com/guncel/suriye-disisleri-bakani-seybani-abd-li-temsilci-20153292-haberi/",
-      "published_at": "20260817T191500Z",
-      "source": "haberler.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e12a4a9e7674eeb4",
-      "headline": "Iran Threatens to Go On Offensive in Strait of Hormuz if Diplomacy With US Fails",
-      "url": "https://gcaptain.com/iran-threatens-to-go-on-offensive-in-strait-of-hormuz-if-diplomacy-with-us-fails/",
-      "published_at": "20260817T190000Z",
-      "source": "gcaptain.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_aaa4a07da384c5ac",
-      "headline": "Oil prices climb again as Iran tensions fuel supply fears",
-      "url": "https://wlos.com/news/nation-world/oil-jumps-more-than-2-as-trump-casts-doubt-on-iran-nuclear-deal-framework",
-      "published_at": "20260817T211500Z",
-      "source": "wlos.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8a5699bf8b0fc70b",
-      "headline": "الكوميديا السوداء !",
-      "url": "https://akhbarelyom.com/news/newdetails/4866033/1/%D8%A7%D9%84%D9%83%D9%88%D9%85%D9%8A%D8%AF%D9%8A%D8%A7-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D8%A1!",
-      "published_at": "20260817T183000Z",
-      "source": "akhbarelyom.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7e5b710df31d9e49",
-      "headline": "Iraq seeks Iranian clarification over drone attack on residence of Kurdish regional premier",
-      "url": "https://www.middleeastmonitor.com/20260817-iraq-seeks-iranian-clarification-over-drone-attack-on-residence-of-kurdish-regional-premier/",
-      "published_at": "20260817T201500Z",
-      "source": "middleeastmonitor.com",
-      "tags": [
-        "IRAQ"
-      ]
-    },
-    {
-      "id": "gdelt_fbc03ca7f8d46113",
-      "headline": "Ekspert : Rusija sistematski ruši ceo vojni lanac Ukrajine",
-      "url": "https://www.novosti.rs/planeta/svet/1638767/rusija-unistava-ukrajinski-vojni-lanac-ekspert-analiza",
-      "published_at": "20260817T210000Z",
-      "source": "novosti.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f8bd1fe5bf5d5a6c",
-      "headline": "關於派愛 ， 這些事情你可能還不知道 - 守護者",
-      "url": "https://blog.udn.com:443/78821796/192138027",
-      "published_at": "20260817T204500Z",
-      "source": "blog.udn.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a039d0a0f6eb335c",
-      "headline": "Берлин в тупике : немецкий журналист после Москвы выдал жесткую правду о санкциях и Украине",
-      "url": "https://runews24.ru/politics/17/08/2026/berlin-v-tupike-nemeczkij-zhurnalist-posle-moskvyi-vyidal-zhestkuyu-pravdu-o-sankcziyax-i-ukraine",
-      "published_at": "20260817T210000Z",
-      "source": "runews24.ru",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "gdelt_c9aaafc188db9d3e",
-      "headline": "بينهم 186 في غزة .. 350 عاملا في المجال الإنساني قُتلوا في العام 2025",
-      "url": "https://arabic.euronews.com/2026/08/17/ocha-aid-workers-united-nations-sudan-gaza-strip-kidnapping",
-      "published_at": "20260817T194500Z",
-      "source": "arabic.euronews.com",
-      "tags": [
-        "SUDAN"
-      ]
-    },
-    {
-      "id": "gdelt_46c9670e7a95f479",
-      "headline": "Skaļi apgalvojumi par Ukrainas plāniem pārņem informatīvo telpu : Slaidiņš skaidro , kas patiesībā notiek",
-      "url": "https://www.la.lv/skali-apgalvojumi-par-ukrainas-planiem-parnem-socialos-tiklus-slaidins-skaidro-kas-patiesiba-notiek",
-      "published_at": "20260817T161500Z",
-      "source": "la.lv",
-      "tags": []
-    },
-    {
-      "id": "gdelt_05aad009c9d29f74",
-      "headline": "Τελεσίγραφο 3 - 4 εβδομάδων από το Ιράν στις ΗΠΑ με 6 όρους , αλλιώς προληπτικό πλήγμα και κλείσιμο Hormuz",
-      "url": "https://www.bankingnews.gr/diethni/articles/894291/telesigrafo-3-4-evdomadon-apo-to-iran-stis-ipa-me-6-orous-allios-proliptiko-pligma-kai-kleisimo-hormuz",
-      "published_at": "20260817T211500Z",
-      "source": "bankingnews.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b04e3e60c86a1a4b",
-      "headline": "Τελεσίγραφο 3 - 4 εβδομάδων από το Ιράν στις ΗΠΑ με 6 όρους , αλλιώς προληπτικό πλήγμα και κλείσιμο Hormuz",
-      "url": "https://www.bankingnews.gr/diethni/articles/894291/telesigrafo-3-4-evdomadon-apo-to-iran-stis-ipa-me-6-orous-allios-proliptiko-pligma-kai-kleisimo-hormuz%20title=",
-      "published_at": "20260817T211500Z",
-      "source": "bankingnews.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a05a3d2073e283c1",
-      "headline": "Trump Threatens To  Bomb the S ** t  Out of Oman Over Its Talks With Iran",
-      "url": "https://news.antiwar.com/2026/08/17/trump-threatens-to-bomb-the-st-out-of-oman-over-its-talks-with-iran/",
-      "published_at": "20260817T181500Z",
-      "source": "news.antiwar.com",
-      "tags": [
-        "OMAN"
-      ]
-    },
-    {
-      "id": "gdelt_24202c56e2e4261c",
-      "headline": "Сплошь матёрые идиоты : НАТО познакомило россиян с планом войны с РФ",
-      "url": "https://bloknot.ru/politika/splosh-matyorye-idioty-nato-poznakomilo-rossiyan-s-planom-vojny-s-rf-1533830.html",
-      "published_at": "20260817T190000Z",
-      "source": "bloknot.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f1e3db915bcbc31a",
-      "headline": "Stropnický dostal Ferjenčíka ze židle . Ukrajina je agresor ? | ParlamentniListy . cz – politika ze všech stran",
-      "url": "https://www.parlamentnilisty.cz/arena/monitor/Stropnicky-dostal-Ferjencika-ze-zidle-Ukrajina-je-agresor-795602",
-      "published_at": "20260817T174500Z",
-      "source": "parlamentnilisty.cz",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9a42b1e866cb5337",
-      "headline": "Cum și - a redus administrația Trump pretențiile față de Iran , în timp ce Teheranul cere acum nu „ ochi pentru ochi , ci „ un cap pentru un ochi",
-      "url": "https://hotnews.ro/cum-si-a-redus-administratia-trump-pretentiile-fata-de-iran-in-timp-ce-teheranul-cere-acum-nu-ochi-pentru-ochi-ci-un-cap-pentru-un-ochi-2325749",
-      "published_at": "20260817T181500Z",
-      "source": "hotnews.ro",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2aed54539f893ce6",
-      "headline": "Θεσσαλονίκη : Ψάρεψε παράνομα 45 κιλά μύδια – Χειροπέδες σε 51χρονο",
-      "url": "https://www.newsbomb.gr/ellada/story/1757096/thessaloniki-psarepse-paranoma-45-kila-mydia---xeiropedes-se-51xrono",
-      "published_at": "20260817T174500Z",
-      "source": "newsbomb.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_efa4e891f4bbf095",
-      "headline": "Oil prices climb again as Iran tensions fuel supply fears",
-      "url": "https://fox23.com/news/nation-world/oil-jumps-more-than-2-as-trump-casts-doubt-on-iran-nuclear-deal-framework",
-      "published_at": "20260817T211500Z",
-      "source": "fox23.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0f68f7a924589527",
-      "headline": "فلسطيني - أمريكي يعود من الولايات المتحدة ليجد منزله محاصراً بمستوطنين في الضفة الغربية",
-      "url": "https://www.alquds.co.uk/%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A-%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A-%D9%8A%D8%B9%D9%88%D8%AF-%D9%85%D9%86-%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%AD/",
-      "published_at": "20260817T194500Z",
-      "source": "alquds.co.uk",
       "tags": []
     }
   ]
