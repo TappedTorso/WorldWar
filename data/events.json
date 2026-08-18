@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-08-18T13:54:48Z",
+    "generated_at_utc": "2026-08-18T14:50:47Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -33,6 +33,14 @@
   },
   "events": [
     {
+      "id": "gdelt_525464c62343725a",
+      "headline": "Luftkrieg eskaliert – Kiew und Moskau beklagen zivile Opfer",
+      "url": "https://www.freiepresse.de/nachrichten/welt/luftkrieg-eskaliert-kiew-und-moskau-beklagen-zivile-opfer-artikel14373913",
+      "published_at": "20260818T134500Z",
+      "source": "freiepresse.de",
+      "tags": []
+    },
+    {
       "id": "gdelt_05f883493d11c72c",
       "headline": "Russland droht Großbritannien nach Drohnen - Einsatz in der Ukraine",
       "url": "http://www.hna.de/politik/russland-droht-grossbritannien-nach-drohnen-einsatz-in-der-ukraine-zr-94448512.html",
@@ -48,6 +56,24 @@
       "url": "https://mignews.com.ua/svit/rosiya-prygrozyla-brytaniyi-cherez-drony-dlya-ukrayiny-shho-zayavyly-v-londoni.html",
       "published_at": "20260818T120000Z",
       "source": "mignews.com.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c837e1a91234d40e",
+      "headline": "Latvia wants EU billions for anti - Russia policies",
+      "url": "http://www.russiaherald.com/news/279248986/latvia-wants-eu-billions-for-anti-russia-policies",
+      "published_at": "20260818T134500Z",
+      "source": "russiaherald.com",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "gdelt_a5e0d3dce858b06b",
+      "headline": "معضلة ترامب .. بين تصعيد خاسر وخضوع لشروط إيران",
+      "url": "https://www.alquds.co.uk/%D9%85%D8%B9%D8%B6%D9%84%D8%A9-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%A8%D9%8A%D9%86-%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D8%AE%D8%A7%D8%B3%D8%B1-%D9%88%D8%AE%D8%B6%D9%88%D8%B9-%D9%84%D8%B4%D8%B1%D9%88%D8%B7/",
+      "published_at": "20260818T134500Z",
+      "source": "alquds.co.uk",
       "tags": []
     },
     {
@@ -93,17 +119,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_bc8a931b8035fe28",
-      "headline": "Kesepakatan Iran - AS Mati Suri , Diplomasi Rahasia Lewat IRGC Terbuka",
-      "url": "https://jambi.tribunnews.com/news/1203018/kesepakatan-iran-as-mati-suri-diplomasi-rahasia-lewat-irgc-terbuka",
-      "published_at": "20260818T080000Z",
-      "source": "jambi.tribunnews.com",
-      "tags": [
-        "IRAN",
-        "IRGC"
-      ]
-    },
-    {
       "id": "gdelt_b60b62e09d234311",
       "headline": "中國伏季休漁結束 海巡驅離越界中國漁船8艘 - 澎湖縣",
       "url": "https://news.ltn.com.tw/news/Penghu/breakingnews/5544179",
@@ -122,11 +137,23 @@
       ]
     },
     {
-      "id": "gdelt_753a4e962c4c3f0c",
-      "headline": "Reuters : Иран объявил о переходе к  полностью наступательной  стратегии",
-      "url": "https://www.9tv.co.il/item/262072",
-      "published_at": "20260818T083000Z",
-      "source": "9tv.co.il",
+      "id": "gdelt_4c43b236a17218a7",
+      "headline": "What is behind Russia  consequence threat over united kingdom sending drones to Ukraine ? | Russia",
+      "url": "https://www.theguardian.com/world/2026/aug/18/russia-consequences-threat-uk-drones-ukraine",
+      "published_at": "20260818T141500Z",
+      "source": "theguardian.com",
+      "tags": [
+        "RUSSIA",
+        "UKRAINE",
+        "UNITED_KINGDOM"
+      ]
+    },
+    {
+      "id": "gdelt_25b663d36180eebe",
+      "headline": "Μπέρναμ προς Μόσχα : « Η Βρετανία στηρίζει 100 % την Ουκρανία - Δεν είμαστε φίλοι μόνο στα εύκολα »",
+      "url": "https://newpost.gr/eidiseis/mpernam-pros-moscha-i-vretania-stirizei-100-tin-oykrania-den-eimaste-filoi-mono-sta-eykola/",
+      "published_at": "20260818T141500Z",
+      "source": "newpost.gr",
       "tags": []
     },
     {
@@ -138,11 +165,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_1abce0244973fe94",
-      "headline": "Tan Choon Hin appointed UOB head of ASEAN & Greater China",
-      "url": "https://www.dealstreetasia.com/stories/tan-choon-hin-appointed-uobs-head-of-asean-greater-china-492415",
-      "published_at": "20260818T083000Z",
-      "source": "dealstreetasia.com",
+      "id": "gdelt_0fa3e699e22408fc",
+      "headline": "UOB appoints Tan Choon Hin as head of Asean and Greater China in new role",
+      "url": "https://www.asiaone.com/money/uob-appoints-tan-choon-hin-head-asean-and-greater-china-new-role",
+      "published_at": "20260818T091500Z",
+      "source": "asiaone.com",
       "tags": [
         "CHINA"
       ]
@@ -158,31 +185,27 @@
       ]
     },
     {
-      "id": "gdelt_0fa3e699e22408fc",
-      "headline": "UOB appoints Tan Choon Hin as head of Asean and Greater China in new role",
-      "url": "https://www.asiaone.com/money/uob-appoints-tan-choon-hin-head-asean-and-greater-china-new-role",
-      "published_at": "20260818T091500Z",
-      "source": "asiaone.com",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
-      "id": "gdelt_7f471df18b34f6b6",
-      "headline": "UOB appoints Tan Choon Hin as head of Asean and Greater China in new role",
-      "url": "https://www.asiaone.com:443/money/uob-appoints-tan-choon-hin-head-asean-and-greater-china-new-role",
-      "published_at": "20260818T084500Z",
-      "source": "asiaone.com",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
       "id": "gdelt_51c4a4c5c0d98c35",
       "headline": "Quru sərhədlər gündəmdə – İqtisadiyyatda nə qədər itiririk",
       "url": "https://musavat.com/news/quru-serhedler-gundemde-iqtisadiyyatda-ne-qeder-itiririk-aciqlama_1282956.html",
       "published_at": "20260818T123000Z",
       "source": "musavat.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_73ef4687de439f2f",
+      "headline": "Luftkrieg eskaliert – Kiew und Moskau beklagen zivile Opfer",
+      "url": "https://www.westfalen-blatt.de/ueberregional/nachrichten/themen-des-tages/luftkrieg-eskaliert-kiew-und-moskau-beklagen-zivile-opfer-3621666",
+      "published_at": "20260818T134500Z",
+      "source": "westfalen-blatt.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bf3dd6b08891ba2b",
+      "headline": "拦截弹告急 美媒称乌军  爱国者  系统已哑火数周 - 新华网",
+      "url": "https://www.news.cn/world/20260818/6a522f23736e4af0a72b3b7f9445b026/c.html",
+      "published_at": "20260818T143000Z",
+      "source": "news.cn",
       "tags": []
     },
     {
@@ -207,6 +230,16 @@
       "url": "https://aninews.in/news/world/middle-east/hormuz-strait-wont-be-opened-until-us-complies-with-interim-deal-conditions-irans-ghalibaf20260818162552/",
       "published_at": "20260818T111500Z",
       "source": "aninews.in",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_d5270db842e6be57",
+      "headline": "UK will  support Ukraine 100 % despite Russian threat of  consequences , PM says",
+      "url": "https://www.euronews.com/my-europe/2026/08/18/uk-will-support-ukraine-100-despite-russian-threat-of-consequences-pm-says",
+      "published_at": "20260818T141500Z",
+      "source": "euronews.com",
       "tags": []
     },
     {
@@ -215,7 +248,9 @@
       "url": "http://global.chinadaily.com.cn/a/202608/18/WS6a840beda3106bc57421c1e1.html",
       "published_at": "20260818T103000Z",
       "source": "global.chinadaily.com.cn",
-      "tags": []
+      "tags": [
+        "CHINA"
+      ]
     },
     {
       "id": "gdelt_e3acf3935f2e06f8",
@@ -224,6 +259,16 @@
       "published_at": "20260818T101500Z",
       "source": "kommersant.ru",
       "tags": []
+    },
+    {
+      "id": "gdelt_3e24eebb80f76be3",
+      "headline": "200 euros par personne , plus de 100 000 euros de bénéfices : ils faisaient passer les migrants en France en traversant La Jonquera et le Perthus en voiture",
+      "url": "https://www.lindependant.fr/2026/08/18/200-euros-par-personne-plus-de-100-000-euros-de-benefices-ils-faisaient-passer-les-migrants-en-france-en-traversant-la-jonquera-et-le-perthus-en-13513124.php",
+      "published_at": "20260818T134500Z",
+      "source": "lindependant.fr",
+      "tags": [
+        "FRANCE"
+      ]
     },
     {
       "id": "gdelt_146e835782c76aa6",
@@ -258,16 +303,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_cf441ae8cce5cc27",
-      "headline": "IRAN WAR WEEK 25 , day # 4 : MoU expires as Trump threatens Oman solid waste",
-      "url": "https://www.dailykos.com/stories/2026/8/17/800085894/community/iww-25-day-4/",
-      "published_at": "20260818T083000Z",
-      "source": "dailykos.com",
-      "tags": [
-        "OMAN"
-      ]
-    },
-    {
       "id": "gdelt_77b6a239b8ce52ec",
       "headline": "ROUNDUP / Iran : Öffnung der Straße von Hormus hängt von united states ab | wallstreetONLINE",
       "url": "https://www.wallstreet-online.de/nachricht/21256317-roundup-iran-oeffnung-strasse-hormus-haengt-usa",
@@ -275,6 +310,16 @@
       "source": "wallstreet-online.de",
       "tags": [
         "UNITED_STATES"
+      ]
+    },
+    {
+      "id": "gdelt_59e7014717359962",
+      "headline": "US advisory body says China data dominance gives it AI advantage",
+      "url": "https://finance.yahoo.com/news/us-advisory-body-says-chinas-130512629.html",
+      "published_at": "20260818T140000Z",
+      "source": "finance.yahoo.com",
+      "tags": [
+        "CHINA"
       ]
     },
     {
@@ -298,11 +343,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_3a469381c6ec112a",
-      "headline": "Inspektorat Simalungun Proses Sanksi terhadap Puluhan ASN yang Akali Absen Android",
-      "url": "https://medan.tribunnews.com/simalungun/1807671/inspektorat-simalungun-proses-sanksi-terhadap-puluhan-asn-yang-akali-absen-android",
-      "published_at": "20260818T093000Z",
-      "source": "medan.tribunnews.com",
+      "id": "gdelt_efae53f92cdf6b5c",
+      "headline": "拒绝做爱以后 ， 我们分手了丨伴侣 「 越界 」 报告",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-08-18/doc-ininuefn3116630.shtml",
+      "published_at": "20260818T143000Z",
+      "source": "finance.sina.com.cn",
       "tags": []
     },
     {
@@ -311,6 +356,14 @@
       "url": "https://portal.sina.com.hk/finance/finance-prnewswire/prnasia/2026/08/18/1890667/icac-commissioner-concludes-asean-anti-corruption-meeting-in-malaysia-to-spearhead-regional-graft-fighting-alliance/",
       "published_at": "20260818T113000Z",
       "source": "portal.sina.com.hk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3a469381c6ec112a",
+      "headline": "Inspektorat Simalungun Proses Sanksi terhadap Puluhan ASN yang Akali Absen Android",
+      "url": "https://medan.tribunnews.com/simalungun/1807671/inspektorat-simalungun-proses-sanksi-terhadap-puluhan-asn-yang-akali-absen-android",
+      "published_at": "20260818T093000Z",
+      "source": "medan.tribunnews.com",
       "tags": []
     },
     {
@@ -330,19 +383,19 @@
       "tags": []
     },
     {
+      "id": "gdelt_7fe35d9a562431fa",
+      "headline": "Москва пригрозила Лондону через британські дрони для України : Бернем відповів",
+      "url": "https://glavnoe.in.ua/news/moskva-pryhrozyla-londonu-cherez-brytanski-drony-dlya-ukrayiny-u-brytaniyi-vidpovily",
+      "published_at": "20260818T143000Z",
+      "source": "glavnoe.in.ua",
+      "tags": []
+    },
+    {
       "id": "gdelt_ae8850337300f4e1",
       "headline": "На финском заводе в 10 км от РФ прогремел взрыв",
       "url": "https://utro.ru/news/accidents/2026/08/18/1573662.shtml",
       "published_at": "20260818T111500Z",
       "source": "utro.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1689ac3c0f89a4a0",
-      "headline": "Trump shares AI - generated image declaring Strait of Hormuz  NEW U . S . Territory  amid tensions with Iran",
-      "url": "https://aninews.in/news/world/us/trump-shares-ai-generated-image-declaring-strait-of-hormuz-new-us-territory-amid-tensions-with-iran20260818174602/",
-      "published_at": "20260818T124500Z",
-      "source": "aninews.in",
       "tags": []
     },
     {
@@ -354,35 +407,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_8726692783d4ec5d",
-      "headline": "【 時事金掃描 】 6百架無人機攻莫斯科 俄飛機越境北約戰機開火 | 俄烏戰爭 | 普京 | 烏克蘭",
-      "url": "https://www.ntdtv.com/b5/2026/08/18/a104124952.html",
-      "published_at": "20260818T083000Z",
-      "source": "ntdtv.com",
+      "id": "gdelt_1689ac3c0f89a4a0",
+      "headline": "Trump shares AI - generated image declaring Strait of Hormuz  NEW U . S . Territory  amid tensions with Iran",
+      "url": "https://aninews.in/news/world/us/trump-shares-ai-generated-image-declaring-strait-of-hormuz-new-us-territory-amid-tensions-with-iran20260818174602/",
+      "published_at": "20260818T124500Z",
+      "source": "aninews.in",
       "tags": []
     },
     {
-      "id": "gdelt_85cec2ded5a72cde",
-      "headline": "RTS Link Bukit Chagar station to connect directly to KTM trains , buses and taxis : Malaysia Transport Minister",
-      "url": "https://www.channelnewsasia.com/asia/malaysia-anthony-loke-rts-johor-singapore-bukit-chagar-6325226",
-      "published_at": "20260818T084500Z",
-      "source": "channelnewsasia.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8aec4d13451df8e3",
-      "headline": "В Крыму назвали истерикой анонс новых санкций Евросоюза :: Новости дня / ВЗГЛЯД",
-      "url": "https://vz.ru/news/2026/8/18/1443702.html",
-      "published_at": "20260818T083000Z",
+      "id": "gdelt_5703d633b3b2578a",
+      "headline": "Премьер Британии пообещал продолжить поддержку Киева :: Новости дня / ВЗГЛЯД",
+      "url": "https://vz.ru/news/2026/8/18/1443871.html",
+      "published_at": "20260818T134500Z",
       "source": "vz.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_51d3249e9e2e24ec",
-      "headline": "الأمم المتحدة تُحذّر من تصعيد مقلق في جنوب لبنان",
-      "url": "https://www.saidaonline.com/319889",
-      "published_at": "20260818T120000Z",
-      "source": "saidaonline.com",
       "tags": []
     },
     {
@@ -391,6 +428,14 @@
       "url": "https://247wallst.com/investing/2026/08/18/bill-ackman-bets-big-on-visa-after-it-lagged-the-market-for-5-years-should-you/",
       "published_at": "20260818T123000Z",
       "source": "247wallst.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_51d3249e9e2e24ec",
+      "headline": "الأمم المتحدة تُحذّر من تصعيد مقلق في جنوب لبنان",
+      "url": "https://www.saidaonline.com/319889",
+      "published_at": "20260818T120000Z",
+      "source": "saidaonline.com",
       "tags": []
     },
     {
@@ -410,11 +455,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_8d92091c17423fe8",
-      "headline": "Теперь точно рухнет : Европа нашла , где нанести решающий удар по России",
-      "url": "https://ria.ru/20260818/evropa-2111453402.html",
-      "published_at": "20260818T084500Z",
-      "source": "ria.ru",
+      "id": "gdelt_3993ab36a0486039",
+      "headline": "La société civile exige larrêt immédiat de constructions jugées « illégales » dans le parking public à Beni",
+      "url": "https://www.radiookapi.net/2026/08/18/actualite/societe/la-societe-civile-exige-larret-immediat-de-constructions-jugees",
+      "published_at": "20260818T140000Z",
+      "source": "radiookapi.net",
       "tags": []
     },
     {
@@ -434,6 +479,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_251979917f085268",
+      "headline": "مخاوف فلسطينية من تصعيد الاغتيالات في غزة مع تعقّد الانتقال إلى المرحلة الثانية – قناة المنار",
+      "url": "https://www.almanar.com.lb/article/1106652/",
+      "published_at": "20260818T134500Z",
+      "source": "almanar.com.lb",
+      "tags": []
+    },
+    {
       "id": "gdelt_1572b97e15f0bf65",
       "headline": "ארה  ב מזהירה : הפסיקו את ההסלמה בסוריה - לחץ על ישראל",
       "url": "https://www.kikar.co.il/world-news/us-warns-israel-syria-strikes-escalation",
@@ -445,11 +498,11 @@
       ]
     },
     {
-      "id": "gdelt_3ca98cdd1841b96b",
-      "headline": "Çin - ABD uyuşturucu işbirliği : İki kişiye hapis",
-      "url": "https://www.haberler.com/guncel/cin-mahkemesinden-cin-abd-uyusturucuyla-mucadele-20154062-haberi/",
-      "published_at": "20260818T080000Z",
-      "source": "haberler.com",
+      "id": "gdelt_6f6fa59b128950db",
+      "headline": "טראמפ פרסם  מפת סיפוח  להורמוז - איראן לעגה :  נתקן את האשליות שלו , בקרוב",
+      "url": "https://www.ynet.co.il/news/article/bj5hiabvgl",
+      "published_at": "20260818T134500Z",
+      "source": "ynet.co.il",
       "tags": []
     },
     {
@@ -461,20 +514,30 @@
       "tags": []
     },
     {
-      "id": "gdelt_98dc294be0c078aa",
-      "headline": "Российские войска готовятся к маршу на Харьков",
-      "url": "https://pronedra.ru/bitva-za-vorota-harkova-pochemu-rajon-kazachej-lopani-stanovitsya-klyuchevym-napravleniem-fronta-828907.html",
-      "published_at": "20260818T084500Z",
-      "source": "pronedra.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_5364e0f377a99c9e",
       "headline": "Dosen Unsoed Penerima Satyalancana Diduga Terlibat Plagiasi , Ini Penjelasan Kampus",
       "url": "https://www.kompas.com/edu/read/2026/08/18/155941671/dosen-unsoed-penerima-satyalancana-diduga-terlibat-plagiasi-ini-penjelasan",
       "published_at": "20260818T093000Z",
       "source": "kompas.com",
       "tags": []
+    },
+    {
+      "id": "gdelt_7331b88908f95c85",
+      "headline": "Krachtige Amerikaanse AI - chip van Nvidia gevonden in Russische kruisraket , ondanks sancties",
+      "url": "https://www.vrt.be/vrtnws/nl/2026/08/18/amerikaanse-chip-van-nvidea-teruggevonden-in-nieuwe-raketten-van/",
+      "published_at": "20260818T141500Z",
+      "source": "vrt.be",
+      "tags": []
+    },
+    {
+      "id": "gdelt_86d4b1e70df94db8",
+      "headline": "Air Vice Chief Confirms Zero Strategic Losses in Pakistan Failed May 10 Retaliation",
+      "url": "https://idrw.org/air-vice-chief-confirms-zero-strategic-losses-in-pakistans-failed-may-10-retaliation/",
+      "published_at": "20260818T143000Z",
+      "source": "idrw.org",
+      "tags": [
+        "PAKISTAN"
+      ]
     },
     {
       "id": "gdelt_a9223f2d3464cbff",
@@ -485,27 +548,19 @@
       "tags": []
     },
     {
+      "id": "gdelt_ff0e73aad0212785",
+      "headline": "Borderless . xyz Deepens Africa Coverage as CrissCross Goes Live on Its Network",
+      "url": "https://www.manilatimes.net/2026/08/18/tmt-newswire/globenewswire/borderlessxyz-deepens-africa-coverage-as-crisscross-goes-live-on-its-network/2407688",
+      "published_at": "20260818T140000Z",
+      "source": "manilatimes.net",
+      "tags": []
+    },
+    {
       "id": "gdelt_8e87424693a24fa5",
       "headline": "سوريا تدين غارات إسرائيلية استهدفت مطارا بإدلب وتدعو لموقف حازم",
       "url": "https://www.shorouknews.com/news/view.aspx?cdate=18082026&id=8b91ea96-77ec-4bb9-b59e-b073ed3c4838",
       "published_at": "20260818T124500Z",
       "source": "shorouknews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_926e7d95eb6c9b02",
-      "headline": "США выдали индийской ONGC лицензию на инвестиции в нефть Венесуэлы | Москва",
-      "url": "https://fedpress.ru/news/77/energetics/3448351",
-      "published_at": "20260818T084500Z",
-      "source": "fedpress.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8c01aaa3c70a1d3c",
-      "headline": "Euractiv : США могут разрешить запуск своих ракет с европейских установок НАТО",
-      "url": "https://life.ru/p/1913131",
-      "published_at": "20260818T083000Z",
-      "source": "life.ru",
       "tags": []
     },
     {
@@ -525,11 +580,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_c75706ea5ec4f6d8",
-      "headline": "Канатную дорогу Благовещенск Хэйхэ испытают без пассажиров",
-      "url": "https://1prime.ru/20260818/blagoveschensk-hejhe-872450760.html",
-      "published_at": "20260818T083000Z",
-      "source": "1prime.ru",
+      "id": "gdelt_12fbdbdf0f1f0a4e",
+      "headline": "موقع بكرا - المبعوث الأميركي لسوريا : الغارات الجوية تشكل تصعيدا غير ضرور",
+      "url": "https://bokra.net/Article-1601588",
+      "published_at": "20260818T134500Z",
+      "source": "bokra.net",
       "tags": []
     },
     {
@@ -538,9 +593,7 @@
       "url": "https://en.interfax.com.ua/news/general/1194048.html",
       "published_at": "20260818T123000Z",
       "source": "en.interfax.com.ua",
-      "tags": [
-        "UKRAINE"
-      ]
+      "tags": []
     },
     {
       "id": "gdelt_364eb32a62fa2e80",
@@ -548,6 +601,14 @@
       "url": "https://interfax.com.ua/news/political/1194035.html",
       "published_at": "20260818T124500Z",
       "source": "interfax.com.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_70a171945a1e25b5",
+      "headline": "إسرائيل تزعم إطلاع واشنطن مسبقا على المعلومات الاستخباراتية الحساسة بشأن الغارات على سوريا",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=18082026&id=ebea9e82-ce69-43b4-a753-5d88d36b6639",
+      "published_at": "20260818T141500Z",
+      "source": "shorouknews.com",
       "tags": []
     },
     {
@@ -559,19 +620,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_809d833a7ef3de45",
-      "headline": "RTS Link : 7 - second immigration clearance possible at JB Bukit Chagar station",
-      "url": "https://www.asiaone.com:443/malaysia/rts-link-jb-bukit-chagar-station-7-second-immigration-clearance",
-      "published_at": "20260818T084500Z",
-      "source": "asiaone.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_814d15f22b584b32",
       "headline": "Des pompiers et un robot luxembourgeois envoyés en renfort en Allemagne",
       "url": "https://lequotidien.lu/a-la-une/des-pompiers-et-un-robot-luxembourgeois-envoyes-en-renfort-en-allemagne/",
       "published_at": "20260818T133000Z",
       "source": "lequotidien.lu",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5a703076f812bbd4",
+      "headline": "Daily Debrief : What Happened Today ( Aug 18 )",
+      "url": "https://www.businesstimes.com.sg/singapore/daily-debrief-what-happened-today-aug-181",
+      "published_at": "20260818T140000Z",
+      "source": "businesstimes.com.sg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b78f9ca61599a29f",
+      "headline": "ഹോർമുസ് അമേരിക്കയുടെ പുതിയ ഭൂപ്രദേശമെന്ന് ട്രംപ് , മാപ്പ് പങ്കുവെച്ച് പ്രഖ്യാപനം ; മറുപടിയുമായി ഇറാൻ",
+      "url": "https://www.mathrubhumi.com/news/world/trump-strait-of-hormuz-us-territory-iran-tensions-p4izrju1",
+      "published_at": "20260818T134500Z",
+      "source": "mathrubhumi.com",
       "tags": []
     },
     {
@@ -591,14 +660,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_08d0aa6f8fe5343e",
-      "headline": "إصابة فلسطيني برصاص إسرائيلي قرب جدار الفصل شمال القدس",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=18082026&id=b68478d1-482e-4131-ab0a-e1786ef5ce1c",
-      "published_at": "20260818T084500Z",
-      "source": "shorouknews.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_fcc5cddf751a7fc8",
       "headline": "باحث العلاقات الدولية : مهلة الـ60 يومًا فقدت جدواها .. والعودة للمسار الدبلوماسي ما زالت ممكنة",
       "url": "https://www.dostor.org/5671688",
@@ -607,11 +668,21 @@
       "tags": []
     },
     {
-      "id": "gdelt_d64fcfcb18c98d2b",
-      "headline": "호르무즈 봉쇄 , 에너지 흐름 바꿨다 … 인도 , 러 원유 51 % 빨아들여 - 국제ㅣ한국일보",
-      "url": "https://www.hankookilbo.com/news/article/A2026081814000004332",
-      "published_at": "20260818T093000Z",
-      "source": "hankookilbo.com",
+      "id": "gdelt_0400321bbe28da18",
+      "headline": "В Москве скорая сбила топ - менеджера  Генбанка  Дмитрия Ларина – он погиб на месте",
+      "url": "https://www.dialog.ua/russia/v-moskve-skoraya-sbila-top-menedzhera-genbanka-dmitriya-larina-on.html",
+      "published_at": "20260818T143000Z",
+      "source": "dialog.ua",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "gdelt_5b111ab73a33cb97",
+      "headline": "JAV pranešė apie Izraelio smūgius Sirijoje ir pasmerkė „ nereikalingą eskalaciją",
+      "url": "https://www.15min.lt/naujiena/aktualu/pasaulis/jav-pranese-apie-izraelio-smugius-sirijoje-ir-pasmerke-nereikalinga-eskalacija-57-2745452",
+      "published_at": "20260818T134500Z",
+      "source": "15min.lt",
       "tags": []
     },
     {
@@ -623,6 +694,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_d64fcfcb18c98d2b",
+      "headline": "호르무즈 봉쇄 , 에너지 흐름 바꿨다 … 인도 , 러 원유 51 % 빨아들여 - 국제ㅣ한국일보",
+      "url": "https://www.hankookilbo.com/news/article/A2026081814000004332",
+      "published_at": "20260818T093000Z",
+      "source": "hankookilbo.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_e89b7df6e52f66e4",
       "headline": "KAI Sumbar Gandeng Komunitas Cegah Pelecehan Seksual di Kereta , Pelaku Bisa di - Blacklist",
       "url": "https://regional.kompas.com/read/2026/08/18/164731978/kai-sumbar-gandeng-komunitas-cegah-pelecehan-seksual-di-kereta-pelaku-bisa",
@@ -631,19 +710,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_8158898a6a7f54b2",
-      "headline": "Калибаф : Ормуски мореуз остаје затворен док САД не испуне услове",
-      "url": "https://www.politika.rs/scc/clanak/779267/kalibaf-ormuski-moreuz-ostaje-zatvoren-dok-sad-ne-ispune-uslove",
-      "published_at": "20260818T101500Z",
-      "source": "politika.rs",
-      "tags": []
-    },
-    {
       "id": "gdelt_203922451a6db813",
       "headline": "LETONIA dice que necesita que la U . E le financie su política anti rusa , que tiene sus cuentas colapsadas",
       "url": "https://insurgente.org/letonia-dice-que-necesita-que-la-u-e-le-financie-su-politica-anti-rusa-que-tiene-sus-cuentas-colapsadas/",
       "published_at": "20260818T124500Z",
       "source": "insurgente.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b3099d2c977364ee",
+      "headline": "İrandan Hürmüz Boğazı açıklaması : Yaptırımlar kaldırılmadan boğaz açılmayacak",
+      "url": "https://www.ogunhaber.com/dunya/irandan-hurmuz-bogazi-aciklamasi-yaptirimlar-kaldirilmadan-bogaz-acilmayacak-3001166h.html",
+      "published_at": "20260818T141500Z",
+      "source": "ogunhaber.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8158898a6a7f54b2",
+      "headline": "Калибаф : Ормуски мореуз остаје затворен док САД не испуне услове",
+      "url": "https://www.politika.rs/scc/clanak/779267/kalibaf-ormuski-moreuz-ostaje-zatvoren-dok-sad-ne-ispune-uslove",
+      "published_at": "20260818T101500Z",
+      "source": "politika.rs",
       "tags": []
     },
     {
@@ -663,22 +750,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_a644905c85937f69",
-      "headline": "KBS 뉴스",
-      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8639421",
-      "published_at": "20260818T090000Z",
-      "source": "news.kbs.co.kr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_663cee6425eb2fcb",
-      "headline": "AS Bicara Kemungkinan Perang Nuklir , Sebut Rusia dan China Lawan Setara",
-      "url": "https://international.sindonews.com/read/1740255/42/as-bicara-kemungkinan-perang-nuklir-sebut-rusia-dan-china-lawan-setara-1787033334",
-      "published_at": "20260818T084500Z",
-      "source": "international.sindonews.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_60027d7abbdd5b58",
       "headline": "China will Öl - und Gasförderung bis 2030 auf 440 Millionen Tonnen ausbauen _ China . org . cn",
       "url": "http://german.china.org.cn/txt/2026-08/18/content_118653217.htm",
@@ -687,11 +758,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_12efa99a1a6ec631",
-      "headline": "Po Rusijos grasinimų – atsakas iš Jungtinės Karalystės",
-      "url": "https://www.delfi.lt/naujienos/uzsienyje/po-rusijos-grasinimu-atsakas-is-jungtines-karalystes-120291340",
-      "published_at": "20260818T084500Z",
-      "source": "delfi.lt",
+      "id": "gdelt_a644905c85937f69",
+      "headline": "KBS 뉴스",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8639421",
+      "published_at": "20260818T090000Z",
+      "source": "news.kbs.co.kr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_afb8993beb82fcec",
+      "headline": "Viral Jukir Liar Muncul Saat Upacara HUT ke - 81 RI di Lapangan Trirenggo , Dishub Bantul Buka Suara",
+      "url": "https://jogja.tribunnews.com/diy/1221072/viral-jukir-liar-muncul-saat-upacara-hut-ke-81-ri-di-lapangan-trirenggo-dishub-bantul-buka-suara",
+      "published_at": "20260818T134500Z",
+      "source": "jogja.tribunnews.com",
       "tags": []
     },
     {
@@ -703,11 +782,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_85b37b206c923e1e",
-      "headline": "Mi lesz Paks 2 - vel ? Szankciós listára kerülhet a Roszatom : valamit lépni kell a magyar atomberuházással",
-      "url": "https://www.penzcentrum.hu/gazdasag/20260818/mi-lesz-paks-2-vel-szankcios-listara-kerulhet-a-roszatom-valamit-lepni-kell-a-magyar-atomberuhazassal-1204088",
-      "published_at": "20260818T101500Z",
-      "source": "penzcentrum.hu",
+      "id": "gdelt_b07cc9c27504de7b",
+      "headline": "كيف علّقت المنصات السورية والإسرائيلية والتركية على قصف أبو الظهور ؟",
+      "url": "https://www.aljazeera.net/news/2026/8/18/%D9%83%D9%8A%D9%81-%D8%B9%D9%84%D9%82%D8%AA-%D8%A7%D9%84%D9%85%D9%86%D8%B5%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A%D8%A9",
+      "published_at": "20260818T141500Z",
+      "source": "aljazeera.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1a0348e64256e8ac",
+      "headline": "Menhut Tindak 42 PBPH Terkait Karhutla , 9 Kasus Masuk Proses Pidana",
+      "url": "https://rri.co.id/nasional/2661671/menhut-tindak-42-pbph-terkait-karhutla-9-kasus-masuk-proses-pidana",
+      "published_at": "20260818T143000Z",
+      "source": "rri.co.id",
       "tags": []
     },
     {
@@ -719,11 +806,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_620aed56ab6b3f8e",
-      "headline": "Tin tức Chỉ thị số 25 / CT - TTg - Hình ảnh và video clip nóng mới nhất",
-      "url": "https://baomoi.com/chi-thi-so-25-ct-ttg-t46101618.epi",
-      "published_at": "20260818T081500Z",
-      "source": "baomoi.com",
+      "id": "gdelt_85b37b206c923e1e",
+      "headline": "Mi lesz Paks 2 - vel ? Szankciós listára kerülhet a Roszatom : valamit lépni kell a magyar atomberuházással",
+      "url": "https://www.penzcentrum.hu/gazdasag/20260818/mi-lesz-paks-2-vel-szankcios-listara-kerulhet-a-roszatom-valamit-lepni-kell-a-magyar-atomberuhazassal-1204088",
+      "published_at": "20260818T101500Z",
+      "source": "penzcentrum.hu",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3d012eb590920bd2",
+      "headline": "السعودية تجدد رفضها للاعتداءات الإيرانية على السفن التجارية وتعدها تصعيدا خطيرا",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=18082026&id=eeba8d64-5f14-4638-be40-b01562177a23",
+      "published_at": "20260818T141500Z",
+      "source": "shorouknews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1a1c3a23519da525",
+      "headline": "Novi udari groma izazvali dodatne požare : Helikopteri OS BiH i hrvatski kanaderi gase vatru kod Bosanskog Grahova",
+      "url": "https://www.klix.ba/vijesti/bih/novi-udari-groma-izazvali-dodatne-pozare-helikopteri-os-bih-i-hrvatski-kanaderi-gase-vatru-kod-bosanskog-grahova/260818077",
+      "published_at": "20260818T111500Z",
+      "source": "klix.ba",
       "tags": []
     },
     {
@@ -743,14 +846,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_1a1c3a23519da525",
-      "headline": "Novi udari groma izazvali dodatne požare : Helikopteri OS BiH i hrvatski kanaderi gase vatru kod Bosanskog Grahova",
-      "url": "https://www.klix.ba/vijesti/bih/novi-udari-groma-izazvali-dodatne-pozare-helikopteri-os-bih-i-hrvatski-kanaderi-gase-vatru-kod-bosanskog-grahova/260818077",
-      "published_at": "20260818T111500Z",
-      "source": "klix.ba",
-      "tags": []
-    },
-    {
       "id": "gdelt_d47763c84d211886",
       "headline": "The U . S . Is About To Hit Iran With An Economic Tsunami | NewsRadio 740 KTRH | KTRH Local Houston and Texas News",
       "url": "https://ktrh.iheart.com/featured/houston-texas-news/content/2026-08-17-the-us-is-about-to-hit-iran-with-an-economic-tsunami/",
@@ -759,19 +854,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_2612f829380c743c",
-      "headline": "JB - Singapore RTS Link now in testing and commissioning stage : Anthony Loke",
-      "url": "https://www.asiaone.com:443/malaysia/jb-singapore-rts-link-commissioning-testing-fare-operational-date",
-      "published_at": "20260818T084500Z",
-      "source": "asiaone.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7dcaa5427b629ae0",
-      "headline": "Ghalibaf : Selat Hormuz akan Tetap Ditutup hingga AS Penuhi Ketentuan MoU",
-      "url": "https://international.sindonews.com/read/1740357/43/ghalibaf-selat-hormuz-akan-tetap-ditutup-hingga-as-penuhi-ketentuan-mou-1787044139",
-      "published_at": "20260818T111500Z",
-      "source": "international.sindonews.com",
+      "id": "gdelt_f665bc61f2ec4ce4",
+      "headline": "Трансграничная канатная дорога между РФ и КНР почти готова губернатор Орлов | ДВ - РОСС новости Дальнего Востока",
+      "url": "http://trud-ost.ru/?p=977628",
+      "published_at": "20260818T103000Z",
+      "source": "trud-ost.ru",
       "tags": []
     },
     {
@@ -781,7 +868,6 @@
       "published_at": "20260818T123000Z",
       "source": "standard.co.uk",
       "tags": [
-        "RUSSIA",
         "UNITED_KINGDOM"
       ]
     },
@@ -794,27 +880,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_7dcaa5427b629ae0",
+      "headline": "Ghalibaf : Selat Hormuz akan Tetap Ditutup hingga AS Penuhi Ketentuan MoU",
+      "url": "https://international.sindonews.com/read/1740357/43/ghalibaf-selat-hormuz-akan-tetap-ditutup-hingga-as-penuhi-ketentuan-mou-1787044139",
+      "published_at": "20260818T111500Z",
+      "source": "international.sindonews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d7f7db708029e2e0",
+      "headline": "grčki tanker napadnut u crnom moru nakon što je utovario rusku naftu",
+      "url": "https://www.blic.rs/vesti/svet/grcki-tanker-napadnut-u-crnom-moru-nakon-sto-je-utovario-rusku-naftu/0ythznw",
+      "published_at": "20260818T140000Z",
+      "source": "blic.rs",
+      "tags": []
+    },
+    {
       "id": "gdelt_eff573662817e226",
       "headline": "Иран не откроет Ормузский пролив : заявление председателя парламента о невыполнении условий США - 18 августа 2026",
       "url": "https://www.fontanka.ru/2026/08/18/76593995/",
       "published_at": "20260818T111500Z",
       "source": "fontanka.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2930b2740a1758dc",
-      "headline": "Удари по Росії британськими дронами - Москва звинуватила Велику Британію в ескалації війни",
-      "url": "https://zn.ua/ukr/WORLD/rosija-poperedzhaje-britaniju-cherez-postachannja-droniv-v-ukrajinu.html",
-      "published_at": "20260818T084500Z",
-      "source": "zn.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f665bc61f2ec4ce4",
-      "headline": "Трансграничная канатная дорога между РФ и КНР почти готова губернатор Орлов | ДВ - РОСС новости Дальнего Востока",
-      "url": "http://trud-ost.ru/?p=977628",
-      "published_at": "20260818T103000Z",
-      "source": "trud-ost.ru",
       "tags": []
     },
     {
@@ -834,30 +920,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_d88599e2c6870155",
-      "headline": "Maritim - Experten raten , Kreml - Drohungen Ernst zu nehmen",
-      "url": "https://www.hna.de/wirtschaft/zu-nehmen-maritim-experten-raten-kreml-drohungen-ernst-zr-94446198.html",
-      "published_at": "20260818T080000Z",
-      "source": "hna.de",
-      "tags": []
-    },
-    {
       "id": "gdelt_826bf0f145dac274",
       "headline": "Bắc Ninh : 4 doanh nghiệp xăng dầu mắc lỗi đo lường , bị phạt 24 , 5 triệu đồng",
       "url": "https://baomoi.com/bac-ninh-4-doanh-nghiep-xang-dau-mac-loi-do-luong-bi-phat-24-5-trieu-dong-c55858039.epi",
       "published_at": "20260818T103000Z",
       "source": "baomoi.com",
       "tags": []
-    },
-    {
-      "id": "gdelt_d2e8d2a6fa5dc9de",
-      "headline": "Cena ropy rośnie . Koniec rozejmu united states – Iran zwiększa ryzyko",
-      "url": "https://energia.rp.pl/ropa/art45013281-rozejm-z-iranem-wygasl-ropa-reaguje-wzrostem-cen",
-      "published_at": "20260818T091500Z",
-      "source": "energia.rp.pl",
-      "tags": [
-        "UNITED_STATES"
-      ]
     },
     {
       "id": "gdelt_07143216701699db",
@@ -878,6 +946,16 @@
       "tags": []
     },
     {
+      "id": "gdelt_d2e8d2a6fa5dc9de",
+      "headline": "Cena ropy rośnie . Koniec rozejmu united states – Iran zwiększa ryzyko",
+      "url": "https://energia.rp.pl/ropa/art45013281-rozejm-z-iranem-wygasl-ropa-reaguje-wzrostem-cen",
+      "published_at": "20260818T091500Z",
+      "source": "energia.rp.pl",
+      "tags": [
+        "UNITED_STATES"
+      ]
+    },
+    {
       "id": "gdelt_e2c3c666a3e1ee02",
       "headline": "Más de un centenar de migrantes inician una huelga de hambre en la playa del Trampolín",
       "url": "https://www.publico.es/sociedad/migracion/centenar-migrantes-inician-huelga-hambre-playa-trampolin.html",
@@ -886,29 +964,21 @@
       "tags": []
     },
     {
-      "id": "gdelt_401863bca169c83c",
-      "headline": "Moscow warns the united kingdom of  consequences  over British drones used against its territory MercoPress",
-      "url": "https://en.mercopress.com/2026/08/18/moscow-warns-the-uk-of-consequences-over-british-drones-used-against-its-territory",
-      "published_at": "20260818T081500Z",
-      "source": "en.mercopress.com",
+      "id": "gdelt_c48456c7905e0494",
+      "headline": "Barrack : les raids israéliens sur laéroport dAbu al - Duhur sont une grave escalade",
+      "url": "https://sana.sy/fr/syria-and-the-world/2324692/",
+      "published_at": "20260818T134500Z",
+      "source": "sana.sy",
       "tags": [
-        "UNITED_KINGDOM"
+        "SYRIA"
       ]
     },
     {
-      "id": "gdelt_7c4d3c55e7b0d058",
-      "headline": "New US sanctions will not dampen Iran resolve : FM spox",
-      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/08/iran-260817-irna04.htm",
+      "id": "gdelt_f851ceb2f0b70a83",
+      "headline": "黑幫勾結旅行社送百人赴柬埔寨詐騙 泰警助刑事局逮在台20嫌 | 社會",
+      "url": "https://newtalk.tw/news/view/2026-08-18/1054221",
       "published_at": "20260818T101500Z",
-      "source": "globalsecurity.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c0e339c07f7e9bb6",
-      "headline": "وزيرا خارجية مصر وسلطنة عمان يناقشان الإعلان المرتقب بشأن إعادة فتح مضسق هرمز",
-      "url": "https://www.dostor.org/5671408",
-      "published_at": "20260818T083000Z",
-      "source": "dostor.org",
+      "source": "newtalk.tw",
       "tags": []
     },
     {
@@ -917,6 +987,14 @@
       "url": "https://studio.dostor.org/177433",
       "published_at": "20260818T104500Z",
       "source": "studio.dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7c4d3c55e7b0d058",
+      "headline": "New US sanctions will not dampen Iran resolve : FM spox",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/08/iran-260817-irna04.htm",
+      "published_at": "20260818T101500Z",
+      "source": "globalsecurity.org",
       "tags": []
     },
     {
@@ -931,30 +1009,6 @@
       ]
     },
     {
-      "id": "gdelt_f851ceb2f0b70a83",
-      "headline": "黑幫勾結旅行社送百人赴柬埔寨詐騙 泰警助刑事局逮在台20嫌 | 社會",
-      "url": "https://newtalk.tw/news/view/2026-08-18/1054221",
-      "published_at": "20260818T101500Z",
-      "source": "newtalk.tw",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2c5dbd8c956244e6",
-      "headline": "Путин изпрати кораб с ракети  Циркон  с изключен транспондер до Германия : Сянката на ескалация надвисна над НАТО",
-      "url": "https://www.actualno.com/europe/putin-izprati-korab-s-raketi-cirkon-s-izkluchen-transponder-do-germanija-sjankata-na-eskalacija-nadvisna-nad-nato-news_2629934.html",
-      "published_at": "20260818T084500Z",
-      "source": "actualno.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9f8aba237dabad2d",
-      "headline": "이란서 막힌 트럼프 , 北 통해 돌파 … 강해진 김정은 , 대화할까 [ 북미관계 급물살 ]",
-      "url": "https://www.fnnews.com/news/202608181905072545",
-      "published_at": "20260818T120000Z",
-      "source": "fnnews.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_ee32bc2008da0207",
       "headline": "Sindiket  scammer  berpindah ke Pakistan , India",
       "url": "https://www.kosmo.com.my/2026/08/18/sindiket-scammer-berpindah-ke-pakistan-india/",
@@ -966,11 +1020,19 @@
       ]
     },
     {
-      "id": "gdelt_b889c54ed81a467a",
-      "headline": "DEBIAN - CVE - 2026 - 75003 PSIRT . COM",
-      "url": "https://www.securityfocus.com/advisory/DEBIAN-CVE-2026-75003",
-      "published_at": "20260818T084500Z",
-      "source": "securityfocus.com",
+      "id": "gdelt_03b6e7c41ae8269a",
+      "headline": "« Τώρα σίγουρα θα πέσει ... η Ρωσία » - Η ΕΕ ετοιμάζει ιστορικό πακέτο κυρώσεων ... αυτό που δεν πέτυχαν τα 21 προηγούμενα",
+      "url": "https://www.bankingnews.gr/diethni/articles/894377/tora-sigoura-tha-pesei-i-rosia-i-ee-etoimazei-istoriko-paketo-kyroseon-afto-pou-den-petyxan-ta-21-proigoymena%20title=",
+      "published_at": "20260818T134500Z",
+      "source": "bankingnews.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9f8aba237dabad2d",
+      "headline": "이란서 막힌 트럼프 , 北 통해 돌파 … 강해진 김정은 , 대화할까 [ 북미관계 급물살 ]",
+      "url": "https://www.fnnews.com/news/202608181905072545",
+      "published_at": "20260818T120000Z",
+      "source": "fnnews.com",
       "tags": []
     },
     {
@@ -983,62 +1045,6 @@
         "ISRAEL",
         "SYRIA"
       ]
-    },
-    {
-      "id": "gdelt_a09de86de42d2e84",
-      "headline": "Menteri HAM siapkan sanksi bagi perusahaan yang terbukti langgar HAM",
-      "url": "https://www.antaranews.com/berita/5699772/menteri-ham-siapkan-sanksi-bagi-perusahaan-yang-terbukti-langgar-ham",
-      "published_at": "20260818T090000Z",
-      "source": "antaranews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2d874ebf523dd2f5",
-      "headline": "갈리바프  美 합의 이행 전 호르무즈 개방 없다 … 군사 대응도 경고",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=05054486645548632&mediaCodeNo=257",
-      "published_at": "20260818T111500Z",
-      "source": "edaily.co.kr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1c051dca3531eb64",
-      "headline": "影 ／ 金門登上國際舞台 ！ 16國佳麗踩點水頭 、 北山 用美麗行銷金門 | 高屏離島 | 地方",
-      "url": "https://udn.com/news/story/7327/9699232",
-      "published_at": "20260818T091500Z",
-      "source": "udn.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_edd9f1662422b534",
-      "headline": "Otpušten glavni ruski bankar nakon oštrog govora o ratnoj ekonomiji",
-      "url": "https://www.danas.rs/svet/otpusten-glavni-ruski-bankar-nakon-ostrog-govora-o-ratnoj-ekonomiji/",
-      "published_at": "20260818T084500Z",
-      "source": "danas.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8898918614862a86",
-      "headline": "乌克兰首次用英无人机袭俄纵深 挑衅与风险升级 _ 军事频道 _ 中华网",
-      "url": "https://military.china.com/news/13004177/20260818/49683407.html",
-      "published_at": "20260818T090000Z",
-      "source": "military.china.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fbd92aa523fef313",
-      "headline": "Israels Sicherheitsminister fordert Tötungen im Gazastreifen und die Annexion",
-      "url": "https://www.sueddeutsche.de/politik/sicherheitsminister-ben-gvir-toetungen-gaza-li.3533122",
-      "published_at": "20260818T124500Z",
-      "source": "sueddeutsche.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1547f2024bd3d2cd",
-      "headline": "SEBI launches two portals to bolster cybersecurity , incident reporting across securities market",
-      "url": "https://www.ibtimes.co.in/sebi-launches-two-portals-bolster-cybersecurity-incident-reporting-across-securities-market-904815",
-      "published_at": "20260818T101500Z",
-      "source": "ibtimes.co.in",
-      "tags": []
     }
   ]
 }
