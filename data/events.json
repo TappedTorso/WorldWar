@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-08-19T05:45:25Z",
+    "generated_at_utc": "2026-08-19T07:02:45Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -33,12 +33,15 @@
   },
   "events": [
     {
-      "id": "gdelt_805dfd9348518533",
-      "headline": "AS Sanksi Presiden Mahkamah Pidana Internasional",
-      "url": "https://news.republika.co.id/berita/tjzn0e393/as-sanksi-presiden-mahkamah-pidana-internasional",
-      "published_at": "20260819T000000Z",
-      "source": "news.republika.co.id",
-      "tags": []
+      "id": "gdelt_2c1e04a470f4acc5",
+      "headline": "Allegations lack seriousness : Turkiye denies Israel claims over Syria airstrikes",
+      "url": "https://www.tribuneindia.com/news/world/allegations-lack-seriousness-turkiye-denies-israels-claims-over-syria-airstrikes/",
+      "published_at": "20260819T060000Z",
+      "source": "tribuneindia.com",
+      "tags": [
+        "ISRAEL",
+        "SYRIA"
+      ]
     },
     {
       "id": "gdelt_e2b0d3e589eac3b0",
@@ -89,27 +92,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_856a4df1c5687fd1",
-      "headline": "US announces sanctions against ICC president and lawyer",
-      "url": "https://www.rte.ie/news/world/2026/0818/1588429-us-sanctions-icc/",
-      "published_at": "20260819T001500Z",
-      "source": "rte.ie",
-      "tags": []
-    },
-    {
       "id": "gdelt_56b9810196553662",
       "headline": "US sanctions ICC president , senior trial lawyer in latest attack on court",
       "url": "https://www.koreaherald.com/article/10845229",
       "published_at": "20260819T024500Z",
       "source": "koreaherald.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d32c242fe545f4fe",
-      "headline": "World News : ICC president and senior lawyer sanctioned over jurisdiction overreach",
-      "url": "https://www.gdnonline.com:443/Details/1403823",
-      "published_at": "20260819T001500Z",
-      "source": "gdnonline.com",
       "tags": []
     },
     {
@@ -144,14 +131,6 @@
       "url": "https://www.al-monitor.com/originals/2026/08/us-sanctions-icc-president-senior-trial-lawyer-latest-attack-court",
       "published_at": "20260819T011500Z",
       "source": "al-monitor.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2d3c688fa0439609",
-      "headline": "Use of yuan hits 6 - month high in Hong Kong fast - payment system",
-      "url": "https://www.scmp.com/business/banking-finance/article/3364413/use-yuan-hits-6-month-high-hong-kongs-fast-payment-system",
-      "published_at": "20260819T003000Z",
-      "source": "scmp.com",
       "tags": []
     },
     {
@@ -243,6 +222,16 @@
       ]
     },
     {
+      "id": "gdelt_90d32c1f205a8a84",
+      "headline": "India Vows To Continue Fight Against Cross - Border Terrorism",
+      "url": "https://www.dailyexcelsior.com/india-vows-to-continue-fight-against-cross-border-terrorism-2/",
+      "published_at": "20260819T051500Z",
+      "source": "dailyexcelsior.com",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
       "id": "gdelt_12b91bb30a9f3852",
       "headline": "India vows to continue fight against cross - border terrorism",
       "url": "https://www.dailyexcelsior.com/india-vows-to-continue-fight-against-cross-border-terrorism/",
@@ -253,13 +242,14 @@
       ]
     },
     {
-      "id": "gdelt_90d32c1f205a8a84",
-      "headline": "India Vows To Continue Fight Against Cross - Border Terrorism",
-      "url": "https://www.dailyexcelsior.com/india-vows-to-continue-fight-against-cross-border-terrorism-2/",
-      "published_at": "20260819T051500Z",
-      "source": "dailyexcelsior.com",
+      "id": "gdelt_54f20d6702c0d4d7",
+      "headline": "UAE suspends Iran trade after ballistic missiles detected",
+      "url": "https://www.rte.ie/news/2026/0819/1588442-middle-east/",
+      "published_at": "20260819T063000Z",
+      "source": "rte.ie",
       "tags": [
-        "INDIA"
+        "IRAN",
+        "UAE"
       ]
     },
     {
@@ -276,6 +266,22 @@
       "url": "http://french.xinhuanet.com/20260819/5b7b843dadd540a3b31f823a7c922693/c.html",
       "published_at": "20260819T020000Z",
       "source": "french.xinhuanet.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2481507e82b8e6c5",
+      "headline": "Application of Geo - Blocking to Copyright - Protected Digital Products",
+      "url": "https://link.springer.com/book/9783032345066",
+      "published_at": "20260819T060000Z",
+      "source": "link.springer.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_57fea2e1ae369d07",
+      "headline": "漫评丨  冷战化石  重披战袍 ？ 不过是场自我感动的政治秀",
+      "url": "http://www.81.cn/pl_208541/jdt_208542/16480146.html",
+      "published_at": "20260819T060000Z",
+      "source": "81.cn",
       "tags": []
     },
     {
@@ -302,9 +308,7 @@
       "url": "https://www.deccanchronicle.com/west-asia/trump-says-no-talks-planned-with-iran-tehran-says-hormuz-still-shut-1980359",
       "published_at": "20260819T034500Z",
       "source": "deccanchronicle.com",
-      "tags": [
-        "IRAN"
-      ]
+      "tags": []
     },
     {
       "id": "gdelt_fd23093b8b135ad8",
@@ -349,40 +353,6 @@
       ]
     },
     {
-      "id": "gdelt_f454a8bc9be0b5b5",
-      "headline": "Plaude demands takedown , apology over $4 . 2m cross - border transaction report",
-      "url": "https://www.vanguardngr.com/2026/08/plaude-demands-takedown-apology-over-4-2m-cross-border-transaction-report/",
-      "published_at": "20260819T003000Z",
-      "source": "vanguardngr.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bfac65587103f527",
-      "headline": "DSA Chicago Chapter Sparks Outrage Over Anti - Israel Questionnaire for Political Endorsements",
-      "url": "https://www.algemeiner.com/2026/08/18/dsa-chicago-chapter-sparks-outrage-anti-israel-questionnaire-political-endorsements/",
-      "published_at": "20260819T001500Z",
-      "source": "algemeiner.com",
-      "tags": [
-        "ISRAEL"
-      ]
-    },
-    {
-      "id": "gdelt_3c2bf3d9de335e4d",
-      "headline": "UK authorities : Vessel in Strait of Hormuz hit by projectile , one casualty",
-      "url": "https://komonews.com/news/nation-world/uk-authorities-vessel-in-strait-of-hormuz-hit-by-projectile-one-casualty-strait-hormuz-blockade-president-donald-trump-territory",
-      "published_at": "20260819T000000Z",
-      "source": "komonews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_46996c2d843c934b",
-      "headline": "UK authorities : Vessel in Strait of Hormuz hit by projectile , one casualty",
-      "url": "https://wcti12.com/news/nation-world/uk-authorities-vessel-in-strait-of-hormuz-hit-by-projectile-one-casualty-strait-hormuz-blockade-president-donald-trump-territory",
-      "published_at": "20260819T004500Z",
-      "source": "wcti12.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_efa709635d9dfc5f",
       "headline": "Stop waiting for clown crew to pull a rabbit out of hat , clean up mess you made : Ghalibaf slams US officials over Iran talks",
       "url": "https://aninews.in/news/world/middle-east/stop-waiting-for-clown-crew-to-pull-a-rabbit-out-of-hat-clean-up-mess-you-made-ghalibaf-slams-us-officials-over-iran-talks20260819035909/",
@@ -425,27 +395,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_07ac5443ae22d7f4",
-      "headline": "US sanctions ICC president , senior trial lawyer",
-      "url": "https://www.crookwellgazette.com.au/story/9333112/us-sanctions-icc-president-senior-trial-lawyer/",
-      "published_at": "20260819T004500Z",
-      "source": "crookwellgazette.com.au",
+      "id": "gdelt_443c1efd7aaa0243",
+      "headline": "川普政府再向國際刑事法院開刀 院長赤根智子遭制裁 | 國際",
+      "url": "https://www.cna.com.tw:443/news/aopl/202608190114.aspx",
+      "published_at": "20260819T060000Z",
+      "source": "cna.com.tw",
       "tags": []
     },
     {
-      "id": "gdelt_c6d133a2b589bc91",
-      "headline": "US sanctions ICC president , senior trial lawyer",
-      "url": "https://www.dailyadvertiser.com.au/story/9333112/us-sanctions-icc-president-senior-trial-lawyer/",
-      "published_at": "20260819T004500Z",
-      "source": "dailyadvertiser.com.au",
-      "tags": []
-    },
-    {
-      "id": "gdelt_033d50a9cca7f0ed",
-      "headline": "US sanctions ICC president , senior trial lawyer",
-      "url": "https://www.newcastleherald.com.au/story/9333112/us-sanctions-icc-president-senior-trial-lawyer/",
-      "published_at": "20260819T010000Z",
-      "source": "newcastleherald.com.au",
+      "id": "gdelt_a94465490f272f07",
+      "headline": "אני בצד הנכון של ההיסטוריה : אשת השמאל הקיצוני הדהימה בפריימריז הדמוקרטים",
+      "url": "https://www.ynet.co.il/news/article/hyn0cofdge",
+      "published_at": "20260819T063000Z",
+      "source": "ynet.co.il",
       "tags": []
     },
     {
@@ -457,11 +419,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_dfc28e3c37f404ee",
-      "headline": "Trump Jatuhkan Sanksi ke Presiden dan Jaksa Senior ICC",
-      "url": "https://www.liputan6.com/global/read/8272818/trump-jatuhkan-sanksi-ke-presiden-dan-jaksa-senior-icc",
-      "published_at": "20260819T041500Z",
-      "source": "liputan6.com",
+      "id": "gdelt_e191fbf63d46833b",
+      "headline": "Подачу воды в Северный Арал планируют увеличить в 10 раз",
+      "url": "https://azh.kz/ru/news/view/131289",
+      "published_at": "20260819T054500Z",
+      "source": "azh.kz",
       "tags": []
     },
     {
@@ -470,6 +432,14 @@
       "url": "https://www.manilatimes.net/2026/08/19/tmt-newswire/pr-newswire/intrinsic-sea-advances-technology-localisation-to-strengthen-aseans-innovation-ecosystem/2408087",
       "published_at": "20260819T044500Z",
       "source": "manilatimes.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_dfc28e3c37f404ee",
+      "headline": "Trump Jatuhkan Sanksi ke Presiden dan Jaksa Senior ICC",
+      "url": "https://www.liputan6.com/global/read/8272818/trump-jatuhkan-sanksi-ke-presiden-dan-jaksa-senior-icc",
+      "published_at": "20260819T041500Z",
+      "source": "liputan6.com",
       "tags": []
     },
     {
@@ -497,6 +467,22 @@
       "tags": []
     },
     {
+      "id": "gdelt_d7b45d0397079922",
+      "headline": "Nałożono sankcje na prezeskę Międzynarodowego Trybunału Karnego",
+      "url": "https://www.bankier.pl/wiadomosc/Nalozono-sankcje-na-prezeske-Miedzynarodowego-Trybunalu-Karnego-9184053.html",
+      "published_at": "20260819T063000Z",
+      "source": "bankier.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c58e0310315ca51d",
+      "headline": "Нетаньяху приветствовал введение санкций США в отношении сотрудников МУС",
+      "url": "https://www.interfax.ru/world/1110038",
+      "published_at": "20260819T063000Z",
+      "source": "interfax.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_a3e7430a21a0c380",
       "headline": "В МКС відреагували на санкції США",
       "url": "https://ua.korrespondent.net/world/4904137-v-mks-vidreahuvaly-na-sanktsii-ssha",
@@ -505,35 +491,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_37aa330234433311",
-      "headline": "美宣布對國際刑事法院高層人物實施制裁 | 美國制裁 | 國際刑事法庭",
-      "url": "https://www.ntdtv.com/b5/2026/08/18/a104125290.html",
-      "published_at": "20260819T004500Z",
-      "source": "ntdtv.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_96eb420ae20a4fba",
-      "headline": "دبلوماسي سابق : الأزمة اليمنية أمام مفترق طرق بين حرب استنزاف وتصعيد أوسع",
-      "url": "https://www.dostor.org/5672383",
-      "published_at": "20260819T004500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
       "id": "gdelt_a4d608fe2ef737d0",
       "headline": "На МКС отреагировали на санкции США",
       "url": "https://korrespondent.net/world/4904137-na-mks-otreahyrovaly-na-sanktsyy-ssha",
       "published_at": "20260819T024500Z",
       "source": "korrespondent.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2e8b805008b105f9",
-      "headline": "SAD uvele sankcije predsednici Međunarodnog krivičnog suda i još jednom zvaničniku",
-      "url": "https://naslovi.net/2026-08-19/danas/sad-uvele-sankcije-predsednici-medjunarodnog-krivicnog-suda-i-jos-jednom-zvanicniku/42238521",
-      "published_at": "20260819T003000Z",
-      "source": "naslovi.net",
       "tags": []
     },
     {
@@ -579,10 +541,26 @@
       "tags": []
     },
     {
+      "id": "gdelt_702695c93a285480",
+      "headline": "Botswana , SA strengthen cross border innovation",
+      "url": "https://www.mmegi.bw/business/botswana-sa-strengthen-cross-border-innovation/news",
+      "published_at": "20260819T060000Z",
+      "source": "mmegi.bw",
+      "tags": []
+    },
+    {
       "id": "gdelt_93ae3f72ee6e6cb2",
       "headline": "Trump - Regierung verhängt Sanktionen gegen ICC - Präsidentin",
       "url": "https://www.merkur.de/politik/trump-verhaengt-sanktionen-gegen-icc-praesidentin-zr-94449765.html",
       "published_at": "20260819T051500Z",
+      "source": "merkur.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_55270686b947d025",
+      "headline": "Trump - Regierung verhängt Sanktionen gegen ICC - Präsidentin",
+      "url": "http://www.merkur.de/politik/trump-verhaengt-sanktionen-gegen-icc-praesidentin-zr-94449765.html",
+      "published_at": "20260819T063000Z",
       "source": "merkur.de",
       "tags": []
     },
@@ -592,14 +570,6 @@
       "url": "https://www.clickondetroit.com/news/world/2026/08/19/south-korea-says-the-south-korean-and-us-militaries-have-agreed-to-shorten-their-drills/",
       "published_at": "20260819T033000Z",
       "source": "clickondetroit.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_691548c2d2e270b2",
-      "headline": "MKS posle sankcija SAD : Međunarodni pravni poredak je u opasnosti",
-      "url": "https://naslovi.net/2026-08-19/danas/mks-posle-sankcija-sad-medjunarodni-pravni-poredak-je-u-opasnosti/42238769",
-      "published_at": "20260819T003000Z",
-      "source": "naslovi.net",
       "tags": []
     },
     {
@@ -619,12 +589,30 @@
       "tags": []
     },
     {
+      "id": "gdelt_22b13b2ef5f923e9",
+      "headline": "Trump - Regierung verhängt Sanktionen gegen ICC - Präsidentin",
+      "url": "http://www.hna.de/politik/trump-verhaengt-sanktionen-gegen-icc-praesidentin-zr-94449765.html",
+      "published_at": "20260819T063000Z",
+      "source": "hna.de",
+      "tags": []
+    },
+    {
       "id": "gdelt_306c34b874250a1a",
       "headline": "South Korean and US militaries shorten drills by about half after Trump ordered a reduction",
       "url": "http://www.thegazette.com/news/world/south-korean-and-us-militaries-shorten-drills-by-about-half-after-trump-ordered-a-reduction/article_57c4f5ec-14e9-5828-b05e-1050ae58f86e.html",
       "published_at": "20260819T034500Z",
       "source": "thegazette.com",
       "tags": []
+    },
+    {
+      "id": "gdelt_f5ba0bcdc2799533",
+      "headline": "Israels Polizeiminister : Grünenpolitiker Lucks fordert Sanktionen gegen Itamar Ben - Gvir",
+      "url": "https://www.zeit.de/politik/ausland/2026-08/itamar-ben-gvir-israel-sanktionen-gazastreifen-max-lucks",
+      "published_at": "20260819T060000Z",
+      "source": "zeit.de",
+      "tags": [
+        "ISRAEL"
+      ]
     },
     {
       "id": "gdelt_4e068bd5a2272fb2",
@@ -671,14 +659,6 @@
       ]
     },
     {
-      "id": "gdelt_a58006740d80d2f2",
-      "headline": "Wakil Kanselir Jerman serukan Eropa beri sanksi Ben - Gvir",
-      "url": "https://www.antaranews.com/berita/5700827/wakil-kanselir-jerman-serukan-eropa-beri-sanksi-ben-gvir",
-      "published_at": "20260819T023000Z",
-      "source": "antaranews.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_da91d5d6e9cd4812",
       "headline": "Incheon Airport puts up fence after queue - jumping incidents",
       "url": "https://www.koreaherald.com/article/10845222",
@@ -687,27 +667,19 @@
       "tags": []
     },
     {
+      "id": "gdelt_a58006740d80d2f2",
+      "headline": "Wakil Kanselir Jerman serukan Eropa beri sanksi Ben - Gvir",
+      "url": "https://www.antaranews.com/berita/5700827/wakil-kanselir-jerman-serukan-eropa-beri-sanksi-ben-gvir",
+      "published_at": "20260819T023000Z",
+      "source": "antaranews.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_289f62143f6773e5",
       "headline": "美国宣布制裁国际刑事法院院长赤根智子",
       "url": "http://news.china.com.cn/2026-08/19/content_118653983.shtml",
       "published_at": "20260819T024500Z",
       "source": "news.china.com.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_be8bfa38c3af270e",
-      "headline": "美國制裁 「 國際刑事法院 」 日籍院長 ！ 盧比歐轟 ： 腐敗又越權 | ETtoday國際新聞",
-      "url": "https://www.ettoday.net/news/20260819/3221646.htm",
-      "published_at": "20260819T004500Z",
-      "source": "ettoday.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8e85dea8e1c18a0c",
-      "headline": "Emirati odgovorili na eskalaciju u regionu : Obustavljene sve trgovinske i finansijske aktivnosti sa Iranom",
-      "url": "https://naslovi.net/2026-08-19/kurir/emirati-odgovorili-na-eskalaciju-u-regionu-obustavljene-sve-trgovinske-i-finansijske-aktivnosti-sa-iranom/42238860",
-      "published_at": "20260819T003000Z",
-      "source": "naslovi.net",
       "tags": []
     },
     {
@@ -745,14 +717,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_b8143f2209fab482",
-      "headline": "美 , 일본 국적 ICC 소장 등 2명 제재 …  ICC 체계적 해체하겠다",
-      "url": "http://www.koreatimes.com/article/20260818/1626145",
-      "published_at": "20260819T000000Z",
-      "source": "koreatimes.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_051d8288f1641ab0",
       "headline": "AsianPLAS 2026 Connects Global Buyers with Plastics & Rubber Suppliers Through an Extended Online Exhibition",
       "url": "https://www.manilatimes.net/2026/08/19/tmt-newswire/media-outreach-newswire/asianplas-2026-connects-global-buyers-with-plastics-rubber-suppliers-through-an-extended-online-exhibition/2408076",
@@ -766,14 +730,6 @@
       "url": "https://www.stcatharinesstandard.ca/news/world/united-states/south-korea-says-the-south-korean-and-us-militaries-have-agreed-to-shorten-their-drills/article_e1337a49-3064-522f-9441-8cf772fd2df3.html",
       "published_at": "20260819T030000Z",
       "source": "stcatharinesstandard.ca",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7bcd685d18e2e099",
-      "headline": "США ввели санкции против президента и старшего прокурора МУС",
-      "url": "https://www.dw.com/ru/ssa-vveli-sankcii-protiv-prezidenta-i-starsego-prokurora-mus/a-78420514",
-      "published_at": "20260819T004500Z",
-      "source": "dw.com",
       "tags": []
     },
     {
@@ -801,6 +757,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_40ee50102937e51f",
+      "headline": "赤根ICC所長への制裁 「 日本への措置ではない 」 米識者 、 今後も続くとの見方も",
+      "url": "https://www.sankei.com/article/20260819-7ABDDMCW2ZIV5P3T7WTBC5U3GM/",
+      "published_at": "20260819T054500Z",
+      "source": "sankei.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_1fcf36e40ec698ee",
       "headline": "Trump envoy  deeply concerned  by Israeli strikes on Syrian air base",
       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-envoy-deeply-concerned-israeli-strikes-syrian-air-base",
@@ -809,19 +773,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_3dbc3cd4cfb0294d",
-      "headline": "حماس : مجزرة ميناء غزة تصعيد متعمد لنسف وقف إطلاق النار",
-      "url": "https://palinfo.com/news/2026/08/18/1115707/",
-      "published_at": "20260819T004500Z",
-      "source": "palinfo.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_73c15614bec43b38",
-      "headline": "أكسيوس : إسرائيل أبلغت واشنطن قبل ضرب قاعدة أبو الظهور السورية",
-      "url": "https://www.dostor.org/5672438",
-      "published_at": "20260819T004500Z",
-      "source": "dostor.org",
+      "id": "gdelt_8683391c2385936a",
+      "headline": "Began on second floor , only one entry / exit : What to know about Kolkata fire that killed 9",
+      "url": "https://www.hindustantimes.com/india-news/began-on-2nd-floor-only-one-entry-exit-what-to-know-about-kolkata-hotel-fire-shikha-inn-blaze-death-toll-west-bengal-101787111801742.html",
+      "published_at": "20260819T060000Z",
+      "source": "hindustantimes.com",
       "tags": []
     },
     {
@@ -886,14 +842,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_70f902ba059e9268",
-      "headline": "UAE - Iran trade halt more significant than US embargo , ex - official says",
-      "url": "https://investinglive.com/commodities/uae-iran-trade-halt-more-significant-than-us-embargo-ex-official-says/",
-      "published_at": "20260819T023000Z",
-      "source": "investinglive.com",
-      "tags": [
-        "UAE"
-      ]
+      "id": "gdelt_4ac05c6192ca86f4",
+      "headline": "الإمارات توقف جميع الأنشطة والتبادلات التجارية والمعاملات المالية مع إيران",
+      "url": "http://arabic.people.com.cn/n3/2026/0819/c31662-20489969.html",
+      "published_at": "20260819T060000Z",
+      "source": "arabic.people.com.cn",
+      "tags": []
     },
     {
       "id": "gdelt_76f9ad6b32c6b817",
@@ -901,10 +855,15 @@
       "url": "https://kienthuc.net.vn/israel-noi-ly-do-tan-cong-can-cu-khong-quan-o-syria-post1629147.html",
       "published_at": "20260819T044500Z",
       "source": "kienthuc.net.vn",
-      "tags": [
-        "ISRAEL",
-        "SYRIA"
-      ]
+      "tags": []
+    },
+    {
+      "id": "gdelt_70f902ba059e9268",
+      "headline": "UAE - Iran trade halt more significant than US embargo , ex - official says",
+      "url": "https://investinglive.com/commodities/uae-iran-trade-halt-more-significant-than-us-embargo-ex-official-says/",
+      "published_at": "20260819T023000Z",
+      "source": "investinglive.com",
+      "tags": []
     },
     {
       "id": "gdelt_e6727541b90c3136",
@@ -939,11 +898,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_9fbe4776c0fb3923",
-      "headline": "AS Perketat Tekanan ke Iran , Strategi Ekonomi Dipilih Setelah Perundingan Terhenti",
-      "url": "https://tangerang.viva.co.id/internasional/6718-as-perketat-tekanan-ke-iran-strategi-ekonomi-dipilih-setelah-perundingan-terhenti",
-      "published_at": "20260819T040000Z",
-      "source": "tangerang.viva.co.id",
+      "id": "gdelt_96eedf792f7cbeb1",
+      "headline": "Israeli Strike on Syrian Military Air Base Draws U . S . Criticism",
+      "url": "https://freerepublic.com/focus/f-news/4392295/posts",
+      "published_at": "20260819T063000Z",
+      "source": "freerepublic.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6cc313a0de1aa35e",
+      "headline": "Vízum nélkül - 2026 . augusztus 19 ., szerda",
+      "url": "https://www.3szek.ro/load/cikk/182551/vizum-nelkul",
+      "published_at": "20260819T063000Z",
+      "source": "3szek.ro",
       "tags": []
     },
     {
@@ -952,6 +919,14 @@
       "url": "https://www.stcn.com/article/detail/4085858.html",
       "published_at": "20260819T034500Z",
       "source": "stcn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9fbe4776c0fb3923",
+      "headline": "AS Perketat Tekanan ke Iran , Strategi Ekonomi Dipilih Setelah Perundingan Terhenti",
+      "url": "https://tangerang.viva.co.id/internasional/6718-as-perketat-tekanan-ke-iran-strategi-ekonomi-dipilih-setelah-perundingan-terhenti",
+      "published_at": "20260819T040000Z",
+      "source": "tangerang.viva.co.id",
       "tags": []
     },
     {
@@ -987,6 +962,22 @@
       "tags": []
     },
     {
+      "id": "gdelt_445ee4c13f6c7e50",
+      "headline": "Ujedinjeni Arapski Emirati nakon raketnog napada obustavili kompletnu trgovinu s Iranom",
+      "url": "https://www.tportal.hr/vijesti/clanak/ujedinjeni-arapski-emirati-nakon-raketnog-napada-obustavili-kompletnu-trgovinu-s-iranom-20260819",
+      "published_at": "20260819T063000Z",
+      "source": "tportal.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_504467f83539a109",
+      "headline": "UAE condemns  confirmed Israeli airstrikes  on Syrian airbase , rejects  infringement of sovereignty",
+      "url": "https://aninews.in/news/world/middle-east/uae-condemns-confirmed-israeli-airstrikes-on-syrian-airbase-rejects-infringement-of-sovereignty20260819063022/",
+      "published_at": "20260819T021500Z",
+      "source": "aninews.in",
+      "tags": []
+    },
+    {
       "id": "gdelt_9a4815c275da184e",
       "headline": "Kontroversi Satyalancana Dosen Unsoed , Kampus Tegaskan Tak Bisa Cabut",
       "url": "https://www.kompas.com/edu/read/2026/08/19/090356471/kontroversi-satyalancana-dosen-unsoed-kampus-tegaskan-tak-bisa-cabut",
@@ -1003,20 +994,30 @@
       "tags": []
     },
     {
-      "id": "gdelt_504467f83539a109",
-      "headline": "UAE condemns  confirmed Israeli airstrikes  on Syrian airbase , rejects  infringement of sovereignty",
-      "url": "https://aninews.in/news/world/middle-east/uae-condemns-confirmed-israeli-airstrikes-on-syrian-airbase-rejects-infringement-of-sovereignty20260819063022/",
-      "published_at": "20260819T021500Z",
-      "source": "aninews.in",
+      "id": "gdelt_97314717a2707468",
+      "headline": "AfCFTA SME Booster workshop equips local businesses",
+      "url": "https://www.mmegi.bw/business/afcfta-sme-booster-workshop-equips-local-businesses/news",
+      "published_at": "20260819T060000Z",
+      "source": "mmegi.bw",
       "tags": []
     },
     {
-      "id": "gdelt_5ad0612166522bcb",
-      "headline": "Israel and Syria agreed to maintain  status quo  on security matters : Netanyahu",
-      "url": "https://www.tribuneindia.com/news/world/israel-and-syria-agreed-to-maintain-status-quo-on-security-matters-netanyahu/",
-      "published_at": "20260819T004500Z",
-      "source": "tribuneindia.com",
+      "id": "gdelt_2c85d5ce57e54cb0",
+      "headline": "Емиратите ја прекинаа трговијата со Иран , Техеран одговори",
+      "url": "https://makfax.com.mk/svet/emiratite-ja-prekinaa-trgovijata-so-iran-teheran-odgovori/",
+      "published_at": "20260819T063000Z",
+      "source": "makfax.com.mk",
       "tags": []
+    },
+    {
+      "id": "gdelt_f1527d8428d20e89",
+      "headline": "جريدة البلاد | طقس حار مع تصاعد الأتربة في مملكة البحرين",
+      "url": "https://www.albiladpress.com/news/2026/6519/bahrain/1014832.html",
+      "published_at": "20260819T063000Z",
+      "source": "albiladpress.com",
+      "tags": [
+        "BAHRAIN"
+      ]
     },
     {
       "id": "gdelt_ed52c22ce1eb4310",
@@ -1027,12 +1028,14 @@
       "tags": []
     },
     {
-      "id": "gdelt_716f75ecb17a673c",
-      "headline": "Israel - Klingbeil : EU - Sanktionen gegen Polizeiminister Ben - Gvir prüfen",
-      "url": "https://www.deutschlandfunk.de/klingbeil-eu-sanktionen-gegen-polizeiminister-ben-gvir-pruefen-100.html",
-      "published_at": "20260819T001500Z",
+      "id": "gdelt_f95a5c073d7c093b",
+      "headline": "Den Haag - united states verschärfen Kurs gegen Internationalen Strafgerichtshof mit Sanktionen gegen oberste Richterin Akane",
+      "url": "https://www.deutschlandfunk.de/usa-verschaerfen-kurs-gegen-internationalen-strafgerichtshof-mit-sanktionen-gegen-oberste-richterin--100.html",
+      "published_at": "20260819T051500Z",
       "source": "deutschlandfunk.de",
-      "tags": []
+      "tags": [
+        "UNITED_STATES"
+      ]
     }
   ]
 }
