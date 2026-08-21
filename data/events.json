@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-08-21T08:55:41Z",
+    "generated_at_utc": "2026-08-21T09:51:11Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -41,24 +41,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_8328d5c6e7424806",
-      "headline": "واشنطن تتوعد إيران بأشد العقوبات في التاريخ وتسعى لعزلها اقتصاديًا",
-      "url": "https://www.dostor.org/5674566",
-      "published_at": "20260821T033000Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_35c5448121738d2a",
-      "headline": "Trump threatens to isolate Iran . Who are its trading partners ?",
-      "url": "https://www.asiaone.com/world/trump-threatens-isolate-iran-who-are-its-trading-partners",
-      "published_at": "20260821T034500Z",
-      "source": "asiaone.com",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
       "id": "gdelt_97ddd5d0d81063cb",
       "headline": "US - Dollar - Index bleibt unter 99 , 00 , da sich die Rendite 10 - jähriger US - Staatsanleihen stabilisiert",
       "url": "https://www.finanznachrichten.de/nachrichten-2026-08/69371556-us-dollar-index-bleibt-unter-99-00-da-sich-die-rendite-10-jaehriger-us-staatsanleihen-stabilisiert-545.htm",
@@ -73,16 +55,6 @@
       "published_at": "20260821T064500Z",
       "source": "tayyar.org",
       "tags": []
-    },
-    {
-      "id": "gdelt_2a5b7b69dab79925",
-      "headline": "Harga Minyak Terbang Usai Menteri Keuangan AS Ancam Iran",
-      "url": "https://www.liputan6.com/bisnis/read/8274552/harga-minyak-terbang-usai-menteri-keuangan-as-ancam-iran",
-      "published_at": "20260821T030000Z",
-      "source": "liputan6.com",
-      "tags": [
-        "IRAN"
-      ]
     },
     {
       "id": "gdelt_38dd512014f3d0c6",
@@ -115,28 +87,14 @@
       ]
     },
     {
-      "id": "gdelt_7bdc04e60fa6ac8c",
-      "headline": "Liquid Group and PagBrasil Launch RoamQR™ - Pix Cross - Border QR Payments in Brazil",
-      "url": "https://www.manilatimes.net/2026/08/21/tmt-newswire/pr-newswire/liquid-group-and-pagbrasil-launch-roamqr-pix-cross-border-qr-payments-in-brazil/2409725",
-      "published_at": "20260821T031500Z",
-      "source": "manilatimes.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f59d34e49fbdcfe3",
-      "headline": "Ультиматум Вашингтона : США готовят жесткую изоляцию Ирана",
-      "url": "https://hronika.info/politika/807598-ultimatum-vashingtona-ssha-gotovyat-zhestkuyu-izolyacziyu-irana/",
-      "published_at": "20260821T030000Z",
-      "source": "hronika.info",
-      "tags": []
-    },
-    {
       "id": "gdelt_0e4b7ef53fc24138",
       "headline": "Iran Rejects Trump  Economic D - Day  Plan , Calls US Economic Pressure a Failed Policy",
       "url": "https://www.heraldgoa.in/globe-nation/iran-rejects-trumps-economic-d-day-plan-calls-us-economic-pressure-a-failed-policy/486055/",
       "published_at": "20260821T073000Z",
       "source": "heraldgoa.in",
-      "tags": []
+      "tags": [
+        "IRAN"
+      ]
     },
     {
       "id": "gdelt_2d32b3afbefbcd38",
@@ -159,14 +117,6 @@
       ]
     },
     {
-      "id": "gdelt_c336d707e9c9eaeb",
-      "headline": "Tramp žestoko udara na Međunarodni krivični sud u Hagu , evo šta se krije iza svega",
-      "url": "https://www.blic.rs/vesti/svet/tramp-zestoko-udara-na-medjunarodni-krivicni-sud-u-hagu-evo-sta-se-krije-iza-svega/g5rekjm",
-      "published_at": "20260821T034500Z",
-      "source": "blic.rs",
-      "tags": []
-    },
-    {
       "id": "gdelt_a40cefe1030c0b44",
       "headline": "591 sekolah di Sarawak ditutup , IPU Serian  sangat tidak sihat",
       "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/08/21/591-sekolah-di-sarawak-ditutup-ipu-serian-sangat-tidak-sihat",
@@ -183,6 +133,24 @@
       "tags": []
     },
     {
+      "id": "gdelt_d3bf876561f09562",
+      "headline": "Trumps „ Wirtschaftskrieg  gegen Iran treibt Ölpreise kräftig nach oben",
+      "url": "https://www.n-tv.de/wirtschaft/Trumps-Wirtschaftskrieg-gegen-Iran-treibt-Oelpreise-kraeftig-nach-oben-id31215681.html",
+      "published_at": "20260821T091500Z",
+      "source": "n-tv.de",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_28586a6597900501",
+      "headline": "Ιράν : Σχέδιο για συνεργασία με το Ιράκ απέναντι στις νέες αμερικανικές ...",
+      "url": "https://www.capital.gr/diethni/4011683/iran-sxedio-gia-sunergasia-me-to-irak-apenanti-stis-nees-amerikanikes-kuroseis/",
+      "published_at": "20260821T090000Z",
+      "source": "capital.gr",
+      "tags": []
+    },
+    {
       "id": "gdelt_3bbc70c025af582c",
       "headline": "Putin provoziert NATO mit Russlands modernstem Kriegsschiff",
       "url": "http://www.merkur.de/politik/hyperschallraketen-putin-provoziert-nato-mit-kriegsschiff-mit-zr-94453064.html",
@@ -191,27 +159,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_c39ada7b9765bbb3",
-      "headline": "Putin provoziert NATO mit Russlands modernstem Kriegsschiff",
-      "url": "https://www.hna.de/politik/hyperschallraketen-putin-provoziert-nato-mit-kriegsschiff-mit-zr-94453064.html",
-      "published_at": "20260821T031500Z",
-      "source": "hna.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2b45be4348afe685",
-      "headline": "هل سينجح ترامب في  سحق  اقتصاد إيران مع خبرتها في مواجهة العقوبات ؟",
-      "url": "https://arabic.cnn.com/middle-east/article/2026/08/21/irans-battle-hardened-economy-faces-another-trump-squeeze",
-      "published_at": "20260821T031500Z",
-      "source": "arabic.cnn.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c9e8caab91ee488e",
-      "headline": "企业破产法修订草案将二审 ： 拟细化完善连带个人债务人债务清理相关制度",
-      "url": "https://finance.sina.com.cn/tech/roll/2026-08-21/doc-ininzyev8184618.shtml",
-      "published_at": "20260821T033000Z",
-      "source": "finance.sina.com.cn",
+      "id": "gdelt_6de9f49264440a8a",
+      "headline": "Более 7 , 5 тысяч украинцев пытались пересечь границу ФРГ с мая 2025 года",
+      "url": "https://ria.ru/20260821/frg-2112228409.html",
+      "published_at": "20260821T091500Z",
+      "source": "ria.ru",
       "tags": []
     },
     {
@@ -243,14 +195,6 @@
       ]
     },
     {
-      "id": "gdelt_3ccb47cac9a3cdce",
-      "headline": "Stronger ties in customs key to APEC trade",
-      "url": "http://global.chinadaily.com.cn/a/202608/21/WS6a87a808a3106bc57421cae7.html",
-      "published_at": "20260821T030000Z",
-      "source": "global.chinadaily.com.cn",
-      "tags": []
-    },
-    {
       "id": "gdelt_f0a427d4327b83a0",
       "headline": "La Chine exprime son opposition à lutilisation abusive du FSR par lUE contre les entreprises chinoises",
       "url": "http://french.people.com.cn/Economie/n3/2026/0821/c31355-20490813.html",
@@ -275,35 +219,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_5a3f522226ea6795",
-      "headline": "ΗΠΑ : Κλιμακώνεται η πίεση στην Κούβα – Νέες κυρώσεις σε κρατικές επιχειρήσεις και αυστηρότεροι έλεγχοι",
-      "url": "https://www.inewsgr.com/227/ipa-klimakonetai-i-piesi-stin-kouva--nees-kyroseis-se-kratikes-epicheiriseis-kai-afstiroteroi-elegchoi.htm",
-      "published_at": "20260821T031500Z",
-      "source": "inewsgr.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_83a1d228bc62c6e5",
-      "headline": "Iran shifts to  survival economy  as US vows to  collapse the regime",
-      "url": "https://www.ynetnews.com/article/by8e00brvgl",
-      "published_at": "20260821T031500Z",
-      "source": "ynetnews.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_cde32f638c037263",
       "headline": "109 migranti mēģinājuši nelegāli šķērsot Latvijas robežu ar Baltkrieviju",
       "url": "https://www.delfi.lv/193/politics/120131186/109-migranti-meginajusi-nelegali-skersot-latvijas-robezu-ar-baltkrieviju",
       "published_at": "20260821T050000Z",
       "source": "delfi.lv",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4eef51fbe10907c7",
-      "headline": "AI 代理頻傳越獄事件只是因 「 太想取悅人類 」",
-      "url": "https://technews.tw/2026/08/21/rogue-ai-agents-arent-evil-theyre-just-eager-to-please/",
-      "published_at": "20260821T034500Z",
-      "source": "technews.tw",
       "tags": []
     },
     {
@@ -320,6 +240,14 @@
       "url": "https://www.efsyn.gr/kosmos/1451629/reuters-aytoi-einai-oi-ennea-emporikoi-etairoi-toy-iran-poy-kindyneyoyn-apo-tin-d-day-toy-tramp/",
       "published_at": "20260821T064500Z",
       "source": "efsyn.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_972c703f131b1af0",
+      "headline": "Новости - Правительство России",
+      "url": "http://government.ru/news/59641/",
+      "published_at": "20260821T090000Z",
+      "source": "government.ru",
       "tags": []
     },
     {
@@ -356,22 +284,6 @@
       "url": "https://www.inewsgr.com/182/oikonomiki-D-day-ton-ipa-kata-tou-iran-oi-9-vasikoi-etairoi-tis-techeranis-pou-vriskontai-sto-stochastro-tou-trab.htm",
       "published_at": "20260821T044500Z",
       "source": "inewsgr.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_477113fccdd9dd99",
-      "headline": "ארה  ב : המועמדת שבה תמכה איפא  ק הפסידה בבחירות לקונגרס בקליפורניה",
-      "url": "https://www.ynet.co.il/news/article/r1rbueswgx",
-      "published_at": "20260821T031500Z",
-      "source": "ynet.co.il",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6f79a1d3782c7c07",
-      "headline": "تقرير .. ضربة اقتصادية لطهران .. الإمارات توقف التجارة والتعاملات المالية مع إيران",
-      "url": "https://www.dostor.org/5674559",
-      "published_at": "20260821T033000Z",
-      "source": "dostor.org",
       "tags": []
     },
     {
@@ -423,6 +335,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_515503044f4c1769",
+      "headline": "Запускавший БПЛА на вокзале Москвы иностранец оказался ИИ - гуру",
+      "url": "https://www.vesti.ru/ns/zapuskavshij-bpla-na-vokzale-moskvy-inostranec-okazalsya-ii-guru",
+      "published_at": "20260821T084500Z",
+      "source": "vesti.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_a62747e9b04bbc8c",
       "headline": "Onderzoek naar grensoverschrijdend gedrag vaak  alleen maar gevoelens",
       "url": "https://fd.nl/economie/1609581/onderzoek-naar-grensoverschrijdend-gedrag-vaak-alleen-maar-gevoelens",
@@ -439,19 +359,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_8495fca101e2314b",
-      "headline": "Guangxi readying for upcoming CIFTIS",
-      "url": "http://global.chinadaily.com.cn/a/202608/21/WS6a87a454a3106bc57421ca95.html",
-      "published_at": "20260821T030000Z",
-      "source": "global.chinadaily.com.cn",
-      "tags": []
-    },
-    {
       "id": "gdelt_437e8b0ee9bf05bb",
       "headline": "Guangxi readying for upcoming CIFTIS",
       "url": "http://usa.chinadaily.com.cn/a/202608/21/WS6a87a454a3106bc57421ca95.html",
       "published_at": "20260821T044500Z",
       "source": "usa.chinadaily.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_83b98f92a2993ad9",
+      "headline": "İrandan ABD yaptırımlarına sert tepki :  Ekonomik terörizm",
+      "url": "https://www.haberler.com/dunya/iran-dan-abd-ye-yeni-yaptirim-yaniti-ekonomik-20163932-haberi/",
+      "published_at": "20260821T090000Z",
+      "source": "haberler.com",
       "tags": []
     },
     {
@@ -471,6 +391,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_ec8ddde3769e7cc8",
+      "headline": "Захарова высмеяла санкции Зеленского против создателей « Маши и Медведя »",
+      "url": "https://aif.ru/politics/zaharova-vysmeyala-sankcii-zelenskogo-protiv-sozdateley-mashi-i-medvedya",
+      "published_at": "20260821T090000Z",
+      "source": "aif.ru",
+      "tags": []
+    },
+    {
       "id": "gdelt_c047d3f345ce62a5",
       "headline": "Chinese regulators slap US$7 . 8m penalty on Guotai Haitong arm amid capital flow crackdown",
       "url": "https://www.scmp.com/business/china-business/article/3364770/chinese-regulators-slap-us78m-penalty-guotai-haitong-arm-amid-capital-flow-crackdown",
@@ -481,22 +409,6 @@
       ]
     },
     {
-      "id": "gdelt_f764bacab4c4077f",
-      "headline": "美国宣布新制裁 锁定古巴颠覆性反美网络",
-      "url": "https://www.epochtimes.com/gb/26/8/20/n14833773.htm",
-      "published_at": "20260821T033000Z",
-      "source": "epochtimes.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_27e229e6dedba4dc",
-      "headline": "Rusko a KĽDR chcú nový svetový poriadok , Lavrov ďakuje za vojakov",
-      "url": "https://www.topky.sk/cl/11/9472779/Lavrovov-zlovestny-odkaz--Spolu-s-KLDR-budujeme-novy-svetovy-poriadok--Podakoval-sa-aj-Kimovi",
-      "published_at": "20260821T031500Z",
-      "source": "topky.sk",
-      "tags": []
-    },
-    {
       "id": "gdelt_1463ab05983f8bcd",
       "headline": "Аиша Вахаб победила на выборах в Конгресс США от Калифорнии | MigNews - Новости Израиля и Мира на русском языке",
       "url": "http://mignews.com/news/politic/aisha-vahab-pobedila-na-vyborah-v-kongress-ssha-ot-kalifornii.html",
@@ -505,11 +417,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_8c4de7d2e97331af",
-      "headline": "川普 「 經濟決戰 」 對伊朗造成多大打擊 ？ 關鍵恐不在德黑蘭 - 政治圈",
-      "url": "https://www.chinatimes.com/realtimenews/20260821001870-260408",
-      "published_at": "20260821T030000Z",
-      "source": "chinatimes.com",
+      "id": "gdelt_c1255f0f3e33c2ea",
+      "headline": "Заседания Верховной Рады могут перенести в другое здание ,",
+      "url": "https://vesti-ua.net/news/politics/288287-zasedaniya-verhovnoy-rady-mogut-perenesti-v-drugoe-zdanie-nardep.html",
+      "published_at": "20260821T090000Z",
+      "source": "vesti-ua.net",
       "tags": []
     },
     {
@@ -553,6 +465,16 @@
       "tags": []
     },
     {
+      "id": "gdelt_0e4019f4c8dccf7d",
+      "headline": "ABDden Türk iş insanlarına Hizbullah yaptırımı",
+      "url": "https://www.sozcu.com.tr/abd-nin-yeni-yaptirimlari-ekonomik-savasin-oncusu-oldu-p351414",
+      "published_at": "20260821T091500Z",
+      "source": "sozcu.com.tr",
+      "tags": [
+        "HEZBOLLAH"
+      ]
+    },
+    {
       "id": "gdelt_503bc02eac217944",
       "headline": "الهدنة أم التصعيد أم ماذا ؟ | المصري اليوم",
       "url": "https://www.almasryalyoum.com/news/details/4342495",
@@ -561,11 +483,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_401a30b2e1633d48",
+      "headline": "Вашингтон перекрывает кислород  Хизбалле : цель - финансы группировки",
+      "url": "https://www.9tv.co.il/item/262220",
+      "published_at": "20260821T090000Z",
+      "source": "9tv.co.il",
+      "tags": []
+    },
+    {
       "id": "gdelt_04b2f1c0bb67e82c",
       "headline": "امریکا کی ایران کو ناکہ بندی اور تاریخ کی سخت ترین پابندیوں کی دھمکی",
       "url": "https://jang.com.pk/news/1609317",
       "published_at": "20260821T064500Z",
       "source": "jang.com.pk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_871854eee2a7c0dc",
+      "headline": "美伊博弈转向经济战场 ， 贝森特暗示大规模军事行动概率骤降",
+      "url": "https://finance.jrj.com.cn/2026/08/21162458202847.shtml",
+      "published_at": "20260821T090000Z",
+      "source": "finance.jrj.com.cn",
       "tags": []
     },
     {
@@ -585,14 +523,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_3d751f983c363a0b",
-      "headline": "Масований удар по Сумщині , Україна запровадила резонансні санкції : головне за ніч 21 серпня",
-      "url": "https://glavcom.ua/country/incidents/masovanij-udar-po-sumshchini-ukrajina-zaprovadila-rezonansni-sanktsiji-holovne-za-nich-21-serpnja--1137874.html",
-      "published_at": "20260821T034500Z",
-      "source": "glavcom.ua",
-      "tags": []
-    },
-    {
       "id": "gdelt_28632a74aeba88e1",
       "headline": "Tramp udario na Međunarodni krivični sud u Hagu , želi da ga uništi : SAD pritiskaju države da ga napuste , uvode sankcije sudijama , a evo šta se krije iza svega",
       "url": "https://naslovi.net/2026-08-21/blic/tramp-udario-na-medjunarodni-krivicni-sud-u-hagu-zeli-da-ga-unisti-sad-pritiskaju-drzave-da-ga-napuste-uvode-sankcije-sudijama-a-evo-sta-se-krije-iza-svega/42248419",
@@ -606,6 +536,38 @@
       "url": "https://www.globalmedia.mx/articles/colapsa_mina_de_oro_en_republica_centroafricana_mas_de_100_muertos",
       "published_at": "20260821T044500Z",
       "source": "globalmedia.mx",
+      "tags": []
+    },
+    {
+      "id": "gdelt_233c6c56d8718004",
+      "headline": "Iran : New US sanctions are  economic terrorism , crime against humanity  – Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20260821-iran-new-us-sanctions-are-economic-terrorism-crime-against-humanity/",
+      "published_at": "20260821T090000Z",
+      "source": "middleeastmonitor.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7bfd08e82f912ae9",
+      "headline": "Україна ввела санкції проти авторів мультсеріалу Маша та Ведвідь",
+      "url": "https://espreso.tv/ekonomika-tvortsi-multserialu-masha-ta-vedmid-eksregional-ivanyushchenko-i-grupa-rusal-zelenskiy-vviv-u-diyu-paket-sanktsiy",
+      "published_at": "20260821T090000Z",
+      "source": "espreso.tv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4ba04a5812b6e836",
+      "headline": "Trump canlı yayında açıkladı : 48 dakikada petrolü aldık , nükleer tesisleri haritadan sildik !",
+      "url": "https://www.turkiyegazetesi.com.tr/dunya/trump-canli-yayinda-acikladi-48-dakikada-petrolu-aldik-nukleer-tesisleri-haritadan-si-1810658",
+      "published_at": "20260821T090000Z",
+      "source": "turkiyegazetesi.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_94031c34935bd0fd",
+      "headline": "Зеленський підписав санкції проти авторів  Маші та Ведмедя",
+      "url": "https://podrobnosti.ua/2519332-zelenskij-pdpisav-sankts-proti-avtorv-mash-ta-vedmedja.html",
+      "published_at": "20260821T090000Z",
+      "source": "podrobnosti.ua",
       "tags": []
     },
     {
@@ -635,30 +597,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_95ea5cddc6c0c708",
-      "headline": "美國再出手制裁真主黨 指其受伊朗革命衛隊控制 | 國際",
-      "url": "https://www.cna.com.tw/news/aopl/202608210033.aspx",
-      "published_at": "20260821T030000Z",
-      "source": "cna.com.tw",
-      "tags": []
-    },
-    {
       "id": "gdelt_d94a0b3f27214eba",
       "headline": "伊朗強烈譴責美國新制裁 | 國際 - 香港中通社",
       "url": "https://www.hkcna.hk/docDetail.jsp?id=101401150&channel=2810",
       "published_at": "20260821T044500Z",
       "source": "hkcna.hk",
       "tags": []
-    },
-    {
-      "id": "gdelt_c2834eae0ce30edd",
-      "headline": "Acciones de México ante incendios forestales en Canadá",
-      "url": "http://www.elmanana.com/noticias/economia/acciones-de-mexico-ante-incendios-forestales-en-canada/6175835",
-      "published_at": "20260821T033000Z",
-      "source": "elmanana.com",
-      "tags": [
-        "MEXICO"
-      ]
     },
     {
       "id": "gdelt_6f7b1f09a51af3d2",
@@ -701,14 +645,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_042416a616d6bc8a",
-      "headline": "Sheinbaum y Carney dialogan sobre renovación del T - MEC",
-      "url": "https://netnoticias.mx/nacional/presidenta-de-mexico-y-primer-ministro-de-canada-conversan-sobre-t-mec",
-      "published_at": "20260821T030000Z",
-      "source": "netnoticias.mx",
-      "tags": [
-        "MEXICO"
-      ]
+      "id": "gdelt_d044e69cdaa755da",
+      "headline": "Israeli army leaders warn of  West Bank eruption  over settler attacks – Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20260821-israeli-army-leaders-warn-of-west-bank-eruption-over-settler-attacks/",
+      "published_at": "20260821T090000Z",
+      "source": "middleeastmonitor.com",
+      "tags": []
     },
     {
       "id": "gdelt_0dc8db9b833d53b1",
@@ -719,6 +661,22 @@
       "tags": [
         "LEBANON"
       ]
+    },
+    {
+      "id": "gdelt_7cf3d416b2fb7478",
+      "headline": "Iran says Tehran must overcome  unjust sanction as US ramps up economic pressure",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/iran-says-tehran-must-overcome-unjust-sanctions-as-us-ramps-up-economic-pressure/articleshow/133398436.cms",
+      "published_at": "20260821T091500Z",
+      "source": "economictimes.indiatimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_361721faa6ace956",
+      "headline": "Україна застосувала санкції проти росіян , причетних до створення мультсеріалу « Маша і Ведмідь »",
+      "url": "https://mukachevo.net/news/ukrayina-zastosuvala-sanktsiyi-proty-rosiian-prychetnykh-do-stvorennia-multserialu-masha-i-vedmid_6282951.html",
+      "published_at": "20260821T090000Z",
+      "source": "mukachevo.net",
+      "tags": []
     },
     {
       "id": "gdelt_27278ff2b6d26873",
@@ -734,6 +692,14 @@
       "url": "https://zeri.info/bota/634305/trumpi-shtrengon-sanksionet-ndaj-iranit-sa-e-rende-do-te-jete-goditja-ekonomike/",
       "published_at": "20260821T070000Z",
       "source": "zeri.info",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d8c369f9e4b7f6d2",
+      "headline": "У США заявили , що введуть найжорсткіші в історії санкції проти Ірану",
+      "url": "https://espreso.tv/svit-u-ssha-anonsuvali-nayzhorstkishi-v-istorii-sanktsii-proti-iranu",
+      "published_at": "20260821T090000Z",
+      "source": "espreso.tv",
       "tags": []
     },
     {
@@ -753,6 +719,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_a09a3bb9fd48fd85",
+      "headline": "SAD uvodi Iranu  najstrože sankcije u povijesti",
+      "url": "https://www.dnevnik.ba/vijesti/sad-uvodi-iranu-najstroze-sankcije-u-povijesti/",
+      "published_at": "20260821T090000Z",
+      "source": "dnevnik.ba",
+      "tags": []
+    },
+    {
       "id": "gdelt_6a4ae891aa9f80d2",
       "headline": "Vor Sachsen - Anhalt - Wahl : Finanzsanktionen bei AfD - Sieg vorgeschlagen",
       "url": "http://www.tz.de/politik/vor-sachsen-anhalt-wahl-finanzsanktionen-fuer-sachsen-anhalt-bei-afd-sieg-vorgeschlagen-zr-94453341.html",
@@ -761,19 +735,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_a6acf63cc2499c6b",
-      "headline": "貝森特指下周公布對伊朗史上最嚴厲制裁細節 美將逼盟友選邊站 - 國際",
-      "url": "https://www.chinatimes.com/realtimenews/20260821002033-260408",
-      "published_at": "20260821T033000Z",
-      "source": "chinatimes.com",
+      "id": "gdelt_04b6891e7bd9dad6",
+      "headline": "高市政府  只看美国脸色  日本国内舆论炸锅了",
+      "url": "https://baijiahao.baidu.com/s?id=1874108935932235084",
+      "published_at": "20260821T091500Z",
+      "source": "baijiahao.baidu.com",
       "tags": []
     },
     {
-      "id": "gdelt_1d415c12f7cf97e6",
-      "headline": "Vene multifilmisari sattus Zelenskõi viimaste sanktsioonide alla",
-      "url": "https://www.postimees.ee/8531207/vene-multifilmisari-sattus-zelenskoi-viimaste-sanktsioonide-alla",
-      "published_at": "20260821T031500Z",
-      "source": "postimees.ee",
+      "id": "gdelt_de21337ef8efee68",
+      "headline": "高市政府  只看美国脸色  日本国内舆论炸锅了",
+      "url": "https://news.ycwb.com/ikimvkctij/content_54275000.htm",
+      "published_at": "20260821T090000Z",
+      "source": "news.ycwb.com",
       "tags": []
     },
     {
@@ -793,11 +767,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_492a5a51de19b832",
+      "headline": "上期所20号胶期货首次跨境交割顺利完成 ， 交割金额884万元",
+      "url": "https://finance.jrj.com.cn/2026/08/21152758202675.shtml",
+      "published_at": "20260821T090000Z",
+      "source": "finance.jrj.com.cn",
+      "tags": []
+    },
+    {
       "id": "gdelt_7f413de4ec32cdce",
       "headline": "ഇറാനുമേൽ കടുത്ത ഉപരോധത്തിന് യു . എസ് തയാറെടുക്കുമ്പോൾ ക്രൂഡ് വില ഒരു മാസത്തെ ഉയർന്ന നിരക്കിലേക്ക് | crude price increased",
       "url": "https://www.madhyamam.com/business/market/crude-price-increased-1547734",
       "published_at": "20260821T053000Z",
       "source": "madhyamam.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_53ff34fc6e74e97b",
+      "headline": "Trump warns Iran of  economic D - Day , but it used to sanctions",
+      "url": "https://www.wsbradio.com/news/politics/trump-warns-economic/BM4RVY7NPY46XBEVJIIUYQW4R4/",
+      "published_at": "20260821T091500Z",
+      "source": "wsbradio.com",
       "tags": []
     },
     {
@@ -817,16 +807,6 @@
       "tags": [
         "UAE",
         "SAUDI_ARABIA"
-      ]
-    },
-    {
-      "id": "gdelt_0a0eb96a6365ca65",
-      "headline": "Us Sanctions On Iran :  One - two punch : US vows toughest - ever Iran sanctions , presses China to help reopen Hormuz",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/one-two-punch-us-vows-toughest-ever-iran-sanctions-presses-china-to-help-reopen-hormuz/articleshow/133390802.cms",
-      "published_at": "20260821T030000Z",
-      "source": "timesofindia.indiatimes.com",
-      "tags": [
-        "CHINA"
       ]
     },
     {
@@ -854,6 +834,14 @@
       "tags": [
         "CUBA"
       ]
+    },
+    {
+      "id": "gdelt_9ba9c90be7a1d55b",
+      "headline": "Iran says Tehran must overcome  unjust sanction as U . S . ramps up economic pressure",
+      "url": "https://www.yahoo.com/news/politics/articles/iran-says-tehran-must-overcome-081341583.html",
+      "published_at": "20260821T091500Z",
+      "source": "yahoo.com",
+      "tags": []
     },
     {
       "id": "gdelt_309c9ed8115612d7",
@@ -888,16 +876,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_e08e1054895fcde1",
-      "headline": "US ramps up Cuba sanctions and detentions of Americans returning from the island",
-      "url": "https://www.ksat.com/business/2026/08/20/us-ramps-up-cuba-sanctions-and-detentions-of-americans-returning-from-the-island/",
-      "published_at": "20260821T031500Z",
-      "source": "ksat.com",
-      "tags": [
-        "CUBA"
-      ]
-    },
-    {
       "id": "gdelt_5a437b66bd83a630",
       "headline": "مخلفات الحرب تهدد المدنيين .. 3 قتلى و6 مصابين بانفجار في ريف إدلب بسوريا",
       "url": "https://www.almasryalyoum.com/news/details/4342505",
@@ -922,15 +900,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_8563169090263225",
-      "headline": "US issues fresh sanctions targeting Lebanon Hezbollah",
-      "url": "https://dunyanews.tv/en/World/968950-us-issues-fresh-sanctions-targeting-lebanons-hezbollah",
-      "published_at": "20260821T034500Z",
-      "source": "dunyanews.tv",
-      "tags": [
-        "LEBANON",
-        "HEZBOLLAH"
-      ]
+      "id": "gdelt_fcc874598f875591",
+      "headline": "Війна в Україні взимку – що готує Росія Україні і НАТО Світ",
+      "url": "https://tsn.ua/svit/rosiia-rozshyriuye-heohrafiiu-viyny-shcho-kreml-hotuye-ukrayini-ta-nato-na-zymu-3152936.html",
+      "published_at": "20260821T090000Z",
+      "source": "tsn.ua",
+      "tags": []
     },
     {
       "id": "gdelt_056b033d5b6f6563",
@@ -941,11 +916,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_8b9ef3c16fed771f",
-      "headline": "赤根智子ICC所長制裁に他人事のような高市首相 ... 柳澤秀夫氏が心配",
-      "url": "https://www.j-cast.com/2026/08/21517290.html",
-      "published_at": "20260821T030000Z",
-      "source": "j-cast.com",
+      "id": "gdelt_e5901d85f58695db",
+      "headline": "Former Israeli PM Barak : Netanyahu latest statements  reckless and stupid  – Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20260821-former-israeli-pm-barak-netanyahus-latest-statements-reckless-and-stupid/",
+      "published_at": "20260821T090000Z",
+      "source": "middleeastmonitor.com",
       "tags": []
     },
     {
@@ -954,14 +929,6 @@
       "url": "https://www.mk.ru/incident/2026/08/21/sboy-v-posledniy-moment-sorval-taynuyu-okhotu-na-ukrainskogo-oruzheynika.html",
       "published_at": "20260821T041500Z",
       "source": "mk.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_079d2e5567f2dbe5",
-      "headline": "US says it will impose  toughest sanctions in history  on Iran",
-      "url": "https://dunyanews.tv/en/World/968970-us-says-it-will-impose-toughest-sanctions-in-history-on-iran",
-      "published_at": "20260821T034500Z",
-      "source": "dunyanews.tv",
       "tags": []
     },
     {
@@ -997,27 +964,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_169e505468fe33b1",
-      "headline": "Trump expands economic warfare against Iran",
-      "url": "http://global.chinadaily.com.cn/a/202608/21/WS6a87a7b8a3106bc57421cae2.html",
-      "published_at": "20260821T030000Z",
-      "source": "global.chinadaily.com.cn",
-      "tags": []
-    },
-    {
       "id": "gdelt_9ae91897d63c1080",
       "headline": "Trump expands economic warfare against Iran",
       "url": "http://usa.chinadaily.com.cn/a/202608/21/WS6a87a7b8a3106bc57421cae2.html",
       "published_at": "20260821T044500Z",
       "source": "usa.chinadaily.com.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5b7881c2227459cb",
-      "headline": "US says it will impose  toughest sanctions in history  on Iran",
-      "url": "https://www.asiaone.com/world/us-says-it-will-impose-toughest-sanctions-history-iran",
-      "published_at": "20260821T034500Z",
-      "source": "asiaone.com",
       "tags": []
     },
     {
@@ -1034,6 +985,46 @@
       "url": "https://www.chinanews.com.cn/gj/2026/08-21/10681623.shtml",
       "published_at": "20260821T064500Z",
       "source": "chinanews.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_511377185378643f",
+      "headline": "S & P 500 : Ölpreis und Bewertungssorgen bremsen Rekordlauf",
+      "url": "https://www.stock-world.de/sp-500-oelpreis-und-bewertungssorgen-bremsen-rekordlauf/",
+      "published_at": "20260821T064500Z",
+      "source": "stock-world.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d8e069ba7b55a462",
+      "headline": "La crisis de Ceuta evidencia la búsqueda del fascismo y el miedo a Marruecos",
+      "url": "https://www.elplural.com/politica/espana/crisis-ceuta-evidencia-busqueda-fascismo-miedo-marruecos_398389102",
+      "published_at": "20260821T091500Z",
+      "source": "elplural.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4d68161ae6d4ad28",
+      "headline": "Landtagswahl : Kritik an Vorschlag über Finanzsanktionen für Sachsen - Anhalt",
+      "url": "https://www.zeit.de/politik/deutschland/2026-08/landtagswahl-sachsen-anhalt-afd-kritik-danyal-bayaz-gxe",
+      "published_at": "20260821T074500Z",
+      "source": "zeit.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6c7a309ad7208b06",
+      "headline": "Nga tập trận phóng tên lửa gần nhóm đảo tranh chấp với Nhật Bản",
+      "url": "https://thanhnien.vn/nga-tap-tran-phong-ten-lua-gan-nhom-dao-tranh-chap-voi-nhat-ban-185260821110658679.htm",
+      "published_at": "20260821T051500Z",
+      "source": "thanhnien.vn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_570ba96008ac501a",
+      "headline": "Liquid Group and PagBrasil Launch RoamQR - Pix Cross - Border QR Payments in Brazil",
+      "url": "http://www.asiabulletin.com/news/279255053/liquid-group-and-pagbrasil-launch-roamqr-pix-cross-border-qr-payments-in-brazil",
+      "published_at": "20260821T054500Z",
+      "source": "asiabulletin.com",
       "tags": []
     }
   ]
