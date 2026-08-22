@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-08-22T14:36:04Z",
+    "generated_at_utc": "2026-08-22T16:39:30Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -33,16 +33,6 @@
   },
   "events": [
     {
-      "id": "gdelt_088ce9692a48c3df",
-      "headline": "Iran grants Iraqi tankers safe passage through Strait of Hormuz",
-      "url": "https://www.yahoo.com/news/world/articles/iran-grants-iraqi-tankers-safe-094851095.html",
-      "published_at": "20260822T103000Z",
-      "source": "yahoo.com",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
       "id": "gdelt_aea9060c39305b21",
       "headline": "Iran grants Iraqi tankers safe passage through Strait of Hormuz",
       "url": "https://www.yahoo.com/news/world/articles/iran-grants-iraqi-tankers-safe-123327361.html",
@@ -53,14 +43,12 @@
       ]
     },
     {
-      "id": "gdelt_81564db632a9dfe2",
-      "headline": "Nafsu Sanksi Ekonomi Iran , Ancaman Krisis Justru Berbalik Menimpa AS secara Mengkhawatirkan",
-      "url": "https://khazanah.republika.co.id/berita/tk5f06320/nafsu-sanksi-ekonomi-iran-ancaman-krisis-justru-berbalik-menimpa-as-secara-mengkhawatirkan",
-      "published_at": "20260822T091500Z",
-      "source": "khazanah.republika.co.id",
-      "tags": [
-        "IRAN"
-      ]
+      "id": "gdelt_f633e699f428f311",
+      "headline": "Uživo : Kriza na Bliskom istoku , IDF izvele napad na jugozapad Sirije",
+      "url": "https://naslovi.net/2026-08-22/euronews/uzivo-kriza-na-bliskom-istoku-idf-izvele-napad-na-jugozapad-sirije/42253398",
+      "published_at": "20260822T161500Z",
+      "source": "naslovi.net",
+      "tags": []
     },
     {
       "id": "gdelt_a78cf48882dc8b29",
@@ -86,26 +74,6 @@
       "source": "khazanah.republika.co.id",
       "tags": [
         "ISRAEL"
-      ]
-    },
-    {
-      "id": "gdelt_0cc73e2de3cf6381",
-      "headline": "Drohnenkrieg - Todeszahl steigt in Krywyj Rih – Ukraine schlägt zurück - Politik",
-      "url": "https://www.sueddeutsche.de/politik/drohnenkrieg-todeszahl-steigt-in-krywyj-rih-ukraine-schlaegt-zurueck-dpa.urn-newsml-dpa-com-20090101-260822-930-566277",
-      "published_at": "20260822T084500Z",
-      "source": "sueddeutsche.de",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "gdelt_4a1fd3a71b0064ee",
-      "headline": "Drohnenkrieg : Todeszahl steigt in Krywyj Rih – Ukraine schlägt zurück - Politik",
-      "url": "https://www.rhein-zeitung.de/deutschland-welt/politik/todeszahl-steigt-in-krywyj-rih-ukraine-schlaegt-zurueck_arid-4149413.html",
-      "published_at": "20260822T084500Z",
-      "source": "rhein-zeitung.de",
-      "tags": [
-        "UKRAINE"
       ]
     },
     {
@@ -135,14 +103,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_10e822ec15bf1082",
-      "headline": "Todeszahl steigt in Krywyj Rih – Ukraine schlägt zurück",
-      "url": "https://apa.at/news/russische-drohnenangriffe-toeten-zwei-frauen-in-der-ukraine/",
-      "published_at": "20260822T100000Z",
-      "source": "apa.at",
-      "tags": [
-        "UKRAINE"
-      ]
+      "id": "gdelt_cefd25fa6e38f63e",
+      "headline": "Children are dying !",
+      "url": "https://kaieteurnewsonline.com/2026/08/22/children-are-dying/",
+      "published_at": "20260822T143000Z",
+      "source": "kaieteurnewsonline.com",
+      "tags": []
     },
     {
       "id": "gdelt_bcbf76814b193a45",
@@ -172,23 +138,20 @@
       "tags": []
     },
     {
+      "id": "gdelt_f7d119cad9f8081e",
+      "headline": "Dutch EU Commissioner Hoekstra tax plan could cost Netherlands €8 billion a year",
+      "url": "https://nltimes.nl/2026/08/22/dutch-eu-commissioner-hoekstras-tax-plan-cost-netherlands-eu8-billion-year",
+      "published_at": "20260822T143000Z",
+      "source": "nltimes.nl",
+      "tags": []
+    },
+    {
       "id": "gdelt_9e6a7cd7410a0fbc",
       "headline": "Вадефуль у Києві : Війна РФ проти України - найбільша загроза",
       "url": "https://www.dw.com/uk/vadeful-u-kievi-vijna-rf-proti-ukraini-najbilsa-zagroza-dla-evropi/a-78468321",
       "published_at": "20260822T113000Z",
       "source": "dw.com",
       "tags": []
-    },
-    {
-      "id": "gdelt_1a4d659e267e9fda",
-      "headline": "India could use water as weapon : Pakistan minister warns amid Indus Water Treaty row",
-      "url": "https://www.hindustantimes.com/india-news/water-as-weapon-pak-minister-ahsan-iqbal-warns-india-could-deny-water-when-needed-shehbaz-sharif-indus-waters-treaty-101787390358177.html",
-      "published_at": "20260822T103000Z",
-      "source": "hindustantimes.com",
-      "tags": [
-        "INDIA",
-        "PAKISTAN"
-      ]
     },
     {
       "id": "gdelt_1b7173cb906f0aa3",
@@ -199,11 +162,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_6f7fe6d9a9477258",
-      "headline": "Donald Trump Sebut Selat Hormuz Bagian Wilayah AS",
-      "url": "https://www.merdeka.com/dunia/read/8275487/donald-trump-sebut-selat-hormuz-bagian-wilayah-as",
-      "published_at": "20260822T084500Z",
-      "source": "merdeka.com",
+      "id": "gdelt_d21c384cbdd9ad87",
+      "headline": "إيران تهاجم حملة ترامب الاقتصادية الجديدة :  محكوم عليها بالفشل",
+      "url": "https://www.dostor.org/5675984",
+      "published_at": "20260822T143000Z",
+      "source": "dostor.org",
       "tags": []
     },
     {
@@ -215,11 +178,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_57e273ef4b397b5f",
-      "headline": "Дом за 40 тыс . грн : как переселенцы обустроили жилье в глухом селе ( фото )",
-      "url": "https://focus.ua/lifestyle/765263-dom-za-40-tys-grn-kak-pereselency-obustroili-zhile-v-gluhom-sele-foto",
-      "published_at": "20260822T084500Z",
-      "source": "focus.ua",
+      "id": "gdelt_09976fe477bb77a1",
+      "headline": "Foreign - linked legal services to get a boost",
+      "url": "http://global.chinadaily.com.cn/a/202608/22/WS6a88894da3106bc57421cd63.html",
+      "published_at": "20260822T143000Z",
+      "source": "global.chinadaily.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4b0802ddf0a8582b",
+      "headline": "Cumartesi hangi diziler var ? 22 Ağustos bu akşam dizilerin yeni bölümü var mı ?",
+      "url": "https://www.haberler.com/haber/cumartesi-hangi-diziler-var-22-agustos-bu-aksam-20167825-haberi/",
+      "published_at": "20260822T161500Z",
+      "source": "haberler.com",
       "tags": []
     },
     {
@@ -237,6 +208,7 @@
       "published_at": "20260822T134500Z",
       "source": "express.co.uk",
       "tags": [
+        "IRAN",
         "IRGC"
       ]
     },
@@ -265,6 +237,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_cb5054c2f6d84b8d",
+      "headline": "القاهرة الإخبارية : تصعيد ميداني جنوب لبنان وحراك سياسي قبل مفاوضات روما",
+      "url": "https://www.dostor.org/5676177",
+      "published_at": "20260822T160000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
       "id": "gdelt_764a216e4a4f0f5d",
       "headline": "EAM Jaishankar , Greek FM discuss bilateral and regional issues before UNGA meeting",
       "url": "https://www.prokerala.com/news/articles/a1803481.html",
@@ -278,6 +258,14 @@
       "url": "https://www.newsweek.pl/swiat/konflikt-miedzy-turcja-a-izraelem-narasta-trump-staje-po-stronie-erdogana/368l9b7",
       "published_at": "20260822T110000Z",
       "source": "newsweek.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_46019bb1c0eadba5",
+      "headline": "Lurer . com | Ֆին քաղաքական գործիչը զգուշացրել է Ուկրաինային աջակցության մեծացման դեպքում Ռուսաստանի կոշտ պատասխանի մասին",
+      "url": "https://lurer.com/article/748625/am",
+      "published_at": "20260822T141500Z",
+      "source": "lurer.com",
       "tags": []
     },
     {
@@ -305,14 +293,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_0e03de07d6670f9d",
-      "headline": "Lin - gang Special Area eyes 7 . 5 % growth",
-      "url": "http://europe.chinadaily.com.cn/a/202608/22/WS6a88fe33a3106bc57421cdea.html",
-      "published_at": "20260822T084500Z",
-      "source": "europe.chinadaily.com.cn",
-      "tags": []
-    },
-    {
       "id": "gdelt_8794bd37e260fb58",
       "headline": "Mikaal Zulfiqar says he open to Bollywood return , only if invited  respectfully",
       "url": "https://tribune.com.pk/story/2625257/mikaal-zulfiqar-says-hes-open-to-bollywood-return-only-if-invited-respectfully",
@@ -321,11 +301,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_0276a894031b69ba",
-      "headline": "وزيرا خارجية مصر واليونان يؤكدان ضرورة خفض التصعيد ودعم استقرار المنطقة",
-      "url": "https://www.dostor.org/5675725",
-      "published_at": "20260822T100000Z",
-      "source": "dostor.org",
+      "id": "gdelt_569146568c10ef01",
+      "headline": "Медведев рассказал об успехах России , достигнутых в условиях санкций",
+      "url": "https://russian.rt.com/world/news/1672913-medvedev-uspehi-rossii",
+      "published_at": "20260822T143000Z",
+      "source": "russian.rt.com",
       "tags": []
     },
     {
@@ -334,6 +314,16 @@
       "url": "https://www.mathrubhumi.com/news/world/iran-slams-us-sanctions-global-sovereignty-threat-k9s7lvbi",
       "published_at": "20260822T121500Z",
       "source": "mathrubhumi.com",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_92cba02a7baf1176",
+      "headline": "Teherani kundërshton sanksionet e propozuara nga SHBA - ja",
+      "url": "https://zeri.info/bota/634515/teherani-kundershton-sanksionet-e-propozuara-nga-shba-ja/",
+      "published_at": "20260822T143000Z",
+      "source": "zeri.info",
       "tags": []
     },
     {
@@ -345,12 +335,38 @@
       "tags": []
     },
     {
-      "id": "gdelt_8a147eb56b743fb3",
-      "headline": "Buntut Kericuhan di Final Piala Dunia 2026 , FIFA Sanksi Berat Argentina – Olahraga",
-      "url": "https://olahraga.batampos.co.id/buntut-kericuhan-di-final-piala-dunia-2026-fifa-sanksi-berat-argentina/",
-      "published_at": "20260822T084500Z",
-      "source": "olahraga.batampos.co.id",
+      "id": "gdelt_f2973df5a2b9e9a0",
+      "headline": "Thẩm phán bác lệnh cấm thị thực của ông Trump đối với công dân 75 quốc gia",
+      "url": "https://thanhnien.vn/tham-phan-bac-lenh-cam-thi-thuc-cua-ong-trump-doi-voi-cong-dan-75-quoc-gia-185260822203839672.htm",
+      "published_at": "20260822T143000Z",
+      "source": "thanhnien.vn",
       "tags": []
+    },
+    {
+      "id": "gdelt_708445dce1313784",
+      "headline": "РФ продвинулась возле приграничного села Артельное на Харьковщине DeepState",
+      "url": "https://www.objectiv.tv/objectively/2026/08/22/rf-prodvinulas-vozle-prigranichnogo-sela-artelnoe-na-harkovshhine-deepstate/",
+      "published_at": "20260822T161500Z",
+      "source": "objectiv.tv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_02d60a668a4861a3",
+      "headline": "Медведев о противостоянии РФ санкциям : эти достижения нужно закрепить",
+      "url": "https://www.vesti.ru/ns/medvedev-o-protivostoyanii-rf-sankciyam-ehti-dostizheniya-nuzhno-zakrepit",
+      "published_at": "20260822T144500Z",
+      "source": "vesti.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_85e74c40a49c58ce",
+      "headline": "Growing international pressure puts Israel under diplomatic strain : Israeli media",
+      "url": "https://aa.com.tr/en/middle-east/growing-international-pressure-puts-israel-under-diplomatic-strain-israeli-media/4034573",
+      "published_at": "20260822T144500Z",
+      "source": "aa.com.tr",
+      "tags": [
+        "ISRAEL"
+      ]
     },
     {
       "id": "gdelt_96db4a3a46c30a44",
@@ -369,6 +385,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_a6eb701551d54f68",
+      "headline": "国际观察丨美国对伊朗  史上最严制裁  能奏效吗",
+      "url": "https://baijiahao.baidu.com/s?id=1874203809555017174",
+      "published_at": "20260822T124500Z",
+      "source": "baijiahao.baidu.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_ddc68c942caf35b1",
       "headline": "KI - Drohnen gegen Moskau : Warum Selenskyj den Massen - Angriff stoppte",
       "url": "http://www.tz.de/politik/selenskyj-stoppte-plan-russische-flughaefen-mit-ki-drohnen-zu-ueberziehen-zr-94455229.html",
@@ -377,11 +401,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_a6eb701551d54f68",
-      "headline": "国际观察丨美国对伊朗  史上最严制裁  能奏效吗",
-      "url": "https://baijiahao.baidu.com/s?id=1874203809555017174",
-      "published_at": "20260822T124500Z",
-      "source": "baijiahao.baidu.com",
+      "id": "gdelt_aee77dcc61389ef8",
+      "headline": "Медведев : успехи России в условиях санкций нужно закрепить",
+      "url": "https://russian.rt.com/world/news/1672915-uspehi-rossii-sankcii",
+      "published_at": "20260822T143000Z",
+      "source": "russian.rt.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_59f2685fcce0d658",
+      "headline": "Медведев отметил успехи России в период санкций",
+      "url": "https://ura.news/news/1053120584",
+      "published_at": "20260822T160000Z",
+      "source": "ura.news",
       "tags": []
     },
     {
@@ -417,12 +449,18 @@
       "tags": []
     },
     {
-      "id": "gdelt_5ada3e80fc53e97c",
-      "headline": "Iran defiant over US economic sanctions",
-      "url": "http://europe.chinadaily.com.cn/a/202608/22/WS6a88e023a3106bc57421cd7a.html",
-      "published_at": "20260822T084500Z",
-      "source": "europe.chinadaily.com.cn",
-      "tags": []
+      "id": "gdelt_dc63cc9b73fd69a7",
+      "headline": "Joint Statement by the Foreign Ministers of Türkiye , Egypt , Indonesia , Jordan , Pakistan , Qatar , Saudi Arabia and UAE , 21 August 2026",
+      "url": "https://www.globalsecurity.org/military/library/news/2026/08/mil-260821-turkeymfa01.htm",
+      "published_at": "20260822T154500Z",
+      "source": "globalsecurity.org",
+      "tags": [
+        "QATAR",
+        "UAE",
+        "PAKISTAN",
+        "EGYPT",
+        "SAUDI_ARABIA"
+      ]
     },
     {
       "id": "gdelt_a7e572e511b3ee05",
@@ -441,11 +479,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_41e183e542a02cf9",
-      "headline": "ABD Başkanı Donald Trump : İran Uygun Anlaşmaya Hazır Değil",
-      "url": "https://sana.sy/tr/international/2318324/",
-      "published_at": "20260822T103000Z",
-      "source": "sana.sy",
+      "id": "gdelt_8dae107a0f638679",
+      "headline": "All Anti - Iranian US Sanctions Failed - Iran Foreign Minister",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/08/iran-260821-sputnik01.htm",
+      "published_at": "20260822T154500Z",
+      "source": "globalsecurity.org",
       "tags": []
     },
     {
@@ -457,11 +495,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_19d5270f28ebc429",
-      "headline": "華府祭新制裁前夕 美伊互相放話 | 國際 | 三立新聞網 SETN . COM",
-      "url": "https://www.setn.com/news/1893605",
-      "published_at": "20260822T084500Z",
-      "source": "setn.com",
+      "id": "gdelt_94b58040df3399fc",
+      "headline": "白俄羅斯記者遭捷克制裁 法院裁定曾效力俄情報局 | 國際",
+      "url": "https://www.cna.com.tw:443/news/aopl/202608220224.aspx",
+      "published_at": "20260822T154500Z",
+      "source": "cna.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c6766a274868867d",
+      "headline": "Petrolde Hürmüz kördüğümü ! Üste üste çift haneli yükseldi , 100 dolar riski kapıda",
+      "url": "https://www.sabah.com.tr/ekonomi/petrolde-hurmuz-kordugumu-uste-uste-cift-haneli-yukseldi-100-dolar-riski-kapida-7646285",
+      "published_at": "20260822T110000Z",
+      "source": "sabah.com.tr",
       "tags": []
     },
     {
@@ -475,11 +521,11 @@
       ]
     },
     {
-      "id": "gdelt_c6766a274868867d",
-      "headline": "Petrolde Hürmüz kördüğümü ! Üste üste çift haneli yükseldi , 100 dolar riski kapıda",
-      "url": "https://www.sabah.com.tr/ekonomi/petrolde-hurmuz-kordugumu-uste-uste-cift-haneli-yukseldi-100-dolar-riski-kapida-7646285",
-      "published_at": "20260822T110000Z",
-      "source": "sabah.com.tr",
+      "id": "gdelt_a124cc454381396c",
+      "headline": "闪评｜美伊进入  经济战  中东局势何去何从 ？",
+      "url": "https://baijiahao.baidu.com/s?id=1874230139251154879",
+      "published_at": "20260822T150000Z",
+      "source": "baijiahao.baidu.com",
       "tags": []
     },
     {
@@ -499,46 +545,12 @@
       "tags": []
     },
     {
-      "id": "gdelt_db107707f6343cc0",
-      "headline": "موقع بكرا - دمشق تتجنب الفخ الإسرائيلي وتكثف اتصالاتها بواشنطن وباريس لوقف التصعيد",
-      "url": "https://bokra.net/Article-1601869",
-      "published_at": "20260822T101500Z",
-      "source": "bokra.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e4238d782b71e9ca",
-      "headline": "Çinde artan tatil talebiyle sivil havacılıkta istikrarlı büyüme kaydedildi",
-      "url": "https://www.haberler.com/guncel/cin-de-artan-tatil-talebiyle-sivil-havacilikta-20166635-haberi/",
-      "published_at": "20260822T084500Z",
-      "source": "haberler.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_8a2798aadbf173ec",
       "headline": "Запад подорвал принципы глобализации , заявил Лавров",
       "url": "https://ria.ru/20260822/zapad-2112487942.html",
       "published_at": "20260822T123000Z",
       "source": "ria.ru",
       "tags": []
-    },
-    {
-      "id": "gdelt_38231d706f4cf06d",
-      "headline": "وكالة الأنباء اللبنانية : قذائف فوسفورية وغارات للاحتلال على عدة بلدات",
-      "url": "https://www.elwatannews.com/news/details/8343948",
-      "published_at": "20260822T084500Z",
-      "source": "elwatannews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6e7b0acf476a5b07",
-      "headline": "Iran says new US sanctions violate sovereignty of other states",
-      "url": "https://aa.com.tr/en/us-israel-iran-war/iran-says-new-us-sanctions-violate-sovereignty-of-other-states/4034378",
-      "published_at": "20260822T103000Z",
-      "source": "aa.com.tr",
-      "tags": [
-        "ISRAEL"
-      ]
     },
     {
       "id": "gdelt_2a855547678a1158",
@@ -573,14 +585,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_ac31046a9cc1b17a",
-      "headline": "Perang Berkepanjangan , Iran Akhirnya Ungkap Keinginan Besarnya",
-      "url": "https://siap.viva.co.id/news/27561-perang-berkepanjangan-iran-akhirnya-ungkap-keinginan-besarnya",
-      "published_at": "20260822T084500Z",
-      "source": "siap.viva.co.id",
-      "tags": []
-    },
-    {
       "id": "gdelt_781dbb41d9f4a7ea",
       "headline": "UPN Veteran Jatim Siapkan Sanksi Mahasiswa yang Edit Foto Pornogafi Pakai AI",
       "url": "https://www.jawapos.com/surabaya-raya/2608220331/upn-veteran-jatim-siapkan-sanksi-mahasiswa-yang-edit-foto-pornogafi-pakai-ai",
@@ -589,11 +593,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_eda71eba463a1fa7",
-      "headline": "В  Хезболле  назвали цель санкций США",
-      "url": "https://vestikavkaza.ru/news/v-hezbolle-nazvali-cel-sankcij-ssa.html",
-      "published_at": "20260822T103000Z",
-      "source": "vestikavkaza.ru",
+      "id": "gdelt_18b99e115b212189",
+      "headline": "The Eldersten İsraile yaptırım çağrısı",
+      "url": "https://www.dw.com/tr/the-eldersten-i%CC%87sraile-yapt%C4%B1r%C4%B1m-%C3%A7a%C4%9Fr%C4%B1s%C4%B1/a-78469087",
+      "published_at": "20260822T161500Z",
+      "source": "dw.com",
       "tags": []
     },
     {
@@ -625,19 +629,11 @@
       ]
     },
     {
-      "id": "gdelt_874fdf806f2e23a0",
-      "headline": "日本对美国做法深表遗憾 ， 俄外长要日本充分认真阅读的是啥 ？",
-      "url": "https://baijiahao.baidu.com/s?id=1874043137613412939",
-      "published_at": "20260822T103000Z",
-      "source": "baijiahao.baidu.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_836ea28d442e02c9",
-      "headline": "Why is Ukraine banning  Masha and the Bear ?",
-      "url": "https://www.thenews.com.pk/latest/1413177-why-is-ukraine-banning-masha-and-the-bear",
-      "published_at": "20260822T100000Z",
-      "source": "thenews.com.pk",
+      "id": "gdelt_cf1d83057309aba5",
+      "headline": "અમેરિકાની તેહરાન પર નવા પ્રતિબંધો લાદવાની તૈયારી , ટ્રમ્પે કહ્યું - તેમની મરજી પ્રમાણે ડીલ નહીં થાય",
+      "url": "https://www.gujaratsamachar.com/news/international/america-preparing-to-impose-new-sanctions-on-tehran-trump-said-deal-will-not-be-made-according-to-his-wishes-59986852215",
+      "published_at": "20260822T151500Z",
+      "source": "gujaratsamachar.com",
       "tags": []
     },
     {
@@ -657,11 +653,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_1b4054a8906bb42b",
-      "headline": "« العجز عن مواجهة الإرهاب اليهودى يهدد أمن إسرائيل ».. جيش الاحتلال يحذر وزير دفاعه",
-      "url": "https://www.almasryalyoum.com/news/details/4343359",
-      "published_at": "20260822T141500Z",
-      "source": "almasryalyoum.com",
+      "id": "gdelt_16bee57931f3528a",
+      "headline": "وزير الخارجية يبحث مع نظيره الإيراني خفض التصعيد والعودة للمسار الدبلوماسي",
+      "url": "https://www.elwatannews.com/news/details/8344171",
+      "published_at": "20260822T161500Z",
+      "source": "elwatannews.com",
       "tags": []
     },
     {
@@ -673,11 +669,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_1b4054a8906bb42b",
+      "headline": "« العجز عن مواجهة الإرهاب اليهودى يهدد أمن إسرائيل ».. جيش الاحتلال يحذر وزير دفاعه",
+      "url": "https://www.almasryalyoum.com/news/details/4343359",
+      "published_at": "20260822T141500Z",
+      "source": "almasryalyoum.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_c42b1e99f7e9acd7",
       "headline": "Tanker des Iraks dürfen passieren : Iran gewährt Nachbarland freie Fahrt durch Straße von Hormus",
       "url": "https://www.tagesspiegel.de/internationales/tanker-des-iraks-durfen-passieren-iran-gewahrt-nachbarland-freie-fahrt-durch-strasse-von-hormus-15971189.html",
       "published_at": "20260822T124500Z",
       "source": "tagesspiegel.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_93ba41a68015be60",
+      "headline": "US Sanctions Threat : Behind Iran Fresh Rallying Cry Against  Same Bull",
+      "url": "https://www.ibtimes.com/us-sanctions-threat-behind-irans-fresh-rallying-cry-against-same-bull-3806678",
+      "published_at": "20260822T153000Z",
+      "source": "ibtimes.com",
       "tags": []
     },
     {
@@ -721,35 +733,43 @@
       "tags": []
     },
     {
-      "id": "gdelt_a9ff56cf501e3782",
-      "headline": "Todeszahl steigt in Krywyj Rih – Ukraine schlägt zurück",
-      "url": "https://www.tageblatt.de/Nachrichten/Todeszahl-steigt-in-Krywyj-Rih-Ukraine-schlaegt-zurueck-764642.html",
-      "published_at": "20260822T103000Z",
-      "source": "tageblatt.de",
+      "id": "gdelt_11b6da1d5c393aaf",
+      "headline": "Izraelci na Zapadnoj obali uhitili gradonačelnika i Palestince . Neke i pretukli",
+      "url": "https://www.index.hr/vijesti/clanak/izraelci-na-zapadnoj-obali-uhitili-gradonacelnika-i-palestince-neke-i-pretukli/2826591.aspx",
+      "published_at": "20260822T153000Z",
+      "source": "index.hr",
       "tags": []
     },
     {
-      "id": "gdelt_ea284d08e85addbe",
-      "headline": "Todeszahl steigt in Krywyj Rih – Ukraine schlägt zurück - Politik - Nachrichten - Reutlinger General - Anzeiger",
-      "url": "https://www.gea.de/welt/politik_artikel,-todeszahl-steigt-in-krywyj-rih-ukraine-schl%C3%A4gt-zur%C3%BCck-_arid,7165560.html",
-      "published_at": "20260822T091500Z",
-      "source": "gea.de",
+      "id": "gdelt_d57b843432412505",
+      "headline": "وزير الخارجية يبحث مع نظيره الإيراني جهود احتواء التصعيد والعودة إلى المسار الدبلوماسي",
+      "url": "https://www.vetogate.com/5717634",
+      "published_at": "20260822T161500Z",
+      "source": "vetogate.com",
       "tags": []
     },
     {
-      "id": "gdelt_de62b29c98f57653",
-      "headline": "Todeszahl steigt in Krywyj Rih – Ukraine schlägt zurück",
-      "url": "https://www.muensterschezeitung.de/nachrichten/politik/todeszahl-steigt-in-krywyj-rih-ukraine-schlaegt-zurueck-3624739",
-      "published_at": "20260822T091500Z",
-      "source": "muensterschezeitung.de",
+      "id": "gdelt_4a0230f683dea93d",
+      "headline": "تفاصيل اتصال هاتفي بين وزير الخارجية ونظيره الإيراني",
+      "url": "https://www.vetogate.com/5717653",
+      "published_at": "20260822T161500Z",
+      "source": "vetogate.com",
       "tags": []
     },
     {
-      "id": "gdelt_f8366ef8c906bc9e",
-      "headline": "Todeszahl steigt in Krywyj Rih – Ukraine schlägt zurück",
-      "url": "https://www.berchtesgadener-anzeiger.de/startseite_artikel,-todeszahl-steigt-in-krywyj-rih-ukraine-schlaegt-zurueck-_arid,1012819.html",
-      "published_at": "20260822T084500Z",
-      "source": "berchtesgadener-anzeiger.de",
+      "id": "gdelt_49e911052730d37c",
+      "headline": "Глава МИД Германии не исключил новых санкций ЕС против Израиля",
+      "url": "https://russian.rt.com/world/news/1672916-germaniya-sankcii-izrail",
+      "published_at": "20260822T143000Z",
+      "source": "russian.rt.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8fe3cd18f652c8d8",
+      "headline": "Qalibaf Says  We Cannot Survive  If People Go Hungry",
+      "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/08/iran-260821-rferl04.htm",
+      "published_at": "20260822T154500Z",
+      "source": "globalsecurity.org",
       "tags": []
     },
     {
@@ -785,14 +805,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_3f9735e2a1b61cbb",
-      "headline": "إعلام الأسرى : 7 عمليات تنكيل إسرائيلي تستهدف فلسطينيات بسجن الدامون",
-      "url": "https://www.alquds.co.uk/%D8%A5%D8%B9%D9%84%D8%A7%D9%85-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D9%89-7-%D8%B9%D9%85%D9%84%D9%8A%D8%A7%D8%AA-%D8%AA%D9%86%D9%83%D9%8A%D9%84-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D8%AA%D8%B3/",
-      "published_at": "20260822T131500Z",
-      "source": "alquds.co.uk",
-      "tags": []
-    },
-    {
       "id": "gdelt_15422ec23bbfb92c",
       "headline": "周晓辉 ： 川普搞  经济诺曼底登陆  北京难受",
       "url": "https://www.epochtimes.com/gb/26/8/21/n14834315.htm",
@@ -801,11 +813,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_a1ecedd80d3697fe",
-      "headline": "İran Dışişleri Bakanı Arakçi : Biz bu filmi daha önce de izledik",
-      "url": "https://www.yenisafak.com/dunya/iran-disisleri-bakani-arakci-biz-bu-filmi-daha-once-de-izledik-4850087",
-      "published_at": "20260822T091500Z",
-      "source": "yenisafak.com",
+      "id": "gdelt_3f9735e2a1b61cbb",
+      "headline": "إعلام الأسرى : 7 عمليات تنكيل إسرائيلي تستهدف فلسطينيات بسجن الدامون",
+      "url": "https://www.alquds.co.uk/%D8%A5%D8%B9%D9%84%D8%A7%D9%85-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D9%89-7-%D8%B9%D9%85%D9%84%D9%8A%D8%A7%D8%AA-%D8%AA%D9%86%D9%83%D9%8A%D9%84-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A-%D8%AA%D8%B3/",
+      "published_at": "20260822T131500Z",
+      "source": "alquds.co.uk",
       "tags": []
     },
     {
@@ -825,11 +837,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_3147d8c7c8905710",
+      "headline": "Iran napravio izuzetak i dao zeleno svjetlo za nekoliko tankera u Hormuškom moreuzu",
+      "url": "https://avaz.ba/vijesti/globus/1067033/iran-napravio-izuzetak-i-dao-zeleno-svjetlo-za-nekoliko-tankera-u-hormuskom-moreuzu",
+      "published_at": "20260822T161500Z",
+      "source": "avaz.ba",
+      "tags": []
+    },
+    {
       "id": "gdelt_4ff05833a10499f1",
       "headline": "Iran Maintains Harsh Rhetoric Ahead of New Sanctions",
       "url": "https://politicalwire.com/2026/08/22/iran-maintains-harsh-rhetoric-ahead-of-new-sanctions/",
       "published_at": "20260822T123000Z",
       "source": "politicalwire.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e8a28676debc72f2",
+      "headline": "Iran threatens military response to U . S . sanctions",
+      "url": "https://kaieteurnewsonline.com/2026/08/22/iran-threatens-military-response-to-u-s-sanctions/",
+      "published_at": "20260822T160000Z",
+      "source": "kaieteurnewsonline.com",
       "tags": []
     },
     {
@@ -849,14 +877,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_60d0075558b198ca",
-      "headline": "Эдгар Муханов – в Эстонии суд наказал шпиона , который годами сливал данные России",
-      "url": "https://www.obozrevatel.com/novosti-mir/v-estonii-sud-nakazal-shpiona-kotoryij-godami-slival-dannyie-rossii.htm",
-      "published_at": "20260822T084500Z",
-      "source": "obozrevatel.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_417c0fd317984dd0",
       "headline": "Mức xử phạt vi phạm hành chính đối với hành vi vi phạm về bảo vệ dữ liệu cá nhân",
       "url": "https://baotintuc.vn/thoi-su/muc-xu-phat-vi-pham-hanh-chinh-doi-voi-hanh-vi-vi-pham-ve-bao-ve-du-lieu-ca-nhan-20260822175205827.htm",
@@ -873,14 +893,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_cd4ece0e6558fe2f",
-      "headline": "Russland : Tote und Verletzte nach ukrainischen Angriffen",
-      "url": "https://www.watson.ch/international/drohnen/932824200-russland-tote-und-verletzte-nach-ukrainischen-angriffen",
-      "published_at": "20260822T134500Z",
-      "source": "watson.ch",
-      "tags": []
-    },
-    {
       "id": "gdelt_7f265fe6d6039d0d",
       "headline": "WASHINGTON SPREMA NAJSTROŽE SANKCIJE U HISTORIJI : Iran uzvraća oštrom porukom , Kina u fokusu",
       "url": "https://www.slobodna-bosna.ba/vijest/501357/washington_sprema_najstroze_sankcije_u_historiji_iran_uzvraca_ostrom_porukom_kina_u_fokusu.html",
@@ -889,11 +901,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_63458a207348d21e",
-      "headline": "Fahrplan ohne Sanktionen : Wie Österreich bis 2040 klimaneutral werden will",
-      "url": "https://www.derstandard.at/consent/tcf/story/3000000336565/fahrplan-ohne-sanktionen-wie-oesterreich-bis-2040-klimaneutral-werden-will",
-      "published_at": "20260822T091500Z",
-      "source": "derstandard.at",
+      "id": "gdelt_cd4ece0e6558fe2f",
+      "headline": "Russland : Tote und Verletzte nach ukrainischen Angriffen",
+      "url": "https://www.watson.ch/international/drohnen/932824200-russland-tote-und-verletzte-nach-ukrainischen-angriffen",
+      "published_at": "20260822T134500Z",
+      "source": "watson.ch",
       "tags": []
     },
     {
@@ -916,11 +928,19 @@
       ]
     },
     {
-      "id": "gdelt_3ec0d485200f583f",
-      "headline": "عودة حاكم ولاية مكسيكية تتهمه واشنطن بالتورط مع العصابات الإجرامية إلى منصبه",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=22082026&id=09144bc9-4c59-4dc6-b7fd-6a8afe03282d",
-      "published_at": "20260822T091500Z",
-      "source": "shorouknews.com",
+      "id": "gdelt_05e50a5380d99597",
+      "headline": "Iran Pledges  Devastating  Retaliation to U . S . Economic Pressure Threats - Jowhar News Leader",
+      "url": "https://jowhar.com/iran-pledges-devastating-retaliation-to-u-s-economic-pressure-threats/",
+      "published_at": "20260822T153000Z",
+      "source": "jowhar.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_09edaf0ae51133f0",
+      "headline": "Медведев с иронией вспомнил  мантру Запада  об экономике России",
+      "url": "https://ria.ru/20260822/medvedev-2112522697.html",
+      "published_at": "20260822T144500Z",
+      "source": "ria.ru",
       "tags": []
     },
     {
@@ -932,27 +952,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_d2b077eb91e34f63",
-      "headline": "Criza comercială SUA - Canada se adâncește . Tarife de 50 % pentru bunuri canadiene intră în vigoare sâmbătă . Riposta , similară",
-      "url": "https://stirileprotv.ro/stiri/international/criza-comerciala-sua-canada-se-adanceste-tarife-de-50-pentru-bunuri-canadiene-intra-in-vigoare-sambata-riposta-similara.html",
-      "published_at": "20260822T091500Z",
-      "source": "stirileprotv.ro",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fcee00c71a251bab",
-      "headline": "Зеленський : Українські далекобійні санкції продовжують обмежувати воєнно - економічний потенціал РФ",
-      "url": "https://interfax.com.ua/news/general/1195242.html",
-      "published_at": "20260822T103000Z",
-      "source": "interfax.com.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a5d6f5dc7920d40d",
-      "headline": "Mức xử phạt vi phạm hành chính đối với hành vi vi phạm về bảo vệ dữ liệu cá nhân",
-      "url": "https://baomoi.com/muc-xu-phat-vi-pham-hanh-chinh-doi-voi-hanh-vi-vi-pham-ve-bao-ve-du-lieu-ca-nhan-c55889465.epi",
-      "published_at": "20260822T103000Z",
-      "source": "baomoi.com",
+      "id": "gdelt_91a99954f6c3c97a",
+      "headline": "Lionel Messi Kena Sanksi usai Insiden Memukul Lawan",
+      "url": "https://www.viva.co.id/bola/1923332-lionel-messi-kena-sanksi-usai-insiden-memukul-lawan",
+      "published_at": "20260822T144500Z",
+      "source": "viva.co.id",
       "tags": []
     },
     {
@@ -964,11 +968,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_67ee11d5cc22d6b6",
-      "headline": "Todeszahl steigt in Krywyj Rih – Ukraine schlägt zurück",
-      "url": "https://www.suedtirolnews.it/politik/todeszahl-steigt-in-krywyj-rih-ukraine-schlaegt-zurueck",
-      "published_at": "20260822T103000Z",
-      "source": "suedtirolnews.it",
+      "id": "gdelt_039a47adab87f625",
+      "headline": "Взрыв в ТЦ в Кривом Роге – не исключение : Коваленко предупредил об угрозе для тыловых городов",
+      "url": "https://24tv.ua/ru/vzryv-tc-krivom-roge-ne-iskljuchenie-kovalenko-predupredil-ob_n3128058",
+      "published_at": "20260822T150000Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_02243b08912db525",
+      "headline": "Mức xử phạt vi phạm hành chính đối với hành vi vi phạm về bảo vệ dữ liệu cá nhân",
+      "url": "https://vietstock.vn/2026/08/muc-xu-phat-vi-pham-hanh-chinh-doi-voi-hanh-vi-vi-pham-ve-bao-ve-du-lieu-ca-nhan-4265-1484134.htm",
+      "published_at": "20260822T150000Z",
+      "source": "vietstock.vn",
       "tags": []
     },
     {
@@ -999,35 +1011,19 @@
       "tags": []
     },
     {
+      "id": "gdelt_18beca9613159410",
+      "headline": "Αεροπορική επίθεση Μιανμάρ σε βουδιστικό μοναστήρι",
+      "url": "https://www.sbctv.gr/2026/08/%CE%B1%CE%B5%CF%81%CE%BF%CF%80%CE%BF%CF%81%CE%B9%CE%BA%CE%B7-%CE%B5%CF%80%CE%B9%CE%B8%CE%B5%CF%83%CE%B7-%CE%BC%CE%B9%CE%B1%CE%BD%CE%BC%CE%B1%CF%81/",
+      "published_at": "20260822T160000Z",
+      "source": "sbctv.gr",
+      "tags": []
+    },
+    {
       "id": "gdelt_50ddb0760d1c151d",
       "headline": "Медведев : Нынешние лидеры Европы прямые потомки и наследники фашистов",
       "url": "https://life.ru/p/1914931",
       "published_at": "20260822T124500Z",
       "source": "life.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7238e708da870471",
-      "headline": "İran Meclis Başkanı Kalibaf , komşu ülkelerden aldıkları mesajı açıkladı",
-      "url": "https://www.internethaber.com/iran-meclis-baskani-kalibaf-komsu-ulkelerden-aldiklari-mesaji-acikladi-2456253h.htm",
-      "published_at": "20260822T124500Z",
-      "source": "internethaber.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1b2ca19255aeee77",
-      "headline": "Anime India Set to Host Landmark Mumbai Convention : Naruto Director Hayato Date , 50 , 000 Fans , and Japanese Industry Titans Converge at NESCO",
-      "url": "https://news.webindia123.com/news/Articles/Business/20260822/4489822.html",
-      "published_at": "20260822T141500Z",
-      "source": "news.webindia123.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d55aa5583a6d4a99",
-      "headline": "Belekte kirliliğe neden olan otele 1 , 6 milyon lira ceza",
-      "url": "https://www.bursahakimiyet.com.tr/gundem/belek-te-kirlilige-neden-olan-otele-1-6-milyon-lira-ceza-1694357",
-      "published_at": "20260822T084500Z",
-      "source": "bursahakimiyet.com.tr",
       "tags": []
     }
   ]
