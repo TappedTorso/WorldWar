@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-08-22T19:32:40Z",
+    "generated_at_utc": "2026-08-22T21:35:37Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "http_error status=429",
         "fetched": 0
       },
       {
@@ -33,16 +33,6 @@
   },
   "events": [
     {
-      "id": "gdelt_aea9060c39305b21",
-      "headline": "Iran grants Iraqi tankers safe passage through Strait of Hormuz",
-      "url": "https://www.yahoo.com/news/world/articles/iran-grants-iraqi-tankers-safe-123327361.html",
-      "published_at": "20260822T141500Z",
-      "source": "yahoo.com",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
       "id": "gdelt_f633e699f428f311",
       "headline": "Uživo : Kriza na Bliskom istoku , IDF izvele napad na jugozapad Sirije",
       "url": "https://naslovi.net/2026-08-22/euronews/uzivo-kriza-na-bliskom-istoku-idf-izvele-napad-na-jugozapad-sirije/42253398",
@@ -51,11 +41,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_b6ceae5861af84d3",
-      "headline": "Indonesia bolsters troop numbers to combat Borneo wildfires",
-      "url": "https://www.aljazeera.com/news/2026/8/22/indonesia-bolsters-troop-numbers-to-combat-borneo-wildfires",
-      "published_at": "20260822T140000Z",
-      "source": "aljazeera.com",
+      "id": "gdelt_bfcaacecc41ee3f9",
+      "headline": "Indonesia Deploys Hundreds of Soldiers to Tackle Borneo Fires",
+      "url": "https://english.aawsat.com/varieties/5309958-indonesia-deploys-hundreds-soldiers-tackle-borneo-fires",
+      "published_at": "20260822T193000Z",
+      "source": "english.aawsat.com",
       "tags": []
     },
     {
@@ -75,62 +65,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_834e6255683e5b5c",
-      "headline": "Indonesia deploys hundreds of soldiers to tackle Borneo fires",
-      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/22/indonesia-deploys-hundreds-of-soldiers-to-tackle-borneo-fires",
-      "published_at": "20260822T141500Z",
-      "source": "thestar.com.my",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cefd25fa6e38f63e",
-      "headline": "Children are dying !",
-      "url": "https://kaieteurnewsonline.com/2026/08/22/children-are-dying/",
-      "published_at": "20260822T143000Z",
-      "source": "kaieteurnewsonline.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_810251fd5627f52b",
       "headline": "Armed men kidnap dozens in attacks on Nigerian villages",
       "url": "https://www.aljazeera.com/news/2026/8/22/armed-men-kidnap-dozens-in-attacks-on-nigerian-villages",
       "published_at": "20260822T183000Z",
       "source": "aljazeera.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bcbf76814b193a45",
-      "headline": "Pakistan : Lashkar terror infrastructure repurposed to facilitate activity toward Afghanistan",
-      "url": "https://www.prokerala.com/news/articles/a1803477.html",
-      "published_at": "20260822T134500Z",
-      "source": "prokerala.com",
-      "tags": [
-        "PAKISTAN",
-        "AFGHANISTAN"
-      ]
-    },
-    {
-      "id": "gdelt_f7d119cad9f8081e",
-      "headline": "Dutch EU Commissioner Hoekstra tax plan could cost Netherlands €8 billion a year",
-      "url": "https://nltimes.nl/2026/08/22/dutch-eu-commissioner-hoekstras-tax-plan-cost-netherlands-eu8-billion-year",
-      "published_at": "20260822T143000Z",
-      "source": "nltimes.nl",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d21c384cbdd9ad87",
-      "headline": "إيران تهاجم حملة ترامب الاقتصادية الجديدة :  محكوم عليها بالفشل",
-      "url": "https://www.dostor.org/5675984",
-      "published_at": "20260822T143000Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_09976fe477bb77a1",
-      "headline": "Foreign - linked legal services to get a boost",
-      "url": "http://global.chinadaily.com.cn/a/202608/22/WS6a88894da3106bc57421cd63.html",
-      "published_at": "20260822T143000Z",
-      "source": "global.chinadaily.com.cn",
       "tags": []
     },
     {
@@ -155,11 +94,27 @@
       ]
     },
     {
+      "id": "gdelt_233018da18d8c818",
+      "headline": "Ρωσία – Βρετανία : Η κλιμάκωση στη « γκρίζα ζώνη » και τα σενάρια αντιποίνων της Μόσχας",
+      "url": "https://www.enikos.gr/international/rosia-vretania-i-klimakosi-sti-gkriza-zoni-kai-ta-senaria-antipoinon-tis-moschas/2632442/",
+      "published_at": "20260822T213000Z",
+      "source": "enikos.gr",
+      "tags": []
+    },
+    {
       "id": "gdelt_4b0802ddf0a8582b",
       "headline": "Cumartesi hangi diziler var ? 22 Ağustos bu akşam dizilerin yeni bölümü var mı ?",
       "url": "https://www.haberler.com/haber/cumartesi-hangi-diziler-var-22-agustos-bu-aksam-20167825-haberi/",
       "published_at": "20260822T161500Z",
       "source": "haberler.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4218334e1c83480c",
+      "headline": "Ρωσία – Βρετανία : Η κλιμάκωση στη « γκρίζα ζώνη » και τα σενάρια αντιποίνων της Μόσχας",
+      "url": "https://www.inewsgr.com/227/rosia--vretania-i-klimakosi-sti-gkriza-zoni-kai-ta-senaria-antipoinon-tis-moschas.htm",
+      "published_at": "20260822T204500Z",
+      "source": "inewsgr.com",
       "tags": []
     },
     {
@@ -179,17 +134,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_e988ac4f552b9887",
-      "headline": "Iran execution machine kills 21 - year - old protester as regime faces c | World | News",
-      "url": "https://www.express.co.uk/news/world/2241525/iran-execution-hanging-ayatollah-irgc-donald-trump-hormuz",
-      "published_at": "20260822T134500Z",
-      "source": "express.co.uk",
-      "tags": [
-        "IRAN",
-        "IRGC"
-      ]
-    },
-    {
       "id": "gdelt_8a11dbc16a018554",
       "headline": "Город Родинское - аналитики заявили об оккупации россиянами - карта",
       "url": "https://gazeta.ua/ru/articles/politics/_rossiyane-polnostyu-zahvatili-gorod-rodinskoe-i-prodvinulis-po-trem-napravleniyam-deepstate/1257131",
@@ -198,11 +142,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_764a216e4a4f0f5d",
-      "headline": "EAM Jaishankar , Greek FM discuss bilateral and regional issues before UNGA meeting",
-      "url": "https://www.prokerala.com/news/articles/a1803481.html",
-      "published_at": "20260822T134500Z",
-      "source": "prokerala.com",
+      "id": "gdelt_a3a4dd7c0ba857df",
+      "headline": "اليمن : صراع منخفض الكثافة على حافة حرب واسعة",
+      "url": "https://www.alquds.co.uk/%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D8%B5%D8%B1%D8%A7%D8%B9-%D9%85%D9%86%D8%AE%D9%81%D8%B6-%D8%A7%D9%84%D9%83%D8%AB%D8%A7%D9%81%D8%A9-%D8%B9%D9%84%D9%89-%D8%AD%D8%A7%D9%81%D8%A9-%D8%AD%D8%B1%D8%A8-%D9%88/",
+      "published_at": "20260822T193000Z",
+      "source": "alquds.co.uk",
       "tags": []
     },
     {
@@ -211,14 +155,6 @@
       "url": "https://www.dostor.org/5676177",
       "published_at": "20260822T160000Z",
       "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_46019bb1c0eadba5",
-      "headline": "Lurer . com | Ֆին քաղաքական գործիչը զգուշացրել է Ուկրաինային աջակցության մեծացման դեպքում Ռուսաստանի կոշտ պատասխանի մասին",
-      "url": "https://lurer.com/article/748625/am",
-      "published_at": "20260822T141500Z",
-      "source": "lurer.com",
       "tags": []
     },
     {
@@ -238,14 +174,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_8794bd37e260fb58",
-      "headline": "Mikaal Zulfiqar says he open to Bollywood return , only if invited  respectfully",
-      "url": "https://tribune.com.pk/story/2625257/mikaal-zulfiqar-says-hes-open-to-bollywood-return-only-if-invited-respectfully",
-      "published_at": "20260822T141500Z",
-      "source": "tribune.com.pk",
-      "tags": []
-    },
-    {
       "id": "gdelt_400cea8f4149d37c",
       "headline": "Wise flags hidden forex markups in remittances",
       "url": "https://www.philstar.com/business/2026/08/23/2551060/wise-flags-hidden-forex-markups-remittances",
@@ -254,27 +182,21 @@
       "tags": []
     },
     {
-      "id": "gdelt_569146568c10ef01",
-      "headline": "Медведев рассказал об успехах России , достигнутых в условиях санкций",
-      "url": "https://russian.rt.com/world/news/1672913-medvedev-uspehi-rossii",
-      "published_at": "20260822T143000Z",
-      "source": "russian.rt.com",
-      "tags": []
+      "id": "gdelt_7463da00cae4baf9",
+      "headline": "Trump wants more economic pressure on Iran . What are his options ?",
+      "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/22/explainer-trump-wants-more-economic-pressure-on-iran-what-are-his-options",
+      "published_at": "20260822T193000Z",
+      "source": "internazionale.it",
+      "tags": [
+        "IRAN"
+      ]
     },
     {
-      "id": "gdelt_92cba02a7baf1176",
-      "headline": "Teherani kundërshton sanksionet e propozuara nga SHBA - ja",
-      "url": "https://zeri.info/bota/634515/teherani-kundershton-sanksionet-e-propozuara-nga-shba-ja/",
-      "published_at": "20260822T143000Z",
-      "source": "zeri.info",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f2973df5a2b9e9a0",
-      "headline": "Thẩm phán bác lệnh cấm thị thực của ông Trump đối với công dân 75 quốc gia",
-      "url": "https://thanhnien.vn/tham-phan-bac-lenh-cam-thi-thuc-cua-ong-trump-doi-voi-cong-dan-75-quoc-gia-185260822203839672.htm",
-      "published_at": "20260822T143000Z",
-      "source": "thanhnien.vn",
+      "id": "gdelt_6c4df7b02e304b92",
+      "headline": "В Израиле заявили , что не хотят эскалации напряженности в отношениях с Турцией",
+      "url": "https://www.vesti.ru/ns/v-izraile-zayavili-chto-ne-khotyat-ehskalacii-napryazhennosti-v-otnosheniyakh-s-turciej",
+      "published_at": "20260822T213000Z",
+      "source": "vesti.ru",
       "tags": []
     },
     {
@@ -283,14 +205,6 @@
       "url": "https://www.objectiv.tv/objectively/2026/08/22/rf-prodvinulas-vozle-prigranichnogo-sela-artelnoe-na-harkovshhine-deepstate/",
       "published_at": "20260822T161500Z",
       "source": "objectiv.tv",
-      "tags": []
-    },
-    {
-      "id": "gdelt_02d60a668a4861a3",
-      "headline": "Медведев о противостоянии РФ санкциям : эти достижения нужно закрепить",
-      "url": "https://www.vesti.ru/ns/medvedev-o-protivostoyanii-rf-sankciyam-ehti-dostizheniya-nuzhno-zakrepit",
-      "published_at": "20260822T144500Z",
-      "source": "vesti.ru",
       "tags": []
     },
     {
@@ -304,16 +218,6 @@
       ]
     },
     {
-      "id": "gdelt_85e74c40a49c58ce",
-      "headline": "Growing international pressure puts Israel under diplomatic strain : Israeli media",
-      "url": "https://aa.com.tr/en/middle-east/growing-international-pressure-puts-israel-under-diplomatic-strain-israeli-media/4034573",
-      "published_at": "20260822T144500Z",
-      "source": "aa.com.tr",
-      "tags": [
-        "ISRAEL"
-      ]
-    },
-    {
       "id": "gdelt_e4b67d9957be496b",
       "headline": "美伊进入经济战 中东局势何去何从 经济制裁成博弈主线 _ 新闻频道 _ 中华网",
       "url": "https://news.china.com/socialgd/10000169/20260822/49692525.html",
@@ -322,14 +226,6 @@
       "tags": [
         "CHINA"
       ]
-    },
-    {
-      "id": "gdelt_aee77dcc61389ef8",
-      "headline": "Медведев : успехи России в условиях санкций нужно закрепить",
-      "url": "https://russian.rt.com/world/news/1672915-uspehi-rossii-sankcii",
-      "published_at": "20260822T143000Z",
-      "source": "russian.rt.com",
-      "tags": []
     },
     {
       "id": "gdelt_59f2685fcce0d658",
@@ -345,6 +241,16 @@
       "url": "https://naslovi.net/tema/2557706",
       "published_at": "20260822T163000Z",
       "source": "naslovi.net",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_97218cdfb05edbe6",
+      "headline": "Сар : Израел не жели ескалацију односа са Турском , али не прихвата турске базе у Сирији",
+      "url": "https://www.politika.rs/scc/clanak/780286/sar-izrael-ne-zeli-eskalaciju-odnosa-sa-turskom-ali-ne-prihvata-turske-baze-u-siriji",
+      "published_at": "20260822T204500Z",
+      "source": "politika.rs",
       "tags": []
     },
     {
@@ -402,6 +308,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_bf3f53a49eac665e",
+      "headline": "美伊制裁戰升溫 華府鎖定中共施壓德黑蘭 | 川普 | 伊朗 | 經濟制裁",
+      "url": "https://www.ntdtv.com/b5/2026/08/22/a104126377.html",
+      "published_at": "20260822T193000Z",
+      "source": "ntdtv.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_94b58040df3399fc",
       "headline": "白俄羅斯記者遭捷克制裁 法院裁定曾效力俄情報局 | 國際",
       "url": "https://www.cna.com.tw:443/news/aopl/202608220224.aspx",
@@ -416,6 +330,16 @@
       "published_at": "20260822T163000Z",
       "source": "setn.com",
       "tags": []
+    },
+    {
+      "id": "gdelt_7e965535de50508e",
+      "headline": "NIA raids 10 Kashmir locations over Pakistan - based terror network",
+      "url": "https://www.tribuneindia.com/news/j-k/nia-raids-10-kashmir-locations-over-pakistan-based-terror-network/",
+      "published_at": "20260822T193000Z",
+      "source": "tribuneindia.com",
+      "tags": [
+        "PAKISTAN"
+      ]
     },
     {
       "id": "gdelt_e9f6268519e0f5ee",
@@ -450,14 +374,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_a124cc454381396c",
-      "headline": "闪评｜美伊进入  经济战  中东局势何去何从 ？",
-      "url": "https://baijiahao.baidu.com/s?id=1874230139251154879",
-      "published_at": "20260822T150000Z",
-      "source": "baijiahao.baidu.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_96fd83acf3c0c645",
       "headline": "Προειδοποίηση Barrack στον Νetanyahu για « επικίνδυνα παιχνίδια » στη Συρία - Επικίνδυνη κλιμάκωση Ισραήλ – Τουρκίας",
       "url": "https://www.bankingnews.gr/diethni/articles/895076/proeidopoiisi-barrack-ston-netanyahu-gia-epikindyna-paixnidia-sti-syria-epikindyni-klimakosi-israil-tourkias",
@@ -473,6 +389,14 @@
       "url": "https://www.kibrispostasi.com/c37-DUNYA/n611582-iran-ekonomik-savastan-cikis-yolu-ariyor",
       "published_at": "20260822T163000Z",
       "source": "kibrispostasi.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_08a82c44d05d4b6c",
+      "headline": "newratings . de",
+      "url": "https://www.newratings.de/du/main/company_headline.m?nid=20039315",
+      "published_at": "20260822T203000Z",
+      "source": "newratings.de",
       "tags": []
     },
     {
@@ -518,14 +442,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_82c61f24cbe9117e",
-      "headline": "पाकड्यांची टरकली ! सिंधू पाणी कराराबाबत पाकिस्तानी मंत्र्याच्या मनातील भीती व्यक्त",
-      "url": "https://www.saamana.com/pakistan-minister-ahsan-iqbal-indus-waters-treaty-abeyance-saamana-online-news/",
-      "published_at": "20260822T134500Z",
-      "source": "saamana.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_f58947699e84d461",
       "headline": "„ Das ist unsäglich : Strack - Zimmermann fordert „ drastische  Sanktionen gegen Russland und Druck auf EU - Partner",
       "url": "http://www.come-on.de/politik/das-ist-unsaeglich-strack-zimmermann-fordert-drastische-sanktionen-gegen-russland-und-druck-auf-eu-partner-zr-94455365.html",
@@ -542,11 +458,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_e66b3138799cba78",
-      "headline": "AS Beberkan Rencana Isolasi Ekonomi Iran Pekan Depan , China Terancam Jadi Sasaran",
-      "url": "https://ekbis.sindonews.com/read/1741905/33/as-beberkan-rencana-isolasi-ekonomi-iran-pekan-depan-china-terancam-jadi-sasaran-1787400517",
-      "published_at": "20260822T141500Z",
-      "source": "ekbis.sindonews.com",
+      "id": "gdelt_1da1fb0b76303428",
+      "headline": "Возмездие будет жестче : на Западе предупредили о последствиях эскалации против России ( X , США )",
+      "url": "https://inosmi.ru/20260822/ukraina-279809411.html",
+      "published_at": "20260822T193000Z",
+      "source": "inosmi.ru",
       "tags": []
     },
     {
@@ -558,11 +474,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_cf1d83057309aba5",
-      "headline": "અમેરિકાની તેહરાન પર નવા પ્રતિબંધો લાદવાની તૈયારી , ટ્રમ્પે કહ્યું - તેમની મરજી પ્રમાણે ડીલ નહીં થાય",
-      "url": "https://www.gujaratsamachar.com/news/international/america-preparing-to-impose-new-sanctions-on-tehran-trump-said-deal-will-not-be-made-according-to-his-wishes-59986852215",
-      "published_at": "20260822T151500Z",
-      "source": "gujaratsamachar.com",
+      "id": "gdelt_13fa394f0dbfc962",
+      "headline": "Bulgaria removes US tankers after Iran threat as Tehran shows off underground missile",
+      "url": "https://www.ynetnews.com/article/byty08ddzg",
+      "published_at": "20260822T213000Z",
+      "source": "ynetnews.com",
       "tags": []
     },
     {
@@ -574,35 +490,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_93ba41a68015be60",
-      "headline": "US Sanctions Threat : Behind Iran Fresh Rallying Cry Against  Same Bull",
-      "url": "https://www.ibtimes.com/us-sanctions-threat-behind-irans-fresh-rallying-cry-against-same-bull-3806678",
-      "published_at": "20260822T153000Z",
-      "source": "ibtimes.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1b4054a8906bb42b",
-      "headline": "« العجز عن مواجهة الإرهاب اليهودى يهدد أمن إسرائيل ».. جيش الاحتلال يحذر وزير دفاعه",
-      "url": "https://www.almasryalyoum.com/news/details/4343359",
-      "published_at": "20260822T141500Z",
-      "source": "almasryalyoum.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_242309620e45a6b2",
-      "headline": "Kastelo case puts South Africa forex rules to the test",
-      "url": "https://www.timeslive.co.za/news/business/2026-08-22-kastelo-case-puts-south-africas-forex-rules-to-the-test/",
-      "published_at": "20260822T134500Z",
-      "source": "timeslive.co.za",
-      "tags": []
-    },
-    {
-      "id": "gdelt_11b6da1d5c393aaf",
-      "headline": "Izraelci na Zapadnoj obali uhitili gradonačelnika i Palestince . Neke i pretukli",
-      "url": "https://www.index.hr/vijesti/clanak/izraelci-na-zapadnoj-obali-uhitili-gradonacelnika-i-palestince-neke-i-pretukli/2826591.aspx",
-      "published_at": "20260822T153000Z",
-      "source": "index.hr",
+      "id": "gdelt_21a9349de44a2291",
+      "headline": "Tehran experience shows US economic pressure incapable , yields opposite result : Iran First VP slams Trump  Economic D - Day  threat",
+      "url": "https://news.webindia123.com/news/Articles/World/20260822/4489902.html",
+      "published_at": "20260822T193000Z",
+      "source": "news.webindia123.com",
       "tags": []
     },
     {
@@ -630,35 +522,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_49e911052730d37c",
-      "headline": "Глава МИД Германии не исключил новых санкций ЕС против Израиля",
-      "url": "https://russian.rt.com/world/news/1672916-germaniya-sankcii-izrail",
-      "published_at": "20260822T143000Z",
-      "source": "russian.rt.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_8fe3cd18f652c8d8",
       "headline": "Qalibaf Says  We Cannot Survive  If People Go Hungry",
       "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/08/iran-260821-rferl04.htm",
       "published_at": "20260822T154500Z",
       "source": "globalsecurity.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_02cd3dee22c79e69",
-      "headline": "Ανησυχία στον ισραηλινό στρατό για πιθανή κλιμάκωση στη Γάζα από τον γενοκτόνο Netanyahu για να αναβάλει τις εκλογές",
-      "url": "https://www.bankingnews.gr/diethni/articles/895090/anisyxia-ston-israilino-strato-gia-pithani-klimakosi-sti-gaza-apo-ton-genoktono-netanyahu-gia-na-anavalei-tis-ekloges",
-      "published_at": "20260822T180000Z",
-      "source": "bankingnews.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8301bd9c02af24ce",
-      "headline": "Ανησυχία στον ισραηλινό στρατό για πιθανή κλιμάκωση στη Γάζα από τον γενοκτόνο Netanyahu για να αναβάλει τις εκλογές",
-      "url": "https://www.bankingnews.gr/diethni/articles/895090/anisyxia-ston-israilino-strato-gia-pithani-klimakosi-sti-gaza-apo-ton-genoktono-netanyahu-gia-na-anavalei-tis-ekloges%20title=",
-      "published_at": "20260822T180000Z",
-      "source": "bankingnews.gr",
       "tags": []
     },
     {
@@ -675,6 +543,22 @@
       "url": "https://passages.winnipegfreepress.com/passage-details/id-338359/THOMPSON_ARLENE%20JANICE",
       "published_at": "20260822T171500Z",
       "source": "passages.winnipegfreepress.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_02cd3dee22c79e69",
+      "headline": "Ανησυχία στον ισραηλινό στρατό για πιθανή κλιμάκωση στη Γάζα από τον γενοκτόνο Netanyahu για να αναβάλει τις εκλογές",
+      "url": "https://www.bankingnews.gr/diethni/articles/895090/anisyxia-ston-israilino-strato-gia-pithani-klimakosi-sti-gaza-apo-ton-genoktono-netanyahu-gia-na-anavalei-tis-ekloges",
+      "published_at": "20260822T180000Z",
+      "source": "bankingnews.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8301bd9c02af24ce",
+      "headline": "Ανησυχία στον ισραηλινό στρατό για πιθανή κλιμάκωση στη Γάζα από τον γενοκτόνο Netanyahu για να αναβάλει τις εκλογές",
+      "url": "https://www.bankingnews.gr/diethni/articles/895090/anisyxia-ston-israilino-strato-gia-pithani-klimakosi-sti-gaza-apo-ton-genoktono-netanyahu-gia-na-anavalei-tis-ekloges%20title=",
+      "published_at": "20260822T180000Z",
+      "source": "bankingnews.gr",
       "tags": []
     },
     {
@@ -699,22 +583,6 @@
       "url": "https://focus.ua/uk/voennye-novosti/765393-udari-po-ozon-minoboroni-pidtverdilo-ataku-na-skladi-marketpleysa",
       "published_at": "20260822T183000Z",
       "source": "focus.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_26794a8364258f44",
-      "headline": "伊朗副总统吐槽中国车又烂又贵 ， 推荐日本车 ， 被美石油封锁闹的 ？",
-      "url": "https://k.sina.com.cn/article_7879923852_1d5ae188c02001lh6q.html",
-      "published_at": "20260822T141500Z",
-      "source": "k.sina.com.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_08b423545e1b08f3",
-      "headline": "U . S . Imposes Sanctions On ICC President and Senior Trial Lawyer – NaturalNews . com",
-      "url": "https://www.naturalnews.com/2026-08-22-us-sanctions-icc-president-senior-trial-lawyer.html",
-      "published_at": "20260822T134500Z",
-      "source": "naturalnews.com",
       "tags": []
     },
     {
@@ -750,6 +618,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_30c006e48bd08e18",
+      "headline": "Kërcënimi amerikan për Iranin , Teherani thotë se bllokada ekonomike do të ketë ndikim global",
+      "url": "https://www.vizionplus.tv/kercenimi-amerikan-per-iranin-teherani-thote-se-bllokada-ekonomike-do-te-kete-ndikim-global/",
+      "published_at": "20260822T193000Z",
+      "source": "vizionplus.tv",
+      "tags": []
+    },
+    {
       "id": "gdelt_5dc97e1c7cca1802",
       "headline": "Трамп хочет встретиться с Ким Чен Ыном : к чему это может привести",
       "url": "https://www.mk.ru/politics/2026/08/22/tramp-khochet-vstretitsya-s-kim-chen-ynom-k-chemu-eto-mozhet-privesti.html",
@@ -766,14 +642,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_cd4ece0e6558fe2f",
-      "headline": "Russland : Tote und Verletzte nach ukrainischen Angriffen",
-      "url": "https://www.watson.ch/international/drohnen/932824200-russland-tote-und-verletzte-nach-ukrainischen-angriffen",
-      "published_at": "20260822T134500Z",
-      "source": "watson.ch",
-      "tags": []
-    },
-    {
       "id": "gdelt_957b7f0239cdfefb",
       "headline": "Удары по Ozon Минобороны подтвердило атаку на склады маркетплейса",
       "url": "https://focus.ua/voennye-novosti/765393-udary-po-ozon-minoborony-podtverdilo-ataku-na-sklady-marketpleysa",
@@ -782,52 +650,30 @@
       "tags": []
     },
     {
-      "id": "gdelt_05e50a5380d99597",
-      "headline": "Iran Pledges  Devastating  Retaliation to U . S . Economic Pressure Threats - Jowhar News Leader",
-      "url": "https://jowhar.com/iran-pledges-devastating-retaliation-to-u-s-economic-pressure-threats/",
-      "published_at": "20260822T153000Z",
-      "source": "jowhar.com",
+      "id": "gdelt_34435bfa174364aa",
+      "headline": "Ռուսաստանը փորձում է ահաբեկչության միջոցով կոտրել Ուկրաինային ․ Մակրոն",
+      "url": "https://www.1in.am/3750778.html",
+      "published_at": "20260822T204500Z",
+      "source": "1in.am",
       "tags": []
     },
     {
-      "id": "gdelt_09edaf0ae51133f0",
-      "headline": "Медведев с иронией вспомнил  мантру Запада  об экономике России",
-      "url": "https://ria.ru/20260822/medvedev-2112522697.html",
-      "published_at": "20260822T144500Z",
-      "source": "ria.ru",
+      "id": "gdelt_ce3b8546d7679e84",
+      "headline": "Расте напнатоста на Западниот Брег : Израелските сили уапсиле градоначалник и претепале Палестинци",
+      "url": "https://mkd.mk/svet/vesti-svet/raste-napnatosta-na-zapadniot-breg-izraelskite-sili-privele-gradonachalnik/",
+      "published_at": "20260822T193000Z",
+      "source": "mkd.mk",
       "tags": []
     },
     {
-      "id": "gdelt_91a99954f6c3c97a",
-      "headline": "Lionel Messi Kena Sanksi usai Insiden Memukul Lawan",
-      "url": "https://www.viva.co.id/bola/1923332-lionel-messi-kena-sanksi-usai-insiden-memukul-lawan",
-      "published_at": "20260822T144500Z",
-      "source": "viva.co.id",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d2064b3ddff4cc64",
-      "headline": "Yeni Zelanda Başbakanı Luxona Gazze protestosu",
-      "url": "https://www.odatv.com/dunya/yeni-zelanda-basbakani-luxona-gazze-protestosu-israil-tepkisi-120159698",
-      "published_at": "20260822T134500Z",
-      "source": "odatv.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_02243b08912db525",
-      "headline": "Mức xử phạt vi phạm hành chính đối với hành vi vi phạm về bảo vệ dữ liệu cá nhân",
-      "url": "https://vietstock.vn/2026/08/muc-xu-phat-vi-pham-hanh-chinh-doi-voi-hanh-vi-vi-pham-ve-bao-ve-du-lieu-ca-nhan-4265-1484134.htm",
-      "published_at": "20260822T150000Z",
-      "source": "vietstock.vn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_039a47adab87f625",
-      "headline": "Взрыв в ТЦ в Кривом Роге – не исключение : Коваленко предупредил об угрозе для тыловых городов",
-      "url": "https://24tv.ua/ru/vzryv-tc-krivom-roge-ne-iskljuchenie-kovalenko-predupredil-ob_n3128058",
-      "published_at": "20260822T150000Z",
-      "source": "24tv.ua",
-      "tags": []
+      "id": "gdelt_b20fe47367f3095c",
+      "headline": "World Bank sanctions e - Citizen founder over fraudulent Somalia deal",
+      "url": "https://www.standardmedia.co.ke/business/business/article/2001555954/world-bank-sanctions-e-citizen-founder-over-fraudulent-somalia-deal",
+      "published_at": "20260822T213000Z",
+      "source": "standardmedia.co.ke",
+      "tags": [
+        "SOMALIA"
+      ]
     },
     {
       "id": "gdelt_bf3de1bbeda5c04c",
@@ -862,14 +708,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_3c82e83275c3192c",
-      "headline": "Izraeli goditi bazën ajrore në Siri , ministri i Mbrojtjes : Turqia po përgatiste aktivitet që kërcënonte sigurinë tonë",
-      "url": "https://albeu.com/lajme/bota/izraeli-goditi-bazen-ajrore-ne-siri-ministri-i-mbrojtjes-turqia-po-pergatiste-aktivitet-qe-kercenonte-sigurine-tone/981482/",
-      "published_at": "20260822T173000Z",
-      "source": "albeu.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_aff44951a2e3f773",
       "headline": "Iran condemns US plans to announce new sanctions",
       "url": "https://www.arabnews.com/node/2655526/middle-east",
@@ -878,45 +716,19 @@
       "tags": []
     },
     {
+      "id": "gdelt_3c82e83275c3192c",
+      "headline": "Izraeli goditi bazën ajrore në Siri , ministri i Mbrojtjes : Turqia po përgatiste aktivitet që kërcënonte sigurinë tonë",
+      "url": "https://albeu.com/lajme/bota/izraeli-goditi-bazen-ajrore-ne-siri-ministri-i-mbrojtjes-turqia-po-pergatiste-aktivitet-qe-kercenonte-sigurine-tone/981482/",
+      "published_at": "20260822T173000Z",
+      "source": "albeu.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_18beca9613159410",
       "headline": "Αεροπορική επίθεση Μιανμάρ σε βουδιστικό μοναστήρι",
       "url": "https://www.sbctv.gr/2026/08/%CE%B1%CE%B5%CF%81%CE%BF%CF%80%CE%BF%CF%81%CE%B9%CE%BA%CE%B7-%CE%B5%CF%80%CE%B9%CE%B8%CE%B5%CF%83%CE%B7-%CE%BC%CE%B9%CE%B1%CE%BD%CE%BC%CE%B1%CF%81/",
       "published_at": "20260822T160000Z",
       "source": "sbctv.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1b2ca19255aeee77",
-      "headline": "Anime India Set to Host Landmark Mumbai Convention : Naruto Director Hayato Date , 50 , 000 Fans , and Japanese Industry Titans Converge at NESCO",
-      "url": "https://news.webindia123.com/news/Articles/Business/20260822/4489822.html",
-      "published_at": "20260822T141500Z",
-      "source": "news.webindia123.com",
-      "tags": [
-        "INDIA"
-      ]
-    },
-    {
-      "id": "gdelt_8790caea2a3d1afb",
-      "headline": "Trump threatens sanctions on Iran partners as oil prices rise again during the weekend",
-      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/22/trump-threatens-sanctions-on-iran-partners-as-oil-prices-rise-again-during-the-weekend",
-      "published_at": "20260822T141500Z",
-      "source": "thestar.com.my",
-      "tags": []
-    },
-    {
-      "id": "gdelt_13848ccc567d5961",
-      "headline": "72 flygninger kansellert",
-      "url": "https://www.dagbladet.no/nyheter/72-flygninger-kansellert/85048285",
-      "published_at": "20260822T150000Z",
-      "source": "dagbladet.no",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9303dea0dc410664",
-      "headline": "Israeli military officials suspect Netanyahu may seek escalation to delay elections : Israeli media",
-      "url": "https://aa.com.tr/en/middle-east/israeli-military-officials-suspect-netanyahu-may-seek-escalation-to-delay-elections-israeli-media/4034579",
-      "published_at": "20260822T144500Z",
-      "source": "aa.com.tr",
       "tags": []
     },
     {
@@ -930,14 +742,6 @@
       ]
     },
     {
-      "id": "gdelt_938bb4eee3db3827",
-      "headline": "О перебоях с газом предупредили власти Ирана",
-      "url": "https://vestikavkaza.ru/news/o-pereboah-s-gazom-predupredili-vlasti-irana.html",
-      "published_at": "20260822T153000Z",
-      "source": "vestikavkaza.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_2d1573ee5c7f0000",
       "headline": "الأمن الإسرائيلي يحذر من عواقب تصعيد نتنياهو وكاتس ضد تركيا",
       "url": "https://www.alwatanvoice.com/arabic/news/2026/08/22/1553579.html",
@@ -946,21 +750,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_588177a3bd68f013",
-      "headline": "Quê hương bị Nga giáng đòn oanh tạc dữ dội , Tổng thống Ukraine Zelensky nổi giận thề trả đũa",
-      "url": "https://danviet.vn/que-huong-bi-nga-giang-don-oanh-tac-du-doi-tong-thong-ukraine-zelensky-noi-gian-the-tra-dua-d1453626.html",
-      "published_at": "20260822T151500Z",
-      "source": "danviet.vn",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
       "id": "gdelt_6e277b872cc2c244",
       "headline": "China defies US sanctions and breaks Iran oil blockade",
       "url": "https://www.bankingnews.gr/diethni/articles/895079/china-defies-us-sanctions-and-breaks-iran-oil-blockade",
       "published_at": "20260822T180000Z",
       "source": "bankingnews.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0d82ecb7edb76cf2",
+      "headline": "Iran Condemns US Plans to Announce New Sanctions",
+      "url": "https://english.aawsat.com/world/5309943-iran-condemns-us-plans-announce-new-sanctions",
+      "published_at": "20260822T193000Z",
+      "source": "english.aawsat.com",
       "tags": []
     },
     {
@@ -980,39 +782,22 @@
       "tags": []
     },
     {
-      "id": "gdelt_db45e774ced00386",
-      "headline": "Kena Sanksi Banned FIFA , Tiga Kelompok Suporter Desak Pengusaha dan Pejabat Selamatkan Sriwijaya FC",
-      "url": "https://palembang.tribunnews.com/superball/1326525/kena-sanksi-banned-fifa-tiga-kelompok-suporter-desak-pengusaha-dan-pejabat-selamatkan-sriwijaya-fc",
-      "published_at": "20260822T151500Z",
-      "source": "palembang.tribunnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_195f7e908de4f04a",
-      "headline": "Guerre en Ukraine : Emmanuel Macron annonce lenvoi de nouveaux missiles intercepteurs à Kiev",
-      "url": "https://www.cnews.fr/france/2026-08-22/guerre-en-ukraine-emmanuel-macron-annonce-lenvoi-de-nouveaux-missiles",
-      "published_at": "20260822T143000Z",
-      "source": "cnews.fr",
-      "tags": [
-        "UKRAINE",
-        "FRANCE"
-      ]
-    },
-    {
-      "id": "gdelt_61b8ffa5aef38f24",
-      "headline": "కఠినతర ఆంక్షలు విధిస్తా : ట్రంప్ - బెదిరింపులకు తలొగ్గేదేలే : ఇరాన్",
-      "url": "https://www.prajasakti.com/international-news/international-43/i-will-impose-stricter-sanctions-trump-we-will-not-bow-to-threats-iran",
-      "published_at": "20260822T134500Z",
-      "source": "prajasakti.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_d6fe7b0fa6dfd242",
       "headline": "Jakie zmiany dla firm w 2026 r .? Ustawa o KSC w erze AI",
       "url": "https://forsal.pl/biznes/aktualnosci/artykuly/11292613,odpowiedzialnosc-zarzadu-za-cyberbezpieczenstwo-co-zmienia-ustawa-o-ksc-w-erze-ai.html",
       "published_at": "20260822T173000Z",
       "source": "forsal.pl",
       "tags": []
+    },
+    {
+      "id": "gdelt_a0f8ed73242d8161",
+      "headline": "Presiunile internaționale asupra Israelului se intensifică . Aliații occidentali se revoltă împotriva politicilor premierului Netanyahu",
+      "url": "https://ziare.com/cisiordania-colonii/tensiuni-israel-occident-benjamin-netanyahu-2031224",
+      "published_at": "20260822T204500Z",
+      "source": "ziare.com",
+      "tags": [
+        "ISRAEL"
+      ]
     },
     {
       "id": "gdelt_a4034cb9d35af822",
@@ -1023,11 +808,226 @@
       "tags": []
     },
     {
-      "id": "gdelt_262f4aac2cdbe998",
-      "headline": "Путин заявил , что Украину разъедает коррупция",
-      "url": "https://russian.rt.com/ussr/news/1672946-putin-ukraina-korrupciya",
-      "published_at": "20260822T153000Z",
-      "source": "russian.rt.com",
+      "id": "gdelt_5cb20c7e8a9cdb55",
+      "headline": "Better to end the war now , Iranian president says",
+      "url": "https://www.perthnow.com.au/news/conflict/better-to-end-the-war-now-iranian-president-says-c-22764222",
+      "published_at": "20260822T213000Z",
+      "source": "perthnow.com.au",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e4c9ce8038bff184",
+      "headline": "Army , BSF and Punjab police discuss joint strategy to counter drone - led drug smuggling",
+      "url": "https://www.newindianexpress.com/india/2026/Aug/22/army-bsf-and-punjab-police-discuss-joint-strategy-to-counter-drone-led-drug-smuggling",
+      "published_at": "20260822T170000Z",
+      "source": "newindianexpress.com",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
+      "id": "gdelt_fc74ea754b40a61b",
+      "headline": "زيلينسكي : فرنسا توافق على تسريع تسليم معدات دفاع الجوي لأوكرانيا",
+      "url": "https://www.alquds.co.uk/%D8%B2%D9%8A%D9%84%D9%8A%D9%86%D8%B3%D9%83%D9%8A-%D9%81%D8%B1%D9%86%D8%B3%D8%A7-%D8%AA%D9%88%D8%A7%D9%81%D9%82-%D8%B9%D9%84%D9%89-%D8%AA%D8%B3%D8%B1%D9%8A%D8%B9-%D8%AA%D8%B3%D9%84%D9%8A%D9%85-%D9%85/",
+      "published_at": "20260822T183000Z",
+      "source": "alquds.co.uk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_01c8207c859696e2",
+      "headline": "Iran condemns U . S . plans to announce new sanctions as both sides show no signs of peace talks",
+      "url": "https://www.theglobeandmail.com/world/article-iran-condemns-us-plans-to-announce-new-sanctions-as-both-sides-show-no/",
+      "published_at": "20260822T170000Z",
+      "source": "theglobeandmail.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ede4ff881c58fbfe",
+      "headline": "تصعيد ميداني جنوب لبنان .. غارات إسرائيلية تستهدف وادي ومحيط بلدة صربين في قضاء بنت جبيل",
+      "url": "https://www.dostor.org/5676405",
+      "published_at": "20260822T193000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a7c52dfc4f6c8733",
+      "headline": "ورقة « العقوبات ».. هل تطيل أم توقف أمد الصراع الأمريكي الإيراني ؟",
+      "url": "https://www.dostor.org/5676412",
+      "published_at": "20260822T193000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_04ee4d3d05cd3c2a",
+      "headline": "Izrael prowokuje Turcję ? Amerykański wysłannik : może chodzić o elektorat",
+      "url": "https://pch24.pl/wiadomosci/izrael-prowokuje-turcje-amerykanski-wyslannik-moze-chodzic-o-elektorat,731484",
+      "published_at": "20260822T160000Z",
+      "source": "pch24.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_efe6eeeb7ed2c495",
+      "headline": "Tehran Says US Sanctions Are  Declaration Of War  On All Nations , Urges Global Revolt",
+      "url": "https://www.zerohedge.com/geopolitical/tehran-says-us-sanctions-are-declaration-war-all-nations-urges-global-revolt",
+      "published_at": "20260822T203000Z",
+      "source": "zerohedge.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c73dfe586244c907",
+      "headline": "黑龙江省工商联代表团赴港澳考察对接交流",
+      "url": "https://baijiahao.baidu.com/s?id=1874226835419677827",
+      "published_at": "20260822T173000Z",
+      "source": "baijiahao.baidu.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9549614f58ff12b9",
+      "headline": "Tarbela cost jumps 282 % to Rs316b",
+      "url": "https://tribune.com.pk/story/2625308/tarbela-cost-jumps-282-to-rs316b",
+      "published_at": "20260822T213000Z",
+      "source": "tribune.com.pk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c18bef0e114aba5f",
+      "headline": "Kosten eine Million Franken oder mehr : In Schweizer Alpen entstehen Tresor - Bunker für wohlhabende Menschen",
+      "url": "https://www.focus.de/panorama/welt/kosten-eine-million-franken-oder-mehr-in-schweizer-alpen-entstehen-tresor-bunker-fuer-wohlhabende-menschen_707651f4-0343-4df4-b6bb-4fa03d118236.html",
+      "published_at": "20260822T173000Z",
+      "source": "focus.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c927e8e5963095c7",
+      "headline": "Վրաստանը հրաժարվել է միանալ Եվրամիության կողմից Իրանի դեմ ընդունված վերջին պատժամիջոցներին",
+      "url": "https://www.panorama.am/am/news/2026/08/22/%D5%8E%D6%80%D5%A1%D5%BD%D5%BF%D5%A1%D5%B6-%D4%B5%D5%84/3167090",
+      "published_at": "20260822T163000Z",
+      "source": "panorama.am",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ec2ee5df5ff706f9",
+      "headline": "Ραδιοφωνικό Μαγκαζίνο 22 . 08 . 2026",
+      "url": "https://www.dw.com/el/%CF%81%CE%B1%CE%B4%CE%B9%CE%BF%CF%86%CF%89%CE%BD%CE%B9%CE%BA%CF%8C-%CE%BC%CE%B1%CE%B3%CE%BA%CE%B1%CE%B6%CE%AF%CE%BD%CE%BF-22082026/audio-78469057",
+      "published_at": "20260822T163000Z",
+      "source": "dw.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_93e1cf3142f4390e",
+      "headline": "الهلال الأحمر الفلسطيني : 11 مصابا جراء إطلاق جنود الاحتلال قنابل الغاز خلال اقتحام طوباس",
+      "url": "https://studio.dostor.org/177474",
+      "published_at": "20260822T180000Z",
+      "source": "studio.dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e25cf10e1bd6f328",
+      "headline": "tayyar . org - غارات إسرائيلية .. وعملية إغتيال جديدة !",
+      "url": "https://www.tayyar.org/News/World/738064/_guid=738064",
+      "published_at": "20260822T161500Z",
+      "source": "tayyar.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bd1f8cb3bcc5cbd9",
+      "headline": "İrana karşı askeri tehditten ekonomik kuşatmaya",
+      "url": "https://www.haksozhaber.net/irana-karsi-askeri-tehditten-ekonomik-kusatmaya-258916h.htm",
+      "published_at": "20260822T204500Z",
+      "source": "haksozhaber.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_526eb646cdd5d195",
+      "headline": "بوتين : الضربات على البنية التحتية الأوكرانية فعالة",
+      "url": "https://www.elwatannews.com/news/details/8344182",
+      "published_at": "20260822T161500Z",
+      "source": "elwatannews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7095b675230a4668",
+      "headline": "Armed men kidnap dozens in attacks on Nigerian villages - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+      "url": "https://dominicanrepublicpost.com/armed-men-kidnap-dozens-in-attacks-on-nigerian-villages/",
+      "published_at": "20260822T213000Z",
+      "source": "dominicanrepublicpost.com",
+      "tags": [
+        "DOMINICAN_REPUBLIC"
+      ]
+    },
+    {
+      "id": "gdelt_3d02efc58db6fa2d",
+      "headline": "„ Das ist unsäglich : Strack - Zimmermann fordert „ drastische  Sanktionen gegen Russland und Druck auf EU - Partner",
+      "url": "http://www.soester-anzeiger.de/politik/das-ist-unsaeglich-strack-zimmermann-fordert-drastische-sanktionen-gegen-russland-und-druck-auf-eu-partner-zr-94455365.html",
+      "published_at": "20260822T163000Z",
+      "source": "soester-anzeiger.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ba7bc665fccc390a",
+      "headline": "Zelenskyy announces strikes on Russian infrastructure ; holds high - level talks with allies on air defence",
+      "url": "https://news.webindia123.com/news/Articles/World/20260822/4489872.html",
+      "published_at": "20260822T180000Z",
+      "source": "news.webindia123.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fb06558e13d3a4b0",
+      "headline": "UAE - Russia Trade in Services and Investment Agreement enters into force",
+      "url": "https://news.webindia123.com/news/Articles/World/20260822/4489914.html",
+      "published_at": "20260822T193000Z",
+      "source": "news.webindia123.com",
+      "tags": [
+        "UAE",
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "gdelt_2dbd10b681f1875f",
+      "headline": "كرة التهدئة في ملعب إسرائيل ونتنياهو يرد بوضع العصي في الدواليب",
+      "url": "https://www.alquds.co.uk/%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D8%AA%D9%87%D8%AF%D8%A6%D8%A9-%D9%81%D9%8A-%D9%85%D9%84%D8%B9%D8%A8-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%88%D9%86%D8%AA%D9%86%D9%8A%D8%A7%D9%87%D9%88-%D9%8A/",
+      "published_at": "20260822T193000Z",
+      "source": "alquds.co.uk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cb2de951f7c1a154",
+      "headline": "NATO w Polsce przejęło inicjatywę ? Pokazało Rosji , do czego jest zdolne",
+      "url": "http://wpolityce.pl/polityka/nato-przejelo-inicjatywe-pokazalo-rosji-do-czego-jest-zdolne,236033",
+      "published_at": "20260822T171500Z",
+      "source": "wpolityce.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9c2f7bb300b28968",
+      "headline": "После шести месяцев войны Трамп все еще проигрывает Ирану ( The New Yorker , США )",
+      "url": "https://inosmi.ru/20260822/iran-279807503.html",
+      "published_at": "20260822T193000Z",
+      "source": "inosmi.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e0a8351ada3369a5",
+      "headline": "Գերմանիայի արտաքին գործերի նախարարը չի բացառել Իսրայելի դեմ ԵՄ նոր պատժամիջոցների կիրառումը",
+      "url": "https://www.1in.am/3750726.html",
+      "published_at": "20260822T171500Z",
+      "source": "1in.am",
+      "tags": []
+    },
+    {
+      "id": "gdelt_08e7b818e13f7b0c",
+      "headline": "بوتين : مستعدون لإجراء حوار سلام مع أوكرانيا فى هذه الحالة",
+      "url": "https://www.almasryalyoum.com/news/details/4343459",
+      "published_at": "20260822T171500Z",
+      "source": "almasryalyoum.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6b7a2a3e9c3ab2bc",
+      "headline": "ترامب في مأزق حرب إيران : تصعيد ضد الحلفاء ورسائل نووية متناقضة",
+      "url": "https://www.alquds.co.uk/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%81%D9%8A-%D9%85%D8%A3%D8%B2%D9%82-%D8%AD%D8%B1%D8%A8-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D8%B5%D8%B9%D9%8A%D8%AF-%D8%B6%D8%AF-%D8%A7%D9%84%D8%AD%D9%84%D9%81%D8%A7/",
+      "published_at": "20260822T193000Z",
+      "source": "alquds.co.uk",
       "tags": []
     }
   ]
