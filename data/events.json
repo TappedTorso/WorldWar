@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-08-24T21:43:11Z",
+    "generated_at_utc": "2026-08-24T22:41:51Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "http_error status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
         "fetched": 0
       },
       {
@@ -33,14 +33,6 @@
   },
   "events": [
     {
-      "id": "gdelt_2115312edcd0f285",
-      "headline": "Ford and Stellantis Drop 4 % as Trump Sets 50 % Auto Tariffs on Canada , General Motors Slips",
-      "url": "https://247wallst.com/investing/2026/08/24/ford-and-stellantis-drop-4-as-trump-sets-50-auto-tariffs-on-canada-general-motors-slips/",
-      "published_at": "20260824T154500Z",
-      "source": "247wallst.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_96f3d4a9ac51bbc0",
       "headline": "Tiongkok Tolak Sanksi AS ke Iran , Beijing Lindungi Kepentingan Nasionalnya",
       "url": "https://www.jawapos.com/internasional/2608240447/tiongkok-tolak-sanksi-as-ke-iran-beijing-lindungi-kepentingan-nasionalnya",
@@ -49,6 +41,14 @@
       "tags": [
         "IRAN"
       ]
+    },
+    {
+      "id": "gdelt_f20121b4e2b2f951",
+      "headline": "Прем  єр Канади назвав умову тривалого миру в Україні",
+      "url": "https://ua.korrespondent.net/world/worldabus/4905827-premier-kanady-nazvav-umovu-tryvaloho-myru-v-ukraini",
+      "published_at": "20260824T214500Z",
+      "source": "ua.korrespondent.net",
+      "tags": []
     },
     {
       "id": "gdelt_e8ac251c866a55e7",
@@ -72,27 +72,11 @@
       ]
     },
     {
-      "id": "gdelt_491acddc6aac903d",
-      "headline": "ROUNDUP 2 / Kiew feiert Unabhängigkeit : Milliarden für Kampf gegen Putin",
-      "url": "https://www.finanzen.net/nachricht/aktien/roundup-2-kiew-feiert-unabhaengigkeit-milliarden-fuer-kampf-gegen-putin-15897328",
-      "published_at": "20260824T161500Z",
-      "source": "finanzen.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c198034598cb6728",
-      "headline": "Sanksi Ekonomi AS Tidak Akan Meruntuhkan Pemerintahan Mojtaba , Ini 5 Alasannya",
-      "url": "https://international.sindonews.com/read/1742431/43/sanksi-ekonomi-as-tidak-akan-meruntuhkan-pemerintahan-mojtaba-ini-5-alasannya-1787555319",
-      "published_at": "20260824T161500Z",
-      "source": "international.sindonews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2edde0e92c61ab48",
-      "headline": "В Белом доме прокомментировали ответные меры России на санкции",
-      "url": "https://piter.tv/event/V_Belom_dome_prokommentirovali_otvetnie_meri_Rossii_na_sankcii/",
-      "published_at": "20260824T163000Z",
-      "source": "piter.tv",
+      "id": "gdelt_ab4f51fe296270a2",
+      "headline": "Премьер - министр Канады назвал условие длительного мира в Украине",
+      "url": "https://korrespondent.net/world/worldabus/4905827-premer-mynystr-kanady-nazval-uslovye-dlytelnoho-myra-v-ukrayne",
+      "published_at": "20260824T214500Z",
+      "source": "korrespondent.net",
       "tags": []
     },
     {
@@ -130,19 +114,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_89ee453ce924ceaf",
-      "headline": "Menteri Keuangan AS Ungkap Skenario yang Bisa Picu Serangan AS ke Iran",
-      "url": "https://www.tribunnews.com/internasional/7873030/menteri-keuangan-as-ungkap-skenario-yang-bisa-picu-serangan-as-ke-iran",
-      "published_at": "20260824T154500Z",
-      "source": "tribunnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cc4b77f837929d62",
-      "headline": "המטבע האיראני צולל לפני  המתקפה הכלכלית , טראמפ :  קריסה מוחלטת !!!",
-      "url": "https://www.ynet.co.il/news/article/rjjjc6fwgg",
-      "published_at": "20260824T161500Z",
-      "source": "ynet.co.il",
+      "id": "gdelt_27822c264def2ad5",
+      "headline": "Iran Threatens to Attack US Bases in European Countries",
+      "url": "https://news.antiwar.com/2026/08/24/iran-threatens-to-attack-us-bases-in-european-countries/",
+      "published_at": "20260824T214500Z",
+      "source": "news.antiwar.com",
       "tags": []
     },
     {
@@ -156,11 +132,21 @@
       ]
     },
     {
-      "id": "gdelt_be3185b7c444c3c8",
-      "headline": "ФАО представила новую стратегическую модель борьбы с трансграничными болезнями животных",
-      "url": "https://www.fao.org/newsroom/detail/fao-presents-new-strategic-model-to-tackle-transboundary-animal-diseases/ru",
-      "published_at": "20260824T163000Z",
-      "source": "fao.org",
+      "id": "gdelt_2e7ee93b9b8d2d34",
+      "headline": "Trump removes Syria from  terrorism list",
+      "url": "https://www.middleeasteye.net/news/us-formally-removes-syria-terror-blacklist",
+      "published_at": "20260824T221500Z",
+      "source": "middleeasteye.net",
+      "tags": [
+        "SYRIA"
+      ]
+    },
+    {
+      "id": "gdelt_6be947b511780b21",
+      "headline": "Three Fugitives Linked To Bambiha Gang Deported From Malaysia",
+      "url": "https://www.dailyexcelsior.com/three-fugitives-linked-to-bambiha-gang-deported-from-malaysia/",
+      "published_at": "20260824T200000Z",
+      "source": "dailyexcelsior.com",
       "tags": []
     },
     {
@@ -172,51 +158,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_2155316f81f8b886",
-      "headline": "Bessent to detail  economic D - Day  sanctions push against Iran",
-      "url": "https://13wham.com/news/nation-world/treasury-secretary-scott-bessent-to-detail-economic-d-day-sanctions-push-against-iran-tehran-war-revenue-streams-finances-oil-trade-president-trump-strait-of-hormuz",
-      "published_at": "20260824T161500Z",
-      "source": "13wham.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6be947b511780b21",
-      "headline": "Three Fugitives Linked To Bambiha Gang Deported From Malaysia",
-      "url": "https://www.dailyexcelsior.com/three-fugitives-linked-to-bambiha-gang-deported-from-malaysia/",
-      "published_at": "20260824T200000Z",
-      "source": "dailyexcelsior.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cfc4c9bad299bf11",
-      "headline": "Bessent to detail  economic D - Day  sanctions push against Iran",
-      "url": "https://wcyb.com/news/nation-world/treasury-secretary-scott-bessent-to-detail-economic-d-day-sanctions-push-against-iran-tehran-war-revenue-streams-finances-oil-trade-president-trump-strait-of-hormuz",
-      "published_at": "20260824T154500Z",
-      "source": "wcyb.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_718b092995dc7f29",
       "headline": "Trump embere megfeszül , hogy mentse a kötvénypiacot , de épp az elnök hozza lehetetlen helyzetbe",
       "url": "https://www.portfolio.hu/gazdasag/20260824/trump-embere-megfeszul-hogy-mentse-a-kotvenypiacot-de-epp-az-elnok-hozza-lehetetlen-helyzetbe-857916",
       "published_at": "20260824T164500Z",
       "source": "portfolio.hu",
-      "tags": []
-    },
-    {
-      "id": "gdelt_107cc082c94d8030",
-      "headline": "Bessent to detail  economic D - Day  sanctions push against Iran",
-      "url": "https://kfdm.com/news/nation-world/treasury-secretary-scott-bessent-to-detail-economic-d-day-sanctions-push-against-iran-tehran-war-revenue-streams-finances-oil-trade-president-trump-strait-of-hormuz",
-      "published_at": "20260824T163000Z",
-      "source": "kfdm.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_db4fe59a8b697148",
-      "headline": "Bessent to detail  economic D - Day  sanctions push against Iran",
-      "url": "https://news3lv.com/news/nation-world/treasury-secretary-scott-bessent-to-detail-economic-d-day-sanctions-push-against-iran-tehran-war-revenue-streams-finances-oil-trade-president-trump-strait-of-hormuz",
-      "published_at": "20260824T154500Z",
-      "source": "news3lv.com",
       "tags": []
     },
     {
@@ -228,45 +174,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_22391281328a0887",
-      "headline": "Bessent to detail  economic D - Day  sanctions push against Iran",
-      "url": "https://upnorthlive.com/news/nation-world/treasury-secretary-scott-bessent-to-detail-economic-d-day-sanctions-push-against-iran-tehran-war-revenue-streams-finances-oil-trade-president-trump-strait-of-hormuz",
-      "published_at": "20260824T163000Z",
-      "source": "upnorthlive.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_4a1a341b887cfbff",
       "headline": "Iran rial currency hits new record low as US prepares to announce more sanctions – Chicago Tribune",
       "url": "https://www.chicagotribune.com/2026/08/24/irans-rial-currency/",
       "published_at": "20260824T170000Z",
       "source": "chicagotribune.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_242c8ebacf6510a9",
-      "headline": "China sebut sanksi AS terhadap Iran hanya akan perparah konflik",
-      "url": "https://www.antaranews.com/berita/5709819/china-sebut-sanksi-as-terhadap-iran-hanya-akan-perparah-konflik",
-      "published_at": "20260824T161500Z",
-      "source": "antaranews.com",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
-      "id": "gdelt_43e732d5c753e232",
-      "headline": "Iran Rial Currency Hits New Record Low as US Prepares to Announce More Sanctions",
-      "url": "https://www.military.com/irans-rial-currency-hits-new-record-low-as-us-prepares-to-announce-more-sanctions",
-      "published_at": "20260824T154500Z",
-      "source": "military.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_adfd7484dd286f52",
-      "headline": "La Unión Europea destina 6 . 100 millones de euros en ayuda militar a Ucrania",
-      "url": "https://www.marca.com/tiramillas/economia/2026/08/24/union-europea-destina-6-100-millones-euros-ayuda-militar-ucrania.html",
-      "published_at": "20260824T163000Z",
-      "source": "marca.com",
       "tags": []
     },
     {
@@ -278,19 +190,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_aedc305f6770b216",
-      "headline": "Straße von Hormus : Öl fließt weiter –  leise und nicht öffentlich",
-      "url": "https://www.t-online.de/nachrichten/ausland/id_101403346/strasse-von-hormus-oel-fliesst-weiter-leise-und-nicht-oeffentlich-.html",
-      "published_at": "20260824T154500Z",
-      "source": "t-online.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9051ffd9cbe7daf7",
-      "headline": "Iran rial currency hits new record low as US prepares to announce more sanctions - Las Vegas Sun News",
-      "url": "https://lasvegassun.com/news/2026/aug/24/irans-rial-currency-hits-new-record-low-as-us-prep/",
-      "published_at": "20260824T163000Z",
-      "source": "lasvegassun.com",
+      "id": "gdelt_2d3d4aa39ed02466",
+      "headline": "Iran warns of a harsh response to anticipated US sanctions and other Middle East news",
+      "url": "https://www.chicagotribune.com/2026/08/24/iran-warns-of-a-harsh-response-us-sanctions/",
+      "published_at": "20260824T170000Z",
+      "source": "chicagotribune.com",
       "tags": []
     },
     {
@@ -302,19 +206,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_2d3d4aa39ed02466",
-      "headline": "Iran warns of a harsh response to anticipated US sanctions and other Middle East news",
-      "url": "https://www.chicagotribune.com/2026/08/24/iran-warns-of-a-harsh-response-us-sanctions/",
-      "published_at": "20260824T170000Z",
-      "source": "chicagotribune.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_9ee976cf3d123035",
       "headline": "Bessent says new US sanctions aim to block all sources of revenue for Iran",
       "url": "https://www.wtae.com/article/bessent-new-sanctions-block-revenue-iran/73512902",
       "published_at": "20260824T194500Z",
       "source": "wtae.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_905527400a377980",
+      "headline": "Bessent says new US sanctions aim to block all potential sources of revenue for Iran",
+      "url": "https://abc11.com/story/bessent-says-new-us-sanctions-aim-block-potential-sources-revenue-iran/19728441/",
+      "published_at": "20260824T214500Z",
+      "source": "abc11.com",
       "tags": []
     },
     {
@@ -326,19 +230,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_39cc6aaf22bfa9ec",
-      "headline": "Iran rial currency hits new record low as US prepares to announce more sanctions",
-      "url": "https://wtop.com/world/2026/08/irans-rial-currency-hits-new-record-low-as-us-prepares-to-announce-more-sanctions/",
-      "published_at": "20260824T161500Z",
-      "source": "wtop.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bfb232754e2f4e32",
-      "headline": "Trump Administration Launches  Economic D - Day  Sanctions on Iran : Key Actions",
-      "url": "https://www.newsweek.com/trump-economic-d-day-iran-sanctions-oil-shipping-12359297",
-      "published_at": "20260824T201500Z",
-      "source": "newsweek.com",
+      "id": "gdelt_4fd03d6a98ca5cdd",
+      "headline": "FinancialContent - RXO , ArcBest , and Lucid Shares Plummet , What You Need To Know",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-8-24-rxo-arcbest-and-lucid-shares-plummet-what-you-need-to-know",
+      "published_at": "20260824T213000Z",
+      "source": "markets.financialcontent.com",
       "tags": []
     },
     {
@@ -350,11 +246,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_ead5a0b7a2d5c172",
-      "headline": "We Dont Need Canada : Why Donald Trump Is Willing To Risk a 50 % Auto Tariff War With Mark Carney",
-      "url": "https://www.ibtimes.co.uk/trump-50-percent-auto-tariff-canada-trade-tensions-1815958",
-      "published_at": "20260824T161500Z",
-      "source": "ibtimes.co.uk",
+      "id": "gdelt_bfb232754e2f4e32",
+      "headline": "Trump Administration Launches  Economic D - Day  Sanctions on Iran : Key Actions",
+      "url": "https://www.newsweek.com/trump-economic-d-day-iran-sanctions-oil-shipping-12359297",
+      "published_at": "20260824T201500Z",
+      "source": "newsweek.com",
       "tags": []
     },
     {
@@ -374,19 +270,21 @@
       "tags": []
     },
     {
-      "id": "gdelt_fb230d0b3daf0d4d",
-      "headline": "Trump will have to risk pain to make new Iran sanctions truly bite",
-      "url": "https://economictimes.indiatimes.com/news/international/global-trends/trump-will-have-to-risk-pain-to-make-new-iran-sanctions-truly-bite/articleshow/133472419.cms",
-      "published_at": "20260824T163000Z",
-      "source": "economictimes.indiatimes.com",
-      "tags": []
+      "id": "gdelt_19d4a0c261349f79",
+      "headline": "What If China Doesnt Play Ball ? US Sanctions Campaign Faces Its Biggest Test",
+      "url": "https://www.rferl.org/a/33837376.html",
+      "published_at": "20260824T221500Z",
+      "source": "rferl.org",
+      "tags": [
+        "CHINA"
+      ]
     },
     {
-      "id": "gdelt_4f18127b470fabed",
-      "headline": "Cameroun – États - Unis : le Congrès américain sintéresse à la modernisation du port de Douala",
-      "url": "https://www.financialafrik.com/2026/08/24/cameroun-etats-unis-le-congres-americain-sinteresse-a-la-modernisation-du-port-de-douala/",
-      "published_at": "20260824T163000Z",
-      "source": "financialafrik.com",
+      "id": "gdelt_6ce615d603e1d9da",
+      "headline": "Hedonismen går amok i vild fortælling , hvor ingen slipper le",
+      "url": "https://politiken.dk/kultur/film_og_tv/tvanmeldelser/art10950039/Hedonismen-g%C3%A5r-amok-i-vild-fort%C3%A6lling-hvor-ingen-slipper-levende-gennem-ungdommens-teater",
+      "published_at": "20260824T221500Z",
+      "source": "politiken.dk",
       "tags": []
     },
     {
@@ -398,11 +296,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_a9e744c74d57f0e8",
-      "headline": "Euromoney names Citi PH Best Digital Bank for Large Corporates",
-      "url": "https://www.manilatimes.net/2026/08/25/tmt-newswire/euromoney-names-citi-ph-best-digital-bank-for-large-corporates/2410888",
-      "published_at": "20260824T163000Z",
-      "source": "manilatimes.net",
+      "id": "gdelt_9e0b2a7aa297db70",
+      "headline": "New US sanctions aim to block all potential revenue sources for Iran – Bessent",
+      "url": "https://www.bournemouthecho.co.uk/news/national/26491779.new-us-sanctions-aim-block-potential-revenue-sources-iran---bessent/",
+      "published_at": "20260824T214500Z",
+      "source": "bournemouthecho.co.uk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7175b3e812ece78e",
+      "headline": "New US sanctions aim to block all potential revenue sources for Iran – Bessent",
+      "url": "https://www.ipswichstar.co.uk/news/national/26491779.new-us-sanctions-aim-block-potential-revenue-sources-iran---bessent/",
+      "published_at": "20260824T214500Z",
+      "source": "ipswichstar.co.uk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_85c2a6e493207688",
+      "headline": "Власти Адыгеи сообщили о ликвидации пожара на логистическом объекте после атаки БПЛА",
+      "url": "https://www.mk.ru/incident/2026/08/24/vlasti-adygei-soobshhili-o-likvidacii-pozhara-na-logisticheskom-obekte-posle-ataki-bpla.html",
+      "published_at": "20260824T190000Z",
+      "source": "mk.ru",
       "tags": []
     },
     {
@@ -422,27 +336,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_85c2a6e493207688",
-      "headline": "Власти Адыгеи сообщили о ликвидации пожара на логистическом объекте после атаки БПЛА",
-      "url": "https://www.mk.ru/incident/2026/08/24/vlasti-adygei-soobshhili-o-likvidacii-pozhara-na-logisticheskom-obekte-posle-ataki-bpla.html",
-      "published_at": "20260824T190000Z",
-      "source": "mk.ru",
+      "id": "gdelt_96112773379a15c5",
+      "headline": "СВР : Украина довольна эффектом инцидента с дроном в аэропорту Лейпцига",
+      "url": "https://www.kommersant.ru/doc/8907219",
+      "published_at": "20260824T164500Z",
+      "source": "kommersant.ru",
       "tags": []
     },
     {
-      "id": "gdelt_43296d800082d30f",
-      "headline": "Η Ουάσινγκτον σφίγγει την οικονομική θηλιά στην Τεχεράνη : Νέος κλοιός κυρώσεων στο Ιράν και όσους συναλλάσονται μαζί του",
-      "url": "https://www.newsbeast.gr/world/arthro/13310955/i-ouasingkton-sfingei-tin-oikonomiki-thilia-stin-techerani-neos-kloios-kyroseon-sto-iran-kai-osous-synallasontai-mazi-tou",
-      "published_at": "20260824T154500Z",
-      "source": "newsbeast.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_354bef8922ae82f6",
-      "headline": "Türkiye marks anniversary of anti - Daesh cross - border military campaign",
-      "url": "https://aa.com.tr/en/turkiye/turkiye-marks-anniversary-of-anti-daesh-cross-border-military-campaign/4035795",
-      "published_at": "20260824T154500Z",
-      "source": "aa.com.tr",
+      "id": "gdelt_1abfb84da3e2d720",
+      "headline": "Ops Rentas Sempadan : JPJ keluar 122 saman terhadap 112 kenderaan",
+      "url": "https://www.astroawani.com/berita-malaysia/ops-rentas-sempadan-jpj-keluar-122-saman-terhadap-112-kenderaan",
+      "published_at": "20260824T181500Z",
+      "source": "astroawani.com",
       "tags": []
     },
     {
@@ -454,27 +360,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_96112773379a15c5",
-      "headline": "СВР : Украина довольна эффектом инцидента с дроном в аэропорту Лейпцига",
-      "url": "https://www.kommersant.ru/doc/8907219",
-      "published_at": "20260824T164500Z",
-      "source": "kommersant.ru",
-      "tags": []
-    },
-    {
       "id": "gdelt_a46c5620a1f428a5",
       "headline": "Kiew feiert Unabhängigkeit : Milliarden für Kampf gegen Putin",
       "url": "https://www.berchtesgadener-anzeiger.de/startseite_artikel,-kiew-feiert-unabhaengigkeit-milliarden-fuer-kampf-gegen-putin-_arid,1013084.html",
       "published_at": "20260824T170000Z",
       "source": "berchtesgadener-anzeiger.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1abfb84da3e2d720",
-      "headline": "Ops Rentas Sempadan : JPJ keluar 122 saman terhadap 112 kenderaan",
-      "url": "https://www.astroawani.com/berita-malaysia/ops-rentas-sempadan-jpj-keluar-122-saman-terhadap-112-kenderaan",
-      "published_at": "20260824T181500Z",
-      "source": "astroawani.com",
       "tags": []
     },
     {
@@ -538,11 +428,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_5f83d2e980672fb5",
-      "headline": "Iran threatens 45 tankers with fines , confiscation in Hormuz escalation",
-      "url": "https://tribune.com.pk/story/2625605/iran-threatens-45-tankers-with-fines-confiscation-in-hormuz-escalation",
-      "published_at": "20260824T163000Z",
-      "source": "tribune.com.pk",
+      "id": "gdelt_68938a2c2f9cf510",
+      "headline": "Антониу Кошта кредит на поддержку Украины в размере 90 миллиардов евро",
+      "url": "https://www.obozrevatel.com/ekonomika-glavnaya/ukraina-mozhet-rasschityivat-na-nas-koshta-poobeschal-uskorit-predostavlenie-kredita-es-dlya-podderzhki-pvo-i-energetiki.htm",
+      "published_at": "20260824T214500Z",
+      "source": "obozrevatel.com",
       "tags": []
     },
     {
@@ -562,53 +452,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_d25dc626ad5d4947",
-      "headline": "Kiew feiert Unabhängigkeit : Milliarden für Kampf gegen Putin",
-      "url": "https://www.t-online.de/nachrichten/ausland/id_101402492/kiew-feiert-unabhaengigkeit-milliarden-fuer-kampf-gegen-putin.html",
-      "published_at": "20260824T154500Z",
-      "source": "t-online.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_21dd6645064ce8f9",
-      "headline": "Στα άκρα οι σχέσεις Ιράν - ΗΠΑ : Η Τεχεράνη επικήρυξε τον 20χρονο γιο του Ντόναλντ Τραμπ για 10 εκατ . δολάρια – « Πού να σκοτώσετε τον Μπάρον »",
-      "url": "https://www.inewsgr.com/227/sta-akra-oi-scheseis-iran-ipa-i-techerani-epikiryxe-ton-20chrono-gio-tou-ntonalnt-trab-gia-10-ekat-dolaria--pou-na-skotosete-ton-baron.htm",
-      "published_at": "20260824T154500Z",
-      "source": "inewsgr.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_072842eddf093269",
-      "headline": "Koalícia ochotných rokovala o ďalšej pomoci Ukrajine . Zelenskyj však najviac čaká na united states",
-      "url": "https://www.aktuality.sk/clanok/gtfxbWW/koalicia-ochotnych-rokovala-o-dalsej-pomoci-ukrajine-zelenskyj-vsak-najviac-caka-na-usa/",
-      "published_at": "20260824T154500Z",
-      "source": "aktuality.sk",
-      "tags": [
-        "UNITED_STATES"
-      ]
-    },
-    {
       "id": "gdelt_2a42cafe658286a1",
       "headline": "코인 결제 · 제3국 거래까지 싹 막았다 … 美  이란에  경제적 왕따  작전 개시",
       "url": "https://biz.heraldcorp.com/article/10850627",
       "published_at": "20260824T211500Z",
       "source": "biz.heraldcorp.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_41e57fedf95abed9",
-      "headline": "美 대이란  경제적 왕따작전  발표 … 중국도 예외 없다",
-      "url": "https://www.fnnews.com/news/202608250252436881",
-      "published_at": "20260824T210000Z",
-      "source": "fnnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0ffc0f30cb2ae7bc",
-      "headline": "Trump Admin Imposes New Iran Sanctions",
-      "url": "https://athens-times.com/trump-administration-imposes-new-economic-sanctions-on-iran-and-its-allies/",
-      "published_at": "20260824T194500Z",
-      "source": "athens-times.com",
       "tags": []
     },
     {
@@ -620,11 +468,45 @@
       "tags": []
     },
     {
+      "id": "gdelt_41e57fedf95abed9",
+      "headline": "美 대이란  경제적 왕따작전  발표 … 중국도 예외 없다",
+      "url": "https://www.fnnews.com/news/202608250252436881",
+      "published_at": "20260824T210000Z",
+      "source": "fnnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_47ab30d3444ad9d2",
+      "headline": "3 fugitive gangsters deported from Malaysia",
+      "url": "https://economictimes.indiatimes.com/news/india/3-fugitive-gangsters-deported-from-malaysia/articleshow/133477857.cms",
+      "published_at": "20260824T200000Z",
+      "source": "economictimes.indiatimes.com",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
+      "id": "gdelt_0ffc0f30cb2ae7bc",
+      "headline": "Trump Admin Imposes New Iran Sanctions",
+      "url": "https://athens-times.com/trump-administration-imposes-new-economic-sanctions-on-iran-and-its-allies/",
+      "published_at": "20260824T194500Z",
+      "source": "athens-times.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_2a745a9b843e361a",
       "headline": "美国财长 ： 美国对60个组织 、 个人和船只实施反伊朗制裁",
       "url": "https://sputniknews.cn/20260825/1072906925.html",
       "published_at": "20260824T200000Z",
       "source": "sputniknews.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8fe42560c55afdc6",
+      "headline": "Пустое позерство : в США высказались об эскалации против России",
+      "url": "https://ria.ru/20260824/rossiya-2112945715.html",
+      "published_at": "20260824T194500Z",
+      "source": "ria.ru",
       "tags": []
     },
     {
@@ -644,21 +526,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_47ab30d3444ad9d2",
-      "headline": "3 fugitive gangsters deported from Malaysia",
-      "url": "https://economictimes.indiatimes.com/news/india/3-fugitive-gangsters-deported-from-malaysia/articleshow/133477857.cms",
-      "published_at": "20260824T200000Z",
-      "source": "economictimes.indiatimes.com",
-      "tags": [
-        "INDIA"
-      ]
-    },
-    {
-      "id": "gdelt_2be9d587f3d93846",
-      "headline": "Çinden ABDnin İran yaptırımlarına tepki : Gerilimi artırır",
-      "url": "https://www.haberler.com/politika/cin-den-abd-nin-iran-la-ticaret-yapan-ulkelere-20172692-haberi/",
-      "published_at": "20260824T163000Z",
-      "source": "haberler.com",
+      "id": "gdelt_88c58240660bf9d1",
+      "headline": "Stocks mixed on tech weakness while long - end yields slide - Newsquawk US Market Wrap",
+      "url": "https://www.zerohedge.com/markets/stocks-mixed-tech-weakness-while-long-end-yields-slide-newsquawk-us-market-wrap",
+      "published_at": "20260824T213000Z",
+      "source": "zerohedge.com",
       "tags": []
     },
     {
@@ -675,14 +547,6 @@
       "url": "https://www.edaily.co.kr/News/Read?newsId=01292326645550928&mediaCodeNo=257",
       "published_at": "20260824T194500Z",
       "source": "edaily.co.kr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8fe42560c55afdc6",
-      "headline": "Пустое позерство : в США высказались об эскалации против России",
-      "url": "https://ria.ru/20260824/rossiya-2112945715.html",
-      "published_at": "20260824T194500Z",
-      "source": "ria.ru",
       "tags": []
     },
     {
@@ -806,19 +670,131 @@
       "tags": []
     },
     {
-      "id": "gdelt_ceb52625affe998e",
-      "headline": "Explainer - What are Iran options to escalate further in face of US economic threats ?",
-      "url": "https://www.straitstimes.com/world/middle-east/explainer-what-are-irans-options-to-escalate-further-in-face-of-us-economic-threats",
-      "published_at": "20260824T163000Z",
-      "source": "straitstimes.com",
+      "id": "gdelt_30a2c5510d776ddd",
+      "headline": "U . S . Imposes Tough New Economic Sanctions On Iran",
+      "url": "https://newsradio1470.iheart.com/content/2026-08-24-us-imposes-tough-new-economic-sanctions-on-iran/",
+      "published_at": "20260824T213000Z",
+      "source": "newsradio1470.iheart.com",
       "tags": []
     },
     {
-      "id": "gdelt_46804432abd9192a",
-      "headline": "Ο Μπέρναμ στο Κίεβο με έμφαση στη στρατιωτική στήριξη",
-      "url": "https://www.skai.gr/news/world/o-mpernam-sto-kievo-me-emfasi-sti-stratiotiki-stiriksi",
-      "published_at": "20260824T163000Z",
-      "source": "skai.gr",
+      "id": "gdelt_a0012df1217c841e",
+      "headline": "U . S . Imposes Tough New Economic Sanctions On Iran | News Radio 1410 AM & 100 . 9 FM",
+      "url": "https://newsradio1410.iheart.com/content/2026-08-24-us-imposes-tough-new-economic-sanctions-on-iran/",
+      "published_at": "20260824T213000Z",
+      "source": "newsradio1410.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d1fdd227b7725bb3",
+      "headline": "U . S . Imposes Tough New Economic Sanctions On Iran",
+      "url": "https://newsradio540.iheart.com/content/2026-08-24-us-imposes-tough-new-economic-sanctions-on-iran/",
+      "published_at": "20260824T213000Z",
+      "source": "newsradio540.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a0f3bcaa57bb063a",
+      "headline": "U . S . Imposes Tough New Economic Sanctions On Iran | Twin Cities News Talk",
+      "url": "https://twincitiesnewstalk.iheart.com/content/2026-08-24-us-imposes-tough-new-economic-sanctions-on-iran/",
+      "published_at": "20260824T213000Z",
+      "source": "twincitiesnewstalk.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5efe3f50eb8f2176",
+      "headline": "U . S . Imposes Tough New Economic Sanctions On Iran",
+      "url": "https://veropatriot.iheart.com/content/2026-08-24-us-imposes-tough-new-economic-sanctions-on-iran/",
+      "published_at": "20260824T214500Z",
+      "source": "veropatriot.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0a3f36d52c263799",
+      "headline": "U . S . Imposes Tough New Economic Sanctions On Iran",
+      "url": "https://jetradio1400.iheart.com/content/2026-08-24-us-imposes-tough-new-economic-sanctions-on-iran/",
+      "published_at": "20260824T214500Z",
+      "source": "jetradio1400.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3a0284dc334ac5f0",
+      "headline": "U . S . Imposes Tough New Economic Sanctions On Iran",
+      "url": "https://590kqnt.iheart.com/content/2026-08-24-us-imposes-tough-new-economic-sanctions-on-iran/",
+      "published_at": "20260824T214500Z",
+      "source": "590kqnt.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7afa6c89e8f658ec",
+      "headline": "U . S . Imposes Tough New Economic Sanctions On Iran",
+      "url": "https://wsyr.iheart.com/content/2026-08-24-us-imposes-tough-new-economic-sanctions-on-iran/",
+      "published_at": "20260824T214500Z",
+      "source": "wsyr.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e7d0903adf439abe",
+      "headline": "U . S . Imposes Tough New Economic Sanctions On Iran",
+      "url": "https://wflanews.iheart.com/content/2026-08-24-us-imposes-tough-new-economic-sanctions-on-iran/",
+      "published_at": "20260824T214500Z",
+      "source": "wflanews.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e21074d6444527de",
+      "headline": "U . S . Imposes Tough New Economic Sanctions On Iran",
+      "url": "https://wiod.iheart.com/content/2026-08-24-us-imposes-tough-new-economic-sanctions-on-iran/",
+      "published_at": "20260824T221500Z",
+      "source": "wiod.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b444ccab7215c75d",
+      "headline": "U . S . Imposes Tough New Economic Sanctions On Iran",
+      "url": "https://1190kex.iheart.com/content/2026-08-24-us-imposes-tough-new-economic-sanctions-on-iran/",
+      "published_at": "20260824T221500Z",
+      "source": "1190kex.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_89a6cf31708fc508",
+      "headline": "U . S . Imposes Tough New Economic Sanctions On Iran | News Radio 1450 WILM",
+      "url": "https://wilm.iheart.com/content/2026-08-24-us-imposes-tough-new-economic-sanctions-on-iran/",
+      "published_at": "20260824T221500Z",
+      "source": "wilm.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_eb418675c5251fd3",
+      "headline": "U . S . Imposes Tough New Economic Sanctions On Iran | News Radio 920 AM & 104 . 7 FM",
+      "url": "https://newsradiori.iheart.com/content/2026-08-24-us-imposes-tough-new-economic-sanctions-on-iran/",
+      "published_at": "20260824T221500Z",
+      "source": "newsradiori.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f3090ccd4b53e618",
+      "headline": "U . S . Imposes Tough New Economic Sanctions On Iran",
+      "url": "https://55krc.iheart.com/content/2026-08-24-us-imposes-tough-new-economic-sanctions-on-iran/",
+      "published_at": "20260824T221500Z",
+      "source": "55krc.iheart.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_72e518bf36535093",
+      "headline": "Ukraina ir JK pasirašė DI susitarimą : dalinsis mūšio lauko duomenimis",
+      "url": "https://diena.lt/naujienos/pasaulis/ekonomika-ir-politika/ukraina-ir-jk-pasirase-di-susitarima-dalinsis-musio-lauko-duomenimis-1771544",
+      "published_at": "20260824T183000Z",
+      "source": "diena.lt",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1025ed90914e7221",
+      "headline": "미국 , 이란  경제적 왕따  만든다 … 정권과 거래하면  강력 제재 - 국제ㅣ한국일보",
+      "url": "https://www.hankookilbo.com/news/article/A2026082505240000196",
+      "published_at": "20260824T221500Z",
+      "source": "hankookilbo.com",
       "tags": []
     },
     {
@@ -838,6 +814,14 @@
       "tags": []
     },
     {
+      "id": "gdelt_aa295ac4493e642b",
+      "headline": "US vows  economic asphyxiation  of Iran with new sanctions",
+      "url": "https://www.thejournal.ie/new-us-iran-sanctions-7140671-Aug2026/",
+      "published_at": "20260824T221500Z",
+      "source": "thejournal.ie",
+      "tags": []
+    },
+    {
       "id": "gdelt_c18626d0d871a46b",
       "headline": "Wie weit reicht Trumps Druck ?",
       "url": "https://web.de/magazine/politik/weit-reicht-trumps-druck-42646298",
@@ -854,11 +838,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_72e518bf36535093",
-      "headline": "Ukraina ir JK pasirašė DI susitarimą : dalinsis mūšio lauko duomenimis",
-      "url": "https://diena.lt/naujienos/pasaulis/ekonomika-ir-politika/ukraina-ir-jk-pasirase-di-susitarima-dalinsis-musio-lauko-duomenimis-1771544",
-      "published_at": "20260824T183000Z",
-      "source": "diena.lt",
+      "id": "gdelt_4d9aff0dc344e895",
+      "headline": "Explainer - What are Iran options to escalate further in face of US economic threats ?",
+      "url": "https://www.al-monitor.com/originals/2026/08/explainer-what-are-irans-options-escalate-further-face-us-economic-threats",
+      "published_at": "20260824T164500Z",
+      "source": "al-monitor.com",
       "tags": []
     },
     {
@@ -878,19 +862,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_14ae10d2f2ad8201",
-      "headline": "Wie weit reicht Trumps Druck ?",
-      "url": "https://www.gmx.at/magazine/politik/weit-reicht-trumps-druck-42646298",
-      "published_at": "20260824T163000Z",
-      "source": "gmx.at",
+      "id": "gdelt_2e1b4a859d0016b4",
+      "headline": "美伊经济博弈将致全球能源及粮食风险加剧 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202608253851688131.html",
+      "published_at": "20260824T214500Z",
+      "source": "finance.eastmoney.com",
       "tags": []
     },
     {
-      "id": "gdelt_4d9aff0dc344e895",
-      "headline": "Explainer - What are Iran options to escalate further in face of US economic threats ?",
-      "url": "https://www.al-monitor.com/originals/2026/08/explainer-what-are-irans-options-escalate-further-face-us-economic-threats",
-      "published_at": "20260824T164500Z",
-      "source": "al-monitor.com",
+      "id": "gdelt_4b4dea5d7177d83c",
+      "headline": "ABDden İran  Ekonomik Sürgün  operasyonu",
+      "url": "https://www.f5haber.com/dunya/abdden-iran-ekonomik-surgun-operasyonu-6965836",
+      "published_at": "20260824T213000Z",
+      "source": "f5haber.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_71437f87003308f1",
+      "headline": "Kako je albanski ministar svojevremeno stigao u službenu posjetu Grčkoj u ukradenom Mercedesu",
+      "url": "https://www.klix.ba/auto/kako-je-albanski-ministar-svojevremeno-stigao-u-sluzbenu-posjetu-grckoj-u-ukradenom-mercedesu/260824179",
+      "published_at": "20260824T193000Z",
+      "source": "klix.ba",
       "tags": []
     },
     {
@@ -902,11 +894,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_a01e4b511da4a24a",
-      "headline": "„ Wirtschaftskrieg  gegen Iran : Trumps Druck auf die Mullahs",
-      "url": "https://www.mopo.de/news/politik-wirtschaft/wirtschaftskrieg-gegen-iran-so-will-trump-die-mullahs-unter-druck-setzen/4952048",
-      "published_at": "20260824T154500Z",
-      "source": "mopo.de",
+      "id": "gdelt_3f3bbd2301f73430",
+      "headline": "Trump admin begins  economic D - Day  sanctions against Iran",
+      "url": "https://www.wmur.com/article/trump-economic-d-day-sanctions-iran/73513716",
+      "published_at": "20260824T214500Z",
+      "source": "wmur.com",
       "tags": []
     },
     {
@@ -918,14 +910,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_b0f619cadd8df6aa",
-      "headline": "视频丨伊朗民众 ： 制裁会带来冲击但我们习以为常",
-      "url": "https://world.qianlong.com/2026/0825/8717002.shtml",
-      "published_at": "20260824T183000Z",
-      "source": "world.qianlong.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_d64f4d808250a92a",
       "headline": "США включили 48 компаний и 24 физических лица в санкционный список по Ирану",
       "url": "https://life.ru/p/1915863",
@@ -934,11 +918,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_71437f87003308f1",
-      "headline": "Kako je albanski ministar svojevremeno stigao u službenu posjetu Grčkoj u ukradenom Mercedesu",
-      "url": "https://www.klix.ba/auto/kako-je-albanski-ministar-svojevremeno-stigao-u-sluzbenu-posjetu-grckoj-u-ukradenom-mercedesu/260824179",
-      "published_at": "20260824T193000Z",
-      "source": "klix.ba",
+      "id": "gdelt_b0f619cadd8df6aa",
+      "headline": "视频丨伊朗民众 ： 制裁会带来冲击但我们习以为常",
+      "url": "https://world.qianlong.com/2026/0825/8717002.shtml",
+      "published_at": "20260824T183000Z",
+      "source": "world.qianlong.com",
       "tags": []
     },
     {
@@ -960,6 +944,30 @@
       ]
     },
     {
+      "id": "gdelt_8c580139934a5464",
+      "headline": "ABDnin İrana ekonomik saldırısı ile ilgili neler biliniyor",
+      "url": "https://www.bbc.com/turkce/articles/cwymr2k11k3o",
+      "published_at": "20260824T221500Z",
+      "source": "bbc.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1ffc7f56be175cfb",
+      "headline": "US vows  economic asphyxiation  of Iran with new sanctions",
+      "url": "https://www.yahoo.com/news/politics/articles/trump-claims-iran-collapsing-us-132557912.html",
+      "published_at": "20260824T214500Z",
+      "source": "yahoo.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f83b3e652cb47dd0",
+      "headline": "特朗普政府启动  经济孤立行动  公布多项针对伊朗的经济制裁举措 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202608253851682252.html",
+      "published_at": "20260824T214500Z",
+      "source": "finance.eastmoney.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_bd7c60efe082523c",
       "headline": "США ввели новые санкции против Ирана и его партнеров | Новости Украины",
       "url": "https://news.liga.net/sanctions/news/ssha-zapustili-masshtabnuyu-kampaniyu-ekonomicheskoi-izolyatsii-irana",
@@ -978,14 +986,6 @@
       ]
     },
     {
-      "id": "gdelt_af9169cb9090cfac",
-      "headline": "Како ради руска финансијска платформа А7 којом се заобилазе санкције",
-      "url": "https://www.politika.rs/scc/clanak/780622/kako-radi-ruska-finansijska-platforma-a7-kojom-se-zaobilaze-sankcije",
-      "published_at": "20260824T154500Z",
-      "source": "politika.rs",
-      "tags": []
-    },
-    {
       "id": "gdelt_08cb98c7a50f4986",
       "headline": "ROUNDUP 2 : united states wollen Einnahmequellen des Irans trockenlegen",
       "url": "https://www.finanzen.net/nachricht/aktien/roundup-2-usa-wollen-einnahmequellen-des-irans-trockenlegen-15897678",
@@ -996,11 +996,11 @@
       ]
     },
     {
-      "id": "gdelt_458e236e6f85a2cd",
-      "headline": "Soal Penolakan Pabrik Cokelat di Melong Cimahi , Ngatiyana : Kalau Tidak Sesuai Aturan akan Disanks",
-      "url": "https://jabar.tribunnews.com/metro-bandung/1182367/soal-penolakan-pabrik-cokelat-di-melong-cimahi-ngatiyana-kalau-tidak-sesuai-aturan-akan-disanks",
-      "published_at": "20260824T160000Z",
-      "source": "jabar.tribunnews.com",
+      "id": "gdelt_bf36dc15e37467c3",
+      "headline": "США исключили Сирию из списка государств спонсоров терроризма что об этом известно - 24 августа 2026",
+      "url": "https://www.fontanka.ru/2026/08/24/76605684/",
+      "published_at": "20260824T214500Z",
+      "source": "fontanka.ru",
       "tags": []
     },
     {
@@ -1012,11 +1012,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_6e86616c4b966692",
-      "headline": "Trump : Iran Is Completely Collapsing",
-      "url": "https://athens-times.com/trump-iran-is-completely-collapsing-ahead-of-u-s-economic-d-day-announcement/",
-      "published_at": "20260824T161500Z",
-      "source": "athens-times.com",
+      "id": "gdelt_98e09cd70a39624a",
+      "headline": "Калибаф : Американци знају да нико не верује у њихове бесмислице",
+      "url": "https://www.politika.rs/scc/clanak/780678/kalibaf-amerikanci-znaju-da-niko-ne-veruje-u-njihove-besmislice",
+      "published_at": "20260824T221500Z",
+      "source": "politika.rs",
       "tags": []
     }
   ]
