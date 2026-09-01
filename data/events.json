@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-09-01T18:28:00Z",
+    "generated_at_utc": "2026-09-01T21:46:27Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "url_error reason=_ssl.c:999: The handshake operation timed out",
         "fetched": 0
       },
       {
@@ -33,27 +33,118 @@
   },
   "events": [
     {
-      "id": "gdelt_6983f963eb52b212",
-      "headline": "Sprengstoff - Drohne : Strack - Zimmermann will Nato - Befassung",
-      "url": "https://www.finanzen.net/nachricht/aktien/sprengstoff-drohne-strack-zimmermann-will-nato-befassung-15911650",
-      "published_at": "20260901T131500Z",
+      "id": "gdelt_560024e8b7c0771f",
+      "headline": "Германия обвинила РФ в атаке БПЛА на аэропорт Лейпцига : закрывается « Русский дом » в Берлине",
+      "url": "https://focus.ua/world/766442-germaniya-obvinila-rf-v-atake-bpla-na-aeroport-leypciga-zakryvaetsya-russkiy-dom-v-berline",
+      "published_at": "20260901T191500Z",
+      "source": "focus.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8e163e844368ad47",
+      "headline": "China Xi arrives in Egypt as US sanctions threat looms over Iran links",
+      "url": "https://www.bssnews.net/international/420254",
+      "published_at": "20260901T211500Z",
+      "source": "bssnews.net",
+      "tags": [
+        "IRAN",
+        "CHINA",
+        "EGYPT"
+      ]
+    },
+    {
+      "id": "gdelt_dff7fd1d90ee7f0c",
+      "headline": "Kreml wirft Deutschland « Weg der Eskalation » vor",
+      "url": "https://www.watson.ch/international/deutschland/808655254-kreml-wirft-deutschland-weg-der-eskalation-vor",
+      "published_at": "20260901T191500Z",
+      "source": "watson.ch",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9b4a92151236c8aa",
+      "headline": "Kremlin : Germany taking path of escalation over Leipzig drone affair",
+      "url": "https://www.yahoo.com/news/politics/articles/kremlin-germany-taking-path-escalation-193339042.html",
+      "published_at": "20260901T201500Z",
+      "source": "yahoo.com",
+      "tags": [
+        "GERMANY"
+      ]
+    },
+    {
+      "id": "gdelt_d27a4a4c3a5d9977",
+      "headline": "Wadephul : Russland - Sanktionen sind angemessene Reaktion",
+      "url": "https://www.finanzen.net/nachricht/aktien/wadephul-russland-sanktionen-sind-angemessene-reaktion-15913085",
+      "published_at": "20260901T193000Z",
       "source": "finanzen.net",
       "tags": []
     },
     {
-      "id": "gdelt_28ebaacfa4193813",
-      "headline": "Назван главный страх Мерца",
-      "url": "https://lenta.ru/news/2026/09/01/nazvan-glavnyy-strah-mertsa/",
-      "published_at": "20260901T130000Z",
-      "source": "lenta.ru",
+      "id": "gdelt_f11aed8e6513ecb4",
+      "headline": "China Xi Arrives in Egypt",
+      "url": "https://english.aawsat.com/arab-world/5313576-chinas-xi-arrives-egypt",
+      "published_at": "20260901T191500Z",
+      "source": "english.aawsat.com",
+      "tags": [
+        "CHINA",
+        "EGYPT"
+      ]
+    },
+    {
+      "id": "gdelt_6a193ee688d2495d",
+      "headline": "So reagiert der Kreml auf den Drohnenvorwurf aus Deutschland",
+      "url": "https://web.de/magazine/politik/russland-krieg-ukraine/kreml-drohnenvorwurf-deutschland-42677782",
+      "published_at": "20260901T211500Z",
+      "source": "web.de",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_c2a4cedcac847148",
+      "headline": "Посол России отверг обвинения в причастности Москвы к инциденту в аэропорту Лейпцига :: Новости дня / ВЗГЛЯД",
+      "url": "https://vz.ru/news/2026/9/1/1447965.html",
+      "published_at": "20260901T190000Z",
+      "source": "vz.ru",
       "tags": []
     },
     {
-      "id": "gdelt_7f843c46d983d04b",
-      "headline": "Φον ντερ Λάιεν : « Η Ρωσία προσπαθεί να σπείρει φόβο στις κοινωνίες μας »",
-      "url": "https://www.skai.gr/news/world/fon-nter-laien-i-rosia-prospathei-na-speirei-fovo-stis-koinonies-mas",
-      "published_at": "20260901T170000Z",
-      "source": "skai.gr",
+      "id": "gdelt_016203420a2571cb",
+      "headline": "В Кремле прокомментировали обвинения ФРГ в адрес России",
+      "url": "https://expert.ru/news/v-kremle-prokommentirovali-obvineniya-frg-v-adres-rossii",
+      "published_at": "20260901T210000Z",
+      "source": "expert.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_80df50cddc832209",
+      "headline": "Kreml : Deutschland geht Weg der Eskalation",
+      "url": "https://www.welt.de/regionales/sachsen/article6a9714a9518a586e1855ff1e/kreml-deutschland-geht-weg-der-eskalation.html",
+      "published_at": "20260901T191500Z",
+      "source": "welt.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ece9c5b4a7ec6f6a",
+      "headline": "ROUNDUP 2 / Bundesregierung : Russland für Drohnen - Angriff verantwortlich",
+      "url": "https://www.finanzen.net/nachricht/aktien/roundup-2-bundesregierung-russland-fuer-drohnen-angriff-verantwortlich-15913074",
+      "published_at": "20260901T191500Z",
+      "source": "finanzen.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8a0501264f5eaef0",
+      "headline": "Gabriel bei  maischberger : Maßnahmen wegen Drohnen - Vorfälle  werden Putin nicht ...",
+      "url": "https://www.presseportal.de/pm/6694/6343955",
+      "published_at": "20260901T201500Z",
+      "source": "presseportal.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3a64b4fe2a6c507f",
+      "headline": "Gabriel bei maischberger : Maßnahmen wegen Drohnen - Vorfälle werden Putin nicht beeindrucken",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69468024-gabriel-bei-maischberger-massnahmen-wegen-drohnen-vorfaelle-werden-putin-nicht-beeindrucken-007.htm",
+      "published_at": "20260901T201500Z",
+      "source": "finanznachrichten.de",
       "tags": []
     },
     {
@@ -65,11 +156,43 @@
       "tags": []
     },
     {
-      "id": "gdelt_3a8dbd7f94214ed3",
-      "headline": "Bekayiden ABD açıklaması : Şaşırmadık , cevap vereceğiz",
-      "url": "https://www.haber7.com/dunya/haber/3656121-bekayiden-abd-aciklamasi-sasirmadik-cevap-verecegiz",
-      "published_at": "20260901T150000Z",
-      "source": "haber7.com",
+      "id": "gdelt_7f843c46d983d04b",
+      "headline": "Φον ντερ Λάιεν : « Η Ρωσία προσπαθεί να σπείρει φόβο στις κοινωνίες μας »",
+      "url": "https://www.skai.gr/news/world/fon-nter-laien-i-rosia-prospathei-na-speirei-fovo-stis-koinonies-mas",
+      "published_at": "20260901T170000Z",
+      "source": "skai.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_df0d7413dbea56d9",
+      "headline": "Bundesregierung : Russland für Drohnen - Angriff verantwortlich - Politik",
+      "url": "https://www.pz-news.de/politik_artikel,-Bundesregierung-Russland-fuer-Drohnen-Angriff-verantwortlich-_arid,2366620.html",
+      "published_at": "20260901T193000Z",
+      "source": "pz-news.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d045588096de9ee5",
+      "headline": "ROUNDUP 2 / Bundesregierung : Russland für Drohnen - Angriff verantwortlich ()",
+      "url": "https://www.aktiencheck.de/analysen/Artikel-ROUNDUP_2_Bundesregierung_Russland_fuer_Drohnen_Angriff_verantwortlich-20062567",
+      "published_at": "20260901T190000Z",
+      "source": "aktiencheck.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4932824d4c9bb062",
+      "headline": "Njemačka : Rusija je kriva za napad dronovima na aerodrom u Leipzigu . Odgovorit ćemo",
+      "url": "https://www.index.hr/vijesti/clanak/njemacka-optuzila-rusiju-za-napad-dronovima-na-aerodrom-u-leipzigu/2829918.aspx?index_ref=homepage_comment_box_d&commentId=11900705",
+      "published_at": "20260901T203000Z",
+      "source": "index.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a6c72f167f01a56a",
+      "headline": "Njemačka optužila Rusiju za napad i objavila kako će odgovoriti . Oglasili se Rusi",
+      "url": "https://www.index.hr/vijesti/clanak/njemacka-optuzila-rusiju-za-napad-dronovima-na-aerodrom-u-leipzigu/2829918.aspx?index_ref=homepage_comment_box_d&commentId=11900868",
+      "published_at": "20260901T211500Z",
+      "source": "index.hr",
       "tags": []
     },
     {
@@ -84,42 +207,73 @@
       ]
     },
     {
-      "id": "gdelt_014be93a5f786c1e",
-      "headline": "İrandan ABDye sert tepki : Saldırılar karşılıksız kalmayacak",
-      "url": "https://www.haberler.com/guncel/iran-disisleri-bakanligi-sozcusu-bekayi-silahli-20196969-haberi/",
-      "published_at": "20260901T131500Z",
-      "source": "haberler.com",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_3eb3ab635d5da1aa",
-      "headline": "Африканският корпус  на Русия в Нигер бе подкрепен от Су - 30 и Ил - 78 , пристигнали от Алжир",
-      "url": "https://www.focus-news.net/novini/mejdunarodni/Afrikanskiyat-korpus-na-Rusiya-v-Niger-be-podkrepen-ot-Su-30-i-Il-78-pristignali-ot-Alzhir-3018865",
-      "published_at": "20260901T154500Z",
-      "source": "focus-news.net",
-      "tags": [
-        "NIGER"
-      ]
-    },
-    {
-      "id": "gdelt_03c7b587f7d31dfa",
-      "headline": "Russland stuft Portugal als eines der feindlichsten Länder Europas ein",
-      "url": "https://de.euronews.com/my-europe/2026/09/01/russland-portugal-eines-der-feindlichsten-lander-europas-einstufung",
-      "published_at": "20260901T150000Z",
-      "source": "de.euronews.com",
+      "id": "gdelt_3b8ae9fb3f13e80e",
+      "headline": "Στα άκρα Βερολίνο - Μόσχα μετά τη Λειψία : « Παράλογες » οι κατηγορίεςαπαντά η Ρωσία - Τείχος από ΕΕ και ΝΑΤΟ",
+      "url": "https://www.inewsgr.com/184/sta-akra-verolino-moscha-meta-ti-leipsia-paraloges-oi-katigoriesapanta-i-rosia--teichos-apo-ee-kai-nato.htm",
+      "published_at": "20260901T204500Z",
+      "source": "inewsgr.com",
       "tags": []
     },
     {
-      "id": "gdelt_7f49b0e9a0296714",
-      "headline": "Кая Каллас - что ЕС может предоставить Украине для укрепления ПВО",
-      "url": "https://gazeta.ua/ru/articles/politics/_kallas-prizvala-es-peredat-ukraine-raketyperehvatchiki-srok-hraneniya-kotoryh-istekaet/1257788",
-      "published_at": "20260901T154500Z",
-      "source": "gazeta.ua",
+      "id": "gdelt_4f65fd1e72f37153",
+      "headline": "Pasaca Capital Inc .: Usurance Secures Utah License , Enters U . S . Insurance Underwriting Market",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69467782-pasaca-capital-inc-usurance-secures-utah-license-enters-u-s-insurance-underwriting-market-008.htm",
+      "published_at": "20260901T191500Z",
+      "source": "finanznachrichten.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_52939b02128d6ff9",
+      "headline": "У НАТО і ЄС заявили про  повну солідарність  з Берліном",
+      "url": "https://www.dw.com/uk/dron-rf-u-lejpcigu-nato-i-es-zaavili-pro-povnu-solidarnist-z-berlinom/a-78655977",
+      "published_at": "20260901T201500Z",
+      "source": "dw.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6e5075bb708e61ac",
+      "headline": "Жители Курской области смогут получить до миллиона рублей за утраченный из - за вторжения ВСУ транспорт",
+      "url": "https://www.nakanune.ru/news/2026/9/1/22885573/",
+      "published_at": "20260901T191500Z",
+      "source": "nakanune.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_43054b55018a196c",
+      "headline": "Посол РФ отверг обвинения Германии по поводу дрона в аэропорту Лейпцига",
+      "url": "https://www.interfax.ru/russia/1112549",
+      "published_at": "20260901T191500Z",
+      "source": "interfax.ru",
       "tags": [
-        "UKRAINE"
+        "RUSSIA"
       ]
+    },
+    {
+      "id": "gdelt_8a381cc01de3438e",
+      "headline": "Reaktionen auf Regierungsmaßnahmen : „ Berlin sponsert den Terrorismus , beklagt Moskau – Wagenknecht übt scharfe Kritik an Merz",
+      "url": "https://www.welt.de/politik/deutschland/article6a970cb0518a586e1855fec5/reaktionen-auf-regierungsmassnahmen-berlin-sponsert-den-terrorismus-beklagt-moskau-wagenknecht-uebt-scharfe-kritik-an-merz.html",
+      "published_at": "20260901T191500Z",
+      "source": "welt.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_eb9a03100ec9c7f5",
+      "headline": "India on board , SCO reiterates condemnation of Iran attacks",
+      "url": "https://timesofindia.indiatimes.com/india/india-on-board-sco-reiterates-condemnation-of-iran-attacks/articleshow/133691621.cms",
+      "published_at": "20260901T210000Z",
+      "source": "timesofindia.indiatimes.com",
+      "tags": [
+        "IRAN",
+        "INDIA"
+      ]
+    },
+    {
+      "id": "gdelt_a39341a05d269583",
+      "headline": "Liberty Lines , passeggeri aumentati del 20 % tra Trieste , Slovenia e Croazia - Altre news",
+      "url": "https://www.ansa.it/nuova_europa/it/notizie/rubriche/altrenews/2026/09/01/liberty-lines-passeggeri-aumentati-del-20-tra-trieste-slovenia-e-croazia_953306de-94db-4caf-ba14-b13abf521287.html",
+      "published_at": "20260901T191500Z",
+      "source": "ansa.it",
+      "tags": []
     },
     {
       "id": "gdelt_92baeca8a403efb5",
@@ -130,27 +284,35 @@
       "tags": []
     },
     {
-      "id": "gdelt_07ecac09174e9dc1",
-      "headline": "Україна просить Нідерланди достроково надати €2 млрд військової допомоги",
-      "url": "https://nikvesti.com/news/politics/323168-ukraina-poprosila-niderlandi-dostrokovo-vidiliti-2-mlrd-yevro-na-oboronu",
-      "published_at": "20260901T141500Z",
-      "source": "nikvesti.com",
+      "id": "gdelt_2a608299fd99e853",
+      "headline": "Инцидент с БПЛА в аэропорту Лейпцига : в чем пытаются обвинить РФ , ест ли доказательства , что говорят в РФ",
+      "url": "https://ura.news/articles/1053123424",
+      "published_at": "20260901T193000Z",
+      "source": "ura.news",
       "tags": []
     },
     {
-      "id": "gdelt_982a74657a2d3dd4",
-      "headline": "Evropska komisija ne popušta : Svesni smo problema vozača kamiona , ali šengenska pravila se neće menjati",
-      "url": "https://naslovi.net/2026-09-01/newsmax-balkans/evropska-komisija-ne-popusta-svesni-smo-problema-vozaca-kamiona-ali-sengenska-pravila-se-nece-menjati/42299475",
-      "published_at": "20260901T140000Z",
-      "source": "naslovi.net",
+      "id": "gdelt_67e1fbd1962ac452",
+      "headline": "Tehran responds with tit - for - tat strikes to Washington attack",
+      "url": "http://global.chinadaily.com.cn/a/202609/01/WS6a9631bfe4b06d4aa055b9a5.html",
+      "published_at": "20260901T191500Z",
+      "source": "global.chinadaily.com.cn",
       "tags": []
     },
     {
-      "id": "gdelt_aef9397575b705fa",
-      "headline": "Evropska komisija ne popušta : Razumemo probleme prevoznika sa Zapadnog Balkana , ali šengenska pravila se neće menjati",
-      "url": "https://naslovi.net/2026-09-01/newsmax-balkans/evropska-komisija-ne-popusta-razumemo-probleme-prevoznika-sa-zapadnog-balkana-ali-sengenska-pravila-se-nece-menjati/42299475",
-      "published_at": "20260901T154500Z",
-      "source": "naslovi.net",
+      "id": "gdelt_9f98b796ae148f17",
+      "headline": "Bundesregierung : Russland für Drohnen - Anschlagsversuch in Leipzig verantwortlich",
+      "url": "https://www.tagesschau.de/eilmeldung/bundesregierung-drohne-flughafen-leipzig-halle-russland-100.html",
+      "published_at": "20260901T193000Z",
+      "source": "tagesschau.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5bc8ecc33b75b899",
+      "headline": "Leipzig - Drohne : Russland droht Deutschland mit „ würdiger Antwort",
+      "url": "https://www.berliner-zeitung.de:443/article/sprengstoff-drohne-leipzig-russland-provokation-gegenmassnahmen-10349966",
+      "published_at": "20260901T203000Z",
+      "source": "berliner-zeitung.de",
       "tags": []
     },
     {
@@ -162,29 +324,35 @@
       "tags": []
     },
     {
-      "id": "gdelt_9e726a3a578b854a",
-      "headline": "2 tankers carrying Saudi oil hit in Strait of Hormuz as war shows no signs of stopping",
-      "url": "https://www.cbc.ca/news/world/saudi-oil-tankers-strait-of-hormuz-hit-9.7327688",
-      "published_at": "20260901T150000Z",
-      "source": "cbc.ca",
-      "tags": [
-        "SAUDI_ARABIA"
-      ]
-    },
-    {
-      "id": "gdelt_813d6b8f6522f303",
-      "headline": "Бюджет Росії врятувала чужа війна . Далі все залежить від України",
-      "url": "https://glavcom.ua/columns/igor_petrenko/bjudzhet-rosiji-vrjatuvala-chuzha-vijna-dali-vse-zalezhit-vid-ukrajini-1140153.html",
-      "published_at": "20260901T150000Z",
-      "source": "glavcom.ua",
+      "id": "gdelt_80b4d69c2104c904",
+      "headline": "ΝΑΤΟ και ΕΕ κλιμακώνουν κατά της Ρωσίας με αφορμή τη Λειψία",
+      "url": "https://www.inewsgr.com/441/nato-kai-ee-klimakonoun-kata-tis-rosias-me-aformi-ti-leipsia.htm",
+      "published_at": "20260901T191500Z",
+      "source": "inewsgr.com",
       "tags": []
     },
     {
-      "id": "gdelt_e45096c0e7f88e90",
-      "headline": "Super E10 : Rekordpreis an der Zapfsäule im August",
-      "url": "https://www.t-online.de/mobilitaet/aktuelles/id_101414932/super-e10-rekordpreis-an-der-zapfsaeule-im-august.html",
-      "published_at": "20260901T140000Z",
-      "source": "t-online.de",
+      "id": "gdelt_fda92f7fcbd10cf6",
+      "headline": "Россия , Китай и Монголия проведут совместные военные учения на границе",
+      "url": "https://deita.ru/article/589845",
+      "published_at": "20260901T191500Z",
+      "source": "deita.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8a96b0800f6d1dd5",
+      "headline": "Evropska komisija poručila prevoznicima : Ne menjamo Šengen pravila , ali razgovaramo o rešenju",
+      "url": "https://naslovi.net/2026-09-01/euronews/evropska-komisija-porucila-prevoznicima-ne-menjamo-sengen-pravila-ali-razgovaramo-o-resenju/42300852",
+      "published_at": "20260901T193000Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0b280c3ccf81d600",
+      "headline": "EK : Šengenska pravila ostaju uprkos zahtevima prevoznika sa Zapadnog Balkana",
+      "url": "https://naslovi.net/2026-09-01/pravo-u-centar/ek-sengenska-pravila-ostaju-uprkos-zahtevima-prevoznika-sa-zapadnog-balkana/42300278",
+      "published_at": "20260901T170000Z",
+      "source": "naslovi.net",
       "tags": []
     },
     {
@@ -198,25 +366,6 @@
       ]
     },
     {
-      "id": "gdelt_0b280c3ccf81d600",
-      "headline": "EK : Šengenska pravila ostaju uprkos zahtevima prevoznika sa Zapadnog Balkana",
-      "url": "https://naslovi.net/2026-09-01/pravo-u-centar/ek-sengenska-pravila-ostaju-uprkos-zahtevima-prevoznika-sa-zapadnog-balkana/42300278",
-      "published_at": "20260901T170000Z",
-      "source": "naslovi.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ecd604cd444c9029",
-      "headline": "قطر تحذر من انفجار إقليمي بسبب مضيق هرمز .. وتتهم إسرائيل باستغلال التصعيد لفرض واقع جديد",
-      "url": "https://arabic.euronews.com/2026/09/01/qatar-warns-of-a-regional-explosion-over-the-strait-of-hormuz-and-accuses-israel-of-exploi",
-      "published_at": "20260901T154500Z",
-      "source": "arabic.euronews.com",
-      "tags": [
-        "ISRAEL",
-        "QATAR"
-      ]
-    },
-    {
       "id": "gdelt_7228361df5e0fc53",
       "headline": "Evropska komisija : Šengenska pravila se neće menjati , ali ostajemo otvoreni za razgovore o rešenjima za profesionalne vozače",
       "url": "https://naslovi.net/2026-09-01/insajder/evropska-komisija-sengenska-pravila-se-nece-menjati-ali-ostajemo-otvoreni-za-razgovore-o-resenjima-za-profesionalne-vozace/42300363",
@@ -225,11 +374,27 @@
       "tags": []
     },
     {
-      "id": "gdelt_28466197393f929b",
-      "headline": "Военные РФ , КНР и Монголии проведут учения для усиления охраны границ",
-      "url": "https://www.interfax.ru/world/1112468",
-      "published_at": "20260901T130000Z",
-      "source": "interfax.ru",
+      "id": "gdelt_fcbdb88ca4c4c771",
+      "headline": "Za útokem na lipské letiště je Rusko , oznámili Němci",
+      "url": "https://www.idnes.cz/zpravy/zahranicni/nemecko-lipsko-utok-letiste-rusko-odpovednost.A260901_175159_zahranicni_kha",
+      "published_at": "20260901T181500Z",
+      "source": "idnes.cz",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2ae2aa2cc34ef68a",
+      "headline": "Док гласају о војној помоћи , ЕУ форсира Украјину на даље сукобе",
+      "url": "https://www.politika.rs/scc/clanak/782456/dok-glasaju-o-vojnoj-pomoci-eu-forsira-ukrajinu-na-dalje-sukobe",
+      "published_at": "20260901T191500Z",
+      "source": "politika.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_996ed84307e228b8",
+      "headline": "Za útokem na lipské letiště je Rusko , oznámili Němci | Svět",
+      "url": "https://www.lidovky.cz/svet/nemecko-lipsko-utok-letiste-rusko-odpovednost.A260901_181022_ln_zahranici_lsva",
+      "published_at": "20260901T183000Z",
+      "source": "lidovky.cz",
       "tags": []
     },
     {
@@ -241,19 +406,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_f5ca06e5f3c65e45",
-      "headline": "Höflichkeitsbesuch der deutschen Bildungsministerin Karin Prien bei Regierungsrat Daniel Oehry",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69466418-hoeflichkeitsbesuch-der-deutschen-bildungsministerin-karin-prien-bei-regierungsrat-daniel-oehry-006.htm",
-      "published_at": "20260901T154500Z",
-      "source": "finanznachrichten.de",
-      "tags": []
-    },
-    {
       "id": "gdelt_92d3b1d95477b97e",
       "headline": "Ход избирательной кампании обсудили в эфире программы « Оглавление »",
       "url": "https://informpskov.ru/news/516492.html",
       "published_at": "20260901T170000Z",
       "source": "informpskov.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f893e16f95512af4",
+      "headline": "Один зал , половина Евразии и ни одного западного посредника . Бишкек на два дня становится альтернативным центром мира , а где - то позади РАТС борется с  тройным злом  ( Advance , Хорватия )",
+      "url": "https://inosmi.ru/20260901/shos-279957090.html",
+      "published_at": "20260901T201500Z",
+      "source": "inosmi.ru",
       "tags": []
     },
     {
@@ -265,27 +430,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_fed353ec0cda167a",
-      "headline": "Россия считает Португалию « одной из самых враждебных стран Европы »",
-      "url": "https://ru.euronews.com/my-europe/2026/09/01/rossiya-schitaet-portugaliyu-odnoj-iz-samyh-vrazhdebnyh-stran-evropy",
-      "published_at": "20260901T154500Z",
-      "source": "ru.euronews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_35ecc21420f40ed1",
-      "headline": "Бернем заявил , что не хочет эскалации конфликта на Украине",
-      "url": "https://ria.ru/20260901/bernem-2114696219.html",
-      "published_at": "20260901T154500Z",
-      "source": "ria.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e085b45d0b4d6aa2",
-      "headline": "В РДК * заявили о похищении замкомандира Каплунова ** неизвестными",
-      "url": "https://life.ru/p/1919192",
-      "published_at": "20260901T131500Z",
-      "source": "life.ru",
+      "id": "gdelt_2e00168efa603634",
+      "headline": "Πούτιν : Η Ρωσία είναι ανοιχτή σε συγκεκριμένες συνομιλίες για την Ουκρανία – Η Γερμανία « φύτεψε » στοιχεία για να μας κατηγορήσει για τη Λειψία",
+      "url": "https://www.inewsgr.com/182/poutin-i-rosia-einai-anoichti-se-sygkekrimenes-synomilies-gia-tin-oukrania--i-germania-fytepse-stoicheia-gia-na-mas-katigorisei-gia-ti-leipsia.htm",
+      "published_at": "20260901T211500Z",
+      "source": "inewsgr.com",
       "tags": []
     },
     {
@@ -294,48 +443,22 @@
       "url": "https://aceh.tribunnews.com/news/1041583/as-ancam-sanksi-bank-iran-teheran-siapkan-rp32-triliun",
       "published_at": "20260901T163000Z",
       "source": "aceh.tribunnews.com",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_919d93788087d4e9",
-      "headline": "Ozon начал работать в Монголии",
-      "url": "https://www.infox.ru/news/251/385896-ozon-nacal-rabotat-v-mongolii",
-      "published_at": "20260901T140000Z",
-      "source": "infox.ru",
       "tags": []
     },
     {
-      "id": "gdelt_b49c591a9c63fec4",
-      "headline": "Šengenska pravila ostaju , navodi EU uprkos zahtevima prevoznika sa Zapadnog Balkana",
-      "url": "https://www.danas.rs/vesti/ekonomija/sengenska-pravila-ostaju-navodi-eu-uprkos-zahtevima-prevoznika-sa-zapadnog-balkana/",
-      "published_at": "20260901T140000Z",
-      "source": "danas.rs",
+      "id": "gdelt_a019783e279e4bb4",
+      "headline": "高捷紫線可行性研究卡關4年 … 市府 「 平行作業 」 趕進度 | 高屏離島 | 地方",
+      "url": "https://udn.com/news/story/7327/9728262",
+      "published_at": "20260901T191500Z",
+      "source": "udn.com",
       "tags": []
     },
     {
-      "id": "gdelt_181b9c639b5390f2",
-      "headline": "Законопроєкт Грема про жорсткі санкції проти РФ , ймовірно , буде відхилено в Палаті представників – Politico",
-      "url": "https://uainfo.org/blognews/1788263534-zakonoproekt-grema-pro-zhorstki-sanktsiyi-proti-rf-ymovirno-.html",
-      "published_at": "20260901T131500Z",
-      "source": "uainfo.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ac52f2ec589558bc",
-      "headline": "Besent : SAD će verovatno objaviti sankcije iranskoj banci ove nedelje",
-      "url": "https://naslovi.net/2026-09-01/insajder/besent-sad-ce-verovatno-objaviti-sankcije-iranskoj-banci-ove-nedelje/42300010",
-      "published_at": "20260901T154500Z",
-      "source": "naslovi.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2f68f969b44f2c5b",
-      "headline": "Президент Ирана выразил уверенность в успехе противодействия санкциям США",
-      "url": "https://ria.ru/20260901/sanktsii-2114663088.html",
-      "published_at": "20260901T140000Z",
-      "source": "ria.ru",
+      "id": "gdelt_636ad2d1b49ae7ab",
+      "headline": "Why Advertising Campaigns Fail : A Strategic Guide for Brand Leaders",
+      "url": "https://www.ibtimes.com/why-advertising-campaigns-fail-strategic-guide-brand-leaders-3807037",
+      "published_at": "20260901T201500Z",
+      "source": "ibtimes.com",
       "tags": []
     },
     {
@@ -355,6 +478,16 @@
       "tags": []
     },
     {
+      "id": "gdelt_c88f557df78606b6",
+      "headline": "SCO Summit : India priorities on terror , security reflected in Bishkek Declaration",
+      "url": "https://economictimes.indiatimes.com/news/india/sco-summit-indias-priorities-on-terror-security-reflected-in-bishkek-declaration/articleshow/133689713.cms",
+      "published_at": "20260901T183000Z",
+      "source": "economictimes.indiatimes.com",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
       "id": "gdelt_221648fec75a8e84",
       "headline": "Iran Tuduh UE Serahkan Kedaulatan kepada AS",
       "url": "https://aceh.tribunnews.com/news/1041582/iran-tuduh-ue-serahkan-kedaulatan-kepada-as",
@@ -371,109 +504,43 @@
       "tags": []
     },
     {
-      "id": "gdelt_f26cd12b9804de4c",
-      "headline": "Китай відповів на слова Стубба про ядерну зброю РФ та війну проти України",
-      "url": "https://www.rbc.ua/rus/news/kitayi-vidpovili-chi-davali-garantiyi-shchodo-1788266240.html",
-      "published_at": "20260901T150000Z",
-      "source": "rbc.ua",
+      "id": "gdelt_8c3bf82fb4834344",
+      "headline": "Cene nafte porasle najviše u mesec dana zbog novih eskalacija na Bliskom istoku",
+      "url": "https://naslovi.net/2026-09-01/insajder/cene-nafte-porasle-najvise-u-mesec-dana-zbog-novih-eskalacija-na-bliskom-istoku/42300838",
+      "published_at": "20260901T191500Z",
+      "source": "naslovi.net",
       "tags": []
     },
     {
-      "id": "gdelt_0d00bdc23cac52b6",
-      "headline": "Как Путин и Пезешкиан бросили новый вызов санкционной политике Трампа",
-      "url": "https://ura.news/articles/1053123386",
-      "published_at": "20260901T153000Z",
-      "source": "ura.news",
+      "id": "gdelt_a40ed3362b87d00b",
+      "headline": "NEPREDVIĐENA ESKALACIJA : Američka ambasada u Bejrutu izdala dramatično saopštenje o stanju na Bliskom istoku",
+      "url": "https://www.slobodna-bosna.ba/vijest/503058/nepredvidjena_eskalacija_americhka_ambasada_u_bejrutu_izdala_dramatichno_saopstenje_o_stanju_na_bliskom_istoku.html",
+      "published_at": "20260901T201500Z",
+      "source": "slobodna-bosna.ba",
       "tags": []
     },
     {
-      "id": "gdelt_562a88048e8e938b",
-      "headline": "Modehändler Shein enttäuscht bei Börsengang in Hongkong",
-      "url": "https://www.news.at/wirtschaft/modehandler-shein-enttauscht-bei-borsengang-in-hongkong",
-      "published_at": "20260901T140000Z",
-      "source": "news.at",
+      "id": "gdelt_948404d59ac34d12",
+      "headline": "Eskalacija sukoba između SAD i Irana i udari na iranske ciljeve",
+      "url": "https://naslovi.net/2026-09-01/naslovi-ai/eskalacija-sukoba-izmedju-sad-i-irana-i-udari-na-iranske-ciljeve/42301013",
+      "published_at": "20260901T201500Z",
+      "source": "naslovi.net",
       "tags": []
     },
     {
-      "id": "gdelt_fda22f0ec2db1a3f",
-      "headline": "ЄС готує нові санкції за викрадення Росією дітей",
-      "url": "https://www.dw.com/uk/es-gotue-novi-sankcii-za-vikradenna-rosieu-ukrainskih-ditej-dzerela/a-78623063",
-      "published_at": "20260901T154500Z",
-      "source": "dw.com",
+      "id": "gdelt_60c42f8ce9d7a1cb",
+      "headline": "Ρωσία σε Γερμανία : Οι ισχυρισμοί για επίθεση με drone στη Λειψία είναι ψευδείς και συνιστούν μια άνευ προηγουμένου κλιμάκωση",
+      "url": "https://www.inewsgr.com/465/rosia-se-germania-oi-ischyrismoi-gia-epithesi-me-drone-sti-leipsia-einai-psevdeis-kai-synistoun-mia-anef-proigoumenou-klimakosi.htm",
+      "published_at": "20260901T201500Z",
+      "source": "inewsgr.com",
       "tags": []
     },
     {
-      "id": "gdelt_a056f44446a98ff5",
-      "headline": "Посольство России оценило новые меры Британии против системы платежей A7",
-      "url": "https://1prime.ru/20260901/posolstvo-872889837.html",
-      "published_at": "20260901T154500Z",
-      "source": "1prime.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6b607675a84ca672",
-      "headline": "גדעון סער מאיים :  אם בריטניה תטיל עלינו סנקציות – אנחנו נפעל נגדה . יש לנו כלים",
-      "url": "https://www.ynet.co.il/news/article/byihyqeufx",
-      "published_at": "20260901T153000Z",
-      "source": "ynet.co.il",
-      "tags": []
-    },
-    {
-      "id": "gdelt_19c0e22dfd2dfa49",
-      "headline": "ABD basını : Rusyaya yönelik yaptırım paketi ABDde muhalefete takıldı",
-      "url": "https://www.bursahakimiyet.com.tr/dunya/abd-basini-rusya-ya-yonelik-yaptirim-paketi-abd-de-muhalefete-takildi-1700798",
-      "published_at": "20260901T130000Z",
-      "source": "bursahakimiyet.com.tr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1c99ca01854077cb",
-      "headline": "EU - Projekte in Vorarlberg : Radeln und Preise gewinnen",
-      "url": "https://www.vol.at/eu-projekte-in-vorarlberg-erradeln-chance-auf-preise/10432670",
-      "published_at": "20260901T130000Z",
-      "source": "vol.at",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1bc9c6adec363072",
-      "headline": "Walikota Dumai Ajak Masyarakat Manfaatkan Program Kemudahan Perpajakan di Kota Dumai",
-      "url": "https://pekanbaru.tribunnews.com/dumai-region/1113893/walikota-dumai-ajak-masyarakat-manfaatkan-program-kemudahan-perpajakan-di-kota-dumai",
-      "published_at": "20260901T141500Z",
-      "source": "pekanbaru.tribunnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cc75a47230ccef83",
-      "headline": "Россия почти вдвое нарастила  теневой флот , несмотря на санкции США",
-      "url": "https://www.dialog.ua/russia/rossiya-pochti-vdvoe-narastila-tenevoy-flot-nesmotrya-na-sanktsii-ssha.html",
-      "published_at": "20260901T153000Z",
-      "source": "dialog.ua",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "gdelt_aeaa71dc3e0cd0df",
-      "headline": "Пекельні санкції  застрягли в Конгресі США - ЗМІ",
-      "url": "https://ua.korrespondent.net/world/4908000-pekelni-sanktsii-zastriahly-v-konhresi-ssha-zmi",
-      "published_at": "20260901T153000Z",
-      "source": "ua.korrespondent.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9417c5a7b3fc8890",
-      "headline": "В Китае отменили налоговую льготу на дивиденды для иностранцев",
-      "url": "https://1prime.ru/20260901/kitaj-872889458.html",
-      "published_at": "20260901T153000Z",
-      "source": "1prime.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8beedfb5de9989e1",
-      "headline": "В Конгрессе США завис законопроект об  адских  санкциях против России",
-      "url": "https://www.mk.ru/politics/2026/09/01/v-kongresse-ssha-zavis-zakonoproekt-ob-adskikh-sankciyakh-protiv-rossii.html",
-      "published_at": "20260901T153000Z",
-      "source": "mk.ru",
+      "id": "gdelt_cef98c7c01723f45",
+      "headline": "Ile Maurice : Une enquête transfrontalière cible DistributeX , soupçonnée de système pyramidal",
+      "url": "https://fr.allafrica.com/stories/202609010565.html",
+      "published_at": "20260901T203000Z",
+      "source": "fr.allafrica.com",
       "tags": []
     },
     {
@@ -493,35 +560,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_84aabb88c261eb99",
-      "headline": "Politiko : Novi paket sankcija Rusiji mogao bi da propadne u Predstavničkom domu SAD",
-      "url": "https://informer.rs/planeta/vesti/1146789/sankcije-rusiji-politiko-lindzi-grejem",
-      "published_at": "20260901T140000Z",
-      "source": "informer.rs",
+      "id": "gdelt_33820a81a5856e80",
+      "headline": "The Himalayas need a new blueprint : Rebuilding Rasuwa with climate resilience and proactive infrastructure management",
+      "url": "https://economictimes.indiatimes.com/opinion/et-editorial/the-himalayas-need-a-new-blueprint-rebuilding-rasuwa-with-climate-resilience-and-proactive-infrastructure-management/articleshow/133690261.cms",
+      "published_at": "20260901T191500Z",
+      "source": "economictimes.indiatimes.com",
       "tags": []
     },
     {
-      "id": "gdelt_320bbb46e2269223",
-      "headline": "Германия вышлет российских дипломатов из - за инцидента с дроном",
-      "url": "https://www.kommersant.ru/doc/8923329",
-      "published_at": "20260901T123000Z",
-      "source": "kommersant.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_09eb0f8916b0691e",
-      "headline": "Netoli svarbios Vokietijos elektrinės rasta savadarbių sprogstamųjų užtaisų",
-      "url": "https://www.delfi.lt/naujienos/uzsienyje/savadarbemis-raketomis-apsaudytas-svarbus-objektas-netoli-vokietijos-elektrines-skelbia-ziniasklaida-120297831",
-      "published_at": "20260901T140000Z",
-      "source": "delfi.lt",
-      "tags": []
-    },
-    {
-      "id": "gdelt_85251dd4436939a4",
-      "headline": "جريدة البلاد | قطر : نكثف اتصالاتنا لاستئناف المفاوضات .. وبقاء هرمز بلا حل يضر بالجميع",
-      "url": "https://www.albiladpress.com/news/2026/6532/arab-and-world/1017380.html",
-      "published_at": "20260901T123000Z",
-      "source": "albiladpress.com",
+      "id": "gdelt_facca5cc891b98e9",
+      "headline": "Каллас : ЕС сложно получить ракеты для ПВО Украины",
+      "url": "https://sputnik-georgia.ru/20260901/kallas-es-slozhno-poluchit-rakety-dlya-pvo-ukrainy-300399318.html",
+      "published_at": "20260901T201500Z",
+      "source": "sputnik-georgia.ru",
       "tags": []
     },
     {
@@ -533,84 +584,58 @@
       "tags": []
     },
     {
-      "id": "gdelt_96c8a3430d491b90",
-      "headline": "Politico : Палата представителей США может отклонить  адские санкции  против РФ | MigNews - Новости Израиля и Мира на русском языке",
-      "url": "https://mignews.com/news/politic/politico-palata-predstavitelej-ssha-mozhet-otklonit-adskie-sankcii-protiv-rf.html",
-      "published_at": "20260901T131500Z",
-      "source": "mignews.com",
+      "id": "gdelt_6bf3641db5cf4f21",
+      "headline": "Kallas zapowiada potężny cios . UE szykuje potężne sankcje na rosyjską armię",
+      "url": "https://www.bankier.pl/wiadomosc/Kallas-zapowiada-potezny-cios-UE-szykuje-potezne-sankcje-na-rosyjska-armie-9190521.html",
+      "published_at": "20260901T191500Z",
+      "source": "bankier.pl",
       "tags": []
     },
     {
-      "id": "gdelt_3b9dfed301d99b5a",
-      "headline": "Iran Tegaskan AS Tak Bisa Mendikte Negosiasi , Washington Siapkan Sanksi Bank",
-      "url": "https://aceh.tribunnews.com/news/1041580/iran-tegaskan-as-tak-bisa-mendikte-negosiasi-washington-siapkan-sanksi-bank",
-      "published_at": "20260901T154500Z",
-      "source": "aceh.tribunnews.com",
+      "id": "gdelt_4813e65e54c7e989",
+      "headline": "Μακρόν : Στηρίζει το νέο πακέτο κυρώσεων κατά της Ρωσίας",
+      "url": "https://www.naftemporiki.gr/kosmos/2155932/makron-stirizei-to-neo-paketo-kyroseon-kata-tis-rosias/",
+      "published_at": "20260901T191500Z",
+      "source": "naftemporiki.gr",
       "tags": []
     },
     {
-      "id": "gdelt_902883b49c9d0ca8",
-      "headline": "China issues guidelines for automaker overseas operations",
-      "url": "https://www.asiaone.com:443/money/china-issues-guidelines-automakers-overseas-operations",
-      "published_at": "20260901T123000Z",
-      "source": "asiaone.com",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
-      "id": "gdelt_b7b4d725309ccd5f",
-      "headline": "FIFA Ubah Aturan Sanksi Pemain Argentina Pada Konflik Laga Final Piala Dunia 2026",
-      "url": "https://www.jawapos.com/sepak-bola/2609010478/fifa-ubah-aturan-sanksi-pemain-argentina-pada-konflik-laga-final-piala-dunia-2026",
-      "published_at": "20260901T154500Z",
-      "source": "jawapos.com",
+      "id": "gdelt_6c7da823918e22bf",
+      "headline": "Acting PM Bolojan holds call with Ukrainian conterpart on security and cross - border projects",
+      "url": "https://www.stiripesurse.ro/acting-pm-bolojan-holds-call-with-ukrainian-conterpart-on-security-and-cross-border-projects_3916658",
+      "published_at": "20260901T191500Z",
+      "source": "stiripesurse.ro",
       "tags": []
     },
     {
-      "id": "gdelt_4def2b93bca77afb",
-      "headline": "Middle East tension : Trump warns US will respond  tonight  to Iran strikes as fears grow of wider regional conflict",
-      "url": "https://www.bankingnews.gr/diethni/articles/896834/middle-east-tension-trump-warns-us-will-respond-tonight-to-iran-strikes-as-fears-grow-of-wider-regional-conflict%20title=",
-      "published_at": "20260901T130000Z",
-      "source": "bankingnews.gr",
+      "id": "gdelt_b46683ab9a27286d",
+      "headline": "Nemačka nema dokaze , žele eskalaciju sa nama  Stigao jezivo leden odgovor Kremlja na optužbe nemačkog ministra za napad u Lajpcigu",
+      "url": "https://naslovi.net/2026-09-01/vecernje-novosti/nemacka-nema-dokaze-zele-eskalaciju-sa-nama-stigao-jezivo-leden-odgovor-kremlja-na-optuzbe-nemackog-ministra-za-napad-u-lajpcigu/42301182",
+      "published_at": "20260901T211500Z",
+      "source": "naslovi.net",
       "tags": []
     },
     {
-      "id": "gdelt_45d8d4f5cca04d23",
-      "headline": "Middle East tension : Trump warns US will respond  tonight  to Iran strikes as fears grow of wider regional conflict",
-      "url": "https://www.bankingnews.gr/diethni/articles/896834/middle-east-tension-trump-warns-us-will-respond-tonight-to-iran-strikes-as-fears-grow-of-wider-regional-conflict",
-      "published_at": "20260901T130000Z",
-      "source": "bankingnews.gr",
+      "id": "gdelt_d45c3648c372ba98",
+      "headline": "Dyplomatyczny wstrząs na linii Londyn – Tel Awiw . Londyn zapowiada sankcje na osadników",
+      "url": "https://www.bankier.pl/wiadomosc/Dyplomatyczny-wstrzas-na-linii-Londyn-Tel-Awiw-Londyn-zapowiada-sankcje-na-osadnikow-9190569.html",
+      "published_at": "20260901T191500Z",
+      "source": "bankier.pl",
       "tags": []
     },
     {
-      "id": "gdelt_1d01a35e4835deb6",
-      "headline": "Rusyada nakit döviz çekimindeki kısıtlamalar uzatıldı",
-      "url": "https://www.ensonhaber.com/rusyada-nakit-doviz-cekimindeki-kisitlamalar-uzatildi-h1562295",
-      "published_at": "20260901T154500Z",
-      "source": "ensonhaber.com",
+      "id": "gdelt_5789414f520d2cdf",
+      "headline": "الحرس الثوري : الهجمات الأمريكية ستزيد من الحصار على مضيق هرمز",
+      "url": "https://www.elwatannews.com/news/details/8350333",
+      "published_at": "20260901T201500Z",
+      "source": "elwatannews.com",
       "tags": []
     },
     {
-      "id": "gdelt_c3f8ed50da4fa733",
-      "headline": "Classic Rallye kommt : Schärding wird für rund zwei Stunden zum Oldtimer - Mekka",
-      "url": "https://www.meinbezirk.at/schaerding/c-lokales/schaerding-wird-fuer-rund-zwei-stunden-zum-oldtimer-mekka_a8875373",
-      "published_at": "20260901T140000Z",
-      "source": "meinbezirk.at",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7755399206add091",
-      "headline": "США могут объявить о новых санкциях против банков за операции с Ираном",
-      "url": "https://1prime.ru/20260901/ssha-872889547.html",
-      "published_at": "20260901T153000Z",
-      "source": "1prime.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_123eff1ebda101af",
-      "headline": "الثلاثاء 1 سبتمبر 2026 .. الذهب يهبط 70 جنيها وعيار 21 يسجل 6255 جنيها",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=01092026&id=394074f4-524d-45fe-9147-4ee535b4997d",
-      "published_at": "20260901T130000Z",
+      "id": "gdelt_5d07900b0f5e849c",
+      "headline": "ترامب يحذر طهران : الرد سيقابل بضربات أقوى .. وقد تُمحى إيران كدولة",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=01092026&id=d7abbb79-9006-41c0-9624-6d31b18adacb",
+      "published_at": "20260901T191500Z",
       "source": "shorouknews.com",
       "tags": []
     },
@@ -623,30 +648,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_e409a1fa28dc6779",
-      "headline": "Pakistan Railways Signs Deal to Launch Freight Train to Russia , Central Asia",
-      "url": "https://propakistani.pk/2026/09/01/pakistan-railways-signs-deal-to-launch-freight-train-to-russia-central-asia/",
-      "published_at": "20260901T141500Z",
-      "source": "propakistani.pk",
-      "tags": [
-        "RUSSIA",
-        "PAKISTAN"
-      ]
-    },
-    {
-      "id": "gdelt_f43c4d823e36eeec",
-      "headline": "ABDden İrana Yeni Banka Yaptırımı Sinyali",
-      "url": "https://www.haberler.com/ekonomi/abd-hazine-bakani-bessent-bu-hafta-bir-bankaya-20197739-haberi/",
-      "published_at": "20260901T163000Z",
-      "source": "haberler.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d091b241ddb34aca",
-      "headline": "ABD Hazine Bakanı Bessentten İrana yeni yaptırım sinyali : Hürmüz Boğazı iki yıl içinde değersiz bir su parçası olacak",
-      "url": "https://t24.com.tr/dunya/abd-hazine-bakani-bessentten-irana-yeni-yaptirim-sinyali-hurmuz-bogazi-iki-yil-icinde-degersiz-bir-su-parcasi-olacak,1345376",
-      "published_at": "20260901T164500Z",
-      "source": "t24.com.tr",
+      "id": "gdelt_12ad30b14d52e89e",
+      "headline": "재무  호르무즈 , 2년내 쓸모없어진다 … 파이프라인으로 우회",
+      "url": "http://www.koreatimes.com/article/20260901/1627979",
+      "published_at": "20260901T191500Z",
+      "source": "koreatimes.com",
       "tags": []
     },
     {
@@ -658,6 +664,67 @@
       "tags": []
     },
     {
+      "id": "gdelt_b4d62d07cbf9e844",
+      "headline": "Additional emergency humanitarian aid supplies provided by China arrive in Nepal",
+      "url": "https://www.globaltimes.cn/page/202609/1369579.shtml",
+      "published_at": "20260901T193000Z",
+      "source": "globaltimes.cn",
+      "tags": [
+        "CHINA"
+      ]
+    },
+    {
+      "id": "gdelt_8eb9a31ba00a1f6d",
+      "headline": "Бессент анонсував введення нових санкції США проти Ірану цього тижня – ЗМІ",
+      "url": "https://interfax.com.ua/news/general/1197777.html",
+      "published_at": "20260901T201500Z",
+      "source": "interfax.com.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f43c4d823e36eeec",
+      "headline": "ABDden İrana Yeni Banka Yaptırımı Sinyali",
+      "url": "https://www.haberler.com/ekonomi/abd-hazine-bakani-bessent-bu-hafta-bir-bankaya-20197739-haberi/",
+      "published_at": "20260901T163000Z",
+      "source": "haberler.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_15b1e0479fa077e5",
+      "headline": "Μακρόν : Υπέρ της λήψης νέων ευρωπαϊκών κυρώσεων κατά της Ρωσίας",
+      "url": "https://www.capital.gr/diethni/4013948/makron-uper-tis-lipsis-neon-europaikon-kuroseon-kata-tis-rosias/",
+      "published_at": "20260901T201500Z",
+      "source": "capital.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b3ffe1cf54f1b57e",
+      "headline": "Russia calls Germany Leipzig drone attack claims false and an unprecedented escalation",
+      "url": "https://www.yahoo.com/news/articles/russia-calls-germanys-leipzig-drone-190315449.html",
+      "published_at": "20260901T203000Z",
+      "source": "yahoo.com",
+      "tags": [
+        "RUSSIA",
+        "GERMANY"
+      ]
+    },
+    {
+      "id": "gdelt_d091b241ddb34aca",
+      "headline": "ABD Hazine Bakanı Bessentten İrana yeni yaptırım sinyali : Hürmüz Boğazı iki yıl içinde değersiz bir su parçası olacak",
+      "url": "https://t24.com.tr/dunya/abd-hazine-bakani-bessentten-irana-yeni-yaptirim-sinyali-hurmuz-bogazi-iki-yil-icinde-degersiz-bir-su-parcasi-olacak,1345376",
+      "published_at": "20260901T164500Z",
+      "source": "t24.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_70ee08328005f7f1",
+      "headline": "Ο Μακρόν στηρίζει τη λήψη νέων ευρωπαϊκών κυρώσεων κατά της Ρωσίας",
+      "url": "https://www.athensvoice.gr/epikairotita/diethni/983189/o-makron-stirizei-ti-lipsi-neon-europaikon-kuroseon-kata-tis-rosias/",
+      "published_at": "20260901T201500Z",
+      "source": "athensvoice.gr",
+      "tags": []
+    },
+    {
       "id": "gdelt_46cbfe070f0b0456",
       "headline": "Szykuje się największy pakiet sankcji na Rosję . Tym razem ma uderzyć w przemysł zbrojeniowy",
       "url": "https://www.wnp.pl/rynki/szykuje-sie-najwiekszy-pakiet-sankcji-na-rosje-tym-razem-ma-uderzyc-w-przemysl-zbrojeniowy,1095055.html",
@@ -666,11 +733,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_e06433949d858374",
-      "headline": "Санкции США могут затронуть любого , кто ведет бизнес с КСИР , заявил Бессент",
-      "url": "https://ria.ru/20260901/bessent-2114682642.html",
-      "published_at": "20260901T150000Z",
-      "source": "ria.ru",
+      "id": "gdelt_8a569696d855fc4f",
+      "headline": "Analitičar : Rusija testira Europu , rat u Ukrajini ide prema zaoštravanju",
+      "url": "https://www.index.hr/vijesti/clanak/analiticar-rusija-testira-europu-rat-u-ukrajini-ide-prema-zaostravanju/2829954.aspx?index_tid=1140647&index_ref=naslovnica_vijesti_ostalo_d_0",
+      "published_at": "20260901T190000Z",
+      "source": "index.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1d6604d4c0cd5106",
+      "headline": "اقتحام بن غفير الـ19 للأقصى .. هل بدأ التأسيس المعنوي للهيكل المزعوم ؟",
+      "url": "https://palinfo.com/news/2026/09/01/1116802/",
+      "published_at": "20260901T211500Z",
+      "source": "palinfo.com",
       "tags": []
     },
     {
@@ -682,11 +757,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_4dd41fe6eab77908",
-      "headline": "7 người đánh tài xế gục xuống đường : TS tội phạm học lý giải điều đáng sợ diễn ra trong đầu kẻ hành hung",
-      "url": "https://soha.vn/7-nguoi-danh-tai-xe-guc-xuong-duong-ts-toi-pham-hoc-ly-giai-dieu-dang-so-dien-ra-trong-dau-ke-hanh-hung-198260901150417783.htm",
-      "published_at": "20260901T141500Z",
-      "source": "soha.vn",
+      "id": "gdelt_d65438400b97dbd1",
+      "headline": "Η Ρωσία τα βάζει με την Γερμανία για την υπόθεση της Λειψίας : « Ψευδείς οι κατηγορίες » – Προειδοποιεί για συνέπειες",
+      "url": "https://www.inewsgr.com/97/i-rosia-ta-vazei-me-tin-germania-gia-tin-ypothesi-tis-leipsias-psevdeis-oi-katigories--proeidopoiei-gia-synepeies.htm",
+      "published_at": "20260901T203000Z",
+      "source": "inewsgr.com",
       "tags": []
     },
     {
@@ -698,101 +773,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_fc3758daf0f57294",
+      "headline": "Cene nafte porasle najviše u mesec zbog novih eskalacija na Bliskom istoku",
+      "url": "https://www.tanjug.rs/ekonomija/svet/277894/cene-nafte-porasle-najvise-u-mesec-zbog-novih-eskalacija-na-bliskom-istoku/vest",
+      "published_at": "20260901T210000Z",
+      "source": "tanjug.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_df23ada8c06c241c",
+      "headline": "FIBA naikina sankcijas šalių agresorių krepšininkams , bet dar ne komandoms",
+      "url": "https://www.15min.lt/24sek/naujiena/pasaulis/fiba-naikina-sankcijas-saliu-agresoriu-krepsininkams-bet-dar-ne-komandoms-880-2754940",
+      "published_at": "20260901T201500Z",
+      "source": "15min.lt",
+      "tags": []
+    },
+    {
       "id": "gdelt_6feaab1224b22124",
       "headline": "US tech found in Russian ballistic missiles",
       "url": "https://www.defensenews.com/global/europe/2026/09/01/us-tech-found-in-russian-ballistic-missiles/",
       "published_at": "20260901T164500Z",
       "source": "defensenews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4dba0901b5cf61a4",
-      "headline": "Stickerei Rankweil : Drittes Herbstprogramm mit Lesungen und Workshops",
-      "url": "https://www.vol.at/stickerei-praesentiert-ihr-drittes-herbstprogramm/10432730",
-      "published_at": "20260901T130000Z",
-      "source": "vol.at",
-      "tags": []
-    },
-    {
-      "id": "gdelt_aea5a842fb19e0e6",
-      "headline": "Tomislav Ćorić : Ne možemo očekivati rapidno smanjenje inflacije do deeskalacije sukoba na Bliskom istoku",
-      "url": "https://www.tanjug.rs/region/politika/277847/tomislav-coric-ne-mozemo-ocekivati-rapidno-smanjenje-inflacije-do-deeskalacije-sukoba-na-bliskom-istoku/vest",
-      "published_at": "20260901T154500Z",
-      "source": "tanjug.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3fa268a585ca9497",
-      "headline": "专家 ： 美国拉G20围堵中国的牌打不响 现实阻碍明显 _ 新闻频道 _ 中华网",
-      "url": "https://news.china.com/socialgd/10000169/20260901/49713505.html",
-      "published_at": "20260901T160000Z",
-      "source": "news.china.com",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
-      "id": "gdelt_fa192d9f5859d1e7",
-      "headline": "川普讚北京未過多介入伊朗問題 貝森特暗示 「 經濟D - Day 」 將避開中國 | 國際",
-      "url": "https://www.setn.com/news/1899883",
-      "published_at": "20260901T130000Z",
-      "source": "setn.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ea2cf747f6dfa9d3",
-      "headline": "Reformas regresivas",
-      "url": "https://diario.mx/opinion/2026/aug/31/reformas-regresivas-1136016.html",
-      "published_at": "20260901T150000Z",
-      "source": "diario.mx",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b23ada8fbad6a6fa",
-      "headline": "Trump tug - of - war with Iran : A game of perpetual attrition – Middle East Monitor",
-      "url": "https://www.middleeastmonitor.com/20260901-trumps-tug-of-war-with-iran-a-forever-game-of-perpetual-attrition/",
-      "published_at": "20260901T160000Z",
-      "source": "middleeastmonitor.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5cf7573bd47f8d1a",
-      "headline": "« Путин боится даже не завершения войны без минимального результата , он боится завершения войны в принципе »",
-      "url": "http://gazetaby.com/post/putin-boitsya-dazhe-ne-zaversheniya-vojny-bez-minimalnogo-rezultata-on/216159/",
-      "published_at": "20260901T170000Z",
-      "source": "gazetaby.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4947eee6ceded963",
-      "headline": "بعد تبادل الهجمات .. ما مصير جهود الوساطة بين إيران وأمريكا ؟ | CNN Arabic",
-      "url": "https://arabic.cnn.com/middle-east/article/2026/09/01/mediation-efforts-continue-despite-us-iran-escalation-iranian-qatari",
-      "published_at": "20260901T140000Z",
-      "source": "arabic.cnn.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_61ee53e3e4f99be7",
-      "headline": "Nema volje : Zastupnički dom će ignorirati zakon L . Grahama o  paklenim sankcijama  protiv Rusije",
-      "url": "https://www.dnevno.hr/geopolitika-news/nema-volje-zastupnicki-dom-ce-ignorirati-zakon-l-grahama-o-paklenim-sankcijama-protiv-rusije-0/",
-      "published_at": "20260901T140000Z",
-      "source": "dnevno.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_32d58697ebc47317",
-      "headline": "Πούτιν – Πεζεσκιάν στέλνουν μήνυμα ενότητας στις ΗΠΑ από το Μπισκέκ : « Μαζί απέναντι στην πολιτική του Τραμπ »",
-      "url": "https://www.newsbeast.gr/world/arthro/13326343/poutin-pezeskian-stelnoun-minyma-stis-ipa-apo-to-biskek-mazi-apenanti-sti-monomereia",
-      "published_at": "20260901T140000Z",
-      "source": "newsbeast.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0423c1f4fe9cea6c",
-      "headline": "Sekretari i Thesarit : SHBA do të sanksionojë këdo që bën biznes me Gardën Revolucionare të Iranit",
-      "url": "https://tv21.tv/sekretari-i-thesarit-shba-do-te-sanksionoje-kedo-qe-ben-biznes-me-garden-revolucionare-te-iranit/",
-      "published_at": "20260901T170000Z",
-      "source": "tv21.tv",
       "tags": []
     },
     {
@@ -804,19 +805,83 @@
       "tags": []
     },
     {
-      "id": "gdelt_16d7d834c76f6066",
-      "headline": "Grensoverschrijdend politieteam Bad Nieuweschans bestaat 15 jaar",
-      "url": "https://www.westerwoldeactueel.nl/2026/09/01/grensoverschrijdend-politieteam-bad-nieuweschans-bestaat-15-jaar/",
-      "published_at": "20260901T141500Z",
-      "source": "westerwoldeactueel.nl",
+      "id": "gdelt_51fbc292ebe2ef8e",
+      "headline": "Депутат Журавлёв назвал обвинения Германии в адрес России « казус белли »",
+      "url": "https://life.ru/p/1919383",
+      "published_at": "20260901T191500Z",
+      "source": "life.ru",
       "tags": []
     },
     {
-      "id": "gdelt_8be02b2fec63b9ef",
-      "headline": "حماس تجري اتصالات مع الوسطاء وتحذر من تقويض اتفاق وقف إطلاق النار",
-      "url": "https://assabeel.net/83509",
-      "published_at": "20260901T154500Z",
-      "source": "assabeel.net",
+      "id": "gdelt_3fa268a585ca9497",
+      "headline": "专家 ： 美国拉G20围堵中国的牌打不响 现实阻碍明显 _ 新闻频道 _ 中华网",
+      "url": "https://news.china.com/socialgd/10000169/20260901/49713505.html",
+      "published_at": "20260901T160000Z",
+      "source": "news.china.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b23ada8fbad6a6fa",
+      "headline": "Trump tug - of - war with Iran : A game of perpetual attrition – Middle East Monitor",
+      "url": "https://www.middleeastmonitor.com/20260901-trumps-tug-of-war-with-iran-a-forever-game-of-perpetual-attrition/",
+      "published_at": "20260901T160000Z",
+      "source": "middleeastmonitor.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_62d9948c23aa16ff",
+      "headline": "Требование Америки",
+      "url": "https://haqqin.az/newsarchive/392240",
+      "published_at": "20260901T191500Z",
+      "source": "haqqin.az",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5cf7573bd47f8d1a",
+      "headline": "« Путин боится даже не завершения войны без минимального результата , он боится завершения войны в принципе »",
+      "url": "http://gazetaby.com/post/putin-boitsya-dazhe-ne-zaversheniya-vojny-bez-minimalnogo-rezultata-on/216159/",
+      "published_at": "20260901T170000Z",
+      "source": "gazetaby.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0882c14538d784b4",
+      "headline": "Nach Anschlagsversuch auf Leipziger Flughafen : Deutschlands neue Sanktionen gegen Russland im Check",
+      "url": "https://www.tagesspiegel.de/politik/nach-anschlagsversuch-auf-leipziger-flughafen-deutschlands-neue-sanktionen-gegen-russland-im-check-16006156.html",
+      "published_at": "20260901T190000Z",
+      "source": "tagesspiegel.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e617bf62f18a45b9",
+      "headline": "Congo Ebola outbreak kills nearly 3 , 000",
+      "url": "https://morningstaronline.co.uk/article/congo-ebola-outbreak-3000-deaths-epidemic",
+      "published_at": "20260901T201500Z",
+      "source": "morningstaronline.co.uk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f176277352fef82a",
+      "headline": "Trump nie daje Rosji nadziei",
+      "url": "https://wgospodarce.pl/informacje/157973-trump-nie-daje-rosji-nadziei",
+      "published_at": "20260901T201500Z",
+      "source": "wgospodarce.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0423c1f4fe9cea6c",
+      "headline": "Sekretari i Thesarit : SHBA do të sanksionojë këdo që bën biznes me Gardën Revolucionare të Iranit",
+      "url": "https://tv21.tv/sekretari-i-thesarit-shba-do-te-sanksionoje-kedo-qe-ben-biznes-me-garden-revolucionare-te-iranit/",
+      "published_at": "20260901T170000Z",
+      "source": "tv21.tv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e90cd01e3dfa344b",
+      "headline": "美要廢伊朗一張大牌 ？ 霍峽或成毫無價值水域 | 美國 | 貝森特 | 霍爾木茲海峽",
+      "url": "https://www.ntdtv.com/b5/2026/09/01/a104129153.html",
+      "published_at": "20260901T191500Z",
+      "source": "ntdtv.com",
       "tags": []
     },
     {
@@ -828,21 +893,35 @@
       "tags": []
     },
     {
-      "id": "gdelt_c29b87ee0c7dd65d",
-      "headline": "Ambasador united states na dywaniku . Poszło o wpis z wizerunkiem ministra wygenerowanym przez AI",
-      "url": "https://www.bankier.pl/wiadomosc/Ambasador-USA-na-dywaniku-Poszlo-o-wpis-z-wizerunkiem-ministra-wygenerowanym-przez-AI-9190268.html",
-      "published_at": "20260901T131500Z",
-      "source": "bankier.pl",
-      "tags": [
-        "UNITED_STATES"
-      ]
+      "id": "gdelt_e9bc2fd20ae60136",
+      "headline": "Xi Jinping chega ao Egito em meio a ameaças de sanes dos EUA por vínculos com Ir",
+      "url": "http://www.em.com.br/internacional/2026/09/7491689-xi-jinping-chega-ao-egito-em-meio-a-ameacas-de-sancoes-dos-eua-por-vinculos-com-ira.html",
+      "published_at": "20260901T191500Z",
+      "source": "em.com.br",
+      "tags": []
     },
     {
-      "id": "gdelt_893135a68001439f",
-      "headline": "Reformas regresivas",
-      "url": "https://www.elimparcial.com/columnas/2026/09/01/reformas-regresivas/",
-      "published_at": "20260901T153000Z",
-      "source": "elimparcial.com",
+      "id": "gdelt_de2bb0f0699e38cf",
+      "headline": "Xi Jinping visita Egito em meio a tensões com EUA e Oriente Médio",
+      "url": "https://www.otempo.com.br/mundo/2026/9/1/xi-jinping-chega-ao-egito-em-meio-a-tensoes-com-os-eua-e-crise-no-oriente-medio",
+      "published_at": "20260901T193000Z",
+      "source": "otempo.com.br",
+      "tags": []
+    },
+    {
+      "id": "gdelt_da22c7b6b0c7011f",
+      "headline": "Германия обвинила РФ в атаке с дроном в Лейпциге и объявила ответ",
+      "url": "https://korrespondent.net/world/4908058-hermanyia-obvynyla-rf-v-atake-s-dronom-v-leiptsyhe-y-obiavyla-otvet",
+      "published_at": "20260901T191500Z",
+      "source": "korrespondent.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_979ba23402ed0d14",
+      "headline": "İsrail işgale yaptırım korkusuyla İngiltereyi tehdit etti : Karşılık veririz",
+      "url": "https://www.yenisafak.com/dunya/israil-isgale-yaptirim-korkusuyla-ingiltereyi-tehdit-etti-karsilik-veririz-4852453",
+      "published_at": "20260901T191500Z",
+      "source": "yenisafak.com",
       "tags": []
     },
     {
@@ -854,11 +933,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_76d5dee768bdaa38",
-      "headline": "Санкции не смогли , а блокада смогла : иранская нефть застряла в Ормузе",
-      "url": "https://1prime.ru/20260901/iran-872889211.html",
-      "published_at": "20260901T153000Z",
-      "source": "1prime.ru",
+      "id": "gdelt_95d41c90d8f3d837",
+      "headline": "Drohnenanschlag Leipzig : Deutschland macht Russland offiziell verantwortlich",
+      "url": "https://www.20min.ch/story/leipzig-deutschland-macht-russland-fuer-drohnen-anschlag-verantwortlich-103625920",
+      "published_at": "20260901T193000Z",
+      "source": "20min.ch",
       "tags": []
     },
     {
@@ -870,27 +949,35 @@
       "tags": []
     },
     {
-      "id": "gdelt_8c712e64d0a3f157",
-      "headline": "Rusia Tegaskan Dukungan untuk Iran , Putin : Kami Berdiri Bersama Rakyat Iran",
-      "url": "https://aceh.tribunnews.com/news/1041578/rusia-tegaskan-dukungan-untuk-iran-putin-kami-berdiri-bersama-rakyat-iran",
-      "published_at": "20260901T154500Z",
-      "source": "aceh.tribunnews.com",
+      "id": "gdelt_9e763374401024bc",
+      "headline": "Законопроєкт про  пекельні санкції  Грема застряг у Палаті представників",
+      "url": "https://gordonua.com/ukr/section-worldnews/news-zakonoproekt-ob-adskykh-sanktsyyakh-hrema-zastryal-v-palate-predstavyteley-01-09-2026.html",
+      "published_at": "20260901T201500Z",
+      "source": "gordonua.com",
       "tags": []
     },
     {
-      "id": "gdelt_471d96d3052ab90e",
-      "headline": "США могут ввести санкции против любого , кто ведет бизнес с КСИР",
-      "url": "https://1prime.ru/20260901/ssha-872889029.html",
-      "published_at": "20260901T153000Z",
-      "source": "1prime.ru",
+      "id": "gdelt_ea579ff028b1832a",
+      "headline": "США нарастили объёмы закупки российских удобрений",
+      "url": "https://argumenti.ru/world/ssha-narastili-obemy-zakupki-rossiyskih-udobreniy-1007807",
+      "published_at": "20260901T201500Z",
+      "source": "argumenti.ru",
       "tags": []
     },
     {
-      "id": "gdelt_a6fa8d7c6afdc72c",
-      "headline": "PM Modi - Iran President meeting sent  very powerful message  to Mecca Pact signatories : M J Akbar",
-      "url": "https://www.prokerala.com/news/articles/a1807313.html",
-      "published_at": "20260901T140000Z",
-      "source": "prokerala.com",
+      "id": "gdelt_6684dd0eee02c93f",
+      "headline": "Hormuz will be bypassed in two years : Scott Bessent",
+      "url": "https://economictimes.indiatimes.com/news/international/global-trends/hormuz-will-be-bypassed-in-two-years-scott-bessent/articleshow/133690463.cms",
+      "published_at": "20260901T191500Z",
+      "source": "economictimes.indiatimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_76f9c4d1f9a6a481",
+      "headline": "Wie reagiert Deutschland auf die Sprengstoff - Drohne ?",
+      "url": "https://www.epochtimes.de/politik/deutschland/wie-reagiert-deutschland-auf-die-sprengstoff-drohne-a5597401.html",
+      "published_at": "20260901T193000Z",
+      "source": "epochtimes.de",
       "tags": []
     },
     {
@@ -910,63 +997,19 @@
       "tags": []
     },
     {
-      "id": "gdelt_9588c234ade5b5b9",
-      "headline": "The US says itll crack down on countries doing business with Iran . Who buying Iranian oil ?",
-      "url": "https://www.egyptindependent.com/the-us-says-itll-crack-down-on-countries-doing-business-with-iran-whos-buying-iranian-oil/",
-      "published_at": "20260901T140000Z",
-      "source": "egyptindependent.com",
+      "id": "gdelt_9e705f363d3d13db",
+      "headline": "Ο Μακρόν στηρίζει νέες ευρωπαϊκές κυρώσεις στη Ρωσία - « Οι υβριδικές επιθέσεις δεν θα μείνουν αναπάντητες »",
+      "url": "https://www.newsit.gr/kosmos/o-makron-stirizei-nees-eyropaikes-kyroseis-sti-rosia-oi-yvridikes-epitheseis-den-tha-meinoun-anapantites/4763250/",
+      "published_at": "20260901T203000Z",
+      "source": "newsit.gr",
       "tags": []
     },
     {
-      "id": "gdelt_bc9ab574c73d2176",
-      "headline": "Европейские лидеры раскритиковали участие министра РФ в саммите G20",
-      "url": "https://www.unian.net/world/evropeyskie-lidery-raskritikovali-uchastie-ministra-rf-v-sammite-g20-13487196.html",
-      "published_at": "20260901T154500Z",
-      "source": "unian.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bfb3b6bef126b5e2",
-      "headline": "Laut Analyse könnte Putins Angst Ukraine - Krieg weiter eskalieren",
-      "url": "https://www.merkur.de/politik/sie-werden-mich-haengen-laut-analyse-koennte-putins-angst-ukraine-krieg-weiter-eskalieren-zr-94469563.html",
-      "published_at": "20260901T130000Z",
-      "source": "merkur.de",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "gdelt_4ea40c946bb9f4eb",
-      "headline": "Russland kündigt Reaktion auf Sanktionen an",
-      "url": "https://www.finanzen.net/nachricht/aktien/russland-kuendigt-reaktion-auf-sanktionen-an-15912894",
-      "published_at": "20260901T170000Z",
-      "source": "finanzen.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_94461d1aa873935e",
-      "headline": "Iran defiant as Scott Bessent says US likely to announce bank sanctions this week",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/iran-defiant-as-bessent-says-us-likely-to-announce-bank-sanctions-this-week/articleshow/133686726.cms",
-      "published_at": "20260901T170000Z",
-      "source": "economictimes.indiatimes.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_89c86adc596930f0",
-      "headline": "Qatar urges intl action as Israeli occupation seeks to force new regional reality",
-      "url": "http://thepeninsulaqatar.com/article/01/09/2026/qatar-urges-intl-action-as-israeli-occupation-seeks-to-force-new-regional-reality",
-      "published_at": "20260901T160000Z",
-      "source": "thepeninsulaqatar.com",
-      "tags": [
-        "QATAR"
-      ]
-    },
-    {
-      "id": "gdelt_1d55de8c479931dc",
-      "headline": "Leipzig - Anschlag : Russland will auf Deutschlands Strafmaßnahmen „ spiegelbildlich  reagieren",
-      "url": "https://www.berliner-zeitung.de:443/article/drohnenvorfall-am-leipziger-flughafen-bundesregierung-macht-russland-verantwortlich-10349536",
-      "published_at": "20260901T170000Z",
-      "source": "berliner-zeitung.de",
+      "id": "gdelt_dbdb4cc1d12fdb3d",
+      "headline": "Ο Μακρόν στηρίζει νέες ευρωπαϊκές κυρώσεις κατά της Ρωσίας - « Πρέπει να είμαστε ενωμένοι »",
+      "url": "https://www.voria.gr/article/o-makron-stirizei-nees-eyropaikes-kyroseis-kata-tis-rosias-prepei-na-eimaste-enomenoi",
+      "published_at": "20260901T201500Z",
+      "source": "voria.gr",
       "tags": []
     },
     {
@@ -975,54 +1018,6 @@
       "url": "https://www.eldiario.es/economia/santander-bbva-suman-veintena-bancos-internacionales-lanzar-stablecoin-2027_1_13480235.html",
       "published_at": "20260901T170000Z",
       "source": "eldiario.es",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fca118c2141bebb1",
-      "headline": "Führungen , Mitmachstationen und kreative Workshops",
-      "url": "https://www.vn.at/kultur/2026/09/01/fuehrungen-mitmachstationen-und-kreative-workshops.vn",
-      "published_at": "20260901T123000Z",
-      "source": "vn.at",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e97bc896a86cba18",
-      "headline": "Europa - Schluss : EuroStoxx sinkt - Ölpreisanstieg schürt Inflationsängste",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69467093-europa-schluss-eurostoxx-sinkt-oelpreisanstieg-schuert-inflationsaengste-095.htm",
-      "published_at": "20260901T170000Z",
-      "source": "finanznachrichten.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4a37f4c97d24408f",
-      "headline": "US to unveil new Iran bank sanctions",
-      "url": "https://www.prokerala.com/news/articles/a1807392.html",
-      "published_at": "20260901T170000Z",
-      "source": "prokerala.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d766ef50a5a55b6d",
-      "headline": "Путін розглядає завершення війни через призму власної безпеки та боїться втратити владу – політолог Ігор Чаленко",
-      "url": "https://www.ostro.org/news/putin-rozglyadaye-zavershennya-vijny-cherez-pryzmu-vlasnoyi-bezpeky-ta-boyitsya-vtratyty-vladu-i566255",
-      "published_at": "20260901T130000Z",
-      "source": "ostro.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_62521a3f108464be",
-      "headline": "Мобілізація в Україні у вересні 2026 - відстрочка студентів , призов жінок , нові правила бронювання",
-      "url": "https://24tv.ua/law/mobilizatsiya-ukrayini-veresni-2026-vidstrochka-studentiv-prizov_n3132917",
-      "published_at": "20260901T154500Z",
-      "source": "24tv.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7904fe7078e434aa",
-      "headline": "У США и Китая по Ирану больше согласий , чем разночтений , утверждает Бессент",
-      "url": "https://ria.ru/20260901/iran-2114713959.html",
-      "published_at": "20260901T170000Z",
-      "source": "ria.ru",
       "tags": []
     }
   ]
