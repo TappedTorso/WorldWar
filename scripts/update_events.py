@@ -16,6 +16,7 @@ import datetime as _dt
 import hashlib
 import json
 import os
+import random
 import re
 import time
 import urllib.error
@@ -43,6 +44,15 @@ MAX_EVENTS = int(os.getenv("MAX_EVENTS", "120"))
 MAX_TAGS_PER_EVENT = int(os.getenv("MAX_TAGS_PER_EVENT", "12"))
 PER_TAG_PER_DAY_LIMIT = int(os.getenv("PER_TAG_PER_DAY_LIMIT", "3"))
 DRY_RUN = os.getenv("DRY_RUN", "0").strip().lower() in {"1", "true", "yes"}
+
+# Resilience knobs: GDELT rate-limits aggressively (HTTP 429). The old
+# [1, 2, 4, 8]s backoff could not ride out a limit window, so nearly every
+# hourly run died here.
+GDELT_MAX_RETRIES = int(os.getenv("GDELT_MAX_RETRIES", "6"))
+# Pause between the two query streams so we don't fire back-to-back requests.
+STREAM_STAGGER_SECS = int(os.getenv("STREAM_STAGGER_SECS", "20"))
+# Exponential backoff schedule (seconds); jitter is added per attempt.
+_RETRY_BACKOFFS = [5, 15, 30, 60, 120]
 
 
 def _utc_now_iso() -> str:
@@ -131,8 +141,26 @@ def _tags_for_text(text: str) -> List[str]:
     return out
 
 
-def _query_gdelt(params: Dict[str, str], retries: int = 4) -> Dict[str, Any]:
-    backoffs = [1, 2, 4, 8]
+def _backoff_with_jitter(attempt: int, retry_after: Optional[float] = None) -> float:
+    base = _RETRY_BACKOFFS[min(attempt, len(_RETRY_BACKOFFS) - 1)]
+    if retry_after is not None:
+        base = max(base, min(retry_after, 300.0))
+    # +/-20% jitter so concurrent runners don't stampede in lockstep
+    return base * (0.8 + 0.4 * random.random())
+
+
+def _retry_after_seconds(headers: Any) -> Optional[float]:
+    try:
+        raw = headers.get("Retry-After") if headers else None
+        if raw is None:
+            return None
+        return max(0.0, float(str(raw).strip()))
+    except Exception:
+        return None
+
+
+def _query_gdelt(params: Dict[str, str], retries: Optional[int] = None) -> Dict[str, Any]:
+    retries = retries if retries is not None else GDELT_MAX_RETRIES
     last_error: Optional[str] = None
 
     for attempt in range(retries):
@@ -145,10 +173,21 @@ def _query_gdelt(params: Dict[str, str], retries: int = 4) -> Dict[str, Any]:
                 body = resp.read().decode("utf-8", errors="replace")
                 ctype = str(resp.headers.get("Content-Type", "")).lower()
 
-                if status == 429 or 500 <= status < 600:
+                if status == 429:
+                    last_error = f"rate_limited status=429 content_type={ctype}"
+                    if attempt < retries - 1:
+                        wait = _backoff_with_jitter(attempt, _retry_after_seconds(resp.headers))
+                        print(f"GDELT 429 (attempt {attempt + 1}/{retries}); retrying in {wait:.0f}s")
+                        time.sleep(wait)
+                        continue
+                    raise RuntimeError(last_error)
+
+                if 500 <= status < 600:
                     last_error = f"transient status={status} content_type={ctype}"
                     if attempt < retries - 1:
-                        time.sleep(backoffs[min(attempt, len(backoffs) - 1)])
+                        wait = _backoff_with_jitter(attempt)
+                        print(f"GDELT {status} (attempt {attempt + 1}/{retries}); retrying in {wait:.0f}s")
+                        time.sleep(wait)
                         continue
                     raise RuntimeError(last_error)
 
@@ -159,16 +198,29 @@ def _query_gdelt(params: Dict[str, str], retries: int = 4) -> Dict[str, Any]:
                     raise RuntimeError(f"non-json response status={status} content_type={ctype} body={snippet}")
 
         except urllib.error.HTTPError as exc:
-            transient = (exc.code == 429) or (500 <= exc.code < 600)
-            last_error = f"http_error status={exc.code}"
-            if transient and attempt < retries - 1:
-                time.sleep(backoffs[min(attempt, len(backoffs) - 1)])
-                continue
-            raise RuntimeError(last_error) from exc
+            if exc.code == 429:
+                last_error = "rate_limited status=429"
+                if attempt < retries - 1:
+                    wait = _backoff_with_jitter(attempt, _retry_after_seconds(exc.headers))
+                    print(f"GDELT 429 (attempt {attempt + 1}/{retries}); retrying in {wait:.0f}s")
+                    time.sleep(wait)
+                    continue
+                raise RuntimeError(last_error) from exc
+            if 500 <= exc.code < 600:
+                last_error = f"http_error status={exc.code}"
+                if attempt < retries - 1:
+                    wait = _backoff_with_jitter(attempt)
+                    print(f"GDELT {exc.code} (attempt {attempt + 1}/{retries}); retrying in {wait:.0f}s")
+                    time.sleep(wait)
+                    continue
+                raise RuntimeError(last_error) from exc
+            raise RuntimeError(f"http_error status={exc.code}") from exc
         except urllib.error.URLError as exc:
             last_error = f"url_error reason={exc.reason}"
             if attempt < retries - 1:
-                time.sleep(backoffs[min(attempt, len(backoffs) - 1)])
+                wait = _backoff_with_jitter(attempt)
+                print(f"network error (attempt {attempt + 1}/{retries}); retrying in {wait:.0f}s")
+                time.sleep(wait)
                 continue
             raise RuntimeError(last_error) from exc
 
@@ -265,7 +317,10 @@ def main() -> int:
     all_articles: List[Dict[str, Any]] = []
     stream_results: List[Dict[str, Any]] = []
 
-    for stream_name, query in streams:
+    for i, (stream_name, query) in enumerate(streams):
+        if i > 0 and STREAM_STAGGER_SECS > 0:
+            print(f"Staggering {STREAM_STAGGER_SECS}s before '{stream_name}' stream...")
+            time.sleep(STREAM_STAGGER_SECS)
         if not query:
             stream_results.append({"name": stream_name, "status": "skipped", "fetched": 0})
             continue
@@ -280,6 +335,13 @@ def main() -> int:
         print("All streams failed; keeping previous events file unchanged.")
         for r in failed_streams:
             print(f"- {r.get('name')}: {r.get('error')}")
+        if previous.get("events"):
+            # Stale data is better than a failed run: exit 0 so the schedule
+            # stays green and the next hourly run retries. Freshness is still
+            # honest — meta.events_last_updated is only bumped on real updates.
+            print("Previous events preserved; exiting 0 (run will retry next hour).")
+            return 0
+        print("No previous events exist; nothing to fall back to.")
         return 1
 
     events = _build_events(all_articles)
