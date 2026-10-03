@@ -345,6 +345,14 @@ def main() -> int:
         return 1
 
     events = _build_events(all_articles)
+
+    if not events and previous.get("events"):
+        # A degenerate fetch (0 articles) must not blank the live feed:
+        # keep the last good events so the site never goes empty on a flaky
+        # GDELT response. The next hourly run retries the fetch.
+        print("Fetched 0 events but previous events exist; keeping previous events file unchanged.")
+        return 0
+
     status = "ok"
     if failed_streams:
         status = "partial"
