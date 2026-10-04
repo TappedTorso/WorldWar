@@ -13,6 +13,7 @@ Design goals:
 from __future__ import annotations
 
 import datetime as _dt
+import email.utils
 import hashlib
 import json
 import os
@@ -22,6 +23,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -53,6 +55,35 @@ GDELT_MAX_RETRIES = int(os.getenv("GDELT_MAX_RETRIES", "6"))
 STREAM_STAGGER_SECS = int(os.getenv("STREAM_STAGGER_SECS", "20"))
 # Exponential backoff schedule (seconds); jitter is added per attempt.
 _RETRY_BACKOFFS = [5, 15, 30, 60, 120]
+
+# Fallback provider: conflict-news RSS feeds. Fully keyless (no API keys, no
+# registration), so it works with zero setup. It only fires when GDELT yields
+# zero usable articles, and its only job is to keep the feed alive with fresh
+# items instead of going stale or blank.
+FALLBACK_ENABLED = os.getenv("FALLBACK_ENABLED", "1").strip().lower() in {"1", "true", "yes"}
+FALLBACK_RSS_FEEDS = [
+    u.strip()
+    for u in os.getenv(
+        "FALLBACK_RSS_FEEDS",
+        "https://feeds.bbci.co.uk/news/world/rss.xml,"
+        "https://www.aljazeera.com/xml/rss/all.xml,"
+        "https://www.france24.com/en/rss",
+    ).split(",")
+    if u.strip()
+]
+FALLBACK_MAX_ITEMS_PER_FEED = int(os.getenv("FALLBACK_MAX_ITEMS_PER_FEED", "40"))
+# Keep the fallback on-theme: only items matching conflict keywords are kept.
+_FALLBACK_KEYWORDS = (
+    "war", "conflict", "ceasefire", "airstrike", "air strike", "missile",
+    "troop", "military", "sanction", "invasion", "offensive", "bombing",
+    "shelling", "hostage", "escalat", "armed", "insurgent", "militant",
+    "drone", "truce", "peace talk", "refugee", "evacuat", "casualt",
+)
+_FALLBACK_OUTLETS = {
+    "feeds.bbci.co.uk": "BBC News",
+    "www.aljazeera.com": "Al Jazeera",
+    "www.france24.com": "France 24",
+}
 
 
 def _utc_now_iso() -> str:
@@ -245,6 +276,114 @@ def fetch_stream(stream_name: str, query: str) -> Tuple[List[Dict[str, Any]], Di
         return [], {"name": stream_name, "status": "error", "error": str(exc), "fetched": 0}
 
 
+def _fallback_outlet_name(url: str) -> str:
+    try:
+        netloc = urllib.parse.urlparse(url).netloc.lower()
+    except Exception:
+        netloc = ""
+    return _FALLBACK_OUTLETS.get(netloc, netloc or "RSS")
+
+
+def _rss_pubdate_to_iso(pubdate: Optional[str]) -> Optional[str]:
+    if not pubdate:
+        return None
+    try:
+        dt = email.utils.parsedate_to_datetime(str(pubdate).strip())
+        if dt is None:
+            return None
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=_dt.timezone.utc)
+        return dt.astimezone(_dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    except Exception:
+        return None
+
+
+def _matches_fallback_keywords(title: str) -> bool:
+    lowered = (title or "").lower()
+    return any(kw in lowered for kw in _FALLBACK_KEYWORDS)
+
+
+def _fetch_rss_feed(url: str, outlet: str) -> List[Dict[str, str]]:
+    req = urllib.request.Request(url, headers={"User-Agent": "WorldWarEventsBot/1.0 (+rss-fallback)"})
+    with urllib.request.urlopen(req, timeout=20) as resp:  # nosec B310
+        raw = resp.read()
+    root = ET.fromstring(raw)
+    items: List[Dict[str, str]] = []
+    for item in root.iter("item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        if not title or not link:
+            continue
+        items.append(
+            {
+                "title": title,
+                "link": link,
+                "pubDate": (item.findtext("pubDate") or "").strip(),
+                "outlet": outlet,
+            }
+        )
+        if len(items) >= FALLBACK_MAX_ITEMS_PER_FEED:
+            break
+    return items
+
+
+def fetch_fallback_articles() -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
+    """Pull conflict-themed items from RSS feeds.
+
+    Returns article dicts shaped like GDELT articles (title/url/seendate/domain)
+    so they flow through the same _build_events pipeline, plus a stream-style
+    result dict for metadata.
+    """
+    articles: List[Dict[str, Any]] = []
+    per_feed: List[Dict[str, Any]] = []
+
+    for url in FALLBACK_RSS_FEEDS:
+        outlet = _fallback_outlet_name(url)
+        try:
+            items = _fetch_rss_feed(url, outlet)
+            kept = 0
+            for it in items:
+                if not _matches_fallback_keywords(it["title"]):
+                    continue
+                articles.append(
+                    {
+                        "title": it["title"],
+                        "url": it["link"],
+                        "seendate": _rss_pubdate_to_iso(it["pubDate"]),
+                        "domain": outlet,
+                    }
+                )
+                kept += 1
+            per_feed.append(
+                {"outlet": outlet, "status": "ok", "items": len(items), "kept": kept}
+            )
+        except Exception as exc:
+            per_feed.append(
+                {
+                    "outlet": outlet,
+                    "status": "error",
+                    "error": str(exc)[:200],
+                    "items": 0,
+                    "kept": 0,
+                }
+            )
+
+    articles = articles[:MAX_EVENTS]
+    any_ok = any(f["status"] == "ok" for f in per_feed)
+    if articles:
+        status = "ok"
+    elif any_ok:
+        status = "empty"
+    else:
+        status = "error"
+    return articles, {
+        "name": "rss_fallback",
+        "status": status,
+        "fetched": len(articles),
+        "feeds": per_feed,
+    }
+
+
 def _event_key(title: str, url: str) -> str:
     norm = f"{title.strip().lower()}|{url.strip().lower()}"
     return hashlib.sha1(norm.encode("utf-8")).hexdigest()[:16]
@@ -261,7 +400,7 @@ def _load_previous_events() -> Dict[str, Any]:
     return _load_json(OUT_PATH, {"metadata": {}, "events": []})
 
 
-def _build_events(articles: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+def _build_events(articles: List[Dict[str, Any]], id_prefix: str = "gdelt") -> List[Dict[str, Any]]:
     seen = set()
     per_tag_day: Dict[str, int] = {}
     events: List[Dict[str, Any]] = []
@@ -294,7 +433,7 @@ def _build_events(articles: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
 
         events.append(
             {
-                "id": f"gdelt_{key}",
+                "id": f"{id_prefix}_{key}",
                 "headline": title,
                 "url": url,
                 "published_at": published_at,
@@ -328,46 +467,55 @@ def main() -> int:
         stream_results.append(result)
         all_articles.extend(articles)
 
-    successful_streams = [r for r in stream_results if r.get("status") == "ok"]
     failed_streams = [r for r in stream_results if r.get("status") == "error"]
+    for r in failed_streams:
+        print(f"- {r.get('name')}: {r.get('error')}")
 
-    if not successful_streams:
-        print("All streams failed; keeping previous events file unchanged.")
-        for r in failed_streams:
-            print(f"- {r.get('name')}: {r.get('error')}")
+    events = _build_events(all_articles)
+    used_fallback = False
+
+    if not events and FALLBACK_ENABLED:
+        # GDELT gave us nothing usable: try the keyless RSS fallback so the
+        # feed still gets fresh items instead of going stale or blank.
+        print("GDELT yielded 0 usable articles; trying RSS fallback provider...")
+        fb_articles, fb_result = fetch_fallback_articles()
+        stream_results.append(fb_result)
+        if fb_articles:
+            events = _build_events(fb_articles, id_prefix="rss")
+            used_fallback = bool(events)
+            print(f"RSS fallback produced {len(events)} events.")
+
+    if not events:
+        # Nothing from any provider: keep previous events if we have them.
+        # Stale data is better than a failed run: exit 0 so the schedule
+        # stays green and the next hourly run retries. Freshness is still
+        # honest — meta.events_last_updated is only bumped on real updates.
         if previous.get("events"):
-            # Stale data is better than a failed run: exit 0 so the schedule
-            # stays green and the next hourly run retries. Freshness is still
-            # honest — meta.events_last_updated is only bumped on real updates.
-            print("Previous events preserved; exiting 0 (run will retry next hour).")
+            print("All providers yielded nothing; keeping previous events file unchanged.")
             return 0
         print("No previous events exist; nothing to fall back to.")
         return 1
 
-    events = _build_events(all_articles)
-
-    if not events and previous.get("events"):
-        # A degenerate fetch (0 articles) must not blank the live feed:
-        # keep the last good events so the site never goes empty on a flaky
-        # GDELT response. The next hourly run retries the fetch.
-        print("Fetched 0 events but previous events exist; keeping previous events file unchanged.")
-        return 0
-
+    provider = "RSS_FALLBACK" if used_fallback else "GDELT_DOC_API"
     status = "ok"
-    if failed_streams:
+    if used_fallback:
+        status = "ok-fallback"
+    elif failed_streams:
         status = "partial"
-    if not events:
-        status = "ok-empty" if not failed_streams else "partial-empty"
 
     out = {
         "metadata": {
             "generated_at_utc": now,
-            "provider": "GDELT_DOC_API",
+            "provider": provider,
             "status": status,
             "timespan": TIMESPAN,
             "max_events": MAX_EVENTS,
             "streams": stream_results,
-            "fetched_articles": sum(int(r.get("fetched", 0)) for r in successful_streams),
+            "fetched_articles": sum(
+                int(r.get("fetched", 0))
+                for r in stream_results
+                if r.get("status") == "ok"
+            ),
             "previous_event_count": len(previous.get("events") or []),
             "tagging": {
                 "method": "string_match",
