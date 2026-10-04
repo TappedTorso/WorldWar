@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-04T19:35:31Z",
+    "generated_at_utc": "2026-10-04T23:06:42Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -20,31 +20,31 @@
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 9,
+        "fetched": 10,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 21,
+            "items": 22,
             "kept": 3
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 4
+            "kept": 3
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 2
+            "kept": 4
           }
         ]
       }
     ],
-    "fetched_articles": 9,
-    "previous_event_count": 82,
+    "fetched_articles": 10,
+    "previous_event_count": 9,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -115,11 +115,19 @@
       ]
     },
     {
-      "id": "rss_582a5e0f67435246",
-      "headline": "Iran tells US: there is ‘no military solution’ to end the war",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/iran-tells-us-there-is-no-military-solution-to-end-the-war?traffic_source=rss",
-      "published_at": "2026-10-04T15:06:14Z",
-      "source": "Al Jazeera",
+      "id": "rss_44a36a6b486cc1ed",
+      "headline": "US withdraws all B-1 bombers from British military base RAF Fairford",
+      "url": "https://www.france24.com/en/europe/20261004-us-bombers-raf-fairford-uk-pentagon",
+      "published_at": "2026-10-04T22:50:23Z",
+      "source": "France 24",
+      "tags": []
+    },
+    {
+      "id": "rss_31f94d64baacd745",
+      "headline": "Iran says no military solution to war as peace talks with US stall",
+      "url": "https://www.france24.com/en/middle-east/20261004-iran-us-military-middle-east-war-peace-talks",
+      "published_at": "2026-10-04T21:41:47Z",
+      "source": "France 24",
       "tags": [
         "IRAN"
       ]
