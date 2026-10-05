@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-05T01:58:57Z",
+    "generated_at_utc": "2026-10-05T08:59:43Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -20,19 +20,19 @@
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 11,
+        "fetched": 13,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
             "items": 22,
-            "kept": 3
+            "kept": 4
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 4
+            "kept": 5
           },
           {
             "outlet": "France 24",
@@ -43,8 +43,8 @@
         ]
       }
     ],
-    "fetched_articles": 11,
-    "previous_event_count": 10,
+    "fetched_articles": 13,
+    "previous_event_count": 11,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -57,6 +57,14 @@
     }
   },
   "events": [
+    {
+      "id": "rss_9d20608a46b82813",
+      "headline": "US air force removes all bombers from British military base RAF Fairford",
+      "url": "https://www.bbc.co.uk/news/articles/cmwyve191dlko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-05T08:28:37Z",
+      "source": "BBC News",
+      "tags": []
+    },
     {
       "id": "rss_e5fbe81bdf653c7e",
       "headline": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
@@ -84,6 +92,24 @@
       "tags": []
     },
     {
+      "id": "rss_787ad0ec092b44a6",
+      "headline": "Pakistan installs fishing nets at security outposts to block drone attacks",
+      "url": "https://www.aljazeera.com/news/2026/10/5/pakistan-installs-fishing-nets-at-security-outposts-to-block-drone-attacks?traffic_source=rss",
+      "published_at": "2026-10-05T08:20:34Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "PAKISTAN"
+      ]
+    },
+    {
+      "id": "rss_b224b0020ca5b67c",
+      "headline": "Middle East oil exports surpass pre-war levels despite tensions, data shows",
+      "url": "https://www.aljazeera.com/news/2026/10/5/middle-east-oil-exports-surpass-pre-war-levels-despite-tensions-data-shows?traffic_source=rss",
+      "published_at": "2026-10-05T05:20:57Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
       "id": "rss_ba4fe5905b822a5f",
       "headline": "Nearly 1,500 migrants arrive in Myanmar from Malaysia despite UN warnings",
       "url": "https://www.aljazeera.com/news/2026/10/5/nearly-1500-migrants-arrive-in-myanmar-from-malaysia-despite-un-warnings?traffic_source=rss",
@@ -104,8 +130,8 @@
       ]
     },
     {
-      "id": "rss_17e5cd83b1023e1f",
-      "headline": "Iran war live: Yemen fighting intensifies; Tehran says ready for US attacks",
+      "id": "rss_1a5ace73cec36d2c",
+      "headline": "Iran war live: Yemeni army makes gains; Tehran says ready for US attacks",
       "url": "https://www.aljazeera.com/news/liveblog/2026/10/5/iran-war-live-fighting-in-yemen-intensifies-tehran-says-ready-for-us-war?traffic_source=rss",
       "published_at": "2026-10-05T00:00:00Z",
       "source": "Al Jazeera",
@@ -115,18 +141,26 @@
       ]
     },
     {
-      "id": "rss_46f57dc5234f662f",
-      "headline": "War on Iran: Is escalation more likely than a deal?",
-      "url": "https://www.aljazeera.com/video/the-bottom-line/2026/10/4/war-on-iran-is-escalation-more-likely-than-a-deal-2?traffic_source=rss",
-      "published_at": "2026-10-04T18:47:22Z",
-      "source": "Al Jazeera",
+      "id": "rss_9aaf24bce5c65c1a",
+      "headline": "Ex-prince Andrew launches bid to ‘quash’ Epstein-affair search warrants",
+      "url": "https://www.france24.com/en/europe/20261005-ex-prince-andrew-launches-bid-to-quash-epstein-affair-search-warrants",
+      "published_at": "2026-10-05T08:36:27Z",
+      "source": "France 24",
+      "tags": []
+    },
+    {
+      "id": "rss_efac313f6a832606",
+      "headline": "Yemen military announces broad range of strikes against Houthis in bid to retake lost territory",
+      "url": "https://www.france24.com/en/middle-east/20261005-yemen-military-announces-broad-range-of-strikes-against-houthis-in-bid-to-retake-lost-territory",
+      "published_at": "2026-10-05T08:12:54Z",
+      "source": "France 24",
       "tags": [
-        "IRAN"
+        "YEMEN"
       ]
     },
     {
-      "id": "rss_44a36a6b486cc1ed",
-      "headline": "US withdraws all B-1 bombers from British military base RAF Fairford",
+      "id": "rss_377619f86c6752f1",
+      "headline": "US withdraws B-1 bombers from British military base RAF Fairford amid security concerns",
       "url": "https://www.france24.com/en/europe/20261004-us-bombers-raf-fairford-uk-pentagon",
       "published_at": "2026-10-04T22:50:23Z",
       "source": "France 24",
@@ -141,24 +175,6 @@
       "tags": [
         "IRAN"
       ]
-    },
-    {
-      "id": "rss_ded3b73eee28c617",
-      "headline": "Yemen's government declares counter-offensive as Houthis cut vital route to besieged city",
-      "url": "https://www.france24.com/en/middle-east/20261004-yemen-leader-announces-counter-offensive-as-houthis-cut-off-supply-route-besieged-city-taiz",
-      "published_at": "2026-10-04T12:59:17Z",
-      "source": "France 24",
-      "tags": [
-        "YEMEN"
-      ]
-    },
-    {
-      "id": "rss_f3ff1070850c063f",
-      "headline": "West Bank: Palestinians ‘harassed’ by settlers’ increasing use of drones",
-      "url": "https://www.france24.com/en/middle-east/20261004-occupied-west-bank-palestinians-harassed-settlers-drones",
-      "published_at": "2026-10-04T12:01:27Z",
-      "source": "France 24",
-      "tags": []
     }
   ]
 }
