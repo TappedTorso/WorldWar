@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-05T08:59:43Z",
+    "generated_at_utc": "2026-10-05T18:23:44Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,25 +14,26 @@
       },
       {
         "name": "tripwire",
-        "status": "ok",
+        "status": "error",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 13,
+        "fetched": 14,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 22,
+            "items": 23,
             "kept": 4
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 5
+            "kept": 6
           },
           {
             "outlet": "France 24",
@@ -43,8 +44,8 @@
         ]
       }
     ],
-    "fetched_articles": 13,
-    "previous_event_count": 11,
+    "fetched_articles": 14,
+    "previous_event_count": 13,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -58,30 +59,28 @@
   },
   "events": [
     {
-      "id": "rss_9d20608a46b82813",
-      "headline": "US air force removes all bombers from British military base RAF Fairford",
-      "url": "https://www.bbc.co.uk/news/articles/cmwyve191dlko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-05T08:28:37Z",
+      "id": "rss_276e4fa629721a22",
+      "headline": "No10 insists UK military base RAF Fairford is safe after US withdraws bombers",
+      "url": "https://www.bbc.co.uk/news/articles/cmy56yvv1kxxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-05T16:13:35Z",
       "source": "BBC News",
       "tags": []
     },
     {
-      "id": "rss_e5fbe81bdf653c7e",
-      "headline": "Kyiv bridge hit in further Russian drone attack as German chancellor makes surprise visit",
-      "url": "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-04T12:09:04Z",
+      "id": "rss_b62f006f3ef10f5b",
+      "headline": "Nobel Prize awarded for revealing inner workings of the brain",
+      "url": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-05T11:04:37Z",
       "source": "BBC News",
       "tags": []
     },
     {
-      "id": "rss_ba54101c42053e6f",
-      "headline": "Yemen's government announces all-out war to reclaim land from Houthis",
-      "url": "https://www.bbc.co.uk/news/articles/cx8dzj9vpp01o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-04T16:51:30Z",
+      "id": "rss_1e07c30b48838db4",
+      "headline": "Yemeni military says it has retaken Mokha and 'secured' Red Sea waterway",
+      "url": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-05T17:49:59Z",
       "source": "BBC News",
-      "tags": [
-        "YEMEN"
-      ]
+      "tags": []
     },
     {
       "id": "rss_578284730491edb6",
@@ -92,88 +91,97 @@
       "tags": []
     },
     {
-      "id": "rss_787ad0ec092b44a6",
-      "headline": "Pakistan installs fishing nets at security outposts to block drone attacks",
-      "url": "https://www.aljazeera.com/news/2026/10/5/pakistan-installs-fishing-nets-at-security-outposts-to-block-drone-attacks?traffic_source=rss",
-      "published_at": "2026-10-05T08:20:34Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "PAKISTAN"
-      ]
-    },
-    {
-      "id": "rss_b224b0020ca5b67c",
-      "headline": "Middle East oil exports surpass pre-war levels despite tensions, data shows",
-      "url": "https://www.aljazeera.com/news/2026/10/5/middle-east-oil-exports-surpass-pre-war-levels-despite-tensions-data-shows?traffic_source=rss",
-      "published_at": "2026-10-05T05:20:57Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_ba4fe5905b822a5f",
-      "headline": "Nearly 1,500 migrants arrive in Myanmar from Malaysia despite UN warnings",
-      "url": "https://www.aljazeera.com/news/2026/10/5/nearly-1500-migrants-arrive-in-myanmar-from-malaysia-despite-un-warnings?traffic_source=rss",
-      "published_at": "2026-10-05T01:08:44Z",
+      "id": "rss_fe6c0da0d2d44384",
+      "headline": "Rohingya activist says it’s unfair to send refugees back to Myanmar",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/rohingya-activist-says-its-unfair-to-send-refugees-back-to-myanmar?traffic_source=rss",
+      "published_at": "2026-10-05T16:20:07Z",
       "source": "Al Jazeera",
       "tags": [
         "MYANMAR"
       ]
     },
     {
-      "id": "rss_1ac0298b271078b4",
-      "headline": "Four African leaders issue joint declaration as Ethiopia war escalates",
-      "url": "https://www.aljazeera.com/news/2026/10/5/four-african-leaders-issue-joint-declaration-as-ethiopia-war-escalates?traffic_source=rss",
-      "published_at": "2026-10-05T00:33:23Z",
+      "id": "rss_c5ad52470d9ecf75",
+      "headline": "Nigeria launches rescue after military plane crashes with 32 aboard",
+      "url": "https://www.aljazeera.com/news/2026/10/5/nigeria-launches-rescue-after-military-plane-crashes-with-32-aboard?traffic_source=rss",
+      "published_at": "2026-10-05T15:30:15Z",
       "source": "Al Jazeera",
       "tags": [
-        "ETHIOPIA"
+        "NIGERIA"
       ]
     },
     {
-      "id": "rss_1a5ace73cec36d2c",
-      "headline": "Iran war live: Yemeni army makes gains; Tehran says ready for US attacks",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/5/iran-war-live-fighting-in-yemen-intensifies-tehran-says-ready-for-us-war?traffic_source=rss",
-      "published_at": "2026-10-05T00:00:00Z",
+      "id": "rss_b9b3ebe9103fbd9e",
+      "headline": "Latest US military strike on alleged drug boat kills four in Caribbean",
+      "url": "https://www.aljazeera.com/news/2026/10/5/latest-us-military-strike-on-alleged-drug-boat-kills-four-in-caribbean?traffic_source=rss",
+      "published_at": "2026-10-05T14:58:02Z",
       "source": "Al Jazeera",
-      "tags": [
-        "IRAN",
-        "YEMEN"
-      ]
-    },
-    {
-      "id": "rss_9aaf24bce5c65c1a",
-      "headline": "Ex-prince Andrew launches bid to ‘quash’ Epstein-affair search warrants",
-      "url": "https://www.france24.com/en/europe/20261005-ex-prince-andrew-launches-bid-to-quash-epstein-affair-search-warrants",
-      "published_at": "2026-10-05T08:36:27Z",
-      "source": "France 24",
       "tags": []
     },
     {
-      "id": "rss_efac313f6a832606",
-      "headline": "Yemen military announces broad range of strikes against Houthis in bid to retake lost territory",
-      "url": "https://www.france24.com/en/middle-east/20261005-yemen-military-announces-broad-range-of-strikes-against-houthis-in-bid-to-retake-lost-territory",
-      "published_at": "2026-10-05T08:12:54Z",
-      "source": "France 24",
+      "id": "rss_79869b745424f831",
+      "headline": "Murder in Okinawa: The US military’s history of alleged crime in Japan",
+      "url": "https://www.aljazeera.com/news/2026/10/5/murder-in-okinawa-the-us-militarys-history-of-alleged-crime-in-japan?traffic_source=rss",
+      "published_at": "2026-10-05T14:37:17Z",
+      "source": "Al Jazeera",
       "tags": [
-        "YEMEN"
+        "JAPAN"
       ]
     },
     {
-      "id": "rss_377619f86c6752f1",
-      "headline": "US withdraws B-1 bombers from British military base RAF Fairford amid security concerns",
-      "url": "https://www.france24.com/en/europe/20261004-us-bombers-raf-fairford-uk-pentagon",
-      "published_at": "2026-10-04T22:50:23Z",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_31f94d64baacd745",
-      "headline": "Iran says no military solution to war as peace talks with US stall",
-      "url": "https://www.france24.com/en/middle-east/20261004-iran-us-military-middle-east-war-peace-talks",
-      "published_at": "2026-10-04T21:41:47Z",
-      "source": "France 24",
+      "id": "rss_c588a052e8aa1393",
+      "headline": "US pulls bombers from UK base: Is Iran manoeuvring Trump’s war plans?",
+      "url": "https://www.aljazeera.com/news-analysis/2026/10/5/us-pulls-bombers-from-uk-base-is-iran-maneouvering-trumps-war-plans?traffic_source=rss",
+      "published_at": "2026-10-05T14:19:44Z",
+      "source": "Al Jazeera",
       "tags": [
         "IRAN"
+      ]
+    },
+    {
+      "id": "rss_2b367eaa11d3e797",
+      "headline": "In Russia-occupied Oleshky, Ukrainians face hunger, drones and landmines",
+      "url": "https://www.aljazeera.com/news/2026/10/5/in-russia-occupied-oleshky-ukrainians-face-hunger-drones-and-landmines?traffic_source=rss",
+      "published_at": "2026-10-05T12:26:40Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "rss_641a321d4b402459",
+      "headline": "ICC unseals arrest warrants for Taliban education ministers",
+      "url": "https://www.france24.com/en/asia-pacific/20261005-icc-unseals-arrest-warrants-for-taliban-education-ministers",
+      "published_at": "2026-10-05T16:16:48Z",
+      "source": "France 24",
+      "tags": []
+    },
+    {
+      "id": "rss_d3bdf3921f4adfa4",
+      "headline": "French high school students predict escalation of protests",
+      "url": "https://www.france24.com/en/video/20261005-french-high-school-students-predict-escalation-of-protests",
+      "published_at": "2026-10-05T15:57:51Z",
+      "source": "France 24",
+      "tags": []
+    },
+    {
+      "id": "rss_9f21de80db723990",
+      "headline": "ISIS suspects face 'outsourced' justice in Iraq as HRW warns of 'collective global detention crisis'",
+      "url": "https://www.france24.com/en/video/20261005-isis-suspects-face-outsourced-justice-in-iraq-as-hrw-warns-of-collective-global-detention-crisis-1",
+      "published_at": "2026-10-05T15:46:33Z",
+      "source": "France 24",
+      "tags": [
+        "IRAQ"
+      ]
+    },
+    {
+      "id": "rss_f37b11558012c15a",
+      "headline": "Yemen government forces announce offensive on Houthi-held territory",
+      "url": "https://www.france24.com/en/video/20261005-yemen-government-forces-announce-offensive-on-houthi-held-territory",
+      "published_at": "2026-10-05T14:59:46Z",
+      "source": "France 24",
+      "tags": [
+        "YEMEN"
       ]
     }
   ]
