@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-05T18:23:44Z",
+    "generated_at_utc": "2026-10-06T00:47:41Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,26 +14,25 @@
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
+        "status": "ok",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 14,
+        "fetched": 15,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
             "items": 23,
-            "kept": 4
+            "kept": 3
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 6
+            "kept": 8
           },
           {
             "outlet": "France 24",
@@ -44,8 +43,8 @@
         ]
       }
     ],
-    "fetched_articles": 14,
-    "previous_event_count": 13,
+    "fetched_articles": 15,
+    "previous_event_count": 14,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -58,14 +57,6 @@
     }
   },
   "events": [
-    {
-      "id": "rss_276e4fa629721a22",
-      "headline": "No10 insists UK military base RAF Fairford is safe after US withdraws bombers",
-      "url": "https://www.bbc.co.uk/news/articles/cmy56yvv1kxxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-05T16:13:35Z",
-      "source": "BBC News",
-      "tags": []
-    },
     {
       "id": "rss_b62f006f3ef10f5b",
       "headline": "Nobel Prize awarded for revealing inner workings of the brain",
@@ -91,61 +82,82 @@
       "tags": []
     },
     {
-      "id": "rss_fe6c0da0d2d44384",
-      "headline": "Rohingya activist says it’s unfair to send refugees back to Myanmar",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/rohingya-activist-says-its-unfair-to-send-refugees-back-to-myanmar?traffic_source=rss",
-      "published_at": "2026-10-05T16:20:07Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "MYANMAR"
-      ]
-    },
-    {
-      "id": "rss_c5ad52470d9ecf75",
-      "headline": "Nigeria launches rescue after military plane crashes with 32 aboard",
-      "url": "https://www.aljazeera.com/news/2026/10/5/nigeria-launches-rescue-after-military-plane-crashes-with-32-aboard?traffic_source=rss",
-      "published_at": "2026-10-05T15:30:15Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "NIGERIA"
-      ]
-    },
-    {
-      "id": "rss_b9b3ebe9103fbd9e",
-      "headline": "Latest US military strike on alleged drug boat kills four in Caribbean",
-      "url": "https://www.aljazeera.com/news/2026/10/5/latest-us-military-strike-on-alleged-drug-boat-kills-four-in-caribbean?traffic_source=rss",
-      "published_at": "2026-10-05T14:58:02Z",
+      "id": "rss_39fd167123cef4c6",
+      "headline": "Police clash with Kosovo protesters over bid to curb Hague war crimes court",
+      "url": "https://www.aljazeera.com/news/2026/10/6/police-clash-with-kosovo-protesters-over-bid-to-curb-hague-war-crimes-court?traffic_source=rss",
+      "published_at": "2026-10-06T00:10:27Z",
       "source": "Al Jazeera",
       "tags": []
     },
     {
-      "id": "rss_79869b745424f831",
-      "headline": "Murder in Okinawa: The US military’s history of alleged crime in Japan",
-      "url": "https://www.aljazeera.com/news/2026/10/5/murder-in-okinawa-the-us-militarys-history-of-alleged-crime-in-japan?traffic_source=rss",
-      "published_at": "2026-10-05T14:37:17Z",
+      "id": "rss_eae097e20c3fa137",
+      "headline": "Iran war live: Yemen forces reclaim strategic port city Mocha from Houthis",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/6/iran-war-live-yemen-forces-reclaim-strategic-port-city-mocha-from-houthis?traffic_source=rss",
+      "published_at": "2026-10-06T00:00:00Z",
       "source": "Al Jazeera",
       "tags": [
-        "JAPAN"
+        "IRAN",
+        "YEMEN"
       ]
     },
     {
-      "id": "rss_c588a052e8aa1393",
-      "headline": "US pulls bombers from UK base: Is Iran manoeuvring Trump’s war plans?",
-      "url": "https://www.aljazeera.com/news-analysis/2026/10/5/us-pulls-bombers-from-uk-base-is-iran-maneouvering-trumps-war-plans?traffic_source=rss",
-      "published_at": "2026-10-05T14:19:44Z",
+      "id": "rss_64138d47c3098ed4",
+      "headline": "Whistleblower warns that humans don’t control AI",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/whistleblower-warns-that-humans-dont-control-ai?traffic_source=rss",
+      "published_at": "2026-10-05T23:23:47Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_2c734074548a5e19",
+      "headline": "Ethiopia’s PM insists on access to Red Sea despite regional conflict threat",
+      "url": "https://www.aljazeera.com/news/2026/10/5/ethiopias-pm-insists-on-access-to-red-sea-despite-regional-conflict-threat?traffic_source=rss",
+      "published_at": "2026-10-05T21:10:43Z",
       "source": "Al Jazeera",
       "tags": [
-        "IRAN"
+        "ETHIOPIA"
       ]
     },
     {
-      "id": "rss_2b367eaa11d3e797",
-      "headline": "In Russia-occupied Oleshky, Ukrainians face hunger, drones and landmines",
-      "url": "https://www.aljazeera.com/news/2026/10/5/in-russia-occupied-oleshky-ukrainians-face-hunger-drones-and-landmines?traffic_source=rss",
-      "published_at": "2026-10-05T12:26:40Z",
+      "id": "rss_0435ac67d9708647",
+      "headline": "Turkiye, Pakistan agree to military deployment to Saudi Arabia",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/turkiye-pakistan-agree-to-military-deployment-to-saudi-arabia?traffic_source=rss",
+      "published_at": "2026-10-05T20:17:35Z",
       "source": "Al Jazeera",
       "tags": [
-        "RUSSIA"
+        "PAKISTAN",
+        "SAUDI_ARABIA"
+      ]
+    },
+    {
+      "id": "rss_597294e3a1b25b3c",
+      "headline": "Ukraine says Russian drone attack sinks ship in Romanian waters",
+      "url": "https://www.aljazeera.com/news/2026/10/5/ukraine-says-russian-drone-attack-sinks-ship-in-romanian-waters?traffic_source=rss",
+      "published_at": "2026-10-05T20:03:06Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "rss_18fd8e759edb26ec",
+      "headline": "Mexico seeks evidence of border shooting that prompted US troop deployment",
+      "url": "https://www.aljazeera.com/news/2026/10/5/mexico-seeks-evidence-of-border-shooting-that-prompted-us-troop-deployment?traffic_source=rss",
+      "published_at": "2026-10-05T19:43:33Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "MEXICO"
+      ]
+    },
+    {
+      "id": "rss_7d2234d06d404a12",
+      "headline": "Trump blames Democrats and Ukraine for soaring US fuel prices, not Iran war",
+      "url": "https://www.aljazeera.com/economy/2026/10/5/trump-blames-democrats-and-ukraine-for-soaring-us-fuel-prices-not-iran-war?traffic_source=rss",
+      "published_at": "2026-10-05T19:01:32Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN",
+        "UKRAINE"
       ]
     },
     {
