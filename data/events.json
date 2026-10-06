@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-06T00:47:41Z",
+    "generated_at_utc": "2026-10-06T07:33:08Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -20,19 +20,19 @@
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 15,
+        "fetched": 12,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 23,
+            "items": 22,
             "kept": 3
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 8
+            "kept": 5
           },
           {
             "outlet": "France 24",
@@ -43,8 +43,8 @@
         ]
       }
     ],
-    "fetched_articles": 15,
-    "previous_event_count": 14,
+    "fetched_articles": 12,
+    "previous_event_count": 15,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -58,28 +58,50 @@
   },
   "events": [
     {
-      "id": "rss_b62f006f3ef10f5b",
-      "headline": "Nobel Prize awarded for revealing inner workings of the brain",
-      "url": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-05T11:04:37Z",
+      "id": "rss_d3e8638cd6d3e323",
+      "headline": "Nigeria mourns as 32 killed in military plane crash",
+      "url": "https://www.bbc.co.uk/news/articles/ck1wvjer20qqo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-06T06:33:13Z",
       "source": "BBC News",
-      "tags": []
+      "tags": [
+        "NIGERIA"
+      ]
     },
     {
-      "id": "rss_1e07c30b48838db4",
-      "headline": "Yemeni military says it has retaken Mokha and 'secured' Red Sea waterway",
+      "id": "rss_eba678d071c684e0",
+      "headline": "Yemeni military says it has 'secured' Red Sea waterway",
       "url": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-05T17:49:59Z",
+      "published_at": "2026-10-06T04:29:53Z",
       "source": "BBC News",
       "tags": []
     },
     {
-      "id": "rss_578284730491edb6",
-      "headline": "Why Canada is wargaming a (long shot) US invasion",
-      "url": "https://www.bbc.co.uk/news/articles/c9m2mjj3yvg4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-03T23:30:06Z",
+      "id": "rss_1f644959e41b9888",
+      "headline": "Fort Hood shooter to be executed by firing squad - a first for US military since World War Two",
+      "url": "https://www.bbc.co.uk/news/articles/cq8ezkkkrpy1o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-06T02:22:24Z",
       "source": "BBC News",
       "tags": []
+    },
+    {
+      "id": "rss_31943864766ba26e",
+      "headline": "Southeast Asia’s energy chiefs meet against backdrop of Iran war",
+      "url": "https://www.aljazeera.com/economy/2026/10/6/southeast-asias-energy-chiefs-meet-against-backdrop-of-iran-war?traffic_source=rss",
+      "published_at": "2026-10-06T07:07:47Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "rss_fd6d7eff34d2ba69",
+      "headline": "UN rights council condemns attacks on civilians in Sudan, calls for truce",
+      "url": "https://www.aljazeera.com/news/2026/10/6/un-rights-council-condemns-attacks-on-civilians-in-sudan-calls-for-truce?traffic_source=rss",
+      "published_at": "2026-10-06T02:54:31Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "SUDAN"
+      ]
     },
     {
       "id": "rss_39fd167123cef4c6",
@@ -109,54 +131,12 @@
       "tags": []
     },
     {
-      "id": "rss_2c734074548a5e19",
-      "headline": "Ethiopia’s PM insists on access to Red Sea despite regional conflict threat",
-      "url": "https://www.aljazeera.com/news/2026/10/5/ethiopias-pm-insists-on-access-to-red-sea-despite-regional-conflict-threat?traffic_source=rss",
-      "published_at": "2026-10-05T21:10:43Z",
-      "source": "Al Jazeera",
+      "id": "rss_a1e46c418f414e33",
+      "headline": "Ukraine hits Moscow with one of its largest drone attacks in two years",
+      "url": "https://www.france24.com/en/europe/20261006-massive-ukrainian-drone-attack-targets-moscow-russian-officials-say",
+      "published_at": "2026-10-06T06:11:43Z",
+      "source": "France 24",
       "tags": [
-        "ETHIOPIA"
-      ]
-    },
-    {
-      "id": "rss_0435ac67d9708647",
-      "headline": "Turkiye, Pakistan agree to military deployment to Saudi Arabia",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/turkiye-pakistan-agree-to-military-deployment-to-saudi-arabia?traffic_source=rss",
-      "published_at": "2026-10-05T20:17:35Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "PAKISTAN",
-        "SAUDI_ARABIA"
-      ]
-    },
-    {
-      "id": "rss_597294e3a1b25b3c",
-      "headline": "Ukraine says Russian drone attack sinks ship in Romanian waters",
-      "url": "https://www.aljazeera.com/news/2026/10/5/ukraine-says-russian-drone-attack-sinks-ship-in-romanian-waters?traffic_source=rss",
-      "published_at": "2026-10-05T20:03:06Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_18fd8e759edb26ec",
-      "headline": "Mexico seeks evidence of border shooting that prompted US troop deployment",
-      "url": "https://www.aljazeera.com/news/2026/10/5/mexico-seeks-evidence-of-border-shooting-that-prompted-us-troop-deployment?traffic_source=rss",
-      "published_at": "2026-10-05T19:43:33Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "MEXICO"
-      ]
-    },
-    {
-      "id": "rss_7d2234d06d404a12",
-      "headline": "Trump blames Democrats and Ukraine for soaring US fuel prices, not Iran war",
-      "url": "https://www.aljazeera.com/economy/2026/10/5/trump-blames-democrats-and-ukraine-for-soaring-us-fuel-prices-not-iran-war?traffic_source=rss",
-      "published_at": "2026-10-05T19:01:32Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "IRAN",
         "UKRAINE"
       ]
     },
@@ -184,16 +164,6 @@
       "source": "France 24",
       "tags": [
         "IRAQ"
-      ]
-    },
-    {
-      "id": "rss_f37b11558012c15a",
-      "headline": "Yemen government forces announce offensive on Houthi-held territory",
-      "url": "https://www.france24.com/en/video/20261005-yemen-government-forces-announce-offensive-on-houthi-held-territory",
-      "published_at": "2026-10-05T14:59:46Z",
-      "source": "France 24",
-      "tags": [
-        "YEMEN"
       ]
     }
   ]
