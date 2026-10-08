@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-07T19:22:55Z",
+    "generated_at_utc": "2026-10-08T00:11:15Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,19 +14,18 @@
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
+        "status": "ok",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 9,
+        "fetched": 7,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 21,
+            "items": 22,
             "kept": 3
           },
           {
@@ -39,13 +38,13 @@
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 2
+            "kept": 0
           }
         ]
       }
     ],
-    "fetched_articles": 9,
-    "previous_event_count": 8,
+    "fetched_articles": 7,
+    "previous_event_count": 9,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -83,6 +82,34 @@
       "tags": []
     },
     {
+      "id": "rss_6477c3db2264d755",
+      "headline": "EU-China trade talks begin in Beijing amid escalating pressure",
+      "url": "https://www.aljazeera.com/economy/2026/10/7/eu-china-trade-talks-begin-in-beijing-amid-escalating-pressure?traffic_source=rss",
+      "published_at": "2026-10-07T23:45:03Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "CHINA"
+      ]
+    },
+    {
+      "id": "rss_9f1edfd415fa5de4",
+      "headline": "Gaza child’s autoimmune condition triggered amid Israel’s war",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/7/gaza-childs-autoimmune-condition-triggered-amid-israels-war?traffic_source=rss",
+      "published_at": "2026-10-07T21:06:46Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "ISRAEL"
+      ]
+    },
+    {
+      "id": "rss_22471d87479ccd13",
+      "headline": "Democratic FCC member warns of AI robocall misinformation risks in US",
+      "url": "https://www.aljazeera.com/economy/2026/10/7/democratic-fcc-member-warns-of-ai-robocall-misinformation-risks-in-us?traffic_source=rss",
+      "published_at": "2026-10-07T20:14:35Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
       "id": "rss_c0ab0fa5c5fb4da0",
       "headline": "Witnesses spot Eritrean troops inside northern Ethiopia as tensions flare",
       "url": "https://www.aljazeera.com/news/2026/10/7/witnesses-spot-eritrean-troops-inside-northern-ethiopia-as-tensions-flare?traffic_source=rss",
@@ -90,54 +117,6 @@
       "source": "Al Jazeera",
       "tags": [
         "ETHIOPIA"
-      ]
-    },
-    {
-      "id": "rss_d949e5775465892c",
-      "headline": "More than 200,000 displaced as fighting escalates in Yemen, UN says",
-      "url": "https://www.aljazeera.com/gallery/2026/10/7/more-than-200000-displaced-as-fighting-escalates-in-yemen-un-says-2?traffic_source=rss",
-      "published_at": "2026-10-07T16:02:17Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "YEMEN"
-      ]
-    },
-    {
-      "id": "rss_6dfe3e4962daaeb6",
-      "headline": "Why Paramount-Warner merger has sparked fears about press freedom",
-      "url": "https://www.aljazeera.com/news/2026/10/7/why-paramount-warner-merger-has-sparked-fears-about-press-freedom?traffic_source=rss",
-      "published_at": "2026-10-07T13:56:27Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_b8d859af6aa73316",
-      "headline": "South Korea signals military exemption cuts for athletes after Asian Games",
-      "url": "https://www.aljazeera.com/sports/2026/10/7/south-korea-signals-military-exemption-cuts-for-gold-medallists-after-backlash-at-athletes-asian-games-comments?traffic_source=rss",
-      "published_at": "2026-10-07T13:38:14Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "SOUTH_KOREA"
-      ]
-    },
-    {
-      "id": "rss_51a45fc007cf436b",
-      "headline": "Russia warns against spreading 'false information' as reports emerge of second plague case",
-      "url": "https://www.france24.com/en/europe/20261007-russia-warns-against-spreading-false-information-reports-emerge-second-plague-case",
-      "published_at": "2026-10-07T13:43:19Z",
-      "source": "France 24",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "rss_3f58bbeb191252cd",
-      "headline": "October 7: Former Israeli hostage speaks to France 24",
-      "url": "https://www.france24.com/en/video/20261007-october-7-former-israeli-hostage-speaks-to-france-24",
-      "published_at": "2026-10-07T13:30:20Z",
-      "source": "France 24",
-      "tags": [
-        "FRANCE"
       ]
     }
   ]
