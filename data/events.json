@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-08T05:59:00Z",
+    "generated_at_utc": "2026-10-08T13:23:40Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,38 +14,37 @@
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
+        "status": "ok",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 6,
+        "fetched": 11,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 22,
-            "kept": 2
+            "items": 31,
+            "kept": 3
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 4
+            "kept": 3
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 0
+            "kept": 5
           }
         ]
       }
     ],
-    "fetched_articles": 6,
-    "previous_event_count": 7,
+    "fetched_articles": 11,
+    "previous_event_count": 6,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -59,6 +58,27 @@
   },
   "events": [
     {
+      "id": "rss_50b109de8f33e3c4",
+      "headline": "South Korea recalls Ukraine envoy over prisoner-of-war row",
+      "url": "https://www.bbc.co.uk/news/articles/ckwy48rrz95vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-08T09:56:02Z",
+      "source": "BBC News",
+      "tags": [
+        "UKRAINE",
+        "SOUTH_KOREA"
+      ]
+    },
+    {
+      "id": "rss_b4ed14d7024968be",
+      "headline": "Eritrean troops move deep into Ethiopia's Tigray region, residents tell BBC",
+      "url": "https://www.bbc.co.uk/news/articles/ckvgd63rj92lo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-07T18:40:52Z",
+      "source": "BBC News",
+      "tags": [
+        "ETHIOPIA"
+      ]
+    },
+    {
       "id": "rss_93ee8101cb6f71b1",
       "headline": "Margaret Hamilton, whose software helped land Apollo 11 on the Moon, dies at 90",
       "url": "https://www.bbc.co.uk/news/articles/cx5yn46j41zpo?at_medium=RSS&at_campaign=rss",
@@ -67,50 +87,81 @@
       "tags": []
     },
     {
-      "id": "rss_ad027e498c5a9ead",
-      "headline": "From films to streaming prices - how the Warner Bros deal could affect you",
-      "url": "https://www.bbc.co.uk/news/articles/cm62ep294qxlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-06T18:42:58Z",
-      "source": "BBC News",
-      "tags": []
-    },
-    {
-      "id": "rss_edd8faaa794528c4",
-      "headline": "Global protests mark October 7 attack with calls for Gaza ceasefire",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/global-protests-mark-october-7-attack-with-calls-for-gaza-ceasefire?traffic_source=rss",
-      "published_at": "2026-10-08T03:25:47Z",
+      "id": "rss_91d29d8a3ce68586",
+      "headline": "India to Turkiye, can new proposals to broker Russia-Ukraine truce succeed?",
+      "url": "https://www.aljazeera.com/news/2026/10/8/india-to-turkiye-can-new-proposals-to-broker-russia-ukraine-truce-succeed?traffic_source=rss",
+      "published_at": "2026-10-08T11:45:17Z",
       "source": "Al Jazeera",
-      "tags": []
+      "tags": [
+        "RUSSIA",
+        "UKRAINE",
+        "INDIA"
+      ]
     },
     {
-      "id": "rss_67b03a0475f16608",
-      "headline": "US stocks slide as oil prices fluctuate over renewed Iran war fears",
-      "url": "https://www.aljazeera.com/news/2026/10/8/us-stocks-slide-as-oil-prices-fluctuate-over-renewed-iran-war-fears?traffic_source=rss",
-      "published_at": "2026-10-08T00:33:03Z",
+      "id": "rss_f56ea8c7fbaa8ba0",
+      "headline": "The Hormuz bonus: Sailor salaries soar for transits amid Iran war",
+      "url": "https://www.aljazeera.com/news/2026/10/8/the-hormuz-bonus-sailor-salaries-soar-for-transits-amid-iran-war?traffic_source=rss",
+      "published_at": "2026-10-08T11:02:09Z",
       "source": "Al Jazeera",
       "tags": [
         "IRAN"
       ]
     },
     {
-      "id": "rss_20fd14733c00e8b9",
-      "headline": "Yemen war live: Gov’t forces claim key heights, Houthi attacks continue",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/8/yemen-war-live-yemeni-forces-claim-key-heights-as-houthi-attacks-go-on?traffic_source=rss",
-      "published_at": "2026-10-08T00:00:00Z",
+      "id": "rss_9eae084cff20a70c",
+      "headline": "Gaza war sped up India’s shift towards Israel under Modi",
+      "url": "https://www.aljazeera.com/news/2026/10/8/how-gaza-war-sped-up-indias-shift-towards-israel-under-modi?traffic_source=rss",
+      "published_at": "2026-10-08T08:31:44Z",
       "source": "Al Jazeera",
+      "tags": [
+        "ISRAEL",
+        "INDIA"
+      ]
+    },
+    {
+      "id": "rss_a888e042b3748588",
+      "headline": "Conflict in Yemen: What are the Houthis’ aims?",
+      "url": "https://www.france24.com/en/video/20261008-conflict-in-yemen-what-are-the-houthis-aims",
+      "published_at": "2026-10-08T12:52:30Z",
+      "source": "France 24",
       "tags": [
         "YEMEN"
       ]
     },
     {
-      "id": "rss_6477c3db2264d755",
-      "headline": "EU-China trade talks begin in Beijing amid escalating pressure",
-      "url": "https://www.aljazeera.com/economy/2026/10/7/eu-china-trade-talks-begin-in-beijing-amid-escalating-pressure?traffic_source=rss",
-      "published_at": "2026-10-07T23:45:03Z",
-      "source": "Al Jazeera",
+      "id": "rss_4c5313354beee4b8",
+      "headline": "🔴Nobel Prize in Literature awarded to Canada’s Anne Carson",
+      "url": "https://www.france24.com/en/europe/20261008-nobel-prize-in-literature-awarded-to-canada-anne-carson",
+      "published_at": "2026-10-08T11:05:51Z",
+      "source": "France 24",
+      "tags": []
+    },
+    {
+      "id": "rss_1c373d8252bea801",
+      "headline": "Nobel Prize in Literature awarded to Canada’s Anne Carson",
+      "url": "https://www.france24.com/en/europe/20261008-nobel-prize-in-literature-awarded-to-canada-anne-carson",
+      "published_at": "2026-10-08T11:04:18Z",
+      "source": "France 24",
+      "tags": []
+    },
+    {
+      "id": "rss_a6b12dfd23d9a860",
+      "headline": "Eritrean troops reportedly enter Ethiopia’s Tigray region",
+      "url": "https://www.france24.com/en/video/20261008-eritrean-troops-reportedly-enter-ethiopia-s-tigray-region",
+      "published_at": "2026-10-08T10:30:13Z",
+      "source": "France 24",
       "tags": [
-        "CHINA"
+        "ETHIOPIA"
       ]
+    },
+    {
+      "id": "rss_013ef56c219b1b8e",
+      "headline": "El Nino to intensify with peak in December, UN warns",
+      "url": "https://www.france24.com/en/video/20261008-el-nino-to-intensify-with-peak-in-december-un-warns",
+      "published_at": "2026-10-08T09:59:21Z",
+      "source": "France 24",
+      "tags": []
     }
   ]
 }
