@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-08T00:11:15Z",
+    "generated_at_utc": "2026-10-08T05:59:00Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,19 +14,20 @@
       },
       {
         "name": "tripwire",
-        "status": "ok",
+        "status": "error",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 7,
+        "fetched": 6,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
             "items": 22,
-            "kept": 3
+            "kept": 2
           },
           {
             "outlet": "Al Jazeera",
@@ -43,8 +44,8 @@
         ]
       }
     ],
-    "fetched_articles": 7,
-    "previous_event_count": 9,
+    "fetched_articles": 6,
+    "previous_event_count": 7,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -58,18 +59,10 @@
   },
   "events": [
     {
-      "id": "rss_616ab89215a963c6",
-      "headline": "Children killed while they slept as Russian missile kills 19 in block of flats",
-      "url": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-07T18:12:58Z",
-      "source": "BBC News",
-      "tags": []
-    },
-    {
-      "id": "rss_33b4e11a795e332e",
-      "headline": "Chemistry Nobel awarded for solving mystery of life's asymmetry",
-      "url": "https://www.bbc.co.uk/news/articles/c6ly038jg0d4o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-07T11:51:52Z",
+      "id": "rss_93ee8101cb6f71b1",
+      "headline": "Margaret Hamilton, whose software helped land Apollo 11 on the Moon, dies at 90",
+      "url": "https://www.bbc.co.uk/news/articles/cx5yn46j41zpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-08T05:10:40Z",
       "source": "BBC News",
       "tags": []
     },
@@ -82,6 +75,34 @@
       "tags": []
     },
     {
+      "id": "rss_edd8faaa794528c4",
+      "headline": "Global protests mark October 7 attack with calls for Gaza ceasefire",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/global-protests-mark-october-7-attack-with-calls-for-gaza-ceasefire?traffic_source=rss",
+      "published_at": "2026-10-08T03:25:47Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_67b03a0475f16608",
+      "headline": "US stocks slide as oil prices fluctuate over renewed Iran war fears",
+      "url": "https://www.aljazeera.com/news/2026/10/8/us-stocks-slide-as-oil-prices-fluctuate-over-renewed-iran-war-fears?traffic_source=rss",
+      "published_at": "2026-10-08T00:33:03Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "rss_20fd14733c00e8b9",
+      "headline": "Yemen war live: Gov’t forces claim key heights, Houthi attacks continue",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/8/yemen-war-live-yemeni-forces-claim-key-heights-as-houthi-attacks-go-on?traffic_source=rss",
+      "published_at": "2026-10-08T00:00:00Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "YEMEN"
+      ]
+    },
+    {
       "id": "rss_6477c3db2264d755",
       "headline": "EU-China trade talks begin in Beijing amid escalating pressure",
       "url": "https://www.aljazeera.com/economy/2026/10/7/eu-china-trade-talks-begin-in-beijing-amid-escalating-pressure?traffic_source=rss",
@@ -89,34 +110,6 @@
       "source": "Al Jazeera",
       "tags": [
         "CHINA"
-      ]
-    },
-    {
-      "id": "rss_9f1edfd415fa5de4",
-      "headline": "Gaza child’s autoimmune condition triggered amid Israel’s war",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/7/gaza-childs-autoimmune-condition-triggered-amid-israels-war?traffic_source=rss",
-      "published_at": "2026-10-07T21:06:46Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "ISRAEL"
-      ]
-    },
-    {
-      "id": "rss_22471d87479ccd13",
-      "headline": "Democratic FCC member warns of AI robocall misinformation risks in US",
-      "url": "https://www.aljazeera.com/economy/2026/10/7/democratic-fcc-member-warns-of-ai-robocall-misinformation-risks-in-us?traffic_source=rss",
-      "published_at": "2026-10-07T20:14:35Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_c0ab0fa5c5fb4da0",
-      "headline": "Witnesses spot Eritrean troops inside northern Ethiopia as tensions flare",
-      "url": "https://www.aljazeera.com/news/2026/10/7/witnesses-spot-eritrean-troops-inside-northern-ethiopia-as-tensions-flare?traffic_source=rss",
-      "published_at": "2026-10-07T18:43:47Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "ETHIOPIA"
       ]
     }
   ]
