@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-09T15:17:16Z",
+    "generated_at_utc": "2026-10-09T20:08:04Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,37 +14,38 @@
       },
       {
         "name": "tripwire",
-        "status": "ok",
+        "status": "error",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 9,
+        "fetched": 14,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 35,
+            "items": 31,
             "kept": 2
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 4
+            "kept": 7
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 3
+            "kept": 5
           }
         ]
       }
     ],
-    "fetched_articles": 9,
-    "previous_event_count": 13,
+    "fetched_articles": 14,
+    "previous_event_count": 9,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -58,10 +59,18 @@
   },
   "events": [
     {
+      "id": "rss_533aa0eaeaf3394e",
+      "headline": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
+      "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-09T18:40:10Z",
+      "source": "BBC News",
+      "tags": []
+    },
+    {
       "id": "rss_9a441bb0c98eb1f0",
       "headline": "Ethiopia warns Eritrea it will defend itself after troops cross border",
       "url": "https://www.bbc.co.uk/news/articles/c65ynvw250y1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-09T13:31:07Z",
+      "published_at": "2026-10-09T15:24:43Z",
       "source": "BBC News",
       "tags": [
         "ETHIOPIA",
@@ -69,82 +78,105 @@
       ]
     },
     {
-      "id": "rss_50b109de8f33e3c4",
-      "headline": "South Korea recalls Ukraine envoy over prisoner-of-war row",
-      "url": "https://www.bbc.co.uk/news/articles/ckwy48rrz95vo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-08T16:23:09Z",
-      "source": "BBC News",
+      "id": "rss_946deb40a117466e",
+      "headline": "European states, Canada, Japan and UN back ICC against US sanctions",
+      "url": "https://www.aljazeera.com/news/2026/10/9/european-states-canada-japan-and-un-back-icc-against-us-sanctions?traffic_source=rss",
+      "published_at": "2026-10-09T19:32:13Z",
+      "source": "Al Jazeera",
       "tags": [
-        "UKRAINE",
-        "SOUTH_KOREA"
+        "JAPAN"
       ]
     },
     {
-      "id": "rss_0e764ad08bbf0204",
-      "headline": "US sanctions International Criminal Court itself in latest escalation",
+      "id": "rss_33d9d868f13d2f7c",
+      "headline": "Tsunami warnings across Latin America after 7.7 magnitude earthquake hits",
+      "url": "https://www.aljazeera.com/news/2026/10/9/tsunami-warnings-across-latin-america-after-7-7-magnitude-earthquake-hits?traffic_source=rss",
+      "published_at": "2026-10-09T19:22:56Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_f1ca375b660ff24c",
+      "headline": "Gaza ceasefire ‘exists in name only’, more than 100 NGOs say",
+      "url": "https://www.aljazeera.com/news/2026/10/9/gaza-ceasefire-exists-in-name-only-more-than-100-ngos-say?traffic_source=rss",
+      "published_at": "2026-10-09T18:15:06Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_3be3f4f36219b931",
+      "headline": "‘An attack against sovereign states’: ICC President slams US sanctions",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/an-attack-against-sovereign-states-icc-president-slams-us-sanctions?traffic_source=rss",
+      "published_at": "2026-10-09T18:06:48Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_3dec45330659d631",
+      "headline": "Drone strike kills 30 people in Sudan’s Blue Nile region",
+      "url": "https://www.aljazeera.com/news/2026/10/9/drone-strike-kills-30-people-in-sudans-blue-nile-region?traffic_source=rss",
+      "published_at": "2026-10-09T17:19:43Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "SUDAN"
+      ]
+    },
+    {
+      "id": "rss_13898c738119bd86",
+      "headline": "‘Rogue court’: US sanctions ICC hours after ex-judge wins Nobel Prize",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/rogue-court-us-sanctions-icc-hours-after-ex-judge-wins-nobel-prize?traffic_source=rss",
+      "published_at": "2026-10-09T15:59:04Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_4aa352732f6a8476",
+      "headline": "US sanctions International Criminal Court itself in major escalation",
       "url": "https://www.aljazeera.com/news/2026/10/9/us-sanctions-international-criminal-court-itself-in-latest-escalation?traffic_source=rss",
       "published_at": "2026-10-09T15:08:30Z",
       "source": "Al Jazeera",
       "tags": []
     },
     {
-      "id": "rss_1c294bec07955e53",
-      "headline": "Ethiopia and Eritrea accuse one another of launching war",
-      "url": "https://www.aljazeera.com/news/2026/10/9/ethiopia-and-eritrea-accuse-one-another-of-launching-war?traffic_source=rss",
-      "published_at": "2026-10-09T14:11:50Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "ETHIOPIA",
-        "ERITREA"
-      ]
-    },
-    {
-      "id": "rss_94cc33fa0187b206",
-      "headline": "Ukraine pushes Russia back in Donetsk as military, civilian casualties soar",
-      "url": "https://www.aljazeera.com/news/2026/10/9/ukraine-pushes-russia-back-in-donetsk-as-military-civilian-casualties-soar?traffic_source=rss",
-      "published_at": "2026-10-09T13:09:15Z",
-      "source": "Al Jazeera",
+      "id": "rss_72b690f429c8a84e",
+      "headline": "Trump strikes diesel deal with Putin, reversing years of pressure on Russia over Ukraine war",
+      "url": "https://www.france24.com/en/europe/20261009-trump-strikes-diesel-deal-with-putin-reversing-years-of-pressure-on-russia-over-ukraine-war",
+      "published_at": "2026-10-09T20:00:24Z",
+      "source": "France 24",
       "tags": [
         "RUSSIA",
         "UKRAINE"
       ]
     },
     {
-      "id": "rss_2de42dece6fcb809",
-      "headline": "Is Trump signalling a return to war with Iran after the midterms?",
-      "url": "https://www.aljazeera.com/news/2026/10/9/is-trump-signalling-a-return-to-war-with-iran-after-the-midterms?traffic_source=rss",
-      "published_at": "2026-10-09T10:40:36Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "rss_08a77b4f352b14de",
-      "headline": "Residents of Ukraine's Kramatorsk forced to flee as drone strikes intensify",
-      "url": "https://www.france24.com/en/tv-shows/focus/20261009-residents-of-ukraine-s-kramatorsk-forced-to-flee-as-drone-strikes-intensify",
-      "published_at": "2026-10-09T11:51:07Z",
+      "id": "rss_64bcac8c139ff303",
+      "headline": "🔴 Powerful 7.6 magnitude quake shakes Panama, triggering tsunami warning",
+      "url": "https://www.france24.com/en/americas/20261009-powerful-7-6-magnitude-quake-shakes-panama-triggering-tsunami-warning",
+      "published_at": "2026-10-09T18:41:26Z",
       "source": "France 24",
-      "tags": [
-        "UKRAINE"
-      ]
+      "tags": []
     },
     {
-      "id": "rss_24da1d51a204167c",
-      "headline": "Eritrea and Ethiopia accuse each other of provoking war as Tigray rebels retreat",
-      "url": "https://www.france24.com/en/africa/20261009-eritrea-ethiopia-accuse-each-other-of-provoking-war-as-tigray-rebels-retreat",
-      "published_at": "2026-10-09T11:36:58Z",
+      "id": "rss_227caa68c3176a66",
+      "headline": "Powerful 7.6 magnitude quake shakes Panama, triggering tsunami warnings",
+      "url": "https://www.france24.com/en/americas/20261009-powerful-7-6-magnitude-quake-shakes-panama-triggering-tsunami-warning",
+      "published_at": "2026-10-09T18:39:03Z",
       "source": "France 24",
-      "tags": [
-        "ETHIOPIA",
-        "ERITREA"
-      ]
+      "tags": []
     },
     {
-      "id": "rss_870216add62814aa",
-      "headline": "Pentagon vows to livestream first military execution in decades",
-      "url": "https://www.france24.com/en/video/20261009-pentagon-vows-to-livestream-first-military-execution-in-decades",
-      "published_at": "2026-10-09T10:56:30Z",
+      "id": "rss_bb04bc07d15a7190",
+      "headline": "Navi Pillay awarded Peace Prize: 'Lifetime spent fighting for what's right & to uphold human rights'",
+      "url": "https://www.france24.com/en/navi-pillay-awarded-peace-prize-lifetime-spent-fighting-for-what-s-right-to-uphold-human-rights",
+      "published_at": "2026-10-09T17:27:56Z",
+      "source": "France 24",
+      "tags": []
+    },
+    {
+      "id": "rss_01422140649cfe4e",
+      "headline": "International Criminal Court faces 'test of resilience' as US imposes sweeping sanctions",
+      "url": "https://www.france24.com/en/europe/20261009-international-criminal-court-faces-test-of-resilience-as-us-imposes-sweeping-sanctions",
+      "published_at": "2026-10-09T15:19:41Z",
       "source": "France 24",
       "tags": []
     }
