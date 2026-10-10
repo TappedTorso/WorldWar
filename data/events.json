@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-09T20:08:04Z",
+    "generated_at_utc": "2026-10-10T00:02:37Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,24 +9,23 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
+        "status": "ok",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 14,
+        "fetched": 15,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 31,
+            "items": 32,
             "kept": 2
           },
           {
@@ -39,13 +38,13 @@
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 5
+            "kept": 6
           }
         ]
       }
     ],
-    "fetched_articles": 14,
-    "previous_event_count": 9,
+    "fetched_articles": 15,
+    "previous_event_count": 14,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -78,6 +77,27 @@
       ]
     },
     {
+      "id": "rss_a175fe3a805b4cb6",
+      "headline": "Iran war live: Kremlin says Trump welcomed Russia effort in Iran deal",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/10/iran-war-live-kremlin-says-trump-welcomed-russia-effort-in-iran-deal?traffic_source=rss",
+      "published_at": "2026-10-10T00:00:00Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN",
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "rss_e0cfff737b3a108f",
+      "headline": "UN envoy warns Yemen has returned to ‘full-scale war’, urges dialogue",
+      "url": "https://www.aljazeera.com/news/2026/10/9/un-envoy-warns-yemen-has-returned-to-full-scale-war-urges-dialogue?traffic_source=rss",
+      "published_at": "2026-10-09T20:56:01Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "YEMEN"
+      ]
+    },
+    {
       "id": "rss_946deb40a117466e",
       "headline": "European states, Canada, Japan and UN back ICC against US sanctions",
       "url": "https://www.aljazeera.com/news/2026/10/9/european-states-canada-japan-and-un-back-icc-against-us-sanctions?traffic_source=rss",
@@ -88,8 +108,8 @@
       ]
     },
     {
-      "id": "rss_33d9d868f13d2f7c",
-      "headline": "Tsunami warnings across Latin America after 7.7 magnitude earthquake hits",
+      "id": "rss_d75ac1d050ba192f",
+      "headline": "Panama earthquake: Tsunami warnings issued after magnitude 7.7 quake",
       "url": "https://www.aljazeera.com/news/2026/10/9/tsunami-warnings-across-latin-america-after-7-7-magnitude-earthquake-hits?traffic_source=rss",
       "published_at": "2026-10-09T19:22:56Z",
       "source": "Al Jazeera",
@@ -122,19 +142,11 @@
       ]
     },
     {
-      "id": "rss_13898c738119bd86",
-      "headline": "‘Rogue court’: US sanctions ICC hours after ex-judge wins Nobel Prize",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/rogue-court-us-sanctions-icc-hours-after-ex-judge-wins-nobel-prize?traffic_source=rss",
-      "published_at": "2026-10-09T15:59:04Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_4aa352732f6a8476",
-      "headline": "US sanctions International Criminal Court itself in major escalation",
-      "url": "https://www.aljazeera.com/news/2026/10/9/us-sanctions-international-criminal-court-itself-in-latest-escalation?traffic_source=rss",
-      "published_at": "2026-10-09T15:08:30Z",
-      "source": "Al Jazeera",
+      "id": "rss_efff7010e42598dd",
+      "headline": "South African judge awarded Nobel Peace Prize",
+      "url": "https://www.france24.com/en/south-african-judge-awarded-nobel-peace-prize",
+      "published_at": "2026-10-09T21:53:23Z",
+      "source": "France 24",
       "tags": []
     },
     {
