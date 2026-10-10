@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-10T12:26:30Z",
-    "provider": "GDELT_DOC_API",
-    "status": "partial",
+    "generated_at_utc": "2026-10-10T17:51:13Z",
+    "provider": "RSS_FALLBACK",
+    "status": "ok-fallback",
     "timespan": "6h",
     "max_events": 120,
     "streams": [
@@ -15,11 +15,36 @@
       {
         "name": "tripwire",
         "status": "ok",
-        "fetched": 78
+        "fetched": 0
+      },
+      {
+        "name": "rss_fallback",
+        "status": "ok",
+        "fetched": 12,
+        "feeds": [
+          {
+            "outlet": "BBC News",
+            "status": "ok",
+            "items": 29,
+            "kept": 3
+          },
+          {
+            "outlet": "Al Jazeera",
+            "status": "ok",
+            "items": 25,
+            "kept": 4
+          },
+          {
+            "outlet": "France 24",
+            "status": "ok",
+            "items": 24,
+            "kept": 5
+          }
+        ]
       }
     ],
-    "fetched_articles": 78,
-    "previous_event_count": 15,
+    "fetched_articles": 12,
+    "previous_event_count": 78,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -33,671 +58,117 @@
   },
   "events": [
     {
-      "id": "gdelt_8b7c85dc15c7d044",
-      "headline": "US Slaps Sanctions on ICC Following Ex - Judge Nobel Prize Win - Jowhar News Leader",
-      "url": "https://jowhar.com/us-slaps-sanctions-on-icc-following-ex-judges-nobel-prize-win/",
-      "published_at": "20261010T064500Z",
-      "source": "jowhar.com",
+      "id": "rss_834b6b8e4ac40feb",
+      "headline": "Nobel peace laureate says US sanctions on ICC 'unacceptable'",
+      "url": "https://www.bbc.co.uk/news/articles/cqkgjrpmr47vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T15:23:47Z",
+      "source": "BBC News",
       "tags": []
     },
     {
-      "id": "gdelt_7ba4289788677ab9",
-      "headline": "Naprostá zrada Ukrajiny i Evropy , kritizují demokraté Trumpovu dohodu s Ruskem",
-      "url": "https://www.idnes.cz/zpravy/zahranicni/donald-trump-usa-vladimir-putin-nafta.A261010_070803_zahranicni_pluh",
-      "published_at": "20261010T064500Z",
-      "source": "idnes.cz",
-      "tags": []
-    },
-    {
-      "id": "gdelt_812e37e450903ae3",
-      "headline": "Bahrain Business : BBK and Infinios partner on cross - border payment",
-      "url": "https://www.gdnonline.com:443/Details/1409173",
-      "published_at": "20261010T064500Z",
-      "source": "gdnonline.com",
+      "id": "rss_12beeaa10d4ef0da",
+      "headline": "Drone strike by Sudan paramilitary kills 41 near Ethiopian border, rights group says",
+      "url": "https://www.bbc.co.uk/news/articles/c8vgx9ew571wo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T14:49:32Z",
+      "source": "BBC News",
       "tags": [
-        "BAHRAIN"
+        "SUDAN"
       ]
     },
     {
-      "id": "gdelt_efc3999babba0149",
-      "headline": "美國制裁國際刑事法院 荷蘭誓言確保運作 | 國際",
-      "url": "https://www.cna.com.tw/news/aopl/202610100096.aspx",
-      "published_at": "20261010T064500Z",
-      "source": "cna.com.tw",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e7b689e702bb4881",
-      "headline": "美國擬制裁國際刑事法院 英日法德等8國外長齊聲反對 | 國際",
-      "url": "https://www.cna.com.tw/news/aopl/202610100092.aspx",
-      "published_at": "20261010T064500Z",
-      "source": "cna.com.tw",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1305b664ea111c5d",
-      "headline": "US lifts sanctions on daughter of Myanmar military - linked businessman",
-      "url": "https://www.asiaone.com/world/us-lifts-sanctions-daughter-myanmar-military-linked-businessman",
-      "published_at": "20261010T064500Z",
-      "source": "asiaone.com",
+      "id": "rss_65dbed04d3287686",
+      "headline": "Flydubai attacker began a 'drift towards extremism and terrorism' in Australia, UAE says",
+      "url": "https://www.bbc.co.uk/news/articles/cw3dj5n538jpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T04:34:55Z",
+      "source": "BBC News",
       "tags": [
-        "MYANMAR"
+        "UAE"
       ]
     },
     {
-      "id": "gdelt_932db2b63c0918fa",
-      "headline": "تصعيد على جبهات الشرق الأوسط : هجوم عسكري واسع ضد الحوثيين في اليمن .. وإيران تلوّح بحرب طويلة",
-      "url": "https://arabic.euronews.com/2026/10/10/escalation-middle-east-major-military-offensive-against-houthis-yemen-iran-hints-long-war",
-      "published_at": "20261010T064500Z",
-      "source": "arabic.euronews.com",
+      "id": "rss_e8d54305a65d90b1",
+      "headline": "Why is the US sanctioning the International Criminal Court?",
+      "url": "https://www.aljazeera.com/news/2026/10/10/why-is-the-us-sanctioning-the-international-criminal-court?traffic_source=rss",
+      "published_at": "2026-10-10T14:19:43Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_699639ef3f2e2c2c",
+      "headline": "Has Yemen returned to ‘full-scale war’?",
+      "url": "https://www.aljazeera.com/news/2026/10/10/has-yemen-returned-to-full-scale-war?traffic_source=rss",
+      "published_at": "2026-10-10T14:10:24Z",
+      "source": "Al Jazeera",
       "tags": [
-        "IRAN",
         "YEMEN"
       ]
     },
     {
-      "id": "gdelt_b64a729c54a09bd4",
-      "headline": "Fresh Violence Erupts In Manipur After Woman Shot Dead | Rediff - TV",
-      "url": "https://tv.rediff.com/news/fresh-violence-erupts-in-manipur-after-woman-shot-dead/407763",
-      "published_at": "20261010T064500Z",
-      "source": "tv.rediff.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b154be7c6a0b61c7",
-      "headline": "Trump - Putin - Diesel - Deal : Warum 300 . 000 Tonnen russischer Diesel die US - Spritpreise nicht senken und die Sanktionen schwächen",
-      "url": "https://www.focus.de/politik/trump-putin-diesel-deal-warum-300-000-tonnen-russischer-diesel-die-us-spritpreise-nicht-senken-und-die-sanktionen-schwaechen_4c96fa3c-bdd5-43aa-a887-3703d619858e.html",
-      "published_at": "20261010T064500Z",
-      "source": "focus.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a92186bb4f76b178",
-      "headline": "Oglasio se Putin nakon razgovora sa Trampom",
-      "url": "https://www.danas.rs/svet/putin-tramp-nafta/",
-      "published_at": "20261010T064500Z",
-      "source": "danas.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e47a5f2bfe60d975",
-      "headline": "MEBden kesin talimat : Milletlerarası okullara Türk öğrenci kaydına geçit yok",
-      "url": "https://www.turkiyegazetesi.com.tr/egitim/mebden-kesin-talimat-milletlerarasi-okullara-turk-ogrenci-kaydina-gecit-yok-1821743",
-      "published_at": "20261010T064500Z",
-      "source": "turkiyegazetesi.com.tr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c28b7e9db5f3a15c",
-      "headline": "Russland liefert trotz Sanktionen Diesel an die united states",
-      "url": "https://www.srf.ch/news/international/russische-oellieferungen-an-usa-trump-erlaubt-russische-dieselimporte-1",
-      "published_at": "20261010T064500Z",
-      "source": "srf.ch",
+      "id": "rss_13ef4bfcb49884e9",
+      "headline": "Child among eight killed by Israel on Gaza ‘ceasefire’ anniversary",
+      "url": "https://www.aljazeera.com/news/2026/10/10/israeli-forces-kill-six-in-gaza-including-a-child?traffic_source=rss",
+      "published_at": "2026-10-10T12:40:57Z",
+      "source": "Al Jazeera",
       "tags": [
-        "UNITED_STATES"
+        "ISRAEL"
       ]
     },
     {
-      "id": "gdelt_d754c6dde17533db",
-      "headline": "As Russia escalates its war , the EU realises its support for Ukraine wont be enough",
-      "url": "https://www.euronews.com/2026/10/10/as-russia-escalates-its-war-the-eu-admits-its-support-for-ukraine-wont-be-enough",
-      "published_at": "20261010T064500Z",
-      "source": "euronews.com",
+      "id": "rss_8e7f55e880fa5a5b",
+      "headline": "Ukraine warns Trump-Putin diesel deal will bankroll Russia’s war",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/ukraine-warns-trump-putin-diesel-deal-will-bankroll-russias-war?traffic_source=rss",
+      "published_at": "2026-10-10T12:33:07Z",
+      "source": "Al Jazeera",
       "tags": [
         "RUSSIA",
         "UKRAINE"
       ]
     },
     {
-      "id": "gdelt_aad7c6267b590170",
-      "headline": "Esma , ok alla presidenza italiana . Svolta sulla vigilanza centralizzata",
-      "url": "https://www.ilmessaggero.it/economia/esma_ok_presidenza_italiana_svolta_sulla_vigilanza_centralizzata-9814907.html",
-      "published_at": "20261010T064500Z",
-      "source": "ilmessaggero.it",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f4536a0cc06456d4",
-      "headline": "Trump says ICC sanctions aimed at defending Netanyahu and others",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-icc-sanctions-aimed-defending-netanyahu-and-others",
-      "published_at": "20261010T064500Z",
-      "source": "middleeasteye.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_958a0c2215e3a198",
-      "headline": "Trump says Russia to supply diesel to global markets",
-      "url": "https://www.canberratimes.com.au/story/9365952/trump-says-russia-to-supply-diesel-to-global-markets/",
-      "published_at": "20261010T064500Z",
-      "source": "canberratimes.com.au",
+      "id": "rss_f400d4a0f869e47a",
+      "headline": "🔴 Live: Trump lashes out at Zelensky, says Ukraine needs new president who will agree to end war",
+      "url": "https://www.france24.com/en/europe/20261010-live-russian-strikes-on-ukraine-zaporizhzhia-kill-least-seven-including-children",
+      "published_at": "2026-10-10T17:39:46Z",
+      "source": "France 24",
       "tags": [
-        "RUSSIA"
+        "UKRAINE"
       ]
     },
     {
-      "id": "gdelt_359401f42ca28de9",
-      "headline": "Trump strikes diesel deal with Putin , US lifts sanctions | Rediff - TV",
-      "url": "https://tv.rediff.com/news/trump-strikes-diesel-deal-with-putin-us-lifts-sanctions/407754",
-      "published_at": "20261010T064500Z",
-      "source": "tv.rediff.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a60b6f06de68739b",
-      "headline": "Putin says Russian oil supplies to US will",
-      "url": "https://timesofoman.com/article/177842-putin-says-russian-oil-supplies-to-us-will-positively-impact-global-economy-after-trump-call",
-      "published_at": "20261010T064500Z",
-      "source": "timesofoman.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ff1ff74b77294ca5",
-      "headline": "Ovo je ukrajinski odgovor na dogovor Trumpa i Putina",
-      "url": "https://www.index.hr/vijesti/clanak/ovo-je-ukrajinski-odgovor-na-dogovor-trumpa-i-putina/2844072.aspx?index_ref=homepage_comment_box_d&commentId=12210160",
-      "published_at": "20261010T064500Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c07846361b78ebb6",
-      "headline": "Ovo je ukrajinski odgovor na dogovor Trumpa i Putina",
-      "url": "https://www.index.hr/vijesti/clanak/ovo-je-ukrajinski-odgovor-na-dogovor-trumpa-i-putina/2844072.aspx?index_ref=homepage_comment_box_d&commentId=12210143",
-      "published_at": "20261010T064500Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e70ddc270ae6fd2d",
-      "headline": "Ovo je ukrajinski odgovor na dogovor Trumpa i Putina",
-      "url": "https://www.index.hr/vijesti/clanak/ovo-je-ukrajinski-odgovor-na-dogovor-trumpa-i-putina/2844072.aspx?index_ref=homepage_comment_box_d&commentId=12210018",
-      "published_at": "20261010T064500Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bdd429a6daeccb00",
-      "headline": "Ovo je ukrajinski odgovor na dogovor Trumpa i Putina",
-      "url": "https://www.index.hr/vijesti/clanak/ovo-je-ukrajinski-odgovor-na-dogovor-trumpa-i-putina/2844072.aspx?index_ref=homepage_comment_box_d&commentId=12210108",
-      "published_at": "20261010T064500Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1ff68d5a1ffbdd83",
-      "headline": "Ovo je ukrajinski odgovor na dogovor Trumpa i Putina",
-      "url": "https://www.index.hr/vijesti/clanak/ovo-je-ukrajinski-odgovor-na-dogovor-trumpa-i-putina/2844072.aspx?index_ref=homepage_comment_box_d&commentId=12210240",
-      "published_at": "20261010T064500Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_72ff528419329fd3",
-      "headline": "Ovo je ukrajinski odgovor na dogovor Trumpa i Putina",
-      "url": "https://www.index.hr/vijesti/clanak/ovo-je-ukrajinski-odgovor-na-dogovor-trumpa-i-putina/2844072.aspx?index_ref=homepage_comment_box_d&commentId=12210091",
-      "published_at": "20261010T064500Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1bf13f2a023504dd",
-      "headline": "美媒 ： 6度要烏停轟俄煉油廠未果 川普索性找普丁談 | 國際",
-      "url": "https://www.cna.com.tw/news/aopl/202610100091.aspx",
-      "published_at": "20261010T064500Z",
-      "source": "cna.com.tw",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d4a9c81dd56f9e12",
-      "headline": "Börsgolvet : Testosterondimma i Nord och Syd",
-      "url": "https://www.affarsvarlden.se/artikel/borsgolvet-testosterondimma-i-nord-och-syd-",
-      "published_at": "20261010T064500Z",
-      "source": "affarsvarlden.se",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2a137a83483db198",
-      "headline": "Pakistan calls for immediate de - escalation of Ukraine conflict",
-      "url": "https://www.radio.gov.pk/10-10-2026/pakistan-calls-for-immediate-de-escalation-of-ukraine-conflict",
-      "published_at": "20261010T064500Z",
-      "source": "radio.gov.pk",
+      "id": "rss_e50a2985aa6f0276",
+      "headline": "War in Ukraine: Russian strikes kill 15, including a young girl",
+      "url": "https://www.france24.com/en/video/20261010-war-in-ukraine-russian-strikes-kill-15-including-a-young-girl",
+      "published_at": "2026-10-10T15:56:49Z",
+      "source": "France 24",
       "tags": [
-        "UKRAINE",
-        "PAKISTAN"
+        "UKRAINE"
       ]
     },
     {
-      "id": "gdelt_d6a0917532fdc728",
-      "headline": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
-      "url": "https://www.the-star.co.ke/news/world/2026-10-10-trump-announces-deal-for-russian-diesel-as-zelensky-calls-it-a-gift-to-putin",
-      "published_at": "20261010T064500Z",
-      "source": "the-star.co.ke",
+      "id": "rss_c291ef9ded572a1c",
+      "headline": "Russian attack on Ukrainian city kills 15, a day after Trump eases diesel sanctions on Moscow",
+      "url": "https://www.france24.com/en/video/20261010-russian-attack-on-ukrainian-city-kills-15-a-day-after-trump-eases-diesel-sanctions-on-moscow",
+      "published_at": "2026-10-10T15:39:23Z",
+      "source": "France 24",
       "tags": []
     },
     {
-      "id": "gdelt_94cf4fe1bd089626",
-      "headline": "« Контроль Москвы » использует цифровые технологии для поддержки бизнеса",
-      "url": "https://www.mskagency.ru/materials/3569626",
-      "published_at": "20261010T064500Z",
-      "source": "mskagency.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3c57198cc7d7ad44",
-      "headline": "新聞透視 》 夾在兩場川習會間 賴雙十講話避統獨論述 強化 「 民主抗威權 」 敘事 - 兩岸",
-      "url": "https://www.chinatimes.com/realtimenews/20261010001864-260409",
-      "published_at": "20261010T064500Z",
-      "source": "chinatimes.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_84d93f7c1ed82331",
-      "headline": "Pezeshkian pitches  CIS + Iran  bloc at Turkmenistan summit",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/pezeshkian-pitches-cis-iran-bloc-turkmenistan-summit",
-      "published_at": "20261010T064500Z",
-      "source": "middleeasteye.net",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_6d9116680c2b1610",
-      "headline": "Зеленски избухна срещу сделката на Тръмп с Путин :  Това е инвестиция във войната",
-      "url": "https://www.vesti.bg/sviat/zelenski-izbuhna-sreshtu-sdelkata-na-trymp-s-putin-tova-e-investiciia-vyv-vojnata-6272546",
-      "published_at": "20261010T064500Z",
-      "source": "vesti.bg",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e72ce2382d98508a",
-      "headline": "Ce se întâmpla la Miami în timp ce Trump anunța că a vorbit cu Putin : „ Am fost folosiți ca paravan",
-      "url": "https://hotnews.ro/ce-se-intampla-la-miami-in-timp-ce-trump-anunta-ca-a-vorbit-cu-putin-am-fost-folositi-ca-paravan-2372161",
-      "published_at": "20261010T064500Z",
-      "source": "hotnews.ro",
-      "tags": []
-    },
-    {
-      "id": "gdelt_aebcea1ae1ccf722",
-      "headline": "Запустил дрон в Новосибирске готовь полмиллиона : штрафы взлетели до 500 тысяч рублей",
-      "url": "https://runews24.ru/novosibirsk/10/10/2026/zapustil-dron-v-novosibirske-gotov-polmilliona-shtrafyi-vzleteli-do-500-tyisyach-rublej",
-      "published_at": "20261010T064500Z",
-      "source": "runews24.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c3cb8291c17d596c",
-      "headline": "Где в РФ самые высокие средние зарплаты : в 24 регионах средняя зарплата превысила 100 тысяч рублей в июле",
-      "url": "https://ura.news/news/1053135019",
-      "published_at": "20261010T064500Z",
-      "source": "ura.news",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3e1ec83a4a1176dd",
-      "headline": "A US - brokered ceasefire was supposed to end the war in Gaza . A year later , progress has stalled",
-      "url": "https://www.newsday.com/news/nation/israel-palestinians-hamas-war-gaza-ceasefire-explainer-p59012",
-      "published_at": "20261010T064500Z",
-      "source": "newsday.com",
-      "tags": [
-        "ISRAEL"
-      ]
-    },
-    {
-      "id": "gdelt_d0ccee0f50adee79",
-      "headline": "South African - born jurist Navi Pillay wins Nobel Peace Prize for her work in international justice",
-      "url": "https://isp.netscape.com:443/news/world/story/0001/20261010/f60744c07df969e50e9e69786fdb7de1",
-      "published_at": "20261010T064500Z",
-      "source": "isp.netscape.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3fcfc67ae3e9e149",
-      "headline": "BP Plans Bid Under Investment - friendly India Oil & Gas Policy : Meg ONeill",
-      "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/oct/10/satet-front/bp-plans-bid-under-investment-friendly-india-oil-gas-policy/articleshow/134842812.cms",
-      "published_at": "20261010T064500Z",
-      "source": "economictimes.indiatimes.com",
+      "id": "rss_c3bab20a8ce0e9fa",
+      "headline": "India detains 'cockroach' movement leaders in bid to thwart election protest",
+      "url": "https://www.france24.com/en/video/20261010-india-detains-cockroach-movement-leaders-in-bid-to-thwart-election-protest",
+      "published_at": "2026-10-10T15:37:28Z",
+      "source": "France 24",
       "tags": [
         "INDIA"
       ]
     },
     {
-      "id": "gdelt_90bf17f6dc4c41aa",
-      "headline": "Đại sứ Đỗ Hùng Việt phát biểu tại phiên thảo luận về Pháp quyền tại Uỷ ban Pháp lý ( Uỷ ban 6 ) Đại hội đồng Liên hợp quốc",
-      "url": "https://baomoi.com/dai-su-do-hung-viet-phat-bieu-tai-phien-thao-luan-ve-phap-quyen-tai-uy-ban-phap-ly-uy-ban-6-dai-hoi-dong-lien-hop-quoc-c56238743.epi",
-      "published_at": "20261010T064500Z",
-      "source": "baomoi.com",
+      "id": "rss_9bb01309a1daf8a3",
+      "headline": "Hunger and malnutrition stalk Gazans, a year on from ceasefire",
+      "url": "https://www.france24.com/en/video/20261010-hunger-and-malnutrition-stalk-gazans-a-year-on-from-ceasefire",
+      "published_at": "2026-10-10T11:00:08Z",
+      "source": "France 24",
       "tags": []
-    },
-    {
-      "id": "gdelt_39b33d258980e43d",
-      "headline": "Negociatorii americani , ucraineni și europeni au discutat șase ore la Miami , în timp ce Trump a anunțat un acord cu Rusia privind motorina",
-      "url": "https://www.mediafax.ro/externe/negociatorii-americani-ucraineni-si-europeni-au-discutat-sase-ore-la-miami-in-timp-ce-trump-a-anuntat-un-acord-cu-rusia-privind-motorina-23823158",
-      "published_at": "20261010T064500Z",
-      "source": "mediafax.ro",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d31745d50e3b7d41",
-      "headline": "Time . ai",
-      "url": "https://time.mk/ai/854e6a1ac0/mk/",
-      "published_at": "20261010T064500Z",
-      "source": "time.mk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9d37fa4bbd6d54fd",
-      "headline": "Московские НКО поддерживают семьи участников СВО через творческие проекты",
-      "url": "https://www.mskagency.ru/materials/3569621",
-      "published_at": "20261010T064500Z",
-      "source": "mskagency.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_94aa066001e85868",
-      "headline": "Сделка по дизелю не принесет Трампу пользы , но Путин уже получил желаемое ,",
-      "url": "https://www.unian.net/economics/energetics/sdelka-po-dizelyu-ne-prineset-trampu-polzy-no-putin-uzhe-poluchil-zhelaemoe-cnn-13524459.html",
-      "published_at": "20261010T064500Z",
-      "source": "unian.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_aee685e3fe16fdc0",
-      "headline": "Rusi potvrdili : Putin u razgovoru s Trumpom odbio ideju o završetku rata",
-      "url": "https://www.index.hr/vijesti/clanak/rusi-potvrdili-putin-u-razgovoru-s-trumpom-odbio-ideju-o-zavrsetku-rata/2844079.aspx",
-      "published_at": "20261010T064500Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7edf46f1d9844613",
-      "headline": "Trump and Iran agree on one thing . The US election calendar isnt driving their decisions on the war",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/trump-and-iran-agree-on-one-thing-the-us-election-calendar-isnt-driving-their-decisions-on-the-war/articleshow/134847184.cms",
-      "published_at": "20261010T064500Z",
-      "source": "economictimes.indiatimes.com",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_5da489b8f5206cd9",
-      "headline": "Anunț surprinzător de la Casa Albă : Trump bate palma cu Putin pentru livrări masive de motorină . SUA suspendă o parte din sancțiunile energetice impuse Rusiei",
-      "url": "https://news.yam.md/ro/story/74097302",
-      "published_at": "20261010T064500Z",
-      "source": "news.yam.md",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8b5f41cbf10e1e0d",
-      "headline": "कॉकरोच प्रोटेस्ट को मिला वकीलों का साथ , सुप्रीम कोर्ट से जंतर - मंतर की ओर किया कूच",
-      "url": "https://www.livehindustan.com/national/supreme-court-lawyers-march-jantar-mantar-amid-cjp-protest-gyanesh-kumar-resignation-sir-protest-201791613002055.html",
-      "published_at": "20261010T064500Z",
-      "source": "livehindustan.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d07fa6e7accc5c0a",
-      "headline": "Donald Trump Makes BIG Announcement , Strikes Diesel Deal With Putin , Says  Prices Will Come Down Fast",
-      "url": "https://www.oneindia.com/international/donald-trump-makes-big-announcement-strikes-diesel-deal-with-putin-says-prices-will-come-down-fas-8230651.html",
-      "published_at": "20261010T064500Z",
-      "source": "oneindia.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c77eae694226ce22",
-      "headline": "Faule Kredite in Putins Banken – Sberbank warnt vor Schwierigkeiten russischer Unternehmen",
-      "url": "https://www.focus.de/finanzen/news/faule-kredite-in-putins-banken-sberbank-warnt-vor-schwierigkeiten-russischer-unternehmen_48e8c211-2893-4de5-9bfe-6f1d29e884cb.html",
-      "published_at": "20261010T064500Z",
-      "source": "focus.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_733288ee559d6a35",
-      "headline": "Nobelprisen : – Trump sjokkerer en hel verden",
-      "url": "https://e24.no/norsk-oekonomi/i/xlJ0oV/donald-trump-om-nobels-fredspris-pinlig-og-vanaerende",
-      "published_at": "20261010T064500Z",
-      "source": "e24.no",
-      "tags": []
-    },
-    {
-      "id": "gdelt_394b0e7ae8d923f2",
-      "headline": "Miçotakis ve Çipras Türkiye için birbirine girdi !  Trump  ın yakasına yapışıp Ankaraya satma diyecek",
-      "url": "https://www.turkiyegazetesi.com.tr/dunya/micotakis-ve-cipras-turkiye-icin-birbirine-girdi-trumpin-yakasina-yapisip-ankaraya-sa-1821756",
-      "published_at": "20261010T064500Z",
-      "source": "turkiyegazetesi.com.tr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c62bf60c8cd5c3ee",
-      "headline": "商务部欧洲司负责人解读中欧贸易投资磋商机制第二次例会成果 - 新华网",
-      "url": "https://www.news.cn/fortune/20261010/1c99f3334b42462f99d4036df248f250/c.html",
-      "published_at": "20261010T064500Z",
-      "source": "news.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_69dc593e9af59df4",
-      "headline": "商务部欧洲司负责人解读中欧贸易投资磋商机制第二次例会成果",
-      "url": "https://www.yicai.com/news/103388537.html",
-      "published_at": "20261010T064500Z",
-      "source": "yicai.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bd4a89bcd0ecd52e",
-      "headline": "商务部欧洲司负责人解读中欧贸易投资磋商机制第二次例会成果",
-      "url": "https://www.yicai.com/brief/103388536.html",
-      "published_at": "20261010T064500Z",
-      "source": "yicai.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a25b772e090a9182",
-      "headline": "Voices from the Arab Press : US - Iran tensions , AI dangers , and Israel vote",
-      "url": "http://www.jpost.com/middle-east/article-911021",
-      "published_at": "20261010T064500Z",
-      "source": "jpost.com",
-      "tags": [
-        "ISRAEL"
-      ]
-    },
-    {
-      "id": "gdelt_ab57d846f4708859",
-      "headline": "商务部欧洲司负责人解读中欧贸易投资磋商机制第二次例会成果 _ 天下 _ 新闻频道 _ 福州新闻网",
-      "url": "https://news.fznews.com.cn/gngj/20261010/21219iiQB3.shtml",
-      "published_at": "20261010T064500Z",
-      "source": "news.fznews.com.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f120770c1a470953",
-      "headline": "Hibridni ruski  ribar  u crnogorskoj mreži : BBC analiza - BBC News na srpskom",
-      "url": "https://www.danas.rs/bbc-news-serbian/hibridni-ruski-ribar-u-crnogorskoj-mrezi-bbc-analiza/",
-      "published_at": "20261010T064500Z",
-      "source": "danas.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9d3a81ea81065f9d",
-      "headline": "Hibridni ruski  ribar  u crnogorskoj mreži : BBC analiza",
-      "url": "https://naslovi.net/2026-10-10/bbc-news/hibridni-ruski-ribar-u-crnogorskoj-mrezi-bbc-analiza/42469854",
-      "published_at": "20261010T064500Z",
-      "source": "naslovi.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_756a43c29f98193c",
-      "headline": "ترامب يصرّ على أحقيته بنوبل للسلام",
-      "url": "https://middle-east-online.com/%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D8%B5%D8%B1%D9%91-%D8%B9%D9%84%D9%89-%D8%A3%D8%AD%D9%82%D9%8A%D8%AA%D9%87-%D8%A8%D9%86%D9%88%D8%A8%D9%84-%D9%84%D9%84%D8%B3%D9%84%D8%A7%D9%85",
-      "published_at": "20261010T064500Z",
-      "source": "middle-east-online.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_57a8bd24b2cab8d5",
-      "headline": "苹果的新生意 ： 把不侵犯隐私的 AI 硬件卖给你",
-      "url": "https://tech.ifeng.com/c/8x6h1Fj8CUX",
-      "published_at": "20261010T064500Z",
-      "source": "tech.ifeng.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_04cd57d2fcb75cb1",
-      "headline": "Rabbi Yitzhak Yosef denounces Itamar Ben - Gvir as election tensions escalate",
-      "url": "http://www.jpost.com/israel-election-2026/article-911198",
-      "published_at": "20261010T064500Z",
-      "source": "jpost.com",
-      "tags": [
-        "ISRAEL"
-      ]
-    },
-    {
-      "id": "gdelt_15f48bc2490d1a96",
-      "headline": "Samin Nosrat celebrity chef who signed BDS pledge shares stage with Israelis",
-      "url": "http://www.jpost.com/diaspora/article-911204",
-      "published_at": "20261010T064500Z",
-      "source": "jpost.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_62d1056df2e6be0f",
-      "headline": "Trump faces hypocrisy charge over Russian diesel deal after targeting India",
-      "url": "https://www.orissapost.com/trump-faces-hypocrisy-charge-over-russian-diesel-deal-after-targeting-india/",
-      "published_at": "20261010T064500Z",
-      "source": "orissapost.com",
-      "tags": [
-        "INDIA"
-      ]
-    },
-    {
-      "id": "gdelt_6d7fd04aa2bb3ef5",
-      "headline": "Trump says Russia to supply diesel to global markets",
-      "url": "https://www.crookwellgazette.com.au/story/9365952/trump-says-russia-to-supply-diesel-to-global-markets/",
-      "published_at": "20261010T064500Z",
-      "source": "crookwellgazette.com.au",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "gdelt_c6cf98d007983141",
-      "headline": "Două mesaje RO - ALERT azi - noapte după depistarea unor drone în apropierea graniței cu România , lângă Tulcea",
-      "url": "https://news.yam.md/ro/story/74096519",
-      "published_at": "20261010T064500Z",
-      "source": "news.yam.md",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5202976ecf60b2e6",
-      "headline": "METEO | Sfârșitul de săptămână ne aduce vreme frumoasă , cu maxime termice de 27 de grade Celsius",
-      "url": "https://news.yam.md/ro/story/74089683",
-      "published_at": "20261010T064500Z",
-      "source": "news.yam.md",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4b100cd1bbd8e4a5",
-      "headline": "Μάντσεστερ Σίτι : Ένα σκάνδαλο εξαπάτησης στο ποδόσφαιρο εξελίχθηκε σε γεωπολιτικό πρόβλημα για τη Βρετανία",
-      "url": "https://www.reporter.gr/diethnh/diethneis-eidhseis/687977-mantsester-siti-ena-skandalo-eksapatisis-sto-podosfairo-ekselixthike-se-geopolitiko-provlima-gia-ti-vretania",
-      "published_at": "20261010T064500Z",
-      "source": "reporter.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a3d08d48c50f3af7",
-      "headline": "Trump - Putin , accordo per diesel russo agli united states . Lira di Zelensky :  E  indegno",
-      "url": "https://www.newsbiella.it/2026/10/10/leggi-notizia/argomenti/ultimora/articolo/trump-putin-accordo-per-diesel-russo-agli-usa-lira-di-zelensky-e-indegno.html",
-      "published_at": "20261010T064500Z",
-      "source": "newsbiella.it",
-      "tags": [
-        "UNITED_STATES"
-      ]
-    },
-    {
-      "id": "gdelt_f340719e06869469",
-      "headline": "Markets too ready for conflict over Taiwan US diplomat",
-      "url": "http://www.pakistantelegraph.com/news/279363123/markets-too-ready-for-conflict-over-taiwan-us-diplomat",
-      "published_at": "20261010T064500Z",
-      "source": "pakistantelegraph.com",
-      "tags": [
-        "TAIWAN"
-      ]
-    },
-    {
-      "id": "gdelt_84abae7f7e51ba7f",
-      "headline": "РФ усиливает давление на фронте , Кремль говорит о мире",
-      "url": "https://odessa-life.od.ua/news/rf-usilivaet-davlenie-na-fronte-kreml-govorit-o-mire-a-ssha-razreshili-operaczii-s-rossijskim-toplivom",
-      "published_at": "20261010T064500Z",
-      "source": "odessa-life.od.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_64fa9bf7cffdb693",
-      "headline": "Finance Minister Guides Press Through QSNCC Ahead of 2026 IMF - World Bank Group Annual Meetings , Reaffirming Thailand Readiness on All Fronts",
-      "url": "http://www.argentinastar.com/news/279363157/finance-minister-guides-press-through-qsncc-ahead-of-2026-imf-world-bank-group-annual-meetings-reaffirming-thailand-readiness-on-all-fronts",
-      "published_at": "20261010T064500Z",
-      "source": "argentinastar.com",
-      "tags": [
-        "THAILAND"
-      ]
-    },
-    {
-      "id": "gdelt_ee74c8a35a027c1e",
-      "headline": "Finance Minister Guides Press Through QSNCC Ahead of 2026 IMF - World Bank Group Annual Meetings , Reaffirming Thailand Readiness on All Fronts",
-      "url": "http://www.pakistantelegraph.com/news/279363157/finance-minister-guides-press-through-qsncc-ahead-of-2026-imf-world-bank-group-annual-meetings-reaffirming-thailand-readiness-on-all-fronts",
-      "published_at": "20261010T064500Z",
-      "source": "pakistantelegraph.com",
-      "tags": [
-        "THAILAND"
-      ]
-    },
-    {
-      "id": "gdelt_edfeb9745cdcea0a",
-      "headline": "Guerra in Iran , attacchi Houthi contro laeroporto di Riad : morti 3 cittadini sauditi , cancellati centinaia di voli – Padovanews",
-      "url": "https://www.padovanews.it/2026/10/10/guerra-in-iran-attacchi-houthi-contro-laeroporto-di-riad-morti-3-cittadini-sauditi-cancellati-centinaia-di-voli/",
-      "published_at": "20261010T064500Z",
-      "source": "padovanews.it",
-      "tags": []
-    },
-    {
-      "id": "gdelt_38f1e4fd65229d31",
-      "headline": "Trump and Iran agree on one thing . The US election calendar isnt driving their decisions on the war",
-      "url": "http://www.gazettextra.com/news/nation_world/trump-and-iran-agree-on-one-thing-the-us-election-calendar-isnt-driving-their-decisions/article_1c0bd0ae-dc37-559a-b9db-e23dbf21b05a.html",
-      "published_at": "20261010T064500Z",
-      "source": "gazettextra.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3142baa3def7d2a2",
-      "headline": "I should have won 8 Nobel Peace Prizes : Trump slams Nobel Committee for awarding Navi Pillay",
-      "url": "http://www.pakistantelegraph.com/news/279363161/i-should-have-won-8-nobel-peace-prizes-trump-slams-nobel-committee-for-awarding-navi-pillay",
-      "published_at": "20261010T064500Z",
-      "source": "pakistantelegraph.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_77a23764779e8cea",
-      "headline": "AP News in Brief at 12 : 04 a . m . EDT",
-      "url": "http://www.gazettextra.com/news/nation_world/ap-news-in-brief-at-12-04-a-m-edt/article_f833cdbb-ff2e-5f42-965b-9b371c884967.html",
-      "published_at": "20261010T064500Z",
-      "source": "gazettextra.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_173d939b26c8c152",
-      "headline": "AP News in Brief at 12 : 04 a . m . EDT",
-      "url": "https://www.woonsocketcall.com/news/national_and_world_news/ap-news-in-brief-at-12-04-a-m-edt/article_e52b742b-83ac-53a0-80bc-a4829bcbc907.html",
-      "published_at": "20261010T064500Z",
-      "source": "woonsocketcall.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c2c310b278cfa749",
-      "headline": "Trump - Putin , accordo per diesel russo agli united states . Lira di Zelensky :  E  indegno  Gazzetta di Salerno , il quotidiano on line di Salerno",
-      "url": "https://www.gazzettadisalerno.it/trump-putin-accordo-per-diesel-russo-agli-usa-lira-di-zelensky-e-indegno/",
-      "published_at": "20261010T064500Z",
-      "source": "gazzettadisalerno.it",
-      "tags": [
-        "UNITED_STATES"
-      ]
     }
   ]
 }
