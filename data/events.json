@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-10T00:02:37Z",
+    "generated_at_utc": "2026-10-10T05:48:18Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -25,14 +25,14 @@
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 32,
-            "kept": 2
+            "items": 36,
+            "kept": 3
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 7
+            "kept": 6
           },
           {
             "outlet": "France 24",
@@ -44,7 +44,7 @@
       }
     ],
     "fetched_articles": 15,
-    "previous_event_count": 14,
+    "previous_event_count": 15,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -57,6 +57,16 @@
     }
   },
   "events": [
+    {
+      "id": "rss_65dbed04d3287686",
+      "headline": "Flydubai attacker began a 'drift towards extremism and terrorism' in Australia, UAE says",
+      "url": "https://www.bbc.co.uk/news/articles/cw3dj5n538jpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-10T04:34:55Z",
+      "source": "BBC News",
+      "tags": [
+        "UAE"
+      ]
+    },
     {
       "id": "rss_533aa0eaeaf3394e",
       "headline": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
@@ -77,14 +87,56 @@
       ]
     },
     {
-      "id": "rss_a175fe3a805b4cb6",
-      "headline": "Iran war live: Kremlin says Trump welcomed Russia effort in Iran deal",
+      "id": "rss_4b49c073cf288da8",
+      "headline": "Israel’s economy prospers despite years of war, but prices worry voters",
+      "url": "https://www.aljazeera.com/economy/2026/10/10/israels-economy-prospers-despite-years-of-war-but-prices-worry-voters?traffic_source=rss",
+      "published_at": "2026-10-10T05:28:33Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "ISRAEL"
+      ]
+    },
+    {
+      "id": "rss_dd8c26e1bb04b9f9",
+      "headline": "Taiwan president says defence spending boost aims to ‘deter war’",
+      "url": "https://www.aljazeera.com/news/2026/10/10/taiwan-president-says-defence-spending-boost-aims-to-deter-war?traffic_source=rss",
+      "published_at": "2026-10-10T05:08:49Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "TAIWAN"
+      ]
+    },
+    {
+      "id": "rss_bf3c87c08fbcc0c8",
+      "headline": "Putin tells Trump peace talks are unlikely, cites Ukraine drone attacks",
+      "url": "https://www.aljazeera.com/news/2026/10/10/putin-tells-trump-peace-talks-are-unlikely-cites-ukraine-drone-attacks?traffic_source=rss",
+      "published_at": "2026-10-10T01:40:51Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "rss_467b112f850073e3",
+      "headline": "Israeli drone attack wounds six in Lebanon near Syria border",
+      "url": "https://www.aljazeera.com/news/2026/10/10/israeli-drone-attack-wounds-six-in-lebanon-near-syria-border?traffic_source=rss",
+      "published_at": "2026-10-10T00:22:52Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "LEBANON",
+        "SYRIA"
+      ]
+    },
+    {
+      "id": "rss_c845bb3b655c6482",
+      "headline": "Iran war live: Trump vows to quickly ‘settle or win’ Iran and Ukraine wars",
       "url": "https://www.aljazeera.com/news/liveblog/2026/10/10/iran-war-live-kremlin-says-trump-welcomed-russia-effort-in-iran-deal?traffic_source=rss",
       "published_at": "2026-10-10T00:00:00Z",
       "source": "Al Jazeera",
       "tags": [
         "IRAN",
-        "RUSSIA"
+        "RUSSIA",
+        "UKRAINE"
       ]
     },
     {
@@ -95,50 +147,6 @@
       "source": "Al Jazeera",
       "tags": [
         "YEMEN"
-      ]
-    },
-    {
-      "id": "rss_946deb40a117466e",
-      "headline": "European states, Canada, Japan and UN back ICC against US sanctions",
-      "url": "https://www.aljazeera.com/news/2026/10/9/european-states-canada-japan-and-un-back-icc-against-us-sanctions?traffic_source=rss",
-      "published_at": "2026-10-09T19:32:13Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "JAPAN"
-      ]
-    },
-    {
-      "id": "rss_d75ac1d050ba192f",
-      "headline": "Panama earthquake: Tsunami warnings issued after magnitude 7.7 quake",
-      "url": "https://www.aljazeera.com/news/2026/10/9/tsunami-warnings-across-latin-america-after-7-7-magnitude-earthquake-hits?traffic_source=rss",
-      "published_at": "2026-10-09T19:22:56Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_f1ca375b660ff24c",
-      "headline": "Gaza ceasefire ‘exists in name only’, more than 100 NGOs say",
-      "url": "https://www.aljazeera.com/news/2026/10/9/gaza-ceasefire-exists-in-name-only-more-than-100-ngos-say?traffic_source=rss",
-      "published_at": "2026-10-09T18:15:06Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_3be3f4f36219b931",
-      "headline": "‘An attack against sovereign states’: ICC President slams US sanctions",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/an-attack-against-sovereign-states-icc-president-slams-us-sanctions?traffic_source=rss",
-      "published_at": "2026-10-09T18:06:48Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_3dec45330659d631",
-      "headline": "Drone strike kills 30 people in Sudan’s Blue Nile region",
-      "url": "https://www.aljazeera.com/news/2026/10/9/drone-strike-kills-30-people-in-sudans-blue-nile-region?traffic_source=rss",
-      "published_at": "2026-10-09T17:19:43Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "SUDAN"
       ]
     },
     {
