@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-11T18:51:53Z",
+    "generated_at_utc": "2026-10-11T22:51:26Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,36 +14,37 @@
       },
       {
         "name": "tripwire",
-        "status": "ok",
+        "status": "error",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 12,
+        "fetched": 13,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 25,
-            "kept": 2
+            "items": 26,
+            "kept": 4
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 6
+            "kept": 4
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 4
+            "kept": 5
           }
         ]
       }
     ],
-    "fetched_articles": 12,
+    "fetched_articles": 13,
     "previous_event_count": 12,
     "tagging": {
       "method": "string_match",
@@ -57,6 +58,16 @@
     }
   },
   "events": [
+    {
+      "id": "rss_dd5ed98315bcf3ea",
+      "headline": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
+      "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T21:36:40Z",
+      "source": "BBC News",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
     {
       "id": "rss_834b6b8e4ac40feb",
       "headline": "Nobel peace laureate says US sanctions on ICC 'unacceptable'",
@@ -74,6 +85,41 @@
       "tags": []
     },
     {
+      "id": "rss_bce3c2f11a88b3de",
+      "headline": "Watch: What's behind Trump's energy ceasefire claim?",
+      "url": "https://www.bbc.co.uk/news/videos/cwvgde9vrdd9o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-11T20:55:02Z",
+      "source": "BBC News",
+      "tags": []
+    },
+    {
+      "id": "rss_7d05e35a42064e9c",
+      "headline": "Deadly air strike kills dozens at Sudan gold mine near Egypt border",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/deadly-air-strike-kills-dozens-at-sudan-gold-mine-near-egypt-border?traffic_source=rss",
+      "published_at": "2026-10-11T20:44:17Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "SUDAN",
+        "EGYPT"
+      ]
+    },
+    {
+      "id": "rss_b3d668125350e509",
+      "headline": "Zelenskyy welcomes US-announced energy ceasefire",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/zelenskyy-welcomes-us-announced-energy-ceasefire?traffic_source=rss",
+      "published_at": "2026-10-11T20:28:46Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_a4295df36004deeb",
+      "headline": "War and high debt to dominate IMF-World Bank meetings in Bangkok",
+      "url": "https://www.aljazeera.com/news/2026/10/11/war-and-high-debt-to-dominate-imf-world-bank-meetings-in-bangkok?traffic_source=rss",
+      "published_at": "2026-10-11T18:47:57Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
       "id": "rss_41f5e81f6b5212bc",
       "headline": "Is the Yemen war entering a new phase?",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/is-the-yemen-war-entering-a-new-phase?traffic_source=rss",
@@ -84,53 +130,11 @@
       ]
     },
     {
-      "id": "rss_3fe66bc11fee8014",
-      "headline": "Trump says Ukraine and Russia agree to ‘energy ceasefire’",
-      "url": "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2?traffic_source=rss",
-      "published_at": "2026-10-11T15:10:27Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "RUSSIA",
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_b898b53b8b85b509",
-      "headline": "Why are Houthi missiles breaking through Saudi Arabia’s air defences?",
-      "url": "https://www.aljazeera.com/news/2026/10/11/why-are-houthi-missiles-breaking-through-saudi-arabias-air-defences?traffic_source=rss",
-      "published_at": "2026-10-11T14:25:03Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "SAUDI_ARABIA"
-      ]
-    },
-    {
-      "id": "rss_c6faebfc4c95e80c",
-      "headline": "Ethiopia, Eritrea ramp up rhetoric: Are they inching towards war?",
-      "url": "https://www.aljazeera.com/news/2026/10/11/ethiopia-eritrea-ramp-up-rhetoric-are-they-inching-towards-war?traffic_source=rss",
-      "published_at": "2026-10-11T14:09:12Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "ETHIOPIA",
-        "ERITREA"
-      ]
-    },
-    {
-      "id": "rss_054a86794dd262f3",
-      "headline": "Hormuz attacks intensify as efforts to end war on Iran stall",
-      "url": "https://www.aljazeera.com/news/2026/10/11/hormuz-attacks-intensify-as-efforts-to-end-war-on-iran-stall?traffic_source=rss",
-      "published_at": "2026-10-11T14:04:32Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "rss_6d124c3e6fa0d512",
-      "headline": "Cockroach Janta Party accuses Modi of ‘waging war’ on Indians",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/cockroach-janta-party-accuses-modi-of-waging-war-on-indians?traffic_source=rss",
-      "published_at": "2026-10-11T13:34:07Z",
-      "source": "Al Jazeera",
+      "id": "rss_0208bbb02dd81b54",
+      "headline": "UK PM Burnham warns French voters of Russian political influence on back of Brexit vote",
+      "url": "https://www.france24.com/en/europe/20261011-uk-pm-burnham-warns-french-voters-of-russian-political-influence-on-back-of-brexit-vote",
+      "published_at": "2026-10-11T19:42:09Z",
+      "source": "France 24",
       "tags": []
     },
     {
@@ -169,7 +173,9 @@
       "url": "https://www.france24.com/en/video/20261011-trump-says-ukraine-needs-new-president-who-will-agree-to-end-war",
       "published_at": "2026-10-11T10:28:56Z",
       "source": "France 24",
-      "tags": []
+      "tags": [
+        "UKRAINE"
+      ]
     }
   ]
 }
