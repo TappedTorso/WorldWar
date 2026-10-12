@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-12T02:22:09Z",
+    "generated_at_utc": "2026-10-12T10:42:10Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
@@ -20,31 +20,31 @@
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 15,
+        "fetched": 18,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 26,
-            "kept": 4
+            "items": 25,
+            "kept": 3
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 4
+            "kept": 9
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 7
+            "kept": 6
           }
         ]
       }
     ],
-    "fetched_articles": 15,
-    "previous_event_count": 13,
+    "fetched_articles": 18,
+    "previous_event_count": 15,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -58,22 +58,14 @@
   },
   "events": [
     {
-      "id": "rss_dd5ed98315bcf3ea",
-      "headline": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
+      "id": "rss_3bd7e0691af4fa3d",
+      "headline": "Zelensky backs Trump's 'energy ceasefire' but says Russia continues to hit power plants",
       "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-11T21:36:40Z",
       "source": "BBC News",
       "tags": [
         "RUSSIA"
       ]
-    },
-    {
-      "id": "rss_834b6b8e4ac40feb",
-      "headline": "Nobel peace laureate says US sanctions on ICC 'unacceptable'",
-      "url": "https://www.bbc.co.uk/news/articles/cqkgjrpmr47vo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-10T15:23:47Z",
-      "source": "BBC News",
-      "tags": []
     },
     {
       "id": "rss_0fb98966eb4aba99",
@@ -92,41 +84,124 @@
       "tags": []
     },
     {
-      "id": "rss_89ea4e3bc4ef0b28",
-      "headline": "Iran war live: Riyadh airport hit again; Tehran says US reply ‘inadequate’",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/12/iran-war-live-riyadh-airport-hit-again-tehran-says-us-reply-inadequate?traffic_source=rss",
-      "published_at": "2026-10-12T00:00:00Z",
+      "id": "rss_d259da3935f3f389",
+      "headline": "Ukraine’s Zelenskyy accuses Russia of violating Trump’s ‘energy ceasefire’",
+      "url": "https://www.aljazeera.com/news/2026/10/12/ukraines-zelenskyy-accuses-russia-of-violating-trumps-energy-ceasefire?traffic_source=rss",
+      "published_at": "2026-10-12T10:35:51Z",
       "source": "Al Jazeera",
       "tags": [
-        "IRAN"
+        "RUSSIA",
+        "UKRAINE"
       ]
     },
     {
-      "id": "rss_7d05e35a42064e9c",
-      "headline": "Deadly air strike kills dozens at Sudan gold mine near Egypt border",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/deadly-air-strike-kills-dozens-at-sudan-gold-mine-near-egypt-border?traffic_source=rss",
-      "published_at": "2026-10-11T20:44:17Z",
+      "id": "rss_7fb124237741443f",
+      "headline": "Russia introduces drone classes in public schools",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/russia-introduces-drone-classes-in-public-schools?traffic_source=rss",
+      "published_at": "2026-10-12T08:47:43Z",
       "source": "Al Jazeera",
       "tags": [
-        "SUDAN",
-        "EGYPT"
+        "RUSSIA"
       ]
     },
     {
-      "id": "rss_b3d668125350e509",
-      "headline": "Zelenskyy welcomes US-announced energy ceasefire",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/zelenskyy-welcomes-us-announced-energy-ceasefire?traffic_source=rss",
-      "published_at": "2026-10-11T20:28:46Z",
+      "id": "rss_168a5b2a4f87ce2e",
+      "headline": "Countries warn against travel to Saudi Arabia following Houthi attacks",
+      "url": "https://www.aljazeera.com/economy/2026/10/12/countries-warn-against-travel-to-saudi-arabia-following-houthi-attacks?traffic_source=rss",
+      "published_at": "2026-10-12T05:53:45Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "SAUDI_ARABIA"
+      ]
+    },
+    {
+      "id": "rss_d3dd0169ec4f667f",
+      "headline": "Clashes reported in Yemen as Houthis advance towards Taiz",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/clashes-reported-in-yemen-as-houthis-advance-towards-taiz?traffic_source=rss",
+      "published_at": "2026-10-12T05:27:22Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "YEMEN"
+      ]
+    },
+    {
+      "id": "rss_680173404aaf64fc",
+      "headline": "China sanctions Paraguay, Belize ministers over Taiwan ties",
+      "url": "https://www.aljazeera.com/news/2026/10/12/china-sanctions-paraguay-belize-ministers-over-taiwan-ties?traffic_source=rss",
+      "published_at": "2026-10-12T04:58:01Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "CHINA",
+        "TAIWAN"
+      ]
+    },
+    {
+      "id": "rss_6bb19e7808b20844",
+      "headline": "Netanyahu demands probe into sources for award-winning Gaza film NAZA",
+      "url": "https://www.aljazeera.com/news/2026/10/12/netanyahu-demands-probe-into-sources-for-award-winning-gaza-film-naza?traffic_source=rss",
+      "published_at": "2026-10-12T04:24:18Z",
       "source": "Al Jazeera",
       "tags": []
     },
     {
-      "id": "rss_a4295df36004deeb",
-      "headline": "War and high debt to dominate IMF-World Bank meetings in Bangkok",
-      "url": "https://www.aljazeera.com/news/2026/10/11/war-and-high-debt-to-dominate-imf-world-bank-meetings-in-bangkok?traffic_source=rss",
-      "published_at": "2026-10-11T18:47:57Z",
+      "id": "rss_445ee1412e01e66c",
+      "headline": "Ethiopian troops enter Adigrat in Tigray, near the Eritrean border",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/11-10-reported-ethiopia-hamza-mohammad-report-abiy-ahmed-ep?traffic_source=rss",
+      "published_at": "2026-10-12T04:00:56Z",
       "source": "Al Jazeera",
+      "tags": [
+        "ETHIOPIA"
+      ]
+    },
+    {
+      "id": "rss_4ab9df0f48bc8979",
+      "headline": "North Korea fires multiple ballistic missiles towards the sea",
+      "url": "https://www.aljazeera.com/news/2026/10/12/north-korea-fires-multiple-ballistic-missiles-towards-the-sea?traffic_source=rss",
+      "published_at": "2026-10-12T03:37:12Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "NORTH_KOREA"
+      ]
+    },
+    {
+      "id": "rss_09f673ea34ba1afa",
+      "headline": "Iran urges Saudi Arabia to pursue diplomacy after Houthis escalate attacks",
+      "url": "https://www.aljazeera.com/news/2026/10/12/irans-fm-urges-diplomacy-in-call-with-saudi-counterpart?traffic_source=rss",
+      "published_at": "2026-10-12T00:39:08Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN",
+        "SAUDI_ARABIA"
+      ]
+    },
+    {
+      "id": "rss_e4d3fcf2e5aaecae",
+      "headline": "Zelensky says surprised to hear about Trump's 'energy ceasefire' between Ukraine and Russia",
+      "url": "https://www.france24.com/en/zelensky-says-surprised-to-hear-about-trump-s-energy-ceasefire-between-ukraine-and-russia",
+      "published_at": "2026-10-12T10:19:32Z",
+      "source": "France 24",
+      "tags": [
+        "RUSSIA",
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "rss_912e8cc74e8d3c05",
+      "headline": "Trump touts surprise 'energy ceasefire' – Zelensky says he hasn't seen details, Moscow silent",
+      "url": "https://www.france24.com/en/video/20261012-trump-touts-surprise-energy-ceasefire-%E2%80%93-zelensky-says-he-hasn-t-seen-details-moscow-silent",
+      "published_at": "2026-10-12T09:19:32Z",
+      "source": "France 24",
       "tags": []
+    },
+    {
+      "id": "rss_89e223ddd2a2b4b0",
+      "headline": "Live: Moscow refuses to say if Trump’s touted ‘energy ceasefire’ between Ukraine, Russia is in place",
+      "url": "https://www.france24.com/en/europe/20261012-live-oil-prices-fall-after-trump-unilaterally-announces-russia-ukraine-energy-ceasefire",
+      "published_at": "2026-10-12T05:29:41Z",
+      "source": "France 24",
+      "tags": [
+        "UKRAINE"
+      ]
     },
     {
       "id": "rss_ca0d8ef996b3ac3e",
@@ -145,57 +220,17 @@
       "url": "https://www.france24.com/en/europe/20261012-nato-top-commander-warn-russia-alliance-counter-attack",
       "published_at": "2026-10-12T01:41:18Z",
       "source": "France 24",
-      "tags": [
-        "RUSSIA"
-      ]
+      "tags": []
     },
     {
-      "id": "rss_e8a51f1c7b059880",
-      "headline": "Airstrikes kill dozens of gold miners on Egypt-Sudan border, rights group says",
+      "id": "rss_a754b977619b388c",
+      "headline": "Scores of gold miners killed in air strikes on Egypt-Sudan border, rights group says",
       "url": "https://www.france24.com/en/africa/20261012-egypt-sudan-border-airstrikes-gold-miners-killed",
       "published_at": "2026-10-12T01:28:27Z",
       "source": "France 24",
       "tags": [
         "SUDAN",
         "EGYPT"
-      ]
-    },
-    {
-      "id": "rss_0208bbb02dd81b54",
-      "headline": "UK PM Burnham warns French voters of Russian political influence on back of Brexit vote",
-      "url": "https://www.france24.com/en/europe/20261011-uk-pm-burnham-warns-french-voters-of-russian-political-influence-on-back-of-brexit-vote",
-      "published_at": "2026-10-11T19:42:09Z",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_ce2988ec5778a739",
-      "headline": "Trump's energy ceasefire announcement was 'news for me' (Zelensky)",
-      "url": "https://www.france24.com/en/video/20261011-trump-s-energy-ceasefire-announcement-was-news-for-me-zelensky",
-      "published_at": "2026-10-11T16:04:20Z",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_f334ef7e07c348d9",
-      "headline": "🔴 Trump says Russia and Ukraine agree to 'energy ceasefire'",
-      "url": "https://www.france24.com/en/americas/20261011-trump-says-russia-and-ukraine-agree-energy-ceasefire",
-      "published_at": "2026-10-11T14:41:09Z",
-      "source": "France 24",
-      "tags": [
-        "RUSSIA",
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_6c60a89ef41890c0",
-      "headline": "New Russian strikes follow Trump's announcement of Russia-Ukraine energy ceasefire",
-      "url": "https://www.france24.com/en/europe/20261011-trump-says-russia-and-ukraine-agree-energy-ceasefire",
-      "published_at": "2026-10-11T14:39:26Z",
-      "source": "France 24",
-      "tags": [
-        "RUSSIA",
-        "UKRAINE"
       ]
     }
   ]
