@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-11T22:51:26Z",
+    "generated_at_utc": "2026-10-12T02:22:09Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,14 +14,13 @@
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
+        "status": "ok",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 13,
+        "fetched": 15,
         "feeds": [
           {
             "outlet": "BBC News",
@@ -39,13 +38,13 @@
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 5
+            "kept": 7
           }
         ]
       }
     ],
-    "fetched_articles": 13,
-    "previous_event_count": 12,
+    "fetched_articles": 15,
+    "previous_event_count": 13,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -93,6 +92,16 @@
       "tags": []
     },
     {
+      "id": "rss_89ea4e3bc4ef0b28",
+      "headline": "Iran war live: Riyadh airport hit again; Tehran says US reply ‘inadequate’",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/12/iran-war-live-riyadh-airport-hit-again-tehran-says-us-reply-inadequate?traffic_source=rss",
+      "published_at": "2026-10-12T00:00:00Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
       "id": "rss_7d05e35a42064e9c",
       "headline": "Deadly air strike kills dozens at Sudan gold mine near Egypt border",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/deadly-air-strike-kills-dozens-at-sudan-gold-mine-near-egypt-border?traffic_source=rss",
@@ -120,13 +129,35 @@
       "tags": []
     },
     {
-      "id": "rss_41f5e81f6b5212bc",
-      "headline": "Is the Yemen war entering a new phase?",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/is-the-yemen-war-entering-a-new-phase?traffic_source=rss",
-      "published_at": "2026-10-11T17:30:55Z",
-      "source": "Al Jazeera",
+      "id": "rss_ca0d8ef996b3ac3e",
+      "headline": "North Korea fires multiple ballistic missiles off east coast, Seoul says",
+      "url": "https://www.france24.com/en/asia-pacific/20261012-north-korea-ballistic-missiles-sea-japan-seoul",
+      "published_at": "2026-10-12T01:54:19Z",
+      "source": "France 24",
       "tags": [
-        "YEMEN"
+        "NORTH_KOREA",
+        "JAPAN"
+      ]
+    },
+    {
+      "id": "rss_2d9ebb4229540dfb",
+      "headline": "NATO top commander to warn Russia over alliance’s ability to counter-attack",
+      "url": "https://www.france24.com/en/europe/20261012-nato-top-commander-warn-russia-alliance-counter-attack",
+      "published_at": "2026-10-12T01:41:18Z",
+      "source": "France 24",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "rss_e8a51f1c7b059880",
+      "headline": "Airstrikes kill dozens of gold miners on Egypt-Sudan border, rights group says",
+      "url": "https://www.france24.com/en/africa/20261012-egypt-sudan-border-airstrikes-gold-miners-killed",
+      "published_at": "2026-10-12T01:28:27Z",
+      "source": "France 24",
+      "tags": [
+        "SUDAN",
+        "EGYPT"
       ]
     },
     {
@@ -164,16 +195,6 @@
       "source": "France 24",
       "tags": [
         "RUSSIA",
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_dc144c611c571ae2",
-      "headline": "Trump says Ukraine needs new president who will agree to end war",
-      "url": "https://www.france24.com/en/video/20261011-trump-says-ukraine-needs-new-president-who-will-agree-to-end-war",
-      "published_at": "2026-10-11T10:28:56Z",
-      "source": "France 24",
-      "tags": [
         "UKRAINE"
       ]
     }
