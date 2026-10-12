@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-12T10:42:10Z",
+    "generated_at_utc": "2026-10-12T20:16:33Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,30 +9,31 @@
       {
         "name": "core",
         "status": "error",
-        "error": "rate_limited status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
         "fetched": 0
       },
       {
         "name": "tripwire",
-        "status": "ok",
+        "status": "error",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 18,
+        "fetched": 15,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 25,
-            "kept": 3
+            "items": 28,
+            "kept": 5
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 9
+            "kept": 4
           },
           {
             "outlet": "France 24",
@@ -43,8 +44,8 @@
         ]
       }
     ],
-    "fetched_articles": 18,
-    "previous_event_count": 15,
+    "fetched_articles": 15,
+    "previous_event_count": 18,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -58,14 +59,22 @@
   },
   "events": [
     {
-      "id": "rss_3bd7e0691af4fa3d",
-      "headline": "Zelensky backs Trump's 'energy ceasefire' but says Russia continues to hit power plants",
-      "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-11T21:36:40Z",
+      "id": "rss_51f21621b6049a3e",
+      "headline": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
+      "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-12T17:32:13Z",
       "source": "BBC News",
       "tags": [
         "RUSSIA"
       ]
+    },
+    {
+      "id": "rss_9046c135a117db3d",
+      "headline": "Why Moscow is staying tight-lipped on Trump's energy ceasefire",
+      "url": "https://www.bbc.co.uk/news/articles/cjx2359qekrdo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-12T20:17:37Z",
+      "source": "BBC News",
+      "tags": []
     },
     {
       "id": "rss_0fb98966eb4aba99",
@@ -76,161 +85,119 @@
       "tags": []
     },
     {
-      "id": "rss_bce3c2f11a88b3de",
-      "headline": "Watch: What's behind Trump's energy ceasefire claim?",
-      "url": "https://www.bbc.co.uk/news/videos/cwvgde9vrdd9o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-11T20:55:02Z",
+      "id": "rss_ab42ae4d6d0d15c1",
+      "headline": "Watch: What could Trump's energy ceasefire mean for Ukraine?",
+      "url": "https://www.bbc.co.uk/news/videos/crd9321ygqw8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-12T15:51:30Z",
       "source": "BBC News",
-      "tags": []
-    },
-    {
-      "id": "rss_d259da3935f3f389",
-      "headline": "Ukraine’s Zelenskyy accuses Russia of violating Trump’s ‘energy ceasefire’",
-      "url": "https://www.aljazeera.com/news/2026/10/12/ukraines-zelenskyy-accuses-russia-of-violating-trumps-energy-ceasefire?traffic_source=rss",
-      "published_at": "2026-10-12T10:35:51Z",
-      "source": "Al Jazeera",
       "tags": [
-        "RUSSIA",
         "UKRAINE"
       ]
     },
     {
-      "id": "rss_7fb124237741443f",
-      "headline": "Russia introduces drone classes in public schools",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/russia-introduces-drone-classes-in-public-schools?traffic_source=rss",
-      "published_at": "2026-10-12T08:47:43Z",
+      "id": "rss_8c63c7cc40192039",
+      "headline": "Watch: CCTV shows people take cover as missile hits Riyadh airport",
+      "url": "https://www.bbc.co.uk/news/videos/cj4g17wz7gv0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-12T09:38:03Z",
+      "source": "BBC News",
+      "tags": []
+    },
+    {
+      "id": "rss_8c238395df78b20a",
+      "headline": "UK blames Iran for airbase plot, sanctions two Iranian nationals",
+      "url": "https://www.aljazeera.com/news/2026/10/12/uk-blames-iran-for-airbase-plot-sanctions-two-iranian-nationals?traffic_source=rss",
+      "published_at": "2026-10-12T18:51:18Z",
       "source": "Al Jazeera",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "rss_5bd41c0ec8ce979c",
+      "headline": "‘Totally unfair’: Navi Pillay slams US sanctions against ICC",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/totally-unfair-navi-pillay-slams-us-sanctions-against-icc?traffic_source=rss",
+      "published_at": "2026-10-12T17:07:50Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_0b086e4d8ae6e794",
+      "headline": "Photos: Protests over voter lists escalate in India’s capital",
+      "url": "https://www.aljazeera.com/gallery/2026/10/12/photos-protests-over-voter-lists-escalate-in-indias-capital?traffic_source=rss",
+      "published_at": "2026-10-12T16:24:40Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
+      "id": "rss_279ff109fdf9f24c",
+      "headline": "Deadly gold mine air strikes highlight Egypt-Sudan border insecurity",
+      "url": "https://www.aljazeera.com/news/2026/10/12/deadly-gold-mine-air-strikes-highlight-egypt-sudan-border-insecurity?traffic_source=rss",
+      "published_at": "2026-10-12T15:30:08Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "SUDAN",
+        "EGYPT"
+      ]
+    },
+    {
+      "id": "rss_c41c2a82018c33f8",
+      "headline": "How exposed is Saudi Arabia? Yemen's Houthis scale up drone and missile attacks",
+      "url": "https://www.france24.com/en/tv-shows/the-debate/20261012-how-exposed-is-saudi-arabia-yemen-s-houthis-scale-up-drone-and-missile-attacks",
+      "published_at": "2026-10-12T18:33:12Z",
+      "source": "France 24",
+      "tags": [
+        "YEMEN",
+        "SAUDI_ARABIA"
+      ]
+    },
+    {
+      "id": "rss_5ef23789e965f8a3",
+      "headline": "SARAB pay homage to war victims in Syria, Gaza on new album",
+      "url": "https://www.france24.com/en/tv-shows/arts24/20261012-sarab-pay-homage-to-war-victims-in-syria-gaza-on-new-album",
+      "published_at": "2026-10-12T14:24:22Z",
+      "source": "France 24",
+      "tags": [
+        "SYRIA"
+      ]
+    },
+    {
+      "id": "rss_e35c152d61bfea97",
+      "headline": "EU warns online platforms over livestreaming US execution planned by Pentagon",
+      "url": "https://www.france24.com/en/europe/20261012-eu-warns-online-platforms-over-livestreaming-us-execution-planned-by-pentagon",
+      "published_at": "2026-10-12T14:05:28Z",
+      "source": "France 24",
+      "tags": []
+    },
+    {
+      "id": "rss_b5018b59c0aeb1f5",
+      "headline": "NATO's top US commander warns Russia that any 'foolish' attack on allies would be 'futile'",
+      "url": "https://www.france24.com/en/europe/20261012-nato-s-top-us-commander-warns-russia-that-any-foolish-attack-on-allies-would-be-futile",
+      "published_at": "2026-10-12T12:41:41Z",
+      "source": "France 24",
       "tags": [
         "RUSSIA"
       ]
     },
     {
-      "id": "rss_168a5b2a4f87ce2e",
-      "headline": "Countries warn against travel to Saudi Arabia following Houthi attacks",
-      "url": "https://www.aljazeera.com/economy/2026/10/12/countries-warn-against-travel-to-saudi-arabia-following-houthi-attacks?traffic_source=rss",
-      "published_at": "2026-10-12T05:53:45Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "SAUDI_ARABIA"
-      ]
-    },
-    {
-      "id": "rss_d3dd0169ec4f667f",
-      "headline": "Clashes reported in Yemen as Houthis advance towards Taiz",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/clashes-reported-in-yemen-as-houthis-advance-towards-taiz?traffic_source=rss",
-      "published_at": "2026-10-12T05:27:22Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "YEMEN"
-      ]
-    },
-    {
-      "id": "rss_680173404aaf64fc",
-      "headline": "China sanctions Paraguay, Belize ministers over Taiwan ties",
-      "url": "https://www.aljazeera.com/news/2026/10/12/china-sanctions-paraguay-belize-ministers-over-taiwan-ties?traffic_source=rss",
-      "published_at": "2026-10-12T04:58:01Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "CHINA",
-        "TAIWAN"
-      ]
-    },
-    {
-      "id": "rss_6bb19e7808b20844",
-      "headline": "Netanyahu demands probe into sources for award-winning Gaza film NAZA",
-      "url": "https://www.aljazeera.com/news/2026/10/12/netanyahu-demands-probe-into-sources-for-award-winning-gaza-film-naza?traffic_source=rss",
-      "published_at": "2026-10-12T04:24:18Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_445ee1412e01e66c",
-      "headline": "Ethiopian troops enter Adigrat in Tigray, near the Eritrean border",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/11-10-reported-ethiopia-hamza-mohammad-report-abiy-ahmed-ep?traffic_source=rss",
-      "published_at": "2026-10-12T04:00:56Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "ETHIOPIA"
-      ]
-    },
-    {
-      "id": "rss_4ab9df0f48bc8979",
-      "headline": "North Korea fires multiple ballistic missiles towards the sea",
-      "url": "https://www.aljazeera.com/news/2026/10/12/north-korea-fires-multiple-ballistic-missiles-towards-the-sea?traffic_source=rss",
-      "published_at": "2026-10-12T03:37:12Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "NORTH_KOREA"
-      ]
-    },
-    {
-      "id": "rss_09f673ea34ba1afa",
-      "headline": "Iran urges Saudi Arabia to pursue diplomacy after Houthis escalate attacks",
-      "url": "https://www.aljazeera.com/news/2026/10/12/irans-fm-urges-diplomacy-in-call-with-saudi-counterpart?traffic_source=rss",
-      "published_at": "2026-10-12T00:39:08Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "IRAN",
-        "SAUDI_ARABIA"
-      ]
-    },
-    {
-      "id": "rss_e4d3fcf2e5aaecae",
-      "headline": "Zelensky says surprised to hear about Trump's 'energy ceasefire' between Ukraine and Russia",
-      "url": "https://www.france24.com/en/zelensky-says-surprised-to-hear-about-trump-s-energy-ceasefire-between-ukraine-and-russia",
-      "published_at": "2026-10-12T10:19:32Z",
+      "id": "rss_0b5beb644eab85f0",
+      "headline": "REPLAY: NATO's top military commander warns Russia over alleged sabotage",
+      "url": "https://www.france24.com/en/replay-nato-s-top-military-commander-warns-russia-over-alleged-sabotage",
+      "published_at": "2026-10-12T12:26:20Z",
       "source": "France 24",
       "tags": [
-        "RUSSIA",
-        "UKRAINE"
+        "RUSSIA"
       ]
     },
     {
-      "id": "rss_912e8cc74e8d3c05",
-      "headline": "Trump touts surprise 'energy ceasefire' – Zelensky says he hasn't seen details, Moscow silent",
-      "url": "https://www.france24.com/en/video/20261012-trump-touts-surprise-energy-ceasefire-%E2%80%93-zelensky-says-he-hasn-t-seen-details-moscow-silent",
-      "published_at": "2026-10-12T09:19:32Z",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_89e223ddd2a2b4b0",
-      "headline": "Live: Moscow refuses to say if Trump’s touted ‘energy ceasefire’ between Ukraine, Russia is in place",
-      "url": "https://www.france24.com/en/europe/20261012-live-oil-prices-fall-after-trump-unilaterally-announces-russia-ukraine-energy-ceasefire",
-      "published_at": "2026-10-12T05:29:41Z",
+      "id": "rss_4693dc7a16dcc566",
+      "headline": "Ukraine: Zelensky says learned of Trump's 'energy ceasefire' through media",
+      "url": "https://www.france24.com/en/ukraine-zelensky-says-learned-of-trump-s-energy-ceasefire-through-media",
+      "published_at": "2026-10-12T12:24:12Z",
       "source": "France 24",
       "tags": [
         "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_ca0d8ef996b3ac3e",
-      "headline": "North Korea fires multiple ballistic missiles off east coast, Seoul says",
-      "url": "https://www.france24.com/en/asia-pacific/20261012-north-korea-ballistic-missiles-sea-japan-seoul",
-      "published_at": "2026-10-12T01:54:19Z",
-      "source": "France 24",
-      "tags": [
-        "NORTH_KOREA",
-        "JAPAN"
-      ]
-    },
-    {
-      "id": "rss_2d9ebb4229540dfb",
-      "headline": "NATO top commander to warn Russia over alliance’s ability to counter-attack",
-      "url": "https://www.france24.com/en/europe/20261012-nato-top-commander-warn-russia-alliance-counter-attack",
-      "published_at": "2026-10-12T01:41:18Z",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_a754b977619b388c",
-      "headline": "Scores of gold miners killed in air strikes on Egypt-Sudan border, rights group says",
-      "url": "https://www.france24.com/en/africa/20261012-egypt-sudan-border-airstrikes-gold-miners-killed",
-      "published_at": "2026-10-12T01:28:27Z",
-      "source": "France 24",
-      "tags": [
-        "SUDAN",
-        "EGYPT"
       ]
     }
   ]
