@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-12T20:16:33Z",
+    "generated_at_utc": "2026-10-13T02:01:35Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,43 +9,42 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
+        "status": "ok",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 15,
+        "fetched": 14,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 28,
+            "items": 30,
             "kept": 5
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 4
+            "kept": 5
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 6
+            "kept": 4
           }
         ]
       }
     ],
-    "fetched_articles": 15,
-    "previous_event_count": 18,
+    "fetched_articles": 14,
+    "previous_event_count": 15,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -62,7 +61,7 @@
       "id": "rss_51f21621b6049a3e",
       "headline": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
       "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-12T17:32:13Z",
+      "published_at": "2026-10-12T21:20:51Z",
       "source": "BBC News",
       "tags": [
         "RUSSIA"
@@ -103,6 +102,44 @@
       "tags": []
     },
     {
+      "id": "rss_3729fdfa11cd51de",
+      "headline": "Iran war live: Trump says Houthis ‘misbehaving’ as Riyadh flights halted",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/13/iran-war-live-trump-says-houthis-misbehaving-as-riyadh-flights-halted?traffic_source=rss",
+      "published_at": "2026-10-13T00:00:00Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "rss_6545eb7980700f8f",
+      "headline": "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
+      "url": "https://www.aljazeera.com/news/2026/10/12/houthi-missile-attack-targets-saudi-capital-riyadh-for-third-day-in-a-row?traffic_source=rss",
+      "published_at": "2026-10-12T23:54:05Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "SAUDI_ARABIA"
+      ]
+    },
+    {
+      "id": "rss_562f2077d94eef1e",
+      "headline": "Conflict, drought increasing risk of famine in Sudan: Monitor",
+      "url": "https://www.aljazeera.com/news/2026/10/12/conflict-drought-increasing-risk-of-famine-in-sudan-monitor?traffic_source=rss",
+      "published_at": "2026-10-12T21:27:42Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "SUDAN"
+      ]
+    },
+    {
+      "id": "rss_ccfb78793719bf80",
+      "headline": "Abdi-Wali makes history as first Somali-born refugee in UK Parliament",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/abdi-wali-makes-history-as-first-somali-born-refugee-in-uk-parliament?traffic_source=rss",
+      "published_at": "2026-10-12T21:08:08Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
       "id": "rss_8c238395df78b20a",
       "headline": "UK blames Iran for airbase plot, sanctions two Iranian nationals",
       "url": "https://www.aljazeera.com/news/2026/10/12/uk-blames-iran-for-airbase-plot-sanctions-two-iranian-nationals?traffic_source=rss",
@@ -113,32 +150,33 @@
       ]
     },
     {
-      "id": "rss_5bd41c0ec8ce979c",
-      "headline": "‘Totally unfair’: Navi Pillay slams US sanctions against ICC",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/totally-unfair-navi-pillay-slams-us-sanctions-against-icc?traffic_source=rss",
-      "published_at": "2026-10-12T17:07:50Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_0b086e4d8ae6e794",
-      "headline": "Photos: Protests over voter lists escalate in India’s capital",
-      "url": "https://www.aljazeera.com/gallery/2026/10/12/photos-protests-over-voter-lists-escalate-in-indias-capital?traffic_source=rss",
-      "published_at": "2026-10-12T16:24:40Z",
-      "source": "Al Jazeera",
+      "id": "rss_940ba163f396f5be",
+      "headline": "Houthi official warns of 'swift, painful response' if US enters Yemen war",
+      "url": "https://www.france24.com/en/houthi-official-warns-of-swift-painful-response-if-us-enters-yemen-war",
+      "published_at": "2026-10-12T19:42:01Z",
+      "source": "France 24",
       "tags": [
-        "INDIA"
+        "YEMEN"
       ]
     },
     {
-      "id": "rss_279ff109fdf9f24c",
-      "headline": "Deadly gold mine air strikes highlight Egypt-Sudan border insecurity",
-      "url": "https://www.aljazeera.com/news/2026/10/12/deadly-gold-mine-air-strikes-highlight-egypt-sudan-border-insecurity?traffic_source=rss",
-      "published_at": "2026-10-12T15:30:08Z",
-      "source": "Al Jazeera",
+      "id": "rss_79e6838821b8a659",
+      "headline": "'Increasingly evident' Russia won't accept 'energy ceasefire': Zelensky",
+      "url": "https://www.france24.com/en/increasingly-evident-russia-won-t-accept-energy-ceasefire-zelensky",
+      "published_at": "2026-10-12T19:40:05Z",
+      "source": "France 24",
       "tags": [
-        "SUDAN",
-        "EGYPT"
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "rss_2883c5f5a6a4d2d9",
+      "headline": "Houthis 'are thriving and surviving by creating war', Yemen ambassador says",
+      "url": "https://www.france24.com/en/houthis-are-thriving-and-surviving-by-creating-war-yemen-ambassador-says",
+      "published_at": "2026-10-12T19:08:05Z",
+      "source": "France 24",
+      "tags": [
+        "YEMEN"
       ]
     },
     {
@@ -150,54 +188,6 @@
       "tags": [
         "YEMEN",
         "SAUDI_ARABIA"
-      ]
-    },
-    {
-      "id": "rss_5ef23789e965f8a3",
-      "headline": "SARAB pay homage to war victims in Syria, Gaza on new album",
-      "url": "https://www.france24.com/en/tv-shows/arts24/20261012-sarab-pay-homage-to-war-victims-in-syria-gaza-on-new-album",
-      "published_at": "2026-10-12T14:24:22Z",
-      "source": "France 24",
-      "tags": [
-        "SYRIA"
-      ]
-    },
-    {
-      "id": "rss_e35c152d61bfea97",
-      "headline": "EU warns online platforms over livestreaming US execution planned by Pentagon",
-      "url": "https://www.france24.com/en/europe/20261012-eu-warns-online-platforms-over-livestreaming-us-execution-planned-by-pentagon",
-      "published_at": "2026-10-12T14:05:28Z",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_b5018b59c0aeb1f5",
-      "headline": "NATO's top US commander warns Russia that any 'foolish' attack on allies would be 'futile'",
-      "url": "https://www.france24.com/en/europe/20261012-nato-s-top-us-commander-warns-russia-that-any-foolish-attack-on-allies-would-be-futile",
-      "published_at": "2026-10-12T12:41:41Z",
-      "source": "France 24",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "rss_0b5beb644eab85f0",
-      "headline": "REPLAY: NATO's top military commander warns Russia over alleged sabotage",
-      "url": "https://www.france24.com/en/replay-nato-s-top-military-commander-warns-russia-over-alleged-sabotage",
-      "published_at": "2026-10-12T12:26:20Z",
-      "source": "France 24",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "rss_4693dc7a16dcc566",
-      "headline": "Ukraine: Zelensky says learned of Trump's 'energy ceasefire' through media",
-      "url": "https://www.france24.com/en/ukraine-zelensky-says-learned-of-trump-s-energy-ceasefire-through-media",
-      "published_at": "2026-10-12T12:24:12Z",
-      "source": "France 24",
-      "tags": [
-        "UKRAINE"
       ]
     }
   ]
