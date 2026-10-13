@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-13T02:01:35Z",
+    "generated_at_utc": "2026-10-13T09:22:22Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "rate_limited status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
         "fetched": 0
       },
       {
@@ -20,31 +20,31 @@
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 14,
+        "fetched": 20,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 30,
-            "kept": 5
+            "items": 39,
+            "kept": 6
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 5
+            "kept": 9
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 4
+            "kept": 5
           }
         ]
       }
     ],
-    "fetched_articles": 14,
-    "previous_event_count": 15,
+    "fetched_articles": 20,
+    "previous_event_count": 14,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -57,6 +57,24 @@
     }
   },
   "events": [
+    {
+      "id": "rss_c08a20b495f2eb38",
+      "headline": "Russia's offensive ability is broken, Kyiv's former top general tells BBC",
+      "url": "https://www.bbc.co.uk/news/articles/c9y7lgg2vdggo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T05:02:34Z",
+      "source": "BBC News",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "rss_ec1c01c1a77f10b5",
+      "headline": "Ship sinks in new drone attack off Bulgaria, PM summons Russian ambassador",
+      "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T08:52:48Z",
+      "source": "BBC News",
+      "tags": []
+    },
     {
       "id": "rss_51f21621b6049a3e",
       "headline": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
@@ -72,14 +90,6 @@
       "headline": "Why Moscow is staying tight-lipped on Trump's energy ceasefire",
       "url": "https://www.bbc.co.uk/news/articles/cjx2359qekrdo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-12T20:17:37Z",
-      "source": "BBC News",
-      "tags": []
-    },
-    {
-      "id": "rss_0fb98966eb4aba99",
-      "headline": "Riyadh airport attacks another dangerous moment in already tense conflict",
-      "url": "https://www.bbc.co.uk/news/articles/cr4g1pwxxlq1o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-11T15:32:32Z",
       "source": "BBC News",
       "tags": []
     },
@@ -102,52 +112,102 @@
       "tags": []
     },
     {
-      "id": "rss_3729fdfa11cd51de",
-      "headline": "Iran war live: Trump says Houthis ‘misbehaving’ as Riyadh flights halted",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/13/iran-war-live-trump-says-houthis-misbehaving-as-riyadh-flights-halted?traffic_source=rss",
-      "published_at": "2026-10-13T00:00:00Z",
+      "id": "rss_65e1fbf327360e96",
+      "headline": "The escalation in Yemen is a turning point",
+      "url": "https://www.aljazeera.com/opinions/2026/10/13/the-escalation-in-yemen-is-a-turning-point?traffic_source=rss",
+      "published_at": "2026-10-13T08:42:55Z",
       "source": "Al Jazeera",
       "tags": [
-        "IRAN"
+        "YEMEN"
       ]
     },
     {
-      "id": "rss_6545eb7980700f8f",
-      "headline": "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
-      "url": "https://www.aljazeera.com/news/2026/10/12/houthi-missile-attack-targets-saudi-capital-riyadh-for-third-day-in-a-row?traffic_source=rss",
-      "published_at": "2026-10-12T23:54:05Z",
+      "id": "rss_f5badcffc45d80ec",
+      "headline": "Palestine weekly: Gaza marks year of ‘ceasefire’ with more Israeli killing",
+      "url": "https://www.aljazeera.com/news/2026/10/13/palestine-weekly-gaza-marks-year-of-ceasefire-with-more-israeli-killing?traffic_source=rss",
+      "published_at": "2026-10-13T07:45:07Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "PALESTINE"
+      ]
+    },
+    {
+      "id": "rss_830e0f2274a3aff6",
+      "headline": "Drone attack sinks ship off Bulgaria’s Black Sea coast, PM says",
+      "url": "https://www.aljazeera.com/news/2026/10/13/drone-attack-sinks-ship-off-bulgarias-black-sea-coast-pm-says?traffic_source=rss",
+      "published_at": "2026-10-13T07:36:38Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_08141e8900cf0790",
+      "headline": "Middle East and Central Asia’s economy to shrink in 2026 amid war, IMF says",
+      "url": "https://www.aljazeera.com/economy/2026/10/13/middle-east-and-central-asias-economy-to-shrink-in-2026-amid-war-imf-says?traffic_source=rss",
+      "published_at": "2026-10-13T05:59:48Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_a5122fa435fb8b4e",
+      "headline": "Ronaldo waves Saudi-flag scarf after match interrupted by missile alert",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/12-10-clip-ronaldowears-saudi-shawl-ksa?traffic_source=rss",
+      "published_at": "2026-10-13T04:09:52Z",
       "source": "Al Jazeera",
       "tags": [
         "SAUDI_ARABIA"
       ]
     },
     {
-      "id": "rss_562f2077d94eef1e",
-      "headline": "Conflict, drought increasing risk of famine in Sudan: Monitor",
-      "url": "https://www.aljazeera.com/news/2026/10/12/conflict-drought-increasing-risk-of-famine-in-sudan-monitor?traffic_source=rss",
-      "published_at": "2026-10-12T21:27:42Z",
+      "id": "rss_1005c7ff9a25332e",
+      "headline": "Trump insists energy ceasefire holds as Ukraine reports new Russian strikes",
+      "url": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes?traffic_source=rss",
+      "published_at": "2026-10-13T03:30:23Z",
       "source": "Al Jazeera",
       "tags": [
-        "SUDAN"
+        "UKRAINE"
       ]
     },
     {
-      "id": "rss_ccfb78793719bf80",
-      "headline": "Abdi-Wali makes history as first Somali-born refugee in UK Parliament",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/abdi-wali-makes-history-as-first-somali-born-refugee-in-uk-parliament?traffic_source=rss",
-      "published_at": "2026-10-12T21:08:08Z",
+      "id": "rss_4163864e5c6f1e5b",
+      "headline": "Russia and Ukraine trade strikes amid doubt over ‘energy ceasefire’",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/russia-and-ukraine-trade-strikes-amid-doubt-over-energy?traffic_source=rss",
+      "published_at": "2026-10-13T03:11:19Z",
       "source": "Al Jazeera",
+      "tags": [
+        "RUSSIA",
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "rss_4c204366ee607a15",
+      "headline": "Ethiopia’s Tigray war: Where do the UAE and Saudi Arabia stand?",
+      "url": "https://www.aljazeera.com/news/2026/10/13/ethiopias-tigray-war-where-do-the-uae-and-saudi-arabia-stand?traffic_source=rss",
+      "published_at": "2026-10-13T01:46:25Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "UAE",
+        "ETHIOPIA",
+        "SAUDI_ARABIA"
+      ]
+    },
+    {
+      "id": "rss_779de9119aba79c7",
+      "headline": "Iran war live: Qatar urges stronger efforts to secure Gulf maritime routes",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/13/iran-war-live-trump-says-houthis-misbehaving-as-riyadh-flights-halted?traffic_source=rss",
+      "published_at": "2026-10-13T00:00:00Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN",
+        "QATAR"
+      ]
+    },
+    {
+      "id": "rss_78c1512353f094d1",
+      "headline": "IMF upgrades 2026 growth forecast but warns of 'split' outlook",
+      "url": "https://www.france24.com/en/live-news/20261013-imf-upgrades-2026-growth-forecast-but-warns-of-split-outlook-1",
+      "published_at": "2026-10-13T03:57:42Z",
+      "source": "France 24",
       "tags": []
-    },
-    {
-      "id": "rss_8c238395df78b20a",
-      "headline": "UK blames Iran for airbase plot, sanctions two Iranian nationals",
-      "url": "https://www.aljazeera.com/news/2026/10/12/uk-blames-iran-for-airbase-plot-sanctions-two-iranian-nationals?traffic_source=rss",
-      "published_at": "2026-10-12T18:51:18Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "IRAN"
-      ]
     },
     {
       "id": "rss_940ba163f396f5be",
