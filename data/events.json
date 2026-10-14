@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-14T13:40:16Z",
+    "generated_at_utc": "2026-10-14T18:34:57Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,26 +14,25 @@
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
+        "status": "ok",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 13,
+        "fetched": 10,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 27,
-            "kept": 3
+            "items": 26,
+            "kept": 2
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 5
+            "kept": 3
           },
           {
             "outlet": "France 24",
@@ -44,8 +43,8 @@
         ]
       }
     ],
-    "fetched_articles": 13,
-    "previous_event_count": 10,
+    "fetched_articles": 10,
+    "previous_event_count": 13,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -59,22 +58,13 @@
   },
   "events": [
     {
-      "id": "rss_57c32b87a3870b00",
-      "headline": "Zimbabwean author denies using AI to write award-winning story",
-      "url": "https://www.bbc.co.uk/news/articles/cm4g1rekpgnjo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T23:31:10Z",
-      "source": "BBC News",
-      "tags": []
-    },
-    {
-      "id": "rss_381ce638813f7f95",
-      "headline": "Houthi missile hits Aramco building after Saudi-led coalition strike on Yemen fuel depot",
-      "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-14T12:26:13Z",
+      "id": "rss_0f91a02ba708cfee",
+      "headline": "Starlink restrictions in Ukraine war linked to political situation, Zelensky aide says",
+      "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-14T13:11:17Z",
       "source": "BBC News",
       "tags": [
-        "YEMEN",
-        "SAUDI_ARABIA"
+        "UKRAINE"
       ]
     },
     {
@@ -88,48 +78,61 @@
       ]
     },
     {
-      "id": "rss_f47cd060a0852a57",
-      "headline": "How AI apps are offering free substitutes for Big Tech software",
-      "url": "https://www.aljazeera.com/news/2026/10/14/how-ai-apps-are-offering-free-substitutes-for-big-tech-software?traffic_source=rss",
-      "published_at": "2026-10-14T13:25:35Z",
+      "id": "rss_4befbe75249ec6f7",
+      "headline": "UN official warns of looming food crisis as Hormuz fertiliser plan stalls",
+      "url": "https://www.aljazeera.com/news/2026/10/14/un-official-warns-of-looming-food-crisis-as-hormuz-fertiliser-plan-stalls?traffic_source=rss",
+      "published_at": "2026-10-14T16:08:09Z",
       "source": "Al Jazeera",
       "tags": []
     },
     {
-      "id": "rss_6f828054e85b2d9c",
-      "headline": "Iran targets Starlink as ‘tool of war’ with hints of more internet curbs",
-      "url": "https://www.aljazeera.com/news/2026/10/14/iran-targets-starlink-as-tool-of-war-with-hints-at-internet-restrictions?traffic_source=rss",
-      "published_at": "2026-10-14T13:17:34Z",
+      "id": "rss_889fee5db4a7ca84",
+      "headline": "Renewed fighting risks ‘humanitarian catastrophe’ in Yemen, aid groups warn",
+      "url": "https://www.aljazeera.com/news/2026/10/14/renewed-fighting-risks-humanitarian-catastrophe-in-yemen-aid-groups-warn?traffic_source=rss",
+      "published_at": "2026-10-14T15:06:18Z",
       "source": "Al Jazeera",
       "tags": [
-        "IRAN"
+        "YEMEN"
       ]
     },
     {
-      "id": "rss_367a12d54ef1202e",
-      "headline": "Saudi-led coalition intercepts Houthi missile launched towards Riyadh",
-      "url": "https://www.aljazeera.com/news/2026/10/14/saudi-led-coalition-intercepts-houthi-missile-launched-towards-riyadh?traffic_source=rss",
-      "published_at": "2026-10-14T11:39:06Z",
+      "id": "rss_51e6e5883a1430ae",
+      "headline": "Law of the Sea comes to life in the hunt for sanctioned Russian oil",
+      "url": "https://www.aljazeera.com/news/2026/10/14/law-of-the-sea-comes-to-life-in-the-hunt-for-sanctioned-russian-oil?traffic_source=rss",
+      "published_at": "2026-10-14T14:38:09Z",
       "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_81175e60bf2a0eec",
+      "headline": "Houthis threaten escalation after strike on Saudi oil giant Aramco",
+      "url": "https://www.france24.com/en/middle-east/20261014-yemen-houthis-vow-continue-saudi-attacks-oil-giant-aramco-headquarters-hit",
+      "published_at": "2026-10-14T16:21:53Z",
+      "source": "France 24",
       "tags": [
+        "YEMEN",
         "SAUDI_ARABIA"
       ]
     },
     {
-      "id": "rss_66aae3e4ed449929",
-      "headline": "Israeli air strike kills Palestinian woman in Gaza City",
-      "url": "https://www.aljazeera.com/news/2026/10/14/israeli-air-strike-kills-palestinian-woman-in-gaza-city?traffic_source=rss",
-      "published_at": "2026-10-14T10:08:49Z",
-      "source": "Al Jazeera",
-      "tags": []
+      "id": "rss_6ddd9b78e54efd35",
+      "headline": "Ukraine accuses SpaceX of crippling military missions as ties with US worsen",
+      "url": "https://www.france24.com/en/video/20261014-ukraine-accuses-spacex-of-crippling-military-missions-as-ties-with-us-worsen",
+      "published_at": "2026-10-14T13:57:22Z",
+      "source": "France 24",
+      "tags": [
+        "UKRAINE"
+      ]
     },
     {
-      "id": "rss_04ec5379c285012d",
-      "headline": "How do Iranians move money abroad to avoid US sanctions?",
-      "url": "https://www.aljazeera.com/news/2026/10/14/how-do-iranians-move-money-abroad-to-avoid-us-sanctions?traffic_source=rss",
-      "published_at": "2026-10-14T08:24:02Z",
-      "source": "Al Jazeera",
-      "tags": []
+      "id": "rss_443921c4f34de305",
+      "headline": "Yemen conflict escalates as Houthis say seized new strategic area",
+      "url": "https://www.france24.com/en/video/20261014-escalating-conflict-in-yemen-as-houthis-say-seized-new-strategic-area",
+      "published_at": "2026-10-14T13:50:37Z",
+      "source": "France 24",
+      "tags": [
+        "YEMEN"
+      ]
     },
     {
       "id": "rss_a116a59be2a3b890",
@@ -142,42 +145,12 @@
       ]
     },
     {
-      "id": "rss_1c9a25e434f40753",
-      "headline": "Louvre boss warns of closure risk without major renovations",
-      "url": "https://www.france24.com/en/live-news/20261014-louvre-boss-warns-of-closure-risk-without-major-renovations",
+      "id": "rss_67af383a6c0d48b8",
+      "headline": "Louvre boss warns of closure risk unless museum is 'repaired, updated and transformed'",
+      "url": "https://www.france24.com/en/culture/20261014-louvre-boss-warns-of-closure-risk-unless-museum-is-repaired-updated-and-transformed",
       "published_at": "2026-10-14T12:21:41Z",
       "source": "France 24",
       "tags": []
-    },
-    {
-      "id": "rss_5684c0cb78abc012",
-      "headline": "Ukrainian ex-officer stands trial in Germany over Nord Stream bombing",
-      "url": "https://www.france24.com/en/video/20261014-ukrainian-ex-officer-stands-trial-in-germany-over-nord-stream-bombing",
-      "published_at": "2026-10-14T09:45:57Z",
-      "source": "France 24",
-      "tags": [
-        "GERMANY"
-      ]
-    },
-    {
-      "id": "rss_1b0dbca47448b920",
-      "headline": "Ukraine reports Russian attacks with no warnings, Trump says US still sharing intel",
-      "url": "https://www.france24.com/en/video/20261014-ukraine-reports-russian-attacks-with-no-warnings-trump-says-us-still-sharing-intel",
-      "published_at": "2026-10-14T09:41:54Z",
-      "source": "France 24",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_7fff5532e7f75c83",
-      "headline": "Ukraine says Starlink restricted operations overnight, disrupting military missions",
-      "url": "https://www.france24.com/en/europe/20261014-ukraine-says-starlink-restricted-operations-overnight-disrupting-military-missions",
-      "published_at": "2026-10-14T09:14:29Z",
-      "source": "France 24",
-      "tags": [
-        "UKRAINE"
-      ]
     }
   ]
 }
