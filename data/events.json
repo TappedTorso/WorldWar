@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-14T01:52:46Z",
+    "generated_at_utc": "2026-10-14T07:34:17Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,38 +14,37 @@
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
+        "status": "ok",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 8,
+        "fetched": 10,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 23,
+            "items": 24,
             "kept": 4
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 2
+            "kept": 5
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 2
+            "kept": 1
           }
         ]
       }
     ],
-    "fetched_articles": 8,
-    "previous_event_count": 7,
+    "fetched_articles": 10,
+    "previous_event_count": 8,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -73,7 +72,7 @@
       "id": "rss_73a0bb8bacd2624c",
       "headline": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
       "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T22:29:55Z",
+      "published_at": "2026-10-14T04:20:17Z",
       "source": "BBC News",
       "tags": [
         "YEMEN",
@@ -99,6 +98,32 @@
       ]
     },
     {
+      "id": "rss_aa00cb9859d3ede0",
+      "headline": "Ukrainian drones strike more than 100km into Russian territory",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/ukrainian-drones-strike-more-than-100km-into-russian-territory?traffic_source=rss",
+      "published_at": "2026-10-14T05:07:55Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_6e6e74ee2476cfbd",
+      "headline": "Houthi missiles intercepted over Saudi Arabia as battles intensify",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/houthi-missiles-intercepted-over-saudi-arabia-as-battles-intensify?traffic_source=rss",
+      "published_at": "2026-10-14T03:09:46Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "SAUDI_ARABIA"
+      ]
+    },
+    {
+      "id": "rss_507f8f0e0e93311f",
+      "headline": "Kyiv hit by Russian ballistic missiles for second day with no warning",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/kyiv-russian-ballistic-missile-strikes-no-advance-warning?traffic_source=rss",
+      "published_at": "2026-10-14T02:45:40Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
       "id": "rss_b4a49b9252e3e649",
       "headline": "US fines Bank of America $1.2bn for money laundering, sanctions violations",
       "url": "https://www.aljazeera.com/news/2026/10/14/us-fines-bank-of-america-1-2bn-for-money-laundering-sanctions-violations?traffic_source=rss",
@@ -122,14 +147,6 @@
       "headline": "Kyiv power plant hit by Russian missile without warning from allies",
       "url": "https://www.france24.com/en/europe/20261014-kyiv-power-plant-hit-by-russian-missile-without-warning-from-allies",
       "published_at": "2026-10-14T00:41:22Z",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_33b159e95d7f69f6",
-      "headline": "ISS amid global conflict: A rare bastion of 'scientific collaboration' between the East and West",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20261013-iss-amid-global-conflict-a-rare-bastion-of-scientific-collaboration-between-the-east-and-west",
-      "published_at": "2026-10-13T17:53:27Z",
       "source": "France 24",
       "tags": []
     }
