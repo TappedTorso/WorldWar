@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-14T18:34:57Z",
+    "generated_at_utc": "2026-10-14T22:16:57Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,24 +9,25 @@
       {
         "name": "core",
         "status": "error",
-        "error": "rate_limited status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
         "fetched": 0
       },
       {
         "name": "tripwire",
-        "status": "ok",
+        "status": "error",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 10,
+        "fetched": 9,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 26,
-            "kept": 2
+            "items": 28,
+            "kept": 1
           },
           {
             "outlet": "Al Jazeera",
@@ -43,8 +44,8 @@
         ]
       }
     ],
-    "fetched_articles": 10,
-    "previous_event_count": 13,
+    "fetched_articles": 9,
+    "previous_event_count": 10,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -58,16 +59,6 @@
   },
   "events": [
     {
-      "id": "rss_0f91a02ba708cfee",
-      "headline": "Starlink restrictions in Ukraine war linked to political situation, Zelensky aide says",
-      "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-14T13:11:17Z",
-      "source": "BBC News",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
       "id": "rss_a7b067e39cfdcb1d",
       "headline": "'I'd talk to the TV': The paid companions bringing warmth to China's lonely",
       "url": "https://www.bbc.co.uk/news/articles/cm5ynwpzkgk1o?at_medium=RSS&at_campaign=rss",
@@ -78,29 +69,49 @@
       ]
     },
     {
-      "id": "rss_4befbe75249ec6f7",
-      "headline": "UN official warns of looming food crisis as Hormuz fertiliser plan stalls",
-      "url": "https://www.aljazeera.com/news/2026/10/14/un-official-warns-of-looming-food-crisis-as-hormuz-fertiliser-plan-stalls?traffic_source=rss",
-      "published_at": "2026-10-14T16:08:09Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_889fee5db4a7ca84",
-      "headline": "Renewed fighting risks ‘humanitarian catastrophe’ in Yemen, aid groups warn",
-      "url": "https://www.aljazeera.com/news/2026/10/14/renewed-fighting-risks-humanitarian-catastrophe-in-yemen-aid-groups-warn?traffic_source=rss",
-      "published_at": "2026-10-14T15:06:18Z",
+      "id": "rss_d1bc2ff958da926e",
+      "headline": "Israeli quadcopter drone drops bomb in Lebanon",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/israeli-quadcopter-drone-drops-bomb-in-lebanon?traffic_source=rss",
+      "published_at": "2026-10-14T20:47:46Z",
       "source": "Al Jazeera",
       "tags": [
-        "YEMEN"
+        "LEBANON"
       ]
     },
     {
-      "id": "rss_51e6e5883a1430ae",
-      "headline": "Law of the Sea comes to life in the hunt for sanctioned Russian oil",
-      "url": "https://www.aljazeera.com/news/2026/10/14/law-of-the-sea-comes-to-life-in-the-hunt-for-sanctioned-russian-oil?traffic_source=rss",
-      "published_at": "2026-10-14T14:38:09Z",
+      "id": "rss_5dc82126c59900d7",
+      "headline": "How will a new alliance affect the conflict in eastern DRC?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/10/14/how-will-a-new-alliance-affect-the-conflict-in-eastern-drc?traffic_source=rss",
+      "published_at": "2026-10-14T19:54:16Z",
       "source": "Al Jazeera",
+      "tags": [
+        "DEMOCRATIC_REPUBLIC_OF_CONGO"
+      ]
+    },
+    {
+      "id": "rss_65c7127839df68da",
+      "headline": "US lifts sanctions on Venezuela’s top legislator",
+      "url": "https://www.aljazeera.com/news/2026/10/14/us-lifts-sanctions-on-venezuelas-top-legislator?traffic_source=rss",
+      "published_at": "2026-10-14T19:53:03Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "VENEZUELA"
+      ]
+    },
+    {
+      "id": "rss_99bcf1e6dc466cb2",
+      "headline": "What is Starshield, SpaceX's military version of Starlink?",
+      "url": "https://www.france24.com/en/europe/20261014-what-is-starshield-spacex-s-military-version-of-starlink",
+      "published_at": "2026-10-14T20:15:58Z",
+      "source": "France 24",
+      "tags": []
+    },
+    {
+      "id": "rss_86a168ab6567f720",
+      "headline": "Nord Stream may have been lawful target, argue lawyers for Ukrainian accused of bombing",
+      "url": "https://www.france24.com/en/nord-stream-may-have-been-lawful-target-argue-lawyers-for-ukrainian-accused-of-bombing",
+      "published_at": "2026-10-14T19:56:42Z",
+      "source": "France 24",
       "tags": []
     },
     {
@@ -133,24 +144,6 @@
       "tags": [
         "YEMEN"
       ]
-    },
-    {
-      "id": "rss_a116a59be2a3b890",
-      "headline": "Cheap weapons, growing fears: Inside the Taliban’s drone campaign against Pakistan",
-      "url": "https://www.france24.com/en/asia-pacific/20261014-taliban-suicide-drone-attacks-pakistan",
-      "published_at": "2026-10-14T12:52:44Z",
-      "source": "France 24",
-      "tags": [
-        "PAKISTAN"
-      ]
-    },
-    {
-      "id": "rss_67af383a6c0d48b8",
-      "headline": "Louvre boss warns of closure risk unless museum is 'repaired, updated and transformed'",
-      "url": "https://www.france24.com/en/culture/20261014-louvre-boss-warns-of-closure-risk-unless-museum-is-repaired-updated-and-transformed",
-      "published_at": "2026-10-14T12:21:41Z",
-      "source": "France 24",
-      "tags": []
     }
   ]
 }
