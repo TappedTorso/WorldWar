@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-13T22:41:22Z",
+    "generated_at_utc": "2026-10-14T01:52:46Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,37 +14,38 @@
       },
       {
         "name": "tripwire",
-        "status": "ok",
+        "status": "error",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 7,
+        "fetched": 8,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
             "items": 23,
-            "kept": 5
+            "kept": 4
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 1
+            "kept": 2
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 1
+            "kept": 2
           }
         ]
       }
     ],
-    "fetched_articles": 7,
-    "previous_event_count": 11,
+    "fetched_articles": 8,
+    "previous_event_count": 7,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -80,20 +81,10 @@
       ]
     },
     {
-      "id": "rss_c08a20b495f2eb38",
-      "headline": "Russia's offensive ability is broken, Kyiv's former top general tells BBC",
-      "url": "https://www.bbc.co.uk/news/articles/c9y7lgg2vdggo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T05:02:34Z",
-      "source": "BBC News",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "rss_4a69fc0f89ef959d",
-      "headline": "Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack",
-      "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T14:51:59Z",
+      "id": "rss_57c32b87a3870b00",
+      "headline": "Zimbabwean author denies using AI to write award-winning story",
+      "url": "https://www.bbc.co.uk/news/articles/cm4g1rekpgnjo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-13T23:31:10Z",
       "source": "BBC News",
       "tags": []
     },
@@ -108,15 +99,31 @@
       ]
     },
     {
-      "id": "rss_461e795a0471f62a",
-      "headline": "Trump says Putin and Zelenskyy both want to end Russia’s war on Ukraine",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/trump-says-putin-and-zelenskyy-both-want-to-end-russias-war-on-ukraine?traffic_source=rss",
-      "published_at": "2026-10-13T18:16:44Z",
+      "id": "rss_b4a49b9252e3e649",
+      "headline": "US fines Bank of America $1.2bn for money laundering, sanctions violations",
+      "url": "https://www.aljazeera.com/news/2026/10/14/us-fines-bank-of-america-1-2bn-for-money-laundering-sanctions-violations?traffic_source=rss",
+      "published_at": "2026-10-14T01:15:30Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_51ad19cd2f51a3d5",
+      "headline": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/14/iran-war-live-saudi-coalition-hits-houthi-sites-aramco-office-hit-in-east?traffic_source=rss",
+      "published_at": "2026-10-14T00:00:00Z",
       "source": "Al Jazeera",
       "tags": [
-        "RUSSIA",
-        "UKRAINE"
+        "IRAN",
+        "SAUDI_ARABIA"
       ]
+    },
+    {
+      "id": "rss_1e51fcaef6a1c6b7",
+      "headline": "Kyiv power plant hit by Russian missile without warning from allies",
+      "url": "https://www.france24.com/en/europe/20261014-kyiv-power-plant-hit-by-russian-missile-without-warning-from-allies",
+      "published_at": "2026-10-14T00:41:22Z",
+      "source": "France 24",
+      "tags": []
     },
     {
       "id": "rss_33b159e95d7f69f6",
