@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-14T07:34:17Z",
+    "generated_at_utc": "2026-10-14T13:40:16Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,24 +9,25 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "tripwire",
-        "status": "ok",
+        "status": "error",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 10,
+        "fetched": 13,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 24,
-            "kept": 4
+            "items": 27,
+            "kept": 3
           },
           {
             "outlet": "Al Jazeera",
@@ -38,13 +39,13 @@
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 1
+            "kept": 5
           }
         ]
       }
     ],
-    "fetched_articles": 10,
-    "previous_event_count": 8,
+    "fetched_articles": 13,
+    "previous_event_count": 10,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -58,34 +59,23 @@
   },
   "events": [
     {
-      "id": "rss_2edd31b0457e478e",
-      "headline": "MI5 chief warns of threats to UK from Russia, Iran and AI",
-      "url": "https://www.bbc.co.uk/news/articles/c60rl5vwpk02o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-13T15:52:15Z",
-      "source": "BBC News",
-      "tags": [
-        "IRAN",
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "rss_73a0bb8bacd2624c",
-      "headline": "Missiles intercepted near Riyadh after Saudi coalition hits Yemen fuel depot",
-      "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-14T04:20:17Z",
-      "source": "BBC News",
-      "tags": [
-        "YEMEN",
-        "SAUDI_ARABIA"
-      ]
-    },
-    {
       "id": "rss_57c32b87a3870b00",
       "headline": "Zimbabwean author denies using AI to write award-winning story",
       "url": "https://www.bbc.co.uk/news/articles/cm4g1rekpgnjo?at_medium=RSS&at_campaign=rss",
       "published_at": "2026-10-13T23:31:10Z",
       "source": "BBC News",
       "tags": []
+    },
+    {
+      "id": "rss_381ce638813f7f95",
+      "headline": "Houthi missile hits Aramco building after Saudi-led coalition strike on Yemen fuel depot",
+      "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-14T12:26:13Z",
+      "source": "BBC News",
+      "tags": [
+        "YEMEN",
+        "SAUDI_ARABIA"
+      ]
     },
     {
       "id": "rss_a7b067e39cfdcb1d",
@@ -98,57 +88,96 @@
       ]
     },
     {
-      "id": "rss_aa00cb9859d3ede0",
-      "headline": "Ukrainian drones strike more than 100km into Russian territory",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/ukrainian-drones-strike-more-than-100km-into-russian-territory?traffic_source=rss",
-      "published_at": "2026-10-14T05:07:55Z",
+      "id": "rss_f47cd060a0852a57",
+      "headline": "How AI apps are offering free substitutes for Big Tech software",
+      "url": "https://www.aljazeera.com/news/2026/10/14/how-ai-apps-are-offering-free-substitutes-for-big-tech-software?traffic_source=rss",
+      "published_at": "2026-10-14T13:25:35Z",
       "source": "Al Jazeera",
       "tags": []
     },
     {
-      "id": "rss_6e6e74ee2476cfbd",
-      "headline": "Houthi missiles intercepted over Saudi Arabia as battles intensify",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/houthi-missiles-intercepted-over-saudi-arabia-as-battles-intensify?traffic_source=rss",
-      "published_at": "2026-10-14T03:09:46Z",
+      "id": "rss_6f828054e85b2d9c",
+      "headline": "Iran targets Starlink as ‘tool of war’ with hints of more internet curbs",
+      "url": "https://www.aljazeera.com/news/2026/10/14/iran-targets-starlink-as-tool-of-war-with-hints-at-internet-restrictions?traffic_source=rss",
+      "published_at": "2026-10-14T13:17:34Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "rss_367a12d54ef1202e",
+      "headline": "Saudi-led coalition intercepts Houthi missile launched towards Riyadh",
+      "url": "https://www.aljazeera.com/news/2026/10/14/saudi-led-coalition-intercepts-houthi-missile-launched-towards-riyadh?traffic_source=rss",
+      "published_at": "2026-10-14T11:39:06Z",
       "source": "Al Jazeera",
       "tags": [
         "SAUDI_ARABIA"
       ]
     },
     {
-      "id": "rss_507f8f0e0e93311f",
-      "headline": "Kyiv hit by Russian ballistic missiles for second day with no warning",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/kyiv-russian-ballistic-missile-strikes-no-advance-warning?traffic_source=rss",
-      "published_at": "2026-10-14T02:45:40Z",
+      "id": "rss_66aae3e4ed449929",
+      "headline": "Israeli air strike kills Palestinian woman in Gaza City",
+      "url": "https://www.aljazeera.com/news/2026/10/14/israeli-air-strike-kills-palestinian-woman-in-gaza-city?traffic_source=rss",
+      "published_at": "2026-10-14T10:08:49Z",
       "source": "Al Jazeera",
       "tags": []
     },
     {
-      "id": "rss_b4a49b9252e3e649",
-      "headline": "US fines Bank of America $1.2bn for money laundering, sanctions violations",
-      "url": "https://www.aljazeera.com/news/2026/10/14/us-fines-bank-of-america-1-2bn-for-money-laundering-sanctions-violations?traffic_source=rss",
-      "published_at": "2026-10-14T01:15:30Z",
+      "id": "rss_04ec5379c285012d",
+      "headline": "How do Iranians move money abroad to avoid US sanctions?",
+      "url": "https://www.aljazeera.com/news/2026/10/14/how-do-iranians-move-money-abroad-to-avoid-us-sanctions?traffic_source=rss",
+      "published_at": "2026-10-14T08:24:02Z",
       "source": "Al Jazeera",
       "tags": []
     },
     {
-      "id": "rss_51ad19cd2f51a3d5",
-      "headline": "Iran war live: Saudi coalition hits Houthi sites; Aramco office hit in east",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/14/iran-war-live-saudi-coalition-hits-houthi-sites-aramco-office-hit-in-east?traffic_source=rss",
-      "published_at": "2026-10-14T00:00:00Z",
-      "source": "Al Jazeera",
+      "id": "rss_a116a59be2a3b890",
+      "headline": "Cheap weapons, growing fears: Inside the Taliban’s drone campaign against Pakistan",
+      "url": "https://www.france24.com/en/asia-pacific/20261014-taliban-suicide-drone-attacks-pakistan",
+      "published_at": "2026-10-14T12:52:44Z",
+      "source": "France 24",
       "tags": [
-        "IRAN",
-        "SAUDI_ARABIA"
+        "PAKISTAN"
       ]
     },
     {
-      "id": "rss_1e51fcaef6a1c6b7",
-      "headline": "Kyiv power plant hit by Russian missile without warning from allies",
-      "url": "https://www.france24.com/en/europe/20261014-kyiv-power-plant-hit-by-russian-missile-without-warning-from-allies",
-      "published_at": "2026-10-14T00:41:22Z",
+      "id": "rss_1c9a25e434f40753",
+      "headline": "Louvre boss warns of closure risk without major renovations",
+      "url": "https://www.france24.com/en/live-news/20261014-louvre-boss-warns-of-closure-risk-without-major-renovations",
+      "published_at": "2026-10-14T12:21:41Z",
       "source": "France 24",
       "tags": []
+    },
+    {
+      "id": "rss_5684c0cb78abc012",
+      "headline": "Ukrainian ex-officer stands trial in Germany over Nord Stream bombing",
+      "url": "https://www.france24.com/en/video/20261014-ukrainian-ex-officer-stands-trial-in-germany-over-nord-stream-bombing",
+      "published_at": "2026-10-14T09:45:57Z",
+      "source": "France 24",
+      "tags": [
+        "GERMANY"
+      ]
+    },
+    {
+      "id": "rss_1b0dbca47448b920",
+      "headline": "Ukraine reports Russian attacks with no warnings, Trump says US still sharing intel",
+      "url": "https://www.france24.com/en/video/20261014-ukraine-reports-russian-attacks-with-no-warnings-trump-says-us-still-sharing-intel",
+      "published_at": "2026-10-14T09:41:54Z",
+      "source": "France 24",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "rss_7fff5532e7f75c83",
+      "headline": "Ukraine says Starlink restricted operations overnight, disrupting military missions",
+      "url": "https://www.france24.com/en/europe/20261014-ukraine-says-starlink-restricted-operations-overnight-disrupting-military-missions",
+      "published_at": "2026-10-14T09:14:29Z",
+      "source": "France 24",
+      "tags": [
+        "UKRAINE"
+      ]
     }
   ]
 }
