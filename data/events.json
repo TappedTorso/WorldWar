@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-14T22:16:57Z",
+    "generated_at_utc": "2026-10-15T00:33:38Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,38 +14,37 @@
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
+        "status": "ok",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 9,
+        "fetched": 12,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
             "items": 28,
-            "kept": 1
+            "kept": 2
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 3
+            "kept": 4
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 5
+            "kept": 6
           }
         ]
       }
     ],
-    "fetched_articles": 9,
-    "previous_event_count": 10,
+    "fetched_articles": 12,
+    "previous_event_count": 9,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -59,6 +58,16 @@
   },
   "events": [
     {
+      "id": "rss_f4ce093e629ec1ef",
+      "headline": "Musk says US government may be behind slowdown of Ukraine drone speeds",
+      "url": "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-14T20:55:24Z",
+      "source": "BBC News",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
       "id": "rss_a7b067e39cfdcb1d",
       "headline": "'I'd talk to the TV': The paid companions bringing warmth to China's lonely",
       "url": "https://www.bbc.co.uk/news/articles/cm5ynwpzkgk1o?at_medium=RSS&at_campaign=rss",
@@ -66,6 +75,16 @@
       "source": "BBC News",
       "tags": [
         "CHINA"
+      ]
+    },
+    {
+      "id": "rss_47cde8bacb40d5b0",
+      "headline": "Iran war live: Tehran vows to fight until US yields as ships sink in Hormuz",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/15/iran-war-live-tehran-vows-to-fight-until-us-yields-as-ships-sink-in-hormuz?traffic_source=rss",
+      "published_at": "2026-10-15T00:00:00Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN"
       ]
     },
     {
@@ -96,6 +115,16 @@
       "source": "Al Jazeera",
       "tags": [
         "VENEZUELA"
+      ]
+    },
+    {
+      "id": "rss_da21dadb6ee69aba",
+      "headline": "North Korea test-fires submarine-launched cruise missiles amid rising tensions",
+      "url": "https://www.france24.com/en/asia-pacific/20261014-north-korea-test-fires-submarine-launched-cruise-missiles",
+      "published_at": "2026-10-14T23:12:08Z",
+      "source": "France 24",
+      "tags": [
+        "NORTH_KOREA"
       ]
     },
     {
