@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-16T18:47:37Z",
+    "generated_at_utc": "2026-10-16T22:05:00Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
@@ -45,7 +45,7 @@
       }
     ],
     "fetched_articles": 10,
-    "previous_event_count": 120,
+    "previous_event_count": 10,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -106,6 +106,24 @@
       ]
     },
     {
+      "id": "rss_eb09833bd5a7b80c",
+      "headline": "Yemen’s government says Houthis fired two missiles at Aden airport",
+      "url": "https://www.aljazeera.com/news/2026/10/16/yemens-government-says-houthis-fired-two-missiles-at-aden-airport?traffic_source=rss",
+      "published_at": "2026-10-16T21:56:07Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "YEMEN"
+      ]
+    },
+    {
+      "id": "rss_f7f1ff6ea4fffa84",
+      "headline": "How Israeli spyware used ‘zero click’ hack on Al Jazeera staff",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/how-israeli-spyware-used-zero-click-hack-on-al-jazeera-staff?traffic_source=rss",
+      "published_at": "2026-10-16T21:08:44Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
       "id": "rss_60f55e42d6a4d7ed",
       "headline": "How Iran messaging highlights cost of war ahead of US midterm elections",
       "url": "https://www.aljazeera.com/news/2026/10/16/how-iran-messaging-highlights-cost-of-war-ahead-of-us-midterm-elections?traffic_source=rss",
@@ -123,24 +141,6 @@
       "source": "Al Jazeera",
       "tags": [
         "IRAN"
-      ]
-    },
-    {
-      "id": "rss_dd74e7100b28730c",
-      "headline": "How Israeli firm’s ‘zero-click’ malware attack poses global security risk",
-      "url": "https://www.aljazeera.com/news/2026/10/16/how-israeli-firms-zero-click-malware-attack-poses-global-security-risk?traffic_source=rss",
-      "published_at": "2026-10-16T14:12:13Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_790d8d1ff9ae12a4",
-      "headline": "India call up Bhuvneshwar for West Indies T20 finale with doubt over Singh",
-      "url": "https://www.aljazeera.com/sports/2026/10/16/india-call-up-bhuvneshwar-for-west-indies-t20-finale-with-doubt-over-singh?traffic_source=rss",
-      "published_at": "2026-10-16T13:09:56Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "INDIA"
       ]
     },
     {
