@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-17T05:34:21Z",
-    "provider": "RSS_FALLBACK",
-    "status": "ok-fallback",
+    "generated_at_utc": "2026-10-17T10:39:21Z",
+    "provider": "GDELT_DOC_API",
+    "status": "partial",
     "timespan": "6h",
     "max_events": 120,
     "streams": [
@@ -14,38 +14,12 @@
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
-        "fetched": 0
-      },
-      {
-        "name": "rss_fallback",
         "status": "ok",
-        "fetched": 13,
-        "feeds": [
-          {
-            "outlet": "BBC News",
-            "status": "ok",
-            "items": 32,
-            "kept": 5
-          },
-          {
-            "outlet": "Al Jazeera",
-            "status": "ok",
-            "items": 25,
-            "kept": 7
-          },
-          {
-            "outlet": "France 24",
-            "status": "ok",
-            "items": 24,
-            "kept": 1
-          }
-        ]
+        "fetched": 120
       }
     ],
-    "fetched_articles": 13,
-    "previous_event_count": 120,
+    "fetched_articles": 120,
+    "previous_event_count": 13,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -59,128 +33,995 @@
   },
   "events": [
     {
-      "id": "rss_b89967544120c301",
-      "headline": "Trump waives several Russia sanctions as new US law takes effect",
-      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-17T05:02:50Z",
-      "source": "BBC News",
+      "id": "gdelt_d1169dd6db990b8f",
+      "headline": "EU summit in Brussels : European powers intensify war drive against Russia",
+      "url": "https://www.wsws.org/en/articles/2026/10/17/gbsa-o17.html",
+      "published_at": "20261017T053000Z",
+      "source": "wsws.org",
       "tags": [
         "RUSSIA"
       ]
     },
     {
-      "id": "rss_b833d861de8f4b05",
-      "headline": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
-      "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-17T01:19:04Z",
-      "source": "BBC News",
+      "id": "gdelt_27e2dbb06a4154b3",
+      "headline": "Αδιέξοδο στον προϋπολογισμό , διαφωνίες για ενέργεια και στήριξη στην Ουκρανία - Τα συμπεράσματα της Συνόδου Κορυφής των « 27 »",
+      "url": "https://economytoday.sigmalive.com/ta-symperasmata-tis-synodoy-koryfis-ton-27-adieksodo-ston-proypologismo-diafonies-gia-energeia-kai-stiriksi-stin-oykrania/",
+      "published_at": "20261017T091500Z",
+      "source": "economytoday.sigmalive.com",
       "tags": []
     },
     {
-      "id": "rss_6e271a0c9f48f902",
-      "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
-      "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-16T16:00:30Z",
-      "source": "BBC News",
+      "id": "gdelt_702daf2b4baebc4d",
+      "headline": "Letter sanksjonene mot Russland",
+      "url": "https://www.dagbladet.no/nyheter/letter-sanksjonene-mot-russland/85299996",
+      "published_at": "20261017T050000Z",
+      "source": "dagbladet.no",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e6643fdaef94d099",
+      "headline": "国际观察丨英国军援承诺难解乌克兰  燃眉之急 - 新华网",
+      "url": "https://www.news.cn/world/20261016/c74dce5a052e4d51a155b51af50add05/c.html",
+      "published_at": "20261017T091500Z",
+      "source": "news.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7203fb83507c9bf0",
+      "headline": "国际观察丨英国军援承诺难解乌克兰  燃眉之急 - 千龙网 · 中国首都网",
+      "url": "https://world.qianlong.com/2026/1017/8739531.shtml",
+      "published_at": "20261017T051500Z",
+      "source": "world.qianlong.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e2b79a02b52e0b38",
+      "headline": "Twaalf vrouwen beschuldigen Amsterdamse festivalorganisator van seksueel grensoverschrijdend gedrag :  Zijn handen zaten overal",
+      "url": "https://drimble.nl/regio/noord-holland/amsterdam/108319271/twaalf-vrouwen-beschuldigen-amsterdamse-festivalorganisator-van-seksueel-grensoverschrijdend-gedrag-zijn-handen-zaten-overal.html",
+      "published_at": "20261017T070000Z",
+      "source": "drimble.nl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_61d72751a87eeb6e",
+      "headline": "Singapura akan bertindak ke atas 7 syarikat Indonesia didakwa penyumbang jerebu",
+      "url": "https://www.kosmo.com.my/2026/10/17/singapura-akan-bertindak-ke-atas-7-syarikat-indonesia-didakwa-penyumbang-jerebu/",
+      "published_at": "20261017T051500Z",
+      "source": "kosmo.com.my",
+      "tags": []
+    },
+    {
+      "id": "gdelt_13859becb4c37a69",
+      "headline": "Трамп высказался о России и Украине : когда закончится СВО , причины СВО , санкции против России",
+      "url": "https://ura.news/articles/1053136865",
+      "published_at": "20261017T050000Z",
+      "source": "ura.news",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c422998a4048b324",
+      "headline": "Tusk Warns Russia May Escalate Hybrid Attacks Before Christmas",
+      "url": "https://www.kyivpost.com/post/87354",
+      "published_at": "20261017T081500Z",
+      "source": "kyivpost.com",
       "tags": [
         "RUSSIA"
       ]
     },
     {
-      "id": "rss_d99efa147c821537",
-      "headline": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
-      "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-15T23:38:46Z",
-      "source": "BBC News",
+      "id": "gdelt_38972937fef25d37",
+      "headline": "Jerebu rentas sempadan : Singapura hantar notis kepada tujuh syarikat Indonesia",
+      "url": "https://www.sinarharian.com.my/article/800808/global/jerebu-rentas-sempadan-singapura-hantar-notis-kepada-tujuh-syarikat-indonesia",
+      "published_at": "20261017T050000Z",
+      "source": "sinarharian.com.my",
       "tags": []
     },
     {
-      "id": "rss_17fec99ab46ff798",
-      "headline": "Watch: What does Starlink have to do with the Ukraine-Russia war?",
-      "url": "https://www.bbc.co.uk/news/videos/cqr7yzpxm083o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-15T17:31:37Z",
-      "source": "BBC News",
+      "id": "gdelt_52a32192b74a1372",
+      "headline": "Guna pengaruh dagang tangani jerebu , pemimpin Bersama beritahu kerajaan",
+      "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/10/17/guna-pengaruh-dagang-tangani-jerebu-pemimpin-bersama-beritahu-kerajaan",
+      "published_at": "20261017T071500Z",
+      "source": "freemalaysiatoday.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_908655fa825c755c",
+      "headline": "Военный эксперт : ЕС консолидирует силы , чтобы вести мониторинг у границ с РФ",
+      "url": "https://www.vesti.ru/ns/voennyj-ehkspert-es-konsolidiruet-sily-chtoby-vesti-monitoring-u-granic-s-rf",
+      "published_at": "20261017T071500Z",
+      "source": "vesti.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0a7c00f592b0833d",
+      "headline": "LIVE | Alle ontwikkelingen van de oorlog in het Midden - Oosten",
+      "url": "https://www.limburger.nl/buitenland/irg-tanker-ontploft-na-aanvaring-met-zeemijn-straat-van-hormuz/163208283.html",
+      "published_at": "20261017T063000Z",
+      "source": "limburger.nl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6ab80cc8cfb55490",
+      "headline": "Υπόθεση « Midas »: Επιχείρηση της Ευρωπαϊκής Εισαγγελίας για απάτη 114 εκατ . ευρώ στον ΦΠΑ - Έρευνες και στην Ελλάδα",
+      "url": "https://e-thessalia.gr/ypothesi-midas-epicheirisi-tis-eyropaikis-eisaggelias-gia-apati-114-ekat-eyro-ston-fpa-ereynes-kai-stin-ellada/",
+      "published_at": "20261017T091500Z",
+      "source": "e-thessalia.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ea3b695780bddcbe",
+      "headline": "Trump Restricts Drone Activity Along U . S .- Mexico Border",
+      "url": "https://politicalwire.com/2026/10/16/trump-restricts-drone-activity-along-u-s-mexico-border/",
+      "published_at": "20261017T050000Z",
+      "source": "politicalwire.com",
+      "tags": [
+        "MEXICO"
+      ]
+    },
+    {
+      "id": "gdelt_3085b16383d5e62c",
+      "headline": "Что означают победы ультраправых во Франции для Европы и НАТО – что грозит Украине – интервью с послом Олегом Шамшуром – видео",
+      "url": "https://www.obozrevatel.com/section-politics-news/news-putin-chekaye-na-2027-rik-yak-peremoha-ultrapravykh-u-frantsiyi-mozhe-zminyty-yevropu-y-nato-ta-shcho-zahrozhuye-ukrayini-intervyu-z-shamshurom-17-10-2026.html",
+      "published_at": "20261017T094500Z",
+      "source": "obozrevatel.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fb9b34ac23524c2d",
+      "headline": "Armin Laschet ( Βουλή ): Η Γερμανία εξάντλησε τις δυνατότητές της να παρέχει στρατιωτική βοήθεια στην Ουκρανία",
+      "url": "https://www.bankingnews.gr/diethni/articles/905648/armin-laschet-vouli-i-germania-eksantlise-tis-dynatotites-tis-na-parexei-stratiotiki-voitheia-stin-oukrania",
+      "published_at": "20261017T081500Z",
+      "source": "bankingnews.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a39dd134116b67a4",
+      "headline": "WSJ : Иран помогает хуситам выбирать цели и атаковать Саудовскую Аравию",
+      "url": "https://www.newsru.co.il/press/17oct2026/wsj_113.html",
+      "published_at": "20261017T080000Z",
+      "source": "newsru.co.il",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c53cfa99b4b6eb90",
+      "headline": "Japan megabanks complete joint yen stablecoin test",
+      "url": "https://www.forexcrunch.com/blog/2026/10/17/japans-megabanks-complete-first-joint-yen-stablecoin-payment-test/",
+      "published_at": "20261017T080000Z",
+      "source": "forexcrunch.com",
+      "tags": [
+        "JAPAN"
+      ]
+    },
+    {
+      "id": "gdelt_58b41594705ca697",
+      "headline": "Jerebu : Sampai bila Malaysia perlu berkompromi ?",
+      "url": "https://www.sinarharian.com.my/article/800775/berita/nasional/jerebu-sampai-bila-malaysia-perlu-berkompromi",
+      "published_at": "20261017T050000Z",
+      "source": "sinarharian.com.my",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e3870834958d2be3",
+      "headline": "新鸭绿江大桥通车 ， 中朝贸易关系升温",
+      "url": "https://www.wenxuecity.com/news/2026/10/17/126807236.html",
+      "published_at": "20261017T093000Z",
+      "source": "wenxuecity.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d6d04a5874584d4b",
+      "headline": "México captura a  constructor  de túneles para trasladar drogas a Estados Unidos",
+      "url": "https://www.24horas.cl/internacional/deutsche-welle/mexico-captura-a-constructor-de-tuneles-para-trasladar-drogas-a",
+      "published_at": "20261017T091500Z",
+      "source": "24horas.cl",
+      "tags": [
+        "MEXICO"
+      ]
+    },
+    {
+      "id": "gdelt_c4cdb9caa05271c5",
+      "headline": "Oil at $110 per barrel , its highest since May | The Arkansas Democrat - Gazette",
+      "url": "https://www.arkansasonline.com/news/2026/oct/17/oil-at-110-per-barrel-its-highest-since-may/",
+      "published_at": "20261017T100000Z",
+      "source": "arkansasonline.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8e6fd30731b66af1",
+      "headline": "European Public Debt Could Trigger Euro Crisis , Swiss Minister Warns",
+      "url": "https://en.shafaqna.com/485595/european-public-debt-euro-crisis-warning/",
+      "published_at": "20261017T091500Z",
+      "source": "en.shafaqna.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_aed514c228f64797",
+      "headline": "Сотни посылок с гумпомощью отправили на фронт районные молодежные палаты столицы",
+      "url": "https://www.mskagency.ru/materials/3570669",
+      "published_at": "20261017T071500Z",
+      "source": "mskagency.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4ee5f6cc94594d3a",
+      "headline": "Brände in Indonesien : Höchste Alarmstufe in Südostasien",
+      "url": "https://kurier.at/chronik/welt/braende-indonesien-hoechste-alarmstufe-suedostasien/403198804",
+      "published_at": "20261017T081500Z",
+      "source": "kurier.at",
+      "tags": []
+    },
+    {
+      "id": "gdelt_09aea2e1682d1f75",
+      "headline": "Причины начала СВО : мнение Дмитриева , к чему привела политика Байдена",
+      "url": "https://ura.news/news/1053136862",
+      "published_at": "20261017T050000Z",
+      "source": "ura.news",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d15edb5c0d2f23a4",
+      "headline": "Районные молодежные палаты Москвы отправили посылки с гумпомощью на фронт",
+      "url": "https://vm.ru/news/1367046-sistemnaya-pomosh-kak-moskovskaya-molodezh-podderzhivaet-bojcov-na-svo",
+      "published_at": "20261017T064500Z",
+      "source": "vm.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e5023e52a2af0e3e",
+      "headline": "500 %, 100 %, then a waiver : How India escaped Trump Russia tariff threat",
+      "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/500-100-then-a-waiver-how-india-escaped-trumps-russia-tariff-threat/articleshow/135009853.cms",
+      "published_at": "20261017T081500Z",
+      "source": "economictimes.indiatimes.com",
       "tags": [
         "RUSSIA",
+        "INDIA"
+      ]
+    },
+    {
+      "id": "gdelt_f0198259702dd401",
+      "headline": "UN : Sudan Warring Parties Show No Serious Commitment to a Settlement",
+      "url": "https://english.aawsat.com/arab-world/5330476-un-sudan%E2%80%99s-warring-parties-show-no-serious-commitment-settlement",
+      "published_at": "20261017T093000Z",
+      "source": "english.aawsat.com",
+      "tags": [
+        "SUDAN"
+      ]
+    },
+    {
+      "id": "gdelt_5bbeafc3a0278933",
+      "headline": "Höchste Alarmstufe in Südostasien nach Bränden in Indonesien",
+      "url": "https://www.sn.at/panorama/international/hoechste-alarmstufe-in-suedostasien-nach-braenden-in-indonesien-art-678874",
+      "published_at": "20261017T093000Z",
+      "source": "sn.at",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3b1b8437d623ab68",
+      "headline": "Мошенники проложили 350 метров оптоволоконного кабеля в Мьянме для обмана пользователей",
+      "url": "https://echo.msk.ru/news/tehnologii/moshenniki-prolozhili-350-metrov-optovolokonnogo-kabelya-v-myanme-dlya-obmana-polzovateley/",
+      "published_at": "20261017T080000Z",
+      "source": "echo.msk.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_565bbcd71e4b5ff4",
+      "headline": "Мужчина хочет выехать за границу без своей жены - инвалида : разрешат ли ему пересечь границу",
+      "url": "https://www.unian.net/society/muzhchina-hochet-vyehat-za-granicu-bez-svoey-zheny-invalida-razreshat-li-emu-peresech-granicu-13531581.html",
+      "published_at": "20261017T100000Z",
+      "source": "unian.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6b09b0a7223e0386",
+      "headline": "Чоловік хоче виїхати за кордон без дружини з інвалідністю : чи дозволять перетнути кордон",
+      "url": "https://www.unian.ua/society/cholovik-hoche-vijihati-za-kordon-bez-druzhini-z-invalidnistyu-chi-dozvolyat-peretnuti-kordon-13531584.html",
+      "published_at": "20261017T100000Z",
+      "source": "unian.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_269becad96cfd333",
+      "headline": "Трамп отложил  адские санкции  против РФ : что известно",
+      "url": "https://odessa-life.od.ua/news/332-drona-za-noch-i-otmena-adskih-sankczij-chto-proizoshlo-17-oktyabrya",
+      "published_at": "20261017T093000Z",
+      "source": "odessa-life.od.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7283bd98ed6c4ef2",
+      "headline": "Dijon . Black Sea Dahu , pop folk made in Switzerland",
+      "url": "https://www.bienpublic.com/culture-loisirs/2026/10/17/black-sea-dahu-pop-folk-made-in-switzerland",
+      "published_at": "20261017T080000Z",
+      "source": "bienpublic.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d7cf34e9e1b87a14",
+      "headline": "Ethiopia Joins Pan - African Payments System",
+      "url": "https://www.africa.com/top-10-news/ethiopia-joins-pan-african-payments-system",
+      "published_at": "20261017T063000Z",
+      "source": "africa.com",
+      "tags": [
+        "ETHIOPIA"
+      ]
+    },
+    {
+      "id": "gdelt_e97ab2e5f9033637",
+      "headline": "Немецкий депутат заявил , что ФРГ исчерпала резервы для помощи Киеву",
+      "url": "https://www.vesti.ru/ns/nemeckij-deputat-zayavil-chto-frg-ischerpala-rezervy-dlya-pomoshchi-kievu",
+      "published_at": "20261017T080000Z",
+      "source": "vesti.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_28ee872eb05e0d87",
+      "headline": "Путин поручил включить поддержку участников СВО в нацпроекты :: Новости дня / ВЗГЛЯД",
+      "url": "https://vz.ru/news/2026/10/17/1464107.html",
+      "published_at": "20261017T094500Z",
+      "source": "vz.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8e2fc3f9d1b7580e",
+      "headline": "Hermosillo y Phoenix reafirman lazos de colaboración",
+      "url": "https://www.expreso.com.mx/noticias/hermosillo/hermosillo-y-phoenix-reafirman-lazos-de-colaboracion/266607",
+      "published_at": "20261017T060000Z",
+      "source": "expreso.com.mx",
+      "tags": []
+    },
+    {
+      "id": "gdelt_17eb77f185c7e271",
+      "headline": "NATO na Ukrainie . Żołnierze państw sojuszniczych będą ćwiczyć misję pokojową w Polsce",
+      "url": "https://www.rp.pl/konflikty-zbrojne/art45351291-misja-pokojowa-na-ukrainie-zolnierze-nato-beda-cwiczyc-na-terenie-polski",
+      "published_at": "20261017T100000Z",
+      "source": "rp.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_640ba07f59f895d9",
+      "headline": "México detém responsável por construo de túneis para tráfico de droga com EUA",
+      "url": "https://www.rtp.pt/noticias/mundo/mexico-detem-responsavel-por-construcao-de-tuneis-para-trafico-de-droga-com-eua_n1772250",
+      "published_at": "20261017T071500Z",
+      "source": "rtp.pt",
+      "tags": [
+        "MEXICO"
+      ]
+    },
+    {
+      "id": "gdelt_47d00f5125e71e2f",
+      "headline": "Brände in Indonesien : Höchste Alarmstufe wegen giftiger Rauchwolken in ganz Südostasien – DiePresse . com",
+      "url": "https://www.diepresse.com/41364997/braende-in-indonesien-hoechste-alarmstufe-wegen-giftiger-rauchwolken-in",
+      "published_at": "20261017T093000Z",
+      "source": "diepresse.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_57ed81ee9835f0cc",
+      "headline": "Baydenlə oğlunu korrupsiyada ittiham etdi",
+      "url": "https://www.adalet.az/az/posts/detail/baydenle-oglunu-korrupsiyada-ittiham-etdi-1792216029",
+      "published_at": "20261017T091500Z",
+      "source": "adalet.az",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c6800beb9ef1e0fa",
+      "headline": "Киеву предрекли сложную ситуацию из - за проблем с энергетикой",
+      "url": "https://lenta.ru/news/2026/10/17/kievu-predrekli-slozhnuyu-situatsiyu-iz-za-problem-s-energetikoy/",
+      "published_at": "20261017T051500Z",
+      "source": "lenta.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4f036fea174a2b7f",
+      "headline": "هل ينزلق « الناتو » إلى مواجهة عسكرية مع روسيا ؟",
+      "url": "https://www.okaz.com.sa/politics/na/2271129",
+      "published_at": "20261017T081500Z",
+      "source": "okaz.com.sa",
+      "tags": []
+    },
+    {
+      "id": "gdelt_16b000efb96fe7f9",
+      "headline": "وزير الخارجية يؤكد رفض مصر المساس بأمن الدول الخليجية",
+      "url": "https://www.dostor.org/5742218",
+      "published_at": "20261017T094500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_84f4379242d42154",
+      "headline": "Βολιβία : Πρώτη επίσημη επίσκεψη προέδρου της Χιλής ύστερα από επτά δεκαετίες",
+      "url": "https://www.sigmalive.com/news/international/1333731/bolivia-prwti-episimi-episkepsi-proedroy-tis-xilis-ystera-apo-epta-dekaeties",
+      "published_at": "20261017T053000Z",
+      "source": "sigmalive.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bda05f8fcd761948",
+      "headline": "Московские аэропорты за ночь задержали и отменили более 350 рейсов",
+      "url": "https://www.svoboda.org/a/moskovskie-aeroporty-za-nochj-zaderzhali-i-otmenili-bolee-350-reysov/33878393.html",
+      "published_at": "20261017T100000Z",
+      "source": "svoboda.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_177ad426f839dfef",
+      "headline": "Στη Βολιβία ο Χοσέ Αντόνιο Καστ για συνομιλίες με τον Ροδρίγο Πας – Πρώτη επίσημη επίσκεψη Χιλιανού προέδρου μετά από 71 χρόνια",
+      "url": "https://www.enikos.gr/international/sti-volivia-o-chose-antonio-kast-gia-synomilies-me-ton-rodrigo-pas-proti-episimi-episkepsi-chilianou-proedrou-meta-apo-71-chronia/2661534/",
+      "published_at": "20261017T071500Z",
+      "source": "enikos.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_861fe4d4779e4402",
+      "headline": "Рябков прокомментировал решение Трампа заморозить закон о санкциях",
+      "url": "https://ria.ru/20261017/ryabkov-2125100925.html",
+      "published_at": "20261017T091500Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ee15eaaf35e4673b",
+      "headline": "Заява Туска прем  єр Польщі попередив про ескалацію до Різдва після саміту ЄС Політика",
+      "url": "https://tsn.ua/politika/tusk-ozvuchyv-tryvoznyy-prohnoz-shchodo-viyny-koly-moze-zahostrytysia-sytuatsiia-3192235.html",
+      "published_at": "20261017T093000Z",
+      "source": "tsn.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_088e047eb79cca4a",
+      "headline": "Экономические санкции - у Путина отреагировали на отмену санкций по закону Грэма",
+      "url": "https://www.unian.net/world/ekonomicheskie-sankcii-u-putina-otreagirovali-na-otmenu-sankciy-po-zakonu-grema-13531623.html",
+      "published_at": "20261017T100000Z",
+      "source": "unian.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6855d559eec2e476",
+      "headline": "Cae en Jalisco  El Ingeniero , presunto responsable de construir túneles para traficar droga a EU",
+      "url": "https://www.razon.com.mx:443/mexico/2026/10/16/cae-en-jalisco-el-ingeniero-presunto-responsable-de-construir-tuneles-para-traficar-droga-a-eu/",
+      "published_at": "20261017T050000Z",
+      "source": "razon.com.mx",
+      "tags": []
+    },
+    {
+      "id": "gdelt_52e22def667bf937",
+      "headline": "Cae en Jalisco  El Ingeniero , presunto responsable de construir túneles para traficar droga a EU",
+      "url": "https://www.razon.com.mx/mexico/2026/10/16/cae-en-jalisco-el-ingeniero-presunto-responsable-de-construir-tuneles-para-traficar-droga-a-eu/",
+      "published_at": "20261017T051500Z",
+      "source": "razon.com.mx",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e350f49473b6b42b",
+      "headline": "Трамп отказался вводить санкции против России",
+      "url": "https://vestikavkaza.ru/news/tramp-otkazalsa-vvodit-sankcii-protiv-rossii.html",
+      "published_at": "20261017T081500Z",
+      "source": "vestikavkaza.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2373aaa23db9b906",
+      "headline": "Πρώτη επίσημη επίσκεψη προέδρου της Χιλής στη Βολιβία ύστερα από επτά δεκαετίες",
+      "url": "https://www.skai.gr/news/world/proti-episimi-episkepsi-proedrou-tis-xilis-sti-volivia-ystera-apo-epta-dekaeties",
+      "published_at": "20261017T051500Z",
+      "source": "skai.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fc8e63d98af731b9",
+      "headline": "Trump imzayı attı : Rusyaya yönelik yaptırımlar askıya alındı",
+      "url": "https://www.yenisafak.com/dunya/trump-imzayi-atti-rusyaya-yonelik-yaptirimlar-askiya-alindi-4865026",
+      "published_at": "20261017T071500Z",
+      "source": "yenisafak.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_841caa334a65a72d",
+      "headline": "Trump bebas tarif dan tetapkan sanksi di bawah UU baru sanksi Rusia",
+      "url": "https://www.antaranews.com/berita/5793117/trump-bebas-tarif-dan-tetapkan-sanksi-di-bawah-uu-baru-sanksi-rusia",
+      "published_at": "20261017T071500Z",
+      "source": "antaranews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_24d96a0471fd1926",
+      "headline": "Ulusal çıkarları  gerekçe gösterdi : Trump , Rusyaya yönelik yeni yaptırımları askıya aldı",
+      "url": "https://www.birgun.net/haber/ulusal-cikarlari-gerekce-gosterdi-trump-rusya-ya-yonelik-yeni-yaptirimlari-askiya-aldi-740832",
+      "published_at": "20261017T073000Z",
+      "source": "birgun.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9e09f7556329c554",
+      "headline": "Министарство здравља Јемена : у саудијским нападима од 3 . септембра погинуло 124 људи",
+      "url": "https://www.politika.rs/scc/clanak/794336/ministarstvo-zdravlja-jemena-u-saudijskim-napadima-od-3-septembra-poginulo-124-ljudi",
+      "published_at": "20261017T093000Z",
+      "source": "politika.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b4b68f9daaad431c",
+      "headline": "Отмена « адских санкций » против России : решение Трампа , подробности , реакция Москвы",
+      "url": "https://lenta.ru/news/2026/10/17/long-otmenyayu-tramp-otkazalsya-vvesti-ryad-polozheniy-iz-adskih-sanktsiy-protiv-rossii-o-kakih-ogranichitelnyh-merah-idet-rech/",
+      "published_at": "20261017T051500Z",
+      "source": "lenta.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c6ac369ec8df581d",
+      "headline": "Trump , Rusyaya yönelik yeni yaptırımları askıya alan kararname imzaladı - Dünya Haberleri",
+      "url": "https://www.haberturk.com/dunya/trump-rusya-ya-yonelik-yeni-yaptirimlari-askiya-alan-kararname-imzaladi-3920381",
+      "published_at": "20261017T071500Z",
+      "source": "haberturk.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2d5af41c43629e98",
+      "headline": "Trump , Rusyaya yönelik yeni yaptırımları askıya alan kararname imzaladı",
+      "url": "https://www.aa.com.tr/tr/dunya/trump-rusyaya-yonelik-yeni-yaptirimlari-askiya-alan-kararname-imzaladi/4091620",
+      "published_at": "20261017T080000Z",
+      "source": "aa.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_260dd23753700590",
+      "headline": "Trump , Rusyaya yönelik yeni yaptırımları askıya alan kararname imzaladı",
+      "url": "https://www.trthaber.com/haber/dunya/trump-rusyaya-yonelik-yeni-yaptirimlari-askiya-alan-kararname-imzaladi-960380.html",
+      "published_at": "20261017T081500Z",
+      "source": "trthaber.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c7ed8f56858421fa",
+      "headline": "Nationales Interesse  - Trump setzt geplante Sanktionen gegen Russland aus",
+      "url": "https://www.tagesschau.de/ausland/amerika/usa-russland-ukraine-sanktionen-100.html",
+      "published_at": "20261017T091500Z",
+      "source": "tagesschau.de",
+      "tags": [
         "UKRAINE"
       ]
     },
     {
-      "id": "rss_9237efb274f35ba0",
-      "headline": "Trump waives Russia sanctions as rift with Zelenskyy widens",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/trump-waives-russia-sanctions-as-rift-with-zelenskyy-widens?traffic_source=rss",
-      "published_at": "2026-10-17T04:58:32Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "rss_72577c93db645e43",
-      "headline": "Trump puts on hold new Russia sanctions he signed into law",
-      "url": "https://www.aljazeera.com/news/2026/10/17/trump-puts-on-hold-new-russia-sanctions-he-signed-into-law?traffic_source=rss",
-      "published_at": "2026-10-17T04:45:03Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "rss_eb6004f95addadba",
-      "headline": "Southern California wildfire engulfs homes, prompts evacuation orders",
-      "url": "https://www.aljazeera.com/news/2026/10/17/southern-california-wildfire-engulfs-homes-prompts-evacuation-orders?traffic_source=rss",
-      "published_at": "2026-10-17T03:30:36Z",
-      "source": "Al Jazeera",
+      "id": "gdelt_af10a596583ee952",
+      "headline": "Политолог оценил шансы Трампа добиться проведения выборов на Украине – Москва 24 , 17 . 10 . 2026",
+      "url": "https://www.m24.ru/news/17102026/953726",
+      "published_at": "20261017T054500Z",
+      "source": "m24.ru",
       "tags": []
     },
     {
-      "id": "rss_a1ed7cf00dc66049",
-      "headline": "Healthcare crisis escalating in Yemen’s besieged Taiz",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/healthcare-crisis-escalating-in-yemens-besieged-taiz?traffic_source=rss",
-      "published_at": "2026-10-17T01:37:07Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "YEMEN"
-      ]
-    },
-    {
-      "id": "rss_1db0aa075b5615f0",
-      "headline": "Iran war live: IRGC says supertanker hit naval mine in Hormuz, catches fire",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/17/draft-2?traffic_source=rss",
-      "published_at": "2026-10-17T00:00:00Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "IRAN",
-        "IRGC"
-      ]
-    },
-    {
-      "id": "rss_eb09833bd5a7b80c",
-      "headline": "Yemen’s government says Houthis fired two missiles at Aden airport",
-      "url": "https://www.aljazeera.com/news/2026/10/16/yemens-government-says-houthis-fired-two-missiles-at-aden-airport?traffic_source=rss",
-      "published_at": "2026-10-16T21:56:07Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "YEMEN"
-      ]
-    },
-    {
-      "id": "rss_f7f1ff6ea4fffa84",
-      "headline": "How Israeli spyware used ‘zero click’ hack on Al Jazeera staff",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/how-israeli-spyware-used-zero-click-hack-on-al-jazeera-staff?traffic_source=rss",
-      "published_at": "2026-10-16T21:08:44Z",
-      "source": "Al Jazeera",
+      "id": "gdelt_a424b27d21b0b7e1",
+      "headline": "Bot terkandas , 27 PATI dicekup",
+      "url": "https://www.utusan.com.my/terkini/2026/10/bot-terkandas-27-pati-dicekup/",
+      "published_at": "20261017T054500Z",
+      "source": "utusan.com.my",
       "tags": []
     },
     {
-      "id": "rss_713862387f97cca1",
-      "headline": "'US tilting toward Russia: Europeans are standing more and more solidly with Zelensky'",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20261016-us-tilting-toward-russia-europeans-are-standing-more-and-more-solidly-with-zelensky",
-      "published_at": "2026-10-16T18:33:13Z",
-      "source": "France 24",
+      "id": "gdelt_38feaf05d6c77363",
+      "headline": "США приостановили применение новых санкций против России :: Новости дня / ВЗГЛЯД",
+      "url": "https://vz.ru/news/2026/10/17/1464014.html",
+      "published_at": "20261017T051500Z",
+      "source": "vz.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1a7ed0c988d59e53",
+      "headline": "Trump , Rusyaya yeni yaptırımları yürürlüğe girmeden askıya aldı – Güncel Haberler , Son Dakika Haberleri , Turktime Haber Portalı",
+      "url": "https://www.turktime.com/haber/trump-rusya-ya-yeni-yaptirimlari-yururluge-girmeden-askiya-aldi/756452",
+      "published_at": "20261017T081500Z",
+      "source": "turktime.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_21303fe3c7e046b6",
+      "headline": "Трамп отказался от применения новых санкций против российских чиновников и банков",
+      "url": "https://www.nakanune.ru/news/2026/10/17/22891147/",
+      "published_at": "20261017T091500Z",
+      "source": "nakanune.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_59e5942d75c6adad",
+      "headline": "Algas maksā laikā , bet ir cita problēma ! Aviācijas arodbiedrības vadītāja skaidro iekšējo  airBaltic  situāciju",
+      "url": "https://www.la.lv/algas-maksa-laika-bet-ir-cita-problema-aviacijas-arodbiedribas-vaditaja-skaidro-ieksejo-airbaltic-situaciju",
+      "published_at": "20261017T093000Z",
+      "source": "la.lv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_103434c89c2d29e9",
+      "headline": "特朗普签行政令 豁免对俄新制裁及关税 | 国际",
+      "url": "https://www.orientaldaily.com.my/news/international/2026/10/17/855856",
+      "published_at": "20261017T063000Z",
+      "source": "orientaldaily.com.my",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5477e44c7e758399",
+      "headline": "Trump , Rusyaya yönelik yeni yaptırımları askıya alan kararname imzaladı - Kıbrıs Gazetesi - Kıbrıs Haber , KKTC Son Dakika ve Gündem Haberleri",
+      "url": "https://kibrisgazetesi.com/trump-rusyaya-yonelik-yeni-yaptirimlari-askiya-alan-kararname-imzaladi/",
+      "published_at": "20261017T093000Z",
+      "source": "kibrisgazetesi.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_86b438f62bcdc5dd",
+      "headline": "Дмитриев заявил о продолжении сотрудничества России и США",
+      "url": "https://ria.ru/20261017/dmitriev-2125091117.html",
+      "published_at": "20261017T071500Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7aaf45bbcbe0c629",
+      "headline": "川普簽行政令 暫停實施對俄制裁新法律",
+      "url": "https://www.epochtimes.com/b5/26/10/17/n14871558.htm",
+      "published_at": "20261017T100000Z",
+      "source": "epochtimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4dbf82169ec26d5d",
+      "headline": "Pas marrëveshjes për naftën me Putin , Trump ngrin sanksionet ndaj Rusisë të vendosura nga vetë ai në shtator",
+      "url": "https://top-channel.tv/2026/10/17/pas-marreveshjes-per-naften-me-putin-trump-ngrin-sanksionet-ndaj-rusise-te-vendosura-nga-vete-ai-ne-shtator/",
+      "published_at": "20261017T071500Z",
+      "source": "top-channel.tv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8e8aff7e0c253436",
+      "headline": "Trumptan Putine sürpriz jest ! Rusya yaptırımlarını askıya aldı",
+      "url": "https://www.sondakika.com/politika/haber-trump-kongre-nin-kabul-ettigi-rusya-yaptirimlarini-20338651/",
+      "published_at": "20261017T093000Z",
+      "source": "sondakika.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_40828bf1e5305e86",
+      "headline": "트럼프 , 러시아산 에너지 구매국 고율 관세 면제 … 중간선거 앞두고 유가 안정 총력",
+      "url": "https://biz.chosun.com/international/international_general/2026/10/17/USA36RFWC5CWXHRXKEFYU7J2PY/",
+      "published_at": "20261017T080000Z",
+      "source": "biz.chosun.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_92a46112daaa8bb1",
+      "headline": "Рябков рассказал , как ЕС отреагирует на решение Трампа по санкциям",
+      "url": "https://ria.ru/20261017/ryabkov-2125101648.html",
+      "published_at": "20261017T091500Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9a843509e1670493",
+      "headline": "Prvo oglašavanje Kremlja nakon što je Tramp ukinuo sankcije Rusiji",
+      "url": "https://www.blic.rs/vesti/svet/prvo-oglasavanje-kremlja-nakon-sto-je-tramp-ukinuo-sankcije-rusiji/0dlehf6",
+      "published_at": "20261017T091500Z",
+      "source": "blic.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5e5bf638185fb590",
+      "headline": "Јемен : Најмалку 124 загинати и 327 повредени во нападите од почетокот на септемвриската ескалација",
+      "url": "https://makfax.com.mk/svet/jemen-najmalku-124-zaginati-i-327-povredeni-vo-napadite-od-pochetokot-na-septemvriskata-eskalacija/",
+      "published_at": "20261017T100000Z",
+      "source": "makfax.com.mk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c4c38c87f8698c51",
+      "headline": "Дмитриев оценил приостановку Трампом закона о санкциях против России",
+      "url": "https://ria.ru/20261017/sanktsii-2125081203.html",
+      "published_at": "20261017T053000Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c02b8d5433bd6c5a",
+      "headline": "Trump exempts Russia from new sanctions law | Honolulu Star - Advertiser",
+      "url": "https://www.staradvertiser.com/2026/10/16/breaking-news/trump-exempts-russia-from-new-sanctions-law/",
+      "published_at": "20261017T054500Z",
+      "source": "staradvertiser.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_41a855a42b7ce504",
+      "headline": "Решение Трампа в отношении России вызвало переполох в Британии",
+      "url": "https://ria.ru/20261017/tramp-2125093942.html",
+      "published_at": "20261017T080000Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f2e3dc8218c525c7",
+      "headline": "Trump signs executive order waiving new Russia sanctions , tariffs",
+      "url": "https://www.vanguardngr.com/2026/10/trump-signs-executive-order-waiving-new-russia-sanctions-tariffs/",
+      "published_at": "20261017T071500Z",
+      "source": "vanguardngr.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f902265559a6e897",
+      "headline": "Trump signs executive order waiving new Russia sanctions",
+      "url": "https://www.rte.ie/news/us/2026/1017/1595735-trump-executive-order-russia/",
+      "published_at": "20261017T051500Z",
+      "source": "rte.ie",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b2597d351a0c574b",
+      "headline": "Trump signs executive order waiving new Russia sanctions , tariffs",
+      "url": "https://www.ewn.co.za/2026/10/17/trump-signs-executive-order-waiving-new-russia-sanctions-tariffs",
+      "published_at": "20261017T100000Z",
+      "source": "ewn.co.za",
+      "tags": []
+    },
+    {
+      "id": "gdelt_73afd799d64ea3aa",
+      "headline": "Công ty Hà Lan dùng AI giúp UAV  giao tiếp  trên chiến trường Ukraine",
+      "url": "https://dantri.com.vn/the-gioi/cong-ty-ha-lan-dung-ai-giup-uav-giao-tiep-tren-chien-truong-ukraine-20261016101501384.htm",
+      "published_at": "20261017T093000Z",
+      "source": "dantri.com.vn",
       "tags": [
-        "RUSSIA"
+        "UKRAINE"
       ]
+    },
+    {
+      "id": "gdelt_87289d9af7634ea9",
+      "headline": "Iz časa u čas : Tramp odložio primjenu novog paketa sankcija protiv Rusije",
+      "url": "https://www.portalanalitika.me/clanak/iz-casa-u-cas-tramp-ukida-najnovije-sankcije-rusiji-usred-rastucih-tenzija-izmedu-ukrajine-i-sad-a",
+      "published_at": "20261017T081500Z",
+      "source": "portalanalitika.me",
+      "tags": []
+    },
+    {
+      "id": "gdelt_43f08bad9348d8ce",
+      "headline": "Trump , Rusya yaptırımları ve enerji tarifelerini 2 gün kala dondurdu",
+      "url": "https://www.haberler.com/dunya/trump-rusya-yaptirimlari-ve-enerji-tarifelerini-2-20339027-haberi/",
+      "published_at": "20261017T091500Z",
+      "source": "haberler.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1156ce7f364c3691",
+      "headline": "Trump makes last - minute Russia sanctions move , citing  US national interests",
+      "url": "https://www.thenews.com.pk/latest/1420259-trump-makes-last-minute-russia-sanctions-move-citing-us-national-interests",
+      "published_at": "20261017T071500Z",
+      "source": "thenews.com.pk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0d43a923da76f641",
+      "headline": "Дональд Трамп - президент отменил санкии против российской энергетики , предусмотренные законом Грэма",
+      "url": "https://www.unian.net/world/donald-tramp-prezident-otmenil-sankii-protiv-rossiyskoy-energetiki-predusmotrennye-zakonom-grema-13531500.html",
+      "published_at": "20261017T050000Z",
+      "source": "unian.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_17f6690b133a8125",
+      "headline": "Tramps aptur likumu par plašām ASV sankcijām un tarifiem pret Krieviju",
+      "url": "https://www.delfi.lv/46713439/arzemes/120138918/tramps-aptur-likumu-par-plasam-asv-sankcijam-un-tarifiem-pret-krieviju",
+      "published_at": "20261017T071500Z",
+      "source": "delfi.lv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5eb2b3dad5d4a72e",
+      "headline": "Trump Rusya için düğmeye bastı ! Yaptırımları askıya aldı , Putini G20  ye çağırdı",
+      "url": "https://www.turkiyegazetesi.com.tr/dunya/trump-rusya-icin-dugmeye-basti-yaptirimlari-askiya-aldi-putini-g20ye-cagirdi-1823302",
+      "published_at": "20261017T093000Z",
+      "source": "turkiyegazetesi.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_128ba921e7eb8d5e",
+      "headline": "Sankcje united states wobec Rosji : Donald Trump uchylił część restrykcji . Kreml : historyczny moment",
+      "url": "https://www.rp.pl/polityka/art45351221-trump-lagodzi-sankcje-wobec-rosji-kreml-to-historyczny-moment",
+      "published_at": "20261017T100000Z",
+      "source": "rp.pl",
+      "tags": [
+        "UNITED_STATES"
+      ]
+    },
+    {
+      "id": "gdelt_a4889012cf9792d8",
+      "headline": "Tramp stopirao nove sankcije Rusiji , dok se spor sa Zelenskim zaoštrava",
+      "url": "https://www.danas.rs/bbc-news-serbian/tramp-stopirao-nove-sankcije-rusiji-dok-se-spor-sa-zelenskim-zaostrava/",
+      "published_at": "20261017T081500Z",
+      "source": "danas.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_13bc6a57aa432878",
+      "headline": "Trump approves executive order to waive newly imposed sanctions on Russia",
+      "url": "https://jowhar.com/trump-approves-executive-order-to-waive-newly-imposed-sanctions-on-russia/",
+      "published_at": "20261017T053000Z",
+      "source": "jowhar.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_666b7b07d40a6bfa",
+      "headline": "UKRAJINSKA KRIZA Tramp zamrznuo novi paket sankcija Rusiji dva dana pre stupanja na snagu - Povezane vesti",
+      "url": "https://naslovi.net/tema/2590717",
+      "published_at": "20261017T071500Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_239a9fa36e2b2b85",
+      "headline": "特朗普签署行政令豁免对俄多项制裁 - 泉州网|泉州晚报社 泉州新闻门户网站",
+      "url": "https://www.qzwb.com/gb/content/2026-10/17/content_9257292.htm",
+      "published_at": "20261017T100000Z",
+      "source": "qzwb.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ab8c923eb2c11793",
+      "headline": "रूसी तेल और गैस की खरीद पर ट्रंप ने प्रतिबंधों से दी छूट , भारत से हटी 100 % तक टैरिफ की तलवार",
+      "url": "https://hindi.moneycontrol.com/news/business/donald-trump-issued-waiver-from-sanctions-restrictions-and-duties-on-russian-oil-buying-under-graham-act-easing-100-percent-tariff-threat-on-india-2448367.html",
+      "published_at": "20261017T093000Z",
+      "source": "hindi.moneycontrol.com",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
+      "id": "gdelt_6cd48d70869ce4fd",
+      "headline": "Дмитриев прокомментировал приостановку Трампом закона о санкциях против РФ",
+      "url": "https://aif.ru/politics/dmitriev-prokommentiroval-priostanovku-trampom-zakona-o-sankciyah-protiv-rf",
+      "published_at": "20261017T064500Z",
+      "source": "aif.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8b551163f4e57466",
+      "headline": "Trump pezullon disa sanksione ndaj Rusisë ndërsa përplasja me Zelenskyn intensifikohet",
+      "url": "https://kohajone.com/bota/trump-pezullon-disa-sanksione-ndaj-rusise-ndersa-perplasja-me-zelenskyn-intensifikohet/",
+      "published_at": "20261017T093000Z",
+      "source": "kohajone.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ab73f1660b93e1f4",
+      "headline": "Trump robi wyjątek dla Rosji . Cła i sankcje częściowo zawieszone",
+      "url": "https://www.bankier.pl/wiadomosc/Trump-robi-wyjatek-dla-Rosji-Cla-i-sankcje-czesciowo-zawieszone-9214179.html",
+      "published_at": "20261017T080000Z",
+      "source": "bankier.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_db5fcbef03b084ba",
+      "headline": "В России предложили обнулить НДС на один тип продукции",
+      "url": "https://lenta.ru/news/2026/10/17/v-rossii-predlozhili-obnulit-nds-na-odin-tip-produktsii/",
+      "published_at": "20261017T051500Z",
+      "source": "lenta.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0e3d05321a6207bb",
+      "headline": "Trump setzt Russland - Sanktionen aus : Nationale Interessen im Fokus",
+      "url": "https://www.vol.at/trump-setzt-teile-der-geplanten-russland-sanktionen-aus/10555145",
+      "published_at": "20261017T071500Z",
+      "source": "vol.at",
+      "tags": []
+    },
+    {
+      "id": "gdelt_61d64391fb7a46ac",
+      "headline": "Trump setzt Sanktionen gegen Russland aus | Tiroler Tageszeitung – Aktuelle Nachrichten auf tt . com",
+      "url": "https://www.tt.com/artikel/30944757/trump-setzt-sanktionen-gegen-russland-aus",
+      "published_at": "20261017T050000Z",
+      "source": "tt.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1c188dc3ea15f958",
+      "headline": "Tramp obustavio nove sankcije Rusiji i obavestio Kongres : Odluka je u nacionalnom interesu SAD",
+      "url": "https://informer.rs/planeta/vesti/1161427/donald-tramp-sankcije-rusija-kongres-ukrajina",
+      "published_at": "20261017T050000Z",
+      "source": "informer.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0d15feaea2045374",
+      "headline": "Дмитриев назвал историческим моментом приостановку санкций США против России :: Новости дня / ВЗГЛЯД",
+      "url": "https://vz.ru/news/2026/10/17/1464085.html",
+      "published_at": "20261017T094500Z",
+      "source": "vz.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0b162020f97756fb",
+      "headline": "COLUMNIST : The U . S . sign of weakness in Ukraine | The Arkansas Democrat - Gazette",
+      "url": "https://www.arkansasonline.com/news/2026/oct/17/columnist-the-us-sign-of-weakness-in-ukraine/",
+      "published_at": "20261017T100000Z",
+      "source": "arkansasonline.com",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_6363085b52b023c1",
+      "headline": "Ruský vyjednavač : Trumpovo pozastavení sankcí je historický okamžik",
+      "url": "https://www.novinky.cz/clanek/zahranicni-evropa-rusko-trumpovo-pozastaveni-sankci-je-historicky-okamzik-40603338",
+      "published_at": "20261017T093000Z",
+      "source": "novinky.cz",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b220d12a1e7ee068",
+      "headline": "ٹرمپ نے امریکہ کے قومی مفاد کا حوالہ دیتے ہوئے روس پر عائد پابندیاں روک دیں",
+      "url": "https://www.express.pk/story/2838645/trump-halts-sweeping-russia-sanctions-citing-us-national-interest-2838645",
+      "published_at": "20261017T054500Z",
+      "source": "express.pk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5374ce356475d949",
+      "headline": "Tramp stopirao nove sankcije Rusiji , dok se spor sa Zelenskim zaoštrava",
+      "url": "https://naslovi.net/2026-10-17/juzne-vesti/tramp-stopirao-nove-sankcije-rusiji-dok-se-spor-sa-zelenskim-zaostrava/42497216",
+      "published_at": "20261017T091500Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_67173733df141ffc",
+      "headline": "Nigeria , Indonesia firms sign defence deal , target $6bn trad",
+      "url": "https://punchng.com/nigeria-indonesia-firms-sign-defence-deal-target-6bn-trade/",
+      "published_at": "20261017T064500Z",
+      "source": "punchng.com",
+      "tags": [
+        "NIGERIA"
+      ]
+    },
+    {
+      "id": "gdelt_57517715263a696c",
+      "headline": "Alerte maximale en Asie du Sud - Est : Brouillard toxique dû aux incendies indonésiens",
+      "url": "https://www.lematin.ch/story/alerte-l-asie-du-sud-est-suffoque-sous-un-brouillard-toxique-103651191",
+      "published_at": "20261017T093000Z",
+      "source": "lematin.ch",
+      "tags": []
+    },
+    {
+      "id": "gdelt_064b3d1741ead49c",
+      "headline": "Trump setzt Zölle aus Russland - Sanktionsgesetz vorerst aus",
+      "url": "https://www.epochtimes.de/politik/ausland/trump-setzt-zoelle-aus-russland-sanktionsgesetz-vorerst-aus-a5638561.html",
+      "published_at": "20261017T064500Z",
+      "source": "epochtimes.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a19a21beacbfcd41",
+      "headline": "أبرز عناوين الصحف الفلسطينية",
+      "url": "https://www.wafa.ps/news/2026/10/17/%D8%A3%D8%A8%D8%B1%D8%B2-%D8%B9%D9%86%D8%A7%D9%88%D9%8A%D9%86-%D8%A7%D9%84%D8%B5%D8%AD%D9%81-%D8%A7%D9%84%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A%D8%A9",
+      "published_at": "20261017T091500Z",
+      "source": "wafa.ps",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e609afb34c485ad0",
+      "headline": "Tramp stopirao nove sankcije Rusiji , dok se spor sa Zelenskim zaoštrava",
+      "url": "https://naslovi.net/2026-10-17/bbc-news/tramp-stopirao-nove-sankcije-rusiji-dok-se-spor-sa-zelenskim-zaostrava/42497163",
+      "published_at": "20261017T081500Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d308cf807831d385",
+      "headline": "Vetëm një muaj pasi i miratoi , Trump pezullon sanksionet e reja ndaj Rusisë",
+      "url": "https://www.balkanweb.com/vetem-nje-muaj-pasi-i-miratoi-trump-pezullon-sanksionet-e-reja-ndaj-rusise/",
+      "published_at": "20261017T063000Z",
+      "source": "balkanweb.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0f1a7a94038de33e",
+      "headline": "Trump jdytti useita tuoreita Venäj - pakotteita",
+      "url": "https://www.hs.fi/maailma/art-2000012348834.html",
+      "published_at": "20261017T050000Z",
+      "source": "hs.fi",
+      "tags": []
     }
   ]
 }
