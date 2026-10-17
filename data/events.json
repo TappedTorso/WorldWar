@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-17T17:07:56Z",
-    "provider": "RSS_FALLBACK",
-    "status": "ok-fallback",
+    "generated_at_utc": "2026-10-17T19:22:17Z",
+    "provider": "GDELT_DOC_API",
+    "status": "partial",
     "timespan": "6h",
     "max_events": 120,
     "streams": [
@@ -14,39 +14,12 @@
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
-        "fetched": 0
-      },
-      {
-        "name": "rss_fallback",
         "status": "ok",
-        "fetched": 6,
-        "feeds": [
-          {
-            "outlet": "BBC News",
-            "status": "ok",
-            "items": 23,
-            "kept": 4
-          },
-          {
-            "outlet": "Al Jazeera",
-            "status": "ok",
-            "items": 25,
-            "kept": 2
-          },
-          {
-            "outlet": "France 24",
-            "status": "error",
-            "error": "not well-formed (invalid token): line 1, column 449",
-            "items": 0,
-            "kept": 0
-          }
-        ]
+        "fetched": 120
       }
     ],
-    "fetched_articles": 6,
-    "previous_event_count": 120,
+    "fetched_articles": 120,
+    "previous_event_count": 6,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -60,63 +33,992 @@
   },
   "events": [
     {
-      "id": "rss_2c4d10c74676551c",
-      "headline": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-17T11:56:06Z",
-      "source": "BBC News",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "rss_760b8f7af5094c62",
-      "headline": "Teacher fought US school attacker before armed dad shot suspect 'multiple times'",
-      "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-17T09:58:17Z",
-      "source": "BBC News",
+      "id": "gdelt_804f255ce2556b5d",
+      "headline": "Очільник Міноборони Італії виступив проти урізання підтримки України Трампом",
+      "url": "https://www.5.ua/svit/ochilnyk-minoborony-italii-vystupyv-proty-urizannia-pidtrymky-ukrainy-trampom-384854.html",
+      "published_at": "20261017T144500Z",
+      "source": "5.ua",
       "tags": []
     },
     {
-      "id": "rss_6e271a0c9f48f902",
-      "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
-      "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-16T16:00:30Z",
-      "source": "BBC News",
+      "id": "gdelt_0da9125930b12198",
+      "headline": "Pakistan Army pounds Afghan Taliban Positions in fresh Kurram Border Clashes",
+      "url": "https://en.dailypakistan.com.pk/17-Oct-2026/pakistan-army-pounds-afghan-taliban-positions-in-fresh-kurram-border-clashes",
+      "published_at": "20261017T170000Z",
+      "source": "en.dailypakistan.com.pk",
       "tags": [
-        "RUSSIA"
+        "PAKISTAN"
       ]
     },
     {
-      "id": "rss_17fec99ab46ff798",
-      "headline": "Watch: What does Starlink have to do with the Ukraine-Russia war?",
-      "url": "https://www.bbc.co.uk/news/videos/cqr7yzpxm083o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-15T17:31:37Z",
-      "source": "BBC News",
+      "id": "gdelt_669b722d152a0731",
+      "headline": "Мадьяр оценил значение сделки России и США по дизелю для Венгрии",
+      "url": "https://ura.news/news/1053136947",
+      "published_at": "20261017T161500Z",
+      "source": "ura.news",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7fb3fff01537e754",
+      "headline": "Трамп скасував санкції проти Росії : США на роздоріжжі між виборами та союзниками",
+      "url": "https://www.facenews.ua/news/2026/543236/",
+      "published_at": "20261017T133000Z",
+      "source": "facenews.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_488421567ab1e3e2",
+      "headline": "Немецкий институт , развивающий сотрудничество с Молдовой , объявили в России нежелательной организацией",
+      "url": "https://newsmaker.md/ru/nemeczkii-institut-razvivayushii-sotrudnichestvo-s-moldovoi-obyavili-v-rossii-nejelatelnoi-organizacziei",
+      "published_at": "20261017T180000Z",
+      "source": "newsmaker.md",
+      "tags": []
+    },
+    {
+      "id": "gdelt_730b8882b12dc2d5",
+      "headline": "« ЕС это не закрытый клуб ». Мерц выступил за четкую перспективу членства Молдовы в Евросоюзе",
+      "url": "https://newsmaker.md/ru/es-eto-ne-zakrytyi-klub-mercz-vystupil-za-chetkuyu-perspektivu-chlenstva-moldovy-v-evrosoyuze",
+      "published_at": "20261017T180000Z",
+      "source": "newsmaker.md",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b033daceb37fff18",
+      "headline": "Ukraina rengiasi blogiausiam scenarijui : V . Zelenskis tikisi vieno",
+      "url": "https://www.lrytas.lt/pasaulis/ivykiai/2026/10/17/news/ukraina-rengiasi-blogiausiam-scenarijui-v-zelenskis-tikisi-vieno-44507162",
+      "published_at": "20261017T180000Z",
+      "source": "lrytas.lt",
+      "tags": []
+    },
+    {
+      "id": "gdelt_518fa3093d71b203",
+      "headline": "No room for conflict or war in nuclear environment : Gen Aamer Raza",
+      "url": "https://thefrontierpost.com/no-room-for-conflict-or-war-in-nuclear-environment-gen-aamer-raza/",
+      "published_at": "20261017T174500Z",
+      "source": "thefrontierpost.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_18723796ac7f4744",
+      "headline": "غضب دولي متصاعد إزاء انتهاكات المستعمرين في الضفة الغربية",
+      "url": "https://www.dostor.org/5742290",
+      "published_at": "20261017T163000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7457efa7626f4638",
+      "headline": "Зеленський розповів , де і коли може відбутися зустріч із Путіним",
+      "url": "https://kp.ua/ua/politics/a737539-zelenskij-rozpoviv-de-i-koli-mozhe-vidbutisja-zustrich-iz-putinim",
+      "published_at": "20261017T150000Z",
+      "source": "kp.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2330d5d844d2d837",
+      "headline": "Houthi Strikes Mark End of Saudi Arabia Yemen Containment Strategy , Analysts Say – NaturalNews . com",
+      "url": "https://www.naturalnews.com/2026-10-17-houthis-strikes-end-saudi-arabia-containment-strategy.html",
+      "published_at": "20261017T150000Z",
+      "source": "naturalnews.com",
       "tags": [
-        "RUSSIA",
-        "UKRAINE"
+        "YEMEN",
+        "SAUDI_ARABIA"
       ]
     },
     {
-      "id": "rss_9e284a990cc02822",
-      "headline": "Hurricane Trudy makes its way towards Mexico, threatening heavy rain",
-      "url": "https://www.aljazeera.com/news/2026/10/17/hurricane-trudy-makes-its-way-towards-mexico-threatening-heavy-rain?traffic_source=rss",
-      "published_at": "2026-10-17T14:28:07Z",
-      "source": "Al Jazeera",
+      "id": "gdelt_8b84dca451cf7688",
+      "headline": "Drone - dropped weapons , heroin smuggling racket : NIA invokes additional UAPA sections against six accused",
+      "url": "https://www.prokerala.com/news/articles/a1825742.html",
+      "published_at": "20261017T151500Z",
+      "source": "prokerala.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cce38218fff6ad00",
+      "headline": "Several Afghan Taliban posts destroyed as Pakistan responds to border firing : Security sources",
+      "url": "https://tribune.com.pk/story/2635388/several-afghan-taliban-posts-destroyed-as-pakistan-responds-to-border-firing-state-media",
+      "published_at": "20261017T183000Z",
+      "source": "tribune.com.pk",
+      "tags": [
+        "PAKISTAN"
+      ]
+    },
+    {
+      "id": "gdelt_528f7df1eaefd7d7",
+      "headline": "Cash on delivery still rules Philippines online shopping",
+      "url": "https://www.philstar.com/business/2026/10/18/2563884/cash-delivery-still-rules-philippines-online-shopping",
+      "published_at": "20261017T180000Z",
+      "source": "philstar.com",
+      "tags": [
+        "PHILIPPINES"
+      ]
+    },
+    {
+      "id": "gdelt_ce51d9dcff8bcd4e",
+      "headline": "Trumpo ir Zelenskio nesutarimai gali turėti rimtų pasekmių",
+      "url": "https://www.delfi.lt/naujienos/uzsienyje/trumpo-ir-zelenskio-nesutarimai-kyla-i-pavojinga-lygi-120320581",
+      "published_at": "20261017T144500Z",
+      "source": "delfi.lt",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c582cd5d7991ad81",
+      "headline": "Поражение республиканцев в Конгрессе США может стать кошмаром для Путина ,",
+      "url": "https://www.unian.net/world/porazhenie-respublikancev-v-kongresse-ssha-mozhet-stat-koshmarom-dlya-putina-obozrevatel-13531995.html",
+      "published_at": "20261017T161500Z",
+      "source": "unian.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a625660f851f962b",
+      "headline": "Армения и Иран : стратегическое партнёрство или опасная игра на фоне большой войны ?",
+      "url": "https://zerkalo.az/armeniya-i-iran-strategicheskoe-partnyorstvo-ili-opasnaya-igra-na-fone-bolshoj-vojny/",
+      "published_at": "20261017T180000Z",
+      "source": "zerkalo.az",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_a39a9183c3fae883",
+      "headline": "EDITORIAL - Pinoy narcos",
+      "url": "https://www.philstar.com/opinion/2026/10/18/2563909/editorial-pinoy-narcos",
+      "published_at": "20261017T163000Z",
+      "source": "philstar.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_335fe17908aa5394",
+      "headline": "NFR steps up efforts to start passenger train services between Tripura and Bangladesh",
+      "url": "https://www.prokerala.com/news/articles/a1825736.html",
+      "published_at": "20261017T144500Z",
+      "source": "prokerala.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a4e4549138bae0e4",
+      "headline": "Kekin : Dvostruke konotacije su se prelile na ulicu u jednu konotaciju - Adolf Hitler",
+      "url": "https://www.index.hr/vijesti/clanak/kekin-dvostruke-konotacije-su-se-prelile-na-ulicu-u-jednu-konotaciju-adolf-hitler/2846696.aspx?index_tid=1191835&index_ref=naslovnica_vijesti_ostalo_d_0",
+      "published_at": "20261017T180000Z",
+      "source": "index.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0db0a682eca9310c",
+      "headline": "Kekin : Dvostruke konotacije su se prelile na ulicu u jednu konotaciju - Adolf Hitler",
+      "url": "https://www.index.hr/vijesti/clanak/kekin-dvostruke-konotacije-su-se-prelile-na-ulicu-u-jednu-konotaciju-adolf-hitler/2846696.aspx?index_tid=1191835&index_ref=naslovnica_vijesti_najnovije_d",
+      "published_at": "20261017T180000Z",
+      "source": "index.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ecc4d6fcfb35f6a1",
+      "headline": "Možemo napalo Plenkovića i HDZ zbog Torcide",
+      "url": "https://www.index.hr/vijesti/clanak/kekin-dvostruke-konotacije-su-se-prelile-na-ulicu-u-jednu-konotaciju-adolf-hitler/2846696.aspx",
+      "published_at": "20261017T183000Z",
+      "source": "index.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_31563de0ed4b1299",
+      "headline": "Pozivi na nasilje i veličanje Hitlera nisu izolirani incidenti",
+      "url": "https://www.glas-slavonije.hr/novosti/hrvatska/2026/10/17/pozivi-na-nasilje-i-velicanje-hitlera-nisu-izolirani-incidenti-792164/",
+      "published_at": "20261017T134500Z",
+      "source": "glas-slavonije.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9c5ce48886836d93",
+      "headline": "ЦАХАЛ ликвидировал четырёх боевиков ХАМАС в Газе",
+      "url": "https://www.mk.ru/politics/2026/10/17/cakhal-likvidiroval-chetyryokh-boevikov-khamas-v-gaze.html",
+      "published_at": "20261017T173000Z",
+      "source": "mk.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_79f171215ffb2030",
+      "headline": "IGAD , SADC strike deal to strengthen cross - border health security",
+      "url": "https://www.the-star.co.ke/news/2026-10-17-igad-sadc-strike-deal-to-strengthen-cross-border-health-security",
+      "published_at": "20261017T144500Z",
+      "source": "the-star.co.ke",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2717cff89af8c06b",
+      "headline": "На границе Афганистана и Пакистана начались перестрелки",
+      "url": "https://www.vesti.ru/ns/na-granice-afganistana-i-pakistana-nachalis-perestrelki",
+      "published_at": "20261017T174500Z",
+      "source": "vesti.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8fea029865dc026b",
+      "headline": "Myanmar Uluslararası Havayolları Yangon - Chengdu ilk uçuşunda 134 turist taşıdı",
+      "url": "https://www.haberler.com/guncel/myanmar-uluslararasi-havayollari-yangon-chengdu-20340247-haberi/",
+      "published_at": "20261017T153000Z",
+      "source": "haberler.com",
+      "tags": [
+        "MYANMAR"
+      ]
+    },
+    {
+      "id": "gdelt_eecf9198ba75060a",
+      "headline": "Military operations alone cant end banditry Ribadu",
+      "url": "https://punchng.com/military-operations-alone-cant-end-banditry-ribadu/",
+      "published_at": "20261017T144500Z",
+      "source": "punchng.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_17d3cd6a30246df3",
+      "headline": "Goldman Sachs , Wells Fargo , Morgan Stanley see tokenization as a growth play , not a threat",
+      "url": "https://www.coindesk.com/business/2026/10/17/goldman-wells-fargo-morgan-stanley-see-tokenization-as-a-growth-play-not-a-threat",
+      "published_at": "20261017T174500Z",
+      "source": "coindesk.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f4057c156bb69d57",
+      "headline": "Polygon Labs completes Coinme acquisition to challenge Visa and Stripe in global payments",
+      "url": "https://www.coindesk.com/business/2026/10/17/polygon-sees-coinme-acquisition-as-entry-to-payments-sector-dominated-by-visa-stripe",
+      "published_at": "20261017T174500Z",
+      "source": "coindesk.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0a9d23114f73127e",
+      "headline": "Jovem de Trancoso conquista bolsa de estudos para prestigiada instituio internacional de gastronomia",
+      "url": "https://sapo.pt/artigo/jovem-de-trancoso-conquista-bolsa-de-estudos-para-prestigiada-instituicao-internacional-de-gastronomia-6ad3bdf9110b85602688cb4c",
+      "published_at": "20261017T190000Z",
+      "source": "sapo.pt",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e38242f2f5af7a13",
+      "headline": "Трагедия в Пешаваре : Токаев выразил соболезнования",
+      "url": "https://forbes.kz/articles/tragediya-v-peshavare-tokaev-vyrazil-soboleznovaniya-eca253",
+      "published_at": "20261017T174500Z",
+      "source": "forbes.kz",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bc166d3dc230d73b",
+      "headline": "Туск прогнозує ескалацію у гібридній війні Росії проти Європи",
+      "url": "https://www.rbc.ua/rus/news/tusk-poperediv-seryoznu-eskalatsiyu-gibridniy-1792252067.html",
+      "published_at": "20261017T174500Z",
+      "source": "rbc.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_97bc282c12fdc7af",
+      "headline": "الجامعة العربية تدين اعتداء ميليشيا الحوثي على مؤسسات الدولة والمنشآت في ‏اليمن",
+      "url": "https://sana.sy/international/2609554/",
+      "published_at": "20261017T163000Z",
+      "source": "sana.sy",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ea8738adac5fe519",
+      "headline": "Зеленский предупредил об угрозе размещения российских ракет в Беларуси",
+      "url": "https://gazeta.ua/ru/articles/politics/_zelenskij-predupredil-ob-ugroze-razmescheniya-rossijskih-raket-v-belarusi/1260460",
+      "published_at": "20261017T144500Z",
+      "source": "gazeta.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_676904b0d1fe8556",
+      "headline": "México captura a  El Ingeniero , responsable de construir túneles en la frontera con EE . UU . para el CJNG",
+      "url": "https://laopinion.com/2026/10/17/mexico-captura-a-el-ingeniero-responsable-de-construir-tuneles-en-la-frontera-con-ee-uu-para-el-cjng/",
+      "published_at": "20261017T183000Z",
+      "source": "laopinion.com",
       "tags": [
         "MEXICO"
       ]
     },
     {
-      "id": "rss_78f56593765b264b",
-      "headline": "Trump eases Russia oil sanctions, but is Europe still buying Moscow’s gas?",
-      "url": "https://www.aljazeera.com/news/2026/10/17/trump-eases-russia-oil-sanctions-but-is-europe-still-buying-moscows-gas?traffic_source=rss",
-      "published_at": "2026-10-17T11:10:22Z",
-      "source": "Al Jazeera",
+      "id": "gdelt_38fe6d3df7fd06b3",
+      "headline": "AI宛如高速夜行 、 没有刹车的F1赛车 ， IMF年会聚焦AI狂飙|imf|克拉克|f1赛车|世界银行",
+      "url": "https://www.163.com/dy/article/L9FK4JSU0519DDQ2.html",
+      "published_at": "20261017T133000Z",
+      "source": "163.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9df762bf7aac740a",
+      "headline": "Трамп заявив , що CША припинили продаж боєприпасів союзникам",
+      "url": "https://www.bagnet.org/news/world/1404664/tramp-zayaviv-shcho-csha-pripinili-prodazh-boepripasiv-soyuznikam",
+      "published_at": "20261017T133000Z",
+      "source": "bagnet.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9fd62837b0932d39",
+      "headline": "Туск с предупреждение : Русия може да прибегне до ескалация преди Коледа . Следващите месеци ще бъдат решаващи за бъдещето на цяла Европа",
+      "url": "https://www.focus-news.net/novini/mejdunarodni/Tusk-s-preduprezhdenie-Rusiya-mozhe-da-pribegne-do-eskalaciya-predi-Koleda-Sledvashtite-meseci-shte-budat-reshavashti-za-budeshteto-na-cyala-Evropa-3041328",
+      "published_at": "20261017T144500Z",
+      "source": "focus-news.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cba4034b5120e0f8",
+      "headline": "Туск попередив про можливу ескалацію з боку Росії ще до Різдва",
+      "url": "https://www.ukrinform.ua/rubric-world/4175463-tusk-poperediv-pro-mozlivu-eskalaciu-z-boku-rosii-se-do-rizdva.html",
+      "published_at": "20261017T150000Z",
+      "source": "ukrinform.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e70e28d3a805cb28",
+      "headline": "Circle looks to enter 40 new markets",
+      "url": "https://cointelegraph.com/news/circles-allaire-says-stablecoin-issuer-looking-to-enter-40-developing-markets-report",
+      "published_at": "20261017T144500Z",
+      "source": "cointelegraph.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c59dde787c1b14d9",
+      "headline": "الجامعة العربية تدين الاعتداءات الحوثية على مقر الحكومة اليمنية والمنشآت المدنية",
+      "url": "https://www.okaz.com.sa/local/na/2271202",
+      "published_at": "20261017T180000Z",
+      "source": "okaz.com.sa",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ec9b4c08923bcff5",
+      "headline": "وزير الخارجية يلتقي رئيس تيار الحكمة العراقي .. يؤكد أهمية تجنيب بغداد تداعيات التصعيد في المنطقة",
+      "url": "https://www.dostor.org/5742762",
+      "published_at": "20261017T163000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a0d0006761b48838",
+      "headline": "Puškov : Trampova odluka o sankcijama je logičan nastavak dizelskog sporazuma",
+      "url": "https://www.novosti.rs/planeta/svet/1661050/dizelski-sporazum-jaci-sankcija-puskov-otkrio-pravu-istinu-zasto-tramp-odustao-udara-rusiju",
+      "published_at": "20261017T153000Z",
+      "source": "novosti.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b2d3f1a7b855baf2",
+      "headline": "Ebola outbreak spreading to Kenya exposes failures that put battle to contain virus at risk , experts warn",
+      "url": "https://www.independent.co.uk/news/world/africa/ebola-outbreak-kenya-congo-contact-tracing-b3067572.html",
+      "published_at": "20261017T173000Z",
+      "source": "independent.co.uk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a55fda1dd34c76c6",
+      "headline": "Afrique Australe : Le Botswana accueillera la plateforme commerciale dAfrique australe pour lintroduction en bourse de la raffinerie Dangote",
+      "url": "https://fr.allafrica.com/stories/202610170016.html",
+      "published_at": "20261017T150000Z",
+      "source": "fr.allafrica.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7e6fedc39fe8be72",
+      "headline": "سمير عباهرة : نتنياهو يوظف التصعيد بالضفة لتحسين صورته انتخابيا",
+      "url": "https://www.elwatannews.com/news/details/8379126",
+      "published_at": "20261017T174500Z",
+      "source": "elwatannews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a16828d8b0508122",
+      "headline": "الأردن والسعودية يبحثان خفض التصعيد واحتواء الأزمات في المنطقة | شرق وغرب",
+      "url": "https://www.ammonnews.net/article/1037418",
+      "published_at": "20261017T173000Z",
+      "source": "ammonnews.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1c69cd8992f0ea9d",
+      "headline": "Отказ Трампа от санкций говорит о серьезных намерениях США – МИД РФ",
+      "url": "https://sputnik-georgia.ru/20261017/otkaz-trampa-ot-sanktsiy-govorit-o-sereznykh-namereniyakh-ssha--mid-rf-301208848.html",
+      "published_at": "20261017T174500Z",
+      "source": "sputnik-georgia.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_708efbf7771e6082",
+      "headline": "La UNDRR destaca que la gestión compartida del agua resulta clave para reducir el riesgo de desastres y prevenir futuras crisis",
+      "url": "https://www.ecoportal.net/mundo/undrr-gestion-compartida-del-agua/",
+      "published_at": "20261017T183000Z",
+      "source": "ecoportal.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d6fdae3b6bc294ff",
+      "headline": "Zelenskis : JAV atšauks ir daugiau sankcijų Rusijai",
+      "url": "https://www.15min.lt/naujiena/aktualu/pasaulis/zelenskis-jav-atsauks-ir-daugiau-sankciju-rusijai-57-2787048",
+      "published_at": "20261017T134500Z",
+      "source": "15min.lt",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4291f6a72cd49145",
+      "headline": "Сторонники и противники Кличко провели акции в центре Киева",
+      "url": "https://zerkalo.az/storonniki-i-protivniki-klichko-proveli-aktsii-v-tsentre-kieva/",
+      "published_at": "20261017T180000Z",
+      "source": "zerkalo.az",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cbdcdad00ae85c24",
+      "headline": "Sankcji na Rosję nie będzie . Kreml chwali Trumpa",
+      "url": "https://www.rp.pl/gospodarka/art45351361-trump-odwoluje-piekielne-sankcje-putin-jest-wniebowziety",
+      "published_at": "20261017T133000Z",
+      "source": "rp.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d99fd8553177f2f6",
+      "headline": "Зеленский считает , что США продолжат снимать санкции с России",
+      "url": "https://aif.ru/politics/zelenskiy-schitaet-chto-ssha-prodolzhat-snimat-sankcii-s-rossii",
+      "published_at": "20261017T151500Z",
+      "source": "aif.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c1cc3c7f97c51372",
+      "headline": "Turtles offer early warning from a warming Mediterranean",
+      "url": "https://www.geo.tv/latest/686994-turtles-offer-early-warning-from-a-warming-mediterranean-ahead-of-cop31",
+      "published_at": "20261017T144500Z",
+      "source": "geo.tv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c3c9e158148dfcb0",
+      "headline": "إيران : مضيق هرمز خط الدفاع الأول ويخضع لرقابة وإشراف كاملين",
+      "url": "https://www.almasryalyoum.com/news/details/4385221",
+      "published_at": "20261017T144500Z",
+      "source": "almasryalyoum.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_53b75e6d41feb0c3",
+      "headline": "الأردن والسعودية يبحثان خفض التصعيد واحتواء الأزمات في المنطقة",
+      "url": "https://alanbatnews.net/article/484792",
+      "published_at": "20261017T174500Z",
+      "source": "alanbatnews.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_030e861665146886",
+      "headline": "„ Ohrabrenje Rusije da nastavi sa ubijanjem , nadamo se da će Tramp zaustaviti Putina : Zelenski o obustavi sankcija protiv Moskvei",
+      "url": "https://naslovi.net/2026-10-17/danas/ohrabrenje-rusije-da-nastavi-sa-ubijanjem-nadamo-se-da-ce-tramp-zaustaviti-putina-zelenski-o-obustavi-sankcija-protiv-moskvei/42498367",
+      "published_at": "20261017T144500Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f03e9789f4b07633",
+      "headline": "„ Ohrabrenje Rusije da nastavi sa ubijanjem , nadamo se da će Tramp zaustaviti Putina : Zelenski o obustavi sankcija protiv Moskve",
+      "url": "https://naslovi.net/2026-10-17/danas/ohrabrenje-rusije-da-nastavi-sa-ubijanjem-nadamo-se-da-ce-tramp-zaustaviti-putina-zelenski-o-obustavi-sankcija-protiv-moskve/42498367",
+      "published_at": "20261017T151500Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b2d57a026f3fbd78",
+      "headline": "Венгрия захотела продлить исключение из санкций против российской нефти :: Новости дня / ВЗГЛЯД",
+      "url": "https://vz.ru/news/2026/10/17/1464199.html",
+      "published_at": "20261017T150000Z",
+      "source": "vz.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b0b8a1b9667ce8ef",
+      "headline": "Trump gegen neue Strafen für Moskau – Kiew enttäuscht",
+      "url": "https://www.nwzonline.de/politik-meldungen/ukraine-krieg-trump-gegen-neue-strafen-fuer-moskau-kiew-enttaeuscht_a_4,3,2124218556.html",
+      "published_at": "20261017T133000Z",
+      "source": "nwzonline.de",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_1610b1b1144d44c8",
+      "headline": "Zelenski : Obustavljanje sankcija neće doneti mir , nadamo se da će Tramp zaustaviti Putina",
+      "url": "https://naslovi.net/2026-10-17/snm/zelenski-obustavljanje-sankcija-nece-doneti-mir-nadamo-se-da-ce-tramp-zaustaviti-putina/42498256",
+      "published_at": "20261017T134500Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2a9368ae5abc3ed5",
+      "headline": "وزير الخارجية يشدد على رفض أي تدخلات خارجية تمس السيادة السورية",
+      "url": "https://www.elwatannews.com/news/details/8378983",
+      "published_at": "20261017T133000Z",
+      "source": "elwatannews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_30d8d4ddb27aebeb",
+      "headline": "Rus vekil Slutskiy : Trump  ın yaptırımları askıya alması , Rusya karşıtlarına darbe oldu",
+      "url": "https://www.bursahakimiyet.com.tr/dunya/rus-vekil-slutskiy-trump-in-yaptirimlari-askiya-almasi-rusya-karsitlarina-darbe-oldu-1731767",
+      "published_at": "20261017T151500Z",
+      "source": "bursahakimiyet.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_56db39ce5e8adacc",
+      "headline": "Мадьяр призвал США продлить исключение Венгрии из санкций на покупку нефти из РФ",
+      "url": "https://www.vedomosti.ru/politics/news/2026/10/17/1237918-madyar-prizval-prodlit-isklyuchenie",
+      "published_at": "20261017T163000Z",
+      "source": "vedomosti.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_dcfd576b76d83169",
+      "headline": "محمد أبو النصر : تفويض الرئيس السيسي لدعم أمن السعودية يعكس التزام مصر بوحدة المصير العربي والدفاع عن الأشقاء",
+      "url": "https://www.dostor.org/5742668",
+      "published_at": "20261017T153000Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_274a0f5ead3ee5a4",
+      "headline": "Трамп отказался применять часть « адских » санкций против России",
+      "url": "https://deita.ru/article/591773",
+      "published_at": "20261017T144500Z",
+      "source": "deita.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ccb79525abec6997",
+      "headline": "Zelenski priznao bolnu istinu : Ukidanje američkih sankcija Rusiji će se nastaviti",
+      "url": "https://naslovi.net/2026-10-17/sputnik/zelenski-priznao-bolnu-istinu-ukidanje-americkih-sankcija-rusiji-c-e-se-nastaviti/42498477",
+      "published_at": "20261017T151500Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c2d7616b757e06b7",
+      "headline": "النائب محمد أبو النصر : تفويض الرئيس السيسي لدعم أمن السعودية يعكس التزام مصر بوحدة المصير العربي",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=17102026&id=12c98585-b31b-41b6-823c-c11f1d96543b",
+      "published_at": "20261017T151500Z",
+      "source": "shorouknews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9d49a4ca86bbfafb",
+      "headline": "ЄС посилив санкції : під ударом компанії , що допомагали Росії обходити обмеження",
+      "url": "https://www.facenews.ua/news/2026/543215/",
+      "published_at": "20261017T133000Z",
+      "source": "facenews.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_db250b19b7f4ef61",
+      "headline": "Zelenszkij reagált arra , hogy Trump felfüggesztette az Oroszország elleni szankciós csomagot",
+      "url": "https://444.hu/2026/10/17/zelenszkij-reagalt-arra-hogy-trump-felfuggesztette-az-oroszorszag-elleni-szankcios-csomagot",
+      "published_at": "20261017T163000Z",
+      "source": "444.hu",
+      "tags": []
+    },
+    {
+      "id": "gdelt_992bfe22926e0cce",
+      "headline": "Ζελένσκι για την αναστολή κυρώσεων στη Ρωσία : Ο Τραμπ ανταμείβει τον Πούτιν για να συνεχίσει να επιτίθεται",
+      "url": "https://www.protothema.gr/world/article/1896469/zelenski-gia-tin-anastoli-kuroseon-sti-rosia-o-trab-adameivei-ton-poutin-gia-na-sunehisei-na-epitithetai/",
+      "published_at": "20261017T153000Z",
+      "source": "protothema.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0b50db267c4ce0ac",
+      "headline": "Gdy woda staje się wrogiem : milionowa flotylla rusza na pomoc lubelskim strażakom",
+      "url": "https://www.dziennikwschodni.pl:443/artykul/393193,gdy-woda-staje-sie-wrogiem-milionowa-flotylla-rusza-na-pomoc-lubelskim-strazakom",
+      "published_at": "20261017T190000Z",
+      "source": "dziennikwschodni.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f887a4d6b594a97f",
+      "headline": "Zelensky sends biting coded message to Trump in post about him easing sanctions on Russia",
+      "url": "https://www.mirror.co.uk/news/politics/zelensky-trump-sanctions-lindsey-graham-37783253",
+      "published_at": "20261017T174500Z",
+      "source": "mirror.co.uk",
       "tags": [
         "RUSSIA"
       ]
+    },
+    {
+      "id": "gdelt_79745dc4d24e32ea",
+      "headline": "Белгија захтева хитне санкције ЕУ за израелске досељенике",
+      "url": "https://www.politika.rs/scc/clanak/794485/belgija-zahteva-hitne-sankcije-eu-za-izraelske-doseljenike",
+      "published_at": "20261017T174500Z",
+      "source": "politika.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7b9297a2f93cf2b3",
+      "headline": "وزير الخارجية : القضية الفلسطينية أولوية لمصر وندعم وحدة السودان واليمن والصومال",
+      "url": "https://www.elwatannews.com/news/details/8378991",
+      "published_at": "20261017T133000Z",
+      "source": "elwatannews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_09f910fe2429956b",
+      "headline": "特朗普豁免针对俄罗斯新制裁关税 泽连斯基  遗憾",
+      "url": "https://www.wenxuecity.com/news/2026/10/17/126807442.html",
+      "published_at": "20261017T170000Z",
+      "source": "wenxuecity.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7fd3222aa4ab6590",
+      "headline": "Trump gegen neue Strafen für Moskau – Kiew enttäuscht",
+      "url": "http://www.come-on.de/politik/trump-gegen-neue-strafen-fuer-moskau-kiew-enttaeuscht-zr-94545680.html",
+      "published_at": "20261017T133000Z",
+      "source": "come-on.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1f12bae5200e537e",
+      "headline": "Венгрия призывает США продлить исключение ее из санкций на закупку нефти у РФ",
+      "url": "https://www.bfm.ru/news/621190",
+      "published_at": "20261017T190000Z",
+      "source": "bfm.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8f1cd7eb5a0b42e4",
+      "headline": "Zelenskyy believes united states will continue to lift sanctions against Russia",
+      "url": "https://en.interfax.com.ua/news/general/1221889.html",
+      "published_at": "20261017T144500Z",
+      "source": "en.interfax.com.ua",
+      "tags": [
+        "UNITED_STATES",
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "gdelt_1989f2ed6dcb87c8",
+      "headline": "Tramps aptur sankcijas pret Krieviju ; kā reaģē Zelenskis ?",
+      "url": "https://nra.lv/pasaule/532425-zelenskis-pauz-nozelu-par-trampa-lemumu-atteikties-no-sankciju-ieviesanas-pret-krieviju.htm",
+      "published_at": "20261017T170000Z",
+      "source": "nra.lv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e12ac018c42ec531",
+      "headline": "Дональд Трамп дал России понять , что она вышла на финишную прямую войны в Украине",
+      "url": "https://www.unian.net/world/donald-tramp-dal-rossii-ponyat-chto-ona-vyshla-na-finishnuyu-pryamuyu-voyny-v-ukraine-13531986.html",
+      "published_at": "20261017T161500Z",
+      "source": "unian.net",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_521e91c0e5d41c0c",
+      "headline": "Мадьяр призвал продлить исключение из санкций США на российскую нефть",
+      "url": "https://www.m24.ru/news/17102026/953867",
+      "published_at": "20261017T151500Z",
+      "source": "m24.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c3993f74c046fda1",
+      "headline": "Zelenski strahuje da bi posle dizela mogli da uslede američko - ruski dogovori o gasu",
+      "url": "https://informer.rs/planeta/vesti/1161605/volodimir-zelenski-amerika-rusija-gas",
+      "published_at": "20261017T163000Z",
+      "source": "informer.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9c9709f526d79e4a",
+      "headline": "Дизельная сделка Путина и Трампа стала новым фактором раскола в Европе",
+      "url": "https://ura.news/articles/1053136950",
+      "published_at": "20261017T161500Z",
+      "source": "ura.news",
+      "tags": []
+    },
+    {
+      "id": "gdelt_78b4578ae498398c",
+      "headline": "טראמפ הקפיא חבילת סנקציות נגד רוסיה ימים אחדים לפני כניסתה לתוקף",
+      "url": "https://www.themarker.com/hrtz/news/world/america/2026-10-17/ty-article/000001a1-48fb-de47-a5b5-fafb77650000",
+      "published_at": "20261017T133000Z",
+      "source": "themarker.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_efaa81f5e1b40ed3",
+      "headline": "Zelenski po odločitvi Trumpa o zadržanju sankcij proti Rusiji :  To bo opogumilo Putina .",
+      "url": "https://www.rtvslo.si/svet/s-in-j-amerika/zelenski-po-odlocitvi-trumpa-o-zadrzanju-sankcij-proti-rusiji-to-bo-opogumilo-putina/797206",
+      "published_at": "20261017T161500Z",
+      "source": "rtvslo.si",
+      "tags": []
+    },
+    {
+      "id": "gdelt_04b6c7c23e09dec3",
+      "headline": "وزير الخارجية يلتقي رئيس تيار الحكمة الوطني العراقي",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=17102026&id=7697695f-32b2-42a1-b9cf-edbe93ca8f7f",
+      "published_at": "20261017T163000Z",
+      "source": "shorouknews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f6eff977eb391ac0",
+      "headline": "На боці путіна : сенатор США Блюменталь розкритикував Трампа через санкції",
+      "url": "https://www.5.ua/svit/na-botsi-putina-senator-ssha-bliumental-rozkrytykuvav-trampa-cherez-sanktsii-384862.html",
+      "published_at": "20261017T144500Z",
+      "source": "5.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_be58d76282a97fc6",
+      "headline": "Trump Aligns the US with Russia as he Capitulates to Putin",
+      "url": "https://www.dailykos.com/stories/2026/10/17/800113827/community/trump-alines-the-us-with-putins-russia/",
+      "published_at": "20261017T183000Z",
+      "source": "dailykos.com",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "gdelt_5c5fe034126af4d9",
+      "headline": "Ukraine - Krieg : Trumps Aussetzung von Sanktionen : Parteiübergreifende Kritik",
+      "url": "https://www.stuttgarter-zeitung.de/politik/ukraine-krieg-trumps-aussetzung-von-sanktionen-parteiuebergreifende-kritik-79581776.html",
+      "published_at": "20261017T173000Z",
+      "source": "stuttgarter-zeitung.de",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_f812c9815938923d",
+      "headline": "Trump gegen neue Strafen für Moskau – Kiew enttäuscht",
+      "url": "https://www.wn.de/schlaglichter/trump-gegen-neue-strafen-fuer-moskau-kiew-enttaeuscht-3685577",
+      "published_at": "20261017T150000Z",
+      "source": "wn.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b644a4330165d738",
+      "headline": "Russia celebrates Trump sanctions waiver ; Ukraine warns it will encourage attacks",
+      "url": "https://www.wcvb.com/article/russia-celebrates-trumps-sanctions-waiver-ukraine-encourage-attacks/74166352",
+      "published_at": "20261017T144500Z",
+      "source": "wcvb.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3bda7b2093e1e74f",
+      "headline": "« У Трампа , скорее всего , останутся возможности договариваться в обход давления конгресса » Дудаков о перспективах санкций против РФ",
+      "url": "https://www.bfm.ru/news/621185",
+      "published_at": "20261017T190000Z",
+      "source": "bfm.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2eeb6ade7f211982",
+      "headline": "Трамп отменил ключевые санкции против России до их вступления | MigNews - Новости Израиля и Мира на русском языке",
+      "url": "http://mignews.com/news/politic/tramp-otmenil-klyuchevye-sankcii-protiv-rossii-do-ih-vstupleniya.html",
+      "published_at": "20261017T174500Z",
+      "source": "mignews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a3232e92ebc97aa9",
+      "headline": "Трамп отменил ключевые санкции против России до их вступления | MigNews - Новости Израиля и Мира на русском языке",
+      "url": "https://mignews.com/news/politic/tramp-otmenil-klyuchevye-sankcii-protiv-rossii-do-ih-vstupleniya.html",
+      "published_at": "20261017T174500Z",
+      "source": "mignews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_54992c8c0d244f07",
+      "headline": "السعودية والأمن العربي | كتاب عمون | وكالة عمون الاخبارية",
+      "url": "https://www.ammonnews.net/article/1037412",
+      "published_at": "20261017T173000Z",
+      "source": "ammonnews.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e7346631755334f1",
+      "headline": "Ukraine - Krieg : Trumps Aussetzung von Sanktionen : Parteiübergreifende Kritik",
+      "url": "https://www.stuttgarter-nachrichten.de/politik/ukraine-krieg-trumps-aussetzung-von-sanktionen-parteiuebergreifende-kritik-79581776.html",
+      "published_at": "20261017T174500Z",
+      "source": "stuttgarter-nachrichten.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_95fb96385960c1a4",
+      "headline": "Zelenski : Moguć sastanak Ukrajine , SAD i Rusije na G20 ; Moskva : Istorijska odluka Trampa o sankcijama",
+      "url": "https://naslovi.net/2026-10-17/rts/zelenski-moguc-sastanak-ukrajine-sad-i-rusije-na-g20-moskva-istorijska-odluka-trampa-o-sankcijama/42496675",
+      "published_at": "20261017T153000Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0ddb7e646a1b8778",
+      "headline": "Russia celebrates Trump sanctions waiver ; Ukraine warns it will encourage attacks",
+      "url": "https://www.koat.com/article/russia-celebrates-trumps-sanctions-waiver-ukraine-encourage-attacks/74166352",
+      "published_at": "20261017T153000Z",
+      "source": "koat.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4094bcf9fc85170f",
+      "headline": "« Дизельная дипломатия » России и США ставит европейских глобалистов в неловкое положение Фонд стратегической культуры",
+      "url": "https://fondsk.ru/news/2026/10/17/dizelnaya-diplomatiya-rossii-i-ssha-stavit-evropeyskikh-globalistov-v-nelovkoe",
+      "published_at": "20261017T150000Z",
+      "source": "fondsk.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9c7586132b6569de",
+      "headline": "特朗普总统豁免针对俄罗斯的新的制裁和关税 ， 泽连斯基对此表示  遗憾",
+      "url": "https://www.voachinese.com/a/trump-waives-key-russia-sanctions-tariffs-before-they-take-effect-under-new-law-20261017/8212284.html",
+      "published_at": "20261017T190000Z",
+      "source": "voachinese.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_915a041e7271f5d6",
+      "headline": "Russia celebrates Trump sanctions waiver ; Ukraine warns it will encourage attacks",
+      "url": "https://www.wxii12.com/article/russia-celebrates-trumps-sanctions-waiver-ukraine-encourage-attacks/74166352",
+      "published_at": "20261017T153000Z",
+      "source": "wxii12.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e35a38f252e4363d",
+      "headline": "Зеленський : Путін продовжить ескалацію і хоче знищення України",
+      "url": "https://espreso.tv/viyna-z-rosiyeyu-yomu-kapitulyatsii-zamalo-vin-khoche-nashogo-znishchennya-zelenskiy-pro-te-chogo-putin-pragne-v-ukraini",
+      "published_at": "20261017T163000Z",
+      "source": "espreso.tv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2b7e554c0c211384",
+      "headline": "Russia celebrates Trump sanctions waiver ; Ukraine warns it will encourage attacks",
+      "url": "https://www.wmur.com/article/russia-celebrates-trumps-sanctions-waiver-ukraine-encourage-attacks/74166352",
+      "published_at": "20261017T173000Z",
+      "source": "wmur.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9389acb019c3eb67",
+      "headline": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "url": "https://www.the-star.co.ke/news/world/2026-10-17-trump-waives-several-russia-sanctions-as-row-with-zelensky-intensifies",
+      "published_at": "20261017T144500Z",
+      "source": "the-star.co.ke",
+      "tags": []
+    },
+    {
+      "id": "gdelt_861f978f9d44db36",
+      "headline": "Jöhet a szankciós áramszünet : ennek a fele sem tréfa - Donald Trump ezt megint jól elintézte ?",
+      "url": "https://www.penzcentrum.hu/vilag/20261017/johet-a-szankcios-aramszunet-ennek-a-fele-sem-trefa-donald-trump-ezt-megint-jol-elintezte-1207435",
+      "published_at": "20261017T161500Z",
+      "source": "penzcentrum.hu",
+      "tags": []
+    },
+    {
+      "id": "gdelt_eca14d7e3862c081",
+      "headline": "Wojna Rosji z Ukrainą . Zełeński : jeden z największych ataków na ukraińską energetykę",
+      "url": "https://www.rp.pl/konflikty-zbrojne/art45351411-rosja-przeprowadzila-jeden-z-najwiekszych-atakow-na-energetyke-ukrainy-a-usa-rezygnuja-z-sankcji",
+      "published_at": "20261017T133000Z",
+      "source": "rp.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_04ceeb5399bc49fc",
+      "headline": "Венгрия хочет сохранить исключение из санкций США по нефти",
+      "url": "https://www.vesti.ru/ns/vengriya-khochet-sokhranit-isklyuchenie-iz-sankcij-ssha-po-nefti",
+      "published_at": "20261017T153000Z",
+      "source": "vesti.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0896c01a7bd4ab25",
+      "headline": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold",
+      "url": "https://www.houstonpublicmedia.org/npr/2026/10/17/nx-s1-6006745/zelenskyy-urges-support-for-new-us-sanctions-on-russia-after-trump-puts-them-on-hold/",
+      "published_at": "20261017T161500Z",
+      "source": "houstonpublicmedia.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_700edeaccbf7b0f4",
+      "headline": "Russia celebrates Trump sanctions waiver ; Ukraine warns it will encourage attacks",
+      "url": "https://www.kcci.com/article/russia-celebrates-trumps-sanctions-waiver-ukraine-encourage-attacks/74166352",
+      "published_at": "20261017T133000Z",
+      "source": "kcci.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c9af4f7efd439436",
+      "headline": "Trump gegen neue Strafen für Moskau – Kiew enttäuscht",
+      "url": "https://www.westfalen-blatt.de/ueberregional/nachrichten/themen-des-tages/trump-gegen-neue-strafen-fuer-moskau-kiew-enttaeuscht-3685577",
+      "published_at": "20261017T153000Z",
+      "source": "westfalen-blatt.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_432e918eef76ce25",
+      "headline": "Ukraine - Krieg : Trumps Aussetzung von Sanktionen : Parteiübergreifende Kritik",
+      "url": "https://www.lr-online.de/nachrichten/politik/ukraine-krieg-trumps-aussetzung-von-sanktionen-parteiuebergreifende-kritik-79581776.html",
+      "published_at": "20261017T164500Z",
+      "source": "lr-online.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ab14a827604c8238",
+      "headline": "Russia celebrates Trump sanctions waiver ; Ukraine warns it will encourage attacks",
+      "url": "https://www.kcra.com/article/russia-celebrates-trumps-sanctions-waiver-ukraine-encourage-attacks/74166352",
+      "published_at": "20261017T134500Z",
+      "source": "kcra.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3d69f41c7b514506",
+      "headline": "Ζελένσκι κατά Τραμπ για την αναστολή των κυρώσεων στη Ρωσίας :  Ενθαρρύνει ...",
+      "url": "https://www.thetoc.gr/diethni/article/zelenski-kata-tramp-gia-tin-anastoli-ton-kuroseon-sti-rosias-entharrunei-ton-poutin-na-sunexisei-tin-epithesi/",
+      "published_at": "20261017T133000Z",
+      "source": "thetoc.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5a7f90f5993e7ed8",
+      "headline": "Мадьяр обратился с просьбой к США после сделки с Россией",
+      "url": "https://ria.ru/20261017/madyar-2125144346.html",
+      "published_at": "20261017T144500Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9e7a00ecfb0365ac",
+      "headline": "Trump Gives Putin Another Big Wet Kiss",
+      "url": "https://crooksandliars.com/2026/10/trump-gives-putin-another-big-wet-kiss",
+      "published_at": "20261017T163000Z",
+      "source": "crooksandliars.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_336a1264405eb1c2",
+      "headline": "Koskiselta kipakkaa kritiikkiä Trumpille :  Vaikeuksia erottaa oikea vrästä",
+      "url": "https://www.is.fi/politiikka/art-2000012349386.html",
+      "published_at": "20261017T153000Z",
+      "source": "is.fi",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ed241d37ad5cfc6b",
+      "headline": "Ukraine - Krieg : Trump gegen neue Strafen für Moskau – Kiew enttäuscht",
+      "url": "https://www.volksstimme.de/deutschland-und-welt/politik/trump-gegen-neue-strafen-fur-moskau-kiew-enttauscht-4340428",
+      "published_at": "20261017T153000Z",
+      "source": "volksstimme.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6c8037a88aabc109",
+      "headline": "Венгрия попросила США продлить исключение из санкций на российскую нефть",
+      "url": "https://expert.ru/news/vengriya-poprosila-ssha-prodlit-isklyuchenie-iz-sanktsiy-na-rossiyskuyu-neft",
+      "published_at": "20261017T190000Z",
+      "source": "expert.ru",
+      "tags": []
     }
   ]
 }
