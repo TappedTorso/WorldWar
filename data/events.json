@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-18T00:02:38Z",
+    "generated_at_utc": "2026-10-18T04:26:43Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -21,13 +21,13 @@
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 11,
+        "fetched": 13,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 27,
-            "kept": 3
+            "items": 28,
+            "kept": 4
           },
           {
             "outlet": "Al Jazeera",
@@ -39,13 +39,13 @@
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 2
+            "kept": 3
           }
         ]
       }
     ],
-    "fetched_articles": 11,
-    "previous_event_count": 120,
+    "fetched_articles": 13,
+    "previous_event_count": 11,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -59,10 +59,18 @@
   },
   "events": [
     {
+      "id": "rss_6151db42404b0660",
+      "headline": "Deadly fire breaks out at Canada military base",
+      "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-18T04:00:50Z",
+      "source": "BBC News",
+      "tags": []
+    },
+    {
       "id": "rss_2c4d10c74676551c",
       "headline": "Trump waives several Russia sanctions as row with Zelensky intensifies",
       "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-17T19:19:19Z",
+      "published_at": "2026-10-18T01:10:25Z",
       "source": "BBC News",
       "tags": [
         "RUSSIA"
@@ -87,8 +95,18 @@
       ]
     },
     {
-      "id": "rss_6ab9fe55f99e58c2",
-      "headline": "Iran war live: Tankers hit in Hormuz; Israeli settlers attack EU diplomats",
+      "id": "rss_82f33a4fcfa2d219",
+      "headline": "Saudi-led forces try to break Houthi siege of Taiz with airstrikes",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/saudi-led-forces-try-to-break-houthi-siege-of-taiz-with-airstrikes?traffic_source=rss",
+      "published_at": "2026-10-18T01:12:44Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "SAUDI_ARABIA"
+      ]
+    },
+    {
+      "id": "rss_6447a77465f6999c",
+      "headline": "Iran war live: Israeli settlers attack EU diplomats; drones target Riyadh",
       "url": "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tankers-hit-in-hormuz-israeli-settlers-attack-eu-diplomats?traffic_source=rss",
       "published_at": "2026-10-18T00:00:11Z",
       "source": "Al Jazeera",
@@ -135,11 +153,11 @@
       "tags": []
     },
     {
-      "id": "rss_8470013e3ccae079",
-      "headline": "Trump faces bipartisan backlash over Russia sanctions waiver",
-      "url": "https://www.aljazeera.com/news/2026/10/17/trump-faces-bipartisan-backlash-over-russia-sanctions-waiver?traffic_source=rss",
-      "published_at": "2026-10-17T17:24:07Z",
-      "source": "Al Jazeera",
+      "id": "rss_f0c45892acee0d95",
+      "headline": "Rubio says Trump to 'analyze' global impact of Russia sanctions during pause",
+      "url": "https://www.france24.com/en/americas/20261018-rubio-says-trump-russia-sanctions-waiver-designed-to-analyze-global-impact",
+      "published_at": "2026-10-18T02:39:29Z",
+      "source": "France 24",
       "tags": [
         "RUSSIA"
       ]
@@ -161,7 +179,9 @@
       "url": "https://www.france24.com/en/video/20261017-russia-hails-trump-waiving-sanctions-as-historic",
       "published_at": "2026-10-17T10:41:22Z",
       "source": "France 24",
-      "tags": []
+      "tags": [
+        "RUSSIA"
+      ]
     }
   ]
 }
