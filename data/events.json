@@ -1,24 +1,50 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-18T20:37:35Z",
-    "provider": "GDELT_DOC_API",
-    "status": "partial",
+    "generated_at_utc": "2026-10-18T23:09:24Z",
+    "provider": "RSS_FALLBACK",
+    "status": "ok-fallback",
     "timespan": "6h",
     "max_events": 120,
     "streams": [
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "tripwire",
+        "status": "error",
+        "error": "rate_limited status=429",
+        "fetched": 0
+      },
+      {
+        "name": "rss_fallback",
         "status": "ok",
-        "fetched": 120
+        "fetched": 15,
+        "feeds": [
+          {
+            "outlet": "BBC News",
+            "status": "ok",
+            "items": 28,
+            "kept": 5
+          },
+          {
+            "outlet": "Al Jazeera",
+            "status": "ok",
+            "items": 25,
+            "kept": 4
+          },
+          {
+            "outlet": "France 24",
+            "status": "ok",
+            "items": 24,
+            "kept": 6
+          }
+        ]
       }
     ],
-    "fetched_articles": 120,
+    "fetched_articles": 15,
     "previous_event_count": 120,
     "tagging": {
       "method": "string_match",
@@ -33,1002 +59,149 @@
   },
   "events": [
     {
-      "id": "gdelt_a4610250e228aa51",
-      "headline": "Дизель разгоняет рынок",
-      "url": "https://www.kommersant.ru/doc/9041406",
-      "published_at": "20261018T151500Z",
-      "source": "kommersant.ru",
+      "id": "rss_588b623be4589bb2",
+      "headline": "What we know so far about deadly fire at Canadian military base",
+      "url": "https://www.bbc.co.uk/news/articles/cmgelrq8x92do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-18T21:37:56Z",
+      "source": "BBC News",
       "tags": []
     },
     {
-      "id": "gdelt_e02d07f5972b444f",
-      "headline": "Заявление Путина в военной форме о зоне безопасности напугало Италию",
-      "url": "https://www.amic.ru/news/zayavlenie-putina-v-voennoy-forme-o-zone-bezopasnosti-napugalo-italiyu-594836",
-      "published_at": "20261018T153000Z",
-      "source": "amic.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fe7554456a0e00de",
-      "headline": "Jerebu : Malaysia kekal sedia bantu Indonesia tangani kebakaran hutan - Anwar",
-      "url": "https://www.sinarharian.com.my/article/800969/berita/nasional/jerebu-malaysia-kekal-sedia-bantu-indonesia-tangani-kebakaran-hutan---anwar",
-      "published_at": "20261018T191500Z",
-      "source": "sinarharian.com.my",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a8090771e4aa7b2d",
-      "headline": "Singapore Crypto Economy Reaches $284B on Institutional Growth",
-      "url": "https://cointelegraph.com/news/singapore-crypto-economy-284b-institutional-activity-chainalysis?t=Singapore%20crypto%20activity%20grows%2055%%20as%20broader%20region%20contracts&fnp_t=1792341598.ada58f5359eb87ba",
-      "published_at": "20261018T173000Z",
-      "source": "cointelegraph.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ac5fcf4ee554ecd8",
-      "headline": "Belgium consul general in Jerusalem calls Israeli occupier attack on diplomats  new escalation",
-      "url": "https://aa.com.tr/en/europe/belgium-s-consul-general-in-jerusalem-calls-israeli-occupier-attack-on-diplomats-new-escalation-/4092728",
-      "published_at": "20261018T160000Z",
-      "source": "aa.com.tr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_659f515552c4060c",
-      "headline": "حاكم كاليفورنيا يدعو لفرض شروط على المساعدات العسكرية الأمريكية لإسرائيل",
-      "url": "https://www.aljazeera.net/news/2026/10/18/%D8%AD%D8%A7%D9%83%D9%85-%D9%83%D8%A7%D9%84%D9%8A%D9%81%D9%88%D8%B1%D9%86%D9%8A%D8%A7-%D9%8A%D8%AF%D8%B9%D9%88-%D9%84%D9%81%D8%B1%D8%B6-%D8%B4%D8%B1%D9%88%D8%B7-%D8%B9%D9%84%D9%89",
-      "published_at": "20261018T183000Z",
-      "source": "aljazeera.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8ef08cb5a3480f27",
-      "headline": "ESDIAC secures licence to operate in Nigeria data market",
-      "url": "https://www.premiumtimesng.com/promoted/918043-esdiac-secures-licence-to-operate-in-nigerias-data-market.html",
-      "published_at": "20261018T160000Z",
-      "source": "premiumtimesng.com",
-      "tags": [
-        "NIGERIA"
-      ]
-    },
-    {
-      "id": "gdelt_f14994670215b6a8",
-      "headline": "Інцидент на Дністрі : прикордонників повернули , але доля порушника лишається невідомою",
-      "url": "https://www.bagnet.org/news/world/1404695/intsident-na-dnistri-prikordonnikiv-povernuli-ale-dolya-porushnika-lishaetsya-nevidomoyu",
-      "published_at": "20261018T174500Z",
-      "source": "bagnet.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a282df9e345b57e9",
-      "headline": "Ответ за Петербург и Москву сотряс Киев : главная новость СВО 18 октября",
-      "url": "https://aif.ru/society/otvet-za-peterburg-i-moskvu-sotryas-kiev-glavnaya-novost-svo-18-oktyabrya",
-      "published_at": "20261018T174500Z",
-      "source": "aif.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_55ad54731a91e631",
-      "headline": "SA BMA launches its newest digital security initiative",
-      "url": "https://www.channelafrica.co.za/channelafrica/news/sas-bma-launches-its-newest-digital-security-initiative/",
-      "published_at": "20261018T173000Z",
-      "source": "channelafrica.co.za",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b1defe7673cc7577",
-      "headline": "Lažne kineske i brazilske policijske stanice : BBC ušao u nekadašnji centar za prevare",
-      "url": "https://www.danas.rs/bbc-news-serbian/lazne-kineske-i-brazilske-policijske-stanice-bbc-usao-u-nekadasnji-centar-za-prevare/",
-      "published_at": "20261018T174500Z",
-      "source": "danas.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a3bda2eb0eaf2773",
-      "headline": "Egypt je pripravený pomôcť Saudskej Arábii , parlament bude rokovať o vojenskej podpore pre Rijád",
-      "url": "https://hnonline.sk/svet/96308519-egypt-je-pripraveny-pomoct-saudskej-arabii-parlament-bude-rokovat-o-vojenskej-podpore-pre-rijad",
-      "published_at": "20261018T173000Z",
-      "source": "hnonline.sk",
-      "tags": [
-        "EGYPT"
-      ]
-    },
-    {
-      "id": "gdelt_41d61e897002e3d7",
-      "headline": "Молдова повернула Україні двох затриманих на Дністрі прикордонників",
-      "url": "https://gordonua.com/ukr/section-worldnews/news-moldova-povernula-ukrayini-dvokh-zatrymanykh-na-dnistri-prykordonnykiv-18-10-2026.html",
-      "published_at": "20261018T184500Z",
-      "source": "gordonua.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_666d507abb3da05c",
-      "headline": "Lažne kineske i brazilske policijske stanice : BBC ušao u nekadašnji centar za prevare",
-      "url": "https://www.021.rs/bbc/bbc/458493/lazne-kineske-i-brazilske-policijske-stanice-bbc-usao-u-nekadasnji-centar-za-prevare",
-      "published_at": "20261018T183000Z",
-      "source": "021.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f40720efd638d309",
-      "headline": "Репик счел катастрофой повышение налога на прибыль для всех",
-      "url": "https://vm.ru/news/1367269-repik-schel-katastrofoj-povyshenie-naloga-na-pribyl-dlya-vseh",
-      "published_at": "20261018T160000Z",
-      "source": "vm.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8d9f86893c83f02a",
-      "headline": "Очереди из грузовиков на границе Польши с Украиной достигли десятков километров",
-      "url": "https://monavista.ru/1/4884505-ocheredi-iz-gruzovikov-na-granice-polshi-s-ukrainoy-dostigli-desyatkov-kilometrov.html",
-      "published_at": "20261018T181500Z",
-      "source": "monavista.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7f30c5c7c1cec9c7",
-      "headline": "Lažne kineske i brazilske policijske stanice : BBC ušao u nekadašnji centar za prevare",
-      "url": "https://www.blic.rs/bbc/lazne-kineske-i-brazilske-policijske-stanice-bbc-usao-u-nekadasnji-centar-za-prevare/y1537p0",
-      "published_at": "20261018T183000Z",
-      "source": "blic.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6fe3c519b0fbcb8a",
-      "headline": "今年前三季度全国铁路发送旅客超37亿人次",
-      "url": "https://china.qianlong.com/2026/1019/8739953.shtml",
-      "published_at": "20261018T184500Z",
-      "source": "china.qianlong.com",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
-      "id": "gdelt_769a3b6c6e3a60eb",
-      "headline": "Canton Fair Opened Buyers Alliance With 58 Firms on Oct . 15",
-      "url": "https://econotimes.com/Canton-Fair-Opened-Buyers-Alliance-With-58-Firms-on-Oct-15-1756159",
-      "published_at": "20261018T181500Z",
-      "source": "econotimes.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fbb049f531b9c16d",
-      "headline": "Више од 230 . 000 људи расељено због ескалације сукоба у Јемену",
-      "url": "https://www.politika.rs/scc/clanak/794698/vise-od-230-000-ljudi-raseljeno-zbog-eskalacije-sukoba-u-jemenu",
-      "published_at": "20261018T153000Z",
-      "source": "politika.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_71f82f605942579f",
-      "headline": "В горах Румынии спасли двух украинцев после пяти дней пути",
-      "url": "https://life.ru/p/v-gorah-rumynii-spasli-dvuh-ukraintsev-posle-pyati-dney-puti",
-      "published_at": "20261018T191500Z",
-      "source": "life.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_217addf61ad7df43",
-      "headline": "川普施压 、 星盾失灵 若无美国基辅能撑下去吗 ？",
-      "url": "https://www.wenxuecity.com/news/2026/10/18/126808374.html",
-      "published_at": "20261018T161500Z",
-      "source": "wenxuecity.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a63494e8d7fd9e28",
-      "headline": "Artesanía piurana deslumbra en Encuentro Transfronterizo en Ecuador",
-      "url": "https://diariocorreo.pe/cultura/artesania-piurana-deslumbra-en-encuentro-transfronterizo-en-ecuador-noticia/",
-      "published_at": "20261018T160000Z",
-      "source": "diariocorreo.pe",
-      "tags": [
-        "ECUADOR"
-      ]
-    },
-    {
-      "id": "gdelt_8958537d75c424b0",
-      "headline": "Наки намекнул , на что способна пойти Украина , если Путин не остановит ракетный террор",
-      "url": "https://www.dialog.ua/blogs/naki-nameknul-na-chto-sposobna-poyti-ukraina-esli-putin-ne.html",
-      "published_at": "20261018T191500Z",
-      "source": "dialog.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b535f5a72fe057aa",
-      "headline": "Египет готов поддержать Саудовскую Аравию в обеспечении безопасности",
-      "url": "https://rg.ru/2026/10/18/egipet-gotov-podderzhat-saudovskuiu-araviiu-v-obespechenii-bezopasnosti.html",
-      "published_at": "20261018T174500Z",
-      "source": "rg.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8927d96be377c358",
-      "headline": "Бахрейн сказал , в каком случае возможен диалог арабских стран с Ираном",
-      "url": "https://www.mk.ru/politics/2026/10/18/bakhreyn-skazal-v-kakom-sluchae-vozmozhen-dialog-arabskikh-stran-s-iranom.html",
-      "published_at": "20261018T183000Z",
-      "source": "mk.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fbe4b3fd3540afc9",
-      "headline": "الأردن والإمارات يبحثان جهود إنهاء التصعيد واستعادة الهدوء | شرق وغرب",
-      "url": "https://www.ammonnews.net/article/1037702",
-      "published_at": "20261018T183000Z",
-      "source": "ammonnews.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_acd603db3faab7ec",
-      "headline": "Туск попередив про диверсії та можливу ескалацію з боку рф до Різдва",
-      "url": "http://internetua.com/tusk-poperediv-pro-diversiyi-ta-mojlivu-eskalaciua-z-boku-rosiyi-do-rizdva",
-      "published_at": "20261018T190000Z",
-      "source": "internetua.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_806b572bea8fad7c",
-      "headline": "Nepal - origin charas seized in Muzaffarpur , two held",
-      "url": "https://timesofindia.indiatimes.com/city/patna/nepal-origin-charas-seized-in-muzaffarpur-two-held/articleshow/135031932.cms",
-      "published_at": "20261018T171500Z",
-      "source": "timesofindia.indiatimes.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a1f4b868055f171b",
-      "headline": "سريع : غارات العدوان السعودي على اليمن منذ بدء التصعيد بلغت 2652 غارة – قناة المنار",
-      "url": "https://www.almanar.com.lb/article/1273667/",
-      "published_at": "20261018T181500Z",
-      "source": "almanar.com.lb",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6763ef5c53159143",
-      "headline": "أيمن الرقب : اعتداءات المستوطنين تهدد فرص إقامة دولة فلسطينية مستقلة",
-      "url": "https://www.dostor.org/5744024",
-      "published_at": "20261018T171500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8a12ac7f0a007b52",
-      "headline": "سيد مكاوي : خطورة جمود الصراع الأمريكي الإيراني تكمن في انتقال تداعياته إلى اليمن",
-      "url": "https://www.dostor.org/5744004",
-      "published_at": "20261018T180000Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a4d34e10cc100a3c",
-      "headline": "Последний пакет санкций ЕС против России перед выборами во Франции - 18 октября 2026",
-      "url": "https://www.fontanka.ru/2026/10/18/76709217/",
-      "published_at": "20261018T184500Z",
-      "source": "fontanka.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_df8b16c049d9aa77",
-      "headline": "דריכות בצה  ל : עוצר יציאות ביום הבחירות",
-      "url": "https://www.inn.co.il/news/708759",
-      "published_at": "20261018T164500Z",
-      "source": "inn.co.il",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2cdd51dcff5583fe",
-      "headline": "موقع بكرا - الصفدي وبن فرحان يبحثان خفض التصعيد ويؤكدان التضامن الأردني السعودي",
-      "url": "https://bokra.net/Article-1606006",
-      "published_at": "20261018T184500Z",
-      "source": "bokra.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c2746a78b7a51311",
-      "headline": "Встреча АТЭС с открытым и инновационным Шэньчжэнем",
-      "url": "https://rg.ru/2026/10/18/vstrecha-ates-s-otkrytym-i-innovacionnym-shenchzhenem.html",
-      "published_at": "20261018T174500Z",
-      "source": "rg.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b5ee641bb7ad37c6",
-      "headline": "رسميًا .. الرئاسة المصرية تعلن تقديم كل أشكال الدعم اللازمة للسعودية لـ  الدفاع عن أمنها واستقرارها  – كتابات",
-      "url": "https://kitabat.com/news/%D8%B1%D8%B3%D9%85%D9%8A%D9%8B%D8%A7-%D8%A7%D9%84%D8%B1%D8%A6%D8%A7%D8%B3%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9-%D8%AA%D8%B9%D9%84%D9%86-%D8%AA%D9%82%D8%AF%D9%8A%D9%85-%D9%83%D9%84-%D8%A3/",
-      "published_at": "20261018T180000Z",
-      "source": "kitabat.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cfc577b63d3b13fe",
-      "headline": "Henry Winkler , américain dorigine allemande : il raconte comment son père a sauvé la vie de sa famille face aux nazis",
-      "url": "https://www.voici.fr/celebrites/henry-winkler-americain-d-origine-allemande-il-raconte-comment-son-pere-a-sauve-la-vie-de-sa-famille-face-aux-nazis-830283",
-      "published_at": "20261018T190000Z",
-      "source": "voici.fr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8807b08332192bc4",
-      "headline": "Бесент : Европа је дала Русији више новца него Украјини и наставља да троши руске енергенте",
-      "url": "https://www.politika.rs/scc/clanak/794723/besent-evropa-je-dala-rusiji-vise-novca-nego-ukrajini-i-nastavlja-da-trosi-ruske-energente",
-      "published_at": "20261018T174500Z",
-      "source": "politika.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_af177ffbb08ba21e",
-      "headline": "قانون الخدمة المدنية .. مدد محو الجزاءات التأديبية للموظفين",
-      "url": "https://www.dostor.org/5743911",
-      "published_at": "20261018T161500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f7104115316df2d2",
-      "headline": "Republicans break ranks with Trump over Russia sanctions waiver :  Terrible misjudgment",
-      "url": "https://www.fox4news.com/news/republicans-break-ranks-trump-over-russia-sanctions-waiver-terrible-misjudgment",
-      "published_at": "20261018T173000Z",
-      "source": "fox4news.com",
+      "id": "rss_1dcc973aa20b7ef6",
+      "headline": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
+      "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-18T22:10:45Z",
+      "source": "BBC News",
       "tags": [
         "RUSSIA"
       ]
     },
     {
-      "id": "gdelt_8bbe7bd8d398e457",
-      "headline": "Saudi Arabia lifts warnings for southern , southwestern areas",
-      "url": "https://aa.com.tr/en/middle-east/saudi-arabia-lifts-warnings-for-southern-southwestern-areas/4092611",
-      "published_at": "20261018T160000Z",
-      "source": "aa.com.tr",
+      "id": "rss_2c4d10c74676551c",
+      "headline": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-18T01:10:25Z",
+      "source": "BBC News",
       "tags": [
-        "SAUDI_ARABIA"
+        "RUSSIA"
       ]
     },
     {
-      "id": "gdelt_5462a466d81ecef2",
-      "headline": "عاجل . - بعد طلب السيسي تفويضًا لتقديم دعم دفاعي للسعودية .. البرلمان المصري يؤجّل التصويت على المقترح",
-      "url": "https://arabic.euronews.com/2026/10/18/egyptian-parliament-postpones-vote-on-providing-defense-support-to-saudi-arabia",
-      "published_at": "20261018T173000Z",
-      "source": "arabic.euronews.com",
+      "id": "rss_760b8f7af5094c62",
+      "headline": "Teacher fought US school attacker before armed dad shot suspect 'multiple times'",
+      "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-17T09:58:17Z",
+      "source": "BBC News",
+      "tags": []
+    },
+    {
+      "id": "rss_6e271a0c9f48f902",
+      "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
+      "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-16T16:00:30Z",
+      "source": "BBC News",
       "tags": [
-        "SAUDI_ARABIA"
+        "RUSSIA"
       ]
     },
     {
-      "id": "gdelt_162a4cd1b22649a3",
-      "headline": "طائرتان لسلاح الجو المصري في أجواء السعودية بعد قرار الدعم الدفاعي",
-      "url": "https://www.aljazeera.net/news/2026/10/18/%D8%B7%D8%A7%D8%A6%D8%B1%D8%AA%D8%A7%D9%86-%D9%84%D8%B3%D9%84%D8%A7%D8%AD-%D8%A7%D9%84%D8%AC%D9%88-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D9%81%D9%8A-%D8%A3%D8%AC%D9%88%D8%A7%D8%A1",
-      "published_at": "20261018T171500Z",
-      "source": "aljazeera.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9f6b427503b2f1f4",
-      "headline": "СМИ раскрыли замысел ЕС с санкциями против России из - за Ле Пен",
-      "url": "https://lenta.ru/news/2026/10/18/smi-raskryli-zamysel-es-s-sanktsiyami-protiv-rossii-iz-za-le-pen/",
-      "published_at": "20261018T154500Z",
-      "source": "lenta.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6001d1d3fe218568",
-      "headline": "الخبير العسكري أسامة كبير : مساندة مصر للسعودية ذات طبيعة دفاعية",
-      "url": "https://www.elwatannews.com/news/details/8379716",
-      "published_at": "20261018T164500Z",
-      "source": "elwatannews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6f5071c127d2cbf0",
-      "headline": "Russia Ukraine War : US says Europe refused to join push for tariffs on India , China over Russian oil",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/us-says-europe-refused-to-join-push-for-tariffs-on-india-china-over-russian-oil/articleshow/135033241.cms",
-      "published_at": "20261018T184500Z",
-      "source": "timesofindia.indiatimes.com",
+      "id": "rss_88f10311b2367d97",
+      "headline": "Russia’s war on Ukraine ‘must be brought to an end’, Zelenskyy says",
+      "url": "https://www.aljazeera.com/news/2026/10/18/russias-war-on-ukraine-must-be-brought-to-an-end-zelenskyy-says?traffic_source=rss",
+      "published_at": "2026-10-18T19:11:27Z",
+      "source": "Al Jazeera",
       "tags": [
         "RUSSIA",
-        "UKRAINE",
-        "CHINA",
-        "INDIA"
+        "UKRAINE"
       ]
     },
     {
-      "id": "gdelt_087614faf43b5fc9",
-      "headline": "Waiver 60 - day pause ; Europe refused to sanction China , India over Russia oil , says US",
-      "url": "https://economictimes.indiatimes.com/news/india/waiver-60-day-pause-europe-refused-to-sanction-china-india-over-russia-oil-us/articleshow/135031953.cms",
-      "published_at": "20261018T173000Z",
-      "source": "economictimes.indiatimes.com",
+      "id": "rss_89f48b3ea2f3941f",
+      "headline": "Why the US is holding secret talks with Myanmar’s military ruler",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/why-the-us-is-holding-secret-talks-with-myanmars-military-ruler?traffic_source=rss",
+      "published_at": "2026-10-18T18:22:11Z",
+      "source": "Al Jazeera",
       "tags": [
-        "RUSSIA",
-        "CHINA",
-        "INDIA"
+        "MYANMAR"
       ]
     },
     {
-      "id": "gdelt_92d115be87acfc1a",
-      "headline": "Wojciechowicz odpowiedział Ficie , dlaczego remont rynku był zasadny właśnie teraz • Racibórz",
-      "url": "https://www.nowiny.pl/wiadomosci/251582-wojciechowicz-odpowiedzial-ficie-dlaczego-remont-rynku-byl-zasadny-wlasnie-teraz.html",
-      "published_at": "20261018T184500Z",
-      "source": "nowiny.pl",
+      "id": "rss_928398e17bdec499",
+      "headline": "Residents recount drone strikes in Ethiopia’s northern Tigray region",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/residents-recount-drone-strikes-in-ethiopias-northern-tigray-region?traffic_source=rss",
+      "published_at": "2026-10-18T17:20:20Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "ETHIOPIA"
+      ]
+    },
+    {
+      "id": "rss_bebd0a3308827080",
+      "headline": "‘Hybrid warfare’: Taiwan drives away 16 Chinese ships",
+      "url": "https://www.aljazeera.com/news/2026/10/18/taiwan-drives-away-16-chinese-ships-accused-of-maritime-harassment?traffic_source=rss",
+      "published_at": "2026-10-18T16:25:52Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "TAIWAN"
+      ]
+    },
+    {
+      "id": "rss_944f85c13f2c2c63",
+      "headline": "Canadian military base fire kills at least four, injures dozens",
+      "url": "https://www.france24.com/en/americas/20261018-canada-military-base-fire-four-dead-39-hospitalised",
+      "published_at": "2026-10-18T22:16:51Z",
+      "source": "France 24",
       "tags": []
     },
     {
-      "id": "gdelt_04d2ada7df3585a0",
-      "headline": "Jak Donald Trump odwołał sankcje wobec Rosji ? Biały Dom tłumaczy , Kongres oburzony",
-      "url": "https://www.rp.pl/polityka/art45352421-ile-rosja-zyska-na-decyzji-donalda-trumpa-to-moga-byc-setki-miliardow-dolarow-na-wojne",
-      "published_at": "20261018T154500Z",
-      "source": "rp.pl",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8b532871008a1841",
-      "headline": "إصابة 6 أشخاص وأضرار في منازل ومركبات إثر سقوط مقذوف في نجران السعودية",
-      "url": "https://www.dostor.org/5743939",
-      "published_at": "20261018T161500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e8d0b992fa1e1f81",
-      "headline": "Trump Kaji Dampak Sanksi Russia di Tengah Gejolak Energi",
-      "url": "https://koran-jakarta.com/2026-10-19/trump-kaji-dampak-sanksi-russia-di-tengah-gejolak-energi",
-      "published_at": "20261018T184500Z",
-      "source": "koran-jakarta.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7194eb87594331c5",
-      "headline": "اليمن يرحب بإدانة الاتحاد الأوروبي استمرار التصعيد العسكري لميليشيا الحوثي",
-      "url": "https://sana.sy/international/2610453/",
-      "published_at": "20261018T160000Z",
-      "source": "sana.sy",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7c14c4b0fbe591ec",
-      "headline": "Republicans break ranks with Trump over Russia sanctions waiver :  Terrible misjudgment",
-      "url": "https://www.fox2detroit.com/news/republicans-break-ranks-trump-over-russia-sanctions-waiver-terrible-misjudgment",
-      "published_at": "20261018T174500Z",
-      "source": "fox2detroit.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8e8e624400c14498",
-      "headline": "Even Donald Trump Former Vice - President Says He Got It Wrong On Ukraine",
-      "url": "https://www.huffingtonpost.co.uk/entry/trumps-former-vice-president-wrong-ukrain_uk_6ad4d805e4b0dccf572c478f",
-      "published_at": "20261018T174500Z",
-      "source": "huffingtonpost.co.uk",
+      "id": "rss_f2ef85e6294b569c",
+      "headline": "Trump defends Russia sanctions relief, blasts Zelensky on peace",
+      "url": "https://www.france24.com/en/europe/20261018-ukraine-zelensky-war-trump-peace-russia-sanctions",
+      "published_at": "2026-10-18T21:59:34Z",
+      "source": "France 24",
       "tags": [
         "UKRAINE"
       ]
     },
     {
-      "id": "gdelt_5a037409286a85eb",
-      "headline": "Republicans break ranks with Trump over Russia sanctions waiver :  Terrible misjudgment",
-      "url": "https://www.fox5ny.com/news/republicans-break-ranks-trump-over-russia-sanctions-waiver-terrible-misjudgment",
-      "published_at": "20261018T151500Z",
-      "source": "fox5ny.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_43c631dbf499cf44",
-      "headline": "Republicans break ranks with Trump over Russia sanctions waiver :  Terrible misjudgment",
-      "url": "https://www.fox13news.com/news/republicans-break-ranks-trump-over-russia-sanctions-waiver-terrible-misjudgment",
-      "published_at": "20261018T154500Z",
-      "source": "fox13news.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ed0bf43a74a2ae57",
-      "headline": "Rubio verteidigt Aussetzung neuer Sanktionen gegen Russland",
-      "url": "https://www.wallstreet-online.de/nachricht/21542468-rubio-verteidigt-aussetzung-sanktionen-russland",
-      "published_at": "20261018T154500Z",
-      "source": "wallstreet-online.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7ccfb25c0fc7209c",
-      "headline": "بأكبر حشد عسكري .. تحركات صينية تثير القلق في المحيط الهادئ وأمريكا تعزز الردع",
-      "url": "https://www.elwatannews.com/news/details/8379693",
-      "published_at": "20261018T160000Z",
-      "source": "elwatannews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c4f177160bb6d55a",
-      "headline": "خبير العلاقات الدولية رامي عاشور : مصر ترفض الاعتداءات على السعودية وتحذر من مواجهة إقليمية",
-      "url": "https://www.elwatannews.com/news/details/8379786",
-      "published_at": "20261018T184500Z",
-      "source": "elwatannews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_140555e8969c3797",
-      "headline": "Trade to trust : India steps up neighbourhood play with economic support",
-      "url": "https://www.business-standard.com/external-affairs-defence-security/news/trade-to-trust-india-steps-up-neighbourhood-play-with-economic-support-126101800830_1.html",
-      "published_at": "20261018T191500Z",
-      "source": "business-standard.com",
+      "id": "rss_3b3a386c0bc06846",
+      "headline": "'Like we had a war': France left reeling after nationwide violent protests",
+      "url": "https://www.france24.com/en/france/20261018-like-we-had-a-war-france-left-reeling-after-nationwide-violent-protests",
+      "published_at": "2026-10-18T13:50:00Z",
+      "source": "France 24",
       "tags": [
-        "INDIA"
+        "FRANCE"
       ]
     },
     {
-      "id": "gdelt_15b3f8cd8d88720f",
-      "headline": "البحيرة .. تصعيد 17 مشروعا للمنافسة في مبادرة المشروعات الخضراء الذكية على مستوى الجمهورية",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=18102026&id=1d6601ab-34fb-4e14-9bb7-d5634b486b29",
-      "published_at": "20261018T180000Z",
-      "source": "shorouknews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c87260422a3f57d5",
-      "headline": "Trump ska utvärdera det uppskjutna sanktions­paketet mot Ryssland , säger utrikesminister Rubio | Utrikes",
-      "url": "https://yle.fi/a/7-10107144",
-      "published_at": "20261018T154500Z",
-      "source": "yle.fi",
-      "tags": []
-    },
-    {
-      "id": "gdelt_36edc6f372e99005",
-      "headline": "المحللة السياسية رتيبة النتشة : رفض إقامة دولة فلسطينية يتصدر مواقف المتنافسين في الانتخابات الإسرائيلية",
-      "url": "https://www.elwatannews.com/news/details/8379762",
-      "published_at": "20261018T174500Z",
-      "source": "elwatannews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_77fea9e2a3b47cbd",
-      "headline": "Republicans break ranks with Trump over Russia sanctions waiver :  Terrible misjudgment",
-      "url": "https://www.fox26houston.com/news/republicans-break-ranks-trump-over-russia-sanctions-waiver-terrible-misjudgment",
-      "published_at": "20261018T174500Z",
-      "source": "fox26houston.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8ee13174313f75b2",
-      "headline": "라이트 에너지장관 , 러 제재 면제에  전쟁 끝내기 위한 당근책",
-      "url": "http://www.koreatimes.com/article/20261018/1634272",
-      "published_at": "20261018T190000Z",
-      "source": "koreatimes.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_aef3d56780df962e",
-      "headline": "Rubio verteidigt Aussetzung neuer Sanktionen gegen Russland",
-      "url": "https://www.finanzen.net/nachricht/aktien/rubio-verteidigt-aussetzung-neuer-sanktionen-gegen-russland-15991457",
-      "published_at": "20261018T154500Z",
-      "source": "finanzen.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6394bb675c75ef05",
-      "headline": "Путин : Взятие Доброполья открывает прямую дорогу к выходу на границы ДНР",
-      "url": "https://rg.ru/2026/10/18/front-idet-vpered.html",
-      "published_at": "20261018T174500Z",
-      "source": "rg.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0cb4b94a5147a5ec",
-      "headline": "LIVE : Skenë  lufte , protestuesit  breshëri  fishekzjarrësh , policia avancon drejt tyre duke nxjerrë autobotin para",
-      "url": "https://www.botasot.info/shqiperia/2540293/live-skene-lufte-protestuesit-bresheri-fishekzjarresh-policia-avancon-drejt-tyre-duke-nxjerre-autobotin-para/",
-      "published_at": "20261018T173000Z",
-      "source": "botasot.info",
-      "tags": []
-    },
-    {
-      "id": "gdelt_499a6607318562d7",
-      "headline": "قتيلان و17 مصابًا في تصعيد روسي أوكراني يستهدف منشآت الطاقة والبنية التحتية",
-      "url": "https://www.dostor.org/5743956",
-      "published_at": "20261018T161500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1df1843646712d97",
-      "headline": "رتيبة النتشة : المجتمع الإسرائيلي يتجه نحو اليمين والتطرف السياسي منذ 10 سنوات",
-      "url": "https://www.dostor.org/5744042",
-      "published_at": "20261018T174500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c2242d0d9170819f",
-      "headline": "В ЕС допустили невозможность ввода санкции против РФ после февраля 2027 года",
-      "url": "https://www.vesti.ru/ns/v-es-dopustili-nevozmozhnost-vvoda-sankcii-protiv-rf-posle-fevralya-2027-goda",
-      "published_at": "20261018T174500Z",
-      "source": "vesti.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_904a1fefcdbcdff7",
-      "headline": "Экономисты предупредили об угрозе резкого роста цен в Израиле из - за санкций | MigNews - Новости Израиля и Мира на русском языке",
-      "url": "http://mignews.com/news/economics/ekonomisty-predupredili-ob-ugroze-rezkogo-rosta-cen-v-izraile-iz-za-sankcij.html",
-      "published_at": "20261018T154500Z",
-      "source": "mignews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c2e60c10eed574b6",
-      "headline": "Экономисты предупредили об угрозе резкого роста цен в Израиле из - за санкций | MigNews - Новости Израиля и Мира на русском языке",
-      "url": "https://mignews.com/news/economics/ekonomisty-predupredili-ob-ugroze-rezkogo-rosta-cen-v-izraile-iz-za-sankcij.html",
-      "published_at": "20261018T151500Z",
-      "source": "mignews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a40a7db089a4245f",
-      "headline": "متحدث « الخارجية »: مصر تسعى إلى خفض التصعيد واحتواء أزمات المنطقة",
-      "url": "https://www.elwatannews.com/news/details/8379682",
-      "published_at": "20261018T153000Z",
-      "source": "elwatannews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9e18ea3c27ac447e",
-      "headline": "Bessent big reveal :  I asked Europe to impose secondary tariffs on India , but they refused",
-      "url": "https://www.businesstoday.in/latest/economy/story/scott-bessents-big-reveal-i-asked-europe-to-impose-secondary-tariffs-on-india-but-they-refused-562319-2026-10-18",
-      "published_at": "20261018T181500Z",
-      "source": "businesstoday.in",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f6c8997a916ef528",
-      "headline": "Міністр оборони Італії не вірить в перемогу України у війні DSnews . ua",
-      "url": "https://www.dsnews.ua/ukr/world/ministr-oborony-italii-ne-verit-v-pobedu-ukrainy-v-voyne-18102026-469966",
-      "published_at": "20261018T183000Z",
-      "source": "dsnews.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_85a4a1bd7bca06a4",
-      "headline": "Selenskyj : united states liefern wieder Geheimdienstinformationen",
-      "url": "https://orf.at/stories/3445474/",
-      "published_at": "20261018T154500Z",
-      "source": "orf.at",
+      "id": "rss_d417bbd5b954dbe2",
+      "headline": "The week in pictures: Escalating protests across Europe and the tragic capsize of a migrant boat",
+      "url": "https://www.france24.com/en/france/20261018-the-week-in-pictures-escalating-protests-across-europe-and-the-tragic-capsize-of-a-migrant-boat",
+      "published_at": "2026-10-18T13:36:27Z",
+      "source": "France 24",
       "tags": [
-        "UNITED_STATES"
+        "FRANCE"
       ]
     },
     {
-      "id": "gdelt_04434bebbc1d0b13",
-      "headline": "Υεμένη : Πάνω από 230 χιλιάδες οι εκτοπισμένοι λόγω των συγκρούσεων",
-      "url": "https://www.in.gr/2026/10/18/world/yemeni-pano-apo-230-xiliades-oi-ektopismenoi-logo-ton-sygkrouseon/",
-      "published_at": "20261018T181500Z",
-      "source": "in.gr",
-      "tags": []
+      "id": "rss_ec3739c1b389a751",
+      "headline": "'Like we had a war': France counts cost of violent protests",
+      "url": "https://www.france24.com/en/video/20261018-like-we-had-a-war-france-counts-cost-of-violent-protests",
+      "published_at": "2026-10-18T13:17:58Z",
+      "source": "France 24",
+      "tags": [
+        "FRANCE"
+      ]
     },
     {
-      "id": "gdelt_223dcd02f1e5f4ad",
-      "headline": "Eksperts : Tramps , apturot sankciju likumu pret Krieviju , nodevis demokrātiju",
-      "url": "https://nra.lv/politika/532446-eksperts-tramps-apturot-sankciju-likumu-pret-krieviju-nostajas-autoritarisma-puse.htm",
-      "published_at": "20261018T183000Z",
-      "source": "nra.lv",
-      "tags": []
-    },
-    {
-      "id": "gdelt_011d43756d868341",
-      "headline": "Стратегический диалог в Манаме : как Россия выстраивает новую безопасность на Ближнем Востоке | Москва",
-      "url": "https://fedpress.ru/article/3456376",
-      "published_at": "20261018T191500Z",
-      "source": "fedpress.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5c0b5bdf46063150",
-      "headline": "دعم السعودية .. ما الجديد ؟!",
-      "url": "https://www.dostor.org/5743922",
-      "published_at": "20261018T161500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_851fc7a14466c0bd",
-      "headline": "سبتمبر نت - قبائل الحيمة الداخلية تعلن النكف والنفير العام لمواجهة التصعيد السعودي",
-      "url": "https://26sep.net/index.php/spotlight/137603-2y6b",
-      "published_at": "20261018T191500Z",
-      "source": "26sep.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3fae5633efa07feb",
-      "headline": "94 - ąjį gimtadienį mini pirmasis atkurtos Lietuvos valstybės vadovas Landsbergis",
-      "url": "https://www.lrt.lt/naujienos/lietuvoje/2/3086063/94-aji-gimtadieni-mini-pirmasis-atkurtos-lietuvos-valstybes-vadovas-landsbergis",
-      "published_at": "20261018T174500Z",
-      "source": "lrt.lt",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e6ace84f627b4845",
-      "headline": "White House Defends Diesel Export Deal With Russia",
-      "url": "https://wsfcam.iheart.com/content/2026-10-18-white-house-defends-diesel-export-deal-with-russia/",
-      "published_at": "20261018T183000Z",
-      "source": "wsfcam.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_175982e284db4ee0",
-      "headline": "White House Defends Diesel Export Deal With Russia | Twin Cities News Talk",
-      "url": "https://twincitiesnewstalk.iheart.com/content/2026-10-18-white-house-defends-diesel-export-deal-with-russia/",
-      "published_at": "20261018T183000Z",
-      "source": "twincitiesnewstalk.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_040e6a92276a83fc",
-      "headline": "White House Defends Diesel Export Deal With Russia",
-      "url": "https://ktsmradio.iheart.com/content/2026-10-18-white-house-defends-diesel-export-deal-with-russia/",
-      "published_at": "20261018T183000Z",
-      "source": "ktsmradio.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3d0095d7779f701a",
-      "headline": "White House Defends Diesel Export Deal With Russia",
-      "url": "https://720thevoice.iheart.com/content/2026-10-18-white-house-defends-diesel-export-deal-with-russia/",
-      "published_at": "20261018T184500Z",
-      "source": "720thevoice.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c52d885f9577ef33",
-      "headline": "White House Defends Diesel Export Deal With Russia | Newsradio WFLA Orlando",
-      "url": "https://wflaorlando.iheart.com/content/2026-10-18-white-house-defends-diesel-export-deal-with-russia/",
-      "published_at": "20261018T184500Z",
-      "source": "wflaorlando.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_907e73bd8f31b529",
-      "headline": "White House Defends Diesel Export Deal With Russia",
-      "url": "https://powertalk967.iheart.com/content/2026-10-18-white-house-defends-diesel-export-deal-with-russia/",
-      "published_at": "20261018T190000Z",
-      "source": "powertalk967.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_13795627b2b80d41",
-      "headline": "White House Defends Diesel Export Deal With Russia",
-      "url": "https://newsradio540.iheart.com/content/2026-10-18-white-house-defends-diesel-export-deal-with-russia/",
-      "published_at": "20261018T190000Z",
-      "source": "newsradio540.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a820393475eaebd9",
-      "headline": "White House Defends Diesel Export Deal With Russia",
-      "url": "https://95wxtk.iheart.com/content/2026-10-18-white-house-defends-diesel-export-deal-with-russia/",
-      "published_at": "20261018T190000Z",
-      "source": "95wxtk.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6392ca6cf740ca46",
-      "headline": "White House Defends Diesel Export Deal With Russia",
-      "url": "https://945wpti.iheart.com/content/2026-10-18-white-house-defends-diesel-export-deal-with-russia/",
-      "published_at": "20261018T190000Z",
-      "source": "945wpti.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_73835edd88b25de7",
-      "headline": "White House Defends Diesel Export Deal With Russia",
-      "url": "https://1360kktx.iheart.com/content/2026-10-18-white-house-defends-diesel-export-deal-with-russia/",
-      "published_at": "20261018T190000Z",
-      "source": "1360kktx.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7a5e1735447787fd",
-      "headline": "White House Defends Diesel Export Deal With Russia",
-      "url": "https://650keni.iheart.com/content/2026-10-18-white-house-defends-diesel-export-deal-with-russia/",
-      "published_at": "20261018T191500Z",
-      "source": "650keni.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_90680ffeac3cd117",
-      "headline": "White House Defends Diesel Export Deal With Russia",
-      "url": "https://newsradio1170.iheart.com/content/2026-10-18-white-house-defends-diesel-export-deal-with-russia/",
-      "published_at": "20261018T191500Z",
-      "source": "newsradio1170.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6639469d4b8ecd91",
-      "headline": "White House Defends Diesel Export Deal With Russia",
-      "url": "https://wiba.iheart.com/content/2026-10-18-white-house-defends-diesel-export-deal-with-russia/",
-      "published_at": "20261018T191500Z",
-      "source": "wiba.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d692634b4c9eddd2",
-      "headline": "White House Defends Diesel Export Deal With Russia | News Radio 1410 WDOV",
-      "url": "https://wdov.iheart.com/content/2026-10-18-white-house-defends-diesel-export-deal-with-russia/",
-      "published_at": "20261018T191500Z",
-      "source": "wdov.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7c673df333bd4c48",
-      "headline": "White House Defends Diesel Export Deal With Russia | KOA 850 AM & 94 . 1 FM",
-      "url": "https://koacolorado.iheart.com/content/2026-10-18-white-house-defends-diesel-export-deal-with-russia/",
-      "published_at": "20261018T191500Z",
-      "source": "koacolorado.iheart.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a1f73ff336952922",
-      "headline": "محمد أمين : الأمن القومي العربي لا يتجزأ ومصر لن تقبل المساس به",
-      "url": "https://www.dostor.org/5744063",
-      "published_at": "20261018T190000Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b71130a911ab629b",
-      "headline": "Trump Tangguhkan Sanksi Ekonomi terhadap Rusia , Ini Alasannya",
-      "url": "https://www.liputan6.com/bisnis/read/8315930/trump-tangguhkan-sanksi-ekonomi-terhadap-rusia-ini-alasannya",
-      "published_at": "20261018T154500Z",
-      "source": "liputan6.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9f0dbf95bdb8fc23",
-      "headline": "Рубіо знайшов виправдання призупиненню дії закону Грема про  пекельні санкції  DSnews . ua",
-      "url": "https://www.dsnews.ua/ukr/world/rubio-nashel-opravdanie-priostanovke-deystviya-zakona-grema-ob-adskih-sankciyah-18102026-469967",
-      "published_at": "20261018T183000Z",
-      "source": "dsnews.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1eafd76515e7a28e",
-      "headline": "المتحدث باسم وزارة الخارجية : إسرائيل تخلق ظروف حياة مستحيلة فى محاولة مكشوفة لتهجير أهل غزة .. وهو أمر لن يحدث ولن تشارك مصر فيه أبدًا",
-      "url": "https://www.dostor.org/5743932",
-      "published_at": "20261018T174500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8f44985a50c57a6a",
-      "headline": "Rubio : Προσωρινή η αναστολή των νέων κυρώσεων κατά της Ρωσίας",
-      "url": "https://www.bankingnews.gr/diethni/articles/905815/rubio-prosorini-i-anastoli-ton-neon-kyroseon-kata-tis-rosias",
-      "published_at": "20261018T154500Z",
-      "source": "bankingnews.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_622b6496ba10aa08",
-      "headline": "Rubio : Προσωρινή η αναστολή των νέων κυρώσεων κατά της Ρωσίας",
-      "url": "https://www.bankingnews.gr/diethni/articles/905815/rubio-prosorini-i-anastoli-ton-neon-kyroseon-kata-tis-rosias%20title=",
-      "published_at": "20261018T154500Z",
-      "source": "bankingnews.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_91eb16a57d06c0fd",
-      "headline": "موقع بكرا - مصر تقرر تقديم كافة أشكال الدعم الممكنة للدفاع عن أمن السعودية",
-      "url": "https://bokra.net/Article-1606007",
-      "published_at": "20261018T184500Z",
-      "source": "bokra.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ceb77b4fdfa775a8",
-      "headline": "Рубио : Украина просит Starshield для ударов по России | Новости Украины",
-      "url": "https://news.liga.net/war/news/rubio-v-ukrainy-net-dostupa-k-starshield-etot-vopros-obsuzhdaetsya",
-      "published_at": "20261018T173000Z",
-      "source": "news.liga.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a8617641c3479337",
-      "headline": "Importing Russian Diesel Is  Incentive  to End War : Energy Secretary",
-      "url": "https://www.businessinsider.com/trump-russia-sanctions-diesel-imports-ukraine-war-2026-10",
-      "published_at": "20261018T190000Z",
-      "source": "businessinsider.com",
+      "id": "rss_b843c8c29e937e06",
+      "headline": "Ukrainian drone attack on Saint Petersburg kills one, sets refinery ablaze",
+      "url": "https://www.france24.com/en/europe/20261018-ukraine-sets-saint-petersburg-refinery-ablaze-in-large-scale-drone-attack",
+      "published_at": "2026-10-18T12:03:23Z",
+      "source": "France 24",
       "tags": [
         "UKRAINE"
       ]
-    },
-    {
-      "id": "gdelt_6dc52129558460a0",
-      "headline": "« ساما »: اقتصاد السعودية صامد أمام التحديات الإقليمية",
-      "url": "https://www.okaz.com.sa/economy/na/2271319",
-      "published_at": "20261018T174500Z",
-      "source": "okaz.com.sa",
-      "tags": []
-    },
-    {
-      "id": "gdelt_37818055cb01b4a7",
-      "headline": "Zelenski : Izgubit ćemo rat ako SAD promijeni stranu",
-      "url": "https://www.24sata.hr/news/zelenski-izgubit-cemo-rat-ako-sad-promijeni-stranu-1162020",
-      "published_at": "20261018T184500Z",
-      "source": "24sata.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_07f6b870bddf5486",
-      "headline": "Trump Russia sanctions pause will pressure Putin to  tone down  war in Ukraine : energy secretary",
-      "url": "https://nypost.com/2026/10/18/us-news/president-trump-easing-sanctions-on-russia-is-pressuring-putin-to-tone-down-war-in-ukraine-energy-secretary-says/",
-      "published_at": "20261018T173000Z",
-      "source": "nypost.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cc4b1bf95007d820",
-      "headline": "جمال الكشكي : أمن السعودية والخليج جزء لا يتجزأ من الأمن القومي المصري",
-      "url": "https://www.dostor.org/5744129",
-      "published_at": "20261018T191500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_57b7dcd9361d6e06",
-      "headline": "زحف عسكري في تيغراي يشعل حدود إثيوبيا وإريتريا",
-      "url": "https://www.alwatan.com.sa/article/1187456",
-      "published_at": "20261018T174500Z",
-      "source": "alwatan.com.sa",
-      "tags": []
-    },
-    {
-      "id": "gdelt_31401ffa23426a7b",
-      "headline": "مقدمة النشرة المسائية 18 10 20026 - Lebanon News",
-      "url": "https://www.aljadeed.tv/news/%D8%A7%D9%84%D9%86%D8%B4%D8%B1%D8%A9/592528/%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D8%A7%D9%84%D9%86%D8%B4%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%A6%D9%8A%D8%A9-18-10-20026/ar",
-      "published_at": "20261018T181500Z",
-      "source": "aljadeed.tv",
-      "tags": [
-        "LEBANON"
-      ]
-    },
-    {
-      "id": "gdelt_7932f7f6be14ff78",
-      "headline": "JCFA : Iran exploits women through sex trafficking , children to fund proxy wars",
-      "url": "http://www.jpost.com/middle-east/article-912058",
-      "published_at": "20261018T160000Z",
-      "source": "jpost.com",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_f95ac30aef73e2ee",
-      "headline": "Republicans break ranks with Trump over Russia sanctions waiver :  Terrible misjudgment",
-      "url": "https://www.fox7austin.com/news/republicans-break-ranks-trump-over-russia-sanctions-waiver-terrible-misjudgment",
-      "published_at": "20261018T151500Z",
-      "source": "fox7austin.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c4fd221928f485c3",
-      "headline": "تحذير فلسطيني من  انفجار الضفة  مع تصاعد اعتداءات المستوطنين | فلسطين",
-      "url": "https://www.ammonnews.net/article/1037705",
-      "published_at": "20261018T183000Z",
-      "source": "ammonnews.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_44b098026c892cbb",
-      "headline": "Eskalacija besa u Francuskoj : Gorele zgrade , privedeno oko 2 . 000 ljudi",
-      "url": "https://naslovi.net/2026-10-18/dw/eskalacija-besa-u-francuskoj-gorele-zgrade-privedeno-oko-2-000-ljudi/42499893",
-      "published_at": "20261018T183000Z",
-      "source": "naslovi.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e7d6d7ccee9b3742",
-      "headline": "Saudi , Russian FMs Discuss Yemen Escalation at Manama Meeting",
-      "url": "https://english.aawsat.com/gulf/5330900-saudi-russian-fms-discuss-yemen-escalation-manama-meeting",
-      "published_at": "20261018T164500Z",
-      "source": "english.aawsat.com",
-      "tags": [
-        "YEMEN",
-        "SAUDI_ARABIA"
-      ]
-    },
-    {
-      "id": "gdelt_70dd22b56cba0200",
-      "headline": "בצל החשש מהסלמה : עדכון חשוב לתושבי הצפון",
-      "url": "http://www.srugim.co.il/101013792-%D7%91%D7%A6%D7%9C-%D7%94%D7%97%D7%A9%D7%A9-%D7%9E%D7%94%D7%A1%D7%9C%D7%9E%D7%94-%D7%A2%D7%93%D7%9B%D7%95%D7%9F-%D7%97%D7%A9%D7%95%D7%91-%D7%9C%D7%AA%D7%95%D7%A9%D7%91%D7%99-%D7%94%D7%A6%D7%A4%D7%95%D7%9F",
-      "published_at": "20261018T190000Z",
-      "source": "srugim.co.il",
-      "tags": []
     }
   ]
 }
