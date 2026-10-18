@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-18T09:33:49Z",
+    "generated_at_utc": "2026-10-18T14:00:22Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -21,31 +21,31 @@
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 10,
+        "fetched": 16,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 27,
+            "items": 29,
             "kept": 4
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 4
+            "kept": 6
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 2
+            "kept": 6
           }
         ]
       }
     ],
-    "fetched_articles": 10,
-    "previous_event_count": 13,
+    "fetched_articles": 16,
+    "previous_event_count": 10,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -62,7 +62,7 @@
       "id": "rss_719c5f84319171db",
       "headline": "Several dead or injured in major fire at Canada military base",
       "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-18T08:52:41Z",
+      "published_at": "2026-10-18T12:41:59Z",
       "source": "BBC News",
       "tags": []
     },
@@ -95,38 +95,110 @@
       ]
     },
     {
-      "id": "rss_149b3b925d70f034",
-      "headline": "Daniel Dubois defeats Fabio Wardley to retain WBO heavyweight boxing title",
-      "url": "https://www.aljazeera.com/sports/2026/10/18/daniel-dubois-defeats-fabio-wardley-to-retain-wbo-heavyweight-boxing-title?traffic_source=rss",
-      "published_at": "2026-10-18T06:34:02Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_213eba2b0d28817c",
-      "headline": "‘Serious incident’ at Canada military base causes deaths, injuries",
-      "url": "https://www.aljazeera.com/news/2026/10/18/deaths-injuries-after-fire-at-alberta-military-base-canada-minister?traffic_source=rss",
-      "published_at": "2026-10-18T04:59:29Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_1b7e8e1a2ba4b7cb",
-      "headline": "St Petersburg under attack from Ukrainian drone swarm",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/st-petersburg-under-attack-from-ukrainian-drone-swarm?traffic_source=rss",
-      "published_at": "2026-10-18T04:51:01Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_82f33a4fcfa2d219",
-      "headline": "Saudi-led forces try to break Houthi siege of Taiz with airstrikes",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/saudi-led-forces-try-to-break-houthi-siege-of-taiz-with-airstrikes?traffic_source=rss",
-      "published_at": "2026-10-18T01:12:44Z",
+      "id": "rss_d6daa6ce2af0f57e",
+      "headline": "Sudan army accused of drone strike on livestock market",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/sudan-army-accused-of-drone-strike-on-livestock-market?traffic_source=rss",
+      "published_at": "2026-10-18T13:37:03Z",
       "source": "Al Jazeera",
       "tags": [
+        "SUDAN"
+      ]
+    },
+    {
+      "id": "rss_cdcfead3739d54a6",
+      "headline": "Is FIFA scrapping its peace prize after awarding it to US President Trump?",
+      "url": "https://www.aljazeera.com/sports/2026/10/18/fifa-peace-prize-football-us-president-donald-trump?traffic_source=rss",
+      "published_at": "2026-10-18T12:49:57Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_297eb5a98696cf87",
+      "headline": "What help can Egypt offer Saudi Arabia in the war against the Houthis?",
+      "url": "https://www.aljazeera.com/news/2026/10/18/what-help-can-egypt-offer-saudi-arabia-in-the-war-against-the-houthis?traffic_source=rss",
+      "published_at": "2026-10-18T11:11:26Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "EGYPT",
         "SAUDI_ARABIA"
       ]
+    },
+    {
+      "id": "rss_cacf4477b3ff9d71",
+      "headline": "Ukrainian drone attack on Russia’s St Petersburg kills 1, hits energy sites",
+      "url": "https://www.aljazeera.com/news/2026/10/18/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites?traffic_source=rss",
+      "published_at": "2026-10-18T10:34:09Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "rss_48e4b9a64ec93d8e",
+      "headline": "Russia’s war in Ukraine puts Europe on edge",
+      "url": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/10/18/russias-war-in-ukraine-puts-europe-on-edge?traffic_source=rss",
+      "published_at": "2026-10-18T10:33:36Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "RUSSIA",
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "rss_707967c68d6e8315",
+      "headline": "Gaza Family Reunion: Finding each other after the ‘ceasefire’",
+      "url": "https://www.aljazeera.com/video/witness/2026/10/18/gaza-family-reunion-finding-each-other-after-the-ceasefire?traffic_source=rss",
+      "published_at": "2026-10-18T10:30:00Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_3b3a386c0bc06846",
+      "headline": "'Like we had a war': France left reeling after nationwide violent protests",
+      "url": "https://www.france24.com/en/france/20261018-like-we-had-a-war-france-left-reeling-after-nationwide-violent-protests",
+      "published_at": "2026-10-18T13:50:00Z",
+      "source": "France 24",
+      "tags": [
+        "FRANCE"
+      ]
+    },
+    {
+      "id": "rss_d417bbd5b954dbe2",
+      "headline": "The week in pictures: Escalating protests across Europe and the tragic capsize of a migrant boat",
+      "url": "https://www.france24.com/en/france/20261018-the-week-in-pictures-escalating-protests-across-europe-and-the-tragic-capsize-of-a-migrant-boat",
+      "published_at": "2026-10-18T13:36:27Z",
+      "source": "France 24",
+      "tags": [
+        "FRANCE"
+      ]
+    },
+    {
+      "id": "rss_ec3739c1b389a751",
+      "headline": "'Like we had a war': France counts cost of violent protests",
+      "url": "https://www.france24.com/en/video/20261018-like-we-had-a-war-france-counts-cost-of-violent-protests",
+      "published_at": "2026-10-18T13:17:58Z",
+      "source": "France 24",
+      "tags": [
+        "FRANCE"
+      ]
+    },
+    {
+      "id": "rss_b843c8c29e937e06",
+      "headline": "Ukrainian drone attack on Saint Petersburg kills one, sets refinery ablaze",
+      "url": "https://www.france24.com/en/europe/20261018-ukraine-sets-saint-petersburg-refinery-ablaze-in-large-scale-drone-attack",
+      "published_at": "2026-10-18T12:03:23Z",
+      "source": "France 24",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "rss_539b66ac60eb95e1",
+      "headline": "Riots in Tirana enter a fifth day as Albania's anti-government protests escalate",
+      "url": "https://www.france24.com/en/video/20261018-riots-in-tirana-enter-a-fifth-day-as-albania-s-anti-government-protests-escalate",
+      "published_at": "2026-10-18T11:06:39Z",
+      "source": "France 24",
+      "tags": []
     },
     {
       "id": "rss_f0c45892acee0d95",
@@ -134,20 +206,7 @@
       "url": "https://www.france24.com/en/americas/20261018-rubio-says-trump-russia-sanctions-waiver-designed-to-analyze-global-impact",
       "published_at": "2026-10-18T02:39:29Z",
       "source": "France 24",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "rss_507a7b136ca17d69",
-      "headline": "Ukraine war: \"Mothers of Kherson\" opera opens in Poland",
-      "url": "https://www.france24.com/en/video/20261017-ukraine-war-mothers-of-kherson-opera-opens-in-poland",
-      "published_at": "2026-10-17T15:57:33Z",
-      "source": "France 24",
-      "tags": [
-        "UKRAINE",
-        "POLAND"
-      ]
+      "tags": []
     }
   ]
 }
