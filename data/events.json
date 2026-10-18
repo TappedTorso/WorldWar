@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-18T04:26:43Z",
+    "generated_at_utc": "2026-10-18T09:33:49Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -21,31 +21,31 @@
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 13,
+        "fetched": 10,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 28,
+            "items": 27,
             "kept": 4
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 6
+            "kept": 4
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 3
+            "kept": 2
           }
         ]
       }
     ],
-    "fetched_articles": 13,
-    "previous_event_count": 11,
+    "fetched_articles": 10,
+    "previous_event_count": 13,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -59,10 +59,10 @@
   },
   "events": [
     {
-      "id": "rss_6151db42404b0660",
-      "headline": "Deadly fire breaks out at Canada military base",
+      "id": "rss_719c5f84319171db",
+      "headline": "Several dead or injured in major fire at Canada military base",
       "url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-18T04:00:50Z",
+      "published_at": "2026-10-18T08:52:41Z",
       "source": "BBC News",
       "tags": []
     },
@@ -95,6 +95,30 @@
       ]
     },
     {
+      "id": "rss_149b3b925d70f034",
+      "headline": "Daniel Dubois defeats Fabio Wardley to retain WBO heavyweight boxing title",
+      "url": "https://www.aljazeera.com/sports/2026/10/18/daniel-dubois-defeats-fabio-wardley-to-retain-wbo-heavyweight-boxing-title?traffic_source=rss",
+      "published_at": "2026-10-18T06:34:02Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_213eba2b0d28817c",
+      "headline": "‘Serious incident’ at Canada military base causes deaths, injuries",
+      "url": "https://www.aljazeera.com/news/2026/10/18/deaths-injuries-after-fire-at-alberta-military-base-canada-minister?traffic_source=rss",
+      "published_at": "2026-10-18T04:59:29Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_1b7e8e1a2ba4b7cb",
+      "headline": "St Petersburg under attack from Ukrainian drone swarm",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/st-petersburg-under-attack-from-ukrainian-drone-swarm?traffic_source=rss",
+      "published_at": "2026-10-18T04:51:01Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
       "id": "rss_82f33a4fcfa2d219",
       "headline": "Saudi-led forces try to break Houthi siege of Taiz with airstrikes",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/saudi-led-forces-try-to-break-houthi-siege-of-taiz-with-airstrikes?traffic_source=rss",
@@ -103,54 +127,6 @@
       "tags": [
         "SAUDI_ARABIA"
       ]
-    },
-    {
-      "id": "rss_6447a77465f6999c",
-      "headline": "Iran war live: Israeli settlers attack EU diplomats; drones target Riyadh",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tankers-hit-in-hormuz-israeli-settlers-attack-eu-diplomats?traffic_source=rss",
-      "published_at": "2026-10-18T00:00:11Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "rss_1cb75f1cdc369526",
-      "headline": "Saudi-led coalition intercepts drones as Egypt weighs sending help",
-      "url": "https://www.aljazeera.com/news/2026/10/17/saudi-led-coalition-intercepts-drones-as-egypt-weighs-sending-help?traffic_source=rss",
-      "published_at": "2026-10-17T23:21:57Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "EGYPT",
-        "SAUDI_ARABIA"
-      ]
-    },
-    {
-      "id": "rss_2f50bc52a209f762",
-      "headline": "Albanian police fire rubber bullets as protests against Rama escalate",
-      "url": "https://www.aljazeera.com/news/2026/10/17/albanian-police-fire-rubber-bullets-as-protests-against-rama-escalate?traffic_source=rss",
-      "published_at": "2026-10-17T19:26:13Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_131930c577ea0e9b",
-      "headline": "Will the EU come to Ukraine’s rescue in war against Russia?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/10/17/will-the-eu-come-to-ukraines-rescue-in-war-against-russia?traffic_source=rss",
-      "published_at": "2026-10-17T19:03:49Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "RUSSIA",
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_ca7519db6aebbdbb",
-      "headline": "Israeli drone attacks kill six Palestinians across Gaza despite ‘ceasefire’",
-      "url": "https://www.aljazeera.com/news/2026/10/17/israeli-drone-attacks-kill-six-palestinians-across-gaza-despite-ceasefire?traffic_source=rss",
-      "published_at": "2026-10-17T18:26:59Z",
-      "source": "Al Jazeera",
-      "tags": []
     },
     {
       "id": "rss_f0c45892acee0d95",
@@ -171,16 +147,6 @@
       "tags": [
         "UKRAINE",
         "POLAND"
-      ]
-    },
-    {
-      "id": "rss_daa3f2cce69a158b",
-      "headline": "Russia hails Trump waiving sanctions as 'historic'",
-      "url": "https://www.france24.com/en/video/20261017-russia-hails-trump-waiving-sanctions-as-historic",
-      "published_at": "2026-10-17T10:41:22Z",
-      "source": "France 24",
-      "tags": [
-        "RUSSIA"
       ]
     }
   ]
