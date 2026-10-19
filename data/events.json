@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-18T23:09:24Z",
+    "generated_at_utc": "2026-10-19T01:13:41Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "rate_limited status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
         "fetched": 0
       },
       {
@@ -26,14 +26,14 @@
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 28,
-            "kept": 5
+            "items": 30,
+            "kept": 4
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 4
+            "kept": 5
           },
           {
             "outlet": "France 24",
@@ -45,7 +45,7 @@
       }
     ],
     "fetched_articles": 15,
-    "previous_event_count": 120,
+    "previous_event_count": 15,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -59,10 +59,10 @@
   },
   "events": [
     {
-      "id": "rss_588b623be4589bb2",
-      "headline": "What we know so far about deadly fire at Canadian military base",
-      "url": "https://www.bbc.co.uk/news/articles/cmgelrq8x92do?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-18T21:37:56Z",
+      "id": "rss_1b6bde06d6991db0",
+      "headline": "Major fire at Canada military base leaves four dead, dozens injured",
+      "url": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-18T23:06:09Z",
       "source": "BBC News",
       "tags": []
     },
@@ -70,17 +70,7 @@
       "id": "rss_1dcc973aa20b7ef6",
       "headline": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
       "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-18T22:10:45Z",
-      "source": "BBC News",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "rss_2c4d10c74676551c",
-      "headline": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-18T01:10:25Z",
+      "published_at": "2026-10-18T23:20:15Z",
       "source": "BBC News",
       "tags": [
         "RUSSIA"
@@ -102,6 +92,17 @@
       "source": "BBC News",
       "tags": [
         "RUSSIA"
+      ]
+    },
+    {
+      "id": "rss_5b201d84ad3db688",
+      "headline": "Iran war live: Tehran says Netanyahu seeks more war; Yemen fighting flares",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tehran-says-netanyahu-seeks-more-war-yemen-fighting-flares?traffic_source=rss",
+      "published_at": "2026-10-18T23:59:34Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN",
+        "YEMEN"
       ]
     },
     {
@@ -160,6 +161,7 @@
       "published_at": "2026-10-18T21:59:34Z",
       "source": "France 24",
       "tags": [
+        "RUSSIA",
         "UKRAINE"
       ]
     },
