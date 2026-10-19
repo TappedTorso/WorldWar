@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-19T06:10:37Z",
-    "provider": "RSS_FALLBACK",
-    "status": "ok-fallback",
+    "generated_at_utc": "2026-10-19T13:06:22Z",
+    "provider": "GDELT_DOC_API",
+    "status": "partial",
     "timespan": "6h",
     "max_events": 120,
     "streams": [
@@ -14,38 +14,12 @@
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
-        "fetched": 0
-      },
-      {
-        "name": "rss_fallback",
         "status": "ok",
-        "fetched": 12,
-        "feeds": [
-          {
-            "outlet": "BBC News",
-            "status": "ok",
-            "items": 29,
-            "kept": 4
-          },
-          {
-            "outlet": "Al Jazeera",
-            "status": "ok",
-            "items": 25,
-            "kept": 4
-          },
-          {
-            "outlet": "France 24",
-            "status": "ok",
-            "items": 24,
-            "kept": 4
-          }
-        ]
+        "fetched": 120
       }
     ],
-    "fetched_articles": 12,
-    "previous_event_count": 15,
+    "fetched_articles": 120,
+    "previous_event_count": 12,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -59,117 +33,1008 @@
   },
   "events": [
     {
-      "id": "rss_1b6bde06d6991db0",
-      "headline": "Major fire at Canada military base leaves four dead, dozens injured",
-      "url": "https://www.bbc.co.uk/news/articles/cxj0ly1m3q81o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-18T23:06:09Z",
-      "source": "BBC News",
+      "id": "gdelt_ab2bfda80750d4b1",
+      "headline": "When the Patron Turns into Mediator",
+      "url": "https://english.aawsat.com/opinion/5331106-when-patron-turns-mediator",
+      "published_at": "20261019T111500Z",
+      "source": "english.aawsat.com",
       "tags": []
     },
     {
-      "id": "rss_1dcc973aa20b7ef6",
-      "headline": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
-      "url": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-18T23:20:15Z",
-      "source": "BBC News",
+      "id": "gdelt_8e7437bc9ab112da",
+      "headline": "Saifuddin Nasution ketuai delegasi Malaysia ke AMMTC ke - 20 di Filipina",
+      "url": "https://www.astroawani.com/berita-malaysia/saifuddin-nasution-ketuai-delegasi-malaysia-ke-ammtc-ke-20-di-filipina",
+      "published_at": "20261019T084500Z",
+      "source": "astroawani.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0486e82883e3cfff",
+      "headline": "Туризм как сотрудничество и поощрение :  безвизы  в РФ для туристов из Вьетнама и Китая",
+      "url": "https://ru.euronews.com/2026/10/19/tourism-as-cooperation-and-promotion-visa-free-entry-to-russia-for-vietnam-and-china",
+      "published_at": "20261019T111500Z",
+      "source": "ru.euronews.com",
       "tags": [
-        "RUSSIA"
+        "RUSSIA",
+        "CHINA",
+        "VIETNAM"
       ]
     },
     {
-      "id": "rss_61810ea23916eace",
-      "headline": "Australian Greens senator denies claims of misconduct towards women",
-      "url": "https://www.bbc.co.uk/news/articles/cmpdgj8z8v2do?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-19T04:54:25Z",
-      "source": "BBC News",
+      "id": "gdelt_6464b83fe145bf94",
+      "headline": "史達林恐嘆生不逢時 ！ 外媒 ： 美國成俄羅斯盟友 川普3動機挺普亭打烏克蘭 | 國際焦點 | 全球",
+      "url": "https://udn.com/news/story/6809/9824163",
+      "published_at": "20261019T080000Z",
+      "source": "udn.com",
       "tags": []
     },
     {
-      "id": "rss_6e271a0c9f48f902",
-      "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
-      "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-16T16:00:30Z",
-      "source": "BBC News",
+      "id": "gdelt_9fb4367023f563e2",
+      "headline": "Axios : Οι Φρουροί της Επανάστασης αντιμετωπίζουν οικονομικά προβλήματα",
+      "url": "https://www.newsit.gr/kosmos/axios-oi-frouroi-tis-epanastasis-antimetopizoun-oikonomika-provlimata/4801839/",
+      "published_at": "20261019T074500Z",
+      "source": "newsit.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_81d7f929c6ec4989",
+      "headline": "Axios : Οι Φρουροί της Επανάστασης αντιμετωπίζουν οικονομικά προβλήματα",
+      "url": "https://www.inewsgr.com/93/Axios-oi-frouroi-tis-epanastasis-antimetopizoun-oikonomika-provlimata.htm",
+      "published_at": "20261019T071500Z",
+      "source": "inewsgr.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7647a0c4d5d0926c",
+      "headline": "RDC - Rwanda : le difficile passage de laccord de Washington à la paix sur le terrain",
+      "url": "https://www.mediacongo.net/article-actualite-168486_rdc_rwanda_le_difficile_passage_de_l_accord_de_washington_a_la_paix_sur_le_terrain.html",
+      "published_at": "20261019T073000Z",
+      "source": "mediacongo.net",
       "tags": [
-        "RUSSIA"
+        "RWANDA"
       ]
     },
     {
-      "id": "rss_4edb593d48c28ab8",
-      "headline": "Trump defends Russian sanctions relief, lashes out at Zelenskyy",
-      "url": "https://www.aljazeera.com/news/2026/10/19/trump-defends-russian-sanctions-relief-lashes-out-at-zelenskyy?traffic_source=rss",
-      "published_at": "2026-10-19T03:10:05Z",
-      "source": "Al Jazeera",
+      "id": "gdelt_40672def79766b99",
+      "headline": "观天下丨美乌盟友关系还能维持吗",
+      "url": "https://baijiahao.baidu.com/s?id=1879474161981345175",
+      "published_at": "20261019T110000Z",
+      "source": "baijiahao.baidu.com",
       "tags": []
     },
     {
-      "id": "rss_0aa7281c74a5b4e4",
-      "headline": "Fast-moving grass fire caused Canada’s military base tragedy",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/fast-moving-grass-fire-caused-canadas-military-base-tragedy?traffic_source=rss",
-      "published_at": "2026-10-19T03:07:16Z",
-      "source": "Al Jazeera",
+      "id": "gdelt_fa6877a78ebba7db",
+      "headline": "观天下丨美乌盟友关系还能维持吗",
+      "url": "https://baijiahao.baidu.com/s?id=1879474350686795229",
+      "published_at": "20261019T113000Z",
+      "source": "baijiahao.baidu.com",
       "tags": []
     },
     {
-      "id": "rss_b6ae91bada696a1c",
-      "headline": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
-      "url": "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites?traffic_source=rss",
-      "published_at": "2026-10-19T02:10:09Z",
-      "source": "Al Jazeera",
+      "id": "gdelt_566480c22396180c",
+      "headline": "观天下丨美乌盟友关系还能维持吗",
+      "url": "https://baijiahao.baidu.com/s?id=1879480232815265414",
+      "published_at": "20261019T124500Z",
+      "source": "baijiahao.baidu.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7bead802101d0957",
+      "headline": "Kritik pazarlýk sonuç verdi : 100 adet Astra Mk - 1 füzesinin sat an meselesi",
+      "url": "https://www.star.com.tr/savunma/kritik-pazarlik-sonuc-verdi-100-adet-astra-mk-1-fuzesinin-satisi-an-meselesi-haber-2047585/",
+      "published_at": "20261019T111500Z",
+      "source": "star.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_724435a92feb3c3d",
+      "headline": "Hostile projectile strikes Saudi city of Najran , injures 6",
+      "url": "https://article.wn.com/view/2026/10/19/Hostile_projectile_strikes_Saudi_city_of_Najran_injures_6/",
+      "published_at": "20261019T083000Z",
+      "source": "article.wn.com",
+      "tags": [
+        "SAUDI_ARABIA"
+      ]
+    },
+    {
+      "id": "gdelt_bfbc7db4a9bb0bb2",
+      "headline": "Foxconn , Mitsubishi Electric join forces for global EV push",
+      "url": "https://asia.nikkei.com/business/automobiles/foxconn-mitsubishi-electric-join-forces-for-global-ev-push",
+      "published_at": "20261019T083000Z",
+      "source": "asia.nikkei.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_076cd502558b2e03",
+      "headline": "Rubio :  Ukrajina i Rusija trebalo bi da se fokusiraju na okončanje rata",
+      "url": "https://www.blic.rs/vesti/svet/rubio-ukrajina-i-rusija-trebalo-bi-da-se-fokusiraju-na-okoncanje-rata/rhdf4hg",
+      "published_at": "20261019T110000Z",
+      "source": "blic.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_56b0d4fd8417b8eb",
+      "headline": "Πετρέλαιο : Πτώση άνω του 2 % για το Brent",
+      "url": "https://www.capital.gr/agores/4024334/petrelaio-ptotika-kinountai-oi-times-ptosi-ano-tou-2-gia-to-brent/",
+      "published_at": "20261019T071500Z",
+      "source": "capital.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4ebb2b6c3110a1e4",
+      "headline": "Rubio says Ukraine and Russia should be focused on ending the war",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/10/19/rubio-says-ukraine-and-russia-should-be-focused-on-ending-the-war",
+      "published_at": "20261019T073000Z",
+      "source": "freemalaysiatoday.com",
       "tags": [
         "RUSSIA",
         "UKRAINE"
       ]
     },
     {
-      "id": "rss_601349b6111e6bb0",
-      "headline": "Iran war live: US issues Middle East security alert; Yemen fighting flares",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tehran-says-netanyahu-seeks-more-war-yemen-fighting-flares?traffic_source=rss",
-      "published_at": "2026-10-18T23:59:34Z",
-      "source": "Al Jazeera",
+      "id": "gdelt_1e0d876bfd0d6eac",
+      "headline": "Vor den Midterms : Trump und Putin - Ukraine unter Druck",
+      "url": "https://deutsche-wirtschafts-nachrichten.de/722854/midterms-trump-geht-auf-putin-zu-verstaendigung-trotz-ukraine-krieg",
+      "published_at": "20261019T083000Z",
+      "source": "deutsche-wirtschafts-nachrichten.de",
       "tags": [
-        "IRAN",
-        "YEMEN"
+        "UKRAINE"
       ]
     },
     {
-      "id": "rss_079289fdd8c4f2a2",
-      "headline": "Russia pounds Kyiv as Rubio urges Ukraine's Zelensky to 'focus' on ending the war",
-      "url": "https://www.france24.com/en/europe/20261019-live-russian-strikes-pound-kyiv-as-rubio-denies-us-paused-intel-sharing-with-ukraine",
-      "published_at": "2026-10-19T06:00:06Z",
-      "source": "France 24",
+      "id": "gdelt_0d93ad75b4f644a6",
+      "headline": "טראמפ שוקל תקיפה באי חארג  - מקור הנפט האיראני בסכנה",
+      "url": "https://www.kikar.co.il/world-news/trump-considers-kharg-island-attack-iran-oil",
+      "published_at": "20261019T101500Z",
+      "source": "kikar.co.il",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_a0c215d48871e4b6",
+      "headline": "Rubio says Ukraine and Russia should be focused on ending the war",
+      "url": "https://www.al-monitor.com/originals/2026/10/rubio-says-ukraine-and-russia-should-be-focused-ending-war",
+      "published_at": "20261019T073000Z",
+      "source": "al-monitor.com",
       "tags": [
         "RUSSIA",
         "UKRAINE"
       ]
     },
     {
-      "id": "rss_944f85c13f2c2c63",
-      "headline": "Canadian military base fire kills at least four, injures dozens",
-      "url": "https://www.france24.com/en/americas/20261018-canada-military-base-fire-four-dead-39-hospitalised",
-      "published_at": "2026-10-18T22:16:51Z",
-      "source": "France 24",
+      "id": "gdelt_26a95a3ccec0d89c",
+      "headline": "Krieg gegen die Ukraine : Verständigung zulasten der Ukraine : Trump geht auf Moskau zu",
+      "url": "https://www.moz.de/nachrichten/politik/krieg-gegen-die-ukraine-verstaendigung-zulasten-der-ukraine-trump-geht-auf-moskau-zu-79584086.html",
+      "published_at": "20261019T080000Z",
+      "source": "moz.de",
       "tags": []
     },
     {
-      "id": "rss_3b3a386c0bc06846",
-      "headline": "'Like we had a war': France left reeling after nationwide violent protests",
-      "url": "https://www.france24.com/en/france/20261018-like-we-had-a-war-france-left-reeling-after-nationwide-violent-protests",
-      "published_at": "2026-10-18T13:50:00Z",
-      "source": "France 24",
+      "id": "gdelt_2b4cab3e64bfafbe",
+      "headline": "НАТО проведет переговоры на случай конфликта с Россией",
+      "url": "https://lenta.ru/news/2026/10/19/nato-provedet-peregovory-na-sluchay-konflikta-s-rossiey/",
+      "published_at": "20261019T103000Z",
+      "source": "lenta.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_dd3b86bc934dfb18",
+      "headline": "Das WATER & LIGHT FESTIVAL 2026 Bad Radkersburg ist eine faszinierende Veranstaltung voller Magie !",
+      "url": "https://www.meinbezirk.at/graz/c-regionauten-community/das-water-und-light-festival-2026-bad-radkersburg-ist-eine-faszinierende-veranstaltung-voller-magie_a8963784",
+      "published_at": "20261019T100000Z",
+      "source": "meinbezirk.at",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3acc1624526d7524",
+      "headline": "North Korea - China trade soared to $300M last month ahead of bridge opening : Data",
+      "url": "https://www.nknews.org/2026/10/north-korea-china-trade-soared-to-300m-last-month-ahead-of-bridge-opening-data/",
+      "published_at": "20261019T100000Z",
+      "source": "nknews.org",
       "tags": [
-        "FRANCE"
+        "NORTH_KOREA",
+        "CHINA"
       ]
     },
     {
-      "id": "rss_d417bbd5b954dbe2",
-      "headline": "The week in pictures: Escalating protests across Europe and the tragic capsize of a migrant boat",
-      "url": "https://www.france24.com/en/france/20261018-the-week-in-pictures-escalating-protests-across-europe-and-the-tragic-capsize-of-a-migrant-boat",
-      "published_at": "2026-10-18T13:36:27Z",
-      "source": "France 24",
+      "id": "gdelt_d8bfe302abf7758d",
+      "headline": "Загроза з боку Росії для Німеччини : наскільки вона серйозна ?",
+      "url": "https://www.dw.com/uk/rosijska-zagroza-dla-nimeccini-zrostae-eksperti-poperedzaut-pro-novi-ataki/a-79697218",
+      "published_at": "20261019T111500Z",
+      "source": "dw.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4a29b173d7015087",
+      "headline": "Премьер Латвии : « Не пускайте , черт возьми , россиян в Европу »",
+      "url": "https://haqqin.az/newsarchive/395984",
+      "published_at": "20261019T104500Z",
+      "source": "haqqin.az",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3a94aaf00bf3349a",
+      "headline": "Ceny ropy spadają po 5 - miesięcznych szczytach . Rynek liczy na stabilne dostawy z Bliskiego Wschodu",
+      "url": "https://www.farmer.pl/energia/energia-konwencjonalna/ceny-ropy-spadaja-po-5-miesiecznych-szczytach-rynek-liczy-na-stabilne-dostawy-z-bliskiego-wschodu,185564.html",
+      "published_at": "20261019T093000Z",
+      "source": "farmer.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b9e95e6eefbc2635",
+      "headline": "云计算ETF易方达 （ 516510 ） 上涨1 . 27 %， 当AI学会  越界 ， 紫光股份以 ..._ 中金在线财经号",
+      "url": "http://mp.cnfol.com/58781/article/1792400404-142768453",
+      "published_at": "20261019T121500Z",
+      "source": "mp.cnfol.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_99793407dcfb9cd0",
+      "headline": "Rubio warns there  real risk  Russia - Ukraine war could spread into another country as he calls for end to conflict",
+      "url": "https://nypost.com/2026/10/19/world-news/rubio-warns-theres-real-risk-russia-ukraine-war-could-spread-into-another-country-as-he-calls-for-end-to-conflict/",
+      "published_at": "20261019T071500Z",
+      "source": "nypost.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_baf70d392531e3fc",
+      "headline": "Πετρέλαιο : Κάτω από τα 108 δολάρια το Brent , αλλά οι γεωπολιτικές εντάσεις συντηρούν τα υψηλά επίπεδα τιμών",
+      "url": "https://www.protothema.gr/economy/article/1896936/petrelaio-kato-apo-ta-108-dolaria-to-brent-alla-oi-geopolitikes-edaseis-sudiroun-ta-upsila-epipeda-timon/",
+      "published_at": "20261019T083000Z",
+      "source": "protothema.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d75f109078ee2954",
+      "headline": "Φρένο στην άνοδο του πετρελαίου παρά τις επιθέσεις σε Ορμούζ και Ρωσία – Στα 107 δολάρια το Brent",
+      "url": "https://www.voria.gr/article/freno-stin-anodo-toy-petrelaioy-para-tis-epitheseis-se-ormoyz-kai-rosia-sta-107-dolaria",
+      "published_at": "20261019T083000Z",
+      "source": "voria.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_42b9716e6da89a4a",
+      "headline": "Lebanese , Israeli military delegations to meet tomorrow in Tampa",
+      "url": "https://www.naharnet.com:443/stories/en/323179-lebanese-israeli-military-delegations-to-meet-tomorrow-in-tampa",
+      "published_at": "20261019T111500Z",
+      "source": "naharnet.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_91d3b6067376f61b",
+      "headline": "Treating Lawrence Bishnoi like son - in - law : Kejriwal targets BJP ahead of Amit Shah Punjab visit",
+      "url": "https://www.tribuneindia.com/news/patiala/treating-lawrence-bishnoi-like-son-in-law-kejriwal-targets-bjp-ahead-of-amit-shahs-punjab-visit/",
+      "published_at": "20261019T084500Z",
+      "source": "tribuneindia.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9890f802e3bcd911",
+      "headline": "Двойной удар баллистикой , но лишь одно предупреждение - ВСУ",
+      "url": "https://haqqin.az/newsarchive/395974",
+      "published_at": "20261019T104500Z",
+      "source": "haqqin.az",
+      "tags": []
+    },
+    {
+      "id": "gdelt_48ba711af87c89ba",
+      "headline": "Зеленский заявил , что Россия за ночь нанесла удары по более чем десяти объектам энергетики последствия атак",
+      "url": "https://war.obozrevatel.com/section-war/news-znovu-ne-bulo-poperedzhennya-vid-partneriv-zelenskyy-zayavyv-shcho-rosiya-za-nich-urazyla-ponad-desyat-obyektiv-enerhetyky-19-10-2026.html",
+      "published_at": "20261019T114500Z",
+      "source": "war.obozrevatel.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8d3048939db4fd4f",
+      "headline": "Geheimdienstwarnung : Iran will Öl - Preise mit Angriffen oben halten",
+      "url": "https://www.merkur.de/wirtschaft/iran-will-trump-mit-oelpreisen-brechen-huthi-beschiessen-aramco-zentrale-94546917.html",
+      "published_at": "20261019T104500Z",
+      "source": "merkur.de",
       "tags": [
-        "FRANCE"
+        "IRAN"
       ]
+    },
+    {
+      "id": "gdelt_67499c506f5f159d",
+      "headline": "Notowania ropy cofają się z 5 - miesięcznych szczytów mimo napięć na Bliskim Wschodzie",
+      "url": "https://www.portalspozywczy.pl/technologie/wiadomosci/notowania-ropy-cofaja-sie-z-5-miesiecznych-szczytow-mimo-napiec-na-bliskim-wschodzie,294251.html",
+      "published_at": "20261019T073000Z",
+      "source": "portalspozywczy.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5f236e1b5b6bef32",
+      "headline": "Notowania ropy cofają się z 5 - miesięcznych szczytów mimo napięć na Bliskim Wschodzie",
+      "url": "https://www.portalspozywczy.pl/finanse/wiadomosci/notowania-ropy-cofaja-sie-z-5-miesiecznych-szczytow-mimo-napiec-na-bliskim-wschodzie,294251.html",
+      "published_at": "20261019T073000Z",
+      "source": "portalspozywczy.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d2215ea3a2d23f70",
+      "headline": "Eklat in Magdeburg : „ An was machen Sie fest , dass die Russen hier in der ehemaligen DDR keine Monster waren ?",
+      "url": "https://www.nachdenkseiten.de/?p=157717",
+      "published_at": "20261019T121500Z",
+      "source": "nachdenkseiten.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_dfc8bd38d692e84f",
+      "headline": "XRP Ledger bug fix nears activation while Ripple bank lending system stays 10 votes short",
+      "url": "https://www.coindesk.com/tech/2026/10/19/xrp-ledger-is-set-to-fix-its-lending-code-before-anyone-can-use-it",
+      "published_at": "20261019T073000Z",
+      "source": "coindesk.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ee5275216d5e1b95",
+      "headline": "ФСО России проведет тактико - специальные учения в Москве с 21 по 23 октября",
+      "url": "https://www.m24.ru/news/19102026/954391",
+      "published_at": "20261019T121500Z",
+      "source": "m24.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0f83df1cd98425c0",
+      "headline": "JPM teliti penahanan 288 individu berkait ajaran Ahmadiyah Qadiani di Sabah",
+      "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/10/19/jpm-teliti-penahanan-288-individu-berkait-ajaran-ahmadiyah-qadiani-di-sabah",
+      "published_at": "20261019T073000Z",
+      "source": "freemalaysiatoday.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_83aac9628a2f0152",
+      "headline": "Итальянская пресса увидела тревожный сигнал в словах Путина о зоне безопасности",
+      "url": "https://runews24.ru/politics/19/10/2026/italyanskaya-pressa-uvidela-trevozhnyij-signal-v-slovax-putina-o-zone-bezopasnosti",
+      "published_at": "20261019T081500Z",
+      "source": "runews24.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8ba183d4370035d5",
+      "headline": "На Закарпатті чоловіка засудили до 7 років за переправлення ухилянтів через кордон ( ФОТО ) @ Закарпаття онлайн",
+      "url": "https://zakarpattya.net.ua/News/242565-Na-Zakarpatti-cholovika-zasudyly-do-7-rokiv-za-perepravlennia-ukhyliantiv-cherez-kordon-FOTO",
+      "published_at": "20261019T104500Z",
+      "source": "zakarpattya.net.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_687e309b45a2d5fc",
+      "headline": "Zelenskyy :  No early warning : Zelenskyy says allies failed to alert Kyiv before Russian strikes ; Rubio says US intel sharing never paused | India News",
+      "url": "https://timesofindia.indiatimes.com/india/no-early-warning-zelenskyy-says-allies-failed-to-alert-kyiv-before-russian-strikes-rubio-says-us-intel-sharing-never-paused/articleshow/135044402.cms",
+      "published_at": "20261019T094500Z",
+      "source": "timesofindia.indiatimes.com",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
+      "id": "gdelt_aee5250a8c856894",
+      "headline": "Путин : за саммит по Украине с Трампом и Си , но против переговоров с Зеленским",
+      "url": "https://ru.euronews.com/2026/10/19/ru-putin-seeks-ukraine-summit-with-trump-and-xi-but-refuses-talks-with-zelenskyy",
+      "published_at": "20261019T113000Z",
+      "source": "ru.euronews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3e26a3187cbf7ae4",
+      "headline": "Diego Ferrao , nuevo CFO de Audax | Audax | Estrategias de Inversión",
+      "url": "https://www.estrategiasdeinversion.com/actualidad/noticias/empresas/diego-ferrao-nuevo-cfo-de-audax-n-961013",
+      "published_at": "20261019T071500Z",
+      "source": "estrategiasdeinversion.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c76c7968f3e010e7",
+      "headline": "Ötmilliárd dolláros „ gázgyűrű : így erősödhet Közép - Ázsia energiabiztonsága",
+      "url": "https://hu.euronews.com/2026/10/19/otmilliard-dollaros-gazgyuru-igy-erosodhet-kozep-azsia-energiabiztonsaga",
+      "published_at": "20261019T093000Z",
+      "source": "hu.euronews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fc42f5ad81a5d7c6",
+      "headline": "Соглашение между США и Россией не остановило Украину : командир  Ахиллеса  объяснил , почему",
+      "url": "https://www.unian.net/world/soglashenie-mezhdu-ssha-i-rossiey-ne-ostanovilo-ukrainu-komandir-ahillesa-obyasnil-pochemu-13533024.html",
+      "published_at": "20261019T084500Z",
+      "source": "unian.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_72bdc1a2f50f2b70",
+      "headline": "نائب : إعلان مجلس الدفاع الوطني تكثيف الجهود لخفض التصعيد بالإقليم ضرورة لحماية الأمن والاستقرار",
+      "url": "https://www.dostor.org/5744389",
+      "published_at": "20261019T081500Z",
+      "source": "dostor.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_15a6192fdd9b4cee",
+      "headline": "Putin schlägt Trump und Xi Ukraine - Gipfel vor | Tiroler Tageszeitung – Aktuelle Nachrichten auf tt . com",
+      "url": "https://www.tt.com/artikel/30944892/putin-schlaegt-trump-und-xi-ukraine-gipfel-vor",
+      "published_at": "20261019T123000Z",
+      "source": "tt.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_14d09c732e47485a",
+      "headline": "Польша временно закрыла аэропорты Люблина и Жешува из - за работы военной авиации",
+      "url": "https://life.ru/p/polsha-vremenno-zakryla-aeroporty-lyublina-i-zheshuva-iz-za-raboty-voennoy",
+      "published_at": "20261019T104500Z",
+      "source": "life.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_523ef68f301db321",
+      "headline": "Представитель ВС объяснил сбой системы оповещения во время атаки на Киев баллистическими ракетами",
+      "url": "https://24tv.ua/ru/predstavitel-vs-objasnil-sboj-sistemy-opoveshhenija-vremja-ataki_n3163159",
+      "published_at": "20261019T083000Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bd9cb23de084647b",
+      "headline": "PingPong continues international growth , expands into Iberia through strategic partnership with Getnet",
+      "url": "https://www.europapress.es/comunicados/internacional-00907/noticia-comunicado-pingpong-continues-international-growth-expands-into-iberia-through-strategic-partnership-with-getnet-20261019080149.html",
+      "published_at": "20261019T071500Z",
+      "source": "europapress.es",
+      "tags": []
+    },
+    {
+      "id": "gdelt_15f365af1b5f919c",
+      "headline": "Africa CDC pledges support to Kenya after 7 Ebola cases confirmed",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/10/19/africa-cdc-pledges-support-to-kenya-after-7-ebola-cases-confirmed",
+      "published_at": "20261019T073000Z",
+      "source": "freemalaysiatoday.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ff0a2fc0fb154734",
+      "headline": "快訊 ／ 金與正震怒 ！ 透露邊境 「 情勢緊張 」： 考慮對南韓發動新攻勢",
+      "url": "https://www.ettoday.net/news/20261019/3257424.htm",
+      "published_at": "20261019T100000Z",
+      "source": "ettoday.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f6e9b9dbc4a106f3",
+      "headline": "Приамурье интересует туристов всё больше : бронирования жилья выросли на треть АМУР . Инфо",
+      "url": "https://amur.info/2026/10/19/priamure-interesuet-turistov-vsyo-bolshe-bronirovaniya-zhilya-vyrosli-na-tret/",
+      "published_at": "20261019T121500Z",
+      "source": "amur.info",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4930ce6dd550de48",
+      "headline": "Çin Ekonomisi Yılın İlk Dokuz Ayında Yüzde 4 , 6 Büyüdü",
+      "url": "https://sana.sy/tr/economy/2329369/",
+      "published_at": "20261019T121500Z",
+      "source": "sana.sy",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8c8cb0d89127d9ee",
+      "headline": "Шпионаж на Сахалине , утечка в японском  Бургер Кинге  и протесты в Индии : что у соседей",
+      "url": "https://primamedia.ru/news/2654275/",
+      "published_at": "20261019T071500Z",
+      "source": "primamedia.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2ab953f0e210977b",
+      "headline": "Sri Lanka opens first Chinese Yuan clearing bank in Colombo - Breaking News",
+      "url": "https://www.dailymirror.lk/breaking-news/Sri-Lanka-opens-first-Chinese-Yuan-clearing-bank-in-Colombo/108-352853",
+      "published_at": "20261019T073000Z",
+      "source": "dailymirror.lk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4e0edfab2001d7d2",
+      "headline": "Calm urged amid Iran border closure",
+      "url": "https://tribune.com.pk/story/2635655/calm-urged-amid-iran-border-closure",
+      "published_at": "20261019T081500Z",
+      "source": "tribune.com.pk",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_39bd0aca8600d598",
+      "headline": "EU fears next Russia sanctions could be the last",
+      "url": "http://www.bignewsnetwork.com/news/279384499/eu-fears-next-russia-sanctions-could-be-the-last-telegraph",
+      "published_at": "20261019T100000Z",
+      "source": "bignewsnetwork.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_38ba04b0ac4010e4",
+      "headline": "EU fears next Russia sanctions could be the last",
+      "url": "http://www.parisguardian.com/news/279384499/eu-fears-next-russia-sanctions-could-be-the-last-telegraph",
+      "published_at": "20261019T110000Z",
+      "source": "parisguardian.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f4ec4ed4159a49a8",
+      "headline": "Zelensky says no early warning of latest Russian strikes",
+      "url": "https://www.rte.ie/news/ukraine/2026/1019/1595909-ukraine-russia/",
+      "published_at": "20261019T084500Z",
+      "source": "rte.ie",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4a6392af65a3663b",
+      "headline": "La economía china crece un 4 , 6 % en los tres primeros trimestres del año",
+      "url": "https://sana.sy/es/economy/2338716/",
+      "published_at": "20261019T093000Z",
+      "source": "sana.sy",
+      "tags": [
+        "CHINA"
+      ]
+    },
+    {
+      "id": "gdelt_b4250b7f83756d84",
+      "headline": "El Ministerio de Trabajo busca la fórmula para que los transfronterizos no pierdan dinero al cobrar el paro en Gibraltar",
+      "url": "https://www.andaluciainformacion.es/articulo/campo-gibraltar-gibraltar/ccoo-ve-cerca-acuerdo-evitar-que-transfronterizos-pierdan-poder-adquisitivo-paro/202610191021153510308.html",
+      "published_at": "20261019T084500Z",
+      "source": "andaluciainformacion.es",
+      "tags": []
+    },
+    {
+      "id": "gdelt_24a0dffbe99fb7a3",
+      "headline": "جنوب لبنان على فوهة التصعيد ... هل تسبق الحرب الانتخابات الإسرائيلية ؟",
+      "url": "https://www.saidaonline.com/321408",
+      "published_at": "20261019T084500Z",
+      "source": "saidaonline.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3f5a1e099bd49fb8",
+      "headline": "В кабмине упростили получение детских пособий переселенцам из приграничья",
+      "url": "https://gorod48.ru/topnews/1989228/",
+      "published_at": "20261019T123000Z",
+      "source": "gorod48.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_39594f34480d61e6",
+      "headline": "נתניהו מבסיס חיל האוויר באזהרה לאויבי ישראל :  אל תנסו אותנו",
+      "url": "https://www.inn.co.il/news/708814",
+      "published_at": "20261019T101500Z",
+      "source": "inn.co.il",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f3a6355d5d83bf40",
+      "headline": "EU - funded Romania - Ukraine cross - border cooperation programme to continue beyond 2027",
+      "url": "https://actmedia.eu/daily/eu-funded-romania-ukraine-cross-border-cooperation-programme-to-continue-beyond-2027/122169",
+      "published_at": "20261019T073000Z",
+      "source": "actmedia.eu",
+      "tags": [
+        "ROMANIA"
+      ]
+    },
+    {
+      "id": "gdelt_16cb122352bf4cbc",
+      "headline": "Турция не будет пропускать военные суда через Босфор и Дарданеллы",
+      "url": "https://vestikavkaza.ru/news/turcia-ne-budet-propuskat-voennye-suda-cerez-bosfor-i-dardanelly.html",
+      "published_at": "20261019T104500Z",
+      "source": "vestikavkaza.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_28679362c36bd386",
+      "headline": "Лавров прибыл в Иран для обсуждения деэскалации в Персидском заливе :: Новости дня / ВЗГЛЯД",
+      "url": "https://vz.ru/news/2026/10/19/1464808.html",
+      "published_at": "20261019T111500Z",
+      "source": "vz.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cfb44a8d967f6cf1",
+      "headline": "Bessent , yaptırımların kaldırılmadığını , sadece dizel ambargosunun kaldırıldığını savundu",
+      "url": "https://www.haberler.com/guncel/bessent-yaptirimlarin-kaldirilmadigini-sadece-20343673-haberi/",
+      "published_at": "20261019T071500Z",
+      "source": "haberler.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f5c273a6e34e361b",
+      "headline": "Interreg Ελλάδα – Βουλγαρία : Υπογραφή συμβάσεων για 21 νέα έργα , ύψους 33 , 4 εκατ . ευρώ",
+      "url": "https://www.newsit.gr/oikonomia/finance/interreg-ellada-voulgaria-ypografi-symvaseon-gia-21-nea-erga-ypsous-33-4-ekat-eyro/4802128/",
+      "published_at": "20261019T121500Z",
+      "source": "newsit.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_405db1fdf0b2949f",
+      "headline": "Cease dithering on haze : Why has Malaysia not acted while Japan has completed its mission ?",
+      "url": "https://www.thestar.com.my/opinion/letters/2026/10/19/cease-dithering-on-haze-why-has-malaysia-not-acted-while-japan-has-completed-its-mission",
+      "published_at": "20261019T104500Z",
+      "source": "thestar.com.my",
+      "tags": [
+        "JAPAN"
+      ]
+    },
+    {
+      "id": "gdelt_d3c86fa3460f7090",
+      "headline": "Interreg Ελλάδα – Βουλγαρία 2021 – 2027 : Υπογραφή συμβάσεων για 21 νέα έργα ...",
+      "url": "https://www.capital.gr/epikairotita/4024413/interreg-ellada-boulgaria-20212027-upografi-sumbaseon-gia-21-nea-erga-upsous-334-ekat-euro/",
+      "published_at": "20261019T114500Z",
+      "source": "capital.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d4ae9a99ceacf0c1",
+      "headline": "Китайский взгляд на глобальное развитие . | Аргументы и факты",
+      "url": "https://aif.ru/politics/world/soobshcha-k-procvetaniyu-chzhan-hanhuey-ob-iniciative-globalnogo-razvitiya",
+      "published_at": "20261019T071500Z",
+      "source": "aif.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_91ea9f0b8e5a04a7",
+      "headline": "Показать миролюбивый характер своих действий Швайба о развитии народного ополчения и теробороны в Беларуси",
+      "url": "https://www.sb.by/articles/mirolyubivyy-kharakter-svoikh-deystviy-shvayba-o-razvitii-narodnogo-opolcheniya-i-teroborony-v-belar.html",
+      "published_at": "20261019T093000Z",
+      "source": "sb.by",
+      "tags": []
+    },
+    {
+      "id": "gdelt_20aed389f15dcbf1",
+      "headline": "A Lavena Ponte Tresa la presentazione di  Sindaco di Frontiera  di Massimo Mastromarino",
+      "url": "https://www.varesenews.it/2026/10/a-lavena-ponte-tresa-la-presentazione-di-sindaco-di-frontiera-di-massimo-mastromarino/2712028/",
+      "published_at": "20261019T073000Z",
+      "source": "varesenews.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7d8c2697be2b8a05",
+      "headline": "Ne îndreptăm spre Al Treilea Război Mondial ? Avertisment privind riscul unui conflict între marile puteri",
+      "url": "https://www.capital.ro/ne-indreptam-spre-al-treilea-razboi-mondial-avertisment-privind-riscul-unui-conflict-intre-marile-puteri.html",
+      "published_at": "20261019T123000Z",
+      "source": "capital.ro",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c5d953320572b5a6",
+      "headline": "Adam Bielan broni relacji z Waszyngtonem . Nie ukrywa zastrzeżeń do Donalda Trumpa",
+      "url": "https://www.rp.pl/polityka/art45355801-adam-bielan-o-slowach-pete-a-hegsetha-mam-nadzieje-ze-nie-o-polske-chodzilo",
+      "published_at": "20261019T110000Z",
+      "source": "rp.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d125ade101942d30",
+      "headline": "Протести у Европи – зашто социјални бунт младих прераста у насиље",
+      "url": "https://www.rts.rs/vesti/svet/6064976/protesti-u-evropi--zasto-socijalni-bunt-mladih-prerasta-u-nasilje.html",
+      "published_at": "20261019T084500Z",
+      "source": "rts.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_465c2ff69f4216b2",
+      "headline": "ЕС спешит ввести санкции против России до выборов во Франции | Новости Украины",
+      "url": "https://news.liga.net/politics/news/the-telegraph-es-speshit-vvesti-sanktsii-protiv-rossii-na-sluchai-prihoda-le-pen-k-vlasti",
+      "published_at": "20261019T124500Z",
+      "source": "news.liga.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1f3328c10082cbf3",
+      "headline": "Лавров прибыл с визитом в Тегеран",
+      "url": "https://ria.ru/20261019/lavrov-2125394902.html",
+      "published_at": "20261019T111500Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bf8fd66f63fe36c4",
+      "headline": "US sought Europe help on India tariffs , they refused : Bessent",
+      "url": "https://www.prokerala.com/news/articles/a1826219.html",
+      "published_at": "20261019T083000Z",
+      "source": "prokerala.com",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
+      "id": "gdelt_aa05ac0f0e355113",
+      "headline": "Адские санкции США против РФ - почему Трамп отложил закон Грема",
+      "url": "https://www.obozrevatel.com/section-ekonomika-glavnaya/analytics-and-forecasts/news-pekelni-sanktsiyi-proty-rf-vidklaly-na-60-dniv-v-ssha-poyasnyly-rishennya-trampa-19-10-2026.html",
+      "published_at": "20261019T114500Z",
+      "source": "obozrevatel.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fd7c7d222af112a8",
+      "headline": "Tramp ukinuo sankcije Rusiji , cene nafte padaju ! Preokret na svetskom tržištu : Evo koliko sada košta barel",
+      "url": "https://naslovi.net/2026-10-19/blic/tramp-ukinuo-sankcije-rusiji-cene-nafte-padaju-preokret-na-svetskom-trzistu-evo-koliko-sada-kosta-barel/42502763",
+      "published_at": "20261019T071500Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5b0786bf9e817fd3",
+      "headline": "Central Asia Gas Ring Targets Route Flexibility With $5 Billion Estimate",
+      "url": "https://econotimes.com/Central-Asia-Gas-Ring-Targets-Route-Flexibility-With-5-Billion-Estimate-1756301",
+      "published_at": "20261019T073000Z",
+      "source": "econotimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3a9fb9beefade973",
+      "headline": "ABD Hazine Bakanı Bessenttan Rusya yaptırımları açıklaması",
+      "url": "https://bigpara.hurriyet.com.tr/haberler/genel-haberler/abd-hazine-bakani-bessenttan-rusya-yaptirimlari-aciklamasi_ID102271788/",
+      "published_at": "20261019T123000Z",
+      "source": "bigpara.hurriyet.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_380101910a08f51c",
+      "headline": "Trump Defends 60 - Day Russia Sanctions Waiver As US Says Europe Rejected Action Against India , China",
+      "url": "https://www.freepressjournal.in/business/trump-defends-60-day-russia-sanctions-waiver-as-us-says-europe-rejected-action-against-india-china",
+      "published_at": "20261019T080000Z",
+      "source": "freepressjournal.in",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
+      "id": "gdelt_f6e778a0b1eb2b32",
+      "headline": "Филиппо призвал Францию отказаться от помощи Украине из - за массовых беспорядков",
+      "url": "https://life.ru/p/milliardy-frantsuzam-a-ne-kievu-filippo-potreboval-prekratit-pomosch-ukraine",
+      "published_at": "20261019T104500Z",
+      "source": "life.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_42e5312f1a6aa390",
+      "headline": "Сколько ракет Patriot у Украины – Зеленский предлагал США не бить по нефтезаводам РФ | Новости Украины",
+      "url": "https://news.liga.net/war/news/zelenskii-predlagal-ssha-ne-bit-po-rossiiskim-neftezavodam-v-obmen-na-rakety-patriot",
+      "published_at": "20261019T080000Z",
+      "source": "news.liga.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c9618af0f05c864a",
+      "headline": "ГПСУ опровергла информацию о 40 - часовых очередях на границе с Польшей",
+      "url": "https://korrespondent.net/ukraine/4921417-hpsu-oproverhla-ynformatsyui-o-40-chasovykh-ocherediakh-na-hranytse-s-polshei",
+      "published_at": "20261019T124500Z",
+      "source": "korrespondent.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_334317683a9256e2",
+      "headline": "TVR Moldova : Избитый при переправе через Днестр украинец попросил убежища",
+      "url": "https://life.ru/p/pereplyl-dnestr-spasayas-ot-pogranichnikov-ukrainskiy-psihoterapevt-poprosil",
+      "published_at": "20261019T104500Z",
+      "source": "life.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_dfe881665ec739c8",
+      "headline": "Трамп объяснил причины отказа ужесточать антироссийские санкции",
+      "url": "https://deita.ru/article/591831",
+      "published_at": "20261019T073000Z",
+      "source": "deita.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cee8a78a44603638",
+      "headline": "На Украине раскрыли планы США по снятию санкций с России",
+      "url": "https://www.infox.ru/news/251/390401-na-ukraine-raskryli-plany-ssa-po-snatiu-sankcij-s-rossii",
+      "published_at": "20261019T104500Z",
+      "source": "infox.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b676ac24e3e4c456",
+      "headline": "Trump stoppt Russland - Sanktionen – und greift Selenskyj frontal an",
+      "url": "http://www.merkur.de/politik/trump-stoppt-russland-sanktionen-und-greift-selenskyj-frontal-an-zr-94548018.html",
+      "published_at": "20261019T111500Z",
+      "source": "merkur.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_39a9e7801b5cba4a",
+      "headline": "Trump stoppt Russland - Sanktionen – und greift Selenskyj frontal an",
+      "url": "https://www.merkur.de/politik/trump-stoppt-russland-sanktionen-und-greift-selenskyj-frontal-an-zr-94548018.html",
+      "published_at": "20261019T123000Z",
+      "source": "merkur.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b2a77814a4390759",
+      "headline": "Эксперт считает , что США придется последовательно смягчать топливные санкции",
+      "url": "https://www.vesti.ru/ns/ehkspert-schitaet-chto-ssha-pridetsya-posledovatelno-smyagchat-toplivnye-sankcii",
+      "published_at": "20261019T084500Z",
+      "source": "vesti.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cfbafc5ec9ea5920",
+      "headline": "Iran Air Genel Müdürü , yaptırımlar nedeniyle 1000 yerine 300 uçak bulunduğunu söyledi",
+      "url": "https://www.haberler.com/guncel/iran-air-genel-muduru-yaptirimlar-nedeniyle-1000-20345250-haberi/",
+      "published_at": "20261019T123000Z",
+      "source": "haberler.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bfb4a8842facab98",
+      "headline": "Рубио объяснил , зачем Трамп приостановил новые антироссийские санкции",
+      "url": "https://aif.ru/politics/world/rubio-obyasnil-zachem-tramp-priostanovil-novye-antirossiyskie-sankcii",
+      "published_at": "20261019T071500Z",
+      "source": "aif.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ff8c843c6a45e358",
+      "headline": "Ζελένσκι : Ο Πούτιν μας πιέζει να υποταχθούμε στους Ρώσους",
+      "url": "https://www.euro2day.gr/news/world/article/2374222/zelenski-o-poytin-mas-piezei-na-ypotahthoyme-stoys.html",
+      "published_at": "20261019T071500Z",
+      "source": "euro2day.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_454ee0c914df86c7",
+      "headline": "Благовещенцам показали , как будет выглядеть пятизвёздочный отель на набережной Амура АМУР . Инфо",
+      "url": "https://amur.info/2026/10/19/blagoveshhentsam-pokazali-kak-budet-vyglyadet-pyatizvyozdochnyj-otel-naberezhnoj-amura/",
+      "published_at": "20261019T121500Z",
+      "source": "amur.info",
+      "tags": []
+    },
+    {
+      "id": "gdelt_95ef00b617fef7c9",
+      "headline": "Kemenhut Sanksi 32 Perusahaan Terkait Karhutla , 125 Orang - Korporasi Diproses Pidana",
+      "url": "https://nasional.sindonews.com/read/1762317/13/kemenhut-sanksi-32-perusahaan-terkait-karhutla-125-orang-korporasi-diproses-pidana-1792408234",
+      "published_at": "20261019T123000Z",
+      "source": "nasional.sindonews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0d3c59ea2745029f",
+      "headline": "Встреча Трампа , Путина и Си – Рубио раскрыл подробности переговоров",
+      "url": "https://24tv.ua/ru/vstrecha-trampa-putina-i-si-rubio-raskryl-podrobnosti-peregovorov_n3163252",
+      "published_at": "20261019T111500Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e3e9c67bdb5ca5f4",
+      "headline": "Trump stoppt Russland - Sanktionen – und greift Selenskyj frontal an",
+      "url": "https://www.hna.de/politik/trump-stoppt-russland-sanktionen-und-greift-selenskyj-frontal-an-zr-94548018.html",
+      "published_at": "20261019T111500Z",
+      "source": "hna.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b45071397b0b7f14",
+      "headline": "نقابة الصحفيين تدعو لإعلاء قيم الحوار والسلام وتغليب لغة الدبلوماسية لحل الصراعات العربية",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=19102026&id=838c85ff-1ad0-4e09-9bde-9713d75e7d1e",
+      "published_at": "20261019T071500Z",
+      "source": "shorouknews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0062eefe550c43e0",
+      "headline": "Rubio : Lufta në Ukrainë rrezikon të përhapet , SHBA - ja sheq dorë nga diplomacia",
+      "url": "https://www.botasot.info/bota/2540657/rubio-lufta-ne-ukraine-rrezikon-te-perhapet-shba-ja-s-heq-dore-nga-diplomacia/",
+      "published_at": "20261019T121500Z",
+      "source": "botasot.info",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5b10ce0a13a270cb",
+      "headline": "Tramp ukinuo sankcije Rusiji , cene nafte padaju ! Preokret na svetskom tržištu",
+      "url": "https://www.blic.rs/biznis/vesti/tramp-ukinuo-sankcije-rusiji-cene-nafte-padaju-preokret-na-svetskom-trzistu/z931he9",
+      "published_at": "20261019T073000Z",
+      "source": "blic.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_487822aa6346f9b1",
+      "headline": "European Update | The Oireachtas National Parliament Office for the European Union",
+      "url": "https://www.oireachtas.ie/en/press-centre/news-and-features/20261019-european-update-the-oireachtas-national-parliament-office-for-the-european-union/",
+      "published_at": "20261019T111500Z",
+      "source": "oireachtas.ie",
+      "tags": [
+        "EU"
+      ]
+    },
+    {
+      "id": "gdelt_0580009ed3fb957c",
+      "headline": "Interreg Ελλάδα – Βουλγαρία 2021 – 2027 : Υπογραφή συμβάσεων για 21 νέα έργα ύψους 33 , 4 εκατ . ευρώ",
+      "url": "https://www.lykavitos.gr/news/economy/interreg-ellada-voulgaria-20212027-ypografi-symvaseon-gia-21-nea-erga-ypsous-334-ekat-ey",
+      "published_at": "20261019T123000Z",
+      "source": "lykavitos.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_eac1de8e70f4b88f",
+      "headline": "La rotura de una valla en el aeropuerto de Leipzig fue accidental y no acto de sabotaje - Mundo",
+      "url": "https://www.abc.com.py/internacionales/2026/10/19/la-rotura-de-una-valla-en-el-aeropuerto-de-leipzig-fue-accidental-y-no-acto-de-sabotaje/",
+      "published_at": "20261019T123000Z",
+      "source": "abc.com.py",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3f6022b1cee0071a",
+      "headline": "Trump waives new Russia sanctions",
+      "url": "https://www.wyff4.com/article/trump-waives-new-russia-sanctions/74176154",
+      "published_at": "20261019T121500Z",
+      "source": "wyff4.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_77a89c2bebc5b214",
+      "headline": "В Госдепе объяснил приостановку « адских санкций » против России Новости « Серебряного Дождя »",
+      "url": "https://silver.ru/news/v-gosdepe-obyasnil-priostanovku-adskikh-sanktsiy-protiv-rossii/",
+      "published_at": "20261019T073000Z",
+      "source": "silver.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f6103c885f8e6d22",
+      "headline": "„ Šokiruoja , bet nestebina : prieš rinkimus – demokratų kirčiai D . Trumpui dėl Ukrainos",
+      "url": "https://www.lrytas.lt/pasaulis/ivykiai/2026/10/19/news/-sokiruoja-bet-nestebina-pries-rinkimus-demokratu-kirciai-d-trumpui-del-ukrainos-44520269",
+      "published_at": "20261019T083000Z",
+      "source": "lrytas.lt",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0c0b54085411d1b5",
+      "headline": "Géopolitique – Nigeria : LUnion européenne renforce son appui militaire face aux défis sécuritaires – Mali Actu",
+      "url": "https://maliactu.net/geopolitique-nigeria-lunion-europeenne-renforce-son-appui-militaire-face-aux-defis-securitaires/",
+      "published_at": "20261019T074500Z",
+      "source": "maliactu.net",
+      "tags": [
+        "MALI",
+        "NIGERIA"
+      ]
+    },
+    {
+      "id": "gdelt_035ac9114ff4cc4e",
+      "headline": "AES – CEDEAO : à Dakar , la libre circulation au cœur du dialogue sur la coopération – Mali Actu",
+      "url": "https://maliactu.net/aes-cedeao-dakar-libre-circulation-dialogue-cooperation/",
+      "published_at": "20261019T123000Z",
+      "source": "maliactu.net",
+      "tags": [
+        "MALI"
+      ]
+    },
+    {
+      "id": "gdelt_26c79f01f9202856",
+      "headline": "Cijene nafte nastavljaju pad nakon ukidanja sankcija Rusiji",
+      "url": "https://www.rtvbn.com/4097924/cijene-nafte-nastavljaju-pad-nakon-ukidanja-sankcija-rusiji",
+      "published_at": "20261019T073000Z",
+      "source": "rtvbn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_17bf8d7d1198aaf2",
+      "headline": "الدماء العربية كلها حرام ،  الصحفيين  تدعو لإعلاء قيم الحوار والسلام لحل الصراعات العربية",
+      "url": "https://www.vetogate.com/5753101",
+      "published_at": "20261019T081500Z",
+      "source": "vetogate.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b8d7c718be2f9cd9",
+      "headline": "Trump waives new Russia sanctions",
+      "url": "https://www.wmur.com/article/trump-waives-new-russia-sanctions/74176154",
+      "published_at": "20261019T123000Z",
+      "source": "wmur.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ef493255f1b31eff",
+      "headline": "Zelensky criticizes partners over lack of attack warnings and proposed sanctions relief for Russia",
+      "url": "https://georgiatoday.ge/zelensky-criticizes-partners-over-lack-of-attack-warnings-and-proposed-sanctions-relief-for-russia/",
+      "published_at": "20261019T101500Z",
+      "source": "georgiatoday.ge",
+      "tags": []
     }
   ]
 }
