@@ -1,24 +1,50 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-23T17:03:33Z",
-    "provider": "GDELT_DOC_API",
-    "status": "partial",
+    "generated_at_utc": "2026-10-23T20:25:46Z",
+    "provider": "RSS_FALLBACK",
+    "status": "ok-fallback",
     "timespan": "6h",
     "max_events": 120,
     "streams": [
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "tripwire",
+        "status": "error",
+        "error": "rate_limited status=429",
+        "fetched": 0
+      },
+      {
+        "name": "rss_fallback",
         "status": "ok",
-        "fetched": 120
+        "fetched": 10,
+        "feeds": [
+          {
+            "outlet": "BBC News",
+            "status": "ok",
+            "items": 30,
+            "kept": 4
+          },
+          {
+            "outlet": "Al Jazeera",
+            "status": "ok",
+            "items": 25,
+            "kept": 4
+          },
+          {
+            "outlet": "France 24",
+            "status": "ok",
+            "items": 24,
+            "kept": 2
+          }
+        ]
       }
     ],
-    "fetched_articles": 120,
+    "fetched_articles": 10,
     "previous_event_count": 120,
     "tagging": {
       "method": "string_match",
@@ -33,1013 +59,98 @@
   },
   "events": [
     {
-      "id": "gdelt_318234714c7f836e",
-      "headline": "U Mobile , MRT Corp ink MoU to provide 5G coverage at RTS Link complex",
-      "url": "https://www.thestar.com.my/business/business-news/2026/10/23/u-mobile-mrt-corp-ink-mou-to-provide-5g-coverage-at-rts-link-complex",
-      "published_at": "20261023T113000Z",
-      "source": "thestar.com.my",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c06b158475e67dc4",
-      "headline": "Schweden fordert härtere Gangart gegen Russland ()",
-      "url": "https://www.aktiencheck.de/news/Artikel-Schweden_fordert_haertere_Gangart_gegen_Russland-20196081",
-      "published_at": "20261023T113000Z",
-      "source": "aktiencheck.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_89974da5be1476b2",
-      "headline": "Германия выдала Украине пограничника , сбежавшего после убийства дезертира",
-      "url": "https://life.ru/p/ot-sudby-ne-ubezhish-frg-vydala-ukraine-ubivshego-dezertira-pogranichnika",
-      "published_at": "20261023T143000Z",
-      "source": "life.ru",
+      "id": "rss_faf43bdedb4c95e0",
+      "headline": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+      "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T19:30:19Z",
+      "source": "BBC News",
       "tags": [
         "UKRAINE"
       ]
     },
     {
-      "id": "gdelt_11a7f55898abaa04",
-      "headline": "Украину погрузили во тьму за атаки Москвы : главная новость СВО 23 октября",
-      "url": "https://aif.ru/society/ukrainu-pogruzili-vo-tmu-za-ataki-moskvy-glavnaya-novost-svo-23-oktyabrya",
-      "published_at": "20261023T150000Z",
-      "source": "aif.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2635b91a69e8c41a",
-      "headline": "Дві третини американців співчувають Україні , 78 % вважають Росію ворогом або недружньою країною",
-      "url": "https://www.ukrinform.ua/rubric-world/4177549-dvi-tretini-amerikanciv-spivcuvaut-ukraini-78-vvazaut-rosiu-vorogom-abo-nedruznou-krainou.html",
-      "published_at": "20261023T150000Z",
-      "source": "ukrinform.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_63794dcc39a49ccb",
-      "headline": "بالأسماء ، تفاصيل حركة المحليات في 6 محافظات",
-      "url": "https://www.vetogate.com/5755973",
-      "published_at": "20261023T120000Z",
-      "source": "vetogate.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8e0d078f28c99e13",
-      "headline": "Eskalacija protesta u Tirani ; Rama :  Sve je pripremano mesecima i finasirano novcem iz inostranstva",
-      "url": "https://naslovi.net/2026-10-23/b92/eskalacija-protesta-u-tirani-rama-sve-je-pripremano-mesecima-i-finasirano-novcem-iz-inostranstva/42520980",
-      "published_at": "20261023T113000Z",
-      "source": "naslovi.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_627364a3efb2856f",
-      "headline": "Fon der Lajen : Duboko sam uznemirena zbog nove ruske eskalacije u Crnom moru",
-      "url": "https://naslovi.net/2026-10-23/n1-info/fon-der-lajen-duboko-sam-uznemirena-zbog-nove-ruske-eskalacije-u-crnom-moru/42521331",
-      "published_at": "20261023T130000Z",
-      "source": "naslovi.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_19d0b4bd51db46b0",
-      "headline": "EUA propõem restringir investimentos em biotecnologia na China ; medida pode isolar americanos do boom de inovao",
-      "url": "https://www.brasil247.com/global-times/eua-propoem-restringir-investimentos-em-biotecnologia-na-china-medida-pode-isolar-americanos-do-boom-de-inovacao/",
-      "published_at": "20261023T143000Z",
-      "source": "brasil247.com",
+      "id": "rss_4d5ec1a188751032",
+      "headline": "Newborn twins fight for survival as conflict fuels Yemen's hunger crisis",
+      "url": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T15:56:36Z",
+      "source": "BBC News",
       "tags": [
-        "CHINA"
+        "YEMEN"
       ]
     },
     {
-      "id": "gdelt_e892e176a6b22601",
-      "headline": "Pulverschnee wie Sand am Meer : Das sind die besten Skigebiete Europas",
-      "url": "https://www.nordbayern.de/promis-trends/die-besten-skigebiete-europas-urs-1-1.15326167",
-      "published_at": "20261023T150000Z",
-      "source": "nordbayern.de",
+      "id": "rss_3defb5fc21f661fd",
+      "headline": "Doctors tell the BBC about the targeting of Sudanese hospitals by paramilitary fighters",
+      "url": "https://www.bbc.co.uk/news/videos/c8x23gegwz34o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-23T11:30:32Z",
+      "source": "BBC News",
       "tags": []
     },
     {
-      "id": "gdelt_ccc940fcd6a4d2cc",
-      "headline": "Мирные переговоры : Европа ищет кандидатов для диалога с Путиным",
-      "url": "https://www.unian.net/world/mirnye-peregovory-evropa-ishchet-kandidatov-dlya-dialoga-s-putinym-13537959.html",
-      "published_at": "20261023T123000Z",
-      "source": "unian.net",
+      "id": "rss_e30c36063d2e63d7",
+      "headline": "Surveillance and 'constant paranoia': Western diplomats tell BBC of life in war-time Moscow",
+      "url": "https://www.bbc.co.uk/news/articles/cj75p1xr7p7vo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-22T23:16:20Z",
+      "source": "BBC News",
       "tags": []
     },
     {
-      "id": "gdelt_b3ac1306c95edd83",
-      "headline": "Фон дер Ляєн : Обстріл цивільного судна біля Румунії свідчить про чергову ескалацію з боку РФ у Чорному морі",
-      "url": "https://interfax.com.ua/news/general/1225259.html",
-      "published_at": "20261023T130000Z",
-      "source": "interfax.com.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a19b1e6b16243ab8",
-      "headline": "Nordic India Startup Summit 2026 : India needs to bridge awareness gap to attract Nordic startup capital , say industry leaders",
-      "url": "https://www.moneycontrol.com/news/business/startup/nordic-india-startup-summit-2026-india-needs-to-bridge-awareness-gap-to-attract-nordic-startup-capital-say-industry-leaders-14058689.html",
-      "published_at": "20261023T113000Z",
-      "source": "moneycontrol.com",
+      "id": "rss_dca94fb8ace81c53",
+      "headline": "Russia, Ukraine agree to Melania Trump-brokered localised ceasefire",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/23/russia-ukraine-agree-to-melania-trump-brokered-localised-ceasefire?traffic_source=rss",
+      "published_at": "2026-10-23T20:02:21Z",
+      "source": "Al Jazeera",
       "tags": [
-        "INDIA"
-      ]
-    },
-    {
-      "id": "gdelt_d802e086e84c5e4d",
-      "headline": "High logistics costs , fragmented rules stifle Uganda digital trade ambitions",
-      "url": "https://www.ugandaonline.net/news/2026-10-23--daily-monitor-uganda--high-logistics-costs-fragmented-rules-stifle-uganda-s-digital-trade-ambitions--31cfcc18370f/",
-      "published_at": "20261023T133000Z",
-      "source": "ugandaonline.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3b3fae09fdf5ea08",
-      "headline": "Дания передала Украине 50 тысяч боеприпасов для F - 16 : они помогут сбивать Шахеды",
-      "url": "https://www.unian.net/weapons/daniya-peredala-ukraine-50-tysyach-boepripasov-dlya-f-16-oni-pomogut-sbivat-shahedy-13537887.html",
-      "published_at": "20261023T123000Z",
-      "source": "unian.net",
-      "tags": [
+        "RUSSIA",
         "UKRAINE"
       ]
     },
     {
-      "id": "gdelt_9a716f96454e0d7f",
-      "headline": "Indonesia moves to criminalize foreign bribery for OECD membership",
-      "url": "https://en.antaranews.com/news/437527/indonesia-moves-to-criminalize-foreign-bribery-for-oecd-membership",
-      "published_at": "20261023T130000Z",
-      "source": "en.antaranews.com",
+      "id": "rss_daae675c1fb1e978",
+      "headline": "Trump’s broken promises: economy, war and ICE",
+      "url": "https://www.aljazeera.com/video/head-to-head/2026/10/23/trumps-broken-promises-economy-war-and-ice?traffic_source=rss",
+      "published_at": "2026-10-23T20:01:21Z",
+      "source": "Al Jazeera",
       "tags": []
     },
     {
-      "id": "gdelt_decf9d4b0d8e52e7",
-      "headline": "নিজস্ব প্রতিবেদক",
-      "url": "https://www.ntvbd.com/bangladesh/news-1824041",
-      "published_at": "20261023T130000Z",
-      "source": "ntvbd.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d98e2b9ffd8c06c6",
-      "headline": "Report : Tampa talks were  very bad  and  political escalation  expected",
-      "url": "https://www.naharnet.com/stories/en/323296-report-tampa-talks-were-very-bad-and-political-escalation-expected",
-      "published_at": "20261023T130000Z",
-      "source": "naharnet.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_952c2a1fe33ebbd8",
-      "headline": "Урсула фон дер Лайен : Атаката срещу кораба в Черно море е ново явно нарушение на международното право",
-      "url": "https://www.focus-news.net/novini/mejdunarodni/Ursula-fon-der-Laien-Atakata-sreshtu-koraba-v-Cherno-more-e-novo-yavno-narushenie-na-mezhdunarodnoto-pravo-3044468",
-      "published_at": "20261023T123000Z",
-      "source": "focus-news.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_25a4882f009f475b",
-      "headline": "PEACEPLUS and Pobal back cross - border musical theatre project - Highland Radio",
-      "url": "https://highlandradio.com/2026/10/23/peaceplus-and-pobal-back-cross-border-musical-theatre-project/",
-      "published_at": "20261023T123000Z",
-      "source": "highlandradio.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6234c75be6f72a15",
-      "headline": "960 ألف لغم في عامين .. كوريا الشمالية تعزز تحصين حدودها",
-      "url": "https://www.okaz.com.sa/politics/na/2272093",
-      "published_at": "20261023T120000Z",
-      "source": "okaz.com.sa",
-      "tags": []
-    },
-    {
-      "id": "gdelt_acb3acaa59201ab6",
-      "headline": "KY Sanksi Hakim Tipikor dalam Perkara Bengawan Kamto , Ini Respons Kuasa Hukum",
-      "url": "https://news.republika.co.id/berita/tnd41h320/ky-sanksi-hakim-tipikor-dalam-perkara-bengawan-kamto-ini-respons-kuasa-hukum",
-      "published_at": "20261023T143000Z",
-      "source": "news.republika.co.id",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6e5947363ba3c6c1",
-      "headline": "Kasparow warnt vor Putin - Deal : Sanktionen retten Menschenleben",
-      "url": "https://www.merkur.de/politik/kasparow-warnt-vor-putin-deal-sanktionen-retten-menschenleben-zr-94555106.html",
-      "published_at": "20261023T130000Z",
-      "source": "merkur.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d6a4b93eaaf453df",
-      "headline": "Toter bei Drohnentreffer von Handelsschiff vor Rumänien",
-      "url": "https://orf.at/stories/3445974/",
-      "published_at": "20261023T130000Z",
-      "source": "orf.at",
-      "tags": []
-    },
-    {
-      "id": "gdelt_edee76940f2ae442",
-      "headline": "Не только санкции : что на самом деле разрушает экономику Ирана",
-      "url": "https://haqqin.az/newsarchive/396454",
-      "published_at": "20261023T120000Z",
-      "source": "haqqin.az",
-      "tags": []
-    },
-    {
-      "id": "gdelt_85af600b33c3e261",
-      "headline": "Румъния обвини Кремъл за инцидента с потъналия кораб в Черно море",
-      "url": "https://www.focus-news.net/novini/mejdunarodni/Rumuniya-obvini-Kremul-za-incidentas-potunaliya-korab-v-Cherno-more-3044428",
-      "published_at": "20261023T123000Z",
-      "source": "focus-news.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_765352e830ef6dd2",
-      "headline": "عاجل . - بعد هجوم الضفة .. بن غفير يدعو إلى  تفكيك  السلطة الفلسطينية ونتنياهو يلغي أنشطة حزبه الانتخابية",
-      "url": "https://arabic.euronews.com/2026/10/23/west-bank-ben-gvir-shooting-netanyahu-hamas",
-      "published_at": "20261023T123000Z",
-      "source": "arabic.euronews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5730612355f03812",
-      "headline": "Черное море : Румыния предлагает создать совместное военное командование",
-      "url": "https://www.unian.net/world/chernoe-more-rumyniya-predlagaet-sozdat-sovmestnoe-voennoe-komandovanie-13537851.html",
-      "published_at": "20261023T123000Z",
-      "source": "unian.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6e459ef0cc120bab",
-      "headline": "Drone hits another ship in Black Sea near Romania , killing at least 1 sailor",
-      "url": "https://www.politico.eu/article/drone-hits-another-ship-in-black-sea-near-romania-killing-at-least-one-sailor/",
-      "published_at": "20261023T133000Z",
-      "source": "politico.eu",
+      "id": "rss_f33ca782226f4a25",
+      "headline": "Romania blames Russia after drone sinks ship in the Black Sea",
+      "url": "https://www.aljazeera.com/news/2026/10/23/romania-blames-russia-after-drone-sinks-ship-in-the-black-sea?traffic_source=rss",
+      "published_at": "2026-10-23T17:26:13Z",
+      "source": "Al Jazeera",
       "tags": [
+        "RUSSIA",
         "ROMANIA"
       ]
     },
     {
-      "id": "gdelt_572640bd433ea5e4",
-      "headline": "Ουκρανία : Συνεχίζονται οι περιορισμοί στο Starshield παρά διαβεβαιώσεις Τραμπ",
-      "url": "https://www.sigmalive.com/news/international/1334655/oykrania-sinekhizontai-oi-periorismi-sto-starshield-para-diavevaiwseis-tramp",
-      "published_at": "20261023T120000Z",
-      "source": "sigmalive.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c53d2e1923abca44",
-      "headline": "Ryssland : Trepartssamtal i november – Senaste nytt om kriget i Ukraina",
-      "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=5b29194e43888835c665a3f6a35cc227",
-      "published_at": "20261023T123000Z",
-      "source": "svt.se",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8847edb5480284aa",
-      "headline": "Limitations du système Starshield / Starlink : lUkraine toujours pénalisée , malgré les annonces de Trump - 23 / 10 / 2026 à 12 : 11",
-      "url": "https://www.boursorama.com/actualite-economique/actualites/limitations-du-systeme-starshield-starlink-l-ukraine-toujours-penalisee-malgre-les-annonces-de-trump-21ebc758a7e2fa8f0f4550d885d81289",
-      "published_at": "20261023T120000Z",
-      "source": "boursorama.com",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "gdelt_b62a1f06665975a1",
-      "headline": "僑委會惜別晚宴 李姸慧籲團結僑社力量建立民主韌性",
-      "url": "https://n.yam.com/Article/20261023194509",
-      "published_at": "20261023T130000Z",
-      "source": "n.yam.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5ac9e7eb48029fd0",
-      "headline": "Rysk diesel på väg mot united states – Senaste nytt om kriget i Ukraina",
-      "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=6ea9cc79d02a1e192ca32b9ec9c2a509",
-      "published_at": "20261023T123000Z",
-      "source": "svt.se",
-      "tags": [
-        "UNITED_STATES"
-      ]
-    },
-    {
-      "id": "gdelt_2ae5a8d2f6f80e0d",
-      "headline": "Rama akuzon rrjetin Antifa për ndikim në protestat në Tiranë : Përshkallëzimi i dhunës është përgatitur prej muajsh , janë financuar nga krimi i organizuar dhe nga burime të huaja",
-      "url": "https://lajmi.net/rama-akuzon-rrjetin-antifa-per-ndikim-ne-protestat-ne-tirane-pershkallezimi-i-dhunes-eshte-pergatitur-prej-muajsh-jane-financuar-nga-krimi-i-organizuar-dhe-nga-burime-te-huaja/",
-      "published_at": "20261023T120000Z",
-      "source": "lajmi.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8db3b0afd93b8d4f",
-      "headline": "Zehetner zu EU Inc .: Österreich fordert mehr Ambition für Europas Gründerinnen und Gründer",
-      "url": "https://www.ots.at/presseaussendung/OTS_20261023_OTS0154/zehetner-zu-eu-inc-oesterreich-fordert-mehr-ambition-fuer-europas-gruenderinnen-und-gruender",
-      "published_at": "20261023T130000Z",
-      "source": "ots.at",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bb088447536987e3",
-      "headline": "MUJANOVIĆ ZVONI NA UZBUNU : Dodik i Čović pripremaju  neprijateljsko preuzimanje  OSA - e i CIK - a , Washington treba postaviti  crvene linije",
-      "url": "https://www.slobodna-bosna.ba/vijest/511666/mujanovic_zvoni_na_uzbunu_dodik_i_chovic_pripremaju_neprijateljsko_preuzimanje_osa_e_i_cik_a_washington_treba_postaviti_crvene_linije.html",
-      "published_at": "20261023T120000Z",
-      "source": "slobodna-bosna.ba",
-      "tags": []
-    },
-    {
-      "id": "gdelt_634cb4f4fc79674f",
-      "headline": "Svi komentari - Užas u Parizu : Muškarac sa automatskom puškom otvorio vatru iz automobila ; Ima mrtvih",
-      "url": "https://www.b92.net/svi-komentari/278945",
-      "published_at": "20261023T113000Z",
-      "source": "b92.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4a0779f52909b906",
-      "headline": "IDRD inicia proceso sancionatorio contra Sencia por gramilla de El Campín",
-      "url": "https://www.semana.com/nacion/bogota/articulo/idrd-abre-proceso-contra-sencia-por-gramilla-de-el-campin-que-puede-pasar-ahora/202633/",
-      "published_at": "20261023T150000Z",
-      "source": "semana.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2c169528eb641b09",
-      "headline": "Navă lovită în Marea Neagră . Nicușor Dan : „ Un eveniment din procesul de escaladare  al Rusiei / Ministrul Apărării : „ Este a doua zi de mandat și deja am început să mă ocup de legislație",
-      "url": "https://www.stiripesurse.ro/nava-lovita-in-marea-neagra-nicusor-dan-un-eveniment-din-procesul-de-escaladare-al-rusiei-ministrul-apararii-este-a-doua-zi-de-mandat-si-deja-am-inceput-sa-ma-ocup-de-legislatie_3930754",
-      "published_at": "20261023T113000Z",
-      "source": "stiripesurse.ro",
-      "tags": []
-    },
-    {
-      "id": "gdelt_941520fe04fe5b58",
-      "headline": "Spoliehať sa na Putinovu dobrosrdečnosť je hazard s existenciou Slovenska ( komentár Petra Weissa )",
-      "url": "https://www.aktuality.sk/clanok/yArfKq8/spoliehat-sa-na-putinovu-dobrosrdecnost-je-hazard-s-existenciou-slovenska-komentar-petra-weissa/",
-      "published_at": "20261023T150000Z",
-      "source": "aktuality.sk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0eb9289e8f1cf83b",
-      "headline": "Room tín dụng cạn dần cùng chế tài siết chặt , cuộc đua lãi suất khó  nóng  trở lại cuối năm",
-      "url": "https://thoibaotaichinhvietnam.vn/room-tin-dung-can-dan-cung-che-tai-siet-chat-cuoc-dua-lai-suat-kho-nong-tro-lai-cuoi-nam-205855.html",
-      "published_at": "20261023T143000Z",
-      "source": "thoibaotaichinhvietnam.vn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_90f98bbb396ccc54",
-      "headline": "The Kremlin says a first tanker of Russian diesel sets sail for the US despite Ukraine protests",
-      "url": "https://www.clickondetroit.com/business/2026/10/23/the-kremlin-says-a-first-tanker-of-russian-diesel-sets-sail-for-the-us-despite-ukraines-protests/",
-      "published_at": "20261023T133000Z",
-      "source": "clickondetroit.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_72ef61e6169f0475",
-      "headline": "Russian Diesel Tanker Heads to New York After Trump - Putin Deal",
-      "url": "https://www.kyivpost.com/post/87980",
-      "published_at": "20261023T120000Z",
-      "source": "kyivpost.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b7583e4cf696760f",
-      "headline": "Ukraine news : Russian diesel headed for U . S ., Kremlin says",
-      "url": "https://www.bnnbloomberg.ca/markets/oil/2026/10/23/the-kremlin-says-a-first-tanker-of-russian-diesel-sets-sail-for-the-us-despite-ukraines-protests/",
-      "published_at": "20261023T130000Z",
-      "source": "bnnbloomberg.ca",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c88161fa78fbe16a",
-      "headline": "Venäjän dieselerä matkaa Suomen edustalla kohti Yhdysvaltoja",
-      "url": "https://www.is.fi/ulkomaat/art-2000012362637.html",
-      "published_at": "20261023T120000Z",
-      "source": "is.fi",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d0e39a5d949a6455",
-      "headline": "The Kremlin says a first tanker of Russian diesel sets sail for the US despite Ukraine protests",
-      "url": "https://www.clickorlando.com/business/2026/10/23/the-kremlin-says-a-first-tanker-of-russian-diesel-sets-sail-for-the-us-despite-ukraines-protests/",
-      "published_at": "20261023T123000Z",
-      "source": "clickorlando.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7f8ab98cc04b3235",
-      "headline": "Do united states vyplul první tanker se 40 000 tunami ruské nafty",
-      "url": "https://www.idnes.cz/ekonomika/zahranicni/usa-rusko-tanker-nafta.A261023_120009_eko-zahranicni_rie",
-      "published_at": "20261023T123000Z",
-      "source": "idnes.cz",
-      "tags": [
-        "UNITED_STATES"
-      ]
-    },
-    {
-      "id": "gdelt_c2ff3da7a158e893",
-      "headline": "AFRIKARS launches cross - border vehicle marketplace in Abuja",
-      "url": "https://punchng.com/afrikars-launches-cross-border-vehicle-marketplace-in-abuja/",
-      "published_at": "20261023T143000Z",
-      "source": "punchng.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1da9edf0627eff81",
-      "headline": "Maternité de Mont - Saint - Martin : Esch et Arlon prêtes à accueillir les futures mamans",
-      "url": "https://www.lessentiel.lu/fr/story/accouchements-esch-et-arlon-pourront-prendre-le-relais-de-mont-saint-martin-103654031",
-      "published_at": "20261023T123000Z",
-      "source": "lessentiel.lu",
-      "tags": []
-    },
-    {
-      "id": "gdelt_395e5b2fd3c489a8",
-      "headline": "Българи спасиха девет моряци от атакувания с дрон кораб край Румъния",
-      "url": "https://frognews.bg/novini/balgari-spasiha-devet-moryatsi-atakuvaniya-dron-korab-kray-rumaniya.html",
-      "published_at": "20261023T150000Z",
-      "source": "frognews.bg",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d240900730ebd118",
-      "headline": "India Shree Shivkrupanand Swami Named Vice Chair of World Meditation Day Governance Committee",
-      "url": "https://aninews.in/news/business/india8217s-shree-shivkrupanand-swami-named-vice-chair-of-world-meditation-day-governance-committee20261023170211/",
-      "published_at": "20261023T123000Z",
-      "source": "aninews.in",
-      "tags": [
-        "INDIA"
-      ]
-    },
-    {
-      "id": "gdelt_2dd14f77559321c0",
-      "headline": "Tanker with Russian diesel sets sail for US following Trump deal",
-      "url": "https://www.thetelegraphandargus.co.uk/news/national/26665346.tanker-russian-diesel-sets-sail-us-following-trump-deal/",
-      "published_at": "20261023T143000Z",
-      "source": "thetelegraphandargus.co.uk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_85a8bd4b9c48a45e",
-      "headline": "Trump - Deal mit Russland : Erster Diesel - Tanker fährt in die united states",
-      "url": "https://www.20min.ch/story/trump-deal-mit-russland-erster-diesel-tanker-faehrt-in-die-usa-103654553",
-      "published_at": "20261023T150000Z",
-      "source": "20min.ch",
-      "tags": [
-        "UNITED_STATES"
-      ]
-    },
-    {
-      "id": "gdelt_f4d81c6beeb0ba64",
-      "headline": "Tanker with Russian diesel sets sail for US following Trump deal",
-      "url": "https://www.salisburyjournal.co.uk/news/national/26665346.tanker-russian-diesel-sets-sail-us-following-trump-deal/",
-      "published_at": "20261023T150000Z",
-      "source": "salisburyjournal.co.uk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a9de622eace52575",
-      "headline": "Tanker with Russian diesel sets sail for US following Trump deal",
-      "url": "https://www.lancashiretelegraph.co.uk/news/national/26665346.tanker-russian-diesel-sets-sail-us-following-trump-deal/",
-      "published_at": "20261023T150000Z",
-      "source": "lancashiretelegraph.co.uk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a67ecfc3a66c10d0",
-      "headline": "India , Italy discuss institutionalising naval engagements , deepening operational cooperation",
-      "url": "https://aninews.in/news/world/asia/india-italy-discuss-institutionalising-naval-engagements-deepening-operational-cooperation20261023162644/",
-      "published_at": "20261023T123000Z",
-      "source": "aninews.in",
-      "tags": [
-        "INDIA"
-      ]
-    },
-    {
-      "id": "gdelt_e69d4789366c673f",
-      "headline": "The Kremlin says a first tanker of Russian diesel sets sail for the US despite Ukraine protests",
-      "url": "https://www.wboc.com/news/international/the-kremlin-says-a-first-tanker-of-russian-diesel-sets-sail-for-the-us-despite/article_31e66dc7-4f3e-5d19-b234-b951a7d82e20.html",
-      "published_at": "20261023T123000Z",
-      "source": "wboc.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f3685df98bff2baa",
-      "headline": "Israeli army claims 2 soldiers killed in occupied West Bank shooting",
-      "url": "https://www.middleeastmonitor.com/20261023-israeli-army-claims-2-soldiers-killed-in-occupied-west-bank-shooting/",
-      "published_at": "20261023T150000Z",
-      "source": "middleeastmonitor.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c88a7e5ae7603585",
-      "headline": "Giurgiu - Ruse . Superangular  exhibition opens at Regional Museum of History in Ruse",
-      "url": "https://agerpres.ro/english/2026/10/23/giurgiu-ruse-superangular-exhibition-opens-at-regional-museum-of-history-in-ruse--1606183",
-      "published_at": "20261023T113000Z",
-      "source": "agerpres.ro",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9766df84af26faa8",
-      "headline": "Lợi suất trái phiếu kho bạc Mỹ kỳ hạn 10 năm giảm mạnh xuống dưới 5 %",
-      "url": "https://vietgiaitri.com/loi-suat-trai-phieu-kho-bac-my-ky-han-10-nam-giam-manh-xuong-duoi-5-20261023i7800566/",
-      "published_at": "20261023T150000Z",
-      "source": "vietgiaitri.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_dd65c11b861f0b9d",
-      "headline": "Romania , Ursula von der Leyen | Von der Leyen reagerer på dødelig angrep : – Dypt bekymret",
-      "url": "https://www.nettavisen.no/nyheter/von-der-leyen-om-angrepet-pa-skip-utenfor-romania-dypt-bekymret-over-russisk-eskalering/s/80-95-187053",
-      "published_at": "20261023T150000Z",
-      "source": "nettavisen.no",
-      "tags": [
-        "ROMANIA"
-      ]
-    },
-    {
-      "id": "gdelt_76d7cb27e9b6dc6a",
-      "headline": "Біля узбережжя Румунії затонуло судно Хорив із українцями на борту – це міг бути удар дрону",
-      "url": "https://kp.ua/ua/incidents/a737833-bilja-uzberezhzhja-rumuniji-zatonulo-sudno-khoriv-iz-ukrajintsjami-na-bortu-tse-mih-buti-udar-dronu",
-      "published_at": "20261023T120000Z",
-      "source": "kp.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_75a0a9cb1df472ad",
-      "headline": "Неподалік Румунії затонуло судно , яке , ймовірно , було уражене дроном : є загиблі та зниклі безвісти",
-      "url": "https://www.5.ua/svit/nepodalik-rumunii-zatonulo-sudno-iake-imovirno-bulo-urazhene-dronom-ie-zahybli-ta-znykli-bezvisty-385165.html",
-      "published_at": "20261023T130000Z",
-      "source": "5.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8edf36f00a514443",
-      "headline": "ITBP Arunachal Face - offs : Political Turmoil Unleashed - Pragativadi I Latest Odisha News in English I Breaking News",
-      "url": "https://pragativadi.com/itbp-chief-confirms-ongoing-arunachal-face-offs-with-china-congress-slams-centre/",
-      "published_at": "20261023T120000Z",
-      "source": "pragativadi.com",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
-      "id": "gdelt_40428bd41fd9241c",
-      "headline": "Khalilzad warns of worsening relations between Afghanistan and Pakistan | Ariana News",
-      "url": "https://www.ariananews.af/khalilzad-warns-of-worsening-relations-between-afghanistan-and-pakistan/",
-      "published_at": "20261023T150000Z",
-      "source": "ariananews.af",
-      "tags": [
-        "PAKISTAN",
-        "AFGHANISTAN"
-      ]
-    },
-    {
-      "id": "gdelt_293ba3c92e63a142",
-      "headline": "Turkmenistan says Kerki – Kabul power line could supply up to 800 MW to Afghanistan | Ariana News",
-      "url": "https://www.ariananews.af/turkmenistan-says-kerki-kabul-power-line-could-supply-up-to-800-mw-to-afghanistan/",
-      "published_at": "20261023T150000Z",
-      "source": "ariananews.af",
-      "tags": [
-        "AFGHANISTAN"
-      ]
-    },
-    {
-      "id": "gdelt_fbf07603e9d069e3",
-      "headline": "China and Djibouti stress need to protect Red Sea shipping lanes | Hellenic Shipping News Worldwide",
-      "url": "https://www.hellenicshippingnews.com/china-and-djibouti-stress-need-to-protect-red-sea-shipping-lanes/",
-      "published_at": "20261023T120000Z",
-      "source": "hellenicshippingnews.com",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
-      "id": "gdelt_13f6b1722d409578",
-      "headline": "Antalyaspora FIFAdan yeni transfer engeli :  dosya gündemde",
-      "url": "https://www.yenialanya.com/antalyaspora-fifadan-yeni-transfer-engeli-uc-dosya-gundemde",
-      "published_at": "20261023T143000Z",
-      "source": "yenialanya.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3f6d818706adf5ec",
-      "headline": "The Kremlin says a first tanker of Russian diesel sets sail for the US despite Ukraine protests",
-      "url": "https://www.stcatharinesstandard.ca/business/the-kremlin-says-a-first-tanker-of-russian-diesel-sets-sail-for-the-us-despite-ukraine-s-protests/article_f48ecb13-a889-5b4b-a801-d1f42b1d9cc6.html",
-      "published_at": "20261023T143000Z",
-      "source": "stcatharinesstandard.ca",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d61d466d8b3a4d41",
-      "headline": "Rusijos laivas su 300 tūkst . barelių dyzelino – pakeliui į Niujorką",
-      "url": "https://www.15min.lt/naujiena/aktualu/pasaulis/stebetojai-is-rusijos-uosto-i-niujorka-isplauke-dyzelino-pripildytas-tanklaivis-57-2791370",
-      "published_at": "20261023T130000Z",
-      "source": "15min.lt",
-      "tags": []
-    },
-    {
-      "id": "gdelt_60b4d9f0a978c8a6",
-      "headline": "Arabia Saudita evacúa sede de Aramco tras nuevos ataques de los hutíes y se dispara el precio del petróleo",
-      "url": "https://acento.com.do/france24/arabia-saudita-evacua-sede-de-aramco-tras-nuevos-ataques-de-los-huties-y-se-dispara-el-precio-del-petroleo-9776082.html",
-      "published_at": "20261023T123000Z",
-      "source": "acento.com.do",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8c83f04d3be2c471",
-      "headline": "Петмесечен връх за цената на петрола заради опасения за ескалация в Близкия изток",
-      "url": "https://frognews.bg/novini/petmesechen-vrah-tsenata-petrola-zaradi-opaseniia-eskalatsiia-blizkiia-iztok.html",
-      "published_at": "20261023T150000Z",
-      "source": "frognews.bg",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f065a47cf5043818",
-      "headline": "Israeli army detains 11 international activists supporting Palestinian olive harvest in West Bank",
-      "url": "https://www.middleeastmonitor.com/20261023-israeli-army-detains-11-international-activists-supporting-palestinian-olive-harvest-in-west-bank/",
-      "published_at": "20261023T123000Z",
-      "source": "middleeastmonitor.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6f37ea3d9c4c5aed",
-      "headline": "5 European Leaders Floated as Potential Negotiators With Putin",
-      "url": "https://www.kyivpost.com/post/87950",
-      "published_at": "20261023T120000Z",
-      "source": "kyivpost.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e83bb3573c86bc65",
-      "headline": "„ Поредната руска ескалация в Черно море . Фон дер Лайен осъди новата смъртоносна атака",
-      "url": "https://frognews.bg/novini/porednata-ruska-eskalatsiya-cherno-more-fon-der-layen-osadi-novata-smartonosna-ataka.html",
-      "published_at": "20261023T150000Z",
-      "source": "frognews.bg",
-      "tags": []
-    },
-    {
-      "id": "gdelt_732a4f7e16bd50c3",
-      "headline": "Eerste Russische diesel uit akkoord onderweg naar VS",
-      "url": "https://www.dagelijksestandaard.nl/nieuws/eerste-russische-diesel-uit-akkoord-onderweg-naar-vs?comment=1050361",
-      "published_at": "20261023T120000Z",
-      "source": "dagelijksestandaard.nl",
-      "tags": []
-    },
-    {
-      "id": "gdelt_19e80b1b6242216d",
-      "headline": "Вячеслав Нестеров : Большая игра Трампа , Путина и Си и что ждет Украину дальше Блоги",
-      "url": "https://www.obozrevatel.com/section-politics-news/news-velyka-hra-trampa-putina-y-si-i-shcho-chekaye-ukrayinu-dali-23-10-2026.html",
-      "published_at": "20261023T150000Z",
-      "source": "obozrevatel.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_91b61379fbbcac5f",
-      "headline": "Πάνω από τα 114 δολάρια το μπρεντ λόγω Μ . Ανατολής",
-      "url": "https://www.euro2day.gr/markets/merchandises/article-market/2375040/pano-apo-ta-114-dolaria-to-mprent-logo-m-anatolhs.html",
-      "published_at": "20261023T123000Z",
-      "source": "euro2day.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c2ec39f262afe5f2",
-      "headline": "Amina Pašić Gurel kažnjena sa 5 . 000 KM zbog pokušaja krijumčarenja 123 mobitela na sarajevskom aerodromu",
-      "url": "https://www.klix.ba/vijesti/bih/amina-pasic-gurel-kaznjena-sa-5000-km-zbog-pokusaja-krijumcarenja-123-mobitela-na-sarajevskom-aerodromu/261023184",
-      "published_at": "20261023T123000Z",
-      "source": "klix.ba",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1951f3cad1bafd70",
-      "headline": "Prabowo Murka soal Penyimpangan MBG : Pecat , Bersihkan sampai Bersih ! : Okezone News",
-      "url": "https://news.okezone.com/read/2026/10/23/337/3249804/prabowo-murka-soal-penyimpangan-mbg-pecat-bersihkan-sampai-bersih",
-      "published_at": "20261023T143000Z",
-      "source": "news.okezone.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c5b01f1c276a1f0a",
-      "headline": "Experten : Putin will jetzt über Ukraine verhandeln – doch dahinter steckt etwas anderes",
-      "url": "http://www.tz.de/politik/experten-putin-will-jetzt-ueber-ukraine-verhandeln-doch-dahinter-steckt-etwas-anderes-zr-94555179.html",
-      "published_at": "20261023T150000Z",
-      "source": "tz.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f334f974368250db",
-      "headline": "Oil hits five - month high amid fears US will renew strikes on Iran",
-      "url": "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran",
-      "published_at": "20261023T123000Z",
-      "source": "theguardian.com",
+      "id": "rss_c86e6f4994c36c36",
+      "headline": "‘Foreign policy is the economy’: How Iran war is shaping US midterm vote",
+      "url": "https://www.aljazeera.com/news/2026/10/23/foreign-policy-is-the-economy-how-iran-war-is-shaping-us-midterm-vote?traffic_source=rss",
+      "published_at": "2026-10-23T15:51:29Z",
+      "source": "Al Jazeera",
       "tags": [
         "IRAN"
       ]
     },
     {
-      "id": "gdelt_017a84a50f1219b2",
-      "headline": "Experten : Putin will jetzt über Ukraine verhandeln – doch dahinter steckt etwas anderes",
-      "url": "https://www.hna.de/politik/experten-putin-will-jetzt-ueber-ukraine-verhandeln-doch-dahinter-steckt-etwas-anderes-zr-94555179.html",
-      "published_at": "20261023T143000Z",
-      "source": "hna.de",
+      "id": "rss_f4f403097246231d",
+      "headline": "West Bank: Extensive military operation 'on the way', Netanyahu says",
+      "url": "https://www.france24.com/en/video/20261023-west-bank-extensive-military-operation-on-the-way-netanyahu-says",
+      "published_at": "2026-10-23T15:56:28Z",
+      "source": "France 24",
       "tags": []
     },
     {
-      "id": "gdelt_4ef1844a9ee57985",
-      "headline": "Дрони атакували судно в Румунії 23 жовтня – загиблий , коментарі Нікушора Дана | Новини України",
-      "url": "https://news.liga.net/ua/world/news/pryklad-trahichnykh-naslidkiv-viyny-rf-bilia-rumunii-zatonulo-komertsiyne-sudno-ie-zahyblyy",
-      "published_at": "20261023T143000Z",
-      "source": "news.liga.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4d1f0a8b70eca1cd",
-      "headline": "الشعوب أبقى من السياسة مصر والتضامن العربي في زمن الأزمات",
-      "url": "https://www.dostor.org/5749355",
-      "published_at": "20261023T120000Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7c5797faf480ba38",
-      "headline": "Svajūnas Plungė . Koks mūsų planas B , kai JAV renkasi priešo pusę ?",
-      "url": "https://www.lrt.lt/naujienos/pozicija/679/3090355/svajunas-plunge-koks-musu-planas-b-kai-jav-renkasi-prieso-puse",
-      "published_at": "20261023T130000Z",
-      "source": "lrt.lt",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cce86012366fa2cf",
-      "headline": "Bericht : Nord Stream , EU - Beitritt , NATO - Verzicht – das schlägt Washington für Ukraine - Frieden vor",
-      "url": "http://www.come-on.de/politik/bericht-nord-stream-eu-beitritt-nato-verzicht-das-schlaegt-washington-fuer-ukraine-frieden-vor-zr-94555184.html",
-      "published_at": "20261023T133000Z",
-      "source": "come-on.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_658e9bbcc0507455",
-      "headline": "Experten : Putin will jetzt über Ukraine verhandeln – doch dahinter steckt etwas anderes",
-      "url": "http://www.come-on.de/politik/experten-putin-will-jetzt-ueber-ukraine-verhandeln-doch-dahinter-steckt-etwas-anderes-zr-94555179.html",
-      "published_at": "20261023T150000Z",
-      "source": "come-on.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_df9e01fd7985774f",
-      "headline": "Netanyahu naredio zatvaranje Hebrona i potpunu blokadu okupirane Zapadne obale",
-      "url": "https://faktor.ba/svijet/svijet/netanyahu-naredio-zatvaranje-hebrona-i-potpunu-blokadu-okupirane-zapadne-obale/267012",
-      "published_at": "20261023T120000Z",
-      "source": "faktor.ba",
-      "tags": []
-    },
-    {
-      "id": "gdelt_54578b8ade87a914",
-      "headline": "تسرب نفطي من ناقلة بحرية يدفع الإمارات إلى إغلاق شواطئ إمارة أم القيوين مؤقتًا",
-      "url": "https://arabic.euronews.com/2026/10/23/uae-closes-umm-al-quwain-beaches-oil-spill-tanker",
-      "published_at": "20261023T123000Z",
-      "source": "arabic.euronews.com",
+      "id": "rss_e0f4f48102618046",
+      "headline": "War in the Middle East: Israel launches West Bank operations",
+      "url": "https://www.france24.com/en/war-in-the-middle-east-israel-launches-west-bank-operations",
+      "published_at": "2026-10-23T12:57:54Z",
+      "source": "France 24",
       "tags": [
-        "UAE"
+        "ISRAEL"
       ]
-    },
-    {
-      "id": "gdelt_9199dffaafdb1569",
-      "headline": "Dan Neculăescu , după atacul mortal din Marea Neagră : „ Războiul ilegal de agresiune al Rusiei escaladează  / România se coordonează cu NATO , Bulgaria și Turcia",
-      "url": "https://www.stiripesurse.ro/dan-neculaescu-dupa-atacul-mortal-din-marea-neagra-razboiul-ilegal-de-agresiune-al-rusiei-escaladeaza-romania-se-coordoneaza-cu-nato-bulgaria-si-turcia_3930771",
-      "published_at": "20261023T120000Z",
-      "source": "stiripesurse.ro",
-      "tags": [
-        "ROMANIA"
-      ]
-    },
-    {
-      "id": "gdelt_d75d2d297015cf1a",
-      "headline": "Israeli premier orders  closure  of Hebron ,  full lockdown  of occupied West Bank – Middle East Monitor",
-      "url": "https://www.middleeastmonitor.com/20261023-israeli-premier-orders-closure-of-hebron-full-lockdown-of-occupied-west-bank/",
-      "published_at": "20261023T150000Z",
-      "source": "middleeastmonitor.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_80e5724c4bc1dd17",
-      "headline": "Kallas naar ICC om solidariteit te betuigen",
-      "url": "https://www.dagelijksestandaard.nl/nieuws/kallas-naar-icc-om-solidariteit-te-betuigen?comment=1050359",
-      "published_at": "20261023T120000Z",
-      "source": "dagelijksestandaard.nl",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d572299773c42e4d",
-      "headline": "补贴农民 、 松绑俄柴油 、 催欧洲放储备 … 特朗普  多管齐下  仍难压住柴油价",
-      "url": "https://wallstreetcn.com/articles/3784351",
-      "published_at": "20261023T150000Z",
-      "source": "wallstreetcn.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5e66816f922e5db8",
-      "headline": "Brod pogođen dronovima 25 km od obale Rumunjske . Ima mrtvih i nestalih",
-      "url": "https://www.index.hr/vijesti/clanak/brod-pogodjen-dronovima-u-moru-kod-rumunjske-ima-mrtvih-i-nestalih/2848933.aspx?index_ref=homepage_comment_box_d&commentId=12319753",
-      "published_at": "20261023T123000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ab48bbafadb5abd0",
-      "headline": "Brod pogođen dronovima 25 km od obale Rumunjske . Ima mrtvih i nestalih",
-      "url": "https://www.index.hr/vijesti/clanak/brod-pogodjen-dronovima-u-moru-kod-rumunjske-ima-mrtvih-i-nestalih/2848933.aspx?index_ref=homepage_comment_box_d&commentId=12319785",
-      "published_at": "20261023T123000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d71e3cf9be674528",
-      "headline": "Brod pogođen dronovima 25 km od obale Rumunjske . Ima mrtvih i nestalih",
-      "url": "https://www.index.hr/vijesti/clanak/brod-pogodjen-dronovima-u-moru-kod-rumunjske-ima-mrtvih-i-nestalih/2848933.aspx?index_ref=homepage_comment_box_d&commentId=12319566",
-      "published_at": "20261023T120000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b3bcb3bd59bdd17a",
-      "headline": "Brod pogođen dronovima 25 km od obale Rumunjske . Ima mrtvih i nestalih",
-      "url": "https://www.index.hr/vijesti/clanak/brod-pogodjen-dronovima-u-moru-kod-rumunjske-ima-mrtvih-i-nestalih/2848933.aspx?index_ref=homepage_comment_box_d&commentId=12319509",
-      "published_at": "20261023T120000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1e88c3ddc07cc4ad",
-      "headline": "Brod pogođen dronovima 25 km od obale Rumunjske . Ima mrtvih i nestalih",
-      "url": "https://www.index.hr/vijesti/clanak/brod-pogodjen-dronovima-u-moru-kod-rumunjske-ima-mrtvih-i-nestalih/2848933.aspx?index_ref=homepage_comment_box_d&commentId=12319512",
-      "published_at": "20261023T120000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0c06c2fc29b774b2",
-      "headline": "Brod pogođen dronovima 25 km od obale Rumunjske . Ima mrtvih i nestalih",
-      "url": "https://www.index.hr/vijesti/clanak/brod-pogodjen-dronovima-u-moru-kod-rumunjske-ima-mrtvih-i-nestalih/2848933.aspx?index_ref=homepage_comment_box_d&commentId=12319564",
-      "published_at": "20261023T120000Z",
-      "source": "index.hr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d1816ad7cd3ad611",
-      "headline": "Experten entlarven Putins Trump - Plan : „ Zeit kaufen , um den Krieg zu gewinnen",
-      "url": "https://www.tagesspiegel.de/internationales/experten-entlarven-putins-trump-plan-zeit-kaufen-um-den-krieg-zu-gewinnen-16188472.html",
-      "published_at": "20261023T150000Z",
-      "source": "tagesspiegel.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b4a5597774115f42",
-      "headline": "Yemeni army says over 35 Houthi fighters killed or wounded in Taiz",
-      "url": "https://www.middleeastmonitor.com/20261023-yemeni-army-says-over-35-houthi-fighters-killed-or-wounded-in-taiz/",
-      "published_at": "20261023T150000Z",
-      "source": "middleeastmonitor.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_02c50630cdbf3269",
-      "headline": "U . S . Diesel at $6 . 30 a Gallon as First Russian Cargo Sets Sail for New York",
-      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-at-630-a-Gallon-as-First-Russian-Cargo-Sets-Sail-for-New-York.html",
-      "published_at": "20261023T150000Z",
-      "source": "oilprice.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c2e84db8d1b0e9b1",
-      "headline": "« Одной тряпкой меньше »: Филиппо добил флаг Евросоюза",
-      "url": "https://www.mk.ru/politics/2026/10/23/odnoy-tryapkoy-menshe-filippo-dobil-flag-evrosoyuza.html",
-      "published_at": "20261023T113000Z",
-      "source": "mk.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2bc03bcebbd89fdf",
-      "headline": "NATO member  activates air defence system  as Russia launches new huge attack | World | News",
-      "url": "https://www.express.co.uk/news/world/2259805/nato-poland-airports-russia-attack",
-      "published_at": "20261023T123000Z",
-      "source": "express.co.uk",
-      "tags": [
-        "RUSSIA",
-        "POLAND"
-      ]
-    },
-    {
-      "id": "gdelt_ae5d7d1251d29b1b",
-      "headline": "Austria expels four Russian diplomats : foreign ministry",
-      "url": "https://www.hurriyetdailynews.com/austria-expels-four-russian-diplomats-foreign-ministry-228521",
-      "published_at": "20261023T150000Z",
-      "source": "hurriyetdailynews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_12b50fdcad6c4fef",
-      "headline": "Kasparow warnt vor Putin - Deal : Sanktionen retten Menschenleben",
-      "url": "https://www.az-online.de/politik/kasparow-warnt-vor-putin-deal-sanktionen-retten-menschenleben-zr-94555106.html",
-      "published_at": "20261023T113000Z",
-      "source": "az-online.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_757669c8b1618ae9",
-      "headline": "Russlands erste Diesellieferung unterwegs in die united states",
-      "url": "https://www.watson.ch/wirtschaft/international/778256768-russlands-erste-diesellieferung-unterwegs-in-die-usa",
-      "published_at": "20261023T120000Z",
-      "source": "watson.ch",
-      "tags": []
-    },
-    {
-      "id": "gdelt_11f62d941af2018e",
-      "headline": "Nicușor Dan warns Russia is trying to expand the war in Ukraine :  They want to provoke other European countries",
-      "url": "https://www.mediafax.ro/english/nicusor-dan-warns-russia-is-trying-to-expand-the-war-in-ukraine-they-want-to-provoke-other-european-countries-23830585",
-      "published_at": "20261023T120000Z",
-      "source": "mediafax.ro",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "gdelt_d57fac10c7da9e43",
-      "headline": "Shame on us for letting Trump assist Russia in its assault on the Ukrainian people [ letter ]",
-      "url": "https://lancasteronline.com/opinion/letters_to_editor/shame-on-us-for-letting-trump-assist-russia-in-its-assault-on-the-ukrainian-people/article_7584dc11-3e32-49a6-a877-a11046615a15.html",
-      "published_at": "20261023T120000Z",
-      "source": "lancasteronline.com",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "gdelt_7c363ccc9abc9e8d",
-      "headline": "Yemen , Bab al - Mandab and Saudi Arabia : Tehran strategic calculus in the balance",
-      "url": "https://www.middleeasteye.net/news/yemen-bab-al-mandab-and-saudi-arabia-tehrans-strategic-calculus",
-      "published_at": "20261023T120000Z",
-      "source": "middleeasteye.net",
-      "tags": [
-        "YEMEN",
-        "SAUDI_ARABIA"
-      ]
-    },
-    {
-      "id": "gdelt_0cf555f4725739fa",
-      "headline": "LPG prices surge to Rs750 per kg in parts of KP amid supply shortages",
-      "url": "https://pakobserver.net/lpg-prices-surge-to-rs750-per-kg-in-parts-of-kp-amid-supply-shortages/",
-      "published_at": "20261023T123000Z",
-      "source": "pakobserver.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c75c172d3cb61a73",
-      "headline": "La geopolitica riscrive il futuro dellenergia in Italia",
-      "url": "https://www.ilsole24ore.com/art/ART_Nucleare-AJe2ufrB",
-      "published_at": "20261023T120000Z",
-      "source": "ilsole24ore.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_63bde72bf16baaba",
-      "headline": "Russian diesel tanker heads to the U . S ., the first since Trump deal with Putin",
-      "url": "https://www.nbcnews.com/business/energy/russian-diesel-tanker-heads-us-trump-deal-putin-ukraine-war-rcna605187",
-      "published_at": "20261023T133000Z",
-      "source": "nbcnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f7fc39a6b48d7d29",
-      "headline": "Teodoro : Forcibly towing Sierra Madre an act of war",
-      "url": "https://www.manilatimes.net/2026/10/23/news/teodoro-forcibly-towing-sierra-madre-an-act-of-war/2452682",
-      "published_at": "20261023T113000Z",
-      "source": "manilatimes.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_100fc893387e0262",
-      "headline": "Gujarat has effectively become largest supplier of drugs : Punjab CM hits back at Amit Shah",
-      "url": "http://www.indiagazette.com/news/279394218/gujarat-has-effectively-become-largest-supplier-of-drugs-punjab-cm-hits-back-at-amit-shah",
-      "published_at": "20261023T113000Z",
-      "source": "indiagazette.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_edacffea2bc2a4a0",
-      "headline": "Integrationsreferentinnen und - referentenkonferenz in Kärnten : Mehr Angebote und mehr Sanktionen",
-      "url": "https://www.ots.at/presseaussendung/OTS_20261023_OTS0150/integrationsreferentinnen-und-referentenkonferenz-in-kaernten-mehr-angebote-und-mehr-sanktionen",
-      "published_at": "20261023T123000Z",
-      "source": "ots.at",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c0874ecbdd803a94",
-      "headline": "Rupee falls 12 paise to close at 94 . 93 against US dollar - The HinduBusinessLine",
-      "url": "https://www.thehindubusinessline.com/markets/forex/rupee-falls-12-paise-to-close-at-9493-against-us-dollar/article71615829.ece",
-      "published_at": "20261023T120000Z",
-      "source": "thehindubusinessline.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d73610feb95a9b9c",
-      "headline": "Marengo Therapeutics Announces Landmark Nature Medicine Publication Establishing First - in - Human Proof of Vβ - Directed T - Cell Biology and Antitumor Activity",
-      "url": "https://www.prnewswire.com/news-releases/marengo-therapeutics-announces-landmark-nature-medicine-publication-establishing-first-in-human-proof-of-v-directed-t-cell-biology-and-antitumor-activity-302917323.html",
-      "published_at": "20261023T113000Z",
-      "source": "prnewswire.com",
-      "tags": []
     }
   ]
 }
