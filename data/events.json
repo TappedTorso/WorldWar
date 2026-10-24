@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-24T13:59:58Z",
-    "provider": "RSS_FALLBACK",
-    "status": "ok-fallback",
+    "generated_at_utc": "2026-10-24T17:25:55Z",
+    "provider": "GDELT_DOC_API",
+    "status": "partial",
     "timespan": "6h",
     "max_events": 120,
     "streams": [
@@ -14,38 +14,12 @@
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
-        "fetched": 0
-      },
-      {
-        "name": "rss_fallback",
         "status": "ok",
-        "fetched": 6,
-        "feeds": [
-          {
-            "outlet": "BBC News",
-            "status": "ok",
-            "items": 29,
-            "kept": 2
-          },
-          {
-            "outlet": "Al Jazeera",
-            "status": "ok",
-            "items": 25,
-            "kept": 3
-          },
-          {
-            "outlet": "France 24",
-            "status": "ok",
-            "items": 24,
-            "kept": 1
-          }
-        ]
+        "fetched": 120
       }
     ],
-    "fetched_articles": 6,
-    "previous_event_count": 120,
+    "fetched_articles": 120,
+    "previous_event_count": 6,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -59,55 +33,1001 @@
   },
   "events": [
     {
-      "id": "rss_faf43bdedb4c95e0",
-      "headline": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
-      "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-24T07:17:44Z",
-      "source": "BBC News",
+      "id": "gdelt_093860f2de861994",
+      "headline": "Saudi - led coalition says it intercepted Houthi ballistic missiles",
+      "url": "https://www.cnbc.com/2026/10/24/saudi-led-coalition-says-it-intercepted-houthi-ballistic-missiles-.html",
+      "published_at": "20261024T134500Z",
+      "source": "cnbc.com",
       "tags": [
+        "SAUDI_ARABIA"
+      ]
+    },
+    {
+      "id": "gdelt_b085f19787346d4f",
+      "headline": "Coalition intercepts two Houthi ballistic missiles on Saudi cities",
+      "url": "https://www.samaa.tv/2087359044-coalition-intercepts-two-houthi-ballistic-missiles-on-saudi-cities",
+      "published_at": "20261024T154500Z",
+      "source": "samaa.tv",
+      "tags": [
+        "SAUDI_ARABIA"
+      ]
+    },
+    {
+      "id": "gdelt_3d4ed39d0a9c70ea",
+      "headline": "Saudi - led coalition says it intercepted Houthi missiles targeting cities",
+      "url": "https://www.theglobeandmail.com/world/article-saudi-led-coalition-says-it-intercepted-houthi-missiles-targeting/",
+      "published_at": "20261024T124500Z",
+      "source": "theglobeandmail.com",
+      "tags": [
+        "SAUDI_ARABIA"
+      ]
+    },
+    {
+      "id": "gdelt_9282369ecd8445b0",
+      "headline": "Σαουδική Αραβία : Ο συνασπισμός υπό το Ριάντ ανακοίνωσε ότι αναχαίτισε βαλλιστικούς πυραύλους των Χούθι",
+      "url": "https://www.lifo.gr/now/world/saoydiki-arabia-o-synaspismos-ypo-riant-anakoinose-oti-anahaitise-ballistikoys-pyrayloys",
+      "published_at": "20261024T161500Z",
+      "source": "lifo.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d5f42b0871429912",
+      "headline": "Сховалася в туалеті автобуса : українка намагалася перетнути кордон без паспорта ( фото )",
+      "url": "https://www.5.ua/dv/life/385206",
+      "published_at": "20261024T131500Z",
+      "source": "5.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5068bfaba73477e1",
+      "headline": "Singapore Crypto Economy Reaches $284B on Institutional Growth",
+      "url": "https://cointelegraph.com/news/singapore-crypto-economy-284b-institutional-activity-chainalysis?t=Singapore%20crypto%20activity%20grows%2055%%20as%20broader%20region%20contracts&fnp_t=1792841098.fb70cd9a33f8d1b8",
+      "published_at": "20261024T121500Z",
+      "source": "cointelegraph.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_199944830709a152",
+      "headline": "Saudi coalition intercepts Houthi missiles targeting cities",
+      "url": "https://www.middle-east-online.com/en/saudi-coalition-intercepts-houthi-missiles-targeting-cities",
+      "published_at": "20261024T141500Z",
+      "source": "middle-east-online.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_65ca69525f318d05",
+      "headline": "Malaysia , Singapore to hold RTS Link security exercise on Oct 27",
+      "url": "https://www.thestar.com.my/news/nation/2026/10/24/malaysia-singapore-to-hold-rts-link-security-exercise-on-oct-27",
+      "published_at": "20261024T124500Z",
+      "source": "thestar.com.my",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1416c7df23310e3a",
+      "headline": "美台觀測站 》 中共的跨國鎮壓 （ 恐怖行為 ） 已經到了家門口",
+      "url": "https://talk.ltn.com.tw/article/breakingnews/5614739",
+      "published_at": "20261024T133000Z",
+      "source": "talk.ltn.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e385b8690f76308e",
+      "headline": "Israel chuẩn bị nguy cơ  mất  viện trợ quân sự Mỹ",
+      "url": "http://vov.vn/the-gioi/thoi-su-quoc-te-toi-2410-israel-chuan-bi-nguy-co-mat-vien-tro-quan-su-my-post1344354.vov",
+      "published_at": "20261024T141500Z",
+      "source": "vov.vn",
+      "tags": [
+        "ISRAEL"
+      ]
+    },
+    {
+      "id": "gdelt_dc56a5fd49c57ed1",
+      "headline": "Bayraktar Puts Türkiye Grid Investment Need at $80 Billion by 2040",
+      "url": "https://econotimes.com/Bayraktar-Puts-T-rkiye-s-Grid-Investment-Need-at-80-Billion-by-2040-1762345",
+      "published_at": "20261024T113000Z",
+      "source": "econotimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c2cadf4fbd0c2e25",
+      "headline": "OCC drops affiliate rewards presumption , yield ban stays",
+      "url": "https://www.forexcrunch.com/blog/2026/10/24/occ-genius-act-final-rule-stablecoin-yield-ban/",
+      "published_at": "20261024T113000Z",
+      "source": "forexcrunch.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0c9377d0ae70ab1b",
+      "headline": "Переважна більшість німців не вірять у готовність Путіна до миру",
+      "url": "https://www.eurointegration.com.ua/news/2026/10/24/7248484/",
+      "published_at": "20261024T144500Z",
+      "source": "eurointegration.com.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_17adc65012e7ed84",
+      "headline": "How much does Ukraine still rely on US support ?",
+      "url": "https://www.wcvb.com/article/how-reliant-ukraine-us-support-kyiv-russia-war/74237015",
+      "published_at": "20261024T113000Z",
+      "source": "wcvb.com",
+      "tags": [
+        "RUSSIA",
         "UKRAINE"
       ]
     },
     {
-      "id": "rss_3defb5fc21f661fd",
-      "headline": "Doctors tell the BBC about the targeting of Sudanese hospitals by paramilitary fighters",
-      "url": "https://www.bbc.co.uk/news/videos/c8x23gegwz34o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-23T11:30:32Z",
-      "source": "BBC News",
+      "id": "gdelt_6884f2c17fa5b722",
+      "headline": "How much does Ukraine still rely on US support ?",
+      "url": "https://www.wyff4.com/article/how-reliant-ukraine-us-support-kyiv-russia-war/74237015",
+      "published_at": "20261024T150000Z",
+      "source": "wyff4.com",
+      "tags": [
+        "RUSSIA",
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_8f8fd6a1ee1b68c4",
+      "headline": "How much does Ukraine still rely on US support ?",
+      "url": "https://www.wmur.com/article/how-reliant-ukraine-us-support-kyiv-russia-war/74237015",
+      "published_at": "20261024T144500Z",
+      "source": "wmur.com",
+      "tags": [
+        "RUSSIA",
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_b5792eef0ac719ff",
+      "headline": "How much does Ukraine still rely on US support ?",
+      "url": "https://www.wbaltv.com/article/how-reliant-ukraine-us-support-kyiv-russia-war/74237015",
+      "published_at": "20261024T120000Z",
+      "source": "wbaltv.com",
       "tags": []
     },
     {
-      "id": "rss_39cfc449d79c4eff",
-      "headline": "Netanyahu floats Crypto to bypass sanctions",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/netanyahu-floats-crypto-to-bypass-sanctions?traffic_source=rss",
-      "published_at": "2026-10-24T13:27:11Z",
-      "source": "Al Jazeera",
+      "id": "gdelt_f40b609054f9e9cc",
+      "headline": "How much does Ukraine still rely on US support ?",
+      "url": "https://www.wgal.com/article/how-reliant-ukraine-us-support-kyiv-russia-war/74237015",
+      "published_at": "20261024T121500Z",
+      "source": "wgal.com",
       "tags": []
     },
     {
-      "id": "rss_15a38d53b3cd6fe7",
-      "headline": "Armed Israeli settlers try to break into Palestinian grandfather’s home",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/armed-israeli-settlers-try-to-break-into-palestinian-grandfathers-home?traffic_source=rss",
-      "published_at": "2026-10-24T13:16:23Z",
-      "source": "Al Jazeera",
+      "id": "gdelt_cf391d87bf6b12f0",
+      "headline": "How much does Ukraine still rely on US support ?",
+      "url": "https://www.wlwt.com/article/how-reliant-ukraine-us-support-kyiv-russia-war/74237015",
+      "published_at": "20261024T134500Z",
+      "source": "wlwt.com",
       "tags": []
     },
     {
-      "id": "rss_c27d852bccf07576",
-      "headline": "Iran says won’t allow US warships to get close as Trump ponders new attacks",
-      "url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks?traffic_source=rss",
-      "published_at": "2026-10-24T13:06:03Z",
-      "source": "Al Jazeera",
+      "id": "gdelt_89ec39b291f1ca97",
+      "headline": "Les chorales des deux Catalognes rassemblées en l  église abbatiale de Saint - André pour un concert dédié à Pau Casals",
+      "url": "https://www.lindependant.fr/2026/10/24/les-chorales-des-deux-catalognes-rassemblees-en-leglise-abbatiale-de-saint-andre-pour-un-concert-dedie-a-pau-casals-13618430.php",
+      "published_at": "20261024T150000Z",
+      "source": "lindependant.fr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_611f9cb00ad59255",
+      "headline": "筑牢中亚能源进口防线 ， 冬季保供青年突击队在哈萨克斯坦授旗成立",
+      "url": "https://baijiahao.baidu.com/s?id=1879926265484024564",
+      "published_at": "20261024T151500Z",
+      "source": "baijiahao.baidu.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c0b9ccdaa3f07a23",
+      "headline": "BTS隊長RM主動邀歌 ！ 韓民謠女神11月來台開唱 跨國合作台灣樂團",
+      "url": "https://ent.ltn.com.tw/news/breakingnews/5617713",
+      "published_at": "20261024T144500Z",
+      "source": "ent.ltn.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_644b2d2c35d34e39",
+      "headline": "How much does Ukraine still rely on US support ?",
+      "url": "https://www.wdsu.com/article/how-reliant-ukraine-us-support-kyiv-russia-war/74237015",
+      "published_at": "20261024T114500Z",
+      "source": "wdsu.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_251db6f32a6482c7",
+      "headline": "Mouthpiece For Pakistan : BJP Slams Farooq Abdullah Over  India Intentions Not Right For Kashmiri Remark",
+      "url": "https://www.oneindia.com/india/mouthpiece-for-pakistan-bjp-slams-farooq-abdullah-over-indias-intentions-not-right-for-kashmiri-8242971.html",
+      "published_at": "20261024T133000Z",
+      "source": "oneindia.com",
+      "tags": [
+        "INDIA",
+        "PAKISTAN"
+      ]
+    },
+    {
+      "id": "gdelt_14349787aa548ce5",
+      "headline": "How much does Ukraine still rely on US support ?",
+      "url": "https://www.wmtw.com/article/how-reliant-ukraine-us-support-kyiv-russia-war/74237015",
+      "published_at": "20261024T121500Z",
+      "source": "wmtw.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_15003fdd52996860",
+      "headline": "Украина потратит миллион долларов на сериал о войне с Польшей",
+      "url": "https://ria.ru/20261024/ukraina-2126727371.html",
+      "published_at": "20261024T114500Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a3bcb433c098af08",
+      "headline": "Что известно об атаке беспилотников на Омскую область",
+      "url": "https://www.5-tv.ru/news/5092598/severnyj-promyslennyj-uzel-vomskoj-oblasti-podvergsa-atake-bpla/",
+      "published_at": "20261024T144500Z",
+      "source": "5-tv.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_30818d51e4733e61",
+      "headline": "Bahngleise im Elsass zwischen Colmar und Volgelsheim werden erneuert",
+      "url": "https://www.badische-zeitung.de/bahngleise-im-elsass-zwischen-colmar-und-volgelsheim-werden-erneuert",
+      "published_at": "20261024T154500Z",
+      "source": "badische-zeitung.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6526598b453db85b",
+      "headline": "جو 24 : الحكومة الفلسطينية : تصعيد الاحتلال في الضفة الغربية يستدعي تدخلا دوليا عاجلا",
+      "url": "https://jo24.net/article/580571",
+      "published_at": "20261024T123000Z",
+      "source": "jo24.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1a51a9ba16d164b0",
+      "headline": "Los camiones con rellenos para el Eastside de Gibraltar colapsan la aduana en La Línea",
+      "url": "https://www.europasur.es/lalinea/camiones-rellenos-eastside-gibraltar-aduana_0_2008322948.html",
+      "published_at": "20261024T150000Z",
+      "source": "europasur.es",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8e170f22d16809fa",
+      "headline": "Važna obavijest ako putujete u Hrvatsku , na granice stigla velika promjena",
+      "url": "https://www.oslobodjenje.ba/vijesti/bih/vazna-obavijest-ako-putujete-u-hrvatsku-na-granice-stigla-velika-promjena/",
+      "published_at": "20261024T154500Z",
+      "source": "oslobodjenje.ba",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4240393b1100ad60",
+      "headline": "Palestinska uprava upozorava na eskalaciju nasilja na Zapadnoj obali : Međunarodna zajednica da zaustavi Izrael",
+      "url": "https://naslovi.net/2026-10-24/insajder/palestinska-uprava-upozorava-na-eskalaciju-nasilja-na-zapadnoj-obali-medjunarodna-zajednica-da-zaustavi-izrael/42524246",
+      "published_at": "20261024T114500Z",
+      "source": "naslovi.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f1821dc0d377a6a3",
+      "headline": "باحثة شئون اسرائيلية : نتنياهو يراهن على القوة العسكرية في الخليل لمغازلة اليمين قبل الانتخابات",
+      "url": "https://www.vetogate.com/5756529",
+      "published_at": "20261024T134500Z",
+      "source": "vetogate.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e10970200c877501",
+      "headline": "Масштабная атака на регионы России . Как получить компенсацию за поврежденное жилье",
+      "url": "https://pronedra.ru/sotni-bespilotnikov-i-povrezhdyonnye-doma-regiony-rossii-soobshhili-o-posledstviyah-masshtabnoj-ataki-836277.html",
+      "published_at": "20261024T123000Z",
+      "source": "pronedra.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f28cb7923403741c",
+      "headline": "Pakistan and Canada conclude third round of investment treaty talks",
+      "url": "https://arynews.tv/pakistan-and-canada-conclude-third-round-of-investment-treaty-talks",
+      "published_at": "20261024T140000Z",
+      "source": "arynews.tv",
+      "tags": [
+        "PAKISTAN"
+      ]
+    },
+    {
+      "id": "gdelt_f40de7bdb4c0de04",
+      "headline": "以色列总理有关应对国际制裁言论引发国内担忧",
+      "url": "https://baijiahao.baidu.com/s?id=1879879360886411900",
+      "published_at": "20261024T141500Z",
+      "source": "baijiahao.baidu.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_52cbbe61d89ad7b5",
+      "headline": "مستشار وزارة الإعلام اليمنية : هجمات الحوثيين على السعودية تعكس حالة يأس المليشيات",
+      "url": "https://www.elwatannews.com/news/details/8383589",
+      "published_at": "20261024T154500Z",
+      "source": "elwatannews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_72c2265aae5fc368",
+      "headline": "Владимир Зеленский утвердил санкции против 83 россиян и 79 компаний",
+      "url": "https://life.ru/p/vladimir-zelenskiy-utverdil-sanktsii-protiv-83-rossiyan-i-79-kompaniy",
+      "published_at": "20261024T154500Z",
+      "source": "life.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ff2fe5842e0de117",
+      "headline": "Украина ввела новые санкции против юрлиц из РФ и Китая",
+      "url": "https://www.vesti.ru/ns/ukraina-vvela-novye-sankcii-protiv-yurlic-iz-rf-i-kitaya",
+      "published_at": "20261024T121500Z",
+      "source": "vesti.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_29330dd179339aea",
+      "headline": "Зеленский издал новый указ против России",
+      "url": "https://ria.ru/20261024/zelenskiy-2126743488.html",
+      "published_at": "20261024T131500Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7382fd56a45e9393",
+      "headline": "Seguro agradece aos militares do Exército num contexto  cada vez mais complexo",
+      "url": "https://www.dnoticias.pt/2026/10/24/510236-seguro-agradece-aos-militares-do-exercito-num-contexto-cada-vez-mais-complexo/",
+      "published_at": "20261024T123000Z",
+      "source": "dnoticias.pt",
+      "tags": []
+    },
+    {
+      "id": "gdelt_26bac74653f46535",
+      "headline": "Super tifone Champi a Taiwan : oltre 5 . 000 persone evacuate e migliaia di voli cancellati . Possibili disagi anche in Cina",
+      "url": "https://www.ilgazzettino.it/esteri/tifone_champi_champi_feriti_voli_bloccati-9846058.html",
+      "published_at": "20261024T150000Z",
+      "source": "ilgazzettino.it",
+      "tags": [
+        "TAIWAN"
+      ]
+    },
+    {
+      "id": "gdelt_ad934212b223fcf8",
+      "headline": "Super tifone Champi a Taiwan : oltre 5 . 000 persone evacuate e migliaia di voli cancellati . Possibili disagi anche in Cina",
+      "url": "https://www.ilgazzettino.it:443/esteri/tifone_champi_champi_feriti_voli_bloccati-9846058.html",
+      "published_at": "20261024T153000Z",
+      "source": "ilgazzettino.it",
+      "tags": [
+        "TAIWAN"
+      ]
+    },
+    {
+      "id": "gdelt_29293949ed2426cc",
+      "headline": "Зеленский ввёл новые санкции против поставщиков российского ОПК",
+      "url": "https://life.ru/p/zelenskiy-vvel-novye-sanktsii-protiv-postavschikov-rossiyskogo-opk",
+      "published_at": "20261024T114500Z",
+      "source": "life.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3eab2f40f2d68687",
+      "headline": "Киев потратит миллион долларов на сериал о галицкой армии , воевавшей с поляками",
+      "url": "https://rg.ru/2026/10/24/kiev-potratit-million-dollarov-na-serial-o-galickoj-armii-voevavshej-s-poliakami.html",
+      "published_at": "20261024T154500Z",
+      "source": "rg.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0295fd796ec2b32d",
+      "headline": "Зеленский ввел санкции против производителей российских ракет",
+      "url": "https://ura.news/news/1053138705",
+      "published_at": "20261024T114500Z",
+      "source": "ura.news",
+      "tags": []
+    },
+    {
+      "id": "gdelt_986b6b758ed230c9",
+      "headline": "الخارجية الفلسطينية تحذر من تصريحات إسرائيلية تحريضية تهدد بتوسيع التهجير القسري في الخليل",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=24102026&id=4dba07be-0653-477c-b9fa-03f9a259e514",
+      "published_at": "20261024T121500Z",
+      "source": "shorouknews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0af3f4edb1382d8e",
+      "headline": "Super tifone Champi a Taiwan : oltre 5 . 000 persone evacuate e migliaia di voli cancellati . Possibili disagi anche in Cina",
+      "url": "https://www.ilmessaggero.it/mondo/tifone_champi_champi_feriti_voli_bloccati-9846022.html",
+      "published_at": "20261024T134500Z",
+      "source": "ilmessaggero.it",
+      "tags": [
+        "TAIWAN"
+      ]
+    },
+    {
+      "id": "gdelt_fb2718b89bddea0d",
+      "headline": "Super tifone Champi a Taiwan : oltre 5 . 000 persone evacuate e migliaia di voli cancellati . Possibili disagi anche in Cina",
+      "url": "https://www.ilmessaggero.it:443/mondo/tifone_champi_champi_feriti_voli_bloccati-9846022.html",
+      "published_at": "20261024T144500Z",
+      "source": "ilmessaggero.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_385f05b565134bb0",
+      "headline": "Санкции против России – Зеленский ввел новые пакеты 24 октября 2026 года",
+      "url": "https://24tv.ua/ru/sankcii-protiv-rossii-zelenskij-vvel-novye-pakety-24-oktjabrja-2026-goda_n3166781",
+      "published_at": "20261024T113000Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cce5d269b29a044d",
+      "headline": "ישראל בדרך לשם ? כך המדינות החשוכות בעולם עוקפות סנקציות באמצעות קריפטו",
+      "url": "https://www.ynet.co.il/economy/article/s1stmgchzx",
+      "published_at": "20261024T123000Z",
+      "source": "ynet.co.il",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f3fba3e1e6ba6cc5",
+      "headline": "وزير الخارجية يؤكد موقف مصر الرافض لتهديد أمن الملاحة الدولية",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=24102026&id=f807cdbf-ea25-49c1-8b49-dceceac23d42",
+      "published_at": "20261024T134500Z",
+      "source": "shorouknews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d112f52ba2296d25",
+      "headline": "Введены санкции против изготовителей баллистики РФ",
+      "url": "https://korrespondent.net/ukraine/4923020-vvedeny-sanktsyy-protyv-yzghotovytelei-ballystyky-rf",
+      "published_at": "20261024T131500Z",
+      "source": "korrespondent.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7004d965cff2c7bc",
+      "headline": "Трамп может пойти на новые уступки Путину по санкциям",
+      "url": "https://glavred.info/ukraine/tramp-mozhet-poyti-na-novye-ustupki-putinu-po-sankciyam-kyiv-independent-10806764.html",
+      "published_at": "20261024T150000Z",
+      "source": "glavred.info",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f909ad7ffb3480bd",
+      "headline": "France - Protests - 70000 - Security - Forces - Paris - Latest - Analysis | ఫ్రాన్స్‌లో నిరసనల సెగ .. విద్యార్థులు , కార్మికుల ఆందోళన - Andhra Prabha | Telugu News Daily , Latest Telugu News , Latest తెలుగు వార్తలు and LIVE Updates | Breaking News in...",
+      "url": "https://prabhanews.com/france-protests-70000-security-forces-paris-latest-analysis/",
+      "published_at": "20261024T133000Z",
+      "source": "prabhanews.com",
+      "tags": [
+        "FRANCE"
+      ]
+    },
+    {
+      "id": "gdelt_1e28257bdd04f97e",
+      "headline": "Palestijnse Autoriteit wil nu actie tegen Israël op Jordaanoever",
+      "url": "https://www.welingelichtekringen.nl/samenleving/palestijnse-autoriteit-wil-nu-actie-tegen-israel-op-jordaanoever",
+      "published_at": "20261024T124500Z",
+      "source": "welingelichtekringen.nl",
+      "tags": [
+        "ISRAEL"
+      ]
+    },
+    {
+      "id": "gdelt_2f1d3004e514ec7d",
+      "headline": "Izrael szuka sposobu na ewentualne sankcje . Kryptowaluty mają być wytrychem",
+      "url": "https://www.money.pl/gospodarka/izrael-szuka-sposobu-na-ewentualne-sankcje-kryptowaluty-maja-byc-wytrychem-7343483111999584a.html",
+      "published_at": "20261024T161500Z",
+      "source": "money.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_46b0a858b9cb4608",
+      "headline": "سفارة أميركا في بيروت جددت تحذيرها من السفر إلى لبنان بسبب  تزايد احتمال التصعيد الإقليمي وهجمات الحوثيين",
+      "url": "https://www.saidaonline.com/321540",
+      "published_at": "20261024T160000Z",
+      "source": "saidaonline.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d1cd7f8839fafc39",
+      "headline": "Справа про Burisma Злочевського , санкції проти Дубінського – у США розсекретили документи",
+      "url": "https://www.obozrevatel.com/ukr/section-rozsliduvannya/news-u-ssha-rozsekretyly-dokumenty-pro-burisma-i-sanktsiyi-proty-dubinskoho-yaki-tayemnytsi-splyvly-24-10-2026.html",
+      "published_at": "20261024T141500Z",
+      "source": "obozrevatel.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2a5d7cdea97d4296",
+      "headline": "Зеленський ввів санкції проти виробників російських ракет та озброєння",
+      "url": "https://kp.ua/ua/politics/a737878-zelenskij-vviv-sanktsiji-proti-virobnikiv-rosijskikh-raket-ta-ozbrojennja",
+      "published_at": "20261024T123000Z",
+      "source": "kp.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ff98ba2bfb71d2c5",
+      "headline": "حماس : حملة الاحتلال الصهيوني في الضفة امتداد للعدوان الإجرامي الذي يرتكبه الاحتلال بحق شعبنا – قناة المنار",
+      "url": "https://www.almanar.com.lb/article/1290902/",
+      "published_at": "20261024T113000Z",
+      "source": "almanar.com.lb",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b02ebf8aad7f77a8",
+      "headline": "24 ракети для систем Patriot за 90 днів : Зеленський розповів про допомогу від США",
+      "url": "https://www.5.ua/polityka/24-rakety-dlia-system-patriot-za-90-dniv-zelenskyi-rozpoviv-pro-dopomohu-vid-ssha-385209.html",
+      "published_at": "20261024T131500Z",
+      "source": "5.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ef0d32e5ad0a92a9",
+      "headline": "Политолог заявил о высокой вероятности скорой эскалации на Ближнем Востоке",
+      "url": "http://govoritmoskva.ru/news/509807/",
+      "published_at": "20261024T150000Z",
+      "source": "govoritmoskva.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_76cba1c60c3ea656",
+      "headline": "ICC prosecutor says court making  significant progres despite US sanctions",
+      "url": "https://www.aol.co.uk/articles/icc-prosecutor-says-court-making-113522000.html",
+      "published_at": "20261024T121500Z",
+      "source": "aol.co.uk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_14010163e2c63762",
+      "headline": "بازار میں دستیاب عام پرزے اور سمارٹ فون سے بھی کم جدید : پابندیوں کے باوجود ایران  خودکش شاہد ڈرونز  کیسے بنا رہا ہے ؟",
+      "url": "https://www.bbc.com/urdu/articles/cmg47nw34d2do",
+      "published_at": "20261024T160000Z",
+      "source": "bbc.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_76d6996d836a4814",
+      "headline": "إيران والحوثيون في صلب تحركات عسكرية خليجية ببريطانيا .. ما الذي يُناقشه قادة الدفاع ؟",
+      "url": "https://arabic.euronews.com/2026/10/24/dragon-group-london-us-iran-conflict-gulf-security-agenda",
+      "published_at": "20261024T153000Z",
+      "source": "arabic.euronews.com",
       "tags": [
         "IRAN"
       ]
     },
     {
-      "id": "rss_03b90c6de4dffc3e",
-      "headline": "Andrew Smith warns that policing, political blame are no substitute for social reform & public trust",
-      "url": "https://www.france24.com/en/andrew-smith-warns-that-policing-political-blame-are-no-substitute-for-social-reform-public-trust",
-      "published_at": "2026-10-24T13:09:03Z",
-      "source": "France 24",
+      "id": "gdelt_3b7a192360712593",
+      "headline": "Зеленский ввел новые санкции против России и Китая",
+      "url": "https://lenta.ru/news/2026/10/24/zelenskiy-vvel-novye-sanktsii-protiv-rossii-i-kitaya/",
+      "published_at": "20261024T123000Z",
+      "source": "lenta.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f4ad631c49a9dbcb",
+      "headline": "高科大攜手全球學研與產業共築韌性供應鏈 國際物流與運輸盛會落腳高雄",
+      "url": "https://n.yam.com/Article/20261024980345",
+      "published_at": "20261024T123000Z",
+      "source": "n.yam.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_683caecb3f43aa92",
+      "headline": "Palestinska uprava traži međunarodnu intervenciju usled eskalacije na Zapadnoj obali",
+      "url": "https://www.tanjug.rs/bliski-istok/vesti/292251/palestinska-uprava-trazi-medunarodnu-intervenciju-usled-eskalacije-na-zapadnoj-obali/vest",
+      "published_at": "20261024T133000Z",
+      "source": "tanjug.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e1db888c92bb6def",
+      "headline": "Зеленський ударив санкціями по виробниках « Іскандерів », « Калібрів » та « Кинджалів »",
+      "url": "https://glavcom.ua/country/incidents/zelenskij-udariv-sanktsijami-po-virobnikakh-iskanderiv-kalibriv-ta-kindzhaliv-1151177.html",
+      "published_at": "20261024T114500Z",
+      "source": "glavcom.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a7c86236b97e7b01",
+      "headline": "Сможет ли Украина вести войну без военной помощи США - анализ зависимости от Патриот и Старшилд",
+      "url": "https://24tv.ua/ru/smozhet-li-ukraina-vesti-vojnu-bez-voennoj-pomoshhi-ssha-analiz-zavisimosti-ot-sistem-patriot-i-starshild_n3166892",
+      "published_at": "20261024T150000Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ffa0d587b5fe7730",
+      "headline": "הישראלי שמסייע לפוטין לעקוף סנקציות במיליארדים – והקשר לאיראן וחמאס",
+      "url": "https://www.ynet.co.il/news/article/s1rt1nf2ze",
+      "published_at": "20261024T141500Z",
+      "source": "ynet.co.il",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b5c0790f44c74354",
+      "headline": "Сериозно предупредување од ЕУ : Недостатигот на вода може да ги продлабочи глобалните конфликти",
+      "url": "https://kurir.mk/vesti/svet/seriozno-predupreduvane-od-eu-nedostatigot-na-voda-mozhe-da-gi-prodlabochi-globalnite-konflikti/",
+      "published_at": "20261024T123000Z",
+      "source": "kurir.mk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_12494097f6307187",
+      "headline": "اليمن .. غارات سعودية مكثفة على تعز وصعدة وإصابة مهاجرين أفارقة – كتابات",
+      "url": "https://kitabat.com/news/%D8%A7%D9%84%D9%8A%D9%85%D9%86-%D8%BA%D8%A7%D8%B1%D8%A7%D8%AA-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D9%85%D9%83%D8%AB%D9%81%D8%A9-%D8%B9%D9%84%D9%89-%D8%AA%D8%B9%D8%B2-%D9%88%D8%B5%D8%B9%D8%AF%D8%A9/",
+      "published_at": "20261024T131500Z",
+      "source": "kitabat.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_16133d8752b472ae",
+      "headline": "Чи зможе Україна воювати без допомоги США : аналіз CNN",
+      "url": "https://glavcom.ua/country/incidents/chi-zmozhe-ukrajina-vojuvati-bez-dopomohi-ssha-analiz-cnn-1151198.html",
+      "published_at": "20261024T153000Z",
+      "source": "glavcom.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fa3f9824c9dfacf2",
+      "headline": "Diplomats call for United Muslim Defence Framework with Pakistan playing Key Role",
+      "url": "https://pakobserver.net/diplomats-call-for-united-muslim-defence-framework-with-pakistan-playing-key-role/",
+      "published_at": "20261024T160000Z",
+      "source": "pakobserver.net",
+      "tags": [
+        "PAKISTAN"
+      ]
+    },
+    {
+      "id": "gdelt_b2259fc0970fba0f",
+      "headline": "« We will take Novorossiya » - Trump : 200 % tariffs on Ukraine and Russia - Fierce clash between Musk and Polish foreign minister",
+      "url": "https://www.bankingnews.gr/diethni/articles/906995/we-will-take-novorossiya-trump-200-tariffs-on-ukraine-and-russia-fierce-clash-between-musk-and-polish-foreign-minister",
+      "published_at": "20261024T161500Z",
+      "source": "bankingnews.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_166ded5cf9fe7553",
+      "headline": "R4 и Евротройка призвали к дипломатическому решению региональных конфликтов",
+      "url": "https://1news.az/news/20261024151017966-R4-i-Evrotroika-prizvali-k-diplomaticheskomu-resheniyu-regionalnykh-konfliktov",
+      "published_at": "20261024T123000Z",
+      "source": "1news.az",
+      "tags": []
+    },
+    {
+      "id": "gdelt_94a74e3403042673",
+      "headline": "Funicolare Lanzo : Regione Lombardia avvia studio per il recupero",
+      "url": "https://www.laprovinciadicomo.it/stories/premium/lago-e-valli/funicolare-lanzo-recupero-regione-o_3979681_11/",
+      "published_at": "20261024T150000Z",
+      "source": "laprovinciadicomo.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0e98a3676de839e5",
+      "headline": "NISAR Study Finds Slope Movement Before Nepal August Avalanche",
+      "url": "https://econotimes.com/NISAR-Study-Finds-Slope-Movement-Before-Nepal-s-August-Avalanche-1762444",
+      "published_at": "20261024T133000Z",
+      "source": "econotimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4dd1726b62746def",
+      "headline": "الحكومة الفلسطينية : تصعيد الاحتلال في الضفة الغربية يستدعي تدخلاً دولياً عاجلاً",
+      "url": "https://pnn.ps/news/729347",
+      "published_at": "20261024T123000Z",
+      "source": "pnn.ps",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3e4927cbdab7aafa",
+      "headline": "Зеленський увів у дію санкції через виробництво російської балістики та іншої зброї",
+      "url": "https://www.radiosvoboda.org/a/news-zelensky-sanktsii-vyrobnytstvo-rosiiskoi-balistyky/33883516.html",
+      "published_at": "20261024T114500Z",
+      "source": "radiosvoboda.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_61fe8a60ee93ebbc",
+      "headline": "Pakistan ratifies Mecca pact as Saudi Arabia faces attacks and Israel holds military drills",
+      "url": "https://www.middleeasteye.net/news/pakistan-ratifies-mecca-pact-saudi-arabia-faces-attacks-and-israel-holds-military-drills",
+      "published_at": "20261024T113000Z",
+      "source": "middleeasteye.net",
+      "tags": [
+        "ISRAEL"
+      ]
+    },
+    {
+      "id": "gdelt_e0527f3931674932",
+      "headline": "Украина выделит более $1 млн на сериал о воевавшей с Польшей армии",
+      "url": "https://iz.ru/2190035/2026-10-24/ukraina-vydelit-bolee-1-mln-na-serial-o-voevavshei-s-polshei-armii",
+      "published_at": "20261024T161500Z",
+      "source": "iz.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_019d70726b541b31",
+      "headline": "Співпраця США та РФ : Novatek платила компанії , дотичній до Трампа",
+      "url": "https://focus.ua/uk/world/772346-spivpracya-ssha-ta-rf-novatek-platila-kompaniji-dotichniy-do-trampa",
+      "published_at": "20261024T133000Z",
+      "source": "focus.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ef154f19580cdd90",
+      "headline": "Зеленський увів санкції проти людей та компаній , які допомагають виробляти російську балістику , а також постачають товар ОПК Росії DSnews . ua",
+      "url": "https://www.dsnews.ua/ukr/politics/zelenskiy-uviv-sankciji-proti-lyudey-ta-kompaniy-yaki-dopomagayut-viroblyati-rosiysku-balistiku-a-takozh-postachayut-tovar-opk-rosiji4321-24102026-470390",
+      "published_at": "20261024T121500Z",
+      "source": "dsnews.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5803dc650b5a84a9",
+      "headline": "Miała ostrzec właściciela Zoo Łączna przed akcją prokuratury . Policjantka usłyszała zarzuty",
+      "url": "https://www.radiowroclaw.pl/articles/view/165068/Miala-ostrzec-wlasciciela-Zoo-Laczna-przed-akcja-prokuratury-Policjantka-uslyszala-zarzuty",
+      "published_at": "20261024T144500Z",
+      "source": "radiowroclaw.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_96092caa45fa2014",
+      "headline": "Miała ostrzec właściciela Zoo Łączna przed akcją prokuratury . Policjantka usłyszała zarzuty",
+      "url": "http://www.radiowroclaw.pl/articles/view/165068/Miala-ostrzec-wlasciciela-Zoo-Laczna-przed-akcja-prokuratury-Policjantka-uslyszala-zarzuty",
+      "published_at": "20261024T154500Z",
+      "source": "radiowroclaw.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4154d8d325fd81f3",
+      "headline": "J & K : Searches carried out in Jammu jail ; anti - tunnelling ops near IB in Samba",
+      "url": "https://www.prokerala.com/news/articles/a1828436.html",
+      "published_at": "20261024T160000Z",
+      "source": "prokerala.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8ee1c60e0401e71b",
+      "headline": "عادل العمدة يحذر : الحرب مع إيران قد تفتح الباب أمام مواجهة إقليمية طويلة",
+      "url": "https://www.vetogate.com/5756573",
+      "published_at": "20261024T120000Z",
+      "source": "vetogate.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ae867545502e44c8",
+      "headline": "Zaćma na NFZ bez możliwości dopłaty do soczewki wieloogniskowej . Ministerstwo wyjaśnia zasady",
+      "url": "https://www.rynekzdrowia.pl/Polityka-zdrowotna/Zacma-na-NFZ-bez-mozliwosci-doplaty-do-soczewki-wieloogniskowej-Ministerstwo-wyjasnia-zasady,290409,14.html",
+      "published_at": "20261024T144500Z",
+      "source": "rynekzdrowia.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ce8cc3364ef863ad",
+      "headline": "Αθήνα : Κλιμάκωση της προετοιμασίας της πανεργατικής απεργίας",
+      "url": "https://www.902.gr/eidisi/ergazomenoi-symmahia/431507/klimakosi-tis-proetoimasias-tis-panergatikis-apergias-stin-athina",
+      "published_at": "20261024T121500Z",
+      "source": "902.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0389cf8390c89c69",
+      "headline": "Владимир Зеленский ввел новые санкции в отношении России и Китая",
+      "url": "https://vm.ru/news/1368859-vladimir-zelenskij-vvel-novye-sankcii-v-otnoshenii-rossii-i-kitaya",
+      "published_at": "20261024T134500Z",
+      "source": "vm.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9fcf81c901989710",
+      "headline": "ترامب يلوّح بتصعيد جديد ضد إيران وسط تحذيرات أمنية أمريكية",
+      "url": "https://sana.sy/international/2615771/",
+      "published_at": "20261024T113000Z",
+      "source": "sana.sy",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6a1ed927c9414182",
+      "headline": "Зеленський запровадив санкції проти постачальників російського ОПК",
+      "url": "https://interfax.com.ua/news/general/1225588.html",
+      "published_at": "20261024T120000Z",
+      "source": "interfax.com.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_35039c6641afda76",
+      "headline": "Радојка Николић : Договори око продаје удела НИС - а завршени , чека се фимализација трансакције",
+      "url": "https://www.nspm.rs/hronika/radojka-nikolic-dogovori-oko-prodaje-udela-nis-a-zavrseni-ceka-se-fimalizacija-transakcije.html",
+      "published_at": "20261024T121500Z",
+      "source": "nspm.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4d8ba504fc9d3ba4",
+      "headline": "Зеленський запровадив нові санкції проти російського ВПК",
+      "url": "https://podrobnosti.ua/2521682-zelenskij-zaprovadiv-nov-sankts-proti-rosjskogo-vpk.html",
+      "published_at": "20261024T134500Z",
+      "source": "podrobnosti.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9682043ba7bb2a6e",
+      "headline": "免签红利持续释放 外国游客  三亚游  走向多元 | 活力中国调研行 - 南海网",
+      "url": "https://www.hinews.cn/page?n=2846301&m=1&s=1044",
+      "published_at": "20261024T161500Z",
+      "source": "hinews.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c5c4107cf4116ec1",
+      "headline": "Epidemia di virus Bundibugyo , quasi 10mila contagi e 4 . 687 morti in Congo : il virus si diffonde in Africa",
+      "url": "https://www.meteoweb.eu/2026/10/epidemia-di-virus-bundibugyo-quasi-10mila-contagi-e-4-687-morti-in-congo-il-virus-si-diffonde-in-africa/1001994870/",
+      "published_at": "20261024T154500Z",
+      "source": "meteoweb.eu",
+      "tags": []
+    },
+    {
+      "id": "gdelt_18ae6a9312dba49c",
+      "headline": "Israeli - born oligarch behind Russia $14 billion sanctions - evading cash network link",
+      "url": "https://www.ynetnews.com/article/sjosn49ngx",
+      "published_at": "20261024T154500Z",
+      "source": "ynetnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3ec06babe09a448d",
+      "headline": "FT : США и Россия обсуждали газовую сделку на Аляске за $25 млрд",
+      "url": "https://life.ru/p/terminal-v-obmen-na-snyatie-sanktsiy-ft-uznala-o-vozmozhnoy-sdelke-rossii-i",
+      "published_at": "20261024T154500Z",
+      "source": "life.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_259195724d055499",
+      "headline": "Zrušení poplatků pro ČT a ČRo : Pavel varuje",
+      "url": "https://www.blesk.cz/clanek/zpravy-politika/851192/necekane-vyhrocena-snemovna-petr-pavel-zasahuje-kvuli-bojum-o-poplatky.html",
+      "published_at": "20261024T144500Z",
+      "source": "blesk.cz",
+      "tags": []
+    },
+    {
+      "id": "gdelt_613843aa44e9c4c3",
+      "headline": "Nahost - Israel : Netanjahu erwägt Kryptowährungen gegen mögliche Sanktionen",
+      "url": "https://www.deutschlandfunk.de/israel-netanjahu-erwaegt-kryptowaehrungen-gegen-moegliche-sanktionen-100.html",
+      "published_at": "20261024T114500Z",
+      "source": "deutschlandfunk.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2fa36fa0cc70ef5e",
+      "headline": "Quartapelle ( Pd ), in Ucraina lEuropa ha fatto tanto , tantissimo - Notizie",
+      "url": "https://www.ansa.it/umbria/notizie/2026/10/24/quartapelle-pd-in-ucraina-leuropa-ha-fatto-tanto-tantissimo_0734d576-996a-4a35-80ee-d1b9357b584e.html",
+      "published_at": "20261024T153000Z",
+      "source": "ansa.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_71253e7793b75098",
+      "headline": "Baseless , misleading : Pakistan rebuts Khalilzad claims of arming Afghans against Taliban regime",
+      "url": "https://www.geo.tv/latest/688079-pakistan-rebuts-khalilzads-claims-of-arming-afghans-against-taliban-regime",
+      "published_at": "20261024T134500Z",
+      "source": "geo.tv",
+      "tags": []
+    },
+    {
+      "id": "gdelt_dc2740a1bc13902f",
+      "headline": "Zelensky Enacts Sanctions Targeting Russian Ballistics and Drones Makers",
+      "url": "https://www.kyivpost.com/post/88076",
+      "published_at": "20261024T150000Z",
+      "source": "kyivpost.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_68bae6cfe5f99ad8",
+      "headline": "Senator Schiff criticizes Trump diesel fuel deal with Russia , citing weakened Ukrainian defense and concessions on sanctions",
+      "url": "https://en.interfax.com.ua/news/general/1225593.html",
+      "published_at": "20261024T123000Z",
+      "source": "en.interfax.com.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_853c6829740eb2a4",
+      "headline": "Louisiana delegation unenthusiastic about Trump diesel order | State Politics",
+      "url": "https://www.theadvocate.com/baton_rouge/news/politics/national_politics/louisiana-delegation-unenthusiastic-about-trump-diesel-order/article_d04e3f38-4c6f-5788-91f5-5f3f596f879a.html",
+      "published_at": "20261024T113000Z",
+      "source": "theadvocate.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5f79225d8926c4d2",
+      "headline": "মার্কিন নিষেধাজ্ঞা উপেক্ষা করে উল্লেখযোগ্য অগ্রগতি করছে আন্তর্জাতিক অপরাধ আদালত : Daily Naya Diganta ( দৈনিক নয়া দিগন্ত )",
+      "url": "https://www.dailynayadiganta.com/post/international/1063788",
+      "published_at": "20261024T133000Z",
+      "source": "dailynayadiganta.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_47d2a854bdff2c50",
+      "headline": "Запроваджено санкції проти виробників балістики РФ",
+      "url": "https://ua.korrespondent.net/ukraine/4923020-zaprovadzheno-sanktsii-proty-vyrobnykiv-balistyky-rf",
+      "published_at": "20261024T131500Z",
+      "source": "ua.korrespondent.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7167984cc3ceabf7",
+      "headline": "Запроваджено санкції проти виробників балістики РФ",
+      "url": "https://news.bigmir.net/ua/ukraine/10454688-zaprovadzheno-sanktsiyi-proti-virobnikiv-balistiki-rf",
+      "published_at": "20261024T141500Z",
+      "source": "news.bigmir.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cbe8b92812e0f588",
+      "headline": "Милен Иванов : Битов скандал е вероятната причина",
+      "url": "https://fakti.bg/krimi/1093472-milen-ivanov-za-ubiistvoto-na-slavi-binev-nai-veroatno-e-bitov-skandal",
+      "published_at": "20261024T124500Z",
+      "source": "fakti.bg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a2a22ea280295287",
+      "headline": "Після атаки дрона біля узбережжя Румунії затонуло судно з українцями на борту",
+      "url": "https://www.bagnet.org/news/accidents/1404968/pislya-ataki-drona-bilya-uzberezhzhya-rumuniyi-zatonulo-sudno-z-ukrayintsyami-na-bortu",
+      "published_at": "20261024T121500Z",
+      "source": "bagnet.org",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0fb749d06cf15b6b",
+      "headline": "Зеленский объяснил хамство в адрес Трампа нежеланием казаться слабым",
+      "url": "https://life.ru/p/zelenskiy-obyasnil-hamstvo-v-adres-trampa-nezhelaniem-kazatsya-slabym",
+      "published_at": "20261024T154500Z",
+      "source": "life.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6a5dd832eb9374da",
+      "headline": "Projekt LNG na Alasce za 25 mld dol . traci kierownictwo . Płacili Rosjanie ?",
+      "url": "https://www.money.pl/gospodarka/projekt-lng-na-alasce-za-25-mld-dol-traci-kierownictwo-placili-rosjanie-7343426072987744a.html",
+      "published_at": "20261024T113000Z",
+      "source": "money.pl",
+      "tags": []
+    },
+    {
+      "id": "gdelt_919261b9e8ed5090",
+      "headline": "Pavel : Způsob jednání o poplatcích budí pochyby o záměrech předkladatelů",
+      "url": "https://www.ceskenoviny.cz/zpravy/pavel-zpusob-jednani-o-poplatcich-budi-pochyby-o-zamerech-predkladatelu/2892512",
+      "published_at": "20261024T153000Z",
+      "source": "ceskenoviny.cz",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0da58dd00f943491",
+      "headline": "మద్యం విక్రయాలు నిలిపివేయాలని మహిళల ఆందోళన",
+      "url": "https://www.eenadu.net/telugu-news/districts/odisha-news/703/126192956",
+      "published_at": "20261024T134500Z",
+      "source": "eenadu.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c9f739b4dc69244e",
+      "headline": "Plan in Auftrag gegeben : Sorge vor Bankensanktionen - Netanjahu erwägt Kryptowährungen",
+      "url": "https://www.n-tv.de/wirtschaft/Sorge-vor-Bankensanktionen-Netanjahu-erwaegt-Kryptowaehrungen-id31454137.html",
+      "published_at": "20261024T150000Z",
+      "source": "n-tv.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3471b0c6f81db22f",
+      "headline": "עוד לפני שנספר קול אחד : דפנה ליאל בדיווח חריג על הליכוד",
+      "url": "https://www.maariv.co.il/culture/tv/article-1380641",
+      "published_at": "20261024T153000Z",
+      "source": "maariv.co.il",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5487fea23ccf2276",
+      "headline": "США можуть зняти з Росії санкції , пов  язані з виробництвом добрива",
+      "url": "https://24tv.ua/geopolitics/ssha-mozhut-znyati-rosiyi-sanktsiyi-povyazani-virobnitstvom-dobriva_n3166823",
+      "published_at": "20261024T121500Z",
+      "source": "24tv.ua",
       "tags": []
     }
   ]
