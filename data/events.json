@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-25T19:00:36Z",
+    "generated_at_utc": "2026-10-25T21:45:30Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,17 +9,17 @@
       {
         "name": "core",
         "status": "error",
-        "error": "rate_limited status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
         "fetched": 0
       },
       {
         "name": "tripwire",
         "status": "ok",
-        "fetched": 42
+        "fetched": 64
       }
     ],
-    "fetched_articles": 42,
-    "previous_event_count": 120,
+    "fetched_articles": 64,
+    "previous_event_count": 42,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -33,11 +33,27 @@
   },
   "events": [
     {
+      "id": "gdelt_11a819be3e1ff0ed",
+      "headline": "Εκλογές στη Βουλγαρία : Οριακό προβάδισμα της Γιότοβα έναντι του Γκιούροφ – Τα ποσοστά των exit polls",
+      "url": "https://www.inewsgr.com/27/ekloges-sti-voulgaria-oriako-provadisma-tis-giotova-enanti-tou-gkiourof--ta-pososta-ton-exit-polls.htm",
+      "published_at": "20261025T191500Z",
+      "source": "inewsgr.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_7585a85d3b197715",
       "headline": "美民主黨若主宰參眾兩院 路透 ： 終結伊朗戰爭 、 重啟援烏抗俄 - 國際",
       "url": "https://news.ltn.com.tw/news/world/breakingnews/5618639",
       "published_at": "20261025T180000Z",
       "source": "news.ltn.com.tw",
+      "tags": []
+    },
+    {
+      "id": "gdelt_38a986deed763a55",
+      "headline": "המחקר שחשף את אפקט ההדבקה של סנקציות , וההשפעה על מדינות",
+      "url": "https://www.globes.co.il/news/article.aspx?did=1001560719",
+      "published_at": "20261025T191500Z",
+      "source": "globes.co.il",
       "tags": []
     },
     {
@@ -47,6 +63,16 @@
       "published_at": "20261025T180000Z",
       "source": "glavred.info",
       "tags": []
+    },
+    {
+      "id": "gdelt_403d035814e02973",
+      "headline": "Netanyahu pitch : Can Israel use crypto to evade economic sanctions ? - Grenada Chronicle – Daily Grenada And Caribbean News",
+      "url": "https://grenadachronicle.com/netanyahus-pitch-can-israel-use-crypto-to-evade-economic-sanctions/",
+      "published_at": "20261025T191500Z",
+      "source": "grenadachronicle.com",
+      "tags": [
+        "ISRAEL"
+      ]
     },
     {
       "id": "gdelt_b105af5e53443f18",
@@ -105,11 +131,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_bde9a061b08f51b4",
+      "headline": "ארה  ב הורתה על פינוי עובדי ממשל ובני משפחותיהם מסעודיה מחשש להסלמה ולמתקפות נוספות",
+      "url": "https://www.walla.co.il:443/news/world/383958861",
+      "published_at": "20261025T191500Z",
+      "source": "walla.co.il",
+      "tags": []
+    },
+    {
       "id": "gdelt_8e767d5c16d84d8b",
       "headline": "Përplasje mes protesuesve dhe policisë në Tiranë - nisin arrestimet",
       "url": "https://telegrafi.com/perplasje-mes-protesuesve-dhe-policise-nisin-arrestimet/",
       "published_at": "20261025T180000Z",
       "source": "telegrafi.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_48aff867024f3261",
+      "headline": "خبير : الضغوط الاقتصادية كشفت الحكومات الأوروبية",
+      "url": "https://www.dostor.org/5752074",
+      "published_at": "20261025T191500Z",
+      "source": "dostor.org",
       "tags": []
     },
     {
@@ -129,11 +171,11 @@
       "tags": []
     },
     {
-      "id": "gdelt_9905c7d020209988",
-      "headline": "الضفة الغربية : كيف يؤثر التصعيد الجاري في حياة الفلسطينيين ؟",
-      "url": "https://www.bbc.com/arabic/articles/cq8rzm3leznvo",
-      "published_at": "20261025T180000Z",
-      "source": "bbc.com",
+      "id": "gdelt_321203ceb5fbc23c",
+      "headline": "وزير الخارجية يبحث مع مدير وكالة الطاقة الذرية التطورات الإقليمية",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=25102026&id=ecd8df64-9315-4f15-ba84-0d7e51c583c7",
+      "published_at": "20261025T191500Z",
+      "source": "shorouknews.com",
       "tags": []
     },
     {
@@ -145,11 +187,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_9905c7d020209988",
+      "headline": "الضفة الغربية : كيف يؤثر التصعيد الجاري في حياة الفلسطينيين ؟",
+      "url": "https://www.bbc.com/arabic/articles/cq8rzm3leznvo",
+      "published_at": "20261025T180000Z",
+      "source": "bbc.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_1e973d1510bc1ad2",
       "headline": "Protesta para Kryeministrisë , të rinjtë hedhin gurë drejt autobotit të ujit pranë godinës",
       "url": "https://www.balkanweb.com/protesta-para-kryeministrise-te-rinjte-hedhin-gure-drejt-autobotit-te-ujit-prane-godines/",
       "published_at": "20261025T180000Z",
       "source": "balkanweb.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a8b88f98abaf1387",
+      "headline": "לא נקבל תמורתם כלום : המכשול בחזון הקריפטו של נתניהו",
+      "url": "https://finance.walla.co.il/item/3873688",
+      "published_at": "20261025T191500Z",
+      "source": "finance.walla.co.il",
       "tags": []
     },
     {
@@ -201,11 +259,43 @@
       "tags": []
     },
     {
+      "id": "gdelt_07d794aa819413d7",
+      "headline": "Punjab 2027 : the battle for power , credibility and political survival",
+      "url": "https://www.ibtimes.co.in/punjab-2027-battle-power-credibility-political-survival-907845",
+      "published_at": "20261025T191500Z",
+      "source": "ibtimes.co.in",
+      "tags": []
+    },
+    {
       "id": "gdelt_e9a9deefddd9be0e",
       "headline": "Нетаньяху опубликовал ИИ - изображение ядерного удара по Тель - Авиву",
       "url": "https://ria.ru/20261025/netanjahu-2126928007.html",
       "published_at": "20261025T180000Z",
       "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6bb00e8eb8392e30",
+      "headline": "Công an tiến hành điều tra , xác minh tài khoản ngân hàng trong trường hợp sau",
+      "url": "https://kenh14.vn/cong-an-tien-hanh-dieu-tra-xac-minh-tai-khoan-ngan-hang-trong-truong-hop-sau-215261025162704303.chn",
+      "published_at": "20261025T191500Z",
+      "source": "kenh14.vn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_81160fe35c6af725",
+      "headline": "Sri Lanka provides medical help , repatriates Iranian sailors stranded in Indian Ocean",
+      "url": "https://www.wlwt.com/article/sri-lanka-medicalrepatriates-iranian-sailors-indian-ocean/74241104",
+      "published_at": "20261025T191500Z",
+      "source": "wlwt.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_203ba7bd05d8bced",
+      "headline": "US Treasury proposes overseas tech investment rule",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/10/26/2003866601",
+      "published_at": "20261025T191500Z",
+      "source": "taipeitimes.com",
       "tags": []
     },
     {
@@ -218,6 +308,14 @@
         "ISRAEL",
         "SAUDI_ARABIA"
       ]
+    },
+    {
+      "id": "gdelt_1942a14e940c682a",
+      "headline": "آلاف الإسرائيليين يتظاهرون لإسقاط نتنياهو",
+      "url": "https://www.omandaily.om/article/1213462",
+      "published_at": "20261025T191500Z",
+      "source": "omandaily.om",
+      "tags": []
     },
     {
       "id": "gdelt_7aac767d31edb9eb",
@@ -236,6 +334,22 @@
       "tags": []
     },
     {
+      "id": "gdelt_08e40ef48b5eed72",
+      "headline": "100 % мита можуть стати важелем Трампа у переговорах із Путіним",
+      "url": "https://www.newsukraine.com.ua/100-myta-mozhut-staty-vazhelem-trampa-u-perehovorakh-iz-putinym/",
+      "published_at": "20261025T191500Z",
+      "source": "newsukraine.com.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_85683e26c0611633",
+      "headline": "Da li će protesti generacije Z dovesti do prekretnice u Evropi ?",
+      "url": "https://www.blic.rs/vesti/svet/da-li-ce-protesti-generacije-z-dovesti-do-prekretnice-u-evropi/lye2n4q",
+      "published_at": "20261025T191500Z",
+      "source": "blic.rs",
+      "tags": []
+    },
+    {
       "id": "gdelt_6a332a276c1f6faa",
       "headline": "Regimul Putin e acuzat că a trimis copii ucraineni într - o tabără de îndoctrinare din Coreea de Nord",
       "url": "https://ziare.com/razboi-ucraina/rusia-coreea-de-nord-tabara-copii-ucraineni-2043684",
@@ -249,6 +363,14 @@
       "url": "https://www.aljazeera.net/politics/2026/10/25/%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A%D8%A7-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%AA%D9%87%D8%AF%D9%8A%D8%AF-%D8%B1%D9%88%D8%B3%D9%8A-%D9%85%D8%AA%D8%B5%D8%A7%D8%B9%D8%AF",
       "published_at": "20261025T180000Z",
       "source": "aljazeera.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_39ada3dce697d2a4",
+      "headline": "The Echidna : Let bin the silly arguments over garbage bins | The Canberra Times",
+      "url": "https://www.canberratimes.com.au/story/9373436/the-echidna-lets-bin-the-silly-arguments-over-garbage-bins/",
+      "published_at": "20261025T191500Z",
+      "source": "canberratimes.com.au",
       "tags": []
     },
     {
@@ -276,14 +398,6 @@
       "tags": []
     },
     {
-      "id": "gdelt_74bfc2396837fc8e",
-      "headline": "Alentejo establishes cultural alliance in Évora",
-      "url": "https://www.theportugalnews.com/news/2026-10-25/alentejo-establishes-cultural-alliance-in-evora/1104647",
-      "published_at": "20261025T180000Z",
-      "source": "theportugalnews.com",
-      "tags": []
-    },
-    {
       "id": "gdelt_d5ce6cd054e919ac",
       "headline": "Iowa U . S . Senate candidates disagree on range of issues",
       "url": "http://www.wataugademocrat.com/news/national/iowa-u-s-senate-candidates-disagree-on-range-of-issues/article_17b6dd4e-b213-5f07-b0d8-de3ca5f6c778.html",
@@ -292,11 +406,27 @@
       "tags": []
     },
     {
+      "id": "gdelt_74bfc2396837fc8e",
+      "headline": "Alentejo establishes cultural alliance in Évora",
+      "url": "https://www.theportugalnews.com/news/2026-10-25/alentejo-establishes-cultural-alliance-in-evora/1104647",
+      "published_at": "20261025T180000Z",
+      "source": "theportugalnews.com",
+      "tags": []
+    },
+    {
       "id": "gdelt_9be8a8873863f4fb",
       "headline": "Më pak efektivë , autoboti gati dhe kamera me rezolucion të lartë , policia ndryshon strategji",
       "url": "https://telegraf.al/aktualitet/me-pak-efektive-autoboti-gati-dhe-kamera-me-rezolucion-te-larte-policia-ndryshon-strategji/",
       "published_at": "20261025T180000Z",
       "source": "telegraf.al",
+      "tags": []
+    },
+    {
+      "id": "gdelt_026978383aeca2cd",
+      "headline": "إصابة 12 شخصًا في إطلاق نار قرب جامعة بفلوريدا الأمريكية",
+      "url": "https://akhbarlibya24.net/2026/10/25/%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-12-%D8%B4%D8%AE%D8%B5-%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D9%86%D8%A7%D8%B1-%D9%81%D9%84%D9%88%D8%B1%D9%8A%D8%AF%D8%A7-%D8%AC%D8%A7%D9%85%D8%B9%D8%A9",
+      "published_at": "20261025T191500Z",
+      "source": "akhbarlibya24.net",
       "tags": []
     },
     {
@@ -326,6 +456,24 @@
       "tags": [
         "VENEZUELA"
       ]
+    },
+    {
+      "id": "gdelt_c00379bceb0c4bb1",
+      "headline": "Venezuela opposition leader Machado returns after months in exile",
+      "url": "https://www.4029tv.com/article/venezuelas-machado-returns-after-months-in-exile/74241474",
+      "published_at": "20261025T191500Z",
+      "source": "4029tv.com",
+      "tags": [
+        "VENEZUELA"
+      ]
+    },
+    {
+      "id": "gdelt_12079413f120a816",
+      "headline": "Alex Perry warns Aussie fashion industry facing crisis",
+      "url": "https://www.cairnspost.com.au/news/national/back-australia/designer-alex-perry-went-global-to-survive-as-heavy-taxes-cheap-imports-send-aussie-icons-to-the-wall/news-story/749c8e43b80dd8300ddf7081f0d6beaf?nk=409446633360eedf2fa5407e1ecf8835-1792954911",
+      "published_at": "20261025T191500Z",
+      "source": "cairnspost.com.au",
+      "tags": []
     },
     {
       "id": "gdelt_d96a027258ef8303",
@@ -375,6 +523,38 @@
       "url": "https://www.fox13seattle.com/news/obama-compares-trumps-white-house-renovations-saddam-hussein-opening-cheesecake-factory-ohio-rally",
       "published_at": "20261025T180000Z",
       "source": "fox13seattle.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_99b79c0c583273a0",
+      "headline": "القوات المسلحة تكثف ضرباتها الجوية وتتصدى لهجمات حوثية في عدة جبهات ( حصاد اليوم )",
+      "url": "https://alsahwayemen.net/p-97501",
+      "published_at": "20261025T191500Z",
+      "source": "alsahwayemen.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d66515820854b8bf",
+      "headline": "The Echidna : Let bin the silly arguments over garbage bins | The Inverell Times",
+      "url": "https://www.inverelltimes.com.au/story/9373436/the-echidna-lets-bin-the-silly-arguments-over-garbage-bins/",
+      "published_at": "20261025T191500Z",
+      "source": "inverelltimes.com.au",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cfba15b1c8dbe020",
+      "headline": "The Echidna : Let bin the silly arguments over garbage bins | The Irrigator",
+      "url": "https://www.irrigator.com.au/story/9373436/the-echidna-lets-bin-the-silly-arguments-over-garbage-bins/",
+      "published_at": "20261025T191500Z",
+      "source": "irrigator.com.au",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cb3257d1e438439c",
+      "headline": "The Echidna : Let bin the silly arguments over garbage bins | The Courier",
+      "url": "https://www.thecourier.com.au/story/9373436/the-echidna-lets-bin-the-silly-arguments-over-garbage-bins/",
+      "published_at": "20261025T191500Z",
+      "source": "thecourier.com.au",
       "tags": []
     }
   ]
