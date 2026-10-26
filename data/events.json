@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-26T00:19:48Z",
+    "generated_at_utc": "2026-10-26T06:08:15Z",
     "provider": "GDELT_DOC_API",
     "status": "partial",
     "timespan": "6h",
@@ -9,17 +9,17 @@
       {
         "name": "core",
         "status": "error",
-        "error": "rate_limited status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
         "fetched": 0
       },
       {
         "name": "tripwire",
         "status": "ok",
-        "fetched": 22
+        "fetched": 48
       }
     ],
-    "fetched_articles": 22,
-    "previous_event_count": 64,
+    "fetched_articles": 48,
+    "previous_event_count": 22,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -33,183 +33,407 @@
   },
   "events": [
     {
-      "id": "gdelt_11a819be3e1ff0ed",
-      "headline": "Εκλογές στη Βουλγαρία : Οριακό προβάδισμα της Γιότοβα έναντι του Γκιούροφ – Τα ποσοστά των exit polls",
-      "url": "https://www.inewsgr.com/27/ekloges-sti-voulgaria-oriako-provadisma-tis-giotova-enanti-tou-gkiourof--ta-pososta-ton-exit-polls.htm",
-      "published_at": "20261025T191500Z",
-      "source": "inewsgr.com",
+      "id": "gdelt_b7702172e3720b1b",
+      "headline": "Saksi Ahli Kemenkes Sebut Kasus Richard Lee Tak Tepat Masuk Ranah Pidana",
+      "url": "https://www.liputan6.com/showbiz/read/8321249/saksi-ahli-kemenkes-sebut-kasus-richard-lee-tak-tepat-masuk-ranah-pidana",
+      "published_at": "20261026T050000Z",
+      "source": "liputan6.com",
       "tags": []
     },
     {
-      "id": "gdelt_38a986deed763a55",
-      "headline": "המחקר שחשף את אפקט ההדבקה של סנקציות , וההשפעה על מדינות",
-      "url": "https://www.globes.co.il/news/article.aspx?did=1001560719",
-      "published_at": "20261025T191500Z",
-      "source": "globes.co.il",
+      "id": "gdelt_2b63f7e03d59a55a",
+      "headline": "Kritik Sanksi Kemenhut , Indrajaya Minta Hukuman Pidana Perusahaan Pembakar Hutan",
+      "url": "https://www.jpnn.com/news/kritik-sanksi-kemenhut-indrajaya-minta-hukuman-pidana-perusahaan-pembakar-hutan",
+      "published_at": "20261026T050000Z",
+      "source": "jpnn.com",
       "tags": []
     },
     {
-      "id": "gdelt_403d035814e02973",
-      "headline": "Netanyahu pitch : Can Israel use crypto to evade economic sanctions ? - Grenada Chronicle – Daily Grenada And Caribbean News",
-      "url": "https://grenadachronicle.com/netanyahus-pitch-can-israel-use-crypto-to-evade-economic-sanctions/",
-      "published_at": "20261025T191500Z",
-      "source": "grenadachronicle.com",
+      "id": "gdelt_247e2fe7a46a0880",
+      "headline": "CGSI , OCBC cut FCT target price after record FY2026 payout",
+      "url": "https://www.businesstimes.com.sg/companies-markets/cgsi-ocbc-cut-fct-target-price-despite-record-fy2026-payout",
+      "published_at": "20261026T050000Z",
+      "source": "businesstimes.com.sg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b168aa7ef2cb457b",
+      "headline": "Border curbs cloud Bhagwant Mann invite",
+      "url": "https://tribune.com.pk/story/2636952/border-curbs-cloud-bhagwant-mann-invite",
+      "published_at": "20261026T050000Z",
+      "source": "tribune.com.pk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8e9a6ecacd0cbea7",
+      "headline": "Đề xuất nâng mức xử phạt vi phạm hành chính tối đa lên 1 , 5 tỷ đồng đối với cá nhân",
+      "url": "https://baomoi.com/de-xuat-nang-muc-xu-phat-vi-pham-hanh-chinh-toi-da-len-1-5-ty-dong-doi-voi-ca-nhan-c56353073.epi",
+      "published_at": "20261026T050000Z",
+      "source": "baomoi.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5cda4d03371cf83f",
+      "headline": "임차인 모집률 30 % 인데⋯  마감임박  민간임대아파트 거짓광고 제재",
+      "url": "https://www.etoday.co.kr/news/view/2639895",
+      "published_at": "20261026T050000Z",
+      "source": "etoday.co.kr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e9554aadaaa72ed9",
+      "headline": "印多福农业资源接新国环境局通知 要求助查跨境烟霾问题 | 新加坡 | 国际",
+      "url": "https://www.orientaldaily.com.my/news/spr/2026/10/26/857996",
+      "published_at": "20261026T050000Z",
+      "source": "orientaldaily.com.my",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a6d4a5234a80cb36",
+      "headline": "Bà nội đến lớp xé áo , đánh cô giáo , bị phạt 11 , 25 triệu đồng",
+      "url": "https://thanhnien.vn/ba-noi-den-lop-xe-ao-danh-co-giao-bi-phat-1125-trieu-dong-18526102408235024.htm",
+      "published_at": "20261026T050000Z",
+      "source": "thanhnien.vn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_932311d8a278475f",
+      "headline": "日剧歪曲历史离谱抹黑中国被痛批 系统化对华认知战 _ 军事频道 _ 中华网",
+      "url": "https://military.china.com/news/13004177/20261026/49818068.html",
+      "published_at": "20261026T050000Z",
+      "source": "military.china.com",
       "tags": [
-        "ISRAEL"
+        "CHINA"
       ]
     },
     {
-      "id": "gdelt_bde9a061b08f51b4",
-      "headline": "ארה  ב הורתה על פינוי עובדי ממשל ובני משפחותיהם מסעודיה מחשש להסלמה ולמתקפות נוספות",
-      "url": "https://www.walla.co.il:443/news/world/383958861",
-      "published_at": "20261025T191500Z",
-      "source": "walla.co.il",
+      "id": "gdelt_a905bfed21d9b647",
+      "headline": "OJK Ungkap 3 Bentuk Tindak Pidana Pasar Modal , dari Manipulasi Saham hingga Informasi Menyesatkan",
+      "url": "https://www.viva.co.id/bisnis/1938654-ojk-ungkap-3-bentuk-tindak-pidana-pasar-modal-dari-manipulasi-saham-hingga-informasi-menyesatkan",
+      "published_at": "20261026T050000Z",
+      "source": "viva.co.id",
       "tags": []
     },
     {
-      "id": "gdelt_48aff867024f3261",
-      "headline": "خبير : الضغوط الاقتصادية كشفت الحكومات الأوروبية",
-      "url": "https://www.dostor.org/5752074",
-      "published_at": "20261025T191500Z",
-      "source": "dostor.org",
+      "id": "gdelt_10bce3b676171a52",
+      "headline": "全网震怒 ！ 日剧把日军罪行嫁接给中国人 ， 直接颠倒黑白 ， 央妈亲自下场发声 剧情引发家庭争论 _ 军事频道 _ 中华网",
+      "url": "https://military.china.com/news/13004177/20261026/49817875.html",
+      "published_at": "20261026T050000Z",
+      "source": "military.china.com",
+      "tags": [
+        "CHINA"
+      ]
+    },
+    {
+      "id": "gdelt_f3f5fbccbaba823c",
+      "headline": "Peringatan Iran di Tengah Perang AS : Kawasan Timteng Tak Lagi Sama",
+      "url": "https://www.cnnindonesia.com/internasional/20261025211712-120-1419506/peringatan-iran-di-tengah-perang-as-kawasan-timteng-tak-lagi-sama",
+      "published_at": "20261026T050000Z",
+      "source": "cnnindonesia.com",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_e16bc49a567191f1",
+      "headline": "Россия и Алжир запланировали возобновление авиасообщения :: Новости дня / ВЗГЛЯД",
+      "url": "https://vz.ru/news/2026/10/26/1467763.html",
+      "published_at": "20261026T050000Z",
+      "source": "vz.ru",
       "tags": []
     },
     {
-      "id": "gdelt_321203ceb5fbc23c",
-      "headline": "وزير الخارجية يبحث مع مدير وكالة الطاقة الذرية التطورات الإقليمية",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=25102026&id=ecd8df64-9315-4f15-ba84-0d7e51c583c7",
-      "published_at": "20261025T191500Z",
-      "source": "shorouknews.com",
+      "id": "gdelt_a3fab0d5d10ff10a",
+      "headline": "Oil declines from six - month high as traders assess Mideast risks",
+      "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-declines-six-month-high-traders-assess-mideast-risks",
+      "published_at": "20261026T050000Z",
+      "source": "businesstimes.com.sg",
       "tags": []
     },
     {
-      "id": "gdelt_a8b88f98abaf1387",
-      "headline": "לא נקבל תמורתם כלום : המכשול בחזון הקריפטו של נתניהו",
-      "url": "https://finance.walla.co.il/item/3873688",
-      "published_at": "20261025T191500Z",
-      "source": "finance.walla.co.il",
+      "id": "gdelt_ac6139bda652ab7d",
+      "headline": "Chứng khoán châu Á thận trọng chờ đợi các báo cáo lợi nhuận công nghệ",
+      "url": "https://baomoi.com/chung-khoan-chau-a-than-trong-cho-doi-cac-bao-cao-loi-nhuan-cong-nghe-c56353242.epi",
+      "published_at": "20261026T050000Z",
+      "source": "baomoi.com",
       "tags": []
     },
     {
-      "id": "gdelt_07d794aa819413d7",
-      "headline": "Punjab 2027 : the battle for power , credibility and political survival",
-      "url": "https://www.ibtimes.co.in/punjab-2027-battle-power-credibility-political-survival-907845",
-      "published_at": "20261025T191500Z",
-      "source": "ibtimes.co.in",
+      "id": "gdelt_84ab3edaadc375b5",
+      "headline": "Ukraine disputes Musk claim Starlink was used for offensive drone strikes",
+      "url": "https://komonews.com/news/nation-world/ukraine-disputes-musks-claim-starlink-was-used-for-offensive-drone-strikes",
+      "published_at": "20261026T050000Z",
+      "source": "komonews.com",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_0db0d4f175f4487a",
+      "headline": "Перебои в судоходстве через Ормузский пролив могут привести к росту цен",
+      "url": "https://1prime.ru/20261026/pereboi-874588285.html",
+      "published_at": "20261026T050000Z",
+      "source": "1prime.ru",
       "tags": []
     },
     {
-      "id": "gdelt_6bb00e8eb8392e30",
-      "headline": "Công an tiến hành điều tra , xác minh tài khoản ngân hàng trong trường hợp sau",
-      "url": "https://kenh14.vn/cong-an-tien-hanh-dieu-tra-xac-minh-tai-khoan-ngan-hang-trong-truong-hop-sau-215261025162704303.chn",
-      "published_at": "20261025T191500Z",
-      "source": "kenh14.vn",
+      "id": "gdelt_b1d11ce160ea87d0",
+      "headline": "Is Saudi airport open today as Houthi attacks continue ?",
+      "url": "https://pakobserver.net/is-saudi-airport-open-today-as-houthi-attacks-continue/",
+      "published_at": "20261026T050000Z",
+      "source": "pakobserver.net",
+      "tags": [
+        "SAUDI_ARABIA"
+      ]
+    },
+    {
+      "id": "gdelt_8fdd89b1b0602623",
+      "headline": "萬人看完演唱會湧向新皇崗口岸 議員倡增設24小時通關口岸 - 香港",
+      "url": "https://www.wenweipo.com/a/202610/26/AP6adea8e9e4b0fa89498a5c44.html",
+      "published_at": "20261026T050000Z",
+      "source": "wenweipo.com",
       "tags": []
     },
     {
-      "id": "gdelt_81160fe35c6af725",
-      "headline": "Sri Lanka provides medical help , repatriates Iranian sailors stranded in Indian Ocean",
-      "url": "https://www.wlwt.com/article/sri-lanka-medicalrepatriates-iranian-sailors-indian-ocean/74241104",
-      "published_at": "20261025T191500Z",
-      "source": "wlwt.com",
+      "id": "gdelt_78d243d7808b87de",
+      "headline": "« Сделают всё , чего мы не хотели »: Вучич проиграл выборы и заговорил о санкциях против России",
+      "url": "https://news.mail.ru/politics/72855006/",
+      "published_at": "20261026T050000Z",
+      "source": "news.mail.ru",
       "tags": []
     },
     {
-      "id": "gdelt_203ba7bd05d8bced",
-      "headline": "US Treasury proposes overseas tech investment rule",
-      "url": "https://www.taipeitimes.com/News/biz/archives/2026/10/26/2003866601",
-      "published_at": "20261025T191500Z",
-      "source": "taipeitimes.com",
+      "id": "gdelt_1258b070ad1c2be7",
+      "headline": "허프포스트코리아",
+      "url": "https://www.huffingtonpost.kr:443/article/261519",
+      "published_at": "20261026T050000Z",
+      "source": "huffingtonpost.kr",
       "tags": []
     },
     {
-      "id": "gdelt_1942a14e940c682a",
-      "headline": "آلاف الإسرائيليين يتظاهرون لإسقاط نتنياهو",
-      "url": "https://www.omandaily.om/article/1213462",
-      "published_at": "20261025T191500Z",
-      "source": "omandaily.om",
+      "id": "gdelt_07ff30a343599e6f",
+      "headline": "트럼프 우경화  저지한 룰라  미국의 뒷마당 아냐",
+      "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003278812&PAGE_CD=N0002&CMPT_CD=M0112",
+      "published_at": "20261026T050000Z",
+      "source": "ohmynews.com",
       "tags": []
     },
     {
-      "id": "gdelt_08e40ef48b5eed72",
-      "headline": "100 % мита можуть стати важелем Трампа у переговорах із Путіним",
-      "url": "https://www.newsukraine.com.ua/100-myta-mozhut-staty-vazhelem-trampa-u-perehovorakh-iz-putinym/",
-      "published_at": "20261025T191500Z",
-      "source": "newsukraine.com.ua",
+      "id": "gdelt_2e2216596e5e90b2",
+      "headline": "Τζορτζ Ζαμπέλλας : Η Ευρώπη δεν είναι προετοιμασμένη για έναν μεγάλο πόλεμο",
+      "url": "https://www.in.gr/2026/10/26/world/tzortz-zampellas-i-eyropi-den-einai-proetoimasmeni-gia-enan-megalo-polemo/",
+      "published_at": "20261026T050000Z",
+      "source": "in.gr",
       "tags": []
     },
     {
-      "id": "gdelt_85683e26c0611633",
-      "headline": "Da li će protesti generacije Z dovesti do prekretnice u Evropi ?",
-      "url": "https://www.blic.rs/vesti/svet/da-li-ce-protesti-generacije-z-dovesti-do-prekretnice-u-evropi/lye2n4q",
-      "published_at": "20261025T191500Z",
-      "source": "blic.rs",
+      "id": "gdelt_243c15ed68760e25",
+      "headline": "Kinh tế Anh : Khoảng lặng của thị trường việc làm",
+      "url": "https://baomoi.com/kinh-te-anh-khoang-lang-cua-thi-truong-viec-lam-c56353280.epi",
+      "published_at": "20261026T050000Z",
+      "source": "baomoi.com",
       "tags": []
     },
     {
-      "id": "gdelt_39ada3dce697d2a4",
-      "headline": "The Echidna : Let bin the silly arguments over garbage bins | The Canberra Times",
-      "url": "https://www.canberratimes.com.au/story/9373436/the-echidna-lets-bin-the-silly-arguments-over-garbage-bins/",
-      "published_at": "20261025T191500Z",
-      "source": "canberratimes.com.au",
+      "id": "gdelt_646a380693e20774",
+      "headline": "Redding Chico Eureka",
+      "url": "https://krcrtv.com/news/nation-world/ukraine-disputes-musks-claim-starlink-was-used-for-offensive-drone-strikes",
+      "published_at": "20261026T050000Z",
+      "source": "krcrtv.com",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_3230fe607924ee2a",
+      "headline": "俄乌同意局部停火 ， 美俄乌会谈提上日程",
+      "url": "https://mil.ifeng.com/c/8xUJ0H22DdS",
+      "published_at": "20261026T050000Z",
+      "source": "mil.ifeng.com",
       "tags": []
     },
     {
-      "id": "gdelt_026978383aeca2cd",
-      "headline": "إصابة 12 شخصًا في إطلاق نار قرب جامعة بفلوريدا الأمريكية",
-      "url": "https://akhbarlibya24.net/2026/10/25/%D8%A5%D8%B5%D8%A7%D8%A8%D8%A9-12-%D8%B4%D8%AE%D8%B5-%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D9%86%D8%A7%D8%B1-%D9%81%D9%84%D9%88%D8%B1%D9%8A%D8%AF%D8%A7-%D8%AC%D8%A7%D9%85%D8%B9%D8%A9",
-      "published_at": "20261025T191500Z",
-      "source": "akhbarlibya24.net",
+      "id": "gdelt_e500440fd1dff3a3",
+      "headline": "UK Jewish leaders declare Green Party racist over  Zionism is racism  policy",
+      "url": "https://www.israelnationalnews.com/news/435156",
+      "published_at": "20261026T050000Z",
+      "source": "israelnationalnews.com",
       "tags": []
     },
     {
-      "id": "gdelt_c00379bceb0c4bb1",
-      "headline": "Venezuela opposition leader Machado returns after months in exile",
-      "url": "https://www.4029tv.com/article/venezuelas-machado-returns-after-months-in-exile/74241474",
-      "published_at": "20261025T191500Z",
-      "source": "4029tv.com",
+      "id": "gdelt_78979673db880f7e",
+      "headline": "Maria - Corina - Machado - Returns : మచాడో . రిట‌న్స్‌ ..! Andhra Prabha Top Story - Andhra Prabha | Telugu News Daily , Latest Telugu News , Latest తెలుగు వార్తలు and LIVE Updates | Breaking News in AP and Telangana",
+      "url": "https://prabhanews.com/maria-corina-machado-returns-to-venezuela-trump-reaction/",
+      "published_at": "20261026T050000Z",
+      "source": "prabhanews.com",
       "tags": [
         "VENEZUELA"
       ]
     },
     {
-      "id": "gdelt_12079413f120a816",
-      "headline": "Alex Perry warns Aussie fashion industry facing crisis",
-      "url": "https://www.cairnspost.com.au/news/national/back-australia/designer-alex-perry-went-global-to-survive-as-heavy-taxes-cheap-imports-send-aussie-icons-to-the-wall/news-story/749c8e43b80dd8300ddf7081f0d6beaf?nk=409446633360eedf2fa5407e1ecf8835-1792954911",
-      "published_at": "20261025T191500Z",
-      "source": "cairnspost.com.au",
+      "id": "gdelt_57c8c5fccd43dce5",
+      "headline": "Καραμανλής – Σαμαράς σε κοινό μέτωπο για τα εθνικά : Τα « πυρά » κατά της κυβέρνησης και ο πονοκέφαλος στο Μαξίμου",
+      "url": "https://www.topontiki.gr/2026/10/26/karamanlis-samaras-se-kino-metopo-gia-ta-ethnika-ta-pira-kata-tis-kivernisis-ke-o-ponokefalos-sto-maximou/",
+      "published_at": "20261026T050000Z",
+      "source": "topontiki.gr",
       "tags": []
     },
     {
-      "id": "gdelt_99b79c0c583273a0",
-      "headline": "القوات المسلحة تكثف ضرباتها الجوية وتتصدى لهجمات حوثية في عدة جبهات ( حصاد اليوم )",
-      "url": "https://alsahwayemen.net/p-97501",
-      "published_at": "20261025T191500Z",
-      "source": "alsahwayemen.net",
+      "id": "gdelt_ca4f1bf7575a227b",
+      "headline": "Israel markets see upside in Netanyahu defeat after three - year rally",
+      "url": "https://www.thehindu.com/news/international/israeli-markets-rally-on-netanyahu-defeat-hopes/article71625553.ece",
+      "published_at": "20261026T050000Z",
+      "source": "thehindu.com",
+      "tags": [
+        "ISRAEL"
+      ]
+    },
+    {
+      "id": "gdelt_e215549b0fd99f35",
+      "headline": "野村総合研究所とNRIセキュア 、 サイバー攻撃への対応力強化を経営とセキュリティの両面から支援する 「 サイバーレジリエンス経営支援 」",
+      "url": "https://cloud.watch.impress.co.jp/docs/news/2150475.html",
+      "published_at": "20261026T050000Z",
+      "source": "cloud.watch.impress.co.jp",
       "tags": []
     },
     {
-      "id": "gdelt_d66515820854b8bf",
-      "headline": "The Echidna : Let bin the silly arguments over garbage bins | The Inverell Times",
-      "url": "https://www.inverelltimes.com.au/story/9373436/the-echidna-lets-bin-the-silly-arguments-over-garbage-bins/",
-      "published_at": "20261025T191500Z",
-      "source": "inverelltimes.com.au",
+      "id": "gdelt_bf96bd584dde86ad",
+      "headline": "Dự thảo Luật An ninh dữ liệu : Bảo đảm an ninh dữ liệu đối với công nghệ mới và trí tuệ nhân tạo",
+      "url": "https://baomoi.com/du-thao-luat-an-ninh-du-lieu-bao-dam-an-ninh-du-lieu-doi-voi-cong-nghe-moi-va-tri-tue-nhan-tao-c56353367.epi",
+      "published_at": "20261026T050000Z",
+      "source": "baomoi.com",
       "tags": []
     },
     {
-      "id": "gdelt_cfba15b1c8dbe020",
-      "headline": "The Echidna : Let bin the silly arguments over garbage bins | The Irrigator",
-      "url": "https://www.irrigator.com.au/story/9373436/the-echidna-lets-bin-the-silly-arguments-over-garbage-bins/",
-      "published_at": "20261025T191500Z",
-      "source": "irrigator.com.au",
+      "id": "gdelt_724d1837b5938735",
+      "headline": "Trumps Wahlkampf wird vollends zur Schlammschlacht : „ Norwegen ist scheiße ! –",
+      "url": "https://www.braunschweiger-zeitung.de/politik/article413505964/norwegen-ist-scheisse-trumps-wahlkampf-wird-vollends-zur-schlammschlacht.html",
+      "published_at": "20261026T050000Z",
+      "source": "braunschweiger-zeitung.de",
       "tags": []
     },
     {
-      "id": "gdelt_cb3257d1e438439c",
-      "headline": "The Echidna : Let bin the silly arguments over garbage bins | The Courier",
-      "url": "https://www.thecourier.com.au/story/9373436/the-echidna-lets-bin-the-silly-arguments-over-garbage-bins/",
-      "published_at": "20261025T191500Z",
-      "source": "thecourier.com.au",
+      "id": "gdelt_6962b40da2d10cfd",
+      "headline": "Serbien steht nach Parlamentswahl vor einem Machtwechsel",
+      "url": "https://www.abendzeitung-muenchen.de/politik/serbien-steht-nach-parlamentswahl-vor-einem-machtwechsel-art-1168375",
+      "published_at": "20261026T050000Z",
+      "source": "abendzeitung-muenchen.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_165c6d6c4922de22",
+      "headline": "Ισραήλ χωρίς τον Νετανιάχου ; Ισραηλινοί ειδικοί εξηγούν τι μπορεί να αλλάξει για Ελλάδα , Τουρκία , Ιράν και Γάζα",
+      "url": "https://www.in.gr/2026/10/26/world/israil-xoris-ton-netaniaxou-israilinoi-eidikoi-eksigoun-ti-mporei-na-allaksei-gia-ellada-tourkia-iran-kai-gaza/",
+      "published_at": "20261026T050000Z",
+      "source": "in.gr",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_404f044f33817759",
+      "headline": "Serbien steht nach Parlamentswahl vor einem Machtwechsel",
+      "url": "https://www.stimme.de/politik/welt/politik/ausland/serbien-steht-nach-parlamentswahl-vor-einem-machtwechsel-art-5226808",
+      "published_at": "20261026T050000Z",
+      "source": "stimme.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3dbf885cd6960680",
+      "headline": "为何原油供应增加 ， 油价缺降不下来 ？ - 华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3784448",
+      "published_at": "20261026T050000Z",
+      "source": "wallstreetcn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_152565cb15edc4e0",
+      "headline": "歐洲多國大規模示威爆發 ： 法國41萬人上街 逾千人被捕 - 國際",
+      "url": "https://www.wenweipo.com/a/202610/26/AP6adeab9be4b0fa89498a5c86.html",
+      "published_at": "20261026T050000Z",
+      "source": "wenweipo.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0933ee13f89e58b2",
+      "headline": "Thuế đất bỏ hoang 0 , 2 %: Cần  đi đúng , đi trúng và đi đủ",
+      "url": "https://tuoitre.vn/de-xuat-thue-02-voi-dat-bo-hoang-thi-truong-phan-ung-ra-sao-100261025074328434.htm",
+      "published_at": "20261026T050000Z",
+      "source": "tuoitre.vn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_97abcca5f7f0dee2",
+      "headline": "Xinhua Commentary : Raising the bar for CPC self - governance - Xinhua",
+      "url": "https://english.news.cn/20261026/be873612516f4d2d9d347bb9abb783e2/c.html",
+      "published_at": "20261026T050000Z",
+      "source": "english.news.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2ca96d9d84920c49",
+      "headline": "آپ کا آج کا دن ( پیر ) کیسا رہے گا ؟ ( 26 اکتوبر 2026 )",
+      "url": "https://www.express.pk/story/2840289/horoscope-how-will-your-day-be-under-the-stars-monday-october-26-2840289",
+      "published_at": "20261026T050000Z",
+      "source": "express.pk",
+      "tags": []
+    },
+    {
+      "id": "gdelt_422b1d09a527c60c",
+      "headline": "Kryetari i Sejmit polak : kërcënimi nga Rusia po rritet , veprimet e saj duhen ndjekur çdo ditë",
+      "url": "https://24-ore.com/kryetari-i-sejmit-polak-kercenimi-nga-rusia-po-rritet-veprimet-e-saj-duhen-ndjekur-cdo-dite/",
+      "published_at": "20261026T050000Z",
+      "source": "24-ore.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f23a5cc8e2798a99",
+      "headline": "Ukraine disputes Musk claim Starlink was used for offensive drone strikes",
+      "url": "https://wgme.com/news/nation-world/ukraine-disputes-musks-claim-starlink-was-used-for-offensive-drone-strikes",
+      "published_at": "20261026T050000Z",
+      "source": "wgme.com",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_3ac6a9cdac5d996e",
+      "headline": "В Челябинской области продолжает действовать комендантский час для несовершеннолетних",
+      "url": "https://uralpress.ru/news/v-chelyabinskoy-oblasti-prodolzhaet-deystvovat-komendantskiy-chas-dlya-nesovershennoletnikh",
+      "published_at": "20261026T050000Z",
+      "source": "uralpress.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4468d7ed1dab5ab7",
+      "headline": "Fi - Pi - Li e Sp 44 via libera unanime | La sfida ? Sicurezza per il raccordo",
+      "url": "https://www.zazoom.it/2026-10-26/fi-pi-li-e-sp-44-via-libera-unanime-la-sfida-sicurezza-per-il-raccordo/19847911/",
+      "published_at": "20261026T050000Z",
+      "source": "zazoom.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a601fdb62994bdbb",
+      "headline": "जम्मू - कश्मीर विलय दिवस : अटल योद्धा ब्रिगेडियर राजेंद्र सिंह",
+      "url": "https://panchjanya.com/2026/10/26/496719/bharat/jammu-and-kashmir/here-is-the-english-translation-for-the-title-and-its-key-linguistic-breakdown/",
+      "published_at": "20261026T050000Z",
+      "source": "panchjanya.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_45bde002d71156c5",
+      "headline": "Brazil election results 2026 : Key takeaways from Lula historic win - Grenada Chronicle – Daily Grenada And Caribbean News",
+      "url": "https://grenadachronicle.com/brazil-election-results-2026-key-takeaways-from-lulas-historic-win/",
+      "published_at": "20261026T050000Z",
+      "source": "grenadachronicle.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_515e177fc1114fae",
+      "headline": "Fed - up travellers name the cities they have  no desire to return to  after visiting - and Denver tops the list :  It honestly awful",
+      "url": "https://www.dailymail.com/lifestyle/article-16237911/Fed-travellers-cities-no-desire-return-visiting-Denver-tops-list-honestly-awful.html",
+      "published_at": "20261026T050000Z",
+      "source": "dailymail.com",
       "tags": []
     }
   ]
