@@ -1,25 +1,50 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-26T12:54:57Z",
-    "provider": "GDELT_DOC_API",
-    "status": "partial",
+    "generated_at_utc": "2026-10-26T19:14:48Z",
+    "provider": "RSS_FALLBACK",
+    "status": "ok-fallback",
     "timespan": "6h",
     "max_events": 120,
     "streams": [
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "tripwire",
         "status": "ok",
-        "fetched": 62
+        "fetched": 0
+      },
+      {
+        "name": "rss_fallback",
+        "status": "ok",
+        "fetched": 10,
+        "feeds": [
+          {
+            "outlet": "BBC News",
+            "status": "ok",
+            "items": 27,
+            "kept": 2
+          },
+          {
+            "outlet": "Al Jazeera",
+            "status": "ok",
+            "items": 25,
+            "kept": 8
+          },
+          {
+            "outlet": "France 24",
+            "status": "ok",
+            "items": 24,
+            "kept": 0
+          }
+        ]
       }
     ],
-    "fetched_articles": 62,
-    "previous_event_count": 48,
+    "fetched_articles": 10,
+    "previous_event_count": 62,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -33,508 +58,98 @@
   },
   "events": [
     {
-      "id": "gdelt_e1f9cf81167246f0",
-      "headline": "EU summit in Brussels : European powers intensify war drive against Russia",
-      "url": "https://nuclear-news.net/2026/10/26/6-b1-eu-summit-in-brussels-european-powers-intensify-war-drive-against-russia/",
-      "published_at": "20261026T071500Z",
-      "source": "nuclear-news.net",
+      "id": "rss_bfeb1840b186a598",
+      "headline": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
+      "url": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-26T16:27:17Z",
+      "source": "BBC News",
+      "tags": []
+    },
+    {
+      "id": "rss_562f5726bb987667",
+      "headline": "Algeria to send troops to Niger in first foreign deployment since 1973",
+      "url": "https://www.bbc.co.uk/news/articles/cm4g14n1e5wko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-26T17:00:09Z",
+      "source": "BBC News",
+      "tags": [
+        "NIGER"
+      ]
+    },
+    {
+      "id": "rss_2e3e1a9b42488a9c",
+      "headline": "Could the midterms change US military support for Israel?",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/could-the-midterms-change-americas-military-support-for-israel?traffic_source=rss",
+      "published_at": "2026-10-26T18:05:12Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "ISRAEL"
+      ]
+    },
+    {
+      "id": "rss_d68af70ead112cfc",
+      "headline": "Zelenskyy says peace talks with Russia, US to restart",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/zelenskyy-says-peace-talks-with-russia-us-to-restart?traffic_source=rss",
+      "published_at": "2026-10-26T17:58:14Z",
+      "source": "Al Jazeera",
       "tags": [
         "RUSSIA"
       ]
     },
     {
-      "id": "gdelt_c2fc4f78164282e4",
-      "headline": "2026台中爵士音樂節落幕 ！ T - SQUARE掀起全台樂迷朝聖熱潮",
-      "url": "https://n.yam.com/Article/20261026331669",
-      "published_at": "20261026T071500Z",
-      "source": "n.yam.com",
+      "id": "rss_b89df710573952ea",
+      "headline": "Algeria’s president orders troop deployment to neighbouring Niger",
+      "url": "https://www.aljazeera.com/news/2026/10/26/algerias-president-orders-troop-deployment-to-neighbouring-niger?traffic_source=rss",
+      "published_at": "2026-10-26T17:55:47Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "NIGER"
+      ]
+    },
+    {
+      "id": "rss_6be82c4628f36b85",
+      "headline": "Britain sanctions Sudanese commanders over weaponised rape",
+      "url": "https://www.aljazeera.com/news/2026/10/26/britain-sanctions-sudanese-commanders-over-weaponised-rape?traffic_source=rss",
+      "published_at": "2026-10-26T17:32:46Z",
+      "source": "Al Jazeera",
       "tags": []
     },
     {
-      "id": "gdelt_d1779cc912601a39",
-      "headline": "快評 》 金正恩訪陸 如何影響中美俄三方峰會 - 兩岸",
-      "url": "https://www.chinatimes.com/realtimenews/20261026001883-260409",
-      "published_at": "20261026T071500Z",
-      "source": "chinatimes.com",
+      "id": "rss_fc74a1840814391b",
+      "headline": "Russian attacks on Ukraine’s energy infrastructure a war crime: UN",
+      "url": "https://www.aljazeera.com/news/2026/10/26/russian-attacks-on-ukraines-energy-infrastructure-a-war-crime-un?traffic_source=rss",
+      "published_at": "2026-10-26T17:27:34Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "rss_ebb1a8f0afedf774",
+      "headline": "Ballon d’Or 2026 award ceremony LIVE: Winners, reactions and latest news",
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/10/26/ballon-dor-2026-award-ceremony-live-winners-reactions-and-latest-news?traffic_source=rss",
+      "published_at": "2026-10-26T17:00:00Z",
+      "source": "Al Jazeera",
       "tags": []
     },
     {
-      "id": "gdelt_3668dc06c4d14282",
-      "headline": "Kotia Border Security Measures Increase Amid Tension - Pragativadi I Latest Odisha News in English I Breaking News",
-      "url": "https://pragativadi.com/kotia-border-villages-on-high-alert-as-odisha-tightens-security-ahead-of-andhra-panchayat-polls/",
-      "published_at": "20261026T071500Z",
-      "source": "pragativadi.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_45b31540f61577cb",
-      "headline": "Отставной подполковник США Дэвис : Украине нечего предложить России",
-      "url": "https://life.ru/p/dazhe-novye-sanktsii-ne-pomogut-otstavnoy-podpolkovnik-ssha-otsenil-pozitsii",
-      "published_at": "20261026T071500Z",
-      "source": "life.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_34e3d8a3b58fe1d9",
-      "headline": "HKICEC Launches First - Ever Global Mobile Exchange Pavilion at Mobile Electronics Show",
-      "url": "https://www.manilatimes.net/2026/10/26/tmt-newswire/pr-newswire/hkicec-launches-first-ever-global-mobile-exchange-pavilion-at-mobile-electronics-show/2453648",
-      "published_at": "20261026T071500Z",
-      "source": "manilatimes.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6f2d64364470e907",
-      "headline": "Sri Lanka repatriates 40 Iranian  sailors after providing medical care",
-      "url": "https://www.dailyexcelsior.com/sri-lanka-repatriates-40-iranian-sailors-after-providing-medical-care/",
-      "published_at": "20261026T071500Z",
-      "source": "dailyexcelsior.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fdf90d8c142283f9",
-      "headline": "Đề xuất bổ sung một số biện pháp cưỡng chế xử lý vi phạm hành chính",
-      "url": "https://congan.com.vn/tin-chinh/de-nghi-bo-sung-mot-so-bien-phap-cuong-che-xu-ly-vi-pham-hanh-chinh_199203.html",
-      "published_at": "20261026T071500Z",
-      "source": "congan.com.vn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_78ce617d7f84f5a9",
-      "headline": "Дэвис : Украина ничего не может предложить России в переговорах",
-      "url": "https://www.bfm.ru/news/621944",
-      "published_at": "20261026T071500Z",
-      "source": "bfm.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_26488c6ad084569d",
-      "headline": "32 Perusahaan Terseret Dugaan Karhutla , Pemerintah Didesak Bertindak Tegas",
-      "url": "https://www.jpnn.com/news/32-perusahaan-terseret-dugaan-karhutla-pemerintah-didesak-bertindak-tegas",
-      "published_at": "20261026T071500Z",
-      "source": "jpnn.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b5ac9bb70910b737",
-      "headline": "اجتماع مرتقب في طهران بين مسؤولين من السعودية وباكستان وتركيا",
-      "url": "https://www.aljazeera.net/news/2026/10/26/%D8%B9%D8%A7%D8%AC%D9%84-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D9%82%D9%88%D9%85%D9%8A-%D8%A7%D9%84%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A-3",
-      "published_at": "20261026T071500Z",
-      "source": "aljazeera.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_efb827c0b2ad09e5",
-      "headline": "Trumps Wahlkampf wird vollends zur Schlammschlacht : „ Norwegen ist scheiße ! –",
-      "url": "https://www.otz.de/politik/article413505964/norwegen-ist-scheisse-trumps-wahlkampf-wird-vollends-zur-schlammschlacht.html",
-      "published_at": "20261026T071500Z",
-      "source": "otz.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f97e7ebb26600725",
-      "headline": "Đề xuất phạt hành chính tối đa 1 , 5 tỷ đồng với cá nhân , 3 tỷ đồng với tổ chức",
-      "url": "https://vietnamnet.vn/de-xuat-phat-hanh-chinh-toi-da-1-5-ty-dong-voi-ca-nhan-3-ty-dong-voi-to-chuc-2568410.html",
-      "published_at": "20261026T071500Z",
-      "source": "vietnamnet.vn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b43d543ef2167137",
-      "headline": "אחרי אזהרת הסנקציות והקריפטו של נתניהו : הדולר מטפס ל – 3 . 117 שקלים",
-      "url": "https://www.haaretz.co.il/tmr/markets/2026-10-26/ty-article-live/000001a1-76b5-de58-a9eb-fef740420000",
-      "published_at": "20261026T071500Z",
-      "source": "haaretz.co.il",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a4c7bdd7bcb13270",
-      "headline": "Đề xuất tăng mức phạt vi phạm hành chính lên 1 , 5 tỷ đồng với cá nhân",
-      "url": "https://daidoanket.vn/de-xuat-tang-muc-phat-vi-pham-hanh-chinh-len-1-5-ty-dong-voi-ca-nhan.html",
-      "published_at": "20261026T071500Z",
-      "source": "daidoanket.vn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7bf356e8c9ebfc04",
-      "headline": "中美館國際論壇 「 開放中 」 匯聚6國專家 交流跨國經驗聚焦城市藝術史",
-      "url": "https://n.yam.com/Article/20261026527991",
-      "published_at": "20261026T071500Z",
-      "source": "n.yam.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3a04eaf6da23c2cc",
-      "headline": "« Διορθώνει » το Brent προς τα 114 δολάρια το βαρέλι ενώ συνεχίζεται το ράλι του φυσικού αερίου προς τις κορυφές του 2022",
-      "url": "https://www.newsit.gr/oikonomia/agores/diorthonei-to-brent-pros-ta-114-dolaria-to-vareli-eno-synexizetai-to-rali-tou-fysikou-aeriou-pros-tis-koryfes-tou-2022/4807368/",
-      "published_at": "20261026T071500Z",
-      "source": "newsit.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b442328ccbb81ac3",
-      "headline": "Xử phạt nghiêm hành vi thả rông vật nuôi tại nơi công cộng",
-      "url": "https://congan.com.vn/doi-song/xu-phat-nghiem-hanh-vi-tha-rong-vat-nuoi-tai-noi-cong-cong_199177.html",
-      "published_at": "20261026T071500Z",
-      "source": "congan.com.vn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_164fc6c1d88ad596",
-      "headline": "Prezydent Częstochowy Krzysztof Matyjaszczyk i rada miasta odwołani w referendum",
-      "url": "https://www.niedziela.pl/artykul/129240/Prezydent-Czestochowy-i-rada-miasta-odwolani-w-referendum",
-      "published_at": "20261026T071500Z",
-      "source": "niedziela.pl",
-      "tags": []
-    },
-    {
-      "id": "gdelt_01bca04596562681",
-      "headline": "Prezydent Częstochowy Krzysztof Matyjaszczyk i rada miasta odwołani w referendum",
-      "url": "https://www.niedziela.pl/artykul/129240/Prezydent-Czestochowy-Krzysztof-Matyjaszczyk-i-rada-miasta-odwolani-w-referendum",
-      "published_at": "20261026T071500Z",
-      "source": "niedziela.pl",
-      "tags": []
-    },
-    {
-      "id": "gdelt_93d15569f8500a46",
-      "headline": "Weinautomat wird für Mosel - Winzer zum Bürokratie - Albtraum",
-      "url": "https://www.swr.de/swraktuell/rheinland-pfalz/trier/weinautomat-wird-fuer-winzer-zum-buerokratie-alptraum-100.html",
-      "published_at": "20261026T071500Z",
-      "source": "swr.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8adf839c7251c1de",
-      "headline": "Вучич визнав поразку на виборах у Сербії та спрогнозував запровадження санкцій проти РФ до весни",
-      "url": "https://kp.ua/ua/politics/a737921-vuchich-viznav-porazku-na-viborakh-u-serbiji-ta-sprohnozuvav-zaprovadzhennja-sanktsij-proti-rf-do-vesni",
-      "published_at": "20261026T071500Z",
-      "source": "kp.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a5317b749a128d0c",
-      "headline": "Христофору предрёк Евросоюзу проблемы после выборов в Сербии",
-      "url": "https://life.ru/p/pobeda-esche-ne-vlast-zhurnalist-predrek-es-problemy-posle-vyborov-v-serbii",
-      "published_at": "20261026T071500Z",
-      "source": "life.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ca6989b1994e2d9b",
-      "headline": "The Independent : Трамп и Маск больше не заинтересованы в победе Украины",
-      "url": "https://life.ru/p/tramp-otvernulsya-mask-otklyuchilsya-v-britanii-zabili-trevogu-iz-za-buduschego",
-      "published_at": "20261026T071500Z",
-      "source": "life.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a75a68a0d35f0089",
-      "headline": "一位中国人在2023年写给乌克兰政府与人民的信 ： 支持和敬佩乌克兰抵抗俄罗斯 ， 劝说乌克兰有限妥协早日和平 、 减少伤亡 - 革命军中马前卒发表于 几曾回首 - 论坛",
-      "url": "https://bbs.wenxuecity.com/memory/1943032.html",
-      "published_at": "20261026T071500Z",
-      "source": "bbs.wenxuecity.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_db4b3063b8ef842b",
-      "headline": "LH , 매입임대  브로커 개입  차단⋯반복 문의 땐 매입 중단",
-      "url": "https://www.etoday.co.kr/news/view/2640077",
-      "published_at": "20261026T071500Z",
-      "source": "etoday.co.kr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_eee28f1ea45c0104",
-      "headline": "It time to clip SAA wings | The Citizen",
-      "url": "https://www.citizen.co.za/news/opinion/its-time-to-clip-saas-wings/",
-      "published_at": "20261026T071500Z",
-      "source": "citizen.co.za",
-      "tags": []
-    },
-    {
-      "id": "gdelt_1868129f6e3d195e",
-      "headline": "雅爾達2 . 0 ？ 美中俄確認深圳聚會 川習普3人重畫勢力範圍 | 兩岸要聞 | 兩岸",
-      "url": "https://udn.com/news/story/7331/9837281",
-      "published_at": "20261026T071500Z",
-      "source": "udn.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8147cd04a9e5ba2b",
-      "headline": "Siết chặt quản lý , ngăn chặn phân bón giả",
-      "url": "https://congan.com.vn/an-ninh-kinh-te/siet-chat-quan-ly-ngan-chan-phan-bon-gia_199182.html",
-      "published_at": "20261026T071500Z",
-      "source": "congan.com.vn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b4aab72d292c5676",
-      "headline": "ರೆಸ್ಟೋರೆಂಟ್ ನಲ್ಲಿ ಜಿನ್ನಾ ಫೋಟೊ ವಿವಾದ : ಮುಸ್ಲಿಂ ಮನೆಗೆ ಹೋಗಿ ಕೇರಳ ಕಾಂಗ್ರೆಸ್​ ನಾಯಕರು ಹಂದಿಮಾಂಸ ಕೇಳುತ್ತಾರಾ ?: ರಾಜೀವ್​ ಚಂದ್ರಶೇಖರ್",
-      "url": "https://www.kannadaprabha.com/nation/2026/Oct/26/bjp-questions-kerala-cm-over-beef-jinnah-statue-at-fort-kochi-cafe",
-      "published_at": "20261026T071500Z",
-      "source": "kannadaprabha.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_83e6719ff964827c",
-      "headline": "Водителей предупредили о штрафах из - за новой цветной разметки",
-      "url": "https://deita.ru/article/592135",
-      "published_at": "20261026T071500Z",
-      "source": "deita.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5d1b310c3c64edd3",
-      "headline": "Fabarta Unveils Major Upgrade to Its AI for Science Platform , Named Among Inaugural  Hong Kong Top Talent Ecosystem Partners  Ahead of Hong Kong FinTech Week",
-      "url": "https://www.manilatimes.net/2026/10/26/tmt-newswire/pr-newswire/fabarta-unveils-major-upgrade-to-its-ai-for-science-platform-named-among-inaugural-hong-kong-top-talent-ecosystem-partners-ahead-of-hong-kong-fintech-week/2453646",
-      "published_at": "20261026T071500Z",
-      "source": "manilatimes.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b568e6cad431e3d4",
-      "headline": "Обручальные кольца превратились в пули : иранское движение запустило сбор на ликвидацию врагов режима",
-      "url": "https://www.pravda.ru/news/world/2432436-iran-rings-of-revenge-campaign/",
-      "published_at": "20261026T071500Z",
-      "source": "pravda.ru",
+      "id": "rss_cc0962f9f3d2b42f",
+      "headline": "Guterres warns of ‘unimaginable’ consequences of Iran-Gulf escalation",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/guterres-warns-iran-gulf-escalation-west-bank?traffic_source=rss",
+      "published_at": "2026-10-26T16:39:48Z",
+      "source": "Al Jazeera",
       "tags": [
         "IRAN"
       ]
     },
     {
-      "id": "gdelt_47335083220ec112",
-      "headline": "魯拉改變戰術勝選狠打臉川普 「 唐羅主義 」 巴西受挫 - 國際",
-      "url": "https://www.chinatimes.com/realtimenews/20261026001688-260408",
-      "published_at": "20261026T071500Z",
-      "source": "chinatimes.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_82a8cd6e112566a2",
-      "headline": "美伊突传大消息 ！ 彭博 ： 特朗普为美以选举后对伊朗局势升级做准备 _ 汇市观察 _ 外汇 _ 中金在线",
-      "url": "http://forex.cnfol.com/jingjiyaowen/20261026/32407598.shtml",
-      "published_at": "20261026T071500Z",
-      "source": "forex.cnfol.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9bf8d2c8694861aa",
-      "headline": "ميتا  تتراجع مؤقتا أمام الناشرين .. معركة جديدة على حقوق المحتوى الصحفي",
-      "url": "https://www.aljazeera.net/media/2026/10/26/%D9%85%D9%8A%D8%AA%D8%A7-%D8%AA%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D9%85%D8%A4%D9%82%D8%AA%D8%A7-%D8%A3%D9%85%D8%A7%D9%85-%D8%A7%D9%84%D9%86%D8%A7%D8%B4%D8%B1%D9%8A%D9%86",
-      "published_at": "20261026T071500Z",
-      "source": "aljazeera.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_704da25f54cdbb32",
-      "headline": "Arab News | US touts role in Gulf oil exports as CENTCOM chief flies over Hormuz Strait",
-      "url": "https://www.arabnews.com/middle-east/us-touts-role-in-gulf-oil-exports-as-centcom-chief-flies-over-hormuz-strait-3008237",
-      "published_at": "20261026T071500Z",
-      "source": "arabnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f618a3c61c0b7318",
-      "headline": "Kako izgleda novo političko lice Srbije : BBC analiza",
-      "url": "https://www.021.rs/bbc/bbc/459276/kako-izgleda-novo-politicko-lice-srbije-bbc-analiza",
-      "published_at": "20261026T071500Z",
-      "source": "021.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7c4f87a97a4a9ed5",
-      "headline": "国产具身智能出海开启  减重计划  |运维|维修|备件|机器人",
-      "url": "https://www.163.com/dy/article/LA62J9HC05198R91.html",
-      "published_at": "20261026T071500Z",
-      "source": "163.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_72131d38fc96c77e",
-      "headline": "特朗普谈高油价 ： 我们正赚得盆满钵满",
-      "url": "https://finance.ifeng.com/c/8xXHHhLmRUw",
-      "published_at": "20261026T071500Z",
-      "source": "finance.ifeng.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_19d46f243ef1b51d",
-      "headline": "Wenn Eltern wütend werden : Der schwierige Alltag im Jugendamt",
-      "url": "https://www.mdr.de/nachrichten/thueringen/west-thueringen/gotha/gewalt-drohungen-kindeswohl-beschwerden,jugendamt-130.html",
-      "published_at": "20261026T071500Z",
-      "source": "mdr.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_22baaf82cdac364b",
-      "headline": "Khi người dân đồng thuận , việc khó cũng thành công",
-      "url": "https://congan.com.vn/doi-song/khi-nguoi-dan-dong-thuan-viec-kho-cung-thanh-cong_199183.html",
-      "published_at": "20261026T071500Z",
-      "source": "congan.com.vn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5b713ddfe73cd415",
-      "headline": "Xaviereff - Weckwerth : Generacijski uspeh na izborima u Srbiji , ali Vučić je i dalje tu",
-      "url": "https://www.slobodnaevropa.org/a/nikola-xaviereff-weckwerth-srbija-vucic-izbori/33884041.html",
-      "published_at": "20261026T071500Z",
-      "source": "slobodnaevropa.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_51eff0dd76211a62",
-      "headline": "AİB  Yaşıl Enerji Dəhlizi  layihəsinin maliyyələşdirilməsini müzakirə edir",
-      "url": "https://az.trend.az/business/energy/4239009.html",
-      "published_at": "20261026T071500Z",
-      "source": "az.trend.az",
-      "tags": []
-    },
-    {
-      "id": "gdelt_774e25c4f4b6f92b",
-      "headline": "Serbien Parlamentswahl : Putin - Freund Vucic räumt Niederlage ein",
-      "url": "https://www.rundschau-online.de:443/politik/serbien-parlamentswahl-putin-freund-vucic-raeumt-niederlage-ein-1402959",
-      "published_at": "20261026T071500Z",
-      "source": "rundschau-online.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_33111501e2ac09e8",
-      "headline": "Serbien steht nach Parlamentswahl vor einem Machtwechsel",
-      "url": "https://www.weser-kurier.de/politik/ausland/serbien-steht-nach-parlamentswahl-vor-einem-machtwechsel-doc886wg7nlajlaa9iddsg",
-      "published_at": "20261026T071500Z",
-      "source": "weser-kurier.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5e6deb78d90cfe06",
-      "headline": "Κραχ – Έπεσε Dobropillya , έφθασαν Druzhkivka , πήραν 12 , 5 χλμ Zaporizhia - Musk : Αποβράσματα Ουκρανοί , μπάσταρδος Zelensky",
-      "url": "https://www.bankingnews.gr/diethni/articles/907142/krax-sto-metopo-epese-i-dobropillya-efthasan-druzhkivka-musk-apovrasmata-oukranoi-synantisi-putin-me-trump%20title=",
-      "published_at": "20261026T071500Z",
-      "source": "bankingnews.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_447fb1b7ab8d1800",
-      "headline": "Κραχ – Έπεσε Dobropillya , έφθασαν Druzhkivka , πήραν 12 , 5 χλμ Zaporizhia - Musk : Αποβράσματα Ουκρανοί , μπάσταρδος Zelensky",
-      "url": "https://www.bankingnews.gr/diethni/articles/907142/krax-sto-metopo-epese-i-dobropillya-efthasan-druzhkivka-musk-apovrasmata-oukranoi-synantisi-putin-me-trump",
-      "published_at": "20261026T071500Z",
-      "source": "bankingnews.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6d0f97877865f041",
-      "headline": "Brazil election results 2026 : Key takeaways from Lula historic win | Donald Trump News",
-      "url": "https://www.aljazeera.com/news/2026/10/26/brazil-election-2026-key-takeaways-from-lulas-historic-win",
-      "published_at": "20261026T071500Z",
-      "source": "aljazeera.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8e6ce31fe79246fe",
-      "headline": "Bài 4 : Châu Á và Úc chia trách nhiệm ra sao ?",
-      "url": "https://congan.com.vn/vu-an/phong-su/bai-4-chau-a-va-uc-chia-trach-nhiem-ra-sao_199180.html",
-      "published_at": "20261026T071500Z",
-      "source": "congan.com.vn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_139154e23d9886a8",
-      "headline": "Czy Donald Tusk wyprowadzi Adama Glapińskiego z NBP ? Za kulisami mówi się o kilku scenariuszach",
-      "url": "https://www.newsweek.pl/polska/polityka/czy-donald-tusk-wyprowadzi-adama-glapinskiego-z-nbp-za-kulisami-mowi-sie-o-kilku/6mw3p3x",
-      "published_at": "20261026T071500Z",
-      "source": "newsweek.pl",
-      "tags": []
-    },
-    {
-      "id": "gdelt_92c3fb4701ad4cd9",
-      "headline": "阶跃星辰造手机 ， 一场昂贵的  越界  |智能体",
-      "url": "https://www.163.com/dy/article/LA62J9LV05198R91.html",
-      "published_at": "20261026T071500Z",
-      "source": "163.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3c41bc5ed94f9e7c",
-      "headline": "İran Hörmüz boğazına nəzarəti itirib ?",
-      "url": "https://az.trend.az/other/world/4239020.html",
-      "published_at": "20261026T071500Z",
-      "source": "az.trend.az",
+      "id": "rss_01c7e060709d24f9",
+      "headline": "Egyptian parliament authorises military aid for Saudi Arabia",
+      "url": "https://www.aljazeera.com/news/2026/10/26/egyptian-parliament-authorises-military-aid-for-saudi-arabia?traffic_source=rss",
+      "published_at": "2026-10-26T15:41:29Z",
+      "source": "Al Jazeera",
       "tags": [
-        "IRAN"
+        "SAUDI_ARABIA"
       ]
-    },
-    {
-      "id": "gdelt_cfe36a2ca180430e",
-      "headline": "Gargash Prime And JINGDONG Property Sign Joint Venture To Develop A 2 . 5 Million sq . ft . Plot Of Land For A Dubai Logistics Facility In The UAE # Dubai",
-      "url": "https://www.dubaicityguide.com/site/news/news-details.asp?newsid=80151",
-      "published_at": "20261026T071500Z",
-      "source": "dubaicityguide.com",
-      "tags": [
-        "UAE"
-      ]
-    },
-    {
-      "id": "gdelt_d28e590e397d7ca2",
-      "headline": "Lumina de pe orbită și întunericul din Crimeea",
-      "url": "https://adevarul.ro/blogurile-adevarul/lumina-de-pe-orbita-si-intunericul-din-crimeea-2566483.html",
-      "published_at": "20261026T071500Z",
-      "source": "adevarul.ro",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a0a2ea32b3419aeb",
-      "headline": "Jordani : arrestohen tre të dyshuarit për sulmin në kishën greko - ortodokse në Karak",
-      "url": "https://24-ore.com/jordani-arrestohen-tre-te-dyshuarit-per-sulmin-ne-kishen-greko-ortodokse-ne-karak/",
-      "published_at": "20261026T071500Z",
-      "source": "24-ore.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4da4f58e30593553",
-      "headline": "Tagesspiegel : nad granicą z Polską powstaje rosyjski megaradar",
-      "url": "https://wiadomosci.wp.pl/tagesspiegel-nad-granica-z-polska-powstaje-rosyjski-megaradar-7344109666072608a",
-      "published_at": "20261026T071500Z",
-      "source": "wiadomosci.wp.pl",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b0b6ad445e2b0617",
-      "headline": "Aritmetika e frikës",
-      "url": "https://vna.al/aritmetika-e-frikes-i30821",
-      "published_at": "20261026T071500Z",
-      "source": "vna.al",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6b27143e47aad172",
-      "headline": "Retorika e Ramës ndaj protestuesve , një  reminishencë e diktaturë – 24 ore",
-      "url": "https://24-ore.com/retorika-e-rames-ndaj-protestuesve-nje-reminishence-e-diktatures/",
-      "published_at": "20261026T071500Z",
-      "source": "24-ore.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cd48df11596c4755",
-      "headline": "Sisituutuumata Fulivai faces sentencing after raping woman | Bega District News",
-      "url": "https://www.begadistrictnews.com.au/story/9380140/sisituutuumata-fulivai-faces-sentencing-after-raping-woman/",
-      "published_at": "20261026T071500Z",
-      "source": "begadistrictnews.com.au",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b67a18cd8e5d49f5",
-      "headline": "Hong Kong , Singapore , Tokyo : A Data Centre Comparison for Asian Site Selection – IT Business Net",
-      "url": "https://itbusinessnet.com/2026/10/hong-kong-singapore-tokyo-a-data-centre-comparison-for-asian-site-selection/",
-      "published_at": "20261026T071500Z",
-      "source": "itbusinessnet.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a181fbd71637d568",
-      "headline": "Minority Fires And Sammy Gyamfi Responds - The Ghanaian Chronicle",
-      "url": "https://thechronicle.com.gh/minority-fires-and-sammy-gyamfi-responds/",
-      "published_at": "20261026T071500Z",
-      "source": "thechronicle.com.gh",
-      "tags": []
     }
   ]
 }
