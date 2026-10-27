@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-27T07:47:47Z",
-    "provider": "GDELT_DOC_API",
-    "status": "partial",
+    "generated_at_utc": "2026-10-27T14:26:08Z",
+    "provider": "RSS_FALLBACK",
+    "status": "ok-fallback",
     "timespan": "6h",
     "max_events": 120,
     "streams": [
@@ -15,11 +15,36 @@
       {
         "name": "tripwire",
         "status": "ok",
-        "fetched": 52
+        "fetched": 0
+      },
+      {
+        "name": "rss_fallback",
+        "status": "ok",
+        "fetched": 10,
+        "feeds": [
+          {
+            "outlet": "BBC News",
+            "status": "ok",
+            "items": 24,
+            "kept": 1
+          },
+          {
+            "outlet": "Al Jazeera",
+            "status": "ok",
+            "items": 25,
+            "kept": 3
+          },
+          {
+            "outlet": "France 24",
+            "status": "ok",
+            "items": 24,
+            "kept": 6
+          }
+        ]
       }
     ],
-    "fetched_articles": 52,
-    "previous_event_count": 8,
+    "fetched_articles": 10,
+    "previous_event_count": 52,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -33,448 +58,100 @@
   },
   "events": [
     {
-      "id": "gdelt_ccf894e836dc262d",
-      "headline": "US designates three Iranian B747s for Russia flights - ch - aviation",
-      "url": "https://www.ch-aviation.com/news/119687-us-designates-three-iranian-b747s-for-russia-flights",
-      "published_at": "20261027T051500Z",
-      "source": "ch-aviation.com",
+      "id": "rss_a5d30273bc034548",
+      "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
+      "url": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-27T11:53:57Z",
+      "source": "BBC News",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "rss_d050a497488122a4",
+      "headline": "Lebanon’s lost olive season: harvesting olives under drones and warplanes",
+      "url": "https://www.aljazeera.com/features/2026/10/27/lebanons-lost-olive-season-harvesting-olives-under-drones-and-warplanes?traffic_source=rss",
+      "published_at": "2026-10-27T13:54:43Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "LEBANON"
+      ]
+    },
+    {
+      "id": "rss_6db5f3e6bffe59b1",
+      "headline": "Melania or the Pope: Who brokered Russia-Ukraine ceasefire in Oleshky?",
+      "url": "https://www.aljazeera.com/news/2026/10/27/melania-or-the-pope-who-brokered-russia-ukraine-ceasefire-in-oleshky?traffic_source=rss",
+      "published_at": "2026-10-27T13:45:01Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "RUSSIA",
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "rss_22a3719a49924b22",
+      "headline": "Russia strikes Kyiv ahead of localised ceasefire in Oleshky",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/russia-strikes-kyiv-ahead-of-localised-ceasefire-in-oleshky?traffic_source=rss",
+      "published_at": "2026-10-27T13:34:07Z",
+      "source": "Al Jazeera",
       "tags": [
         "RUSSIA"
       ]
     },
     {
-      "id": "gdelt_1432114084d7e006",
-      "headline": "Конгресс США угрожает санкциями за импорт российского дизеля - 27 октября 2026",
-      "url": "https://www.fontanka.ru/2026/10/27/76725906/",
-      "published_at": "20261027T051500Z",
-      "source": "fontanka.ru",
+      "id": "rss_612c8d43d40df75b",
+      "headline": "England's Kane wins Ballon d'Or, Putellas claims women's award",
+      "url": "https://www.france24.com/en/england-s-kane-wins-ballon-d-or-putellas-claims-women-s-award",
+      "published_at": "2026-10-27T12:37:19Z",
+      "source": "France 24",
       "tags": []
     },
     {
-      "id": "gdelt_f943f65c6a050f87",
-      "headline": "방중 김정은 북미대화 조율 ? 조현  단정 어려워 , 정동영  신중히 봐야",
-      "url": "https://www.fnnews.com/news/202610271132265084",
-      "published_at": "20261027T051500Z",
-      "source": "fnnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b4409e3ac80d77d8",
-      "headline": "Посол Ирана в Москве назвал природный газ осью энергетической стабильности :: Новости дня / ВЗГЛЯД",
-      "url": "https://vz.ru/news/2026/10/27/1468272.html",
-      "published_at": "20261027T051500Z",
-      "source": "vz.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_622fa0a7f60dbf25",
-      "headline": "Washington orders suppliers to axe Iran aircraft contracts - ch - aviation",
-      "url": "https://www.ch-aviation.com/news/67061-washington-orders-suppliers-to-axe-iran-aircraft-contracts",
-      "published_at": "20261027T051500Z",
-      "source": "ch-aviation.com",
+      "id": "rss_5f5c3aea8534f2d5",
+      "headline": "Localised Russia-Ukraine ceasefire starts Ukrainian town facing starvation",
+      "url": "https://www.france24.com/en/video/20261027-localised-russia-ukraine-ceasefire-starts-ukrainian-town-facing-starvation",
+      "published_at": "2026-10-27T12:34:42Z",
+      "source": "France 24",
       "tags": [
-        "IRAN"
+        "RUSSIA",
+        "UKRAINE"
       ]
     },
     {
-      "id": "gdelt_32c53d48f0e33e50",
-      "headline": "Демократы США пригрозили ответственностью импортерам российского дизеля :: Новости дня / ВЗГЛЯД",
-      "url": "https://vz.ru/news/2026/10/27/1468276.html",
-      "published_at": "20261027T051500Z",
-      "source": "vz.ru",
+      "id": "rss_a8406f7ddca4304c",
+      "headline": "US midterms: Trump escalates anti-Muslim attacks against Democratic Senate candidate Abdul El-Sayed",
+      "url": "https://www.france24.com/en/video/20261027-us-midterms-trump-escalates-anti-muslim-attacks-against-democratic-senate-candidate-abdul-el-sayed",
+      "published_at": "2026-10-27T11:56:12Z",
+      "source": "France 24",
       "tags": []
     },
     {
-      "id": "gdelt_5e049f3dabc3ff70",
-      "headline": "النفط يتراجع بفضل آمال التهدئة في الشرق الأوسط",
-      "url": "https://www.alquds.co.uk/%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D9%8A%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D8%A8%D9%81%D8%B6%D9%84-%D8%A2%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D8%AA%D9%87%D8%AF%D8%A6%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B4%D8%B1/",
-      "published_at": "20261027T051500Z",
-      "source": "alquds.co.uk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f7a177d17c866953",
-      "headline": "Главные новости Израиля и мира за 26 октября – утренний дайджест | MigNews - Новости Израиля и Мира на русском языке",
-      "url": "http://mignews.com/news/politic/glavnye-novosti-izrailya-i-mira-za-26-oktyabrya-utrennij-dajdzhest.html",
-      "published_at": "20261027T051500Z",
-      "source": "mignews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5a209eadf3414f86",
-      "headline": "Missing Arizona woman found alive in Mexico 2 years after boyfriend was charged with her murder : police",
-      "url": "https://www.fox10phoenix.com/news/draft-shayna-feinman-found",
-      "published_at": "20261027T051500Z",
-      "source": "fox10phoenix.com",
+      "id": "rss_199b66f7e35e5d3a",
+      "headline": "Chad hosts hundreds of thousands of Sudanese refugees as regional humanitarian crisis extends",
+      "url": "https://www.france24.com/en/video/20261027-chad-hosts-hundreds-of-thousands-of-sudanese-refugees-as-regional-humanitarian-crisis-extends",
+      "published_at": "2026-10-27T11:13:55Z",
+      "source": "France 24",
       "tags": [
-        "MEXICO"
+        "CHAD"
       ]
     },
     {
-      "id": "gdelt_87e0a37d44d7e4b2",
-      "headline": "Trung Quốc đưa kim cương nhân tạo vào chuỗi sản xuất bán dẫn và trí tuệ nhân tạo",
-      "url": "https://baomoi.com/trung-quoc-dua-kim-cuong-nhan-tao-vao-chuoi-san-xuat-ban-dan-va-tri-tue-nhan-tao-c56361340.epi",
-      "published_at": "20261027T051500Z",
-      "source": "baomoi.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_17f510b817ea636f",
-      "headline": "SBP raises policy rate to 12 %",
-      "url": "https://tribune.com.pk/story/2637107/sbp-raises-policy-rate-to-12",
-      "published_at": "20261027T051500Z",
-      "source": "tribune.com.pk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b102dffb7364e632",
-      "headline": "تحذير دولي من مجاعة وشيكة في السودان مع تفاقم أزمة الغذاء",
-      "url": "https://www.dostor.org/5753697",
-      "published_at": "20261027T051500Z",
-      "source": "dostor.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4d767a3d9edff8e4",
-      "headline": "Iran hosts Makkah Pact trio for rare talks",
-      "url": "https://tribune.com.pk/story/2637105/iran-hosts-makkah-pact-trio-for-rare-talks",
-      "published_at": "20261027T051500Z",
-      "source": "tribune.com.pk",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_10bebfeed58e4b12",
-      "headline": "Singapore aims to tighten haze law amid hurdles in gathering evidence , securing cooperation : Minister",
-      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/27/singapore-aims-to-tighten-haze-law-amid-hurdles-in-gathering-evidence-securing-cooperation-minister",
-      "published_at": "20261027T051500Z",
-      "source": "thestar.com.my",
-      "tags": []
-    },
-    {
-      "id": "gdelt_acbb776e4c938793",
-      "headline": "IranAir to resume B747 Combi ops , A321 will wait - ch - aviation",
-      "url": "https://www.ch-aviation.com/news/173197-iranair-to-resume-b747-combi-ops-a321-will-wait",
-      "published_at": "20261027T051500Z",
-      "source": "ch-aviation.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_61405d72e12aee2a",
-      "headline": "Правительство Колумбии проверит причины недопоставок энергии на фоне кризиса Эль - Ниньо",
-      "url": "https://www.pravda.ru/news/world/2433191-colombia-energy-crisis/",
-      "published_at": "20261027T051500Z",
-      "source": "pravda.ru",
-      "tags": [
-        "COLOMBIA"
-      ]
-    },
-    {
-      "id": "gdelt_e4f19597803525fe",
-      "headline": "Nuevas multas : se instaló la nueva balanza punitiva en la ruta Rosario - Santa Fe",
-      "url": "https://elintransigente.com/2026/10/27/ruta-nacional-balanza-dinamica-multas-automaticas-rosario-santa-fe/",
-      "published_at": "20261027T051500Z",
-      "source": "elintransigente.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_825bc57dee85b9b0",
-      "headline": "Εκλογές στο Ισραήλ : Στις κάλπες 7 , 3 εκατομμύρια ψηφοφόροι",
-      "url": "https://www.madata.gr/epikairotita/politics/990122-ekloges-sto-israil-stis-kalpes-7-3-ekatommyria-psifoforoi.html",
-      "published_at": "20261027T051500Z",
-      "source": "madata.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_82b87f178ce00035",
-      "headline": "Σοβαρά επεισόδια στο Μπιλμπάο μετά την ακύρωση εκδήλωσης ακροδεξιού influencer",
-      "url": "https://www.madata.gr/epikairotita/world/990120-sovara-epeisodia-sto-mpilmpao-meta-tin-akyrosi-ekdilosis-akrodexioy-influencer.html",
-      "published_at": "20261027T051500Z",
-      "source": "madata.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d2a19ab12f2b4138",
-      "headline": "السعودية تعترض صواريخ ومسيرات وسط تصاعد المواجهة مع الحوثيين",
-      "url": "https://akhbarlibya24.net/2026/10/26/%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%B9%D8%AA%D8%B1%D8%B6-%D8%B5%D9%88%D8%A7%D8%B1%D9%8A%D8%AE-%D9%88%D9%85%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA-%D9%88%D8%B3%D8%B7-%D8%AA%D8%B5%D8%A7",
-      "published_at": "20261027T051500Z",
-      "source": "akhbarlibya24.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_dd6aab5bb9e93257",
-      "headline": "Xi Focus : Xi leads CPC to advance full , rigorous self - governance",
-      "url": "http://english.anhuinews.com/newscenter/headline/202610/t20261027_9692785.html",
-      "published_at": "20261027T051500Z",
-      "source": "english.anhuinews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_94f4dc04426aba47",
-      "headline": "האזרחים נהרו לקלפיות להעיף את מנהיג הימין לאלף אלפי עזאזל . היום תורנו - דעות",
-      "url": "https://www.haaretz.co.il/opinions/2026-10-27/ty-article-opinion/.highlight/000001a1-7933-dd27-a1ef-fb738e9f0000",
-      "published_at": "20261027T051500Z",
-      "source": "haaretz.co.il",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7a203e2039574ee0",
-      "headline": "Phút hoảng loạn ở thao trường Yemen khi tên lửa Houthi lao xuống",
-      "url": "https://vnexpress.net/phut-hoang-loan-o-thao-truong-yemen-khi-ten-lua-houthi-lao-xuong-5137199.html",
-      "published_at": "20261027T051500Z",
-      "source": "vnexpress.net",
-      "tags": [
-        "YEMEN"
-      ]
-    },
-    {
-      "id": "gdelt_d47684fff5062220",
-      "headline": "Εκλογές στο Ισραήλ : Τι διακυβεύεται στις κάλπες και πότε αναμένονται τα πρώτα αποτελέσματα – Ποιοι οι αντίπαλοι Νετανιάχου",
-      "url": "https://www.inewsgr.com/27/ekloges-sto-israil-ti-diakyvevetai-stis-kalpes-kai-pote-anamenontai-ta-prota-apotelesmata--poioi-oi-antipaloi-netaniachou.htm",
-      "published_at": "20261027T051500Z",
-      "source": "inewsgr.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2d27b9cd847b63ff",
-      "headline": "형소법 개정 후 보완수사 요구 60 % 급증 … 경찰  사건 핑퐁 없어",
-      "url": "https://www.fnnews.com/news/202610271218085443",
-      "published_at": "20261027T051500Z",
-      "source": "fnnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b75fbf2e8c15960c",
-      "headline": "البرلمان المصري يفوض السيسي باتخاذ إجراءات لدعم السعودية عسكريًا",
-      "url": "https://akhbarlibya24.net/2026/10/27/%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D9%8A%D9%81%D9%88%D8%B6-%D8%A7%D9%84%D8%B3%D9%8A%D8%B3%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
-      "published_at": "20261027T051500Z",
-      "source": "akhbarlibya24.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ca44fa660a1ef604",
-      "headline": "غوتيريش يؤكد وجود فرصة للتوصل إلى تفاهمات بشأن مضيق هرمز والملف النووي الإيراني",
-      "url": "http://arabic.peopledaily.com.cn/n3/2026/1027/c31663-20512571.html",
-      "published_at": "20261027T051500Z",
-      "source": "arabic.peopledaily.com.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c7c1dd98b477db66",
-      "headline": "Israelis should allow themselves to enjoy Election Day",
-      "url": "http://www.jpost.com/opinion/article-912952",
-      "published_at": "20261027T051500Z",
-      "source": "jpost.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_13baa82ac008aea0",
-      "headline": "Israelis should allow themselves to enjoy Election Day",
-      "url": "https://www.jpost.com/opinion/article-912952",
-      "published_at": "20261027T051500Z",
-      "source": "jpost.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_29a69b7b64d40b1b",
-      "headline": "Trump administration attempting to prosecute former FBI Director James Comey again",
-      "url": "https://wnyc.org/npr/nx-s1-6018628",
-      "published_at": "20261027T051500Z",
-      "source": "wnyc.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0fa66dc2aae65597",
-      "headline": "Nhiều chính sách tài chính - ngân hàng chính thức có hiệu lực từ tháng 11",
-      "url": "https://baomoi.com/nhieu-chinh-sach-tai-chinh-ngan-hang-chinh-thuc-co-hieu-luc-tu-thang-11-c56361393.epi",
-      "published_at": "20261027T051500Z",
-      "source": "baomoi.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_22e29f18c540ce74",
-      "headline": "Voters in Israel will decide whether to oust Netanyahu after 3 years of war",
-      "url": "https://www.durangoherald.com/articles/associated-press/voters-in-israel-will-decide-whether-to-oust-netanyahu-after-3-years-of-war/",
-      "published_at": "20261027T051500Z",
-      "source": "durangoherald.com",
-      "tags": [
-        "ISRAEL"
-      ]
-    },
-    {
-      "id": "gdelt_52b4ca41edbda852",
-      "headline": "פרשנות | חרב מונחת על צווארו של נתניהו , והיא יכולה לשמש את איזנקוט - בחירות 2026",
-      "url": "https://www.haaretz.co.il/news/elections/2026-10-27/ty-article/.premium/000001a1-79b9-d682-a7af-79bf4a6e0000",
-      "published_at": "20261027T051500Z",
-      "source": "haaretz.co.il",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7a4e91e53467b00b",
-      "headline": "פרשנות | גם אם יפסיד , נתניהו עלול לסכל את חילופי השלטון . לגוש השינוי אסור להתמהמה - בחירות 2026",
-      "url": "https://www.haaretz.co.il/news/elections/2026-10-27/ty-article/.highlight/000001a1-792e-dfb9-a5a9-fb2f5bf80000",
-      "published_at": "20261027T051500Z",
-      "source": "haaretz.co.il",
-      "tags": []
-    },
-    {
-      "id": "gdelt_10468c927a988916",
-      "headline": "Polskie władze i nowy właściciel TVN . Ekspertka : mogą doprowadzić do sprzedaży",
-      "url": "https://www.wirtualnemedia.pl/paramount-skydance-warner-bros-discovery-tvn-wlasciciel-transakcja-sprzedaz-ministerswo-postepowanie,7344232987613280a",
-      "published_at": "20261027T051500Z",
-      "source": "wirtualnemedia.pl",
-      "tags": []
-    },
-    {
-      "id": "gdelt_03a463a4f21ad353",
-      "headline": "Asian Markets Trade Mixed",
-      "url": "https://www.rttnews.com/3703088/asian-markets-trade-mixed.aspx",
-      "published_at": "20261027T051500Z",
-      "source": "rttnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_232eb1252664742b",
-      "headline": "Iran reports positive talks with Pakistan , Saudi Arabia and Turkiye in Tehran",
-      "url": "https://www.pakistantimes.com/iran-reports-positive-talks-with-pakistan-saudi-arabia-and-turkiye-in-tehran-15839/",
-      "published_at": "20261027T051500Z",
-      "source": "pakistantimes.com",
-      "tags": [
-        "IRAN",
-        "PAKISTAN",
-        "SAUDI_ARABIA"
-      ]
-    },
-    {
-      "id": "gdelt_285fa314c49428d1",
-      "headline": "تقرير : الولايات المتحدة تستعد لشن ضربات جديدة ضد إيران عقب انتهاء انتخابات التجديد النصفي",
-      "url": "http://arabic.peopledaily.com.cn/n3/2026/1027/c31663-20512572.html",
-      "published_at": "20261027T051500Z",
-      "source": "arabic.peopledaily.com.cn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_17addb86e3d03c7d",
-      "headline": "Lula win in Brazil bucks regional shift to right , denies Trump ally",
-      "url": "https://www.sentinelandenterprise.com/2026/10/26/lula-win-brazil-election-regional-holdout/",
-      "published_at": "20261027T051500Z",
-      "source": "sentinelandenterprise.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ad20b83b0d2b2a20",
-      "headline": "చైనా మార్కెట్లో సిటీగ్రూప్ , వీసా ప్రాముఖ్యత",
-      "url": "https://www.suryaa.com/telugu-news/business/chainaa-maarketlo-siteegroop-veesaa-praamukhyat",
-      "published_at": "20261027T051500Z",
-      "source": "suryaa.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7b861b848dc5fe99",
-      "headline": "Egypt Urged to Drop Charges Against Prominent Journalist",
-      "url": "https://www.miragenews.com/egypt-urged-to-drop-charges-against-prominent-1767046/",
-      "published_at": "20261027T051500Z",
-      "source": "miragenews.com",
-      "tags": [
-        "EGYPT"
-      ]
-    },
-    {
-      "id": "gdelt_700b9de85aa3328d",
-      "headline": "Around 10 , 000 Garment Workers in Yangon Face Mass Layoffs Amid Factory Closures",
-      "url": "https://www.bnionline.net/en/news/around-10000-garment-workers-yangon-face-mass-layoffs-amid-factory-closures",
-      "published_at": "20261027T051500Z",
-      "source": "bnionline.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_99e7dd5e2d7e6be6",
-      "headline": "Expelled Afghan refugees recount police harassment , extortion amid emergency in Pakistan Khyber Pakhtunkhwa",
-      "url": "http://www.myanmarnews.net/news/279399039/expelled-afghan-refugees-recount-police-harassment-extortion-amid-emergency-in-pakistan-khyber-pakhtunkhwa",
-      "published_at": "20261027T051500Z",
-      "source": "myanmarnews.net",
-      "tags": [
-        "PAKISTAN"
-      ]
-    },
-    {
-      "id": "gdelt_29a621ebb9b83a54",
-      "headline": "Глава ССИ Жыргалбек Курманбеков о новой эпохе судебного исполнения",
-      "url": "https://www.vb.kg/doc/462604_glava_ssi_jyrgalbek_kyrmanbekov_o_novoy_epohe_sydebnogo_ispolneniia.html",
-      "published_at": "20261027T051500Z",
-      "source": "vb.kg",
-      "tags": []
-    },
-    {
-      "id": "gdelt_208fdca5511b2bc3",
-      "headline": "ఫ్లైఓవర్ పనుల వేగం : ట్రిపుల్ ఐటీ జంక్షన్ పరిధిలో ట్రాఫిక్ డైవర్షన్లు",
-      "url": "https://www.suryaa.com/telugu-news/telangana/phlaiovar-panula-vegm-tripul-aitee-jmkshan-paridhilo-traaphik-daivarshanlu",
-      "published_at": "20261027T051500Z",
-      "source": "suryaa.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d62c8f9a30c6276a",
-      "headline": "ارتفاع النفط يضغط على اليورو والدولار يستفيد من ترقب الأسواق",
-      "url": "https://akhbarlibya24.net/2026/10/27/%D8%A7%D8%B1%D8%AA%D9%81%D8%A7%D8%B9-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D9%8A%D8%B6%D8%BA%D8%B7-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%8A%D9%88%D8%B1%D9%88-%D9%88%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1",
-      "published_at": "20261027T051500Z",
-      "source": "akhbarlibya24.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f8ccd2e04c20996c",
-      "headline": "The Mideast …. 10 / 26 / 2026 … Gulf Nations Talks … Jordan attacks Syrian armed groups …. Israeli Election …",
-      "url": "https://politicaldog101.com/2026/10/the-mideast-10-26-2026-gulf-nations-talks-jordan-syria-armed-groups-attacks-israeli-election/",
-      "published_at": "20261027T051500Z",
-      "source": "politicaldog101.com",
+      "id": "rss_5847691d5b770273",
+      "headline": "Jordan launches airstrikes in Syria after church attack",
+      "url": "https://www.france24.com/en/jordan-launches-airstrikes-in-syria-after-church-attack",
+      "published_at": "2026-10-27T10:59:14Z",
+      "source": "France 24",
       "tags": [
         "SYRIA"
       ]
     },
     {
-      "id": "gdelt_494fc4a994a1a108",
-      "headline": "Trump administration attempting to prosecute former FBI Director James Comey again",
-      "url": "https://www.wuft.org/2026-10-26/trump-administration-attempting-to-prosecute-former-fbi-director-james-comey-again",
-      "published_at": "20261027T051500Z",
-      "source": "wuft.org",
+      "id": "rss_c18382ea85d3fccf",
+      "headline": "Palestinians in West Bank fear further escalation of violence if Netanyahu remains PM",
+      "url": "https://www.france24.com/en/palestinians-in-west-bank-fear-further-escalation-of-violence-if-netanyahu-remains-pm",
+      "published_at": "2026-10-27T10:50:46Z",
+      "source": "France 24",
       "tags": []
-    },
-    {
-      "id": "gdelt_346f17799118cb38",
-      "headline": "Trump administration attempting to prosecute former FBI Director James Comey again",
-      "url": "https://www.southcarolinapublicradio.org/news/2026-10-26/trump-administration-attempting-to-prosecute-former-fbi-director-james-comey-again",
-      "published_at": "20261027T051500Z",
-      "source": "southcarolinapublicradio.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_73ec11658583b742",
-      "headline": "Trump administration attempting to prosecute former FBI Director James Comey again",
-      "url": "https://www.tribstar.com/region/trump-administration-attempting-to-prosecute-former-fbi-director-james-comey-again/article_87f5b1c3-9b2b-5972-a9d3-97c684d6be57.html",
-      "published_at": "20261027T051500Z",
-      "source": "tribstar.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e4127f968e67f0e8",
-      "headline": "A quick guide to Israel high - stakes elections",
-      "url": "https://www.iowapublicradio.org/news-from-npr/2026-10-26/a-quick-guide-to-israels-high-stakes-elections",
-      "published_at": "20261027T051500Z",
-      "source": "iowapublicradio.org",
-      "tags": [
-        "ISRAEL"
-      ]
-    },
-    {
-      "id": "gdelt_c7fb4bd2c7314722",
-      "headline": "A quick guide to Israel high - stakes elections",
-      "url": "https://www.southcarolinapublicradio.org/news/2026-10-27/a-quick-guide-to-israels-high-stakes-elections",
-      "published_at": "20261027T051500Z",
-      "source": "southcarolinapublicradio.org",
-      "tags": [
-        "ISRAEL"
-      ]
     }
   ]
 }
