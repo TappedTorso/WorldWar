@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-26T23:08:19Z",
+    "generated_at_utc": "2026-10-27T02:02:58Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,18 +9,19 @@
       {
         "name": "core",
         "status": "error",
-        "error": "rate_limited status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
         "fetched": 0
       },
       {
         "name": "tripwire",
-        "status": "ok",
+        "status": "error",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 11,
+        "fetched": 8,
         "feeds": [
           {
             "outlet": "BBC News",
@@ -32,19 +33,19 @@
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 9
+            "kept": 5
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 0
+            "kept": 1
           }
         ]
       }
     ],
-    "fetched_articles": 11,
-    "previous_event_count": 10,
+    "fetched_articles": 8,
+    "previous_event_count": 11,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -76,6 +77,25 @@
       ]
     },
     {
+      "id": "rss_4ae67633c2ee1000",
+      "headline": "Iran war live: Iran says US ‘not serious’ about talks; ship ablaze off Iraq",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-iran-says-us-not-serious-on-talks-ship-on-fire-off-iraq?traffic_source=rss",
+      "published_at": "2026-10-27T00:00:00Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN",
+        "IRAQ"
+      ]
+    },
+    {
+      "id": "rss_8d13bc700b63cfea",
+      "headline": "England’s Harry Kane wins Ballon d’Or, Alexia Putellas takes women’s award",
+      "url": "https://www.aljazeera.com/sports/2026/10/26/englands-harry-kane-wins-ballon-dor-alexia-putellas-takes-womens-award?traffic_source=rss",
+      "published_at": "2026-10-26T23:25:29Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
       "id": "rss_6a4fc4e9b3e4cf00",
       "headline": "Africa food security under threat due to Iran war, trade officials warn",
       "url": "https://www.aljazeera.com/news/2026/10/26/africa-food-security-under-threat-due-to-iran-war-warn-trade-officials?traffic_source=rss",
@@ -104,57 +124,11 @@
       ]
     },
     {
-      "id": "rss_d68af70ead112cfc",
-      "headline": "Zelenskyy says peace talks with Russia, US to restart",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/zelenskyy-says-peace-talks-with-russia-us-to-restart?traffic_source=rss",
-      "published_at": "2026-10-26T17:58:14Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "rss_b89df710573952ea",
-      "headline": "Algeria’s president orders troop deployment to neighbouring Niger",
-      "url": "https://www.aljazeera.com/news/2026/10/26/algerias-president-orders-troop-deployment-to-neighbouring-niger?traffic_source=rss",
-      "published_at": "2026-10-26T17:55:47Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "NIGER"
-      ]
-    },
-    {
-      "id": "rss_6be82c4628f36b85",
-      "headline": "Britain sanctions Sudanese commanders over weaponised rape",
-      "url": "https://www.aljazeera.com/news/2026/10/26/britain-sanctions-sudanese-commanders-over-weaponised-rape?traffic_source=rss",
-      "published_at": "2026-10-26T17:32:46Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_fc74a1840814391b",
-      "headline": "Russian attacks on Ukraine’s energy infrastructure a war crime: UN",
-      "url": "https://www.aljazeera.com/news/2026/10/26/russian-attacks-on-ukraines-energy-infrastructure-a-war-crime-un?traffic_source=rss",
-      "published_at": "2026-10-26T17:27:34Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_ebb1a8f0afedf774",
-      "headline": "Ballon d’Or 2026 award ceremony LIVE: Winners, reactions and latest news",
-      "url": "https://www.aljazeera.com/sports/liveblog/2026/10/26/ballon-dor-2026-award-ceremony-live-winners-reactions-and-latest-news?traffic_source=rss",
-      "published_at": "2026-10-26T17:00:00Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_cc0962f9f3d2b42f",
-      "headline": "Guterres warns of ‘unimaginable’ consequences of Iran-Gulf escalation",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/guterres-warns-iran-gulf-escalation-west-bank?traffic_source=rss",
-      "published_at": "2026-10-26T16:39:48Z",
-      "source": "Al Jazeera",
+      "id": "rss_003b964c4a8080f8",
+      "headline": "Mecca pact nations hold talks with Iran to prevent renewed Middle East war",
+      "url": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war",
+      "published_at": "2026-10-26T23:24:17Z",
+      "source": "France 24",
       "tags": [
         "IRAN"
       ]
