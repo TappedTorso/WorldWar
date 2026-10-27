@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-27T20:04:22Z",
+    "generated_at_utc": "2026-10-27T23:45:27Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
@@ -20,31 +20,31 @@
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 9,
+        "fetched": 7,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
             "items": 27,
-            "kept": 2
+            "kept": 3
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 5
+            "kept": 4
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 2
+            "kept": 0
           }
         ]
       }
     ],
-    "fetched_articles": 9,
-    "previous_event_count": 10,
+    "fetched_articles": 7,
+    "previous_event_count": 9,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -58,10 +58,10 @@
   },
   "events": [
     {
-      "id": "rss_a5d30273bc034548",
-      "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
-      "url": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-27T15:13:24Z",
+      "id": "rss_eb5fb185093ab2c4",
+      "headline": "Ceasefire extended across Ukraine's Kherson region, officials say",
+      "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-27T22:11:08Z",
       "source": "BBC News",
       "tags": [
         "UKRAINE"
@@ -78,6 +78,43 @@
       ]
     },
     {
+      "id": "rss_cdc9e2c439dc67f3",
+      "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
+      "url": "https://www.bbc.co.uk/news/videos/c687z5ne1w4ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-27T20:42:38Z",
+      "source": "BBC News",
+      "tags": [
+        "RUSSIA",
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "rss_86efc9b234816aec",
+      "headline": "Iran war live: Pezeshkian says Middle East can solve own issues without US",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-pezeshkian-says-middle-east-can-solve-own-issues-without-us?traffic_source=rss",
+      "published_at": "2026-10-27T22:29:31Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "rss_401660746f295778",
+      "headline": "Forever Wars: Why can’t America stop?",
+      "url": "https://www.aljazeera.com/video/lets-focus/2026/10/27/forever-wars-why-cant-america-stop?traffic_source=rss",
+      "published_at": "2026-10-27T21:21:08Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_6d9465fe2fb24185",
+      "headline": "Dream postponed: Hebron groom caught in Israeli military lockdown",
+      "url": "https://www.aljazeera.com/news/2026/10/27/dream-postponed-hebron-groom-caught-in-israeli-military-lockdown?traffic_source=rss",
+      "published_at": "2026-10-27T21:12:27Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
       "id": "rss_e644a1b9db072238",
       "headline": "Qatar’s Emir and Putin call for diplomacy amid US-Iran conflict",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/qatars-emir-and-putin-call-for-diplomacy-amid-us-iran-conflict?traffic_source=rss",
@@ -86,61 +123,6 @@
       "tags": [
         "IRAN",
         "QATAR"
-      ]
-    },
-    {
-      "id": "rss_a32923ac9f458751",
-      "headline": "Fire engulfs Seoul’s last shanty-town, forcing hundreds to evacuate",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/fire-engulfs-seouls-last-shanty-town-forcing-hundreds-to-evacuate?traffic_source=rss",
-      "published_at": "2026-10-27T17:10:03Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_69b16dcd0d5e21f9",
-      "headline": "Funeral held for family killed in Jordanian airstrikes in Syria",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/funeral-held-for-family-killed-in-jordanian-airstrikes-in-syria?traffic_source=rss",
-      "published_at": "2026-10-27T17:03:45Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "SYRIA"
-      ]
-    },
-    {
-      "id": "rss_546958c39ee131c0",
-      "headline": "Iran’s calculations as US escalation looms: Trust, midterms, Hormuz",
-      "url": "https://www.aljazeera.com/news/2026/10/27/irans-calculations-as-us-escalation-looms-trust-midterms-hormuz?traffic_source=rss",
-      "published_at": "2026-10-27T15:26:59Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "rss_f8f41f629fc003df",
-      "headline": "Israeli military detains Egyptian national who crossed border",
-      "url": "https://www.aljazeera.com/news/2026/10/27/israeli-military-detains-egyptian-national-who-crossed-border?traffic_source=rss",
-      "published_at": "2026-10-27T15:10:27Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_612c8d43d40df75b",
-      "headline": "England's Kane wins Ballon d'Or, Putellas claims women's award",
-      "url": "https://www.france24.com/en/england-s-kane-wins-ballon-d-or-putellas-claims-women-s-award",
-      "published_at": "2026-10-27T12:37:19Z",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_9c6a2725d2fca015",
-      "headline": "Localised Russia-Ukraine ceasefire starts in Ukrainian town facing starvation",
-      "url": "https://www.france24.com/en/video/20261027-localised-russia-ukraine-ceasefire-starts-ukrainian-town-facing-starvation",
-      "published_at": "2026-10-27T12:34:42Z",
-      "source": "France 24",
-      "tags": [
-        "RUSSIA",
-        "UKRAINE"
       ]
     }
   ]
