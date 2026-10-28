@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-28T18:50:38Z",
+    "generated_at_utc": "2026-10-28T23:12:47Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,36 +14,37 @@
       },
       {
         "name": "tripwire",
-        "status": "ok",
+        "status": "error",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 8,
+        "fetched": 6,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 23,
+            "items": 27,
             "kept": 2
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 3
+            "kept": 2
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 3
+            "kept": 2
           }
         ]
       }
     ],
-    "fetched_articles": 8,
+    "fetched_articles": 6,
     "previous_event_count": 8,
     "tagging": {
       "method": "string_match",
@@ -97,14 +98,12 @@
       "tags": []
     },
     {
-      "id": "rss_3160168515ac7d0b",
-      "headline": "Pakistan’s Rauf sanctioned for conduct contrary to ‘spirit’ of cricket",
-      "url": "https://www.aljazeera.com/sports/2026/10/28/haris-rauf-sanctioned-england-penalised-for-slow-over-rate-in-odi-thriller-pakistan?traffic_source=rss",
-      "published_at": "2026-10-28T12:44:18Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "PAKISTAN"
-      ]
+      "id": "rss_db7655f8516030c6",
+      "headline": "'Israeli electorate has moved rightward: Many underestimated extent of fracture in Israeli society'",
+      "url": "https://www.france24.com/en/israeli-electorate-has-moved-rightward-many-underestimated-extent-of-fracture-in-israeli-society",
+      "published_at": "2026-10-28T19:12:30Z",
+      "source": "France 24",
+      "tags": []
     },
     {
       "id": "rss_9f8b5f2124b6d2a8",
@@ -115,24 +114,6 @@
       "tags": [
         "IRAN",
         "ISRAEL"
-      ]
-    },
-    {
-      "id": "rss_ec518cdda9f9d626",
-      "headline": "West Bank: settlers using drones to monitor Palestinians",
-      "url": "https://www.france24.com/en/tv-shows/the-observers/20261028-west-bank-settlers-using-drones-to-monitor-palestinians",
-      "published_at": "2026-10-28T13:39:26Z",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_f5e22f50bc4776e9",
-      "headline": "Ukraine: Melania Trump-brokered local ceasefire holds for second day",
-      "url": "https://www.france24.com/en/video/20261028-ukraine-melania-trump-brokered-local-ceasefire-holds-for-second-day",
-      "published_at": "2026-10-28T12:42:31Z",
-      "source": "France 24",
-      "tags": [
-        "UKRAINE"
       ]
     }
   ]
