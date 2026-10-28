@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-27T23:45:27Z",
+    "generated_at_utc": "2026-10-28T05:36:00Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "rate_limited status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
         "fetched": 0
       },
       {
@@ -44,7 +44,7 @@
       }
     ],
     "fetched_articles": 7,
-    "previous_event_count": 9,
+    "previous_event_count": 7,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -89,6 +89,16 @@
       ]
     },
     {
+      "id": "rss_34df2f56010ef687",
+      "headline": "Syria-Jordan border reopens amid probe into deadly air strikes",
+      "url": "https://www.aljazeera.com/news/2026/10/28/syria-jordan-border-reopens-amid-probe-into-deadly-airstrikes?traffic_source=rss",
+      "published_at": "2026-10-28T03:10:17Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "SYRIA"
+      ]
+    },
+    {
       "id": "rss_86efc9b234816aec",
       "headline": "Iran war live: Pezeshkian says Middle East can solve own issues without US",
       "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-pezeshkian-says-middle-east-can-solve-own-issues-without-us?traffic_source=rss",
@@ -113,17 +123,6 @@
       "published_at": "2026-10-27T21:12:27Z",
       "source": "Al Jazeera",
       "tags": []
-    },
-    {
-      "id": "rss_e644a1b9db072238",
-      "headline": "Qatar’s Emir and Putin call for diplomacy amid US-Iran conflict",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/qatars-emir-and-putin-call-for-diplomacy-amid-us-iran-conflict?traffic_source=rss",
-      "published_at": "2026-10-27T19:36:01Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "IRAN",
-        "QATAR"
-      ]
     }
   ]
 }
