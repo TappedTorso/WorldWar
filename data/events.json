@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-29T02:24:24Z",
+    "generated_at_utc": "2026-10-29T09:53:26Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -20,19 +20,19 @@
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 6,
+        "fetched": 11,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
             "items": 27,
-            "kept": 2
+            "kept": 4
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 2
+            "kept": 5
           },
           {
             "outlet": "France 24",
@@ -43,7 +43,7 @@
         ]
       }
     ],
-    "fetched_articles": 6,
+    "fetched_articles": 11,
     "previous_event_count": 6,
     "tagging": {
       "method": "string_match",
@@ -57,6 +57,26 @@
     }
   },
   "events": [
+    {
+      "id": "rss_3974f7d409bbdf8e",
+      "headline": "El Salvador sends 2,000 troops to Haiti to rescue four missing soldiers",
+      "url": "https://www.bbc.co.uk/news/articles/ck0e075n79j5o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-29T06:24:56Z",
+      "source": "BBC News",
+      "tags": [
+        "HAITI"
+      ]
+    },
+    {
+      "id": "rss_0f10591688d31dc4",
+      "headline": "Ethiopia acquires Russian fighter jets and air defence systems amid war in Tigray",
+      "url": "https://www.bbc.co.uk/news/articles/cw78prj801pvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-29T08:23:31Z",
+      "source": "BBC News",
+      "tags": [
+        "ETHIOPIA"
+      ]
+    },
     {
       "id": "rss_eb5fb185093ab2c4",
       "headline": "Ceasefire extended across Ukraine's Kherson region, officials say",
@@ -79,23 +99,61 @@
       ]
     },
     {
-      "id": "rss_8badaf0ded14a8ab",
-      "headline": "Iran war live: Tehran presses 7-day Hormuz plan; Trump denies peace talks",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/29/iran-war-live-tehran-presses-7-day-hormuz-plan-trump-denies-peace-talks?traffic_source=rss",
-      "published_at": "2026-10-29T00:00:00Z",
+      "id": "rss_a1572f8ddc893de2",
+      "headline": "Argentina farmers evacuate cattle by boat as El Nino escalates",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/argentina-farmers-evacuate-cattle-by-boat-as-el-nino-escalates?traffic_source=rss",
+      "published_at": "2026-10-29T09:17:10Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_bc6e8b2e6d09dfc4",
+      "headline": "How to stop the US-Israel war on Iran",
+      "url": "https://www.aljazeera.com/opinions/2026/10/29/how-to-stop-the-us-israel-war-on-iran?traffic_source=rss",
+      "published_at": "2026-10-29T07:54:51Z",
       "source": "Al Jazeera",
       "tags": [
-        "IRAN"
+        "IRAN",
+        "ISRAEL"
       ]
     },
     {
-      "id": "rss_2d3afe5c49804ee2",
-      "headline": "Sudan war and inflation leave families struggling to survive in Khartoum",
-      "url": "https://www.aljazeera.com/features/2026/10/28/sudan-war-and-inflation-leave-families-struggling-to-survive-in-khartoum?traffic_source=rss",
-      "published_at": "2026-10-28T17:09:05Z",
+      "id": "rss_640fddf1ca1b70ee",
+      "headline": "Stephen Curry, Warriors hold nerve to beat Timberwolves in tight NBA battle",
+      "url": "https://www.aljazeera.com/sports/2026/10/29/stephen-curry-warriors-hold-nerve-to-beat-timberwolves-in-tight-nba-battle?traffic_source=rss",
+      "published_at": "2026-10-29T07:25:05Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_4d0df89517eaf002",
+      "headline": "North Korea fires missiles as row over landmine blast intensifies",
+      "url": "https://www.aljazeera.com/news/2026/10/29/north-korea-fires-missiles-as-row-over-landmine-blast-intensifies?traffic_source=rss",
+      "published_at": "2026-10-29T07:24:47Z",
       "source": "Al Jazeera",
       "tags": [
-        "SUDAN"
+        "NORTH_KOREA"
+      ]
+    },
+    {
+      "id": "rss_828b524b137581a4",
+      "headline": "Russia’s alleged sabotage campaign in Europe raises fears of escalation",
+      "url": "https://www.aljazeera.com/news/2026/10/29/russias-alleged-sabotage-campaign-in-europe-raises-fears-of-escalation?traffic_source=rss",
+      "published_at": "2026-10-29T06:01:29Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "rss_9ded1e55b4084e4d",
+      "headline": "North Korea fires 'around a dozen' ballistic missiles amid rising tensions with South Korea",
+      "url": "https://www.france24.com/en/asia-pacific/20261029-north-korea-launches-around-a-dozen-ballistic-missiles-amid-rising-tensions-with-south-korea",
+      "published_at": "2026-10-29T05:04:35Z",
+      "source": "France 24",
+      "tags": [
+        "NORTH_KOREA",
+        "SOUTH_KOREA"
       ]
     },
     {
@@ -105,17 +163,6 @@
       "published_at": "2026-10-28T19:12:30Z",
       "source": "France 24",
       "tags": []
-    },
-    {
-      "id": "rss_9f8b5f2124b6d2a8",
-      "headline": "Israel election: What impact on Iran as the war in the Middle East continues?",
-      "url": "https://www.france24.com/en/video/20261028-israel-election-what-impact-on-iran-as-the-war-in-the-middle-east-continues",
-      "published_at": "2026-10-28T16:54:33Z",
-      "source": "France 24",
-      "tags": [
-        "IRAN",
-        "ISRAEL"
-      ]
     }
   ]
 }
