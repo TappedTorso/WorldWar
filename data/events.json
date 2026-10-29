@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-29T09:53:26Z",
+    "generated_at_utc": "2026-10-29T16:54:47Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -20,31 +20,31 @@
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 11,
+        "fetched": 7,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 27,
-            "kept": 4
+            "items": 28,
+            "kept": 5
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 5
+            "kept": 1
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 2
+            "kept": 1
           }
         ]
       }
     ],
-    "fetched_articles": 11,
-    "previous_event_count": 6,
+    "fetched_articles": 7,
+    "previous_event_count": 11,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -57,6 +57,33 @@
     }
   },
   "events": [
+    {
+      "id": "rss_c634bd6463986967",
+      "headline": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
+      "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-29T14:17:35Z",
+      "source": "BBC News",
+      "tags": []
+    },
+    {
+      "id": "rss_35e7abed5ae16fb9",
+      "headline": "Philippine police obtain warrant to search Thomas Markle's devices",
+      "url": "https://www.bbc.co.uk/news/articles/cm0j06y3pn75o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-29T13:25:07Z",
+      "source": "BBC News",
+      "tags": []
+    },
+    {
+      "id": "rss_5b46a027879e1364",
+      "headline": "US sanctions Rwanda's defence ministry over DR Congo conflict",
+      "url": "https://www.bbc.co.uk/news/articles/cm87zw51qw0jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-29T11:25:16Z",
+      "source": "BBC News",
+      "tags": [
+        "DEMOCRATIC_REPUBLIC_OF_CONGO",
+        "RWANDA"
+      ]
+    },
     {
       "id": "rss_3974f7d409bbdf8e",
       "headline": "El Salvador sends 2,000 troops to Haiti to rescue four missing soldiers",
@@ -78,91 +105,22 @@
       ]
     },
     {
-      "id": "rss_eb5fb185093ab2c4",
-      "headline": "Ceasefire extended across Ukraine's Kherson region, officials say",
-      "url": "https://www.bbc.co.uk/news/articles/c6lye1w9p2l8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-27T22:11:08Z",
-      "source": "BBC News",
+      "id": "rss_1ad15ea5690325e0",
+      "headline": "What we know of Vance’s letter to Rezaei, as Trump warns Gulf to ‘prepare’",
+      "url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-of-vances-letter-to-rezaei-as-trump-warns-gulf-to-prepare?traffic_source=rss",
+      "published_at": "2026-10-29T11:41:44Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_47bdbff964515986",
+      "headline": "Aid mission set to enter Ukraine's Oleshky as localised ceasefire holds for third day",
+      "url": "https://www.france24.com/en/europe/20261029-aid-mission-set-to-enter-ukraine-s-oleshky-as-localised-ceasefire-holds-for-third-day",
+      "published_at": "2026-10-29T16:19:14Z",
+      "source": "France 24",
       "tags": [
         "UKRAINE"
       ]
-    },
-    {
-      "id": "rss_cdc9e2c439dc67f3",
-      "headline": "What we know about Ukraine-Russia truce in Oleshky, brokered by Melania Trump",
-      "url": "https://www.bbc.co.uk/news/videos/c687z5ne1w4ro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-27T20:42:38Z",
-      "source": "BBC News",
-      "tags": [
-        "RUSSIA",
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_a1572f8ddc893de2",
-      "headline": "Argentina farmers evacuate cattle by boat as El Nino escalates",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/29/argentina-farmers-evacuate-cattle-by-boat-as-el-nino-escalates?traffic_source=rss",
-      "published_at": "2026-10-29T09:17:10Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_bc6e8b2e6d09dfc4",
-      "headline": "How to stop the US-Israel war on Iran",
-      "url": "https://www.aljazeera.com/opinions/2026/10/29/how-to-stop-the-us-israel-war-on-iran?traffic_source=rss",
-      "published_at": "2026-10-29T07:54:51Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "IRAN",
-        "ISRAEL"
-      ]
-    },
-    {
-      "id": "rss_640fddf1ca1b70ee",
-      "headline": "Stephen Curry, Warriors hold nerve to beat Timberwolves in tight NBA battle",
-      "url": "https://www.aljazeera.com/sports/2026/10/29/stephen-curry-warriors-hold-nerve-to-beat-timberwolves-in-tight-nba-battle?traffic_source=rss",
-      "published_at": "2026-10-29T07:25:05Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_4d0df89517eaf002",
-      "headline": "North Korea fires missiles as row over landmine blast intensifies",
-      "url": "https://www.aljazeera.com/news/2026/10/29/north-korea-fires-missiles-as-row-over-landmine-blast-intensifies?traffic_source=rss",
-      "published_at": "2026-10-29T07:24:47Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "NORTH_KOREA"
-      ]
-    },
-    {
-      "id": "rss_828b524b137581a4",
-      "headline": "Russia’s alleged sabotage campaign in Europe raises fears of escalation",
-      "url": "https://www.aljazeera.com/news/2026/10/29/russias-alleged-sabotage-campaign-in-europe-raises-fears-of-escalation?traffic_source=rss",
-      "published_at": "2026-10-29T06:01:29Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "rss_9ded1e55b4084e4d",
-      "headline": "North Korea fires 'around a dozen' ballistic missiles amid rising tensions with South Korea",
-      "url": "https://www.france24.com/en/asia-pacific/20261029-north-korea-launches-around-a-dozen-ballistic-missiles-amid-rising-tensions-with-south-korea",
-      "published_at": "2026-10-29T05:04:35Z",
-      "source": "France 24",
-      "tags": [
-        "NORTH_KOREA",
-        "SOUTH_KOREA"
-      ]
-    },
-    {
-      "id": "rss_db7655f8516030c6",
-      "headline": "'Israeli electorate has moved rightward: Many underestimated extent of fracture in Israeli society'",
-      "url": "https://www.france24.com/en/israeli-electorate-has-moved-rightward-many-underestimated-extent-of-fracture-in-israeli-society",
-      "published_at": "2026-10-28T19:12:30Z",
-      "source": "France 24",
-      "tags": []
     }
   ]
 }
