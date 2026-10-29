@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-29T16:54:47Z",
+    "generated_at_utc": "2026-10-29T21:47:02Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,7 +14,8 @@
       },
       {
         "name": "tripwire",
-        "status": "ok",
+        "status": "error",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
@@ -32,19 +33,19 @@
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 1
+            "kept": 0
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 1
+            "kept": 2
           }
         ]
       }
     ],
     "fetched_articles": 7,
-    "previous_event_count": 11,
+    "previous_event_count": 7,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -105,11 +106,11 @@
       ]
     },
     {
-      "id": "rss_1ad15ea5690325e0",
-      "headline": "What we know of Vance’s letter to Rezaei, as Trump warns Gulf to ‘prepare’",
-      "url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-of-vances-letter-to-rezaei-as-trump-warns-gulf-to-prepare?traffic_source=rss",
-      "published_at": "2026-10-29T11:41:44Z",
-      "source": "Al Jazeera",
+      "id": "rss_c310638f73e39290",
+      "headline": "Patrick Stewart, star of 'Star Trek' and 'X men', dies at 86",
+      "url": "https://www.france24.com/en/culture/20261029-patrick-stewart-star-of-star-trek-and-x-men-dies-age-86",
+      "published_at": "2026-10-29T20:21:52Z",
+      "source": "France 24",
       "tags": []
     },
     {
