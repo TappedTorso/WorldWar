@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-30T15:54:17Z",
+    "generated_at_utc": "2026-10-30T20:44:40Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,13 +9,12 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
+        "status": "ok",
         "fetched": 0
       },
       {
@@ -26,26 +25,26 @@
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 36,
-            "kept": 3
+            "items": 37,
+            "kept": 2
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 6
+            "kept": 4
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 3
+            "kept": 6
           }
         ]
       }
     ],
     "fetched_articles": 12,
-    "previous_event_count": 11,
+    "previous_event_count": 12,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -59,12 +58,14 @@
   },
   "events": [
     {
-      "id": "rss_88a64702a1ae5758",
-      "headline": "Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens",
+      "id": "rss_a281145442b95ca5",
+      "headline": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
       "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-30T12:25:53Z",
+      "published_at": "2026-10-30T16:26:11Z",
       "source": "BBC News",
-      "tags": []
+      "tags": [
+        "UKRAINE"
+      ]
     },
     {
       "id": "rss_a4dffbcf96ac3e9c",
@@ -77,11 +78,21 @@
       ]
     },
     {
-      "id": "rss_c634bd6463986967",
-      "headline": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
-      "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-29T14:17:35Z",
-      "source": "BBC News",
+      "id": "rss_92a6bebefaba9c96",
+      "headline": "Kim Jong Un calls for North Korea’s drone technology superiority",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/aje-onl-nf_north-korea-seeks-absolute-superiority-in-drone-301026?traffic_source=rss",
+      "published_at": "2026-10-30T18:03:45Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "NORTH_KOREA"
+      ]
+    },
+    {
+      "id": "rss_9bdb5abc4d3dc3e5",
+      "headline": "Arsenal boss Arteta fires ‘Disneyland’ warning at Dowman after red card",
+      "url": "https://www.aljazeera.com/sports/2026/10/30/arsenal-boss-arteta-fires-disneyland-warning-at-dowman-after-red-card?traffic_source=rss",
+      "published_at": "2026-10-30T16:23:12Z",
+      "source": "Al Jazeera",
       "tags": []
     },
     {
@@ -103,44 +114,41 @@
       ]
     },
     {
-      "id": "rss_39367e7d208d5e05",
-      "headline": "Ukraine invests in firepower as it inflicts a new Russian casualty record",
-      "url": "https://www.aljazeera.com/news/2026/10/30/ukraine-invests-in-firepower-as-it-inflicts-a-new-russian-casualty-record?traffic_source=rss",
-      "published_at": "2026-10-30T13:29:57Z",
-      "source": "Al Jazeera",
+      "id": "rss_4a13fc8abd006095",
+      "headline": "Oleshky: No access to basic needs, ceasefire offers limited opportunity for humanitarian assistance",
+      "url": "https://www.france24.com/en/oleshky-no-access-to-basic-needs-ceasefire-offers-limited-opportunity-for-humanitarian-assistance",
+      "published_at": "2026-10-30T17:11:53Z",
+      "source": "France 24",
+      "tags": []
+    },
+    {
+      "id": "rss_e016937370fa68cc",
+      "headline": "Stranded locals use rare truce to leave Moscow-occupied town in Ukraine",
+      "url": "https://www.france24.com/en/video/20261030-stranded-locals-use-rare-truce-to-leave-moscow-occupied-town-in-ukraine",
+      "published_at": "2026-10-30T16:44:11Z",
+      "source": "France 24",
       "tags": [
         "UKRAINE"
       ]
     },
     {
-      "id": "rss_ebebe3694eb3649c",
-      "headline": "Senators briefed on Trump’s ‘insane’ plan to restart war on Iran",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/senators-briefed-on-trumps-insane-plan-to-restart-war-on-iran?traffic_source=rss",
-      "published_at": "2026-10-30T13:01:43Z",
-      "source": "Al Jazeera",
+      "id": "rss_29d2e4777c44f62c",
+      "headline": "Star Wars: Has Russia's war with Ukraine gone intergalactic?",
+      "url": "https://www.france24.com/en/europe/20261030-star-wars-has-russias-war-with-ukraine-gone-intergalactic",
+      "published_at": "2026-10-30T16:29:01Z",
+      "source": "France 24",
       "tags": [
-        "IRAN"
+        "RUSSIA",
+        "UKRAINE"
       ]
     },
     {
-      "id": "rss_dbb2c97574d68e3e",
-      "headline": "Qatari officials in Iran in bid to revive ceasefire deal with US",
-      "url": "https://www.aljazeera.com/news/2026/10/30/qatari-officials-in-iran-in-bid-to-revive-ceasefire-deal-with-us?traffic_source=rss",
-      "published_at": "2026-10-30T12:26:56Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "rss_0d56f74c24566a80",
-      "headline": "Palestinian voter turnout exposes Israel’s attitude towards Arab citizens",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/palestinian-turnout-exposes-israels-treatment-of-arab-citizens?traffic_source=rss",
-      "published_at": "2026-10-30T11:43:17Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "ISRAEL"
-      ]
+      "id": "rss_ea90ce46e33ca45c",
+      "headline": "War in Ukraine: Evacuations under way in Russian-occupied Oleshky",
+      "url": "https://www.france24.com/en/video/20261030-war-in-ukraine-evacuations-under-way-in-russian-occupied-oleshky",
+      "published_at": "2026-10-30T16:01:43Z",
+      "source": "France 24",
+      "tags": []
     },
     {
       "id": "rss_c637f1e4a7042a83",
@@ -159,17 +167,6 @@
       "published_at": "2026-10-30T14:27:51Z",
       "source": "France 24",
       "tags": []
-    },
-    {
-      "id": "rss_dcbd4a1dbae23ad1",
-      "headline": "🔴 Ukraine war live: Russian strikes leave 200,000 without power in Ukraine's Dnipropetrovsk region",
-      "url": "https://www.france24.com/en/europe/20261030-live-russia-strikes-energy-facilities-kyiv-aid-convoy-heads-besieged-town-oleshky-ukraine",
-      "published_at": "2026-10-30T12:59:30Z",
-      "source": "France 24",
-      "tags": [
-        "RUSSIA",
-        "UKRAINE"
-      ]
     }
   ]
 }
