@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-30T01:56:47Z",
+    "generated_at_utc": "2026-10-30T08:35:50Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,13 +9,12 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
+        "status": "ok",
         "fetched": 0
       },
       {
@@ -26,8 +25,8 @@
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 28,
-            "kept": 5
+            "items": 34,
+            "kept": 4
           },
           {
             "outlet": "Al Jazeera",
@@ -39,13 +38,13 @@
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 4
+            "kept": 5
           }
         ]
       }
     ],
     "fetched_articles": 11,
-    "previous_event_count": 7,
+    "previous_event_count": 11,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -96,33 +95,34 @@
       ]
     },
     {
-      "id": "rss_0f10591688d31dc4",
-      "headline": "Ethiopia acquires Russian fighter jets and air defence systems amid war in Tigray",
-      "url": "https://www.bbc.co.uk/news/articles/cw78prj801pvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-29T08:23:31Z",
-      "source": "BBC News",
+      "id": "rss_538a9d9683a82447",
+      "headline": "Sudan investigation maps commanders linked to wartime rape",
+      "url": "https://www.aljazeera.com/features/2026/10/30/sudan-investigation-maps-commanders-linked-wartime-rape?traffic_source=rss",
+      "published_at": "2026-10-30T08:20:40Z",
+      "source": "Al Jazeera",
       "tags": [
-        "ETHIOPIA"
+        "SUDAN"
       ]
     },
     {
-      "id": "rss_040decf62188bf61",
-      "headline": "Iran war live: IRGC says four tankers struck mines in Strait of Hormuz",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/30/iran-war-live-irgc-says-four-tankers-struck-mines-in-strait-of-hormuz?traffic_source=rss",
-      "published_at": "2026-10-30T00:00:00Z",
+      "id": "rss_cdee180c26330259",
+      "headline": "Britain must sanction Israel, not just its settlers",
+      "url": "https://www.aljazeera.com/opinions/2026/10/30/britain-must-sanction-israel-not-just-its-settlers?traffic_source=rss",
+      "published_at": "2026-10-30T07:10:50Z",
       "source": "Al Jazeera",
       "tags": [
-        "IRAN",
-        "IRGC"
+        "ISRAEL"
       ]
     },
     {
-      "id": "rss_e3b8524179bcda4f",
-      "headline": "Patrick Stewart, ‘Star Trek’ Captain Picard and ‘X-Men’ actor, dies at 86",
-      "url": "https://www.aljazeera.com/editorial/2026/10/29/patrick-stewart-star-trek-captain-picard-and-x-men-actor-dies-at-86?traffic_source=rss",
-      "published_at": "2026-10-29T22:36:06Z",
-      "source": "Al Jazeera",
-      "tags": []
+      "id": "rss_d562511016aa3af0",
+      "headline": "French minister warns of 'very high' violence risk as country braces for Halloween protests",
+      "url": "https://www.france24.com/en/france/20261030-french-minister-warns-of-very-high-violence-risk-as-country-braces-for-halloween-protests",
+      "published_at": "2026-10-30T06:57:15Z",
+      "source": "France 24",
+      "tags": [
+        "FRANCE"
+      ]
     },
     {
       "id": "rss_170f855bfbbbdc96",
