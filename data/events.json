@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-30T08:35:50Z",
+    "generated_at_utc": "2026-10-30T15:54:17Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,41 +9,42 @@
       {
         "name": "core",
         "status": "error",
-        "error": "rate_limited status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
         "fetched": 0
       },
       {
         "name": "tripwire",
-        "status": "ok",
+        "status": "error",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 11,
+        "fetched": 12,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 34,
-            "kept": 4
+            "items": 36,
+            "kept": 3
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 2
+            "kept": 6
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 5
+            "kept": 3
           }
         ]
       }
     ],
-    "fetched_articles": 11,
+    "fetched_articles": 12,
     "previous_event_count": 11,
     "tagging": {
       "method": "string_match",
@@ -58,6 +59,24 @@
   },
   "events": [
     {
+      "id": "rss_88a64702a1ae5758",
+      "headline": "Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens",
+      "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-30T12:25:53Z",
+      "source": "BBC News",
+      "tags": []
+    },
+    {
+      "id": "rss_a4dffbcf96ac3e9c",
+      "headline": "Democratic senator blames Egypt press crackdown on US military aid decision",
+      "url": "https://www.bbc.co.uk/news/articles/c63r529wn2vzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-30T15:17:11Z",
+      "source": "BBC News",
+      "tags": [
+        "EGYPT"
+      ]
+    },
+    {
       "id": "rss_c634bd6463986967",
       "headline": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
       "url": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
@@ -66,100 +85,89 @@
       "tags": []
     },
     {
-      "id": "rss_35e7abed5ae16fb9",
-      "headline": "Philippine police obtain warrant to search Thomas Markle's devices",
-      "url": "https://www.bbc.co.uk/news/articles/cm0j06y3pn75o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-29T13:25:07Z",
-      "source": "BBC News",
+      "id": "rss_42c74acad75323c9",
+      "headline": "‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall",
+      "url": "https://www.aljazeera.com/news/2026/10/30/need-a-plan-b-yemenis-in-aden-prepare-for-another-war-as-missiles-fall?traffic_source=rss",
+      "published_at": "2026-10-30T15:26:00Z",
+      "source": "Al Jazeera",
       "tags": []
     },
     {
-      "id": "rss_5b46a027879e1364",
-      "headline": "US sanctions Rwanda's defence ministry over DR Congo conflict",
-      "url": "https://www.bbc.co.uk/news/articles/cm87zw51qw0jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-29T11:25:16Z",
-      "source": "BBC News",
-      "tags": [
-        "DEMOCRATIC_REPUBLIC_OF_CONGO",
-        "RWANDA"
-      ]
-    },
-    {
-      "id": "rss_3974f7d409bbdf8e",
-      "headline": "El Salvador sends 2,000 troops to Haiti to rescue four missing soldiers",
-      "url": "https://www.bbc.co.uk/news/articles/ck0e075n79j5o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-29T06:24:56Z",
-      "source": "BBC News",
-      "tags": [
-        "HAITI"
-      ]
-    },
-    {
-      "id": "rss_538a9d9683a82447",
-      "headline": "Sudan investigation maps commanders linked to wartime rape",
-      "url": "https://www.aljazeera.com/features/2026/10/30/sudan-investigation-maps-commanders-linked-wartime-rape?traffic_source=rss",
-      "published_at": "2026-10-30T08:20:40Z",
+      "id": "rss_7e866d1dd1ad34d7",
+      "headline": "Senators briefed on Trump’s ‘insane’ plan to restart war on Iran",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/senators-briefed-on-trumps-insane-plan-to-restart-war-on-iran-2?traffic_source=rss",
+      "published_at": "2026-10-30T14:40:19Z",
       "source": "Al Jazeera",
       "tags": [
-        "SUDAN"
+        "IRAN"
       ]
     },
     {
-      "id": "rss_cdee180c26330259",
-      "headline": "Britain must sanction Israel, not just its settlers",
-      "url": "https://www.aljazeera.com/opinions/2026/10/30/britain-must-sanction-israel-not-just-its-settlers?traffic_source=rss",
-      "published_at": "2026-10-30T07:10:50Z",
+      "id": "rss_39367e7d208d5e05",
+      "headline": "Ukraine invests in firepower as it inflicts a new Russian casualty record",
+      "url": "https://www.aljazeera.com/news/2026/10/30/ukraine-invests-in-firepower-as-it-inflicts-a-new-russian-casualty-record?traffic_source=rss",
+      "published_at": "2026-10-30T13:29:57Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "rss_ebebe3694eb3649c",
+      "headline": "Senators briefed on Trump’s ‘insane’ plan to restart war on Iran",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/senators-briefed-on-trumps-insane-plan-to-restart-war-on-iran?traffic_source=rss",
+      "published_at": "2026-10-30T13:01:43Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "rss_dbb2c97574d68e3e",
+      "headline": "Qatari officials in Iran in bid to revive ceasefire deal with US",
+      "url": "https://www.aljazeera.com/news/2026/10/30/qatari-officials-in-iran-in-bid-to-revive-ceasefire-deal-with-us?traffic_source=rss",
+      "published_at": "2026-10-30T12:26:56Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "rss_0d56f74c24566a80",
+      "headline": "Palestinian voter turnout exposes Israel’s attitude towards Arab citizens",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/palestinian-turnout-exposes-israels-treatment-of-arab-citizens?traffic_source=rss",
+      "published_at": "2026-10-30T11:43:17Z",
       "source": "Al Jazeera",
       "tags": [
         "ISRAEL"
       ]
     },
     {
-      "id": "rss_d562511016aa3af0",
-      "headline": "French minister warns of 'very high' violence risk as country braces for Halloween protests",
-      "url": "https://www.france24.com/en/france/20261030-french-minister-warns-of-very-high-violence-risk-as-country-braces-for-halloween-protests",
-      "published_at": "2026-10-30T06:57:15Z",
+      "id": "rss_c637f1e4a7042a83",
+      "headline": "France braces for new wave of protests, govt warns of 'very high' violence risk",
+      "url": "https://www.france24.com/en/video/20261030-france-braces-for-new-wave-of-protests-govt-warns-of-very-high-violence-risk",
+      "published_at": "2026-10-30T14:35:37Z",
       "source": "France 24",
       "tags": [
         "FRANCE"
       ]
     },
     {
-      "id": "rss_170f855bfbbbdc96",
-      "headline": "North Korea tests attack drones as Kim calls for 'absolute superiority'",
-      "url": "https://www.france24.com/en/asia-pacific/20261030-north-korea-tests-attack-drones-as-kim-calls-for-absolute-superiority",
-      "published_at": "2026-10-30T00:22:55Z",
-      "source": "France 24",
-      "tags": [
-        "NORTH_KOREA"
-      ]
-    },
-    {
-      "id": "rss_ac00c6053bd33384",
-      "headline": "Tunisians drawn into Russia's war in Ukraine",
-      "url": "https://www.france24.com/en/tunisians-drawn-into-russia-s-war-in-ukraine",
-      "published_at": "2026-10-29T21:48:35Z",
-      "source": "France 24",
-      "tags": [
-        "RUSSIA",
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_c310638f73e39290",
-      "headline": "Patrick Stewart, star of 'Star Trek' and 'X men', dies at 86",
-      "url": "https://www.france24.com/en/culture/20261029-patrick-stewart-star-of-star-trek-and-x-men-dies-age-86",
-      "published_at": "2026-10-29T20:21:52Z",
+      "id": "rss_0ef13cc362de5f86",
+      "headline": "Black Sea shipping under growing threats as drones hit container ships",
+      "url": "https://www.france24.com/en/black-sea-shipping-under-growing-threats-as-drones-hit-container-ships",
+      "published_at": "2026-10-30T14:27:51Z",
       "source": "France 24",
       "tags": []
     },
     {
-      "id": "rss_47bdbff964515986",
-      "headline": "Aid mission set to enter Ukraine's Oleshky as localised ceasefire holds for third day",
-      "url": "https://www.france24.com/en/europe/20261029-aid-mission-set-to-enter-ukraine-s-oleshky-as-localised-ceasefire-holds-for-third-day",
-      "published_at": "2026-10-29T16:19:14Z",
+      "id": "rss_dcbd4a1dbae23ad1",
+      "headline": "🔴 Ukraine war live: Russian strikes leave 200,000 without power in Ukraine's Dnipropetrovsk region",
+      "url": "https://www.france24.com/en/europe/20261030-live-russia-strikes-energy-facilities-kyiv-aid-convoy-heads-besieged-town-oleshky-ukraine",
+      "published_at": "2026-10-30T12:59:30Z",
       "source": "France 24",
       "tags": [
+        "RUSSIA",
         "UKRAINE"
       ]
     }
