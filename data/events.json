@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-30T20:44:40Z",
+    "generated_at_utc": "2026-10-31T00:44:08Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "rate_limited status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
         "fetched": 0
       },
       {
@@ -20,30 +20,30 @@
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 12,
+        "fetched": 13,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 37,
-            "kept": 2
+            "items": 39,
+            "kept": 4
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 4
+            "kept": 2
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 6
+            "kept": 7
           }
         ]
       }
     ],
-    "fetched_articles": 12,
+    "fetched_articles": 13,
     "previous_event_count": 12,
     "tagging": {
       "method": "string_match",
@@ -57,6 +57,16 @@
     }
   },
   "events": [
+    {
+      "id": "rss_6bd160bcb5098bdc",
+      "headline": "US approves sale of 500 Patriot missiles to Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-31T00:40:43Z",
+      "source": "BBC News",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
     {
       "id": "rss_a281145442b95ca5",
       "headline": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
@@ -78,6 +88,24 @@
       ]
     },
     {
+      "id": "rss_4ca5373fdef69582",
+      "headline": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
+      "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-30T23:19:17Z",
+      "source": "BBC News",
+      "tags": []
+    },
+    {
+      "id": "rss_8cf70142f14523d2",
+      "headline": "Iran war live: Oil tankers hit in Hormuz; Trump says conflict will end soon",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon?traffic_source=rss",
+      "published_at": "2026-10-31T00:00:00Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
       "id": "rss_92a6bebefaba9c96",
       "headline": "Kim Jong Un calls for North Korea’s drone technology superiority",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/aje-onl-nf_north-korea-seeks-absolute-superiority-in-drone-301026?traffic_source=rss",
@@ -88,30 +116,12 @@
       ]
     },
     {
-      "id": "rss_9bdb5abc4d3dc3e5",
-      "headline": "Arsenal boss Arteta fires ‘Disneyland’ warning at Dowman after red card",
-      "url": "https://www.aljazeera.com/sports/2026/10/30/arsenal-boss-arteta-fires-disneyland-warning-at-dowman-after-red-card?traffic_source=rss",
-      "published_at": "2026-10-30T16:23:12Z",
-      "source": "Al Jazeera",
+      "id": "rss_600cd29b6ece67b0",
+      "headline": "Residents leave Russian-occupied Oleshky in evacuation operation",
+      "url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation",
+      "published_at": "2026-10-30T21:46:29Z",
+      "source": "France 24",
       "tags": []
-    },
-    {
-      "id": "rss_42c74acad75323c9",
-      "headline": "‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall",
-      "url": "https://www.aljazeera.com/news/2026/10/30/need-a-plan-b-yemenis-in-aden-prepare-for-another-war-as-missiles-fall?traffic_source=rss",
-      "published_at": "2026-10-30T15:26:00Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_7e866d1dd1ad34d7",
-      "headline": "Senators briefed on Trump’s ‘insane’ plan to restart war on Iran",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/senators-briefed-on-trumps-insane-plan-to-restart-war-on-iran-2?traffic_source=rss",
-      "published_at": "2026-10-30T14:40:19Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "IRAN"
-      ]
     },
     {
       "id": "rss_4a13fc8abd006095",
