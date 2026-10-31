@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-31T13:37:57Z",
+    "generated_at_utc": "2026-10-31T18:30:14Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,43 +9,42 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
+        "status": "ok",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 10,
+        "fetched": 9,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 36,
+            "items": 31,
             "kept": 3
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 3
+            "kept": 1
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 4
+            "kept": 5
           }
         ]
       }
     ],
-    "fetched_articles": 10,
-    "previous_event_count": 14,
+    "fetched_articles": 9,
+    "previous_event_count": 10,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -59,6 +58,14 @@
   },
   "events": [
     {
+      "id": "rss_e727a4c6cdb67d4a",
+      "headline": "Ethiopian PM puts ministers through military training",
+      "url": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-10-31T14:28:15Z",
+      "source": "BBC News",
+      "tags": []
+    },
+    {
       "id": "rss_6bd160bcb5098bdc",
       "headline": "US approves sale of 500 Patriot missiles to Ukraine",
       "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
@@ -66,16 +73,6 @@
       "source": "BBC News",
       "tags": [
         "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_a4dffbcf96ac3e9c",
-      "headline": "Democratic senator blames Egypt press crackdown on US military aid decision",
-      "url": "https://www.bbc.co.uk/news/articles/c63r529wn2vzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-30T15:17:11Z",
-      "source": "BBC News",
-      "tags": [
-        "EGYPT"
       ]
     },
     {
@@ -97,22 +94,25 @@
       ]
     },
     {
-      "id": "rss_bcad63ffe3a4b439",
-      "headline": "Iran warns of unfettered retaliation if attacked as mediators try for peace",
-      "url": "https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace?traffic_source=rss",
-      "published_at": "2026-10-31T12:13:42Z",
-      "source": "Al Jazeera",
+      "id": "rss_4170f1938e8e78e1",
+      "headline": "Iran's Khamenei warns US and Israel against new attacks",
+      "url": "https://www.france24.com/en/middle-east/20261031-iran-s-khamenei-warns-us-and-israel-against-new-attacks",
+      "published_at": "2026-10-31T17:00:36Z",
+      "source": "France 24",
       "tags": [
-        "IRAN"
+        "IRAN",
+        "ISRAEL"
       ]
     },
     {
-      "id": "rss_07d6567ee21276f6",
-      "headline": "Thousands protest across Italy over living costs and military spending",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/thousands-protest-across-italy-over-living-costs-and-military-spending?traffic_source=rss",
-      "published_at": "2026-10-31T11:07:39Z",
-      "source": "Al Jazeera",
-      "tags": []
+      "id": "rss_4341e13b593cc6db",
+      "headline": "Residents from Russian-occupied Oleshky reunite with families after evacuation operation",
+      "url": "https://www.france24.com/en/europe/20261031-evacuees-from-russian-occupied-oleshky-arrive-in-ukraine",
+      "published_at": "2026-10-31T12:45:49Z",
+      "source": "France 24",
+      "tags": [
+        "UKRAINE"
+      ]
     },
     {
       "id": "rss_9a083b891d309810",
@@ -139,14 +139,6 @@
       "headline": "Residents leave Russian-occupied Oleshky in evacuation operation",
       "url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation",
       "published_at": "2026-10-30T21:46:29Z",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_4a13fc8abd006095",
-      "headline": "Oleshky: No access to basic needs, ceasefire offers limited opportunity for humanitarian assistance",
-      "url": "https://www.france24.com/en/oleshky-no-access-to-basic-needs-ceasefire-offers-limited-opportunity-for-humanitarian-assistance",
-      "published_at": "2026-10-30T17:11:53Z",
       "source": "France 24",
       "tags": []
     }
