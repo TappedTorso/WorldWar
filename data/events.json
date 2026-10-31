@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-31T06:58:20Z",
+    "generated_at_utc": "2026-10-31T13:37:57Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,37 +14,38 @@
       },
       {
         "name": "tripwire",
-        "status": "ok",
+        "status": "error",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 14,
+        "fetched": 10,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 35,
-            "kept": 4
+            "items": 36,
+            "kept": 3
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 4
+            "kept": 3
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 6
+            "kept": 4
           }
         ]
       }
     ],
-    "fetched_articles": 14,
-    "previous_event_count": 13,
+    "fetched_articles": 10,
+    "previous_event_count": 14,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -61,17 +62,7 @@
       "id": "rss_6bd160bcb5098bdc",
       "headline": "US approves sale of 500 Patriot missiles to Ukraine",
       "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-31T00:40:43Z",
-      "source": "BBC News",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_a281145442b95ca5",
-      "headline": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
-      "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-30T16:26:11Z",
+      "published_at": "2026-10-31T12:21:25Z",
       "source": "BBC News",
       "tags": [
         "UKRAINE"
@@ -96,41 +87,51 @@
       "tags": []
     },
     {
-      "id": "rss_5ab8a9ec51cff745",
-      "headline": "After the ‘martyr’s’ funeral: The families left behind by Yemen’s war",
-      "url": "https://www.aljazeera.com/features/2026/10/31/after-the-martyrs-funeral-the-families-left-behind-by-yemens-war?traffic_source=rss",
-      "published_at": "2026-10-31T05:48:25Z",
+      "id": "rss_fe6369a0bd8f1e23",
+      "headline": "Iran lawmakers call for withdrawal from NPT: Will we have war or peace?",
+      "url": "https://www.aljazeera.com/news/2026/10/31/iran-lawmakers-call-for-withdrawal-from-npt-will-we-have-war-or-peace?traffic_source=rss",
+      "published_at": "2026-10-31T12:22:45Z",
       "source": "Al Jazeera",
       "tags": [
-        "YEMEN"
+        "IRAN"
       ]
     },
     {
-      "id": "rss_757ee167dc7322f0",
-      "headline": "US greenlights $2.1bn Patriot missile sale to Ukraine",
-      "url": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine?traffic_source=rss",
-      "published_at": "2026-10-31T04:51:25Z",
+      "id": "rss_bcad63ffe3a4b439",
+      "headline": "Iran warns of unfettered retaliation if attacked as mediators try for peace",
+      "url": "https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace?traffic_source=rss",
+      "published_at": "2026-10-31T12:13:42Z",
       "source": "Al Jazeera",
       "tags": [
-        "UKRAINE"
+        "IRAN"
       ]
     },
     {
-      "id": "rss_1c536ef45c60aba8",
-      "headline": "Hundreds evacuated from Melania-brokered ceasefire town of Oleshky",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/hundreds-evacuated-from-melania-brokered-ceasefire-town-of-oleshky?traffic_source=rss",
-      "published_at": "2026-10-31T02:44:38Z",
+      "id": "rss_07d6567ee21276f6",
+      "headline": "Thousands protest across Italy over living costs and military spending",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/thousands-protest-across-italy-over-living-costs-and-military-spending?traffic_source=rss",
+      "published_at": "2026-10-31T11:07:39Z",
       "source": "Al Jazeera",
       "tags": []
     },
     {
-      "id": "rss_d8cc9a71448de45e",
-      "headline": "Iran war live: Tehran warns of earth-shattering blow; drones target Riyadh",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon?traffic_source=rss",
-      "published_at": "2026-10-31T00:00:00Z",
-      "source": "Al Jazeera",
+      "id": "rss_9a083b891d309810",
+      "headline": "France's Nunez warns of high risk during protests",
+      "url": "https://www.france24.com/en/france-s-nunez-warns-of-high-risk-during-protests",
+      "published_at": "2026-10-31T11:15:19Z",
+      "source": "France 24",
       "tags": [
-        "IRAN"
+        "FRANCE"
+      ]
+    },
+    {
+      "id": "rss_b31cbff860682e08",
+      "headline": "Trump admin approves potential Patriot missiles sale to Ukraine",
+      "url": "https://www.france24.com/en/americas/20261030-trump-admin-approves-potential-patriot-missiles-sale-to-ukraine",
+      "published_at": "2026-10-30T23:19:47Z",
+      "source": "France 24",
+      "tags": [
+        "UKRAINE"
       ]
     },
     {
@@ -148,45 +149,6 @@
       "published_at": "2026-10-30T17:11:53Z",
       "source": "France 24",
       "tags": []
-    },
-    {
-      "id": "rss_e016937370fa68cc",
-      "headline": "Stranded locals use rare truce to leave Moscow-occupied town in Ukraine",
-      "url": "https://www.france24.com/en/video/20261030-stranded-locals-use-rare-truce-to-leave-moscow-occupied-town-in-ukraine",
-      "published_at": "2026-10-30T16:44:11Z",
-      "source": "France 24",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_29d2e4777c44f62c",
-      "headline": "Star Wars: Has Russia's war with Ukraine gone intergalactic?",
-      "url": "https://www.france24.com/en/europe/20261030-star-wars-has-russias-war-with-ukraine-gone-intergalactic",
-      "published_at": "2026-10-30T16:29:01Z",
-      "source": "France 24",
-      "tags": [
-        "RUSSIA",
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_ea90ce46e33ca45c",
-      "headline": "War in Ukraine: Evacuations under way in Russian-occupied Oleshky",
-      "url": "https://www.france24.com/en/video/20261030-war-in-ukraine-evacuations-under-way-in-russian-occupied-oleshky",
-      "published_at": "2026-10-30T16:01:43Z",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_c637f1e4a7042a83",
-      "headline": "France braces for new wave of protests, govt warns of 'very high' violence risk",
-      "url": "https://www.france24.com/en/video/20261030-france-braces-for-new-wave-of-protests-govt-warns-of-very-high-violence-risk",
-      "published_at": "2026-10-30T14:35:37Z",
-      "source": "France 24",
-      "tags": [
-        "FRANCE"
-      ]
     }
   ]
 }
