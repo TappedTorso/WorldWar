@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-01T15:58:59Z",
+    "generated_at_utc": "2026-11-01T20:28:26Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -20,31 +20,31 @@
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 5,
+        "fetched": 10,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 25,
-            "kept": 1
+            "items": 30,
+            "kept": 4
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 2
+            "kept": 3
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 2
+            "kept": 3
           }
         ]
       }
     ],
-    "fetched_articles": 5,
-    "previous_event_count": 8,
+    "fetched_articles": 10,
+    "previous_event_count": 5,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -58,6 +58,32 @@
   },
   "events": [
     {
+      "id": "rss_65dfb7b37dddc21c",
+      "headline": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire to end",
+      "url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-01T19:48:17Z",
+      "source": "BBC News",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "rss_1a828c3b280328dc",
+      "headline": "Armed police start patrols in Sydney after Bondi Beach attack",
+      "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-01T17:56:47Z",
+      "source": "BBC News",
+      "tags": []
+    },
+    {
+      "id": "rss_b88f9dd763d81ab3",
+      "headline": "Democrat endorses Republican candidate in key Michigan Senate race as party spat escalates",
+      "url": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-01T20:11:26Z",
+      "source": "BBC News",
+      "tags": []
+    },
+    {
       "id": "rss_e727a4c6cdb67d4a",
       "headline": "Ethiopian PM puts ministers through military training",
       "url": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o?at_medium=RSS&at_campaign=rss",
@@ -66,24 +92,42 @@
       "tags": []
     },
     {
-      "id": "rss_237f71bbd51a338c",
-      "headline": "Iran and US explore diplomacy amid rising threats of war",
-      "url": "https://www.aljazeera.com/news/2026/11/1/iran-and-us-explore-diplomacy-amid-rising-threats-of-war?traffic_source=rss",
-      "published_at": "2026-11-01T13:02:10Z",
+      "id": "rss_9d02b76f300f016e",
+      "headline": "How will the Iran war shape the outcome of the US midterm vote?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/11/1/how-will-the-iran-war-shape-the-outcome-of-the-u-s-midterm-vote?traffic_source=rss",
+      "published_at": "2026-11-01T19:00:32Z",
       "source": "Al Jazeera",
       "tags": [
         "IRAN"
       ]
     },
     {
-      "id": "rss_a2e3b52c8f8d8964",
-      "headline": "Mediators continue US-Iran negotiations amid war rhetoric: What we know",
-      "url": "https://www.aljazeera.com/news/2026/11/1/mediators-continue-us-iran-negotiations-amid-war-rhetoric-what-we-know?traffic_source=rss",
-      "published_at": "2026-11-01T11:14:27Z",
+      "id": "rss_69cb466694c8b359",
+      "headline": "Hebron siege continues for 10th day as Israel threatens wider offensive",
+      "url": "https://www.aljazeera.com/news/2026/11/1/hebron-siege-continues-for-10th-day-as-israel-threatens-wider-offensive?traffic_source=rss",
+      "published_at": "2026-11-01T17:30:45Z",
       "source": "Al Jazeera",
       "tags": [
-        "IRAN"
+        "ISRAEL"
       ]
+    },
+    {
+      "id": "rss_ae3e7cdb3a70972a",
+      "headline": "Russia detains minor over alleged Moscow attack plot after US warning",
+      "url": "https://www.aljazeera.com/news/2026/11/1/russia-detains-minor-over-alleged-moscow-attack-plot-after-us-warning?traffic_source=rss",
+      "published_at": "2026-11-01T16:24:16Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "rss_d5959f6abbf65aa3",
+      "headline": "Oleshky: Evacuations during first humanitarian truce of war end",
+      "url": "https://www.france24.com/en/oleshky-evacuations-during-first-humanitarian-truce-of-war-end",
+      "published_at": "2026-11-01T17:44:51Z",
+      "source": "France 24",
+      "tags": []
     },
     {
       "id": "rss_e14110e708037848",
@@ -94,14 +138,14 @@
       "tags": []
     },
     {
-      "id": "rss_4170f1938e8e78e1",
-      "headline": "Iran's Khamenei warns US and Israel against new attacks",
-      "url": "https://www.france24.com/en/middle-east/20261031-iran-s-khamenei-warns-us-and-israel-against-new-attacks",
-      "published_at": "2026-10-31T17:00:36Z",
+      "id": "rss_3f2b9cb448fa4911",
+      "headline": "Ceasefire in Ukraine's Kherson region set to end after Russia refuses extension",
+      "url": "https://www.france24.com/en/europe/20261101-localised-ceasefire-in-ukraine-s-kherson-region-set-to-end",
+      "published_at": "2026-11-01T12:41:48Z",
       "source": "France 24",
       "tags": [
-        "IRAN",
-        "ISRAEL"
+        "RUSSIA",
+        "UKRAINE"
       ]
     }
   ]
