@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-10-31T22:27:18Z",
+    "generated_at_utc": "2026-11-01T02:11:36Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,7 +14,8 @@
       },
       {
         "name": "tripwire",
-        "status": "ok",
+        "status": "error",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
@@ -25,26 +26,26 @@
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 28,
+            "items": 27,
             "kept": 1
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 0
+            "kept": 1
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 4
+            "kept": 3
           }
         ]
       }
     ],
     "fetched_articles": 5,
-    "previous_event_count": 9,
+    "previous_event_count": 5,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -64,6 +65,16 @@
       "published_at": "2026-10-31T14:28:15Z",
       "source": "BBC News",
       "tags": []
+    },
+    {
+      "id": "rss_8a34ed5b5669b57a",
+      "headline": "Iran war live: Araghchi says talks under way on 2-day plan to reopen Hormuz",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz?traffic_source=rss",
+      "published_at": "2026-11-01T00:00:51Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN"
+      ]
     },
     {
       "id": "rss_4170f1938e8e78e1",
@@ -94,16 +105,6 @@
       "source": "France 24",
       "tags": [
         "FRANCE"
-      ]
-    },
-    {
-      "id": "rss_b31cbff860682e08",
-      "headline": "Trump admin approves potential Patriot missiles sale to Ukraine",
-      "url": "https://www.france24.com/en/americas/20261030-trump-admin-approves-potential-patriot-missiles-sale-to-ukraine",
-      "published_at": "2026-10-30T23:19:47Z",
-      "source": "France 24",
-      "tags": [
-        "UKRAINE"
       ]
     }
   ]
