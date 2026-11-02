@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-02T00:40:54Z",
+    "generated_at_utc": "2026-11-02T07:38:58Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -26,25 +26,25 @@
             "outlet": "BBC News",
             "status": "ok",
             "items": 30,
-            "kept": 3
+            "kept": 2
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 5
+            "kept": 4
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 4
+            "kept": 6
           }
         ]
       }
     ],
     "fetched_articles": 12,
-    "previous_event_count": 10,
+    "previous_event_count": 12,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -57,16 +57,6 @@
     }
   },
   "events": [
-    {
-      "id": "rss_6398bf53d770fcdb",
-      "headline": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
-      "url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-01T21:55:01Z",
-      "source": "BBC News",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
     {
       "id": "rss_1a828c3b280328dc",
       "headline": "Armed police start patrols in Sydney after Bondi Beach attack",
@@ -82,6 +72,17 @@
       "published_at": "2026-10-31T14:28:15Z",
       "source": "BBC News",
       "tags": []
+    },
+    {
+      "id": "rss_8e049908e364daa3",
+      "headline": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
+      "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss",
+      "published_at": "2026-11-02T01:40:50Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "RUSSIA",
+        "UKRAINE"
+      ]
     },
     {
       "id": "rss_59712234549c315f",
@@ -113,24 +114,23 @@
       ]
     },
     {
-      "id": "rss_9d02b76f300f016e",
-      "headline": "How will the Iran war shape the outcome of the US midterm vote?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/11/1/how-will-the-iran-war-shape-the-outcome-of-the-u-s-midterm-vote?traffic_source=rss",
-      "published_at": "2026-11-01T19:00:32Z",
-      "source": "Al Jazeera",
+      "id": "rss_fbacf55dcf119fe5",
+      "headline": "Live: Russia and Ukraine trade blame for cyber attacks as fragile ceasefire ends",
+      "url": "https://www.france24.com/en/europe/20261102-live-russia-and-ukraine-trade-blame-cyber-attacks-fragile-ceasefire-ends",
+      "published_at": "2026-11-02T06:19:40Z",
+      "source": "France 24",
       "tags": [
-        "IRAN"
+        "RUSSIA",
+        "UKRAINE"
       ]
     },
     {
-      "id": "rss_69cb466694c8b359",
-      "headline": "Hebron siege continues for 10th day as Israel threatens wider offensive",
-      "url": "https://www.aljazeera.com/news/2026/11/1/hebron-siege-continues-for-10th-day-as-israel-threatens-wider-offensive?traffic_source=rss",
-      "published_at": "2026-11-01T17:30:45Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "ISRAEL"
-      ]
+      "id": "rss_ae159f5dec96d059",
+      "headline": "Midterms 2026: Georgians on the front lines of the people’s war against data centres",
+      "url": "https://www.france24.com/en/americas/20261102-midterms-2026-georgians-front-lines-people-war-against-data-centres",
+      "published_at": "2026-11-02T06:11:55Z",
+      "source": "France 24",
+      "tags": []
     },
     {
       "id": "rss_2bba396268a0848b",
