@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-02T07:38:58Z",
+    "generated_at_utc": "2026-11-02T18:16:48Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,7 +14,8 @@
       },
       {
         "name": "tripwire",
-        "status": "ok",
+        "status": "error",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
@@ -25,8 +26,8 @@
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 30,
-            "kept": 2
+            "items": 32,
+            "kept": 6
           },
           {
             "outlet": "Al Jazeera",
@@ -38,7 +39,7 @@
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 6
+            "kept": 2
           }
         ]
       }
@@ -58,6 +59,52 @@
   },
   "events": [
     {
+      "id": "rss_fa70db054aba569a",
+      "headline": "Russian bombing kills 18 people at Ukraine aid centre, Kyiv says",
+      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-02T18:01:13Z",
+      "source": "BBC News",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "rss_baddcf79163ee819",
+      "headline": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
+      "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-02T17:33:19Z",
+      "source": "BBC News",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "rss_38343bb40dfbcba2",
+      "headline": "Dutch police offer record €2m reward in hunt for drug lord",
+      "url": "https://www.bbc.co.uk/news/articles/ckly0v2q2yxlo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-02T17:29:49Z",
+      "source": "BBC News",
+      "tags": []
+    },
+    {
+      "id": "rss_c984d7348e3898fc",
+      "headline": "Fake nuclear warnings issued after Ukrainian and Russian air alert apps hacked",
+      "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-02T14:35:01Z",
+      "source": "BBC News",
+      "tags": []
+    },
+    {
+      "id": "rss_2465ecfb96e3bd99",
+      "headline": "Uganda begins withdrawing troops from Somalia after 20 years",
+      "url": "https://www.bbc.co.uk/news/articles/c8zxlqxwed4do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-02T12:05:34Z",
+      "source": "BBC News",
+      "tags": [
+        "SOMALIA"
+      ]
+    },
+    {
       "id": "rss_1a828c3b280328dc",
       "headline": "Armed police start patrols in Sydney after Bondi Beach attack",
       "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss",
@@ -66,108 +113,62 @@
       "tags": []
     },
     {
-      "id": "rss_e727a4c6cdb67d4a",
-      "headline": "Ethiopian PM puts ministers through military training",
-      "url": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-10-31T14:28:15Z",
-      "source": "BBC News",
-      "tags": []
-    },
-    {
-      "id": "rss_8e049908e364daa3",
-      "headline": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
-      "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings?traffic_source=rss",
-      "published_at": "2026-11-02T01:40:50Z",
+      "id": "rss_7a9a9bd5f7c3334c",
+      "headline": "Drone attacks extend campaign targeting Sudan’s power system",
+      "url": "https://www.aljazeera.com/news/2026/11/2/drone-attacks-extend-campaign-targeting-sudans-power-system?traffic_source=rss",
+      "published_at": "2026-11-02T17:26:32Z",
       "source": "Al Jazeera",
       "tags": [
-        "RUSSIA",
-        "UKRAINE"
+        "SUDAN"
       ]
     },
     {
-      "id": "rss_59712234549c315f",
-      "headline": "Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/2/iran-war-live-tankers-hit-in-hormuz-trump-again-says-conflict-to-end-soon?traffic_source=rss",
-      "published_at": "2026-11-02T00:00:00Z",
+      "id": "rss_4253681084fd0d05",
+      "headline": "Violence in northern Ethiopia pushing health system towards collapse: WHO",
+      "url": "https://www.aljazeera.com/news/2026/11/2/violence-in-northern-ethiopia-pushing-health-system-towards-collapse-who?traffic_source=rss",
+      "published_at": "2026-11-02T16:03:40Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "ETHIOPIA"
+      ]
+    },
+    {
+      "id": "rss_bbad605163b5726d",
+      "headline": "How US oil firms profit $130bn from Iran war as household bills surge",
+      "url": "https://www.aljazeera.com/news/2026/11/2/how-us-oil-firms-profit-130bn-from-iran-war-as-household-bills-surge?traffic_source=rss",
+      "published_at": "2026-11-02T14:27:50Z",
       "source": "Al Jazeera",
       "tags": [
         "IRAN"
       ]
     },
     {
-      "id": "rss_b8f6295471bd8bf2",
-      "headline": "UN warns of security risks in Western Sahara as peacekeeping mission ends",
-      "url": "https://www.aljazeera.com/news/2026/11/1/un-warns-of-security-risks-in-western-sahara-as-peacekeeping-mission-ends?traffic_source=rss",
-      "published_at": "2026-11-01T23:19:51Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_4f0d5b535c8db666",
-      "headline": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
-      "url": "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends?traffic_source=rss",
-      "published_at": "2026-11-01T22:15:14Z",
+      "id": "rss_f5fff9f945d09c90",
+      "headline": "Al-Jawf becomes new hotspot in Yemen war between government forces, Houthis",
+      "url": "https://www.aljazeera.com/news/2026/11/2/al-jawf-becomes-new-hotspot-in-yemen-war-between-government-forces-houthis?traffic_source=rss",
+      "published_at": "2026-11-02T12:14:10Z",
       "source": "Al Jazeera",
       "tags": [
-        "RUSSIA",
-        "UKRAINE"
+        "YEMEN"
       ]
     },
     {
-      "id": "rss_fbacf55dcf119fe5",
-      "headline": "Live: Russia and Ukraine trade blame for cyber attacks as fragile ceasefire ends",
-      "url": "https://www.france24.com/en/europe/20261102-live-russia-and-ukraine-trade-blame-cyber-attacks-fragile-ceasefire-ends",
-      "published_at": "2026-11-02T06:19:40Z",
-      "source": "France 24",
-      "tags": [
-        "RUSSIA",
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_ae159f5dec96d059",
-      "headline": "Midterms 2026: Georgians on the front lines of the people’s war against data centres",
-      "url": "https://www.france24.com/en/americas/20261102-midterms-2026-georgians-front-lines-people-war-against-data-centres",
-      "published_at": "2026-11-02T06:11:55Z",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_2bba396268a0848b",
-      "headline": "Iran warns renewed war with US could outlast previous conflict",
-      "url": "https://www.france24.com/en/middle-east/20261102-iran-warns-renewed-war-with-us-could-outlast-previous-conflict",
-      "published_at": "2026-11-02T00:23:23Z",
+      "id": "rss_1b9daa096158ca7a",
+      "headline": "Iran engages US in 'intensive' negotiations to avert fresh war outbreak",
+      "url": "https://www.france24.com/en/middle-east/20261102-iran-engages-us-in-intensive-negotiations-to-avert-fresh-war-outbreak",
+      "published_at": "2026-11-02T17:42:22Z",
       "source": "France 24",
       "tags": [
         "IRAN"
       ]
     },
     {
-      "id": "rss_d5959f6abbf65aa3",
-      "headline": "Oleshky: Evacuations during first humanitarian truce of war end",
-      "url": "https://www.france24.com/en/oleshky-evacuations-during-first-humanitarian-truce-of-war-end",
-      "published_at": "2026-11-01T17:44:51Z",
+      "id": "rss_0fc2d37ab19a17e4",
+      "headline": "Inflation, war and corruption: Will anger at Trump see Republicans punished at midterms?",
+      "url": "https://www.france24.com/en/video/20261102-inflation-war-and-corruption-will-anger-at-trump-see-republicans-punished-at-midterms",
+      "published_at": "2026-11-02T15:30:59Z",
       "source": "France 24",
       "tags": []
-    },
-    {
-      "id": "rss_e14110e708037848",
-      "headline": "US Midterms: Democrats face leftward surge",
-      "url": "https://www.france24.com/en/us-midterms-democrats-face-leftward-surge",
-      "published_at": "2026-11-01T13:56:18Z",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_3215d1b6e1826983",
-      "headline": "Ceasefire in Ukraine's Kherson region ends after Russia refuses extension",
-      "url": "https://www.france24.com/en/europe/20261101-localised-ceasefire-in-ukraine-s-kherson-region-set-to-end",
-      "published_at": "2026-11-01T12:41:48Z",
-      "source": "France 24",
-      "tags": [
-        "RUSSIA",
-        "UKRAINE"
-      ]
     }
   ]
 }
