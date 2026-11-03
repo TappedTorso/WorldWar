@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-02T18:16:48Z",
+    "generated_at_utc": "2026-11-03T01:01:07Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,37 +14,36 @@
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
+        "status": "ok",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 12,
+        "fetched": 16,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 32,
-            "kept": 6
+            "items": 35,
+            "kept": 7
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 4
+            "kept": 6
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 2
+            "kept": 3
           }
         ]
       }
     ],
-    "fetched_articles": 12,
+    "fetched_articles": 16,
     "previous_event_count": 12,
     "tagging": {
       "method": "string_match",
@@ -59,10 +58,20 @@
   },
   "events": [
     {
-      "id": "rss_fa70db054aba569a",
-      "headline": "Russian bombing kills 18 people at Ukraine aid centre, Kyiv says",
+      "id": "rss_429d6cd348f22b39",
+      "headline": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
       "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-02T18:01:13Z",
+      "published_at": "2026-11-02T21:10:04Z",
+      "source": "BBC News",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "rss_8c531dcc121cb893",
+      "headline": "Thousands of European troops to rehearse Ukraine deployment in event of peace",
+      "url": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T00:07:05Z",
       "source": "BBC News",
       "tags": [
         "UKRAINE"
@@ -87,12 +96,14 @@
       "tags": []
     },
     {
-      "id": "rss_c984d7348e3898fc",
-      "headline": "Fake nuclear warnings issued after Ukrainian and Russian air alert apps hacked",
-      "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-02T14:35:01Z",
+      "id": "rss_e68cb2573f58c184",
+      "headline": "Fake nuclear warning from hacked app sparks unease but not panic in Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/cwx28mngxz8do?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-02T18:34:24Z",
       "source": "BBC News",
-      "tags": []
+      "tags": [
+        "UKRAINE"
+      ]
     },
     {
       "id": "rss_2465ecfb96e3bd99",
@@ -113,6 +124,52 @@
       "tags": []
     },
     {
+      "id": "rss_cc28c8bee2a7b63c",
+      "headline": "Iran war live: Vance sees ‘progress’, Tehran says ‘ball is in US court’",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court?traffic_source=rss",
+      "published_at": "2026-11-03T00:00:00Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "rss_9195fb9b39a0dac7",
+      "headline": "War, tariffs and China: What the US midterms mean for the Asia-Pacific",
+      "url": "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss",
+      "published_at": "2026-11-02T23:41:18Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "CHINA"
+      ]
+    },
+    {
+      "id": "rss_3c23b809826ce9ee",
+      "headline": "What’s the future of the Western Sahara conflict?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/11/2/whats-the-future-of-the-western-sahara-conflict?traffic_source=rss",
+      "published_at": "2026-11-02T20:43:44Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_6112d86f302c7311",
+      "headline": "Trump signals progress on Iran deal as Tehran pushes faster ceasefire",
+      "url": "https://www.aljazeera.com/news/2026/11/2/iran-pushing-accelerated-plan-for-ceasefire-talks-with-us?traffic_source=rss",
+      "published_at": "2026-11-02T18:49:26Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "rss_b36f66b9d815b5cc",
+      "headline": "Russian bombing of Ukrainian aid centre kills 26 people",
+      "url": "https://www.aljazeera.com/news/2026/11/2/russian-bombing-of-ukrainian-aid-centre-kills-24-people-zelenskyy?traffic_source=rss",
+      "published_at": "2026-11-02T18:23:02Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
       "id": "rss_7a9a9bd5f7c3334c",
       "headline": "Drone attacks extend campaign targeting Sudan’s power system",
       "url": "https://www.aljazeera.com/news/2026/11/2/drone-attacks-extend-campaign-targeting-sudans-power-system?traffic_source=rss",
@@ -123,43 +180,21 @@
       ]
     },
     {
-      "id": "rss_4253681084fd0d05",
-      "headline": "Violence in northern Ethiopia pushing health system towards collapse: WHO",
-      "url": "https://www.aljazeera.com/news/2026/11/2/violence-in-northern-ethiopia-pushing-health-system-towards-collapse-who?traffic_source=rss",
-      "published_at": "2026-11-02T16:03:40Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "ETHIOPIA"
-      ]
+      "id": "rss_faee5e716882c844",
+      "headline": "Trump promised 'no more wars'. His foreign policy tells another story",
+      "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261102-trump-promised-no-more-wars-his-foreign-policy-tells-another-story",
+      "published_at": "2026-11-02T21:34:10Z",
+      "source": "France 24",
+      "tags": []
     },
     {
-      "id": "rss_bbad605163b5726d",
-      "headline": "How US oil firms profit $130bn from Iran war as household bills surge",
-      "url": "https://www.aljazeera.com/news/2026/11/2/how-us-oil-firms-profit-130bn-from-iran-war-as-household-bills-surge?traffic_source=rss",
-      "published_at": "2026-11-02T14:27:50Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "rss_f5fff9f945d09c90",
-      "headline": "Al-Jawf becomes new hotspot in Yemen war between government forces, Houthis",
-      "url": "https://www.aljazeera.com/news/2026/11/2/al-jawf-becomes-new-hotspot-in-yemen-war-between-government-forces-houthis?traffic_source=rss",
-      "published_at": "2026-11-02T12:14:10Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "YEMEN"
-      ]
-    },
-    {
-      "id": "rss_1b9daa096158ca7a",
-      "headline": "Iran engages US in 'intensive' negotiations to avert fresh war outbreak",
-      "url": "https://www.france24.com/en/middle-east/20261102-iran-engages-us-in-intensive-negotiations-to-avert-fresh-war-outbreak",
-      "published_at": "2026-11-02T17:42:22Z",
+      "id": "rss_02e35ee0197a9f4f",
+      "headline": "Uganda withdrawing troops from peacekeeping mission in Somalia",
+      "url": "https://www.france24.com/en/uganda-withdrawing-troops-from-peacekeeping-mission-in-somalia",
+      "published_at": "2026-11-02T21:24:21Z",
       "source": "France 24",
       "tags": [
-        "IRAN"
+        "SOMALIA"
       ]
     },
     {
