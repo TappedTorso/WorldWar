@@ -1,50 +1,25 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-03T01:01:07Z",
-    "provider": "RSS_FALLBACK",
-    "status": "ok-fallback",
+    "generated_at_utc": "2026-11-03T07:53:04Z",
+    "provider": "GDELT_DOC_API",
+    "status": "partial",
     "timespan": "6h",
     "max_events": 120,
     "streams": [
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "tripwire",
         "status": "ok",
-        "fetched": 0
-      },
-      {
-        "name": "rss_fallback",
-        "status": "ok",
-        "fetched": 16,
-        "feeds": [
-          {
-            "outlet": "BBC News",
-            "status": "ok",
-            "items": 35,
-            "kept": 7
-          },
-          {
-            "outlet": "Al Jazeera",
-            "status": "ok",
-            "items": 25,
-            "kept": 6
-          },
-          {
-            "outlet": "France 24",
-            "status": "ok",
-            "items": 24,
-            "kept": 3
-          }
-        ]
+        "fetched": 25
       }
     ],
-    "fetched_articles": 16,
-    "previous_event_count": 12,
+    "fetched_articles": 25,
+    "previous_event_count": 16,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -58,151 +33,216 @@
   },
   "events": [
     {
-      "id": "rss_429d6cd348f22b39",
-      "headline": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
-      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-02T21:10:04Z",
-      "source": "BBC News",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_8c531dcc121cb893",
-      "headline": "Thousands of European troops to rehearse Ukraine deployment in event of peace",
-      "url": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-03T00:07:05Z",
-      "source": "BBC News",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_baddcf79163ee819",
-      "headline": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
-      "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-02T17:33:19Z",
-      "source": "BBC News",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_38343bb40dfbcba2",
-      "headline": "Dutch police offer record €2m reward in hunt for drug lord",
-      "url": "https://www.bbc.co.uk/news/articles/ckly0v2q2yxlo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-02T17:29:49Z",
-      "source": "BBC News",
+      "id": "gdelt_b685c22947030172",
+      "headline": "قطر تبحث مع تركيا والأردن ومصر ولبنان جهود خفض التصعيد وضمان حرية الملاحة",
+      "url": "http://arabic.people.com.cn/n3/2026/1103/c31662-20514970.html",
+      "published_at": "20261103T021500Z",
+      "source": "arabic.people.com.cn",
       "tags": []
     },
     {
-      "id": "rss_e68cb2573f58c184",
-      "headline": "Fake nuclear warning from hacked app sparks unease but not panic in Ukraine",
-      "url": "https://www.bbc.co.uk/news/articles/cwx28mngxz8do?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-02T18:34:24Z",
-      "source": "BBC News",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_2465ecfb96e3bd99",
-      "headline": "Uganda begins withdrawing troops from Somalia after 20 years",
-      "url": "https://www.bbc.co.uk/news/articles/c8zxlqxwed4do?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-02T12:05:34Z",
-      "source": "BBC News",
-      "tags": [
-        "SOMALIA"
-      ]
-    },
-    {
-      "id": "rss_1a828c3b280328dc",
-      "headline": "Armed police start patrols in Sydney after Bondi Beach attack",
-      "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-01T17:56:47Z",
-      "source": "BBC News",
+      "id": "gdelt_3c2d662afde717db",
+      "headline": "Переговори України , США та Росії - названо дату",
+      "url": "https://zn.ua/ukr/usa/ssha-nazvali-datu-perehovoriv-z-ukrajinoju-ta-rosijeju-v-abu-dabi.html",
+      "published_at": "20261103T021500Z",
+      "source": "zn.ua",
       "tags": []
     },
     {
-      "id": "rss_cc28c8bee2a7b63c",
-      "headline": "Iran war live: Vance sees ‘progress’, Tehran says ‘ball is in US court’",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/iran-war-live-vance-sees-progress-in-talks-tehran-says-ball-in-us-court?traffic_source=rss",
-      "published_at": "2026-11-03T00:00:00Z",
-      "source": "Al Jazeera",
+      "id": "gdelt_f916ed97c99e8eab",
+      "headline": "Giá dầu lao dốc hơn 7 % nhờ hy vọng về đàm phán giữa Mỹ và Iran",
+      "url": "https://vietstock.vn/2026/11/gia-dau-lao-doc-hon-7-nho-hy-vong-ve-dam-phan-giua-my-va-iran-34-1510719.htm",
+      "published_at": "20261103T021500Z",
+      "source": "vietstock.vn",
       "tags": [
         "IRAN"
       ]
     },
     {
-      "id": "rss_9195fb9b39a0dac7",
-      "headline": "War, tariffs and China: What the US midterms mean for the Asia-Pacific",
-      "url": "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss",
-      "published_at": "2026-11-02T23:41:18Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "CHINA"
-      ]
-    },
-    {
-      "id": "rss_3c23b809826ce9ee",
-      "headline": "What’s the future of the Western Sahara conflict?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/11/2/whats-the-future-of-the-western-sahara-conflict?traffic_source=rss",
-      "published_at": "2026-11-02T20:43:44Z",
-      "source": "Al Jazeera",
+      "id": "gdelt_7e768c84a9bddcb8",
+      "headline": "鄭容和拍吻戲 「 喚醒童年神秘記憶 」！ 變身音痴挑戰IU神曲男神濾鏡粉碎 11月韓劇鎖定 《 好搭檔2 》 全新陣容回歸 | 時尚名人",
+      "url": "https://style.udn.com/style/story/121034/9852764",
+      "published_at": "20261103T021500Z",
+      "source": "style.udn.com",
       "tags": []
     },
     {
-      "id": "rss_6112d86f302c7311",
-      "headline": "Trump signals progress on Iran deal as Tehran pushes faster ceasefire",
-      "url": "https://www.aljazeera.com/news/2026/11/2/iran-pushing-accelerated-plan-for-ceasefire-talks-with-us?traffic_source=rss",
-      "published_at": "2026-11-02T18:49:26Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "rss_b36f66b9d815b5cc",
-      "headline": "Russian bombing of Ukrainian aid centre kills 26 people",
-      "url": "https://www.aljazeera.com/news/2026/11/2/russian-bombing-of-ukrainian-aid-centre-kills-24-people-zelenskyy?traffic_source=rss",
-      "published_at": "2026-11-02T18:23:02Z",
-      "source": "Al Jazeera",
+      "id": "gdelt_ce5c6cdd84518530",
+      "headline": "川普才喊 「 有望達成和平協議 」！ 美軍突開轟伊朗格什姆島 | 國際 | 三立新聞網 SETN . COM",
+      "url": "https://www.setn.com/news/1932594",
+      "published_at": "20261103T021500Z",
+      "source": "setn.com",
       "tags": []
     },
     {
-      "id": "rss_7a9a9bd5f7c3334c",
-      "headline": "Drone attacks extend campaign targeting Sudan’s power system",
-      "url": "https://www.aljazeera.com/news/2026/11/2/drone-attacks-extend-campaign-targeting-sudans-power-system?traffic_source=rss",
-      "published_at": "2026-11-02T17:26:32Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "SUDAN"
-      ]
-    },
-    {
-      "id": "rss_faee5e716882c844",
-      "headline": "Trump promised 'no more wars'. His foreign policy tells another story",
-      "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261102-trump-promised-no-more-wars-his-foreign-policy-tells-another-story",
-      "published_at": "2026-11-02T21:34:10Z",
-      "source": "France 24",
+      "id": "gdelt_f4dd291dfc400a6f",
+      "headline": "26 загинали след удар с 3000 - килограмови руски бомби срещу център за разпределяне на помощи в Украйна",
+      "url": "https://www.focus-news.net/novini/mejdunarodni/26-zaginali-sled-udar-s-3000-kilogramovi-ruski-bombi-sreshtu-centur-za-razpredelyane-na-pomoshti-v-Ukraina-3050299",
+      "published_at": "20261103T021500Z",
+      "source": "focus-news.net",
       "tags": []
     },
     {
-      "id": "rss_02e35ee0197a9f4f",
-      "headline": "Uganda withdrawing troops from peacekeeping mission in Somalia",
-      "url": "https://www.france24.com/en/uganda-withdrawing-troops-from-peacekeeping-mission-in-somalia",
-      "published_at": "2026-11-02T21:24:21Z",
-      "source": "France 24",
+      "id": "gdelt_3356668b9859e99c",
+      "headline": "北韓試射戰略巡弋飛彈 宣稱可將5至6公頃夷為平地 | 國際焦點 | 全球",
+      "url": "https://udn.com/news/story/6809/9853410",
+      "published_at": "20261103T021500Z",
+      "source": "udn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7bd94a7dc23f7cd2",
+      "headline": "美 , 남아공 · 르완다 무관세 수출 혜택 중단 … 내년 1월부터 적용",
+      "url": "https://biz.chosun.com/international/international_general/2026/11/03/CPLZ7Y56QNGY7BJG2WMYFQ5M4Q/",
+      "published_at": "20261103T021500Z",
+      "source": "biz.chosun.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_269ff322811f88cf",
+      "headline": "Wolodymyr Selenskyj : Selenskyj warnt vor russischem Großangriff während US - Wahl",
+      "url": "https://www.news.de/politik/860154148/selenskyj-warnt-vor-russischem-grossangriff-waehrend-us-wahl-wolodymyr-selenskyj-news-der-dpa-aktuell-zu-krieg-konflikte-wahl-und-midterms/1/",
+      "published_at": "20261103T021500Z",
+      "source": "news.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_187e8f67bd2e1687",
+      "headline": "Rupiah Masih Rentan - 3 November 2026",
+      "url": "https://koran-jakarta.com/2026-11-03/rupiah-masih-rentan-3-november-2026",
+      "published_at": "20261103T021500Z",
+      "source": "koran-jakarta.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_84d1ac96f851621a",
+      "headline": "Ukraine - Krieg : united states : Nächste Woche Verhandlungen mit Ukraine und Russland",
+      "url": "https://www.news.de/politik/860154091/usa-naechste-woche-verhandlungen-mit-ukraine-und-russland-ukraine-krieg-news-der-dpa-aktuell-zu-krieg-konflikten-und-diplomatie/1/",
+      "published_at": "20261103T021500Z",
+      "source": "news.de",
       "tags": [
-        "SOMALIA"
+        "UNITED_STATES",
+        "UKRAINE"
       ]
     },
     {
-      "id": "rss_0fc2d37ab19a17e4",
-      "headline": "Inflation, war and corruption: Will anger at Trump see Republicans punished at midterms?",
-      "url": "https://www.france24.com/en/video/20261102-inflation-war-and-corruption-will-anger-at-trump-see-republicans-punished-at-midterms",
-      "published_at": "2026-11-02T15:30:59Z",
-      "source": "France 24",
+      "id": "gdelt_631ddbef82425ac8",
+      "headline": "שודדי המיארלדים : צבא הסייבר של קים ג  ונג און",
+      "url": "https://www.ynet.co.il/economy/article/yokra14945754",
+      "published_at": "20261103T021500Z",
+      "source": "ynet.co.il",
+      "tags": []
+    },
+    {
+      "id": "gdelt_925ad3d6f3ed5d66",
+      "headline": "USA : Nächste Woche Verhandlungen mit Ukraine und Russland",
+      "url": "http://www.op-online.de/politik/usa-naechste-woche-verhandlungen-mit-ukraine-und-russland-zr-94570996.html",
+      "published_at": "20261103T021500Z",
+      "source": "op-online.de",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_58fec478a018aa83",
+      "headline": "Russian strikes on Ukrainian shelter and aid centre in Zaporizhzhia region kill 26 - 03 - Nov - 2026",
+      "url": "https://home.nzcity.co.nz/news/article.aspx?id=457283&fm=psp,tsf",
+      "published_at": "20261103T021500Z",
+      "source": "home.nzcity.co.nz",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3af8ce65d3cb6cd4",
+      "headline": "Віткофф назвав дату переговорів України та Росії",
+      "url": "https://glavcom.ua/world/world-politics/vitkoff-nazvav-datu-perehovoriv-ukrajini-ta-rosiji--1153072.html",
+      "published_at": "20261103T021500Z",
+      "source": "glavcom.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e9b2bc8394d59495",
+      "headline": "North Korea denies involvement in Binance hack and criticizes FBI probe as  a trite provocation",
+      "url": "https://www.sandiegouniontribune.com/2026/11/02/north-korea-binance/",
+      "published_at": "20261103T021500Z",
+      "source": "sandiegouniontribune.com",
+      "tags": [
+        "NORTH_KOREA"
+      ]
+    },
+    {
+      "id": "gdelt_ce0cd2751961cfba",
+      "headline": "BARRAGE BOUGHERARA : Une pollution venue du Maroc | lecourrier - dalgerie . com",
+      "url": "http://lecourrier-dalgerie.com/barrage-bougherara-une-pollution-venue-du-maroc/",
+      "published_at": "20261103T021500Z",
+      "source": "lecourrier-dalgerie.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e8f31ca17b7f4e58",
+      "headline": "Israel chuẩn bị kịch bản đóng cửa sân bay nếu chiến sự tái diễn",
+      "url": "https://baotintuc.vn/israel-chuan-bi-kich-ban-dong-cua-san-bay-neu-chien-su-tai-dien-post1399393.html",
+      "published_at": "20261103T021500Z",
+      "source": "baotintuc.vn",
+      "tags": [
+        "ISRAEL"
+      ]
+    },
+    {
+      "id": "gdelt_6d4a885d1188bb87",
+      "headline": "대통령 여권번호까지 샜다 … 靑 긴급회의  책임 규명 · 전면 점검",
+      "url": "https://biz.heraldcorp.com/article/10923866",
+      "published_at": "20261103T021500Z",
+      "source": "biz.heraldcorp.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5d746e2be86e9d78",
+      "headline": "San Diego gas prices down 40 cents a gallon in the past month . But what happens next ?",
+      "url": "https://www.sandiegouniontribune.com/2026/11/02/san-diego-gas-prices-down-40-cents-a-gallon-in-the-past-month-but-what-happens-next/",
+      "published_at": "20261103T021500Z",
+      "source": "sandiegouniontribune.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6b0fa3b8072ca67e",
+      "headline": "Moskva phản hồi bất ngờ về kế hoạch Mỹ khôi phục khí đốt Nga qua Ukraine",
+      "url": "https://baotintuc.vn/moskva-phan-hoi-bat-ngo-ve-ke-hoach-my-khoi-phuc-khi-dot-nga-qua-ukraine-post1399396.html",
+      "published_at": "20261103T021500Z",
+      "source": "baotintuc.vn",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_60f398222304fd27",
+      "headline": "Planul lui Trump : gaz rusesc în Europa , printr - un intermediar american",
+      "url": "https://adevarul.ro/stiri-externe/sua/planul-lui-trump-gaz-rusesc-in-europa-printr-un-2568314.html",
+      "published_at": "20261103T021500Z",
+      "source": "adevarul.ro",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bd486a7cc5de4163",
+      "headline": "USA : Nächste Woche Verhandlungen mit Ukraine und Russland",
+      "url": "https://www.suedostschweiz.ch/schweiz-und-welt/usa-naechste-woche-verhandlungen-mit-ukraine-und-russland-2-2219746",
+      "published_at": "20261103T021500Z",
+      "source": "suedostschweiz.ch",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1e93e1309219b82c",
+      "headline": "SHAMAN попал в базу украинской разведки : ГУР объяснило включение певца поддержкой СВО",
+      "url": "https://news.mail.ru/society/72954252/",
+      "published_at": "20261103T021500Z",
+      "source": "news.mail.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c1cc563ec1c577fd",
+      "headline": "CPP Investments and Dream Complete $585 . 8 Million Acquisition of GTA Industrial Portfolio",
+      "url": "https://www.saultstar.com/press-releases/business-wire/cpp-investments-and-dream-complete-585-8-million-acquisition-of-gta-industrial-portfolio/",
+      "published_at": "20261103T021500Z",
+      "source": "saultstar.com",
       "tags": []
     }
   ]
