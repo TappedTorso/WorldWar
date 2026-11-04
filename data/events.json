@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-03T21:45:18Z",
+    "generated_at_utc": "2026-11-04T02:18:49Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
@@ -21,7 +21,7 @@
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 7,
+        "fetched": 10,
         "feeds": [
           {
             "outlet": "BBC News",
@@ -33,7 +33,7 @@
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 0
+            "kept": 3
           },
           {
             "outlet": "France 24",
@@ -44,8 +44,8 @@
         ]
       }
     ],
-    "fetched_articles": 7,
-    "previous_event_count": 91,
+    "fetched_articles": 10,
+    "previous_event_count": 7,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -89,14 +89,42 @@
       ]
     },
     {
+      "id": "rss_bb27244bb4e7d178",
+      "headline": "Scepticism as Trump says he’s ending Israel’s $3.8 bn military aid deal",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/scepticism-as-trump-says-hes-ending-israels-3-8-bn-military-aid-deal?traffic_source=rss",
+      "published_at": "2026-11-04T01:13:49Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "ISRAEL"
+      ]
+    },
+    {
+      "id": "rss_80585bc0181d423c",
+      "headline": "Iran war live: Tehran prepares ‘maximum deterrence’ plan for any new attack",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/4/iran-war-live-tehran-prepares-maximum-deterrence-plan-for-any-new-attack?traffic_source=rss",
+      "published_at": "2026-11-04T00:00:00Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "rss_e50c3d43f9ec2c55",
+      "headline": "President Zelenskyy says US elections will impact war in Ukraine",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/president-zelenskyy-says-us-elections-will-impact-war-in-ukraine?traffic_source=rss",
+      "published_at": "2026-11-03T21:43:19Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
       "id": "rss_35de93a55bc97dee",
       "headline": "Russian households face increasing financial strain as war in Ukraine drags on",
       "url": "https://www.france24.com/en/video/20261103-russian-households-face-increasing-financial-strain-as-war-in-ukraine-drags-on",
       "published_at": "2026-11-03T17:05:54Z",
       "source": "France 24",
-      "tags": [
-        "UKRAINE"
-      ]
+      "tags": []
     },
     {
       "id": "rss_1bec587649289379",
