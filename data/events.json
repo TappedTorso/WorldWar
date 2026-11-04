@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-04T02:18:49Z",
+    "generated_at_utc": "2026-11-04T09:19:43Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,43 +9,42 @@
       {
         "name": "core",
         "status": "error",
-        "error": "rate_limited status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
         "fetched": 0
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
+        "status": "ok",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 10,
+        "fetched": 4,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 32,
-            "kept": 3
+            "items": 25,
+            "kept": 1
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 3
+            "kept": 1
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 4
+            "kept": 2
           }
         ]
       }
     ],
-    "fetched_articles": 10,
-    "previous_event_count": 7,
+    "fetched_articles": 4,
+    "previous_event_count": 10,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -59,96 +58,36 @@
   },
   "events": [
     {
-      "id": "rss_8c531dcc121cb893",
-      "headline": "Thousands of European troops to rehearse Ukraine deployment in event of peace",
-      "url": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-03T00:07:05Z",
+      "id": "rss_217b44a0e4bbed72",
+      "headline": "How sporting events are being impacted by Middle East conflict",
+      "url": "https://www.bbc.co.uk/sport/articles/ck0j0l65nzlvo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-03T16:01:24Z",
       "source": "BBC News",
-      "tags": [
-        "UKRAINE"
-      ]
+      "tags": []
     },
     {
-      "id": "rss_a6bcd118e84264ff",
-      "headline": "Russian bombing kills 31 people at Ukraine aid centre, Kyiv says",
-      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-03T13:26:19Z",
-      "source": "BBC News",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_baddcf79163ee819",
-      "headline": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
-      "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-02T17:33:19Z",
-      "source": "BBC News",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_bb27244bb4e7d178",
-      "headline": "Scepticism as Trump says he’s ending Israel’s $3.8 bn military aid deal",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/scepticism-as-trump-says-hes-ending-israels-3-8-bn-military-aid-deal?traffic_source=rss",
-      "published_at": "2026-11-04T01:13:49Z",
+      "id": "rss_898c7eb185f93827",
+      "headline": "N Korea fires multiple missiles, denies US claims on Binance hack",
+      "url": "https://www.aljazeera.com/news/2026/11/4/n-korea-fires-multiple-missiles-denies-us-claims-on-binance-hack?traffic_source=rss",
+      "published_at": "2026-11-04T05:11:00Z",
       "source": "Al Jazeera",
-      "tags": [
-        "ISRAEL"
-      ]
+      "tags": []
     },
     {
-      "id": "rss_80585bc0181d423c",
-      "headline": "Iran war live: Tehran prepares ‘maximum deterrence’ plan for any new attack",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/4/iran-war-live-tehran-prepares-maximum-deterrence-plan-for-any-new-attack?traffic_source=rss",
-      "published_at": "2026-11-04T00:00:00Z",
-      "source": "Al Jazeera",
+      "id": "rss_0399692e14111458",
+      "headline": "Trump congratulates Democrats on midterms win, says Iran war played role",
+      "url": "https://www.france24.com/en/americas/20261104-trump-congratulates-democrats-on-midterms-win-says-iran-war-played-role",
+      "published_at": "2026-11-04T07:13:41Z",
+      "source": "France 24",
       "tags": [
         "IRAN"
       ]
     },
     {
-      "id": "rss_e50c3d43f9ec2c55",
-      "headline": "President Zelenskyy says US elections will impact war in Ukraine",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/president-zelenskyy-says-us-elections-will-impact-war-in-ukraine?traffic_source=rss",
-      "published_at": "2026-11-03T21:43:19Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_35de93a55bc97dee",
-      "headline": "Russian households face increasing financial strain as war in Ukraine drags on",
-      "url": "https://www.france24.com/en/video/20261103-russian-households-face-increasing-financial-strain-as-war-in-ukraine-drags-on",
-      "published_at": "2026-11-03T17:05:54Z",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_1bec587649289379",
-      "headline": "Ukraine and Russia are taking the war underground as drones saturate the battlefield",
-      "url": "https://www.france24.com/en/europe/20261103-ukraine-and-russia-are-taking-the-war-underground-as-drones-saturate-the-battlefield",
-      "published_at": "2026-11-03T16:52:13Z",
-      "source": "France 24",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "rss_49cd69f8e96fa629",
-      "headline": "Trump cuts Israeli military aid: $3.8 billion in security assistance slashed",
-      "url": "https://www.france24.com/en/video/20261103-trump-cuts-israeli-military-aid-3-8-billion-in-security-assistance-slashed",
-      "published_at": "2026-11-03T16:01:30Z",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_1bd9a213410de6b0",
-      "headline": "Bomb threats against European airlines force Warsaw airport closure, affect several flights",
-      "url": "https://www.france24.com/en/europe/20261103-bomb-threats-disrupt-europe-flights",
-      "published_at": "2026-11-03T15:41:48Z",
+      "id": "rss_83bc80eb797e34da",
+      "headline": "US: \"Even in places where the Democrats haven't won, the swing towards them has been significant\"",
+      "url": "https://www.france24.com/en/video/20261104-us-even-in-places-where-the-democrats-haven-t-won-the-swing-towards-them-has-been-significant",
+      "published_at": "2026-11-04T03:48:11Z",
       "source": "France 24",
       "tags": []
     }
