@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-04T17:59:32Z",
+    "generated_at_utc": "2026-11-04T23:38:46Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,14 +14,13 @@
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
+        "status": "ok",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 11,
+        "fetched": 10,
         "feeds": [
           {
             "outlet": "BBC News",
@@ -33,7 +32,7 @@
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 4
+            "kept": 3
           },
           {
             "outlet": "France 24",
@@ -44,8 +43,8 @@
         ]
       }
     ],
-    "fetched_articles": 11,
-    "previous_event_count": 4,
+    "fetched_articles": 10,
+    "previous_event_count": 11,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -62,7 +61,7 @@
       "id": "rss_262f866f8f55a412",
       "headline": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
       "url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-04T17:45:58Z",
+      "published_at": "2026-11-04T22:48:43Z",
       "source": "BBC News",
       "tags": [
         "UKRAINE"
@@ -89,6 +88,26 @@
       ]
     },
     {
+      "id": "rss_784766524f6f2850",
+      "headline": "Sudan factories struggle to restart after devastating wartime losses",
+      "url": "https://www.aljazeera.com/news/2026/11/4/sudan-factories-struggle-to-restart-after-devastating-wartime-losses?traffic_source=rss",
+      "published_at": "2026-11-04T22:31:09Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "SUDAN"
+      ]
+    },
+    {
+      "id": "rss_47540ceb3f2347b6",
+      "headline": "US midterm election results live: Trump blames Iran war after losses",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/4/us-midterm-election-results-live-trump-reacts-as-more-results-awaited?traffic_source=rss",
+      "published_at": "2026-11-04T21:00:00Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
       "id": "rss_358b88740dd162b9",
       "headline": "Presidential hopeful Vance appears to question Iran war after polls debacle",
       "url": "https://www.aljazeera.com/news/2026/11/4/presidential-hopeful-vance-appears-to-question-iran-war-after-polls-debacle?traffic_source=rss",
@@ -99,29 +118,11 @@
       ]
     },
     {
-      "id": "rss_8f9cf3bd21a66af1",
-      "headline": "No regrets: Trump says Iran war justified despite polls drubbing",
-      "url": "https://www.aljazeera.com/news/2026/11/4/no-regrets-trump-says-iran-war-justified-despite-polls-drubbing?traffic_source=rss",
-      "published_at": "2026-11-04T15:28:00Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "rss_683cf74339d94d44",
-      "headline": "Iran’s Khamenei warns Trump loss at polls won’t end US hostility",
-      "url": "https://www.aljazeera.com/news/2026/11/4/iran-hails-us-voters-rejecting-war-while-khamenei-warns-hostility-wont-end?traffic_source=rss",
-      "published_at": "2026-11-04T13:26:44Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_da6f982ef20a96a7",
-      "headline": "Can Democrats stop Iran war, reverse Trump’s tariffs after midterms win?",
-      "url": "https://www.aljazeera.com/news/2026/11/4/tariffs-to-iran-war-can-democrats-reverse-trump-policy-with-midterms-win?traffic_source=rss",
-      "published_at": "2026-11-04T12:48:11Z",
-      "source": "Al Jazeera",
+      "id": "rss_6b98ac75f7cf170e",
+      "headline": "🔴 Live: Trump says going to war in Iran was worth it, despite midterm rout",
+      "url": "https://www.france24.com/en/americas/20261103-live-americans-head-to-the-polls-to-vote-in-us-midterm-elections",
+      "published_at": "2026-11-04T18:32:56Z",
+      "source": "France 24",
       "tags": []
     },
     {
@@ -145,14 +146,6 @@
       "headline": "How Trump's broken promises on war, inflation handed Democrats the midterms",
       "url": "https://www.france24.com/en/video/20261104-how-trump-s-broken-promises-on-war-inflation-handed-democrats-the-midterms",
       "published_at": "2026-11-04T15:02:07Z",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_03386f31f77eff41",
-      "headline": "Blue wave sweeps across America: 'In 1974, we had Watergate babies, now we have Iran War babies'",
-      "url": "https://www.france24.com/en/blue-wave-sweeps-across-america-in-1974-we-had-watergate-babies-now-we-have-iran-war-babies",
-      "published_at": "2026-11-04T13:00:59Z",
       "source": "France 24",
       "tags": []
     }
