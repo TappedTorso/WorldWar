@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-04T09:19:43Z",
+    "generated_at_utc": "2026-11-04T17:59:32Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,37 +14,38 @@
       },
       {
         "name": "tripwire",
-        "status": "ok",
+        "status": "error",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 4,
+        "fetched": 11,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 25,
-            "kept": 1
+            "items": 23,
+            "kept": 3
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 1
+            "kept": 4
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 2
+            "kept": 4
           }
         ]
       }
     ],
-    "fetched_articles": 4,
-    "previous_event_count": 10,
+    "fetched_articles": 11,
+    "previous_event_count": 4,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -58,36 +59,100 @@
   },
   "events": [
     {
-      "id": "rss_217b44a0e4bbed72",
-      "headline": "How sporting events are being impacted by Middle East conflict",
-      "url": "https://www.bbc.co.uk/sport/articles/ck0j0l65nzlvo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-03T16:01:24Z",
+      "id": "rss_262f866f8f55a412",
+      "headline": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+      "url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-04T17:45:58Z",
       "source": "BBC News",
-      "tags": []
+      "tags": [
+        "UKRAINE"
+      ]
     },
     {
-      "id": "rss_898c7eb185f93827",
-      "headline": "N Korea fires multiple missiles, denies US claims on Binance hack",
-      "url": "https://www.aljazeera.com/news/2026/11/4/n-korea-fires-multiple-missiles-denies-us-claims-on-binance-hack?traffic_source=rss",
-      "published_at": "2026-11-04T05:11:00Z",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_0399692e14111458",
-      "headline": "Trump congratulates Democrats on midterms win, says Iran war played role",
-      "url": "https://www.france24.com/en/americas/20261104-trump-congratulates-democrats-on-midterms-win-says-iran-war-played-role",
-      "published_at": "2026-11-04T07:13:41Z",
-      "source": "France 24",
+      "id": "rss_e68f4e6acd4a588c",
+      "headline": "Iran's chief negotiator says Americans voted 'no to war'",
+      "url": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-04T16:59:15Z",
+      "source": "BBC News",
       "tags": [
         "IRAN"
       ]
     },
     {
-      "id": "rss_83bc80eb797e34da",
-      "headline": "US: \"Even in places where the Democrats haven't won, the swing towards them has been significant\"",
-      "url": "https://www.france24.com/en/video/20261104-us-even-in-places-where-the-democrats-haven-t-won-the-swing-towards-them-has-been-significant",
-      "published_at": "2026-11-04T03:48:11Z",
+      "id": "rss_a5d4a1e033c4a0c4",
+      "headline": "Rwanda's army team removed from Africa league after US sanctions, NBA says",
+      "url": "https://www.bbc.co.uk/news/articles/c699zdx9knmpo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-04T11:46:09Z",
+      "source": "BBC News",
+      "tags": [
+        "RWANDA"
+      ]
+    },
+    {
+      "id": "rss_358b88740dd162b9",
+      "headline": "Presidential hopeful Vance appears to question Iran war after polls debacle",
+      "url": "https://www.aljazeera.com/news/2026/11/4/presidential-hopeful-vance-appears-to-question-iran-war-after-polls-debacle?traffic_source=rss",
+      "published_at": "2026-11-04T17:18:50Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "rss_8f9cf3bd21a66af1",
+      "headline": "No regrets: Trump says Iran war justified despite polls drubbing",
+      "url": "https://www.aljazeera.com/news/2026/11/4/no-regrets-trump-says-iran-war-justified-despite-polls-drubbing?traffic_source=rss",
+      "published_at": "2026-11-04T15:28:00Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "rss_683cf74339d94d44",
+      "headline": "Iran’s Khamenei warns Trump loss at polls won’t end US hostility",
+      "url": "https://www.aljazeera.com/news/2026/11/4/iran-hails-us-voters-rejecting-war-while-khamenei-warns-hostility-wont-end?traffic_source=rss",
+      "published_at": "2026-11-04T13:26:44Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_da6f982ef20a96a7",
+      "headline": "Can Democrats stop Iran war, reverse Trump’s tariffs after midterms win?",
+      "url": "https://www.aljazeera.com/news/2026/11/4/tariffs-to-iran-war-can-democrats-reverse-trump-policy-with-midterms-win?traffic_source=rss",
+      "published_at": "2026-11-04T12:48:11Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_6f059b710db87049",
+      "headline": "Democrats warn Trump camp to ‘lawyer up’ as anger over corruption drives midterms wipeout",
+      "url": "https://www.france24.com/en/americas/20261104-democrats-warn-trump-camp-lawyer-up-anger-over-corruption-drives-midterms-wipeout-gop",
+      "published_at": "2026-11-04T18:01:05Z",
+      "source": "France 24",
+      "tags": []
+    },
+    {
+      "id": "rss_0db09f7ccc4fa196",
+      "headline": "'Is Republican Party able to pivot away from MAGA movement, or will it sputter forward leaderless?'",
+      "url": "https://www.france24.com/en/is-republican-party-able-to-pivot-away-from-maga-movement-or-will-it-sputter-forward-leaderless",
+      "published_at": "2026-11-04T15:16:13Z",
+      "source": "France 24",
+      "tags": []
+    },
+    {
+      "id": "rss_5c77df34c088c7bd",
+      "headline": "How Trump's broken promises on war, inflation handed Democrats the midterms",
+      "url": "https://www.france24.com/en/video/20261104-how-trump-s-broken-promises-on-war-inflation-handed-democrats-the-midterms",
+      "published_at": "2026-11-04T15:02:07Z",
+      "source": "France 24",
+      "tags": []
+    },
+    {
+      "id": "rss_03386f31f77eff41",
+      "headline": "Blue wave sweeps across America: 'In 1974, we had Watergate babies, now we have Iran War babies'",
+      "url": "https://www.france24.com/en/blue-wave-sweeps-across-america-in-1974-we-had-watergate-babies-now-we-have-iran-war-babies",
+      "published_at": "2026-11-04T13:00:59Z",
       "source": "France 24",
       "tags": []
     }
