@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-04T23:38:46Z",
+    "generated_at_utc": "2026-11-05T06:39:36Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,12 +9,13 @@
       {
         "name": "core",
         "status": "error",
-        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "tripwire",
-        "status": "ok",
+        "status": "error",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
@@ -44,7 +45,7 @@
       }
     ],
     "fetched_articles": 10,
-    "previous_event_count": 11,
+    "previous_event_count": 10,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -57,6 +58,16 @@
     }
   },
   "events": [
+    {
+      "id": "rss_dde3a2ced300c631",
+      "headline": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
+      "url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-05T03:47:56Z",
+      "source": "BBC News",
+      "tags": [
+        "IRAN"
+      ]
+    },
     {
       "id": "rss_262f866f8f55a412",
       "headline": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
@@ -78,43 +89,44 @@
       ]
     },
     {
-      "id": "rss_a5d4a1e033c4a0c4",
-      "headline": "Rwanda's army team removed from Africa league after US sanctions, NBA says",
-      "url": "https://www.bbc.co.uk/news/articles/c699zdx9knmpo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-04T11:46:09Z",
-      "source": "BBC News",
-      "tags": [
-        "RWANDA"
-      ]
-    },
-    {
-      "id": "rss_784766524f6f2850",
-      "headline": "Sudan factories struggle to restart after devastating wartime losses",
-      "url": "https://www.aljazeera.com/news/2026/11/4/sudan-factories-struggle-to-restart-after-devastating-wartime-losses?traffic_source=rss",
-      "published_at": "2026-11-04T22:31:09Z",
+      "id": "rss_807d2739e4ec3405",
+      "headline": "El Salvador’s Bukele touts military intervention in Haiti",
+      "url": "https://www.aljazeera.com/news/2026/11/5/el-salvadors-bukele-touts-military-intervention-in-haiti?traffic_source=rss",
+      "published_at": "2026-11-05T02:10:07Z",
       "source": "Al Jazeera",
       "tags": [
-        "SUDAN"
+        "HAITI"
       ]
     },
     {
-      "id": "rss_47540ceb3f2347b6",
-      "headline": "US midterm election results live: Trump blames Iran war after losses",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/4/us-midterm-election-results-live-trump-reacts-as-more-results-awaited?traffic_source=rss",
-      "published_at": "2026-11-04T21:00:00Z",
+      "id": "rss_a33a4af5b913fc28",
+      "headline": "Iran war live: IRGC says two oil tankers and tugboat caught fire in Hormuz",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss",
+      "published_at": "2026-11-05T00:00:00Z",
       "source": "Al Jazeera",
       "tags": [
-        "IRAN"
+        "IRAN",
+        "IRGC"
       ]
     },
     {
-      "id": "rss_358b88740dd162b9",
-      "headline": "Presidential hopeful Vance appears to question Iran war after polls debacle",
-      "url": "https://www.aljazeera.com/news/2026/11/4/presidential-hopeful-vance-appears-to-question-iran-war-after-polls-debacle?traffic_source=rss",
-      "published_at": "2026-11-04T17:18:50Z",
+      "id": "rss_128d5d885b2260e7",
+      "headline": "Trump blames Iran war for midterms losses",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-blames-iran-war-for-midterms-losses?traffic_source=rss",
+      "published_at": "2026-11-04T23:30:01Z",
       "source": "Al Jazeera",
       "tags": [
         "IRAN"
+      ]
+    },
+    {
+      "id": "rss_77a907a780291f93",
+      "headline": "South Korea to deploy military mission to keep Strait of Hormuz open",
+      "url": "https://www.france24.com/en/asia-pacific/20261105-south-korea-military-mission-strait-of-hormuz",
+      "published_at": "2026-11-05T02:17:44Z",
+      "source": "France 24",
+      "tags": [
+        "SOUTH_KOREA"
       ]
     },
     {
@@ -123,7 +135,9 @@
       "url": "https://www.france24.com/en/americas/20261103-live-americans-head-to-the-polls-to-vote-in-us-midterm-elections",
       "published_at": "2026-11-04T18:32:56Z",
       "source": "France 24",
-      "tags": []
+      "tags": [
+        "IRAN"
+      ]
     },
     {
       "id": "rss_6f059b710db87049",
@@ -138,14 +152,6 @@
       "headline": "'Is Republican Party able to pivot away from MAGA movement, or will it sputter forward leaderless?'",
       "url": "https://www.france24.com/en/is-republican-party-able-to-pivot-away-from-maga-movement-or-will-it-sputter-forward-leaderless",
       "published_at": "2026-11-04T15:16:13Z",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_5c77df34c088c7bd",
-      "headline": "How Trump's broken promises on war, inflation handed Democrats the midterms",
-      "url": "https://www.france24.com/en/video/20261104-how-trump-s-broken-promises-on-war-inflation-handed-democrats-the-midterms",
-      "published_at": "2026-11-04T15:02:07Z",
       "source": "France 24",
       "tags": []
     }
