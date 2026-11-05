@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-05T15:25:42Z",
+    "generated_at_utc": "2026-11-05T21:58:54Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,7 +9,7 @@
       {
         "name": "core",
         "status": "error",
-        "error": "rate_limited status=429",
+        "error": "non-json response status=200 content_type=text/html; charset=utf-8 body=The specified phrase is too short. ",
         "fetched": 0
       },
       {
@@ -25,26 +25,26 @@
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 19,
+            "items": 21,
             "kept": 2
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 2
+            "kept": 4
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 3
+            "kept": 1
           }
         ]
       }
     ],
     "fetched_articles": 7,
-    "previous_event_count": 10,
+    "previous_event_count": 7,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -58,6 +58,16 @@
   },
   "events": [
     {
+      "id": "rss_26f45e90659fc72c",
+      "headline": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
+      "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-05T19:08:08Z",
+      "source": "BBC News",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
       "id": "rss_dde3a2ced300c631",
       "headline": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
       "url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
@@ -68,63 +78,51 @@
       ]
     },
     {
-      "id": "rss_262f866f8f55a412",
-      "headline": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
-      "url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-04T22:48:43Z",
-      "source": "BBC News",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_940ff7bdb1aaf496",
-      "headline": "Indonesia rushes thousands of troops to Jakarta amid wiretap scandal",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/indonesia-rushes-thousands-of-troops-to-jakarta-amid-wiretap-scandal?traffic_source=rss",
-      "published_at": "2026-11-05T13:41:24Z",
+      "id": "rss_59f73b54aaa68841",
+      "headline": "Hoax bomb threats force emergency landings, evacuations across Europe",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/hoax-bomb-threats-force-emergency-landings-evacuations-across-europe?traffic_source=rss",
+      "published_at": "2026-11-05T21:26:21Z",
       "source": "Al Jazeera",
       "tags": []
     },
     {
-      "id": "rss_b6ce7c46d0df798b",
-      "headline": "Iran, Gaza, Ukraine: What will US midterm results mean for these conflicts?",
-      "url": "https://www.aljazeera.com/news/2026/11/5/iran-gaza-ukraine-what-will-us-midterm-results-mean-for-these-conflicts?traffic_source=rss",
-      "published_at": "2026-11-05T11:32:40Z",
+      "id": "rss_0b9672a933520282",
+      "headline": "Saudi coalition intercepts missile fired towards Medina",
+      "url": "https://www.aljazeera.com/news/2026/11/5/saudi-coalition-intercepts-missile-fired-towards-medina?traffic_source=rss",
+      "published_at": "2026-11-05T20:48:47Z",
       "source": "Al Jazeera",
-      "tags": [
-        "IRAN",
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_2527676c8d1cc22f",
-      "headline": "Houthi missiles fired at Medina intercepted, Saudi coalition says",
-      "url": "https://www.france24.com/en/middle-east/20261105-houthi-missiles-fired-at-medina-intercepted-saudi-coalition-says",
-      "published_at": "2026-11-05T11:07:22Z",
-      "source": "France 24",
       "tags": [
         "SAUDI_ARABIA"
       ]
     },
     {
-      "id": "rss_1dd55f891f4cbc1e",
-      "headline": "Sudan accuses Ethiopia of allowing RSF drone launches from its territory",
-      "url": "https://www.france24.com/en/video/20261105-sudan-accuses-ethiopia-of-allowing-rsf-drone-launches-from-its-territory",
-      "published_at": "2026-11-05T10:42:55Z",
-      "source": "France 24",
+      "id": "rss_f362aa82d901c25f",
+      "headline": "Melania Trump hosts Russia-Ukraine meeting after Oleshky ceasefire",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/melania-trump-hosts-russia-ukraine-meeting-after-oleshky-ceasefire?traffic_source=rss",
+      "published_at": "2026-11-05T20:43:46Z",
+      "source": "Al Jazeera",
       "tags": [
-        "SUDAN",
-        "ETHIOPIA",
-        "RAPID_SUPPORT_FORCES"
+        "RUSSIA",
+        "UKRAINE"
       ]
     },
     {
-      "id": "rss_d33e80067e859e33",
-      "headline": "Ethiopian families fleeing conflict face difficulties with food access",
-      "url": "https://www.france24.com/en/video/20261105-ethiopian-families-fleeing-conflict-face-difficulties-with-food-access",
-      "published_at": "2026-11-05T10:38:41Z",
-      "source": "France 24",
+      "id": "rss_2b590f9aa3fdf252",
+      "headline": "Bishara: US election deals a blow to warmongers",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/aje-onl-nf_us-election-deals-a-blow-to-warmongers-051126?traffic_source=rss",
+      "published_at": "2026-11-05T16:48:53Z",
+      "source": "Al Jazeera",
       "tags": []
+    },
+    {
+      "id": "rss_0e6098dff5396f99",
+      "headline": "Myanmar: Civilians under fire from military junta",
+      "url": "https://www.france24.com/en/asia-pacific/20261105-myanmar-civilians-under-fire-from-military-junta",
+      "published_at": "2026-11-05T17:58:28Z",
+      "source": "France 24",
+      "tags": [
+        "MYANMAR"
+      ]
     }
   ]
 }
