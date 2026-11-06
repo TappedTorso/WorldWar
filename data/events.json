@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-05T21:58:54Z",
-    "provider": "RSS_FALLBACK",
-    "status": "ok-fallback",
+    "generated_at_utc": "2026-11-06T02:23:50Z",
+    "provider": "GDELT_DOC_API",
+    "status": "partial",
     "timespan": "6h",
     "max_events": 120,
     "streams": [
@@ -15,35 +15,10 @@
       {
         "name": "tripwire",
         "status": "ok",
-        "fetched": 0
-      },
-      {
-        "name": "rss_fallback",
-        "status": "ok",
-        "fetched": 7,
-        "feeds": [
-          {
-            "outlet": "BBC News",
-            "status": "ok",
-            "items": 21,
-            "kept": 2
-          },
-          {
-            "outlet": "Al Jazeera",
-            "status": "ok",
-            "items": 25,
-            "kept": 4
-          },
-          {
-            "outlet": "France 24",
-            "status": "ok",
-            "items": 24,
-            "kept": 1
-          }
-        ]
+        "fetched": 120
       }
     ],
-    "fetched_articles": 7,
+    "fetched_articles": 120,
     "previous_event_count": 7,
     "tagging": {
       "method": "string_match",
@@ -58,71 +33,998 @@
   },
   "events": [
     {
-      "id": "rss_26f45e90659fc72c",
-      "headline": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
-      "url": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-05T19:08:08Z",
-      "source": "BBC News",
+      "id": "gdelt_79352555d91acc1b",
+      "headline": "Turkiye parliament ratifies Mecca defence agreement | Military News",
+      "url": "https://www.aljazeera.com/news/2026/11/6/turkiyes-parliament-ratifies-mecca-defence-agreement",
+      "published_at": "20261106T013000Z",
+      "source": "aljazeera.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3b7f73fe53759ee9",
+      "headline": "Марсі Каптур – прихильницю України переобрали до Конгресу США на 23 - й термін",
+      "url": "https://www.obozrevatel.com/ukr/section-novosti-mir/news-pratsyuye-v-konhresi-z-1983-roku-prykhylnytsyu-ukrayiny-marsi-kaptur-pereobraly-do-konhresu-ssha-na-23-y-termin-05-11-2026.html",
+      "published_at": "20261106T003000Z",
+      "source": "obozrevatel.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b21376abcde4e077",
+      "headline": "Вибори у США : не ідеологічний « соціалістичний » зсув , а економічний і зовнішньополітичний референдум проти Трампа",
+      "url": "https://focus.ua/uk/opinions/773791-vibori-u-ssha-ne-ideologichniy-socialistichniy-zsuv-a-ekonomichniy-i-zovnishnopolitichniy-referendum-proti-trampa",
+      "published_at": "20261106T020000Z",
+      "source": "focus.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_676f572be505a60e",
+      "headline": "Іспанія виділить Києву військову поміч на €437 млн",
+      "url": "https://ua.korrespondent.net/ukraine/4926487-ispaniia-vydilyt-kyievu-viiskovu-pomich-na-437-mln",
+      "published_at": "20261105T223000Z",
+      "source": "ua.korrespondent.net",
       "tags": [
         "UKRAINE"
       ]
     },
     {
-      "id": "rss_dde3a2ced300c631",
-      "headline": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
-      "url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-05T03:47:56Z",
-      "source": "BBC News",
+      "id": "gdelt_60b5233481614721",
+      "headline": "Іспанія надасть Україні пакет військової допомоги DSnews . ua",
+      "url": "https://www.dsnews.ua/ukr/politics/ispaniya-predostavit-ukraine-paket-voennoy-pomoshchi-05112026-471270",
+      "published_at": "20261106T003000Z",
+      "source": "dsnews.ua",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_b6aaebb6840725e1",
+      "headline": "Optimizing Trump Strategy to  Rot Iran Economy  | Opinion",
+      "url": "https://www.fairfieldsuntimes.com/opinion/optimizing-trump-s-strategy-to-rot-iran-s-economy/article_903fc2ab-a20c-55cb-814e-51b945c7f589.html",
+      "published_at": "20261105T223000Z",
+      "source": "fairfieldsuntimes.com",
       "tags": [
         "IRAN"
       ]
     },
     {
-      "id": "rss_59f73b54aaa68841",
-      "headline": "Hoax bomb threats force emergency landings, evacuations across Europe",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/hoax-bomb-threats-force-emergency-landings-evacuations-across-europe?traffic_source=rss",
-      "published_at": "2026-11-05T21:26:21Z",
-      "source": "Al Jazeera",
+      "id": "gdelt_3346cfecd1a28730",
+      "headline": "借进博之窗 拓全球市场 第九届进博会昨日开幕 浙江数贸企业沪上寻找全球  合伙人",
+      "url": "https://hznews.hangzhou.com.cn/jingji/content/2026-11/06/content_9367748.htm",
+      "published_at": "20261106T003000Z",
+      "source": "hznews.hangzhou.com.cn",
       "tags": []
     },
     {
-      "id": "rss_0b9672a933520282",
-      "headline": "Saudi coalition intercepts missile fired towards Medina",
-      "url": "https://www.aljazeera.com/news/2026/11/5/saudi-coalition-intercepts-missile-fired-towards-medina?traffic_source=rss",
-      "published_at": "2026-11-05T20:48:47Z",
-      "source": "Al Jazeera",
+      "id": "gdelt_08cccaa39c5bd958",
+      "headline": "В районе Бурятии устроят встречи алкоголиков | Байкал - Дейли - Новости Бурятии и Улан - Удэ в реальном времени",
+      "url": "https://www.baikal-daily.ru/news/16/533491/",
+      "published_at": "20261106T020000Z",
+      "source": "baikal-daily.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2f73997a0a87882f",
+      "headline": "刚刚 ， OpenAI全新GPT - 6登场 ！ 强到不敢公开",
+      "url": "https://www.163.com/dy/article/LB1M0HNV0511ABV6.html",
+      "published_at": "20261106T003000Z",
+      "source": "163.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_dc42ba705d2e3644",
+      "headline": "Marvel Capital Hosts The Family Wealth Blueprint 2026 to Promote Greater Awareness of Family Wealth Planning",
+      "url": "https://www.manilatimes.net/2026/11/06/tmt-newswire/media-outreach-newswire/marvel-capital-hosts-the-family-wealth-blueprint-2026-to-promote-greater-awareness-of-family-wealth-planning/2463730",
+      "published_at": "20261106T020000Z",
+      "source": "manilatimes.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_780192b0ad8ed98e",
+      "headline": "Derrota de Trump coloca em xeque relao histórica dos EUA com Israel",
+      "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/derrota-de-trump-coloca-em-xeque-relacao-historica-dos-eua-com-israel",
+      "published_at": "20261105T223000Z",
+      "source": "agenciabrasil.ebc.com.br",
       "tags": [
-        "SAUDI_ARABIA"
+        "ISRAEL"
       ]
     },
     {
-      "id": "rss_f362aa82d901c25f",
-      "headline": "Melania Trump hosts Russia-Ukraine meeting after Oleshky ceasefire",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/melania-trump-hosts-russia-ukraine-meeting-after-oleshky-ceasefire?traffic_source=rss",
-      "published_at": "2026-11-05T20:43:46Z",
-      "source": "Al Jazeera",
+      "id": "gdelt_3c589c4908e17cda",
+      "headline": "EPPO istražuje prijevaru s PDV - om od 100 milijuna eura . U Hrvatskoj zaplijenjeno 7 nekretnina",
+      "url": "https://www.novilist.hr/novosti/crna-kronika/eppo-istrazuje-prijevaru-s-pdv-om-od-100-milijuna-eura-u-hrvatskoj-zaplijenjeno-7-nekretnina/",
+      "published_at": "20261105T220000Z",
+      "source": "novilist.hr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_acce4d70f82ae210",
+      "headline": "Pro - russische Demo will am Samstag durch Köln ziehen",
+      "url": "https://www.rundschau-online.de:443/koeln/pro-russische-demo-will-am-samstag-durch-koeln-ziehen-1410225",
+      "published_at": "20261105T220000Z",
+      "source": "rundschau-online.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_58fb958d3722ecd0",
+      "headline": "US Imposes Sanctions Targeting Iran Efforts to Obtain Air Defense Systems",
+      "url": "https://www.theepochtimes.com/world/us-imposes-sanctions-targeting-irans-efforts-to-obtain-air-defense-systems-6118624",
+      "published_at": "20261105T233000Z",
+      "source": "theepochtimes.com",
       "tags": [
-        "RUSSIA",
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_73183ba6ea33fd57",
+      "headline": "一日店长  流量生意 莫越消费文明红线",
+      "url": "https://hznews.hangzhou.com.cn/jingji/content/2026-11/06/content_9367746.htm",
+      "published_at": "20261106T003000Z",
+      "source": "hznews.hangzhou.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4afad5c21703633d",
+      "headline": "Іспанія надає Україні військову допомогу на €437 мільйонів Політика",
+      "url": "https://tsn.ua/politika/ispaniia-nadaye-ukrayini-eur437-milyoniv-viyskovoyi-dopomohy-shcho-obhovoryly-zelenskyy-i-sanches-3209471.html",
+      "published_at": "20261106T003000Z",
+      "source": "tsn.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_27701d6a6fe941e9",
+      "headline": "买鸡蛋还是炸加沙 ？ 美首个穆斯林参议员助选广告让美网友破防",
+      "url": "https://news.ifeng.com/c/8xpCRzyq51u",
+      "published_at": "20261106T020000Z",
+      "source": "news.ifeng.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_137d43abb9453aff",
+      "headline": "Ratu Bicara Sanksi Pemecatan , PNS , PPPK , dan PPPK Paruh Waktu Jangan Menyepelekan",
+      "url": "https://www.jpnn.com/news/ratu-bicara-sanksi-pemecatan-pns-pppk-dan-pppk-paruh-waktu-jangan-menyepelekan",
+      "published_at": "20261106T010000Z",
+      "source": "jpnn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bce45689a65a102b",
+      "headline": "New US sanctions target Cuba oil shipping , electronics sectors",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/11/06/new-us-sanctions-target-cuba-s-oil-shipping-electronics-sectors",
+      "published_at": "20261106T020000Z",
+      "source": "freemalaysiatoday.com",
+      "tags": [
+        "CUBA"
+      ]
+    },
+    {
+      "id": "gdelt_e0fac628e2a442fd",
+      "headline": "Іспанія надасть Україні військову допомогу на 437 млн євро",
+      "url": "https://lb.ua/news/2026/11/05/778888_ispaniya_nadast_ukrayini_noviy.html",
+      "published_at": "20261106T003000Z",
+      "source": "lb.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1972e745c60cbef3",
+      "headline": "Tripura CM Manik Saha reviews statewide law and order , directs strict action over Ashabari attack on BSF personnel",
+      "url": "https://news.webindia123.com/news/Articles/India/20261106/4516441.html",
+      "published_at": "20261105T233000Z",
+      "source": "news.webindia123.com",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
+      "id": "gdelt_459e4c4957d0d5b2",
+      "headline": "A strategic vulnerability India cannot ignore",
+      "url": "https://www.dailyexcelsior.com/a-strategic-vulnerability-india-cannot-ignore/",
+      "published_at": "20261106T013000Z",
+      "source": "dailyexcelsior.com",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
+      "id": "gdelt_c21dc40c6ffddc13",
+      "headline": "أستاذ العلاقات الدولية حامد فارس : طهران استغلت فترات التهدئة المتقطعة لإعادة بناء قدراتها العسكرية",
+      "url": "https://www.elwatannews.com/news/details/8391150",
+      "published_at": "20261106T003000Z",
+      "source": "elwatannews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fa43cb4e09ac109f",
+      "headline": "הסלמה מול איראן ? ממתינים לקולות החיילים",
+      "url": "https://www.ynet.co.il/news/article/yokra14949028",
+      "published_at": "20261106T013000Z",
+      "source": "ynet.co.il",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1d5e2b111e40110c",
+      "headline": "AfD : Οι επισκέψεις Zelensky κοστίζουν ακριβά στους Γερμανούς φορολογούμενους",
+      "url": "https://www.bankingnews.gr/diethni/articles/909419/afd-oi-episkepseis-zelensky-kostizoun-akriva-stous-germanoys-forologoymenous",
+      "published_at": "20261105T220000Z",
+      "source": "bankingnews.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8bda8c620905c5c2",
+      "headline": "软银54亿美元收购ABB机器人 确认被中方阻止",
+      "url": "https://www.wenxuecity.com/news/2026/11/05/126827584.html",
+      "published_at": "20261105T223000Z",
+      "source": "wenxuecity.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_295551088325b83b",
+      "headline": "Moonshot 2026 : un appel à lever les freins au commerce intra - africain { Business Africa }",
+      "url": "https://fr.euronews.com/2026/11/05/moonshot-2026-un-appel-a-lever-les-freins-au-commerce-intra-africain-business-africa",
+      "published_at": "20261105T220000Z",
+      "source": "fr.euronews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a59ff9d3087d0ae4",
+      "headline": "南鯤鯓鹽祭新看點 ！ 羅時豐7日獻唱 范府千歲鹽袋亮相 、 韓國萬神跨海交流",
+      "url": "https://n.yam.com/Article/20261106971838",
+      "published_at": "20261105T233000Z",
+      "source": "n.yam.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_14f91c521d091bbe",
+      "headline": "Landmark UN decision advances global response to environmental crime - DFFE",
+      "url": "https://www.politicsweb.co.za/news/landmark-un-decision-advances-global-response-to-environmental-crime-dffe",
+      "published_at": "20261106T013000Z",
+      "source": "politicsweb.co.za",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fd82a3c042260b18",
+      "headline": "Bà Melania Trump chủ trì cuộc gặp thúc đẩy hòa bình Nga - Ukraine",
+      "url": "https://baomoi.com/ba-melania-trump-chu-tri-cuoc-gap-thuc-day-hoa-binh-nga-ukraine-c56442914.epi",
+      "published_at": "20261106T020000Z",
+      "source": "baomoi.com",
+      "tags": [
         "UKRAINE"
       ]
     },
     {
-      "id": "rss_2b590f9aa3fdf252",
-      "headline": "Bishara: US election deals a blow to warmongers",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/aje-onl-nf_us-election-deals-a-blow-to-warmongers-051126?traffic_source=rss",
-      "published_at": "2026-11-05T16:48:53Z",
-      "source": "Al Jazeera",
+      "id": "gdelt_83cc950a14c72a30",
+      "headline": "North Sea Apache workers stage second walk - out , further strikes divided by Unite",
+      "url": "https://www.wsws.org/en/articles/2026/11/05/fpki-n05.html",
+      "published_at": "20261105T223000Z",
+      "source": "wsws.org",
       "tags": []
     },
     {
-      "id": "rss_0e6098dff5396f99",
-      "headline": "Myanmar: Civilians under fire from military junta",
-      "url": "https://www.france24.com/en/asia-pacific/20261105-myanmar-civilians-under-fire-from-military-junta",
-      "published_at": "2026-11-05T17:58:28Z",
-      "source": "France 24",
+      "id": "gdelt_aa920aaca6de03f8",
+      "headline": "Hegseth Expands National Guard Presence in DC",
+      "url": "https://politicalwire.com/2026/11/05/hegseth-expands-national-guard-presence-in-dc/",
+      "published_at": "20261105T220000Z",
+      "source": "politicalwire.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_27f163a2e5a031ea",
+      "headline": "Ердоган шукає шлях до миру , США обговорюють допомогу Україні , а Європа готується до евакуації – хроніка 1716 - го дня Великої війни",
+      "url": "https://www.5.ua/suspilstvo/erdohan-shukaie-shliakh-do-myru-ssha-obhovoriuiut-dopomohu-ukraini-a-yevropa-hotuietsia-do-evakuatsii-khronika-1716-ho-dnia-velykoi-viiny-385824.html",
+      "published_at": "20261105T220000Z",
+      "source": "5.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2c898db5cd389b6b",
+      "headline": "北  바이낸스 해킹  에도 … 정부 , 추가 제재 여부에  아직 논의 없어",
+      "url": "https://ichannela.com/news/detail/000000558664.do",
+      "published_at": "20261106T003000Z",
+      "source": "ichannela.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fab3f56932917436",
+      "headline": "美 서한 거부하더니 … 이란  카타르 통해 美에 핵 제안서 전달",
+      "url": "https://biz.heraldcorp.com/article/10927742",
+      "published_at": "20261105T220000Z",
+      "source": "biz.heraldcorp.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_80fe1c8175782f02",
+      "headline": "Pro - Morocco Congressman Joe Wilson Wins 14th Term , Keeps Up Polisario Pressure",
+      "url": "https://www.moroccoworldnews.com/2026/11/345220/pro-morocco-congressman-joe-wilson-wins-14th-term-keeps-up-polisario-pressure/",
+      "published_at": "20261105T220000Z",
+      "source": "moroccoworldnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7a029b162382fc0c",
+      "headline": "俄方临时接管日本烟草公司在俄资产 - 新华网",
+      "url": "http://www.xinhuanet.com/20261106/2fd5a0d6357a42d0b465bfddff0cb293/c.html",
+      "published_at": "20261106T003000Z",
+      "source": "xinhuanet.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6845f254382f8488",
+      "headline": "كيف تعيد الانتخابات النصفية رسم المشهد السياسي الأمريكي ؟ – الشروق أونلاين",
+      "url": "https://www.echoroukonline.com/%D9%83%D9%8A%D9%81-%D8%AA%D8%B9%D9%8A%D8%AF-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%B5%D9%81%D9%8A%D8%A9-%D8%B1%D8%B3%D9%85-%D8%A7%D9%84%D9%85%D8%B4%D9%87",
+      "published_at": "20261105T233000Z",
+      "source": "echoroukonline.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_dccefc1eb371a3d8",
+      "headline": "إيران مباشر .. طهران ترسل مقترحا نوويا لواشنطن وتجري مباحثات إقليمية لخفض التصعيد | أخبار",
+      "url": "https://www.aljazeera.net/news/liveblog/2026/11/6/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D8%B7%D9%87%D8%B1%D8%A7%D9%86-%D8%AA%D8%B1%D8%B3%D9%84-%D9%85%D9%82%D8%AA%D8%B1%D8%AD%D8%A7-%D9%86%D9%88%D9%88%D9%8A%D8%A7",
+      "published_at": "20261105T220000Z",
+      "source": "aljazeera.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ab5ad7df0cc7378c",
+      "headline": "Prediction : This Is How Much XRP Will Be Worth by the End of 2030",
+      "url": "https://www.fool.com/investing/2026/11/05/prediction-this-is-how-much-xrp-will-be-worth-by-t/",
+      "published_at": "20261106T013000Z",
+      "source": "fool.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9464cbcb0ba45968",
+      "headline": "Prediction : This Is How Much XRP Will Be Worth by the End of 2030",
+      "url": "https://www.fool.com/investing/2026/11/05/prediction-this-is-how-much-xrp-will-be-worth-by-t/?source=iedfolrf0000001",
+      "published_at": "20261106T020000Z",
+      "source": "fool.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a93fe683edc13ec4",
+      "headline": "Greenberg Traurig Wins  Best Large Law Firm , 2 Attorney Honors at Florida Legal Luminaries Gala",
+      "url": "https://www.prnewswire.com/news-releases/greenberg-traurig-wins-best-large-law-firm-2-attorney-honors-at-florida-legal-luminaries-gala-302931476.html",
+      "published_at": "20261106T013000Z",
+      "source": "prnewswire.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6a5cbdd10ae839d3",
+      "headline": "Malaysia terajui pasaran IPO Asia Tenggara , kutip AS$1 . 62 bilion",
+      "url": "https://www.utusan.com.my/ekonomi/2026/11/malaysia-terajui-pasaran-ipo-asia-tenggara-kutip-as1-62-bilion/",
+      "published_at": "20261106T010000Z",
+      "source": "utusan.com.my",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a53192ab3fcafff5",
+      "headline": "PYMNTS | FinTechs Hand AI Agents the Company Card",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fintechs-hand-ai-agents-the-company-card/",
+      "published_at": "20261106T010000Z",
+      "source": "pymnts.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_0a3c6f6274b453c1",
+      "headline": "Володимир Зеленський – Путін захопив Крим і не зупиниться на Донбасі – війна в Україні",
+      "url": "https://www.obozrevatel.com/ukr/section-politics-news/news-my-zalyshylysya-bez-krymu-i-chastyny-donbasu-ale-myru-ne-bulo-zelenskyy-nahadav-do-choho-pryvela-polityka-deeskalatsiyi-u-2014-rotsi-05-11-2026.html",
+      "published_at": "20261106T003000Z",
+      "source": "obozrevatel.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ceba5ef6e766c7a9",
+      "headline": "İrandan ABDye Katar üzerinden nükleer teklifi : Önce 7 şartın karşılanması isteniyor",
+      "url": "https://www.ntv.com.tr/dunya/irandan-abdye-katar-uzerinden-nukleer-teklifi-7-talep-karsilaninca-muzakere-edilebilir-1749574",
+      "published_at": "20261105T220000Z",
+      "source": "ntv.com.tr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_27677d2a1c4d1eef",
+      "headline": "李勇梁 ： 软银为何对砂州情有独钟 ？ | 八方论见 | 评论",
+      "url": "https://www.orientaldaily.com.my/news/lunjian/2026/11/06/860557",
+      "published_at": "20261106T003000Z",
+      "source": "orientaldaily.com.my",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fa43c4f5ba7eed64",
+      "headline": "דרמה פוליטית : ליברמן מסיר את הווטו על החרדים",
+      "url": "https://www.srugim.co.il/101015449-%D7%93%D7%A8%D7%9E%D7%94-%D7%A4%D7%95%D7%9C%D7%99%D7%98%D7%99%D7%AA-%D7%9C%D7%99%D7%91%D7%A8%D7%9E%D7%9F-%D7%9E%D7%A1%D7%99%D7%A8-%D7%90%D7%AA-%D7%94%D7%95%D7%95%D7%98%D7%95-%D7%A2%D7%9C",
+      "published_at": "20261105T220000Z",
+      "source": "srugim.co.il",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b904e13de73e9c7b",
+      "headline": "EE . UU . sanciona a 8 empresas y 2 personas por proveer petróleo a Cuba",
+      "url": "https://www.critica.com.pa/mundo/eeuu-sanciona-8-empresas-y-2-personas-por-proveer-petroleo-cuba-519335",
+      "published_at": "20261106T010000Z",
+      "source": "critica.com.pa",
       "tags": [
-        "MYANMAR"
+        "CUBA"
       ]
+    },
+    {
+      "id": "gdelt_7cbf165759a447f9",
+      "headline": "US escalates economic campaign against Cuba and targets China - based suppliers",
+      "url": "https://abcnews.com/Politics/wireStory/us-escalates-economic-campaign-cuba-targets-china-based-137890475",
+      "published_at": "20261105T233000Z",
+      "source": "abcnews.com",
+      "tags": [
+        "CHINA",
+        "CUBA"
+      ]
+    },
+    {
+      "id": "gdelt_37c51adb1998dea1",
+      "headline": "納坦雅胡成政壇毒藥 ！ 期中選後跨黨派重新檢視美以關係",
+      "url": "https://taiwandaily.net/%E5%8D%B3%E6%99%82%E6%96%B0%E8%81%9E/166139/",
+      "published_at": "20261105T220000Z",
+      "source": "taiwandaily.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2b7fb2f7e5480cda",
+      "headline": "공정위 , 독과점 업체의 가격 변경뿐 아니라 결정 · 유지도 제재하기로",
+      "url": "https://biz.chosun.com/policy/policy_sub/2026/11/06/F3GFWRMLQZBRPH3NRISIW2SWZ4/",
+      "published_at": "20261106T013000Z",
+      "source": "biz.chosun.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d6b818abd486a2ed",
+      "headline": "44 Prozent : Kontrollen bei Schweinehaltern decken illegalen Antibiotika - Einsatz auf",
+      "url": "https://www.agrarheute.com/tier/schwein/44-prozent-kontrollen-schweinehaltern-decken-illegalen-antibiotika-einsatz-643759",
+      "published_at": "20261106T010000Z",
+      "source": "agrarheute.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9505f7d58c896ccd",
+      "headline": "이란 안보수장 , 푸틴에 최고지도자 메시지 전달 … 전쟁 종식 논의",
+      "url": "https://biz.heraldcorp.com/article/10927746",
+      "published_at": "20261105T220000Z",
+      "source": "biz.heraldcorp.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_04b7404c61cd9985",
+      "headline": "PYMNTS | Payment Processors Compete on Checkout With Passkeys",
+      "url": "https://www.pymnts.com/cybersecurity/fraud-prevention/2026/payment-processors-compete-on-checkout-with-passkeys/",
+      "published_at": "20261106T010000Z",
+      "source": "pymnts.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ffdf0e19e9d115ac",
+      "headline": "GOP Rep . Mike Lawler defeated in New York battleground district",
+      "url": "https://www.cbsnews.com/newyork/news/new-york-17th-district-results-mike-lawler-cait-conley/",
+      "published_at": "20261106T003000Z",
+      "source": "cbsnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_af421942dc1cd792",
+      "headline": "ЕС захотел « втиснуть » своего переговорщика в урегулирование по Украине",
+      "url": "https://lenta.ru/news/2026/11/06/posol-zayavil-o-planah-es-vtisnut-svoego-peregovorschika-v-uregulirovanie-po-ukraine/",
+      "published_at": "20261105T223000Z",
+      "source": "lenta.ru",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_b70303d958e96ce8",
+      "headline": "Путин предупредил о новой угрозе из - за рубежа . В ход пошли криптовалюты и подростки",
+      "url": "https://www.securitylab.ru/news/579743.php",
+      "published_at": "20261105T220000Z",
+      "source": "securitylab.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_096fa5194b6bfe47",
+      "headline": "Estados Unidos sanciona a ocho empresas y dos personas por  proveer petróleo o material militar  a Cuba",
+      "url": "https://elpais.com/us/2026-11-05/estados-unidos-sanciona-a-ocho-empresas-y-dos-personas-por-proveer-petroleo-o-material-militar-a-cuba.html",
+      "published_at": "20261105T223000Z",
+      "source": "elpais.com",
+      "tags": [
+        "CUBA"
+      ]
+    },
+    {
+      "id": "gdelt_93f8ed2ba7062d89",
+      "headline": "Far - right pastor drops chilling threat after midterm wipeout :  We will win",
+      "url": "https://www.rawstory.com/maga-midterms-2678302756/",
+      "published_at": "20261106T010000Z",
+      "source": "rawstory.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_985d0d5ddd59a5c4",
+      "headline": "Кушнер заявил о продуктивных переговорах с Украиной , НАТО и Европой",
+      "url": "https://www.m24.ru/news/06112026/961056",
+      "published_at": "20261106T003000Z",
+      "source": "m24.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b79d1f6fbaa92134",
+      "headline": "США посилюють економічну кампанію проти Куби",
+      "url": "https://glavcom.ua/world/world-economy/ssha-posiljujut-ekonomichnu-kampaniju-proti-kubi-1153754.html",
+      "published_at": "20261106T020000Z",
+      "source": "glavcom.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cc11de23d7167748",
+      "headline": "עקיבא נוביק בתגובה לדרמה הפוליטית :  אני צריך חשבון נפש",
+      "url": "https://www.srugim.co.il/101015452-%D7%A2%D7%A7%D7%99%D7%91-%D7%A0%D7%95%D7%91%D7%99%D7%A7-%D7%91%D7%AA%D7%92%D7%95%D7%91%D7%94-%D7%9C%D7%93%D7%A8%D7%9E%D7%94-%D7%94%D7%A4%D7%95%D7%9C%D7%99%D7%98%D7%99%D7%AA-%D7%90%D7%A0%D7%99",
+      "published_at": "20261105T220000Z",
+      "source": "srugim.co.il",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a7e6352acdc49818",
+      "headline": "Zelenski speră la mai mult ajutor din partea SUA după victoria democraților . Ce mesaj i - a transmis Washingtonului",
+      "url": "https://www.libertatea.ro/stiri/victoria-democratilor-alegerile-sua-da-sperante-volodimir-zelenski-vom-beneficia-sprijin-mai-mare-96mhlmq",
+      "published_at": "20261106T020000Z",
+      "source": "libertatea.ro",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1bce470c53aafd7c",
+      "headline": "Class Action Lawsuit Filed : Webull Corporation ( BULL ) - Join by December ...",
+      "url": "https://www.pr-inside.com/class-action-lawsuit-filed-webull-corporation-bull-join-by-december-r5241187.htm",
+      "published_at": "20261106T003000Z",
+      "source": "pr-inside.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_987631406a2b68af",
+      "headline": "Quốc hội Thổ Nhĩ Kỳ phê chuẩn Hiệp ước Phòng thủ chung Mecca",
+      "url": "http://vov.vn/the-gioi/quoc-hoi-tho-nhi-ky-phe-chuan-hiep-uoc-phong-thu-chung-mecca-post1347730.vov",
+      "published_at": "20261106T003000Z",
+      "source": "vov.vn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a7280fdb14d7332a",
+      "headline": "Экс - главу генштаба ВСУ заочно обвинили в запрещенных методах войны",
+      "url": "https://ria.ru/20261106/vsu-2129575950.html",
+      "published_at": "20261106T013000Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bf5c3f4dc7a44f03",
+      "headline": "Встреча у Мелании . Искра перемирия в Олешках",
+      "url": "https://korrespondent.net/ukraine/4926480-vstrecha-u-melanyy-yskra-peremyryia-v-oleshkakh",
+      "published_at": "20261105T220000Z",
+      "source": "korrespondent.net",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_569284d5aabf2cf6",
+      "headline": "OpenAI发布GPT - 6 Cyber ： 漏洞发现能力较前代提升51 %， 火狐与Linux实测发现大量漏洞",
+      "url": "https://original.ifeng.com/c/8xp20MhJRdJ",
+      "published_at": "20261106T003000Z",
+      "source": "original.ifeng.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9b11b744e42b4812",
+      "headline": "Magna funding drive : Structured matchmaking offers solution to early - stage funding gaps",
+      "url": "https://www.vanguardngr.com/2026/10/magna-funding-drive-structured-matchmaking-offers-solution-to-early-stage-funding-gaps/",
+      "published_at": "20261105T220000Z",
+      "source": "vanguardngr.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ac979bc42f62e8f5",
+      "headline": "В США раскрыли , что демократы задумали против России",
+      "url": "https://ria.ru/20261106/ukraina-2129575767.html",
+      "published_at": "20261106T013000Z",
+      "source": "ria.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_608771648056d405",
+      "headline": "刚刚 ， OpenAI全新GPT - 6登场",
+      "url": "https://news.pedaily.cn/202611/571424.shtml",
+      "published_at": "20261106T003000Z",
+      "source": "news.pedaily.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_01f0f411761d0b90",
+      "headline": "Allarme bomba nei cieli , lItalia finisce nel mirino . Ombre russe dietro lescalation · Quotidiano Nazionale",
+      "url": "https://www.quotidiano.net/esteri/allarme-bomba-voli-europei-fkmzzvjc",
+      "published_at": "20261106T010000Z",
+      "source": "quotidiano.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_83e9c946cf38b2df",
+      "headline": "متحدث الوزراء : خفض استهلاك الوقود والكهرباء بالمقار الحكومية ضمن لترشيد الإنفاق",
+      "url": "https://www.shorouknews.com/news/view.aspx?cdate=06112026&id=040fcf63-2ed5-4da8-8f53-6764d8e3fb69",
+      "published_at": "20261105T233000Z",
+      "source": "shorouknews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b9a6057525784131",
+      "headline": "Trump se setkal s Dmitrijevem , dohoda o Ukrajině se podle něj blíží",
+      "url": "https://www.ceskenoviny.cz/zpravy/trump-se-setkal-s-dmitrijevem-dohoda-o-ukrajine-se-podle-nej-blizi/2898126",
+      "published_at": "20261105T233000Z",
+      "source": "ceskenoviny.cz",
+      "tags": []
+    },
+    {
+      "id": "gdelt_568f56ef2f48f62b",
+      "headline": "Terbit SE untuk PNS , PPPK , dan PPPK Paruh Waktu , Isinya soal Larangan",
+      "url": "https://www.jpnn.com/news/terbit-se-untuk-pns-pppk-dan-pppk-paruh-waktu-isinya-soal-larangan",
+      "published_at": "20261106T010000Z",
+      "source": "jpnn.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7b470db85d359909",
+      "headline": "Sri Lanka Launches National Single Window Platform to Streamline Trade Operations",
+      "url": "https://www.lankanewspapers.com/2026/11/05/sri-lanka-launches-national-single-window-platform-to-streamline-trade-operations",
+      "published_at": "20261105T220000Z",
+      "source": "lankanewspapers.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3d57c6d716b849f1",
+      "headline": "Puntland Faces Growing Influx of Ethiopian Migrants Amid Escalating Conflict Across the Border",
+      "url": "https://wardheernews.com/puntland-faces-growing-influx-of-ethiopian-migrants-amid-escalating-conflict-across-the-border/",
+      "published_at": "20261105T233000Z",
+      "source": "wardheernews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_666142efa19a313a",
+      "headline": "Крістіан Фройдінг очолить армію Німеччини що відомо про генерала",
+      "url": "https://focus.ua/uk/world/773790-kristian-froyding-ocholit-armiyu-nimechchini-shcho-vidomo-pro-generala",
+      "published_at": "20261106T020000Z",
+      "source": "focus.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e5ca0a8fa5370a83",
+      "headline": "Bills nominate Spencer Brown for NFL Salute to Service Award",
+      "url": "https://www.fingerlakes1.com/2026/11/05/bills-nominate-spencer-brown-for-nfl-salute-to-service-award/",
+      "published_at": "20261105T220000Z",
+      "source": "fingerlakes1.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7afb2c21168532e7",
+      "headline": "« В случае с Украиной у Вашингтона есть особые рычаги »: западные СМИ о курсе Трампа после промежуточных выборов",
+      "url": "https://russiatoday.ru/world/article/1704786-ssha-promezhutochnye-vybory-vneshnyaya-politika-obzor-smi",
+      "published_at": "20261106T013000Z",
+      "source": "russiatoday.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_51d197ee1219422e",
+      "headline": "לפני הבחירות : ליברמן התחייב לא להקים ממשלה עם החרדים | צפו",
+      "url": "https://www.srugim.co.il/101015451-%D7%9C%D7%A4%D7%A0%D7%99-%D7%94%D7%91%D7%97%D7%99%D7%A8%D7%95%D7%AA-%D7%9C%D7%99%D7%91%D7%A8%D7%9E%D7%9F-%D7%94%D7%AA%D7%97%D7%99%D7%99%D7%91-%D7%9C%D7%90-%D7%9C%D7%94%D7%A7%D7%99%D7%9D",
+      "published_at": "20261105T220000Z",
+      "source": "srugim.co.il",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ebcca4f96086c29c",
+      "headline": "Президент США назвал происходящее в Иране оккупацией",
+      "url": "https://www.mk.ru/politics/2026/11/06/prezident-ssha-nazval-proiskhodyashhee-v-irane-okkupaciey.html",
+      "published_at": "20261106T003000Z",
+      "source": "mk.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_aa5ecc85f2bd65e8",
+      "headline": "Sixty percent of young US Jewish voters view Gaza war as genocide , poll shows",
+      "url": "https://www.jpost.com/diaspora/article-914029",
+      "published_at": "20261106T010000Z",
+      "source": "jpost.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f2dd96375f8d7e02",
+      "headline": "Indonesia champions seafarer protection , shipping safety at IMO",
+      "url": "https://en.antaranews.com/news/440611/indonesia-champions-seafarer-protection-shipping-safety-at-imo",
+      "published_at": "20261106T020000Z",
+      "source": "en.antaranews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a19e3b29a8d45d80",
+      "headline": "이란  카타르 통해 핵 협상 제안 전달⋯美 검토 중",
+      "url": "https://www.etoday.co.kr/news/view/2644859",
+      "published_at": "20261106T003000Z",
+      "source": "etoday.co.kr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2ff603e9a101039b",
+      "headline": "Arab News | Iran sent nuclear proposal to the US via Qatar , senior Iranian official says",
+      "url": "https://www.arabnews.com/middle-east/iran-sent-nuclear-proposal-to-the-us-via-qatar-senior-iranian-official-says-3010067",
+      "published_at": "20261105T220000Z",
+      "source": "arabnews.com",
+      "tags": [
+        "IRAN",
+        "QATAR"
+      ]
+    },
+    {
+      "id": "gdelt_22660e55266fce69",
+      "headline": "Трамп раскритиковал запрет на импорт дизеля из России",
+      "url": "https://korrespondent.net/world/4926497-tramp-raskrytykoval-zapret-na-ymport-dyzelia-yz-rossyy",
+      "published_at": "20261106T003000Z",
+      "source": "korrespondent.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e1149c66f60d838b",
+      "headline": "普丁簽令接管日本菸草國際在俄資產 市占約4成菸商交國家 「 臨時管理 」",
+      "url": "https://n.yam.com/Article/20261106767984",
+      "published_at": "20261105T233000Z",
+      "source": "n.yam.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_dde843f99a4ce258",
+      "headline": "INVESTOR ALERT : Pomerantz Law Firm Investigates Claims On Behalf of Investors of Foghorn Therapeutics Inc .",
+      "url": "https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-foghorn-therapeutics-inc---fhtx-302931445.html",
+      "published_at": "20261106T010000Z",
+      "source": "prnewswire.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_15a8906b99a38b0a",
+      "headline": "دراسة ترصد أدوات الاحتلال لتصفية الوجود المسيحي العربي في القدس",
+      "url": "https://palinfo.com/news/2026/11/05/1122968/",
+      "published_at": "20261105T223000Z",
+      "source": "palinfo.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_6311a71c8a718a57",
+      "headline": "Удари по НПЗ Росії - чому Путін приховав дані про обсяги нафтопереробки",
+      "url": "https://24tv.ua/udari-po-npz-rosiyi-chomu-putin-prihovav-dani-pro-obsyagi-naftopererobki_n3174395",
+      "published_at": "20261106T003000Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_8de1d479baccca72",
+      "headline": "Coca Cola HBC : Δεν λάβαμε καμία ειδοποίηση για αλλαγή στις δραστηριότητές μας στη Ρωσία",
+      "url": "https://sofokleous10.gr/2026/11/05/coca-cola-hbc-%CE%B4%CE%B5%CE%BD-%CE%BB%CE%AC%CE%B2%CE%B1%CE%BC%CE%B5-%CE%BA%CE%B1%CE%BC%CE%AF%CE%B1-%CE%B5%CE%B9%CE%B4%CE%BF%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7-%CE%B3%CE%B9%CE%B1-%CE%B1%CE%BB%CE%BB/",
+      "published_at": "20261105T220000Z",
+      "source": "sofokleous10.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_17f2a4183f26bc85",
+      "headline": "九年赴约 深耕中国  全勤生  的进博之约|展位",
+      "url": "https://www.163.com/dy/article/LB0HVA4C05346RC6.html",
+      "published_at": "20261106T020000Z",
+      "source": "163.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d88e637909e8c6ec",
+      "headline": "Why a part - time international MBA is a practical choice for professionals",
+      "url": "https://japantoday.com/category/special-promotion/why-a-part-time-international-mba-is-a-practical-choice-for-professionals",
+      "published_at": "20261106T013000Z",
+      "source": "japantoday.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a1d778148fc5519e",
+      "headline": "Davide Tamburella : Italian chef loses unfair dismissal case after refusing to put pineapple on pizza",
+      "url": "https://www.smh.com.au/business/workplace/insult-to-my-culture-italian-chef-sacked-after-refusing-to-put-pineapple-on-pizza-20261106-p61bxj.html",
+      "published_at": "20261106T010000Z",
+      "source": "smh.com.au",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a3dc085f791ac85e",
+      "headline": "213 rakyat Malaysia ditahan di luar negara disyaki jadi keldai dadah",
+      "url": "https://www.utusan.com.my/berita/2026/11/213-rakyat-malaysia-ditahan-di-luar-negara-disyaki-jadi-keldai-dadah-2/",
+      "published_at": "20261106T010000Z",
+      "source": "utusan.com.my",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cca28be88d6a7d45",
+      "headline": "Украина : между расчетами Вашингтона и проверкой европейского лидерства ( Al Khaleej , ОАЭ )",
+      "url": "https://inosmi.ru/20261105/podderzhka-281008443.html",
+      "published_at": "20261105T220000Z",
+      "source": "inosmi.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3d684454657ca06e",
+      "headline": "Ескалация във Франция : Сълзотворен газ , пожари и над 1 милион на протест срещу високите разходи за живот",
+      "url": "https://www.vesti.bg/sviat/eskalaciia-vyv-franciia-sylzotvoren-gaz-pozhari-i-nad-1-milion-na-protest-sreshtu-visokite-razhodi-za-zhivot-6275464",
+      "published_at": "20261105T220000Z",
+      "source": "vesti.bg",
+      "tags": []
+    },
+    {
+      "id": "gdelt_dfd38d250fc16b8c",
+      "headline": "Harga Minyak Dunia Melonjak 3 , 88 Persen , Brent Kembali Dekati US$ 100",
+      "url": "https://www.beritasatu.com/ekonomi/3039096/harga-minyak-dunia-melonjak-388-persen-brent-kembali-dekati-us-100",
+      "published_at": "20261106T020000Z",
+      "source": "beritasatu.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b69484528fcee762",
+      "headline": "Judge hammers Trump DOJ with the president own words as contempt charge looms",
+      "url": "https://www.rawstory.com/trump-iran-2678302960/",
+      "published_at": "20261106T010000Z",
+      "source": "rawstory.com",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_3d804cf184e9a5d0",
+      "headline": "Удары по нефтеперерабатывающим заводам России – почему Путин скрыл данные об объемах нефтепереработки",
+      "url": "https://24tv.ua/ru/udary-po-neftepererabatyvajushhim-zavodam-rossii-pochemu-putin-skryl-dannye-ob-obemah-neftepererabotki_n3174413",
+      "published_at": "20261106T013000Z",
+      "source": "24tv.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_49735615b54d2c91",
+      "headline": "Davide Tamburella : Italian chef loses unfair dismissal case after refusing to put pineapple on pizza",
+      "url": "https://www.watoday.com.au/business/workplace/insult-to-my-culture-italian-chef-sacked-after-refusing-to-put-pineapple-on-pizza-20261106-p61bxj.html",
+      "published_at": "20261106T010000Z",
+      "source": "watoday.com.au",
+      "tags": []
+    },
+    {
+      "id": "gdelt_978fd9c2b06f27ac",
+      "headline": "Davide Tamburella : Italian chef loses unfair dismissal case after refusing to put pineapple on pizza",
+      "url": "https://www.brisbanetimes.com.au/business/workplace/insult-to-my-culture-italian-chef-sacked-after-refusing-to-put-pineapple-on-pizza-20261106-p61bxj.html",
+      "published_at": "20261106T010000Z",
+      "source": "brisbanetimes.com.au",
+      "tags": []
+    },
+    {
+      "id": "gdelt_84f7bd409d61107c",
+      "headline": "Ngamuk di Tribun Stadion Gegara Spanduk Karhutla , Oki Rengga : Aku Hampir Dibunuh Pemerintah Gara - gara Ini !",
+      "url": "https://www.viva.co.id/gaya-hidup/showbiz/1941411-ngamuk-di-tribun-stadion-gegara-spanduk-karhutla-oki-rengga-aku-hampir-dibunuh-pemerintah-gara-gara-ini",
+      "published_at": "20261105T220000Z",
+      "source": "viva.co.id",
+      "tags": []
+    },
+    {
+      "id": "gdelt_978ee41abdd5d6d2",
+      "headline": "జైపాల్‌రెడ్డి పేరుతో జిల్లా ? | Telangana New District Jaipal Reddy Future City District Proposal",
+      "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/telangana-new-district-jaipal-reddy-future-city-district-proposal-1573760.html",
+      "published_at": "20261105T233000Z",
+      "source": "andhrajyothy.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9e6f5deb11e48e97",
+      "headline": "Το Ιράν απέστειλε στις ΗΠΑ πρόταση για το πυρηνικό του πρόγραμμα",
+      "url": "https://www.in.gr/2026/11/05/world/to-iran-apesteile-stis-ipa-protasi-gia-to-pyriniko-tou-programma/",
+      "published_at": "20261105T220000Z",
+      "source": "in.gr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_b8a498e8791c5ab5",
+      "headline": "Jeanine Pirro Reportedly Makes Major Move in Hunt for Supreme Court Infamous Leaker",
+      "url": "https://redstate.com/terichristoph/2026/11/05/doj-reportedly-ramps-up-criminal-probe-into-infamous-supreme-court-leak-n2209082",
+      "published_at": "20261105T220000Z",
+      "source": "redstate.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_958151d5c4309b67",
+      "headline": "Pilotprojekt in München – Warum es Media Markt besser geht als anderen Handelsketten",
+      "url": "http://www.tz.de/muenchen/stadt/altstadt-lehel-ort43327/pilotprojekt-in-muenchen-warum-es-media-markt-besser-geht-als-anderen-handelsketten-94576331.html",
+      "published_at": "20261105T220000Z",
+      "source": "tz.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1286ef59a302365c",
+      "headline": "Конгрес за демократами : що чекає на економіку США",
+      "url": "https://www.dw.com/uk/ak-vpline-peremoga-dempartii-na-viborah-do-kongresu-na-ekonomiku-ssa/a-79866875",
+      "published_at": "20261105T223000Z",
+      "source": "dw.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ff8609fb392ad4cb",
+      "headline": "Italian chef sacked for refusing to put pineapple on pizza , says it insulted his culture",
+      "url": "https://www.vanguardngr.com/2026/11/italian-chef-sacked-for-refusing-to-put-pineapple-on-pizza-says-it-insulted-his-culture/",
+      "published_at": "20261105T220000Z",
+      "source": "vanguardngr.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_df11cf845042d9bb",
+      "headline": "EE . UU . sanciona a diez objetivos vinculados  a la élite cubana  y amplía las restricciones a sectores clave de la dictadura",
+      "url": "https://www.ntn24.com/noticias-actualidad/ee-uu-sanciona-a-diez-objetivos-vinculados-a-la-elite-cubana-y-amplia-las-restricciones-a-sectores-clave-de-la-dictadura-663986",
+      "published_at": "20261105T223000Z",
+      "source": "ntn24.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3efaaae170f481f5",
+      "headline": "איראן עוד על הפרק : צה  ל ממתין לראות לאן נושבת הרוח בוושינגטון",
+      "url": "https://www.ynet.co.il/news/article/yokra14950309",
+      "published_at": "20261106T013000Z",
+      "source": "ynet.co.il",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3c71f8c66d4a7009",
+      "headline": "Мелания Трамп призвала выбирать  человечность вместо войны  на встрече с официальными лицами Украины и России ( Reuters , Великобритания )",
+      "url": "https://inosmi.ru/20261105/melaniya-281012531.html",
+      "published_at": "20261105T220000Z",
+      "source": "inosmi.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_55c041f12e72ff2c",
+      "headline": "Украина : Россия увеличивает дальность ракет и усиливает их боевые части ( Business Insider , Германия )",
+      "url": "https://inosmi.ru/20261105/rakety-281011278.html",
+      "published_at": "20261105T220000Z",
+      "source": "inosmi.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5f9da25c57c11a01",
+      "headline": "Românii care și - au închis balcoanele fără autorizație pot sta liniștiți ? Ce a decis ministrul dezvoltării",
+      "url": "https://www.libertatea.ro/stiri/ministrul-dezvoltarii-clarifica-situatia-balcoanelor-inchise-fara-autorizatie-nimeni-nu-plati-impozit-dublu-taxe-md6931y",
+      "published_at": "20261106T020000Z",
+      "source": "libertatea.ro",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4df6d0b9b4186aa6",
+      "headline": "Va schimba câștigarea alegerilor intermediare din SUA de către democrați calculele lui Putin privind Ucraina ?",
+      "url": "https://ziare.com/razboi-ucraina/va-schimba-castigarea-algerilor-democrati-calculele-lui-putin-privind-conflictul-2045899",
+      "published_at": "20261106T010000Z",
+      "source": "ziare.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5911c2274a03d06e",
+      "headline": "Savet EU : Održan Ministarski forum EU – Zapadni Balkan o pravosuđu i unutrašnjim poslovima u Budvi",
+      "url": "https://www.danas.rs/svet/savet-eu-ministarski-forum-eu-balkan/",
+      "published_at": "20261105T220000Z",
+      "source": "danas.rs",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c61f41f11f827afd",
+      "headline": "After Foreign Investor Drumroll , Bulls Put Up a Festival of Might",
+      "url": "https://economictimes.indiatimes.com/et-front/after-foreign-investors-drumroll-bulls-put-up-a-festival-of-might/articleshow/135587256.cms",
+      "published_at": "20261106T020000Z",
+      "source": "economictimes.indiatimes.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7e9f32b3a1f51858",
+      "headline": "Trumpová věří , že příměří v Oleškách může být počátkem míru na Ukrajině",
+      "url": "https://www.ceskenoviny.cz/zpravy/trumpova-veri-ze-primeri-v-oleskach-muze-byt-pocatkem-miru-na-ukrajine-/2897575",
+      "published_at": "20261105T233000Z",
+      "source": "ceskenoviny.cz",
+      "tags": []
     }
   ]
 }
