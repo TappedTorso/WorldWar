@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-06T23:04:54Z",
+    "generated_at_utc": "2026-11-07T02:46:25Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -14,25 +14,26 @@
       },
       {
         "name": "tripwire",
-        "status": "ok",
+        "status": "error",
+        "error": "rate_limited status=429",
         "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 2,
+        "fetched": 4,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 26,
+            "items": 25,
             "kept": 1
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 1
+            "kept": 3
           },
           {
             "outlet": "France 24",
@@ -43,8 +44,8 @@
         ]
       }
     ],
-    "fetched_articles": 2,
-    "previous_event_count": 107,
+    "fetched_articles": 4,
+    "previous_event_count": 2,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -65,6 +66,25 @@
       "source": "BBC News",
       "tags": [
         "IRAN"
+      ]
+    },
+    {
+      "id": "rss_280a5048393d8557",
+      "headline": "MTG warns Miller-Wiles shakeup will sink Republican chances in 2028",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/aje-onl-nf_mtg-warns-white-house-shakeup-sink-republican-2028-061126?traffic_source=rss",
+      "published_at": "2026-11-07T00:21:49Z",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_d819107cffacbb78",
+      "headline": "Iran war live: Qatar says US, Iran should not wait to reach a peace deal",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal?traffic_source=rss",
+      "published_at": "2026-11-07T00:00:00Z",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN",
+        "QATAR"
       ]
     },
     {
