@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-08T00:33:16Z",
-    "provider": "GDELT_DOC_API",
-    "status": "partial",
+    "generated_at_utc": "2026-11-08T07:17:04Z",
+    "provider": "RSS_FALLBACK",
+    "status": "ok-fallback",
     "timespan": "6h",
     "max_events": 120,
     "streams": [
@@ -15,11 +15,36 @@
       {
         "name": "tripwire",
         "status": "ok",
-        "fetched": 56
+        "fetched": 0
+      },
+      {
+        "name": "rss_fallback",
+        "status": "ok",
+        "fetched": 9,
+        "feeds": [
+          {
+            "outlet": "BBC News",
+            "status": "ok",
+            "items": 25,
+            "kept": 2
+          },
+          {
+            "outlet": "Al Jazeera",
+            "status": "ok",
+            "items": 25,
+            "kept": 6
+          },
+          {
+            "outlet": "France 24",
+            "status": "ok",
+            "items": 24,
+            "kept": 1
+          }
+        ]
       }
     ],
-    "fetched_articles": 56,
-    "previous_event_count": 120,
+    "fetched_articles": 9,
+    "previous_event_count": 56,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -33,481 +58,85 @@
   },
   "events": [
     {
-      "id": "gdelt_c02b549dcd51ac38",
-      "headline": "Демократи в Конгресі США готують пакет допомоги Україні на $15 мільярдів",
-      "url": "https://www.ukrinform.ua/rubric-polytics/4182534-demokrati-v-kongresi-ssa-gotuut-paket-dopomogi-ukraini-na-15-milardiv-ft.html",
-      "published_at": "20261107T220000Z",
-      "source": "ukrinform.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_53bd5a782f6ef23d",
-      "headline": "صحف إسرائيلية : إيران بين حسابات نتنياهو وأزمات ترمب",
-      "url": "https://www.aljazeera.net/politics/2026/11/7/%D8%B5%D8%AD%D9%81-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%A8%D9%8A%D9%86-%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA",
-      "published_at": "20261107T190000Z",
-      "source": "aljazeera.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ea4d7e392c54220d",
-      "headline": "Демократи розглядають новий пакет військової допомоги Україні на суму приблизно $15 млрд – FT",
-      "url": "https://gordonua.com/ukr/section-war/news-demokraty-rozhlyadayut-novyy-paket-viyskovoyi-dopomohy-ukrayini-na-sumu-blyzko-15-mlrd-ft-07-11-2026.html",
-      "published_at": "20261108T000000Z",
-      "source": "gordonua.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9404fd72fc8f3000",
-      "headline": "Syria rules out troop deployment to Yemen , says military ties with Saudi Arabia could expand",
-      "url": "https://timesofindia.indiatimes.com/world/middle-east/syria-rules-out-troop-deployment-to-yemen-says-military-ties-with-saudi-arabia-could-expand/articleshow/135643192.cms",
-      "published_at": "20261107T190000Z",
-      "source": "timesofindia.indiatimes.com",
+      "id": "rss_f7a82c42338b1886",
+      "headline": "Houthis say at least 33 killed in Saudi air strike",
+      "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-08T04:03:12Z",
+      "source": "BBC News",
       "tags": [
-        "SYRIA",
-        "YEMEN",
         "SAUDI_ARABIA"
       ]
     },
     {
-      "id": "gdelt_623a96479215ba05",
-      "headline": "Guerre au Soudan : des réseaux de recrutement transfrontaliers inquiètent dans la Corne de lAfrique …",
-      "url": "https://senego.com/guerre-au-soudan-des-reseaux-de-recrutement-transfrontaliers-inquietent-dans-la-corne-de-lafrique_2021515.html",
-      "published_at": "20261108T000000Z",
-      "source": "senego.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ce1a1dc471e9c7e4",
-      "headline": "Німеччина вичерпала можливості передачі ППО Patriot Україні - Пісторіус",
-      "url": "https://news.bigmir.net/ua/world/10462166-nimechchina-vicherpala-mozhlivosti-peredachi-ppo-patriot-ukrayini-pistorius",
-      "published_at": "20261107T190000Z",
-      "source": "news.bigmir.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f046a49753663d19",
-      "headline": "قطر والسعودية تبحثان تعزيز الأمن والاستقرار بالمنطقة",
-      "url": "https://www.aljazeera.net/news/2026/11/7/%D9%82%D8%B7%D8%B1-%D9%88%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%AA%D8%A8%D8%AD%D8%AB%D8%A7%D9%86-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%A3%D9%85%D9%86",
-      "published_at": "20261107T190000Z",
-      "source": "aljazeera.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3cfb7835b5eca572",
-      "headline": "ZIMRA sniffer dog detects guns , ammunition concealed inside bus at Beitbridge Border Post , driver taken into custody",
-      "url": "https://www.newzimbabwe.com/zimra-sniffer-dog-detects-guns-ammunition-concealed-inside-bus-at-beitbridge-border-post-driver-taken-into-custody/",
-      "published_at": "20261107T220000Z",
-      "source": "newzimbabwe.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2156be87f6b5c670",
-      "headline": "కాగితాలకే పరిమితమైన బాణసంచా ఆంక్షలు",
-      "url": "https://www.eenadu.net/telugu-news/districts/delhi-news/664/126202880",
-      "published_at": "20261107T220000Z",
-      "source": "eenadu.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_456f100d8a1fa0c5",
-      "headline": "美 , 이란 무기 등 육상운송 차단 TF 신설 … 군사력 재건 제한",
-      "url": "https://www.fnnews.com/news/202611080501430264",
-      "published_at": "20261108T000000Z",
-      "source": "fnnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3679a2bf92b36c6e",
-      "headline": "Trump Says U . S . Strikes on Iran Destroyed Air Defense System in  Minutes",
-      "url": "https://www.breitbart.com/politics/2026/11/07/trump-u-s-carried-out-minor-strikes-iran-destroyed-anti-aircraft-system-minutes/",
-      "published_at": "20261107T220000Z",
-      "source": "breitbart.com",
+      "id": "rss_1dce0c8fd2570720",
+      "headline": "US offers $20m reward for information about Iran's nuclear programme",
+      "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-07T18:14:38Z",
+      "source": "BBC News",
       "tags": [
         "IRAN"
       ]
     },
     {
-      "id": "gdelt_ceabad9953633376",
-      "headline": "קולות פיצוצים בדרום איראן : דיווחים על תקיפה סמוך להורמוז",
-      "url": "https://www.walla.co.il:443/news/world/383960449",
-      "published_at": "20261107T220000Z",
-      "source": "walla.co.il",
+      "id": "rss_35a90d5cc15e8be2",
+      "headline": "Haitians cheer El Salvador’s Bukele amid gang war",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/haitians-cheer-el-salvadors-bukele-amid-gang-war?traffic_source=rss",
+      "published_at": "2026-11-08T05:09:39Z",
+      "source": "Al Jazeera",
       "tags": []
     },
     {
-      "id": "gdelt_9eb8179e49316f13",
-      "headline": "إيران مباشر .. واشنطن تشكل قوة مهام جديدة والحرس الثوري يتوعد برد  مزلزل  | أخبار",
-      "url": "https://www.aljazeera.net/news/liveblog/2026/11/8/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-%D9%88%D8%A7%D8%B4%D9%86%D8%B7%D9%86-%D8%AA%D8%B4%D9%83%D9%84-%D9%82%D9%88%D8%A9-%D9%85%D9%87%D8%A7%D9%85-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9",
-      "published_at": "20261107T220000Z",
-      "source": "aljazeera.net",
+      "id": "rss_8c21ffb5699564ca",
+      "headline": "Drone attack on Colombian army base kills three soldiers and wounds 16",
+      "url": "https://www.aljazeera.com/news/2026/11/8/drone-attack-on-colombian-army-base-kills-three-soldiers-and-wounds-16?traffic_source=rss",
+      "published_at": "2026-11-08T04:56:37Z",
+      "source": "Al Jazeera",
       "tags": []
     },
     {
-      "id": "gdelt_d9facdf2f7bd21cc",
-      "headline": "DMK flays govt . decision to remit money in lieu of distributing rice to ration cardholders in U . T .",
-      "url": "https://www.thehindu.com/news/cities/puducherry/dmk-flays-govts-decision-to-remit-money-in-lieu-of-distributing-rice-to-ration-cardholders-in-ut/article71677629.ece",
-      "published_at": "20261107T220000Z",
-      "source": "thehindu.com",
+      "id": "rss_c18bf199371f1511",
+      "headline": "Canary Islands’ El Hierro declares emergency amid migrant, refugee influx",
+      "url": "https://www.aljazeera.com/news/2026/11/8/canary-islands-el-hierro-declares-emergency-amid-migrant-refugee-influx?traffic_source=rss",
+      "published_at": "2026-11-08T01:37:55Z",
+      "source": "Al Jazeera",
       "tags": []
     },
     {
-      "id": "gdelt_514f999262918714",
-      "headline": "ZAHAROVA JASNIJA NEGO IKADA : Raspoređivanje stranih vojnih kontingenata na teritoriji Ukrajine kategorički neprihvatljivo za Moskvu",
-      "url": "https://www.novosti.rs/planeta/svet/1669112/zaharova-jasnija-nego-ikada-rasporedjivanje-stranih-vojnih-kontingenata-teritoriji-ukrajine-kategoricki-neprihvatljivo-moskvu",
-      "published_at": "20261107T220000Z",
-      "source": "novosti.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c0c01d32f58b2fd8",
-      "headline": "నగరాన్ని కమ్మేసిన కాలుష్య మేఘాలు",
-      "url": "https://www.eenadu.net/telugu-news/districts/delhi-news/664/126202881",
-      "published_at": "20261107T220000Z",
-      "source": "eenadu.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_637879505d6a3579",
-      "headline": "ఇరాన్‌పై వైట్‌హౌస్‌లో  యుద్ధం  | Trump Iran War Policy Divides White House Vance vs Hegseth",
-      "url": "https://www.andhrajyothy.com/2026/international/trump-iran-war-policy-divides-white-house-vance-vs-hegseth-1574394.html",
-      "published_at": "20261107T220000Z",
-      "source": "andhrajyothy.com",
+      "id": "rss_536ab7a8a51d4696",
+      "headline": "Iran war live: US moves to block land supply routes; UAE rescues 22 sailors",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes?traffic_source=rss",
+      "published_at": "2026-11-08T00:00:56Z",
+      "source": "Al Jazeera",
       "tags": [
-        "IRAN"
+        "IRAN",
+        "UAE"
       ]
     },
     {
-      "id": "gdelt_104ee546f4fb5f5b",
-      "headline": "تحركات سفن مرتبطة بإيران تثير مخاوف بشان أمن الاتصالات في الخليج",
-      "url": "https://www.aljazeera.net/ebusiness/2026/11/8/%D8%AA%D8%AD%D8%B1%D9%83%D8%A7%D8%AA-%D8%B3%D9%81%D9%86-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7%D8%A9-%D8%A8%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D8%AB%D9%8A%D8%B1-%D9%85%D8%AE%D8%A7%D9%88%D9%81",
-      "published_at": "20261107T220000Z",
-      "source": "aljazeera.net",
+      "id": "rss_44b3dce8686c46b7",
+      "headline": "Abdul El-Sayed slams Trump’s tariff war with Canada",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/abdul-el-sayed-slams-trumps-tariff-war-with-canada?traffic_source=rss",
+      "published_at": "2026-11-07T20:44:34Z",
+      "source": "Al Jazeera",
       "tags": []
     },
     {
-      "id": "gdelt_f6471f9ae50c7af8",
-      "headline": "Turkish Parliament Approves Defense Pact with Saudi Arabia and Pakistan",
-      "url": "https://www.breitbart.com/national-security/2026/11/06/turkish-parliament-approves-defense-pact-with-saudi-arabia-and-pakistan/",
-      "published_at": "20261107T190000Z",
-      "source": "breitbart.com",
-      "tags": [
-        "PAKISTAN",
-        "SAUDI_ARABIA"
-      ]
-    },
-    {
-      "id": "gdelt_7bd96c83248657a5",
-      "headline": "مصدر سوري ينفي إرسال قوات إلى اليمن",
-      "url": "https://www.hespress.com/%D8%B3%D9%88%D8%B1%D9%8A%D8%A7-%D8%AA%D9%86%D9%81%D9%8A-%D8%A5%D8%B1%D8%B3%D8%A7%D9%84-%D9%82%D9%88%D8%A7%D8%AA-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%8A%D9%85%D9%86-1836210.html",
-      "published_at": "20261107T190000Z",
-      "source": "hespress.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e2e8df36b143669b",
-      "headline": "Time . ai",
-      "url": "https://time.mk/ai/ebfeedc528/mk/",
-      "published_at": "20261107T220000Z",
-      "source": "time.mk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f877e25f794a9c9e",
-      "headline": "IRAN WAR WEEK 37 , day # 1 : is perpetual combat and chaos Krasnov jam ?",
-      "url": "https://www.dailykos.com/stories/2026/11/7/800124647/community/iran-war-week-37-day-1-is-perpetual-combat-and-chaos-krasnovs-jam/",
-      "published_at": "20261107T220000Z",
-      "source": "dailykos.com",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_ad042e063e336923",
-      "headline": "Trump Insists On Strait Of Hormuz Blockade , Claims  Nothing Is Going To Iran , No Oil Going There",
-      "url": "https://saharareporters.com/2026/11/07/trump-insists-strait-hormuz-blockade-claims-nothing-going-iran-no-oil-going-there",
-      "published_at": "20261107T220000Z",
-      "source": "saharareporters.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8ba2dcb45fee0af4",
-      "headline": "US Military Command Offers $20million Reward For Information On Iran Nuclear Programme",
-      "url": "https://saharareporters.com/2026/11/07/us-military-command-offers-20million-reward-information-irans-nuclear-programme",
-      "published_at": "20261107T220000Z",
-      "source": "saharareporters.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ae3868a6e0e07ba0",
-      "headline": "Man charged with murder of Limerick mother Carrie Mullane",
-      "url": "https://www.live95fm.ie/news/live95-news/man-charged-with-murder-of-limerick-mother-carrie-mullane/",
-      "published_at": "20261107T220000Z",
-      "source": "live95fm.ie",
-      "tags": []
-    },
-    {
-      "id": "gdelt_34b57513f893412d",
-      "headline": "BlackSeaNews | Європейські розвідки підозрюють спецслужби РФ у фальшивих мінуваннях авіації",
-      "url": "https://www.blackseanews.net/read/250232",
-      "published_at": "20261107T220000Z",
-      "source": "blackseanews.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c6b1c3d5d4208260",
-      "headline": "Αναβαθμισμένη η ρωσική αντιπροσωπεία στις συνομιλίες του Αμπού Ντάμπι",
-      "url": "https://www.euro2day.gr/news/world/article/2377153/anavathmismenh-h-rosikh-antiprosopeia-stis-synomil.html",
-      "published_at": "20261107T220000Z",
-      "source": "euro2day.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_89738def2d4c9340",
-      "headline": "Ядерный удар США по Ирану к чему это может привести для Украины",
-      "url": "https://glavred.info/war/rf-mozhet-poluchit-povod-dlya-yadernogo-udara-po-ukraine-nazvano-opasnoe-uslovie-10810256.html",
-      "published_at": "20261107T190000Z",
-      "source": "glavred.info",
+      "id": "rss_f73d880d67783998",
+      "headline": "Ukraine’s Zaporizhzhia faces threat as Russian drones close in",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/0711-reported-audrey-in-zaporizhzhia-071126?traffic_source=rss",
+      "published_at": "2026-11-07T20:10:38Z",
+      "source": "Al Jazeera",
       "tags": [
         "UKRAINE"
       ]
     },
     {
-      "id": "gdelt_68104fe2b0d26da8",
-      "headline": "[ 美선거 산업여파 ] ② 자동차 관세 부담 지속될 듯 … 전기차는 기대",
-      "url": "https://www.fnnews.com/news/202611080532096016",
-      "published_at": "20261108T000000Z",
-      "source": "fnnews.com",
+      "id": "rss_2fae710d0d85b01a",
+      "headline": "'A violent fighter and warrior': Trump offers press secretary role to UFC chief Dana White",
+      "url": "https://www.france24.com/en/americas/20261107-a-violent-fighter-and-warrior-trump-offers-press-secretary-role-to-ufc-chief-dana-white",
+      "published_at": "2026-11-07T20:45:45Z",
+      "source": "France 24",
       "tags": []
-    },
-    {
-      "id": "gdelt_98ef96ca6cc3f975",
-      "headline": "FT : Демократы после победы готовят новый пакет помощи Украине на $15 миллиардов",
-      "url": "https://news.mail.ru/politics/73011814/",
-      "published_at": "20261107T190000Z",
-      "source": "news.mail.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_87886b097d715a1c",
-      "headline": "وثائق مسربة تكشف توسع أعمال سيسكو مع الاستخبارات الإسرائيلية خلال حرب غزة | اقتصاد",
-      "url": "https://www.aljazeera.net/ebusiness/2026/11/7/%D9%88%D8%AB%D8%A7%D8%A6%D9%82-%D9%85%D8%B3%D8%B1%D8%A8%D8%A9-%D8%AA%D9%83%D8%B4%D9%81-%D8%AA%D9%88%D8%B3%D8%B9-%D8%A3%D8%B9%D9%85%D8%A7%D9%84-%D8%B3%D9%8A%D8%B3%D9%83%D9%88-%D9%85%D8%B9",
-      "published_at": "20261107T220000Z",
-      "source": "aljazeera.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_425820fb07110b9e",
-      "headline": "BlackSeaNews | Поставки трубопроводного газа из РФ в Турцию выросли в пять раз – Газпром",
-      "url": "https://www.blackseanews.net/read/250230",
-      "published_at": "20261107T220000Z",
-      "source": "blackseanews.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_629bad6b4f407626",
-      "headline": "Drone and missile attacks wound 9 in Ukraine",
-      "url": "https://www.mercurynews.com/2026/11/07/drone-and-missile-attacks-wound-9-as-ukraine-prepares-for-talks-with-russia-and-the-us/",
-      "published_at": "20261108T000000Z",
-      "source": "mercurynews.com",
-      "tags": [
-        "RUSSIA",
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "gdelt_9325130b12226ae7",
-      "headline": "Nóng trong tuần : Chính trường Mỹ đổi chiều ; đàm phán Mỹ",
-      "url": "https://baotintuc.vn/nong-trong-tuan-chinh-truong-my-doi-chieu-dam-phan-my-iran-tiep-tuc-be-tac-post1400818.html",
-      "published_at": "20261108T000000Z",
-      "source": "baotintuc.vn",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_e8d865e41550ea1d",
-      "headline": "ABDden İrana yeni hamle ! Hazar Denizi de hedefte",
-      "url": "https://mansethaber.com/dunya/abdden-irana-yeni-hamle-hazar-denizi-ve-kara-sinirlari-hedefte",
-      "published_at": "20261107T220000Z",
-      "source": "mansethaber.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4294c5c96ab9cd9d",
-      "headline": "Путин подкидывает Трампу  конфетку : Тышкевич о большой сделке за счет Европы",
-      "url": "https://opinions.glavred.info/putin-podkidyvaet-trampu-konfetku-tyshkevich-o-bolshoy-sdelke-za-schet-evropy-10809908.html",
-      "published_at": "20261107T190000Z",
-      "source": "opinions.glavred.info",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e7e920c56a240d42",
-      "headline": "Latin America Defense Monitor November 1 – 7 , 2026",
-      "url": "https://www.riotimesonline.com/latin-america-defense-monitor-november-1-7-2026/",
-      "published_at": "20261107T220000Z",
-      "source": "riotimesonline.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b47d743e7b739adc",
-      "headline": "Ко се боји зиме још : Европска унија улази у зиму без гаса али са – ватром на улицама",
-      "url": "https://sputnikportal.rs/20261107/ko-se-boji-zime-jos-evropska-unija-ulazi-u-zimu-bez-gasa-ali-sa--vatrom-na-ulicama-1205226460.html",
-      "published_at": "20261107T190000Z",
-      "source": "sputnikportal.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f56efaebe4c21559",
-      "headline": "Foreign Ministers agree to revive CEI Summit as Ukraine prepares to take up 2027 Presidency",
-      "url": "https://www.cei.int/news/11039/foreign-ministers-agree-to-revive-heads-of-government-summit-as-ukraine-prepares-to-take-up-2027",
-      "published_at": "20261107T190000Z",
-      "source": "cei.int",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "gdelt_84d39b506a23865f",
-      "headline": "В России предложили ввести стоматологическую страховку : новости 7 ноября - 7 ноября 2026",
-      "url": "https://161.ru/text/world/2026/11/07/76751557/",
-      "published_at": "20261107T190000Z",
-      "source": "161.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9740c984df4111e5",
-      "headline": "البحرين والعراق يبحثان هاتفيا تعزيز التعاون المشترك",
-      "url": "https://akhbaregy.com/2026/11/07/%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82-%D9%8A%D8%A8%D8%AD%D8%AB%D8%A7%D9%86-%D9%87%D8%A7%D8%AA%D9%81%D9%8A%D8%A7-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7/",
-      "published_at": "20261108T000000Z",
-      "source": "akhbaregy.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7a0d1c074fe68ff2",
-      "headline": "Oil tumbles as US midterm results raise hopes of Iran peace deal",
-      "url": "http://www.theusnews.com/news/279411615/oil-tumbles-as-us-midterm-results-raise-hopes-of-iran-peace-deal",
-      "published_at": "20261108T000000Z",
-      "source": "theusnews.com",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_61c0baa864b81281",
-      "headline": "Oil tumbles as US midterm results raise hopes of Iran peace deal",
-      "url": "http://www.coloradostar.com/news/279411615/oil-tumbles-as-us-midterm-results-raise-hopes-of-iran-peace-deal",
-      "published_at": "20261108T000000Z",
-      "source": "coloradostar.com",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "gdelt_c31f6c23306a0e39",
-      "headline": "Oil tumbles as US midterm results raise hopes of Iran peace deal",
-      "url": "http://www.sierraleonetimes.com/news/279411615/oil-tumbles-as-us-midterm-results-raise-hopes-of-iran-peace-deal",
-      "published_at": "20261108T000000Z",
-      "source": "sierraleonetimes.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6b112bda6844f41f",
-      "headline": "Oil tumbles as US midterm results raise hopes of Iran peace deal",
-      "url": "http://www.haitisun.com/news/279411615/oil-tumbles-as-us-midterm-results-raise-hopes-of-iran-peace-deal",
-      "published_at": "20261108T000000Z",
-      "source": "haitisun.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_42732882620a0e5e",
-      "headline": "Mnangagwa regime should learn from Smith what  nyika inovakwa nevene vayo  really means !",
-      "url": "https://www.thezimbabwean.co/2026/11/mnangagwa-regime-should-learn-from-smith-what-nyika-inovakwa-nevene-vayo-really-means/",
-      "published_at": "20261107T190000Z",
-      "source": "thezimbabwean.co",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c57f42772654e326",
-      "headline": "Ормузский пролив вновь вспыхнул : Два танкера с нефтью загорелись после подрыва на морских минах",
-      "url": "https://news.mail.ru/incident/73012641/",
-      "published_at": "20261107T220000Z",
-      "source": "news.mail.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bea383204aca49b0",
-      "headline": "وزير الصحة الفلسطيني : نشكر مصر والرئيس السيسي على دعمهم التاريخي .. الأوضاع الصحية في غزة والضفة بلغت مرحلة الانهيار",
-      "url": "https://akhbaregy.com/2026/11/07/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A-%D9%86%D8%B4%D9%83%D8%B1-%D9%85%D8%B5%D8%B1-%D9%88%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3/",
-      "published_at": "20261108T000000Z",
-      "source": "akhbaregy.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_134cdb565681b2b0",
-      "headline": "خالد شنيكات : ترامب يسعى لتسوية مقبولة مع طهران - أخبار مصر العروبة",
-      "url": "https://akhbaregy.com/2026/11/08/%D8%AE%D8%A7%D9%84%D8%AF-%D8%B4%D9%86%D9%8A%D9%83%D8%A7%D8%AA-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D9%8A%D8%B3%D8%B9%D9%89-%D9%84%D8%AA%D8%B3%D9%88%D9%8A%D8%A9-%D9%85%D9%82%D8%A8%D9%88%D9%84%D8%A9-%D9%85/",
-      "published_at": "20261108T000000Z",
-      "source": "akhbaregy.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f71dc91f3c9ebb70",
-      "headline": "„ Afrika  von Daniel Kehlmann : Darf man Trump als Arschloch bezeichnen ?",
-      "url": "https://www.profil.at/kultur/roman-buch-afrika-von-daniel-kehlmann-darf-man-trump-als-arschloch-bezeichnen/403203264",
-      "published_at": "20261107T190000Z",
-      "source": "profil.at",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2fc9366466a2154f",
-      "headline": "Donald Trump midterm blow : Why it spells danger for Albanese | The Area News",
-      "url": "https://www.areanews.com.au/story/9387452/donald-trump-midterm-blow-why-it-spells-danger-for-albanese/",
-      "published_at": "20261107T190000Z",
-      "source": "areanews.com.au",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7cb9d22a8b9b77f4",
-      "headline": "Donald Trump midterm blow : Why it spells danger for Albanese | Yass Tribune",
-      "url": "https://www.yasstribune.com.au/story/9387452/donald-trump-midterm-blow-why-it-spells-danger-for-albanese/",
-      "published_at": "20261107T220000Z",
-      "source": "yasstribune.com.au",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fdea3529d3621559",
-      "headline": "Donald Trump midterm blow : Why it spells danger for Albanese | Southern Highland News",
-      "url": "https://www.southernhighlandnews.com.au/story/9387452/donald-trump-midterm-blow-why-it-spells-danger-for-albanese/",
-      "published_at": "20261107T220000Z",
-      "source": "southernhighlandnews.com.au",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2d1e5a25cd2369b1",
-      "headline": "Donald Trump midterm blow : Why it spells danger for Albanese | Harden Murrumburrah Express",
-      "url": "https://www.hardenexpress.com.au/story/9387452/donald-trump-midterm-blow-why-it-spells-danger-for-albanese/",
-      "published_at": "20261107T220000Z",
-      "source": "hardenexpress.com.au",
-      "tags": []
-    },
-    {
-      "id": "gdelt_aca73c50e144b112",
-      "headline": "The Iran War Is as America First as It Gets",
-      "url": "https://jewlicious.com/2026/11/iran-war-america-first/",
-      "published_at": "20261108T000000Z",
-      "source": "jewlicious.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e17ea718e2c15a75",
-      "headline": "Missile attacks injure nine as Ukraine prepares for talks with Russia and the US",
-      "url": "https://www.malverngazette.co.uk/news/national/26708354.missile-attacks-injure-nine-ukraine-prepares-talks-russia-us/",
-      "published_at": "20261107T190000Z",
-      "source": "malverngazette.co.uk",
-      "tags": [
-        "RUSSIA",
-        "UKRAINE"
-      ]
     }
   ]
 }
