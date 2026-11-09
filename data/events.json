@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-08T23:40:58Z",
-    "provider": "GDELT_DOC_API",
-    "status": "partial",
+    "generated_at_utc": "2026-11-09T06:17:49Z",
+    "provider": "RSS_FALLBACK",
+    "status": "ok-fallback",
     "timespan": "6h",
     "max_events": 120,
     "streams": [
@@ -14,11 +14,37 @@
       },
       {
         "name": "tripwire",
+        "status": "error",
+        "error": "rate_limited status=429",
+        "fetched": 0
+      },
+      {
+        "name": "rss_fallback",
         "status": "ok",
-        "fetched": 120
+        "fetched": 6,
+        "feeds": [
+          {
+            "outlet": "BBC News",
+            "status": "ok",
+            "items": 27,
+            "kept": 2
+          },
+          {
+            "outlet": "Al Jazeera",
+            "status": "ok",
+            "items": 25,
+            "kept": 4
+          },
+          {
+            "outlet": "France 24",
+            "status": "ok",
+            "items": 24,
+            "kept": 0
+          }
+        ]
       }
     ],
-    "fetched_articles": 120,
+    "fetched_articles": 6,
     "previous_event_count": 120,
     "tagging": {
       "method": "string_match",
@@ -33,995 +59,63 @@
   },
   "events": [
     {
-      "id": "gdelt_de254db100b17705",
-      "headline": "В Сенате сделали важное заявление о возобновлении военной помощи США",
-      "url": "https://glavred.info/world/v-senate-sdelali-vazhnoe-zayavlenie-o-vozobnovlenii-voennoy-pomoshchi-ssha-ukraine-10810430.html",
-      "published_at": "20261108T183000Z",
-      "source": "glavred.info",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "gdelt_c6077442fcba137d",
-      "headline": "Сенатор - демократ Ричард Блюменталь – возобновление помощи Украине и усиление санкций против РФ",
-      "url": "https://www.obozrevatel.com/section-politics-news/news-trampu-potribni-novi-perehovornyky-senator-blyumental-zayavyv-shcho-pislya-vyboriv-u-ssha-sposterihayutsya-sylni-proukrayinski-nastroyi-08-11-2026.html",
-      "published_at": "20261108T183000Z",
-      "source": "obozrevatel.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c89a2b631aa0837c",
-      "headline": "Помощь Украине со стороны США – сенатор Блюменталь готовит законопроект",
-      "url": "https://24tv.ua/geopolitics/ru/pomoshh-ukraine-so-storony-ssha-senator-bljumental-gotovit-zakonoproekt_n3176316",
-      "published_at": "20261108T193000Z",
-      "source": "24tv.ua",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "gdelt_b1e0ea9018f40033",
-      "headline": "Сенатор демократ Річард Блюменталь – відновлення допомоги Україні та посилення санкцій проти РФ",
-      "url": "https://www.obozrevatel.com/ukr/section-politics-news/news-trampu-potribni-novi-perehovornyky-senator-blyumental-zayavyv-shcho-pislya-vyboriv-u-ssha-sposterihayutsya-sylni-proukrayinski-nastroyi-08-11-2026.html",
-      "published_at": "20261108T183000Z",
-      "source": "obozrevatel.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_45ac8c1b32070a40",
-      "headline": "В Белгородской области сообщили о гибели двух мирных жителей после атак беспилотников",
-      "url": "http://govoritmoskva.ru/news/511454/",
-      "published_at": "20261108T183000Z",
-      "source": "govoritmoskva.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cdd59bcca1ec77b5",
-      "headline": "Israeli defense establishment shocked by Trump aid cut off , details unclear",
-      "url": "http://www.jpost.com/israel-news/defense-news/article-914254",
-      "published_at": "20261108T183000Z",
-      "source": "jpost.com",
-      "tags": [
-        "ISRAEL"
-      ]
-    },
-    {
-      "id": "gdelt_6b10b2c6988efaa9",
-      "headline": "Россия провела большую ротацию в Херсонской области – гуманитарная миссия в Олешках – Зеленский",
-      "url": "https://war.obozrevatel.com/section-war/news-buly-zavedeni-dodatkovi-syly-zelenskyy-zayavyv-shcho-rosiya-provela-velyku-rotatsiyu-na-khersonshchyni-08-11-2026.html",
-      "published_at": "20261108T183000Z",
-      "source": "war.obozrevatel.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_66ad3cad82a69c16",
-      "headline": "Casas do Benfica dos EUA e Canadá reunidas : data especial junta 400 adeptos",
-      "url": "https://sapo.pt/artigo/casas-do-benfica-dos-eua-e-canada-reunidas-data-especial-junta-400-adeptos-6af0bf4959d2c5597941eab6",
-      "published_at": "20261108T193000Z",
-      "source": "sapo.pt",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8a5cd202268218a0",
-      "headline": "Bellignat . Après des mois dessais , ce centre réussit à recycler des plastiques non réutilisables",
-      "url": "https://www.leprogres.fr/economie/2026/11/08/apres-des-mois-d-essais-ce-centre-reussit-a-recycler-des-plastiques-non-reutilisables",
-      "published_at": "20261108T200000Z",
-      "source": "leprogres.fr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7bd5e980f1f2eed3",
-      "headline": "Έλλειμμα 7 δισ . ευρώ στη στρατιωτική βοήθεια του ΝΑΤΟ προς την Ουκρανία",
-      "url": "https://www.madata.gr/epikairotita/world/993236-elleimma-7-dis-eyro-sti-stratiotiki-voitheia-toy-nato-pros-tin-oykrania.html",
-      "published_at": "20261108T193000Z",
-      "source": "madata.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7b29b568e2e82aec",
-      "headline": "В России одобрили закон о наказании за опасное вождение как это повлияет на автолюбителей ?",
-      "url": "https://echo.msk.ru/news/avto/v-rossii-odobrili-zakon-o-nakazanii-za-opasnoe-vozhdenie-kak-eto-povliyaet-na-avtolyubiteley/",
-      "published_at": "20261108T203000Z",
-      "source": "echo.msk.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3e30c32819c6d050",
-      "headline": "Через « Верхний Ларс » временно запретили проезд большегрузных авто",
-      "url": "https://life.ru/p/cherez-verhniy-lars-vremenno-zapretili-proezd-bolshegruznyh-avto",
-      "published_at": "20261108T183000Z",
-      "source": "life.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0628afc18a0b4a33",
-      "headline": "« Трамп готовий змусити Київ капітулювати »: у The Guardian розкрили тривожний сценарій для України",
-      "url": "https://kontrakty.ua/article/301114",
-      "published_at": "20261108T193000Z",
-      "source": "kontrakty.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fba6031cce6b862c",
-      "headline": "Замир провел совещание из - за планов ХАМАС использовать зиму в Газе",
-      "url": "http://mignews.com/news/arabisrael/zamir-provel-soveshanie-iz-za-planov-hamas-ispolzovat-zimu-v-gaze.html",
-      "published_at": "20261108T210000Z",
-      "source": "mignews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cb0e72a1d1951743",
-      "headline": "Security , not sanctions : Building Israel security together with the haredim",
-      "url": "http://www.jpost.com/opinion/article-914187",
-      "published_at": "20261108T183000Z",
-      "source": "jpost.com",
-      "tags": [
-        "ISRAEL"
-      ]
-    },
-    {
-      "id": "gdelt_d8cb399f2aeab0ed",
-      "headline": "В США раскрыли , какой удар Трамп нанес Европе из - за России",
-      "url": "https://ria.ru/20261108/sdelka-2130172121.html",
-      "published_at": "20261108T193000Z",
-      "source": "ria.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_75097f6d117deb8a",
-      "headline": "Dimitrijević ( SDSM ): Mickoski omogućio Macuri da stekne većinski paket akcija u Alta banci Bitolj - Povezane vesti",
-      "url": "https://naslovi.net/tema/2603219",
-      "published_at": "20261108T193000Z",
-      "source": "naslovi.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_aa29a35f1a33346c",
-      "headline": "Russia Attacks Ukraine Rescue Site Where 55 Died In Bomb Strike , Leaves Over 600 , 000 Without Electricity , Zelenskyy Says",
-      "url": "https://saharareporters.com/2026/11/08/russia-attacks-ukraine-rescue-site-where-55-died-bomb-strike-leaves-over-600000-without",
-      "published_at": "20261108T210000Z",
-      "source": "saharareporters.com",
-      "tags": [
-        "RUSSIA",
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "gdelt_7bade68210f2876f",
-      "headline": "Ультраправа партія « АдН » хоче провести в Абу - Дабі саміт США та росії без участі України",
-      "url": "https://wz.lviv.ua/news/561586-ultraprava-partiia-adn-khoche-provesty-v-abu-dabi-samit-ssha-ta-rosii-bez-uchasti-ukrainy",
-      "published_at": "20261108T193000Z",
-      "source": "wz.lviv.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_69170286d9891089",
-      "headline": "В Госдуме предложили штрафовать за выброшенных питомцев на 30 тысяч рублей",
-      "url": "https://sib.fm:443/news/2026/11/08/v-gosdume-predlozhili-shtrafovat-za-vybroshennyh-pitomtsev-na-30-tysyach-rublej",
-      "published_at": "20261108T183000Z",
-      "source": "sib.fm",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b8d53706100f03be",
-      "headline": "Аракчи заявил , что предложение Ирана по Ормузу остается в силе",
-      "url": "https://ria.ru/20261108/iran-2130168177.html",
-      "published_at": "20261108T183000Z",
-      "source": "ria.ru",
+      "id": "rss_186c5e710920903f",
+      "headline": "Iran executes three men for 'armed unrest' after January protests",
+      "url": "https://www.bbc.co.uk/news/articles/ckly0ex633ydo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-08T13:37:50Z",
+      "source": "BBC News",
       "tags": [
         "IRAN"
       ]
     },
     {
-      "id": "gdelt_fd4d47e16e24a5ee",
-      "headline": "Танкер подорвался на мине в Ормузском проливе",
-      "url": "https://ria.ru/20261108/tanker-2130167999.html",
-      "published_at": "20261108T183000Z",
-      "source": "ria.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4a3713ab25c38063",
-      "headline": "Liberman 2018 haredi draft law explained and compared",
-      "url": "http://www.jpost.com/israel-election-2026/article-914231",
-      "published_at": "20261108T183000Z",
-      "source": "jpost.com",
-      "tags": [
-        "ISRAEL"
-      ]
-    },
-    {
-      "id": "gdelt_583174e7c6a05146",
-      "headline": "Dimitrijević ( SDSM ): Mickoski omogućio Macuri da stekne većinski paket akcija u Alta banci Bitolj",
-      "url": "https://naslovi.net/2026-11-08/snm/dimitrijevic-sdsm-mickoski-omogucio-macuri-da-stekne-vecinski-paket-akcija-u-alta-banci-bitolj/42583495",
-      "published_at": "20261108T193000Z",
-      "source": "naslovi.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_0976630202c5861e",
-      "headline": "双普的柴油协议黄了 ， 原来拜登早就挖好了坑",
-      "url": "https://www.wenxuecity.com/news/2026/11/08/126830127.html",
-      "published_at": "20261108T183000Z",
-      "source": "wenxuecity.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_986b6c5dacc44894",
-      "headline": "Чикагский профессор рассказал , как его подставила нейросеть Claude",
-      "url": "https://www.vesti.ru/ns/chikagskij-professor-rasskazal-kak-ego-podstavila-nejroset-claude",
-      "published_at": "20261108T203000Z",
-      "source": "vesti.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_39bbd5d8bdcca343",
-      "headline": "تراجع معظم البورصات الخليجية وسط ترقب تطورات التوتر الأمريكي الإيراني",
-      "url": "https://sana.sy/economy/2629735/",
-      "published_at": "20261108T210000Z",
-      "source": "sana.sy",
-      "tags": []
-    },
-    {
-      "id": "gdelt_175ced3a55f4706c",
-      "headline": "اندلاع حريق محدود في مستشفى سوهاج العام .. وتسجيل عدة إصابات بالاختناق",
-      "url": "https://www.shorouknews.com/news/view.aspx?cdate=08112026&id=f56bbc59-80cb-4cef-9232-4e28806e0083",
-      "published_at": "20261108T210000Z",
-      "source": "shorouknews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_389ecf98b3b0738b",
-      "headline": "ליברמן , בשביל הצלת המדינה אפשר לשבת עם רע  מ - מכתבים למערכת",
-      "url": "https://www.haaretz.co.il/opinions/letters/2026-11-08/ty-article-opinion/.premium/000001a1-bacd-d2e9-a5f5-bbfd476b0000",
-      "published_at": "20261108T183000Z",
-      "source": "haaretz.co.il",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f736069a3522bda6",
-      "headline": "Tens of thousands march in Amsterdam , pressing the Dutch government on Gaza and Israel",
-      "url": "https://www.aol.com/articles/tens-thousands-march-amsterdam-pressing-150409000.html",
-      "published_at": "20261108T193000Z",
-      "source": "aol.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_518b55a26a210999",
-      "headline": "Берлін назвав загальну суму підтримки України",
-      "url": "https://ua.korrespondent.net/business/financial/4927063-berlin-nazvav-zahalnu-sumu-pidtrymky-ukrainy",
-      "published_at": "20261108T203000Z",
-      "source": "ua.korrespondent.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_15d31308fa4179b6",
-      "headline": "سعر الذهب اليوم الأحد 8 نوفمبر 2026 .. عيار 24 بدون مصنعية بـ7109 جنيهات",
-      "url": "https://www.youm7.com/story/2026/11/8/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%AD%D8%AF-8-%D9%86%D9%88%D9%81%D9%85%D8%A8%D8%B1-2026-%D8%B9%D9%8A%D8%A7%D8%B1-24-%D8%A8%D8%AF%D9%88%D9%86/7610721",
-      "published_at": "20261108T203000Z",
-      "source": "youm7.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c18e2192bd33e28a",
-      "headline": "ആയുധങ്ങൾ സജ്ജമാക്കി അമേരിക്കയും ഇറാനും ; പശ്ചിമേഷ്യയിൽ യുദ്ധഭീതി ഒഴിയുന്നില്ല | US and Iran Prepare for Potential War Amid Escalating Tensions",
-      "url": "https://www.manoramanews.com/gulf-and-global/latest/2026/11/08/us-iran-war-updates-middle-east-crisis.html",
-      "published_at": "20261108T183000Z",
-      "source": "manoramanews.com",
+      "id": "rss_1dce0c8fd2570720",
+      "headline": "US offers $20m reward for information about Iran's nuclear programme",
+      "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-11-07T18:14:38Z",
+      "source": "BBC News",
       "tags": [
         "IRAN"
       ]
     },
     {
-      "id": "gdelt_e7b666b969ab26ed",
-      "headline": "Trump says return to Iran war  highly unlikely  if talks advance – Middle East Monitor",
-      "url": "https://www.middleeastmonitor.com/20261108-trump-says-return-to-iran-war-highly-unlikely-if-talks-advance/",
-      "published_at": "20261108T193000Z",
-      "source": "middleeastmonitor.com",
+      "id": "rss_a47453302ac7f9c7",
+      "headline": "Rubio says war on Iran unpopular but ‘necessary’ to stop nuclear threat",
+      "url": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss",
+      "published_at": "2026-11-09T04:02:18Z",
+      "source": "Al Jazeera",
       "tags": [
         "IRAN"
       ]
     },
     {
-      "id": "gdelt_f3fe1a97763ab63d",
-      "headline": "سعر الذهب اليوم الأحد 8 نوفمبر 2026 .. عيار 21 بدون مصنعية بـ6220 جنيه",
-      "url": "https://www.youm7.com/story/2026/11/8/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%AD%D8%AF-8-%D9%86%D9%88%D9%81%D9%85%D8%A8%D8%B1-2026-%D8%B9%D9%8A%D8%A7%D8%B1-21-%D8%A8%D8%AF%D9%88%D9%86/7610711",
-      "published_at": "20261108T183000Z",
-      "source": "youm7.com",
+      "id": "rss_9a241ed3db5b69bd",
+      "headline": "Drone attack on Iraqi Kurdistan gas field triggers mass blackout",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
+      "published_at": "2026-11-09T02:23:11Z",
+      "source": "Al Jazeera",
       "tags": []
     },
     {
-      "id": "gdelt_286b9c61bded7bf4",
-      "headline": "« عقب‌نشینی آمریکا » یا روایت زودهنگام از یک توافق ؟",
-      "url": "https://news.gooya.com/2026/11/post-114821.php",
-      "published_at": "20261108T203000Z",
-      "source": "news.gooya.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ca723a6bdd299cbb",
-      "headline": "Integrao de sistemas como o Pix aumenta em 4 % comércio bilateral , diz Banco Central europeu",
-      "url": "https://www.bahianoticias.com.br/folha/noticia/416023-integracao-de-sistemas-como-o-pix-aumenta-em-4-comercio-bilateral-diz-banco-central-europeu",
-      "published_at": "20261108T210000Z",
-      "source": "bahianoticias.com.br",
-      "tags": []
-    },
-    {
-      "id": "gdelt_798592db05f769f3",
-      "headline": "Аракчи : Ирански предлог о Ормуском мореузу и даље је на снази",
-      "url": "https://www.politika.rs/scc/clanak/801027/arakci-iranski-predlog-o-ormuskom-moreuzu-i-dalje-je-na-snazi",
-      "published_at": "20261108T210000Z",
-      "source": "politika.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b768cf23d6dbc6fd",
-      "headline": "Europe to join U . S .- brokered Ukraine talks in Abu Dhabi , defying Kremlin objections",
-      "url": "https://www.capeandislands.org/2026-11-08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
-      "published_at": "20261108T203000Z",
-      "source": "capeandislands.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f3724e9f221a0108",
-      "headline": "Linea ferroviaria Ventimiglia Monaco Nizza | interruzione totale della circolazione ferroviaria il 10 e l  11 novembre a causa di lavori di ammodernamento dei binari gestiti da SNCF Réseau",
-      "url": "https://www.zazoom.it/2026-11-08/linea-ferroviaria-ventimiglia-monaco-nizza-interruzione-totale-della-circolazione-ferroviaria-il-10-e-l11-novembre-a-causa-di-lavori-di-ammodernamento-dei-binari-gestiti-da-sncf-reseau/19903590/",
-      "published_at": "20261108T183000Z",
-      "source": "zazoom.it",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6a9a68fca292f90d",
-      "headline": "США розширять блокаду Ірану на сухопутні кордони та Каспійське море , - Reuters",
-      "url": "https://kontrakty.ua/article/301115",
-      "published_at": "20261108T193000Z",
-      "source": "kontrakty.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_11ff2b37c737743d",
-      "headline": "اندلاع حريق بمصنع نسيج بالعاشر من رمضان والحماية المدنية تحاول إخماده ( صور )",
-      "url": "https://www.vetogate.com/5766911",
-      "published_at": "20261108T203000Z",
-      "source": "vetogate.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_31635fe14f953a28",
-      "headline": "Da li je ovo razlog zašto Zelenski ne želi mir ? Šok optužbe iz Rusije pred pregovore u Abu Dabiju",
-      "url": "https://informer.rs/planeta/vesti/1168044/da-li-je-ovo-razlog-zasto-zelenski-ne-zeli-mir-sok-optuzbe-iz-rusije-pred-pregovore-u-abu-dabiju",
-      "published_at": "20261108T183000Z",
-      "source": "informer.rs",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6f08378ad0d1190e",
-      "headline": "60 ألف جندي و3 حاملات طائرات .. ما الجديد في الحشد الأمريكي قرب إيران ؟ | سياسة",
-      "url": "https://www.aljazeera.net/politics/2026/11/8/60-%D8%A3%D9%84%D9%81-%D8%AC%D9%86%D8%AF%D9%8A-%D9%883-%D8%AD%D8%A7%D9%85%D9%84%D8%A7%D8%AA-%D8%B7%D8%A7%D8%A6%D8%B1%D8%A7%D8%AA-%D9%85%D8%A7-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-%D9%81%D9%8A",
-      "published_at": "20261108T193000Z",
-      "source": "aljazeera.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_40c7cdd5021e3a84",
-      "headline": "Government makes  substantially improved  pay offer to public sector unions",
-      "url": "https://www.irishmirror.ie/news/irish-news/politics/government-makes-substantially-improved-pay-37856096",
-      "published_at": "20261108T210000Z",
-      "source": "irishmirror.ie",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c9e881caf938b4cc",
-      "headline": "Amsterdamda dördüncü  Kırmızı Çizgi  gösterisine 200 binden fazla kişi katıldı",
-      "url": "https://www.sondakika.com/guncel/haber-amsterdam-da-gazze-icin-yuruyen-200-binden-fazla-k-20408209/",
-      "published_at": "20261108T210000Z",
-      "source": "sondakika.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cf72e2438d69f8e6",
-      "headline": "Berühmtes Aramco - Hochhaus : Huthis treffen Saudi - Arabien mit Raketen ins Herz",
-      "url": "https://www.stuttgarter-zeitung.de/politik/aramco-hochhaus-huthis-greifen-saudi-arabien-an-79678480.html",
-      "published_at": "20261108T183000Z",
-      "source": "stuttgarter-zeitung.de",
+      "id": "rss_d8ac461a3b320681",
+      "headline": "Drone attack suspends production at Iraq’s Khor Mor gasfield",
+      "url": "https://www.aljazeera.com/news/2026/11/9/drone-attack-suspends-production-at-iraqs-khor-mor-gasfield?traffic_source=rss",
+      "published_at": "2026-11-09T01:19:09Z",
+      "source": "Al Jazeera",
       "tags": [
-        "SAUDI_ARABIA"
+        "IRAQ"
       ]
     },
     {
-      "id": "gdelt_866dc3c682188186",
-      "headline": "США разрешили поставки ускорителей Nvidia H200 китайским компаниям , которых , похоже , даже не существует",
-      "url": "https://www.ixbt.com/news/2026/11/08/ssa-razresili-postavki-uskoritelei-nvidia-h200-kitaiskim-kompaniiam-kotoryx-poxoze-daze-ne-sushhestvuet.html",
-      "published_at": "20261108T183000Z",
-      "source": "ixbt.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ff0f7b27eadf537e",
-      "headline": "Ακρίβεια στην αγορά : Πού καταγράφονται χαμηλότερες και υψηλότερες τιμές - Νέες ανατιμήσεις",
-      "url": "https://www.thebest.gr/article/851522-ereuna-poia-proionta-polountai-fthinotera-kai-poia-akribotera-anisuchia-gia-nees-anatimiseis",
-      "published_at": "20261108T210000Z",
-      "source": "thebest.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a15926debc8a5a99",
-      "headline": "Man Arrested After Standoff with Police in Northwest Santa Maria",
-      "url": "https://www.noozhawk.com/man-arrested-after-standoff-in-northwest-santa-maria/",
-      "published_at": "20261108T203000Z",
-      "source": "noozhawk.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_119c2b174e95641b",
-      "headline": "У Берліні чоловік замінив прапор Німеччини на палестинський перед будівлею Рейхстагу",
-      "url": "https://wz.lviv.ua/news/561590-u-berlini-cholovik-zaminyv-prapor-nimechchyny-na-palestynskyi-pered-budivleiu-reikhstahu",
-      "published_at": "20261108T193000Z",
-      "source": "wz.lviv.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2e2f74c250869eee",
-      "headline": "Глава МИД Ирана Аракчи пообещал США « ад » в случае выбора войны",
-      "url": "https://life.ru/p/obrushim-na-vas-ad-iran-vystupil-s-groznym-preduprezhdeniem-v-adres-trampa",
-      "published_at": "20261108T183000Z",
-      "source": "life.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bd5db6f752b9210b",
-      "headline": "بدعم من  التنسيّقي .. الحكيم وحمودي يقودان  وساطة عاجلة  لاحتواء التوتر بين الزيدي والكتائب – كتابات",
-      "url": "https://kitabat.com/news/%D8%A8%D8%AF%D8%B9%D9%85-%D9%85%D9%86-%D8%A7%D9%84%D8%AA%D9%86%D8%B3%D9%8A%D9%91%D9%82%D9%8A-%D8%A7%D9%84%D8%AD%D9%83%D9%8A%D9%85-%D9%88%D8%AD%D9%85%D9%88%D8%AF%D9%8A-%D9%8A%D9%82%D9%88%D8%AF/",
-      "published_at": "20261108T183000Z",
-      "source": "kitabat.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fda0d83924b63ae2",
-      "headline": "Iran sends nuclear proposal via Qatar : How Doha emerged as a key mediator between US , Iran after distancing itself",
-      "url": "https://www.livemint.com/news/world/iran-sends-nuclear-proposal-via-qatar-how-doha-emerged-as-a-key-mediator-between-us-iran-after-distancing-itself-11794110111854.html",
-      "published_at": "20261108T183000Z",
-      "source": "livemint.com",
+      "id": "rss_c9c492c2172573d7",
+      "headline": "Iran war live: Trump to talk to Xi, Putin about Tehran, ‘denuclearisation’",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq?traffic_source=rss",
+      "published_at": "2026-11-09T00:00:34Z",
+      "source": "Al Jazeera",
       "tags": [
-        "QATAR"
+        "IRAN",
+        "IRAQ"
       ]
-    },
-    {
-      "id": "gdelt_1e97cbb047d2fd7d",
-      "headline": "Thông tin mới liên quan giấy phép lái xe , người dân cần biết",
-      "url": "https://kenh14.vn/thong-tin-moi-lien-quan-giay-phep-lai-xe-nguoi-dan-can-biet-215261108224310197.chn",
-      "published_at": "20261108T183000Z",
-      "source": "kenh14.vn",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4aab383694b89dc8",
-      "headline": "الأردن يشدد عقوبات الإرهاب .. الحبس 15 عاماً وتدابير رقابية بعد الإفراج",
-      "url": "https://www.okaz.com.sa/politics/na/2274602",
-      "published_at": "20261108T203000Z",
-      "source": "okaz.com.sa",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cf6b8cfc5a138a10",
-      "headline": "Штрафы за клаксон : Тель - Авив внедрил систему контроля за шумом на дорогах",
-      "url": "http://mignews.com/news/economics/shtrafy-za-klakson-tel-aviv-vnedril-sistemu-kontrolya-za-shumom-na-dorogah.html",
-      "published_at": "20261108T210000Z",
-      "source": "mignews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f67931daea0871d4",
-      "headline": "В Карелии на АЗС  Роснефти  снова ввели лимиты на топливо",
-      "url": "https://profile.ru/news/society/v-karelii-na-azs-rosnefti-snova-vveli-limity-na-toplivo-a999-1921575/",
-      "published_at": "20261108T193000Z",
-      "source": "profile.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4332ccdd9551a15c",
-      "headline": "涉收中資參選里長 台共黨主席林德旺被押",
-      "url": "https://www.epochtimes.com/b5/26/11/8/n14885518.htm",
-      "published_at": "20261108T203000Z",
-      "source": "epochtimes.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_fbac61ddec53ee27",
-      "headline": "Socialdemócrata denuncia crisis social sin precedentes en Francia",
-      "url": "https://www.prensa-latina.cu/2026/11/08/socialdemocrata-denuncia-crisis-social-sin-precedentes-en-francia/",
-      "published_at": "20261108T193000Z",
-      "source": "prensa-latina.cu",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ab386a5841baad9c",
-      "headline": "Interligao de sistemas como o Pix eleva comércio - 08 / 11 / 2026 - Economia",
-      "url": "https://www1.folha.uol.com.br/mercado/2026/11/integracao-de-sistemas-como-o-pix-aumenta-em-4-comercio-bilateral-diz-banco-central-europeu.shtml",
-      "published_at": "20261108T183000Z",
-      "source": "folha.uol.com.br",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2ea3d69c4dd2d27d",
-      "headline": "В Германии хотят провести саммит с США и РФ , но без Украины – партия АдГ – Le Monde",
-      "url": "https://www.obozrevatel.com/section-politics-news/news-nimetski-ultrapravi-zahovory-pro-samit-iz-ssha-ta-rf-na-yakyy-ne-poklychut-ukrayinu-le-monde-08-11-2026.html",
-      "published_at": "20261108T183000Z",
-      "source": "obozrevatel.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f21745f72daab9af",
-      "headline": "يعتبر ترمب أخفق في وعوده .. لواء بـ  جيش  الاحتلال يؤكد أي هجوم على إيران سيجرّ  إسرائيل  إلى كارثة – كتابات",
-      "url": "https://kitabat.com/news/%D9%8A%D8%B9%D8%AA%D8%A8%D8%B1-%D8%AA%D8%B1%D9%85%D8%A8-%D8%A3%D8%AE%D9%81%D9%82-%D9%81%D9%8A-%D9%88%D8%B9%D9%88%D8%AF%D9%87-%D9%84%D9%88%D8%A7%D8%A1-%D8%A8%D9%80%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84/",
-      "published_at": "20261108T183000Z",
-      "source": "kitabat.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_11089518ed1b0e10",
-      "headline": "V Amsterdamu več sto tisoč ljudi od vlade zahtevalo ukrepe zoper Izrael",
-      "url": "https://www.rtvslo.si/svet/evropa/v-amsterdamu-vec-sto-tisoc-ljudi-od-vlade-zahtevalo-ukrepe-zoper-izrael/799452",
-      "published_at": "20261108T203000Z",
-      "source": "rtvslo.si",
-      "tags": []
-    },
-    {
-      "id": "gdelt_7c4b622b097fef62",
-      "headline": "Nahost - Liveblog : Eisenkot : Israel „ an extrem gefährlichem Punkt  - Politik",
-      "url": "https://www.sueddeutsche.de/politik/liveblog-nahost-israel-eisenkot-regierungsbildung-notstand-li.3571386",
-      "published_at": "20261108T183000Z",
-      "source": "sueddeutsche.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f332f80d4dc60d96",
-      "headline": "„ Im selben Hotel übernachtet : Regina Halmich wird erneut von Stalker verfolgt",
-      "url": "https://www.focus.de/kultur/stars/im-selben-hotel-uebernachtet-regina-halmich-wird-erneut-von-stalker-verfolgt_cd791a93-5616-4c6f-919f-3d87c03f9421.html",
-      "published_at": "20261108T210000Z",
-      "source": "focus.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5c18624bab3b2361",
-      "headline": "Завершення війни в Україні - Кушнер хоче відновити Раду Росія – НАТО – Washington Post",
-      "url": "https://www.obozrevatel.com/ukr/section-politics-news/news-kushner-khoche-vidnovyty-radu-rosiya-nato-ale-yevropa-ne-v-zakhvati-wp-08-11-2026.html",
-      "published_at": "20261108T183000Z",
-      "source": "obozrevatel.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_af86525059d110cd",
-      "headline": "Rijade smogta finansų rajonui , apgadintas „ Aramco  dangoraižis",
-      "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3108048/rijade-smogta-finansu-rajonui-apgadintas-aramco-dangoraizis",
-      "published_at": "20261108T183000Z",
-      "source": "lrt.lt",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bf081b386922a60d",
-      "headline": "ترامب يستبعد تجدد الحرب مع إيران .. ويكشف : 3 حاملات طائرات أمريكية في المنطقة جاهزة للتحرك",
-      "url": "https://www.elwatannews.com/news/details/8392805",
-      "published_at": "20261108T190000Z",
-      "source": "elwatannews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_5fc28ddb413d0ee7",
-      "headline": "Завершение войны в Украине – Кушнер хочет восстановить Совет Россия – НАТО – Washington Post",
-      "url": "https://www.obozrevatel.com/section-politics-news/news-kushner-khoche-vidnovyty-radu-rosiya-nato-ale-yevropa-ne-v-zakhvati-wp-08-11-2026.html",
-      "published_at": "20261108T183000Z",
-      "source": "obozrevatel.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_45e8347243a147db",
-      "headline": "Bitcoinvestcloud . com Review : Is It A Scam ? - The Quiet Revolution",
-      "url": "https://blog.udn.com:443/a6750689/192735876",
-      "published_at": "20261108T210000Z",
-      "source": "blog.udn.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b855dc0f75080977",
-      "headline": "Hundreds of thousands join Amsterdam  Red Line  protest against Israel | Israel - Palestine conflict News",
-      "url": "https://www.aljazeera.com/news/2026/11/8/hundreds-of-thousands-protesters-storm-amsterdam",
-      "published_at": "20261108T210000Z",
-      "source": "aljazeera.com",
-      "tags": [
-        "PALESTINE"
-      ]
-    },
-    {
-      "id": "gdelt_698324f7728d9a80",
-      "headline": "إيران تهدّد باستهداف منشآت أمريكية خارج القواعد العسكرية في المنطقة ... واستمرار الوساطة القطرية",
-      "url": "https://www.alquds.co.uk/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D9%87%D8%AF%D9%91%D8%AF-%D8%A8%D8%A7%D8%B3%D8%AA%D9%87%D8%AF%D8%A7%D9%81-%D9%85%D9%86%D8%B4%D8%A2%D8%AA-%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9-%D8%AE%D8%A7/",
-      "published_at": "20261108T193000Z",
-      "source": "alquds.co.uk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f56a5707c3605e9d",
-      "headline": "Iran Caspian Sea trade route is of great strategic significance",
-      "url": "http://www.jpost.com/middle-east/iran-news/article-914229",
-      "published_at": "20261108T183000Z",
-      "source": "jpost.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_26057d068a84f3ca",
-      "headline": "العجارمة : تعديلات  منع الإرهاب  قد تفرض عقوبات سجن تصل إلى 100 عام | شرق وغرب",
-      "url": "https://www.ammonnews.net/article/1043415",
-      "published_at": "20261108T210000Z",
-      "source": "ammonnews.net",
-      "tags": []
-    },
-    {
-      "id": "gdelt_8cddb8ea4a6e5a2f",
-      "headline": "US - Israel - Iran Conflict : Key Updates UAE Residents Need to Know on November 8",
-      "url": "https://gulfnews.com/world/mena/usisrael-iran-war-what-uae-residents-should-know-this-evening-november-8-1.500740446",
-      "published_at": "20261108T190000Z",
-      "source": "gulfnews.com",
-      "tags": [
-        "UAE"
-      ]
-    },
-    {
-      "id": "gdelt_c32695c59b461a1b",
-      "headline": "川普伊朗戰爭陷入兩難 - 南山乌鸦发表于 时事述评 - 论坛",
-      "url": "https://bbs.wenxuecity.com/currentevent/4101882.html",
-      "published_at": "20261108T183000Z",
-      "source": "bbs.wenxuecity.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b44ed762194a0412",
-      "headline": "Τραμπ για Ιράν : « Εξαιρετικά απίθανα » νέα πλήγματα , αλλά « είμαστε έτοιμοι »",
-      "url": "https://www.kathimerini.gr/world/564576265/tramp-gia-iran-exairetika-apithana-nea-pligmata-alla-eimaste-etoimoi/",
-      "published_at": "20261108T210000Z",
-      "source": "kathimerini.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4edbdeb482e67722",
-      "headline": "El - Sayed : Democrats will work with Trump if  he wants to act serious",
-      "url": "https://www.aol.com/articles/el-sayed-democrats-trump-wants-182005000.html",
-      "published_at": "20261108T193000Z",
-      "source": "aol.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_07630659fefddd05",
-      "headline": "Aussie restaurant goes to war over pizza stoush",
-      "url": "https://www.realcommercial.com.au/news/aussie-restaurant-goes-to-war-over-pizza-stoush",
-      "published_at": "20261108T183000Z",
-      "source": "realcommercial.com.au",
-      "tags": []
-    },
-    {
-      "id": "gdelt_10c9d9c7686a077f",
-      "headline": "Перехват Орешника Киев готовит серийное производство систем",
-      "url": "https://glavred.info/war/perehvat-oreshnika-v-kosmose-ukraina-razrabatyvaet-novuyu-zashchitu-ot-raket-10810448.html",
-      "published_at": "20261108T183000Z",
-      "source": "glavred.info",
-      "tags": []
-    },
-    {
-      "id": "gdelt_46790f4104dc0b9c",
-      "headline": "A Growing Manatee Death Toll in Waters Shared with Mexico",
-      "url": "https://www.greaterbelize.com/a-growing-manatee-death-toll-in-waters-shared-with-mexico/",
-      "published_at": "20261108T183000Z",
-      "source": "greaterbelize.com",
-      "tags": [
-        "MEXICO"
-      ]
-    },
-    {
-      "id": "gdelt_7b2ac0d1a1b3f8c4",
-      "headline": "CNN : Сближение Трампа с Россией ослабило санкционное давление Запада",
-      "url": "https://news.mail.ru/politics/73019906/",
-      "published_at": "20261108T203000Z",
-      "source": "news.mail.ru",
-      "tags": []
-    },
-    {
-      "id": "gdelt_15bb9132af63f706",
-      "headline": "Οπισθοχώρηση (;) Τραμπ για Ιράν : Εξαιρετικά απίθανη μια νέα στρατιωτική επέμβαση",
-      "url": "https://www.news247.gr/kosmos/opisthoxorisi-trab-gia-iran-exairetika-apithani-mia-nea-stratiotiki-epemvasi/",
-      "published_at": "20261108T200000Z",
-      "source": "news247.gr",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c3cdf71dcd6873ad",
-      "headline": "Hakeem Jeffries wird wohl Speaker im Repräsentantenhaus . Ist er der richtige dafür ?",
-      "url": "https://www.sueddeutsche.de/politik/usa-hakeem-jeffries-speaker-repraesentantenhaus-donald-trump-stephen-miller-li.3575716",
-      "published_at": "20261108T183000Z",
-      "source": "sueddeutsche.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_4a7f11b0db028759",
-      "headline": "Why Putin Wont Just Make Peace",
-      "url": "https://roarnews.co.uk/2026/why-putin-wont-just-make-peace/",
-      "published_at": "20261108T183000Z",
-      "source": "roarnews.co.uk",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f115477f915b9812",
-      "headline": "Trump says renewed attacks on Iran  highly unlikely  if talks show progress | Politics",
-      "url": "https://www.kten.com/news/politics/trump-says-renewed-attacks-on-iran-highly-unlikely-if-talks-show-progress/article_6795fc34-6d02-5473-9bbd-1460e64657b2.html",
-      "published_at": "20261108T183000Z",
-      "source": "kten.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9e0413d333c0de33",
-      "headline": "Франція представлятиме Європу на переговорах у Абу - Дабі · h . ua",
-      "url": "https://h.ua/2026/11/08/frantsiia-predstavytatyme-ievropu-na-pergovorakh-abu-dabi",
-      "published_at": "20261108T183000Z",
-      "source": "h.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_422b1a4278a451d9",
-      "headline": "Arab News | Trump says he is highly unlikely to order Iran strikes if talks progress",
-      "url": "https://www.arabnews.com/middle-east/trump-says-he-is-highly-unlikely-to-order-iran-strikes-if-talks-progress-3010577",
-      "published_at": "20261108T210000Z",
-      "source": "arabnews.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_503dc1cd92f34bf0",
-      "headline": "Trump says he is highly unlikely to order Iran strikes if talks progress",
-      "url": "https://www.dailymaverick.co.za/article/2026-11-08-trump-says-he-is-highly-unlikely-to-order-iran-strikes-if-talks-progress/",
-      "published_at": "20261108T210000Z",
-      "source": "dailymaverick.co.za",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3a1c0ee10e465b9c",
-      "headline": "Minedu oficializa nuevas reglas de disciplina : colegios podrán expulsar tras tres suspensiones",
-      "url": "https://larepublica.pe/sociedad/2026/11/08/minedu-oficializa-nuevas-reglas-de-disciplina-colegios-podran-expulsar-tras-tres-suspensiones-615800",
-      "published_at": "20261108T193000Z",
-      "source": "larepublica.pe",
-      "tags": []
-    },
-    {
-      "id": "gdelt_cb4419e82a8ce556",
-      "headline": "OPEN DOOR : Eisenkot Receives Mandate and Challenges Likud and Religious Zionism to Join His Government",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2620471/open-door-eisenkot-receives-mandate-and-challenges-likud-and-religious-zionism-to-join-his-government.html",
-      "published_at": "20261108T183000Z",
-      "source": "theyeshivaworld.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6e63982af652eefe",
-      "headline": "Made in yerine ; Made with yaklaşımı",
-      "url": "https://www.cnnturk.com/yazarlar/guncel/prof-dr-murat-ferman/made-in-yerine-made-with-yaklasimi-3490656",
-      "published_at": "20261108T193000Z",
-      "source": "cnnturk.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_3a8b7027ef46efe4",
-      "headline": "Vooral de VVD , Booking en Jetten moeten het ontgelden tijdens vierde Rode Lijn - protest :  Ik vind de premier slap",
-      "url": "https://www.nrc.nl/nieuws/2026/11/08/tijdens-vierde-rode-lijn-protest-klinkt-ook-kritiek-op-jetten-die-eerder-zelf-meeliep-ik-vind-de-premier-wel-een-beetje-slap-a4940703",
-      "published_at": "20261108T193000Z",
-      "source": "nrc.nl",
-      "tags": []
-    },
-    {
-      "id": "gdelt_17c2cba6b9299d87",
-      "headline": "Hollandada binlerce insan Gazze eylemine katıldı",
-      "url": "https://www.habervitrini.com/haber/hollandada-binlerce-insan-gazze-eylemine-katildi-1794159912938",
-      "published_at": "20261108T210000Z",
-      "source": "habervitrini.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_319d071eb7b0cc27",
-      "headline": "WTI Crude Oil : How Durable Is the Calm Behind the Sell - Off ?",
-      "url": "https://www.dailyforex.com/forex-technical-analysis/2026/11/wti-crude-oil-forecast-8-november-2026/251559",
-      "published_at": "20261108T193000Z",
-      "source": "dailyforex.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_f69e85f7dbbf9e7d",
-      "headline": "دونالد ترامپ می‌گوید اگر مذاکرات پیشرفت کند ، ازسرگیری حمله به ایران « بسیار بعید » است",
-      "url": "https://www.radiofarda.com/a/trump-says-elections-were-giant-step-back-in-history-for-us/33893298.html",
-      "published_at": "20261108T190000Z",
-      "source": "radiofarda.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_94730c31cf470d8a",
-      "headline": "Кушнер запропонував відновити діалог Європи та РФ за зразком Ради НАТО - Росія , - WP",
-      "url": "https://kontrakty.ua/article/301117",
-      "published_at": "20261108T193000Z",
-      "source": "kontrakty.ua",
-      "tags": []
-    },
-    {
-      "id": "gdelt_d173fec3e43ec91c",
-      "headline": "Russia targets emergency crews at the site of a deadly strike in southern Ukraine",
-      "url": "https://www.adn.com/nation-world/2026/11/08/russia-targets-emergency-crews-at-the-site-of-a-deadly-strike-in-southern-ukraine/",
-      "published_at": "20261108T193000Z",
-      "source": "adn.com",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "gdelt_9ca219157801ca89",
-      "headline": "Torah study , haredim , and the misconception of a conscription law",
-      "url": "http://www.jpost.com/opinion/article-913807",
-      "published_at": "20261108T183000Z",
-      "source": "jpost.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2e5021059f272354",
-      "headline": "Europe to join U . S .- brokered Ukraine talks in Abu Dhabi , defying Kremlin objections",
-      "url": "https://www.aspenpublicradio.org/2026-11-08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
-      "published_at": "20261108T203000Z",
-      "source": "aspenpublicradio.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_61c7c13f54429c4f",
-      "headline": "Europe to join U . S .- brokered Ukraine talks in Abu Dhabi , defying Kremlin objections",
-      "url": "https://www.kawc.org/npr-news/2026-11-08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
-      "published_at": "20261108T203000Z",
-      "source": "kawc.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ca99fa17d3ff8063",
-      "headline": "Europe to join U . S .- brokered Ukraine talks in Abu Dhabi , defying Kremlin objections",
-      "url": "https://www.wknofm.org/news-from-npr/2026-11-08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
-      "published_at": "20261108T203000Z",
-      "source": "wknofm.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_ff4d58fa432cd720",
-      "headline": "Europe to join U . S .- brokered Ukraine talks in Abu Dhabi , defying Kremlin objections",
-      "url": "https://kansaspublicradio.org/npr-news/2026-11-08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
-      "published_at": "20261108T203000Z",
-      "source": "kansaspublicradio.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_2e642631053cb3c1",
-      "headline": "Europe to join U . S .- brokered Ukraine talks in Abu Dhabi , defying Kremlin objections",
-      "url": "https://radio.wpsu.org/2026-11-08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
-      "published_at": "20261108T203000Z",
-      "source": "radio.wpsu.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_729db4d67ebd4e03",
-      "headline": "Europe to join U . S .- brokered Ukraine talks in Abu Dhabi , defying Kremlin objections",
-      "url": "https://www.kpcw.org/npr-news/2026-11-08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
-      "published_at": "20261108T203000Z",
-      "source": "kpcw.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9140f58f53c2e37a",
-      "headline": "Europe to join U . S .- brokered Ukraine talks in Abu Dhabi , defying Kremlin objections",
-      "url": "https://www.wuft.org/2026-11-08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
-      "published_at": "20261108T210000Z",
-      "source": "wuft.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_e90bf4cfda2df7df",
-      "headline": "Europe to join U . S .- brokered Ukraine talks in Abu Dhabi , defying Kremlin objections",
-      "url": "https://www.wncw.org/2026-11-08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
-      "published_at": "20261108T210000Z",
-      "source": "wncw.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_a10ef4f44e345ce1",
-      "headline": "Europe to join U . S .- brokered Ukraine talks in Abu Dhabi , defying Kremlin objections",
-      "url": "https://www.wlrn.org/npr-breaking-news/2026-11-08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
-      "published_at": "20261108T210000Z",
-      "source": "wlrn.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_b60f6957e1a003a7",
-      "headline": "Europe to join U . S .- brokered Ukraine talks in Abu Dhabi , defying Kremlin objections",
-      "url": "https://www.wuwf.org/2026-11-08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
-      "published_at": "20261108T210000Z",
-      "source": "wuwf.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_84f408ee951f4ff8",
-      "headline": "Europe to join U . S .- brokered Ukraine talks in Abu Dhabi , defying Kremlin objections",
-      "url": "https://www.whqr.org/2026-11-08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
-      "published_at": "20261108T210000Z",
-      "source": "whqr.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_6781508f23b6458d",
-      "headline": "Europe to join U . S .- brokered Ukraine talks in Abu Dhabi , defying Kremlin objections",
-      "url": "https://www.kvnf.org/npr-news/2026-11-08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
-      "published_at": "20261108T210000Z",
-      "source": "kvnf.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_45ae0f3aaa5a6ca6",
-      "headline": "Europe to join U . S .- brokered Ukraine talks in Abu Dhabi , defying Kremlin objections",
-      "url": "https://www.wxxinews.org/npr-news/2026-11-08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections",
-      "published_at": "20261108T210000Z",
-      "source": "wxxinews.org",
-      "tags": []
-    },
-    {
-      "id": "gdelt_dc80fd25803ab295",
-      "headline": "蓝潮过后 - 伊战还能体面结束吗 ？ - 诚哥发表于 时事述评 - 论坛",
-      "url": "https://bbs.wenxuecity.com/currentevent/4101644.html",
-      "published_at": "20261108T183000Z",
-      "source": "bbs.wenxuecity.com",
-      "tags": []
-    },
-    {
-      "id": "gdelt_34a3ef12f74a2d6d",
-      "headline": "Armata americană pregătește în Florida un grup pentru blocarea rutelor terestre și a tranzitului prin Marea Caspică către Iran",
-      "url": "https://business24.ro/iran/grup-militar-american-blocare-tranzit-caspica-iran-1674106",
-      "published_at": "20261108T183000Z",
-      "source": "business24.ro",
-      "tags": []
-    },
-    {
-      "id": "gdelt_25d3050b9628194e",
-      "headline": "Parandalohet një ngjarje kriminale në Vlorë , arrestohet 34 - vjeçari që tentoi të nxirrte armë gjatë një konflikti",
-      "url": "https://telegraf.al/aktualitet/parandalohet-nje-ngjarje-kriminale-ne-vlore-arrestohet-34-vjecari-qe-tentoi-te-nxirrte-arme-gjate-nje-konflikti/",
-      "published_at": "20261108T193000Z",
-      "source": "telegraf.al",
-      "tags": []
-    },
-    {
-      "id": "gdelt_9e630b95be99dacf",
-      "headline": "EU - Music : Musik verbindet Eupen und Aachen über Grenzen hinweg",
-      "url": "https://brf.be/regional/2124103/",
-      "published_at": "20261108T183000Z",
-      "source": "brf.be",
-      "tags": []
-    },
-    {
-      "id": "gdelt_dfa1ebee463ea651",
-      "headline": "Ukraine - Krieg im Liveticker : +++ 19 : 45 Selenskyj : Russland nutzte humanitäre Operation für Personalwechsel +++",
-      "url": "https://www.n-tv.de/politik/19-45-Selenskyj-Russland-nutzte-humanitaere-Operation-fuer-Personalwechsel-id30859357.html",
-      "published_at": "20261108T193000Z",
-      "source": "n-tv.de",
-      "tags": []
-    },
-    {
-      "id": "gdelt_c38007c74ad0a938",
-      "headline": "ДАН - Veliki protest u Amsterdamu : Građani od vlade zahtijevaju odlučnije postupanje prema Izraelu",
-      "url": "https://www.dan.co.me/globus/evropa/veliki-protest-u-amsterdamu-gradani-od-vlade-zahtijevaju-odlucnije-postupanje-prema-izraelu/",
-      "published_at": "20261108T210000Z",
-      "source": "dan.co.me",
-      "tags": []
-    },
-    {
-      "id": "gdelt_bf802cff4b453483",
-      "headline": "特朗普  赶走  了内塔尼亚胡 _ 腾讯新闻",
-      "url": "https://news.qq.com/rain/a/20261108A0BVNS00",
-      "published_at": "20261108T193000Z",
-      "source": "news.qq.com",
-      "tags": []
     }
   ]
 }
