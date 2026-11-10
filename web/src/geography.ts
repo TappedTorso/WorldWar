@@ -1,6 +1,40 @@
 import type { Feature, FeatureCollection, Geometry } from "geojson";
 import type { Contest, ResearchItem } from "./types";
 import { geoArea } from "d3-geo";
+
+// These labels belong to the bundled Natural Earth display geometry. Join from
+// stable reporting codes, never a source author's country spelling. Missing
+// small/disputed features stay available in filters rather than invented shapes.
+const worldGeometryLabels: Record<string, string> = {
+  US: "United States of America",
+  TR: "Turkey",
+  CD: "Dem. Rep. Congo",
+  CG: "Congo",
+  SS: "S. Sudan",
+  DO: "Dominican Rep.",
+  EH: "W. Sahara",
+  BA: "Bosnia and Herz.",
+  MK: "Macedonia",
+  SB: "Solomon Is.",
+  FK: "Falkland Is.",
+  TF: "Fr. S. Antarctic Lands",
+  CF: "Central African Rep.",
+  GQ: "Eq. Guinea",
+  PS: "Palestine",
+  SZ: "eSwatini",
+  CI: "Côte d'Ivoire",
+  MM: "Myanmar",
+};
+const regionLabels = new Intl.DisplayNames(["en"], { type: "region" });
+export function worldGeometryName(code: string): string {
+  if (worldGeometryLabels[code]) return worldGeometryLabels[code];
+  try {
+    return regionLabels.of(code) || code;
+  } catch {
+    return code;
+  }
+}
+
 export interface JoinedDistrict {
   feature: Feature<Geometry>;
   item: ResearchItem;

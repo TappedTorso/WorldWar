@@ -88,12 +88,27 @@ export function date(value: unknown, precision?: unknown) {
       }).format(d);
 }
 export function recordDate(record: BaseRecord): string | null {
+  if (record.date_precision === "unknown" && (record.occurred_start || record.started_at))
+    return null;
   return (record.occurred_start ||
     record.started_at ||
     record.result_as_of ||
     record.as_of ||
     record.valid_from ||
     null) as string | null;
+}
+export function recordInterval(record: BaseRecord): { start: string; end: string } | null {
+  const start = recordDate(record)?.slice(0, 10);
+  if (!start) return null;
+  if (record.date_precision === "month") {
+    const month = start.slice(0, 7);
+    const year = Number(month.slice(0, 4)), number = Number(month.slice(5, 7));
+    if (!year || number < 1 || number > 12) return null;
+    const last = new Date(Date.UTC(year, number, 0)).getUTCDate();
+    return { start: `${month}-01`, end: `${month}-${String(last).padStart(2, "0")}` };
+  }
+  const end = String(record.occurred_end || record.ended_at || record.reported_through || start).slice(0, 10);
+  return { start, end: end >= start ? end : start };
 }
 export function filterItems(
   items: ResearchItem[],
@@ -109,7 +124,7 @@ export function filterItems(
     type = params.get("type") || "",
     actor = params.get("actor") || "";
   return items.filter(({ record: r, kind: k }) => {
-    const d = recordDate(r);
+    const interval = recordInterval(r);
     const countries = Array.isArray(r.country_codes) ? r.country_codes : [];
     return (
       (!q ||
@@ -148,8 +163,8 @@ export function filterItems(
         String(r.actor || "")
           .toLowerCase()
           .includes(actor.toLowerCase())) &&
-      (!from || (!!d && d.slice(0, 10) >= from)) &&
-      (!to || (!!d && d.slice(0, 10) <= to))
+      (!from || (!!interval && interval.end >= from)) &&
+      (!to || (!!interval && interval.start <= to))
     );
   });
 }

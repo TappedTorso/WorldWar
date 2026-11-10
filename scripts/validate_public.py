@@ -49,7 +49,7 @@ if {r['id'] for r in legacy['edges']} - identities('relationships'):errors.appen
 if len(identities('contests'))<470:errors.append('national registry identities incomplete')
 if DIST.exists():
     for file in DIST.rglob('*'):
-        if file.is_file() and (file.suffix in {'.db','.sqlite','.sqlite3','.py','.env'} or file.name.startswith('.env')):
+        if file.is_file() and (file.name.lower() == 'editor-key.txt' or file.suffix.lower() in {'.db','.sqlite','.sqlite3','.py','.env'} or file.name.lower().startswith('.env') or file.name.lower().endswith(('.db-wal','.db-shm','.sqlite-wal','.sqlite-shm','.sqlite3-wal','.sqlite3-shm'))):
             errors.append(f'private/backend artifact in build: {file.name}')
     if not (DIST/'index.html').exists():errors.append('build lacks entry point')
     if not (DIST/'data/research.json').exists() or (DIST/'data/research.json').read_bytes()!=DATA.read_bytes():errors.append('built publication does not match validated snapshot')

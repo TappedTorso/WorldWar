@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import type { FormEvent } from "react";
 import type { Snapshot, BaseRecord, Source } from "./types";
 import { recordKinds } from "./types";
@@ -8,6 +8,7 @@ type EditorEntry = {
   record: BaseRecord;
   editorial_status?: string;
 };
+const queueLimit = 50;
 const templates: Record<string, Record<string, unknown>> = {
   actors: {
     name: "",
@@ -145,6 +146,12 @@ export function Editor({
   const [token, setToken] = useState(""),
     [credential, setCredential] = useState(""),
     [entries, setEntries] = useState<EditorEntry[]>([]),
+    [total, setTotal] = useState<number | null>(null),
+    [offset, setOffset] = useState(0),
+    [hasMore, setHasMore] = useState(false),
+    [search, setSearch] = useState(""),
+    [appliedSearch, setAppliedSearch] = useState(""),
+    [queueLoading, setQueueLoading] = useState(false),
     [status, setStatus] = useState("draft"),
     [kind, setKind] = useState("occurrences"),
     [record, setRecord] = useState<Record<string, unknown>>({}),
@@ -158,6 +165,7 @@ export function Editor({
     [advanced, setAdvanced] = useState(""),
     [revisions, setRevisions] = useState<unknown[]>([]),
     [privateSources, setPrivateSources] = useState<Source[]>([]);
+  const queueVersion = useRef(0), sessionVersion = useRef(0);
   const endpoint = `${apiBase}/api/v1/editor/records`;
   async function request(
     path: string,
@@ -193,23 +201,61 @@ export function Editor({
       );
     return payload;
   }
-  async function load(auth = token, filter = status) {
-    const payload = await request(
-      `${endpoint}?status=${encodeURIComponent(filter)}`,
-      "GET",
-      undefined,
-      auth,
-    );
-    setEntries(
-      Array.isArray(payload) ? payload : payload.items || payload.records || [],
-    );
+  async function load(
+    auth = token,
+    filter = status,
+    recordKind = kind,
+    query = appliedSearch,
+    pageOffset = offset,
+  ) {
+    const version = ++queueVersion.current, session = sessionVersion.current;
+    const current = () => version === queueVersion.current && session === sessionVersion.current;
+    setQueueLoading(true);
+    setEntries([]);
+    setTotal(null);
+    setHasMore(false);
+    setOffset(pageOffset);
+    const params = new URLSearchParams({
+      status: filter,
+      kind: recordKind,
+      q: query,
+      limit: String(queueLimit),
+      offset: String(pageOffset),
+    });
+    try {
+      const payload = await request(`${endpoint}?${params}`, "GET", undefined, auth);
+      if (!current()) return false;
+      if (
+        !payload || !Array.isArray(payload.items) || payload.items.length > queueLimit ||
+        !Number.isInteger(payload.total) || payload.total < 0 ||
+        payload.limit !== queueLimit || payload.offset !== pageOffset ||
+        typeof payload.has_more !== "boolean" ||
+        payload.items.some((entry: EditorEntry) => entry?.kind !== recordKind || !entry.record?.id)
+      )
+        throw new Error("The editorial service returned an unsupported paginated queue response.");
+      setEntries(payload.items);
+      setTotal(payload.total);
+      setHasMore(payload.has_more);
+      return true;
+    } catch (error) {
+      if (current()) throw error;
+      return false;
+    } finally {
+      if (current()) setQueueLoading(false);
+    }
+  }
+  function refreshQueue(pageOffset = offset) {
+    setNotice("");
+    void load(token, status, kind, appliedSearch, pageOffset)
+      .catch((error) => setNotice(error.message));
   }
   async function connect(e: FormEvent) {
     e.preventDefault();
     setBusy(true);
     setNotice("");
+    const session = ++sessionVersion.current;
     try {
-      await load(credential);
+      if (!await load(credential) || session !== sessionVersion.current) return;
       setToken(credential);
       setCredential("");
       setNotice(
@@ -244,14 +290,18 @@ export function Editor({
     setEditing(true);
     setReason("");
     setRevisions([]);
+    setPrivateSources([]);
+    setTarget("");
   }
   async function open(entry: EditorEntry) {
+    const session = sessionVersion.current;
     setBusy(true);
     setNotice("");
     try {
       const p = await request(
         `${endpoint}/${entry.kind}/${encodeURIComponent(entry.record.id)}`,
       );
+      if (session !== sessionVersion.current) return;
       setKind(entry.kind);
       setRecord(editableRecord(p.record || p));
       setAdvanced(JSON.stringify(editableRecord(p.record || p), null, 2));
@@ -259,12 +309,13 @@ export function Editor({
       setDirty(false);
       setEditing(true);
       setReason("");
+      setTarget("");
       setRevisions(p.revisions || []);
       setPrivateSources(p.sources || []);
     } catch (e) {
-      setNotice((e as Error).message);
+      if (session === sessionVersion.current) setNotice((e as Error).message);
     } finally {
-      setBusy(false);
+      if (session === sessionVersion.current) setBusy(false);
     }
   }
   function field(key: string, value: unknown) {
@@ -276,6 +327,7 @@ export function Editor({
     });
   }
   async function action(actionName: "save" | "publish" | "retract" | "merge") {
+    const session = sessionVersion.current;
     setBusy(true);
     setNotice("");
     try {
@@ -303,6 +355,7 @@ export function Editor({
         actionName === "save" ? (existing ? "PUT" : "POST") : "POST",
         payload,
       );
+      if (session !== sessionVersion.current) return;
       setRecord(editableRecord(result.record || result));
       setAdvanced(JSON.stringify(editableRecord(result.record || result), null, 2));
       setExisting(true);
@@ -316,11 +369,11 @@ export function Editor({
             : `${labelFor(actionName)} completed by the API. Public history is retained.`,
       );
       await load();
-      onRefresh();
+      if (session === sessionVersion.current) onRefresh();
     } catch (e) {
-      setNotice((e as Error).message);
+      if (session === sessionVersion.current) setNotice((e as Error).message);
     } finally {
-      setBusy(false);
+      if (session === sessionVersion.current) setBusy(false);
     }
   }
   const availableSources = [...data.sources, ...privateSources].filter(
@@ -361,11 +414,27 @@ export function Editor({
         {token && (
           <button
             onClick={() => {
+              sessionVersion.current++;
+              queueVersion.current++;
               setToken("");
               setCredential("");
               setEntries([]);
+              setTotal(null);
+              setOffset(0);
+              setHasMore(false);
+              setSearch("");
+              setAppliedSearch("");
+              setQueueLoading(false);
+              setBusy(false);
+              setStatus("draft");
+              setKind("occurrences");
               setEditing(false);
               setRecord({});
+              setAdvanced("");
+              setReason("");
+              setTarget("");
+              setDirty(false);
+              setExisting(false);
               setPrivateSources([]);
               setRevisions([]);
               setNotice(
@@ -406,10 +475,12 @@ export function Editor({
               Queue status
               <select
                 value={status}
+                disabled={busy}
                 onChange={async (e) => {
                   setStatus(e.target.value);
                   try {
-                    await load(token, e.target.value);
+                    setNotice("");
+                    await load(token, e.target.value, kind, appliedSearch, 0);
                   } catch (err) {
                     setNotice((err as Error).message);
                   }
@@ -425,9 +496,16 @@ export function Editor({
               Record type
               <select
                 value={kind}
-                onChange={(e) => {
+                disabled={busy}
+                onChange={async (e) => {
                   setKind(e.target.value);
                   setEditing(false);
+                  setNotice("");
+                  try {
+                    await load(token, status, e.target.value, appliedSearch, 0);
+                  } catch (err) {
+                    setNotice((err as Error).message);
+                  }
                 }}
               >
                 {[...recordKinds, "sources", "coverage"].map((k) => (
@@ -437,17 +515,45 @@ export function Editor({
                 ))}
               </select>
             </label>
-            <button className="primary" onClick={newRecord}>
+            <form onSubmit={async (e) => {
+              e.preventDefault();
+              const query = search.trim();
+              setAppliedSearch(query);
+              setNotice("");
+              try { await load(token, status, kind, query, 0); }
+              catch (err) { setNotice((err as Error).message); }
+            }}>
+              <label>
+                Search queue
+                <input type="search" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Title, summary or stable ID" disabled={busy} />
+              </label>
+              <button type="submit" disabled={busy}>Search queue</button>
+            </form>
+            <button className="primary" onClick={newRecord} disabled={busy}>
               + New {pretty(kind)}
             </button>
-            <button onClick={() => load().catch((e) => setNotice(e.message))}>
+            <button disabled={busy || queueLoading} onClick={() => refreshQueue()}>
               Refresh queue
             </button>
+            <p role="status" aria-live="polite">
+              {queueLoading ? "Loading candidate queue…" : total === null ? "Queue count unavailable." : entries.length ? `Showing ${offset + 1}–${offset + entries.length} of ${total} records` : `Showing 0 of ${total} records`}
+            </p>
+            <nav aria-label="Queue pages">
+              <button
+                disabled={busy || queueLoading || offset === 0}
+                onClick={() => refreshQueue(Math.max(0, offset - queueLimit))}
+              >Previous page</button>
+              <button
+                disabled={busy || queueLoading || !hasMore}
+                onClick={() => refreshQueue(offset + queueLimit)}
+              >Next page</button>
+            </nav>
             <div className="queue-records">
               {entries.length ? (
                 entries.map((entry, i) => (
                   <button
                     key={`${entry.kind}-${entry.record.id}-${i}`}
+                    disabled={busy || queueLoading}
                     onClick={() => open(entry)}
                   >
                     <span className="eyebrow">
@@ -458,7 +564,7 @@ export function Editor({
                   </button>
                 ))
               ) : (
-                <p className="muted">No candidates in this queue.</p>
+                !queueLoading && <p className="muted">{total === null ? "The queue could not be loaded. Refresh to retry." : "No candidates match this queue."}</p>
               )}
             </div>
           </aside>

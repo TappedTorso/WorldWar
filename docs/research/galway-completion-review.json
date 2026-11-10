@@ -1,5 +1,11 @@
 {
-  "status": "integrated_into_publication_seed",
+  "supersession": {
+    "as_of": "2026-11-10T10:12:05.882291+00:00",
+    "current_audit": "global-sweep-20261110.json",
+    "scope": "Historical pre-sweep audit retained for provenance. Its coverage/counts are superseded by the current global source-sweep edition.",
+    "galway_correction": "October21 completion is now contested: retain the FAQ and suspension/deferral sources, exclude p-ie-galway-20261021 from occurrence totals. This does not assert local non-occurrence."
+  },
+  "status": "superseded_completion_assessment",
   "prepared_at": "2026-11-10T08:22:00.288078Z",
   "scope": "Read-only comparison of preserved Galway FAQ, original source ledger, existing occurrence records and prior coverage audit. No new discovery, source retrieval, or project data changes.",
   "source_reused_verbatim": {
@@ -85,5 +91,6 @@
     "Update acceptance/research/review.py eligible-occurrence expectation (currently 29), regenerate acceptance JSON and revise human summary."
   ],
   "proposal_file": "galway-additions-proposed.json",
-  "applied_at": "2026-11-10T08:23:17.323853Z"
+  "applied_at": "2026-11-10T08:23:17.323853Z",
+  "historical_status": "integrated_into_publication_seed"
 }

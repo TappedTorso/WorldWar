@@ -2,7 +2,7 @@ import { describe, it, expect, vi, beforeEach } from "vitest";
 import { render, screen, fireEvent, waitFor, within } from "@testing-library/react";
 import { App, ContestDetail } from "../src/App";
 import { Editor } from "../src/Editor";
-import { snapshot, contest } from "./fixtures";
+import { snapshot, contest, base } from "./fixtures";
 beforeEach(() => { window.location.hash = "#/overview"; vi.stubGlobal("fetch", vi.fn().mockImplementation(async (url: string) => String(url).includes("research.json") ? { ok: true, json: async () => snapshot } : { ok: false, status: 404 })); });
 describe("public research journeys", () => {
   it("loads snapshot metadata and distinct domain counts", async () => { render(<App />); await screen.findByText("Follow the threads."); expect(screen.getByText("0 reviewed research records / 1 registered contests / 2 inherited assessments")).toBeInTheDocument(); expect(screen.getByRole("link", { name: /1 actors/ })).toBeInTheDocument(); });
@@ -17,3 +17,36 @@ it("labels election day explicitly and excludes nationwide state placeholders", 
 it("opens static merged tombstones without restoring active index records", async () => { window.location.hash = "#node=retired-static-actor"; vi.stubGlobal("fetch", vi.fn().mockImplementation(async (url: string) => String(url).includes("research.json") ? { ok: true, json: async () => ({ ...snapshot, tombstones: [{ kind: "actors", record: { ...snapshot.actors[0], id: "retired-static-actor", name: "Retired static actor", title: "Retired static actor", publication_status: "merged", merged_into: "test-actor" } }] }) } : { ok: false, status: 404 })); render(<App />); expect(await screen.findByRole("heading", { level: 2, name: "Retired static actor" })).toBeInTheDocument(); expect(screen.getByRole("link", { name: "Open surviving record →" })).toHaveAttribute("href", "#/conflicts/actors/test-actor"); expect(within(screen.getByRole("list")).queryByText("Retired static actor")).not.toBeInTheDocument(); });
 it("preserves a withdrawn claim's pinned citation and source-withdrawal status", async () => { window.location.hash = "#/conflicts/actors/retired-source-claim"; const data = { ...snapshot, actors: [], contests: [], sources: [], tombstones: [{ kind: "actors", record: { ...snapshot.actors[0], id: "retired-source-claim", name: "Withdrawn historical claim", publication_status: "retracted", source_snapshots: [snapshot.sources[0]] } }, { kind: "sources", record: { ...snapshot.sources[0], title: "Catalog withdrawal", publication_status: "retracted" } }] }; vi.stubGlobal("fetch", vi.fn().mockImplementation(async (url: string) => String(url).includes("research.json") ? { ok: true, json: async () => data } : { ok: false, status: 404 })); render(<App />); expect(await screen.findByRole("heading", { level: 2, name: "Withdrawn historical claim" })).toBeInTheDocument(); expect(screen.getByRole("link", { name: "Test source ↗" })).toHaveAttribute("href", "https://example.org/test"); expect(screen.getByText("Withdrawn source · retracted")).toBeInTheDocument(); expect(within(screen.getByRole("list")).queryByText("Withdrawn historical claim")).not.toBeInTheDocument(); expect(data.sources).toEqual([]); });
 it("keeps an active claim's original pinned URL after a catalog correction", async () => { window.location.hash = "#/conflicts/actors/test-actor"; const data = { ...snapshot, actors: [{ ...snapshot.actors[0], source_snapshots: [{ ...snapshot.sources[0], title: "Pinned original source", url: "https://example.org/original" }] }], sources: [{ ...snapshot.sources[0], title: "Current catalog source", url: "https://example.org/corrected" }] }; vi.stubGlobal("fetch", vi.fn().mockImplementation(async (url: string) => String(url).includes("research.json") ? { ok: true, json: async () => data } : { ok: false, status: 404 })); render(<App />); expect(await screen.findByRole("link", { name: "Pinned original source ↗" })).toHaveAttribute("href", "https://example.org/original"); expect(screen.queryByRole("link", { name: "Current catalog source ↗" })).not.toBeInTheDocument(); });
+
+it("makes aggregate exclusions, source attribution and agent review explicit", async () => {
+  window.location.hash = "#/protests/occurrences/aggregate-test";
+  const data = { ...snapshot, occurrences: [{ ...base, id: "aggregate-test", title: "Aggregate action report", country_code: "FR", country: "France", place_name: "Several places", occurred_start: "2026-09-01", occurred_end: "2026-09-30", date_precision: "month", location_precision: "country", longitude: null, latitude: null, action_type: "aggregate report", campaign_ids: [], demands: [], targets: [], count_eligible: false, active_dates: [], attribution: "Attributed reporting", evidence_locator: "Report paragraph 4", review_method: "research_agent_source_review", inclusion_rationale: "Retained as context", confidence_note: "Separate actions unresolved" }] };
+  vi.stubGlobal("fetch", vi.fn().mockImplementation(async (url: string) => String(url).includes("research.json") ? { ok: true, json: async () => data } : { ok: false, status: 404 }));
+  render(<App />);
+  const detail = await screen.findByRole("complementary", { name: "Selected record" });
+  await within(detail).findByRole("heading", { name: "Aggregate action report" });
+  expect(within(detail).getByText("Excluded from occurrence totals")).toBeInTheDocument();
+  expect(within(detail).queryByText("Documented active dates")).not.toBeInTheDocument();
+  expect(within(detail).getByText("Attributed reporting")).toBeInTheDocument();
+  expect(within(detail).getByText("Report paragraph 4")).toBeInTheDocument();
+  expect(within(detail).getByText("Research agent source review")).toBeInTheDocument();
+});
+it("retains campaign uncertainty beside its dates without inventing an ending", async () => {
+  window.location.hash = "#/protests/campaigns/uncertain-campaign";
+  const data = { ...snapshot, campaigns: [{ ...base, id: "uncertain-campaign", title: "Uncertain campaign", country_codes: ["FR"], started_at: null, ended_at: null, date_precision: "unknown", occurrence_ids: [], demands: [], targets: [], date_uncertainty: "Page and signed document have conflicting dates.", coverage_note: "The source establishes context only.", places_reported: ["Reported city"] }] };
+  vi.stubGlobal("fetch", vi.fn().mockImplementation(async (url: string) => String(url).includes("research.json") ? { ok: true, json: async () => data } : { ok: false, status: 404 }));
+  render(<App />);
+  const detail = await screen.findByRole("complementary", { name: "Selected record" });
+  await within(detail).findByRole("heading", { name: "Uncertain campaign" });
+  expect(within(detail).getByText("End not established")).toBeInTheDocument();
+  expect(within(detail).getByText("Page and signed document have conflicting dates.")).toBeInTheDocument();
+  expect(within(detail).getByText("The source establishes context only.")).toBeInTheDocument();
+  expect(within(detail).getByText("Reported city")).toBeInTheDocument();
+});
+it("identifies a retained selection outside the filtered geographic scope", async () => {
+  window.location.hash = "#/conflicts/actors/test-actor?geo=GB";
+  render(<App />);
+  expect(await screen.findByText("This selected record is outside the current filters.")).toBeInTheDocument();
+  expect(screen.getByRole("link", { name: "Open it without filters →" })).toHaveAttribute("href", "#/conflicts/actors/test-actor");
+  expect(screen.getByText("No records match this scope.")).toBeInTheDocument();
+});

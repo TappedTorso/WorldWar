@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import type { FeatureCollection, Geometry } from "geojson";
-import { joinDistricts } from "../src/geography";
+import { joinDistricts, worldGeometryName } from "../src/geography";
 import { geoArea } from "d3-geo";
 import { contest } from "./fixtures";
 const record = {
@@ -63,6 +63,13 @@ describe("House boundary validation", () => {
 
 import { readFileSync } from "node:fs";
 import { geoPath, geoAlbersUsa } from "d3-geo";
+it("joins reporting codes to the actual bundled world shapes despite source naming differences", () => {
+  const topology = JSON.parse(readFileSync("public/geometry/countries-110m.json", "utf8"));
+  const names = topology.objects.countries.geometries.map((g: { properties: { name: string } }) => g.properties.name);
+  for (const code of ["CZ", "CI", "SZ", "MK", "CD", "CG", "MM", "TR", "PS", "EH", "SB", "BA", "DO", "US"])
+    expect(names.filter((name: string) => name === worldGeometryName(code))).toHaveLength(1);
+  expect(worldGeometryName("CY")).not.toBe("N. Cyprus");
+});
 describe("bundled official House display baseline", () => {
   it("contains435unique voting seats,50states and the explicit Missouri source exception", () => {
     const asset = JSON.parse(

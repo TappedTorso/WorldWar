@@ -3208,6 +3208,11 @@ th {
   z-index: 2;
   height: 18px;
 }
+.chronology-track button.date-interval {
+  transform: none;
+  min-width: 7px;
+  opacity: 0.7;
+}
 .chronology-dates {
   display: flex;
   justify-content: space-between;

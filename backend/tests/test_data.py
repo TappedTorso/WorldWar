@@ -306,3 +306,46 @@ def test_retracted_campaign_is_excluded_from_current_campaign_component(client,s
     assert response.status_code==200
     card=client.get('/api/v1/snapshot').json()['scorecards'][0]
     assert card['occurrence_count']==1 and card['campaign_count']==0
+
+
+def test_month_precision_counts_once_without_inventing_active_days(client,source):
+    publish(client,'occurrences',create(client,'occurrences',occurrence_payload('month-only',occurred_start='2026-10-01',occurred_end='2026-10-31',date_precision='month')))
+    card=client.get('/api/v1/snapshot').json()['scorecards'][0]
+    assert card['occurrence_count']==1 and card['active_days']==0
+    assert card['input_ids']==['month-only']
+    assert card['method_version']=='observed-counts-1.1'
+    # A subsequent partial month compares only the same elapsed days. An
+    # unknown October day cannot be assigned to the October1–10 window.
+    from worldwar.service import scorecards
+    rows=client.get('/api/v1/snapshot').json()['occurrences']
+    coverage=[dict(domain='protests',country_code='ZZ',geography='ZZ',status='reviewed',period_start='2026-10-01',period_end='2026-11-10')]
+    later=scorecards(rows,[],coverage,calculated_at=NOW)[0]
+    assert later['previous_occurrence_count']==0 and later['active_days']==0
+
+
+@pytest.mark.parametrize('start,end,last', [
+    ('2026-09-01', None, '2026-09-30'),
+    ('2026-10-15', None, '2026-10-31'),
+    ('2026-12-01', None, '2026-12-31'),
+])
+def test_month_uncertainty_uses_same_bounds_for_window_selection_and_counting(start,end,last):
+    from worldwar.schemas import validate_record
+    from worldwar.service import scorecards
+    row = validate_record('occurrences', occurrence_payload('month-null-end', occurred_start=start,
+                          occurred_end=end, date_precision='month'))
+    card = scorecards([row], [], [], calculated_at=NOW)[0]
+    assert card['period_start'] == start[:7] + '-01' and card['period_end'] == last
+    assert card['occurrence_count'] == 1 and card['active_days'] == 0
+
+
+def test_month_precision_rejects_cross_month_uncertainty_and_uses_documented_dates_only(client,source):
+    invalid = occurrence_payload('cross-month', occurred_start='2026-09-01',
+                                 occurred_end='2026-10-31', date_precision='month')
+    response = client.post('/api/v1/editor/records/occurrences', headers=AUTH,
+                          json={'record': invalid, 'reason': 'Synthetic invalid month interval'})
+    assert response.status_code == 422 and 'single calendar month' in response.text
+    row = publish(client, 'occurrences', create(client, 'occurrences', occurrence_payload(
+        'documented-month', occurred_start='2026-10-15', occurred_end=None,
+        date_precision='month', active_dates=['2026-10-03', '2026-10-25'])))
+    card = client.get('/api/v1/snapshot').json()['scorecards'][0]
+    assert card['input_ids'] == [row['id']] and card['occurrence_count'] == 1 and card['active_days'] == 2

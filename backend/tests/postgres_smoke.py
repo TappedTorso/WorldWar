@@ -11,7 +11,7 @@ import uuid
 
 from worldwar.database import make_engine, migrate, sessions
 from worldwar.recovery import verify_restore
-from worldwar.service import ServiceError, correct_draft, create_draft, get_detail, publish
+from worldwar.service import ServiceError, correct_draft, create_draft, editor_records, get_detail, publish
 from worldwar.schemas import utc_now
 
 
@@ -39,11 +39,16 @@ def main():
             place_name='Synthetic square',location_precision='city',occurred_start='2026-11-05',date_precision='day',
             action_type='demonstration',inclusion_rationale='Synthetic integration check'),'Create synthetic occurrence')
         original=publish(session,'occurrences',oid,o['revision'],'Publish synthetic observation')
+    private_marker=f'Private correction marker {suffix} 100%_real'
     with factory.begin() as session:
-        private=correct_draft(session,'occurrences',oid,dict(original,summary='Private correction marker'),2,'Synthetic private correction')
+        private=correct_draft(session,'occurrences',oid,dict(original,summary=private_marker),2,'Synthetic private correction')
     with factory() as session:
         assert get_detail(session,'occurrences',oid)['record']['summary']=='Original synthetic summary'
-        assert get_detail(session,'occurrences',oid,private=True)['record']['summary']=='Private correction marker'
+        assert get_detail(session,'occurrences',oid,private=True)['record']['summary']==private_marker
+        page=editor_records(session,status='draft',kind='occurrences',q=private_marker,limit=1,offset=0)
+        assert page['total']==1 and page['has_more'] is False
+        assert page['items'][0]['record']['id']==oid and page['items'][0]['record']['revision']==3
+        assert editor_records(session,status='draft',kind='sources',q=private_marker,limit=1,offset=0)['total']==0
     try:
         with factory.begin() as session:
             publish(session,'occurrences',oid,2,'Stale concurrent editor fixture')

@@ -1,6 +1,7 @@
 """Version 1 typed research records. Unknown input keys fail closed."""
 from __future__ import annotations
 
+from calendar import monthrange
 from datetime import date, datetime, timezone
 from typing import Annotated, Any, Literal
 from urllib.parse import parse_qsl, urlsplit
@@ -14,6 +15,11 @@ Domain = Literal['conflicts', 'protests', 'elections']
 
 def utc_now() -> str:
     return datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')
+
+
+def calendar_month_bounds(value: date) -> tuple[date, date]:
+    """Bounds of a month of uncertainty, not documented daily activity."""
+    return value.replace(day=1), value.replace(day=monthrange(value.year, value.month)[1])
 
 
 def valid_url(value: str | None) -> str | None:
@@ -174,9 +180,14 @@ class Occurrence(Shared):
             raise ValueError('point precision requires coordinates')
         if self.date_precision == 'day' and self.occurred_end not in (None, self.occurred_start):
             raise ValueError('day precision cannot describe a multi-day interval')
+        lower, upper = self.occurred_start, self.occurred_end or self.occurred_start
+        if self.date_precision == 'month':
+            if self.occurred_end and (self.occurred_end.year, self.occurred_end.month) != (self.occurred_start.year, self.occurred_start.month):
+                raise ValueError('month precision must describe a single calendar month; use range for multiple months')
+            lower, upper = calendar_month_bounds(self.occurred_start)
         if len(set(self.active_dates)) != len(self.active_dates):
             raise ValueError('duplicate documented active dates')
-        if any(d < self.occurred_start or d > (self.occurred_end or self.occurred_start) for d in self.active_dates):
+        if any(d < lower or d > upper for d in self.active_dates):
             raise ValueError('documented active dates must fall within the observation interval')
         if self.occurred_start < date(2026, 9, 1):
             raise ValueError('protest observation scope starts September 1, 2026')

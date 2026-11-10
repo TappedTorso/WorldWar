@@ -13,7 +13,7 @@ from sqlalchemy.orm import Session
 
 from .evidence import linked_sources
 from .models import EvidenceLink, ImportBatch, Job, PROJECTIONS, Record, RecordReference, Revision
-from .schemas import DOMAINS, KINDS, utc_now, validate_record
+from .schemas import DOMAINS, KINDS, calendar_month_bounds, utc_now, validate_record
 
 
 class ServiceError(Exception):
@@ -310,12 +310,27 @@ def get_detail(session, kind, stable_id, *, private=False):
             **({'editorial_status': record.editorial_status, 'public_revision': record.public_revision} if private else {})}
 
 
-def editor_records(session, status='draft'):
-    statement = select(Record).order_by(Record.kind, Record.stable_id)
+def editor_records(session, status='draft', *, kind=None, q='', limit=100, offset=0):
+    if kind == 'all':
+        kind = None
+    if kind is not None and kind not in KINDS:
+        raise ServiceError(422, 'unknown editable record kind')
+    statement = select(Record.kind, Record.editorial_status, Revision.payload).select_from(Record).join(
+        Revision, (Revision.record_key == Record.key) & (Revision.number == Record.current_revision))
     if status != 'all':
         statement = statement.where(Record.editorial_status == status)
-    return {'items': [{'kind': r.kind, 'editorial_status': r.editorial_status,
-                        'record': revision(session, r).payload} for r in session.scalars(statement)]}
+    if kind is not None:
+        statement = statement.where(Record.kind == kind)
+    if q.strip():
+        needle = q.strip()
+        statement = statement.where(or_(Record.stable_id.icontains(needle, autoescape=True),
+                                       Revision.payload['title'].as_string().icontains(needle, autoescape=True),
+                                       Revision.payload['summary'].as_string().icontains(needle, autoescape=True)))
+    total = session.scalar(select(func.count()).select_from(statement.subquery()))
+    rows = session.execute(statement.order_by(Record.kind, Record.stable_id).limit(limit).offset(offset))
+    items = [{'kind': row.kind, 'editorial_status': row.editorial_status, 'record': row.payload} for row in rows]
+    return {'items': items, 'total': total, 'limit': limit, 'offset': offset,
+            'has_more': offset + len(items) < total}
 
 
 def covered(coverage, country, start, end):
@@ -328,12 +343,17 @@ def covered(coverage, country, start, end):
 
 def scorecards(occurrences, campaigns, coverage, *, calculated_at):
     cards = []
+    def bounds(o):
+        lower = date.fromisoformat(o['occurred_start'])
+        if o['date_precision'] == 'month':
+            return calendar_month_bounds(lower)
+        return lower, date.fromisoformat(o.get('occurred_end') or o['occurred_start'])
     countries = sorted({o['country_code'] for o in occurrences} | {c['country_code'] for c in coverage if c['domain'] == 'protests' and c.get('country_code')})
     # Fixed calendar month windows make snapshots reproducible and transparent.
     for country in countries:
         relevant = [c for c in coverage if c['domain'] == 'protests' and c.get('country_code') == country]
-        latest = max([c['period_end'] for c in relevant] + [o.get('occurred_end') or o['occurred_start'] for o in occurrences if o['country_code'] == country])
-        end = date.fromisoformat(latest)
+        end = max([date.fromisoformat(c['period_end']) for c in relevant] +
+                  [bounds(o)[1] for o in occurrences if o['country_code'] == country])
         start = end.replace(day=1)
         prev_end = start - timedelta(days=1)
         prev_start = prev_end.replace(day=1)
@@ -344,11 +364,12 @@ def scorecards(occurrences, campaigns, coverage, *, calculated_at):
                     continue
                 if o['date_precision'] == 'day' and a.isoformat() <= o['occurred_start'] <= b.isoformat():
                     result.append(o)
-                elif o['date_precision'] == 'range':
+                elif o['date_precision'] in ('range', 'month'):
                     documented = o.get('active_dates', [])
                     # A bounded uncertain date can support a period count only
                     # when the entire uncertainty interval falls in that period.
-                    within = a.isoformat() <= o['occurred_start'] and (o.get('occurred_end') or o['occurred_start']) <= b.isoformat()
+                    lower, upper = bounds(o)
+                    within = a <= lower and upper <= b
                     if within or any(a.isoformat() <= d <= b.isoformat() for d in documented):
                         result.append(o)
             return result
@@ -375,9 +396,9 @@ def scorecards(occurrences, campaigns, coverage, *, calculated_at):
                           campaign_count=len(campaign_ids), comparison_start=prev_start.isoformat(), comparison_end=prev_end.isoformat(),
                           previous_occurrence_count=len(previous) if eligible else None, momentum=momentum,
                           coverage_status='reviewed' if covered(coverage, country, start, end) else 'partial' if any(c['status'] in ('reviewed', 'partial') for c in relevant) else 'unavailable' if relevant and all(c['status'] == 'unavailable' for c in relevant) else 'not_assessed',
-                          method_version='observed-counts-1.0', calculated_at=calculated_at,
+                          method_version='observed-counts-1.1', calculated_at=calculated_at,
                           input_ids=sorted(o['id'] for o in current),
-                          note='Distinct reviewed, count-eligible occurrences; exact-day or explicitly documented active dates and named locations. A range alone does not establish daily activity; an uncertain range must fit wholly inside a count window unless active dates are supplied. Calendar month-to-date versus the same elapsed days of the preceding month. Comparison requires explicitly reviewed whole-country coverage of both windows; source volume is not activity.'))
+                          note='Distinct reviewed, count-eligible occurrences; exact-day or explicitly documented active dates and named locations. A range alone does not establish daily activity; an uncertain range or calendar month must fit wholly inside a count window unless active dates are supplied. Calendar month-to-date versus the same elapsed days of the preceding month. Comparison requires explicitly reviewed whole-country coverage of both windows; source volume is not activity.'))
     return cards
 
 

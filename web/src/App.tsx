@@ -21,6 +21,7 @@ import {
   pretty,
   publishedItems,
   recordDate,
+  recordInterval,
   recordSources,
   researchTitle,
   safeUrl,
@@ -545,7 +546,9 @@ function Overview({ data, items }: { data: Snapshot; items: ResearchItem[] }) {
                     {count}{" "}
                     {primary === "contests"
                       ? "included contests"
-                      : pretty(primary)}{" "}
+                      : primary === "occurrences"
+                        ? "observations"
+                        : pretty(primary)}{" "}
                     · {data.coverage.filter((c) => c.domain === d).length}{" "}
                     coverage entries
                   </small>
@@ -724,12 +727,17 @@ function Workspace({ domain, data }: { domain: Domain; data: Snapshot }) {
   );
   const geography = Array.from(
     new Set(
-      all.flatMap((i) => [
-        String(i.record.country_code || i.record.state_code || ""),
-        ...(Array.isArray(i.record.country_codes)
-          ? (i.record.country_codes as string[])
-          : []),
-      ]),
+      [
+        ...all.flatMap((i) => [
+          String(i.record.country_code || i.record.state_code || ""),
+          ...(Array.isArray(i.record.country_codes)
+            ? (i.record.country_codes as string[])
+            : []),
+        ]),
+        ...data.coverage
+          .filter((c) => c.domain === domain)
+          .map((c) => String(c.country_code || c.state_code || "")),
+      ],
     ).values(),
   )
     .filter(Boolean)
@@ -1154,6 +1162,12 @@ function Workspace({ domain, data }: { domain: Domain; data: Snapshot }) {
                   ×
                 </a>
               </div>
+              {filterItems([selected], params, data).length === 0 && (
+                <div className="notice">
+                  This selected record is outside the current filters.{' '}
+                  <a href={itemRoute(selected)}>Open it without filters →</a>
+                </div>
+              )}
               <Detail
                 key={`${selected.record.id}-${selected.record.revision}`}
                 item={selected}
@@ -1251,10 +1265,23 @@ function Scorecards({ data, geo }: { data: Snapshot; geo: string }) {
   return (
     <section className="activity-panel">
       <span className="eyebrow">Observed activity / not a composite score</span>
+      <details key={geo || "all"} open={Boolean(geo)}>
+        <summary>
+          {geo
+            ? `${regionName(geo)} activity and coverage`
+            : `Explore activity and coverage for ${cards.length} jurisdictions`}
+        </summary>
+        <p>
+          Choose a country above to inspect its observations, recorded search
+          coverage and comparison eligibility. A source search does not establish
+          complete event coverage.
+        </p>
       {cards.map((s) => (
         <details key={s.id}>
           <summary>
-            {s.geography} ·{" "}
+            {s.geography === s.country_code
+              ? regionName(s.country_code)
+              : s.geography} ·{" "}
             {s.momentum === "insufficient_data"
               ? "Insufficient comparison data"
               : pretty(s.momentum)}
@@ -1296,6 +1323,7 @@ function Scorecards({ data, geo }: { data: Snapshot; geo: string }) {
           </details>
         </details>
       ))}
+      </details>
     </section>
   );
 }
@@ -1482,7 +1510,7 @@ function Detail({
       ) && (
         <dl className="facts">
           <Fact
-            name="Occurred"
+            name={item.kind === "occurrences" ? "Reported action date" : "Occurred"}
             value={date(r.occurred_start, r.date_precision)}
           />
           {!!r.occurred_end && (
@@ -1509,6 +1537,20 @@ function Detail({
               value={pretty(r.location_precision)}
             />
             <Fact name="Action" value={pretty(r.action_type)} />
+            <Fact
+              name="Occurrence totals"
+              value={r.count_eligible === false
+                ? "Excluded from occurrence totals"
+                : r.date_precision === "unknown"
+                  ? "Editorially eligible; occurrence date unresolved"
+                  : "Eligible when its reported dates fit the count period"}
+            />
+            {Array.isArray(r.active_dates) && r.active_dates.length > 0 && (
+              <Fact
+                name="Documented active dates"
+                value={r.active_dates.map((day) => date(day)).join(" · ")}
+              />
+            )}
           </dl>
           {(r.longitude === null || r.latitude === null) && (
             <p className="precision-note">
@@ -1530,11 +1572,15 @@ function Detail({
       {item.kind === "campaigns" && (
         <>
           <dl className="facts">
-            <Fact name="Campaign started" value={date(r.started_at)} />
+            <Fact name="Campaign started" value={date(r.started_at, r.date_precision)} />
             <Fact
               name="Campaign ended"
-              value={r.ended_at ? date(r.ended_at) : "Ongoing / not recorded"}
+              value={r.ended_at ? date(r.ended_at, r.date_precision) : "End not established"}
             />
+            <Fact name="Date precision" value={pretty(r.date_precision)} />
+            {!!r.reported_through && (
+              <Fact name="Reported through" value={date(r.reported_through)} />
+            )}
             <Fact
               name="Countries"
               value={
@@ -1554,6 +1600,11 @@ function Detail({
             Campaign context is not a count of separately verified occurrences.
             Aggregate reporting is not split into invented daily events.
           </p>
+          <TextField heading="Date uncertainty" value={r.date_uncertainty} />
+          <TextField heading="Coverage & limits" value={r.coverage_note} />
+          {Array.isArray(r.places_reported) && r.places_reported.length > 0 && (
+            <TextField heading="Reported places" value={r.places_reported.join(" · ")} />
+          )}
         </>
       )}
       {["demands", "targets"].map((k) =>
@@ -1580,7 +1631,15 @@ function Detail({
               value={pretty(r.procedural_status)}
             />
             <Fact name="Claim status" value={pretty(r.claim_status)} />
+            {!!r.status_as_of && <Fact name="Procedural status as of" value={date(r.status_as_of)} />}
+            {!!r.legal_effective_date_as_stated && (
+              <Fact name="Stated effective date" value={date(r.legal_effective_date_as_stated)} />
+            )}
+            {!!r.case_id && <Fact name="Case or document" value={r.case_id} />}
           </dl>
+          <TextField heading="Case-status review" value={r.current_case_status ? pretty(r.current_case_status) : null} />
+          <TextField heading="Operative-status evidence" value={r.current_operative_status ? pretty(r.current_operative_status) : null} />
+          <TextField heading="Allegation limits" value={r.allegation_note} />
           <TextField heading="Claimed effect" value={r.effect_claim} />
           <TextField heading="Evidence of effect" value={r.effect_evidence} />
           <TextField heading="Claimed intent" value={r.intent_claim} />
@@ -1647,6 +1706,9 @@ function Detail({
           <h3>Sources & evidence</h3>
           <span>{sourceList.length} linked</span>
         </div>
+        <TextField heading="Attribution" value={r.attribution} />
+        <TextField heading="Attribution limits" value={r.attribution_note} />
+        <TextField heading="Evidence location" value={r.evidence_locator} />
         {sourceList.length ? (
           sourceList.map((s) => <SourceCard source={s} key={s.id} />)
         ) : (
@@ -1685,6 +1747,16 @@ function Detail({
           <Fact
             name="Record updated"
             value={r.updated_at ? date(r.updated_at) : "Not recorded"}
+          />
+          <Fact
+            name="Review method"
+            value={r.review_method === "research_agent_source_review"
+              ? "Research agent source review"
+              : r.review_method === "validated_official_adapter"
+                ? "Validated official data adapter"
+                : r.review_method === "human_review"
+                  ? "Human review"
+                  : "Not recorded"}
           />
         </dl>
         <p>
@@ -1833,6 +1905,7 @@ function SourceCard({ source: s }: { source: Source }) {
         {date(s.retrieved_at || s.retrieval_date || s.retrieved_date)}
       </p>
       {s.note && <p>{s.note}</p>}
+      {s.evidence_locator && <p><strong>Evidence location:</strong> {s.evidence_locator}</p>}
       <details>
         <summary>Source metadata & rights</summary>
         <dl className="facts">
@@ -1842,6 +1915,11 @@ function SourceCard({ source: s }: { source: Source }) {
             value={s.rights || "Rights not specified; source rights retained"}
           />
           {s.language && <Fact name="Language" value={s.language} />}
+          {s.source_tier && <Fact name="Source basis" value={pretty(s.source_tier)} />}
+          {s.document_date && <Fact name="Document date" value={date(s.document_date)} />}
+          {s.source_updated_date && <Fact name="Source updated" value={date(s.source_updated_date)} />}
+          {s.access_status && <Fact name="Access & review basis" value={pretty(s.access_status)} />}
+          {s.content_sha256 && <Fact name="Captured-content SHA-256" value={s.content_sha256} />}
         </dl>
         {!url && (
           <p>
@@ -2087,6 +2165,11 @@ function DataPage({
               and source scope. Partial, unavailable and not assessed are
               retained as separate states.
             </p>
+            <p>
+              <a href={`${import.meta.env.BASE_URL}data/research-audit.json`} download="worldwar-research-audit-20261110.json">
+                Download the November 10 research audit: queries, source review and lead dispositions ↓
+              </a>
+            </p>
             <div className="table-scroll">
               <table>
                 <caption className="sr-only">
@@ -2280,8 +2363,13 @@ function Chronology({
         </p>
       </div>
     );
-  const min = new Date(recordDate(dated[0].record)!).getTime(),
-    max = new Date(recordDate(dated[dated.length - 1].record)!).getTime();
+  const intervals = new Map(dated.map((item) => [item.record.id, recordInterval(item.record)!]));
+  const min = Math.min(...dated.map((item) => new Date(intervals.get(item.record.id)!.start).getTime())),
+    max = Math.max(...dated.map((item) => new Date(intervals.get(item.record.id)!.end).getTime()));
+  const ranges = dated.some((item) => {
+    const interval = intervals.get(item.record.id)!;
+    return interval.end > interval.start;
+  });
   return (
     <section className="chronology-strip" aria-label="Dated record timeline">
       <div className="section-heading">
@@ -2289,31 +2377,37 @@ function Chronology({
         <span>{dated.length} dated records</span>
       </div>
       <div className="chronology-track">
-        {dated.map((i, index) => (
+        {dated.map((i, index) => {
+          const interval = intervals.get(i.record.id)!;
+          const start = new Date(interval.start).getTime(), end = new Date(interval.end).getTime();
+          const ranged = end > start;
+          const label = i.record.date_precision === "month"
+            ? `${date(interval.start, "month")} · day not established`
+            : ranged ? `${date(interval.start)}–${date(interval.end)} · reported interval` : date(interval.start);
+          return (
           <button
             key={i.record.id}
-            className={selected === i.record.id ? "selected" : ""}
+            className={`${selected === i.record.id ? "selected" : ""} ${ranged ? "date-interval" : ""}`}
             style={{
-              left: `${max > min ? 3 + (94 * (new Date(recordDate(i.record)!).getTime() - min)) / (max - min) : 50}%`,
+              left: `${max > min ? 3 + (94 * (start - min)) / (max - min) : 50}%`,
+              ...(ranged && max > min ? { width: `${94 * (end - start) / (max - min)}%` } : {}),
               top: index % 3 === 0 ? "9px" : index % 3 === 1 ? "18px" : "27px",
             }}
-            title={`${date(recordDate(i.record), i.record.date_precision)} · ${researchTitle(i, data)}`}
-            aria-label={`${date(recordDate(i.record), i.record.date_precision)}: ${researchTitle(i, data)}`}
+            title={`${label} · ${researchTitle(i, data)}`}
+            aria-label={`${label}: ${researchTitle(i, data)}`}
             onClick={() => onSelect(i)}
           />
-        ))}
+        );})}
       </div>
       <div className="chronology-dates">
         <time>
-          {date(recordDate(dated[0].record), dated[0].record.date_precision)}
+          {date(new Date(min).toISOString())}
         </time>
         <time>
-          {date(
-            recordDate(dated[dated.length - 1].record),
-            dated[dated.length - 1].record.date_precision,
-          )}
+          {date(new Date(max).toISOString())}
         </time>
       </div>
+      {ranges && <p className="small">Bars show the reported interval or possible month, not proof of activity on every day.</p>}
     </section>
   );
 }

@@ -1,6 +1,6 @@
 # U.S. midterms addendum to the unified project proposal
 
-Prepared October 26, 2026. Official-source research checked at approximately 16:47 UTC / 12:47 p.m. America/New_York. This adds a third subject area to [the October 25 unified proposal](./unified-project-proposal.md); it preserves that report and its dated repository/live-site findings. It is conceptual reassessment for discussion, not execution planning or implementation.
+Prepared October 26, 2026. Official-source research checked at approximately 16:47 UTC / 12:47 p.m. America/New_York. This adds a third subject area to [the October 25 unified proposal](./2026-10-25-proposal.md); it preserves that report and its dated repository/live-site findings. It is conceptual reassessment for discussion, not execution planning or implementation.
 
 **Recommendation: add U.S. Elections to the same application, using the same map → chronological developments → evidence/detail pattern as Conflicts and Protests. Begin with the 2026 midterms, a clear House/Senate geographic baseline, an evolving race/results map, and a focused chronology of documented administration/Republican actions affecting the election. Keep the initial experience straightforward: sourced updates with explicit status/freshness, without assuming a particular live vote-counting service, forecasts, or a separate election platform.**
 

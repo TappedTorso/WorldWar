@@ -1,57 +1,42 @@
 {
-  "reviewed_at": "2026-11-10T08:26:10.539218Z",
-  "review_scope": "Independent read-only structural/evidence-contract acceptance over preserved local artifacts; no network research or source factual revalidation.",
-  "inputs": [
-    {
-      "path": "data/publication/seed.json",
-      "bytes": 894694,
-      "sha256": "edee6b76181c1fe4be4d82a529e3f9fc78f743b258a831a432a9fe7f66386f69"
-    },
-    {
-      "path": "web/public/geometry/districts-2026.geojson",
-      "bytes": 2580688,
-      "sha256": "d9d5b2ac305adc72537b7ad8d0fdc17a04dff5f39729ce5e704076c7cfda9557"
-    },
-    {
-      "path": "web/public/geometry/districts-attribution.json",
-      "bytes": 34665,
-      "sha256": "c4576fbe6ece6b29fc8a78e41c5a1fad7d538f029aa9c7df7ba4a4ef6246a60f"
-    },
-    {
-      "path": "web/public/data/research.json",
-      "bytes": 4768195,
-      "sha256": "23bcb5f43c6abd00ab166573c62d543502b819d147f2dab65fd565728cc415bd"
-    },
-    {
-      "path": "data/publication/official-results.json",
-      "bytes": 5074,
-      "sha256": "6de3b5f4ffc0fd07e1383a041f12fda91278bc54f8c981de61a13d7eb3a14470"
-    }
-  ],
-  "planned_requirements": [
-    "Source/date/location uncertainty and attribution preserved",
-    "Occurrence identity distinct from source/article and campaign identity",
-    "Explicit country/date coverage gaps; no global completeness or zero-fill inference",
-    "Official result finality and review status distinct; no invented winners",
-    "Versioned operative House geography and Missouri exception",
-    "Legacy facts not newly verified by code migration"
-  ],
+  "checked_at": "2026-11-10T10:26:09.960985+00:00",
+  "review_scope": "Read-only artifact and evidence-contract acceptance; substantive source reviews are separately attributed research-agent work. Passing does not certify exhaustive history or independent corroboration.",
+  "inputs": {
+    "data/publication/seed.json": "2999e3407319db93466c2d1f68b2bcb630cd842adaf40c95c8280e9cec05dac8",
+    "data/publication/official-results.json": "6de3b5f4ffc0fd07e1383a041f12fda91278bc54f8c981de61a13d7eb3a14470",
+    "docs/research/global-sweep-20261110.json": "15f7afc6f62430105956bd66858d490ee579e3cafd302eac711770ec6913f242",
+    "web/public/data/research.json": "8df6d5b009cadc763e416d8419cfd007529bc68b683efdeede52cdbf05747001"
+  },
+  "counts": {
+    "observations": 453,
+    "count_eligible": 449,
+    "campaigns": 82,
+    "occurrence_countries": 119,
+    "combined_countries": 127,
+    "protest_coverage_jurisdictions": 207,
+    "manual_sources": 396
+  },
+  "published_data_version": "e79ab3757e257db1",
   "checks": [
     {
-      "id": "unique_stable_ids",
+      "id": "strict_record_schemas",
       "status": "pass",
       "evidence": {
-        "within_kind": {},
-        "across_kinds": []
+        "rows": 1703,
+        "errors": []
       }
     },
     {
-      "id": "source_reference_coverage",
+      "id": "stable_ids_unique_across_kinds",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "id": "source_reference_integrity",
       "status": "pass",
       "evidence": {
-        "missing_references": [],
-        "unsupported_domain_records": [],
-        "source_count": 71
+        "missing": [],
+        "unsupported": []
       }
     },
     {
@@ -60,272 +45,198 @@
       "evidence": []
     },
     {
-      "id": "occurrence_country_and_temporal_precision",
+      "id": "observation_dates_and_precision",
       "status": "pass",
       "evidence": {
-        "records": 33,
         "date_precisions": {
-          "day": 33
+          "day": 446,
+          "range": 6,
+          "month": 1
         },
-        "outside_window_or_inconsistent": [],
-        "invalid_country_codes": [],
-        "source_dates_not_revalidated": true
+        "invalid_ids": [],
+        "month_does_not_invent_active_days": true
       }
     },
     {
-      "id": "campaign_precision_and_nonoccurrence_counts",
+      "id": "edition_counts_match_reviewed_audit",
       "status": "pass",
       "evidence": {
-        "seed_rows": 8,
-        "effective_canonical_campaigns": 7,
-        "merged_alias_ids": [
-          "c-za-asylum-protests-202610"
-        ],
-        "unknown_start_ids": [
-          "campaign-za-oct2026",
-          "c-au-community-preschool-funding-202610"
-        ],
-        "bad_precision_or_count_eligibility": [],
-        "campaign_only_countries": [
-          "AU",
-          "US"
+        "actual": {
+          "observations": 453,
+          "count_eligible": 449,
+          "campaigns": 82,
+          "occurrence_countries": 119,
+          "combined_countries": 127,
+          "protest_coverage_jurisdictions": 207,
+          "manual_sources": 396
+        },
+        "audit": {
+          "observations": 453,
+          "count_eligible": 449,
+          "campaigns": 82,
+          "occurrence_countries": 119,
+          "combined_countries": 127,
+          "protest_coverage_jurisdictions": 207,
+          "manual_sources": 396
+        }
+      }
+    },
+    {
+      "id": "campaigns_are_not_occurrence_counts",
+      "status": "pass",
+      "evidence": {
+        "canonical_campaigns": 82,
+        "excluded_occurrences": [
+          "p-az-protests-20261012",
+          "p-nz-publicservice-20260909",
+          "p-ie-galway-20261021",
+          "p-bd-wage-protest-onset-20261031"
         ]
       }
     },
     {
-      "id": "south_africa_campaign_reconciliation",
+      "id": "one_partial_assessment_per_reporting_jurisdiction",
       "status": "pass",
       "evidence": {
-        "canonical_id": "campaign-za-oct2026",
-        "source_ids": [
-          "sa-protests-20261009",
-          "v5-sahrc-asylum",
-          "v5-durban-police-oct10"
-        ],
-        "reviewed_at": "2026-11-10T07:03:00.334946Z",
-        "updated_at": "2026-11-10T08:10:33.417319Z",
-        "action": {
-          "kind": "campaigns",
-          "id": "c-za-asylum-protests-202610",
-          "action": "merge",
-          "target_id": "campaign-za-oct2026",
-          "published_at": "2026-11-10T08:10:33.417319Z"
+        "jurisdictions": 207,
+        "status_counts": {
+          "partial": 207
         },
-        "no_source_record_changes_implied": true
+        "complete_country_or_global_census": false
       }
     },
     {
-      "id": "aggregate_and_campaign_count_separation",
+      "id": "publication_actions_preserve_retired_identities",
       "status": "pass",
       "evidence": {
-        "count_eligible_occurrences": 31,
-        "aggregate_records_excluded": [
-          "p-az-protests-20261012",
-          "p-nz-publicservice-20260909"
+        "actions": 4,
+        "errors": []
+      }
+    },
+    {
+      "id": "galway_completion_conflict_excluded",
+      "status": "pass",
+      "evidence": {
+        "id": "p-ie-galway-20261021",
+        "source_ids": [
+          "v5-galway-faq",
+          "esweep-ifut-20261016",
+          "esweep-siptu-20261025"
         ],
-        "canonical_campaign_count": 7,
-        "no_campaign_added_to_occurrence_array": true
+        "confidence_note": "Contested completion evidence. An announced national suspension does not prove absence of every local action; the FAQ alone no longer establishes a countable occurrence."
       }
     },
     {
-      "id": "election_registry_and_tally_safety",
+      "id": "public_claim_source_metadata_pins",
       "status": "pass",
       "evidence": {
-        "registry": 470,
+        "errors": [],
+        "note": "Each claim retains source metadata at its publication revision."
+      }
+    },
+    {
+      "id": "active_public_identities_equal_expected_projection",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "id": "seed_and_official_overlay_match_public_fields",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "id": "post_election_registry_status_and_totals",
+      "status": "pass",
+      "evidence": {
+        "contests": 470,
         "house": 435,
         "senate": 35,
         "status_counts": {
           "not_assessed": 459,
           "reported_unofficial": 11
         },
-        "reported_state_counts": {
-          "DE": 2,
-          "MN": 9
-        },
-        "winner_or_call_ids": [],
-        "tally_total_mismatches": [],
-        "unassessed_rows_with_result_data": [],
-        "reporting_times_explicitly_raw_when_timezone_unknown": true
-      }
-    },
-    {
-      "id": "election_refresh_observation_review_status",
-      "status": "pass",
-      "evidence": {
-        "overlay_contests": 2,
-        "ids": [
-          "e-de-senate-2026",
-          "e-de-house-00-2026"
-        ],
-        "note": "DE-only successful refresh retained separately from11 reviewed historical seed tallies. No inferred manual review or certification."
-      }
-    },
-    {
-      "id": "election_action_and_stage_semantics",
-      "status": "pass",
-      "evidence": {
-        "actions": 17,
-        "claim_status_counts": {
-          "documented_action": 11,
-          "court_finding": 6
-        },
-        "inferred_intent_or_effect_claims": [],
-        "future_completed_actions": [],
-        "explicitly_scheduled_future_milestones": [
-          "ea-mn-canvass-20261119"
-        ],
-        "louisiana_house_primary_rows": 6,
-        "certification_or_recount_claims": "No such completed status asserted in470contests."
-      }
-    },
-    {
-      "id": "house_geometry_registry_join",
-      "status": "pass",
-      "evidence": {
-        "feature_count": 435,
-        "unique_ids": 435,
-        "states": 50,
-        "registry_matches": true,
         "problems": []
       }
     },
     {
-      "id": "geometry_integrity_and_winding",
+      "id": "official_refresh_does_not_invent_editorial_review",
+      "status": "pass",
+      "evidence": {
+        "official_adapter_contests": 2
+      }
+    },
+    {
+      "id": "operative_house_geometry_unchanged_and_joined",
       "status": "pass",
       "evidence": {
         "sha256": "d9d5b2ac305adc72537b7ad8d0fdc17a04dff5f39729ce5e704076c7cfda9557",
-        "matches_previously_validated_geometry": true,
-        "coordinate_count": 114144,
-        "bounds": [
-          -179.23109,
-          18.86546,
-          179.85968,
-          71.43979
-        ],
-        "rfc7946_winding_problems": [],
-        "topological_validity": "Previously Shapely-validated artifact; exact output hash unchanged. Current read-only checks independently verify ring closure,orientation,finite/rangedcoordinates and joins."
+        "features": 435,
+        "join_errors": [],
+        "missouri_exception": "Eight operative CD119 shapes; remaining427 use CD120, with documented Census vintage exception."
       }
     },
     {
-      "id": "geometry_version_exception_and_attribution",
+      "id": "legacy_identities_and_verification_status_preserved",
       "status": "pass",
       "evidence": {
-        "cd120_features": 427,
-        "operative_mo_cd119_features": 8,
-        "provenance_inputs": 54,
-        "exception": [
-          {
-            "state_code": "MO",
-            "feature_count": 8,
-            "excluded_product": "TIGER2026 CD120 Missouri GIS",
-            "used_product": "TIGER2025 CD119 Missouri GIS",
-            "authority_url": "https://www.census.gov/programs-surveys/decennial-census/about/rdo/congressional-districts.html",
-            "reason": "Census states Missouri CD120 GIS has not yet been regenerated and the operative 2026 plan is the same as in 2022 and 2024. The unchanged prior-session geometry is used for these eight seats."
-          }
-        ],
-        "limitations": [
-          "Display geometry is simplified and unsuitable for address-level district assignment, legal boundary adjudication or area computation.",
-          "TIGER land and water boundaries are retained; tiny islands and detailed shoreline vertices can be generalized. Census source files remain the authoritative detailed inputs.",
-          "No election winner, vote allocation, partisan advantage, intent or effect is inferred from geometry.",
-          "D3 spherical geo projections conventionally expect clockwise exteriors; reverse polygon rings at the renderer boundary or use a renderer that accepts RFC 7946. Do not mutate canonical stored geometry."
-        ]
+        "actors": 82,
+        "relationships": 75,
+        "original_citation_text_preserved": true,
+        "original_report_recovered": false
       }
     },
     {
-      "id": "coverage_limits",
+      "id": "scorecards_recomputed_with_exact_components_and_inputs",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "id": "scorecards_do_not_infer_comparable_coverage",
       "status": "pass",
       "evidence": {
-        "occurrence_countries": 20,
-        "combined_countries": 22,
-        "coverage_rows": 107,
-        "status_counts": {
-          "partial": 29,
-          "not_assessed": 78
-        },
-        "full_reviewed_coverage_rows": [],
-        "nationwide_or_worldwide_completeness_established": false,
-        "momentum_comparability": "Unavailable/insufficient without reviewed complete comparison windows; article volume is not protest activity."
+        "scorecards": 207,
+        "problems": []
       }
     },
     {
-      "id": "country_expansion_documentation_correction",
+      "id": "built_public_snapshot_is_exact",
       "status": "pass",
       "evidence": {
-        "original_additive_country_count": 12,
-        "post_integration_corrections": {
-          "corrected_at": "2026-11-10T08:10:33.417319Z",
-          "touched_country_count": 12,
-          "new_overall_country_count": 11,
-          "new_occurrence_country_count": 10,
-          "net_new_canonical_campaigns": 2,
-          "final_canonical_campaign_count": 7,
-          "merged_alias_count": 1,
-          "explanation": "Original fields record additive batch checks. South Africa already existed as campaign context and its overlapping campaign records were subsequently reconciled."
-        },
-        "original_validation_preserved_as_historical": true
+        "data_version": "e79ab3757e257db1",
+        "sha256": "8df6d5b009cadc763e416d8419cfd007529bc68b683efdeede52cdbf05747001"
       }
     },
     {
-      "id": "seed_metadata_corrected",
+      "id": "public_audit_is_exact_and_metadata_only",
       "status": "pass",
       "evidence": {
-        "generated_at": "2026-11-10T08:23:17.323853Z",
-        "data_version": "research-seed-20261110-v5",
-        "legacy_reviewed_at": null,
-        "coverage_summary": "Thirty-three reviewed, attributed protest occurrences across twenty countries and seven canonical campaigns across twenty-two combined occurrence/campaign countries; 435 House and 35 scheduled Senate registry entries with eleven unofficial Minnesota/Delaware tally snapshots. Fifteen dated conflict developments and seventeen election actions are included. Historical and geographic coverage remains partial, never zero-filled.",
-        "publication_mode": "reviewed_snapshot",
-        "assembly_note": "Generated_at records publication-packet assembly, not source retrieval or substantive review; per-record review and retrieval times are preserved."
+        "query_entries": 354,
+        "lead_dispositions": 3332,
+        "source_reviews": 327,
+        "full_source_text_published": false
       }
     },
     {
-      "id": "published_snapshot_matches_current_seed",
+      "id": "no_workspace_paths_or_synthetic_acceptance_markers",
       "status": "pass",
       "evidence": {
-        "public_occurrences": 33,
-        "expected_occurrences": 33,
-        "public_campaigns": 7,
-        "expected_campaigns": 7,
-        "missing_occurrence_ids": [],
-        "missing_campaign_ids": [],
-        "substantive_field_mismatches": [],
-        "source_refresh_overlay_ids": [
-          "de-unofficial",
-          "de-socrata-2026"
-        ],
-        "unresolved_public_source_ids": [],
-        "galway_original_provenance_preserved": true,
-        "published_data_version": "408fc8f0c6792ff1",
-        "expected_data_version": "408fc8f0c6792ff1",
-        "note": "Bundled public snapshot matches expected canonical IDs, substantive seed fields with the explicit official-result source-refresh overlay and source references; equivalent UTC serialization and importer revision increments are permitted."
+        "private_runtime_used_for_build": false,
+        "synthetic_editor_fixture_in_public_data": false
       }
     }
   ],
   "check_counts": {
-    "pass": 17
+    "pass": 22
   },
-  "resolved_findings": [
-    "Stale seed metadata corrected with assembly-time explanation; substantive source review timestamps unchanged.",
-    "South Africa duplicate reconciled into campaign-za-oct2026 with unioned sources and explicit merge action; canonical campaign count7.",
-    "Country expansion corrected to11 newly represented countries; original batch validation retained with explicit correction.",
-    "Two completed Galway actions added from preserved evidence: separate October 21 strike day and September 30 work-to-rule onset; no daily extrapolation or new source review."
-  ],
   "remaining_defects": [],
-  "known_coverage_gaps": [
-    "Worldwide significant collective-action history is not exhaustive; 33 records do not establish a global census.",
-    "42 jurisdiction searches were bounded discovery, not daily multilingual national assessments; unobserved is not zero.",
-    "Only 11 of 470 contest registries have reviewed unofficial tally snapshots; 459 remain unassessed. Successful automatic refresh currently covers 2 DE contests and remains explicitly unreviewed.",
-    "No certified winners or completed recount statuses established. Contemporary legal chronology is document-bounded, not a comprehensive current docket audit.",
-    "Legacy 82 actors / 75 relationships remain legacy_unverified; named original report provenance has not been recovered.",
-    "Some primary-body access was limited and precisely documented; source-reviewed does not mean independently corroborated."
+  "known_limits": [
+    "All coverage remains partial. Search ranking, indexing, language, access and source incentives affect representation.",
+    "No returned record never means no activity; observations are not a global census or comparable country rates.",
+    "Announcements, cancelled actions, source/date conflicts and unresolved leads are not automatically counted.",
+    "Source full text and raw search responses remain private. Metadata hashes describe exactly the stated capture, not independent corroboration.",
+    "Initial Europe q01 and initial four additional-jurisdiction queries retain exact query strings but no saved raw response; no missing timestamp or response hash is invented.",
+    "Only11 unofficial tally observations;459 contest records remain unassessed. No certified winners are established.",
+    "The82actor/75relationship legacy remains explicitly unverified; original report provenance is not recovered."
   ],
-  "overall": "bounded_dataset_and_public_snapshot_acceptance_pass",
-  "source_tree_modified": false,
-  "published_data_version": "408fc8f0c6792ff1",
-  "expected_scope": {
-    "occurrences": 33,
-    "count_eligible": 31,
-    "canonical_campaigns": 7,
-    "occurrence_countries": 20,
-    "combined_countries": 22
-  }
+  "overall": "pass"
 }

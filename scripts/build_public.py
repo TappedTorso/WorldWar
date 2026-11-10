@@ -35,6 +35,8 @@ def main():
         cli('apply-publication-actions','--input','data/publication/seed.json')
         cli('snapshot','--output',destination/'research.json')
     if archive.exists():shutil.copyfile(archive,destination/'discovery-metadata.json')
+    # Metadata-only historical audit is an explicit versioned publication input.
+    shutil.copyfile(ROOT/'docs/research/global-sweep-20261110.json', destination/'research-audit.json')
     # A compatibility archive is data, not a second active application.
     shutil.copyfile(ROOT/'data/map_data.json',destination/'legacy-conflict-records.json')
     print('Public data prepared from versioned inputs; private runtime store was not read.')

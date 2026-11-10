@@ -23,6 +23,18 @@ Open the local URL printed by Vite. This mode uses the deliberate public snapsho
 
 The API is a real FastAPI/SQLAlchemy service with SQLite for a single local owner and PostgreSQL for service deployments. It stores typed records, immutable revisions, evidence links, source candidates, publication state, coverage and run health. The public revision remains stable while an editor prepares a correction. All writes require authentication, a reason and a current revision. Source-backed publication, merge and retraction are transactional.
 
+For a single-process owner workspace, install the dependencies above, then run:
+
+```sh
+PATH="$PWD/.venv/bin:$PATH" npm run build:data
+VITE_API_BASE=. VITE_BASE_PATH=/ npm --prefix web run build -- --outDir dist-owner
+.venv/bin/python scripts/run_workspace.py --open-browser
+```
+
+This opens `http://127.0.0.1:8088/` and prints the private editor key in the terminal. Paste it into Editorial. The launcher saves the key with owner-only permissions and keeps the SQLite database in `runtime/`; restarting retains both. Control-C stops the service. `--runtime-dir` can put private data in a durable local directory outside a cloud-synced checkout. The separate `dist-owner` build keeps API mode distinct from the Pages snapshot. `--quiet-key` suppresses key output for supervised execution.
+
+For separate API/frontend development processes:
+
 From the repository root, after installing the dependencies above:
 
 ```sh
@@ -57,7 +69,7 @@ Open `http://127.0.0.1:8080`. Only the web proxy binds a host port, on loopback.
 ## Research and publication
 
 - Conflicts preserves inherited editorial content and adds dated, source-backed chronology. Automatic article tagging is discovery metadata, not evidence that an actor participated in an event.
-- Protests begins September 1, 2026. Inclusion depends on documented action and contextual significance, with dates, location precision, demands, attribution, campaign links and a coverage ledger. Samples do not establish exhaustive worldwide observation.
+- Protests begins September 1, 2026. Inclusion depends on documented action and contextual significance, with dates, location precision, demands, attribution, campaign links and a coverage ledger. The November 10 source sweep includes 453 observations (449 count eligible), 82 canonical campaign contexts and partial assessments for 207 reporting jurisdictions. The downloadable audit records actual queries, source review and unresolved leads; it does not establish exhaustive worldwide observation.
 - Elections separates contest identity, source reporting, winner basis and editorial review. The official Delaware adapter retains dated unofficial observations without declaring winners. Other collected results remain independently sourced. Unassessed races remain explicit.
 - House geometry uses Census TIGER/Line 2026 CD120 for 49 states and the operative 2025 CD119 plan for Missouri, whose 2026 Census GIS is documented as stale. All 435 contest IDs and plan vintages must match before a shape is used. Geometry is simplified for national display, not address lookup or legal adjudication. [Provenance](web/public/geometry/districts-attribution.json) includes source URLs, retrieval times and hashes.
 - Activity scorecards count documented, deduplicated occurrences and active dates. They return insufficient comparison data when coverage cannot support a trend. Political context remains dated and separate; there is no composite political temperature or inferred causal connection.
@@ -76,6 +88,7 @@ Exported seeds preserve source metadata at each claim's publication revision and
 PATH="$PWD/.venv/bin:$PATH" npm test
 PATH="$PWD/.venv/bin:$PATH" npm run build
 npm run check:public
+.venv/bin/python scripts/validate_research_edition.py
 ```
 
 CI also exercises real PostgreSQL transactions and a disposable complete container stack. The deployment check creates synthetic fixtures only in the explicitly disposable CI database. It checks public/private separation, authenticated publication, same-origin routing and the real registry. Tests do not establish factual completeness.

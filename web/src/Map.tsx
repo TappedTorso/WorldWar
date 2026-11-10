@@ -10,7 +10,7 @@ import type {
   Relationship,
 } from "./types";
 import { title, pretty } from "./data";
-import { joinDistricts } from "./geography";
+import { joinDistricts, worldGeometryName } from "./geography";
 const stateFips: Record<string, string> = {
   "01": "AL",
   "02": "AK",
@@ -262,14 +262,6 @@ export function ResearchMap({
     string,
     { code: string; items: ResearchItem[] }
   >();
-  const aliases: Record<string, string> = {
-    "United States": "United States of America",
-    Türkiye: "Turkey",
-    Czechia: "Czech Republic",
-    "Congo - Kinshasa": "Dem. Rep. Congo",
-    "Congo - Brazzaville": "Congo",
-    "South Sudan": "S. Sudan",
-  };
   for (const item of items) {
     const codes = [
       ...(item.record.country_code ? [String(item.record.country_code)] : []),
@@ -278,15 +270,7 @@ export function ResearchMap({
         : []),
     ];
     for (const code of codes) {
-      let name = String(item.record.country || "");
-      try {
-        if (!name)
-          name =
-            new Intl.DisplayNames(["en"], { type: "region" }).of(code) || code;
-      } catch {
-        name = code;
-      }
-      name = aliases[name] || name;
+      const name = worldGeometryName(code);
       const prior = countryRegions.get(name);
       countryRegions.set(name, {
         code,

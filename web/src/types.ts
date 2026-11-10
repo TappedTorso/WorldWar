@@ -159,6 +159,12 @@ export interface Source {
   note: string;
   source_updated_at?: string;
   language?: string;
+  evidence_locator?: string;
+  source_tier?: string;
+  document_date?: string | null;
+  source_updated_date?: string | null;
+  access_status?: string | null;
+  content_sha256?: string | null;
 }
 export interface Coverage {
   id: string;

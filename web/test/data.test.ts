@@ -8,6 +8,18 @@ describe("stable routes and scope", () => {
   it("routes typed records without guessing domain", () => expect(itemRoute({ kind: "actors", domain: "conflicts", record: actor })).toBe("#/conflicts/actors/test-actor"));
 });
 describe("research semantics", () => {
+  it("keeps month-only and reported intervals in overlapping date filters without inventing an exact day", () => {
+    const month = { kind: "occurrences" as const, domain: "protests" as const, record: { ...base, occurred_start: "2026-09-01", occurred_end: "2026-09-30", date_precision: "month" } };
+    expect(filterItems([month], new URLSearchParams({ from: "2026-09-15", to: "2026-09-16" }))).toHaveLength(1);
+    expect(filterItems([month], new URLSearchParams({ from: "2026-10-01" }))).toHaveLength(0);
+    const span = { ...month, record: { ...month.record, occurred_start: "2026-09-10", occurred_end: "2026-09-20", date_precision: "range" } };
+    expect(filterItems([span], new URLSearchParams({ from: "2026-09-15" }))).toHaveLength(1);
+  });
+  it("does not plot or date-filter an explicitly unknown date from a stored boundary", () => {
+    const unknown = { ...base, occurred_start: "2026-09-01", date_precision: "unknown" };
+    expect(recordDate(unknown)).toBeNull();
+    expect(filterItems([{ kind: "occurrences", domain: "protests", record: unknown }], new URLSearchParams({ from: "2026-09-01" }))).toHaveLength(0);
+  });
   it("preserves month and year date precision", () => { expect(date("2026-09-01", "month")).toBe("Sep 2026"); expect(date("2026-09")).toBe("Sep 2026"); expect(date("2026")).toBe("2026"); });
   it("keeps date-only values on the intended date", () => expect(date("2026-11-03")).toBe("Nov 3, 2026"));
   it("never substitutes review time for occurrence time", () => expect(recordDate({ ...base, reviewed_at: "2026-11-10T00:00:00Z" })).toBeNull());

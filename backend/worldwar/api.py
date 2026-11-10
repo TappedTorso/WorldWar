@@ -140,8 +140,13 @@ def create_app(database_url=None, editor_token=None, *, initialize=True):
                         headers={'Content-Disposition': f'attachment; filename="worldwar-{kind}.csv"'})
 
     @app.get('/api/v1/editor/records', dependencies=[Depends(editor)])
-    def list_editor(status: Literal['draft', 'published', 'retracted', 'merged', 'all'] = 'draft', session=Depends(session_dependency)):
-        return editor_records(session, status)
+    def list_editor(status: Literal['draft', 'published', 'retracted', 'merged', 'all'] = 'draft',
+                    kind: str | None = Query(default=None, max_length=80),
+                    q: str = Query(default='', max_length=300),
+                    limit: int = Query(default=100, ge=1, le=200),
+                    offset: int = Query(default=0, ge=0, le=9_223_372_036_854_775_807),
+                    session=Depends(session_dependency)):
+        return editor_records(session, status, kind=kind, q=q, limit=limit, offset=offset)
 
     @app.get('/api/v1/editor/records/{kind}/{stable_id}', dependencies=[Depends(editor)])
     def private_detail(kind: str, stable_id: str, session=Depends(session_dependency)):
