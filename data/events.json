@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-09T16:25:23Z",
-    "provider": "RSS_FALLBACK",
-    "status": "ok-fallback",
+    "generated_at_utc": "2026-11-10T00:40:35Z",
+    "provider": "GDELT_DOC_API",
+    "status": "partial",
     "timespan": "6h",
     "max_events": 120,
     "streams": [
@@ -14,38 +14,12 @@
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
-        "fetched": 0
-      },
-      {
-        "name": "rss_fallback",
         "status": "ok",
-        "fetched": 7,
-        "feeds": [
-          {
-            "outlet": "BBC News",
-            "status": "ok",
-            "items": 33,
-            "kept": 2
-          },
-          {
-            "outlet": "Al Jazeera",
-            "status": "ok",
-            "items": 25,
-            "kept": 4
-          },
-          {
-            "outlet": "France 24",
-            "status": "ok",
-            "items": 24,
-            "kept": 1
-          }
-        ]
+        "fetched": 62
       }
     ],
-    "fetched_articles": 7,
-    "previous_event_count": 6,
+    "fetched_articles": 62,
+    "previous_event_count": 7,
     "tagging": {
       "method": "string_match",
       "uses": [
@@ -59,71 +33,516 @@
   },
   "events": [
     {
-      "id": "rss_186c5e710920903f",
-      "headline": "Iran executes three men for 'armed unrest' after January protests",
-      "url": "https://www.bbc.co.uk/news/articles/ckly0ex633ydo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-08T13:37:50Z",
-      "source": "BBC News",
+      "id": "gdelt_62900b02df76e44f",
+      "headline": "Трохи інша форма . Обриси миру від Трампа - Korrespondent . net",
+      "url": "https://ua.korrespondent.net/ukraine/4927396-trokhy-insha-forma-obrysy-myru-vid-trampa",
+      "published_at": "20261110T000000Z",
+      "source": "ua.korrespondent.net",
       "tags": [
-        "IRAN"
+        "UKRAINE"
       ]
     },
     {
-      "id": "rss_1dce0c8fd2570720",
-      "headline": "US offers $20m reward for information about Iran's nuclear programme",
-      "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
-      "published_at": "2026-11-07T18:14:38Z",
-      "source": "BBC News",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "rss_7c3ff7a104bdcd2d",
-      "headline": "Iran stands by demands to end the war as US ramps up military pressure",
-      "url": "https://www.aljazeera.com/news/2026/11/9/iran-stands-by-demands-to-end-the-war-as-us-ramps-up-military-pressure?traffic_source=rss",
-      "published_at": "2026-11-09T14:39:32Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "rss_04d562efdccaeee5",
-      "headline": "Syria confirms sending troops to Saudi Arabia amid battle against Houthis",
-      "url": "https://www.aljazeera.com/features/2026/11/9/syria-confirms-sending-troops-to-saudi-arabia-amid-battle-against-houthis?traffic_source=rss",
-      "published_at": "2026-11-09T13:15:27Z",
-      "source": "Al Jazeera",
-      "tags": [
-        "SYRIA",
-        "SAUDI_ARABIA"
-      ]
-    },
-    {
-      "id": "rss_084e80387cbd31b7",
-      "headline": "At least 21 migrants and refugees die trying to reach Greece’s Crete",
-      "url": "https://www.aljazeera.com/news/2026/11/9/at-least-21-migrants-and-refugees-die-trying-to-reach-greeces-crete?traffic_source=rss",
-      "published_at": "2026-11-09T12:06:19Z",
-      "source": "Al Jazeera",
+      "id": "gdelt_2d9d90c0b9efc026",
+      "headline": "Чек для Тель - Авива : Трамп выставил Израилю счёт за помощь в войне Фонд стратегической культуры",
+      "url": "https://fondsk.ru/news/2026/11/09/chek-dlya-tel-aviva-tramp-vystavil-izrailyu-schyot-za-pomosch-v-voyne.html",
+      "published_at": "20261110T000000Z",
+      "source": "fondsk.ru",
       "tags": []
     },
     {
-      "id": "rss_814e6fc876d6cb43",
-      "headline": "Usman Khawaja’s ‘Sandpapergate’ claims are ‘accurate’, says David Warner",
-      "url": "https://www.aljazeera.com/sports/2026/11/9/usman-khawajas-sandpapergate-claims-are-accurate-says-david-warner?traffic_source=rss",
-      "published_at": "2026-11-09T10:38:10Z",
-      "source": "Al Jazeera",
+      "id": "gdelt_9dcddd3bb0bd913b",
+      "headline": "Сербский  Студенческий список : санкции против России не дают результатов",
+      "url": "https://www.vesti.ru/ns/serbskij-studencheskij-spisok-sankcii-protiv-rossii-ne-dayut-rezultatov",
+      "published_at": "20261110T000000Z",
+      "source": "vesti.ru",
       "tags": []
     },
     {
-      "id": "rss_3d3aca7886c7b1d7",
-      "headline": "France brings forward minimum wage increase in bid to quell unrest",
-      "url": "https://www.france24.com/en/video/20261109-france-brings-forward-minimum-wage-increase-in-bid-to-quell-unrest",
-      "published_at": "2026-11-09T14:43:27Z",
-      "source": "France 24",
+      "id": "gdelt_68b559a6ea9ca28c",
+      "headline": "Филиппо : цены на газ во Франции растут из - за идиотских санкций против России",
+      "url": "https://www.vesti.ru/ns/filippo-ceny-na-gaz-vo-francii-rastut-iz-za-sankcij-protiv-rossii",
+      "published_at": "20261110T000000Z",
+      "source": "vesti.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_1e412a71c6c532eb",
+      "headline": "ЄС продовжив місію підготовки військових в Україні до 2028 року – ZN . ua",
+      "url": "https://zn.ua/ukr/europe/-jes-prodovzhiv-vijskovu-misiju-dlja-ukrajini-shche-na-dva-roki.html",
+      "published_at": "20261110T000000Z",
+      "source": "zn.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2c093a788b7dad7c",
+      "headline": "رسائل تهديد حوثية تستهدف سكان تعز تحت القصف",
+      "url": "https://www.alwatan.com.sa/article/1188929",
+      "published_at": "20261110T000000Z",
+      "source": "alwatan.com.sa",
+      "tags": []
+    },
+    {
+      "id": "gdelt_04c99e747c5676df",
+      "headline": "Лавров заявил о триллионных потерях Европы из - за санкций",
+      "url": "https://www.bfm.ru/news/623374",
+      "published_at": "20261110T000000Z",
+      "source": "bfm.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e74c9ccb598b04d1",
+      "headline": "Місія ЄС з військової допомоги Україні діятиме ще два роки DSnews . ua",
+      "url": "https://www.dsnews.ua/ukr/world/missiya-es-po-voennoy-pomoshchi-ukraine-budet-deystvovat-eshche-dva-goda-09112026-471476",
+      "published_at": "20261110T000000Z",
+      "source": "dsnews.ua",
       "tags": [
-        "FRANCE"
+        "UKRAINE"
       ]
+    },
+    {
+      "id": "gdelt_f308eea8a92d58da",
+      "headline": "Tất cả người dân đi hát karaoke chú ý thông báo mới nhất của công an về mức phạt lên đến 80 triệu đồng",
+      "url": "https://cafef.vn/tat-ca-nguoi-dan-di-hat-karaoke-chu-y-thong-bao-moi-nhat-cua-cong-an-ve-muc-phat-len-den-80-trieu-dong-188261109233143775.chn",
+      "published_at": "20261110T000000Z",
+      "source": "cafef.vn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3017ab53b5f62d80",
+      "headline": "Рубио заявил , что Израиль - достаточно богатая страна , чтобы покупать у США оружие",
+      "url": "https://www.newsru.co.il/world/9nov2026/rubio_0021.html",
+      "published_at": "20261110T000000Z",
+      "source": "newsru.co.il",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3b023b9b2279094a",
+      "headline": "Запад сдерживают создание АТЗСТ , заявил посол в МИД",
+      "url": "https://1prime.ru/20261110/zapad-875048805.html",
+      "published_at": "20261110T000000Z",
+      "source": "1prime.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d748f708a8cdf927",
+      "headline": "Переговоры России , США и Украины пройдут в закрытом для СМИ режиме",
+      "url": "https://www.vesti.ru/ns/peregovory-rossii-ssha-i-ukrainy-projdut-v-zakrytom-dlya-smi-rezhime",
+      "published_at": "20261110T000000Z",
+      "source": "vesti.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_57b00a351392987a",
+      "headline": "Російське зерно застрягне в балтійських портах - Литва запроваджує нові правила – ZN . ua",
+      "url": "https://zn.ua/ukr/europe/u-litvi-znishchuvatimut-kradene-ukrajinske-zerno-.html",
+      "published_at": "20261110T000000Z",
+      "source": "zn.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f064de315f8090f2",
+      "headline": "Großbrand am Timmelsjoch : Historischer Bau zerstört",
+      "url": "http://www.come-on.de/deutschland-welt/feuer-am-timmelsjoch-was-sich-fuer-touristen-jetzt-aendert-zr-94582239.html",
+      "published_at": "20261110T000000Z",
+      "source": "come-on.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c185b5ed8260cb74",
+      "headline": "프랑스  슈퍼마켓 냉장고 해킹 배후는 이란 혁명수비대",
+      "url": "https://www.ddaily.co.kr:443/page/view/2026111006223021121",
+      "published_at": "20261110T000000Z",
+      "source": "ddaily.co.kr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_063e641f7e46e115",
+      "headline": "Ucraina , giallo sul nuovo decreto armi : manca la firma di Giorgetti ?",
+      "url": "https://www.strettoweb.com/2026/11/ucraina-giallo-sul-nuovo-decreto-armi-manca-la-firma-di-giorgetti/2175349/",
+      "published_at": "20261110T000000Z",
+      "source": "strettoweb.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_697ee5db6e20d4fe",
+      "headline": "Ucraina , Giorgetti non ha firmato il pacchetto di aiuti militari a Kiev • Vivere San Benedetto notizie per la città e il territorio",
+      "url": "https://www.viveresanbenedetto.it/altrigiornali/14/205135-2026",
+      "published_at": "20261110T000000Z",
+      "source": "viveresanbenedetto.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_353224791c0b5dc4",
+      "headline": "Ucraina , Giorgetti non ha firmato il pacchetto di aiuti militari a Kiev • Vivere San Benedetto notizie per la città e il territorio",
+      "url": "https://www.viveresanbenedetto.it/altrigiornali/7/205140-2026",
+      "published_at": "20261110T000000Z",
+      "source": "viveresanbenedetto.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_81240d08e07554f2",
+      "headline": "No criminal charges in Mount Shasta police shooting that killed Sonoma County man , California attorney general rules",
+      "url": "https://www.pressdemocrat.com/2026/11/09/no-charges-in-shasta-amtrak-shooting/",
+      "published_at": "20261110T000000Z",
+      "source": "pressdemocrat.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c464c10e2f7f52e3",
+      "headline": "이란 대통령  최고지도자 ,  전쟁도 평화도 아닌  상황 종식 지시",
+      "url": "https://www.fnnews.com/news/202611100636573415",
+      "published_at": "20261110T000000Z",
+      "source": "fnnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_96b962e01f2c38dd",
+      "headline": "Qatar , US make  good progres in Iran talks : Report",
+      "url": "https://www.dailysabah.com/world/mid-east/qatar-us-make-good-progress-in-iran-talks-report",
+      "published_at": "20261110T000000Z",
+      "source": "dailysabah.com",
+      "tags": [
+        "IRAN",
+        "QATAR"
+      ]
+    },
+    {
+      "id": "gdelt_748b7334bb2ec156",
+      "headline": "Market zincirleri siber saldırıda felç olmuştu ! Saldıran ülke belli oldu ...",
+      "url": "https://www.bursadabugun.com/haber/market-zincirleri-siber-saldirida-felc-olmustu-saldiran-ulke-belli-oldu-1962211.html",
+      "published_at": "20261110T000000Z",
+      "source": "bursadabugun.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_131dd91af4dd7a0b",
+      "headline": "Ucraina Giorgetti non ha firmato il pacchetto di aiuti militari a Kiev",
+      "url": "https://www.zazoom.it/2026-11-09/ucraina-giorgetti-non-ha-firmato-il-pacchetto-di-aiuti-militari-a-kiev/19908339/",
+      "published_at": "20261110T000000Z",
+      "source": "zazoom.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_28114ab5d5e61517",
+      "headline": "Лавров заявил о вкладе сделки по дизелю с США в снижение цен на топливо",
+      "url": "https://www.bfm.ru/news/623375",
+      "published_at": "20261110T000000Z",
+      "source": "bfm.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f6f41fc5b064dc07",
+      "headline": "Bpm , arriva lofferta dellAgricole . Fusione e premio ai soci del 20 %",
+      "url": "https://www.ilmessaggero.it/economia/news/banco_bpm_credit_agricole_fusione_premio_soci_20-9879650.html",
+      "published_at": "20261110T000000Z",
+      "source": "ilmessaggero.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_e65fe29494bbbf38",
+      "headline": "美伊冲突 最新消息 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202611103926660128.html",
+      "published_at": "20261110T000000Z",
+      "source": "finance.eastmoney.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_461a4c8d7006c4ad",
+      "headline": "Судебные управляющие нашли желающих выкупить израильскую франшизу KFC у российских владельцев",
+      "url": "https://www.newsru.co.il/finance/9nov2026/kfc325.html",
+      "published_at": "20261110T000000Z",
+      "source": "newsru.co.il",
+      "tags": []
+    },
+    {
+      "id": "gdelt_838b881156162bb2",
+      "headline": "ООН станет площадкой взаимодействия России и Киргизии : приоритеты совпадают Фонд стратегической культуры",
+      "url": "https://fondsk.ru/news/2026/11/09/oon-stanet-ploschadkoy-vzaimodeystviya-rossii-i-kirgizii-prioritety-sovpadayut.html",
+      "published_at": "20261110T000000Z",
+      "source": "fondsk.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_411a566870e94f00",
+      "headline": "Ucraina Giorgetti non firma il decreto aiuti stop al flusso di soldi spesi in armi che impattano sul caro vita Governo spaccato",
+      "url": "https://www.zazoom.it/2026-11-10/ucraina-giorgetti-non-firma-il-decreto-aiuti-stop-al-flusso-di-soldi-spesi-in-armi-che-impattano-sul-caro-vita-governo-spaccato/19908428/",
+      "published_at": "20261110T000000Z",
+      "source": "zazoom.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ef86c431fc643585",
+      "headline": "Una victoria para Trump , una derrota para Big Bend",
+      "url": "https://diario.mx/estados-unidos/2026/nov/09/una-victoria-para-trump-una-derrota-para-big-bend-1147886.html",
+      "published_at": "20261110T000000Z",
+      "source": "diario.mx",
+      "tags": []
+    },
+    {
+      "id": "gdelt_76540d8c57ae3afc",
+      "headline": "غارات النيل الأزرق تصعد معركة الإمداد قرب إثيوبيا",
+      "url": "https://www.alwatan.com.sa/article/1188919",
+      "published_at": "20261110T000000Z",
+      "source": "alwatan.com.sa",
+      "tags": []
+    },
+    {
+      "id": "gdelt_2a444923b80ee1ea",
+      "headline": "« Как можно скорее »: Трамп решил лишить Израиль ежегодной военной помощи",
+      "url": "https://news.mail.ru/society/73034319/",
+      "published_at": "20261110T000000Z",
+      "source": "news.mail.ru",
+      "tags": []
+    },
+    {
+      "id": "gdelt_72309e5b3f1347fb",
+      "headline": "Trump says US war in Iran  effectively over  as he plays down escalation concerns | Donald Trump",
+      "url": "https://www.theguardian.com/us-news/2026/nov/09/trump-iran-war",
+      "published_at": "20261110T000000Z",
+      "source": "theguardian.com",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_e1181f3e61634a09",
+      "headline": "పొగ చూరిన నగరం",
+      "url": "https://www.eenadu.net/telugu-news/districts/delhi-news/664/126203684",
+      "published_at": "20261110T000000Z",
+      "source": "eenadu.net",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d2a97034c5a193c5",
+      "headline": "엔비디아 개입 후 메가스피드 칩 밀반출 수사 법무부 이첩",
+      "url": "https://www.ddaily.co.kr:443/page/view/2026111008185192936",
+      "published_at": "20261110T000000Z",
+      "source": "ddaily.co.kr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_03c5a8d9b342ed6c",
+      "headline": "美의회 외교안보 상임위 수장에  한미동맹 강조  지한파 유력",
+      "url": "https://www.fnnews.com/news/202611100736307186",
+      "published_at": "20261110T000000Z",
+      "source": "fnnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_236cceffd8346775",
+      "headline": "US seeing  strong inclination  Ukraine war to end",
+      "url": "https://www.rte.ie/news/world/2026/1109/1598613-ukraine-russia-war/",
+      "published_at": "20261110T000000Z",
+      "source": "rte.ie",
+      "tags": [
+        "RUSSIA",
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "gdelt_06f67b8cda2ce99f",
+      "headline": "2600만달러 쏟아붓고 칩 제재 풀었나 … 젠슨 황 · 트럼프 밀월 역풍",
+      "url": "https://www.ddaily.co.kr:443/page/view/2026111008153017209",
+      "published_at": "20261110T000000Z",
+      "source": "ddaily.co.kr",
+      "tags": []
+    },
+    {
+      "id": "gdelt_4879ca38a5d00dab",
+      "headline": "Lewis Hamilton final stance on Ferrari clash as FIA confirms double punishment",
+      "url": "https://www.planetf1.com/news/lewis-hamilton-ferrari-dispute-fia-double-punishment-f1-2026-brazilian-grand-prix",
+      "published_at": "20261110T000000Z",
+      "source": "planetf1.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_9469a4c451892005",
+      "headline": "Trump says US war in Iran is  militarily effectively over , suggests current  status quo  to continue",
+      "url": "https://www.hindustantimes.com/world-news/us-news/trump-says-us-war-in-iran-is-militarily-effectively-over-suggests-current-status-quo-to-continue-101794265507070.html",
+      "published_at": "20261110T000000Z",
+      "source": "hindustantimes.com",
+      "tags": [
+        "IRAN"
+      ]
+    },
+    {
+      "id": "gdelt_98f8e4dbd2197923",
+      "headline": "За кібератакою на морозильні камери французьких супермаркетів стоїть Іран – ZN . ua",
+      "url": "https://zn.ua/ukr/europe/frantsija-nazvala-orhanizatoriv-masshtabnoji-kiberataki-na-morozilni-kameri.html",
+      "published_at": "20261110T000000Z",
+      "source": "zn.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d3f67c042756e335",
+      "headline": "북미정상 만날까 … 美전문가들  가능성 커졌지만 보여주기 회담",
+      "url": "https://www.fnnews.com/news/202611100743304676",
+      "published_at": "20261110T000000Z",
+      "source": "fnnews.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_cd377256cd22478a",
+      "headline": "Links . Rechts . Mitte - Duell der Meinungsmacher  - Unterhaltung - Talkshow , Servus TV , 10 . 11 . 2026 , 00 : 20 Uhr - Sendung im TV - Programm - TV & Radio",
+      "url": "https://www.tele.at/sendungsdetails/22992968/links-rechts-mitte-duell-der-meinungsmacher.html",
+      "published_at": "20261110T000000Z",
+      "source": "tele.at",
+      "tags": []
+    },
+    {
+      "id": "gdelt_d94b20a89519282d",
+      "headline": "Trump after meeting with Qatari PM says he believes war with Iran is militarily  effectively over",
+      "url": "https://www.wibw.com/2026/11/09/trump-after-meeting-with-qatari-pm-says-he-believes-war-with-iran-is-militarily-effectively-over/",
+      "published_at": "20261110T000000Z",
+      "source": "wibw.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_bf9ae9c7a29623a4",
+      "headline": "Trump says he believes war with Iran militarily  effectively over",
+      "url": "https://www.chicagotribune.com/2026/11/09/trump-iran-war-2/",
+      "published_at": "20261110T000000Z",
+      "source": "chicagotribune.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f06f04489f4cf22d",
+      "headline": "Trump says he believes war with Iran is militarily  effectively over",
+      "url": "https://www.pressdemocrat.com/2026/11/09/trump-iran-us-war/",
+      "published_at": "20261110T000000Z",
+      "source": "pressdemocrat.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3028c4de28cb9604",
+      "headline": "Lydia Chelagat Nominated as Kenya Data Commissioner",
+      "url": "https://techweez.com/2026/11/09/chelagat-nominated-data-commissioner/",
+      "published_at": "20261110T000000Z",
+      "source": "techweez.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_c8d6d1c3870aaaab",
+      "headline": "罕见 ！ 菲媒 ： 特奥多罗应该下台 _ 新浪财经 _ 新浪网",
+      "url": "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyexvk2848224.shtml",
+      "published_at": "20261110T000000Z",
+      "source": "finance.sina.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_691971b7b00c8d64",
+      "headline": "抗中  反噬自身经济 ， 社会不满集中爆发 ， 菲媒罕见要求防长  下台 _ 新浪新闻",
+      "url": "https://news.sina.com.cn/w/2026-11-10/doc-iniyexvk2851692.shtml",
+      "published_at": "20261110T000000Z",
+      "source": "news.sina.com.cn",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5f6b81ffd5c30fcd",
+      "headline": "Trump says he believes war with Iran is militarily  effectively over",
+      "url": "https://www.capitalgazette.com/2026/11/09/trump-iran-us-war/",
+      "published_at": "20261110T000000Z",
+      "source": "capitalgazette.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_5e402ce807db4f72",
+      "headline": "Ukraine - Krieg im Liveticker : +++ 23 : 23 Russland : Zwei Tote in Grenzgebiet nach ukrainischem Angriff +++",
+      "url": "https://www.n-tv.de/politik/23-23-Russland-Zwei-Tote-in-Grenzgebiet-nach-ukrainischem-Angriff-id30859357.html",
+      "published_at": "20261110T000000Z",
+      "source": "n-tv.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_ff61452502c701b3",
+      "headline": "Großbrand am Timmelsjoch : Historischer Bau zerstört",
+      "url": "http://www.wlz-online.de/panorama/feuer-am-timmelsjoch-was-sich-fuer-touristen-jetzt-aendert-zr-94582239.html",
+      "published_at": "20261110T000000Z",
+      "source": "wlz-online.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_a49bc0e5303c9e3a",
+      "headline": "رئيس الوزراء القطري يصف مباحثاته مع ترامب وفانس بالإيجابية",
+      "url": "https://alquds.com/ar/posts/271479",
+      "published_at": "20261110T000000Z",
+      "source": "alquds.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_f8288a838b468f45",
+      "headline": "GdP rügt CDU - Landeschef Lechner : Keine Auftritte in „ ICE - Manier",
+      "url": "http://www.wlz-online.de/politik/gdp-ruegt-cdu-chef-lechner-fuer-aussagen-zu-clan-kriminalitaet-zr-94582230.html",
+      "published_at": "20261110T000000Z",
+      "source": "wlz-online.de",
+      "tags": []
+    },
+    {
+      "id": "gdelt_73f456a62fcb7804",
+      "headline": "أخبار سوريا - جهينة نيوز - سورية : ترامب : الولايات المتحدة لم تجن شيئا من تزويد أوكرانيا بالأسلحة",
+      "url": "https://www.jpnews-sy.com/ar/news.php?id=249520",
+      "published_at": "20261110T000000Z",
+      "source": "jpnews-sy.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_7964a24b61a7b67b",
+      "headline": "Припинення вогню в Україні навіть не обговорюватимуть на переговорах в Абу - Дабі – NYT",
+      "url": "https://daily.com.ua/partners-news/prypynennya-vognyu-v-ukraini-navit-ne-obgovoryuvatymut-na-peregovorah-v-abu-dabi-nyt/",
+      "published_at": "20261110T000000Z",
+      "source": "daily.com.ua",
+      "tags": []
+    },
+    {
+      "id": "gdelt_00cb877dad5eb42e",
+      "headline": "US says Russia - Ukraine talks in Abu Dhabi aim to start",
+      "url": "http://www.iranherald.com/news/279422728/us-says-russia-ukraine-talks-in-abu-dhabi-aim-to-start-final-end-to-war",
+      "published_at": "20261110T000000Z",
+      "source": "iranherald.com",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "gdelt_f143a1892e119528",
+      "headline": "G7 , Tajani invoca unità contro guerra ibrida : tra hacker filo - russi e accuse della Francia allIran - il Fatto Nisseno",
+      "url": "https://www.ilfattonisseno.it/2026/11/g7-tajani-invoca-unita-contro-guerra-ibrida-tra-hacker-filo-russi-e-accuse-della-francia-alliran/",
+      "published_at": "20261110T000000Z",
+      "source": "ilfattonisseno.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_97e68fa094eaeeb1",
+      "headline": "G7 , Tajani invoca unità contro guerra ibrida : tra hacker filo - russi e accuse della Francia allIran • Vivere San Benedetto notizie per la città e il territorio",
+      "url": "https://www.viveresanbenedetto.it/altrigiornali/14/205147-2026",
+      "published_at": "20261110T000000Z",
+      "source": "viveresanbenedetto.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_3d3780a90739a508",
+      "headline": "Gli occhi cinesi su Nvidia Luomo solo al comando dei chip ora fa tremare gli Stati Uniti",
+      "url": "https://www.zazoom.it/2026-11-10/gli-occhi-cinesi-su-nvidia-luomo-solo-al-comando-dei-chip-ora-fa-tremare-gli-stati-uniti/19908426/",
+      "published_at": "20261110T000000Z",
+      "source": "zazoom.it",
+      "tags": []
+    },
+    {
+      "id": "gdelt_fad2f183828663a2",
+      "headline": "Iran vows to  rain down hell  if US escalates war",
+      "url": "http://www.iranherald.com/news/279422716/iran-vows-to-rain-down-hell-if-us-escalates-war",
+      "published_at": "20261110T000000Z",
+      "source": "iranherald.com",
+      "tags": []
+    },
+    {
+      "id": "gdelt_601c70f752e86d0b",
+      "headline": "Обстріли перед переговорами в Абу - Дабі : Росія вдарила по мережі , Україна по KINEF · h . ua",
+      "url": "https://h.ua/2026/11/09/rosiia-ukraina-udary-pered-peremovamy-abu-dabi",
+      "published_at": "20261110T000000Z",
+      "source": "h.ua",
+      "tags": []
     }
   ]
 }
