@@ -1,0 +1,44 @@
+services:
+  database:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: worldwar
+      POSTGRES_USER: worldwar
+      POSTGRES_PASSWORD: ${WORLDWAR_DATABASE_PASSWORD:?Set a URL-safe database password}
+    volumes:
+      - research_database:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, 'pg_isready -U worldwar -d worldwar']
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  api:
+    build:
+      context: backend
+    environment:
+      WORLDWAR_DATABASE_URL: postgresql+psycopg://worldwar:${WORLDWAR_DATABASE_PASSWORD}@database:5432/worldwar
+      WORLDWAR_EDITOR_TOKEN: ${WORLDWAR_EDITOR_TOKEN:?Set an editor token}
+    volumes:
+      - ./data:/data:ro
+      - ./scripts/bootstrap_store.py:/app/bootstrap_store.py:ro
+    command: [sh, -c, 'python bootstrap_store.py && exec uvicorn worldwar.api:app --host 0.0.0.0 --port 8000 --no-access-log']
+    depends_on:
+      database:
+        condition: service_healthy
+    healthcheck:
+      test: [CMD, python, -c, "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/v1/health')"]
+      interval: 15s
+      timeout: 5s
+      start_period: 60s
+      retries: 20
+  web:
+    build:
+      context: .
+      dockerfile: deploy/web.Dockerfile
+    ports:
+      - '127.0.0.1:8080:80'
+    depends_on:
+      api:
+        condition: service_healthy
+volumes:
+  research_database:

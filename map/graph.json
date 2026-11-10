@@ -1,0 +1,488 @@
+{
+  "meta": {
+    "title": "WorldWar \u00b7 execution board",
+    "subtitle": "Implementation and local acceptance in progress; research coverage remains bounded and release awaits GitHub workflow authorization.",
+    "slug": "worldwar-modernization",
+    "stage_label": "workstream"
+  },
+  "groups": [
+    {
+      "id": "scope",
+      "title": "Direction & contracts",
+      "sub": "Verified work and remaining dependencies",
+      "max_cols": 2
+    },
+    {
+      "id": "research",
+      "title": "Research & provenance",
+      "sub": "Verified work and remaining dependencies",
+      "max_cols": 2
+    },
+    {
+      "id": "data",
+      "title": "Data & operations",
+      "sub": "Verified work and remaining dependencies",
+      "max_cols": 2
+    },
+    {
+      "id": "app",
+      "title": "Application",
+      "sub": "Verified work and remaining dependencies",
+      "max_cols": 2
+    },
+    {
+      "id": "release",
+      "title": "Acceptance & release",
+      "sub": "Verified work and remaining dependencies",
+      "max_cols": 2
+    }
+  ],
+  "nodes": [
+    {
+      "id": "context",
+      "group": "scope",
+      "kind": "agent",
+      "title": "Recovered planning chat",
+      "sub": "Read the October 25\u201326 plan and preserve its requirements.",
+      "does": "Read the October 25\u201326 plan and preserve its requirements.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": false
+    },
+    {
+      "id": "contracts",
+      "group": "scope",
+      "kind": "agent",
+      "title": "Pinned shared contracts",
+      "sub": "Define typed domains, date precision, review status and API boundaries.",
+      "does": "Define typed domains, date precision, review status and API boundaries.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": false
+    },
+    {
+      "id": "isolation",
+      "group": "scope",
+      "kind": "agent",
+      "title": "Protected original checkout",
+      "sub": "Build in isolated branches without overwriting existing uncommitted work.",
+      "does": "Build in isolated branches without overwriting existing uncommitted work.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": false
+    },
+    {
+      "id": "sources",
+      "group": "research",
+      "kind": "agent",
+      "title": "Source feasibility & rights",
+      "sub": "Verify usable primary sources and distinguish their claims and permissions.",
+      "does": "Verify usable primary sources and distinguish their claims and permissions.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": false
+    },
+    {
+      "id": "protests",
+      "group": "research",
+      "kind": "agent",
+      "title": "September\u2013November protests",
+      "sub": "Reviewed history with gaps",
+      "does": "31 reviewed occurrences across20 countries; campaign reconciliation and explicit107 coverage records. Provider 429 responses leave historical collection incomplete.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": false
+    },
+    {
+      "id": "elections",
+      "group": "research",
+      "kind": "agent",
+      "title": "Post-election research",
+      "sub": "Post-election registry and evidence",
+      "does": "435 House and35 Senate identities;11 unofficial tally snapshots;459 results unassessed.435 version-matched House boundaries verified. No winner calls invented.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": false
+    },
+    {
+      "id": "legacy",
+      "group": "research",
+      "kind": "agent",
+      "title": "Conflict provenance recovery",
+      "sub": "Preserve all legacy actors/relationships without renewing inherited confidence.",
+      "does": "Preserve all legacy actors/relationships without renewing inherited confidence.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": false
+    },
+    {
+      "id": "store",
+      "group": "data",
+      "kind": "agent",
+      "title": "Relational store & migrations",
+      "sub": "Implement typed SQL persistence, source links and revision history.",
+      "does": "Implement typed SQL persistence, source links and revision history.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": false
+    },
+    {
+      "id": "api",
+      "group": "data",
+      "kind": "agent",
+      "title": "API & editorial protection",
+      "sub": "Build query/export and authenticated transactional review/correction.",
+      "does": "Build query/export and authenticated transactional review/correction.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": false
+    },
+    {
+      "id": "discovery",
+      "group": "data",
+      "kind": "agent",
+      "title": "Honest discovery collection",
+      "sub": "Repair seen/published dates, canonical URL identity and failed-refresh visibility. Six regression tests passed.",
+      "does": "Repair seen/published dates, canonical URL identity and failed-refresh visibility. Six regression tests passed.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": false
+    },
+    {
+      "id": "archive",
+      "group": "data",
+      "kind": "agent",
+      "title": "Recover historical articles",
+      "sub": "Recover article metadata from 281 Git snapshots from September onward.",
+      "does": "Recover article metadata from 281 Git snapshots from September onward.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": false
+    },
+    {
+      "id": "scorecards",
+      "group": "data",
+      "kind": "agent",
+      "title": "Reproducible activity",
+      "sub": "Count reviewed occurrences, expose inputs, withhold unsupported momentum.",
+      "does": "Count reviewed occurrences, expose inputs, withhold unsupported momentum.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": false
+    },
+    {
+      "id": "shell",
+      "group": "app",
+      "kind": "agent",
+      "title": "Shared research interface",
+      "sub": "Build navigation, typed search, filters and persistent routes.",
+      "does": "Build navigation, typed search, filters and persistent routes.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": false
+    },
+    {
+      "id": "maps",
+      "group": "app",
+      "kind": "agent",
+      "title": "Three domain explorers",
+      "sub": "Coordinate geographic, list, timeline and evidence views with distinct semantics.",
+      "does": "Coordinate geographic, list, timeline and evidence views with distinct semantics.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": false
+    },
+    {
+      "id": "editor",
+      "group": "app",
+      "kind": "agent",
+      "title": "Real editorial workspace",
+      "sub": "Maintain drafts, corrections, publication/retraction and merges through API.",
+      "does": "Maintain drafts, corrections, publication/retraction and merges through API.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": false
+    },
+    {
+      "id": "mobile",
+      "group": "app",
+      "kind": "agent",
+      "title": "Mobile & keyboard access",
+      "sub": "Provide deliberate reading/map modes and accessible list equivalents.",
+      "does": "Provide deliberate reading/map modes and accessible list equivalents.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": false
+    },
+    {
+      "id": "integrate",
+      "group": "release",
+      "kind": "service",
+      "title": "Integrate actual data",
+      "sub": "Combine compatible commits, real sources, API and public snapshot.",
+      "does": "Combine compatible commits, real sources, API and public snapshot.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": true
+    },
+    {
+      "id": "acceptance",
+      "group": "release",
+      "kind": "service",
+      "title": "Independent acceptance",
+      "sub": "Verify security, data semantics, actual UI journeys, exports and mobile.",
+      "does": "Verify security, data semantics, actual UI journeys, exports and mobile.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": true
+    },
+    {
+      "id": "recovery",
+      "group": "release",
+      "kind": "service",
+      "title": "Backup & recovery proof",
+      "sub": "Full-store restore proven",
+      "does": "All-table digest and public snapshot matched for31,923 identities and63,852 revisions. Final migration/source-pin regression tests validate newer behavior.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": true
+    },
+    {
+      "id": "deploy",
+      "group": "release",
+      "kind": "service",
+      "title": "Verified release",
+      "sub": "Workflow access unresolved",
+      "does": "Git HTTPS push was rejected for missing workflow scope. Existing connected GitHub authority will be checked on the concrete release branch before requesting access.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": true
+    },
+    {
+      "id": "handoff",
+      "group": "release",
+      "kind": "service",
+      "title": "Operating handoff",
+      "sub": "Document source coverage, costs, maintenance, runtime and unresolved limits.",
+      "does": "Document source coverage, costs, maintenance, runtime and unresolved limits.",
+      "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
+      "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
+      "why": "Supports the complete, maintainable three-domain research application.",
+      "runs": "",
+      "scale": "",
+      "consumes": "Pinned contracts and cited sources",
+      "produces": "Versioned code, data or validation evidence",
+      "planned": true
+    }
+  ],
+  "edges": [
+    [
+      "context",
+      "contracts"
+    ],
+    [
+      "contracts",
+      "sources"
+    ],
+    [
+      "contracts",
+      "store"
+    ],
+    [
+      "contracts",
+      "shell"
+    ],
+    [
+      "sources",
+      "protests"
+    ],
+    [
+      "sources",
+      "elections"
+    ],
+    [
+      "sources",
+      "legacy"
+    ],
+    [
+      "store",
+      "api"
+    ],
+    [
+      "discovery",
+      "archive"
+    ],
+    [
+      "api",
+      "editor"
+    ],
+    [
+      "protests",
+      "scorecards"
+    ],
+    [
+      "shell",
+      "maps"
+    ],
+    [
+      "maps",
+      "mobile"
+    ],
+    [
+      "legacy",
+      "integrate"
+    ],
+    [
+      "elections",
+      "integrate"
+    ],
+    [
+      "protests",
+      "integrate"
+    ],
+    [
+      "api",
+      "integrate"
+    ],
+    [
+      "archive",
+      "integrate"
+    ],
+    [
+      "scorecards",
+      "integrate"
+    ],
+    [
+      "maps",
+      "integrate"
+    ],
+    [
+      "editor",
+      "integrate"
+    ],
+    [
+      "mobile",
+      "integrate"
+    ],
+    [
+      "integrate",
+      "acceptance"
+    ],
+    [
+      "integrate",
+      "recovery"
+    ],
+    [
+      "acceptance",
+      "deploy"
+    ],
+    [
+      "recovery",
+      "deploy"
+    ],
+    [
+      "deploy",
+      "handoff"
+    ]
+  ]
+}

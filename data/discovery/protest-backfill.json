@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "requested_start": "2026-09-01T00:00:00+00:00",
+  "requested_end_exclusive": "2026-11-10T00:00:00+00:00",
+  "note": "Collection-window ledger, not geographic observation coverage. Failed and capped windows require follow-up.",
+  "windows": [
+    {
+      "id": "2026-09-01T00:00:00+00:00/2026-09-08T00:00:00+00:00",
+      "start": "2026-09-01T00:00:00+00:00",
+      "end_exclusive": "2026-09-08T00:00:00+00:00",
+      "status": "error",
+      "note": "provider_rate_limited_429; no zero-activity inference"
+    },
+    {
+      "id": "2026-09-08T00:00:00+00:00/2026-09-15T00:00:00+00:00",
+      "start": "2026-09-08T00:00:00+00:00",
+      "end_exclusive": "2026-09-15T00:00:00+00:00",
+      "status": "error",
+      "note": "provider_rate_limited_429; no zero-activity inference"
+    },
+    {
+      "id": "2026-09-15T00:00:00+00:00/2026-09-22T00:00:00+00:00",
+      "start": "2026-09-15T00:00:00+00:00",
+      "end_exclusive": "2026-09-22T00:00:00+00:00",
+      "status": "unattempted"
+    },
+    {
+      "id": "2026-09-22T00:00:00+00:00/2026-09-29T00:00:00+00:00",
+      "start": "2026-09-22T00:00:00+00:00",
+      "end_exclusive": "2026-09-29T00:00:00+00:00",
+      "status": "unattempted"
+    },
+    {
+      "id": "2026-09-29T00:00:00+00:00/2026-10-06T00:00:00+00:00",
+      "start": "2026-09-29T00:00:00+00:00",
+      "end_exclusive": "2026-10-06T00:00:00+00:00",
+      "status": "unattempted"
+    },
+    {
+      "id": "2026-10-06T00:00:00+00:00/2026-10-13T00:00:00+00:00",
+      "start": "2026-10-06T00:00:00+00:00",
+      "end_exclusive": "2026-10-13T00:00:00+00:00",
+      "status": "unattempted"
+    },
+    {
+      "id": "2026-10-13T00:00:00+00:00/2026-10-20T00:00:00+00:00",
+      "start": "2026-10-13T00:00:00+00:00",
+      "end_exclusive": "2026-10-20T00:00:00+00:00",
+      "status": "unattempted"
+    },
+    {
+      "id": "2026-10-20T00:00:00+00:00/2026-10-27T00:00:00+00:00",
+      "start": "2026-10-20T00:00:00+00:00",
+      "end_exclusive": "2026-10-27T00:00:00+00:00",
+      "status": "unattempted"
+    },
+    {
+      "id": "2026-10-27T00:00:00+00:00/2026-11-03T00:00:00+00:00",
+      "start": "2026-10-27T00:00:00+00:00",
+      "end_exclusive": "2026-11-03T00:00:00+00:00",
+      "status": "unattempted"
+    },
+    {
+      "id": "2026-11-03T00:00:00+00:00/2026-11-10T00:00:00+00:00",
+      "start": "2026-11-03T00:00:00+00:00",
+      "end_exclusive": "2026-11-10T00:00:00+00:00",
+      "status": "unattempted"
+    }
+  ]
+}

@@ -52,7 +52,7 @@ ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "").strip()
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
 def _utc_now() -> _dt.datetime:
-    return _dt.datetime.utcnow().replace(tzinfo=_dt.timezone.utc)
+    return _dt.datetime.now(_dt.timezone.utc)
 
 
 def _utc_now_iso() -> str:
@@ -66,7 +66,10 @@ def _parse_iso(s: Optional[str]) -> Optional[_dt.datetime]:
     m = re.fullmatch(r"(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z", s)
     if m:
         y, mo, d, h, mi, sec = (int(x) for x in m.groups())
-        return _dt.datetime(y, mo, d, h, mi, sec, tzinfo=_dt.timezone.utc)
+        try:
+            return _dt.datetime(y, mo, d, h, mi, sec, tzinfo=_dt.timezone.utc)
+        except ValueError:
+            return None
     try:
         return _dt.datetime.fromisoformat(s.replace("Z", "+00:00"))
     except ValueError:
@@ -86,8 +89,8 @@ def cluster_events(events_data: Dict, lookback_hours: int) -> Dict[str, List[Dic
     cutoff = _utc_now() - _dt.timedelta(hours=lookback_hours)
     clusters: Dict[str, List[Dict]] = {}
     for evt in (events_data.get("events") or []):
-        dt = _parse_iso(evt.get("published_at"))
-        if dt and dt < cutoff:
+        dt = _parse_iso(evt.get("published_at") or evt.get('discovered_at'))
+        if not dt or dt < cutoff:
             continue
         for tag in (evt.get("tags") or []):
             clusters.setdefault(tag, []).append(evt)

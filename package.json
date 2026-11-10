@@ -2,6 +2,20 @@
   "name": "worldwar-dashboard",
   "private": true,
   "type": "module",
+  "engines": {"node": ">=22.12.0"},
+  "scripts": {
+    "setup:web": "npm --prefix web ci",
+    "build:data": "python3 scripts/build_public.py",
+    "build": "npm run build:data && npm --prefix web run build",
+    "dev": "npm --prefix web run dev -- --host 127.0.0.1",
+    "preview": "npm --prefix web run preview -- --host 127.0.0.1",
+    "test:collectors": "PYTHONPATH=backend python3 -m unittest discover -s scripts -p 'test_*.py'",
+    "test:legacy": "node scripts/validate-data.mjs && node scripts/validate-render.mjs",
+    "test:backend": "PYTHONPATH=backend python3 -m pytest backend/tests -q",
+    "test:web": "npm --prefix web test -- --run",
+    "test": "npm run test:collectors && npm run test:legacy && npm run test:backend && npm run test:web",
+    "check:public": "python3 scripts/validate_public.py"
+  },
   "devDependencies": {
     "ajv": "^8.0.0",
     "ajv-formats": "^3.0.0"
