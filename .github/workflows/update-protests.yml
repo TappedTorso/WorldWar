@@ -1,0 +1,46 @@
+name: Collect protest source candidates
+on:
+  schedule:
+    - cron: '29 7 * * *'
+  workflow_dispatch:
+    inputs:
+      start:
+        description: 'Optional inclusive UTC date (YYYY-MM-DD)'
+        required: false
+      end:
+        description: 'Optional exclusive UTC date (YYYY-MM-DD)'
+        required: false
+permissions:
+  contents: write
+concurrency:
+  group: protest-source-candidates
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collect metadata into the unreviewed source inbox
+        env:
+          REQUEST_START: ${{ inputs.start }}
+          REQUEST_END: ${{ inputs.end }}
+        run: |
+          args=()
+          if [ -n "$REQUEST_START" ]; then args+=(--start "$REQUEST_START"); fi
+          if [ -n "$REQUEST_END" ]; then args+=(--end "$REQUEST_END"); fi
+          python scripts/collect_protest_candidates.py "${args[@]}"
+      - name: Preserve candidate metadata and coverage gaps
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/discovery/protest-candidates.json data/discovery/protest-runs.json data/discovery/protest-backfill.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'data: retain protest source candidates and collection health'
+          git pull --rebase origin main
+          git push origin HEAD:main
