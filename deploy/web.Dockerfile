@@ -3,6 +3,7 @@ WORKDIR /app
 COPY backend ./backend
 COPY data ./data
 COPY scripts ./scripts
+COPY docs/research/global-sweep-20261110.json ./docs/research/global-sweep-20261110.json
 RUN pip install --no-cache-dir -r backend/requirements.txt && python scripts/build_public.py
 
 FROM node:22-alpine AS frontend
