@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "WorldWar \u00b7 execution board",
-    "subtitle": "Implementation and local acceptance in progress; research coverage remains bounded and release awaits GitHub workflow authorization.",
+    "subtitle": "The integrated research platform passes local and full-service CI acceptance. Final edition is preparing for release; global historical coverage remains incomplete.",
     "slug": "worldwar-modernization",
     "stage_label": "workstream"
   },
@@ -107,8 +107,8 @@
       "group": "research",
       "kind": "agent",
       "title": "September\u2013November protests",
-      "sub": "Reviewed history with gaps",
-      "does": "31 reviewed occurrences across20 countries; campaign reconciliation and explicit107 coverage records. Provider 429 responses leave historical collection incomplete.",
+      "sub": "33 observations; history remains partial",
+      "does": "33 reviewed observation records across 20 countries;31 count eligible, seven canonical campaigns and one merged alias. Explicit coverage records and source research span a bounded42jurisdiction review. Provider429failures and unassessed places/dates mean historical collection is not globally complete.",
       "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
       "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
       "why": "Supports the complete, maintainable three-domain research application.",
@@ -347,8 +347,8 @@
       "group": "release",
       "kind": "service",
       "title": "Verified release",
-      "sub": "Workflow access unresolved",
-      "does": "Git HTTPS push was rejected for missing workflow scope. Existing connected GitHub authority will be checked on the concrete release branch before requesting access.",
+      "sub": "Final edition entering CI",
+      "does": "Existing GitHub connector authority resolved the earlier CLI workflow-scope restriction. The first CI run passed PostgreSQL and full container checks. Release waits for verification of the final edition and the actual deployed Pages site.",
       "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.",
       "if_fails": "Retain the last accepted artifact and record the specific unresolved work.",
       "why": "Supports the complete, maintainable three-domain research application.",

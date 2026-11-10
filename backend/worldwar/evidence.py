@@ -23,12 +23,16 @@ def linked_sources(session, revision_ids, *, private=False):
         return {}
     source_revision = aliased(Revision)
     result = {}
-    statement = select(EvidenceLink.revision_id, EvidenceLink.source_snapshot,
-                       source_revision.payload, source_revision.public_visible).join(
-        source_revision, (source_revision.record_key == EvidenceLink.source_key) &
-        (source_revision.number == EvidenceLink.source_revision)).where(
-            EvidenceLink.revision_id.in_(revision_ids)).order_by(EvidenceLink.revision_id, EvidenceLink.source_key)
-    for claiming_id, captured, payload, visible in session.execute(statement):
-        if private or visible:
-            result.setdefault(claiming_id, []).append(dict(captured or payload))
+    # Keep full-archive exports portable across SQLite builds with different
+    # variable limits; per-record source ordering remains deterministic.
+    unique_ids = list(dict.fromkeys(revision_ids))
+    for offset in range(0, len(unique_ids), 500):
+        statement = select(EvidenceLink.revision_id, EvidenceLink.source_snapshot,
+                           source_revision.payload, source_revision.public_visible).join(
+            source_revision, (source_revision.record_key == EvidenceLink.source_key) &
+            (source_revision.number == EvidenceLink.source_revision)).where(
+                EvidenceLink.revision_id.in_(unique_ids[offset:offset + 500])).order_by(EvidenceLink.revision_id, EvidenceLink.source_key)
+        for claiming_id, captured, payload, visible in session.execute(statement):
+            if private or visible:
+                result.setdefault(claiming_id, []).append(dict(captured or payload))
     return result

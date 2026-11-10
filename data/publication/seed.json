@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
   "meta": {
-    "generated_at": "2026-11-10T08:10:33.417319Z",
+    "generated_at": "2026-11-10T08:23:17.323853Z",
     "data_version": "research-seed-20261110-v5",
     "legacy_reviewed_at": null,
-    "coverage_summary": "Thirty-one reviewed, attributed protest occurrences across twenty countries and seven canonical campaigns across twenty-two combined occurrence/campaign countries; 435 House and 35 scheduled Senate registry entries with eleven unofficial Minnesota/Delaware tally snapshots. Fifteen dated conflict developments and seventeen election actions are included. Historical and geographic coverage remains partial, never zero-filled.",
+    "coverage_summary": "Thirty-three reviewed, attributed protest occurrences across twenty countries and seven canonical campaigns across twenty-two combined occurrence/campaign countries; 435 House and 35 scheduled Senate registry entries with eleven unofficial Minnesota/Delaware tally snapshots. Fifteen dated conflict developments and seventeen election actions are included. Historical and geographic coverage remains partial, never zero-filled.",
     "publication_mode": "reviewed_snapshot",
     "assembly_note": "Generated_at records publication-packet assembly, not source retrieval or substantive review; per-record review and retrieval times are preserved."
   },
@@ -2585,6 +2585,77 @@
       "attribution_note": "Demands and targets are coded only where stated; an empty array means the reviewed source did not establish them.",
       "causal_connections": [],
       "purpose": "Commemorate Mahsa (Jina) Amini’s death; no additional demand inferred"
+    },
+    {
+      "source_ids": [
+        "v5-galway-faq"
+      ],
+      "evidence_status": "reviewed",
+      "publication_status": "published",
+      "revision": 1,
+      "reviewed_at": "2026-11-10T07:03:00.334946Z",
+      "updated_at": "2026-11-10T08:23:17.323853Z",
+      "review_method": "research_agent_source_review",
+      "country_code": "IE",
+      "country": "Ireland",
+      "place_name": "University of Galway",
+      "longitude": null,
+      "latitude": null,
+      "location_precision": "unknown",
+      "date_precision": "day",
+      "demands": [],
+      "targets": [],
+      "campaign_ids": [],
+      "count_eligible": true,
+      "evidence_locator": "PDF p 1, question 1",
+      "attribution": "University of Galway",
+      "attribution_note": "The institution identifies the action and dates. No action-specific demand, target, turnout, campus location, or inferred national extent is added.",
+      "confidence_note": "Attributed institutional record; independent corroboration not established. Institution identified; exact physical action location not established. No causal or political-effect claim inferred.",
+      "causal_connections": [],
+      "id": "p-ie-galway-20261021",
+      "title": "University staff hold October 21 strike",
+      "summary": "The University of Galway records that IFUT members undertook a 24-hour strike on October 21, 2026.",
+      "occurred_start": "2026-10-21",
+      "occurred_end": "2026-10-21",
+      "action_type": "strike",
+      "event_scope": "discrete_strike_day",
+      "inclusion_rationale": "The affected institution expressly confirms a completed collective strike day, separately dated from its October 14 strike. This is one occurrence, not an inferred day of continuous action."
+    },
+    {
+      "source_ids": [
+        "v5-galway-faq"
+      ],
+      "evidence_status": "reviewed",
+      "publication_status": "published",
+      "revision": 1,
+      "reviewed_at": "2026-11-10T07:03:00.334946Z",
+      "updated_at": "2026-11-10T08:23:17.323853Z",
+      "review_method": "research_agent_source_review",
+      "country_code": "IE",
+      "country": "Ireland",
+      "place_name": "University of Galway",
+      "longitude": null,
+      "latitude": null,
+      "location_precision": "unknown",
+      "date_precision": "day",
+      "demands": [],
+      "targets": [],
+      "campaign_ids": [],
+      "count_eligible": true,
+      "evidence_locator": "PDF p 1, question 1",
+      "attribution": "University of Galway",
+      "attribution_note": "The institution identifies the action and dates. No action-specific demand, target, turnout, campus location, or inferred national extent is added.",
+      "confidence_note": "Attributed institutional record; independent corroboration not established. Institution identified; exact physical action location not established. No causal or political-effect claim inferred.",
+      "causal_connections": [],
+      "id": "p-ie-galway-worktorule-20260930",
+      "title": "University staff work-to-rule begins",
+      "summary": "The University of Galway records that SIPTU work-to-rule and related industrial action began on September 30, 2026. This record counts the onset once; its end date is not established.",
+      "occurred_start": "2026-09-30",
+      "occurred_end": null,
+      "action_type": "work_to_rule",
+      "event_scope": "action_onset",
+      "time_local_raw": "00:01; timezone not specified in document",
+      "inclusion_rationale": "The affected institution expressly records the commencement of collective industrial action. Only the dated onset is counted; no daily continuation or ending is inferred."
     }
   ],
   "campaigns": [
@@ -20308,7 +20379,7 @@
       "source_ids": [
         "v5-galway-faq"
       ],
-      "note": "Selective primary review; 2 added occurrence/campaign record(s). University confirms 5 October,14 October,21 October completed action. Only first two added within bounded record cap; 12 November remains future. No countrywide completeness or zero-event claim.",
+      "note": "University records SIPTU work-to-rule beginning September 30, a completed IFUT stoppage October 5 and completed IFUT strike days October 14 and October 21. Each discrete date or onset is represented once. End date of work-to-rule is unknown; notified November 12 action remains future and is excluded. Institutional evidence does not establish an exhaustive Ireland history.",
       "reviewed_at": "2026-11-10T07:03:00.334946Z",
       "assessment_method": "bounded_search_and_selective_review",
       "search_audit_key": "IE"

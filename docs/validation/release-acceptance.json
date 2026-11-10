@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-11-10T08:29:52.079789+00:00",
+  "local_checks": {
+    "backend": {
+      "passed": 58
+    },
+    "frontend": {
+      "passed": 45
+    },
+    "collectors": {
+      "passed": 14
+    },
+    "legacy_and_render_contracts": "pass",
+    "production_build": "pass",
+    "public_release_gates": "pass",
+    "independent_data_and_geometry_checks": 17
+  },
+  "database_recovery": {
+    "full_v1_store_proof": "backend/validation/restore-proof.json",
+    "v2_upgrade_and_restore": "covered by backend suite",
+    "source_pin_export_rebuild": "active/retired claims tested;600article export under500SQLite-variable limit"
+  },
+  "first_full_service_ci": {
+    "commit": "585fd01db24c04e79a1a4082aa3bb4679642c366",
+    "url": "https://github.com/TappedTorso/WorldWar/actions/runs/42781953806",
+    "postgresql": "pass",
+    "complete_container_stack": "pass"
+  },
+  "final_edition": {
+    "data_version": "408fc8f0c6792ff1",
+    "observations": 33,
+    "count_eligible_observations": 31,
+    "canonical_campaigns": 7,
+    "house_geographies": 435,
+    "contests": 470,
+    "reported_unofficial_contests": 11,
+    "unassessed_contests": 459,
+    "discovery_articles": 15557
+  },
+  "scope_limit": "Engineering and bounded-data acceptance do not establish worldwide historical completeness or nationwide result completeness."
+}

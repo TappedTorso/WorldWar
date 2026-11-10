@@ -253,3 +253,23 @@ def test_captured_source_metadata_never_exports_private_source_drafts(app,client
     retire_api(client,'occurrences',observed['id'],observed['revision'])
     assert 'PRIVATE-' not in client.get('/api/v1/snapshot').text
     export_packet(app,tmp_path)
+
+
+def test_full_archive_source_pins_work_under_bounded_sqlite_parameter_limit():
+    import sqlite3
+    engine=make_engine('sqlite://');migrate(engine);factory=sessions(engine)
+    packet={'metadata':{'kind':'discovery_archive'},'events':[
+        dict(id=f'bounded-article-{n}',headline=f'Synthetic bounded article {n}',url=f'https://example.org/bounded/{n}',
+             discovered_at=NOW,retrieved_at=NOW,published_at=None) for n in range(600)]}
+    assert ingest_discovery(factory,packet,publish_unreviewed=True)['accepted_count']==600
+    raw=engine.raw_connection()
+    original_limit=raw.driver_connection.setlimit(sqlite3.SQLITE_LIMIT_VARIABLE_NUMBER,500)
+    raw.close()
+    try:
+        with factory() as session:
+            result=snapshot(session,export=True)
+            assert len(result['developments'])==600
+            assert all(len(r['source_snapshots'])==1 and r['source_snapshots'][0]['url']==r['url'] for r in result['developments'])
+    finally:
+        raw=engine.raw_connection();raw.driver_connection.setlimit(sqlite3.SQLITE_LIMIT_VARIABLE_NUMBER,original_limit);raw.close()
+        engine.dispose()
