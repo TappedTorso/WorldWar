@@ -1,0 +1,129 @@
+{
+  "prepared_at": "2026-11-10T08:09:15.253482Z",
+  "status": "applied_to_publication_seed",
+  "canonical_id": "campaign-za-oct2026",
+  "retired_id": "c-za-asylum-protests-202610",
+  "recommendation": "merge_at_campaign_context_granularity",
+  "identity_basis": [
+    "Same country and paired locations: Durban/eThekwini and Soweto.",
+    "Same contemporaneous October9 reporting and Home Affairs/asylum-processing contention.",
+    "Neither record establishes a distinct organizer, campaign demand set or separate activity period.",
+    "This is campaign-level source consolidation; individual incident identity and all participants’ conduct remain unestablished."
+  ],
+  "source_ids": [
+    "sa-protests-20261009",
+    "v5-sahrc-asylum",
+    "v5-durban-police-oct10"
+  ],
+  "publication_actions": [
+    {
+      "kind": "campaigns",
+      "id": "c-za-asylum-protests-202610",
+      "action": "merge",
+      "target_id": "campaign-za-oct2026",
+      "published_at": "2026-11-10T08:10:33.417319Z"
+    }
+  ],
+  "source_objects_unchanged": true,
+  "reviewed_at_policy": "Retain the latest actual original source review timestamp07:03:00.334946Z. updated_at in the draft records this structural reconciliation preparation, not a new retrieval or source review. Parent should stamp the actual publication action when applied.",
+  "claim_comparison": [
+    {
+      "source_id": "sa-protests-20261009",
+      "url": "https://www.sanews.gov.za/south-africa/saps-ready-respond-criminality",
+      "reported_date": "2026-10-09",
+      "scope": "Government news account of protests outside Home Affairs in Soweto and Durban, commissioner response and violence allegations; source validation explicitly withholds exact local action start and legal adoption of protesters’ asylum-ruling interpretation.",
+      "distinct_scope_established": false
+    },
+    {
+      "source_id": "v5-sahrc-asylum",
+      "url": "https://sahrc.org.za/index.php/sahrc-media/news-2/item/4556-media-statement-sahrc-calls-for-calm-and-condemns-violent-protests-against-resumption-of-asylum-processing",
+      "reported_date": "2026-10-09",
+      "scope": "Rights commission describes protests in eThekwini/Soweto following resumed asylum processing, intimidation concerns and calls to protect asylum seekers and officials.",
+      "distinct_scope_established": false
+    },
+    {
+      "source_id": "v5-durban-police-oct10",
+      "url": "https://emergency.durban.gov.za/press-statement/media-statement-from-the-office-of-the-provincial-commissioner-of-the-south-african-police-service-kwazulu-natal",
+      "reported_date": "2026-10-10",
+      "scope": "Police statement concerns recent Durban unrest, arrests and damage; it does not independently establish the asylum linkage or exact protest dates.",
+      "distinct_scope_established": false
+    }
+  ],
+  "preserved_provenance": [
+    {
+      "source_id": "sa-protests-20261009",
+      "campaign_reviewed_at": "2026-11-10T06:07:38.200946Z",
+      "ledger_reviewed_at": "2026-11-10T06:11:31.494356Z",
+      "retrieved_at": null,
+      "retrieval_date": "2026-11-10"
+    },
+    {
+      "source_id": "v5-sahrc-asylum",
+      "reviewed_at": "2026-11-10T07:03:00.334946Z",
+      "retrieved_at": "2026-11-10T06:46:32.800936Z",
+      "content_sha256": "8263bb600c9a9c30e404336c55124c96583e36829d831c323ecd44185813823d"
+    },
+    {
+      "source_id": "v5-durban-police-oct10",
+      "reviewed_at": "2026-11-10T07:03:00.334946Z",
+      "retrieved_at": "2026-11-10T06:52:31.918286Z",
+      "content_sha256": "d98d9d1cc7c4b685b7ebbecb0e710d9383e9ed858a81d7b6b9655be10cf4ac7d"
+    }
+  ],
+  "expected_counts_after_merge": {
+    "occurrences": 31,
+    "campaigns": 7,
+    "occurrence_countries": 20,
+    "combined_occurrence_campaign_countries": 22
+  },
+  "new_country_correction": {
+    "touched_countries": 12,
+    "new_overall_countries": 11,
+    "new_occurrence_countries": 10,
+    "reason": "South Africa already appeared in v3 campaign-za-oct2026."
+  },
+  "required_doc_edits": [
+    {
+      "path": "docs/research/protest-expansion.md",
+      "line": 1,
+      "find": "three campaign contexts across 12 countries newly represented relative to v3",
+      "replace": "three source-context additions touching 12 countries, of which 11 are newly represented relative to v3; the South Africa addition is consolidated with an existing campaign"
+    },
+    {
+      "path": "docs/research/protest-expansion.md",
+      "line": 1,
+      "find": "plus eight campaign records",
+      "replace": "plus seven canonical campaign records after reconciling the South Africa duplicate"
+    },
+    {
+      "path": "docs/research/protest-expansion.md",
+      "line": 21,
+      "find": "twelve added countries partial",
+      "replace": "twelve countries touched by the expansion partial; eleven are newly represented overall"
+    },
+    {
+      "path": "docs/research/protest-expansion-validation.json",
+      "json_pointer": "/new_country_count",
+      "find": 12,
+      "replace": 11
+    },
+    {
+      "path": "docs/research/protest-expansion-validation.json",
+      "json_pointer": "/new_campaign_count",
+      "note": "Keep3 only if explicitly labelled pre-dedup additive source records; final net increase is2, final canonical campaign count7. Preserve original raw validation as historical evidence if preferred, and add a correction record rather than silently rewriting it."
+    },
+    {
+      "path": "data/publication/seed.json",
+      "record_id": "cov-protests-worldwide-v5",
+      "field": "note",
+      "find": "12newcountries have added records",
+      "replace": "12 countries have added or consolidated records;11 are newly represented overall"
+    },
+    {
+      "path": "data/publication/seed.json",
+      "json_pointer": "/meta/coverage_summary",
+      "note": "Use seven canonical campaigns after the merge; keep31 occurrences,20 occurrence countries and22 combined countries."
+    }
+  ],
+  "applied_at": "2026-11-10T08:10:33.417319Z"
+}

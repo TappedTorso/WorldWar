@@ -1,0 +1,242 @@
+{
+  "checked_at": "2026-11-10T10:26:09.960985+00:00",
+  "review_scope": "Read-only artifact and evidence-contract acceptance; substantive source reviews are separately attributed research-agent work. Passing does not certify exhaustive history or independent corroboration.",
+  "inputs": {
+    "data/publication/seed.json": "2999e3407319db93466c2d1f68b2bcb630cd842adaf40c95c8280e9cec05dac8",
+    "data/publication/official-results.json": "6de3b5f4ffc0fd07e1383a041f12fda91278bc54f8c981de61a13d7eb3a14470",
+    "docs/research/global-sweep-20261110.json": "15f7afc6f62430105956bd66858d490ee579e3cafd302eac711770ec6913f242",
+    "web/public/data/research.json": "8df6d5b009cadc763e416d8419cfd007529bc68b683efdeede52cdbf05747001"
+  },
+  "counts": {
+    "observations": 453,
+    "count_eligible": 449,
+    "campaigns": 82,
+    "occurrence_countries": 119,
+    "combined_countries": 127,
+    "protest_coverage_jurisdictions": 207,
+    "manual_sources": 396
+  },
+  "published_data_version": "e79ab3757e257db1",
+  "checks": [
+    {
+      "id": "strict_record_schemas",
+      "status": "pass",
+      "evidence": {
+        "rows": 1703,
+        "errors": []
+      }
+    },
+    {
+      "id": "stable_ids_unique_across_kinds",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "id": "source_reference_integrity",
+      "status": "pass",
+      "evidence": {
+        "missing": [],
+        "unsupported": []
+      }
+    },
+    {
+      "id": "domain_cross_references",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "id": "observation_dates_and_precision",
+      "status": "pass",
+      "evidence": {
+        "date_precisions": {
+          "day": 446,
+          "range": 6,
+          "month": 1
+        },
+        "invalid_ids": [],
+        "month_does_not_invent_active_days": true
+      }
+    },
+    {
+      "id": "edition_counts_match_reviewed_audit",
+      "status": "pass",
+      "evidence": {
+        "actual": {
+          "observations": 453,
+          "count_eligible": 449,
+          "campaigns": 82,
+          "occurrence_countries": 119,
+          "combined_countries": 127,
+          "protest_coverage_jurisdictions": 207,
+          "manual_sources": 396
+        },
+        "audit": {
+          "observations": 453,
+          "count_eligible": 449,
+          "campaigns": 82,
+          "occurrence_countries": 119,
+          "combined_countries": 127,
+          "protest_coverage_jurisdictions": 207,
+          "manual_sources": 396
+        }
+      }
+    },
+    {
+      "id": "campaigns_are_not_occurrence_counts",
+      "status": "pass",
+      "evidence": {
+        "canonical_campaigns": 82,
+        "excluded_occurrences": [
+          "p-az-protests-20261012",
+          "p-nz-publicservice-20260909",
+          "p-ie-galway-20261021",
+          "p-bd-wage-protest-onset-20261031"
+        ]
+      }
+    },
+    {
+      "id": "one_partial_assessment_per_reporting_jurisdiction",
+      "status": "pass",
+      "evidence": {
+        "jurisdictions": 207,
+        "status_counts": {
+          "partial": 207
+        },
+        "complete_country_or_global_census": false
+      }
+    },
+    {
+      "id": "publication_actions_preserve_retired_identities",
+      "status": "pass",
+      "evidence": {
+        "actions": 4,
+        "errors": []
+      }
+    },
+    {
+      "id": "galway_completion_conflict_excluded",
+      "status": "pass",
+      "evidence": {
+        "id": "p-ie-galway-20261021",
+        "source_ids": [
+          "v5-galway-faq",
+          "esweep-ifut-20261016",
+          "esweep-siptu-20261025"
+        ],
+        "confidence_note": "Contested completion evidence. An announced national suspension does not prove absence of every local action; the FAQ alone no longer establishes a countable occurrence."
+      }
+    },
+    {
+      "id": "public_claim_source_metadata_pins",
+      "status": "pass",
+      "evidence": {
+        "errors": [],
+        "note": "Each claim retains source metadata at its publication revision."
+      }
+    },
+    {
+      "id": "active_public_identities_equal_expected_projection",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "id": "seed_and_official_overlay_match_public_fields",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "id": "post_election_registry_status_and_totals",
+      "status": "pass",
+      "evidence": {
+        "contests": 470,
+        "house": 435,
+        "senate": 35,
+        "status_counts": {
+          "not_assessed": 459,
+          "reported_unofficial": 11
+        },
+        "problems": []
+      }
+    },
+    {
+      "id": "official_refresh_does_not_invent_editorial_review",
+      "status": "pass",
+      "evidence": {
+        "official_adapter_contests": 2
+      }
+    },
+    {
+      "id": "operative_house_geometry_unchanged_and_joined",
+      "status": "pass",
+      "evidence": {
+        "sha256": "d9d5b2ac305adc72537b7ad8d0fdc17a04dff5f39729ce5e704076c7cfda9557",
+        "features": 435,
+        "join_errors": [],
+        "missouri_exception": "Eight operative CD119 shapes; remaining427 use CD120, with documented Census vintage exception."
+      }
+    },
+    {
+      "id": "legacy_identities_and_verification_status_preserved",
+      "status": "pass",
+      "evidence": {
+        "actors": 82,
+        "relationships": 75,
+        "original_citation_text_preserved": true,
+        "original_report_recovered": false
+      }
+    },
+    {
+      "id": "scorecards_recomputed_with_exact_components_and_inputs",
+      "status": "pass",
+      "evidence": []
+    },
+    {
+      "id": "scorecards_do_not_infer_comparable_coverage",
+      "status": "pass",
+      "evidence": {
+        "scorecards": 207,
+        "problems": []
+      }
+    },
+    {
+      "id": "built_public_snapshot_is_exact",
+      "status": "pass",
+      "evidence": {
+        "data_version": "e79ab3757e257db1",
+        "sha256": "8df6d5b009cadc763e416d8419cfd007529bc68b683efdeede52cdbf05747001"
+      }
+    },
+    {
+      "id": "public_audit_is_exact_and_metadata_only",
+      "status": "pass",
+      "evidence": {
+        "query_entries": 354,
+        "lead_dispositions": 3332,
+        "source_reviews": 327,
+        "full_source_text_published": false
+      }
+    },
+    {
+      "id": "no_workspace_paths_or_synthetic_acceptance_markers",
+      "status": "pass",
+      "evidence": {
+        "private_runtime_used_for_build": false,
+        "synthetic_editor_fixture_in_public_data": false
+      }
+    }
+  ],
+  "check_counts": {
+    "pass": 22
+  },
+  "remaining_defects": [],
+  "known_limits": [
+    "All coverage remains partial. Search ranking, indexing, language, access and source incentives affect representation.",
+    "No returned record never means no activity; observations are not a global census or comparable country rates.",
+    "Announcements, cancelled actions, source/date conflicts and unresolved leads are not automatically counted.",
+    "Source full text and raw search responses remain private. Metadata hashes describe exactly the stated capture, not independent corroboration.",
+    "Initial Europe q01 and initial four additional-jurisdiction queries retain exact query strings but no saved raw response; no missing timestamp or response hash is invented.",
+    "Only11 unofficial tally observations;459 contest records remain unassessed. No certified winners are established.",
+    "The82actor/75relationship legacy remains explicitly unverified; original report provenance is not recovered."
+  ],
+  "overall": "pass"
+}

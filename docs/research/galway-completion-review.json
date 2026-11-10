@@ -1,0 +1,96 @@
+{
+  "supersession": {
+    "as_of": "2026-11-10T10:12:05.882291+00:00",
+    "current_audit": "global-sweep-20261110.json",
+    "scope": "Historical pre-sweep audit retained for provenance. Its coverage/counts are superseded by the current global source-sweep edition.",
+    "galway_correction": "October21 completion is now contested: retain the FAQ and suspension/deferral sources, exclude p-ie-galway-20261021 from occurrence totals. This does not assert local non-occurrence."
+  },
+  "status": "superseded_completion_assessment",
+  "prepared_at": "2026-11-10T08:22:00.288078Z",
+  "scope": "Read-only comparison of preserved Galway FAQ, original source ledger, existing occurrence records and prior coverage audit. No new discovery, source retrieval, or project data changes.",
+  "source_reused_verbatim": {
+    "id": "v5-galway-faq",
+    "title": "Industrial action and university operations FAQ",
+    "publisher": "University of Galway",
+    "url": "https://www.universityofgalway.ie/media/humanresources/documents/policiesandprocedures/Industrial-Action-and-University-Operations-FAQ-6.pdf",
+    "source_type": "primary",
+    "source_tier": "primary_affected_institution_record",
+    "published_at": null,
+    "published_date": null,
+    "publication_precision": "unknown",
+    "document_date": null,
+    "retrieved_at": "2026-11-10T06:46:30.150627Z",
+    "retrieval_date": "2026-11-10",
+    "retrieval_precision": "microsecond",
+    "content_sha256": "c62d4ead5f2afaed767e9e73eaa752b1067bb13f43ee5f4d92b3f84f247c63c5",
+    "language": "en",
+    "rights": "link_and_original_factual_paraphrase_only; no source text or media in public export",
+    "evidence_locator": "PDF p 1, question 1: actual IFUT stoppage 5 October and strikes 14/21 October. Footer p 8: last updated 4 November 2026.",
+    "note": "Publication timestamp unknown. Last-updated date 4 November 2026 retained separately.12 November action is future and excluded.",
+    "reviewed_at": "2026-11-10T07:03:00.334946Z",
+    "access_status": "body_read_and_independently_captured",
+    "source_updated_date": "2026-11-04"
+  },
+  "capture_integrity": {
+    "bytes": 107602,
+    "sha256": "c62d4ead5f2afaed767e9e73eaa752b1067bb13f43ee5f4d92b3f84f247c63c5",
+    "matches_original_ledger": true
+  },
+  "provenance_handling": {
+    "source_retrieved_at_retained": "2026-11-10T06:46:30.150627Z",
+    "original_source_reviewed_at_retained": "2026-11-10T07:03:00.334946Z",
+    "record_updated_at_means": "Proposal preparation, not a new source review or retrieval. The already-reviewed source and original review time are reused.",
+    "source_publication_time": "Unknown; document last updated 2026-11-04. Event dates are expressly stated in the body, not derived from that update."
+  },
+  "assessments": [
+    {
+      "occurrence_id": "p-ie-galway-20261021",
+      "recommendation": "include",
+      "basis": "FAQ p 1 separately records completed 24-hour IFUT strikes on October 14 and October 21. These are two dated strike days, not one indefinite strike onset.",
+      "prior_omission_reason": "The preserved IE coverage audit expressly states that only the first two dates were added within a bounded record cap. A task batch cap is not an evidence inclusion rule.",
+      "same_campaign_assertion": false
+    },
+    {
+      "occurrence_id": "p-ie-galway-worktorule-20260930",
+      "recommendation": "include_once_as_action_onset",
+      "basis": "FAQ p 1 expressly states that SIPTU work-to-rule and related industrial action commenced at 00:01 on September 30.",
+      "prior_omission_reason": "No evidentiary exclusion reason is recorded. Its omission cannot be confidently attributed specifically to the cap. This additional completed onset is explicit in the same already-reviewed source.",
+      "unknowns": [
+        "end date",
+        "exact campus or physical locality",
+        "number participating",
+        "action-specific demand and target"
+      ],
+      "same_campaign_assertion": false
+    }
+  ],
+  "other_known_cap_driven_omissions": [],
+  "search_limit": "Scoped search of preserved v5 build trace, coverage audit and project research docs found no other explicit cap-driven omission. This is not a claim that every source or world event was exhaustively reassessed.",
+  "future_action_exclusion": {
+    "date": "2026-11-12",
+    "reason": "IFUT/SIPTU action is described as notified for a future date relative to the November 10 cutoff; not a completed occurrence."
+  },
+  "coverage_note_replacement": {
+    "file": "project/docs/research/protest-coverage-audit.json",
+    "country_code": "IE",
+    "proposed_note": "University records SIPTU work-to-rule beginning September 30, a completed IFUT stoppage October 5 and completed IFUT strike days October 14 and October 21. Each discrete date or onset is represented once. End date of work-to-rule is unknown; notified November 12 action remains future and is excluded. Institutional evidence does not establish an exhaustive Ireland history."
+  },
+  "publication_effect_if_both_integrated": {
+    "occurrences_before": 31,
+    "occurrences_after": 33,
+    "count_eligible_before": 29,
+    "count_eligible_after": 31,
+    "additional_countries": 0,
+    "additional_campaigns": 0,
+    "additional_sources": 0
+  },
+  "integration_followup": [
+    "Reuse existing v5-galway-faq source; do not duplicate source ID.",
+    "Update count metadata and coverage notes after integration.",
+    "Rebuild public snapshot; prior data_version and acceptance results describe the pre-addition publication.",
+    "Update acceptance/research/review.py eligible-occurrence expectation (currently 29), regenerate acceptance JSON and revise human summary."
+  ],
+  "proposal_file": "galway-additions-proposed.json",
+  "applied_at": "2026-11-10T08:23:17.323853Z",
+  "historical_status": "integrated_into_publication_seed"
+}

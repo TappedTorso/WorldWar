@@ -1,0 +1,628 @@
+<meta charset="utf-8">
+<title>WorldWar · execution board</title>
+<style>
+:root { --ground:#09090B; --ground-2:#0E0E11; --card:#16161A; --card-hi:#1C1C21;
+  --line:rgba(255,255,255,.075); --line-hi:rgba(255,255,255,.16);
+  --ink:#EFEDE9; --ink-2:#A5A29B; --ink-3:#6E6B65;
+  --entry:#94A3B8; --gate:#FBBF24; --agent:#F97316; --model:#60A5FA;
+  --tool:#A78BFA; --service:#F472B6; --store:#34D399; --external:#38BDF8;
+  --fail:#F87171;
+  --font:ui-sans-serif,-apple-system,"SF Pro Text","Segoe UI",system-ui,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,monospace; }
+:root[data-theme="light"] { --ground:#FAFAF9; --ground-2:#F3F3F1; --card:#FFF;
+  --card-hi:#FAFAF9; --line:rgba(0,0,0,.09); --line-hi:rgba(0,0,0,.2);
+  --ink:#18181B; --ink-2:#55524D; --ink-3:#8A8781;
+  --entry:#64748B; --gate:#B45309; --agent:#EA580C; --model:#2563EB;
+  --tool:#7C3AED; --service:#DB2777; --store:#059669; --external:#0284C7;
+  --fail:#DC2626; }
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) { --ground:#FAFAF9; --ground-2:#F3F3F1;
+  --card:#FFF; --card-hi:#FAFAF9; --line:rgba(0,0,0,.09);
+  --line-hi:rgba(0,0,0,.2); --ink:#18181B; --ink-2:#55524D; --ink-3:#8A8781;
+  --entry:#64748B; --gate:#B45309; --agent:#EA580C; --model:#2563EB;
+  --tool:#7C3AED; --service:#DB2777; --store:#059669; --external:#0284C7;
+  --fail:#DC2626; } }
+* { box-sizing:border-box; }
+html,body { margin:0; height:100%; }
+body { background:var(--ground); color:var(--ink); font-family:var(--font);
+  -webkit-font-smoothing:antialiased; overflow:hidden; }
+#app { position:relative; height:100vh; min-height:640px; overflow:hidden; }
+#glow { position:absolute; inset:0; pointer-events:none; z-index:0;
+  background:radial-gradient(72% 52% at 46% 40%,rgba(249,115,22,.06),transparent 70%); }
+:root[data-theme="light"] #glow { opacity:0; }
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) #glow { opacity:0; } }
+#topbar { position:absolute; top:0; left:0; right:0; z-index:20; display:flex;
+  align-items:flex-start; justify-content:space-between; gap:16px;
+  padding:16px 18px; pointer-events:none; }
+#topbar > * { pointer-events:auto; }
+.brand h1 { margin:0 0 3px; font-size:15px; font-weight:590; letter-spacing:-.01em; }
+.brand p { margin:0; font-size:12px; color:var(--ink-3); max-width:46ch; line-height:1.45; }
+#prog { display:flex; align-items:center; gap:9px; margin-top:7px; }
+#prog-track { width:190px; height:5px; border-radius:99px; background:var(--card-hi);
+  border:1px solid var(--line); overflow:hidden; }
+#prog-fill { height:100%; border-radius:99px; background:var(--store);
+  transition:width .4s; }
+#prog-text { font-size:10.5px; color:var(--ink-2); font-family:var(--mono);
+  white-space:nowrap; }
+#prog-text .prun { color:var(--agent); }
+#prog-text .pfail { color:var(--fail); }
+#prog.health { flex-wrap:wrap; gap:4px 12px; max-width:46ch; }
+.hs { display:inline-flex; align-items:center; gap:5px; font-size:10.5px;
+  color:var(--ink-2); white-space:nowrap; }
+.hs i { width:9px; height:9px; border-radius:3px; border:1.5px solid var(--line-hi);
+  background:var(--card); }
+.hs b { font-weight:600; color:var(--ink); font-family:var(--mono); }
+.hs em { font-style:normal; font-family:var(--mono); color:var(--ink-3); }
+.hs-done i { border-color:var(--store); background:color-mix(in srgb,var(--card) 70%,var(--store)); }
+.hs-failed i { border-color:var(--fail); background:color-mix(in srgb,var(--card) 70%,var(--fail)); }
+.hs-blocked i { border-color:var(--gate); border-style:dashed; }
+.hs-running i { border-color:var(--agent); }
+.hs-skipped { opacity:.6; }
+.hs-skipped i { border-style:dashed; background:var(--ground-2); }
+.topactions { display:flex; gap:7px; align-items:center; flex-wrap:wrap;
+  justify-content:flex-end; }
+button { font-family:var(--font); font-size:12px; color:var(--ink-2);
+  background:var(--card); border:1px solid var(--line); border-radius:999px;
+  padding:6px 12px; cursor:pointer;
+  transition:color .15s,border-color .15s,background .15s; white-space:nowrap; }
+button:hover { color:var(--ink); border-color:var(--line-hi); }
+button:focus-visible { outline:2px solid var(--agent); outline-offset:2px; }
+button[aria-pressed="true"] { color:var(--ink); border-color:var(--line-hi);
+  background:var(--card-hi); }
+input[type="search"] { font-family:var(--font); font-size:12px; color:var(--ink);
+  background:var(--card); border:1px solid var(--line); border-radius:999px;
+  padding:6px 12px; width:172px; }
+input[type="search"]:focus { outline:none; border-color:var(--line-hi); }
+#rail { position:absolute; left:18px; top:96px; bottom:18px; z-index:20;
+  width:206px; display:flex; flex-direction:column; gap:10px; }
+.panel { background:var(--card); border:1px solid var(--line);
+  border-radius:15px; padding:11px; }
+.rail-h { font-size:10px; text-transform:uppercase; letter-spacing:.09em;
+  color:var(--ink-3); margin:0 0 6px 3px; }
+.legend { display:flex; flex-direction:column; gap:1px; }
+.legend button, .outline button { display:flex; align-items:center; gap:8px;
+  width:100%; background:none; border:none; border-radius:7px; padding:4px 6px;
+  font-size:12px; color:var(--ink-2); text-align:left; }
+.legend button:hover, .outline button:hover { background:var(--card-hi);
+  color:var(--ink); }
+.legend button[aria-pressed="true"] { background:var(--card-hi); color:var(--ink); }
+.dot { width:7px; height:7px; border-radius:2.5px; flex:0 0 auto; }
+.count { margin-left:auto; font-size:10.5px; color:var(--ink-3);
+  font-variant-numeric:tabular-nums; }
+#outline-wrap { flex:1 1 0%; overflow-y:auto; min-height:0; }
+.outline .grp { font-size:10px; text-transform:uppercase; letter-spacing:.08em;
+  color:var(--ink-3); margin:10px 0 3px 6px; }
+.outline .grp:first-child { margin-top:0; }
+.outline button.on { background:var(--card-hi); color:var(--ink); }
+.outline button.pl { font-style:italic; color:var(--ink-3); }
+#zoom { position:absolute; left:18px; bottom:16px; z-index:25; display:flex;
+  align-items:center; gap:4px; padding:5px; border-radius:12px; }
+#zoom button { min-width:34px; height:34px; padding:0 9px; border-radius:8px;
+  font-size:16px; line-height:1; }
+#zoom #z-reset { font-size:12px; }
+#z-level { min-width:48px; text-align:center; font-size:12px; color:var(--ink-2);
+  font-variant-numeric:tabular-nums; }
+#rail { bottom:74px !important; }
+#canvas { position:absolute; inset:0; z-index:10; cursor:grab; touch-action:none; }
+#canvas.dragging { cursor:grabbing; }
+#canvas svg { display:block; width:100%; height:100%; }
+.edge { fill:none; stroke:var(--line-hi); stroke-width:1.2;
+  transition:stroke .2s,opacity .2s; }
+.edge.dim { opacity:.12; }
+.edge.hot { stroke:var(--agent); stroke-width:1.7; opacity:1; }
+.edge.loop { stroke-dasharray:5,5; }
+.edge.done { stroke:var(--store); opacity:.6; }
+.edgehit { fill:none; stroke:transparent; stroke-width:15; cursor:pointer; }
+.lane { fill:var(--ink); opacity:.028; }
+.lane.main { opacity:.055; }
+.llabel { font-size:10.5px; fill:var(--ink-3); font-family:var(--mono);
+  letter-spacing:.14em; text-transform:uppercase; }
+.elabel { font-size:10.5px; fill:var(--ink-3); font-family:var(--font);
+  paint-order:stroke; stroke:var(--ground); stroke-width:4px;
+  stroke-linejoin:round; transition:opacity .2s,fill .2s; }
+.elabel.dim { opacity:.15; }
+.gbox { fill:var(--ground-2); stroke:var(--line); stroke-width:1; }
+.glabel { font-size:11px; fill:var(--ink-3); font-family:var(--font);
+  letter-spacing:.03em; }
+.gpass { font-size:10px; fill:var(--ink-3); font-family:var(--mono); opacity:.75; }
+.node { cursor:pointer; }
+.node .plate { fill:var(--card); stroke:var(--line); stroke-width:1;
+  transition:stroke .18s; }
+.node:hover .plate { stroke:var(--line-hi); }
+.node:focus { outline:none; }
+.node.sel .plate { stroke:var(--agent); stroke-width:1.5; }
+.node .title { font-size:12.5px; font-weight:560; fill:var(--ink);
+  font-family:var(--font); }
+.node .sub { font-size:10.5px; fill:var(--ink-3); font-family:var(--font); }
+.node .chiptext { font-size:10.5px; fill:var(--ink-2); font-family:var(--font); }
+.node .stmark { font-size:11px; font-family:var(--font); font-weight:600; }
+.notedot { fill:var(--gate); }
+.node.planned .plate { stroke-dasharray:5 4; }
+@keyframes mappulse { 0%,100% { stroke-opacity:1; } 50% { stroke-opacity:.3; } }
+.node.st-pending > :not(.plate):not(.notedot) { opacity:.78; }
+.node.st-running .plate { stroke:var(--agent); stroke-width:1.5;
+  animation:mappulse 1.5s ease-in-out infinite; }
+.node.st-running { opacity:1; }
+.node.st-done .plate {
+  stroke:color-mix(in srgb,var(--store) 55%,var(--line-hi));
+  fill:color-mix(in srgb,var(--card) 88%,var(--store)); }
+.node.st-failed .plate { stroke:var(--fail); stroke-width:1.5;
+  fill:color-mix(in srgb,var(--card) 90%,var(--fail)); }
+.node.st-blocked .plate { stroke:var(--gate); stroke-dasharray:5 4; }
+.node.st-skipped .plate { fill:var(--ground-2); stroke-dasharray:3 3; }
+.node.st-skipped > :not(.plate):not(.notedot) { opacity:.42; }
+.node.dim { opacity:.18; }
+#drawer { position:absolute; top:0; right:0; bottom:0; width:388px;
+  max-width:92vw; z-index:30; background:var(--card);
+  border-left:1px solid var(--line); transform:translateX(100%);
+  transition:transform .26s cubic-bezier(.4,0,.2,1); display:flex;
+  flex-direction:column; overflow:hidden; }
+#drawer.open { transform:none; }
+@media (prefers-reduced-motion: reduce) { #drawer { transition:none; } }
+.dhead { padding:17px 76px 13px 18px; border-bottom:1px solid var(--line); }
+.dkind { display:inline-flex; align-items:center; gap:6px; font-size:10px;
+  text-transform:uppercase; letter-spacing:.09em; color:var(--ink-3);
+  margin-bottom:7px; }
+.dhead h2 { margin:0 0 3px; font-size:16.5px; font-weight:570;
+  letter-spacing:-.01em; }
+.dhead .dsub { font-size:12px; color:var(--ink-3); }
+.dbody { padding:15px 18px 22px; overflow-y:auto; flex:1 1 0%; display:flex;
+  flex-direction:column; gap:16px; }
+.dsec h3 { margin:0 0 6px; font-size:10px; text-transform:uppercase;
+  letter-spacing:.09em; color:var(--ink-3); font-weight:500; }
+.dsec p { margin:0; font-size:13px; line-height:1.62; color:var(--ink-2); }
+.dsec.warn p { color:var(--fail); }
+.kv { display:grid; grid-template-columns:auto 1fr; gap:5px 12px;
+  font-size:12.5px; color:var(--ink-2); }
+.kv dt { color:var(--ink-3); }
+.kv dd { margin:0; }
+.pillrow { display:flex; flex-wrap:wrap; gap:5px; }
+.pill { font-size:11px; color:var(--ink-2); background:var(--card-hi);
+  border:1px solid var(--line); border-radius:999px; padding:3px 9px;
+  display:inline-flex; align-items:center; gap:5px; cursor:pointer; }
+.pill:hover { color:var(--ink); border-color:var(--line-hi); }
+.pill .dot { width:6px; height:6px; }
+.stpill { text-transform:uppercase; letter-spacing:.07em; font-size:9.5px; }
+textarea { width:100%; min-height:84px; resize:vertical; font-family:var(--font);
+  font-size:12.5px; color:var(--ink); background:var(--ground-2);
+  border:1px solid var(--line); border-radius:10px; padding:9px 10px;
+  line-height:1.55; }
+textarea:focus { outline:none; border-color:var(--line-hi); }
+#dclose { position:absolute; top:13px; right:13px; padding:4px 9px; }
+#hint { position:absolute; bottom:16px; left:50%; transform:translateX(-50%);
+  z-index:15; font-size:11px; color:var(--ink-3); pointer-events:none; }
+#credit { position:absolute; bottom:16px; right:18px; z-index:15;
+  font-size:10.5px; color:var(--ink-3); max-width:230px; text-align:right;
+  line-height:1.5; }
+#credit a { color:var(--ink-2); }
+@media (max-width:1080px) { #rail { display:none; } #credit { display:none; }
+  .brand p { display:none; } }
+@media (max-width:640px) { #topbar { flex-wrap:wrap; padding:12px 14px; gap:8px; }
+  .brand { min-width:0; flex:1 1 100%; }
+  .topactions { justify-content:flex-start; gap:5px; }
+  input[type="search"] { width:128px; }
+  button { padding:5px 10px; }
+  #prog-track { width:110px; }
+  #prog.health { max-width:none; }
+  #hint { display:none; } }
+</style>
+
+<div id="app">
+  <div id="glow"></div>
+  <div id="topbar">
+    <div class="brand">
+      <h1>WorldWar · execution board</h1>
+      <p>The integrated research platform passes local and full-service CI acceptance. Final edition is preparing for release; global historical coverage remains incomplete.</p>
+      <div id="prog"><div id="prog-track"><div id="prog-fill" style="width:90%"></div></div><span id="prog-text">19/21 done · 90% · <span class="prun">2 running</span></span></div>
+    </div>
+    <div class="topactions">
+      <input type="search" id="search" placeholder="Find a node…" aria-label="Search nodes">
+      <button id="btn-trace" aria-pressed="false" title="Show only what the selected node depends on">Trace</button>
+      <button id="btn-notes">Export notes</button>
+      <button id="btn-home">Start</button>
+      <button id="btn-fit">Fit all</button>
+      <button id="btn-theme">Theme</button>
+    </div>
+  </div>
+
+  <div id="canvas"><svg><g id="cam">
+    <g id="glanes"></g>
+    <g id="gboxes"><rect class="gbox" x="40.0" y="128.0" width="516.0" height="208.0" rx="24"></rect><text class="glabel" x="57.0" y="154.0">Direction &amp; contracts</text><text class="gpass" id="gp-scope" x="539.0" y="154.0" text-anchor="end">workstream 1 · 3/3</text><rect class="gbox" x="646.0" y="84.0" width="516.0" height="296.0" rx="24"></rect><text class="glabel" x="663.0" y="110.0">Research &amp; provenance</text><text class="gpass" id="gp-research" x="1145.0" y="110.0" text-anchor="end">workstream 2 · 4/4</text><rect class="gbox" x="1262.0" y="84.0" width="516.0" height="296.0" rx="24"></rect><text class="glabel" x="1279.0" y="110.0">Data &amp; operations</text><text class="gpass" id="gp-data" x="1761.0" y="110.0" text-anchor="end">workstream 3 · 5/5</text><rect class="gbox" x="1898.0" y="84.0" width="516.0" height="296.0" rx="24"></rect><text class="glabel" x="1915.0" y="110.0">Application</text><text class="gpass" id="gp-app" x="2397.0" y="110.0" text-anchor="end">workstream 4 · 4/4</text><rect class="gbox" x="2544.0" y="40.0" width="516.0" height="384.0" rx="24"></rect><text class="glabel" x="2561.0" y="66.0">Acceptance &amp; release</text><text class="gpass" id="gp-release" x="3043.0" y="66.0" text-anchor="end">workstream 5 · 3/5</text></g>
+    <g id="gedges"><g class="eg" data-a="context" data-b="contracts"><path class="edge done" d="M 148.0 232.0 L 148.0 271.0 Q 148.0 281.0 158.0 281.0 L 182.0 281.0"></path><path class="edge done" d="M 175.0 284.5 L 182.0 281.0 L 175.0 277.5" stroke-linecap="round"></path><path class="edgehit" d="M 148.0 232.0 L 148.0 271.0 Q 148.0 281.0 158.0 281.0 L 182.0 281.0"></path></g><g class="eg" data-a="contracts" data-b="sources"><path class="edge done" d="M 414.0 291.0 L 616.0 291.0 Q 626.0 291.0 626.0 281.0 L 626.0 169.0 Q 626.0 159.0 636.0 159.0 L 788.0 159.0"></path><path class="edge done" d="M 781.0 162.5 L 788.0 159.0 L 781.0 155.5" stroke-linecap="round"></path><path class="edgehit" d="M 414.0 291.0 L 616.0 291.0 Q 626.0 291.0 626.0 281.0 L 626.0 169.0 Q 626.0 159.0 636.0 159.0 L 788.0 159.0"></path></g><g class="eg" data-a="contracts" data-b="store"><path class="edge done" d="M 414.0 281.0 L 606.0 281.0 Q 616.0 281.0 616.0 271.0 L 616.0 83.0 Q 616.0 73.0 626.0 73.0 L 1232.0 73.0 Q 1242.0 73.0 1242.0 83.0 L 1242.0 139.0 Q 1242.0 149.0 1252.0 149.0 L 1278.0 149.0"></path><path class="edge done" d="M 1271.0 152.5 L 1278.0 149.0 L 1271.0 145.5" stroke-linecap="round"></path><path class="edgehit" d="M 414.0 281.0 L 606.0 281.0 Q 616.0 281.0 616.0 271.0 L 616.0 83.0 Q 616.0 73.0 626.0 73.0 L 1232.0 73.0 Q 1242.0 73.0 1242.0 83.0 L 1242.0 139.0 Q 1242.0 149.0 1252.0 149.0 L 1278.0 149.0"></path></g><g class="eg" data-a="contracts" data-b="shell"><path class="edge done" d="M 414.0 301.0 L 626.0 301.0 Q 636.0 301.0 636.0 311.0 L 636.0 379.0 Q 636.0 389.0 646.0 389.0 L 1891.0 389.0 Q 1901.0 389.0 1901.0 379.0 L 1901.0 175.5 Q 1901.0 169.0 1907.5 169.0 L 1914.0 169.0"></path><path class="edge done" d="M 1907.0 172.5 L 1914.0 169.0 L 1907.0 165.5" stroke-linecap="round"></path><path class="edgehit" d="M 414.0 301.0 L 626.0 301.0 Q 636.0 301.0 636.0 311.0 L 636.0 379.0 Q 636.0 389.0 646.0 389.0 L 1891.0 389.0 Q 1901.0 389.0 1901.0 379.0 L 1901.0 175.5 Q 1901.0 169.0 1907.5 169.0 L 1914.0 169.0"></path></g><g class="eg" data-a="sources" data-b="protests"><path class="edge done" d="M 788.0 169.0 L 764.0 169.0 Q 754.0 169.0 754.0 179.0 L 754.0 218.0"></path><path class="edge done" d="M 750.5 211.0 L 754.0 218.0 L 757.5 211.0" stroke-linecap="round"></path><path class="edgehit" d="M 788.0 169.0 L 764.0 169.0 Q 754.0 169.0 754.0 179.0 L 754.0 218.0"></path></g><g class="eg" data-a="sources" data-b="elections"><path class="edge done" d="M 1020.0 169.0 L 1044.0 169.0 Q 1054.0 169.0 1054.0 179.0 L 1054.0 218.0"></path><path class="edge done" d="M 1050.5 211.0 L 1054.0 218.0 L 1057.5 211.0" stroke-linecap="round"></path><path class="edgehit" d="M 1020.0 169.0 L 1044.0 169.0 Q 1054.0 169.0 1054.0 179.0 L 1054.0 218.0"></path></g><g class="eg" data-a="sources" data-b="legacy"><path class="edge done" d="M 1020.0 159.0 L 1162.0 159.0 Q 1172.0 159.0 1172.0 169.0 L 1172.0 315.0 Q 1172.0 325.0 1162.0 325.0 L 1020.0 325.0"></path><path class="edge done" d="M 1027.0 321.5 L 1020.0 325.0 L 1027.0 328.5" stroke-linecap="round"></path><path class="edgehit" d="M 1020.0 159.0 L 1162.0 159.0 Q 1172.0 159.0 1172.0 169.0 L 1172.0 315.0 Q 1172.0 325.0 1162.0 325.0 L 1020.0 325.0"></path></g><g class="eg" data-a="store" data-b="api"><path class="edge done" d="M 1370.0 188.0 L 1370.0 306.0"></path><path class="edge done" d="M 1366.5 299.0 L 1370.0 306.0 L 1373.5 299.0" stroke-linecap="round"></path><path class="edgehit" d="M 1370.0 188.0 L 1370.0 306.0"></path></g><g class="eg" data-a="discovery" data-b="archive"><path class="edge done" d="M 1670.0 188.0 L 1670.0 306.0"></path><path class="edge done" d="M 1666.5 299.0 L 1670.0 306.0 L 1673.5 299.0" stroke-linecap="round"></path><path class="edgehit" d="M 1670.0 188.0 L 1670.0 306.0"></path></g><g class="eg" data-a="api" data-b="editor"><path class="edge done" d="M 1466.0 364.0 L 1466.0 400.0 Q 1466.0 410.0 1476.0 410.0 L 2296.0 410.0 Q 2306.0 410.0 2306.0 400.0 L 2306.0 188.0"></path><path class="edge done" d="M 2309.5 195.0 L 2306.0 188.0 L 2302.5 195.0" stroke-linecap="round"></path><path class="edgehit" d="M 1466.0 364.0 L 1466.0 400.0 Q 1466.0 410.0 1476.0 410.0 L 2296.0 410.0 Q 2306.0 410.0 2306.0 400.0 L 2306.0 188.0"></path></g><g class="eg" data-a="protests" data-b="scorecards"><path class="edge done" d="M 754.0 276.0 L 754.0 387.0 Q 754.0 397.0 764.0 397.0 L 1232.0 397.0 Q 1242.0 397.0 1242.0 387.0 L 1242.0 267.0 Q 1242.0 257.0 1252.0 257.0 L 1404.0 257.0"></path><path class="edge done" d="M 1397.0 260.5 L 1404.0 257.0 L 1397.0 253.5" stroke-linecap="round"></path><path class="edgehit" d="M 754.0 276.0 L 754.0 387.0 Q 754.0 397.0 764.0 397.0 L 1232.0 397.0 Q 1242.0 397.0 1242.0 387.0 L 1242.0 267.0 Q 1242.0 257.0 1252.0 257.0 L 1404.0 257.0"></path></g><g class="eg" data-a="shell" data-b="maps"><path class="edge done" d="M 2006.0 188.0 L 2006.0 227.0 Q 2006.0 237.0 2016.0 237.0 L 2040.0 237.0"></path><path class="edge done" d="M 2033.0 240.5 L 2040.0 237.0 L 2033.0 233.5" stroke-linecap="round"></path><path class="edgehit" d="M 2006.0 188.0 L 2006.0 227.0 Q 2006.0 237.0 2016.0 237.0 L 2040.0 237.0"></path></g><g class="eg" data-a="maps" data-b="mobile"><path class="edge done" d="M 2156.0 276.0 L 2156.0 306.0"></path><path class="edge done" d="M 2152.5 299.0 L 2156.0 306.0 L 2159.5 299.0" stroke-linecap="round"></path><path class="edgehit" d="M 2156.0 276.0 L 2156.0 306.0"></path></g><g class="eg" data-a="legacy" data-b="integrate"><path class="edge done" d="M 1020.0 345.0 L 1242.0 345.0 Q 1252.0 345.0 1252.0 355.0 L 1252.0 411.0 Q 1252.0 421.0 1262.0 421.0 L 2524.0 421.0 Q 2534.0 421.0 2534.0 411.0 L 2534.0 135.0 Q 2534.0 125.0 2544.0 125.0 L 2686.0 125.0"></path><path class="edge done" d="M 2679.0 128.5 L 2686.0 125.0 L 2679.0 121.5" stroke-linecap="round"></path><path class="edgehit" d="M 1020.0 345.0 L 1242.0 345.0 Q 1252.0 345.0 1252.0 355.0 L 1252.0 411.0 Q 1252.0 421.0 1262.0 421.0 L 2524.0 421.0 Q 2534.0 421.0 2534.0 411.0 L 2534.0 135.0 Q 2534.0 125.0 2544.0 125.0 L 2686.0 125.0"></path></g><g class="eg" data-a="elections" data-b="integrate"><path class="edge done" d="M 1146.0 237.0 L 1242.0 237.0 Q 1252.0 237.0 1252.0 227.0 L 1252.0 73.0 Q 1252.0 63.0 1262.0 63.0 L 2514.0 63.0 Q 2524.0 63.0 2524.0 73.0 L 2524.0 105.0 Q 2524.0 115.0 2534.0 115.0 L 2686.0 115.0"></path><path class="edge done" d="M 2679.0 118.5 L 2686.0 115.0 L 2679.0 111.5" stroke-linecap="round"></path><path class="edgehit" d="M 1146.0 237.0 L 1242.0 237.0 Q 1252.0 237.0 1252.0 227.0 L 1252.0 73.0 Q 1252.0 63.0 1262.0 63.0 L 2514.0 63.0 Q 2524.0 63.0 2524.0 73.0 L 2524.0 105.0 Q 2524.0 115.0 2534.0 115.0 L 2686.0 115.0"></path></g><g class="eg" data-a="protests" data-b="integrate"><path class="edge done" d="M 662.0 237.0 L 646.0 237.0 Q 636.0 237.0 636.0 227.0 L 636.0 94.0 Q 636.0 84.0 646.0 84.0 L 1259.5 84.0 Q 1265.0 84.0 1265.0 78.5 L 1265.0 78.5 Q 1265.0 73.0 1270.5 73.0 L 2524.0 73.0 Q 2534.0 73.0 2534.0 83.0 L 2534.0 95.0 Q 2534.0 105.0 2544.0 105.0 L 2686.0 105.0"></path><path class="edge done" d="M 2679.0 108.5 L 2686.0 105.0 L 2679.0 101.5" stroke-linecap="round"></path><path class="edgehit" d="M 662.0 237.0 L 646.0 237.0 Q 636.0 237.0 636.0 227.0 L 636.0 94.0 Q 636.0 84.0 646.0 84.0 L 1259.5 84.0 Q 1265.0 84.0 1265.0 78.5 L 1265.0 78.5 Q 1265.0 73.0 1270.5 73.0 L 2524.0 73.0 Q 2534.0 73.0 2534.0 83.0 L 2534.0 95.0 Q 2534.0 105.0 2544.0 105.0 L 2686.0 105.0"></path></g><g class="eg" data-a="api" data-b="integrate"><path class="edge done" d="M 1490.0 364.0 L 1490.0 387.0 Q 1490.0 397.0 1500.0 397.0 L 2514.0 397.0 Q 2524.0 397.0 2524.0 387.0 L 2524.0 159.0 Q 2524.0 149.0 2534.0 149.0 L 2669.0 149.0 Q 2673.0 149.0 2673.0 153.0 L 2673.0 153.0 Q 2673.0 157.0 2677.0 157.0 L 2699.5 157.0 Q 2706.0 157.0 2706.0 150.5 L 2706.0 144.0"></path><path class="edge done" d="M 2709.5 151.0 L 2706.0 144.0 L 2702.5 151.0" stroke-linecap="round"></path><path class="edgehit" d="M 1490.0 364.0 L 1490.0 387.0 Q 1490.0 397.0 1500.0 397.0 L 2514.0 397.0 Q 2524.0 397.0 2524.0 387.0 L 2524.0 159.0 Q 2524.0 149.0 2534.0 149.0 L 2669.0 149.0 Q 2673.0 149.0 2673.0 153.0 L 2673.0 153.0 Q 2673.0 157.0 2677.0 157.0 L 2699.5 157.0 Q 2706.0 157.0 2706.0 150.5 L 2706.0 144.0"></path></g><g class="eg" data-a="archive" data-b="integrate"><path class="edge done" d="M 1762.0 325.0 L 1878.0 325.0 Q 1888.0 325.0 1888.0 315.0 L 1888.0 62.0 Q 1888.0 52.0 1898.0 52.0 L 2528.0 52.0 Q 2534.0 52.0 2534.0 46.0 L 2534.0 46.0 Q 2534.0 40.0 2540.0 40.0 L 2696.0 40.0 Q 2706.0 40.0 2706.0 50.0 L 2706.0 86.0"></path><path class="edge done" d="M 2702.5 79.0 L 2706.0 86.0 L 2709.5 79.0" stroke-linecap="round"></path><path class="edgehit" d="M 1762.0 325.0 L 1878.0 325.0 Q 1888.0 325.0 1888.0 315.0 L 1888.0 62.0 Q 1888.0 52.0 1898.0 52.0 L 2528.0 52.0 Q 2534.0 52.0 2534.0 46.0 L 2534.0 46.0 Q 2534.0 40.0 2540.0 40.0 L 2696.0 40.0 Q 2706.0 40.0 2706.0 50.0 L 2706.0 86.0"></path></g><g class="eg" data-a="scorecards" data-b="integrate"><path class="edge done" d="M 1636.0 237.0 L 1868.0 237.0 Q 1878.0 237.0 1878.0 227.0 L 1878.0 54.0 Q 1878.0 44.0 1888.0 44.0 L 2474.0 44.0 Q 2484.0 44.0 2484.0 34.0 L 2484.0 20.0 Q 2484.0 10.0 2494.0 10.0 L 2768.0 10.0 Q 2778.0 10.0 2778.0 20.0 L 2778.0 86.0"></path><path class="edge done" d="M 2774.5 79.0 L 2778.0 86.0 L 2781.5 79.0" stroke-linecap="round"></path><path class="edgehit" d="M 1636.0 237.0 L 1868.0 237.0 Q 1878.0 237.0 1878.0 227.0 L 1878.0 54.0 Q 1878.0 44.0 1888.0 44.0 L 2474.0 44.0 Q 2484.0 44.0 2484.0 34.0 L 2484.0 20.0 Q 2484.0 10.0 2494.0 10.0 L 2768.0 10.0 Q 2778.0 10.0 2778.0 20.0 L 2778.0 86.0"></path></g><g class="eg" data-a="maps" data-b="integrate"><path class="edge done" d="M 2272.0 237.0 L 2494.0 237.0 Q 2504.0 237.0 2504.0 227.0 L 2504.0 40.0 Q 2504.0 30.0 2514.0 30.0 L 2720.0 30.0 Q 2730.0 30.0 2730.0 40.0 L 2730.0 86.0"></path><path class="edge done" d="M 2726.5 79.0 L 2730.0 86.0 L 2733.5 79.0" stroke-linecap="round"></path><path class="edgehit" d="M 2272.0 237.0 L 2494.0 237.0 Q 2504.0 237.0 2504.0 227.0 L 2504.0 40.0 Q 2504.0 30.0 2514.0 30.0 L 2720.0 30.0 Q 2730.0 30.0 2730.0 40.0 L 2730.0 86.0"></path></g><g class="eg" data-a="editor" data-b="integrate"><path class="edge done" d="M 2398.0 149.0 L 2484.0 149.0 Q 2494.0 149.0 2494.0 139.0 L 2494.0 30.0 Q 2494.0 20.0 2504.0 20.0 L 2744.0 20.0 Q 2754.0 20.0 2754.0 30.0 L 2754.0 86.0"></path><path class="edge done" d="M 2750.5 79.0 L 2754.0 86.0 L 2757.5 79.0" stroke-linecap="round"></path><path class="edgehit" d="M 2398.0 149.0 L 2484.0 149.0 Q 2494.0 149.0 2494.0 139.0 L 2494.0 30.0 Q 2494.0 20.0 2504.0 20.0 L 2744.0 20.0 Q 2754.0 20.0 2754.0 30.0 L 2754.0 86.0"></path></g><g class="eg" data-a="mobile" data-b="integrate"><path class="edge done" d="M 2272.0 325.0 L 2504.0 325.0 Q 2514.0 325.0 2514.0 315.0 L 2514.0 150.0 Q 2514.0 140.0 2524.0 140.0 L 2653.0 140.0 Q 2663.0 140.0 2663.0 150.0 L 2663.0 151.0 Q 2663.0 161.0 2673.0 161.0 L 2721.5 161.0 Q 2730.0 161.0 2730.0 152.5 L 2730.0 144.0"></path><path class="edge done" d="M 2733.5 151.0 L 2730.0 144.0 L 2726.5 151.0" stroke-linecap="round"></path><path class="edgehit" d="M 2272.0 325.0 L 2504.0 325.0 Q 2514.0 325.0 2514.0 315.0 L 2514.0 150.0 Q 2514.0 140.0 2524.0 140.0 L 2653.0 140.0 Q 2663.0 140.0 2663.0 150.0 L 2663.0 151.0 Q 2663.0 161.0 2673.0 161.0 L 2721.5 161.0 Q 2730.0 161.0 2730.0 152.5 L 2730.0 144.0"></path></g><g class="eg" data-a="integrate" data-b="acceptance"><path class="edge done" d="M 2778.0 144.0 L 2778.0 158.0 Q 2778.0 161.0 2775.0 161.0 L 2775.0 161.0 Q 2772.0 161.0 2772.0 164.0 L 2772.0 174.0"></path><path class="edge done" d="M 2768.5 167.0 L 2772.0 174.0 L 2775.5 167.0" stroke-linecap="round"></path><path class="edgehit" d="M 2778.0 144.0 L 2778.0 158.0 Q 2778.0 161.0 2775.0 161.0 L 2775.0 161.0 Q 2772.0 161.0 2772.0 164.0 L 2772.0 174.0"></path></g><g class="eg" data-a="integrate" data-b="recovery"><path class="edge done" d="M 2918.0 125.0 L 2942.0 125.0 Q 2952.0 125.0 2952.0 135.0 L 2952.0 174.0"></path><path class="edge done" d="M 2948.5 167.0 L 2952.0 174.0 L 2955.5 167.0" stroke-linecap="round"></path><path class="edgehit" d="M 2918.0 125.0 L 2942.0 125.0 Q 2952.0 125.0 2952.0 135.0 L 2952.0 174.0"></path></g><g class="eg" data-a="acceptance" data-b="deploy"><path class="edge" d="M 2652.0 232.0 L 2652.0 271.0 Q 2652.0 281.0 2662.0 281.0 L 2686.0 281.0"></path><path class="edge" d="M 2679.0 284.5 L 2686.0 281.0 L 2679.0 277.5" stroke-linecap="round"></path><path class="edgehit" d="M 2652.0 232.0 L 2652.0 271.0 Q 2652.0 281.0 2662.0 281.0 L 2686.0 281.0"></path></g><g class="eg" data-a="recovery" data-b="deploy"><path class="edge" d="M 2952.0 232.0 L 2952.0 271.0 Q 2952.0 281.0 2942.0 281.0 L 2918.0 281.0"></path><path class="edge" d="M 2925.0 277.5 L 2918.0 281.0 L 2925.0 284.5" stroke-linecap="round"></path><path class="edgehit" d="M 2952.0 232.0 L 2952.0 271.0 Q 2952.0 281.0 2942.0 281.0 L 2918.0 281.0"></path></g><g class="eg" data-a="deploy" data-b="handoff"><path class="edge" d="M 2802.0 320.0 L 2802.0 350.0"></path><path class="edge" d="M 2798.5 343.0 L 2802.0 350.0 L 2805.5 343.0" stroke-linecap="round"></path><path class="edgehit" d="M 2802.0 320.0 L 2802.0 350.0"></path></g></g>
+    <g id="gnodes"><g class="node st-done" data-id="context" data-kind="agent" tabindex="0" role="button" aria-label="Recovered planning chat"><rect class="plate" x="56.0" y="174.0" width="232" height="58" rx="17"></rect><rect x="69.0" y="190.0" width="25" height="25" rx="8" fill="var(--agent)" fill-opacity="0.16"></rect><circle cx="81.5" cy="202.5" r="4.2" fill="var(--agent)"></circle><text class="title" x="103.0" y="200.0">Recovered planning ch…</text><text class="sub" x="103.0" y="215.0">Read the October 25–26 plan and…</text><text class="stmark" x="262.0" y="193.0" text-anchor="end" fill="var(--store)">✓</text><circle class="notedot" cx="274.0" cy="188.0" r="3.4" opacity="0"></circle></g><g class="node st-done" data-id="isolation" data-kind="agent" tabindex="0" role="button" aria-label="Protected original checkout"><rect class="plate" x="308.0" y="174.0" width="232" height="58" rx="17"></rect><rect x="321.0" y="190.0" width="25" height="25" rx="8" fill="var(--agent)" fill-opacity="0.16"></rect><circle cx="333.5" cy="202.5" r="4.2" fill="var(--agent)"></circle><text class="title" x="355.0" y="200.0">Protected original che…</text><text class="sub" x="355.0" y="215.0">Build in isolated branches without…</text><text class="stmark" x="514.0" y="193.0" text-anchor="end" fill="var(--store)">✓</text><circle class="notedot" cx="526.0" cy="188.0" r="3.4" opacity="0"></circle></g><g class="node st-done" data-id="contracts" data-kind="agent" tabindex="0" role="button" aria-label="Pinned shared contracts"><rect class="plate" x="182.0" y="262.0" width="232" height="58" rx="17"></rect><rect x="195.0" y="278.0" width="25" height="25" rx="8" fill="var(--agent)" fill-opacity="0.16"></rect><circle cx="207.5" cy="290.5" r="4.2" fill="var(--agent)"></circle><text class="title" x="229.0" y="288.0">Pinned shared contrac…</text><text class="sub" x="229.0" y="303.0">Define typed domains, date precisi…</text><text class="stmark" x="388.0" y="281.0" text-anchor="end" fill="var(--store)">✓</text><circle class="notedot" cx="400.0" cy="276.0" r="3.4" opacity="0"></circle></g><g class="node st-done" data-id="sources" data-kind="agent" tabindex="0" role="button" aria-label="Source feasibility &amp; rights"><rect class="plate" x="788.0" y="130.0" width="232" height="58" rx="17"></rect><rect x="801.0" y="146.0" width="25" height="25" rx="8" fill="var(--agent)" fill-opacity="0.16"></rect><circle cx="813.5" cy="158.5" r="4.2" fill="var(--agent)"></circle><text class="title" x="835.0" y="156.0">Source feasibility &amp; rig…</text><text class="sub" x="835.0" y="171.0">Verify usable primary sources and…</text><text class="stmark" x="994.0" y="149.0" text-anchor="end" fill="var(--store)">✓</text><circle class="notedot" cx="1006.0" cy="144.0" r="3.4" opacity="0"></circle></g><g class="node st-done" data-id="protests" data-kind="agent" tabindex="0" role="button" aria-label="September–November protests"><rect class="plate" x="662.0" y="218.0" width="232" height="58" rx="17"></rect><rect x="675.0" y="234.0" width="25" height="25" rx="8" fill="var(--agent)" fill-opacity="0.16"></rect><circle cx="687.5" cy="246.5" r="4.2" fill="var(--agent)"></circle><text class="title" x="709.0" y="244.0">September–November…</text><text class="sub" x="709.0" y="259.0">33 observations; history remains p…</text><text class="stmark" x="868.0" y="237.0" text-anchor="end" fill="var(--store)">✓</text><circle class="notedot" cx="880.0" cy="232.0" r="3.4" opacity="0"></circle></g><g class="node st-done" data-id="elections" data-kind="agent" tabindex="0" role="button" aria-label="Post-election research"><rect class="plate" x="914.0" y="218.0" width="232" height="58" rx="17"></rect><rect x="927.0" y="234.0" width="25" height="25" rx="8" fill="var(--agent)" fill-opacity="0.16"></rect><circle cx="939.5" cy="246.5" r="4.2" fill="var(--agent)"></circle><text class="title" x="961.0" y="244.0">Post-election research</text><text class="sub" x="961.0" y="259.0">Post-election registry and evidence</text><text class="stmark" x="1120.0" y="237.0" text-anchor="end" fill="var(--store)">✓</text><circle class="notedot" cx="1132.0" cy="232.0" r="3.4" opacity="0"></circle></g><g class="node st-done" data-id="legacy" data-kind="agent" tabindex="0" role="button" aria-label="Conflict provenance recovery"><rect class="plate" x="788.0" y="306.0" width="232" height="58" rx="17"></rect><rect x="801.0" y="322.0" width="25" height="25" rx="8" fill="var(--agent)" fill-opacity="0.16"></rect><circle cx="813.5" cy="334.5" r="4.2" fill="var(--agent)"></circle><text class="title" x="835.0" y="332.0">Conflict provenance re…</text><text class="sub" x="835.0" y="347.0">Preserve all legacy actors/relatio…</text><text class="stmark" x="994.0" y="325.0" text-anchor="end" fill="var(--store)">✓</text><circle class="notedot" cx="1006.0" cy="320.0" r="3.4" opacity="0"></circle></g><g class="node st-done" data-id="store" data-kind="agent" tabindex="0" role="button" aria-label="Relational store &amp; migrations"><rect class="plate" x="1278.0" y="130.0" width="232" height="58" rx="17"></rect><rect x="1291.0" y="146.0" width="25" height="25" rx="8" fill="var(--agent)" fill-opacity="0.16"></rect><circle cx="1303.5" cy="158.5" r="4.2" fill="var(--agent)"></circle><text class="title" x="1325.0" y="156.0">Relational store &amp; mig…</text><text class="sub" x="1325.0" y="171.0">Implement typed SQL persistence,…</text><text class="stmark" x="1484.0" y="149.0" text-anchor="end" fill="var(--store)">✓</text><circle class="notedot" cx="1496.0" cy="144.0" r="3.4" opacity="0"></circle></g><g class="node st-done" data-id="discovery" data-kind="agent" tabindex="0" role="button" aria-label="Honest discovery collection"><rect class="plate" x="1530.0" y="130.0" width="232" height="58" rx="17"></rect><rect x="1543.0" y="146.0" width="25" height="25" rx="8" fill="var(--agent)" fill-opacity="0.16"></rect><circle cx="1555.5" cy="158.5" r="4.2" fill="var(--agent)"></circle><text class="title" x="1577.0" y="156.0">Honest discovery colle…</text><text class="sub" x="1577.0" y="171.0">Repair seen/published dates, cano…</text><text class="stmark" x="1736.0" y="149.0" text-anchor="end" fill="var(--store)">✓</text><circle class="notedot" cx="1748.0" cy="144.0" r="3.4" opacity="0"></circle></g><g class="node st-done" data-id="scorecards" data-kind="agent" tabindex="0" role="button" aria-label="Reproducible activity"><rect class="plate" x="1404.0" y="218.0" width="232" height="58" rx="17"></rect><rect x="1417.0" y="234.0" width="25" height="25" rx="8" fill="var(--agent)" fill-opacity="0.16"></rect><circle cx="1429.5" cy="246.5" r="4.2" fill="var(--agent)"></circle><text class="title" x="1451.0" y="244.0">Reproducible activity</text><text class="sub" x="1451.0" y="259.0">Count reviewed occurrences, expo…</text><text class="stmark" x="1610.0" y="237.0" text-anchor="end" fill="var(--store)">✓</text><circle class="notedot" cx="1622.0" cy="232.0" r="3.4" opacity="0"></circle></g><g class="node st-done" data-id="api" data-kind="agent" tabindex="0" role="button" aria-label="API &amp; editorial protection"><rect class="plate" x="1278.0" y="306.0" width="232" height="58" rx="17"></rect><rect x="1291.0" y="322.0" width="25" height="25" rx="8" fill="var(--agent)" fill-opacity="0.16"></rect><circle cx="1303.5" cy="334.5" r="4.2" fill="var(--agent)"></circle><text class="title" x="1325.0" y="332.0">API &amp; editorial protecti…</text><text class="sub" x="1325.0" y="347.0">Build query/export and authentica…</text><text class="stmark" x="1484.0" y="325.0" text-anchor="end" fill="var(--store)">✓</text><circle class="notedot" cx="1496.0" cy="320.0" r="3.4" opacity="0"></circle></g><g class="node st-done" data-id="archive" data-kind="agent" tabindex="0" role="button" aria-label="Recover historical articles"><rect class="plate" x="1530.0" y="306.0" width="232" height="58" rx="17"></rect><rect x="1543.0" y="322.0" width="25" height="25" rx="8" fill="var(--agent)" fill-opacity="0.16"></rect><circle cx="1555.5" cy="334.5" r="4.2" fill="var(--agent)"></circle><text class="title" x="1577.0" y="332.0">Recover historical arti…</text><text class="sub" x="1577.0" y="347.0">Recover article metadata from 28…</text><text class="stmark" x="1736.0" y="325.0" text-anchor="end" fill="var(--store)">✓</text><circle class="notedot" cx="1748.0" cy="320.0" r="3.4" opacity="0"></circle></g><g class="node st-done" data-id="shell" data-kind="agent" tabindex="0" role="button" aria-label="Shared research interface"><rect class="plate" x="1914.0" y="130.0" width="232" height="58" rx="17"></rect><rect x="1927.0" y="146.0" width="25" height="25" rx="8" fill="var(--agent)" fill-opacity="0.16"></rect><circle cx="1939.5" cy="158.5" r="4.2" fill="var(--agent)"></circle><text class="title" x="1961.0" y="156.0">Shared research interf…</text><text class="sub" x="1961.0" y="171.0">Build navigation, typed search, filt…</text><text class="stmark" x="2120.0" y="149.0" text-anchor="end" fill="var(--store)">✓</text><circle class="notedot" cx="2132.0" cy="144.0" r="3.4" opacity="0"></circle></g><g class="node st-done" data-id="editor" data-kind="agent" tabindex="0" role="button" aria-label="Real editorial workspace"><rect class="plate" x="2166.0" y="130.0" width="232" height="58" rx="17"></rect><rect x="2179.0" y="146.0" width="25" height="25" rx="8" fill="var(--agent)" fill-opacity="0.16"></rect><circle cx="2191.5" cy="158.5" r="4.2" fill="var(--agent)"></circle><text class="title" x="2213.0" y="156.0">Real editorial workspa…</text><text class="sub" x="2213.0" y="171.0">Maintain drafts, corrections, publi…</text><text class="stmark" x="2372.0" y="149.0" text-anchor="end" fill="var(--store)">✓</text><circle class="notedot" cx="2384.0" cy="144.0" r="3.4" opacity="0"></circle></g><g class="node st-done" data-id="maps" data-kind="agent" tabindex="0" role="button" aria-label="Three domain explorers"><rect class="plate" x="2040.0" y="218.0" width="232" height="58" rx="17"></rect><rect x="2053.0" y="234.0" width="25" height="25" rx="8" fill="var(--agent)" fill-opacity="0.16"></rect><circle cx="2065.5" cy="246.5" r="4.2" fill="var(--agent)"></circle><text class="title" x="2087.0" y="244.0">Three domain explorers</text><text class="sub" x="2087.0" y="259.0">Coordinate geographic, list, timelin…</text><text class="stmark" x="2246.0" y="237.0" text-anchor="end" fill="var(--store)">✓</text><circle class="notedot" cx="2258.0" cy="232.0" r="3.4" opacity="0"></circle></g><g class="node st-done" data-id="mobile" data-kind="agent" tabindex="0" role="button" aria-label="Mobile &amp; keyboard access"><rect class="plate" x="2040.0" y="306.0" width="232" height="58" rx="17"></rect><rect x="2053.0" y="322.0" width="25" height="25" rx="8" fill="var(--agent)" fill-opacity="0.16"></rect><circle cx="2065.5" cy="334.5" r="4.2" fill="var(--agent)"></circle><text class="title" x="2087.0" y="332.0">Mobile &amp; keyboard acc…</text><text class="sub" x="2087.0" y="347.0">Provide deliberate reading/map m…</text><text class="stmark" x="2246.0" y="325.0" text-anchor="end" fill="var(--store)">✓</text><circle class="notedot" cx="2258.0" cy="320.0" r="3.4" opacity="0"></circle></g><g class="node st-done planned" data-id="integrate" data-kind="service" tabindex="0" role="button" aria-label="Integrate actual data"><rect class="plate" x="2686.0" y="86.0" width="232" height="58" rx="17"></rect><rect x="2699.0" y="102.0" width="25" height="25" rx="8" fill="var(--service)" fill-opacity="0.16"></rect><circle cx="2711.5" cy="114.5" r="4.2" fill="var(--service)"></circle><text class="title" x="2733.0" y="112.0">Integrate actual data</text><text class="sub" x="2733.0" y="127.0">Combine compatible commits, real…</text><text class="stmark" x="2892.0" y="105.0" text-anchor="end" fill="var(--store)">✓</text><circle class="notedot" cx="2904.0" cy="100.0" r="3.4" opacity="0"></circle></g><g class="node st-done planned" data-id="acceptance" data-kind="service" tabindex="0" role="button" aria-label="Independent acceptance"><rect class="plate" x="2560.0" y="174.0" width="232" height="58" rx="17"></rect><rect x="2573.0" y="190.0" width="25" height="25" rx="8" fill="var(--service)" fill-opacity="0.16"></rect><circle cx="2585.5" cy="202.5" r="4.2" fill="var(--service)"></circle><text class="title" x="2607.0" y="200.0">Independent acceptan…</text><text class="sub" x="2607.0" y="215.0">Verify security, data semantics, a…</text><text class="stmark" x="2766.0" y="193.0" text-anchor="end" fill="var(--store)">✓</text><circle class="notedot" cx="2778.0" cy="188.0" r="3.4" opacity="0"></circle></g><g class="node st-done planned" data-id="recovery" data-kind="service" tabindex="0" role="button" aria-label="Backup &amp; recovery proof"><rect class="plate" x="2812.0" y="174.0" width="232" height="58" rx="17"></rect><rect x="2825.0" y="190.0" width="25" height="25" rx="8" fill="var(--service)" fill-opacity="0.16"></rect><circle cx="2837.5" cy="202.5" r="4.2" fill="var(--service)"></circle><text class="title" x="2859.0" y="200.0">Backup &amp; recovery pro…</text><text class="sub" x="2859.0" y="215.0">Full-store restore proven</text><text class="stmark" x="3018.0" y="193.0" text-anchor="end" fill="var(--store)">✓</text><circle class="notedot" cx="3030.0" cy="188.0" r="3.4" opacity="0"></circle></g><g class="node st-running planned" data-id="deploy" data-kind="service" tabindex="0" role="button" aria-label="Verified release"><rect class="plate" x="2686.0" y="262.0" width="232" height="58" rx="17"></rect><rect x="2699.0" y="278.0" width="25" height="25" rx="8" fill="var(--service)" fill-opacity="0.16"></rect><circle cx="2711.5" cy="290.5" r="4.2" fill="var(--service)"></circle><text class="title" x="2733.0" y="288.0">Verified release</text><text class="sub" x="2733.0" y="303.0">Final edition entering CI</text><text class="stmark" x="2892.0" y="281.0" text-anchor="end" fill="var(--agent)">●</text><circle class="notedot" cx="2904.0" cy="276.0" r="3.4" opacity="0"></circle></g><g class="node st-running planned" data-id="handoff" data-kind="service" tabindex="0" role="button" aria-label="Operating handoff"><rect class="plate" x="2686.0" y="350.0" width="232" height="58" rx="17"></rect><rect x="2699.0" y="366.0" width="25" height="25" rx="8" fill="var(--service)" fill-opacity="0.16"></rect><circle cx="2711.5" cy="378.5" r="4.2" fill="var(--service)"></circle><text class="title" x="2733.0" y="376.0">Operating handoff</text><text class="sub" x="2733.0" y="391.0">Document source coverage, costs,…</text><text class="stmark" x="2892.0" y="369.0" text-anchor="end" fill="var(--agent)">●</text><circle class="notedot" cx="2904.0" cy="364.0" r="3.4" opacity="0"></circle></g></g>
+  </g></svg></div>
+
+  <div id="rail">
+    <div class="panel">
+      <p class="rail-h">Filter by kind</p>
+      <div class="legend" id="legend"><button data-kind="agent" aria-pressed="false"><span class="dot" style="background:var(--agent)"></span>Agent<span class="count">16</span></button><button data-kind="service" aria-pressed="false"><span class="dot" style="background:var(--service)"></span>Service<span class="count">5</span></button></div>
+    </div>
+    <div class="panel" id="outline-wrap">
+      <p class="rail-h">All nodes</p>
+      <div class="outline" id="outline"><div class="grp">Direction &amp; contracts</div><button data-id="context"><span class="dot" style="background:var(--agent)"></span>Recovered planning chat</button><button data-id="contracts"><span class="dot" style="background:var(--agent)"></span>Pinned shared contracts</button><button data-id="isolation"><span class="dot" style="background:var(--agent)"></span>Protected original checko…</button><div class="grp">Research &amp; provenance</div><button data-id="sources"><span class="dot" style="background:var(--agent)"></span>Source feasibility &amp; righ…</button><button data-id="protests"><span class="dot" style="background:var(--agent)"></span>September–November protes…</button><button data-id="elections"><span class="dot" style="background:var(--agent)"></span>Post-election research</button><button data-id="legacy"><span class="dot" style="background:var(--agent)"></span>Conflict provenance recov…</button><div class="grp">Data &amp; operations</div><button data-id="store"><span class="dot" style="background:var(--agent)"></span>Relational store &amp; migrat…</button><button data-id="api"><span class="dot" style="background:var(--agent)"></span>API &amp; editorial protection</button><button data-id="discovery"><span class="dot" style="background:var(--agent)"></span>Honest discovery collecti…</button><button data-id="archive"><span class="dot" style="background:var(--agent)"></span>Recover historical articl…</button><button data-id="scorecards"><span class="dot" style="background:var(--agent)"></span>Reproducible activity</button><div class="grp">Application</div><button data-id="shell"><span class="dot" style="background:var(--agent)"></span>Shared research interface</button><button data-id="maps"><span class="dot" style="background:var(--agent)"></span>Three domain explorers</button><button data-id="editor"><span class="dot" style="background:var(--agent)"></span>Real editorial workspace</button><button data-id="mobile"><span class="dot" style="background:var(--agent)"></span>Mobile &amp; keyboard access</button><div class="grp">Acceptance &amp; release</div><button data-id="integrate" class=pl><span class="dot" style="background:var(--service)"></span>Integrate actual data</button><button data-id="acceptance" class=pl><span class="dot" style="background:var(--service)"></span>Independent acceptance</button><button data-id="recovery" class=pl><span class="dot" style="background:var(--service)"></span>Backup &amp; recovery proof</button><button data-id="deploy" class=pl><span class="dot" style="background:var(--service)"></span>Verified release</button><button data-id="handoff" class=pl><span class="dot" style="background:var(--service)"></span>Operating handoff</button></div>
+    </div>
+  </div>
+
+  <div class="panel" id="zoom" role="group" aria-label="Zoom">
+    <button id="z-out" aria-label="Zoom out" title="Zoom out (−)">−</button>
+    <span id="z-level" aria-live="polite">100%</span>
+    <button id="z-in" aria-label="Zoom in" title="Zoom in (+)">+</button>
+    <button id="z-reset" title="Fit whole map (0)">Fit</button>
+  </div>
+
+  <div id="hint">Drag to pan · scroll, pinch or double-click to zoom · +/− keys · click any node for its full detail · 21 nodes · 27 edges · 5 workstreams</div>
+  <div id="credit">Node vocabulary, fold rule and rounded orthogonal routing adapted from
+    <a href="https://github.com/foglamp-labs/foglamp" target="_blank" rel="noopener">foglamp</a>, Apache-2.0.</div>
+
+  <aside id="drawer" aria-label="Node detail">
+    <button id="dclose" aria-label="Close">Close</button>
+    <div class="dhead">
+      <span class="dkind" id="d-kind"></span>
+      <h2 id="d-title"></h2>
+      <div class="dsub" id="d-sub"></div>
+    </div>
+    <div class="dbody" id="d-body"></div>
+  </aside>
+</div>
+
+<script>
+(function(){
+"use strict";
+const DATA = {"detail": {"context": {"title": "Recovered planning chat", "sub": "Read the October 25–26 plan and preserve its requirements.", "kind": "Agent", "kvar": "--agent", "group": "Direction & contracts", "status": "done", "word": "done", "planned": false, "tier": "", "does": "Read the October 25–26 plan and preserve its requirements.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [], "feeds": [["contracts", "Pinned shared contracts"]]}, "contracts": {"title": "Pinned shared contracts", "sub": "Define typed domains, date precision, review status and API boundaries.", "kind": "Agent", "kvar": "--agent", "group": "Direction & contracts", "status": "done", "word": "done", "planned": false, "tier": "", "does": "Define typed domains, date precision, review status and API boundaries.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [["context", "Recovered planning chat"]], "feeds": [["sources", "Source feasibility & rights"], ["store", "Relational store & migrations"], ["shell", "Shared research interface"]]}, "isolation": {"title": "Protected original checkout", "sub": "Build in isolated branches without overwriting existing uncommitted work.", "kind": "Agent", "kvar": "--agent", "group": "Direction & contracts", "status": "done", "word": "done", "planned": false, "tier": "", "does": "Build in isolated branches without overwriting existing uncommitted work.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [], "feeds": []}, "sources": {"title": "Source feasibility & rights", "sub": "Verify usable primary sources and distinguish their claims and permissions.", "kind": "Agent", "kvar": "--agent", "group": "Research & provenance", "status": "done", "word": "done", "planned": false, "tier": "", "does": "Verify usable primary sources and distinguish their claims and permissions.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [["contracts", "Pinned shared contracts"]], "feeds": [["protests", "September–November protests"], ["elections", "Post-election research"], ["legacy", "Conflict provenance recovery"]]}, "protests": {"title": "September–November protests", "sub": "33 observations; history remains partial", "kind": "Agent", "kvar": "--agent", "group": "Research & provenance", "status": "done", "word": "done", "planned": false, "tier": "", "does": "33 reviewed observation records across 20 countries;31 count eligible, seven canonical campaigns and one merged alias. Explicit coverage records and source research span a bounded42jurisdiction review. Provider429failures and unassessed places/dates mean historical collection is not globally complete.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [["sources", "Source feasibility & rights"]], "feeds": [["scorecards", "Reproducible activity"], ["integrate", "Integrate actual data"]]}, "elections": {"title": "Post-election research", "sub": "Post-election registry and evidence", "kind": "Agent", "kvar": "--agent", "group": "Research & provenance", "status": "done", "word": "done", "planned": false, "tier": "", "does": "435 House and35 Senate identities;11 unofficial tally snapshots;459 results unassessed.435 version-matched House boundaries verified. No winner calls invented.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [["sources", "Source feasibility & rights"]], "feeds": [["integrate", "Integrate actual data"]]}, "legacy": {"title": "Conflict provenance recovery", "sub": "Preserve all legacy actors/relationships without renewing inherited confidence.", "kind": "Agent", "kvar": "--agent", "group": "Research & provenance", "status": "done", "word": "done", "planned": false, "tier": "", "does": "Preserve all legacy actors/relationships without renewing inherited confidence.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [["sources", "Source feasibility & rights"]], "feeds": [["integrate", "Integrate actual data"]]}, "store": {"title": "Relational store & migrations", "sub": "Implement typed SQL persistence, source links and revision history.", "kind": "Agent", "kvar": "--agent", "group": "Data & operations", "status": "done", "word": "done", "planned": false, "tier": "", "does": "Implement typed SQL persistence, source links and revision history.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [["contracts", "Pinned shared contracts"]], "feeds": [["api", "API & editorial protection"]]}, "api": {"title": "API & editorial protection", "sub": "Build query/export and authenticated transactional review/correction.", "kind": "Agent", "kvar": "--agent", "group": "Data & operations", "status": "done", "word": "done", "planned": false, "tier": "", "does": "Build query/export and authenticated transactional review/correction.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [["store", "Relational store & migrations"]], "feeds": [["editor", "Real editorial workspace"], ["integrate", "Integrate actual data"]]}, "discovery": {"title": "Honest discovery collection", "sub": "Repair seen/published dates, canonical URL identity and failed-refresh visibility. Six regression tests passed.", "kind": "Agent", "kvar": "--agent", "group": "Data & operations", "status": "done", "word": "done", "planned": false, "tier": "", "does": "Repair seen/published dates, canonical URL identity and failed-refresh visibility. Six regression tests passed.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [], "feeds": [["archive", "Recover historical articles"]]}, "archive": {"title": "Recover historical articles", "sub": "Recover article metadata from 281 Git snapshots from September onward.", "kind": "Agent", "kvar": "--agent", "group": "Data & operations", "status": "done", "word": "done", "planned": false, "tier": "", "does": "Recover article metadata from 281 Git snapshots from September onward.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [["discovery", "Honest discovery collection"]], "feeds": [["integrate", "Integrate actual data"]]}, "scorecards": {"title": "Reproducible activity", "sub": "Count reviewed occurrences, expose inputs, withhold unsupported momentum.", "kind": "Agent", "kvar": "--agent", "group": "Data & operations", "status": "done", "word": "done", "planned": false, "tier": "", "does": "Count reviewed occurrences, expose inputs, withhold unsupported momentum.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [["protests", "September–November protests"]], "feeds": [["integrate", "Integrate actual data"]]}, "shell": {"title": "Shared research interface", "sub": "Build navigation, typed search, filters and persistent routes.", "kind": "Agent", "kvar": "--agent", "group": "Application", "status": "done", "word": "done", "planned": false, "tier": "", "does": "Build navigation, typed search, filters and persistent routes.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [["contracts", "Pinned shared contracts"]], "feeds": [["maps", "Three domain explorers"]]}, "maps": {"title": "Three domain explorers", "sub": "Coordinate geographic, list, timeline and evidence views with distinct semantics.", "kind": "Agent", "kvar": "--agent", "group": "Application", "status": "done", "word": "done", "planned": false, "tier": "", "does": "Coordinate geographic, list, timeline and evidence views with distinct semantics.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [["shell", "Shared research interface"]], "feeds": [["mobile", "Mobile & keyboard access"], ["integrate", "Integrate actual data"]]}, "editor": {"title": "Real editorial workspace", "sub": "Maintain drafts, corrections, publication/retraction and merges through API.", "kind": "Agent", "kvar": "--agent", "group": "Application", "status": "done", "word": "done", "planned": false, "tier": "", "does": "Maintain drafts, corrections, publication/retraction and merges through API.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [["api", "API & editorial protection"]], "feeds": [["integrate", "Integrate actual data"]]}, "mobile": {"title": "Mobile & keyboard access", "sub": "Provide deliberate reading/map modes and accessible list equivalents.", "kind": "Agent", "kvar": "--agent", "group": "Application", "status": "done", "word": "done", "planned": false, "tier": "", "does": "Provide deliberate reading/map modes and accessible list equivalents.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [["maps", "Three domain explorers"]], "feeds": [["integrate", "Integrate actual data"]]}, "integrate": {"title": "Integrate actual data", "sub": "Combine compatible commits, real sources, API and public snapshot.", "kind": "Service", "kvar": "--service", "group": "Acceptance & release", "status": "done", "word": "done", "planned": true, "tier": "", "does": "Combine compatible commits, real sources, API and public snapshot.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [["legacy", "Conflict provenance recovery"], ["elections", "Post-election research"], ["protests", "September–November protests"], ["api", "API & editorial protection"], ["archive", "Recover historical articles"], ["scorecards", "Reproducible activity"], ["maps", "Three domain explorers"], ["editor", "Real editorial workspace"], ["mobile", "Mobile & keyboard access"]], "feeds": [["acceptance", "Independent acceptance"], ["recovery", "Backup & recovery proof"]]}, "acceptance": {"title": "Independent acceptance", "sub": "Verify security, data semantics, actual UI journeys, exports and mobile.", "kind": "Service", "kvar": "--service", "group": "Acceptance & release", "status": "done", "word": "done", "planned": true, "tier": "", "does": "Verify security, data semantics, actual UI journeys, exports and mobile.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [["integrate", "Integrate actual data"]], "feeds": [["deploy", "Verified release"]]}, "recovery": {"title": "Backup & recovery proof", "sub": "Full-store restore proven", "kind": "Service", "kvar": "--service", "group": "Acceptance & release", "status": "done", "word": "done", "planned": true, "tier": "", "does": "All-table digest and public snapshot matched for31,923 identities and63,852 revisions. Final migration/source-pin regression tests validate newer behavior.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [["integrate", "Integrate actual data"]], "feeds": [["deploy", "Verified release"]]}, "deploy": {"title": "Verified release", "sub": "Final edition entering CI", "kind": "Service", "kvar": "--service", "group": "Acceptance & release", "status": "running", "word": "running", "planned": true, "tier": "", "does": "Existing GitHub connector authority resolved the earlier CLI workflow-scope restriction. The first CI run passed PostgreSQL and full container checks. Release waits for verification of the final edition and the actual deployed Pages site.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [["acceptance", "Independent acceptance"], ["recovery", "Backup & recovery proof"]], "feeds": [["handoff", "Operating handoff"]]}, "handoff": {"title": "Operating handoff", "sub": "Document source coverage, costs, maintenance, runtime and unresolved limits.", "kind": "Service", "kvar": "--service", "group": "Acceptance & release", "status": "running", "word": "running", "planned": true, "tier": "", "does": "Document source coverage, costs, maintenance, runtime and unresolved limits.", "runs": "", "scale": "", "consumes": "Pinned contracts and cited sources", "produces": "Versioned code, data or validation evidence", "guard": "Completion requires observed evidence; research gaps are not hidden by engineering success.", "if_fails": "Retain the last accepted artifact and record the specific unresolved work.", "why": "Supports the complete, maintainable three-domain research application.", "fed_by": [["deploy", "Verified release"]], "feeds": []}}, "edges": [["context", "contracts"], ["contracts", "sources"], ["contracts", "store"], ["contracts", "shell"], ["sources", "protests"], ["sources", "elections"], ["sources", "legacy"], ["store", "api"], ["discovery", "archive"], ["api", "editor"], ["protests", "scorecards"], ["shell", "maps"], ["maps", "mobile"], ["legacy", "integrate"], ["elections", "integrate"], ["protests", "integrate"], ["api", "integrate"], ["archive", "integrate"], ["scorecards", "integrate"], ["maps", "integrate"], ["editor", "integrate"], ["mobile", "integrate"], ["integrate", "acceptance"], ["integrate", "recovery"], ["acceptance", "deploy"], ["recovery", "deploy"], ["deploy", "handoff"]], "slug": "worldwar-modernization", "entry": "context", "title": "WorldWar · execution board"};
+const DETAIL = DATA.detail, EDGES = DATA.edges;
+const NOTES_KEY = "map-notes-" + DATA.slug;
+let notes = {};
+try { notes = JSON.parse(localStorage.getItem(NOTES_KEY) || "{}"); } catch(_) {}
+const $ = s => document.querySelector(s);
+const canvas = $("#canvas"), svg = canvas.querySelector("svg"), cam = $("#cam");
+const nodes = [...document.querySelectorAll(".node")];
+let cur = null, view = {x:0, y:0, k:1};
+
+const ZMIN = 0.05, ZMAX = 4;
+let touched = false;          // user has panned/zoomed: stop auto-refitting on resize
+function apply(){ cam.setAttribute("transform",
+  "translate("+view.x+" "+view.y+") scale("+view.k+")");
+  const zl = document.getElementById("z-level");
+  if (zl) zl.textContent = Math.round(view.k*100) + "%"; }
+let TOP = 96;                 // canvas space below the header; tracks a wrapping subtitle
+function placeChrome(){
+  const tb = document.getElementById("topbar"), rail = document.getElementById("rail");
+  TOP = Math.max(96, Math.ceil(tb.getBoundingClientRect().bottom) + 12);
+  if (rail) rail.style.top = TOP + "px";
+}
+function fit(){
+  placeChrome();
+  const bb = cam.getBBox(), r = canvas.getBoundingClientRect();
+  const pad = innerWidth > 1080 ? 248 : 20;
+  const usable = r.width - pad - 24;
+  const k = Math.min(usable/(bb.width+40), (r.height-TOP-24)/(bb.height+40), 1.3);
+  view.k = k;
+  view.x = pad + (usable - bb.width*k)/2 - bb.x*k;
+  view.y = TOP + (r.height-TOP-14 - bb.height*k)/2 - bb.y*k;
+  touched = false;
+  apply();
+}
+function centreOn(id, kmin){
+  const el = document.querySelector('.node[data-id="'+CSS.escape(id)+'"] .plate');
+  if (!el) return;
+  const r = canvas.getBoundingClientRect();
+  const x = +el.getAttribute("x") + el.getAttribute("width")/2;
+  const y = +el.getAttribute("y") + el.getAttribute("height")/2;
+  view.k = Math.max(view.k, kmin || 0.85);
+  view.x = r.width/2 - x*view.k;
+  view.y = r.height/2 - y*view.k;
+  touched = true;
+  apply();
+}
+
+// ── pan / zoom ─────────────────────────────────────────────────────────────
+const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+function clampK(k){ return Math.min(ZMAX, Math.max(ZMIN, k)); }
+function zoomAt(mx, my, k2){            // zoom to k2 keeping screen point (mx,my) fixed
+  k2 = clampK(k2);
+  view.x = mx-(mx-view.x)*(k2/view.k); view.y = my-(my-view.y)*(k2/view.k);
+  view.k = k2; touched = true; apply();
+}
+let anim = null, animTarget = null;
+function animateZoom(mx, my, k2){
+  k2 = clampK(k2);
+  if (anim) cancelAnimationFrame(anim);
+  if (reduceMotion) { anim = null; animTarget = null; return zoomAt(mx, my, k2); }
+  const k0 = view.k, t0 = performance.now(), D = 180;
+  animTarget = k2;
+  const step = t => {
+    const p = Math.min(1, (t-t0)/D), e = 1-Math.pow(1-p, 3);
+    zoomAt(mx, my, k0*Math.pow(k2/k0, e));
+    anim = p < 1 ? requestAnimationFrame(step) : null;
+    if (!anim) animTarget = null;
+  };
+  anim = requestAnimationFrame(step);
+}
+function localPt(e){ const r = canvas.getBoundingClientRect();
+  return [e.clientX-r.left, e.clientY-r.top]; }
+
+// pointers: one = pan, two = pinch-zoom (touch screens)
+const ptrs = new Map();
+let dragging=false, last=null, pinch=null;
+canvas.addEventListener("pointerdown", e => {
+  const onNode = !!e.target.closest(".node");
+  if (onNode && e.pointerType === "mouse") return;
+  ptrs.set(e.pointerId, [e.clientX, e.clientY]);
+  if (!onNode) canvas.setPointerCapture(e.pointerId);   // keep taps on nodes clickable
+  if (ptrs.size === 2){
+    const [a, b] = [...ptrs.values()];
+    pinch = {d: Math.hypot(a[0]-b[0], a[1]-b[1]), k: view.k};
+    dragging = false;
+  } else if (ptrs.size === 1){
+    dragging = true; last = [e.clientX, e.clientY];
+    canvas.classList.add("dragging");
+  }
+});
+canvas.addEventListener("pointermove", e => {
+  if (!ptrs.has(e.pointerId)) return;
+  ptrs.set(e.pointerId, [e.clientX, e.clientY]);
+  if (pinch && ptrs.size >= 2){
+    const [a, b] = [...ptrs.values()], r = canvas.getBoundingClientRect();
+    const d = Math.hypot(a[0]-b[0], a[1]-b[1]);
+    zoomAt((a[0]+b[0])/2 - r.left, (a[1]+b[1])/2 - r.top, pinch.k * d / pinch.d);
+    return;
+  }
+  if (!dragging) return;
+  view.x += e.clientX-last[0]; view.y += e.clientY-last[1];
+  last = [e.clientX, e.clientY]; touched = true; apply();
+});
+function endPtr(e){
+  ptrs.delete(e.pointerId);
+  if (ptrs.size < 2) pinch = null;
+  if (ptrs.size === 1){ last = [...ptrs.values()][0]; dragging = true; }
+  if (ptrs.size === 0){ dragging = false; canvas.classList.remove("dragging"); }
+}
+canvas.addEventListener("pointerup", endPtr);
+canvas.addEventListener("pointercancel", endPtr);
+
+// wheel: mouse wheel zooms; trackpad pinch (ctrlKey) zooms fast; sideways swipe pans
+let gk = null;
+canvas.addEventListener("wheel", e => {
+  e.preventDefault();
+  let dx = e.deltaX, dy = e.deltaY;
+  if (e.deltaMode === 1){ dx *= 16; dy *= 16; }                 // lines
+  else if (e.deltaMode === 2){ dx *= canvas.clientHeight; dy *= canvas.clientHeight; }
+  const [mx, my] = localPt(e);
+  if (e.ctrlKey && gk !== null) return;                          // Safari: gesture* handles it
+  if (e.ctrlKey){                                                // trackpad pinch
+    zoomAt(mx, my, view.k*Math.exp(-dy*0.012));
+  } else if (e.shiftKey || Math.abs(dx) > Math.abs(dy)){         // pan sideways
+    view.x -= (e.shiftKey ? dy : dx); if (!e.shiftKey) view.y -= dy;
+    touched = true; apply();
+  } else {
+    dy = Math.max(-120, Math.min(120, dy));
+    zoomAt(mx, my, view.k*Math.exp(-dy*0.004));
+  }
+}, {passive:false});
+// Safari trackpad pinch
+canvas.addEventListener("gesturestart", e => { e.preventDefault(); gk = view.k; });
+canvas.addEventListener("gestureend", () => { gk = null; });
+canvas.addEventListener("gesturechange", e => { e.preventDefault();
+  const [mx, my] = localPt(e); zoomAt(mx, my, gk*e.scale); });
+// double-click empty canvas: zoom in 2× there (shift: out)
+canvas.addEventListener("dblclick", e => {
+  if (e.target.closest(".node")) return;
+  const [mx, my] = localPt(e); animateZoom(mx, my, view.k*(e.shiftKey ? 0.5 : 2));
+});
+function zoomBy(f){
+  const r = canvas.getBoundingClientRect();
+  animateZoom(r.width/2, r.height/2, (anim && animTarget ? animTarget : view.k)*f);
+}
+$("#z-in").addEventListener("click", () => zoomBy(1.6));
+$("#z-out").addEventListener("click", () => zoomBy(1/1.6));
+document.addEventListener("keydown", e => {
+  if (e.target.closest("input, textarea, [contenteditable]") || e.metaKey || e.ctrlKey || e.altKey) return;
+  if (e.key === "+" || e.key === "=") { zoomBy(1.6); e.preventDefault(); }
+  else if (e.key === "-" || e.key === "_") { zoomBy(1/1.6); e.preventDefault(); }
+  else if (e.key === "0") { fit(); e.preventDefault(); }
+});
+$("#z-reset").addEventListener("click", fit);
+$("#btn-fit").addEventListener("click", fit);
+$("#btn-home").addEventListener("click", () => {
+  if (DATA.entry) { centreOn(DATA.entry, 0.95); select(DATA.entry); } });
+
+// ── drawer ─────────────────────────────────────────────────────────────────
+function escH(s){ const d=document.createElement("div");
+  d.textContent = s==null?"":s; return d.innerHTML; }
+function sec(label, val, warn){
+  if (!val || val === "—") return "";
+  return '<div class="dsec'+(warn?' warn':'')+'"><h3>'+escH(label)+'</h3><p>'
+       + escH(val)+'</p></div>';
+}
+function paintNoteDots(){
+  nodes.forEach(n => {
+    const d = n.querySelector(".notedot");
+    if (d) d.setAttribute("opacity", notes[n.dataset.id] ? "1" : "0");
+  });
+}
+function select(id){
+  const d = DETAIL[id];
+  if (!d) return;
+  cur = id;
+  $("#d-kind").innerHTML =
+    '<span class="dot" style="background:var('+d.kvar+')"></span>'
+    + escH(d.kind) + ' · ' + escH(d.group)
+    + (d.tier ? ' · ' + escH(d.tier) : '')
+    + ' · <span class="dstat" style="color:var(' + ({done:'--store',failed:'--fail',
+       running:'--agent',blocked:'--gate'}[d.status]||'--ink-3')
+    + ')">' + escH(d.word || d.status) + '</span>';
+  $("#d-title").textContent = d.title;
+  $("#d-sub").textContent = d.sub;
+  const rel = (label, arr) => arr.length
+    ? '<div class="dsec"><h3>'+label+'</h3><div class="pillrow">'
+      + arr.map(x => '<button class="pill" data-go="'+escH(x[0])+'">'
+        + '<span class="dot" style="background:var('+(DETAIL[x[0]]?DETAIL[x[0]].kvar:'--ink-3')+')"></span>'
+        + escH(x[1])+'</button>').join("") + '</div></div>'
+    : "";
+  let kv = "";
+  [["Runs",d.runs],["Scale",d.scale],["Consumes",d.consumes],
+   ["Produces",d.produces]].forEach(p => {
+    if (p[1] && p[1] !== "—")
+      kv += "<dt>"+escH(p[0])+"</dt><dd>"+escH(p[1])+"</dd>"; });
+  $("#d-body").innerHTML =
+      sec("What it does", d.does)
+    + (kv ? '<div class="dsec"><dl class="kv">'+kv+'</dl></div>' : "")
+    + sec("Guard it enforces", d.guard)
+    + sec("If it fails", d.if_fails, true)
+    + sec("Why it matters", d.why)
+    + rel("Fed by", d.fed_by) + rel("Feeds", d.feeds)
+    + '<div class="dsec"><h3>Your notes</h3><textarea id="d-note" '
+    + 'placeholder="Saved in this browser; Export notes copies all of them as markdown."></textarea></div>';
+  const ta = $("#d-note");
+  ta.value = notes[id] || "";
+  ta.addEventListener("input", e => {
+    if (e.target.value.trim()) notes[id] = e.target.value; else delete notes[id];
+    try { localStorage.setItem(NOTES_KEY, JSON.stringify(notes)); } catch(_) {}
+    paintNoteDots();
+  });
+  document.querySelectorAll("#d-body .pill").forEach(b =>
+    b.addEventListener("click", () => { centreOn(b.dataset.go); select(b.dataset.go); }));
+  $("#drawer").classList.add("open");
+  nodes.forEach(n => n.classList.toggle("sel", n.dataset.id === id));
+  document.querySelectorAll(".eg").forEach(g => {
+    const hot = g.dataset.a === id || g.dataset.b === id;
+    g.querySelectorAll(".edge").forEach(p => {
+      p.classList.toggle("hot", hot); p.classList.toggle("dim", !hot); });
+  });
+  document.querySelectorAll("#outline button").forEach(b =>
+    b.classList.toggle("on", b.dataset.id === id));
+  if (tracing) applyTrace();
+}
+function clearSel(){
+  cur = null;
+  $("#drawer").classList.remove("open");
+  nodes.forEach(n => n.classList.remove("sel"));
+  document.querySelectorAll(".edge").forEach(p => p.classList.remove("hot","dim"));
+  document.querySelectorAll("#outline button").forEach(b => b.classList.remove("on"));
+  if (tracing) { tracing = false;
+    $("#btn-trace").setAttribute("aria-pressed","false"); refilter(); }
+}
+nodes.forEach(n => {
+  n.addEventListener("click", () => select(n.dataset.id));
+  n.addEventListener("keydown", e => {
+    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); select(n.dataset.id); }
+  });
+});
+$("#dclose").addEventListener("click", clearSel);
+document.addEventListener("keydown", e => { if (e.key === "Escape") clearSel(); });
+
+// edge hover highlight via the fat invisible hit path
+document.querySelectorAll(".eg").forEach(g => {
+  const hit = g.querySelector(".edgehit");
+  hit.addEventListener("pointerenter", () =>
+    g.querySelectorAll(".edge").forEach(p => p.classList.add("hot")));
+  hit.addEventListener("pointerleave", () => {
+    if (cur && (g.dataset.a === cur || g.dataset.b === cur)) return;
+    g.querySelectorAll(".edge").forEach(p => p.classList.remove("hot"));
+  });
+});
+
+// ── filters: kinds + search ────────────────────────────────────────────────
+const offKinds = new Set();
+function refilter(){
+  const q = $("#search").value.trim().toLowerCase();
+  nodes.forEach(n => {
+    const d = DETAIL[n.dataset.id];
+    const hay = !d ? "" : (d.title+" "+d.sub+" "+d.does+" "+d.why+" "
+      +d.group+" "+d.status+" "+(d.word||"")).toLowerCase();
+    const hidden = offKinds.has(n.dataset.kind) || (!!q && !hay.includes(q));
+    n.classList.toggle("dim", hidden);
+  });
+  document.querySelectorAll(".eg").forEach(g => {
+    const aHid = document.querySelector('.node[data-id="'+CSS.escape(g.dataset.a)+'"]');
+    const bHid = document.querySelector('.node[data-id="'+CSS.escape(g.dataset.b)+'"]');
+    const dim = (aHid && aHid.classList.contains("dim"))
+             || (bHid && bHid.classList.contains("dim"));
+    g.querySelectorAll(".edge,.elabel").forEach(p => p.classList.toggle("dim", dim));
+  });
+}
+document.querySelectorAll("#legend button").forEach(b =>
+  b.addEventListener("click", () => {
+    const k = b.dataset.kind;
+    if (offKinds.has(k)) offKinds.delete(k); else offKinds.add(k);
+    b.setAttribute("aria-pressed", offKinds.has(k) ? "true" : "false");
+    refilter();
+  }));
+$("#search").addEventListener("input", refilter);
+
+// ── outline jump ───────────────────────────────────────────────────────────
+document.querySelectorAll("#outline button").forEach(b =>
+  b.addEventListener("click", () => { centreOn(b.dataset.id); select(b.dataset.id); }));
+
+// ── trace: transitive upstream of the selected node ────────────────────────
+let tracing = false;
+const PRED = {};
+EDGES.forEach(e => { (PRED[e[1]] = PRED[e[1]] || []).push(e[0]); });
+$("#btn-trace").addEventListener("click", () => {
+  if (!cur) { alert("Select a node first — Trace then shows everything it depends on."); return; }
+  tracing = !tracing;
+  $("#btn-trace").setAttribute("aria-pressed", tracing ? "true" : "false");
+  if (!tracing) { refilter(); return; }
+  applyTrace();
+});
+function applyTrace(){
+  const keep = new Set([cur]), stack = [cur];
+  while (stack.length) {
+    const u = stack.pop();
+    for (const p of (PRED[u] || [])) if (!keep.has(p)) { keep.add(p); stack.push(p); }
+  }
+  nodes.forEach(n => n.classList.toggle("dim", !keep.has(n.dataset.id)));
+  document.querySelectorAll(".eg").forEach(g => {
+    const dim = !(keep.has(g.dataset.a) && keep.has(g.dataset.b));
+    g.querySelectorAll(".edge,.elabel").forEach(p => p.classList.toggle("dim", dim));
+  });
+}
+
+// ── notes export ───────────────────────────────────────────────────────────
+$("#btn-notes").addEventListener("click", async () => {
+  const ids = Object.keys(notes);
+  if (!ids.length) { alert("No notes yet. Click a node and type in Your notes."); return; }
+  const md = "# " + DATA.title + " — map notes\n\n" + ids.map(id =>
+    "## " + (DETAIL[id] ? DETAIL[id].title : id) + "\n\n" + notes[id] + "\n").join("\n");
+  try { await navigator.clipboard.writeText(md); alert("Notes copied as markdown."); }
+  catch(_) { alert(md); }
+});
+
+// ── theme ──────────────────────────────────────────────────────────────────
+$("#btn-theme").addEventListener("click", () => {
+  const r = document.documentElement;
+  const now = r.getAttribute("data-theme") ||
+    (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  r.setAttribute("data-theme", now === "dark" ? "light" : "dark");
+});
+
+// ── text fit: trim any card or stage text the Python estimate let overflow ──
+function trimTo(el, limit){
+  const full = el.textContent;
+  if (+el.getAttribute("x") + el.getComputedTextLength() <= limit) return;
+  let t = full.replace(/…$/, "");
+  while (t.length > 1 && +el.getAttribute("x") + el.getComputedTextLength() > limit){
+    t = t.slice(0, -1).replace(/\s+$/, ""); el.textContent = t + "…"; }
+  if (!el.querySelector("title")) { const tt = document.createElementNS("http://www.w3.org/2000/svg","title");
+    tt.textContent = full; el.appendChild(tt); }
+}
+function fitText(){
+  nodes.forEach(n => {
+    const p = n.querySelector(".plate"), px = +p.getAttribute("x"), pw = +p.getAttribute("width");
+    const mark = n.querySelector(".stmark");
+    const markL = mark ? +mark.getAttribute("x") - mark.getComputedTextLength() : px + pw - 12;
+    n.querySelectorAll("text.title").forEach(t => trimTo(t, markL - 5));
+    n.querySelectorAll("text.sub,text.chiptext").forEach(t => trimTo(t, px + pw - 13));
+  });
+  document.querySelectorAll(".glabel").forEach(gl => {
+    const gp = gl.nextElementSibling;
+    if (gp) trimTo(gl, +gp.getAttribute("x") - gp.getComputedTextLength() - 9);
+  });
+}
+try { fitText(); } catch(_) {}
+paintNoteDots();
+addEventListener("resize", () => { placeChrome(); if (!touched) fit(); });
+fit();
+})();
+</script>

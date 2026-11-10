@@ -2,8 +2,8 @@ name: Update events feed
 
 on:
   schedule:
-    # Run hourly at :17 to avoid the busiest top-of-hour / half-hour windows
-    - cron: "17 * * * *"
+    # Discovery metadata, not automatic factual publication. Bounded request rate.
+    - cron: "17 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -27,10 +27,6 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Jitter to avoid rate-limit spikes
-        shell: bash
-        run: sleep $((RANDOM % 120))
-
       - name: Update events data
         run: python scripts/update_events.py
         env:
@@ -39,6 +35,8 @@ jobs:
           GDELT_TIMESPAN: ${{ secrets.GDELT_TIMESPAN }}
           MAX_EVENTS: "120"
           PER_TAG_PER_DAY_LIMIT: "3"
+          GDELT_MAX_RETRIES: "3"
+          STREAM_STAGGER_SECS: "10"
 
       - name: Commit updated data if changed
         shell: bash
@@ -46,7 +44,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add data/events.json data/meta.json
+          git add data/events.json data/meta.json data/discovery/archive.json data/discovery/runs.json
 
           if git diff --cached --quiet; then
             echo "No data changes detected"

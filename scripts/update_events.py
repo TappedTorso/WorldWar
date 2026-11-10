@@ -26,6 +26,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
+from discovery_store import archive_articles, atomic_json, canonical_url, normalize_timestamp
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
@@ -36,8 +37,8 @@ OUT_PATH = DATA_DIR / "events.json"
 GDELT_DOC_API = "https://api.gdeltproject.org/api/v2/doc/doc"
 
 # Environment overrides. If secrets are absent, defaults keep the pipeline alive.
-DEFAULT_CORE_QUERY = '("war" OR "armed conflict" OR "ceasefire" OR "airstrike" OR "missile")'
-DEFAULT_TRIPWIRE_QUERY = '("sanctions" OR "military aid" OR "troop deployment" OR "cross-border" OR "escalation")'
+DEFAULT_CORE_QUERY = '(war OR "armed conflict" OR ceasefire OR airstrike OR missile)'
+DEFAULT_TRIPWIRE_QUERY = '(sanctions OR "military aid" OR "troop deployment" OR "cross-border" OR escalation)'
 
 CORE_QUERY = os.getenv("GDELT_QUERY", "").strip() or DEFAULT_CORE_QUERY
 TRIPWIRE_QUERY = os.getenv("GDELT_TRIPWIRE_QUERY", "").strip() or DEFAULT_TRIPWIRE_QUERY
@@ -87,7 +88,7 @@ _FALLBACK_OUTLETS = {
 
 
 def _utc_now_iso() -> str:
-    return _dt.datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
+    return _dt.datetime.now(_dt.timezone.utc).replace(microsecond=0).isoformat().replace('+00:00','Z')
 
 
 def _day_bucket(iso: Optional[str]) -> str:
@@ -97,12 +98,7 @@ def _day_bucket(iso: Optional[str]) -> str:
 
 
 def _gdelt_seendate_to_iso(seendate: Optional[str]) -> Optional[str]:
-    if not seendate:
-        return None
-    s = str(seendate).strip()
-    if re.fullmatch(r"\d{14}", s):
-        return f"{s[0:4]}-{s[4:6]}-{s[6:8]}T{s[8:10]}:{s[10:12]}:{s[12:14]}Z"
-    return s
+    return normalize_timestamp(seendate)
 
 
 def _load_json(path: Path, fallback: Dict[str, Any]) -> Dict[str, Any]:
@@ -201,7 +197,9 @@ def _query_gdelt(params: Dict[str, str], retries: Optional[int] = None) -> Dict[
         try:
             with urllib.request.urlopen(req, timeout=30) as resp:  # nosec B310
                 status = getattr(resp, "status", 200)
-                body = resp.read().decode("utf-8", errors="replace")
+                body = resp.read(4_000_001).decode("utf-8", errors="replace")
+                if len(body) > 4_000_000:
+                    raise RuntimeError('provider_response_too_large')
                 ctype = str(resp.headers.get("Content-Type", "")).lower()
 
                 if status == 429:
@@ -225,8 +223,9 @@ def _query_gdelt(params: Dict[str, str], retries: Optional[int] = None) -> Dict[
                 try:
                     return json.loads(body)
                 except json.JSONDecodeError:
-                    snippet = body[:240].replace("\n", " ")
-                    raise RuntimeError(f"non-json response status={status} content_type={ctype} body={snippet}")
+                    # Query overrides may be private: never log a raw provider echo.
+                    code = 'invalid_query_short_phrase' if 'phrase is too short' in body.lower() else 'provider_non_json'
+                    raise RuntimeError(f"{code} status={status}")
 
         except urllib.error.HTTPError as exc:
             if exc.code == 429:
@@ -259,19 +258,22 @@ def _query_gdelt(params: Dict[str, str], retries: Optional[int] = None) -> Dict[
 
 
 def fetch_stream(stream_name: str, query: str) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
+    # GDELT rejects quoted short single-token phrases (notably the old "war").
+    repaired = re.sub(r'"([A-Za-z]{1,3})"', r'\1', query)
     params = {
-        "query": query,
+        "query": repaired,
         "mode": "ArtList",
         "format": "json",
         "timespan": TIMESPAN,
         "sort": "HybridRel",
-        "maxrecords": str(MAX_EVENTS),
+        "maxrecords": str(min(MAX_EVENTS, 250)),
     }
 
     try:
         payload = _query_gdelt(params)
         articles = payload.get("articles") or []
-        return articles, {"name": stream_name, "status": "ok", "fetched": len(articles)}
+        return articles, {"name": stream_name, "status": "ok", "fetched": len(articles),
+                          "query_repaired": repaired != query, "possibly_truncated": len(articles) >= min(MAX_EVENTS,250)}
     except Exception as exc:
         return [], {"name": stream_name, "status": "error", "error": str(exc), "fetched": 0}
 
@@ -349,7 +351,7 @@ def fetch_fallback_articles() -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
                     {
                         "title": it["title"],
                         "url": it["link"],
-                        "seendate": _rss_pubdate_to_iso(it["pubDate"]),
+                        "published_at": _rss_pubdate_to_iso(it["pubDate"]),
                         "domain": outlet,
                     }
                 )
@@ -385,7 +387,7 @@ def fetch_fallback_articles() -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
 
 
 def _event_key(title: str, url: str) -> str:
-    norm = f"{title.strip().lower()}|{url.strip().lower()}"
+    norm = canonical_url(url)
     return hashlib.sha1(norm.encode("utf-8")).hexdigest()[:16]
 
 
@@ -407,7 +409,7 @@ def _build_events(articles: List[Dict[str, Any]], id_prefix: str = "gdelt") -> L
 
     for a in articles:
         title = (a.get("title") or "").strip()
-        url = (a.get("url") or "").strip()
+        url = canonical_url(a.get("url") or "")
         if not title or not url:
             continue
 
@@ -416,8 +418,9 @@ def _build_events(articles: List[Dict[str, Any]], id_prefix: str = "gdelt") -> L
             continue
         seen.add(key)
 
-        published_at = _gdelt_seendate_to_iso(a.get("seendate"))
-        day = _day_bucket(published_at)
+        discovered_at = _gdelt_seendate_to_iso(a.get("seendate"))
+        published_at = normalize_timestamp(a.get("published_at"))
+        day = _day_bucket(published_at or discovered_at)
         tags = _tags_for_text(f"{title} {url}")
 
         if tags:
@@ -437,6 +440,11 @@ def _build_events(articles: List[Dict[str, Any]], id_prefix: str = "gdelt") -> L
                 "headline": title,
                 "url": url,
                 "published_at": published_at,
+                "discovered_at": discovered_at,
+                "provider_seen_raw": a.get("seendate"),
+                "date_basis": "publisher" if published_at else "provider_seen" if discovered_at else "unknown",
+                "record_kind": "discovery_article",
+                "evidence_status": "unreviewed",
                 "source": (a.get("domain") or a.get("sourceCountry") or "GDELT"),
                 "tags": tags,
             }
@@ -485,17 +493,6 @@ def main() -> int:
             used_fallback = bool(events)
             print(f"RSS fallback produced {len(events)} events.")
 
-    if not events:
-        # Nothing from any provider: keep previous events if we have them.
-        # Stale data is better than a failed run: exit 0 so the schedule
-        # stays green and the next hourly run retries. Freshness is still
-        # honest — meta.events_last_updated is only bumped on real updates.
-        if previous.get("events"):
-            print("All providers yielded nothing; keeping previous events file unchanged.")
-            return 0
-        print("No previous events exist; nothing to fall back to.")
-        return 1
-
     provider = "RSS_FALLBACK" if used_fallback else "GDELT_DOC_API"
     status = "ok"
     if used_fallback:
@@ -503,9 +500,24 @@ def main() -> int:
     elif failed_streams:
         status = "partial"
 
+    has_new = bool(events)
+    if not has_new:
+        status = "error" if failed_streams else "empty"
+        events = previous.get('events') or []
+
+    run = {
+        'id':'conflict-discovery-' + now, 'adapter':'gdelt-doc-rss', 'domain':'conflicts',
+        'started_at':now, 'completed_at':_utc_now_iso(),
+        'status':'error' if status=='error' else 'partial' if status in ('partial','ok-fallback') else 'ok',
+        'fetched_count':len(all_articles), 'accepted_count':len(events) if has_new else 0,
+        'error':'; '.join(r.get('error','') for r in failed_streams) or None,
+        'note':'Discovery articles only; no factual assertions auto-published.',
+    }
+
     out = {
         "metadata": {
-            "generated_at_utc": now,
+            "generated_at_utc": now if has_new else previous.get('metadata',{}).get('generated_at_utc'),
+            "attempted_at": now,
             "provider": provider,
             "status": status,
             "timespan": TIMESPAN,
@@ -517,6 +529,8 @@ def main() -> int:
                 if r.get("status") == "ok"
             ),
             "previous_event_count": len(previous.get("events") or []),
+            "retained_previous": not has_new,
+            "date_semantics": "GDELT seendate is discovery time; publisher time is null unless supplied by publisher RSS.",
             "tagging": {
                 "method": "string_match",
                 "uses": ["node.name", "node.aliases", "node.geoName"],
@@ -532,8 +546,12 @@ def main() -> int:
         print(f"Dry run: would write {len(events)} events.")
         return 0
 
-    OUT_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    _write_meta_events_timestamp(now)
+    from discovery_store import normalize_article
+    archive_articles(DATA_DIR / 'discovery',
+                     [normalize_article(e,provider=provider,retrieved_at=now) for e in events] if has_new else [], run)
+    atomic_json(OUT_PATH, out)
+    if has_new:
+        _write_meta_events_timestamp(now)
     print(f"Wrote {len(events)} events to {OUT_PATH} (status={status})")
     return 0
 

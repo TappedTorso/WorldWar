@@ -1,0 +1,31 @@
+# Local/self-hosted service path. Supply secrets in the process environment.
+# No credential value is committed. Choose a URL-safe PostgreSQL password.
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: worldwar
+      POSTGRES_DB: worldwar
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in your environment}
+    volumes:
+      - worldwar-postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U worldwar -d worldwar"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+  api:
+    build: .
+    environment:
+      WORLDWAR_DATABASE_URL: postgresql+psycopg://worldwar:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in your environment}@db:5432/worldwar
+      WORLDWAR_EDITOR_TOKEN: ${WORLDWAR_EDITOR_TOKEN:?Set WORLDWAR_EDITOR_TOKEN in your environment}
+      WORLDWAR_CORS_ORIGINS: ${WORLDWAR_CORS_ORIGINS:-http://localhost:5173,http://127.0.0.1:5173}
+    ports:
+      - "127.0.0.1:8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+volumes:
+  worldwar-postgres:

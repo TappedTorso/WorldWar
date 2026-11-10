@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "id": "de-unofficial",
+      "title": "2026 General Election — Unofficial Results",
+      "url": "https://elections.delaware.gov/results/enr/GE2026.html",
+      "publisher": "Delaware Department of Elections",
+      "source_type": "official",
+      "published_at": null,
+      "published_date": null,
+      "publication_precision": "unknown",
+      "retrieved_at": null,
+      "retrieval_date": "2026-11-10",
+      "retrieval_precision": "day",
+      "rights": "link_and_factual_paraphrase_only",
+      "note": "Results reporting status; static page exposes 0 total and no race rows, not a validated tally",
+      "source_updated_at": null,
+      "source_updated_at_raw": null,
+      "language": "en",
+      "content_sha256": null,
+      "source_tier": "primary_election_authority"
+    },
+    {
+      "id": "de-socrata-2026",
+      "title": "2026 General Election official data table",
+      "publisher": "Delaware Department of Elections / Delaware Open Data",
+      "url": "https://data.delaware.gov/resource/yg7x-kgjc.json?election_name=2026%20General%20Election&%24limit=2000",
+      "source_type": "official",
+      "published_at": null,
+      "published_date": null,
+      "publication_precision": "unknown",
+      "retrieved_at": "2026-11-10T08:02:53.271040Z",
+      "retrieval_date": "2026-11-10",
+      "retrieval_precision": "timestamp",
+      "rights": "Original factual summary and link only; source material copyright not transferred",
+      "note": "Official results page links this Socrata dataset via CSV. Snapshot has 124 rows; federal rows at statewide office level. data_as_of has no explicit timezone. Page labels results unofficial.",
+      "language": "en",
+      "content_sha256": "97fa2bd7dcf6f83daa2aacb003e0a82f125abbf74618043eef9842b2fe2e8894",
+      "reviewed_at": null
+    }
+  ],
+  "contests": [
+    {
+      "id": "e-de-senate-2026",
+      "title": "Delaware U.S. Senate",
+      "summary": "Official-source unofficial tally snapshot. This automatic observation is not a certification or a winner call.",
+      "source_ids": [
+        "de-socrata-2026",
+        "de-unofficial"
+      ],
+      "evidence_status": "unreviewed",
+      "publication_status": "published",
+      "revision": 1,
+      "reviewed_at": null,
+      "updated_at": "2026-11-10T08:02:53.271040Z",
+      "office": "senate",
+      "cycle": 2026,
+      "state_code": "DE",
+      "jurisdiction": "Delaware",
+      "district": null,
+      "geography_version": "state",
+      "boundary_status": "statewide_jurisdiction",
+      "status": "reported_unofficial",
+      "result_as_of": null,
+      "election_date": "2026-11-03",
+      "candidates": [
+        {
+          "name": "CHRIS COONS",
+          "party": "Democratic Party",
+          "votes": 240347,
+          "percentage": 63.565
+        },
+        {
+          "name": "MICHAEL \"DR. MIKE\" KATZ",
+          "party": "Republican Party",
+          "votes": 137764,
+          "percentage": 36.434
+        }
+      ],
+      "winner": null,
+      "winner_basis": null,
+      "total_votes": 378111,
+      "reporting_note": "Source update 2026-11-04T03:03:18.000 (timezone unstated). Automatically validated official feed; not manually re-reviewed. Certification not established.",
+      "longitude": null,
+      "latitude": null,
+      "result_as_of_raw": "2026-11-04T03:03:18.000",
+      "review_method": "validated_official_adapter"
+    },
+    {
+      "id": "e-de-house-00-2026",
+      "title": "Delaware U.S. House at large",
+      "summary": "Official-source unofficial tally snapshot. This automatic observation is not a certification or a winner call.",
+      "source_ids": [
+        "de-socrata-2026",
+        "de-unofficial"
+      ],
+      "evidence_status": "unreviewed",
+      "publication_status": "published",
+      "revision": 1,
+      "reviewed_at": null,
+      "updated_at": "2026-11-10T08:02:53.271040Z",
+      "office": "house",
+      "cycle": 2026,
+      "state_code": "DE",
+      "jurisdiction": "Delaware",
+      "district": "00",
+      "geography_version": "census_tiger_2026_cd120",
+      "boundary_status": "verified_2026_census_plan",
+      "status": "reported_unofficial",
+      "result_as_of": null,
+      "election_date": "2026-11-03",
+      "election_stage": "general",
+      "candidates": [
+        {
+          "name": "SARAH MCBRIDE",
+          "party": "Democratic Party",
+          "votes": 243467,
+          "percentage": 64.335
+        },
+        {
+          "name": "JOSEPH \"DR. JOE\" ARMINIO",
+          "party": "Republican Party",
+          "votes": 134966,
+          "percentage": 35.664
+        }
+      ],
+      "winner": null,
+      "winner_basis": null,
+      "total_votes": 378433,
+      "reporting_note": "Source update 2026-11-04T03:03:18.000 (timezone unstated). Automatically validated official feed; not manually re-reviewed. Certification not established.",
+      "longitude": null,
+      "latitude": null,
+      "result_as_of_raw": "2026-11-04T03:03:18.000",
+      "review_method": "validated_official_adapter"
+    }
+  ]
+}
