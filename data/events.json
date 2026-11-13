@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-12T20:00:03Z",
-    "attempted_at": "2026-11-12T20:00:03Z",
+    "generated_at_utc": "2026-11-13T06:51:57Z",
+    "attempted_at": "2026-11-13T06:51:57Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,16 +9,16 @@
     "streams": [
       {
         "name": "core",
-        "status": "ok",
-        "fetched": 0,
-        "query_repaired": true,
-        "possibly_truncated": false
-      },
-      {
-        "name": "tripwire",
         "status": "error",
         "error": "rate_limited status=429",
         "fetched": 0
+      },
+      {
+        "name": "tripwire",
+        "status": "ok",
+        "fetched": 0,
+        "query_repaired": false,
+        "possibly_truncated": false
       },
       {
         "name": "rss_fallback",
@@ -28,8 +28,8 @@
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 31,
-            "kept": 9
+            "items": 33,
+            "kept": 10
           },
           {
             "outlet": "Al Jazeera",
@@ -41,13 +41,13 @@
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 4
+            "kept": 3
           }
         ]
       }
     ],
     "fetched_articles": 18,
-    "previous_event_count": 120,
+    "previous_event_count": 17,
     "retained_previous": false,
     "date_semantics": "GDELT seendate is discovery time; publisher time is null unless supplied by publisher RSS.",
     "tagging": {
@@ -63,10 +63,10 @@
   },
   "events": [
     {
-      "id": "rss_0d2b04806aa0fff3",
-      "headline": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
-      "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-12T13:02:46Z",
+      "id": "rss_c40aed41fe9a9db2",
+      "headline": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
+      "url": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_campaign=rss&at_medium=RSS",
+      "published_at": "2026-11-13T02:01:35Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -74,8 +74,22 @@
       "evidence_status": "unreviewed",
       "source": "BBC News",
       "tags": [
+        "RUSSIA",
         "UKRAINE"
       ]
+    },
+    {
+      "id": "rss_ed2e7d7e729462c5",
+      "headline": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+      "url": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_campaign=rss&at_medium=RSS",
+      "published_at": "2026-11-12T20:09:16Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "BBC News",
+      "tags": []
     },
     {
       "id": "rss_dafc67eff3e0f4ee",
@@ -130,10 +144,10 @@
       "tags": []
     },
     {
-      "id": "rss_8dbb6c51a9e11229",
-      "headline": "African writing award probe finds 'no evidence' winning story was AI generated",
-      "url": "https://www.bbc.co.uk/news/articles/cmglr260z7eko?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-11T20:00:54Z",
+      "id": "rss_5c30c2472ddd240c",
+      "headline": "Military cemetery decorum: The tradition behind Hegseth's Veterans Day reprimand",
+      "url": "https://www.bbc.co.uk/news/videos/cv5y1309dg3go?at_campaign=rss&at_medium=RSS",
+      "published_at": "2026-11-12T23:42:52Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -143,17 +157,19 @@
       "tags": []
     },
     {
-      "id": "rss_3c37fe2eb1415b4e",
-      "headline": "Egyptian journalist's retrial adjourned as UN warns of 'assaults on press freedom'",
-      "url": "https://www.bbc.co.uk/news/articles/cmkg5jr59835o?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-11T13:25:47Z",
+      "id": "rss_0d2b04806aa0fff3",
+      "headline": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+      "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_campaign=rss&at_medium=RSS",
+      "published_at": "2026-11-12T13:02:46Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
       "record_kind": "discovery_article",
       "evidence_status": "unreviewed",
       "source": "BBC News",
-      "tags": []
+      "tags": [
+        "UKRAINE"
+      ]
     },
     {
       "id": "rss_f48d328ce0215e2b",
@@ -171,10 +187,25 @@
       ]
     },
     {
-      "id": "rss_a88acb77a1691f7e",
-      "headline": "UK mosque rebukes comission’s ‘warning’ following Palestine comments",
-      "url": "https://www.aljazeera.com/news/2026/11/12/uk-mosque-rebukes-comissions-warning-following-palestine-comments?traffic_source=rss",
-      "published_at": "2026-11-12T18:58:49Z",
+      "id": "rss_cd8fbadd609f59f8",
+      "headline": "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
+      "url": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_campaign=rss&at_medium=RSS",
+      "published_at": "2026-11-13T00:20:24Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "BBC News",
+      "tags": [
+        "ETHIOPIA"
+      ]
+    },
+    {
+      "id": "rss_7e84a189a2626fb8",
+      "headline": "Burkina Faso’s rival armed groups turn on each other as state loses ground",
+      "url": "https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground?traffic_source=rss",
+      "published_at": "2026-11-13T05:23:31Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -182,14 +213,29 @@
       "evidence_status": "unreviewed",
       "source": "Al Jazeera",
       "tags": [
-        "PALESTINE"
+        "BURKINA_FASO"
       ]
     },
     {
-      "id": "rss_4717fd30c3c96790",
-      "headline": "‘Her hands are as cold as ice’: Gaza families struggle to keep warm",
-      "url": "https://www.aljazeera.com/features/2026/11/12/her-hands-are-as-cold-as-ice-gaza-families-struggle-to-keep-warm?traffic_source=rss",
-      "published_at": "2026-11-12T17:18:13Z",
+      "id": "rss_9b4e43af3f13893c",
+      "headline": "UNRWA funding cuts deepen hardship for Palestinian refugees in Lebanon",
+      "url": "https://www.aljazeera.com/features/2026/11/13/unrwa-funding-cuts-deepen-hardship-for-palestinian-refugees-in-lebanon?traffic_source=rss",
+      "published_at": "2026-11-13T04:51:56Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": [
+        "LEBANON"
+      ]
+    },
+    {
+      "id": "rss_d4a4eb02dd601254",
+      "headline": "Finland detects strike on Russian warship as Zelenskyy meets US envoys",
+      "url": "https://www.aljazeera.com/news/2026/11/13/finland-detects-strike-on-russian-warship-as-zelenskyy-meets-us-envoys?traffic_source=rss",
+      "published_at": "2026-11-13T02:35:21Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -199,23 +245,10 @@
       "tags": []
     },
     {
-      "id": "rss_6d7a7fcb47330dea",
-      "headline": "Jerusalem Daily: Gaza’s Nasser Hospital hit by Israeli air strike",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
-      "published_at": "2026-11-12T16:55:10Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_9c5241c171e55c3e",
-      "headline": "‘No war, no peace’: Can Iran break the deadlock with the US?",
-      "url": "https://www.aljazeera.com/news/2026/11/12/no-war-no-peace-can-iran-break-the-deadlock-with-the-us?traffic_source=rss",
-      "published_at": "2026-11-12T14:27:54Z",
+      "id": "rss_5d21b1e6d150b5af",
+      "headline": "Iran war live: Trump says Gulf allies urged pause in Iran strikes",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks?traffic_source=rss",
+      "published_at": "2026-11-13T00:00:26Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -223,14 +256,15 @@
       "evidence_status": "unreviewed",
       "source": "Al Jazeera",
       "tags": [
-        "IRAN"
+        "IRAN",
+        "CHINA"
       ]
     },
     {
-      "id": "rss_4420fcaedbd4220e",
-      "headline": "‘Horrific crime’: Gaza doctor killed as Israel expands war on healthcare",
-      "url": "https://www.aljazeera.com/news/2026/11/12/horrific-crime-gaza-doctor-killed-as-israel-expands-war-on-healthcare?traffic_source=rss",
-      "published_at": "2026-11-12T14:23:01Z",
+      "id": "rss_d2e11db3e954b0f8",
+      "headline": "Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
+      "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss",
+      "published_at": "2026-11-12T23:52:38Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -238,27 +272,31 @@
       "evidence_status": "unreviewed",
       "source": "Al Jazeera",
       "tags": [
-        "ISRAEL"
+        "YEMEN",
+        "SAUDI_ARABIA"
       ]
     },
     {
-      "id": "rss_644709ba36cbea00",
-      "headline": "US Defence Secretary Pete Hegseth reprimanded at war memorial",
-      "url": "https://www.france24.com/en/us-defense-secretary-pete-hegseth-reprimanded-at-war-memorial",
-      "published_at": "2026-11-12T15:51:49Z",
+      "id": "rss_4fdcef949d9c783c",
+      "headline": "Across Africa: Tunisians drawn into Russia's war with Ukraine",
+      "url": "https://www.france24.com/en/across-africa-tunisians-drawn-into-russia-s-war-with-ukraine",
+      "published_at": "2026-11-12T21:26:17Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
       "record_kind": "discovery_article",
       "evidence_status": "unreviewed",
       "source": "France 24",
-      "tags": []
+      "tags": [
+        "RUSSIA",
+        "UKRAINE"
+      ]
     },
     {
-      "id": "rss_f7cb5f139a2506c0",
-      "headline": "Armed robbers flee Paris De Beers store on motorcycles after jewellery heist",
-      "url": "https://www.france24.com/en/france/20261112-armed-robbers-flee-paris-de-beers-store-on-motorcycles-after-jewellery-heist",
-      "published_at": "2026-11-12T14:42:43Z",
+      "id": "rss_a3949491986e3bd8",
+      "headline": "Zelensky warns Europe over US-Russia talks on broader security arrangements",
+      "url": "https://www.france24.com/en/zelensky-warns-europe-over-us-russia-talks-on-broader-security-arrangements",
+      "published_at": "2026-11-12T19:53:15Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -266,27 +304,14 @@
       "evidence_status": "unreviewed",
       "source": "France 24",
       "tags": [
-        "FRANCE"
+        "RUSSIA"
       ]
     },
     {
-      "id": "rss_27620320d03b1846",
-      "headline": "ICRC 'currently classifying the highest number of armed conflicts since the Second World War",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20261112-icrc-we-are-currently-classifying-the-highest-number-of-armed-conflicts-since-the-second-world-war",
-      "published_at": "2026-11-12T14:33:19Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_72c602c9d8d9ccef",
-      "headline": "ICRC 'currently classifying the highest number of armed conflicts since the Second World War'",
-      "url": "https://www.france24.com/en/video/20261112-icrc-we-are-currently-classifying-the-highest-number-of-armed-conflicts-since-the-second-world-war",
-      "published_at": "2026-11-12T14:23:33Z",
+      "id": "rss_87608b905fbefdd2",
+      "headline": "White House reportedly discussing Howard Lutnick's future as Commerce secretary",
+      "url": "https://www.france24.com/en/white-house-reportedly-discussing-howard-lutnick-s-future-as-commerce-secretary",
+      "published_at": "2026-11-12T19:22:28Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
