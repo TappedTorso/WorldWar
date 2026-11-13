@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "requested_start": "2026-11-11T16:08:31+00:00",
-  "requested_end_exclusive": "2026-11-12T16:08:31+00:00",
+  "requested_start": "2026-11-12T15:36:58+00:00",
+  "requested_end_exclusive": "2026-11-13T15:36:58+00:00",
   "note": "Collection-window ledger, not geographic observation coverage. Failed and capped windows require follow-up.",
   "windows": [
     {
@@ -77,6 +77,13 @@
       "id": "2026-11-11T16:08:31+00:00/2026-11-12T16:08:31+00:00",
       "start": "2026-11-11T16:08:31+00:00",
       "end_exclusive": "2026-11-12T16:08:31+00:00",
+      "status": "error",
+      "note": "provider_rate_limited_429; no zero-activity inference"
+    },
+    {
+      "id": "2026-11-12T15:36:58+00:00/2026-11-13T15:36:58+00:00",
+      "start": "2026-11-12T15:36:58+00:00",
+      "end_exclusive": "2026-11-13T15:36:58+00:00",
       "status": "error",
       "note": "provider_rate_limited_429; no zero-activity inference"
     }
