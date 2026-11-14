@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-14T06:33:51Z",
-    "attempted_at": "2026-11-14T06:33:51Z",
+    "generated_at_utc": "2026-11-14T18:11:44Z",
+    "attempted_at": "2026-11-14T18:11:44Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,9 +9,10 @@
     "streams": [
       {
         "name": "core",
-        "status": "error",
-        "error": "url_error reason=_ssl.c:1001: The handshake operation timed out",
-        "fetched": 0
+        "status": "ok",
+        "fetched": 0,
+        "query_repaired": true,
+        "possibly_truncated": false
       },
       {
         "name": "tripwire",
@@ -23,31 +24,31 @@
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 10,
+        "fetched": 6,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 25,
-            "kept": 4
+            "items": 23,
+            "kept": 2
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 2
+            "kept": 3
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 4
+            "kept": 1
           }
         ]
       }
     ],
-    "fetched_articles": 10,
-    "previous_event_count": 120,
+    "fetched_articles": 6,
+    "previous_event_count": 10,
     "retained_previous": false,
     "date_semantics": "GDELT seendate is discovery time; publisher time is null unless supplied by publisher RSS.",
     "tagging": {
@@ -62,34 +63,6 @@
     }
   },
   "events": [
-    {
-      "id": "rss_96144667b8accc17",
-      "headline": "Aide to fugitive Ukrainian ex-PM wounded in latest Moscow car bombing",
-      "url": "https://www.bbc.co.uk/news/articles/c5gm3gnwl42eo?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-13T13:11:23Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "BBC News",
-      "tags": [
-        "CENTRAL_AFRICAN_REPUBLIC"
-      ]
-    },
-    {
-      "id": "rss_4e742d5fbeda49b4",
-      "headline": "Rosalía scoops historic third best album award at Latin Grammys",
-      "url": "https://www.bbc.co.uk/news/articles/cr3eg97eqde1o?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-13T11:38:54Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "BBC News",
-      "tags": []
-    },
     {
       "id": "rss_5c30c2472ddd240c",
       "headline": "Military cemetery decorum: The tradition behind Hegseth's Veterans Day reprimand",
@@ -119,88 +92,56 @@
       ]
     },
     {
-      "id": "rss_e4ebfb404985a366",
-      "headline": "ICC stops probe into alleged crimes by US troops in Afghanistan",
-      "url": "https://www.aljazeera.com/news/2026/11/14/icc-stops-probe-into-alleged-crimes-by-us-troops-in-afghanistan?traffic_source=rss",
-      "published_at": "2026-11-14T04:03:49Z",
+      "id": "rss_76a9ec4bdebaa1d9",
+      "headline": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
+      "published_at": "2026-11-14T16:13:43Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
       "record_kind": "discovery_article",
       "evidence_status": "unreviewed",
       "source": "Al Jazeera",
-      "tags": [
-        "AFGHANISTAN"
-      ]
-    },
-    {
-      "id": "rss_a460993f867d14dc",
-      "headline": "Iran war live: Tehran says tanker hit naval mine, caught fire",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?traffic_source=rss",
-      "published_at": "2026-11-14T00:00:25Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "Al Jazeera",
-      "tags": [
-        "IRAN",
-        "YEMEN",
-        "QATAR"
-      ]
-    },
-    {
-      "id": "rss_b2299e543a14bbe0",
-      "headline": "What we know about China's military exercises around Taiwan",
-      "url": "https://www.france24.com/en/asia-pacific/20261113-chinese-army-military-exercises-taiwan",
-      "published_at": "2026-11-13T18:19:19Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "France 24",
-      "tags": [
-        "CHINA",
-        "TAIWAN"
-      ]
-    },
-    {
-      "id": "rss_c251a279d4a3559e",
-      "headline": "Myanmar: Junta carries out double-tap airstrikes targeting civilians",
-      "url": "https://www.france24.com/en/tv-shows/the-observers/20261113-myanmar-junta-airstrikes-civilians",
-      "published_at": "2026-11-13T16:41:45Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "France 24",
       "tags": [
         "MYANMAR"
       ]
     },
     {
-      "id": "rss_21bdae75bfbf0d46",
-      "headline": "UN refugee chief Barham Salih slams 'shameful' war in Sudan, urges 'political solution'",
-      "url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261113-un-refugee-chief-barham-salih-slams-shameful-war-in-sudan-urges-political-solution",
-      "published_at": "2026-11-13T15:56:30Z",
+      "id": "rss_855ba49d7369d348",
+      "headline": "Russian casualties ‘reach 450,000’: What that means for the Ukraine war",
+      "url": "https://www.aljazeera.com/news/2026/11/14/russian-casualties-reach-450000-what-that-means-for-the-ukraine-war?traffic_source=rss",
+      "published_at": "2026-11-14T12:57:36Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
       "record_kind": "discovery_article",
       "evidence_status": "unreviewed",
-      "source": "France 24",
+      "source": "Al Jazeera",
       "tags": [
-        "SUDAN"
+        "UKRAINE"
       ]
     },
     {
-      "id": "rss_e714f1ca4c543522",
-      "headline": "Russia strikes targets across Ukraine as Kyiv launches nearly 1,200 drones",
-      "url": "https://www.france24.com/en/video/20261113-russian-airstrikes-continue-ukraine-launches-nearly-1-200-drones",
-      "published_at": "2026-11-13T15:46:36Z",
+      "id": "rss_56cd3b0454c303d7",
+      "headline": "Ukraine, Russia race to build military satellite networks as war rages on",
+      "url": "https://www.aljazeera.com/news/2026/11/14/ukraine-russia-race-to-build-military-satellite-networks-as-war-rages-on?traffic_source=rss",
+      "published_at": "2026-11-14T11:00:39Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": [
+        "RUSSIA",
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "rss_064f73616b756835",
+      "headline": "Inside Ethiopia's war: Rare access to a hospital treating victims of renewed fighting",
+      "url": "https://www.france24.com/en/inside-ethiopia-s-war-rare-access-to-a-hospital-treating-victims-of-renewed-fighting",
+      "published_at": "2026-11-14T12:23:32Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -208,8 +149,7 @@
       "evidence_status": "unreviewed",
       "source": "France 24",
       "tags": [
-        "RUSSIA",
-        "UKRAINE"
+        "ETHIOPIA"
       ]
     }
   ]
