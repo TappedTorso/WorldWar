@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-15T06:41:10Z",
-    "attempted_at": "2026-11-15T06:41:10Z",
+    "generated_at_utc": "2026-11-15T18:54:52Z",
+    "attempted_at": "2026-11-15T18:54:52Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -16,19 +16,20 @@
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
-        "fetched": 0
+        "status": "ok",
+        "fetched": 0,
+        "query_repaired": false,
+        "possibly_truncated": false
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 7,
+        "fetched": 11,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 23,
+            "items": 26,
             "kept": 2
           },
           {
@@ -41,13 +42,13 @@
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 2
+            "kept": 6
           }
         ]
       }
     ],
-    "fetched_articles": 7,
-    "previous_event_count": 48,
+    "fetched_articles": 11,
+    "previous_event_count": 7,
     "retained_previous": false,
     "date_semantics": "GDELT seendate is discovery time; publisher time is null unless supplied by publisher RSS.",
     "tagging": {
@@ -63,83 +64,97 @@
   },
   "events": [
     {
-      "id": "rss_5c30c2472ddd240c",
-      "headline": "Military cemetery decorum: The tradition behind Hegseth's Veterans Day reprimand",
-      "url": "https://www.bbc.co.uk/news/videos/cv5y1309dg3go?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-12T23:42:52Z",
+      "id": "rss_17c2261a0b4ada92",
+      "headline": "Iran targets US military base in Bahrain with drone attack",
+      "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_campaign=rss&at_medium=RSS",
+      "published_at": "2026-11-15T13:42:58Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
       "record_kind": "discovery_article",
       "evidence_status": "unreviewed",
       "source": "BBC News",
-      "tags": []
-    },
-    {
-      "id": "rss_0d2b04806aa0fff3",
-      "headline": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
-      "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-12T13:02:46Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "BBC News",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_37af75b554724bf7",
-      "headline": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
-      "url": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh?traffic_source=rss",
-      "published_at": "2026-11-15T02:59:06Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "Al Jazeera",
-      "tags": [
-        "SAUDI_ARABIA"
-      ]
-    },
-    {
-      "id": "rss_02c39fc80528b84e",
-      "headline": "Israeli air strike kills senior Hamas commander in Gaza",
-      "url": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza?traffic_source=rss",
-      "published_at": "2026-11-15T01:00:42Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_5fb9e15e525b7e13",
-      "headline": "Iran war live: Saudi-led coalition strikes down 3 drones",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/15/iran-war-live-israel-vows-gaza-offensive-policy-despite-caretaker-status?traffic_source=rss",
-      "published_at": "2026-11-15T00:00:08Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "Al Jazeera",
       "tags": [
         "IRAN",
-        "ISRAEL",
-        "SAUDI_ARABIA"
+        "BAHRAIN"
       ]
     },
     {
-      "id": "rss_acb70b6e3dfa33e4",
-      "headline": "Macron says limiting Ukraine aid would pave way to 'another war'",
-      "url": "https://www.france24.com/en/europe/20261114-macron-says-limiting-ukraine-aid-would-pave-way-to-another-war",
-      "published_at": "2026-11-14T20:15:43Z",
+      "id": "rss_ddaf8088c135ac50",
+      "headline": "Fifth Canadian soldier dies from injuries caused by large fire at military base",
+      "url": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_campaign=rss&at_medium=RSS",
+      "published_at": "2026-11-15T09:26:37Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "BBC News",
+      "tags": []
+    },
+    {
+      "id": "rss_2a2cc2900ebf36f4",
+      "headline": "Estonia to close border crossings with Russia after attack on drone maker",
+      "url": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker?traffic_source=rss",
+      "published_at": "2026-11-15T18:07:02Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "rss_e6c7e401883d7698",
+      "headline": "Will Iraq’s oil smuggling crackdown disarm militias without a conflict?",
+      "url": "https://www.aljazeera.com/news/2026/11/15/will-iraqs-oil-smuggllng-crackdown-disarm-militias-without-a-conflict?traffic_source=rss",
+      "published_at": "2026-11-15T15:21:21Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAQ"
+      ]
+    },
+    {
+      "id": "rss_9bd6c4b431f5e773",
+      "headline": "Flames engulf Syrian refugee camp in eastern Lebanon",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/flames-engulf-syrian-refugee-camp-in-eastern-lebanon?traffic_source=rss",
+      "published_at": "2026-11-15T14:55:40Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": [
+        "LEBANON"
+      ]
+    },
+    {
+      "id": "rss_a196be0119f88bb6",
+      "headline": "Estonia to close Russian border crossings after 'sabotage' attempt at drone factory",
+      "url": "https://www.france24.com/en/europe/20261115-estonia-to-close-russian-border-crossings-after-sabotage-attempt-at-drone-factory",
+      "published_at": "2026-11-15T17:05:14Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "France 24",
+      "tags": []
+    },
+    {
+      "id": "rss_1502c73f362fb853",
+      "headline": "Israel kills senior member of Hamas's military wing in Gaza strike",
+      "url": "https://www.france24.com/en/middle-east/20261115-israel-kills-senior-member-of-hamas-s-military-wing-in-gaza-strike",
+      "published_at": "2026-11-15T16:41:48Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -147,14 +162,14 @@
       "evidence_status": "unreviewed",
       "source": "France 24",
       "tags": [
-        "UKRAINE"
+        "ISRAEL"
       ]
     },
     {
-      "id": "rss_064f73616b756835",
-      "headline": "Inside Ethiopia's war: Rare access to a hospital treating victims of renewed fighting",
-      "url": "https://www.france24.com/en/inside-ethiopia-s-war-rare-access-to-a-hospital-treating-victims-of-renewed-fighting",
-      "published_at": "2026-11-14T12:23:32Z",
+      "id": "rss_2832843383803810",
+      "headline": "Iran claims drone attack on US military base in Bahrain",
+      "url": "https://www.france24.com/en/iran-claims-drone-attack-on-us-military-base-in-bahrain",
+      "published_at": "2026-11-15T15:29:22Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -162,7 +177,53 @@
       "evidence_status": "unreviewed",
       "source": "France 24",
       "tags": [
-        "ETHIOPIA"
+        "IRAN",
+        "BAHRAIN"
+      ]
+    },
+    {
+      "id": "rss_3429464ec80f9343",
+      "headline": "Bahrain says air defences destroyed several Iranian drones attacking US base",
+      "url": "https://www.france24.com/en/bahrain-says-air-defences-destroyed-several-iranian-drones-attacking-us-base",
+      "published_at": "2026-11-15T13:55:32Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "France 24",
+      "tags": [
+        "BAHRAIN"
+      ]
+    },
+    {
+      "id": "rss_df15d1fb0536c6c8",
+      "headline": "Ukrainian drones strike Russia's petrochemical capital in overnight assault",
+      "url": "https://www.france24.com/en/europe/20261115-ukrainian-drones-strike-russia-s-petrochemical-capital-in-overnight-assault",
+      "published_at": "2026-11-15T13:36:53Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "France 24",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "rss_25dbc9e8bc65094c",
+      "headline": "The Philippines and Australia strengthen joint military deterrence at ASEAN summit",
+      "url": "https://www.france24.com/en/the-philippines-and-australia-strengthen-joint-military-deterrence-at-asean-summit",
+      "published_at": "2026-11-15T12:18:35Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "France 24",
+      "tags": [
+        "PHILIPPINES"
       ]
     }
   ]
