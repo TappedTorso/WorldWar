@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-16T06:39:18Z",
-    "attempted_at": "2026-11-16T06:39:18Z",
+    "generated_at_utc": "2026-11-16T22:12:20Z",
+    "attempted_at": "2026-11-16T22:12:20Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,33 +9,33 @@
     "streams": [
       {
         "name": "core",
+        "status": "ok",
+        "fetched": 0,
+        "query_repaired": true,
+        "possibly_truncated": false
+      },
+      {
+        "name": "tripwire",
         "status": "error",
         "error": "rate_limited status=429",
         "fetched": 0
       },
       {
-        "name": "tripwire",
-        "status": "ok",
-        "fetched": 0,
-        "query_repaired": false,
-        "possibly_truncated": false
-      },
-      {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 10,
+        "fetched": 7,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
             "items": 21,
-            "kept": 1
+            "kept": 3
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 5
+            "kept": 0
           },
           {
             "outlet": "France 24",
@@ -46,8 +46,8 @@
         ]
       }
     ],
-    "fetched_articles": 10,
-    "previous_event_count": 11,
+    "fetched_articles": 7,
+    "previous_event_count": 10,
     "retained_previous": false,
     "date_semantics": "GDELT seendate is discovery time; publisher time is null unless supplied by publisher RSS.",
     "tagging": {
@@ -63,10 +63,10 @@
   },
   "events": [
     {
-      "id": "rss_ade85feb428cfcc4",
-      "headline": "Prince Harry praises war veterans on surprise visit to Ukraine",
-      "url": "https://www.bbc.co.uk/news/articles/c60evn992jq8o?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-15T22:00:13Z",
+      "id": "rss_72059bc2582e3c9b",
+      "headline": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+      "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_campaign=rss&at_medium=RSS",
+      "published_at": "2026-11-16T14:58:12Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -74,85 +74,88 @@
       "evidence_status": "unreviewed",
       "source": "BBC News",
       "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "rss_38afd01a680627c4",
+      "headline": "Estonia to close Russia border crossings after attempted drone factory arson attack",
+      "url": "https://www.bbc.co.uk/news/articles/cqp83nk673reo?at_campaign=rss&at_medium=RSS",
+      "published_at": "2026-11-16T14:22:36Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "BBC News",
+      "tags": [
+        "RUSSIA"
+      ]
+    },
+    {
+      "id": "rss_15c968f799c08297",
+      "headline": "Is India rethinking its short-term military recruitment scheme?",
+      "url": "https://www.bbc.co.uk/news/articles/c8ly0yr7wv1no?at_campaign=rss&at_medium=RSS",
+      "published_at": "2026-11-16T00:41:42Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "BBC News",
+      "tags": [
+        "INDIA"
+      ]
+    },
+    {
+      "id": "rss_e883c012f34294f8",
+      "headline": "Czech mass protests: Media is the first casualty 'when you want to attack democracy'",
+      "url": "https://www.france24.com/en/czech-mass-protests-media-is-the-first-casualty-when-you-want-to-attack-democracy",
+      "published_at": "2026-11-16T18:33:00Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "France 24",
+      "tags": []
+    },
+    {
+      "id": "rss_64cd63408f7c0344",
+      "headline": "Russia's war on Ukraine: 'Americans want to have a deal whatever the cost for both Ukraine & Europe'",
+      "url": "https://www.france24.com/en/russia-s-war-on-ukraine-americans-want-to-have-a-deal-whatever-the-cost-for-both-ukraine-europe",
+      "published_at": "2026-11-16T16:22:49Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "France 24",
+      "tags": [
+        "RUSSIA",
         "UKRAINE"
       ]
     },
     {
-      "id": "rss_0206d39705cd2f94",
-      "headline": "US and rivals spar over next UN boss as race lurches towards deadline",
-      "url": "https://www.aljazeera.com/news/2026/11/16/us-and-rivals-spar-over-next-un-boss-as-race-lurches-towards-deadline?traffic_source=rss",
-      "published_at": "2026-11-16T05:57:54Z",
+      "id": "rss_1575b9736150e34a",
+      "headline": "French troops in Ukraine 'wouldn't be a surprise'",
+      "url": "https://www.france24.com/en/video/20261116-french-troops-in-ukraine-wouldn-t-be-a-surprise",
+      "published_at": "2026-11-16T15:49:56Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
       "record_kind": "discovery_article",
       "evidence_status": "unreviewed",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_a428b69557a04fc7",
-      "headline": "Iraqi armed group denies involvement in oil smuggling, calls probe a ‘lie’",
-      "url": "https://www.aljazeera.com/news/2026/11/16/iraqi-armed-group-denies-involvement-in-oil-smuggling-calls-probe-a-lie?traffic_source=rss",
-      "published_at": "2026-11-16T04:53:42Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_90c74670e565ef98",
-      "headline": "Iran war live: Third US carrier arrives, Iran warns it could strike first",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack?traffic_source=rss",
-      "published_at": "2026-11-16T00:00:00Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "Al Jazeera",
+      "source": "France 24",
       "tags": [
-        "IRAN"
+        "UKRAINE"
       ]
     },
     {
-      "id": "rss_fa08c44f5565bd2c",
-      "headline": "Yemen’s Houthis unilaterally release 600 war detainees",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/yemens-houthis-unilaterally-release-600-war-detainees?traffic_source=rss",
-      "published_at": "2026-11-15T21:19:08Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "Al Jazeera",
-      "tags": [
-        "YEMEN"
-      ]
-    },
-    {
-      "id": "rss_5b6c76598929bc99",
-      "headline": "Who can force Israel to implement Gaza ceasefire deal?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/11/15/who-can-force-israel-to-implement-gaza-ceasefire-deal?traffic_source=rss",
-      "published_at": "2026-11-15T20:37:43Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "Al Jazeera",
-      "tags": [
-        "ISRAEL"
-      ]
-    },
-    {
-      "id": "rss_a196be0119f88bb6",
-      "headline": "Estonia to close Russian border crossings after 'sabotage' attempt at drone factory",
-      "url": "https://www.france24.com/en/europe/20261115-estonia-to-close-russian-border-crossings-after-sabotage-attempt-at-drone-factory",
-      "published_at": "2026-11-15T17:05:14Z",
+      "id": "rss_e27793f904a53fb6",
+      "headline": "Verdict due in French trial over triple murder linked to Marseille drug wars",
+      "url": "https://www.france24.com/en/video/20261116-verdict-due-in-french-trial-over-triple-murder-linked-to-marseille-drug-wars",
+      "published_at": "2026-11-16T15:13:21Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -160,52 +163,6 @@
       "evidence_status": "unreviewed",
       "source": "France 24",
       "tags": []
-    },
-    {
-      "id": "rss_1502c73f362fb853",
-      "headline": "Israel kills senior member of Hamas's military wing in Gaza strike",
-      "url": "https://www.france24.com/en/middle-east/20261115-israel-kills-senior-member-of-hamas-s-military-wing-in-gaza-strike",
-      "published_at": "2026-11-15T16:41:48Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "France 24",
-      "tags": [
-        "ISRAEL"
-      ]
-    },
-    {
-      "id": "rss_2832843383803810",
-      "headline": "Iran claims drone attack on US military base in Bahrain",
-      "url": "https://www.france24.com/en/iran-claims-drone-attack-on-us-military-base-in-bahrain",
-      "published_at": "2026-11-15T15:29:22Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "France 24",
-      "tags": [
-        "IRAN",
-        "BAHRAIN"
-      ]
-    },
-    {
-      "id": "rss_3429464ec80f9343",
-      "headline": "Bahrain says air defences destroyed several Iranian drones attacking US base",
-      "url": "https://www.france24.com/en/bahrain-says-air-defences-destroyed-several-iranian-drones-attacking-us-base",
-      "published_at": "2026-11-15T13:55:32Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "France 24",
-      "tags": [
-        "BAHRAIN"
-      ]
     }
   ]
 }
