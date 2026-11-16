@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-15T18:54:52Z",
-    "attempted_at": "2026-11-15T18:54:52Z",
+    "generated_at_utc": "2026-11-16T06:39:18Z",
+    "attempted_at": "2026-11-16T06:39:18Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -9,10 +9,9 @@
     "streams": [
       {
         "name": "core",
-        "status": "ok",
-        "fetched": 0,
-        "query_repaired": true,
-        "possibly_truncated": false
+        "status": "error",
+        "error": "rate_limited status=429",
+        "fetched": 0
       },
       {
         "name": "tripwire",
@@ -24,31 +23,31 @@
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 11,
+        "fetched": 10,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 26,
-            "kept": 2
+            "items": 21,
+            "kept": 1
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 3
+            "kept": 5
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 6
+            "kept": 4
           }
         ]
       }
     ],
-    "fetched_articles": 11,
-    "previous_event_count": 7,
+    "fetched_articles": 10,
+    "previous_event_count": 11,
     "retained_previous": false,
     "date_semantics": "GDELT seendate is discovery time; publisher time is null unless supplied by publisher RSS.",
     "tagging": {
@@ -64,10 +63,10 @@
   },
   "events": [
     {
-      "id": "rss_17c2261a0b4ada92",
-      "headline": "Iran targets US military base in Bahrain with drone attack",
-      "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-15T13:42:58Z",
+      "id": "rss_ade85feb428cfcc4",
+      "headline": "Prince Harry praises war veterans on surprise visit to Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/c60evn992jq8o?at_campaign=rss&at_medium=RSS",
+      "published_at": "2026-11-15T22:00:13Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -75,28 +74,40 @@
       "evidence_status": "unreviewed",
       "source": "BBC News",
       "tags": [
-        "IRAN",
-        "BAHRAIN"
+        "UKRAINE"
       ]
     },
     {
-      "id": "rss_ddaf8088c135ac50",
-      "headline": "Fifth Canadian soldier dies from injuries caused by large fire at military base",
-      "url": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-15T09:26:37Z",
+      "id": "rss_0206d39705cd2f94",
+      "headline": "US and rivals spar over next UN boss as race lurches towards deadline",
+      "url": "https://www.aljazeera.com/news/2026/11/16/us-and-rivals-spar-over-next-un-boss-as-race-lurches-towards-deadline?traffic_source=rss",
+      "published_at": "2026-11-16T05:57:54Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
       "record_kind": "discovery_article",
       "evidence_status": "unreviewed",
-      "source": "BBC News",
+      "source": "Al Jazeera",
       "tags": []
     },
     {
-      "id": "rss_2a2cc2900ebf36f4",
-      "headline": "Estonia to close border crossings with Russia after attack on drone maker",
-      "url": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker?traffic_source=rss",
-      "published_at": "2026-11-15T18:07:02Z",
+      "id": "rss_a428b69557a04fc7",
+      "headline": "Iraqi armed group denies involvement in oil smuggling, calls probe a ‘lie’",
+      "url": "https://www.aljazeera.com/news/2026/11/16/iraqi-armed-group-denies-involvement-in-oil-smuggling-calls-probe-a-lie?traffic_source=rss",
+      "published_at": "2026-11-16T04:53:42Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_90c74670e565ef98",
+      "headline": "Iran war live: Third US carrier arrives, Iran warns it could strike first",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack?traffic_source=rss",
+      "published_at": "2026-11-16T00:00:00Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -104,14 +115,14 @@
       "evidence_status": "unreviewed",
       "source": "Al Jazeera",
       "tags": [
-        "RUSSIA"
+        "IRAN"
       ]
     },
     {
-      "id": "rss_e6c7e401883d7698",
-      "headline": "Will Iraq’s oil smuggling crackdown disarm militias without a conflict?",
-      "url": "https://www.aljazeera.com/news/2026/11/15/will-iraqs-oil-smuggllng-crackdown-disarm-militias-without-a-conflict?traffic_source=rss",
-      "published_at": "2026-11-15T15:21:21Z",
+      "id": "rss_fa08c44f5565bd2c",
+      "headline": "Yemen’s Houthis unilaterally release 600 war detainees",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/yemens-houthis-unilaterally-release-600-war-detainees?traffic_source=rss",
+      "published_at": "2026-11-15T21:19:08Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -119,14 +130,14 @@
       "evidence_status": "unreviewed",
       "source": "Al Jazeera",
       "tags": [
-        "IRAQ"
+        "YEMEN"
       ]
     },
     {
-      "id": "rss_9bd6c4b431f5e773",
-      "headline": "Flames engulf Syrian refugee camp in eastern Lebanon",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/flames-engulf-syrian-refugee-camp-in-eastern-lebanon?traffic_source=rss",
-      "published_at": "2026-11-15T14:55:40Z",
+      "id": "rss_5b6c76598929bc99",
+      "headline": "Who can force Israel to implement Gaza ceasefire deal?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/11/15/who-can-force-israel-to-implement-gaza-ceasefire-deal?traffic_source=rss",
+      "published_at": "2026-11-15T20:37:43Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -134,7 +145,7 @@
       "evidence_status": "unreviewed",
       "source": "Al Jazeera",
       "tags": [
-        "LEBANON"
+        "ISRAEL"
       ]
     },
     {
@@ -194,36 +205,6 @@
       "source": "France 24",
       "tags": [
         "BAHRAIN"
-      ]
-    },
-    {
-      "id": "rss_df15d1fb0536c6c8",
-      "headline": "Ukrainian drones strike Russia's petrochemical capital in overnight assault",
-      "url": "https://www.france24.com/en/europe/20261115-ukrainian-drones-strike-russia-s-petrochemical-capital-in-overnight-assault",
-      "published_at": "2026-11-15T13:36:53Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "France 24",
-      "tags": [
-        "RUSSIA"
-      ]
-    },
-    {
-      "id": "rss_25dbc9e8bc65094c",
-      "headline": "The Philippines and Australia strengthen joint military deterrence at ASEAN summit",
-      "url": "https://www.france24.com/en/the-philippines-and-australia-strengthen-joint-military-deterrence-at-asean-summit",
-      "published_at": "2026-11-15T12:18:35Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "France 24",
-      "tags": [
-        "PHILIPPINES"
       ]
     }
   ]
