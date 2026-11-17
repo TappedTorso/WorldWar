@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-16T22:12:20Z",
-    "attempted_at": "2026-11-16T22:12:20Z",
+    "generated_at_utc": "2026-11-17T08:00:14Z",
+    "attempted_at": "2026-11-17T08:00:14Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -23,31 +23,31 @@
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 7,
+        "fetched": 9,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
             "items": 21,
-            "kept": 3
+            "kept": 0
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 0
+            "kept": 7
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 4
+            "kept": 2
           }
         ]
       }
     ],
-    "fetched_articles": 7,
-    "previous_event_count": 10,
+    "fetched_articles": 9,
+    "previous_event_count": 7,
     "retained_previous": false,
     "date_semantics": "GDELT seendate is discovery time; publisher time is null unless supplied by publisher RSS.",
     "tagging": {
@@ -63,48 +63,125 @@
   },
   "events": [
     {
-      "id": "rss_72059bc2582e3c9b",
-      "headline": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
-      "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-16T14:58:12Z",
+      "id": "rss_793b39c42854f992",
+      "headline": "Bahrain thwarts drone attack, Iran claims targeting US military radar",
+      "url": "https://www.aljazeera.com/news/2026/11/17/bahrain-thwarts-drone-attack-iran-claims-targeting-us-military-radar?traffic_source=rss",
+      "published_at": "2026-11-17T07:35:54Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
       "record_kind": "discovery_article",
       "evidence_status": "unreviewed",
-      "source": "BBC News",
+      "source": "Al Jazeera",
       "tags": [
-        "RUSSIA"
+        "IRAN",
+        "BAHRAIN"
       ]
     },
     {
-      "id": "rss_38afd01a680627c4",
-      "headline": "Estonia to close Russia border crossings after attempted drone factory arson attack",
-      "url": "https://www.bbc.co.uk/news/articles/cqp83nk673reo?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-16T14:22:36Z",
+      "id": "rss_e4469ca7e6b8013b",
+      "headline": "Stories of survival and pain: Children amid Israel’s war on south Lebanon",
+      "url": "https://www.aljazeera.com/features/2026/11/17/stories-of-survival-and-pain-children-amid-israels-war-on-south-lebanon?traffic_source=rss",
+      "published_at": "2026-11-17T05:50:29Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
       "record_kind": "discovery_article",
       "evidence_status": "unreviewed",
-      "source": "BBC News",
+      "source": "Al Jazeera",
       "tags": [
-        "RUSSIA"
+        "ISRAEL",
+        "LEBANON"
       ]
     },
     {
-      "id": "rss_15c968f799c08297",
-      "headline": "Is India rethinking its short-term military recruitment scheme?",
-      "url": "https://www.bbc.co.uk/news/articles/c8ly0yr7wv1no?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-16T00:41:42Z",
+      "id": "rss_78f74af01219f09c",
+      "headline": "Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field",
+      "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss",
+      "published_at": "2026-11-17T03:12:54Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
       "record_kind": "discovery_article",
       "evidence_status": "unreviewed",
-      "source": "BBC News",
+      "source": "Al Jazeera",
       "tags": [
-        "INDIA"
+        "IRAQ"
+      ]
+    },
+    {
+      "id": "rss_899257ebfc02648d",
+      "headline": "Yemeni army reports 661 attacks on Houthis as group advances towards Aden",
+      "url": "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden?traffic_source=rss",
+      "published_at": "2026-11-17T01:38:13Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": [
+        "YEMEN"
+      ]
+    },
+    {
+      "id": "rss_ae1b63a90fce4748",
+      "headline": "Ukraine holds peace talks with US, Europe as conflict escalates",
+      "url": "https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates?traffic_source=rss",
+      "published_at": "2026-11-17T00:45:11Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "rss_4e56eb2b5b973d5a",
+      "headline": "Iran war live: Bahrain says it intercepted Iranian drone attack",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/16/live-houthis-advance-in-yemen-as-tankers-hit-sea-mines-in-strait-of-hormuz?traffic_source=rss",
+      "published_at": "2026-11-16T23:57:49Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN",
+        "YEMEN",
+        "BAHRAIN"
+      ]
+    },
+    {
+      "id": "rss_5af00c545ae7fdad",
+      "headline": "Paraguay ex-president moved to military jail amid special treatment reports",
+      "url": "https://www.aljazeera.com/news/2026/11/16/paraguay-ex-president-moved-to-military-jail-amid-special-treatment-reports?traffic_source=rss",
+      "published_at": "2026-11-16T23:44:32Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_77f80985372ff138",
+      "headline": "Ukraine hits key Crimea bridge with drones",
+      "url": "https://www.france24.com/en/video/20261116-ukraine-hits-key-crimea-bridge-with-drones",
+      "published_at": "2026-11-16T23:13:06Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "France 24",
+      "tags": [
+        "UKRAINE"
       ]
     },
     {
@@ -112,50 +189,6 @@
       "headline": "Czech mass protests: Media is the first casualty 'when you want to attack democracy'",
       "url": "https://www.france24.com/en/czech-mass-protests-media-is-the-first-casualty-when-you-want-to-attack-democracy",
       "published_at": "2026-11-16T18:33:00Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_64cd63408f7c0344",
-      "headline": "Russia's war on Ukraine: 'Americans want to have a deal whatever the cost for both Ukraine & Europe'",
-      "url": "https://www.france24.com/en/russia-s-war-on-ukraine-americans-want-to-have-a-deal-whatever-the-cost-for-both-ukraine-europe",
-      "published_at": "2026-11-16T16:22:49Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "France 24",
-      "tags": [
-        "RUSSIA",
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_1575b9736150e34a",
-      "headline": "French troops in Ukraine 'wouldn't be a surprise'",
-      "url": "https://www.france24.com/en/video/20261116-french-troops-in-ukraine-wouldn-t-be-a-surprise",
-      "published_at": "2026-11-16T15:49:56Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "France 24",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
-      "id": "rss_e27793f904a53fb6",
-      "headline": "Verdict due in French trial over triple murder linked to Marseille drug wars",
-      "url": "https://www.france24.com/en/video/20261116-verdict-due-in-french-trial-over-triple-murder-linked-to-marseille-drug-wars",
-      "published_at": "2026-11-16T15:13:21Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
