@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-17T20:59:46Z",
-    "attempted_at": "2026-11-17T20:59:46Z",
+    "generated_at_utc": "2026-11-18T07:37:15Z",
+    "attempted_at": "2026-11-18T07:37:15Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -23,31 +23,31 @@
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 4,
+        "fetched": 10,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 27,
+            "items": 28,
             "kept": 3
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 0
+            "kept": 5
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 1
+            "kept": 2
           }
         ]
       }
     ],
-    "fetched_articles": 4,
-    "previous_event_count": 9,
+    "fetched_articles": 10,
+    "previous_event_count": 4,
     "retained_previous": false,
     "date_semantics": "GDELT seendate is discovery time; publisher time is null unless supplied by publisher RSS.",
     "tagging": {
@@ -64,9 +64,9 @@
   "events": [
     {
       "id": "rss_320fd84527b5d94f",
-      "headline": "Russian military plane crashes killing all 19 on board",
+      "headline": "Russian military plane crashes, killing all 19 on board",
       "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-17T20:25:27Z",
+      "published_at": "2026-11-17T21:06:11Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -79,7 +79,7 @@
       "id": "rss_b6288930d0310d57",
       "headline": "American soldier arrested by UK police on suspicion of spying taken into US military custody",
       "url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-17T20:44:54Z",
+      "published_at": "2026-11-17T22:46:30Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -102,10 +102,90 @@
       "tags": []
     },
     {
-      "id": "rss_2de18d8eb3399613",
-      "headline": "Ukraine strikes major Russian bridge in Crimea with drones and missiles",
-      "url": "https://www.france24.com/en/video/20261117-ukraine-strikes-major-russian-bridge-in-crimea-with-drones-and-missiles",
-      "published_at": "2026-11-17T12:17:34Z",
+      "id": "rss_aa4bb8c23710e480",
+      "headline": "How the Houthis fund war effort and tighten grip on Yemen",
+      "url": "https://www.aljazeera.com/news/2026/11/18/how-the-houthis-fund-war-effort-and-tighten-grip-on-yemen?traffic_source=rss",
+      "published_at": "2026-11-18T06:19:17Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": [
+        "YEMEN"
+      ]
+    },
+    {
+      "id": "rss_80bca039dfcd9842",
+      "headline": "Australia issues sanctions targeting Israeli settlers",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/australia-issues-sanctions-targeting-israeli-settlers?traffic_source=rss",
+      "published_at": "2026-11-18T04:12:03Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_7998baf335806447",
+      "headline": "Prosecutors allege man ‘destroyed’ US military plane at Irish airport",
+      "url": "https://www.aljazeera.com/news/2026/11/18/prosecutors-allege-man-destroyed-us-military-plane-at-irish-airport?traffic_source=rss",
+      "published_at": "2026-11-18T01:32:52Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_aeecd4d18816ee83",
+      "headline": "Board of Peace warns Gaza ceasefire faces imminent collapse without action",
+      "url": "https://www.aljazeera.com/news/2026/11/18/board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action?traffic_source=rss",
+      "published_at": "2026-11-18T01:07:01Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_d02231a2198a975f",
+      "headline": "Ecuadorian fishermen sue Trump administration over drone strike",
+      "url": "https://www.aljazeera.com/news/2026/11/18/ecuadorian-fishermen-sue-trump-administration-over-drone-strike?traffic_source=rss",
+      "published_at": "2026-11-18T01:04:43Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_5dacdb624a8490e4",
+      "headline": "Haitians rally behind Bukele as Salvadoran troops battle gangs",
+      "url": "https://www.france24.com/en/americas/20261118-haitians-rally-behind-bukele-as-salvadoran-troops-battle-gangs",
+      "published_at": "2026-11-18T02:42:21Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "France 24",
+      "tags": []
+    },
+    {
+      "id": "rss_223cef3fa9436c39",
+      "headline": "Middle East live: Kuwait, Bahrain report drone and missile attacks",
+      "url": "https://www.france24.com/en/middle-east/20261118-middle-east-live-kuwait-bahrain-report-drone-and-missile-attacks",
+      "published_at": "2026-11-18T02:06:39Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -113,7 +193,8 @@
       "evidence_status": "unreviewed",
       "source": "France 24",
       "tags": [
-        "UKRAINE"
+        "BAHRAIN",
+        "KUWAIT"
       ]
     }
   ]
