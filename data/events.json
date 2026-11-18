@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-18T07:37:15Z",
-    "attempted_at": "2026-11-18T07:37:15Z",
+    "generated_at_utc": "2026-11-18T20:37:52Z",
+    "attempted_at": "2026-11-18T20:37:52Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -15,10 +15,9 @@
       },
       {
         "name": "tripwire",
-        "status": "ok",
-        "fetched": 0,
-        "query_repaired": false,
-        "possibly_truncated": false
+        "status": "error",
+        "error": "rate_limited status=429",
+        "fetched": 0
       },
       {
         "name": "rss_fallback",
@@ -28,14 +27,14 @@
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 28,
-            "kept": 3
+            "items": 34,
+            "kept": 5
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 5
+            "kept": 3
           },
           {
             "outlet": "France 24",
@@ -47,7 +46,7 @@
       }
     ],
     "fetched_articles": 10,
-    "previous_event_count": 4,
+    "previous_event_count": 10,
     "retained_previous": false,
     "date_semantics": "GDELT seendate is discovery time; publisher time is null unless supplied by publisher RSS.",
     "tagging": {
@@ -63,10 +62,54 @@
   },
   "events": [
     {
-      "id": "rss_320fd84527b5d94f",
-      "headline": "Russian military plane crashes, killing all 19 on board",
-      "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-17T21:06:11Z",
+      "id": "rss_cf60097a542ee155",
+      "headline": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
+      "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_campaign=rss&at_medium=RSS",
+      "published_at": "2026-11-18T17:00:40Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "BBC News",
+      "tags": [
+        "RUSSIA",
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "rss_68b95db6e6fe342c",
+      "headline": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
+      "url": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_campaign=rss&at_medium=RSS",
+      "published_at": "2026-11-18T17:00:04Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "BBC News",
+      "tags": [
+        "UKRAINE"
+      ]
+    },
+    {
+      "id": "rss_dc27e3b46e9b4c5e",
+      "headline": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+      "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_campaign=rss&at_medium=RSS",
+      "published_at": "2026-11-18T20:14:57Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "BBC News",
+      "tags": []
+    },
+    {
+      "id": "rss_c6b3d7fefacf06a0",
+      "headline": "Irishman charged with destroying US military aircraft with axe",
+      "url": "https://www.bbc.co.uk/news/articles/cwd01jjl5zzzo?at_campaign=rss&at_medium=RSS",
+      "published_at": "2026-11-18T02:00:37Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -89,103 +132,66 @@
       "tags": []
     },
     {
-      "id": "rss_0ebedec0007a2f5f",
-      "headline": "UK sanctions firms over Israeli West Bank settlements",
-      "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-17T18:27:27Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "BBC News",
-      "tags": []
-    },
-    {
-      "id": "rss_aa4bb8c23710e480",
-      "headline": "How the Houthis fund war effort and tighten grip on Yemen",
-      "url": "https://www.aljazeera.com/news/2026/11/18/how-the-houthis-fund-war-effort-and-tighten-grip-on-yemen?traffic_source=rss",
-      "published_at": "2026-11-18T06:19:17Z",
+      "id": "rss_3eec483e0999f3e5",
+      "headline": "Heated debate escalates into on-air fight on Armenian TV",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/heated-debate-escalates-into-on-air-fight-on-armenian-tv?traffic_source=rss",
+      "published_at": "2026-11-18T19:56:17Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
       "record_kind": "discovery_article",
       "evidence_status": "unreviewed",
       "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_86dace6c33ac8de1",
+      "headline": "Israeli forces launch new military operation in central Gaza",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-forces-launch-new-military-operation-in-central-gaza?traffic_source=rss",
+      "published_at": "2026-11-18T18:12:42Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_e952daaec28a194f",
+      "headline": "Canada’s PM calls out ‘lying’ Putin for downplaying sanctions",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/canadas-pm-calls-out-lying-putin-for-downplaying-sanctions?traffic_source=rss",
+      "published_at": "2026-11-18T16:16:48Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_2dc489ec5e854605",
+      "headline": "War in Ukraine: Is France in direct conflict with Russia?",
+      "url": "https://www.france24.com/en/video/20261118-war-in-ukraine-is-france-in-direct-conflict-with-russia",
+      "published_at": "2026-11-18T16:57:36Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "France 24",
       "tags": [
-        "YEMEN"
+        "RUSSIA",
+        "UKRAINE",
+        "FRANCE"
       ]
     },
     {
-      "id": "rss_80bca039dfcd9842",
-      "headline": "Australia issues sanctions targeting Israeli settlers",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/australia-issues-sanctions-targeting-israeli-settlers?traffic_source=rss",
-      "published_at": "2026-11-18T04:12:03Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_7998baf335806447",
-      "headline": "Prosecutors allege man ‘destroyed’ US military plane at Irish airport",
-      "url": "https://www.aljazeera.com/news/2026/11/18/prosecutors-allege-man-destroyed-us-military-plane-at-irish-airport?traffic_source=rss",
-      "published_at": "2026-11-18T01:32:52Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_aeecd4d18816ee83",
-      "headline": "Board of Peace warns Gaza ceasefire faces imminent collapse without action",
-      "url": "https://www.aljazeera.com/news/2026/11/18/board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action?traffic_source=rss",
-      "published_at": "2026-11-18T01:07:01Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_d02231a2198a975f",
-      "headline": "Ecuadorian fishermen sue Trump administration over drone strike",
-      "url": "https://www.aljazeera.com/news/2026/11/18/ecuadorian-fishermen-sue-trump-administration-over-drone-strike?traffic_source=rss",
-      "published_at": "2026-11-18T01:04:43Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_5dacdb624a8490e4",
-      "headline": "Haitians rally behind Bukele as Salvadoran troops battle gangs",
-      "url": "https://www.france24.com/en/americas/20261118-haitians-rally-behind-bukele-as-salvadoran-troops-battle-gangs",
-      "published_at": "2026-11-18T02:42:21Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_223cef3fa9436c39",
-      "headline": "Middle East live: Kuwait, Bahrain report drone and missile attacks",
-      "url": "https://www.france24.com/en/middle-east/20261118-middle-east-live-kuwait-bahrain-report-drone-and-missile-attacks",
-      "published_at": "2026-11-18T02:06:39Z",
+      "id": "rss_1b134977833451d5",
+      "headline": "Israel begins new military operation in Gaza",
+      "url": "https://www.france24.com/en/video/20261118-israel-begins-new-military-operation-in-gaza",
+      "published_at": "2026-11-18T16:12:30Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -193,8 +199,7 @@
       "evidence_status": "unreviewed",
       "source": "France 24",
       "tags": [
-        "BAHRAIN",
-        "KUWAIT"
+        "ISRAEL"
       ]
     }
   ]
