@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-18T20:37:52Z",
-    "attempted_at": "2026-11-18T20:37:52Z",
+    "generated_at_utc": "2026-11-19T07:31:37Z",
+    "attempted_at": "2026-11-19T07:31:37Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -15,37 +15,38 @@
       },
       {
         "name": "tripwire",
-        "status": "error",
-        "error": "rate_limited status=429",
-        "fetched": 0
+        "status": "ok",
+        "fetched": 0,
+        "query_repaired": false,
+        "possibly_truncated": false
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 10,
+        "fetched": 11,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 34,
-            "kept": 5
+            "items": 33,
+            "kept": 4
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 3
+            "kept": 1
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 2
+            "kept": 6
           }
         ]
       }
     ],
-    "fetched_articles": 10,
+    "fetched_articles": 11,
     "previous_event_count": 10,
     "retained_previous": false,
     "date_semantics": "GDELT seendate is discovery time; publisher time is null unless supplied by publisher RSS.",
@@ -78,25 +79,10 @@
       ]
     },
     {
-      "id": "rss_68b95db6e6fe342c",
-      "headline": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
-      "url": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-18T17:00:04Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "BBC News",
-      "tags": [
-        "UKRAINE"
-      ]
-    },
-    {
       "id": "rss_dc27e3b46e9b4c5e",
       "headline": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
       "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-18T20:14:57Z",
+      "published_at": "2026-11-18T22:34:56Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -119,56 +105,88 @@
       "tags": []
     },
     {
-      "id": "rss_b6288930d0310d57",
-      "headline": "American soldier arrested by UK police on suspicion of spying taken into US military custody",
-      "url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-17T22:46:30Z",
+      "id": "rss_68b95db6e6fe342c",
+      "headline": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
+      "url": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_campaign=rss&at_medium=RSS",
+      "published_at": "2026-11-18T17:00:04Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
       "record_kind": "discovery_article",
       "evidence_status": "unreviewed",
       "source": "BBC News",
-      "tags": []
+      "tags": [
+        "UKRAINE"
+      ]
     },
     {
-      "id": "rss_3eec483e0999f3e5",
-      "headline": "Heated debate escalates into on-air fight on Armenian TV",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/heated-debate-escalates-into-on-air-fight-on-armenian-tv?traffic_source=rss",
-      "published_at": "2026-11-18T19:56:17Z",
+      "id": "rss_8fe81af2c81ddc94",
+      "headline": "Hegseth unveils new US-Venezuela military deal",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/hegseth-unveils-new-us-venezuela-military-deal?traffic_source=rss",
+      "published_at": "2026-11-19T01:48:46Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
       "record_kind": "discovery_article",
       "evidence_status": "unreviewed",
       "source": "Al Jazeera",
-      "tags": []
+      "tags": [
+        "VENEZUELA"
+      ]
     },
     {
-      "id": "rss_86dace6c33ac8de1",
-      "headline": "Israeli forces launch new military operation in central Gaza",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-forces-launch-new-military-operation-in-central-gaza?traffic_source=rss",
-      "published_at": "2026-11-18T18:12:42Z",
+      "id": "rss_972d7dbe830c8c20",
+      "headline": "Middle East crisis poses 'largest threat' to energy security in history, warns IEA",
+      "url": "https://www.france24.com/en/middle-east/20261119-middle-east-crisis-energy-security-iea",
+      "published_at": "2026-11-19T05:11:59Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
       "record_kind": "discovery_article",
       "evidence_status": "unreviewed",
-      "source": "Al Jazeera",
+      "source": "France 24",
       "tags": []
     },
     {
-      "id": "rss_e952daaec28a194f",
-      "headline": "Canada’s PM calls out ‘lying’ Putin for downplaying sanctions",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/canadas-pm-calls-out-lying-putin-for-downplaying-sanctions?traffic_source=rss",
-      "published_at": "2026-11-18T16:16:48Z",
+      "id": "rss_139f2afa8f106e8d",
+      "headline": "COP31: Vanuatu calls for UN climate summit reform, warns of backsliding",
+      "url": "https://www.france24.com/en/europe/20261119-cop31-vanuatu-un-climate-summit-reform-warns-of-backsliding",
+      "published_at": "2026-11-19T02:00:39Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
       "record_kind": "discovery_article",
       "evidence_status": "unreviewed",
-      "source": "Al Jazeera",
+      "source": "France 24",
       "tags": []
+    },
+    {
+      "id": "rss_e36132f88f1994ce",
+      "headline": "'Netanyahu's only 2 tickets are racism or starting a war: He stopped acting as a democratic player'",
+      "url": "https://www.france24.com/en/tv-shows/spotlight/20261118-netanyahu-s-only-2-tickets-are-racism-or-starting-a-war-he-stopped-acting-as-a-democratic-player",
+      "published_at": "2026-11-18T19:45:16Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "France 24",
+      "tags": []
+    },
+    {
+      "id": "rss_0ef9e9ce09ecdfbe",
+      "headline": "Hegseth makes surprise trip to Venezuela, renews military cooperation",
+      "url": "https://www.france24.com/en/americas/20261118-hegseth-makes-surprise-trip-to-venezuela-renews-military-cooperation",
+      "published_at": "2026-11-18T18:59:20Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "France 24",
+      "tags": [
+        "VENEZUELA"
+      ]
     },
     {
       "id": "rss_2dc489ec5e854605",
