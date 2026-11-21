@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-20T20:27:30Z",
-    "attempted_at": "2026-11-20T20:27:30Z",
+    "generated_at_utc": "2026-11-21T07:17:01Z",
+    "attempted_at": "2026-11-21T07:17:01Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -15,27 +15,26 @@
       },
       {
         "name": "tripwire",
-        "status": "ok",
-        "fetched": 0,
-        "query_repaired": false,
-        "possibly_truncated": false
+        "status": "error",
+        "error": "rate_limited status=429",
+        "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 8,
+        "fetched": 10,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
             "items": 25,
-            "kept": 4
+            "kept": 2
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 3
+            "kept": 7
           },
           {
             "outlet": "France 24",
@@ -46,8 +45,8 @@
         ]
       }
     ],
-    "fetched_articles": 8,
-    "previous_event_count": 120,
+    "fetched_articles": 10,
+    "previous_event_count": 8,
     "retained_previous": false,
     "date_semantics": "GDELT seendate is discovery time; publisher time is null unless supplied by publisher RSS.",
     "tagging": {
@@ -63,22 +62,6 @@
   },
   "events": [
     {
-      "id": "rss_ffe4cf3b3368a1c8",
-      "headline": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-20T16:54:29Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "BBC News",
-      "tags": [
-        "UKRAINE",
-        "POLAND"
-      ]
-    },
-    {
       "id": "rss_51e688eb0a53effb",
       "headline": "Catherine Zeta-Jones' daughter says parents warned her about 'nepo baby' label",
       "url": "https://www.bbc.co.uk/news/articles/cmgj35zvjyp9o?at_campaign=rss&at_medium=RSS",
@@ -90,22 +73,6 @@
       "evidence_status": "unreviewed",
       "source": "BBC News",
       "tags": []
-    },
-    {
-      "id": "rss_0556201c235b3559",
-      "headline": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-20T00:50:24Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "BBC News",
-      "tags": [
-        "RUSSIA",
-        "UKRAINE"
-      ]
     },
     {
       "id": "rss_a30a10c3b2b69770",
@@ -123,23 +90,10 @@
       ]
     },
     {
-      "id": "rss_43dd820136b6ca3c",
-      "headline": "Israeli drone attacks kill seven Palestinians in central Gaza",
-      "url": "https://www.aljazeera.com/news/2026/11/20/israeli-drone-attacks-kill-seven-palestinians-in-central-gaza?traffic_source=rss",
-      "published_at": "2026-11-20T20:14:56Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_70b36642a93479c5",
-      "headline": "Qatar’s emir calls for diplomacy to end regional conflicts",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/qatars-emir-calls-for-diplomacy-to-end-regional-conflicts?traffic_source=rss",
-      "published_at": "2026-11-20T17:18:58Z",
+      "id": "rss_b2c4c883c1830c63",
+      "headline": "Sudan’s war will end, but will it be too late?",
+      "url": "https://www.aljazeera.com/opinions/2026/11/21/sudans-war-will-end-but-will-it-be-too-late?traffic_source=rss",
+      "published_at": "2026-11-21T06:32:04Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -147,14 +101,29 @@
       "evidence_status": "unreviewed",
       "source": "Al Jazeera",
       "tags": [
-        "QATAR"
+        "SUDAN"
       ]
     },
     {
-      "id": "rss_20ea11a59a491c92",
-      "headline": "Top US Democrat warns Trump admin against destroying records",
-      "url": "https://www.aljazeera.com/news/2026/11/20/top-us-democrat-warns-trump-admin-against-destroying-records?traffic_source=rss",
-      "published_at": "2026-11-20T17:05:42Z",
+      "id": "rss_87a03058b822e7a5",
+      "headline": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
+      "url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh?traffic_source=rss",
+      "published_at": "2026-11-21T04:32:07Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": [
+        "SAUDI_ARABIA"
+      ]
+    },
+    {
+      "id": "rss_4bef99f0e1878457",
+      "headline": "Gen Z protests sweep Europe over wars, rising costs and climate",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/gen-z-protests-sweep-europe-over-wars-rising-costs-and-climate?traffic_source=rss",
+      "published_at": "2026-11-21T02:49:16Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -164,10 +133,70 @@
       "tags": []
     },
     {
-      "id": "rss_5cb09b8a8cc25c11",
-      "headline": "Russia pummels Ukraine with massive strikes, missile hits Poland",
-      "url": "https://www.france24.com/en/video/20261120-russia-pummels-ukraine-with-massive-strikes-missile-hits-poland",
-      "published_at": "2026-11-20T14:36:48Z",
+      "id": "rss_8958d346f49c0f7b",
+      "headline": "Iran war live: Saudi-led coalition downs Houthi missiles",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/21/iran-war-live-saudi-led-coalition-repels-houthi-missiles?traffic_source=rss",
+      "published_at": "2026-11-21T00:00:06Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": [
+        "IRAN",
+        "SAUDI_ARABIA"
+      ]
+    },
+    {
+      "id": "rss_3ace204545deeb1d",
+      "headline": "Rahul Gandhi backs strong India-Israel ties despite Gaza war",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/rahul-gandhi-backs-strong-india-israel-ties-despite-gaza-war?traffic_source=rss",
+      "published_at": "2026-11-20T23:20:50Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": [
+        "ISRAEL",
+        "INDIA"
+      ]
+    },
+    {
+      "id": "rss_41857d96f900e24a",
+      "headline": "Trump defends Putin relationship, warns AI data centres must stay in US",
+      "url": "https://www.aljazeera.com/news/2026/11/20/trump-defends-putin-relationship-warns-ai-data-centres-must-stay-in-us?traffic_source=rss",
+      "published_at": "2026-11-20T21:05:07Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": []
+    },
+    {
+      "id": "rss_d74f383a965dbc75",
+      "headline": "Sudan’s war leaves disabled children missing out on education",
+      "url": "https://www.aljazeera.com/news/2026/11/20/sudans-war-leaves-disabled-children-missing-out-on-education?traffic_source=rss",
+      "published_at": "2026-11-20T20:45:08Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "Al Jazeera",
+      "tags": [
+        "SUDAN"
+      ]
+    },
+    {
+      "id": "rss_03898296a05cce51",
+      "headline": "Guinea bans Burkina Faso broadcaster, escalating diplomatic tensions",
+      "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20261120-guinea-bans-burkina-faso-broadcaster-escalating-diplomatic-tensions",
+      "published_at": "2026-11-20T21:53:35Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -175,8 +204,7 @@
       "evidence_status": "unreviewed",
       "source": "France 24",
       "tags": [
-        "RUSSIA",
-        "POLAND"
+        "BURKINA_FASO"
       ]
     }
   ]
