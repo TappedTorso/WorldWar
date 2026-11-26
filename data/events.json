@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generated_at_utc": "2026-11-25T21:46:03Z",
-    "attempted_at": "2026-11-25T21:46:03Z",
+    "generated_at_utc": "2026-11-26T08:28:53Z",
+    "attempted_at": "2026-11-26T08:28:53Z",
     "provider": "RSS_FALLBACK",
     "status": "ok-fallback",
     "timespan": "6h",
@@ -15,39 +15,38 @@
       },
       {
         "name": "tripwire",
-        "status": "ok",
-        "fetched": 0,
-        "query_repaired": false,
-        "possibly_truncated": false
+        "status": "error",
+        "error": "rate_limited status=429",
+        "fetched": 0
       },
       {
         "name": "rss_fallback",
         "status": "ok",
-        "fetched": 18,
+        "fetched": 13,
         "feeds": [
           {
             "outlet": "BBC News",
             "status": "ok",
-            "items": 32,
-            "kept": 7
+            "items": 30,
+            "kept": 8
           },
           {
             "outlet": "Al Jazeera",
             "status": "ok",
             "items": 25,
-            "kept": 6
+            "kept": 4
           },
           {
             "outlet": "France 24",
             "status": "ok",
             "items": 24,
-            "kept": 5
+            "kept": 1
           }
         ]
       }
     ],
-    "fetched_articles": 18,
-    "previous_event_count": 120,
+    "fetched_articles": 13,
+    "previous_event_count": 18,
     "retained_previous": false,
     "date_semantics": "GDELT seendate is discovery time; publisher time is null unless supplied by publisher RSS.",
     "tagging": {
@@ -63,10 +62,23 @@
   },
   "events": [
     {
+      "id": "rss_a76fe348002b774a",
+      "headline": "California warns of flooding as King Tides peak over Thanksgiving",
+      "url": "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_campaign=rss&at_medium=RSS",
+      "published_at": "2026-11-26T01:22:55Z",
+      "discovered_at": null,
+      "provider_seen_raw": null,
+      "date_basis": "publisher",
+      "record_kind": "discovery_article",
+      "evidence_status": "unreviewed",
+      "source": "BBC News",
+      "tags": []
+    },
+    {
       "id": "rss_490e94475812875b",
       "headline": "North Korea expels Swiss diplomat in sanctions row",
       "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-25T19:19:06Z",
+      "published_at": "2026-11-25T21:51:17Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -150,10 +162,10 @@
       "tags": []
     },
     {
-      "id": "rss_5c34105f9e81d17c",
-      "headline": "Shot in the face at 15: The lives shattered by Cameroon's decade of conflict",
-      "url": "https://www.bbc.co.uk/news/articles/crd6128y1qn1o?at_campaign=rss&at_medium=RSS",
-      "published_at": "2026-11-25T01:00:36Z",
+      "id": "rss_1ba6985d151f0049",
+      "headline": "As foreign troops withdraw from Somalia, could al-Shabab take over?",
+      "url": "https://www.bbc.co.uk/news/articles/ck62y23z58yeo?at_campaign=rss&at_medium=RSS",
+      "published_at": "2026-11-26T02:06:10Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -161,53 +173,14 @@
       "evidence_status": "unreviewed",
       "source": "BBC News",
       "tags": [
-        "CAMEROON"
+        "SOMALIA"
       ]
     },
     {
-      "id": "rss_21cb030d8b530e7f",
-      "headline": "Winter rains threaten 1,000 Gaza shelter sites, councils warn",
-      "url": "https://www.aljazeera.com/news/2026/11/25/winter-rains-threaten-1000-gaza-shelter-sites-councils-warn?traffic_source=rss",
-      "published_at": "2026-11-25T21:03:51Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_4b6679d458d38d0a",
-      "headline": "Ukrainian laser downs Russian jet-powered drone in world first",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/ukrainian-laser-downs-russian-jet-powered-drone-in-world-first?traffic_source=rss",
-      "published_at": "2026-11-25T19:16:15Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_370d605f27fcec7a",
-      "headline": "UK military ‘moving aircraft to hangars in case of drone attacks’",
-      "url": "https://www.aljazeera.com/news/2026/11/25/uk-military-moving-aircraft-to-hangars-in-case-of-drone-attacks?traffic_source=rss",
-      "published_at": "2026-11-25T19:15:01Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "Al Jazeera",
-      "tags": []
-    },
-    {
-      "id": "rss_7cd4ff25e7d06fbc",
-      "headline": "Ecuador and US review joint military operations, official says",
-      "url": "https://www.aljazeera.com/news/2026/11/25/ecuador-and-us-review-joint-military-operations-official-says?traffic_source=rss",
-      "published_at": "2026-11-25T17:50:41Z",
+      "id": "rss_d5ff5e043710bf9e",
+      "headline": "War and drought threaten livelihoods of Sudan’s farmers",
+      "url": "https://www.aljazeera.com/features/2026/11/26/war-and-drought-threaten-livelihoods-of-sudans-farmers?traffic_source=rss",
+      "published_at": "2026-11-26T06:56:34Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -215,14 +188,14 @@
       "evidence_status": "unreviewed",
       "source": "Al Jazeera",
       "tags": [
-        "ECUADOR"
+        "SUDAN"
       ]
     },
     {
-      "id": "rss_41e0cf4defa47277",
-      "headline": "Switzerland forced to close office in North Korea over sanctions feud",
-      "url": "https://www.aljazeera.com/news/2026/11/25/switzerland-regrets-closure-of-north-korea-office-over-sanctions-feud?traffic_source=rss",
-      "published_at": "2026-11-25T16:58:49Z",
+      "id": "rss_1bf6a24dcdc67f32",
+      "headline": "How Silicon Valley became central to Israel’s war on Palestinians",
+      "url": "https://www.aljazeera.com/news/2026/11/26/how-silicon-valley-central-israel-war-palestinians?traffic_source=rss",
+      "published_at": "2026-11-26T06:12:53Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -230,14 +203,14 @@
       "evidence_status": "unreviewed",
       "source": "Al Jazeera",
       "tags": [
-        "NORTH_KOREA"
+        "ISRAEL"
       ]
     },
     {
-      "id": "rss_079d3c072cfe5977",
-      "headline": "Colombian forces rescue all hostages after supermarket siege",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/colombian-forces-rescue-all-hostages-after-supermarket-siege?traffic_source=rss",
-      "published_at": "2026-11-25T16:44:22Z",
+      "id": "rss_019833ad56a6f9c9",
+      "headline": "ICC judge Kimberly Prost tries war crimes. She’s a target of US sanctions",
+      "url": "https://www.aljazeera.com/news/2026/11/26/icc-judge-kimberly-prost-tries-war-crimes-shes-a-target-of-us-sanctions?traffic_source=rss",
+      "published_at": "2026-11-26T06:07:35Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -247,36 +220,23 @@
       "tags": []
     },
     {
-      "id": "rss_50e0a2ba3c33672e",
-      "headline": "Moldova launches national preparedness campaign after drone incursions",
-      "url": "https://www.france24.com/en/moldova-launches-national-preparedness-campaign-after-drone-incursions",
-      "published_at": "2026-11-25T16:34:45Z",
+      "id": "rss_fb68ac76532b504e",
+      "headline": "Colombian president taunts arrested supermarket hostage-takers",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/colombian-president-taunts-arrested-supermarket-hostage-takers?traffic_source=rss",
+      "published_at": "2026-11-26T03:23:24Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
       "record_kind": "discovery_article",
       "evidence_status": "unreviewed",
-      "source": "France 24",
+      "source": "Al Jazeera",
       "tags": []
     },
     {
-      "id": "rss_197c4519fed05a62",
-      "headline": "Russian casualties in Ukraine war: New reports suggest death toll as high as 700,000",
-      "url": "https://www.france24.com/en/video/20261125-russian-casualties-in-ukraine-war-new-reports-suggest-death-toll-as-high-as-700-000",
-      "published_at": "2026-11-25T16:17:02Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "France 24",
-      "tags": []
-    },
-    {
-      "id": "rss_f03bb4a9a5654e5a",
-      "headline": "Colombia: Security forces rescue hostages in supermarket siege",
-      "url": "https://www.france24.com/en/video/20261125-colombia-security-forces-rescue-hostages-in-supermarket-siege",
-      "published_at": "2026-11-25T16:08:44Z",
+      "id": "rss_9950813daa3f3887",
+      "headline": "Live: Trump, NATO chief urge Moscow to not 'expand' Ukraine war",
+      "url": "https://www.france24.com/en/europe/20261126-live-eu-leaders-face-showdown-over-ukraine-funding-as-divisions-deepen",
+      "published_at": "2026-11-26T05:44:57Z",
       "discovered_at": null,
       "provider_seen_raw": null,
       "date_basis": "publisher",
@@ -284,36 +244,8 @@
       "evidence_status": "unreviewed",
       "source": "France 24",
       "tags": [
-        "COLOMBIA"
+        "UKRAINE"
       ]
-    },
-    {
-      "id": "rss_86b79ba660a0804b",
-      "headline": "'We need to stop the war in Iran': US Congresswoman Pramila Jayapal",
-      "url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261125-we-need-to-stop-the-war-in-iran-us-congresswoman-pramila-jayapal",
-      "published_at": "2026-11-25T15:46:59Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "France 24",
-      "tags": [
-        "IRAN"
-      ]
-    },
-    {
-      "id": "rss_ffa7248633119d12",
-      "headline": "Kremlin declines comment on reports 700,000 Russian soldiers killed in Ukraine war",
-      "url": "https://www.france24.com/en/europe/20261125-kremlin-declines-comment-reports-700-000-russian-soldiers-killed-ukraine-war",
-      "published_at": "2026-11-25T15:14:07Z",
-      "discovered_at": null,
-      "provider_seen_raw": null,
-      "date_basis": "publisher",
-      "record_kind": "discovery_article",
-      "evidence_status": "unreviewed",
-      "source": "France 24",
-      "tags": []
     }
   ]
 }
